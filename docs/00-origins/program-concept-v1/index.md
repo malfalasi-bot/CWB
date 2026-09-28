@@ -1,0 +1,237 @@
+# Program Concept v1 — a world-building design program for makers and the people who brief them
+
+2026-09-26 · @Mohammad AlFalasi
+
+## The concept on a page
+
+A self-paced, interactive program that teaches one method — building a world from a Concept DNA — to two kinds of people at once: designers who want to make, and the people around design (brand, marketing, founders, commissioners) who want to brief and judge it well; everyone leaves with the same artifact, their own tested Concept DNA, and nobody gets a certificate.
+
+**Who.** Creatives with some design background, and professionals adjacent to design: brand and marketing people, founders, and clients who commission creative work. Not real estate or hospitality operators. A learner can take either lane or both.
+
+**The promise.** You will be able to build a coherent world (a brand, a collection, a space, a product line, an identity) from first principles, write rules that strangers and machines can build from, and judge whether a piece of work belongs to that world. Non-designers gain the vocabulary and the tests to brief and evaluate; designers gain the method and the breadth.
+
+**The artifact.** A Concept DNA document that grows through the program: a premise, rules and thresholds, the grammars the world needs, an anti-DNA, a test set, and a record of what changed and why. Makers add an anchor piece and one translation into a second medium. Briefers add a brief and a judged case set. Both lanes finish with a stranger test: can someone who never met you build from it?
+
+**Scope.** Global first, across the whole human timeline of making and every region, with exemplary objects, cases and connected material for each unit. The Gulf, MENA and SWANA become an expanded scope once the global core stands.
+
+**Decisions recorded**
+
+| Decision | Answer |
+|---|---|
+| Audience | Designers with some background; brand, marketing, founders, commissioning clients; both lanes open to all |
+| Takeaway | The artifact; no certificate, no credential |
+| First build | After the concept is solid; nothing built yet |
+| Format | Self-paced; no live critique; an AI partner for feedback and testing (three voices, see §9) |
+| Language | English now; design stays script-ready for Arabic later |
+| Delivery | A web app built with AI |
+| Geography | Global core first; regional expansion later |
+| Resources | No budget; free and open sources only; free software tiers |
+| Your time | 2–3 days a week; you can judge design and education content directly |
+
+**What changes from the original syllabus.** The level drops from postgraduate-manifesto to an entry a non-designer can take cold; the four heavy studios become six lighter practice lenses (two of them new); the six-module venture tail compresses to five short literacy modules; the eleven tool modules become one free-tools thread; the regional centering moves from core identity to expansion scope; and the Concept DNA stays the spine because it is the one thing in the original that both audiences need equally.
+
+## Two lanes, one spine
+
+Every unit is the same for both audiences until its Apply step, where the maker produces something and the briefer writes or judges something; the concept, the cases and the interactive are shared, so the program is built once, not twice.
+
+|  | Make lane | Brief-and-judge lane |
+|---|---|---|
+| Who tends to choose it | Designers, makers, art directors | Brand and marketing people, founders, clients, producers |
+| Apply step in a unit | Produce the move on your own project (a sketch, a rule, a prototype, a palette) | Write the brief for that move, or judge a supplied piece against the unit's concept using the four tests |
+| Artifact additions | Anchor piece in one lens; one translation into a second medium | A written brief a stranger could execute; a judged case set (five pieces sorted as belongs, edge, failure, seductive-but-off, with reasons) |
+| The stranger test | An AI or a peer builds from your DNA; you score the drift | An AI builds from your brief; you judge the result against your own DNA |
+| What they can do after | Build worlds and defend them | Commission, evaluate and protect worlds; talk to designers as peers |
+
+**Why both lanes on one spine.** The four boundary tests (belongs, edge, failure, seductive-but-off-DNA) are a judging skill first and a making skill second; a briefer who can run them is more useful to a designer than one who can draw. Teaching them together also gives the app its most valuable social feature later: makers and briefers testing each other's work.
+
+**Level of entry.** Level 1 assumes no design training. Vocabulary is introduced by doing (the lab comes before the word), every term lands in a glossary, and no unit depends on software the learner has to install until Level 3.
+
+## Module map — Level 1, Foundations
+
+Foundations is five modules of five to six units each, about 45 hours, rebuilt from scratch for someone with no design training and a global timeline; the original Track 01 covers roughly two thirds of the concepts, and the gaps are the global material itself, non-Western form systems, colour and script across cultures, and an honest unit on what design cannot fix.
+
+**Reading the tables.** Units = the concepts taught, in order. Original = whether the source syllabus covered it (yes, partly, no). Traditional = what can be taught with text, short video and cases. Innovative = what needs an interactive or the AI partner. Free sources = the kind of open material each unit draws on (details in §8; all to be verified at build).
+
+**Level 0 — Orientation** (one module, three units, about 2 hours): what design does in the world; the artifact you will build and the two lanes; how the AI partner works. Original: no. Traditional: three short pieces. Innovative: a first lab, Read a Room (annotate a photo of any space or object for what it tells you to do), so the learner acts before reading anything. Free sources: the learner's own photos; CC0 museum images.
+
+| Module | Units (concepts) | Original | Traditional | Innovative | Free sources |
+|---|---|---|---|---|---|
+| F1 Histories of making | 1 How histories get written and who is left out · 2 The long timeline in nine pivots: tools and fire; fibre and textile; writing, cities and trade; the exchange of forms along trade routes; ornament as a global language; industry and the machine; modernisms, plural; consumer and digital; the planetary present · 3 Centres and peripheries: Africa, the Americas, East and South Asia, the Islamic world, Europe, Oceania · 4 Reference, quotation, adaptation, appropriation, attribution · 5 The obscured labour behind famous objects · 6 Reading an object as history (method) | Partly: 1.1 had counter-history, ethics and labour, regionally scoped; the global timeline, the non-Western centres and the object-reading method are gaps | Object stories (one object per pivot); short illustrated timeline pieces; a case per centre | Layered Timeline (toggle dominant and obscured strands); Object Autopsy (peel an object into material, labour, trade, meaning); Appropriation Spectrum sort with the cohort's answers shown after | CC0 museum collections (Met, Smithsonian, Rijksmuseum, Cleveland, Art Institute of Chicago); public-domain pattern surveys (Owen Jones, Grammar of Ornament); Wikimedia Commons; Archnet; Internet Archive |
+| F2 Form | 1 Archetypes and their DNA (chair, vessel, garment, room, page, screen) · 2 Proportion and grids across cultures: Islamic geometry, tatami and ken, Vitruvian and modular systems, Andean textile grids, Chinese modular building · 3 Figure and ground; negative space and ma · 4 Weight, rhythm, asymmetry, tension · 5 Scale and its cues · 6 Typological subversion: push the archetype, keep the identity | Partly: 1.2 covered archetypes, grids, tension, scale; cross-cultural proportion systems and negative space are gaps | Worked examples; annotated comparisons; short explainers | Typology Dismantler (sliders on an archetype's DNA, with an identity meter); Grid Lab (overlay systems on your own image); Visual Gravity game (place elements, see tension scored) | p5.js and three.js (free, in-browser); public-domain geometry and pattern books; Wikimedia; CC0 objects |
+| F3 Body and senses | 1 Affordance: how things say what to do · 2 The body as the metric (reach, grip, posture, load) · 3 Colour physics: interaction, contrast, temperature · 4 Colour across cultures · 5 Light: hierarchy and depth · 6 Thresholds, sequences and time | Partly: 1.3 covered affordance, ergonomics, colour, light, sequence; colour across cultures is a gap | Short explainers; case walks | Affordance Guess-and-Reveal; Colour Interaction Lab with cultural overlays; Light Sandbox (three.js, place lights, watch hierarchy change); Threshold Sequencer | The learner's own environment; public anthropometric data; three.js; CC0 images |
+| F4 Material and meaning | 1 Material as text: provenance, labour, ecology · 2 Surface, patina and time · 3 Signs, symbols and memory · 4 Language and script as structure: Latin, Arabic, CJK, Devanagari and others · 5 Tone of voice · 6 Reading a surface (method) | Partly: 1.4 covered material epistemology, patina, semiotics, typography; global scripts and tone of voice for non-designers are gaps | Material stories; sign case studies | Material Card Deck (lifecycle and meaning sliders); Patina Time Machine; Sign-Swap; Script Pairing tool | Google Fonts (multi-script, free); Wikimedia; CC0 objects; open material databases (verify) |
+| F5 Systems and consequences | 1 Ecosystems and feedback · 2 Non-human actors: algorithms, climates, animals · 3 Lifecycle and planetary weight · 4 Futures and scenarios · 5 What design cannot fix (limits, honesty) | Partly: 1.5 covered systems, non-human actors, lifecycle, futures; limits is a gap | Explainers with data; one systems case | Ecosystem Map Builder; Futures Wheel; Planetary Weight Calculator, level 1 | Our World in Data; World Bank and UN open data; Ellen MacArthur Foundation free material; openLCA (free) |
+
+**Does it hold together as a level?** Yes if each module ends by adding a section to the learner's artifact: F1 adds sources and attribution rules, F2 adds formal grammar candidates, F3 adds body and sensory rules, F4 adds material and verbal grammar candidates, F5 adds the perimeter (what the world enables, resists, and what it cannot fix). By the end of Level 1 the learner has a DNA skeleton before ever hearing the term.
+
+## Module map — Level 2, Method (the Concept DNA spine)
+
+Method is four modules, about 50 hours, taken as one continuous project; the original Track 02 covers almost all of it and is the strongest part of the source, so the work here is lightening it for a non-designer, replacing the studio with the AI partner, and defining the DNA as a real data structure the app can hold.
+
+| Module | Units (concepts) | Original | Traditional | Innovative | Free sources |
+|---|---|---|---|---|---|
+| M1 Research and premise | 1 Research routes: looking, asking, reading, archives, imagining · 2 Source credibility and bias · 3 Synthesis: from piles to patterns · 4 The insight: a claim you can act on · 5 Stance and productive contradiction · 6 The perimeter: enable, protect, resist, reject, transform; non-goals · 7 Research ethics: consent and attribution | Yes: 2.1 covered all but research ethics | Method explainers; one worked research case from scratch | Synthesis Board (cluster, tag credibility, generate the insight sentence); Source Grader; Perimeter Card; Hypothesis Log | Open datasets; Internet Archive; open-access papers through the academic connectors; the learner's own observation |
+| M2 Concept DNA | 1 Constants, variables, thresholds · 2 Grammars: choose the ones your world needs (formal, material, chromatic, spatial, sensory, behavioural, narrative, verbal, temporal) · 3 Anti-DNA: what it can never be · 4 The four tests: belongs, edge, failure, seductive-but-off · 5 The stranger test: blind interpretation by the AI partner · 6 Versioning: what changed and why | Yes: 2.2 in full | Short explainers; a fully worked exemplar DNA (the program's own) | DNA Builder (structured editor with sliders, coverage radar, export as brief and as prompt); Boundary Test Arena (sort, then see the cohort); Stranger Lab (DNA in, eight outputs out, score the drift, fix the rule, run again) | Text and image models on free tiers or program-provided access (verify); public brand and design-system guidelines as exemplars of grammars |
+| M3 World architecture | 1 Roles: anchor, hero, core, entry, experimental, supporting · 2 Families, series, editions, drops · 3 Coherence across scales without cloning · 4 Pacing and curation: add, subtract, edit, reject · 5 Carriers: where the world meets people | Yes: 2.3 in full | Explainers; two collection cases (one product world, one identity world) | Collection Matrix (roles by families, with cost and risk overlays); Cutting Room (forced subtraction with reasons); Coherence Checker | Public collection line-ups (brand sites); CC0 objects for the cases |
+| M4 Make and test | 1 Choose a lens and an anchor · 2 Prototype as a question: what fidelity answers what · 3 The adjacent translation: same DNA, second medium · 4 Abandoned directions and revision history · 5 The stranger test at module scale | Yes, lighter: 2.4 assumed studio depth and specialists | A worked make-and-test case | Prototype Question Planner; Revision Timeline; Adjacent Translation Challenge (random second medium, AI-partner drift score) | Paper, cardboard, the phone camera; Blender and p5.js; free tiers of generation models |
+
+**The DNA as a data structure.** Premise (proposition, stance, contradiction, scenario, non-goals) · Rules (constants, variables, thresholds) · Grammars (only the ones switched on) · Anti-DNA · Test set (four exemplars) · Contributor brief and agent prompt (generated from the above) · Version history. Every interactive in the program reads from or writes to one of these fields; that is what makes the app one experience rather than a pile of widgets.
+
+**Briefer's version of M2–M4.** Same units; the Apply step writes rules and briefs rather than making, and the stranger test runs on the brief. M4 for briefers is a commissioning exercise: brief the AI partner as a designer, receive three directions, judge them with the four tests, revise the brief once.
+
+## Module map — Level 3, Practice lenses
+
+The four heavy studios become six lenses of six to eight units each (about 15 hours per lens; learners take one or two), because a self-paced, no-budget program cannot run a 120-hour studio, and because the two most commissioned practices — identity and digital product — were missing entirely from the original.
+
+**What a lens is.** The same DNA applied to one medium: what the medium adds (its own grammar, constraints and invisible systems), one anchor task for makers, one brief-and-judge task for briefers, and a case set drawn from the whole world and timeline. Lenses do not certify competence in the medium; they teach how the world translates into it and what to ask of a specialist.
+
+| Lens | Units (concepts) | Original | Traditional | Innovative | Free sources |
+|---|---|---|---|---|---|
+| L1 Space and experience | 1 Program before form: adjacency, friction, privacy · 2 Choreography: approach, threshold, compression, reveal · 3 Atmosphere as physics: light, heat, sound, scent · 4 Reuse and palimpsest · 5 The invisible: back of house, safety, money · 6 Representation: plan and section as a language · 7 Briefing a spatial designer | Yes, compressed from 3.2's ten units; codes and BIM dropped to literacy | Case walks through spaces across eras (courtyard, bazaar, department store, museum, flagship) | Adjacency Builder; Sequence Choreographer; Palimpsest tool; Back-of-House puzzle; Fit-Out calculator | OpenStreetMap; CC0 architectural photography and drawings; Archnet; Sketchfab CC models; Blender |
+| L2 Object and product | 1 The object as agent · 2 Hand and body · 3 Use choreography and states · 4 Prototyping with cardboard · 5 Making routes: craft to industry · 6 The bill of materials, the box and the ship · 7 Repair and end of life · 8 Briefing a product designer | Yes, compressed from 3.3; compliance to literacy | Object cases across the timeline (tools, vessels, seating, devices) | Fit Tester; Process Selector; BOM and Margin calculator; Disassembly Map | Smithsonian 3D; Thingiverse; FreeCAD and Blender; CC0 objects |
+| L3 Body and wearables | 1 Silhouette and power across cultures and centuries · 2 The body in motion and ease · 3 Textile logic: grain, bias, knit · 4 Pattern basics · 5 The semiotics of dress · 6 The collection matrix · 7 The tech-pack · 8 Labour and circularity · 9 Briefing a fashion designer | Yes, compressed from 3.4's twelve units; wearable tech and XR dropped to cases | Dress cases from open costume collections; construction explainers | Silhouette Timeline; Grain and Bias simulator; Grading Visualiser; Tech-Pack Error Hunt; Labour Ledger | Met Costume Institute (CC0); V&A and Europeana; Seamly2D (open-source pattern drafting); Wikimedia |
+| L4 Art and installation | 1 What the container does · 2 From data to space · 3 Scale and site · 4 Light and sound as material · 5 Audience and time · 6 Documentation as the work · 7 Funding without selling out · 8 Briefing or commissioning an artist | Yes, compressed from 3.1 | Installation cases with documentation; artists' statements | Container Neutraliser; Translation Engine; Light and Sound sandbox; Audience Ritual Builder; Sponsor Negotiation with the AI partner | three.js and Web Audio; CC0 images; artists' own open documentation; Internet Archive |
+| L5 Identity and communication (new) | 1 The brand as a world · 2 Marks, type and colour as a system · 3 Tone of voice · 4 Layout and grids · 5 Multi-script and bilingual systems · 6 Campaign as world extension · 7 Writing the design brief | No: a gap in the original despite 1.1, 5.1 and 5.7 depending on it | Identity cases across a century (railways, airlines, museums, cities, startups) | Identity System Builder (generates a system from the DNA's grammars); Brief Builder; Script Pairing tool | Google Fonts; Penpot (open source) or Figma free tier; CC0 and public-domain identity history |
+| L6 Digital product and interface (new) | 1 Interface as affordance · 2 Flows, states and errors · 3 Design systems as DNA · 4 Content and microcopy · 5 Accessibility · 6 Prototyping · 7 Writing the product brief | No: a gap in the original despite 1.3 and 4.5 | Flow cases from everyday products | Flow Mapper; State Machine; Design Tokens from DNA; Accessibility Checker | Penpot; Figma free tier; WCAG (free); open design-system documentation |
+
+**Does a lens work as a unit of learning?** Each lens is one medium's translation of the learner's existing DNA, so it produces the artifact's anchor (makers) or brief and judged set (briefers) and can be taken in any order after Method. Two lenses give the adjacent translation for free.
+
+## Module map — Level 4, Release literacy, and the tools thread
+
+The original's two venture tracks compress into five short modules (about 25 hours) taught as decision literacy with simulators, because neither audience needs an MBA and a no-budget program cannot offer legal or financial advice; the eleven tool modules become one free-tools thread woven through Levels 1–3.
+
+| Module | Units (concepts) | Original | Traditional | Innovative | Free sources |
+|---|---|---|---|---|---|
+| R1 The world as venture | 1 Brand architecture: one world, many carriers · 2 Community, access and ritual · 3 Campaign as world extension | 5.1, 5.6, 5.7 | Architecture cases; community cases | Orbital Architecture Mapper; Access Tier designer; Campaign-to-Premise checker | Public brand architectures; CC0 |
+| R2 Money, law and rights | 1 Cash, runway and the valley between prototype and delivery · 2 Funding routes and what each costs you · 3 What you can own: marks, designs, copyright · 4 Attribution and consultation as protocol · 5 When copied: responses | 5.2, 5.3 | Plain-language explainers, flagged as literacy not advice | Runway Simulator; Dilution calculator; IP Decision Tree; Copy Response playbook | WIPO free guides; national IP office guides; open templates; public spreadsheets |
+| R3 Making it real | 1 The collaboration matrix: who does what · 2 Briefing others: the brief as the briefer's artifact · 3 Minimum viable implementation: what to cut without breaking the DNA · 4 The handover package | 5.4, 5.8, 6.1, 6.2 | Handover cases; brief anatomy | Collaboration Matrix; MVI Negotiator (the AI partner plays the fabricator or the CFO); Handover Auditor | Open brief templates; open spec examples |
+| R4 Responsibility | 1 Release and maintenance · 2 Repair and graceful ageing · 3 End of life and the planetary ledger | 6.3, and the lifecycle threads from 1.5, 3.3.10, 3.4.12 | Cases of products that aged well and badly | Lifecycle Planner; Planetary Weight level 2 (the final ledger) | Ellen MacArthur free material; openLCA; Our World in Data |
+| R5 Defence and dossier | 1 The transfer brief: your DNA under a constraint you did not choose · 2 The stranger test at full scale · 3 The dossier: alternatives, abandoned directions, history | 5.10, 6.4, 6.5 | Dossier exemplars | Transfer Brief generator; Defence with the AI partner's three voices; Dossier Builder | The learner's own work |
+
+**The free tools thread** (short units placed where they are first needed; no installs before Level 3)
+
+| Tool skill | Placed in | Free tool | Replaces in the original |
+|---|---|---|---|
+| Seeing and drawing: gesture, line weight, plan and section | F2, L1, L2 | Pencil, paper, the phone camera | 4.1 |
+| Parametric thinking: one rule, many outputs | F2, M3 | p5.js in the browser; Blender geometry nodes later | 4.3 |
+| Working with AI: prompt architecture, agent briefs, drift scoring | M2, M4, R3 | Free model tiers or program-provided access (verify) | 4.4, 4.11 |
+| Simulation basics: a scene, a light, a walk | F3, L1, L4 | three.js templates supplied by the program | 4.5, 4.8 |
+| Honest rendering: what a picture claims | M4, L1, L2 | Blender | 4.8 |
+| Versioning the DNA | M2 onward | Built into the app | 4.11 |
+| Dropped for v1 | — | — | 4.2 reality capture, 4.6 data visualisation, 4.7 mechatronics, 4.9 environmental analytics, 4.10 fabrication; all candidates for later electives |
+
+**Program size.** Level 0 about 2 hours, Level 1 about 45, Level 2 about 50, one lens about 15 (two about 30), Level 4 about 25: roughly 140–155 learner hours for the whole program, or about 12 weeks at 12 hours a week. Each module also stands alone as a 5–15 hour course.
+
+## Research plan by module type
+
+The research a module needs depends on the kind of knowledge it carries, not on its track; there are five kinds in this program, and each has a different mix of what I do, which tools do it, and what only you should check.
+
+| Module type | Modules | What research it needs | How it gets done | What you check |
+|---|---|---|---|---|
+| Historical and cultural | F1, F4 (signs, scripts), L3.1, L5 cases, L1 cases | A curated world set: 20–30 objects or cases per module with open images, dates, provenance, makers, and connected material; scholarship to ground the claims; primary sources where public domain | Scans of open-access scholarship (academic search connectors); object selection from CC0 collections with their APIs; public-domain texts (Vitruvius, Owen Jones, Ruskin, Morris, Loos, the Bauhaus manifesto); object stories written from the record and cited | Balance across regions and eras; that the story told is fair; spot-check five facts per module against the cited source |
+| Perceptual and skills | F2, F3, tools thread | Very little: the principles are stable; the work is building the labs and choosing examples | Principles from established references, cross-checked once; example images from CC0 or the learner's own; interactives built and tested | Whether the lab actually produces the perception it claims to; wording for non-designers |
+| Method | M1–M4 | Exemplars of grammars, rules and collection logic; one fully worked DNA (the program's own) | Public brand and design-system guidelines, game design documents and pattern languages read for structure; the exemplar DNA written by us, tested with the Stranger Lab | The exemplar's taste and coherence; whether the four tests are teachable from the examples chosen |
+| Practice lenses | L1–L6 | Per lens: a global case set across the timeline, the medium's constraints, free-tool tutorials, and free standards (WCAG, open pattern-drafting references) | Case scans; open 3D and drawing sources; tool tutorials written against the free tool's own documentation; practitioner interviews replaced by public talks and writings with attribution | The medium's realism (what a practitioner would object to); which cases are memorable |
+| Release literacy | R1–R5 | Plain-language public guidance on money, IP and handover; open templates; jurisdiction-neutral framing | WIPO and national IP office guides; public small-business finance guides; open contract and brief templates; every unit labelled as literacy, not advice | That nothing reads as legal or financial advice; that simulators use transparent formulas |
+
+**Regional expansion (later).** The Gulf, MENA and SWANA layer needs archives, consultation and rights work the global core does not; it is parked until the core stands, and the case libraries are built with an empty regional slot in every module so it slots in without restructuring.
+
+**Research outputs per module** (the same four files every time, so the module factory is repeatable): a source list with links and licence notes; a case library (object, image link, licence, date, place, maker, one-paragraph story, which unit uses it); a claims sheet (every factual claim in the unit copy with its source); and an open-questions list for you.
+
+## Free-resource strategy
+
+A no-budget program can be image-rich and case-rich because the world's major museums have released millions of object images into the public domain; the constraint is text — most canonical design books are in copyright — so the program's own writing replaces them, and primary sources come from what is public domain.
+
+| Need | Free source | Licence note | Verify at build |
+|---|---|---|---|
+| Object and artwork images, global, all eras | Metropolitan Museum Open Access; Smithsonian Open Access; Rijksmuseum; Cleveland Museum of Art; Art Institute of Chicago; National Gallery of Art (US); Getty Open Content; Paris Musées; Wikimedia Commons; Europeana (mixed) | Mostly CC0 or public domain; Europeana and Wikimedia item by item | Current API terms and per-item licence |
+| Design and decorative arts specifically | Cooper Hewitt collection; V&A collections; Met Costume Institute; Library of Congress; NYPL Digital Collections | Mixed; many public domain | Per item |
+| Islamic and world architecture | Archnet; Wikimedia; OpenStreetMap for plans and context | Archnet terms vary; OSM open | Archnet image terms |
+| Public-domain primary texts | Project Gutenberg; Internet Archive; Wikisource: Vitruvius, Alberti, Owen Jones (Grammar of Ornament), Ruskin, Morris, Loos (Ornament and Crime), Gropius (Bauhaus manifesto), Sullivan | Public domain in most jurisdictions | Jurisdiction for works from the 1920s–30s |
+| Scholarship | Open-access papers and books through OAPEN, DOAB, DOAJ, arXiv and the academic search connectors; MIT OpenCourseWare | Open access | Licence per paper for quoting |
+| Data for systems and futures | Our World in Data; World Bank Open Data; UN data; NASA and Copernicus climate data | Open | Attribution wording |
+| 3D models | Smithsonian 3D; Sketchfab (CC-licensed models); Scan the World; Thingiverse | CC, per model | Per model |
+| Type | Google Fonts (multi-script) | Open Font Licence | none |
+| Software, free | Blender; p5.js; three.js; FreeCAD; Inkscape; GIMP; Krita; Penpot; Seamly2D; Audacity; openLCA; Godot | Open source | none |
+| Software, free tiers | Figma; Supabase; Lovable; generation models | Free tiers change | Tier limits at build; a fallback for each |
+| Video | Embedded public talks and museum channels | Embedding only, no re-hosting | Embed permission per channel |
+
+**Rules we set for ourselves.** No image without a licence note in the case library; quotations under the length a licence allows and always paraphrase-first; never a copyrighted book summarised in a way that replaces reading it; every free-tier dependency has a named fallback; and the app never stores anything that would make a takedown request break a unit (images referenced by link where the licence allows, downloaded copies only for CC0).
+
+## How a unit, a module and the program hold together
+
+They hold together through one object: the learner's artifact grows at the end of every unit, gets tested at the end of every module, and is defended at the end of the program; the AI partner replaces the critique culture with testing, in three voices that never grade.
+
+**A unit** (45–75 minutes, self-paced)
+
+| Step | What happens | Traditional or innovative |
+|---|---|---|
+| Provocation | One question or one image | Traditional |
+| Lab | The interactive, before any explanation | Innovative |
+| Concept | Short text, sometimes a short video; the term is named after the lab showed it | Traditional |
+| Cases | Two to four objects or cases from the world set, each with its story | Traditional, made rich by open collections |
+| Apply | Makers produce; briefers write or judge; the interactive exports the result into the artifact | Innovative |
+| Partner | The AI partner responds in one of its three voices | Innovative |
+| Log | One line: what changed and why | Innovative (versioning) |
+
+**A module** (5–9 units): the units add fields to the artifact; the module ends with a stage — a test rather than an assignment. Foundations modules end with a Sort (the four tests applied to a supplied set); Method modules end with a Stranger test; lenses end with an anchor or a brief plus a judged set; Release modules end with a simulation run. Nothing is marked; the learner sees drift scores, cohort distributions and the partner's questions, and decides what to revise.
+
+**The program**: the artifact's sections map onto the levels. Level 1 fills sources, grammar candidates, body rules, material and verbal candidates, and the perimeter. Level 2 turns candidates into rules, thresholds, anti-DNA and a test set. Level 3 adds the anchor or the brief and judged set. Level 4 adds the venture, rights, handover and lifecycle sections and the dossier. A learner who takes one module still leaves with one finished section of a DNA and can come back for the rest.
+
+**The AI partner — three voices, no verdicts**
+
+| Voice | Asks | Used for |
+|---|---|---|
+| The Mirror | "Here is what your work is doing; is that what you meant?" | Reflecting an Apply step back in plain words; surfacing contradictions with the learner's own DNA |
+| The Stranger | "I have never met you; here is what I built from your rules." | Blind interpretation: generates from the DNA or the brief, so drift becomes visible |
+| The Client | "I am commissioning this; what do I get, what does it cost, what could go wrong?" | Briefs, negotiations, MVI trade-offs, the defence |
+
+The partner never scores taste, never says good or bad, and always ends with a question or a test the learner can run. That keeps the feedback loop of a studio without its social weight, which is what you asked to avoid.
+
+**Does everything work together?** Yes, on three conditions: the DNA data structure is fixed before any unit is written; every interactive reads from or writes to it; and the world set (cases and objects) is one shared library tagged by unit, so F1's object can reappear in L2 and R4 and the learner recognises it. Fail any of these and it becomes a collection of courses.
+
+## The AI pipeline
+
+Every stage of this project — research, curriculum, writing, visual design, interactives, the app, testing, operations — can be run through me and the tools connected to this account; the two things that stay human are your judgement (taste, fairness, what a practitioner would object to) and the last look at facts and rights before anything goes live.
+
+| Stage | What I do | Connected tools and skills | What you do |
+|---|---|---|---|
+| Concept and curriculum | Program spec, module descriptors, unit storyboards, rubric-free test designs, glossary; all as living docs you comment on | Claude Docs (this); a tracker as a sheet or doc tab | Decide, comment, redirect |
+| Research | Scholarship scans, object and case selection from open collections, source lists with licence notes, claims sheets | Web search and fetch; Exa and Firecrawl for the open web; Elicit, Scite, Consensus and Scholar Gateway for papers; LlamaParse for reading PDFs and documents; Hugging Face for open datasets | Spot-check facts; judge balance and taste in the case sets |
+| Program voice | A voice guide generated from samples you approve, then applied to every unit so 150 hours of content sound like one program | brand-voice skills (generate guidelines, enforce voice) | Approve the voice; flag where it drifts |
+| Writing | Unit copy, case stories, partner prompts, microcopy, briefs; edited to the voice; readability checked for non-designers | Claude Docs; ux-copy and accessibility-review skills for interface text | Read as the non-designer; cut what bores you |
+| Visual design | Design system (type, colour, spacing, RTL-ready), unit layouts, diagrams, poster-style explainers, mockups of every screen | Figma connector (design system, screens, diagrams); artifact Design type; canvas-design and theme-factory skills; frontend-design skill for the built pages | Choose direction; judge the design |
+| Interactives | Each pattern built as a working page first, then generalised; 3D labs in three.js; audio labs in Web Audio | Artifacts (HTML and JS); web-artifacts-builder skill; algorithmic-art skill for generative labs; Three.js viewer for checking scenes | Play them; say what confused you |
+| The app | Data model (learners, artifacts, DNA versions, cases, cohort overlays), auth, the partner's prompts and logging, deployment | Lovable to build and deploy the front end; Supabase for database, auth and storage; Base44 as an alternative stack; engineering skills for architecture, code review, testing strategy | Approve scope; test flows |
+| The AI partner (product) | The three voices as prompt architectures over the learner's DNA, with drift scoring and logging | Built into the app on a model API; free tier at first, metered later | Judge whether the voices feel right |
+| Learner testing | Interview guides, test scripts, synthesis of what five testers said, revision lists | design:user-research and research-synthesis skills | Recruit the five people; sit in |
+| Assets | A shared folder of images, case files and exports that I read from and write to | Dropbox or Google Drive connectors | Keep the folder tidy |
+| Operations | Weekly digest of what moved and what is blocked; task list; the module factory as a reusable skill so each new module runs the same procedure | Scheduled tasks; productivity skills; skill-creator to write the Module Factory skill itself | Read the digest; 2–3 days a week on decisions and review |
+| Quality | Accessibility audit of every page; validation of every calculator's formulas; consistency checks of cases against the claims sheets | accessibility-review, data:validate, code-review skills | Final look before a module goes live |
+
+**The Module Factory** (the thing that makes this a trial you can repeat on other projects): one procedure, run per module — descriptor → research outputs (the four files in §7) → storyboard → copy in the voice → interactive specs → prototypes → partner prompts → accessibility and claims check → your review → ship. I can write it as a skill so it runs the same way every time, and so it transfers to your next project with a different subject.
+
+**Limits to plan around.** Free model tiers cap how many stranger tests a learner can run per day; rights checks cannot be fully automated; the partner's voices need a few rounds of human tuning; and I cannot recruit or sit with testers. None of these needs money, only your time.
+
+## Working rhythm and next decisions
+
+At 2–3 days a week, the concept can be locked in about six weeks and the first two modules specified in full; building only starts after a concept-lock gate, which is your call.
+
+**Six weeks to concept lock** (each week = one of your working days for decisions and review, the rest is mine)
+
+- [ ] Week 1 — Agree this map, module by module, in comments; name the program and the artifact; fix the DNA data structure (§4) as the app's first schema.
+- [ ] Week 2 — Two learner personas (one maker, one briefer) and the promise written in their words; the program voice generated from samples you approve.
+- [ ] Week 3 — Proof module A: F1 Histories of making, fully specified (descriptor, world set of 25 objects with licences, unit storyboards, interactive specs). This is the traditional-heavy proof.
+- [ ] Week 4 — Proof module B: M2 Concept DNA, fully specified, including the program's own exemplar DNA and the three partner voices. This is the innovative-heavy proof.
+- [ ] Week 5 — Design language in Figma (type, colour, layout, RTL-ready) and a mockup of one unit end to end; the Module Factory written as a skill.
+- [ ] Week 6 — Concept lock: you decide whether the two proofs justify building. If yes, weeks 7–12 build the app shell with those two modules and test with five people.
+
+**Why F1 and M2 as the proofs.** Between them they exercise every hard part once: the global world set and rights (F1), the interactive spine and the AI partner (M2), both lanes, and the artifact growing across two levels. If they work, the other modules are repetition through the factory.
+
+**Three decisions to close the concept**
+
+1. Name: a working title for the program, and whether "Concept DNA" stays as the artifact's name or becomes something of yours.
+2. The exemplar world: the program teaches its method on one fully worked example DNA; should it be a fictional world we invent, or something of yours?
+3. The two proof modules: F1 and M2 as proposed, or a different pair.
+
+**Then say which to start:** the personas, the F1 world set, the M2 exemplar DNA, or the Module Factory skill.

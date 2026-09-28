@@ -1,0 +1,145 @@
+## F1.4 Interdisciplinary discourse: film, performance, sound, gaming and digital culture as teachers of making
+
+Films, recordings, games and performances are made things, and each holds a method a designer can take into another world.
+
+**Spec**
+
+| Row | F1.4 |
+|---|---|
+| Essential question | What can a maker learn about making from a film, a recording, a game or a performance? |
+| Opening move | **Story first.** Brooklyn Institute, 9 May 1893. Visitors bend over a Kinetoscope and watch men hammering at an anvil. The smiths are Edison employees, Charles Kayser and John Ott, acting the part. William K. L. Dickson directed and William Heise filmed it in the Black Maria studio, West Orange. **Claim:** the new medium took its first subject from a trade, because a trade gives a short, repeated, readable action. **Counter-claim:** the film teaches nothing about smithing; it stages a trade as a picture, and the actors pass a bottle between blows. **Case:** eleven years later, Victor issues "In a country blacksmith shop" (1904), the same trade as a sound sketch. The learner hears the disc before seeing the film, and predicts what each medium keeps and drops. |
+| Lab or main interactive | **The comparison wall (form 10).** Ten tiles, each a made thing from another discipline: four Jukebox recordings, two early films, the Game of Ur rules tablet, a gamelan key, a kora, a Noh mask. Each tile hides one method. The learner predicts the method, then opens the record's evidence. Filters: discipline, world chapter, date. Sound plays only on tap, with a transcript beside it. |
+| Concept | About 700 words. Four methods other disciplines hold for makers: **staging** (film shows making as a sequence and cuts it); **tuning** (an ensemble made as one set, not as parts); **rules** (a game is an object plus a written procedure); **repertoire** (a mask or kora carries a line of copies, repairs and restringings). Then the web under the media: records pressed from shellac made by lac insects (MAT045); film stock of celluloid, which burned workers and audiences (MAT112). Then who the credit leaves out. |
+| Cases | **1. The set tuned to itself: gamelan, Java.** A saron panerus (Met 89.4.759a,b, 19th century, teak and bronze), smith and tuner unnamed. No two gamelan share an exact tuning, so a key belongs to its own set. **2. The instrument that is never finished: kora, Mande.** Mamadou Kouyaté made a kora about 1960 (Met 1975.59). His nephew Djimo Kouyaté replaced the bridge and restrung it in the 1990s. Beside it, a 19th-century kora with no maker named (Met 89.4.498). **3. The face made from a model: Noh mask, Japan.** A waka-onna mask (Cleveland 1972.69, 1392–1573), carver not recorded. Carvers make new masks by referring to honmen, old masks held by head families. **Wall cases:** the four recordings; *Girls winding armatures* (1904); the Royal Game of Ur boards and the rules tablet written in 177 BCE. |
+| Apply — maker | Choose one tile. Write its method in one sentence, in your own world's terms. Make one small test of it: tune three parts to each other, write the rules before the board, plan the second stringing. Enter the method as a GRM.n rule. |
+| Apply — briefer | Choose one tile. Write one brief clause that borrows its method, for example "delivered as a set tuned together; parts are not interchangeable across sets". Add one line on what the clause costs the maker. Enter it as a GRM.n rule phrased as a requirement. |
+| Partner | **The Mirror.** It reads the learner's sentence back and asks: "Which word did you keep from the source, and which part of the practice did you leave behind?" **Test:** the learner restates the method without the source discipline's words, names one thing it cannot carry (lineage, ritual use, a community's permission), and names the record it came from. |
+| Forms | 10 (comparison wall), 7 (video), 8 (audio) |
+| Consumption forms | **Five-minute:** the 1893 film, one recording, one tile and its method. **Session (about 40 minutes):** the full wall, four recordings, two films, Apply, the Mirror. **Reference:** the recordings table (date, label, matrix, US status), the open-object list, the method list. |
+| Media | Four Library of Congress National Jukebox recordings (MP3/WAV). Two public-domain films (1893, 1904). Five open images (Met, Cleveland). One link out (British Museum tablet). One diagram of our own (the twenty-square board). Transcripts, captions and audio descriptions for all time-based media. |
+| Artifact fields | SRC (the method's source record, with holder, ID or matrix number, and licence); GRM.n (the borrowed method as a narrative rule). |
+| Threads | **Attribution and Authority:** Edison's name over Dickson, Heise, Kayser and Ott; the ODJB's record over earlier Black musicians; "girls" unnamed at Westinghouse; Kouyaté named, Crosby Brown makers not. **Planetary Weight:** shellac, celluloid, ivory piano keys (NET014). **Writing and Argument:** the rules tablet; the one-sentence method. **Accessibility (level 1):** no autoplay; sound is never the only channel. |
+| Closing contribution | SRC: "Method: [verb phrase], from [case], [holder and record ID, or label and matrix], [licence]; carries [what]; leaves behind [what]." |
+| Claims sheet | 20 claims (section 3). |
+
+**1. Responsibility block**
+
+This thematic unit must reach, with a case, tile or example:
+
+- **Sound and recording:** INV048 sound recording; OBT270 sound recording disc; MAT045 lac (shellac).
+- **Film:** INV049 motion picture; MAT112 celluloid; TEC196 photography (as film's parent technique).
+- **Games:** OBT241 Royal Game of Ur; OBT236 senet; OBT240 patolli (wall example); INV052 video game (Concept, one paragraph).
+- **Instruments:** OBT254 gamelan, PRA124, TEC076 high-tin bronze forging; OBT251 kora, PRA033; GAP048 keyboard instruments (Cristofori piano tile, wall example); GAP049 violin and PRA171 (Concept mention); OBT258 qin, OBT266 horsehead fiddle, OBT253 talking drum (wall examples, no record verified).
+- **Performance:** OBT181 mask (Noh); OBT269 shadow puppet with PRA118 Sbek Thom and PRA157 Karagöz (wall examples); MKR053 Patua scroll singers (wall example: painting made to be sung).
+- **Periods and polities:** PRD123 Muromachi period; POL182 Muromachi shogunate; DYN008 Muhammad Ali dynasty (Khedive Isma'il, commissioner of *Aida*).
+- **Sub-regions:** AS-ISE (Java), AF-SAH and AF-GUI (Senegambia), AS-JPN, WA-MES, AF-EGY, AM-EWD (US recording and film industry).
+
+**World chapters reached (six):** F1.6 Africa (kora, case 2; senet board, wall); F1.8 East Asia (Noh mask, case 3); F1.9 South and Southeast Asia (gamelan, case 1; Patua, wall); F1.9a West Asia before Islam (Royal Game of Ur, wall); F1.7 Americas (Jukebox and Westinghouse, wall; patolli, wall); F1.11 Europe (Caruso, Cristofori piano, wall). F1.10 is touched through *Aida*'s Cairo commission.
+
+**The Atlas carries instead:** GAP012 Pictorialism, GAP017 Fluxus, MOV034 Punk DIY graphics, MOV035 Net art, MOV053 Afrofuturism, MOV054 Indigenous Futurism, MOV065 Tropicália, SCH003 Polish School of Posters, BEL048 Rastafari, POL077 Cuba, PER098 Oiticica, PER221 Eiko Ishioka, PER256 Husain, PER369 Ken Thaiday Sr, COM132, COM275, COM278, ARC116, ARC156, ARC189, DYN022, INV146, INV147, OBT237, OBT238, OBT242–OBT250, OBT252, OBT255, OBT260–OBT268, OBT271, TEC226, PRA025–PRA028, PRA063, PRA139, PRA144, PRA151, PRA189, GAP050. Forward links: S3.13 (the ODJB record), F1.21 (the department-store monologue), F1.17 (*Aida*), M1.11a (film and games).
+
+**2. Protocol screen**
+
+- **Excluded:** Noh masks of Okina (Cleveland 1977.33 among them). Okina is performed as a divine service; mask boxes stand on a dressing-room altar with offerings. Also excluded: Yoruba egúngún, Makishi (PRA028), slit drum (OBT262), conch trumpet (OBT260), and Torres Strait masks (GAP063).
+- **Didjeridu (OBT259):** Indigenous-community and sacred flags. Some communities restrict who may play it. Not a tile; a Notice and a pointer to F1.2.
+- **Royal Game of Ur:** the boards came from the Royal Cemetery of Ur (PLC265), where attendants were killed and buried with the dead. Show the rules tablet (not a grave good) and our own board diagram. The board itself is a link out with origin and a content note. Never show burials or remains.
+- **Senet board (Met 01.4.1a):** a grave good from Abydos, Cemetery D, Tomb D99. Show only with that origin and a content note.
+- **Living communities:** gamelan, kora, Noh and shadow theatre carry a Notice. Use the community's own names first: jali/jeli, Mandinka, Javanese, nōmen.
+- **Recordings:** vaudeville "descriptive specialties" often used ethnic and racial caricature. The Harlan and Stanley and Cal Stewart discs must be heard in full and transcribed before use (section 9).
+- **People never goods:** the LOC film title *Girls winding armatures* is the company's term; quote and attribute it.
+
+**3. Claims**
+
+| # | Claim | Confidence | Source opened | Depth |
+|---|---|---|---|---|
+| 1 | *Blacksmith Scene* was filmed in April 1893 in the Black Maria, directed by W. K. L. Dickson, filmed by William Heise, acted by Edison employees Charles Kayser and John Ott. | documented | https://en.wikipedia.org/wiki/Blacksmith_Scene | summary |
+| 2 | It was shown publicly in a Kinetoscope at the Brooklyn Institute on 9 May 1893. Whether this is the earliest public film showing is contested. Reading A: the earliest known public exhibition of a film. Reading B: earlier moving pictures came first, such as Le Prince's 1888 films (INV049) or Reynaud's projected shows in Paris, 1892 (not verified). | contested | same | summary |
+| 3 | G. W. "Billy" Bitzer filmed the Westinghouse works, Pittsburgh, 18 April–16 May 1904; the films were shown at the Westinghouse Auditorium at the 1904 St. Louis fair. | documented | https://en.wikipedia.org/wiki/Westinghouse_Works,_1904 | summary |
+| 4 | LOC's record of *Girls winding armatures* (1904) describes numerous women at machines winding wire, with men carrying spools; no worker is named. | documented | https://www.loc.gov/item/96522180/ (via LOC search API) | catalogue record |
+| 5 | "In a country blacksmith shop", Byron G. Harlan and Frank C. Stanley, recorded 10 October 1904, Victor 4106, matrix B-1749/2, a "descriptive scene". Anvil sounds on it: not verified. | documented | https://adp.library.ucsb.edu/index.php/objects/detail/33030/Victor_4106 ; https://www.loc.gov/item/jukebox-120495/ | catalogue record |
+| 6 | "Livery stable blues", Original Dixieland Jazz Band, recorded 26 February 1917, Victor 18255, matrix B-19331/1, released 7 March 1917. | documented | https://www.loc.gov/item/jukebox-186254/ ; https://en.wikipedia.org/wiki/Livery_Stable_Blues | catalogue record; summary |
+| 7 | It is widely called the first jazz record issued. Reading A: the earliest known commercially issued jazz record. Reading B: a white band recorded a Black New Orleans music, and James Reese Europe's Society Orchestra had recorded dance music for Victor in 1913–14 (e.g. "Castle walk", Victor 17553, B-14434/2). | contested | same; https://www.loc.gov/item/jukebox-134539/ | summary; catalogue record |
+| 8 | In the authorship suit over the tune, the judge found neither party held copyright and that it was based on an existing melody. | probable (one summary source) | https://en.wikipedia.org/wiki/Livery_Stable_Blues | summary |
+| 9 | "Celeste Aida", Enrico Caruso, recorded 1 February 1904, Victor 85022, matrix C-997. | documented | https://www.loc.gov/item/jukebox-119132/ (via search API) | catalogue record |
+| 10 | Isma'il Pasha, Khedive of Egypt, commissioned *Aida*; Verdi agreed for 150,000 francs; it premiered in Cairo on 24 December 1871. That it was written for the Suez Canal opening is contested: the article says Verdi declined that first request. | documented; contested (Suez) | https://en.wikipedia.org/wiki/Aida | summary |
+| 11 | "Uncle Josh in a department store", Cal Stewart, recorded 22 May 1903, Victor 665, pre-matrix 665/M-7. | documented | https://www.loc.gov/item/jukebox-2316/ (via search API) | catalogue record |
+| 12 | US sound recordings published before 1923 entered the US public domain on 1 January 2022; later years follow one a year to 2046. | documented | https://publicdomainreview.org/blog/2021/12/all-sound-recordings-prior-to-1923-will-enter-the-us-public-domain-in-2022 ; Jukebox record note on jukebox-186254 | full text (blog); record note |
+| 13 | Outside the US, the status differs: the recording, the composition and the performance are separate rights with national terms. | interpretive; not verified per country | none opened | — |
+| 14 | Mungo Park (1799) gives the earliest known written reference to the kora, "a large harp with eighteen strings"; nylon fishing line replaced strings from about 1950; Keur Moussa monks introduced wooden pegs from 1963. | documented (Park quote to check in TXT055) | https://www.amis.org/post/on-the-organology-of-the-kora | full text |
+| 15 | Mamadou Kouyaté made Met 1975.59 about 1960; Djimo Kouyaté replaced the bridge and restrung it in the 1990s, keeping two antelope-hide strings. | documented | https://www.metmuseum.org/art/collection/search/503060 | record |
+| 16 | No two gamelan sets have exactly the same tuning; there are no Javanese standard forms of slendro and pelog. | probable (summary source; check against a scholarly text) | https://en.wikipedia.org/wiki/Pelog | summary |
+| 17 | UNESCO inscribed Gamelan (Indonesia) in 2021; its practitioners include instrument-makers and tuners. | documented | https://ich.unesco.org/en/RL/gamelan-01607 | full text |
+| 18 | Honmen, masks from about the Muromachi period held by head families, are the models carvers refer to for new masks, mostly of Japanese cypress. | documented | https://db2.the-noh.com/edic/2020/02/nohmen.html | glossary, full text |
+| 19 | The Game of Ur boards from Woolley's Ur excavations (1922–34) date to about 2600–2400 BCE; British Museum 33333,b, written in 177 BCE by Itti-Marduk-balāṭu, gives a diagram and rules; the BM calls it the oldest known rules for a board game. | documented | https://www.britishmuseum.org/collection/object/W_Rm-III-6-b ; https://en.wikipedia.org/wiki/Royal_Game_of_Ur | record; summary |
+| 20 | **Unit framing:** film, sound, games and performance hold transferable methods for makers (staging, tuning, rules, repertoire). | interpretive | — | — |
+
+**4. Nodes**
+
+- Opening and films: INV049, MAT112, TEC196; OBT270 and INV048 for the blacksmith disc.
+- Recordings: INV048, OBT270, MAT045; DYN008 (claim 10).
+- Case 1: OBT254, PRA124, TEC076. Case 2: OBT251, PRA033, TXT055. Case 3: OBT181, PRD123, POL182; SCH040 Kano school as a parallel (copying model books).
+- Game: OBT241, PLC265, OBT236, OBT240.
+- Wall examples: GAP048, OBT258, OBT266, OBT269, PRA118, PRA157, MKR053.
+- **Proposed new rows:** Noh mask (nōmen), object-type, F1.8; Nōgaku, living-practice, F1.8 (UNESCO status to verify); Tholu bommalata (Andhra shadow puppetry), living-practice, F1.9; Edison Manufacturing Company, institution; Black Maria, place; Victor Talking Machine Company, institution; Westinghouse Electric and Manufacturing Company works, Pittsburgh, place; Original Dixieland Jazz Band, maker; James Reese Europe, person; Mamadou Kouyaté, person; Keur Moussa Abbey, institution; Crosby Brown Collection (Mary Elizabeth Adams Brown), institution; Khedivial Opera House, place; Itti-Marduk-balāṭu, person; BM 33333,b rules tablet, primary text (TXT); descriptive specialty (vaudeville recording genre), style.
+
+**5. Candidate open objects**
+
+| Holder, accession | Object, date | Licence (holder's statement) | 1970 status | Record |
+|---|---|---|---|---|
+| Met 89.4.759a,b | Saron panerus slendro, Javanese, 19th century; teak, bronze, paint | Public domain (isPublicDomain true) | n/a (instrument; Crosby Brown gift 1889; how it left Java not recorded) | https://www.metmuseum.org/art/collection/search/501374 |
+| Met 89.4.498 | Kora, Mandinka, 19th century; gourd, skin, leather, wood | Public domain (isPublicDomain true) | n/a (Crosby Brown gift 1889; collection route not recorded) | https://www.metmuseum.org/art/collection/search/501115 |
+| Cleveland 1972.69 | Noh mask: waka-onna, 1392–1573; wood with polychromy | CC0 | n/a (theatre mask, not archaeological); provenance "Hiraido Company" only | https://clevelandart.org/art/1972.69 |
+| Met 01.4.1a | Gameboard and gaming pieces, c. 1479–1425 BCE; faience, modern wood; Abydos, Cemetery D, Tomb D99 | Public domain (isPublicDomain true) | pass: Egypt Exploration Fund excavation, gift 1901. Grave good: content note | https://www.metmuseum.org/art/collection/search/544775 |
+| Met 89.4.1219a–c | Grand piano, Bartolomeo Cristofori, Florence, 1720 | Public domain (isPublicDomain true) | n/a (signed work) | https://www.metmuseum.org/art/collection/search/501788 |
+
+Not open: Met 1975.59 (Kouyaté kora; isPublicDomain false; link out). British Museum 33333,b and the BM Ur board (link out; BM image terms are not an open licence).
+
+**6. People and credit**
+
+- **Named:** W. K. L. Dickson, William Heise, Charles Kayser, John Ott; G. W. Bitzer; Byron G. Harlan, Frank C. Stanley; Cal Stewart; the ODJB (Nick LaRocca, Eddie Edwards, Larry Shields, Henry Ragas, Tony Sbarbaro); Enrico Caruso; Giuseppe Verdi; Isma'il Pasha; James Reese Europe; Mamadou and Djimo Kouyaté; Bartolomeo Cristofori; Itti-Marduk-balāṭu; Irving Finkel (translator).
+- **Left out:** the Westinghouse workers; the Victor recording engineers and pressing-plant workers; the lac harvesters behind shellac; Black New Orleans musicians who played the music before 1917; the smiths and tuners of the Met saron; the 19th-century kora maker; the Noh carver of 1972.69; the Iraqi workmen at Ur. Credit lines name collectors (Crosby Brown) and funds, not makers.
+- **Living people:** Djimo Kouyaté (status not verified); Irving Finkel. Optional: carver Kitazawa Hideta (nippon.com, 27 March 2026) for the living practice of carving.
+
+**7. Visual plan (zero cost)**
+
+- **Form 10 (wall):** the five open records above, as the holders publish them. Recordings shown as label text and matrix typography, not generated label art. Game of Ur: our own diagram of the twenty-square layout, plus a link out to BM 33333,b. Kouyaté kora: link out.
+- **Form 7 (video):** *Girls winding armatures* from LOC (1904, US public domain by age; LOC rights line not read). *Blacksmith Scene* (1893, US public domain by age). The host copy is not chosen: the Internet Archive copy is a community upload, not a holder's copy. Silent films stay silent: no added sound effects. Captions and audio descriptions are our own.
+- **Form 8 (audio):** Jukebox files for the four recordings. A static screen with our own transcript and a waveform drawn from the file.
+- No generated images of objects, people or places.
+
+**8. Success criteria**
+
+1. The learner's SRC line names a method, the case, and the holder's ID or the matrix number.
+2. The learner's GRM.n rule states the method without the source discipline's words, and names one thing it cannot carry.
+3. For one recording or film, the learner names who made it and one person or group the credit leaves out, from the record.
+
+**9. Readings and risks**
+
+The Historian's pre-read (pack v2) should check:
+
+- The ODJB framing, and the Black-musician reading (claim 7).
+- The *Aida* commission and Suez story, and the opera's Orientalism (F1.17 treats it at depth).
+- Whether any Noh mask type besides Okina needs exclusion.
+- Endonyms: jali/jeli, Mandinka or Maninka, nōmen.
+
+**Hold until a reader clears them:**
+
+- Full listens and transcripts of Victor 4106 and Victor 665. Harlan and Stanley also recorded "ethnic characterizations"; if either disc caricatures a people, replace it with another Jukebox descriptive or novelty disc.
+- The Game of Ur content note.
+- The Westinghouse title in quotation marks.
+
+**10. Fact-check list**
+
+- Jukebox records for all four recordings (dates, labels, matrices; jukebox-120495, -186254, -119132, -2316), read at item level. The item page fetch was refused (HTTP 429) during research.
+- The publication year for each disc (Victor 665 in 1903; Victor 4106 in 1904; Victor 85022 in 1904; Victor 18255 on 7 March 1917). All must be before 1 January 1923.
+- Non-US status for each recording and composition (UK and EU recording terms; composer terms, e.g. LaRocca d. 1961).
+- *Blacksmith Scene*: the holder's copy (MoMA, Henry Ford, LOC?) and its rights line. The Brooklyn date.
+- LOC rights line on 96522180.
+- The Met isPublicDomain flag on each record, again at G3.
+- Mungo Park's kora passage in TXT055 (1799).
+- The gamelan tuning claim against a scholarly source (claim 16).
+- UNESCO: Gamelan 2021 (confirmed); Nōgaku, Sbek Thom 2008, Karagöz 2009 and the morin khuur, if used.
+- The *Aida* fee and premiere against a Verdi scholarly source.
+- The ODJB court finding against a primary or scholarly source.
+- R2 and R3 canon rows used: GAP048, OBT240, OBT258, OBT266, OBT270, INV048, INV049, INV052, TEC076, MKR053.
+- Living people: Djimo Kouyaté, Irving Finkel, Kitazawa Hideta.

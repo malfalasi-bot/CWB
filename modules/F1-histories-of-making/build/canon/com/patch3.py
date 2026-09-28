@@ -1,0 +1,16 @@
+P={
+"Wayuu":dict(making_significance="Wayuu women crochet susu mochila bags and weave hammocks, and the mochila is now a global fashion item.",leaves_out="Wayuu of Colombia and Venezuela; clan (e'irukuu) designs; industrial copies"),
+"Aymara":dict(making_significance="Aymara weavers make awayu carrying cloths and communal ceremonial textiles, such as those of Coroma returned to Bolivia.",leaves_out="Aymara of Bolivia, Peru and Chile; Tiwanaku as a separate grouping"),
+"Kichwa Otavalo":dict(making_significance="Otavalo weavers and merchants produce and sell textiles worldwide from the Otavalo market.",leaves_out="other Kichwa peoples of Ecuador; hired weavers"),
+"Iku":dict(making_significance="Iku women crochet tutu mochila bags from wool and cotton, and the bags carry thought and teaching.",leaves_out="Kogi, Wiwa and Kankuamo neighbours of the Sierra Nevada"),
+"Kággaba":dict(making_significance="Kogi weave cotton clothing and use poporo lime gourds, and their ancestors' Tairona goldwork is in museums.",leaves_out="Iku and Wiwa neighbours; Tairona as an archaeological label"),
+"Uru":dict(making_significance="Uru communities build totora-reed boats and floating islands on Lake Titicaca.",leaves_out="Uru-Chipaya and Uros of Lake Titicaca; Aymara-speaking Uros"),
+"Wajãpi":dict(making_significance="Wajãpi paint kusiwa designs on bodies and objects with genipap and urucum.",leaves_out="Wajãpi of Brazil and French Guiana"),
+"Asháninka":dict(making_significance="Asháninka weave cotton cushma robes and make beadwork and bows.",leaves_out="Asháninka of Peru and Brazil; Nomatsiguenga neighbours",sensitivity="living-community; Indigenous-community; human-flow",notes="Rubber-boom enslavement and 1980s–90s conflict: human-flow."),
+"Shipibo-Konibo":dict(making_significance="Shipibo-Konibo women paint and embroider kené designs on cloth and ceramics, and kené is also sold.",leaves_out="Shipibo and Konibo as formerly separate groups; urban artists in Cantagallo"),
+"Kuikuro":dict(making_significance="Kuikuro make hammocks, painted objects and masks, and their ancestors built large settlements in the Upper Xingu.",leaves_out="other Upper Xingu peoples who share the system"),
+"Iny":dict(making_significance="Iny women model ritxòkò clay figures, dolls that show Karajá life.",leaves_out="Karajá, Javaé and Xambioá"),
+"Ye'kwana":dict(making_significance="Ye'kwana weave waja trays and other baskets in patterned designs.",leaves_out="Ye'kwana of Venezuela and Brazil; Sanumá neighbours"),
+"Wichí":dict(making_significance="Wichí women weave chaguar-fibre yica bags with knotted netting.",leaves_out="Wichí of Argentina, Bolivia and Paraguay; Qom and Chorote neighbours"),
+"Saamaka":dict(making_significance="Saamaka men carve paddles, combs and trays and women sew patchwork and embroidered capes.",leaves_out="Ndyuka and other Maroon peoples of Suriname",notes="Descendants of self-freed enslaved people: human-flow."),
+}

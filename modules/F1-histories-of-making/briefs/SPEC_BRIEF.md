@@ -1,0 +1,33 @@
+# Brief: writing an F1 unit spec (batch 1), template v3, to the F1.17 standard
+
+## The program and the module
+A self-paced design-education web app for designers, brand/marketing people, founders and commissioning clients. Two lanes in every unit: **Maker (M)** and **Briefer (B)**. Depths: Orientation (O), Practice (P), Mastery (M). Every learner builds one artifact (the "Concept DNA"); units write into its fields: SRC (sources record), GRM.f / GRM.n / GRM.m (grammar: form, narrative, material), CMB (commissioning brief), PLW (planetary weight), LCY (lifecycle), RGT (rights), PRM (premise), DOS (dossier), PER (persona). Partner voices (AI partners with declared agendas): Historian, Mirror, Client, Fabricator, Planet, Stranger. Presentation forms by number: 1 scrollytelling, 2 step-through, 3 object story, 4 explorable, 5 before/after, 7 video, 8 audio, 10 comparison wall, 11 timeline scrub, 12 map, 13 argument card, 14 sequential illustration, 15 prediction prompt. Threads: Attribution and Authority; Planetary Weight; Writing and Argument; Accessibility (level 1 starts in F1).
+
+F1 "Histories of making": threshold concept "design history is a web with obscured strands, not a line". Its Atlas has nodes and groupings; the canon register (IDs to cite) is at /tmp/claude-0/-home-claude/76042139-a9b9-5b20-8cec-5583346d0a7e/scratchpad/f1-scope/canon/canon_*.csv (4,228 rows: CIV civilisation names, ARC cultures, HOR horizons, POL polities, DYN dynasties, BEL beliefs, MOV/STY/SCH movements, styles, schools, MKR/INS/EVT makers, institutions, exhibitions, NET/ISP/DIA networks, TEC techniques, MAT materials, OBT object types, PRA living practices, INV first-known claims, COM communities, PER people, PLC places, OCC events, PRD periods, GAP round-2 additions). Primary texts: canon/primary_texts.csv (TXT ids). Existing verified objects: /tmp/claude-0/-home-claude/76042139-a9b9-5b20-8cec-5583346d0a7e/scratchpad/register/world_set_v0.csv (WS ids) and claims_v0.csv (CL ids). Grep them.
+
+## The exemplar format (F1.17, already approved as the standard) — a table with these rows, in this order
+Essential question · Opening move (with a claim and counter-claim or the prediction/object that opens it, and one case) · Lab or main interactive · Concept (length in words and what it covers) · Cases (usually three, one object story each) · Apply — maker · Apply — briefer · Partner (the voice, its question, and the test it ends with) · Forms (numbers) · Consumption forms (Five-minute · Session · Reference) · Media · Artifact fields · Threads · Closing contribution (one line in the sources record) · Claims sheet.
+
+## Template v3 additions (write each as its own section after the table)
+1. **Responsibility block.** Which canon groupings, object types, sub-regions and periods this unit must reach (canon IDs), and which the Atlas carries instead. Thematic units must reach at least four of the nine world chapters (F1.6 Africa, F1.7 Americas, F1.8 East Asia, F1.9 South and Southeast Asia, F1.9a West Asia before Islam, F1.10 Islamic world, F1.11 Europe and the Mediterranean, F1.12 Australia and the Pacific, F1.12a steppe and Central Asia) with a case or example — say which.
+2. **Protocol screen.** Never human remains, sacred or secret material, or anything a descendant community asks not to show; other grave goods and altar objects only with origin and a content note; a Notice on every Indigenous community's material; people never described as goods.
+3. **Claims (12–20).** Each: the claim in plain words; confidence (documented / probable / contested — give both readings / interpretive); the source you actually opened (URL); how deep that source goes (full text / abstract / summary). Declare the unit's own framing as an interpretive claim. "Earliest known", never "first".
+4. **Nodes.** For each case and claim, the canon IDs that carry it; propose new canon rows (name, kind) where a node is missing.
+5. **Candidate open objects (3–6).** Real records you verified at source: holder, accession, date range, licence as the holder states it (only CC0, public domain, CC BY, CC BY-SA, KOGL Type 1 count as open), 1970 provenance status where archaeological ("n/a" for decorative or signed modern work), record URL. The Met's search filter returns non-public-domain records: check `isPublicDomain` on each record. If no open object exists, say so and propose a drawing of our own, a living practice or a link out.
+6. **People and credit.** Named makers where the record allows; who the credit leaves out.
+7. **Visual plan (zero cost).** For each form, where its images come from: open record, national licence, attribution licence, our own drawing, map or diagram, or link out. No generated images of historical objects, people or places.
+8. **Success criteria.** Three observable criteria, none taking a side in a live debate.
+9. **Readings and risks.** What the Historian pre-read (pack v2) should check; sensitive steps to hold until a reader clears them.
+10. **Fact-check list.** Every row a checker must confirm at source before G3 (R1/R2 canon rows used, living people, endonyms, UNESCO claims, licences).
+
+## Writing standard (apply to all prose)
+Start from the object, place or person. First sentence of a paragraph ≤ 16 words; sentences under 25 words. Say who made it, even unnamed. Dates as ranges with the source's qualifier. Confidence in the words. Name violence plainly; perpetrators' terms in quotation marks and attributed. Community's own name first. Never "primitive", "tribal", "lost civilisation", "exotic", "mysterious", "discovered" (for places people knew), and no AI filler ("rich tapestry", "testament to", "stands as"). Admit what is not known. Plain words, no adjectives of praise.
+
+## Rules
+- Zero cost: only free sources; images only where the licence allows reuse; everything else linked.
+- Research with WebSearch/WebFetch (the shell cannot reach websites). Museum APIs: Cleveland (openaccess-api.clevelandart.org, add cc0=1), the Met (collectionapi.metmuseum.org), AIC (api.artic.edu). Firecrawl scrape costs the user credits: at most 10 calls.
+- Never invent a URL, accession number or identifier. If you could not verify something, say "not verified".
+- Length: the table plus the ten sections, about 2,000–3,000 words.
+
+## Output
+Save the spec as markdown to /tmp/claude-0/-home-claude/76042139-a9b9-5b20-8cec-5583346d0a7e/scratchpad/f1-scope/specs/<unit>.md (e.g. F1.1.md), starting with `## <unit> <title>` then one lead sentence (the unit's point), then **Spec** (the table), then the ten sections as `**1. Responsibility block**` etc. (bold labels, not headings). Create the folder if missing. Do not edit any other file.

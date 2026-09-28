@@ -1,0 +1,463 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/creative-world/schema/canon-node.schema.json",
+  "title": "Canon node",
+  "description": "One row of the canon register: a named thing the Atlas can point to. Stored as CSV (one file per family), one schema for every kind. Generated from codes.py; do not edit by hand.",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "kind",
+    "world",
+    "tier",
+    "confidence"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(ARC|BEL|CIV|COM|DIA|DYN|EVT|GAP|HOR|INS|INV|ISP|MAT|MKR|MOV|NET|OBT|OCC|PER|PLC|POL|PRA|PRD|SCH|STY|TEC)[0-9]{3}$",
+      "description": "Prefix names the family; see x-prefixes."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The community's own name first where one exists."
+    },
+    "other_names": {
+      "type": "string",
+      "description": "Exonyms, spellings, older names. Several values are separated by semicolons."
+    },
+    "kind": {
+      "enum": [
+        "archaeological-culture",
+        "belief-tradition",
+        "civilisation-as-commonly-named",
+        "community",
+        "diaspora",
+        "dynasty",
+        "event",
+        "first-known",
+        "horizon",
+        "institution",
+        "interaction-sphere",
+        "living-practice",
+        "maker-community",
+        "material",
+        "movement",
+        "network",
+        "object-type",
+        "period",
+        "person",
+        "place",
+        "polity",
+        "school",
+        "style",
+        "technique"
+      ]
+    },
+    "family": {
+      "type": "string",
+      "description": "Grouping family within the kind (e.g. 'Andes', 'porcelain')."
+    },
+    "world": {
+      "enum": [
+        "F1.10",
+        "F1.11",
+        "F1.12",
+        "F1.12a",
+        "F1.13",
+        "F1.6",
+        "F1.7",
+        "F1.8",
+        "F1.9",
+        "F1.9a",
+        "THEME"
+      ],
+      "description": "The F1 world chapter that carries the node, or THEME."
+    },
+    "sub_regions": {
+      "type": "string",
+      "description": "Codes from x-sub-regions. Several values are separated by semicolons."
+    },
+    "start": {
+      "type": [
+        "integer",
+        "string"
+      ],
+      "description": "Signed year, BCE negative; empty if unknown."
+    },
+    "end": {
+      "type": [
+        "integer",
+        "string"
+      ],
+      "description": "Signed year; empty for ongoing."
+    },
+    "date_note": {
+      "type": "string",
+      "description": "The source's own qualifier: 'about', 'by', 'contested'."
+    },
+    "making_significance": {
+      "type": "string",
+      "description": "Why it matters for making, one or two sentences."
+    },
+    "materials_techniques": {
+      "type": "string",
+      "description": "Several values are separated by semicolons."
+    },
+    "object_types": {
+      "type": "string",
+      "description": "Several values are separated by semicolons."
+    },
+    "functions": {
+      "type": "string",
+      "description": "From x-functions. Several values are separated by semicolons."
+    },
+    "defined_by": {
+      "type": "string",
+      "description": "Who drew the grouping, and when (a period or label is a definition by a source)."
+    },
+    "leaves_out": {
+      "type": "string",
+      "description": "What the name or grouping leaves out. Required for civilisations, polities and movements."
+    },
+    "sensitivity": {
+      "type": "string",
+      "description": "From x-sensitivity. Several values are separated by semicolons."
+    },
+    "free_sources": {
+      "type": "string",
+      "description": "Zero-cost routes to read or show it. Several values are separated by semicolons."
+    },
+    "tier": {
+      "enum": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "description": "R1 walk; R2 card with member grid; R3 card with link."
+    },
+    "units": {
+      "type": "string",
+      "description": "Units that use it, e.g. F1.6; F1.14. Several values are separated by semicolons."
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "low",
+        "medium"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "enum": [
+              "civilisation-as-commonly-named",
+              "polity",
+              "movement"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "leaves_out"
+        ],
+        "properties": {
+          "leaves_out": {
+            "minLength": 1
+          }
+        }
+      }
+    }
+  ],
+  "x-column-order": [
+    "id",
+    "name",
+    "other_names",
+    "kind",
+    "family",
+    "world",
+    "sub_regions",
+    "start",
+    "end",
+    "date_note",
+    "making_significance",
+    "materials_techniques",
+    "object_types",
+    "functions",
+    "defined_by",
+    "leaves_out",
+    "sensitivity",
+    "free_sources",
+    "tier",
+    "units",
+    "confidence",
+    "notes"
+  ],
+  "x-prefixes": {
+    "CIV": [
+      "civilisation-as-commonly-named"
+    ],
+    "ARC": [
+      "archaeological-culture"
+    ],
+    "HOR": [
+      "horizon"
+    ],
+    "ISP": [
+      "interaction-sphere"
+    ],
+    "POL": [
+      "polity"
+    ],
+    "DYN": [
+      "dynasty"
+    ],
+    "BEL": [
+      "belief-tradition"
+    ],
+    "MOV": [
+      "movement"
+    ],
+    "STY": [
+      "style"
+    ],
+    "SCH": [
+      "school"
+    ],
+    "MKR": [
+      "maker-community"
+    ],
+    "INS": [
+      "institution"
+    ],
+    "EVT": [
+      "event"
+    ],
+    "OCC": [
+      "event"
+    ],
+    "NET": [
+      "network"
+    ],
+    "DIA": [
+      "diaspora"
+    ],
+    "TEC": [
+      "technique"
+    ],
+    "MAT": [
+      "material"
+    ],
+    "OBT": [
+      "object-type"
+    ],
+    "PRA": [
+      "living-practice"
+    ],
+    "INV": [
+      "first-known"
+    ],
+    "COM": [
+      "community"
+    ],
+    "PER": [
+      "person"
+    ],
+    "PLC": [
+      "place"
+    ],
+    "PRD": [
+      "period"
+    ],
+    "GAP": [
+      "event",
+      "institution",
+      "maker-community",
+      "movement",
+      "network",
+      "object-type",
+      "style",
+      "technique"
+    ]
+  },
+  "x-sub-regions": {
+    "AF-EGY": "Egypt",
+    "AF-NUB": "Nubia and Sudan",
+    "AF-MAG": "Maghrib",
+    "AF-SAH": "Sahel and Western Sudan",
+    "AF-GUI": "Guinea Coast",
+    "AF-CEN": "Central Africa",
+    "AF-HRN": "Ethiopia and the Horn",
+    "AF-SWA": "Swahili coast and East African interior",
+    "AF-SOU": "Southern Africa",
+    "AF-MAD": "Madagascar and Indian Ocean islands",
+    "AM-ARC": "Arctic",
+    "AM-NWC": "Northwest Coast",
+    "AM-WST": "North American West",
+    "AM-EWD": "Eastern Woodlands",
+    "AM-MES": "Mesoamerica",
+    "AM-CAM": "Central America",
+    "AM-CAR": "Caribbean",
+    "AM-AND": "Andes and Pacific coast",
+    "AM-AMZ": "Amazonia and lowland South America",
+    "AM-LAT": "Colonial and modern Latin America",
+    "AS-CHN": "China",
+    "AS-KOR": "Korea",
+    "AS-JPN": "Japan",
+    "AS-SAS": "South Asia",
+    "AS-HIM": "Himalaya and Tibet",
+    "AS-MSE": "Mainland Southeast Asia",
+    "AS-ISE": "Island Southeast Asia",
+    "AS-CEN": "Central Asia and the steppe",
+    "AS-NTH": "North Asia and Siberia",
+    "WA-MES": "Mesopotamia",
+    "WA-IRN": "Iran",
+    "WA-LEV": "Levant",
+    "WA-ARB": "Arabia and the Gulf",
+    "WA-ANA": "Anatolia",
+    "WA-CAU": "Caucasus",
+    "EU-GRR": "Greek and Roman Mediterranean",
+    "EU-BYZ": "Byzantium and the Balkans",
+    "EU-WCE": "Western and Central Europe",
+    "EU-BLC": "Britain, Ireland and the Low Countries",
+    "EU-IBE": "Iberia",
+    "EU-EER": "Eastern Europe and Russia",
+    "EU-SCA": "Scandinavia, the Baltic and Sapmi",
+    "OC-AUS": "Australia",
+    "OC-MEL": "Melanesia",
+    "OC-MIC": "Micronesia",
+    "OC-POL": "Polynesia",
+    "GL": "Global or many"
+  },
+  "x-period-bands": [
+    {
+      "code": "B01",
+      "label": "before 8000 BCE",
+      "start": -10000000,
+      "end": -8000
+    },
+    {
+      "code": "B02",
+      "label": "8000-4000 BCE",
+      "start": -8000,
+      "end": -4000
+    },
+    {
+      "code": "B03",
+      "label": "4000-2000 BCE",
+      "start": -4000,
+      "end": -2000
+    },
+    {
+      "code": "B04",
+      "label": "2000-1000 BCE",
+      "start": -2000,
+      "end": -1000
+    },
+    {
+      "code": "B05",
+      "label": "1000 BCE-1 CE",
+      "start": -1000,
+      "end": 1
+    },
+    {
+      "code": "B06",
+      "label": "1-500",
+      "start": 1,
+      "end": 500
+    },
+    {
+      "code": "B07",
+      "label": "500-1000",
+      "start": 500,
+      "end": 1000
+    },
+    {
+      "code": "B08",
+      "label": "1000-1400",
+      "start": 1000,
+      "end": 1400
+    },
+    {
+      "code": "B09",
+      "label": "1400-1700",
+      "start": 1400,
+      "end": 1700
+    },
+    {
+      "code": "B10",
+      "label": "1700-1900",
+      "start": 1700,
+      "end": 1900
+    },
+    {
+      "code": "B11",
+      "label": "1900-now",
+      "start": 1900,
+      "end": 3000
+    }
+  ],
+  "x-functions": [
+    "care and access",
+    "clothing and adornment",
+    "exchange and value",
+    "food and storage",
+    "play and music",
+    "record and writing",
+    "ritual and belief",
+    "rule and display",
+    "shelter",
+    "tools",
+    "transport",
+    "war"
+  ],
+  "x-sensitivity": [
+    "Indigenous-community",
+    "ancestral",
+    "conflict-looting",
+    "funerary",
+    "human-flow",
+    "living-community",
+    "none",
+    "sacred"
+  ],
+  "x-banned-phrases": [
+    "primitive",
+    "tribal",
+    "lost civilisation",
+    "lost civilization",
+    "exotic",
+    "mysterious",
+    "rich tapestry",
+    "testament to",
+    "stands as a",
+    "ancient wisdom",
+    "iconic",
+    "stunning"
+  ],
+  "x-coercion-words": [
+    "enslaved",
+    "slavery",
+    "slave ",
+    "slaves",
+    "forced labour",
+    "forced labor",
+    "indentured",
+    "corvée",
+    "corvee",
+    "convict labour",
+    "coerced",
+    "trafficked",
+    "trafficking",
+    "captive"
+  ]
+}

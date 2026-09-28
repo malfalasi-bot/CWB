@@ -1,0 +1,46 @@
+{
+  "description": "The licence switch (decision Q39). Every asset carries one class; one dataset makes two builds. Implemented in modules/F1-histories-of-making/atlas/tools/licence_class.py.",
+  "classes": [
+    {
+      "code": "PD-CC0",
+      "meaning": "Public domain, CC0 or 'no known copyright' as the holder states it",
+      "open_build": "host",
+      "commercial_build": "host"
+    },
+    {
+      "code": "NATIONAL-OPEN",
+      "meaning": "A national open licence: KOGL Type 1, Japan Government Standard Terms and similar",
+      "open_build": "host",
+      "commercial_build": "host"
+    },
+    {
+      "code": "ATTRIBUTION",
+      "meaning": "CC BY or CC BY-SA; credit required",
+      "open_build": "host",
+      "commercial_build": "host"
+    },
+    {
+      "code": "OWN",
+      "meaning": "Our own drawing, diagram, map, photograph or translation",
+      "open_build": "host",
+      "commercial_build": "host"
+    },
+    {
+      "code": "PERMISSION-NC",
+      "meaning": "Non-commercial licence or permission-only; hostable only with a holder's free educational grant",
+      "open_build": "host if granted, else link",
+      "commercial_build": "link; use the recorded fallback"
+    },
+    {
+      "code": "LINK-ONLY",
+      "meaning": "In copyright, ND, unclear or restricted by the holder's own rules",
+      "open_build": "link",
+      "commercial_build": "link"
+    }
+  ],
+  "rules": [
+    "An old date or an anonymous maker proves nothing: the licence is read per record from the holder.",
+    "Every PERMISSION-NC item records a fallback (another object, our own drawing, a living practice or a link).",
+    "No generated images of historical objects, people or places, in any class (Q32)."
+  ]
+}

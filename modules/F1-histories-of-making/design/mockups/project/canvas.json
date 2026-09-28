@@ -1,0 +1,126 @@
+{
+  "v": 3,
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-09-28T03:10:00Z"
+  },
+  "title": "F1 Mockups — Histories of making",
+  "launch": {
+    "view": "canvas"
+  },
+  "pages": [],
+  "boards": {
+    "Main.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 900,
+      "title": "A · One object — desk (F1.1), surfaces v2"
+    },
+    "A-Phone.dc.html": {
+      "x": 1520,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "A · One object — phone, five-minute form"
+    },
+    "B-Desk.dc.html": {
+      "x": 0,
+      "y": 1320,
+      "w": 1440,
+      "h": 900,
+      "title": "B · World chapter — desk (F1.6 Africa)"
+    },
+    "B-Phone.dc.html": {
+      "x": 1520,
+      "y": 1320,
+      "w": 390,
+      "h": 844,
+      "title": "B · World chapter — phone, linear walk"
+    },
+    "C-Desk.dc.html": {
+      "x": 0,
+      "y": 2640,
+      "w": 1440,
+      "h": 900,
+      "title": "C · Network — desk (F1.13)"
+    },
+    "C-Phone.dc.html": {
+      "x": 1520,
+      "y": 2640,
+      "w": 390,
+      "h": 844,
+      "title": "C · Network — phone, tap-through stops"
+    },
+    "Language.dc.html": {
+      "x": 0,
+      "y": 5280,
+      "w": 1440,
+      "h": 900,
+      "title": "Design language — archive-warm"
+    },
+    "D-Desk.dc.html": {
+      "x": 0,
+      "y": 3960,
+      "w": 1440,
+      "h": 900,
+      "title": "D · Grouping page — desk (Mingei, a movement)"
+    },
+    "D-Phone.dc.html": {
+      "x": 1520,
+      "y": 3960,
+      "w": 390,
+      "h": 844,
+      "title": "D · Grouping page — phone (Nok, an archaeological culture)"
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "A-Phone.dc.html",
+    "B-Desk.dc.html",
+    "B-Phone.dc.html",
+    "C-Desk.dc.html",
+    "C-Phone.dc.html",
+    "D-Desk.dc.html",
+    "D-Phone.dc.html",
+    "Language.dc.html"
+  ],
+  "notes": {
+    "rowA": {
+      "x": 0,
+      "y": -300,
+      "text": "A · The one-object unit",
+      "kind": "title1",
+      "maxW": 1910
+    },
+    "rowB": {
+      "x": 0,
+      "y": 1020,
+      "text": "B · The world chapter",
+      "kind": "title1",
+      "maxW": 1910
+    },
+    "rowC": {
+      "x": 0,
+      "y": 2340,
+      "text": "C · The network unit",
+      "kind": "title1",
+      "maxW": 1910
+    },
+    "rowD": {
+      "x": 0,
+      "y": 3660,
+      "text": "D · The grouping page",
+      "kind": "title1",
+      "maxW": 1910
+    },
+    "rowE": {
+      "x": 0,
+      "y": 4980,
+      "text": "Design language",
+      "kind": "title1",
+      "maxW": 1910
+    }
+  },
+  "designSystems": []
+}

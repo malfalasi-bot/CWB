@@ -1,0 +1,126 @@
+## F1.14 Copying, transfer and counterfeit
+
+Copying is how making has always travelled; it turns into theft when a mark lies, a market is taken without return, or nothing new is made, and who draws that line has changed with every century.
+
+**Spec**
+
+| Row | Content |
+|---|---|
+| Essential question | When does a copy make something new, and when does it take what belongs to another maker? |
+| Opening move | **Object first (form 5).** Two sheets side by side, unlabelled. Left: Albrecht Dürer's woodcut *The Presentation of Christ in the Temple*, c. 1505, published 1511 (AIC 1927.2897). Right: Marcantonio Raimondi's engraved copy (Met 17.3.3311). Prompt: "One is a copy. What changed, and what was kept?" Reveal, then Vasari (1568): Marcantonio copied the series "and having added the signature used by Albert", the prints were "bought and sold" as Dürer's. **Claim:** Marcantonio stole Dürer's work. **Counter-claim:** copying Dürer was ordinary training and trade; in Vasari's telling, Venice forbade the monogram, not the picture. **Case:** this pair (case A). |
+| Lab or main interactive | **Three layers.** A before/after slider for each case pair. Learners tag differences on three layers: *image* (what is shown), *medium* (woodblock to copperplate, porcelain to tin-glazed earthenware, painted cotton to printed fustian) and *mark* (monogram, factory mark, origin label). Then one question per pair: "Which layer did the people at the time fight over?" The answer comes from the source, not from the learner's view. |
+| Concept | About 600 words. (1) Copying as an engine: Roman workshops copied Greek statues from plaster casts; Delft, Iznik, Meissen and Lancashire all began by copying. (2) Transfer runs every way: Chinese potters made European shapes from wooden models and even copied a Delft factory mark. Indian painters made chintz for Japanese, Sri Lankan and European buyers. (3) Three lines where copying became a wrong: a false mark (Dürer's AD, "Sheffield" on German knives), a protected market (Calico Acts 1700, 1721), and taking without transformation. (4) The line is drawn by someone: a Venetian court in Vasari's story, an emperor's privilege, Parliament, an occupying army, a customs office. (5) The newest version: generative AI trained on makers' work, with both readings and no ruling. Forward to F1.2 (the plane), F1.24 (fakes and authentication), F1.21, F1.23 and R2 (rights). |
+| Cases | Three object stories (form 3). **A. Dürer and Marcantonio,** Nuremberg and Venice, c. 1505–1511: woodcut and engraved copy, the monogram, Vasari's account and its doubters. **B. Blue-and-white, both ways,** 1320s–1720s: a Jingdezhen jar (Cleveland 1962.154), an Iznik dish adapting a Ming design (Met 14.40.727), a Delft plate (Cleveland 1969.254) and English delftware (Cleveland 1986.31); then Chinese potters copying European shapes and a Delft mark. Meissen (1708–10) closes the case as the reinvention of the material. **C. Chintz and the Calico Acts,** Coromandel Coast and London, 1700–1775: an Indian palampore (Met 2010.337), the 1721 ban, and a Bromley Hall printed fustian whose foliage "recalls" palampores (Met 1970.237.3). **Examples, not full stories:** Roman marble copies of Greek bronzes; the Merchandise Marks Act 1887; "Made in Occupied Japan" (1947); luxury counterfeits today; generative AI training data. |
+| Apply — maker | **The copy in your references** (decided v3.5; forward to F2.13). Pick one reference you are copying from. In SRC, record the source (maker, holder, licence) and then the transformation you made: medium, scale, purpose, what you added. Write about the change, not the taking. In RGT, note whether the licence allows your use. |
+| Apply — briefer | **The clause the original commission needed.** Choose case A, B or C. Draft the clause the commissioner could have written: who may copy the design, whether the maker's mark may travel with it, credit, territory and term. Then name one party your clause leaves out (the block cutter, the Coromandel painter, the Jingdezhen decorator). Write it into RGT. |
+| Partner | **Historian.** Agenda: every claim of theft has a witness, and witnesses have interests. Question: "Who told you this copy was a theft, when did they write, and who gained from saying so?" It does not rule on AI training. Test: *"For one case, name the witness (Vasari 1568, Parliament 1721, SCAP 1947, a court in 2025), the years between event and account, and one maker the account leaves out."* |
+| Forms | 5, 3 |
+| Consumption forms | Five-minute: the Dürer/Marcantonio pair and the question "Which was forbidden, the picture or the monogram?" Session: opening, lab across three pairs, concept, three stories, apply, Historian test. Reference: a "who drew the line" table: date, place, rule-maker, what it protected, whom it left out (1474 to 2025). |
+| Media | Open images from AIC (public domain), the Met (public domain, checked per record) and Cleveland (CC0); our own diagram of the blue-and-white chain and a map of routes; text cards quoting Vasari (public-domain translation), SCAPIN-1535 and the 1887 customs guidance; link-outs for the OECD report, the US Copyright Office report and the UK judgment. |
+| Artifact fields | SRC, RGT |
+| Threads | Attribution and Authority (the monogram, factory marks, who is credited); Writing and Argument (claim and counter-claim, stating both AI readings); Accessibility level 1 (slider works by keyboard; each pair has alt text naming the differences in words). |
+| Closing contribution | One SRC line: "Copy note: [source, holder, licence] → [what I changed: medium, scale, purpose, addition] → [credit given; mark not reused]." |
+| Claims sheet | Claims 1–20 below. |
+
+**1. Responsibility block**
+
+- **Groupings and types this unit must reach:** TEC032 tin-opacified glaze; TEC035 porcelain making; TEC037 underglaze cobalt blue; TEC120 Kalamkari; TEC189 woodblock printing; TEC193 intaglio printmaking; INV031 porcelain; INV032 hard-paste porcelain (Europe); OBT071 blue-and-white jar; OBT211 logo/trademark; NET054 porcelain trade; NET055 Indian cotton textile trade; STY029 Chinoiserie; MKR069 Meissen; MKR071 Delft potteries; MKR057 Iznik potteries; MKR049 Kalamkari workshops; OCC090 and OCC093 Calico Acts; OCC167 Merchandise Marks Act; GAP029 generative models.
+- **Law rows as the "who drew the line" spine:** OCC048 (1474), OCC092 (1710), OCC096 (1735), OCC107 (1787), OCC161 (1883), OCC259 (1994), OCC088 (French ban 1686–1759).
+- **Sub-regions and periods:** EU-GRR, 1st c. BCE–2nd c. CE; EU-WCE, 1500–1530; AS-CHN, WA-ANA, EU-BLC, 1320s–1720s; EU-WCE (Saxony), 1701–1719; AS-SAS (Coromandel) and EU-BLC, 1700–1775; EU-BLC, 1887; AS-JPN, 1947–1952; global, 2021–2025.
+- **World chapters with a case or example:** F1.11 Europe (A, B, C, Roman example); F1.8 East Asia (B, Occupied Japan); F1.9 South and Southeast Asia (C); F1.10 Islamic world (B, Iznik dish). Four with objects. F1.7 Americas as a named example only: Puebla talavera adapting Chinese blue-and-white (PLC175); no object verified.
+- **Carried by the Atlas instead:** Dutch wax print for West African markets (OBT043, TEC129); Arita and Kakiemon (MKR040, PER201, OCC080); Korean potters taken to Japan (DIA012); Arretine stamps (PLC319); cylinder seals as marks (OBT125); Aboriginal art copyright and the Carpets case (OCC258, with Notice, in R2); Indian Arts and Crafts Act (OCC253, F1.7 and R2). Fakes and authentication belong to F1.24.
+
+**2. Protocol screen**
+
+- No human remains, sacred or secret material, or grave goods in any case. The religious prints in case A are devotional images sold on the market, not altar objects.
+- No Indigenous community's material in the three cases. If a teacher adds OCC258 or OCC253, it carries a Notice and goes through R2.
+- **Böttger (case B):** say plainly that Augustus the Strong held him under guard for years to make gold, then porcelain.
+- **Roman example:** if the Sack of Corinth (OCC013) is named, say that Roman troops enslaved and sold Corinthians. They are people, not part of the loot.
+- **Case C:** the Company's control of Bengal weavers after 1757 (OCC100) is named as coercion, with the canon's note that its degree is debated.
+- **Counterfeits:** no images of branded counterfeit goods or real logos. Use our own drawing of an invented mark.
+
+**3. Claims**
+
+| # | Claim | Confidence | Source opened | Depth |
+|---|---|---|---|---|
+| 1 | Vasari (1568) wrote that Marcantonio copied Dürer's woodcuts on copper, added "A. D.", and the copies were sold as Dürer's. Dürer complained to the Signoria and got only an order that Marcantonio stop using the monogram. | documented (as Vasari's account) | https://en.wikisource.org/wiki/Lives_of_the_Most_Excellent_Painters%2C_Sculptors%2C_and_Architects/Marcantonio_of_Bologna%2C_and_others | full text (passage) |
+| 2 | Whether the Venetian lawsuit happened is contested. Petri (2014) calls Vasari's account "a legend compiled from narrative and factual elements". The Primary Sources on Copyright record calls it plausible, since Marcantonio later replaced the monogram with an empty tablet. | contested — both readings | https://eprints.gla.ac.uk/93131/ ; https://copyrighthistory.org/cam/tools/request/showRecord.php?id=record_i_1568a | abstract; summary |
+| 3 | Dürer's 1511 book edition of the *Life of the Virgin* warned "thieves and imitators of other people's labor" that the images had Maximilian I's imperial privilege. | documented | https://artmuseum.princeton.edu/art/collections/objects/18191 | summary (museum label) |
+| 4 | Dürer's *Presentation of Christ in the Temple* woodcut dates to c. 1505, published 1511; Marcantonio's engraving of the same subject is catalogued "after Dürer". | documented | https://api.artic.edu/api/v1/artworks/43927 ; https://collectionapi.metmuseum.org/public/collection/v1/objects/342707 | full records |
+| 5 | Marcantonio went on to engrave many designs "after Raphael", spreading them in print. | documented | https://api.artic.edu/api/v1/artworks/search?q=Marcantonio%20Raimondi%20Durer (e.g. AIC 1919.2553) | full records |
+| 6 | Roman workshops made plaster casts from moulds of Greek originals and copied them in marble or bronze; marble copies needed struts. Copies were valued, not seen as lesser. | documented | https://www.metmuseum.org/essays/roman-copies-of-greek-statues (Met, 2002) | full text |
+| 7 | An Iznik dish of the mid-1500s is, in the Met's words, "an ingenious and highly creative adaptation" of a Ming porcelain design. | documented (holder's framing) | https://www.metmuseum.org/art/collection/search/446648 | full record |
+| 8 | European forms such as mugs and candlesticks were unknown in China, so models were sent to be copied. In 1635 Dutch staff in Taiwan had a turner and painters make wooden models. | documented | https://www.metmuseum.org/toah/hd/ewpor/ho_1984.449.htm ; https://resources.metmuseum.org/resources/metpublications/pdf/Chinese_Export_Porcelain_The_Metropolitan_Museum_of_Art_Bulletin_v_60_no_3_Winter_2003.pdf | full text; full text (excerpts read) |
+| 9 | In 1635 and 1637 the VOC asked for decoration "in the Chinese manner", saying Dutch painting on porcelain was "not considered strange nor rare". | documented | Le Corbeiller 2003, as 8 | full text (excerpts read) |
+| 10 | Delft potters copied Chinese blue-and-white in tin-glazed earthenware, and English potters copied Delft. Production grew as Chinese supply fell after 1644–47. | documented (copying); probable (causal timing) | CL-191 (Cleveland 1969.254, 1986.31); Le Corbeiller 2003, as 8 | register; full text |
+| 11 | Chinese potters copied the "AK" mark of Adrianus Kocx's Delft factory (1686–1701) on porcelain c. 1700. | probable | https://www.aronson.com/east-meets-west/ (dealer) | summary |
+| 12 | Böttger and Tschirnhaus's porcelain date is contested: 1709 (Met); October 1708 (Rinaldi); late 1707, with a lab note of January 1708 (Zumbulyadis 2010). The factory opened in 1710. | contested — give readings | https://www.metmuseum.org/essays/german-and-austrian-porcelain-in-the-eighteenth-century ; https://www.seaceramic.org.sg/wp-content/uploads/European-Discovery-of-Porcelain_Rinaldi.pdf ; Zumbulyadis, "Böttger's eureka!" (URL not verified) | full text; full text; excerpts |
+| 13 | Augustus lent Asian porcelain from his collection to Meissen to be copied. A Chinese sauceboat in Dresden by 1721 was "copied exactly" by Meissen about 1730–35. | documented | https://resources.metmuseum.org/resources/metpublications/pdf/German_Porcelain_of_the_Eighteenth_Century_The_Metropolitan_Museum_of_Art_Bulletin_v_47_no_4_Spring_1990.pdf ; Le Corbeiller 2003, as 8 | full text (excerpts read) |
+| 14 | In 1721 Britain banned wearing most cotton cloth, except muslins and blue calicoes, to protect wool and silk. Printers turned to linen-warp, cotton-weft fustians for the home market. | documented | https://www.lse.ac.uk/Economic-History/Assets/Documents/Research/GEHN/GEHNConferences/conf8/PUNEParthasarathi.pdf ; OCC093 | full text (excerpts read) |
+| 15 | A Bromley Hall copperplate-printed fustian, 1765–75, has foliage that "recalls the multiflowering trees of Indian palampores". | documented (holder's framing) | https://www.metmuseum.org/art/collection/search/229298 | full record |
+| 16 | Coromandel Coast painters made chintz for Japanese, Sri Lankan and European buyers; chintz is both the painter's and the dyer's art. | documented | https://clevelandart.org/art/2003.43 ; https://www.metmuseum.org/art/collection/search/75909 ; https://www.metmuseum.org/perspectives/painting-with-dyes-early-modern-south-asia | full records; full text |
+| 17 | The Merchandise Marks Act 1887 punished false trade descriptions, including origin. Customs guidance named "Sheffield" knives made in Germany as fraud and required "manufactured in Germany". | documented | https://germanhistory-intersections.org/en/germanness/ghis:document-230 ; https://www.lse.ac.uk/Economic-History/Assets/Documents/WorkingPapers/Student-Dissertations/SWP005.pdf | full text (translated document); full text |
+| 18 | SCAPIN-1535 (20 February 1947) ordered every Japanese export article marked "Made in Occupied Japan". | documented | https://jahis.law.nagoya-u.ac.jp/scapindb/docs/scapin-1535 | full text |
+| 19 | Counterfeit and pirated goods were up to 2.3% of world trade in 2021, about USD 467 billion. | documented (estimate from seizure data) | https://www.oecd.org/en/publications/mapping-global-trade-in-fakes-2025_94d3b29f-en.html | summary and report excerpts |
+| 20 | Training generative AI on makers' work: **reading 1**, some training uses may be transformative, and a UK court held (November 2025) that model weights which store no images are not an "infringing copy". **Reading 2**, commercial use of "vast troves" of works to make competing content, "especially where... illegal access", goes beyond fair use (US Copyright Office, May 2025). The unit does not rule. **Unit framing:** copying is a normal engine of making; it becomes a wrong through a false mark, a taken market or no transformation. This framing is interpretive. | contested — both readings; framing interpretive | https://copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-3-Generative-AI-Training-Report-Pre-Publication-Version.pdf ; https://www.judiciary.uk/wp-content/uploads/2025/11/Getty-Images-v-Stability-AI.pdf | report contents and quoted conclusion (via law-firm summary); judgment opening read, holding via CaseMine summary |
+
+**4. Nodes**
+
+- **Case A:** PER392 Dürer, PER393 Marcantonio, PER395 Vasari, TXT005 *Le vite*, MKR066 Nuremberg craft system, POL131 Venice, OCC048, TEC189, TEC193, STY021 Northern Renaissance.
+- **Case B:** PLC192 Jingdezhen, OBT071, TEC037, TEC032, TEC036, MKR057, PLC305 Iznik, MKR071, PLC354, POL238 VOC, NET054, STY029, INS021, PER186 d'Entrecolles and TXT095, MKR069, PLC337, PER402 Böttger, DYN090, INV031, INV032, TEC035, PLC175 (Puebla).
+- **Case C:** NET055, TEC120, MKR049, PLC226 Machilipatnam, OCC090, OCC093, OCC088, OCC107, OCC100, POL238.
+- **Examples:** CIV071, OCC013, GAP067 (Roman and Grand Tour copies); OCC167, OBT211, MKR062 hallmarks; OCC161, OCC259; GAP029.
+- **Proposed new rows:** Bromley Hall Printworks (maker-institution, 1694–1823); Delftware (style, or object-type; not in the style file); Ehrenfried Walther von Tschirnhaus (person); De Grieksche A / Adrianus Kocx (maker); Böttger stoneware (material); Dürer's imperial privilege, 1511 (event); SCAPIN-1535 "Made in Occupied Japan" (event, 1947); Getty Images v Stability AI (event, 2025); US Copyright Office AI training report (event, 2025); Roman cast-and-point copying (technique); fustian as a legal substitute (material).
+
+**5. Candidate open objects**
+
+| Object | Holder, accession | Date | Licence as stated | 1970 status | Record |
+|---|---|---|---|---|---|
+| Albrecht Dürer, *The Presentation of Christ in the Temple*, from *The Life of the Virgin*, woodcut | Art Institute of Chicago, 1927.2897 | c. 1505, published 1511 | Public domain (`is_public_domain: true`) | n/a (signed print) | https://www.artic.edu/artworks/43927 |
+| Marcantonio Raimondi, *The presentation of Jesus to Simeon in the temple, after Dürer*, engraving, second state of two | The Met, 17.3.3311 | ca. 1500–34 | Public domain (`isPublicDomain: true`) | n/a | https://www.metmuseum.org/art/collection/search/342707 |
+| Palampore, India (Coromandel Coast), for the Sri Lankan market | The Met, 2010.337 | 1700–1725 | Public domain (`isPublicDomain: true`) | n/a (decorative) | https://www.metmuseum.org/art/collection/search/75909 |
+| *Piece with pheasants and exotic flowers*, Bromley Hall Printworks, copperplate-printed fustian | The Met, 1970.237.3 | 1765–75 | Public domain (`isPublicDomain: true`) | n/a | https://www.metmuseum.org/art/collection/search/229298 |
+| Dish, Iznik, adapting a Ming design | The Met, 14.40.727 | mid-16th c. | Public domain (`isPublicDomain: true`) | n/a (Altman bequest 1913) | https://www.metmuseum.org/art/collection/search/446648 |
+| Vase, Meissen red stoneware (Böttger period) | Cleveland, 1947.285 | c. 1710–15 | CC0 | n/a | https://clevelandart.org/art/1947.285 |
+
+**The before/after pair** is rows 1 and 2: same subject, both open, two holders. Rows 3 and 4 are a looser pair (motif, not design). Also reused or checked: register WS-020 (Jingdezhen jar, Cleveland 1962.154), WS-083 (Delft plate, 1969.254), WS-084 (English delftware, 1986.31), all CC0; Cleveland 2003.43 (chintz for the Japanese market, CC0); Met 47.63 (Chinese embroidered palampore for Europe or America, public domain). **Not verified:** whether Met 17.3.3311 shows Dürer's AD monogram (check the image). The Meissen vase record does not name a Chinese model, so the Yixing link must come from another source. No open object found for "Made in Occupied Japan", Roman copies or AI; use a link-out or our own drawing.
+
+**6. People and credit**
+
+- **Named:** Albrecht Dürer; Marcantonio Raimondi; Giorgio Vasari; Johann Friedrich Böttger; Ehrenfried Walther von Tschirnhaus; Böttger's assistants Paul Wildenstein and David Köhler (per Zumbulyadis); Adrianus Kocx; Governor Hans Putmans and his unnamed turner and painters in Taiwan; Bromley Hall Printworks.
+- **Left out:** the block cutters who cut Dürer's designs, and Agnes Dürer, who sold the prints (PER392 notes). The Jingdezhen potters and painters, and the Iznik potters, are unnamed in every record used. The Coromandel painters and dyers are unnamed; the Met separates their two skills, but names neither. The women, children and workers at printworks are named only in general (Arnolli, Fries Museum). Makers whose work trained AI models are not named in court records.
+
+**7. Visual plan (zero cost)**
+
+- **Form 5 (before/after):** AIC and Met open images for the Dürer/Marcantonio pair, scaled to match, never altered. Met open images for the palampore and Bromley Hall pair. Cleveland CC0 for Delft beside Jingdezhen.
+- **Form 3 (object stories):** A uses the same open images plus a text card of Vasari (public-domain translation). B uses Cleveland CC0 and Met public-domain images, our own diagram of the copy chain (China → Iran/Anatolia → Delft → England → China), and our own route map. C uses Met and Cleveland images plus a text card of the 1721 Act (link-out to the official text).
+- **Examples:** Roman copies as a link-out to the Met essay. The 1887 customs guidance and SCAPIN-1535 as text cards. Counterfeits and AI as our own drawings of an invented mark, plus link-outs. No generated images of historical objects, people or places.
+
+**8. Success criteria**
+
+1. For one case pair, the learner lists at least one change in image, one in medium and one in mark. They say which layer the dispute was about, citing the source.
+2. The learner's SRC copy note names source, holder and licence, and states the transformation made, in one line.
+3. The learner's RGT clause names who may copy what, the terms for credit and marks, and one party it leaves out. Where the learner mentions AI training, both readings appear with sources; which one they hold is not scored.
+
+**9. Readings and risks**
+
+- **Historian pre-read (pack v2) should check:** that Dürer's complaint is framed as known mainly through Vasari (claims 1–3). Petri 2014 is in German and was read only as an abstract. The Princeton label dates the ruling to 1511 and treats it as fact; that conflicts with claim 2. Also check the Meissen date readings (claim 12); the 1721 exceptions (claim 14); and the Delft causal timing (claim 10).
+- **Balance:** Chinese and Indian makers appear as copyists and adapters, not only as sources. "Chinoiserie" is a European fantasy of China (STY029) and is labelled as one.
+- **Hold until a reader clears:** claim 11 (dealer source; confirm at Groninger Museum MB 149 or another holder). The AI example (claim 20): live litigation, and the Getty appeal status in 2026 is not checked. This spec was drafted with an AI system, so a human reader should check that section for balance. The counterfeit example: no brand names or logos.
+
+**10. Fact-check list**
+
+- Canon rows used: R1 OCC090, NET055, TEC035; R2 OCC088, OCC093, INV031, INV032, TEC032, TEC037, STY029, PER392, OCC259; R3 rows PER393, PER395, OCC107, OCC167, OCC048.
+- OCC107 says "the first design right for patterns"; rephrase as "an early design right".
+- Vasari quotation: confirm against the de Vere text (TXT005) as well as the Foster translation on Wikisource.
+- Met 17.3.3311: presence of the AD monogram; which Dürer sheet it copies.
+- Böttger dates (1707, 1708, 1709); factory 1710; white porcelain on sale from 1713.
+- Calico Act 1721 wording, exceptions and the 1736 Manchester Act on fustians (official legislation text).
+- Author of the LSE GEHN paper (file name says Parthasarathi; metadata differs).
+- Aronson's AK mark claim at a museum holder.
+- SCAPIN-1535 date; relaxation in December 1949 (collectors' sources only).
+- OECD/EUIPO 2025 figures.
+- Getty Images v Stability AI [2025] EWHC 2863 (Ch): the holding in the judgment itself, and appeal status.
+- US Copyright Office Part 3: whether a final version replaced the pre-publication text.
+- Licences: re-check `isPublicDomain` on all Met records, and CC0 on Cleveland, at G3.
+- Living people: none named. Endonyms: Jingdezhen, İznik (Turkish spelling), Machilipatnam.

@@ -1,0 +1,65 @@
+name: Harvest (F1 Atlas)
+
+# Runs monthly, on 2 January (public-domain day: licences re-checked after works enter the public domain),
+# and on demand. It never writes to main directly: it opens a pull request for a person to review.
+on:
+  schedule:
+    - cron: "17 3 1 * *"   # 03:17 UTC on the 1st of each month
+    - cron: "17 4 2 1 *"   # 04:17 UTC on 2 January
+  workflow_dispatch:
+    inputs:
+      candidates_limit:
+        description: "Canon rows to search for open objects this run"
+        default: "60"
+      wikidata_limit:
+        description: "Canon rows to propose Wikidata ids for this run"
+        default: "300"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  harvest:
+    name: F1 Atlas harvest
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    defaults:
+      run:
+        working-directory: modules/F1-histories-of-making/atlas
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Register re-check (licence and 1970 test, record by record)
+        run: python harvest/harvest.py data/register/world_set_v0.csv --out data/harvested/register_check.json
+        continue-on-error: true
+      - name: UNESCO intangible heritage facts
+        run: python harvest/ich.py
+        continue-on-error: true
+      - name: Wikidata id proposals
+        run: python harvest/wikidata_match.py --limit "${{ github.event.inputs.wikidata_limit || '300' }}"
+        continue-on-error: true
+      - name: Open-object candidates for canon groupings
+        run: python harvest/candidates.py --limit "${{ github.event.inputs.candidates_limit || '60' }}"
+        continue-on-error: true
+      - name: Validate and report
+        run: |
+          python tools/validate_canon.py > reports/validation.txt || true
+          python tools/coverage.py
+      - name: Open a pull request with the results
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then echo "Nothing changed."; exit 0; fi
+          BR="harvest/$(date -u +%Y-%m-%d-%H%M)"
+          git config user.name "f1-harvest-bot"
+          git config user.email "f1-harvest-bot@users.noreply.github.com"
+          git checkout -b "$BR"
+          git add -A data reports
+          git commit -m "Harvest $(date -u +%Y-%m-%d): register re-check, UNESCO facts, Wikidata proposals, open-object candidates"
+          git push origin "$BR"
+          gh pr create --base main --head "$BR" \
+            --title "Harvest $(date -u +%Y-%m-%d)" \
+            --body "Automated harvest. Review before merging (paths under modules/F1-histories-of-making/atlas/): data/harvested/register_check.json (review list), reports/ich_matches.md, data/matches/wikidata_candidates.csv, data/harvested/objects.json, reports/coverage.md, reports/validation.txt. Nothing here is accepted until a person merges it."

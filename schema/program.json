@@ -1,0 +1,271 @@
+{
+  "name": "Creative World",
+  "description": "A self-paced design-education program on world-building for makers and the people who brief them. Two lanes in every unit (Maker, Briefer); three depths (Orientation, Practice, Mastery); every learner builds one artifact, the Concept DNA.",
+  "source": "Master Structure v2.1 (docs/01-structure/master-structure-v2.1-pass-1) and Final Structure v3.0; F1 at structure v3.6 per the Program Hub",
+  "lanes": {
+    "M": "Maker",
+    "B": "Briefer"
+  },
+  "depths": {
+    "O": "Orientation",
+    "P": "Practice",
+    "M": "Mastery"
+  },
+  "routes": [
+    "Maker",
+    "Briefer",
+    "Founder",
+    "Student"
+  ],
+  "gates": {
+    "G1": "Structure approved (passed 2026-09-28)",
+    "G2": "Experience design: Atlas logic and mockups",
+    "G3": "Unit specs and data fact-checked"
+  },
+  "levels": [
+    {
+      "level": 0,
+      "name": "Orientation",
+      "modules": [
+        {
+          "code": "O1",
+          "title": "How to see",
+          "units": 4
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Foundations",
+      "modules": [
+        {
+          "code": "F1",
+          "title": "Histories of making",
+          "units": 35,
+          "version": "v3.6",
+          "status": "phase 4: specs batch 1 done",
+          "folder": "modules/F1-histories-of-making"
+        },
+        {
+          "code": "F2",
+          "title": "Form",
+          "units": 15
+        },
+        {
+          "code": "F3",
+          "title": "Body and senses",
+          "units": 13
+        },
+        {
+          "code": "F4",
+          "title": "Material and meaning",
+          "units": 14
+        },
+        {
+          "code": "F5",
+          "title": "Systems and consequences",
+          "units": 11
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Method",
+      "modules": [
+        {
+          "code": "M1",
+          "title": "Research and premise",
+          "units": 16
+        },
+        {
+          "code": "M2",
+          "title": "Concept DNA",
+          "units": 20
+        },
+        {
+          "code": "M3",
+          "title": "World architecture",
+          "units": 10
+        },
+        {
+          "code": "M4",
+          "title": "Make and test",
+          "units": 12
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Practice areas",
+      "modules": [
+        {
+          "code": "S1",
+          "title": "Space and experience",
+          "units": 34
+        },
+        {
+          "code": "S2",
+          "title": "Object and product",
+          "units": 40
+        },
+        {
+          "code": "S3",
+          "title": "Body and wearables",
+          "units": 46
+        },
+        {
+          "code": "S4",
+          "title": "Art and installation",
+          "units": 37
+        },
+        {
+          "code": "S5",
+          "title": "Identity and communication",
+          "units": 24
+        },
+        {
+          "code": "S6",
+          "title": "Digital product and interface",
+          "units": 20
+        }
+      ]
+    },
+    {
+      "level": "T",
+      "name": "Tools",
+      "modules": [
+        {
+          "code": "T1",
+          "title": "Seeing and drawing",
+          "units": 5
+        },
+        {
+          "code": "T2",
+          "title": "Parametric thinking",
+          "units": 5
+        },
+        {
+          "code": "T3",
+          "title": "Working with AI",
+          "units": 5
+        },
+        {
+          "code": "T4",
+          "title": "Simulation and interface",
+          "units": 5
+        },
+        {
+          "code": "T5",
+          "title": "Honest evidence",
+          "units": 4
+        },
+        {
+          "code": "T6",
+          "title": "Reality capture",
+          "units": 3
+        },
+        {
+          "code": "T7",
+          "title": "Data visualisation",
+          "units": 4
+        },
+        {
+          "code": "T8",
+          "title": "Physical computing",
+          "units": 4
+        },
+        {
+          "code": "T9",
+          "title": "Environmental analytics",
+          "units": 2
+        },
+        {
+          "code": "T10",
+          "title": "Fabrication",
+          "units": 3
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Venture and release",
+      "modules": [
+        {
+          "code": "R1",
+          "title": "The world as venture",
+          "units": 12
+        },
+        {
+          "code": "R2",
+          "title": "Money, law and rights",
+          "units": 11
+        },
+        {
+          "code": "R3",
+          "title": "Making it real",
+          "units": 12
+        },
+        {
+          "code": "R4",
+          "title": "Responsibility",
+          "units": 8
+        },
+        {
+          "code": "R5",
+          "title": "Defence and dossier",
+          "units": 9
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "name": "Planetary Weight",
+      "owner": "Planetary Ledger"
+    },
+    {
+      "name": "Handover Grammar",
+      "owner": "Handover Auditor"
+    },
+    {
+      "name": "Attribution and Authority",
+      "owner": "Historian voice"
+    },
+    {
+      "name": "Accessibility",
+      "owner": "Accessibility Checker"
+    },
+    {
+      "name": "Writing and Argument",
+      "owner": "Defence Room"
+    },
+    {
+      "name": "AI Collaboration",
+      "owner": "Stranger Lab"
+    }
+  ],
+  "partner_voices": {
+    "Historian": "records keep the names of those who ordered, paid or signed; asks who drew the line and when",
+    "Mirror": "reflects the learner's own choices back; never tells them they are wrong",
+    "Client": "speaks for the commissioner's constraints",
+    "Fabricator": "speaks for the maker, material and process",
+    "Planet": "speaks for planetary weight",
+    "Stranger": "speaks for the user or community outside the brief"
+  },
+  "presentation_forms": {
+    "1": "scrollytelling",
+    "2": "step-through",
+    "3": "object story",
+    "4": "explorable",
+    "5": "before/after",
+    "7": "video",
+    "8": "audio",
+    "10": "comparison wall",
+    "11": "timeline scrub",
+    "12": "map",
+    "13": "argument card",
+    "14": "sequential illustration",
+    "15": "prediction prompt"
+  },
+  "notes": "Unit counts are from Master Structure v2.1 except F1 (v3.6 per the Hub). Threads are from Final Structure v3.0, 'The six threads'. Partner-voice agendas are one-line summaries; the voice packs are authoritative (only the Historian pack exists so far)."
+}

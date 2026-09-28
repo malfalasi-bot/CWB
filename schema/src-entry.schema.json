@@ -1,0 +1,278 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/creative-world/schema/src-entry.schema.json",
+  "title": "Sources record (SRC) entry",
+  "description": "The learner's own record of one thing their world draws on. Grows with depth: nine fields at Orientation, thirteen at Practice, sixteen at Mastery (Phase 4 Foundations, option C). Borrows RightsStatements.org, Local Contexts, Oral History Association practice, Getty/Pleiades/Wikidata and Dublin Core.",
+  "type": "object",
+  "required": [
+    "id",
+    "what",
+    "title",
+    "made_by",
+    "when",
+    "where",
+    "found_at",
+    "rights",
+    "relation",
+    "consultation"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "what": {
+      "enum": [
+        "object",
+        "text",
+        "image",
+        "recording",
+        "practice",
+        "person-or-interview",
+        "dataset",
+        "site"
+      ],
+      "x-depth": "O"
+    },
+    "title": {
+      "type": "string",
+      "x-depth": "O"
+    },
+    "made_by": {
+      "type": "object",
+      "x-depth": "O",
+      "description": "Named maker, unnamed workshop, community (its own name for itself first), institution",
+      "properties": {
+        "kind": {
+          "enum": [
+            "named-maker",
+            "unnamed-workshop",
+            "community",
+            "institution",
+            "not-known"
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "own_name": {
+          "type": "string"
+        }
+      }
+    },
+    "when": {
+      "type": "object",
+      "x-depth": "O",
+      "properties": {
+        "earliest": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "latest": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "as_written": {
+          "type": "string"
+        }
+      }
+    },
+    "where": {
+      "type": "object",
+      "x-depth": "O",
+      "properties": {
+        "historical_name": {
+          "type": "string"
+        },
+        "modern_name": {
+          "type": "string"
+        },
+        "identifier": {
+          "type": "string",
+          "description": "Pleiades, Getty TGN or Wikidata id, from a harvest, never typed"
+        }
+      }
+    },
+    "found_at": {
+      "type": "string",
+      "x-depth": "O",
+      "description": "Link, accession number, DOI or Wikidata id"
+    },
+    "rights": {
+      "type": "object",
+      "x-depth": "O",
+      "required": [
+        "statement",
+        "checked"
+      ],
+      "properties": {
+        "statement": {
+          "type": "string",
+          "description": "A Creative Commons licence or a RightsStatements.org statement, never free text"
+        },
+        "licence_class": {
+          "enum": [
+            "PD-CC0",
+            "NATIONAL-OPEN",
+            "ATTRIBUTION",
+            "OWN",
+            "PERMISSION-NC",
+            "LINK-ONLY"
+          ]
+        },
+        "checked": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "relation": {
+      "type": "object",
+      "x-depth": "O",
+      "description": "Position on the F1.2 plane and the harm axis",
+      "properties": {
+        "position": {
+          "enum": [
+            "reference",
+            "quotation",
+            "adaptation",
+            "translation",
+            "appropriation"
+          ]
+        },
+        "harm": {
+          "enum": [
+            "none",
+            "low",
+            "medium",
+            "high",
+            "severe",
+            "for-the-community-to-name"
+          ]
+        }
+      }
+    },
+    "consultation": {
+      "enum": [
+        "no",
+        "yes-not-yet-asked",
+        "asked",
+        "granted",
+        "declined"
+      ],
+      "x-depth": "O"
+    },
+    "attribution_line": {
+      "type": "string",
+      "x-depth": "P"
+    },
+    "protocol": {
+      "type": "object",
+      "x-depth": "P",
+      "properties": {
+        "notice_or_label": {
+          "type": "string",
+          "description": "Local Contexts Notice or Label"
+        },
+        "sensitivity": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "sacred",
+              "ancestral",
+              "funerary",
+              "restricted"
+            ]
+          }
+        },
+        "care_note": {
+          "type": "string"
+        }
+      }
+    },
+    "credibility": {
+      "type": "object",
+      "x-depth": "P",
+      "description": "Source Grader result",
+      "properties": {
+        "provenance": {
+          "type": "string"
+        },
+        "bias": {
+          "type": "string"
+        },
+        "distance": {
+          "type": "string"
+        },
+        "corroboration": {
+          "type": "string"
+        }
+      }
+    },
+    "used_in": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "x-depth": "P",
+      "description": "Artifact fields and units that draw on it"
+    },
+    "consent_record": {
+      "type": "object",
+      "x-depth": "M",
+      "properties": {
+        "form": {
+          "type": "string"
+        },
+        "review_status": {
+          "type": "string"
+        },
+        "restrictions": {
+          "type": "string"
+        },
+        "withdrawal_route": {
+          "type": "string"
+        }
+      }
+    },
+    "consultation_record": {
+      "type": "object",
+      "x-depth": "M",
+      "properties": {
+        "who": {
+          "type": "string"
+        },
+        "when": {
+          "type": "string"
+        },
+        "agreed": {
+          "type": "string"
+        },
+        "credit": {
+          "type": "string"
+        },
+        "given_back": {
+          "type": "string"
+        }
+      }
+    },
+    "versions": {
+      "type": "array",
+      "x-depth": "M",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

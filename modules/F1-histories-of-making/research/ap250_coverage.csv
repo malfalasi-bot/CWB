@@ -1,0 +1,251 @@
+n,area,area_name,title,verdict,canon,canon_names,note
+1,1,Global prehistory,Apollo 11 stones,P,ARC009;TEC015,Later Stone Age; Rock painting,Middle/Later Stone Age boundary grouping only; no Apollo 11 or southern African MSA art grouping
+2,1,Global prehistory,"Great Hall of the Bulls, Lascaux",F,ARC073;TEC015,Magdalenian; Rock painting,
+3,1,Global prehistory,"Camelid sacrum, Tequixquiac",P,TEC011,Bone and antler working,no Late Pleistocene central Mexican grouping
+4,1,Global prehistory,"Running horned woman, Tassili",F,STY081,Saharan Round Head rock art,
+5,1,Global prehistory,"Beaker with ibex motifs, Susa",P,CIV059;ARC053,Elamite; Ubaid,no Susa I / Susa A grouping
+6,1,Global prehistory,"Anthropomorphic stele, Arabia",F,ARC059;OBT147,Arabian Neolithic; inscribed stela,
+7,1,Global prehistory,"Jade cong, Liangzhu",F,ARC122;OBT194,Liangzhu; jade cong and bi,
+8,1,Global prehistory,Stonehenge,F,ARC085;HOR011,Grooved Ware; Bell Beaker phenomenon,
+9,1,Global prehistory,Ambum Stone,P,INV055,farming (New Guinea),no New Guinea highlands prehistoric grouping
+10,1,Global prehistory,Tlatilco female figurine,F,ARC186,Tlatilco,
+11,1,Global prehistory,Lapita terracotta fragment,F,CIV091,Lapita,
+12,2,Ancient Mediterranean,"White Temple and ziggurat, Uruk",F,ARC054;CIV056,Uruk; Sumerian,object type ziggurat missing
+13,2,Ancient Mediterranean,Palette of King Narmer,F,DYN001;OBT065,Early Dynastic Egypt (Dynasties 1–2); cosmetic palette,
+14,2,Ancient Mediterranean,"Votive figures, Eshnunna",F,POL092,Sumerian city-states,
+15,2,Ancient Mediterranean,Seated scribe,F,DYN002,Old Kingdom dynasties (3–6),
+16,2,Ancient Mediterranean,Standard of Ur,F,CIV056,Sumerian,
+17,2,Ancient Mediterranean,Great Pyramids and Sphinx,F,DYN002,Old Kingdom dynasties (3–6),
+18,2,Ancient Mediterranean,King Menkaura and queen,F,DYN002,Old Kingdom dynasties (3–6),
+19,2,Ancient Mediterranean,Code of Hammurabi,F,POL095;OBT147,Old Babylonian kingdom; inscribed stela,
+20,2,Ancient Mediterranean,"Temple of Amun-Re, Karnak",F,DYN004;DYN005,Eighteenth Dynasty; Ramesside dynasties (19–20),
+21,2,Ancient Mediterranean,Mortuary temple of Hatshepsut,F,DYN004,Eighteenth Dynasty,
+22,2,Ancient Mediterranean,"Akhenaton, Nefertiti and daughters",F,STY082,Amarna style,
+23,2,Ancient Mediterranean,Tutankhamun's innermost coffin,F,DYN004;OBT196,Eighteenth Dynasty; coffin,
+24,2,Ancient Mediterranean,Last judgment of Hu-Nefer,F,DYN005;OBT127,Ramesside dynasties (19–20); papyrus scroll,
+25,2,Ancient Mediterranean,"Lamassu, Dur Sharrukin",F,POL096,Neo-Assyrian Empire,
+26,2,Ancient Mediterranean,Athenian agora,F,POL117,Athens (classical polis),
+27,2,Ancient Mediterranean,Anavysos Kouros,F,STY003,Archaic Greek style,
+28,2,Ancient Mediterranean,Peplos Kore,F,STY003,Archaic Greek style,
+29,2,Ancient Mediterranean,Sarcophagus of the Spouses,F,CIV077,Etruscan,
+30,2,Ancient Mediterranean,"Apadana, Persepolis",F,STY095,Achaemenid court style,
+31,2,Ancient Mediterranean,"Temple of Minerva, Veii",F,CIV077,Etruscan,
+32,2,Ancient Mediterranean,Tomb of the Triclinium,F,CIV077;TEC203,Etruscan; Fresco,
+33,2,Ancient Mediterranean,Niobides Krater,F,STY004;TEC042,Classical Greek style; Attic black-figure and red-figure,
+34,2,Ancient Mediterranean,Doryphoros (Roman copy),F,STY004,Classical Greek style,copying case for F1.14
+35,2,Ancient Mediterranean,Acropolis,F,STY004,Classical Greek style,
+36,2,Ancient Mediterranean,Grave stele of Hegeso,F,STY004,Classical Greek style,
+37,2,Ancient Mediterranean,Winged Victory of Samothrace,F,STY005,Hellenistic style,
+38,2,Ancient Mediterranean,"Great Altar, Pergamon",F,STY005,Hellenistic style,
+39,2,Ancient Mediterranean,House of the Vettii,F,STY006,Pompeian styles (First to Fourth),
+40,2,Ancient Mediterranean,Alexander Mosaic,F,STY006;TEC162,Pompeian styles (First to Fourth); Mosaic,
+41,2,Ancient Mediterranean,Seated boxer,F,STY005,Hellenistic style,
+42,2,Ancient Mediterranean,Head of a Roman patrician,F,POL120,Rome (Republic and Empire),
+43,2,Ancient Mediterranean,Augustus of Prima Porta,F,DYN076,Julio-Claudian dynasty,
+44,2,Ancient Mediterranean,Colosseum,F,CIV073;INV135,Roman; concrete (Roman),
+45,2,Ancient Mediterranean,Forum of Trajan,F,CIV073,Roman,
+46,2,Ancient Mediterranean,Pantheon,F,CIV073;INV136,Roman; large concrete dome,
+47,2,Ancient Mediterranean,Ludovisi Battle Sarcophagus,F,CIV073,Roman,
+48,3,Early Europe and colonial Americas,Catacomb of Priscilla,P,BEL011;TEC203,Latin (Roman) Catholic Christianity; Fresco,no Early Christian / Late Antique art grouping
+49,3,Early Europe and colonial Americas,Santa Sabina,P,BEL011;POL120,Latin (Roman) Catholic Christianity; Rome (Republic and Empire),no Early Christian grouping; basilica object type missing
+50,3,Early Europe and colonial Americas,Vienna Genesis,F,CIV078;OBT132,Byzantine; codex,
+51,3,Early Europe and colonial Americas,San Vitale,F,CIV078;TEC162,Byzantine; Mosaic,
+52,3,Early Europe and colonial Americas,Hagia Sophia,F,CIV078;TEC166,Byzantine; Masonry dome,
+53,3,Early Europe and colonial Americas,Merovingian looped fibulae,F,DYN079;OBT053,Merovingian dynasty; fibula,
+54,3,Early Europe and colonial Americas,"Theotokos icon, Sinai",F,CIV078;OBT187;TEC206,Byzantine; icon; Encaustic,
+55,3,Early Europe and colonial Americas,Lindisfarne Gospels,F,STY009;OBT132,Insular art; codex,manuscript illumination technique missing
+56,3,Early Europe and colonial Americas,Great Mosque of Córdoba,F,STY099;POL153,Umayyad style; Emirate and Caliphate of Córdoba,
+57,3,Early Europe and colonial Americas,Pyxis of al-Mughira,F,POL153;MAT074,Emirate and Caliphate of Córdoba; Elephant ivory,
+58,3,Early Europe and colonial Americas,"Sainte-Foy, Conques",F,STY012;OBT180,Romanesque; reliquary,
+59,3,Early Europe and colonial Americas,Bayeux Tapestry,F,STY012;TEC112,Romanesque; Embroidery,
+60,3,Early Europe and colonial Americas,Chartres Cathedral,F,STY013,Gothic,stained glass technique missing
+61,3,Early Europe and colonial Americas,Bible moralisée,F,STY013;OBT132,Gothic; codex,
+62,3,Early Europe and colonial Americas,Röttgen Pietà,F,STY013,Gothic,
+63,3,Early Europe and colonial Americas,Arena (Scrovegni) Chapel,P,TEC203;STY019,Fresco; Italian Renaissance,Giotto predates the Renaissance grouping; no Trecento/proto-Renaissance grouping
+64,3,Early Europe and colonial Americas,Golden Haggadah,F,BEL007;STY013;OBT132,Judaism; Gothic; codex,
+65,3,Early Europe and colonial Americas,Alhambra,F,STY105,Nasrid style,
+66,3,Early Europe and colonial Americas,Merode Altarpiece,F,STY020,Early Netherlandish painting,
+67,3,Early Europe and colonial Americas,Pazzi Chapel,F,STY019,Italian Renaissance,
+68,3,Early Europe and colonial Americas,Arnolfini Portrait,F,STY020;TEC205,Early Netherlandish painting; Oil painting,
+69,3,Early Europe and colonial Americas,David (Donatello),F,STY019,Italian Renaissance,
+70,3,Early Europe and colonial Americas,Palazzo Rucellai,F,STY019,Italian Renaissance,
+71,3,Early Europe and colonial Americas,Madonna and Child with Two Angels,F,STY019,Italian Renaissance,
+72,3,Early Europe and colonial Americas,Birth of Venus,F,STY019,Italian Renaissance,
+73,3,Early Europe and colonial Americas,Last Supper,F,STY019,Italian Renaissance,
+74,3,Early Europe and colonial Americas,Adam and Eve (Dürer),F,STY021;TEC193,Northern Renaissance; Intaglio printmaking,
+75,3,Early Europe and colonial Americas,Sistine Chapel frescoes,F,STY019;TEC203,Italian Renaissance; Fresco,
+76,3,Early Europe and colonial Americas,School of Athens,F,STY019,Italian Renaissance,
+77,3,Early Europe and colonial Americas,Isenheim altarpiece,F,STY021,Northern Renaissance,
+78,3,Early Europe and colonial Americas,Entombment of Christ (Pontormo),P,STY019,Italian Renaissance,Mannerism missing
+79,3,Early Europe and colonial Americas,Allegory of Law and Grace,F,STY021;BEL012;TEC189,Northern Renaissance; Protestant Christianities; Woodblock printing,
+80,3,Early Europe and colonial Americas,Venus of Urbino,F,STY019,Italian Renaissance,
+81,3,Early Europe and colonial Americas,Codex Mendoza frontispiece,F,POL069;MKR020,Viceroyalty of New Spain; Tlacuiloque,
+82,3,Early Europe and colonial Americas,Il Gesù,F,STY022,Baroque,
+83,3,Early Europe and colonial Americas,Hunters in the Snow,F,STY021,Northern Renaissance,
+84,3,Early Europe and colonial Americas,Mosque of Selim II,F,STY109,Ottoman classical style,
+85,3,Early Europe and colonial Americas,Calling of Saint Matthew,F,STY022,Baroque,
+86,3,Early Europe and colonial Americas,Marie de’ Medici cycle,F,STY022,Baroque,
+87,3,Early Europe and colonial Americas,Self-Portrait with Saskia,F,STY022;POL129;TEC193,Baroque; Dutch Republic; Intaglio printmaking,Dutch Golden Age grouping missing
+88,3,Early Europe and colonial Americas,San Carlo alle Quattro Fontane,F,STY022,Baroque,
+89,3,Early Europe and colonial Americas,Ecstasy of Saint Teresa,F,STY022,Baroque,
+90,3,Early Europe and colonial Americas,Angel with Arquebus,F,STY073,Andean Baroque,
+91,3,Early Europe and colonial Americas,Las Meninas,F,STY022;POL135,Baroque; Spanish Empire,
+92,3,Early Europe and colonial Americas,Woman Holding a Balance,F,POL129;STY022,Dutch Republic; Baroque,Dutch Golden Age missing
+93,3,Early Europe and colonial Americas,Versailles,F,STY022;DYN085,Baroque; Bourbon dynasty,garden design missing
+94,3,Early Europe and colonial Americas,"Biombo, Siege of Belgrade",P,POL069,Viceroyalty of New Spain,folding screen object type and enconchado technique missing
+95,3,Early Europe and colonial Americas,Virgin of Guadalupe (enconchado),P,POL069;MAT083,Viceroyalty of New Spain; Pearl and mother-of-pearl,enconchado missing
+96,3,Early Europe and colonial Americas,Fruit and Insects (Ruysch),F,POL129,Dutch Republic,
+97,3,Early Europe and colonial Americas,Spaniard and Indian Produce a Mestizo,P,POL069,Viceroyalty of New Spain,casta painting missing
+98,3,Early Europe and colonial Americas,Marriage à la Mode (Hogarth),P,POL127;STY024,Kingdom of England; Rococo,no British 18th-century grouping
+99,4,Later Europe and Americas,Sor Juana Inés de la Cruz (Cabrera),F,POL069,Viceroyalty of New Spain,
+100,4,Later Europe and Americas,Philosopher Lecturing on the Orrery,P,TEC205,Oil painting,no Enlightenment/science grouping; orrery object type missing
+101,4,Later Europe and Americas,The Swing (Fragonard),F,STY024,Rococo,
+102,4,Later Europe and Americas,Monticello,F,STY025;STY026,Palladianism; Neoclassicism,
+103,4,Later Europe and Americas,Oath of the Horatii,F,STY026,Neoclassicism,
+104,4,Later Europe and Americas,George Washington (Houdon),F,STY026,Neoclassicism,
+105,4,Later Europe and Americas,Self-Portrait (Vigée Le Brun),F,STY026,Neoclassicism,
+106,4,Later Europe and Americas,"Disasters of War, plate 15",P,TEC193,Intaglio printmaking,Romanticism missing
+107,4,Later Europe and Americas,La Grande Odalisque,F,STY026;STY031,Neoclassicism; Orientalism (style and discourse),
+108,4,Later Europe and Americas,Liberty Leading the People,N,,,Romanticism missing
+109,4,Later Europe and Americas,The Oxbow,F,STY079,Hudson River School,
+110,4,Later Europe and Americas,Still Life in Studio (daguerreotype),F,TEC196;INV045,Photography; photography (Niépce),
+111,4,Later Europe and Americas,Slave Ship (Turner),P,NET035,Transatlantic trafficking of enslaved Africans,Romanticism missing
+112,4,Later Europe and Americas,Palace of Westminster,F,STY027,Gothic Revival,
+113,4,Later Europe and Americas,The Stone Breakers,P,TEC205,Oil painting,Realism missing
+114,4,Later Europe and Americas,Nadar Raising Photography (Daumier),P,TEC194,Lithography,Realism / caricature missing
+115,4,Later Europe and Americas,Olympia,F,MOV003,Impressionism,
+116,4,Later Europe and Americas,Saint-Lazare Station,F,MOV003,Impressionism,
+117,4,Later Europe and Americas,The Horse in Motion,F,TEC196;INV049,Photography; motion picture,
+118,4,Later Europe and Americas,Valley of Mexico (Velasco),F,INS011,Academia de San Carlos,
+119,4,Later Europe and Americas,Burghers of Calais,P,TEC058,Lost-wax casting,no grouping
+120,4,Later Europe and Americas,The Starry Night,P,STY030,Japonisme,Post-Impressionism missing
+121,4,Later Europe and Americas,The Coiffure (Cassatt),F,STY030;MOV003,Japonisme; Impressionism,
+122,4,Later Europe and Americas,The Scream,N,,,Symbolism / Expressionism missing
+123,4,Later Europe and Americas,Where Do We Come From? (Gauguin),F,STY062,Primitivism,
+124,4,Later Europe and Americas,"Carson, Pirie, Scott Building",P,STY036,Art Nouveau,Chicago School and skyscraper object type missing
+125,4,Later Europe and Americas,Mont Sainte-Victoire,N,,,Post-Impressionism missing
+126,4,Later Europe and Americas,Les Demoiselles d'Avignon,F,MOV012;STY062,Cubism; Primitivism,
+127,4,Later Europe and Americas,The Steerage,P,TEC196,Photography,Pictorialism / Photo-Secession missing
+128,4,Later Europe and Americas,The Kiss (Klimt),F,MOV009,Vienna Secession,
+129,4,Later Europe and Americas,The Kiss (Brancusi),P,STY062,Primitivism,no direct grouping
+130,4,Later Europe and Americas,The Portuguese (Braque),F,MOV012,Cubism,
+131,4,Later Europe and Americas,Goldfish (Matisse),N,,,Fauvism missing
+132,4,Later Europe and Americas,Improvisation 28 (Kandinsky),N,,,Expressionism / Der Blaue Reiter missing
+133,4,Later Europe and Americas,Self-Portrait as a Soldier (Kirchner),N,,,Expressionism missing
+134,4,Later Europe and Americas,Memorial Sheet for Liebknecht (Kollwitz),P,TEC189,Woodblock printing,Expressionism missing
+135,4,Later Europe and Americas,Villa Savoye,F,STY044;TEC161,International Style (architecture); Reinforced concrete,
+136,4,Later Europe and Americas,"Composition with Red, Blue and Yellow",F,MOV020,De Stijl,
+137,4,Later Europe and Americas,First Five-Year Plan (Stepanova),F,MOV019,Constructivism,photomontage technique missing
+138,4,Later Europe and Americas,Object (Oppenheim),F,MOV015,Surrealism,
+139,4,Later Europe and Americas,Fallingwater,P,TEC161,Reinforced concrete,no Prairie School / organic architecture grouping
+140,4,Later Europe and Americas,The Two Fridas,P,MOV015,Surrealism,Kahlo rejected the Surrealist label; no Mexicanidad grouping
+141,4,Later Europe and Americas,"Migration of the Negro, Panel 49",F,MOV069,Harlem Renaissance,
+142,4,Later Europe and Americas,The Jungle (Lam),F,MOV015,Surrealism,
+143,4,Later Europe and Americas,Dream of a Sunday Afternoon (Rivera),F,MOV056,Mexican Muralism,
+144,4,Later Europe and Americas,Fountain (Duchamp),F,MOV014,Dada,
+145,4,Later Europe and Americas,"Woman, I (de Kooning)",P,TEC205,Oil painting,Abstract Expressionism missing
+146,4,Later Europe and Americas,Seagram Building,F,STY044;MAT119,International Style (architecture); Glass curtain wall,
+147,4,Later Europe and Americas,Marilyn Diptych,F,MOV039,Pop Art,
+148,4,Later Europe and Americas,Narcissus Garden (Kusama),P,EVT019,Venice Biennale,no grouping for the work
+149,4,Later Europe and Americas,The Bay (Frankenthaler),N,,,Colour Field / Abstract Expressionism missing
+150,4,Later Europe and Americas,Lipstick (Ascending) (Oldenburg),F,MOV039,Pop Art,
+151,4,Later Europe and Americas,Spiral Jetty,N,,,Land art missing
+152,4,Later Europe and Americas,Vanna Venturi / New Castle County house,F,STY051,Postmodernism (architecture and design),
+153,5,Indigenous Americas,Chavín de Huántar,F,CIV032,Chavín,
+154,5,Indigenous Americas,Mesa Verde cliff dwellings,F,CIV024,Ancestral Puebloan,
+155,5,Indigenous Americas,Yaxchilán,F,CIV018,Maya,
+156,5,Indigenous Americas,Great Serpent Mound,F,ARC182;CIV023,Adena; Mississippian,attribution debated (Adena vs Fort Ancient); AP says Mississippian
+157,5,Indigenous Americas,Templo Mayor,F,CIV020,Aztec / Mexica,
+158,5,Indigenous Americas,Feather headdress,F,CIV020;MKR019;OBT220,Aztec / Mexica; Amanteca; feather headdress,
+159,5,Indigenous Americas,Cusco and Qorikancha,F,CIV022;TEC153,Inca; Inca fitted stone masonry,
+160,5,Indigenous Americas,Maize cobs,F,CIV022;TEC060,Inca; Repoussé and chasing,
+161,5,Indigenous Americas,Machu Picchu,F,CIV022,Inca,
+162,5,Indigenous Americas,All-T'oqapu tunic,F,STY066;OBT032,Inca imperial style; tunic,
+163,5,Indigenous Americas,Bandolier bag (Lenape),P,TEC111,Beadwork,Lenape community and bandolier bag object type missing
+164,5,Indigenous Americas,Transformation mask (Kwakwaka'wakw),P,OBT181;STY076,mask; Northwest Coast formline,formline is the northern NWC system; Kwakwaka'wakw community missing
+165,5,Indigenous Americas,Painted elk hide (Cotsiogo),P,TEC175,Rawhide and parfleche,Plains hide painting and Eastern Shoshone missing
+166,5,Indigenous Americas,Black-on-black vessel (Martínez),F,STY077,Pueblo pottery revival,
+167,6,Africa,Great Zimbabwe,F,CIV005,Great Zimbabwe,
+168,6,Africa,Great Mosque of Djenné,F,OBT009;TEC159,earthen mosque; Sudano-Sahelian earthen building,
+169,6,Africa,Benin plaque,F,STY086;OBT212,Benin court style; brass plaque,
+170,6,Africa,Golden Stool,F,POL029;OBT021,Asante Empire; stool of office,
+171,6,Africa,Kuba ndop,F,POL022,Kuba Kingdom,ndop object type missing
+172,6,Africa,Nkisi nkondi,F,BEL045;OBT191,Kongo religion and minkisi; power figure,
+173,6,Africa,Chokwe pwo mask,P,OBT181,mask,Chokwe community missing
+174,6,Africa,Baule mblo mask,P,OBT181,mask,Baule community missing
+175,6,Africa,Sande (bundu/sowei) mask,P,OBT181,mask,Mende community and Sande society helmet mask missing
+176,6,Africa,Ikenga,P,ARC034,Igbo-Ukwu,only the 9th-c. archaeological Igbo-Ukwu; Igbo community and ikenga missing
+177,6,Africa,Lukasa,F,POL023;OBT149,Luba Kingdom; lukasa,
+178,6,Africa,Aka elephant mask (Bamileke),P,OBT181;TEC111,mask; Beadwork,Grassfields / Bamileke missing
+179,6,Africa,Fang byeri,P,OBT180,reliquary,Fang community and byeri missing
+180,6,Africa,Veranda post (Olowe of Ise),P,BEL042;OBT213,Yorùbá religion; carved door,Yoruba people / Ekiti kingdoms missing
+181,7,West and Central Asia,Petra,F,CIV065,Nabataean,
+182,7,West and Central Asia,Bamiyan Buddha,F,STY115,Gandharan art,
+183,7,West and Central Asia,The Kaaba,F,CIV086;BEL017,Islamic; Sunni Islam,kiswa object type missing
+184,7,West and Central Asia,"Jowo Rinpoche, Jokhang",F,POL163,Tibetan Empire,
+185,7,West and Central Asia,Dome of the Rock,F,STY099,Umayyad style,
+186,7,West and Central Asia,"Masjid-e Jameh, Isfahan",F,STY102;TEC168,Seljuk style; Muqarnas,
+187,7,West and Central Asia,Abbasid Qur’an folio,F,DYN010;OBT132;TEC208,Abbasid dynasty; codex; Qalam calligraphy,
+188,7,West and Central Asia,Baptistère de St Louis,F,STY104;TEC068,Mamluk style; Metal inlay (damascening and koftgari),
+189,7,West and Central Asia,Great Ilkhanid Shahnama folio,F,STY103,Ilkhanid style,
+190,7,West and Central Asia,Shah Tahmasp's Shahnama folio,F,STY107;SCH020,Safavid style; Tabriz school,
+191,7,West and Central Asia,Ardabil Carpet,F,STY107;INV103,Safavid style; pile carpet,
+192,8,"South, East and Southeast Asia","Great Stupa, Sanchi",F,POL186;BEL021,Maurya Empire; Theravada Buddhism,stupa object type missing
+193,8,"South, East and Southeast Asia",Terracotta warriors,F,POL159,Qin,
+194,8,"South, East and Southeast Asia",Lady Dai funeral banner,F,POL160,Han,
+195,8,"South, East and Southeast Asia",Longmen caves,F,POL161;POL162,Northern Wei; Tang,
+196,8,"South, East and Southeast Asia",Silla gold crown,F,POL174;OBT204,Silla; crown,
+197,8,"South, East and Southeast Asia",Todai-ji,F,POL179;SCH039,Nara ritsuryō state; Kei school,
+198,8,"South, East and Southeast Asia",Borobudur,F,DYN061;STY127,Sailendra dynasty; Central Javanese style,
+199,8,"South, East and Southeast Asia",Angkor Wat and Angkor Thom,F,POL209,Khmer Empire,
+200,8,"South, East and Southeast Asia","Lakshmana Temple, Khajuraho",F,DYN045;STY160,"Chandela dynasty; Hindu temple styles (Nagara, Dravida, Vesara)",
+201,8,"South, East and Southeast Asia",Travelers among Mountains and Streams,F,POL166,Song,
+202,8,"South, East and Southeast Asia",Chola Nataraja,F,STY120,Chola bronze style,
+203,8,"South, East and Southeast Asia",Night Attack on the Sanjō Palace,F,STY145;OBT131,Yamato-e; handscroll,
+204,8,"South, East and Southeast Asia",David Vases,F,POL167;TEC037,Yuan; Underglaze cobalt blue,
+205,8,"South, East and Southeast Asia",Portrait of Sin Sukju,F,INS024;POL177,Dohwaseo; Joseon,
+206,8,"South, East and Southeast Asia",Forbidden City,F,POL168,Ming,
+207,8,"South, East and Southeast Asia",Ryoan-ji,F,POL182;BEL024,Muromachi shogunate; Chan and Zen Buddhism,dry landscape garden object type missing
+208,8,"South, East and Southeast Asia",Jahangir Preferring a Sufi Shaikh,F,SCH022,Mughal painting,
+209,8,"South, East and Southeast Asia",Taj Mahal,F,POL197;STY113,Mughal Empire; Indo-Islamic architecture,chahar bagh garden missing
+210,8,"South, East and Southeast Asia",White and Red Plum Blossoms,F,STY147,Rinpa,
+211,8,"South, East and Southeast Asia",Great Wave,F,STY148,Ukiyo-e,
+212,8,"South, East and Southeast Asia",Chairman Mao en Route to Anyuan,F,POL171;STY045;OBT135,People's Republic of China; Socialist Realism; poster,
+213,9,The Pacific,Nan Madol,F,ARC230,Nan Madol (Saudeleur),
+214,9,The Pacific,Moai on ahu,F,CIV092,Rapa Nui,
+215,9,The Pacific,'Ahu 'ula feather cape,F,POL083;OBT048,Hawaiian Kingdom; feather cloak,
+216,9,The Pacific,"Staff god, Rarotonga",P,CIV090,Polynesian,Cook Islands and staff-god object type missing
+217,9,The Pacific,"Female deity, Nukuoro",P,CIV090,Polynesian,Nukuoro (Polynesian outlier) missing
+218,9,The Pacific,"Buk mask, Torres Strait",P,CIV093;OBT181;MAT079,Aboriginal and Torres Strait Islander; mask; Tortoiseshell,only the composite civilisation name; no Torres Strait mask grouping
+219,9,The Pacific,"Hiapo, Niue",P,OBT047,barkcloth,Niuean hiapo missing
+220,9,The Pacific,Tamati Waka Nene (Lindauer),P,POL091,New Zealand (colony and Dominion),no colonial portraiture grouping
+221,9,The Pacific,Marshall Islands navigation chart,F,INV115;TEC214,stick chart; Stick charts,
+222,9,The Pacific,Malagan display and mask,F,BEL055,Malagan (New Ireland),
+223,9,The Pacific,"Fijian mats and tapa presentation, 1953",F,PRA200;OBT177,Fijian masi making; fine mat,
+224,10,Global contemporary,The Gates (Christo and Jeanne-Claude),N,,,no grouping
+225,10,Global contemporary,Vietnam Veterans Memorial,N,,,Minimalism / memorial design missing
+226,10,Global contemporary,Horn Players (Basquiat),N,,,no grouping
+227,10,Global contemporary,Summer Trees (Song Su-nam),P,TEC209,Ink stick and brush,Korean ink-painting movement missing
+228,10,Global contemporary,Androgyn III (Abakanowicz),F,MOV044,Fiber art,
+229,10,Global contemporary,A Book from the Sky (Xu Bing),F,MOV091;TEC189,85 New Wave; Woodblock printing,
+230,10,Global contemporary,Pink Panther (Koons),P,MAT021,Kaolin and porcelain stone,no grouping
+231,10,Global contemporary,Untitled #228 (Sherman),P,TEC196,Photography,Pictures Generation missing
+232,10,Global contemporary,Dancing at the Louvre (Ringgold),F,MOV070;TEC117,Black Arts Movement; Quilting,
+233,10,Global contemporary,Trade (Quick-to-See Smith),N,,,no contemporary Native American art grouping
+234,10,Global contemporary,Earth's Creation (Kngwarreye),F,MKR085,Utopia batik and painting,
+235,10,Global contemporary,Rebellious Silence (Neshat),P,TEC196,Photography,no grouping
+236,10,Global contemporary,En la Barbería no se Llora (Osorio),N,,,no Nuyorican / Puerto Rican diaspora grouping
+237,10,Global contemporary,Pisupo Lua Afe (Tuffery),P,OBT094,tin can,Pacific diaspora art grouping missing
+238,10,Global contemporary,Electronic Superhighway (Paik),N,,,Fluxus / video art missing
+239,10,Global contemporary,The Crossing (Viola),N,,,video art missing
+240,10,Global contemporary,Guggenheim Bilbao,F,STY052,Deconstructivism,
+241,10,Global contemporary,Pure Land (Mori),N,,,no grouping
+242,10,Global contemporary,Lying with the Wolf (Kiki Smith),N,,,no grouping
+243,10,Global contemporary,Darkytown Rebellion (Walker),N,,,cut-paper silhouette tradition missing
+244,10,Global contemporary,The Swing (after Fragonard) (Shonibare),P,OBT043;STY024,wax-print cloth; Rococo,no grouping for the work
+245,10,Global contemporary,Old Man's Cloth (El Anatsui),F,SCH015,Nsukka School,
+246,10,Global contemporary,Stadia II (Mehretu),N,,,no grouping
+247,10,Global contemporary,Preying Mantra (Mutu),F,MOV053,Afrofuturism,
+248,10,Global contemporary,Shibboleth (Salcedo),N,,,no grouping
+249,10,Global contemporary,MAXXI (Hadid),F,STY057;STY052,Parametricism; Deconstructivism,
+250,10,Global contemporary,Sunflower Seeds (Ai Weiwei),F,PRA069,Jingdezhen porcelain making,

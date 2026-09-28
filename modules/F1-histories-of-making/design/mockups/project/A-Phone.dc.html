@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>F1.1 One object, three readings — phone</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap">
+<style>
+body{margin:0;background:#F3EDE3;font-family:'IBM Plex Sans',system-ui,sans-serif;color:#1E1A15}
+a{color:#2F4470}a:hover{color:#1C2B4A}
+button,input{font-family:inherit}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; display: flex; flex-direction: column; background: #F3EDE3; color: #1E1A15; font-family: 'IBM Plex Sans', system-ui, sans-serif;">
+
+  <header style="height: 52px; box-sizing: border-box; padding: 0 12px; display: flex; align-items: center; gap: 8px; background: #FBF8F2; border-bottom: 1px solid #DCD3C4;">
+    <button type="button" aria-label="Back to module" style="width: 44px; height: 44px; border: 0; background: transparent; display: flex; align-items: center; justify-content: center;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E1A15" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg>
+    </button>
+    <span style="flex-grow: 1; font-size: 13px; color: #574E42;">F1.1 · Orientation · 5 of 12 min</span>
+    <span style="font-size: 12px; padding: 5px 9px; border: 1px solid #DCD3C4; border-radius: 999px; color: #574E42;">Record · 0</span>
+  </header>
+
+  <section aria-label="Atlas strip" style="padding: 12px 16px 0;">
+    <div role="img" aria-label="Image placeholder: proto-cuneiform tablet" style="height: 176px; border-radius: 8px; background: repeating-linear-gradient(135deg, #D8CDB9 0 10px, #D2C6B0 10px 20px); display: flex; align-items: flex-end; justify-content: space-between; padding: 10px; box-sizing: border-box;">
+      <span style="font-size: 12px; color: #574E42; background: #FBF8F2; padding: 4px 8px; border-radius: 6px;">[Object image · CC0]</span>
+      <button type="button" style="height: 36px; padding: 0 12px; border: 0; border-radius: 8px; background: #1E1A15; color: #FBF8F2; font-size: 13px;">Open in Atlas</button>
+    </div>
+  </section>
+
+  <main style="flex-grow: 1; padding: 16px 16px 0; display: flex; flex-direction: column; gap: 12px; min-height: 0;">
+    <h1 style="margin: 0; font-family: 'Newsreader', Georgia, serif; font-size: 26px; line-height: 1.15; font-weight: 500;">One object, three readings</h1>
+    <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #3A332B;">Read it before anyone tells you about it. One line each — guesses are the point.</p>
+
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <div style="display: flex; flex-direction: column; gap: 4px;">
+        <label for="m1" style="font-size: 13px; font-weight: 600;">1 · What is it made of?</label>
+        <input id="m1" type="text" value="stone, carved" style="height: 44px; box-sizing: border-box; padding: 0 12px; border: 1px solid #C9BCA4; border-radius: 8px; background: #FFFFFF; font-size: 15px; color: #1E1A15;">
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 4px;">
+        <label for="m2" style="font-size: 13px; font-weight: 600;">2 · Who made it?</label>
+        <input id="m2" type="text" value="a scribe for a king" style="height: 44px; box-sizing: border-box; padding: 0 12px; border: 1px solid #C9BCA4; border-radius: 8px; background: #FFFFFF; font-size: 15px; color: #1E1A15;">
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 4px;">
+        <label for="m3" style="font-size: 13px; font-weight: 600;">3 · What was it for?</label>
+        <input id="m3" type="text" placeholder="Your reading" style="height: 44px; box-sizing: border-box; padding: 0 12px; border: 1px solid #C9BCA4; border-radius: 8px; background: #FFFFFF; font-size: 15px; color: #1E1A15;">
+      </div>
+    </div>
+
+    <button type="button" style="height: 48px; border: 0; border-radius: 10px; background: #A0431F; color: #FFFFFF; font-size: 15px; font-weight: 500;">Reveal the record</button>
+    <span style="font-size: 12px; color: #6B6154; text-align: center;">The rest of this unit waits for your desk session.</span>
+  </main>
+
+  <nav aria-label="Sections" style="height: 64px; box-sizing: border-box; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid #DCD3C4; background: #FBF8F2;">
+    <button type="button" aria-current="page" style="border: 0; background: transparent; font-size: 12px; font-weight: 600; color: #A0431F; border-top: 2px solid #A0431F;">Unit</button>
+    <button type="button" style="border: 0; background: transparent; font-size: 12px; color: #574E42; border-top: 2px solid transparent;">Atlas</button>
+    <button type="button" style="border: 0; background: transparent; font-size: 12px; color: #574E42; border-top: 2px solid transparent;">Record</button>
+    <button type="button" style="border: 0; background: transparent; font-size: 12px; color: #574E42; border-top: 2px solid transparent;">Historian</button>
+  </nav>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+## Grouping page: The Arts and Crafts movement
+
+Designers and makers in Britain argued from the 1850s that how a thing is made matters, then sold that argument at high prices.
+
+**Card**
+
+| Part | Content |
+|---|---|
+| Kind | Movement: it named itself (1887), held exhibitions, and had guilds, firms, magazines and members (MOV005) |
+| Defined by (who, when) | The name "Arts and Crafts" was suggested by the bookbinder T. J. Cobden-Sanderson in 1887 for the Arts and Crafts Exhibition Society (INS055). Its roots are older: Ruskin's "The Nature of Gothic" (1853) and Morris, Marshall, Faulkner & Co. (1861). Historians later drew the line from Morris to the Bauhaus (Pevsner, *Pioneers of the Modern Movement*, 1936; PER471) |
+| Span | c. 1853–1920 as a movement (canon: 1860–1920, approx.); guilds and firms ran on, Morris & Co. to 1940; the brand is still sold in 2026 |
+| Places | London (Queen Square, Merton Abbey, Hammersmith), Leek (Staffordshire), Chipping Campden and Broad Campden (Gloucestershire); New York, Chicago, East Aurora and Eastwood (New York State); Stockholm; Vienna; Germany; Ceylon (now Sri Lanka) and India as sources, survey sites and markets |
+| Membership confidence | Documented for the firms, guilds and societies, which kept membership lists and catalogues. Claimed, not chosen, for Indian and Sinhalese makers whose work its writers used as models. Loose for the US and European workshops, which took the name as a style |
+| Leaves out | The women who stitched, wove and designed under the firm's or a man's name; the dyers, printers and weavers paid by the day; the Indian dyers and cultivators behind its indigo and its model textiles; the buyers who could not afford the goods |
+| Rights line | Objects: Met Open Access (CC0) where `isPublicDomain` is true; Cleveland Open Access (CC0); Art Institute of Chicago public-domain images (data CC0, description text CC BY 4.0). V&A (non-commercial) and William Morris Gallery: link only. Texts by Ruskin (1853), Morris (1882), Birdwood (1880) and Coomaraswamy (1909) are public domain. Today's Morris & Co. products and trademarks (Sanderson Design Group): link only. Decorative arts, so the 1970 provenance test is not applicable |
+
+**Walk**
+
+| # | Step title | What the learner sees and reads | Nodes | Claim and confidence |
+|---|---|---|---|---|
+| 1 | Carving in Venice, read in 1853 | John Ruskin looked at the uneven carving on Venetian Gothic buildings and read freedom in it. In "The Nature of Gothic" (1853) he wrote: "It is not, truly speaking, the labour that is divided; but the men." Morris reprinted the chapter at his Kelmscott Press in 1892. | PER417, TXT027, STY027, MOV001, MOV007 | Text and reprint: documented. That medieval carvers worked freely: interpretive (Ruskin's reading, not evidence from the carvers) |
+| 2 | A painted cabinet, 1861 | Philip Webb designed this pine cabinet; Edward Burne-Jones painted *The Backgammon Players* on it. It was made in 1861, the year Morris, Marshall, Faulkner & Co. began. The firm was reorganised as Morris & Co. under Morris in 1875. | MKR076, PER418; Met 26.54 | Documented |
+| 3 | Who held the needle | Jane Morris worked out stitches for the firm's early embroideries. May Morris ran its embroidery department from 1885. May's *Honeysuckle* wallpaper (1883) was credited to her father in 1890 and only confirmed as hers around 1909. Kate Faulkner designed printed cottons, tiles and wallpapers for the firm. | PER419, PER420, TEC112; Cleveland 1937.700 | Documented (William Morris Gallery; AIC; Cleveland). How many unnamed embroiderers worked for the firm: not known |
+| 4 | Blue vats at Merton Abbey | Morris read old dye manuals and, in December 1881, noted "reading and noting Persoz on blue-dipping". At Merton Abbey (from 1881) cloth was dyed in indigo, then pattern was bleached out with carved blocks. *Cray* (1884) needed 34 blocks, more than any other of his river designs. | TEC126, TEC119, MAT041; AIC 1974.419a | Process and dates: documented (Davis; AIC) |
+| 5 | "Swinish luxury" | Hand-block printing, natural dyes and hand weaving made the goods costly. Sir Lowthian Bell told Alfred Powell that Morris, decorating Bell's house, cried out: "I spend my life in ministering to the swinish luxury of the rich." W. R. Lethaby printed the story. | MKR076, PER418; Met 23.163.15 | That the goods were bought mainly by the middle and upper classes: documented. The quotation: probable (reported third-hand, not dated) |
+| 6 | Guilds, and a name | Designers and makers organised in guilds from 1882. The Century Guild (A. H. Mackmurdo, 1882) and the Art Workers' Guild (five young architects, 1884) led; C. R. Ashbee's Guild of Handicraft (East London, 1888) moved to Chipping Campden in 1902 and was dissolved in 1907 (the Hart workshop gives 1908). The Arts and Crafts Exhibition Society, founded 1887, opened at the New Gallery on 1 October 1888 and credited the people who executed each piece, not only the firm. | INS055, MOV005 | Documented. The Art Workers' Guild shut women out until the second half of the 1900s; May Morris and others set up the Women's Guild of Arts in 1907 (documented) |
+| 7 | A tulip panel in New York, a lotus in Chicago | Candace Wheeler saw English art needlework at the 1876 Philadelphia fair. It came from the Royal School of Art Needlework (founded 1872, "Royal" from 1875), set up to employ women; in 1877 she founded New York's Society of Decorative Art on the same lines, and from 1883 her Associated Artists made panels like this one. In 1888 the Decorative Arts Society in Chicago embroidered May Morris's *Lotus* for Frances Glessner's parlour. | PER144, EVT007, TEC112; Met 28.34.2; AIC 1918.298 | Documented (RSN; Met; AIC) |
+| 8 | Workshops that took the name | Elbert Hubbard founded Roycroft at East Aurora in 1895, with almost 500 people by 1910. Gustav Stickley's *Craftsman* magazine ran from 1901 to 1916; his Eastwood workshops used hand methods and woodworking machinery. Sweden's Friends of Handicraft (1874) and Vienna's Wiener Werkstätte (1903) worked on parallel lines. | STY035, MKR077 | Documented. How far each drew on the English movement rather than local reform: contested |
+| 9 | Indigo, tussar and the Indian craftsman | British writers made Indian hand work a model, and a display. Birdwood (1880) praised it as timeless; in 1886, 34 Indian artisans, most of them prisoners from the Central Jail at Agra, were put to work in view at London's Colonial and Indian Exhibition; Thomas Wardle, Morris's dyeing partner at Leek (1875–77), imported Indian tussar silk for the women of the Leek Embroidery Society (1879). From the other side, Ananda Coomaraswamy printed *Mediaeval Sinhalese Art* at Ashbee's Essex House Press (1908), and *The Indian Craftsman* (1909) carried Ashbee's foreword. | PER242, TXT082, EVT005, PER246, TXT080, MAT041, OCC137, NET055, MOV081 | Documented events. Extraction or exchange: contested (see What is argued). Content note: the 1886 display used incarcerated men as living exhibits |
+
+**Members.** 20 people, 14 makers' bodies, 5 places and 8 objects are lit on this walk. People: John Ruskin, William Morris, Jane Morris, May Morris, Kate Faulkner, Philip Webb, Edward Burne-Jones, T. J. Cobden-Sanderson, Walter Crane (the Exhibition Society's founding president), W. R. Lethaby, A. H. Mackmurdo, C. R. Ashbee, George Hart, Candace Wheeler, Frances Glessner, Gustav Stickley, Elbert Hubbard, Elizabeth Wardle, Thomas Wardle and Ananda Coomaraswamy (with Ethel Mairet, below). Makers' bodies: Morris & Co. (MKR076), the Royal School of Art Needlework, the Century Guild, the Art Workers' Guild, the Guild of Handicraft, the Arts and Crafts Exhibition Society (INS055), the Women's Guild of Arts, the Leek Embroidery Society, New York's Society of Decorative Art, the Chicago Decorative Arts Society, Roycroft, the Craftsman Workshops, Friends of Handicraft and the Wiener Werkstätte (MKR077). Places: Merton Abbey, Leek, Chipping Campden, East Aurora, Eastwood. Birdwood (PER242) is a neighbour, not a member: he wrote about Indian makers for British designers. Ethel Mairet married Coomaraswamy in 1902, recorded Ceylon's crafts with him until 1907, and began weaving and dyeing in 1909; she later built a weaving workshop, Gospels, at Ditchling (completed 1920).
+
+**Neighbours.** It defined itself against the goods of the Great Exhibition (EVT001, 1851) and the South Kensington design-reform system that followed (INS052, PER413), though it borrowed South Kensington's collections of Indian and Persian textiles. It grew from the Gothic Revival (STY027) and the Pre-Raphaelite circle (MOV001). Parallel groupings: the private press movement (MOV007); the Wiener Werkstätte (MKR077); the Deutscher Werkbund (MOV011); Swadeshi in India (MOV081, from 1905), which made hand-spinning a political act; the Bengal School (MOV082); Mingei in Japan (MOV096); the school at Rotorua under Āpirana Ngata (INS085, from 1926). The phrase "arts and crafts" also travelled into US law through the Indian Arts and Crafts Board (INS014, 1935).
+
+**Afterlives.** Hermann Muthesius studied English houses at the German embassy in London (1896–1904) and published *Das englische Haus* (1904–05); the Deutscher Werkbund formed in 1907 (MOV011). Gropius's 1919 Bauhaus pamphlet called for "a new guild of craftsmen, without the class distinctions which raise an arrogant barrier between craftsman and artist" (INS057, TXT032). Scholars argue that Mingei drew on Ruskin and Morris (MOV096, PER209). In Chipping Campden, the Hart gold and silversmiths still work in the Silk Mill where the Guild of Handicraft worked; in September 2026 their site named David Hart and the fourth generation, William and Julian. Morris & Co. is now a brand of Sanderson Design Group: in the year to 31 January 2026 it earned £18.5m, up 3%, with rugs and homewares licensed to Ruggable and Williams Sonoma. The movement's words ("handcrafted", "artisanal", "heritage") are now common in marketing for goods made at scale.
+
+**What is argued.**
+
+- *A luxury trade or a real critique?* One reading: the firm's own prices showed that hand work under capitalism became a luxury; Morris's work "became popular with the middle and upper classes, despite his wish to create a democratic art" (Wikipedia, "Arts and Crafts movement"; the Lethaby anecdote). The other reading: the lasting product was the argument, not the goods. The Exhibition Society named executants (Hart, BRANCH), and the Bauhaus took up the call for a guild without class barriers (Wikipedia, "Bauhaus"). Both readings are shown.
+- *Who made the movement?* The older story centres Morris, Crane, Ashbee and Lethaby, as the canon's "defined by" field still does. Zoë Thomas (*Women Art Workers and the Arts and Crafts Movement*, 2020) argues that women art workers were "central players" who revived the movement in the Edwardian years. The Honeysuckle case shows how credit moved to the famous man (William Morris Gallery).
+- *Extraction or exchange with India?* Extraction reading: British writers fixed Indian makers as timeless (Birdwood, 1880); 34 men, mostly Agra prisoners, were displayed working in 1886 (Briefel, BRANCH, drawing on Saloni Mathur, *India by Design*, 2007); Wardle went to Bengal in 1885, at the government's invitation, to reform silk farming and reeling; and Bengal's indigo system rested on planters' coercive contracts (OCC137). Exchange reading: Morris wrote in 1882 that "from the remotest times the whole art [of dyeing] was thoroughly understood in India" and modelled his block printing on Indian chintz (Davis); Coomaraswamy used Arts and Crafts presses and Ashbee's foreword to argue that British rule had weakened India's craft guilds (*The Indian Craftsman*, 1909), and McGowan (2009) shows craft surveys feeding Indian nationalist thinking. We read both as true at once: the exchange ran through colonial power. Where Merton Abbey bought its indigo is not recorded in the sources we opened.
+- *Is Mingei its child?* Yuko Kikuchi (2004) argues Mingei theory was "highly eclectic" with "strong influences" from Ruskin and Morris; the movement presented itself as Japanese in origin. Summarised in Santamaria Hergueta (2023). Contested.
+
+**Apply** (F1.19, with F1.18 and F1.20)
+
+- Maker (M): write the credit line for one piece of your own work in the 1888 Exhibition Society manner: every person who designed, dyed, printed, stitched or finished it, and who supplied the material.
+- Briefer (B): a client wants "artisanal" on the pack. Write the three questions the brief must answer first: who makes it and by what share of hand and machine; what they are paid; and where the dye or raw material comes from.
+
+**Candidate open objects**
+
+| # | Holder, ID | Object | Date range (holder's words) | Licence as stated | 1970 status | Record |
+|---|---|---|---|---|---|---|
+| 1 | Met 26.54 | *The Backgammon Players* cabinet; Philip Webb (designer), Burne-Jones (artist), Morris, Marshall, Faulkner & Co. (manufacturer); painted pine, oil on leather | 1861 | Public domain (`isPublicDomain: true`; Met Open Access CC0) | Not applicable (decorative arts); acquired 1926 (Rogers Fund) | https://www.metmuseum.org/art/collection/search/195456 |
+| 2 | Met 23.163.15 | *Bird*, woven wool length; designed by William Morris, Morris & Company | designed 1878 | Public domain (CC0) | Not applicable; purchased 1923 | https://www.metmuseum.org/art/collection/search/221485 |
+| 3 | Met 23.163.4a | *Pink and Rose* wallpaper; designed by Morris, Morris & Company, printed by Jeffrey & Co. (the firm's wallpapers were printed outside its own works) | ca. 1890 (1885–95) | Public domain (CC0) | Not applicable; purchased 1923 | https://www.metmuseum.org/art/collection/search/337071 |
+| 4 | AIC 1974.419a | *Cray*, block-printed cotton; Morris, Morris & Co., Merton Abbey; 34 blocks | design 1884, made 1884–1917 | Public domain; data CC0, description CC BY 4.0 | Not applicable; given 1974 by Martha Batchelder | https://www.artic.edu/artworks/47661 |
+| 5 | AIC 1918.298 | *Lotus* door curtain; design attributed to May Morris, Morris & Co.; embroidered by the Decorative Arts Society, Chicago | design by 1888, made 1888 | Public domain; data CC0, description CC BY 4.0 | Not applicable; Glessner family c. 1888, given 1918 | https://www.artic.edu/artworks/74514 |
+| 6 | AIC 1988.108 | Border for a table cover or valance; design attributed to May Morris, Morris & Co.; silk embroidery on cotton | design 1890s | Public domain; data CC0 | Not applicable; bought from Meg Andrews, 1988 | https://www.artic.edu/artworks/71294 |
+| 7 | Cleveland 1937.700 | *Peony*, printed cotton; Kate Faulkner (designer), provenance "Morris and Company" | 1920 (printing; Faulkner died 1898) | CC0 | Not applicable; gift 1937 | https://clevelandart.org/art/1937.700 |
+| 8 | Met 28.34.2 | *Tulips panel*; Candace Wheeler (designer), Associated Artists (maker), ground by Cheney Brothers; silk and metallic cloth, appliqué and embroidery | 1883–87 | Public domain (CC0) | Not applicable; gift of the Wheeler family 1928 | https://www.metmuseum.org/art/collection/search/15971 |
+
+Checked and not usable: Met *Strawberry Thief* 23.163.11 (printed 1917–23) and *Brother Rabbit* 23.163.5 are `isPublicDomain: false`; Met May Morris valance 2017.178.2 is not public domain; AIC May Morris *Honeysuckle Fire Screen* 2018.846 and *Vine Leaf* 2018.844 and the AIC Stickley settle 1971.748 are not public domain; the V&A's *Strawberry Thief* is link only. Cleveland also holds Morris's *Tulip* (1937.579, CC0), recorded as "roller printed cotton" dated 1875; we have not checked whether that is an authorised machine print. No open Indian textile is attached here: use the NET055 and TEC120 records, or a drawing of our own of the discharge-printing steps.
+
+**Sources**
+
+- [Metropolitan Museum Open Access API: objects 195456, 221485, 337071, 15971, 221481, 221475, 221474, 744453, 14031](https://collectionapi.metmuseum.org/public/collection/v1/objects/195456)
+- [Art Institute of Chicago API: Lotus (74514)](https://api.artic.edu/api/v1/artworks/74514), [Cray (47661)](https://api.artic.edu/api/v1/artworks/47661), [Border (71294)](https://api.artic.edu/api/v1/artworks/71294), [Settle (37284)](https://api.artic.edu/api/v1/artworks/37284)
+- [Cleveland Museum of Art Open Access API: Tulip 1937.579](https://openaccess-api.clevelandart.org/api/artworks/1937.579), [Peony 1937.700](https://openaccess-api.clevelandart.org/api/artworks/1937.700)
+- [Victorian Web, Hewison, "The Artist and Society" (Ruskin quotation)](https://victorianweb.org/authors/ruskin/hewison/5.html)
+- [Victorian Web, "Morris & Co."](https://victorianweb.org/authors/morris/morisco2.html)
+- [The Motor House, Peter Burman on Rounton](https://motor-house.org/burman-on-rounton)
+- [Virginia Davis, "William Morris and Indigo Discharge Printing" (William Morris Society)](https://morrissociety.org/wp-content/uploads/AU95.11.3.Davis_.pdf)
+- [nonsite.org, "William Morris: The Poetics of Indigo Discharge Printing"](https://nonsite.org/william-morris-the-poetics-of-indigo-discharge-printing/)
+- [William Morris, "The Lesser Arts of Life" (1882), Marxists Internet Archive](https://www.marxists.org/archive/morris/works/1882/life1.htm)
+- [William Morris Gallery, Honeysuckle wallpaper](https://wmgallery.org.uk/object/honeysuckle-wallpaper/)
+- [Art Institute of Chicago, "May Morris: Designer and Advocate"](https://www.artic.edu/articles/953/may-morris-designer-and-advocate)
+- [Royal School of Needlework, Our history](https://royal-needlework.org.uk/our-history/)
+- [Metropolitan Museum press release, Candace Wheeler retrospective (2001)](https://www.metmuseum.org/press-releases/major-retrospective-will-survey-career-of-candace-wheeler-americas-first-important-female-textile-and-interior-designer-2001-exhibitions)
+- [Imogen Hart, "On the Arts and Crafts Exhibition Society", BRANCH](https://branchcollective.org/?ps_articles=imogen-hart-on-the-first-arts-and-crafts-exhibition)
+- [Wikipedia, Art Workers' Guild](https://en.wikipedia.org/wiki/Art_Workers'_Guild)
+- [Wikipedia, Arts and Crafts movement](https://en.wikipedia.org/wiki/Arts_and_Crafts_movement)
+- [Victorian Web, review of Zoë Thomas, Women Art Workers and the Arts and Crafts Movement](https://victorianweb.org/art/design/artsandcrafts/thomas.html)
+- [Chipping Campden History Society, C R Ashbee and the Guild of Handicraft](https://www.chippingcampdenhistory.org.uk/content/history/people-2/arts_artists_and_craftspeople/c_r_ashbee)
+- [Hart gold and silversmiths, Our story](https://hartsilversmiths.co.uk/our-story/)
+- [Wikipedia, Roycroft](https://en.wikipedia.org/wiki/Roycroft)
+- [Wikipedia, Gustav Stickley](https://en.wikipedia.org/wiki/Gustav_Stickley)
+- [Wikipedia, Friends of Handicraft](https://en.wikipedia.org/wiki/Friends_of_Handicraft)
+- [Wikipedia, Thomas Wardle (industrialist)](https://en.wikipedia.org/wiki/Thomas_Wardle_(industrialist))
+- [Wikipedia, Leek Embroidery Society](https://en.wikipedia.org/wiki/Leek_Embroidery_Society)
+- [Wikipedia, George Birdwood](https://en.wikipedia.org/wiki/George_Birdwood)
+- [Birdwood, The Industrial Arts of India (1884 printing), Internet Archive](https://archive.org/details/industrialartsof00birduoft)
+- [Aviva Briefel, "On the 1886 Colonial and Indian Exhibition", BRANCH](https://branchcollective.org/?ps_articles=aviva-briefel-on-the-1886-colonial-and-indian-exhibition)
+- [Coomaraswamy, The Indian Craftsman (1909), Internet Archive full text](https://archive.org/stream/indiancraftsman00coomuoft/indiancraftsman00coomuoft_djvu.txt)
+- [Abigail McGowan, "The Culture of Difference", in Crafting the Nation in Colonial India (2009)](https://link.springer.com/chapter/10.1057/9780230623231_3)
+- [Wikipedia, Ethel Mairet](https://en.wikipedia.org/wiki/Ethel_Mairet)
+- [Wikipedia, Hermann Muthesius](https://en.wikipedia.org/wiki/Hermann_Muthesius)
+- [Wikipedia, The English House](https://en.wikipedia.org/wiki/The_English_House)
+- [Wikipedia, Bauhaus](https://en.wikipedia.org/wiki/Bauhaus)
+- [Santamaria Hergueta, "Approaches to the analysis of Mingei in Japan", ejcjs (2023)](https://www.japanesestudies.org.uk/ejcjs/vol23/iss2/santamaria.html)
+- [Sanderson Design Group, Annual Report and Accounts 2026](https://sandersondesign.group/media/2165/annual-report-2026.pdf)
+- F1 Groundwork (Claude Docs), Mingei grouping page, read for the pattern.
+
+*Cited but not opened:* Saloni Mathur, *India by Design* (2007), through Briefel; Yuko Kikuchi, *Japanese Modernisation and Mingei Theory* (2004), through Santamaria Hergueta; Lethaby's life of Morris, through Burman.

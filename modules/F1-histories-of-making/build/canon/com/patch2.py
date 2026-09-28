@@ -1,0 +1,15 @@
+P={
+"Ñuu Savi":dict(making_significance="Ñuu Savi communities weave palm hats and cotton textiles, and their ancestors painted the Mixtec screenfold codices.",leaves_out="Mixteca Alta, Baja and Costa communities; migrants in the US"),
+"Wixárika":dict(making_significance="Wixárika artists make yarn paintings (nierika) and glass-bead covered objects, a practice largely developed for sale since the mid 20th c.",leaves_out="ceremonial objects made for pilgrimage versus those made for sale; communities in Jalisco and Nayarit"),
+"Hñähñu":dict(making_significance="Hñähñu embroiderers make tenango designs and San Pablito makers cut amate paper figures, and brands have copied their designs.",leaves_out="Otomí of the Mezquital, Hidalgo and the State of Mexico"),
+"Ayuujk":dict(making_significance="Ayuujk embroiderers of Santa María Tlahuitoltepec make blouses whose design was copied by a French label in 2015.",leaves_out="other Ayuujk towns"),
+"P'urhépecha":dict(making_significance="P'urhépecha towns in Michoacán specialise in lacquer, hammered copper, guitars and pottery.",leaves_out="Tarascan state as a historical polity; the craft-town system promoted by Vasco de Quiroga"),
+"Comcaac":dict(making_significance="Comcaac women coil haat torote baskets and carvers make ironwood figures for sale.",leaves_out="the ironwood carving trade copied by non-Seri carvers"),
+"Dule":dict(making_significance="Guna women sew molas in reverse appliqué for their blouses, and molas are sold worldwide.",leaves_out="Guna of Gunayala, Madungandí, Wargandí and Colombia; named mola makers"),
+"Emberá":dict(making_significance="Emberá women coil fine palm baskets and carvers make tagua figures, and body painting with jagua marks ceremonies.",leaves_out="Emberá of Panama and Colombia; Wounaan neighbours"),
+"Wounaan":dict(making_significance="Wounaan women weave fine chunga-palm baskets and men carve cocobolo wood.",leaves_out="Wounaan of Panama and Colombia; Emberá neighbours"),
+"Ngäbe":dict(making_significance="Ngäbe women crochet chácara bags from plant fibre and make chaquira bead collars.",leaves_out="Buglé neighbours; Ngäbe in Costa Rica"),
+"Boruca":dict(making_significance="Boruca carvers make balsa masks for the Juego de los Diablitos and women weave with natural dyes.",leaves_out="Térraba neighbours; mask trade"),
+"Kalinago":dict(making_significance="Kalinago weave larouma-reed baskets and build dugout canoes in the Kalinago Territory of Dominica.",leaves_out="other Carib-descended communities in St Vincent and Trinidad"),
+"Jamaican Maroons":dict(making_significance="Maroon communities make abeng cow-horn signalling instruments and drums used in Kromanti ceremonies.",leaves_out="Windward and Leeward communities; Maroons elsewhere in the Americas",materials_techniques="horn;drum making",object_types="abeng;drum",functions="play and music; war; ritual and belief"),
+}

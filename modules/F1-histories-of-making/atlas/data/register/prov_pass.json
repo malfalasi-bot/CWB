@@ -1,0 +1,135 @@
+{
+ "checked_on": "2026-09-28",
+ "records": {
+  "WS-001": {
+   "source": "Met object page 329081 (Provenance tab) and Met API",
+   "provenance_text": "Until 1988, Erlenmeyer collection, purchased by Professor Hans and Marie-Louise Erlenmeyer between 1943 and the early 1960s; acquired by the Museum in 1988, purchased at the sale of Ancient Near Eastern texts form the Erlenmeyer collection, Christie's, London, December 13, 1988, lot 21",
+   "test": "pass",
+   "basis": "In a documented private collection outside Iraq before 1970 (bought 1943 to early 1960s)",
+   "gap": "How and when it left Iraq is not recorded",
+   "met_object_id": 329081
+  },
+  "WS-090": {
+   "source": "Met object page 327384 (Provenance tab)",
+   "provenance_text": "Until 1988, Erlenmeyer collection, purchased by Professor Hans and Marie-Louise Erlenmeyer between 1943 and the early 1960s; acquired by the Museum in 1988, purchased at the sale of Ancient Near Eastern texts form the Erlenmeyer collection, Christie's, London, December 13, 1988 [lot number truncated in the page summary]",
+   "test": "pass",
+   "basis": "Same collection and sale as WS-001",
+   "gap": "How and when it left Iraq is not recorded",
+   "met_object_id": 327384
+  },
+  "WS-007": {
+   "source": "Met object page 675980 (Provenance tab)",
+   "provenance_text": "[André Emmerich Gallery, New York, 1960s]; Guido and Nelly di Tella, Buenos Aires, ca. 1960s–2013; Claudia Quentin, New York, 2013–2021",
+   "test": "pass-caveat",
+   "basis": "Outside Peru by the 1960s on the museum's record; the Met brackets the 1960s gallery step, which marks it as unconfirmed",
+   "gap": "Findspot unknown; the pre-1970 step is bracketed",
+   "met_object_id": 675980
+  },
+  "WS-043": {
+   "source": "Met object page 444375 (Provenance tab)",
+   "provenance_text": "Emil Brugsch-Bey (until 1890; sold to Baker); George F. Baker, New York (1890; gifted to MMA)",
+   "test": "pass",
+   "basis": "In the Met since 1890",
+   "gap": "Findspot unknown. The seller worked for Egypt's antiquities service; sales like this were legal then, which F1.24 can question",
+   "met_object_id": 444375
+  },
+  "WS-060": {
+   "source": "Cleveland Open Access API",
+   "provenance_text": "Frank Caro [1904–1980], New York, NY, given to the Cleveland Museum of Art by exchange (?–1960); The Cleveland Museum of Art (1960–)",
+   "test": "pass",
+   "basis": "In Cleveland since 1960",
+   "gap": "History before Frank Caro not recorded"
+  },
+  "WS-061": {
+   "source": "Cleveland Open Access API",
+   "provenance_text": "Men-chu Wang, Seller's no. 12",
+   "test": "pass",
+   "basis": "In Cleveland since January 1957",
+   "gap": "A seller's number only"
+  },
+  "WS-081": {
+   "source": "Cleveland Open Access API",
+   "provenance_text": "The Cleveland Museum of Art, Cleveland, OH (1970—) [entry 1 not published]",
+   "test": "pass",
+   "basis": "Accessioned 9 March 1970, eight months before the 17 November 1970 threshold",
+   "gap": "Earlier owners not published; the record's first entry is missing"
+  },
+  "WS-092": {
+   "source": "Cleveland Open Access API",
+   "provenance_text": "Mrs. Christian R. Holmes; Mozaffar Cohen, Paris [no dates]",
+   "test": "pass",
+   "basis": "In Cleveland since 1961; two named earlier owners",
+   "gap": "No findspot; Luristan bronzes as a group were mostly dug without record from 1928"
+  },
+  "WS-053": {
+   "source": "Cleveland Open Access API",
+   "provenance_text": "[none published]; credit line Gift of John Wise, accessioned 30 October 1940",
+   "test": "pass",
+   "basis": "In Cleveland since 1940",
+   "gap": "Findspot and earlier owners unknown"
+  },
+  "WS-012": {
+   "source": "Cleveland Open Access API",
+   "provenance_text": "Mr. and Mrs. Robert M. Hornung, Cleveland Heights, OH, given to the Cleveland Museum of Art (?–1962)",
+   "test": "pass",
+   "basis": "In Cleveland since 1962",
+   "gap": "How it left Ghana is not recorded"
+  },
+  "WS-005": {
+   "source": "Cleveland Open Access API (full record)",
+   "provenance_text": "(Gallery Kapitan, Tokyo, Japan, sold to the Cleveland Museum of Art) (?–1984); The Cleveland Museum of Art (1984–)",
+   "test": "fail",
+   "basis": "First record 1984; no excavation or export record published",
+   "gap": "Also: the museum reports that a base from a different vessel was used in a 20th-century reconstruction",
+   "action": "Case, not exemplar: what a reconstruction and a missing history each hide. Replace the exemplar with an excavated flame vessel held in Japan (ColBase or a municipal museum; rights to check)"
+  },
+  "WS-015": {
+   "source": "Cleveland Open Access API",
+   "provenance_text": "Jacques Hautelet, La Jolla, CA (by at least 2004); Robert H. Jackson by gift to the Cleveland Museum of Art (?–2015); The Cleveland Museum of Art (2015–)",
+   "test": "colonial-gap",
+   "basis": "Not an antiquity, so the 1970 test does not apply; made 1800 to mid-1900s in a colonised region and first recorded in 2004",
+   "gap": "Collection circumstances unknown",
+   "action": "Replace with a throwing knife collected with a documented date and context; if none is licensed, show this one with its gap stated"
+  },
+  "WS-042": {
+   "source": "Cleveland Open Access API",
+   "provenance_text": "(Momtaz Islamic Art, London, England, sold to the Cleveland Museum of Art) (?–2004); The Cleveland Museum of Art (2004–)",
+   "test": "fail",
+   "basis": "First record 2004; an architectural element with no record of its building or its removal",
+   "gap": "Which building it came from",
+   "action": "Drop as exemplar; the Iznik unit keeps WS-040 and WS-041"
+  },
+  "WS-091": {
+   "source": "Cleveland Open Access API",
+   "provenance_text": "[none published]; purchase from the J. H. Wade Fund, accessioned 9 September 1980",
+   "test": "fail",
+   "basis": "First record 1980; no findspot",
+   "gap": "Everything before 1980",
+   "action": "Case, not exemplar: Luristan as the textbook case of objects without a findspot (F1.24; West Asia chapter). WS-092 carries the horse-gear point"
+  },
+  "WS-101": {
+   "source": "Cleveland Open Access API",
+   "provenance_text": "(Sara Tremayne, Ltd., London, UK, sold to the Cleveland Museum of Art) (?–1996); The Cleveland Museum of Art (1996–)",
+   "test": "fail",
+   "basis": "First record 1996; no findspot",
+   "gap": "Everything before 1996",
+   "action": "Case, not exemplar. WS-102 (in Cleveland since 1959) becomes the steppe chapter's silk exemplar"
+  },
+  "WS-041": {
+   "source": "Cleveland Open Access API",
+   "provenance_text": "Sulzbach; Stora; Scarisbrick [no dates]; (Oliver Hoare Ltd., London, UK, sold to the Cleveland Museum of Art) (?-1995); The Cleveland Museum of Art (1995-)",
+   "test": "enquiry",
+   "basis": "Three named earlier owners, none dated; the test turns on whether any held it before 1970",
+   "gap": "Dates for the three named owners",
+   "action": "Keep as a provisional exemplar with its line shown; ask Cleveland for the owners' dates"
+  },
+  "WS-095": {
+   "source": "Met API object 249469",
+   "provenance_text": "Gift of J. Pierpont Morgan, 1917",
+   "test": "pass",
+   "basis": "In the Met since 1917; public domain confirmed at record level",
+   "gap": "Findspot not in the open data",
+   "met_object_id": 249469
+  }
+ }
+}

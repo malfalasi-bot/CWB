@@ -1,0 +1,165 @@
+## F1.1 One object, three readings: material, labour, meaning
+
+A clay account of barley can be read three ways: what it is made of, who worked on it, and what it meant. Each reading pulls a different strand of the web.
+
+**Spec**
+
+| Row | F1.1 |
+|---|---|
+| Essential question | What can one object tell you about the people around it, and what does each way of reading it leave out? |
+| Opening move | Object first. The Met's proto-cuneiform tablet (WS-001, Met 1988.433.1) fills the screen with no label. Three prompts sit beside it: "What is it made of? Who worked on it? What was it for?" Claim: "Look closely enough and an object tells you who made it." Counter-claim: "The clay keeps marks, not names. Everything else comes from records, and records have gaps." The learner answers the three prompts, then sees the label. |
+| Lab or main interactive | **Three lenses.** The tablet image (Met, public domain) with three switchable overlays. *Material*: the clay, the drawn signs, the round number impressions, the seal rolled over faces and edges. *Labour*: the hands implied: shaper and writer, seal carver, the people whose barley is counted. *Meaning*: an account for a large temple (the Met says "most likely"), and the seal image. Each overlay ends with one line: "What this lens cannot see." Then the Atlas **Lineage view** opens: the learner drags the tablet onto nodes (OBT123, TEC178, OBT125, PLC264), one edge per reading. |
+| Concept | About 550 words. Defines the three readings and the source each leans on: the object's body (material), the record plus comparison (labour), context and use (meaning). Says why F1.1 stops at three; trade and technique join at F1.25. Introduces the body-and-access question as part of reading use: who can use this, who it shuts out. Shows the attribution line as the summary of all three readings. One example beyond the cases: the Inka khipu (WS-053, Cleveland 1940.469), an account kept in knotted cotton and wool cords, not clay. The same job, another material; the web, not a line. |
+| Cases | Three object stories (form 3), each read three ways. **1. Proto-cuneiform tablet**, Mesopotamia, probably Uruk, c. 3100–2900 BCE (Met 1988.433.1); function: record-keeping. **2. Mosque lamp**, İznik, 1585–95 (Cleveland 1944.236, WS-040); function: worship and display. **3. Side chair**, designed by August Thonet c. 1885, made by Gebrüder Thonet c. 1900–15 (Art Institute of Chicago 1999.556); function: everyday seating, industrial making. The access lens is applied once, on the chair. |
+| Apply — maker | Read an object you own. Write one sentence per reading, and tag each "seen", "recorded" or "guessed". Answer one access question: who can use it, and who can't? Place it in the Lineage view as your first node, with at least two edges to canon nodes. |
+| Apply — briefer | Write the attribution line for the object you own, on the model: maker named or described, place, date range, materials, holder, how it got there. Write "not known" wherever a part is missing. |
+| Partner | **Historian.** Declared agenda: "The record is evidence too, and someone wrote it." Question: "For each sentence you wrote, where did it come from: your eyes, the record, or a guess?" Ends with a test: sort nine sentences about the tablet (three per reading) into seen / recorded / guessed, then tag the learner's own three. |
+| Forms | 3 (object story) |
+| Consumption forms | **Five-minute:** the tablet read three ways on three cards, plus its model attribution line. **Session:** full unit, 30–40 minutes (opening 5, lab 8, concept 6, cases 10, apply 8, partner 3). **Reference:** the three-lens checklist and the attribution-line model, printable. |
+| Media | Still images from open records (Met public domain; Cleveland CC0; AIC CC0). Two diagrams of our own: the three lenses, and a cylinder seal rolling out its image. Link-outs for non-open comparisons. No video or audio. |
+| Artifact fields | SRC: the learner's object, its three tagged readings, its attribution line, one stated gap, its Lineage node ID. |
+| Threads | Attribution and Authority (the attribution line; who the credit leaves out). Writing and Argument (confidence words; seen / recorded / guessed). Accessibility level 1 (the body-and-access lens, once). Planetary Weight is not carried here; it enters at F1.25. |
+| Closing contribution | One line in SRC: "[Object]: made of [material] by [maker, named or described]; it meant [meaning]; not known: [gap]; Lineage node [ID]." |
+| Claims sheet | 20 claims (section 3): 11 documented, 4 probable, 2 contested (both readings given), 3 interpretive, including the unit's framing. |
+
+**1. Responsibility block**
+
+This unit must reach:
+
+- Object types: OBT123 clay tablet; OBT125 cylinder seal; OBT024 mosque lamp; GAP030 chair; OBT139 khipu (example only).
+- Techniques and materials: TEC178 clay tablet and stylus; TEC179 cylinder seal carving; TEC036 fritware; TEC037 underglaze cobalt blue; TEC137 steam-bent wood (Thonet); MAT094 rattan (cane); MAT021 kaolin and porcelain stone (as what fritware imitated).
+- Makers and places: MKR057 İznik potteries; PLC305 İznik; INS062 Gebrüder Thonet; PLC264 Uruk.
+- Groupings and periods: ARC054 Uruk; PRD031 Uruk period (with the proposed Jemdet Nasr row); INV001 writing (Mesopotamia); PRD169 Ottoman Classical Age; DYN087 Habsburg dynasty (for "Austria" in the chair's record).
+- Sub-regions: WA-MES (tablet); WA-ANA (lamp); central Europe (chair; INS062 is coded EU-WCE, which a checker should review, since the factories were in Moravia).
+- Periods: c. 3100–2900 BCE; 1585–95 CE; c. 1885–1915 CE.
+
+World chapters reached (five):
+
+- **F1.9a** West Asia before Islam: Case 1.
+- **F1.10** Islamic world: Case 2.
+- **F1.11** Europe and the Mediterranean: Case 3.
+- **F1.7** Americas: the Inka khipu example in the concept.
+- **F1.8** East Asia: the Chinese porcelain that fritware set out to approach (Case 2).
+
+The Atlas carries instead: the trade strands (NET016; the porcelain route; the rattan supply); the court design studio (INS042 Nakkashane); temple religion (BEL002); the full technique layer (F1.25). Tokens and bullae (OBT124, INV010) stay in F1.5.
+
+**2. Protocol screen**
+
+- No human remains appear.
+- **Tablet:** an administrative record, not a grave good. The findspot is not recorded. The screen states that its exit from Iraq is not recorded. Workers counted in rations are named as workers, never as goods or "assets".
+- **Mosque lamp:** it was made to hang in a mosque or tomb, so it carries a content note and its origin. The Cleveland record gives no inscription. The 1549 Dome of the Rock lamp carries Qur'anic text. It is a link-out only; its inscription is never cropped or used as decoration.
+- **Chair:** no protocol issue.
+- **Khipu:** Andean material. It carries a Notice naming Runakuna (COM137, Quechua-speaking communities) first. The Cleveland record gives no findspot. Many surviving khipus came from burials, so its grave-good status is unknown. It is shown only with its origin and a content note.
+- A descendant-community request not to show it overrides everything above.
+
+**3. Claims**
+
+| # | Claim | Confidence | Source opened | Depth |
+|---|---|---|---|---|
+| 1 | The tablet is clay, 5.4 × 6 × 4.1 cm, dated "ca. 3100–2900 BCE", Jemdet Nasr period. | documented | [Met API 329081](https://collectionapi.metmuseum.org/public/collection/v1/objects/329081) | full record |
+| 2 | Its place is "Mesopotamia, probably from Uruk (modern Warka)". | probable (the Met's qualifier) | [Met 329081](https://www.metmuseum.org/art/collection/search/329081) | full label |
+| 3 | The signs were drawn in the clay with a pointed tool; round impressions beside them are numbers. | documented | same Met page | full label |
+| 4 | The tablet "most likely documents grain distributed by a large temple". Early texts have no verbs, so certainty is not possible. | probable | same Met page | full label |
+| 5 | A cylinder seal was rolled over both faces and the edges before the signs were written. | documented | same Met page | full label |
+| 6 | The seal shows a man with hunting dogs and boars. The Met's text calls him a "priest-king". The term is a modern scholars' reading. | interpretive | same Met page | page summary via a fetch tool; wording to check |
+| 7 | About 5,000 proto-cuneiform tablets are known, c. 3350–3000 BCE. About 85% are administrative. | documented | [Wikipedia, Proto-cuneiform](https://en.wikipedia.org/wiki/Proto-cuneiform) (citing CDLI and Englund) | summary |
+| 8 | The Met labels the tablet's culture "Sumerian". The language behind proto-cuneiform is uncertain. Reading A: the label names the region's later language and people. Reading B: it assigns a language the signs do not show. | contested | Met API (as 1); Wikipedia (as 7) | full record / summary |
+| 9 | The Erlenmeyers bought their collection "between 1943 and the early 1960s". The Met bought this tablet at Christie's, London, 13 December 1988, lot 21. How it left Iraq is not recorded. | documented | Met provenance tab (provenance pass, checked 2026-09-28) and Met page | full text |
+| 10 | Cleveland's mosque lamp is fritware with underglaze design, İznik, 1585–95. It came from Heeramaneck Galleries, New York, in 1944. | documented | [Cleveland 1944.236](https://openaccess-api.clevelandart.org/api/artworks/1944.236) | full record |
+| 11 | Fritware is ground quartz, glass frit and a little fine white clay, made to approach the colour and weight of Chinese porcelain. | documented | same Cleveland record | full record |
+| 12 | Cleveland says the lamp is opaque, so its main job was "likely" not light. It hung to add beauty to the space. | probable | same Cleveland record | full record |
+| 13 | Cleveland says lamps like it may also have softened echo in the prayer hall. | interpretive | same Cleveland record | full record |
+| 14 | An İznik lamp dated 1549, made for the Dome of the Rock, names its decorator, Musli, with the date and the place it was made (British Museum 1887,0516.1). | documented | [MWNF Discover Islamic Art](https://islamicart.museumwnf.org/database_item.php?id=object;ISL;uk;Mus01;39;en) | full entry |
+| 15 | The AIC side chair was designed by August Thonet c. 1885, made by Gebrüder Thonet c. 1900–15, in beech and cane. Its place of origin is "Austria". | documented | [AIC API 154051](https://api.artic.edu/api/v1/artworks/154051) | full record |
+| 16 | Thonet learned to bend solid wood by adding steam and a metal strip. The V&A dates this to 1855; the canon row (TEC137) gives patents from 1841. Reading A: 1841 marks laminated bending. Reading B: 1855–56 marks solid-wood bending. | contested | [V&A, Thonet and the invention of bentwood furniture](https://www.vam.ac.uk/articles/thonet-and-the-invention-of-bentwood-furniture) | full text |
+| 17 | The Thonet factory at Koryčany (Koritschan) stood in Moravian forests, with beech, "cheap labour" and rail links. The V&A says 1857; Wikipedia says 1856. | documented (the date is to check) | V&A (as 16); [Wikipedia, No. 14 chair](https://en.wikipedia.org/wiki/No._14_chair) | full text / summary |
+| 18 | "Men did the steaming and bending, women the less arduous sanding, finishing and caning." | documented (one source) | V&A (as 16) | full text |
+| 19 | By 1930 over 50 million No. 14 chairs had been sold. The model dates to 1859. | probable (a sales figure from the firm's history) | V&A (as 16); [Boijmans, Nr. 14](https://www.boijmans.nl/en/collection/artworks/108066/nr-14) | full text / full record |
+| 20 | **The unit's framing:** reading one object as material, labour and meaning shows people that a style-and-date label hides. Three readings are a teaching choice, not a complete account. | interpretive | — | — |
+
+**4. Nodes**
+
+| Case or claim | Canon IDs |
+|---|---|
+| Case 1, claims 1–9 | OBT123, TEC178, OBT125, TEC179, INV001, PLC264, ARC054, PRD031, POL092, CIV055, CIV056 (claim 8), BEL002 (claim 4) |
+| Case 2, claims 10–14 | OBT024, TEC036, TEC037, MAT128, MAT021, MKR057, PLC305, STY109, PRD169, BEL017, PER316 (claim 14) |
+| Case 3, claims 15–19 | GAP030, INS062, TEC137, MAT094, MAT115 (the Nasjonalmuseet No. 14 lists plywood), DYN087 |
+| Khipu example | OBT139, TEC104, MKR024, INV005, POL061, COM137 |
+| Access lens | GAP030 (function "care and access"), OBT275 |
+
+Proposed new canon rows: Jemdet Nasr period (period; Uruk III, c. 3100–2900 BCE); clay, unfired and sun-dried (material); barley (material; crop, ration and unit of account); Ottoman Empire (polity; no Ottoman polity or dynasty row exists; the endonym is to verify); Michael Thonet, 1796–1871 (person); August Thonet (person; dates to verify); Koryčany Thonet factory (place); Musli, İznik decorator, fl. 1549 (person); Dome of the Rock (place); beech (material); Hans and Marie-Louise Erlenmeyer (people; collectors); Heeramaneck Galleries (institution; dealer).
+
+**5. Candidate open objects**
+
+| Object | Holder, accession | Date | Licence as stated | 1970 status | Record |
+|---|---|---|---|---|---|
+| Proto-cuneiform tablet with seal impressions (WS-001) | Met, 1988.433.1 | ca. 3100–2900 BCE | Public domain (`isPublicDomain: true`, checked) | **Pass**, on a collection-level statement: the Erlenmeyers bought "between 1943 and the early 1960s". There is no item-level date, and the exit from Iraq is not recorded. | [Met 329081](https://www.metmuseum.org/art/collection/search/329081) |
+| Tablet: barley and emmer (WS-090, sibling) | Met, 1988.433.2 | ca. 3100–2900 BCE | Public domain (`isPublicDomain: true`, checked) | Pass (same collection and caveat) | [Met 327384](https://www.metmuseum.org/art/collection/search/327384) |
+| Mosque lamp (WS-040) | Cleveland, 1944.236 | 1585–95 | CC0 | Pass: in Cleveland since 1944. The building it hung in is not recorded. | [clevelandart.org/art/1944.236](https://clevelandart.org/art/1944.236) |
+| Side chair, August Thonet design (new) | Art Institute of Chicago, 1999.556 | designed c. 1885; made c. 1900–15 | Public domain; the AIC releases such images as CC0 | n/a (manufactured modern work) | [AIC 154051](https://api.artic.edu/api/v1/artworks/154051) |
+| Side chair, Michael Thonet design (alternate) | Art Institute of Chicago, 1999.555 | designed c. 1851; made c. 1855 | Public domain; CC0 as above | n/a | [AIC 154050](https://api.artic.edu/api/v1/artworks/154050) |
+| Inka khipu (WS-053) | Cleveland, 1940.469 | c. 1400–1532 | CC0 | Pass: in Cleveland since 1940. No findspot. | [clevelandart.org/art/1940.469](https://clevelandart.org/art/1940.469) |
+
+**Handling the flag honestly.** WS-001 passes the 1970 test on the Met's provenance, so it stays the anchor. The screen still shows its gap, and the tablet's model attribution line teaches that gap. The pass rests on a range for a whole collection, not a dated sale of this tablet. If the Historian reader judges that too thin, the fallback anchor is a tablet with a published excavation findspot. **None was verified in this pass.** WS-090 has the same caveat, so it is not a fallback.
+
+**Rejected.** The Met's Thonet records are not public domain (`isPublicDomain: false` on 1978.300.1, 1978.300.2, 1978.522 and 1985.127), although its search filter returned them. The chair is therefore drawn from the AIC. The Nasjonalmuseet No. 14 (OK-15059C) shows no photograph or licence. Boijmans V 285 is a 2021 gift from the firm, and its image licence was not checked. Both are link-outs only.
+
+**6. People and credit**
+
+Named in the records: Michael Thonet, 1796–1871 (AIC); August Thonet (AIC gives no dates of his own); Musli, decorator of the 1549 lamp; collectors Hans and Marie-Louise Erlenmeyer; donors Mr. and Mrs. Manfred Steinfeld (AIC); the credit line "Purchase, Raymond and Beverly Sackler Gift, 1988" (Met); dealer Heeramaneck Galleries.
+
+Who the credit leaves out:
+
+- **Tablet:** the person who shaped and wrote it; the seal carver; the farmers and receivers of the barley. No name is recorded for any of them.
+- **Lamp:** the İznik potters, painters and glaze-makers, and the diggers of the quartz. The record names no maker. The 1549 lamp shows that a painter's name could be written, and usually was not.
+- **Chair:** the Moravian workers. Men steamed and bent the wood. Women sanded, finished and caned it (V&A). The rattan cutters are not named anywhere in these sources, and where the cane came from is **not verified**.
+
+The designer's name stands for all of them in the AIC's "Designed by … Made by" line.
+
+**7. Visual plan (zero cost)**
+
+| Form or element | Image source |
+|---|---|
+| Opening and Case 1 (form 3) | Met open record, primary image DP293243 (public domain). Other views of the edges are to check. |
+| Lab overlays | Our own annotation layer over the Met image. Our own drawing of a cylinder seal rolling out, marked as a drawing. |
+| Case 2 (form 3) | Cleveland open record (CC0). The 1549 lamp is a link-out to the British Museum. |
+| Case 3 (form 3) | AIC open record 1999.556 (CC0), captioned as the AIC asks: "Artist. Title, Date. The Art Institute of Chicago." The No. 14 is a link-out to Boijmans or Nasjonalmuseet. |
+| Concept example | Cleveland khipu (CC0), with its Notice. |
+| Three-lens diagram and Lineage view | Our own diagram; Atlas interface. |
+
+Every image carries alt text written from the object, including its size. No generated images of objects, people or places.
+
+**8. Success criteria**
+
+1. The learner writes one sentence per reading about their own object, and tags each one seen, recorded or guessed.
+2. The learner's attribution line has all six parts, with "not known" wherever a part is missing.
+3. The learner places the object in the Lineage view with at least two edges to canon nodes, and names one strand they cannot trace.
+
+**9. Readings and risks**
+
+The Historian pre-read (pack v2) should check:
+
+- whether "priest-king" and "Sumerian" can be shown as the Met's words, in quotation marks, without the unit adopting them;
+- whether a collection-level range is enough to pass the 1970 test for WS-001;
+- the V&A's gendered division of labour, which rests on one source (claim 18);
+- the Thonet dates (claims 16–17);
+- Cleveland's acoustic reading (claim 13), which must stay "possible".
+
+Hold until a reader clears them:
+
+- Whether the unit comments on the Sackler name in the credit line. The line stays as the record gives it. The funders' public controversy is not verified here and is not taught.
+- The khipu Notice wording, and any image of a khipu that may have come from a grave.
+- The access questions on the chair. They must stay questions about fit and use, not claims about whose bodies are "normal".
+
+**10. Fact-check list**
+
+- **R1 rows used:** OBT123, INV001, PLC264, TEC178, OBT125, OBT139, COM137. INV001's `making_significance` says "First known writing". Change it to "Earliest known".
+- **R2 rows used:** OBT024 (its notes say "Iznik ceramic lamps were symbolic, not for light"; Cleveland says "likely", so soften the note); INS062 (start date 1849, but the AIC gives the firm 1853–1921; coded EU-WCE for Moravian factories; lists the Met as a CC0 source, but the Met's Thonet records are not public domain); also GAP030, MKR057, PLC305, TEC036, TEC037, MKR024, TEC179, DYN087, PRD169, STY109.
+- **TEC137 (R3):** reconcile its start date of 1841 with the V&A's 1855.
+- **Living people:** none named. Confirm whether Manfred Steinfeld is living before naming him (not verified).
+- **Endonyms:** İznik; Uruk / Warka; Koryčany / Koritschan; Runakuna; the Ottoman endonym for the proposed row.
+- **UNESCO claims:** none made.
+- **Licences to confirm at image level:** Met 1988.433.1 and 1988.433.2 (public domain); Cleveland 1944.236 and 1940.469 (CC0); AIC 1999.556 and 1999.555 (the "CC0 Public Domain Designation" label on each artwork page).
+- **Claim 6:** the exact wording of the Met's seal description.
+- **Claim 19:** the "50 million" figure, against a second source.
+- **Model attribution line (Case 1), to check before G3:** "Shaped and written by an unnamed scribe, and sealed with a seal cut by an unnamed carver, probably for a large temple. Mesopotamia, probably Uruk (modern Warka, Iraq). c. 3100–2900 BCE. Clay; signs drawn with a pointed tool; rolled with a cylinder seal. The Metropolitan Museum of Art, New York, 1988.433.1. Collected by Hans and Marie-Louise Erlenmeyer between 1943 and the early 1960s; how it left Iraq is not recorded; bought by the Met at Christie's, London, 13 December 1988."

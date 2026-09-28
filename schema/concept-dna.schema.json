@@ -1,0 +1,395 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/creative-world/schema/concept-dna.schema.json",
+  "title": "Concept DNA",
+  "description": "The one artifact every learner builds. Each unit writes entries into named fields; the app holds the artifact as this structure. Field list from Master Structure v2.1, 'The artifact schema'.",
+  "type": "object",
+  "required": [
+    "learner_world",
+    "fields"
+  ],
+  "properties": {
+    "learner_world": {
+      "type": "object",
+      "required": [
+        "title",
+        "kind"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "own",
+            "seed"
+          ]
+        },
+        "seed": {
+          "enum": [
+            "Salt Road",
+            "Night Library",
+            "Second Skin"
+          ]
+        },
+        "route": {
+          "enum": [
+            "Maker",
+            "Briefer",
+            "Founder",
+            "Student"
+          ]
+        }
+      }
+    },
+    "fields": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "PRM": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Premise: proposition, stance, contradiction, scenario, non-goals. Filled mainly by M1."
+        },
+        "PER": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Perimeter: what the world enables, protects, resists, rejects, transforms. Filled mainly by F5, M1."
+        },
+        "RUL": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Rules: constants, variables, thresholds. Filled mainly by M2."
+        },
+        "ANT": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Anti-DNA. Filled mainly by M2."
+        },
+        "ALN": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Alignment with practice, collection and masterbrand DNA. Filled mainly by M2, R1."
+        },
+        "OBL": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Category obligations and permitted variation. Filled mainly by M2."
+        },
+        "TST": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Test set: belongs, edge, failure, seductive-but-off. Filled mainly by M2, every module's closing test."
+        },
+        "BRF": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Contributor brief and agent prompt architecture. Filled mainly by M2, T3."
+        },
+        "VER": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Version history and change log. Filled mainly by M2 onward."
+        },
+        "COL": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Collection map: roles, families, drops, carriers, distribution. Filled mainly by M3."
+        },
+        "ANC": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Anchor expression and family. Filled mainly by M4, areas."
+        },
+        "ADJ": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Adjacent translation. Filled mainly by M4, areas."
+        },
+        "JDG": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Judged set (briefer lane). Filled mainly by Every module's closing test, briefer lane."
+        },
+        "CMB": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Commissioning brief and record (briefer lane). Filled mainly by Areas, R3."
+        },
+        "VEN": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Venture: masterbrand, orbital architecture, community, campaign. Filled mainly by R1."
+        },
+        "RGT": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Rights and money: IP protocol, funding scenario, cash model. Filled mainly by R2."
+        },
+        "HND": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Handover package. Filled mainly by R3, areas."
+        },
+        "LCY": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Lifecycle: release, maintenance, repair, end of life. Filled mainly by R4."
+        },
+        "PLW": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Planetary weight ledger, accumulating from F5 to R4. Filled mainly by F5, S-areas, T9, R4."
+        },
+        "DOS": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "Dossier: evidence, alternatives, abandoned directions, future practice. Filled mainly by R5."
+        },
+        "SITE": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          },
+          "description": "The site, object, body or brand pack a studio brief runs on. Filled mainly by Areas at Mastery."
+        },
+        "SRC": {
+          "type": "array",
+          "items": {
+            "$ref": "src-entry.schema.json"
+          },
+          "description": "Sources, attributions, consultation record. Filled mainly by F1, M1, R2."
+        },
+        "GRM": {
+          "type": "object",
+          "additionalProperties": false,
+          "description": "Grammars. Candidates from F2–F4; rules in M2; refined in areas.",
+          "properties": {
+            "f": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/entry"
+              },
+              "description": "formal grammar (GRM.f)"
+            },
+            "m": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/entry"
+              },
+              "description": "material grammar (GRM.m)"
+            },
+            "k": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/entry"
+              },
+              "description": "construction grammar (GRM.k)"
+            },
+            "c": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/entry"
+              },
+              "description": "chromatic grammar (GRM.c)"
+            },
+            "s": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/entry"
+              },
+              "description": "spatial grammar (GRM.s)"
+            },
+            "a": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/entry"
+              },
+              "description": "atmospheric grammar (GRM.a)"
+            },
+            "sn": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/entry"
+              },
+              "description": "sensory grammar (GRM.sn)"
+            },
+            "b": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/entry"
+              },
+              "description": "behavioural grammar (GRM.b)"
+            },
+            "i": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/entry"
+              },
+              "description": "interaction grammar (GRM.i)"
+            },
+            "t": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/entry"
+              },
+              "description": "temporal grammar (GRM.t)"
+            },
+            "n": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/entry"
+              },
+              "description": "narrative grammar (GRM.n)"
+            },
+            "v": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/entry"
+              },
+              "description": "verbal grammar (GRM.v)"
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "required": [
+        "unit",
+        "lane",
+        "depth",
+        "text"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "unit": {
+          "type": "string",
+          "pattern": "^[A-Z][0-9]{1,2}(\\.[0-9]{1,2}[a-z]?)?$",
+          "description": "The unit that wrote the entry, e.g. F1.14"
+        },
+        "lane": {
+          "enum": [
+            "M",
+            "B"
+          ]
+        },
+        "depth": {
+          "enum": [
+            "O",
+            "P",
+            "M"
+          ]
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "SRC entry ids this entry relies on"
+        },
+        "confidence": {
+          "enum": [
+            "documented",
+            "probable",
+            "contested",
+            "interpretive"
+          ]
+        },
+        "written": {
+          "type": "string",
+          "format": "date"
+        },
+        "version": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    }
+  },
+  "x-field-order": [
+    "SRC",
+    "PRM",
+    "PER",
+    "RUL",
+    "ANT",
+    "GRM",
+    "ALN",
+    "OBL",
+    "TST",
+    "BRF",
+    "VER",
+    "COL",
+    "ANC",
+    "ADJ",
+    "JDG",
+    "CMB",
+    "VEN",
+    "RGT",
+    "HND",
+    "LCY",
+    "PLW",
+    "DOS",
+    "SITE"
+  ],
+  "x-grammar-codes": {
+    "f": "formal",
+    "m": "material",
+    "k": "construction",
+    "c": "chromatic",
+    "s": "spatial",
+    "a": "atmospheric",
+    "sn": "sensory",
+    "b": "behavioural",
+    "i": "interaction",
+    "t": "temporal",
+    "n": "narrative",
+    "v": "verbal"
+  }
+}

@@ -1,0 +1,1108 @@
+{
+ "register": "F1 claims",
+ "version": "v0",
+ "built": "2026-09-28",
+ "note": "IDs from CL-101 so they do not collide with CL-001 (sprint 2); units link to claims, never copy them",
+ "records": [
+  {
+   "unit": "F1.5",
+   "topic": "Writing",
+   "claim": "Writing was invented independently three or four times: four if Egypt counts, three if Egypt borrowed the idea from Mesopotamia",
+   "confidence": "contested",
+   "confidence_note": "",
+   "source": "CL-001, sprint 2 sources",
+   "from": "DD1",
+   "id": "CL-101"
+  },
+  {
+   "unit": "F1.5",
+   "topic": "Writing",
+   "claim": "Egyptian hieroglyphs appear on labels from tomb U-j at Abydos, radiocarbon-dated to about 3320 BCE, and took more than 400 years to reach their full form",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Kahl 2001",
+   "from": "DD1",
+   "id": "CL-102"
+  },
+  {
+   "unit": "F1.5",
+   "topic": "Writing",
+   "claim": "The earliest Chinese writing, oracle-bone inscriptions of King Wu Ding's reign, is radiocarbon-dated to 1254–1197 BCE",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Liu et al. 2020, Radiocarbon",
+   "from": "DD1",
+   "id": "CL-103"
+  },
+  {
+   "unit": "F1.5",
+   "topic": "Writing",
+   "claim": "The Cascajal block from the Olmec heartland is the oldest writing in the Americas, dated by style to the early first millennium BCE",
+   "confidence": "contested",
+   "confidence_note": "",
+   "source": "Rodríguez Martínez et al. 2006; critique by Bruhns and Kelker 2007",
+   "from": "DD1",
+   "id": "CL-104"
+  },
+  {
+   "unit": "F1.5",
+   "topic": "Writing",
+   "claim": "Khipus recorded census and tribute counts, and may have encoded tributaries' names by colour",
+   "confidence": "documented",
+   "confidence_note": "for counts; interpretive for names",
+   "source": "Medrano and Urton 2018, Ethnohistory",
+   "from": "DD1",
+   "id": "CL-105"
+  },
+  {
+   "unit": "F1.5",
+   "topic": "Pottery",
+   "claim": "Mobile foragers made pottery in Xianrendong Cave, China, 20,000–19,000 years ago, ten millennia before farming",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Wu et al. 2012",
+   "from": "DD1",
+   "id": "CL-106"
+  },
+  {
+   "unit": "F1.5",
+   "topic": "Pottery",
+   "claim": "Pottery was made at Ounjougou, Mali, before 9400 BCE, during a wet phase in the Sahara",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Huysecom et al. 2009",
+   "from": "DD1",
+   "id": "CL-107"
+  },
+  {
+   "unit": "F1.5",
+   "topic": "Pottery",
+   "claim": "The Chinese and African inventions were separate",
+   "confidence": "probable",
+   "confidence_note": ": far apart in place and time, with nothing known to connect them",
+   "source": "Our reading of the two sources above",
+   "from": "DD1",
+   "id": "CL-108"
+  },
+  {
+   "unit": "F1.5",
+   "topic": "Metals",
+   "claim": "Copper was smelted at Belovode, Serbia, about 5000 BCE, far from the Near East",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Radivojević et al. 2010",
+   "from": "DD1",
+   "id": "CL-109"
+  },
+  {
+   "unit": "F1.5",
+   "topic": "Metals",
+   "claim": "Metallurgy therefore had more than one origin",
+   "confidence": "contested",
+   "confidence_note": "",
+   "source": "Same source, which argues it; the Near-East-first reading stands against it",
+   "from": "DD1",
+   "id": "CL-110"
+  },
+  {
+   "unit": "F1.5",
+   "topic": "Metals",
+   "claim": "Gold was cold-hammered into beads at Jiskairumoko, Peru, 2155–1936 BCE, the earliest worked gold in the Americas",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Aldenderfer et al. 2008",
+   "from": "DD1",
+   "id": "CL-111"
+  },
+  {
+   "unit": "F1.5",
+   "topic": "Metals",
+   "claim": "Iron was produced at Douroula, Burkina Faso, in the 8th century BCE",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "UNESCO World Heritage listing, 2019",
+   "from": "DD1",
+   "id": "CL-112"
+  },
+  {
+   "unit": "F1.5",
+   "topic": "Metals",
+   "claim": "Iron smelting south of the Sahara was invented there, not received from the north",
+   "confidence": "contested",
+   "confidence_note": "",
+   "source": "Both sides set out in Alpern 2005; taught in F1.6",
+   "from": "DD1",
+   "id": "CL-113"
+  },
+  {
+   "unit": "F1.5",
+   "topic": "Cities",
+   "claim": "Caral had monumental architecture, urban settlement and irrigation by 2627–1977 BCE",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Shady, Haas and Creamer 2001",
+   "from": "DD1",
+   "id": "CL-114"
+  },
+  {
+   "unit": "F1.5",
+   "topic": "Cities",
+   "claim": "Jenné-jeno was a city from the 3rd century BCE with no evidence of a central ruler",
+   "confidence": "documented",
+   "confidence_note": "for dates; interpretive for how it was governed",
+   "source": "McIntosh, Oxford Research Encyclopedia",
+   "from": "DD1",
+   "id": "CL-115"
+  },
+  {
+   "unit": "F1.5",
+   "topic": "Cities",
+   "claim": "The Upano Valley held road-linked garden cities from about 500 BCE to 300–600 CE",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Rostain et al. 2024",
+   "from": "DD1",
+   "id": "CL-116"
+  },
+  {
+   "unit": "F1.5",
+   "topic": "Cotton and dye",
+   "claim": "Cotton was domesticated four separate times, twice in Africa and Asia and twice in the Americas",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Wendel and Cronn, USDA summary; Renny-Byfield et al. 2016, Genome Biology and Evolution",
+   "from": "DD1",
+   "id": "CL-117"
+  },
+  {
+   "unit": "F1.5",
+   "topic": "Cotton and dye",
+   "claim": "Indigo-dyed cotton from Huaca Prieta, Peru, about 6,200 years old, is the earliest known use of indigo anywhere",
+   "confidence": "documented",
+   "confidence_note": ", as \"earliest known\"",
+   "source": "Splitstoser et al. 2016",
+   "from": "DD1",
+   "id": "CL-118"
+  },
+  {
+   "unit": "F1.5",
+   "topic": "Printing",
+   "claim": "The printed invocations placed in the One Million Pagodas, 764–770, are among the oldest securely dated printed texts",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Cambridge Digital Library; Met 30.47a–c",
+   "from": "DD1",
+   "id": "CL-119"
+  },
+  {
+   "unit": "F1.5",
+   "topic": "Printing",
+   "claim": "Bi Sheng made clay movable type between 1041 and 1048",
+   "confidence": "documented",
+   "confidence_note": ", in one source: Shen Kuo's Dream Pool Essays",
+   "source": "Summary with the passage",
+   "from": "DD1",
+   "id": "CL-120"
+  },
+  {
+   "unit": "F1.5",
+   "topic": "Printing",
+   "claim": "Jikji, printed in 1377, is the oldest surviving book printed with movable metal type",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "UNESCO Memory of the World, 2001 (summary)",
+   "from": "DD1",
+   "id": "CL-121"
+  },
+  {
+   "unit": "F1.6",
+   "topic": "",
+   "claim": "Iron was produced at Douroula, Burkina Faso, in the 8th century BCE; the listed sites keep about fifteen standing natural-draught furnaces, and village blacksmiths still make tools and take part in rituals",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "UNESCO World Heritage listing, 2019",
+   "from": "DD1",
+   "id": "CL-122"
+  },
+  {
+   "unit": "F1.6",
+   "topic": "",
+   "claim": "The Nok culture of central Nigeria ran from about 1500 BCE to the turn of the era; large-scale terracotta production and, later, iron smelting belong to its middle phase, 900–400 BCE",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Goethe University Frankfurt project, DFG summary",
+   "from": "DD1",
+   "id": "CL-123"
+  },
+  {
+   "unit": "F1.6",
+   "topic": "",
+   "claim": "Almost every Nok site the Frankfurt team found had been looted, most of them destroyed entirely",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Breunig and Rupp 2016",
+   "from": "DD1",
+   "id": "CL-124"
+  },
+  {
+   "unit": "F1.6",
+   "topic": "",
+   "claim": "Iron was made in the Meroë region for more than a thousand years, possibly from the 25th Dynasty",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Humphris and Scheibner 2017",
+   "from": "DD1",
+   "id": "CL-125"
+  },
+  {
+   "unit": "F1.6",
+   "topic": "",
+   "claim": "Iron smelting south of the Sahara was invented there rather than received from the north",
+   "confidence": "contested",
+   "confidence_note": ": several archaeologists hold independent invention; Alpern argues the evidence does not yet prove it",
+   "source": "Alpern 2005, which quotes both sides",
+   "from": "DD1",
+   "id": "CL-126"
+  },
+  {
+   "unit": "F1.6",
+   "topic": "",
+   "claim": "Haya smelters in Tanzania used preheated air and made carbon steel 1,500–2,000 years ago",
+   "confidence": "contested",
+   "confidence_note": ": claimed from reconstruction smelts with Haya elders, then disputed",
+   "source": "Schmidt and Avery 1978; Rehder's critique and the authors' reply",
+   "from": "DD1",
+   "id": "CL-127"
+  },
+  {
+   "unit": "F1.6",
+   "topic": "",
+   "claim": "Igbo-Ukwu's leaded bronzes (late first millennium CE) used metal from two directions: lead from ores in the Benue Rift, near the site, and lead matching Tunisian ores",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "McIntosh 2022, \"Igbo-Ukwu at 50\", African Archaeological Review",
+   "from": "DD1",
+   "id": "CL-128"
+  },
+  {
+   "unit": "F1.6",
+   "topic": "",
+   "claim": "Benin's brass casters, the Igun Eronmwon guild, worked under the Oba's exclusive patronage; oral history places the arrival of lost-wax casting in the 13th century",
+   "confidence": "documented",
+   "confidence_note": "as tradition; the date is oral history",
+   "source": "The Met, Bronze Casters of Igun Street, 2025",
+   "from": "DD1",
+   "id": "CL-129"
+  },
+  {
+   "unit": "F1.6",
+   "topic": "",
+   "claim": "The brass for Benin's castings came mainly from Rhineland manillas traded between the 15th and 18th centuries",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Skowronek et al. 2023",
+   "from": "DD1",
+   "id": "CL-130"
+  },
+  {
+   "unit": "F1.6",
+   "topic": "",
+   "claim": "British forces looted about 3,000 objects from Benin City in 1897",
+   "confidence": "documented",
+   "confidence_note": ", as an estimate",
+   "source": "Smithsonian, 2022",
+   "from": "DD1",
+   "id": "CL-131"
+  },
+  {
+   "unit": "F1.6",
+   "topic": "",
+   "claim": "Returns so far: 29 by the Smithsonian (2022); Germany's joint declaration with Nigeria (July 2022); a decree vesting returned objects in the Oba (March 2023); an agreement giving the national museums commission custody (2025)",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Smithsonian; Reuters, February 2025; German Lost Art Foundation, August 2025",
+   "from": "DD1",
+   "id": "CL-132"
+  },
+  {
+   "unit": "F1.6",
+   "topic": "",
+   "claim": "Great Zimbabwe was built between about 1100 and 1450 by Shona ancestors and had more than 10,000 inhabitants in the 14th century",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "UNESCO World Heritage listing",
+   "from": "DD1",
+   "id": "CL-133"
+  },
+  {
+   "unit": "F1.6",
+   "topic": "",
+   "claim": "Colonial writers credited Great Zimbabwe to outsiders; archaeologists refuted this in 1906 and 1929–31, yet in 1970 the Rhodesian government ordered that no official publication state it was an African creation",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Kaarsholm, citing Garlake; Randall-MacIver 1906",
+   "from": "DD1",
+   "id": "CL-134"
+  },
+  {
+   "unit": "F1.6",
+   "topic": "",
+   "claim": "The Igun Street guild is shrinking (about 120 members), has opened membership beyond hereditary families, and now sells online",
+   "confidence": "documented",
+   "confidence_note": ", from reporting",
+   "source": "The Guardian (Nigeria), December 2025; Al Jazeera, July 2026",
+   "from": "DD1",
+   "id": "CL-135"
+  },
+  {
+   "unit": "F1.13",
+   "topic": "",
+   "claim": "The Chang'an–Tianshan corridor of the Silk Roads is a 5,000 km network of 33 sites; it took shape between the 2nd century BCE and the 1st century CE and was used until the 16th century for trade, beliefs, science and technology",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-136"
+  },
+  {
+   "unit": "F1.13",
+   "topic": "",
+   "claim": "Early Chinese blue-and-white depended on cobalt imported from the West",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-137"
+  },
+  {
+   "unit": "F1.13",
+   "topic": "",
+   "claim": "That cobalt came most likely from Anarak on the Iranian plateau, not from Qamsar near Kashan as previously thought; its signature matches the blue of early Islamic glazed ceramics",
+   "confidence": "probable",
+   "confidence_note": "",
+   "source": "Same study",
+   "from": "DD2",
+   "id": "CL-138"
+  },
+  {
+   "unit": "F1.13",
+   "topic": "",
+   "claim": "An Arab-type ship sank off Belitung about 830 with some 60,000 Chinese ceramics; one bowl is dated 826",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "(to replace with the excavation report)",
+   "from": "DD2",
+   "id": "CL-139"
+  },
+  {
+   "unit": "F1.13",
+   "topic": "",
+   "claim": "The Smithsonian's Sackler Gallery cancelled its exhibition of the Belitung cargo in 2011 after objections to its commercial salvage",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-140"
+  },
+  {
+   "unit": "F1.13",
+   "topic": "",
+   "claim": "From the 13th to the 16th century Kilwa's merchants traded gold, silver, pearls, perfumes, Persian earthenware and Chinese porcelain; Kilwa minted its own coins; its Great Mosque's vaults held set-in Chinese porcelain",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-141"
+  },
+  {
+   "unit": "F1.13",
+   "topic": "",
+   "claim": "The 1375 Catalan Atlas shows Mansa Musa of Mali holding a gold coin, \"the richest and most noble lord\" of the region because of its gold",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-142"
+  },
+  {
+   "unit": "F1.13",
+   "topic": "",
+   "claim": "The Manila galleons (1565–1815) carried porcelain, silk and ivory from Manila to Acapulco for American silver; Mexican ceramics show the trade's impact most vividly",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-143"
+  },
+  {
+   "unit": "F1.13",
+   "topic": "",
+   "claim": "As much as a third of the silver mined in New Spain and Peru went to Asia",
+   "confidence": "probable",
+   "confidence_note": "an estimate",
+   "source": "Same essay",
+   "from": "DD2",
+   "id": "CL-144"
+  },
+  {
+   "unit": "F1.13",
+   "topic": "",
+   "claim": "About 12.5 million people were embarked in the trans-Atlantic slave trade between 1501 and 1866",
+   "confidence": "documented",
+   "confidence_note": ", as an estimate",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-145"
+  },
+  {
+   "unit": "F1.13",
+   "topic": "",
+   "claim": "The first paper mill in Baghdad was set up in 794–95; the story that Chinese prisoners taken at Talas in 751 brought papermaking west is contested",
+   "confidence": "documented",
+   "confidence_note": "mill); contested (Talas",
+   "source": "Bloom,  (2001),",
+   "from": "DD2",
+   "id": "CL-146"
+  },
+  {
+   "unit": "F1.13",
+   "topic": "",
+   "claim": "Lapita pottery appears in the Bismarck Archipelago about 3,470–3,250 years ago and reaches Fiji by about 3,130–3,010 years ago",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "(handed to F1.12)",
+   "from": "DD2",
+   "id": "CL-147"
+  },
+  {
+   "unit": "F1.13",
+   "topic": "",
+   "claim": "Gulf sailors navigated wooden lenj boats by sun, moon and stars and named each wind; the knowledge is passing from use",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-148"
+  },
+  {
+   "unit": "F1.12",
+   "topic": "",
+   "claim": "People occupied Madjedbebe, northern Australia, by about 65,000 years ago, with ground ochre, grinding stones and ground-edge hatchet heads",
+   "confidence": "contested",
+   "confidence_note": ": the excavators' dating, questioned by others who hold to about 50,000 years",
+   "source": ";",
+   "from": "DD2",
+   "id": "CL-149"
+  },
+  {
+   "unit": "F1.12",
+   "topic": "",
+   "claim": "A ground-edge axe fragment from the Kimberley is 44,000–49,000 years old, the earliest known anywhere",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-150"
+  },
+  {
+   "unit": "F1.12",
+   "topic": "",
+   "claim": "The Gunditjmara built and managed stone channels, weirs and dams to trap and farm eels at Budj Bim for at least 6,600 years; the system still works and its knowledge is held today",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-151"
+  },
+  {
+   "unit": "F1.12",
+   "topic": "",
+   "claim": "Lapita pottery appears in the Bismarck Archipelago about 3,470–3,250 years ago and reaches Vanuatu and Fiji within a few centuries",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-152"
+  },
+  {
+   "unit": "F1.12",
+   "topic": "",
+   "claim": "Marshallese \"stick charts\" model swells, currents and islands; they were training and planning tools, memorised and left ashore, and were read mainly by their makers",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-153"
+  },
+  {
+   "unit": "F1.12",
+   "topic": "",
+   "claim": "In 1976 the canoe Hōkūleʻa sailed from Hawaiʻi to Tahiti navigated without instruments by Mau Piailug of Satawal; in 1980 Nainoa Thompson repeated it, the first Hawaiian navigator to do so in 600 years",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-154"
+  },
+  {
+   "unit": "F1.12",
+   "topic": "",
+   "claim": "Australia has no law against the misuse of traditional symbols, songs and stories; Creative Australia's protocols (Terri Janke, 2002, revised 2007) require consultation, consent and attribution as a condition of funding",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-155"
+  },
+  {
+   "unit": "F1.10",
+   "topic": "",
+   "claim": "The first paper mill in Islamic lands was set up in Baghdad in 794–95; paper then spread to Syria, Iran, Central Asia, Egypt and North Africa, and to Europe through Spain and Sicily",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Bloom, ,",
+   "from": "DD2",
+   "id": "CL-156"
+  },
+  {
+   "unit": "F1.10",
+   "topic": "",
+   "claim": "Mamluk endowment deeds (13th–16th centuries) name the craftsmen appointed to maintain endowed buildings, set their duties and wages, and were enforced through the judge's court",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": ";",
+   "from": "DD2",
+   "id": "CL-157"
+  },
+  {
+   "unit": "F1.10",
+   "topic": "",
+   "claim": "Abraham Ben Yiju, a Jewish trader from Tunisia, ran a bronze workshop in India in the 1130s and 1140s; its accounts survive in the Cairo Geniza",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "; Goitein and Friedman,  (2008)",
+   "from": "DD2",
+   "id": "CL-158"
+  },
+  {
+   "unit": "F1.10",
+   "topic": "",
+   "claim": "Kilwa's merchants traded across the Indian Ocean from the 13th to the 16th century; the Great Mosque's vaults were set with Chinese porcelain",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "(shared with F1.13)",
+   "from": "DD2",
+   "id": "CL-159"
+  },
+  {
+   "unit": "F1.10",
+   "topic": "",
+   "claim": "The cobalt in early Islamic glazed ceramics matches the cobalt later shipped to Jingdezhen, most likely from Anarak in Iran",
+   "confidence": "probable",
+   "confidence_note": "",
+   "source": "(shared with F1.13)",
+   "from": "DD2",
+   "id": "CL-160"
+  },
+  {
+   "unit": "F1.10",
+   "topic": "",
+   "claim": "Arabic calligraphy was inscribed by UNESCO in 2021 at the request of sixteen states; it is taught through schools and apprenticeship, and practised from marble carving to spray-painted walls",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-161"
+  },
+  {
+   "unit": "F1.10",
+   "topic": "",
+   "claim": "Gulf lenj boat-building and navigation are on UNESCO's urgent safeguarding list (2011)",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-162"
+  },
+  {
+   "unit": "F1.10",
+   "topic": "",
+   "claim": "Three enamelled glass pieces in Cleveland catalogued as Mamluk-style are European work of the late 1800s; one carries an inscription naming the sultan Muhammad ibn Qala'un",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Cleveland records 1981.10, 1944.235 and 1944.488, read live",
+   "from": "DD2",
+   "id": "CL-163"
+  },
+  {
+   "unit": "F1.7",
+   "topic": "",
+   "claim": "Cultivated cotton is at least 7,800 years old in the Andes; indigo-dyed cotton from Huaca Prieta, about 6,200 years old, is the earliest known indigo anywhere",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "(shared with F1.5)",
+   "from": "DD2",
+   "id": "CL-164"
+  },
+  {
+   "unit": "F1.7",
+   "topic": "",
+   "claim": "Caral's monumental centre and irrigated fields date to 2627–1977 BCE, before pottery in the region",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-165"
+  },
+  {
+   "unit": "F1.7",
+   "topic": "",
+   "claim": "Khipus recorded census and tribute; the six Santa Valley khipus match a 1670 revisit document tributary by tributary, and may have signed names by colour",
+   "confidence": "documented",
+   "confidence_note": "for counts; interpretive for names",
+   "source": "Medrano and Urton 2018,",
+   "from": "DD2",
+   "id": "CL-166"
+  },
+  {
+   "unit": "F1.7",
+   "topic": "",
+   "claim": "The Open Khipu Repository holds open data on surviving khipus; the system remains undeciphered",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-167"
+  },
+  {
+   "unit": "F1.7",
+   "topic": "",
+   "claim": "Road-linked garden cities stood in the Upano Valley from about 500 BCE to 300–600 CE",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-168"
+  },
+  {
+   "unit": "F1.7",
+   "topic": "",
+   "claim": "The Marajoara built mound settlements with a funerary ceramic tradition on Marajó Island at the Amazon's mouth",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Roosevelt,  (); dates to confirm from the monograph",
+   "from": "DD2",
+   "id": "CL-169"
+  },
+  {
+   "unit": "F1.7",
+   "topic": "",
+   "claim": "Paracas textiles left Peru illegally after their discovery; Gothenburg's collection was shown in 2008 as \"A Stolen World\" and its ownership returned to Peru, the first four textiles in 2014",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-170"
+  },
+  {
+   "unit": "F1.7",
+   "topic": "",
+   "claim": "Churro sheep, brought by the Spanish in 1598, became the base of Diné weaving; in 1863–64 the US Army destroyed flocks and forced more than 8,000 Diné on the Long Walk to Bosque Redondo; they returned in 1868",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-171"
+  },
+  {
+   "unit": "F1.7",
+   "topic": "",
+   "claim": "Diné weavers used Germantown mill-spun yarns and bayeta (unravelled trade cloth) in the late 1800s, and trading posts steered weaving from wearing blankets to rugs",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Cleveland records 1921.556 and 1937.903; NPS",
+   "from": "DD2",
+   "id": "CL-172"
+  },
+  {
+   "unit": "F1.8",
+   "topic": "",
+   "claim": "The  (State Building Standards) was compiled by Li Jie, a state building superintendent, in 1100 and published in 1103; its 34 chapters set units, design standards, labour estimates and material data",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-173"
+  },
+  {
+   "unit": "F1.8",
+   "topic": "",
+   "claim": "Song Yingxing wrote in 1637 that a piece of clay passes through 72 pairs of hands before it becomes porcelain",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "(1637), quoted in a",
+   "from": "DD2",
+   "id": "CL-174"
+  },
+  {
+   "unit": "F1.8",
+   "topic": "",
+   "claim": "The Ming court's 1433 order of 443,500 pieces pushed production into the civil kilns under imperial supervision (\"moulded by the imperial kiln, fired by the civil kilns\")",
+   "confidence": "documented",
+   "confidence_note": ", from a secondary summary citing UNESCO",
+   "source": "Same survey; to replace with the UNESCO tentative-list text",
+   "from": "DD2",
+   "id": "CL-175"
+  },
+  {
+   "unit": "F1.8",
+   "topic": "",
+   "claim": "Early blue-and-white used cobalt imported from Iran",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "(shared with F1.13)",
+   "from": "DD2",
+   "id": "CL-176"
+  },
+  {
+   "unit": "F1.8",
+   "topic": "",
+   "claim": "Oracle-bone inscriptions of Wu Ding's reign are radiocarbon-dated 1254–1197 BCE",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Liu et al. 2020 (shared with F1.5)",
+   "from": "DD2",
+   "id": "CL-177"
+  },
+  {
+   "unit": "F1.8",
+   "topic": "",
+   "claim": "Printed dharani for the One Million Pagodas, 764–770, and Jikji, 1377, are landmarks of printing",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Cambridge Digital Library; UNESCO (shared with F1.5)",
+   "from": "DD2",
+   "id": "CL-178"
+  },
+  {
+   "unit": "F1.8",
+   "topic": "",
+   "claim": "Around 2000, ten state ceramic factories in Jingdezhen closed; about 100,000 ceramic workers remained; since 2016 the Taoxichuan district selects 1,200 stallholders a month from over 4,000 applicants; more than 100,000 young people have moved to the city in a decade",
+   "confidence": "documented",
+   "confidence_note": ", from state media",
+   "source": "; to be balanced with an independent account",
+   "from": "DD2",
+   "id": "CL-179"
+  },
+  {
+   "unit": "F1.8",
+   "topic": "",
+   "claim": "Mingei was named by Yanagi Sōetsu in the mid-1920s; the Japan Folk Crafts Museum opened in 1936; historians read the movement as entangled with Japan's imperial policy",
+   "confidence": "documented",
+   "confidence_note": "; the reading is one of several",
+   "source": ";",
+   "from": "DD2",
+   "id": "CL-180"
+  },
+  {
+   "unit": "F1.9",
+   "topic": "",
+   "claim": "Gujarati block-printed and painted cottons found in Egyptian deposits are the earliest material traces of the medieval western Indian Ocean trade; they date from the Fatimid to the early Mamluk periods (10th to early 16th centuries) and similar cloths were traded as far as Indonesia",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "; Barnes,  (1997)",
+   "from": "DD2",
+   "id": "CL-181"
+  },
+  {
+   "unit": "F1.9",
+   "topic": "",
+   "claim": "Bengal's handloom textiles held a leading place in Asian and North African markets long before European companies, and were a staple of the companies' export trade until machine-made cloth arrived in the early 19th century",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-182"
+  },
+  {
+   "unit": "F1.9",
+   "topic": "",
+   "claim": "In 1721 Parliament prohibited the use and wear of printed, painted, stained or dyed calicoes in clothing and furnishing, to protect wool and silk",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-183"
+  },
+  {
+   "unit": "F1.9",
+   "topic": "",
+   "claim": "Two Old World cottons were domesticated separately; India's  is one",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Renny-Byfield et al. 2016 (shared with F1.5)",
+   "from": "DD2",
+   "id": "CL-184"
+  },
+  {
+   "unit": "F1.9",
+   "topic": "",
+   "claim": "Jamdani, a sheer patterned cotton woven on handlooms around Dhaka with a discontinuous-weft technique, was inscribed by UNESCO in 2013; it is taught mainly by parents to children in home workshops",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-185"
+  },
+  {
+   "unit": "F1.9",
+   "topic": "",
+   "claim": "The National Gallery of Australia bought a Chola Nataraja for US$5 million in 2008 from Subhash Kapoor; police in Tamil Nadu recorded the theft of a Nataraja from Sripuranthan in 2008; Australia returned the bronze to India in September 2014",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-186"
+  },
+  {
+   "unit": "F1.9",
+   "topic": "",
+   "claim": "Abraham Ben Yiju ran a bronze workshop in India in the 1130s and 1140s",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Geniza (shared with F1.10)",
+   "from": "DD2",
+   "id": "CL-187"
+  },
+  {
+   "unit": "F1.9",
+   "topic": "",
+   "claim": "Whether the Indus signs are writing is argued",
+   "confidence": "contested",
+   "confidence_note": "",
+   "source": "Rao 2009 against Farmer, Sproat and Witzel 2004 (shared with F1.5)",
+   "from": "DD2",
+   "id": "CL-188"
+  },
+  {
+   "unit": "F1.11",
+   "topic": "",
+   "claim": "Roman red-gloss pottery () was mass-produced in several parts of the empire and exported to all of it; its stamps name the people involved in production, including slaves and freedmen, and the largest Arretine firms had dozens of potters",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-189"
+  },
+  {
+   "unit": "F1.11",
+   "topic": "",
+   "claim": "The , compiled under Étienne Boileau in 13th-century Paris, records the statutes of the city's trades",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "(the count of trades to be taken from the edition)",
+   "from": "DD2",
+   "id": "CL-190"
+  },
+  {
+   "unit": "F1.11",
+   "topic": "",
+   "claim": "Chinese blue-and-white was imitated in Delft on tin-glazed earthenware, and Delft was imitated in England",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Cleveland records 1969.254 and 1986.31, read live; the chain to F1.14",
+   "from": "DD2",
+   "id": "CL-191"
+  },
+  {
+   "unit": "F1.11",
+   "topic": "",
+   "claim": "In 1721 Britain banned the wearing of printed calico to protect wool and silk",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "(shared with F1.9)",
+   "from": "DD2",
+   "id": "CL-192"
+  },
+  {
+   "unit": "F1.11",
+   "topic": "",
+   "claim": "Wedgwood's jasperware copy of the Portland Vase, c. 1790, reproduced an ancient Roman cameo glass in a new ceramic body",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Cleveland 1918.823, read live",
+   "from": "DD2",
+   "id": "CL-193"
+  },
+  {
+   "unit": "F1.11",
+   "topic": "",
+   "claim": "The Great Exhibition of 1851 showed more than 100,000 objects to six million visitors in a purpose-built iron and glass building; Owen Jones, one of its superintendents of works, published  in 1856 with 100 plates in 19 categories",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-194"
+  },
+  {
+   "unit": "F1.11",
+   "topic": "",
+   "claim": "French  was inscribed by UNESCO in 2010: about 45,000 people, training of about five years on the move between towns, and a masterwork judged by the  before one may teach",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-195"
+  },
+  {
+   "unit": "F1.11",
+   "topic": "",
+   "claim": "Copper was smelted at Belovode, Serbia, about 5000 BCE",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Radivojević et al. 2010 (shared with F1.5)",
+   "from": "DD2",
+   "id": "CL-196"
+  },
+  {
+   "unit": "F1.9a",
+   "topic": "",
+   "claim": "The earliest cuneiform tablets are administrative accounts, such as one recording the distribution of barley and emmer, about 3100–2900 BCE, probably from Uruk",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Met 1988.433.2, read live",
+   "from": "DD2",
+   "id": "CL-197"
+  },
+  {
+   "unit": "F1.9a",
+   "topic": "",
+   "claim": "Writing may have been invented three or four times; Mesopotamia's is the earliest securely dated",
+   "confidence": "contested",
+   "confidence_note": "the count",
+   "source": "CL-001 (shared with F1.5)",
+   "from": "DD2",
+   "id": "CL-198"
+  },
+  {
+   "unit": "F1.9a",
+   "topic": "",
+   "claim": "Glass-blowing was invented towards the end of the first century BCE in the coastal Levant; the earliest evidence is from Jerusalem; some of the only named glass-workers of the period, such as Ennion, were Greek-speaking Syrians",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "; to be backed by the excavation report",
+   "from": "DD2",
+   "id": "CL-199"
+  },
+  {
+   "unit": "F1.9a",
+   "topic": "",
+   "claim": "Magan, the copper land of Sumerian texts, is identified with Oman, where copper was mined and smelted from the Early Bronze Age (Hafit and Umm an-Nar periods, c. 3200–2000 BCE)",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "Weisgerber and others,",
+   "from": "DD2",
+   "id": "CL-200"
+  },
+  {
+   "unit": "F1.9a",
+   "topic": "",
+   "claim": "Copper was smelted in the Balkans about 5000 BCE, earlier than any secure Near Eastern evidence, which challenges the single-origin model",
+   "confidence": "documented",
+   "confidence_note": "the finding); contested (what it means",
+   "source": "Radivojević et al. 2010 (shared with F1.5)",
+   "from": "DD2",
+   "id": "CL-201"
+  },
+  {
+   "unit": "F1.9a",
+   "topic": "",
+   "claim": "Luristan bronzes (c. 800–600 BCE) are cast horse-gear and fittings from western Iran, mostly looted rather than excavated",
+   "confidence": "documented",
+   "confidence_note": "for the objects; the looting history to source",
+   "source": "Cleveland 1980.102 and 1961.33, read live",
+   "from": "DD2",
+   "id": "CL-202"
+  },
+  {
+   "unit": "F1.9a",
+   "topic": "",
+   "claim": "Egypt's earliest writing, c. 3320 BCE, developed in parallel with Mesopotamia's; whether it borrowed the idea is argued",
+   "confidence": "contested",
+   "confidence_note": "",
+   "source": "Kahl 2001 (shared with F1.5)",
+   "from": "DD2",
+   "id": "CL-203"
+  },
+  {
+   "unit": "F1.12a",
+   "topic": "",
+   "claim": "Modern domestic horses descend from the western Eurasian steppe, especially the lower Volga–Don region, and spread rapidly across Eurasia from about 2000 BCE together with Sintashta spoke-wheeled chariots; Botai's horses (c. 3500 BCE) were not their ancestors",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-204"
+  },
+  {
+   "unit": "F1.12a",
+   "topic": "",
+   "claim": "Botai's horse remains are Przewalski's horses, and the tooth damage read as bit wear is better explained by natural wear; Botai may have been a site of mass hunting rather than domestication",
+   "confidence": "contested",
+   "confidence_note": ": a strong recent reading against a decade of consensus",
+   "source": "; Outram et al. 2009,  323, for the earlier view",
+   "from": "DD2",
+   "id": "CL-205"
+  },
+  {
+   "unit": "F1.12a",
+   "topic": "",
+   "claim": "The Pazyryk carpet, 5th–4th century BCE, from a frozen barrow in the Altai excavated in 1949, is the oldest surviving pile carpet; it has about 1,250,000 symmetrical knots, and where it was made (Iran, Central Asia or the Altai) is unknown",
+   "confidence": "documented",
+   "confidence_note": "object); contested (origin",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-206"
+  },
+  {
+   "unit": "F1.12a",
+   "topic": "",
+   "claim": "The Chang'an–Tianshan corridor linked China to the Zhetysu region from the 2nd century BCE, with posthouses, beacon towers and caravanserais",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "(shared with F1.13)",
+   "from": "DD2",
+   "id": "CL-207"
+  },
+  {
+   "unit": "F1.12a",
+   "topic": "",
+   "claim": "Sogdian silks of the 700s carried Persian pearl-medallion motifs and reached China; museum attributions place a single coat as \"probably Sogdia\" or \"China, Tang dynasty\"",
+   "confidence": "documented",
+   "confidence_note": "object); attribution uncertain",
+   "source": "Cleveland 1996.2.1, read live",
+   "from": "DD2",
+   "id": "CL-208"
+  },
+  {
+   "unit": "F1.12a",
+   "topic": "",
+   "claim": "The Mongol ger is made by households: men carve the wood, women and men felt, sew and paint; it can be dismantled and carried, and is taught by mentoring",
+   "confidence": "documented",
+   "confidence_note": "",
+   "source": "",
+   "from": "DD2",
+   "id": "CL-209"
+  },
+  {
+   "unit": "F1.12a",
+   "topic": "",
+   "claim": "Luristan's cast horse gear (800–600 BCE) shows steppe horse culture inside Iran",
+   "confidence": "documented",
+   "confidence_note": "object",
+   "source": "Cleveland 1980.102 (shared with West Asia)",
+   "from": "DD2",
+   "id": "CL-210"
+  }
+ ]
+}

@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>F1.1 One object, three readings — desk</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap">
+<style>
+body{margin:0;background:#F3EDE3;font-family:'IBM Plex Sans',system-ui,sans-serif;color:#1E1A15}
+a{color:#2F4470}a:hover{color:#1C2B4A}
+button{font-family:inherit}
+</style>
+</helmet>
+<div style="width: 1440px; height: 900px; box-sizing: border-box; display: flex; flex-direction: column; background: #F3EDE3; color: #1E1A15; font-family: 'IBM Plex Sans', system-ui, sans-serif;">
+
+  <header style="height: 56px; box-sizing: border-box; padding: 0 24px; display: flex; align-items: center; gap: 24px; border-bottom: 1px solid #DCD3C4; background: #FBF8F2;">
+    <div style="display: flex; flex-direction: column; gap: 2px; width: 260px;">
+      <span style="font-size: 12px; color: #6B6154; letter-spacing: 0.04em; text-transform: uppercase;">Module F1</span>
+      <span style="font-family: 'Newsreader', Georgia, serif; font-size: 18px; font-weight: 600;">Histories of making</span>
+    </div>
+    <nav aria-label="Module path" style="flex-grow: 1; display: flex; align-items: center; gap: 12px;">
+      <span style="font-size: 13px; color: #574E42; white-space: nowrap;">Unit 1 of 37</span>
+      <div style="display: flex; gap: 3px; align-items: center;">
+        <sc-for list="{{units}}" as="t" hint-placeholder-count="37">
+          <span style="display: block; width: 12px; height: 6px; border-radius: 3px; background: {{t.bg}};"></span>
+        </sc-for>
+      </div>
+      <span style="font-size: 12px; color: #6B6154; white-space: nowrap;">Thread: Attribution · level 1</span>
+    </nav>
+    <div style="display: flex; gap: 8px; align-items: center;">
+      <span style="font-size: 13px; padding: 6px 10px; border: 1px solid #DCD3C4; border-radius: 999px; color: #574E42;">Route: Maker</span>
+      <span style="font-size: 13px; padding: 6px 10px; border: 1px solid #DCD3C4; border-radius: 999px; color: #574E42;">Orientation</span>
+      <button type="button" style="height: 36px; padding: 0 14px; border: 1px solid #DCD3C4; background: #FFFFFF; border-radius: 8px; font-size: 14px; color: #1E1A15;">Glossary</button>
+      <button type="button" style="height: 36px; padding: 0 14px; border: 1px solid {{accent}}; background: #FFFFFF; border-radius: 8px; font-size: 14px; color: #1E1A15;">Sources record · 1</button>
+    </div>
+  </header>
+
+  <div style="flex-grow: 1; display: flex; min-height: 0;">
+
+    <section aria-label="Atlas" style="width: 960px; box-sizing: border-box; position: relative; background: #EAE2D5; display: flex; flex-direction: column;">
+      <div style="padding: 16px 20px; display: flex; justify-content: space-between; align-items: center;">
+        <div style="display: flex; gap: 10px; align-items: center;">
+          <button type="button" aria-pressed="true" style="height: 40px; padding: 0 14px; border: 0; border-radius: 9px; background: #1E1A15; color: #FBF8F2; font-size: 13px;">Node card</button>
+          <div role="group" aria-label="Atlas surfaces" style="display: flex; gap: 4px; background: #FBF8F2; border: 1px solid #DCD3C4; border-radius: 10px; padding: 4px;">
+            <button type="button" style="height: 32px; padding: 0 12px; border: 0; border-radius: 7px; background: transparent; color: #574E42; font-size: 13px;">Place</button>
+            <button type="button" style="height: 32px; padding: 0 12px; border: 0; border-radius: 7px; background: transparent; color: #574E42; font-size: 13px;">Time</button>
+            <button type="button" style="height: 32px; padding: 0 12px; border: 0; border-radius: 7px; background: transparent; color: #574E42; font-size: 13px;">Connections</button>
+            <button type="button" style="height: 32px; padding: 0 12px; border: 0; border-radius: 7px; background: transparent; color: #574E42; font-size: 13px;">Groupings</button>
+          </div>
+          <button type="button" aria-pressed="false" style="height: 32px; padding: 0 12px; border: 1px dashed #8C8173; border-radius: 999px; background: transparent; color: #574E42; font-size: 12px;">Story layer</button>
+        </div>
+        <div role="group" aria-label="Lenses" style="display: flex; gap: 6px; align-items: center;">
+          <span style="font-size: 12px; color: #6B6154;">Lenses</span>
+          <button type="button" aria-pressed="true" style="height: 30px; padding: 0 10px; border: 1px solid #2F4470; border-radius: 999px; background: #FFFFFF; color: #2F4470; font-size: 12px;">Labour and credit</button>
+          <button type="button" style="height: 30px; padding: 0 10px; border: 1px solid #DCD3C4; border-radius: 999px; background: transparent; color: #574E42; font-size: 12px;">Material</button>
+          <button type="button" style="height: 30px; padding: 0 10px; border: 1px solid #DCD3C4; border-radius: 999px; background: transparent; color: #574E42; font-size: 12px;">Provenance</button>
+          <button type="button" style="height: 30px; padding: 0 10px; border: 1px solid #DCD3C4; border-radius: 999px; background: transparent; color: #574E42; font-size: 12px;">More</button>
+        </div>
+      </div>
+
+      <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; position: relative;">
+        <figure style="margin: 0; display: flex; flex-direction: column; gap: 12px; align-items: center;">
+          <div role="img" aria-label="Image placeholder: proto-cuneiform tablet with seal impressions" style="width: 520px; height: 390px; border-radius: 6px; background: repeating-linear-gradient(135deg, #D8CDB9 0 10px, #D2C6B0 10px 20px); display: flex; align-items: center; justify-content: center; position: relative; box-shadow: 0 1px 0 #C9BCA4;">
+            <span style="font-size: 13px; color: #574E42; background: #FBF8F2; padding: 6px 10px; border-radius: 6px;">[Object image — Met Open Access, CC0]</span>
+            <span style="position: absolute; left: 96px; top: 118px; width: 30px; height: 30px; border-radius: 50%; background: #1E1A15; color: #FBF8F2; font-size: 13px; font-weight: 600; display: flex; align-items: center; justify-content: center;">1</span>
+            <span style="position: absolute; left: 330px; top: 250px; width: 30px; height: 30px; border-radius: 50%; background: #1E1A15; color: #FBF8F2; font-size: 13px; font-weight: 600; display: flex; align-items: center; justify-content: center;">2</span>
+            <span style="position: absolute; left: 400px; top: 88px; width: 30px; height: 30px; border-radius: 50%; background: #1E1A15; color: #FBF8F2; font-size: 13px; font-weight: 600; display: flex; align-items: center; justify-content: center;">3</span>
+          </div>
+          <figcaption style="width: 520px; font-size: 13px; line-height: 1.5; color: #574E42;">
+            <span style="font-family: 'Newsreader', Georgia, serif; font-size: 16px; color: #1E1A15;">Proto-cuneiform tablet with seal impressions</span><br>
+            about 3100–2900 BCE · probably Uruk, Mesopotamia · The Metropolitan Museum of Art, 1988.433.1 · Public domain
+          </figcaption>
+        </figure>
+        <button type="button" style="position: absolute; right: 20px; bottom: 16px; height: 36px; padding: 0 14px; border: 1px solid #DCD3C4; border-radius: 8px; background: #FBF8F2; color: #1E1A15; font-size: 13px;">What was happening elsewhere</button>
+      </div>
+
+      <div aria-label="Time scrubber" style="padding: 14px 20px 18px; border-top: 1px solid #DCD3C4; background: #F3EDE3; display: flex; flex-direction: column; gap: 8px;">
+        <div style="position: relative; height: 22px;">
+          <div style="position: absolute; left: 0; right: 0; top: 10px; height: 2px; background: #C9BCA4;"></div>
+          <div style="position: absolute; left: 34px; width: 22px; top: 5px; height: 12px; border-radius: 6px; background: {{accent}}; opacity: 0.85;"></div>
+          <div style="position: absolute; left: 24px; width: 42px; top: 5px; height: 12px; border-radius: 6px; border: 1px dashed {{accent}};"></div>
+        </div>
+        <div style="display: flex; justify-content: space-between; font-size: 12px; color: #6B6154;">
+          <span>3500 BCE</span><span>2000 BCE</span><span>500 BCE</span><span>1000 CE</span><span>2000 CE</span>
+        </div>
+        <span style="font-size: 12px; color: #574E42;">Range shown: about 3100–2900 BCE · soft ends mark uncertainty</span>
+      </div>
+    </section>
+
+    <section aria-label="Unit" style="width: 480px; box-sizing: border-box; background: #FBF8F2; border-left: 1px solid #DCD3C4; padding: 24px 28px; display: flex; flex-direction: column; gap: 18px; overflow: hidden;">
+      <div style="font-size: 12px; color: #6B6154; letter-spacing: 0.03em;">F1.1 · ORIENTATION · ABOUT 12 MIN · OPENS ON THE OBJECT</div>
+      <h1 style="margin: 0; font-family: 'Newsreader', Georgia, serif; font-size: 34px; line-height: 1.1; font-weight: 500;">One object, three readings</h1>
+      <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #3A332B;">You read it before anyone told you about it. Here is how your three readings compare with the record.</p>
+
+      <div style="display: flex; flex-direction: column; border-top: 1px solid #DCD3C4;">
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; padding: 12px 0; border-bottom: 1px solid #DCD3C4; font-size: 13px;">
+          <span style="font-weight: 600;">1 · Material</span>
+          <span style="color: #6B6154;">You: “stone, carved”</span>
+          <span>Record: clay <span style="display: block; margin-top: 4px; font-size: 11.5px; color: #574E42; border-bottom: 2px solid #574E42; width: fit-content;">documented</span></span>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; padding: 12px 0; border-bottom: 1px solid #DCD3C4; font-size: 13px;">
+          <span style="font-weight: 600;">2 · Labour</span>
+          <span style="color: #6B6154;">You: “a scribe for a king”</span>
+          <span>No maker is named; a seal shows a figure, dogs and boars <span style="display: block; margin-top: 4px; font-size: 11.5px; color: #574E42; border-bottom: 2px solid #574E42; width: fit-content;">documented</span></span>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; padding: 12px 0; border-bottom: 1px solid #DCD3C4; font-size: 13px;">
+          <span style="font-weight: 600;">3 · Meaning</span>
+          <span style="color: #6B6154;">You: “a law, or a prayer”</span>
+          <span>An account of barley distribution <span style="display: block; margin-top: 4px; font-size: 11.5px; color: #574E42; border-bottom: 2px solid #574E42; width: fit-content;">documented</span></span>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 12px; padding: 14px; background: #F3EDE3; border-radius: 10px;">
+        <span aria-hidden="true" style="flex-shrink: 0; width: 32px; height: 32px; border-radius: 50%; background: #2F4470; color: #FBF8F2; font-family: 'Newsreader', Georgia, serif; font-size: 16px; display: flex; align-items: center; justify-content: center;">H</span>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <span style="font-size: 12px; font-weight: 600; color: #2F4470;">Historian</span>
+          <span style="font-size: 14px; line-height: 1.5;">Two of your three readings changed. What made you expect stone and a prayer — and what would you look for first next time?</span>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <div role="tablist" aria-label="Lane" style="display: flex; gap: 4px; border-bottom: 1px solid #DCD3C4;">
+          <button type="button" role="tab" aria-selected="{{isMaker}}" style="height: 36px; padding: 0 14px; border: 0; border-bottom: {{makerLine}}; background: transparent; font-size: 14px; color: #1E1A15;">Maker</button>
+          <button type="button" role="tab" aria-selected="{{isBriefer}}" style="height: 36px; padding: 0 14px; border: 0; border-bottom: {{brieferLine}}; background: transparent; font-size: 14px; color: #1E1A15;">Briefer</button>
+        </div>
+        <sc-if value="{{isMaker}}" hint-placeholder-val="{{true}}">
+          <p style="margin: 0; font-size: 14px; line-height: 1.5;">Read an object you own the same way: photograph it, then write one line for each reading before you look anything up.</p>
+        </sc-if>
+        <sc-if value="{{isBriefer}}" hint-placeholder-val="{{false}}">
+          <p style="margin: 0; font-size: 14px; line-height: 1.5;">Write the attribution line you would put in a deck, then check it against the record.</p>
+        </sc-if>
+        <div style="padding: 12px 14px; border: 1px solid #DCD3C4; border-radius: 8px; background: #FFFFFF; font-size: 13px; line-height: 1.5; color: #3A332B;">
+          <span style="display: block; font-size: 11.5px; color: #6B6154; margin-bottom: 4px;">ATTRIBUTION LINE · GENERATED FROM THE RECORD</span>
+          Proto-cuneiform tablet with seal impressions, about 3100–2900 BCE, probably Uruk, Mesopotamia. Maker not named. The Metropolitan Museum of Art, 1988.433.1. Public domain.
+          <span style="display: block; margin-top: 6px; font-size: 12px; color: #574E42;">Provenance: Erlenmeyer collection, bought 1943 to the early 1960s; sold at Christie's, London, 1988. How it left Iraq is not recorded. <span style="border-bottom: 2px solid #574E42;">documented</span></span>
+        </div>
+        <div style="display: flex; gap: 8px;">
+          <button type="button" style="height: 44px; padding: 0 18px; border: 0; border-radius: 8px; background: {{accent}}; color: #FFFFFF; font-size: 14px; font-weight: 500;">Start with my object</button>
+          <button type="button" style="height: 44px; padding: 0 18px; border: 1px solid #DCD3C4; border-radius: 8px; background: #FFFFFF; color: #1E1A15; font-size: 14px;">Add line to sources record</button>
+        </div>
+      </div>
+
+      <a href="#" style="margin-top: auto; font-size: 14px;">Next · F1.2 The reference-to-appropriation spectrum</a>
+    </section>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#A0431F","options":["#A0431F","#2F4470","#5B6B2E","#7A4B8C"]},"lane":{"editor":"enum","options":["Maker","Briefer"],"default":"Maker"},"$preview":{"width":1440,"height":900}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const accent = this.props.accent ?? '#A0431F';
+    const lane = this.props.lane ?? 'Maker';
+    const units = [];
+    for (let i = 0; i < 37; i++) {
+      units.push({ bg: i === 0 ? accent : '#D2C6B0' });
+    }
+    return {
+      accent,
+      units,
+      isMaker: lane === 'Maker',
+      isBriefer: lane === 'Briefer',
+      makerLine: lane === 'Maker' ? '2px solid ' + accent : '2px solid transparent',
+      brieferLine: lane === 'Briefer' ? '2px solid ' + accent : '2px solid transparent'
+    };
+  }
+}
+</script>
+</body>
+</html>

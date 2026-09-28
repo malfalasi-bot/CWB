@@ -1,0 +1,366 @@
+# F1 Deep Dives 1 — Recurrences, Africa, and what a node carries
+
+2026-09-28 · @Mohammad AlFalasi
+
+## Scope and assumptions
+
+This pass runs the first two deep dives, F1.5 Recurrences and F1.6 Africa, as the proof pair. Alongside them it answers four questions you raised: what F1 covers for each part of the world, how much information each node carries and whether it needs more, whether the writing is right, and whether the process is too tight for the ambition of the units.
+
+**Assumed.** P1–P11 as recommended: personas carrying jobs, a sources record that grows with depth, three seed worlds with Salt Road as the exemplar, registers as tables, a static data pipeline plus an app. A different answer would change the Apply steps and the record fields, not the research.
+
+**Queued for the next pass.** The Atlas logic: what a node is and what a view is, which views can merge, grouping by movement, era, material and function, and whether major movements get their own storytelling view. This pass touches it only where the information model forces a definition (§3).
+
+**How to read it.** §2 and §3 are findings for the whole module; §4 and §5 are the two units; §6 and §7 turn what the units taught into standards; §8 lists what changes where.
+
+## Geographic coverage
+
+F1 covers the world as seven "worlds" plus networks, but read against a neutral map it reaches only half of it. Of 43 sub-regions, 9 are covered strongly, 13 partly, 5 by a single object or map pin, and 16 not at all. The gaps are whole worlds of making: West Asia before Islam, Mediterranean antiquity, the steppe, Australia, Amazonia and the Caribbean.
+
+**The neutral map.** The Met's [Heilbrunn Timeline](https://www.metmuseum.org/toah/chronology) organises world art by region and period rather than by civilisation. It uses six macro-regions (Africa, the Americas, Asia, Western Asia, Europe, Oceania) and about fifty sub-regions. I condensed those to 43 and read F1 against them before looking at our worlds: a blind map, as in sprint 3. **Strong** means a unit names the sub-region and has three or more candidate objects. **Partial** means it is named with one or two candidates, or appears only inside a thematic unit. **Thin** means a single object or a map pin. **Absent** means nowhere in F1 v3.6.
+
+*[Embedded: node/fd035310-3cb1 — F1 v3.6 world-set candidates and unit concepts, read against 43 sub-regions adapted from the Met's Heilbrunn Timeline · counted by hand, 28 September 2026]*
+
+| Macro-region | Strong | Partial | Thin or absent | What fills the gap |
+|---|---|---|---|---|
+| Africa | Guinea Coast (Benin, Ife, Igbo-Ukwu, Akan, Nok, Yorùbá, Ewe) | Egypt (only in F1.5); Central Africa (Kuba only); Eastern Africa (Ethiopia; Swahili coast in F1.13) | Thin: Nubia and Sudan, the Maghrib, Southern Africa. Absent: the Sahel (Djenné, Timbuktu); Madagascar and the Indian Ocean islands | F1.6 claims the Nile valley and the Sahel by name; the Met's excavated Meroitic objects (§5) fill Nubia; Great Zimbabwe and Mapungubwe fill the south |
+| Americas | Mesoamerica; the Andes | Arctic (Inuit tools); Southwest and Plains; colonial and modern Latin America | Absent: Northwest Coast; Eastern Woodlands (Cahokia); Central America and the Caribbean; Amazonia | F1.7 adds Amazonia (the Upano Valley cities, Marajoara ceramics) and the Caribbean; the Northwest Coast only with community-published sources |
+| Asia | China; Japan; South Asia | Korea; mainland Southeast Asia (Khmer only); island Southeast Asia | Thin: Central and North Asia (Sogdian textiles in F1.13). Absent: the Himalaya | A steppe chapter (below); Đông Sơn bronze drums for mainland Southeast Asia; Tibetan metalwork for the Himalaya |
+| Western Asia | The Islamic world from the 7th century (F1.10) | — | Thin: Mesopotamia (one tablet, in F1.5). Absent: pre-Islamic Iran, the Levant, Arabia, Anatolia and the Caucasus | A world chapter for West Asia before Islam: the first cities, copper, glass, purple dye, the incense roads and Magan's copper in Oman |
+| Europe | Western and Central Europe, medieval to industrial; Britain and the Low Countries | Iberia (through al-Andalus) | Absent: Greek and Roman antiquity; Byzantium and the Balkans; Eastern Europe and Russia; Scandinavia and the Sámi | F1.11 widens to Europe and the Mediterranean from antiquity; the Balkans enter F1.5 through Belovode's copper (§4) |
+| Oceania | — | Melanesia; Micronesia; Polynesia | Absent: Australia (Aboriginal and Torres Strait Islander making) | F1.12 becomes Australia and the Pacific, sourced under CARE from community-published and national collections |
+
+**Countries are the wrong unit, and still needed.** The candidates name about 35 present-day countries out of 193. But borders are recent, so a Place node carries its historical name first and the modern country second. The historical name is what the history uses; the modern country is how learners search.
+
+**Time is the second gap.** The world chapters' candidates cluster after 1400 CE for Africa and Oceania, and deep time lives almost entirely in F1.5. That repeats the record's bias: museums collected what was made recently and what survived. The Heilbrunn Timeline crosses region with period, and F1's coverage report should too: 43 sub-regions against eleven period bands, from before 8000 BCE to the present.
+
+**Three ways to close the gaps**
+
+| Option | What changes | Cost | What it gets right |
+|---|---|---|---|
+| A. A coverage floor only | Every sub-region gets at least one Ring 1 object and one Atlas story; units stay as they are | About 30 more verified records | Nothing is invisible; no new units |
+| B. Re-cut the worlds | Two chapters added (West Asia before Islam; the steppe and Central Asia); Europe widened to the Mediterranean from antiquity; F1.12 to Australia and the Pacific; F1.6 and F1.7 widened by name | Two units, about 1.7 hours of Practice | The worlds match how the field divides the subject |
+| C. World hubs | Each world chapter keeps its 50-minute spine and gains a regional layer in the Atlas: sub-regional story walks and 20–40 Ring 1 objects, read at the learner's pace | The Atlas does more work; units stay short | Breadth lives in the Atlas and the argument lives in the unit |
+
+**Recommendation: B and C together, with A as a standing rule.** Option A alone leaves whole worlds as footnotes. B alone would push each chapter past what 50 minutes can carry. C gives the ambition somewhere to live without swelling the units. The rule from A goes into the deep-dive template (§7): no sub-region below one verified object and one story walk.
+
+## What a node carries
+
+Today only objects have a record, and it has one story field for every depth. Places, periods, movements, makers, materials, techniques, routes and events have no record at all; they exist only as names inside unit text. So yes, F1 needs more information per node. It also needs the information in layers, so that a newcomer reads a line and a specialist can reach the sources.
+
+**What F1 records now**
+
+| Node type | Record today | What a learner gets |
+|---|---|---|
+| Object | World-set register, 18 columns, one "story" field | Identification, rights and one block of text at every depth |
+| Living practice | Practice register, 9 columns (from sprint 5) | Holders, places, source; no text |
+| Claim | Claims register, 8 columns | A statement with a source and a confidence; not yet attached to nodes |
+| Place, period, movement or school, maker, material, technique, route, event | None | A name in a sentence; nothing to click into |
+
+**What a node is, and what a view is.** The heritage sector's shared model, [Linked Art](https://linked.art/model/) (a working profile of CIDOC-CRM), treats objects, people and groups, places, concepts, events and periods as entities, and production as a set of relations: who made it, where, when and with what technique. That settles part of your question before the Atlas pass. Era, material, function and movement are not properties stored on an object. They are relations to other nodes, each of which can be read in its own right. A view is a layout of one relation: the map lays out "made at", the timeline "made during", a movement view "belongs to". The rest of the question, which views to merge and whether movements get their own view, is queued for the Atlas pass.
+
+*[Embedded: node/9cf4d890-ed7c — the Atlas's node types and their relations to an object · after Linked Art's entity types, adapted]*
+
+**One card for every node.** Every node gets the same frame, so a learner who can read one can read them all.
+
+| Part | What it holds |
+|---|---|
+| Identity | Preferred name; other names, including the community's own name and the original script; type; identifiers (Wikidata, Getty, Pleiades); dates as a range with the source's own wording kept |
+| Six readings | What and when; how it was made (material, technique, labour); what it was for and what it meant; how it moved (routes, owners); what is known, argued or unknown; who speaks for it now (community, living practice) |
+| Text in four tiers | Line, label, story, deep (below) |
+| Relations | Typed edges to other nodes, each with its own source and confidence |
+| Media | Images, sound, drawings or 3D, each with a rights statement, alt text and an audio description |
+| Rights and protocol | Licence or rights statement; Local Contexts Notice or Label; sensitivity; consultation status |
+| Learning hooks | One question to ask of it; the units it serves; the Apply steps that use it |
+| Upkeep | Checked on; version; who reviewed it |
+
+**Text in four tiers.** The first two tiers use the [V&A's gallery-text guide](https://www.vam.ac.uk/blog/wp-content/uploads/VA_Gallery-Text-Writing-Guidelines_online_Web.pdf), which sets 50–60 words for an object label, 130–180 for panels, and a first sentence of no more than 16 words. The other two are our own.
+
+| Tier | Length | Who reads it | Where it shows |
+|---|---|---|---|
+| Line | 16 words or fewer | Everyone, at a glance | Map pins, cards, the phone |
+| Label | 50–60 words | Orientation depth | The node's panel |
+| Story | 150–250 words | Practice depth | Story walks, object stories |
+| Deep | 600–1,200 words, sourced sentence by sentence | Mastery depth, briefers checking claims | The node's full page, with the claims list |
+
+**What each node type adds to the card**
+
+| Node type | Fields beyond the card | Example from this pass |
+|---|---|---|
+| Object | Measurements; inscriptions; condition and repairs; provenance as dated steps; exhibition history | A Benin plaque's eight-step provenance, including the British Museum selling it in 1950 (§5) |
+| Place | Historical and modern names; coordinates or area; what was made there and when; who lived there; how it is known (excavation, text, oral history) | Meroë: slag heaps, furnaces, more than a thousand years of iron production (§5) |
+| Period | The region whose chronology it belongs to; span with soft ends; a "meanwhile elsewhere" list generated from the Atlas | Nok's three phases, 1500 BCE to the turn of the era (§5) |
+| Movement or school | See the note on groupings below | — |
+| Maker | Named, unnamed or collective; role; community's own name; active dates; how credit is known | The Igun Eronmwon guild of brass casters (§5) |
+| Material | Where it comes from; how it is extracted; properties that matter to makers; routes; environmental cost | Rhineland brass arriving as manillas (§5) |
+| Technique | The operational sequence as 5–9 ordered steps; tools; where it recurs | Lost-wax casting; bloomery smelting (§5) |
+| Route | Endpoints and stops; what moved (goods, materials, skills, people); span; its story walk | The copper-alloy route from the Rhineland to Benin City (§5) |
+| Living practice | Holders; how it is taught; status (UNESCO, EMKP, community); what it needs to continue; consent | Igun Street casting today (§5) |
+| Event | Date; place; actors; consequence for making and for the record | The 1897 British assault on Benin City (§5) |
+
+**Groupings are not all movements.** A movement names itself and argues for something: Arts and Crafts, the Bauhaus, Mingei. A style is named later by historians: Gothic, Baroque. A school or workshop tradition is a way of making passed from teacher to pupil. A culture is an archaeological or ethnographic grouping, such as Nok or Olmec. A period belongs to one region's chronology, such as Heian or Classic Maya. Most of history before 1800 has no movements in the first sense. So the node is "grouping", with a kind field, and a movement view is really a grouping view that works for Mingei and for Nok alike. The Atlas pass decides the view; this pass fixes the node.
+
+**Museum metadata is itself a claim.** Cleveland's records attribute a Nok head to an "unknown female ceramicist" and many objects to "-style" makers. These are interpretations, and good ones, but they are not facts. The card keeps the source's own wording and our reading side by side, each with its own confidence.
+
+**How much this adds up to.** Every node needs identity and relations, but not every node needs every tier. Ring 1 (curated and taught) gets all four tiers. Ring 2 (linked and checked) gets line and label. Ring 3 (open data) gets identity and a link. Under option C in §2, F1's Atlas would hold roughly 300 objects and 500 other nodes, which comes to a few hundred thousand words: the size of a reference book. That is realistic only because AI drafts the tiers from the sources and a person verifies each claim. The verification step is what §7 builds into the template.
+
+## Deep dive: F1.5 Recurrences
+
+The deep dive keeps F1.5's spine, the argument over whether writing was invented three or four times, and widens it from five recurrences to six by adding pottery. It also found that two of the best-known candidate objects fail the tests that matter most, provenance and date. The verified set is therefore smaller than the candidate list, and more honest.
+
+**What the unit teaches.** A "first" is a claim about what survived and what was found, not about what happened. Writing, pottery, metals, cities, cotton and printing each began more than once, in places far apart, and for writing the count itself is argued. Practice depth, about 50 minutes, opening on data (the simultaneity view), Historian voice. The concept line becomes: *Recurrences: writing, pottery, metals, cities, cotton and printing began more than once; how many times writing began is still argued.*
+
+*[Embedded: node/186eebea-6a20 — the claims table below · 18 dated first-known cases across six strands; dates converted to years before 2026]*
+
+**The claims, with sources and confidence**
+
+| Strand | Claim | Confidence | Source |
+|---|---|---|---|
+| Writing | Writing was invented independently three or four times: four if Egypt counts, three if Egypt borrowed the idea from Mesopotamia | Contested | CL-001, sprint 2 sources |
+| Writing | Egyptian hieroglyphs appear on labels from tomb U-j at Abydos, radiocarbon-dated to about 3320 BCE, and took more than 400 years to reach their full form | Documented | [Kahl 2001](https://www.persee.fr/doc/arnil_1161-0492_2001_num_11_1_1240) |
+| Writing | The earliest Chinese writing, oracle-bone inscriptions of King Wu Ding's reign, is radiocarbon-dated to 1254–1197 BCE | Documented | [Liu et al. 2020, ](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/38A7B64D6D538A3A7B96F912BBEE9592/S0033822220000909a.pdf/div-class-title-radiocarbon-dating-of-oracle-bones-of-late-shang-period-in-ancient-china-div.pdf)[*Radiocarbon*](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/38A7B64D6D538A3A7B96F912BBEE9592/S0033822220000909a.pdf/div-class-title-radiocarbon-dating-of-oracle-bones-of-late-shang-period-in-ancient-china-div.pdf) |
+| Writing | The Cascajal block from the Olmec heartland is the oldest writing in the Americas, dated by style to the early first millennium BCE | Contested | [Rodríguez Martínez et al. 2006](https://www.science.org/doi/10.1126/science.1131492); critique by [Bruhns and Kelker 2007](https://www.science.org/doi/10.1126/science.315.5817.1365b) |
+| Writing | The Indus signs encode a language | Contested | [Rao et al. 2009](https://www.science.org/doi/10.1126/science.1170391) against [Farmer, Sproat and Witzel 2004](https://hasp.ub.uni-heidelberg.de/journals/ejvs/article/view/620) |
+| Writing | Khipus recorded census and tribute counts, and may have encoded tributaries' names by colour | Documented for counts; interpretive for names | Medrano and Urton 2018, *Ethnohistory* |
+| Pottery | Mobile foragers made pottery in Xianrendong Cave, China, 20,000–19,000 years ago, ten millennia before farming | Documented | [Wu et al. 2012](https://www.science.org/doi/10.1126/science.1218643) |
+| Pottery | Pottery was made at Ounjougou, Mali, before 9400 BCE, during a wet phase in the Sahara | Documented | [Huysecom et al. 2009](https://www.cambridge.org/core/journals/antiquity/article/emergence-of-pottery-in-africa-during-the-tenth-millennium-cal-bc-new-evidence-from-ounjougou-mali/EC383CF3E1B961102319433214C6E034) |
+| Pottery | The Chinese and African inventions were separate | Probable: far apart in place and time, with nothing known to connect them | Our reading of the two sources above |
+| Metals | Copper was smelted at Belovode, Serbia, about 5000 BCE, far from the Near East | Documented | [Radivojević et al. 2010](https://www.sciencedirect.com/science/article/abs/pii/S0305440310001986) |
+| Metals | Metallurgy therefore had more than one origin | Contested | Same source, which argues it; the Near-East-first reading stands against it |
+| Metals | Gold was cold-hammered into beads at Jiskairumoko, Peru, 2155–1936 BCE, the earliest worked gold in the Americas | Documented | [Aldenderfer et al. 2008](https://www.pnas.org/doi/10.1073/pnas.0710937105) |
+| Metals | Iron was produced at Douroula, Burkina Faso, in the 8th century BCE | Documented | [UNESCO World Heritage listing, 2019](https://whc.unesco.org/en/list/1602/) |
+| Metals | Iron smelting south of the Sahara was invented there, not received from the north | Contested | Both sides set out in [Alpern 2005](https://donwagner.dk/arch-iron/resources/Alpern2005.pdf); taught in F1.6 |
+| Cities | Caral had monumental architecture, urban settlement and irrigation by 2627–1977 BCE | Documented | [Shady, Haas and Creamer 2001](https://www.science.org/doi/10.1126/science.1059519) |
+| Cities | Jenné-jeno was a city from the 3rd century BCE with no evidence of a central ruler | Documented for dates; interpretive for how it was governed | [McIntosh, Oxford Research Encyclopedia](https://academic.oup.com/edited-volume/61643/chapter/539805578) |
+| Cities | The Upano Valley held road-linked garden cities from about 500 BCE to 300–600 CE | Documented | [Rostain et al. 2024](https://www.science.org/doi/10.1126/science.adi6317) |
+| Cotton and dye | Cotton was domesticated four separate times, twice in Africa and Asia and twice in the Americas | Documented | [Wendel and Cronn, USDA summary](https://research.fs.usda.gov/treesearch/5152); Renny-Byfield et al. 2016, *Genome Biology and Evolution* |
+| Cotton and dye | Indigo-dyed cotton from Huaca Prieta, Peru, about 6,200 years old, is the earliest known use of indigo anywhere | Documented, as "earliest known" | [Splitstoser et al. 2016](https://www.science.org/doi/10.1126/sciadv.1501623) |
+| Printing | The printed invocations placed in the One Million Pagodas, 764–770, are among the oldest securely dated printed texts | Documented | [Cambridge Digital Library](https://cudl.lib.cam.ac.uk/view/PR-FG-00870); Met 30.47a–c |
+| Printing | Bi Sheng made clay movable type between 1041 and 1048 | Documented, in one source: Shen Kuo's *Dream Pool Essays* | [Summary with the passage](https://en.wikipedia.org/wiki/Bi_Sheng) |
+| Printing | Jikji, printed in 1377, is the oldest surviving book printed with movable metal type | Documented | UNESCO Memory of the World, 2001 ([summary](https://en.wikipedia.org/wiki/Jikji)) |
+
+**The object set, verified record by record.** Each record was fetched live from the museum's open API on 28 September 2026 and checked for three things: licence, date and provenance. The provenance test follows the museum profession's own threshold. An archaeological object is used as an exemplar only if it has an excavation record, a documented history outside its country of discovery before 17 November 1970, or a documented legal export ([AAMD guidelines](https://aamd.org/for-the-media/press-release/strengthened-guidelines-on-the-acquisition-of-archaeological-material)). An object that fails can still be taught, but only as a case with its history shown, never as an example.
+
+| ID | Object | Date | Holder and licence | Provenance test | Role in the unit |
+|---|---|---|---|---|---|
+| WS-001 | Proto-cuneiform tablet with seal impressions | c. 3100–2900 BCE, probably Uruk | Met 1988.433.1, public domain | Acquired 1988; the earlier history is not in the open data. To confirm before it stays F1.1's anchor | Writing, Mesopotamia |
+| WS-002 | Wine vessel (jue), inscribed "Father Yi of the Chu Clan" | c. 1200 BCE, Shang | Cleveland 1960.42, CC0 | Acquired 1960, before the threshold | Writing on bronze, beside the oracle bones |
+| WS-003 | Stone mason's chisel | c. 2051–2000 BCE | Met 27.3.12, public domain | Excavated by the Met at Deir el-Bahri, 1926–27 | Metals; Egypt's copper-alloy tools (also F1.6) |
+| WS-004 | Chavín-style gold plaque | c. 500–200 BCE | Cleveland 1938.431, CC0 | Owned by 1938; findspot uncertain ("Chongoyape?") | Metals, Andes: the cold-hammering tradition |
+| WS-005 | Fire-flame cooking vessel (ka'en doki) | c. 2500 BCE, Jōmon | Cleveland 1984.68, CC0 | Bought from a Tokyo gallery in 1984; no export record in the open data. Flagged | Pottery, East Asia; late in the sequence, since the oldest sherds are not in open collections |
+| WS-006 | Block-printed cotton fragment | 1200s–1300s | Cleveland 1929.845, CC0 | Acquired 1929 | Cotton and printing on cloth. Catalogued as "Egypt, Mamluk": that is where it was found; where it was made is a separate question |
+| WS-007 | Tunic | 650–1000 CE, Wari | Met 2021.146, public domain | Given 2021; history not in the open data. To confirm | Cotton and camelid fibre, Andes |
+| WS-008 | One of the One Million Pagodas, with its printed invocation | c. 764–770, Japan | Met 30.47a–c, public domain | Given 1930 | Printing |
+| WS-X02 | Oracle bone | "19th century or earlier" | Met 67.55.50 | The Met does not date it to the Shang | Excluded: it cannot stand for Shang writing |
+| WS-X03 | Painted vase with ruler and scribe, Maya | 600–900 | Cleveland 1990.181 | First recorded at a Los Angeles gallery in 1972, with no findspot: fails | Excluded as an exemplar; taught in F1.24 as a provenance case |
+
+Where no open object exists, the claim lives on a **Place node** instead: Xianrendong, Ounjougou, Belovode, Jiskairumoko, Caral, Jenné-jeno, the Upano Valley, Huaca Prieta, Abydos, Yinxu, Cascajal and Douroula. Twelve places, each carrying its claims and a licensed image where one exists. This is how the Balkans, Amazonia and the Sahel first enter F1 (§2).
+
+**The walk, step by step**
+
+1. **Guess.** "How many times was writing invented?" A slider from one to six; the learner commits before anything is shown (prediction prompt).
+2. **Four rows.** The simultaneity view places Egypt's labels, the Mesopotamian tablet, the Shang vessel and the Cascajal block as soft-ended ranges. The learner's guess stays pinned beside them.
+3. **Three or four.** An argument card sets out what Egypt's case turns on. Both readings are drawn with the contested line.
+4. **What counts as writing.** The learner sorts the Indus signs and a khipu, with reasons. Both readings are shown and neither is marked right.
+5. **Pots before farms.** China 20,000 years ago, Mali before 9400 BCE. The Jōmon vessel is the object to look at slowly. The assumption that pottery came with farming breaks here.
+6. **Metals three ways.** Copper smelted in Serbia, gold hammered in Peru, iron in Burkina Faso, with the chisel and the Chavín plaque. The iron argument is handed to F1.6.
+7. **Cities without one blueprint.** Caral, Jenné-jeno with no citadel, the Upano cities under the forest.
+8. **Cotton, dye and print.** Four cottons, the oldest known indigo, printing on cloth before printing on paper, and the pagoda with its invocation.
+9. **Earliest known.** The learner rewrites three "first ever" sentences into what the record supports.
+
+**Apply**
+
+| Lane | Task |
+|---|---|
+| Both | Place three objects on parallel rows as ranges; state the count of writing's inventions you accept, and why |
+| Maker | Find one technique in your own medium that was invented more than once, and note what each invention did differently |
+| Briefer | Rewrite a "first ever" or "invented by" claim from a real brief or campaign into what the record supports |
+
+**How we will know it works.** Learners finish in 45–55 minutes. At least 80% can state both readings of the count. At least 70% rewrite "first" claims correctly in the closing task. Apply rows use ranges, not single dates. The "earliest known" phrasing turns up again when learners grade sources in F1.28. The thresholds are provisional until the first test round.
+
+**Links out.** F1.1 (the tablet), F1.3 (the record's bias), F1.6 (the iron argument), F1.7 (khipu, cotton, Upano), F1.8 (printing), F1.9 and F1.10 (Indian cotton found in Egypt), F1.24 (the two excluded objects), F1.28 (grading sources), F1.28a (reconstruction). Each goes into the link register.
+
+**What the deep dive changed.** Pottery added as a sixth strand. "Weaving" became "cotton and dye", because cotton's four domestications are firmly documented while weaving's own beginnings are too early and too perishable to count. Twelve place nodes. Two candidates excluded, and F1.1's anchor tablet flagged for a provenance check. The hours are unchanged.
+
+## Deep dive: F1.6 Africa, read through metallurgy
+
+Metallurgy holds the chapter together better than a tour of regions would. It runs from copper tools on the Nile, through iron in the Sahel and brass casting in Benin, to gold weights and a guild still working today. Along the way the deep dive found three things the candidate list had missed. The chapter's best-known Nok object fails the provenance test. Benin's brass came from the Rhineland. And a 1920s Zimbabwean axe in Cleveland carries part of a Swiss watch.
+
+**What the unit teaches.** African metallurgy is a set of inventions and exchanges on its own terms, not a late arrival: copper, iron, lost-wax casting in bronze and brass, and gold. The objects that prove it reached museums through excavation, trade and war, and how each one arrived is part of what it teaches. Practice depth, about 50 minutes, opening on an object, Historian voice, ending on a living practice.
+
+**Where the chapter reaches now.** It claims the Nile valley by name, so Egypt and Nubia are Africa here. The Met files its Nubian objects under "Egyptian Art" and its Benin objects in a separate wing, and the unit says so, because the museum's filing is an argument about where Africa's history lies. From §2's gaps it reaches the Sahel (Douroula, Jenné-jeno) and the south (Great Zimbabwe). The Maghrib and Madagascar remain gaps, logged for the world hub.
+
+**The claims, with sources and confidence**
+
+| Claim | Confidence | Source |
+|---|---|---|
+| Iron was produced at Douroula, Burkina Faso, in the 8th century BCE; the listed sites keep about fifteen standing natural-draught furnaces, and village blacksmiths still make tools and take part in rituals | Documented | [UNESCO World Heritage listing, 2019](https://whc.unesco.org/en/list/1602/) |
+| The Nok culture of central Nigeria ran from about 1500 BCE to the turn of the era; large-scale terracotta production and, later, iron smelting belong to its middle phase, 900–400 BCE | Documented | [Goethe University Frankfurt project, DFG summary](https://gepris.dfg.de/gepris/projekt/107422281?language=en&selectedSubTab=2) |
+| Almost every Nok site the Frankfurt team found had been looted, most of them destroyed entirely | Documented | [Breunig and Rupp 2016](https://brill.com/view/journals/jaa/14/3/article-p237_1.pdf) |
+| Iron was made in the Meroë region for more than a thousand years, possibly from the 25th Dynasty | Documented | [Humphris and Scheibner 2017](https://www.repository.cam.ac.uk/items/09f9aa6a-6557-4fde-a0c8-94241302c547) |
+| Iron smelting south of the Sahara was invented there rather than received from the north | Contested: several archaeologists hold independent invention; Alpern argues the evidence does not yet prove it | [Alpern 2005](https://donwagner.dk/arch-iron/resources/Alpern2005.pdf), which quotes both sides |
+| Haya smelters in Tanzania used preheated air and made carbon steel 1,500–2,000 years ago | Contested: claimed from reconstruction smelts with Haya elders, then disputed | [Schmidt and Avery 1978](https://pubmed.ncbi.nlm.nih.gov/17830304/); Rehder's critique and the authors' reply |
+| Igbo-Ukwu's leaded bronzes (late first millennium CE) used metal from two directions: lead from ores in the Benue Rift, near the site, and lead matching Tunisian ores | Documented | McIntosh 2022, "Igbo-Ukwu at 50", *African Archaeological Review* |
+| Benin's brass casters, the Igun Eronmwon guild, worked under the Oba's exclusive patronage; oral history places the arrival of lost-wax casting in the 13th century | Documented as tradition; the date is oral history | [The Met, ](https://www.metmuseum.org/perspectives/bronze-casters-igun-street)[*Bronze Casters of Igun Street*](https://www.metmuseum.org/perspectives/bronze-casters-igun-street)[, 2025](https://www.metmuseum.org/perspectives/bronze-casters-igun-street) |
+| The brass for Benin's castings came mainly from Rhineland manillas traded between the 15th and 18th centuries | Documented | [Skowronek et al. 2023](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0283415) |
+| British forces looted about 3,000 objects from Benin City in 1897 | Documented, as an estimate | [Smithsonian, 2022](https://www.si.edu/newsdesk/releases/smithsonian-returns-29-benin-bronzes-national-commission-museums-and-monuments) |
+| Returns so far: 29 by the Smithsonian (2022); Germany's joint declaration with Nigeria (July 2022); a decree vesting returned objects in the Oba (March 2023); an agreement giving the national museums commission custody (2025) | Documented | [Smithsonian](https://www.si.edu/newsdesk/releases/smithsonian-returns-29-benin-bronzes-national-commission-museums-and-monuments); [Reuters, February 2025](https://www.reuters.com/world/africa/nigerias-museum-agrees-with-royal-ruler-custody-benin-bronzes-2025-02-26/); [German Lost Art Foundation, August 2025](https://kulturgutverluste.de/en/news/return-benin-bronzes-nigeria) |
+| Great Zimbabwe was built between about 1100 and 1450 by Shona ancestors and had more than 10,000 inhabitants in the 14th century | Documented | [UNESCO World Heritage listing](https://whc.unesco.org/en/list/364/) |
+| Colonial writers credited Great Zimbabwe to outsiders; archaeologists refuted this in 1906 and 1929–31, yet in 1970 the Rhodesian government ordered that no official publication state it was an African creation | Documented | [Kaarsholm, citing Garlake](https://sas-space.sas.ac.uk/4213/1/Preben_Kaarsholm_-_The_past_as_battlefield_in_Rhodesia_and_Zimbabwe.pdf); [Randall-MacIver 1906](https://dn790002.ca.archive.org/0/items/cu31924028618357/cu31924028618357.pdf) |
+| The Igun Street guild is shrinking (about 120 members), has opened membership beyond hereditary families, and now sells online | Documented, from reporting | [The Guardian (Nigeria), December 2025](https://guardian.ng/life/nigerias-bronze-artists-cling-to-centuries-old-techniques/); [Al Jazeera, July 2026](https://www.aljazeera.com/features/longform/2026/7/3/if-it-dies-its-on-you-saving-nigerias-benin-bronze-casting) |
+
+**The object set, verified record by record.** The same live check as F1.5: licence, date, provenance. The Benin records show why the 1970 test is necessary but not enough. Both Benin objects have been outside Nigeria since 1897, so they pass the test, and both were looted. The unit shows them with their full history and their restitution context, never as neutral examples.
+
+| ID | Object | Date | Holder and licence | Provenance | Role |
+|---|---|---|---|---|---|
+| WS-010 | Plaque | 1500s–1600s | Cleveland 1999.1, CC0 | Cast by the Igun Eronmwon; royal palace, Benin City; sent to England after the 1897 assault; British Museum until 1950, when the museum sold it through an agent; New York dealers; Cleveland in 1999 | Brass, casting, the Atlantic metal route; 1897 and what followed |
+| WS-011 | Ancestral commemorative head (uhunmwun-elao) | Possibly mid-1500s or early 1600s | Cleveland 1938.6, CC0 | Royal palace until 1897; a London dealer, then Louis Carré, Paris; Cleveland in 1938 | Casting in copper alloy with iron inlay |
+| WS-012 | Gold weight (abrammuo), geometric form | 1800s | Cleveland 1962.244, CC0 | Not checked in this pass | Weighing gold dust: brass that measured gold |
+| WS-013 | Gold weight (abrammuo), antelope | 1800s | Cleveland 1935.306, CC0 | Acquired 1935 | The same, figurative |
+| WS-014 | Ceremonial axe (gano) | 1900s, by 1928 | Cleveland 1929.364, CC0 | Collected in 1927–28 by Paul B. Travis for the Gilpin Players of Karamu House and the African Art Sponsors, Cleveland; the 1928 checklist calls it "Shangaan" and notes a disc from a Swiss watch movement set into it | Iron in the south; reuse of imported metal; an African American collection of the 1920s; an attribution that has changed |
+| WS-015 | Throwing knife and prestige sceptre (pingha) | 1800–mid-1900s | Cleveland 2015.156, CC0 | Not checked in this pass | Iron as a form of value |
+| WS-003 | Stone mason's chisel | c. 2051–2000 BCE | Met 27.3.12, public domain | Excavated by the Met at Deir el-Bahri, 1926–27 | Copper-alloy tools on the Nile (shared with F1.5) |
+| WS-016 | Cup with geometric decoration, Meroitic | 1st–3rd century | Met 13.125.37, public domain | Excavated at Faras, grave 1007, by the University of Oxford, 1911–12 | Nubia; filed by the Met under "Egyptian Art" |
+| WS-X04 | Head, "Nok-culture style region" | Thermoluminescence date 20–620 CE | Cleveland 1995.21 | First recorded with a Brussels dealer "by at least 1994": fails the test. Its date also falls after the end of Nok as the Frankfurt project now dates it | Excluded as an exemplar; taught in F1.24 beside the looting finding |
+
+Nok is therefore shown through the Frankfurt project's excavations as a Place node, not through a museum object. The living practice and the wider record come from **Ring 2 sources**. [Digital Benin](https://digitalbenin.org/) links 5,304 Benin objects in 139 institutions in 21 countries, with an Edo-language catalogue that gives each object type its own name, which is the "community's own name" field in §3. Alongside it: the Met's Igun Street film, EMKP's documentation of Great Zimbabwe's dry-stone masonry (PR-002), UNESCO's Burkina Faso and Great Zimbabwe listings, and the Meroë smelting experiments ([Humphris et al. 2018](https://www.tandfonline.com/doi/full/10.1080/00934690.2018.1479085)).
+
+**Kept out on protocol.** Cleveland also offers a pair of Ògbóni society staffs and a Songye power figure. Both belong to restricted or sacred use, so both stay out under the sensitivity default (gate question B4).
+
+**The walk, read through metallurgy**
+
+1. **The chisel.** A copper-alloy tool from a Theban tomb, about 4,000 years old. Egypt is in Africa, and the museum's filing is the first thing to notice.
+2. **Iron.** Douroula's furnaces, Nok's smelting phase and Meroë's slag heaps, with both readings of the invention argument drawn on the contested line.
+3. **How we know how they smelted.** The Haya reconstruction and its critics, and the Meroë experiment: reconstruction as evidence, with a link forward to F1.28a.
+4. **Casting from two directions.** Igbo-Ukwu's bronzes: metal from nearby ores and metal from across the Sahara in one hoard.
+5. **Brass and the Atlantic.** The plaque and the head: the guild, the Oba's patronage, brass that arrived as Rhineland manillas. The route opens in F1.13's globe.
+6. **1897 and after.** The plaque's history step by step, including the British Museum's sale in 1950, then the returns under way. A content note comes first.
+7. **Gold, and the south.** Akan gold weights; Great Zimbabwe and the myth told against it; the Shona axe with a Swiss watch part, collected for a Black theatre in Cleveland.
+8. **Igun Street today.** The guild's casters in their own words, their shrinking numbers, their new members, their online shop. The chapter ends on the practice, not the museum.
+
+**Apply**
+
+| Lane | Task |
+|---|---|
+| Both | Trace one object's path in five dated steps and name who could claim it today |
+| Maker | Write a reference note for one metal technique your world draws on: whose it is, where it is practised now, what your use owes |
+| Briefer | The same note, plus a consultation flag: a brief that asks for "Benin bronze style" must say what 1897 means and that the guild still works |
+
+**How we will know it works.** Learners finish in 45–55 minutes. At least 80% place iron in Africa before 500 BCE with its argument. At least 80% can tell a documented history from a clean one (the plaque passes the test and was still looted). Briefers' consultation flags name a living holder. The thresholds are provisional until the first test round.
+
+**Sensitivity reading.** The Historian pre-reads the chapter as a regional specialist, and a reciprocal reviewer reads it (P11). Steps 6 and 7 carry the most risk: violence, restitution, and the racism of the Great Zimbabwe myth. Both get content notes and are written in the record's own documented terms. The British phrase "punitive expedition" is quoted and attributed, not used as the unit's own description.
+
+**Links out.** F1.5 (iron in the recurrence), F1.13 (the Atlantic brass route), F1.17 (the Oba's guild as a commissioning regime), F1.22 (charcoal and deforestation at Nok and Great Zimbabwe), F1.23 (credit to a guild), F1.24 (provenance, restitution, the Nok head), F1.26 (protocol), F1.28a (reconstruction smelts).
+
+**What the deep dive changed.** The chapter claims the Nile valley and part of the Sahel. It closes on Igun Street, with Great Zimbabwe's masonry as its second living practice. The 20th-century rights gap from sprint 3 turned out to depend on the museum: Cleveland licenses its 1920s axe as CC0, while the Art Institute of Chicago does not license its early-20th-century Kente. One candidate is excluded and two records are flagged for a provenance check.
+
+## How it is written
+
+F1 has little node text yet, so the real risk is in what the text inherits. Museum metadata, heritage listings, older scholarship and AI drafting defaults each bring their own habits: a founding legend repeated in an official summary, a euphemism for violence, a "first" that means "first found". The standard below is written against those habits, and each rule was tested on the two deep dives.
+
+**Where the phrasing comes from, and what goes wrong**
+
+| Source of text | Typical problem | Found in this pass |
+|---|---|---|
+| Museum metadata | Interpretations stored as facts; attributions that change over time | Cleveland's "unknown female ceramicist" on the Nok head; its 1928 checklist called the axe "Shangaan", its record now "Shona-style" |
+| Heritage listings | Legends repeated before the evidence; romantic framings | UNESCO's Great Zimbabwe summary opens with "the capital of the Queen of Sheba, according to an age-old legend" and speaks of a "lost civilisation" |
+| Older scholarship and colonial records | Perpetrators' names for violence; hierarchies of peoples | "Punitive expedition" for the 1897 assault; "the Birmingham of Africa" for Meroë |
+| Popular history | "First", "invented by", single origins | "Gutenberg invented printing" |
+| AI drafting | Filler and false warmth: "rich tapestry", "testament to", "stands as", "ancient wisdom" | The standing risk for every tier the AI drafts |
+
+**The standard, twelve rules**
+
+1. Start from the object, the place or the person, not the category.
+2. Keep the first sentence to 16 words or fewer, as the V&A's guide advises.
+3. Say who made it, even when they are unnamed: "a caster of the Igun Eronmwon guild", not "Benin bronze".
+4. Give dates as ranges with the source's own qualifier: "about", "possibly", "by 1928".
+5. Match every claim to the confidence grammar. Documented claims are stated plainly. Probable claims say "probably" or "most specialists". Contested claims say "argued" and give both readings. Interpretive claims say "we read it as".
+6. Write "earliest known", never "first".
+7. Name violence plainly. Put perpetrators' terms in quotation marks and attribute them.
+8. Use the community's own name first and the outside name second. Digital Benin's Edo catalogue is the model.
+9. Drop "primitive", "tribal", "lost civilisation", "exotic", "mysterious", and "discovered" for places people already knew.
+10. Date living practices to their source ("in 2025, the guild had about 120 members"), so they are neither frozen in the past nor timeless.
+11. Admit what is not known, in the text, not only in the claims list.
+12. Make each tier true on its own. The line must not mislead without the label, and the label must not mislead without the story.
+
+Terms are linked to the Glossary on first use. The rules are the content half of the program voice guide; your three writing samples will set its tone.
+
+**Before and after**
+
+|  | Before | After |
+|---|---|---|
+| A label (Benin plaque) | "Benin Bronze plaque, 16th century. Taken during the British Punitive Expedition of 1897." | "Casters of the Igun Eronmwon guild made this plaque for the Oba's palace in Benin City, probably between 1500 and 1700. Its brass came mainly from Rhineland manillas traded along the Atlantic coast. British forces took it in 1897, in what they called a 'punitive expedition'. The British Museum sold it in 1950. Nigeria is seeking the return of Benin's royal objects." |
+| A story line (from the mockup) | "Iron-working appears across West Africa and the Nile valley in the first millennium BCE. Whether it began here or arrived from elsewhere is argued both ways." | "Furnaces at Douroula, in today's Burkina Faso, were smelting iron by the 8th century BCE. Whether smelters here invented it or learned it from the north is still argued." The "after" names a place and a date the reader can check. |
+| A place summary (Great Zimbabwe) | "The ruins … the capital of the Queen of Sheba, according to an age-old legend … testimony to the lost civilisation of the Shona." | "Shona ancestors built Great Zimbabwe between about 1100 and 1450, and in the 1300s more than 10,000 people lived there. Colonial writers credited it to foreigners. Excavations in 1905 and 1929 showed they were wrong, yet in 1970 Rhodesia's government barred official publications from saying so." |
+| Museum metadata (Nok head) | "Nok-culture style region, unknown female ceramicist." | Kept word for word under "as the museum records it". Beside it, under "our reading": "Maker unknown; the museum's attribution to a woman is an interpretation", marked interpretive. |
+| A "first" | "Gutenberg invented printing." | "Europe's printing presses of the 1450s came after printed texts in Japan (764–770) and metal type in Korea (1377). No link between them is documented." |
+
+**What changes in practice.** The rules go into the Historian pack's system prompt as rules 13 to 16 (confidence words, "earliest known", perpetrators' terms, dated practices). They also become a lint list the build runs on every drafted tier: a banned-phrase check, a first-sentence length check, and a check that every sentence stating a fact has a matching claim.
+
+## Is the process capping the ambition?
+
+Yes, in three ways. The template capped a world at 8–10 objects. It thought only in objects, when half of F1.5's evidence has no open object. And it checked licences, when the failures were about provenance and dates. It does not cap the ambition in one way: a 50-minute taught path is right, as long as depth has somewhere else to live. Template v2 keeps the short path and gives the depth a home.
+
+**What the two deep dives showed**
+
+| Deep-dive step (v3.2) | What happened | Change for v2 |
+|---|---|---|
+| 8–10 objects, verified and licensed | Africa needs far more than ten objects to be represented; 8–10 is the right size for the taught path only | Split the set: a taught set of 8–10 exemplars, a reference layer of 20–40 per world hub, and a floor of one verified object per sub-region |
+| "Verified" meant licensed | 3 of 17 candidates failed on provenance or date (the Nok head, the Maya vase, the oracle bone) and 5 more were flagged or left unchecked, all of them licensed | Verification checks five things: licence, date, provenance against the 1970 test, the source's attribution wording, and protocol |
+| Objects carry the unit | Most of F1.5's 22 claims had no open object; twelve places had to carry them | Every claim names the node that carries it, of any type (§3) |
+| Claims sheet per unit | Iron's claims served both F1.5 and F1.6 | One claims register for the module; units link to claims, never copy them |
+| Historian pre-read at the end | Protocol exclusions (the Ògbóni staffs, the Songye figure) had to happen before selection, not after | A protocol screen runs first, before searching |
+| Sources as links | Some claims rested on abstracts; two rested on encyclopedia summaries | Each claim records how deep its source goes (full text, abstract or summary); summaries are replaced before G3 |
+| The data route | The live API route worked, but at 11 requests a minute; the Met's API has no provenance field; PubMed blocked reading | The route is enough for deep dives (about 30 records each) but not for the harvest. Met records carry "provenance unchecked" until the page is read. Literature goes through publisher pages and search tools |
+| Coverage by place | Candidates skewed after 1400 CE | The coverage floor covers periods as well as places |
+
+**Deep dive template v2**
+
+1. **Blind map.** What a specialist in this world would insist on (reuse sprint 3's table).
+2. **Responsibility.** The sub-regions and period bands this unit must reach, and which of them the taught path covers and which the world hub covers.
+3. **Protocol screen.** Exclude restricted, sacred, ancestral and funerary categories before searching (B4, CARE).
+4. **Claims first.** 12–25 claims, each with a source, how deep the source goes, a confidence level, and both readings where contested. Written into the module's claims register.
+5. **Nodes.** For each claim, the node that carries it: a verified object where an open one exists, otherwise a place, practice, event, material or technique.
+6. **Object verification.** Licence, date, provenance test, attribution as recorded beside our reading, protocol. The outcome is one of three: exemplar, case, or excluded.
+7. **Living practice.** Its holders, sources dated by year, a consent route, and at least one source in the holders' own words.
+8. **The walk.** 6–9 steps, each tied to claims and nodes, with content notes where needed.
+9. **Apply, success criteria, links out.**
+10. **Readings.** The Historian as regional specialist, then a reciprocal reviewer; paid reads where the budget rule applies.
+11. **Writing check.** The §6 rules and the lint list.
+12. **Registers.** World set, claims, practices and place nodes; a link register entry; a coverage report row.
+
+**What it costs.** Each deep dive here took about 35 research calls and one working session to draft. The bottleneck is not research but human verification. Your review of a finished deep dive should take one to two hours, mostly spent on the object table and the contested claims. At 2–3 days a week, the seven remaining deep dives take about three weeks.
+
+**One option not taken.** Africa could be split into two units, one to 1500 and one after. I recommend against it for now: the world hub (option C in §2) carries the extra depth without lengthening the path, and the split can be revisited after the first test round if learners run out of time.
+
+## Decisions, register entries and next steps
+
+Six decisions come out of this pass. Each has a recommendation, so "agree" or a numbered list of exceptions is enough. The Atlas views question is queued as the next pass, as you asked.
+
+| # | Decision | Recommendation |
+|---|---|---|
+| Q1 | How to close the coverage gaps (§2) | Re-cut the worlds and add world hubs (B and C), with the coverage floor (A) as a standing rule: two chapters added, West Asia before Islam and the steppe and Central Asia; Europe widened to the Mediterranean from antiquity; F1.12 becomes Australia and the Pacific |
+| Q2 | The node card and the four text tiers (§3) | Adopt for every node type; Ring 1 gets all tiers, Ring 2 line and label, Ring 3 identity and link |
+| Q3 | The provenance test for exemplars (§4) | Adopt: excavation record, documented history outside the country before 17 November 1970, or documented legal export; otherwise the object is a case, not an example |
+| Q4 | The writing standard (§6) | Adopt as the content half of the voice guide; add rules 13–16 to the Historian pack; build the lint list |
+| Q5 | Deep dive template v2 (§7) | Adopt, and run the seven remaining deep dives on it |
+| Q6 | The unit changes (§4, §5) | Adopt as structure v3.7: F1.5 adds pottery and becomes "cotton and dye"; F1.6 claims the Nile valley and the Sahel and ends on Igun Street; the two new chapters wait on Q1 |
+
+**Register entries from this pass**
+
+| Register | New entries |
+|---|---|
+| World set | WS-002 to WS-008 (F1.5) and WS-010 to WS-016 (F1.6) as exemplars, flags shown; WS-X02, WS-X03 and WS-X04 excluded, each with its reason |
+| Claims | 22 for F1.5 and 14 for F1.6, each with source, source depth and confidence; CL-001 re-sourced |
+| Practices | PR-003 Igun Street brass casting, Benin City (the Met, 2025; The Guardian (Nigeria), 2025; Al Jazeera, 2026); PR-002 kept |
+| Place nodes (new type) | Xianrendong, Ounjougou, Belovode, Jiskairumoko, Caral, Jenné-jeno, Upano Valley, Huaca Prieta, Abydos, Yinxu, Cascajal, Douroula, Meroë, the Nok sites, Igbo-Ukwu, Benin City, Great Zimbabwe |
+| Ring 2 sources | Digital Benin; the Open Khipu Repository (to verify); the Frankfurt Nok project; EMKP |
+| Link register | The F1.5 and F1.6 links out listed above |
+| Coverage report | First rows: Mesopotamia 1, East Asia 3, Andes 2, West Africa 4, Egypt and Nubia 3, Southern Africa 1, Central Africa 1 |
+
+**Next steps, in order**
+
+1. Your answers to Q1–Q6. P1–P11 are still being applied as recommended.
+2. Provenance checks on the flagged records (F1.1's tablet, the Jōmon vessel, the Wari tunic, the unchecked gold weight and throwing knife), read from the museums' object pages.
+3. The seven remaining deep dives on template v2. The proposed order is F1.13 Networks first, because both proof units hand off to it; then F1.12 Australia and the Pacific, the most sensitive; then F1.10, F1.7, F1.8, F1.9 and F1.11. The two new chapters follow if Q1 is agreed.
+4. **The Atlas pass (queued).** What a node is and what a view is; which views merge; a grouping view for movements, schools, styles and cultures, told as a story; how much each view shows at each depth. §3's relation model is its starting point.
+5. The Hub and the Module File updated with this pass (done alongside this document).

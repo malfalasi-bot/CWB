@@ -1,0 +1,40 @@
+name: Check
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  program:
+    name: Program schema
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Schema is valid and in sync with the canon vocabularies
+        run: python -m unittest tools/test_schema.py
+
+  f1-atlas:
+    name: F1 Atlas data
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: modules/F1-histories-of-making/atlas
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Offline tests
+        run: |
+          python tools/test_tools.py
+          cd harvest && python test_harvest.py
+      - name: Validate the canon (errors block the change; warnings are listed for review)
+        run: python tools/validate_canon.py
+      - name: Coverage report
+        run: python tools/coverage.py

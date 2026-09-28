@@ -1,0 +1,435 @@
+import csv,glob,sys
+OUT='/tmp/claude-0/-home-claude/76042139-a9b9-5b20-8cec-5583346d0a7e/scratchpad/f1-scope/blindmap/missing_entities.csv'
+H='id,name,other_names,kind,family,world,sub_regions,start,end,date_note,making_significance,materials_techniques,object_types,functions,defined_by,leaves_out,sensitivity,free_sources,tier,units,confidence,notes'.split(',')
+FAM={'style':'Ideas','movement':'Ideas','school':'Ideas','institution':'People','maker-community':'People','event':'Time','network':'Connections','object-type':'Things','technique':'Things','living-practice':'People','material':'Things'}
+OPEN='Met Open Access (CC0);Cleveland Museum of Art Open Access (CC0);Art Institute of Chicago (CC0);Wikimedia Commons'
+LINK='collection search link-out only (works in copyright);Wikimedia Commons (per-item licence)'
+IND='community-published site;collection search link-out only'
+R=[]
+def row(name,other,kind,world,sub,start,end,dn,sig,mt,ot,fn,dby,lo,sens,src,tier,units,conf,notes):
+    R.append(dict(name=name,other_names=other,kind=kind,family=FAM[kind],world=world,sub_regions=sub,start=start,end=end,date_note=dn,making_significance=sig,materials_techniques=mt,object_types=ot,functions=fn,defined_by=dby,leaves_out=lo,sensitivity=sens,free_sources=src,tier=tier,units=units,confidence=conf,notes=notes))
+
+# ---------- Ideas: styles, movements (named by AP-250, Heilbrunn, Smarthistory) ----------
+row('Early Christian art','Late Antique Christian art','style','F1.11;F1.9a','EU-GRR;WA-LEV;AF-EGY',200,600,'approx.; boundaries debated',
+ 'Christian communities adapted Roman workshop practice (fresco, sarcophagus carving, mosaic and the basilica hall) to new uses.',
+ 'fresco;mosaic;marble carving;ivory carving','catacomb paintings;sarcophagi;basilicas;ivories','ritual and belief','art historians',
+ 'Jewish, Coptic and Syriac traditions working alongside','funerary',OPEN,'R3','F1.16;F1.11','high',
+ 'benchmark: AP-250 nos. 48, 49; Smarthistory Reframing ch. "Building new Romes". links: BEL011; STY083; POL120')
+row('Mannerism','maniera','style','F1.11','EU-WCE',1520,1600,'approx.; label applied later from Vasari\'s "maniera"',
+ 'Painters, sculptors and goldsmiths in Florence, Rome and at Fontainebleau cultivated elongated figures and virtuoso artifice, a manner carried by prints and courts.',
+ 'oil painting;bronze casting;goldsmithing;engraving','altarpieces;portraits;bronzes;table ornaments','ritual and belief;rule and display',
+ '19th- and 20th-century art historians, after Vasari','workshop assistants; the Northern and colonial versions','none',OPEN,'R3','F1.3','high',
+ 'benchmark: AP-250 no. 78; Heilbrunn keyword "Mannerism" and essay "Mannerism: Bronzino (1503–1572) and his Contemporaries". links: STY019; SCH001')
+row('Dutch Golden Age painting','Dutch seventeenth-century painting','style','F1.11','EU-BLC',1600,1700,'approx.',
+ 'Painters in the Dutch Republic sold still lifes, landscapes and genre scenes on an open market, not mainly to church or court commissions.',
+ 'oil painting;etching','paintings;prints','rule and display','19th-century historians',
+ 'the colonial trade and slavery that financed much of the market','human-flow',OPEN,'R3','F1.17','high',
+ 'benchmark: AP-250 nos. 87, 92, 96; Heilbrunn keyword "Dutch Golden Age". The market-as-patron point is the F1.17 lesson. links: POL129; INS038')
+row('Casta painting','pinturas de castas','style','F1.7','AM-LAT',1710,1800,'approx.',
+ 'Painters in New Spain made series that sorted families of mixed ancestry into a colonial hierarchy of race, often for European buyers.',
+ 'oil on canvas','painting series','record and writing;rule and display','art historians',
+ 'how the people depicted named themselves','none','Wikimedia Commons (per-item licence);collection search link-out','R3','F1.3;F1.24','high',
+ 'benchmark: AP-250 no. 97; Smarthistory Reframing ch. "The art of the viceroyalty of New Spain". links: POL069')
+row('Namban art','Nanban','style','F1.8;F1.13','AS-JPN',1570,1640,'approx.; ends with the expulsion of the Portuguese (1639)',
+ 'Japanese painters and lacquerers made screens and objects that showed or served Portuguese traders and Jesuits, some made for export to Europe.',
+ 'lacquer;gold leaf;mother-of-pearl inlay;painting on paper','folding screens;lacquer chests;lecterns','ritual and belief;exchange and value',
+ 'Japanese usage ("southern barbarian"); historians','the enslaved and servant Africans and South Asians who appear in the screens','human-flow',OPEN,'R3','F1.13;F1.14','high',
+ 'benchmark: Smarthistory Reframing ch. "Portuguese contacts and exchanges, c. 1400–1800". POL136 mentions "Namban goods" but no node exists. links: POL136; TEC138')
+row('Romanticism','Romantic movement','movement','F1.11','EU-WCE;EU-BLC;EU-IBE',1790,1850,'approx.',
+ 'Writers, painters and architects across Europe turned to feeling, nature, the medieval and the national past, a turn that fed the Gothic Revival and interest in folk traditions.',
+ 'oil painting;lithography;etching','history paintings;prints;illustrated books','rule and display',
+ 'participants in part (the Schlegels\' "romantisch") and later historians','the colonial and orientalist sources it drew on','none',OPEN,'R3','F1.3;F1.20','high',
+ 'benchmark: AP-250 nos. 106, 108, 111; Heilbrunn keyword and essay "Romanticism". links: STY027; STY040')
+row('Realism (nineteenth-century France)','Réalisme','movement','F1.11','EU-WCE',1848,1880,'approx.; Courbet\'s "Pavilion of Realism", 1855',
+ 'Painters and printmakers took labourers, peasants and ordinary life as subjects, making work itself a subject of art.',
+ 'oil painting;lithography','paintings;caricature prints','record and writing','Courbet and critics such as Champfleury',
+ 'the workers depicted, who had no say in how','none',OPEN,'R3','F1.23;F1.3','high',
+ 'benchmark: AP-250 nos. 113, 114; Heilbrunn essay "Nineteenth-Century French Realism"')
+row('Post-Impressionism','','style','F1.11','EU-WCE',1886,1905,'approx.; label coined by Roger Fry for a 1910 London exhibition',
+ 'A label given afterwards to painters such as Cézanne, van Gogh, Gauguin and Seurat, whose different methods moved painting away from recording light.',
+ 'oil painting;divided colour','paintings','','Roger Fry (1910)',
+ 'the Japanese prints and Pacific objects several of them drew on','none',OPEN,'R3','F1.3;F1.20','high',
+ 'benchmark: AP-250 nos. 120, 125; Heilbrunn keyword and essay "Post-Impressionism". links: STY030; STY062')
+row('Symbolism','Symbolist movement','movement','F1.11','EU-WCE;EU-BLC',1886,1910,'approx.; Moréas\'s manifesto, 1886',
+ 'Poets, painters and designers favoured dream, myth and suggestion over description; its motifs passed into Art Nouveau graphics and interiors.',
+ 'oil painting;lithography;tempera','paintings;posters;book design','','its members (Moréas\'s manifesto)','','none',OPEN,'R3','F1.20','high',
+ 'benchmark: AP-250 no. 122; Heilbrunn keyword and essay "Symbolism". links: STY036; MOV009')
+row('Expressionism (German)','Die Brücke; Der Blaue Reiter','movement','F1.11','EU-WCE',1905,1925,'Die Brücke founded Dresden 1905; Der Blaue Reiter Munich 1911',
+ 'Artists\' groups in Dresden, Berlin and Munich revived the woodcut and used distorted form and strong colour; two of the Blaue Reiter circle later taught at the Bauhaus.',
+ 'woodcut;oil painting','woodcuts;paintings;posters;almanacs','',
+ 'members named their groups; "Expressionism" is a critics\' term','the African and Oceanic objects in ethnographic museums they drew on','none',OPEN,'R3','F1.20;F1.2','high',
+ 'benchmark: AP-250 nos. 132, 133, 134; Heilbrunn keywords "Expressionism", "Der Blaue Reiter". The Bauhaus link is Kandinsky and Klee. links: INS057; STY062')
+row('Fauvism','Les Fauves','style','F1.11','EU-WCE',1905,1908,'named by the critic Louis Vauxcelles at the 1905 Salon d\'Automne',
+ 'Painters around Matisse and Derain used unmixed, non-descriptive colour, briefly and without a programme.',
+ 'oil painting','paintings','','a critic (Vauxcelles)','','none',OPEN,'R3','F1.20','high',
+ 'benchmark: AP-250 no. 131; Heilbrunn essay "Fauvism"')
+row('Pictorialism','Photo-Secession','movement','F1.11;F1.7','EU-WCE;AM-EWD',1885,1920,'approx.; Photo-Secession founded New York 1902',
+ 'Photographers used soft focus and hand-worked printing processes to argue that photography could be art.',
+ 'platinum print;gum bichromate;photogravure','photographs;journals','record and writing','its members','','none',OPEN,'R3','F1.4;F1.3','high',
+ 'benchmark: AP-250 no. 127; Heilbrunn essays "International Pictorialism", "Pictorialism in America". links: TEC196')
+row('Chicago School (architecture)','Commercial style','style','F1.7','AM-EWD',1880,1910,'approx.; rebuilding after the 1871 fire',
+ 'Architects and engineers developed tall office buildings on steel frames with large windows.',
+ 'steel frame;terracotta cladding;plate glass;passenger elevators','office buildings;department stores','shelter;exchange and value','historians',
+ 'the ironworkers and immigrant building labour','none','Wikimedia Commons;Library of Congress (HABS, public domain where marked)','R3','F1.19','high',
+ 'benchmark: AP-250 no. 124; Heilbrunn keyword "Chicago School". Sullivan (1896) is in primary_texts. links: MAT119')
+row('Abstract Expressionism','New York School','movement','F1.7','AM-EWD',1943,1960,'approx.',
+ 'New York painters made large gestural and stained colour-field canvases, which MoMA\'s international programme toured abroad (1958–59).',
+ 'oil and enamel paint;staining raw canvas','paintings','','critics (Robert Coates, 1946)',
+ 'women and Black painters of the circle long left out of its histories','none',LINK,'R3','F1.20;F1.19a','high',
+ 'benchmark: AP-250 nos. 145, 149; Heilbrunn keywords "Abstract Expressionism", "Color Field". Cold War use is argued; keep the claim to the tour. links: INS081')
+row('Minimalism','Minimal art','style','F1.7','AM-EWD',1960,1975,'approx.',
+ 'Artists used industrial materials and outside fabricators, a model of authorship later common in design and architecture.',
+ 'steel;aluminium;fluorescent tubes;fabrication','sculpture;installations','','critics','the fabricators who made the works','none',LINK,'R3','F1.20;F1.23','medium',
+ 'benchmark: Heilbrunn keyword "Minimalism"; AP-250 no. 225 is often read against it (interpretive)')
+row('Land art','Earthworks','movement','F1.7','AM-WST',1967,1980,'approx.',
+ 'Artists made works from earth, rock and water at landscape scale, outside the gallery.',
+ 'earthmoving;rock;salt','earthworks','','critics and the artists',
+ 'the Indigenous lands and far older earthworks (mounds, geoglyphs) they sit among','none',LINK,'R3','F1.22','high',
+ 'benchmark: AP-250 no. 151; Heilbrunn keyword "Earthworks / Land Art"; Smarthistory Reframing ch. "Re-Mapping Land Art". links: TEC169; INV133')
+row('Fluxus','','movement','THEME','AM-EWD;EU-WCE;AS-JPN',1962,1978,'approx.; named by George Maciunas',
+ 'An international network made event scores, multiples and boxed editions, with Maciunas designing much of its graphics.',
+ 'offset printing;boxed multiples','editions;scores;posters','play and music','its members','','none',LINK,'R3','F1.4;F1.21','medium',
+ 'benchmark: AP-250 no. 238 (Paik); Heilbrunn keyword "Fluxus"')
+row('Plains hide painting and ledger art','ledger drawing','style','F1.7','AM-WST',1800,1930,'approx.; hide painting is older; ledger drawing c. 1860s–1930s',
+ 'Plains men painted war and winter-count records on hides and later drew them in account books, including Cheyenne and Kiowa prisoners held at Fort Marion (1875–78).',
+ 'earth and mineral pigments on hide;pencil and crayon on ledger paper','painted robes;tipi covers;ledger books','record and writing;war',
+ 'museums and historians','women\'s geometric hide painting, less collected','Indigenous-community;human-flow',
+ 'Smithsonian Open Access (CC0 where marked);Met Open Access (CC0);Wikimedia Commons','R3','F1.5;F1.29','high',
+ 'benchmark: AP-250 no. 165; Heilbrunn keywords "Sioux Art", "Dakota Art". Fort Marion prisoners were moved by force, hence human-flow. links: SCH009; OBT150; TEC175')
+row('Academic art','academicism','style','F1.11;THEME','EU-WCE;GL',1648,1900,'approx.; from the founding of the Paris academy',
+ 'Academies trained artists by drawing from casts and life and ranked the genres, with history painting at the top and the crafts outside.',
+ 'drawing from casts and life;oil painting','history paintings;academic studies','rule and display','the academies themselves',
+ 'craftspeople; women, long barred from life classes','none',OPEN,'R3','F1.3','high',
+ 'benchmark: Heilbrunn keyword "Academic Painting" and essay "The Salon and the Royal Academy in the Nineteenth Century". links: INS049; INS050; INS011')
+row('Yugoslav socialist modernism','Nonaligned modernism (Videkanić)','style','F1.11','EU-BYZ',1948,1980,'after the 1948 Tito–Stalin split',
+ 'Yugoslav architects, designers and artists developed a modernism distinct from Soviet models, tied to workers\' self-management and to exchange with Non-Aligned states.',
+ 'reinforced concrete;industrial design;graphic design','memorials;housing;hotels;posters','shelter;rule and display',
+ 'historians (MoMA 2018; Videkanić 2020)','differences between the republics inside Yugoslavia','none',LINK,'R3','F1.20','medium',
+ 'benchmark: MoMA "Toward a Concrete Utopia: Architecture in Yugoslavia 1948–1980" (2018); Videkanić, Nonaligned Modernism (McGill-Queen\'s, 2020). links: STY158; POL151')
+row('Korean ink-painting movement','Sumukhwa movement','movement','F1.8','AS-KOR',1980,1995,'approx.; led by Song Su-nam and others at Hongik University (to verify)',
+ 'Korean painters renewed ink on paper as a contemporary medium in the 1980s.',
+ 'ink stick and brush;hanji','paintings','','its participants and critics','','none',LINK,'R3','F1.20','low',
+ 'benchmark: AP-250 no. 227. Dates and membership to verify. links: TEC209; PRA093')
+row('Niuean hiapo','hiapo','style','F1.12','OC-POL',1850,1900,'approx.; revival efforts from the late 20th century',
+ 'Niuean makers painted barkcloth freehand with fine linear designs, some with figures and inscriptions.',
+ 'barkcloth;freehand painting','barkcloth','clothing and adornment;exchange and value','museums; Niuean makers','','Indigenous-community',IND,'R3','F1.12;F1.18','medium',
+ 'benchmark: AP-250 no. 219. links: OBT047; MAT068')
+
+# ---------- Things: techniques ----------
+row('Stained glass','','technique','F1.11','EU-WCE;EU-BLC',900,None,'coloured window glass is older; painted figurative windows from c. 10th century',
+ 'Glaziers set pieces of coloured and painted glass in lead cames to make windows, a large workshop industry of Gothic building.',
+ 'pot-metal glass;vitreous paint;silver stain;lead cames','windows','ritual and belief','Theophilus (12th century) describes the process','','none',
+ OPEN+';Europeana (per-item licence)','R2','F1.11;F1.28','high',
+ 'benchmark: AP-250 no. 60; Heilbrunn essay "Stained Glass in Medieval Europe" and material keyword "Stained Glass". Theophilus is TXT in primary_texts. links: STY013; MKR032; MKR076')
+row('Manuscript illumination','book illumination','technique','THEME','GL',400,None,'illuminated books from late antiquity on',
+ 'Scribes and painters decorated handwritten books with gold, pigments and ornament in monastic, court and later commercial workshops.',
+ 'parchment;gold leaf;mineral pigments;binding','codices;Gospels;books of hours','ritual and belief;record and writing','art historians',
+ 'the lay and women illuminators of commercial workshops','none',OPEN+';Europeana (per-item licence)','R2','F1.28;F1.17','high',
+ 'benchmark: AP-250 nos. 50, 55, 61, 64; Heilbrunn essays "The Art of the Book in the Middle Ages", "Manuscript Illumination in Northern Europe". links: MKR060; SCH046; OBT132; TEC174')
+row('Enconchado','','technique','F1.7;F1.13','AM-LAT',1650,1750,'approx.',
+ 'Painters in New Spain set mother-of-pearl into paintings, a technique associated with Asian lacquer arriving on the Manila galleons.',
+ 'mother-of-pearl;oil paint;varnish','paintings;folding screens','ritual and belief;rule and display','art historians','','none',
+ 'Wikimedia Commons (per-item licence);collection search link-out','R3','F1.13;F1.14','high',
+ 'benchmark: AP-250 no. 95. NET036 names enconchado in prose but no node exists. links: NET036; MAT083')
+row('Islamic geometric pattern construction','girih; geometric strapwork','technique','F1.10','WA-IRN;WA-ANA;AF-MAG;AS-CEN;AS-SAS',900,None,'approx.; systematic star-and-polygon patterns from the 10th–11th centuries',
+ 'Artisans laid out interlacing star-and-polygon patterns with compass and straightedge and repeated them in wood, tile, stucco and metal.',
+ 'compass and straightedge;tile mosaic;carving;inlay','tilework;carved panels;metalwork;book covers','ritual and belief;rule and display',
+ 'art historians and mathematicians','the builders\' own manuals, mostly lost','none',OPEN+';Archnet (terms per item)','R2','F1.15;F1.10','high',
+ 'benchmark: Heilbrunn essay "Geometric Patterns in Islamic Art". Whether girih was laid out from tile modules is argued; do not state it. links: TEC168; PRA009; PRA155')
+row('Photomontage','','technique','THEME','EU-EER;EU-WCE',1918,None,'approx.; Berlin Dada and Soviet Constructivists c. 1918–20',
+ 'Artists and designers cut and combined photographs for posters, books and magazines.',
+ 'cut photographs;rephotography;offset printing','posters;book covers;magazine spreads','record and writing;rule and display','its practitioners','','none',LINK,'R3','F1.20;F1.19a','high',
+ 'benchmark: AP-250 no. 137; Heilbrunn keyword "Collage". links: MOV019; MOV014')
+row('Hot-metal typesetting','Linotype; Monotype','technique','THEME','GL',1886,1980,'Linotype in use from 1886; displaced by photo and digital setting by c. 1980',
+ 'Keyboard-operated machines cast whole lines or single letters from molten type metal, industrialising newspaper and book setting.',
+ 'type metal;matrices;keyboards','newspapers;books','record and writing','historians of printing',
+ 'the hand compositors displaced; scripts that did not fit machines built for Latin type','none','Wikimedia Commons;Internet Archive (public-domain manuals)','R3','F1.19;F1.21','high',
+ 'benchmark: JDH virtual issue "Typographic Histories"; Shehab and Nawar, A History of Arab Graphic Design (adapting Arabic to Latin-script technologies, per Brooklyn Rail review). links: TEC195; OBT134')
+row('Machine-learning generative models','generative AI','technique','THEME','GL',2014,None,'generative adversarial networks 2014; public text-to-image tools 2022',
+ 'Statistical models trained on large collections of images and texts generate new images, texts and layouts from prompts, raising questions of credit and consent over training data.',
+ 'training datasets;neural networks;prompts','images;texts;layouts','record and writing','computer scientists and companies',
+ 'the makers whose work formed the training data; data-labelling workers','none','','R3','F1.5;F1.21;F1.14;F1.23','medium',
+ 'benchmark: JDH, Talley, "Digital Design History" (2026) names algorithms and AI as producing-mediating actors; Science and Industry Museum on Jacquard punched cards and computing. Recurrence chain: drawloom, Jacquard, computer, generative model. links: TEC090; OBT109; MOV036')
+
+# ---------- Things: object types ----------
+row('chair','seat with a back','object-type','THEME','GL',-2600,None,'Egyptian chairs from the Old Kingdom; many societies sat on floors, mats or stools instead',
+ 'A raised seat with a back that marks rank in many societies and is much used in histories of modern design.',
+ 'joinery;bentwood;tubular steel;moulded plywood;plastics','chairs;armchairs','rule and display;care and access','museum typology',
+ 'floor-seated and stool-using cultures that a chair-led canon treats as absent','none',OPEN+';Europeana (per-item licence)','R2','F1.19;F1.20;F1.22a','high',
+ 'benchmark: Heilbrunn keyword "Chair" and essays "French Furniture in the Eighteenth Century: Seat Furniture", "Shaker Furniture", "Charles Eames and Ray Eames". Canon names chairs only inside material rows. links: INS062; MAT116; MAT115; OBT021; OBT022')
+row('table and desk','','object-type','THEME','GL',None,None,'ancient; forms vary by region',
+ 'A raised surface for eating, writing, work or display.',
+ 'joinery;turning;veneer','dining tables;desks;low tables','food and storage;record and writing','museum typology',
+ 'floor-level eating and working cultures','none',OPEN,'R3','F1.22a','medium','benchmark: Heilbrunn keywords "Table", "Desk"')
+row('bed','bedstead','object-type','THEME','GL',None,None,'raised beds attested in Egypt from the early third millennium BCE; mats, platforms and hammocks elsewhere',
+ 'A raised or framed place to sleep, often among the most valuable household furnishings and part of a marriage settlement.',
+ 'joinery;carving;textile hangings','beds;bed hangings','shelter;care and access','museum typology','','none',OPEN,'R3','F1.22a','medium',
+ 'benchmark: Heilbrunn keyword "Bed"; essay "Nuptial Furnishings in the Italian Renaissance". links: OBT018; OBT020')
+row('case furniture (chest and cabinet)','cassone; commode; cabinet on stand','object-type','THEME','GL',None,None,'ancient; forms vary',
+ 'Boxes, chests and cabinets for storing and displaying valuables, from marriage chests to collectors\' cabinets.',
+ 'joinery;veneer;marquetry;lacquer','chests;cabinets;commodes','food and storage;rule and display','museum typology','','none',OPEN,'R3','F1.22a;F1.24','high',
+ 'benchmark: Heilbrunn essay "French Furniture in the Eighteenth Century: Case Furniture"; keywords "Cabinet", "Chest", "Commode". links: TEC139; OBT086')
+row('folding screen','byōbu; biombo; Coromandel screen','object-type','F1.8;F1.7;F1.13','AS-JPN;AS-CHN;AS-KOR;AM-LAT',700,None,'Japanese byōbu from the Nara period; earlier in China; biombos in New Spain from c. 1600',
+ 'Hinged painted, lacquered or inlaid panels divided rooms and carried images, and travelled from Japan to New Spain as biombos.',
+ 'paper and wood hinges;painting;lacquer;inlay','byōbu;biombos;Coromandel screens','shelter;rule and display','museums','','none',OPEN,'R2','F1.13;F1.14','high',
+ 'benchmark: AP-250 no. 94; Heilbrunn essay "Interiors Imagined: Folding Screens, Garments, and Clothing Stands". OBT136 "screen" is the digital display, not this. links: NET036; OBT136')
+row('hand fan','folding fan; uchiwa; ōgi','object-type','THEME','GL',None,None,'rigid fans are ancient in Egypt and China; the folding fan is usually traced to Japan, c. 9th–10th century',
+ 'Rigid or folding fans cooled the body, signalled rank and carried painting and print across Asia and Europe.',
+ 'paper;silk;bamboo;ivory;feathers','fans','clothing and adornment;rule and display','museums','','none',OPEN,'R3','F1.13','medium',
+ 'benchmark: Heilbrunn keyword "Fan". Folding-fan origin to verify')
+row('netsuke','','object-type','F1.8','AS-JPN',1600,1900,'approx.; mainly Edo period',
+ 'Small carved toggles held pouches and inrō on the kimono sash, and became collectors\' objects in Europe after the 1860s.',
+ 'ivory carving;wood carving;lacquer','toggles','clothing and adornment','Japanese usage; collectors','the many unsigned carvers','none',OPEN,'R2','F1.22a;F1.24','high',
+ 'benchmark: Heilbrunn essay "Netsuke: From Fashion Fobs to Coveted Collectibles". links: OBT034; MAT074')
+row('chahar bagh','charbagh; four-part garden','object-type','F1.10;F1.9','WA-IRN;AS-SAS;AS-CEN',-550,None,'Pasargadae (Achaemenid) is often cited as the earliest; the form is best documented in Timurid, Safavid and Mughal gardens',
+ 'A walled garden divided into four by water channels, used for palaces and tombs from Iran to Mughal India.',
+ 'water channels;irrigation;planting','gardens;garden tombs','rule and display;ritual and belief','Persian usage; historians','the gardeners and water engineers','none',
+ 'Wikimedia Commons;Archnet (terms per item)','R2','F1.10;F1.16','medium',
+ 'benchmark: AP-250 no. 209 (Taj Mahal gardens); Heilbrunn keyword "Garden". Start date is the contested part. links: POL197; TEC220')
+row('dry landscape garden','karesansui','object-type','F1.8','AS-JPN',1400,None,'approx.; flourished in Muromachi-period Zen temples',
+ 'Gardeners set stones and raked gravel to evoke landscape, mostly in Zen temple precincts.',
+ 'stone setting;raked gravel;moss','temple gardens','ritual and belief','Japanese garden treatises; historians',
+ 'the kawaramono garden workers, a stigmatised group who did much of the work','none','Wikimedia Commons','R3','F1.16;F1.23','high',
+ 'benchmark: AP-250 no. 207 (Ryoan-ji). links: BEL024; POL182')
+row('Chinese scholar\'s garden','literati garden','object-type','F1.8','AS-CHN',1368,None,'tradition older; surviving Suzhou gardens mainly Ming and Qing',
+ 'Owners and designers composed rocks, water, pavilions and planting into small walled landscapes for retreat and display.',
+ 'rockwork;timber pavilions;water','gardens;scholar\'s rocks','rule and display','Chinese garden writing (Ji Cheng, Yuanye, c. 1631); historians',
+ 'the rock-setters and craftsmen','none','Met Open Access (CC0, scholar\'s rocks);Wikimedia Commons','R3','F1.8','high',
+ 'benchmark: Heilbrunn essay "Chinese Gardens and Collectors\' Rocks". links: STY136')
+row('English landscape garden','jardin anglais','style','F1.11','EU-BLC',1720,1800,'approx.',
+ 'Landowners and designers reshaped estates into apparently natural parkland with lakes, clumps of trees and sunken walls (ha-has).',
+ 'earthmoving;planting;water engineering','parks;follies;ha-has','rule and display','historians',
+ 'estate labourers and enclosed commons; slavery-derived wealth behind some estates','human-flow','Wikimedia Commons;Europeana (per-item licence)','R3','F1.17;F1.22','high',
+ 'benchmark: Heilbrunn essays "Gardens of Western Europe, 1600–1800", "From Geometric to Informal Gardens in the Eighteenth Century"')
+row('French formal garden','jardin à la française','style','F1.11','EU-WCE',1600,1715,'approx.',
+ 'Garden designers laid out parterres, axes and basins by geometry and hydraulics, as at Versailles.',
+ 'surveying;hydraulics;clipped planting','parterres;fountains;canals','rule and display','historians',
+ 'the labourers and soldiers who dug the waterworks','none','Wikimedia Commons;Europeana (per-item licence)','R3','F1.17','high',
+ 'benchmark: AP-250 no. 93; Heilbrunn essay "From Italy to France: Gardens in the Court of Louis XIV and After". links: DYN085')
+row('stupa','chorten; dagoba; chedi','object-type','F1.9;F1.8','AS-SAS;AS-HIM;AS-MSE;AS-ISE;AS-CHN',-300,None,'approx.; earliest monumental stupas associated with the Maurya period',
+ 'A mound-shaped monument enclosing relics, built and enlarged across Buddhist Asia and developed into the chorten and pagoda.',
+ 'brick;stone masonry;plaster;relic deposits','stupas;chortens;pagodas','ritual and belief','Buddhist traditions; archaeologists','','sacred',
+ 'Met Open Access (CC0, reliquaries);Wikimedia Commons','R2','F1.16','high',
+ 'benchmark: AP-250 nos. 192, 198. OBT180 names the stupa only as a reliquary context. links: BEL021; BEL022; POL186')
+row('ziggurat','','object-type','F1.9a','WA-MES;WA-IRN',-2100,-500,'Ur-Nammu\'s ziggurat at Ur c. 2100 BCE; raised temple platforms earlier (Ubaid, Uruk)',
+ 'Stepped mud-brick temple platforms built in Mesopotamian and Elamite cities.',
+ 'mud brick;fired brick;bitumen','temple platforms','ritual and belief','Akkadian term; archaeologists','the labourers','none',
+ 'Wikimedia Commons;Met Open Access (CC0)','R3','F1.5;F1.9a','high',
+ 'benchmark: AP-250 no. 12; Heilbrunn essay "Ur: The Ziggurat". links: TEC154; MAT108; ARC054')
+row('basilica','','object-type','F1.11','EU-GRR;WA-LEV;AF-MAG',-200,None,'Roman civic basilicas from the 2nd century BCE; Christian use from the 4th century CE',
+ 'A long hall with aisles and an apse, a Roman civic type adopted for Christian churches.',
+ 'brick;stone;timber roofs;mosaic','halls;churches','rule and display;ritual and belief','architectural historians','','none',
+ 'Wikimedia Commons;Europeana (per-item licence)','R3','F1.11','high','benchmark: AP-250 no. 49 (Santa Sabina)')
+row('steel-frame skyscraper','high-rise','object-type','F1.7;THEME','AM-EWD;GL',1885,None,'Chicago\'s Home Insurance Building (1884–85) is often cited; "first" is argued',
+ 'Tall buildings carried on steel skeletons with elevators, developed in Chicago and New York.',
+ 'steel frame;elevators;curtain walls','office towers','shelter;exchange and value','architectural historians','the steelworkers, many of them immigrant or Indigenous (Mohawk ironworkers in New York)','none',
+ 'Wikimedia Commons;Library of Congress (public domain where marked)','R3','F1.19','high',
+ 'benchmark: AP-250 nos. 124, 146. links: MAT119; GAP013 (Chicago School)')
+row('orrery','','object-type','F1.11','EU-BLC',1704,None,'Tompion and Graham, c. 1704–13; named after the Earl of Orrery',
+ 'A geared model of the solar system used to teach astronomy, made by instrument makers\' workshops.',
+ 'brass;clockwork gearing','orreries;planetaria','record and writing','instrument makers','','none',
+ 'Science Museum Group collection (link out);Wikimedia Commons','R3','F1.19','high',
+ 'benchmark: AP-250 no. 100; Heilbrunn keyword "Scientific Instrument". links: INV019; OBT156')
+row('watch','pocket watch; wristwatch','object-type','F1.11;THEME','EU-WCE;GL',1500,None,'approx.; spring-driven portable timepieces from the early 16th century',
+ 'Spring-driven portable timepieces, made first in southern Germany and later in Geneva, London and the Swiss Jura.',
+ 'springs;gears;enamel;engraving','watches','tools;clothing and adornment','museums; makers','','none',OPEN,'R2','F1.19;F1.29','high',
+ 'benchmark: Heilbrunn essay "Seventeenth-Century European Watches" and keyword "Timepiece". links: PRA166; OBT146; DIA010')
+row('keyboard instruments (harpsichord and piano)','virginal; fortepiano','object-type','F1.11','EU-WCE',1400,None,'harpsichord from the 15th century; Cristofori\'s piano c. 1700',
+ 'Stringed keyboard instruments built by specialist workshops, from harpsichords to Cristofori\'s piano and factory-made uprights.',
+ 'wood;wire strings;ivory and ebony keys;iron frames','harpsichords;virginals;pianos','play and music','museums; makers',
+ 'the ivory trade behind the keys','none','Met Open Access (CC0)','R2','F1.4;F1.19','high',
+ 'benchmark: Heilbrunn essays "The Piano: The Pianofortes of Bartolomeo Cristofori", "Flemish Harpsichords and Virginals", "Renaissance Keyboards". links: MAT074; NET014')
+row('violin','violin family','object-type','F1.11','EU-WCE',1530,None,'approx.; earliest violins in northern Italy c. 1530s',
+ 'Bowed instruments whose form was settled in the workshops of Cremona and Brescia.',
+ 'spruce;maple;varnish;gut strings','violins;violas;cellos','play and music','makers; museums','','none','Met Open Access (CC0)','R2','F1.4;F1.29','high',
+ 'benchmark: Heilbrunn essays "Renaissance Violins", "Violin Makers: Nicolò Amati and Antonio Stradivari". links: PRA171')
+row('guitar','vihuela','object-type','F1.11;THEME','EU-IBE;GL',1500,None,'approx.; vihuela and early guitars in 16th-century Spain',
+ 'Plucked string instruments developed in Spain and later made in factories and electric forms worldwide.',
+ 'wood;gut and steel strings;electric pickups','guitars','play and music','museums','','none','Met Open Access (CC0)','R3','F1.4;F1.21','medium',
+ 'benchmark: Heilbrunn essays "The Guitar", "The Spanish Guitar", "Archtop Guitars and Mandolins"')
+row('telephone','','object-type','THEME','GL',1876,None,'Bell\'s US patent 1876; priority is disputed',
+ 'A device for voice at a distance whose handsets and cases became a major industrial-design commission.',
+ 'metal;Bakelite;electrical components','telephones;handsets','tools','historians of technology',
+ 'the switchboard operators, mostly women','none','Smithsonian Open Access (CC0 where marked);Wikimedia Commons','R3','F1.21;F1.19','high',
+ 'benchmark: Global Design History ch. 7, Golec, "Telephones, globalization, and the production of locality in the 1920s". links: MAT113')
+row('typeface','font','object-type','THEME','GL',1450,None,'approx.; cast metal type from the mid-15th century; digital fonts from the 1980s',
+ 'A designed set of letterforms for reproduction, cut in metal, drawn for hot-metal and photo systems, then coded as fonts.',
+ 'punchcutting;matrices;digital outlines','type;fonts;specimen books','record and writing','typographers and foundries',
+ 'non-Latin scripts adapted to Latin-script technologies','none','Wikimedia Commons;Internet Archive (public-domain specimen books)','R2','F1.5;F1.21','high',
+ 'benchmark: JDH virtual issue "Typographic Histories: Three Decades of Research"; Shehab and Nawar (2020). links: TEC192; STY114; INS073')
+row('kiswa','kiswah','object-type','F1.10','WA-ARB;AF-EGY',None,None,'the covering tradition predates Islam; made in Egypt for centuries, later in a dedicated workshop in Mecca (dates to verify)',
+ 'The black silk covering of the Kaaba, woven and embroidered with calligraphy in gold and silver-wrapped thread and renewed each year.',
+ 'silk;gold and silver-wrapped thread;embroidery;calligraphy','kiswa;belt band;door curtain','ritual and belief','its makers and Islamic authorities','','sacred',
+ 'collection search link-out;Wikimedia Commons (per-item licence)','R3','F1.16','high',
+ 'benchmark: AP-250 no. 183. links: MKR055; TEC112; TEC208')
+row('Kongo crucifix','nkangi kiditu','object-type','F1.6','AF-CEN',1500,1900,'approx.; after the Kongo court adopted Christianity (1491)',
+ 'Cast brass crucifixes made in the Kingdom of Kongo, with Kongo features and meanings.',
+ 'lost-wax casting;brass;wood','crucifixes','ritual and belief;rule and display','Kongo users; historians','','sacred',
+ 'Met Open Access (CC0);Wikimedia Commons','R2','F1.16;F1.14','high',
+ 'benchmark: Heilbrunn essay "African Christianity in Kongo"; Met essay "Christianity and Kongo Visual Culture" (2025). CIV013 and POL020 mention crucifixes but no node exists. links: CIV013; POL020; BEL045')
+row('ndop','Kuba royal portrait figure','object-type','F1.6','AF-CEN',1700,1900,'approx.; dating of individual figures is debated',
+ 'Carved figures of Kuba kings, each identified by an emblem (ibol), kept as royal memorials.',
+ 'wood carving;camwood','figures','rule and display;ritual and belief','the Kuba court; museums','','ancestral',
+ 'collection search link-out;Wikimedia Commons (per-item licence)','R3','F1.6;F1.24','medium','benchmark: AP-250 no. 171. links: POL022')
+row('ikenga','','object-type','F1.6','AF-GUI',None,None,'surviving examples mostly 19th–20th century',
+ 'Horned shrine figures owned by Igbo men as the seat of personal achievement.',
+ 'wood carving','shrine figures','ritual and belief','Igbo owners','','sacred','collection search link-out;Wikimedia Commons (per-item licence)','R3','F1.16','high',
+ 'benchmark: AP-250 no. 176. The canon has only archaeological Igbo-Ukwu (ARC034)')
+row('byeri reliquary guardian','nsekh-o-byeri','object-type','F1.6','AF-CEN',None,None,'surviving examples mostly 19th century',
+ 'Carved figures set on bark boxes holding the bones of lineage ancestors among the Fang, heavily collected by European artists and dealers in the early 20th century.',
+ 'wood carving;bark containers','reliquary figures','ritual and belief','Fang lineages','','ancestral;funerary;sacred',
+ 'collection search link-out','R3','F1.16;F1.20;F1.24','high','benchmark: AP-250 no. 179. links: OBT180; STY062')
+row('sowei (Sande society helmet mask)','bundu mask; ndoli jowei','object-type','F1.6','AF-GUI',None,None,'surviving examples mostly 19th–20th century',
+ 'Helmet masks carved by men and owned and danced by women of the Sande society of the Mende and neighbouring peoples, among the few African masks worn by women.',
+ 'wood carving;black dye','helmet masks','ritual and belief','the Sande society','','sacred;living-community',
+ 'collection search link-out;Wikimedia Commons (per-item licence)','R3','F1.18;F1.16','high','benchmark: AP-250 no. 175. links: OBT181')
+row('bandolier bag','gashkibidaagan (Ojibwe)','object-type','F1.7','AM-EWD',1800,None,'approx.',
+ 'Large beaded shoulder bags made mainly by Anishinaabe, Lenape and other Great Lakes and Woodlands women, with European glass beads and trade cloth.',
+ 'glass beads;wool cloth;leather','shoulder bags','clothing and adornment;rule and display','makers and museums','','Indigenous-community',
+ 'Smithsonian Open Access (CC0 where marked);Met Open Access (CC0);Wikimedia Commons','R3','F1.18;F1.13','high',
+ 'benchmark: AP-250 no. 163. links: TEC111; NET015')
+row('transformation mask','','object-type','F1.7','AM-NWC',None,None,'surviving examples mostly 19th century',
+ 'Hinged masks that open during a dance to reveal a second face, carved by Kwakwaka\'wakw and other Northwest Coast artists.',
+ 'carved and painted cedar;string hinges','masks','ritual and belief','makers; museums',
+ 'the potlatch ban (1885–1951), under which many masks were confiscated','sacred;Indigenous-community;conflict-looting',IND,'R3','F1.16;F1.24','high',
+ 'benchmark: AP-250 no. 164. links: OBT181; MAT096')
+row('staff god (Rarotonga)','atua rakau','object-type','F1.12','OC-POL',1780,1830,'approx.; most surviving examples were collected by missionaries in the 1820s–30s',
+ 'Carved wooden staff figures wrapped in barkcloth, many given up to or taken by London Missionary Society missionaries at conversion.',
+ 'wood carving;barkcloth;feathers;sennit','staff figures','ritual and belief','makers; missionaries','','sacred;Indigenous-community',IND,'R3','F1.16;F1.24','medium',
+ 'benchmark: AP-250 no. 216. A case for the missions theme')
+row('Nukuoro deity figure','tino aitu','object-type','F1.12','OC-MIC;OC-POL',None,None,'surviving examples 18th–19th century',
+ 'Smoothly carved wooden figures from Nukuoro, a Polynesian-speaking atoll in Micronesia.',
+ 'wood carving','figures','ritual and belief','museums','','sacred;Indigenous-community',IND,'R3','F1.16','medium','benchmark: AP-250 no. 217')
+row('Torres Strait turtle-shell mask','','object-type','F1.12','OC-AUS;OC-MEL',None,None,'surviving examples mostly 19th century',
+ 'Masks built from heated and shaped plates of turtle shell, a technique distinctive to Torres Strait Islanders.',
+ 'turtle shell;wood;fibre;feathers;shell','masks','ritual and belief','Torres Strait Islander communities; museums','','sacred;Indigenous-community',IND,'R3','F1.12','high',
+ 'benchmark: AP-250 no. 218. links: MAT079; MOV106')
+row('Froebel gifts','Fröbelgaben','object-type','F1.11;THEME','EU-WCE;GL',1837,None,'Froebel\'s first kindergarten 1837–40',
+ 'Sets of wooden blocks, tiles and folding papers designed for Froebel\'s kindergartens, argued by some to have shaped modern designers\' training.',
+ 'turned and cut wood;paper','building blocks;tiles;folding papers','play and music','Friedrich Froebel and the kindergarten movement',
+ 'the women kindergarten teachers who spread the method','none','Wikimedia Commons;Internet Archive (public-domain manuals)','R3','F1.20;F1.22a','medium',
+ 'benchmark: MoMA "Century of the Child: Growing by Design, 1900–2000" (2012), Froebel among the listed makers; source: Brosterman, Inventing Kindergarten (1997), whose modernism thesis is contested. links: OBT246')
+row('children\'s picture book','','object-type','THEME','GL',1658,None,'Comenius, Orbis Pictus (1658), is often cited as the first',
+ 'Illustrated books made for children to learn from and enjoy, a large field of commissioned illustration and printing.',
+ 'woodcut;lithography;offset printing','picture books','play and music;record and writing','publishers; historians','','none',
+ 'Internet Archive (public-domain editions);Wikimedia Commons','R3','F1.22a;F1.21','medium',
+ 'benchmark: MoMA "Century of the Child" (books among its categories). links: OBT133')
+row('souvenir','tourist art; airport art','object-type','THEME','GL',None,None,'pilgrim tokens are ancient; the souvenir trade expands with the Grand Tour and mass tourism (19th–20th century)',
+ 'Objects made or sold for visitors to take home, from pilgrim badges and Grand Tour models to airport art, often adapting a local form to a buyer\'s idea of it.',
+ 'casting;carving;printing','badges;models;carvings;postcards','exchange and value','Graburn (1976) named "tourist art" as a category',
+ 'the makers\' names, rarely recorded','none',OPEN,'R2','F1.17;F1.22a;F1.2','high',
+ 'benchmark: Heilbrunn essay "The Grand Tour"; source: Graburn (ed.), Ethnic and Tourist Arts (1976). links: STY177; STY178; SCH012; OBT119; OBT259')
+
+# ---------- Connections ----------
+row('Grand Tour','','network','F1.11;F1.13','EU-WCE;EU-GRR;EU-BLC',1660,1840,'approx.',
+ 'Wealthy northern European travellers toured Italy and bought paintings, antiquities, casts, prints and souvenirs, sustaining workshops in Rome, Naples and Florence.',
+ 'copying;cast-making;micromosaic;view painting','view paintings;micromosaics;casts;restored antiquities','exchange and value','historians; the travellers\' own term',
+ 'the Italian workshop makers; later tours to Greece, Egypt and the Levant','none',OPEN+';Europeana (per-item licence)','R2','F1.14;F1.24','high',
+ 'benchmark: Heilbrunn essay "The Grand Tour"; AP-250 no. 34 (Roman copy) for the copying strand. links: GAP souvenir row')
+row('Non-Aligned cultural exchange','','network','F1.13;THEME','GL',1955,1990,'Bandung Conference 1955; Non-Aligned Movement founded in Belgrade 1961',
+ 'Exhibitions, art colonies, scholarships and news pools linked artists of Yugoslavia and newly independent states in Africa and Asia outside the two Cold War blocs.',
+ 'exhibitions;art colonies;scholarships','prints;paintings;exhibition catalogues','rule and display','historians (Videkanić 2020)','','none',LINK,'R3','F1.20;F1.13','medium',
+ 'benchmark: Videkanić, Nonaligned Modernism (2020), via ARTMargins review. links: POL239; POL240; EVT022')
+
+# ---------- People: maker communities and institutions ----------
+row('Old Edgefield stoneware potters','Edgefield District potters','maker-community','F1.7','AM-EWD',1810,1865,'approx.; enslaved labour until emancipation in 1865',
+ 'Enslaved African American potters in Edgefield District, South Carolina, made alkaline-glazed stoneware storage jars; one of them, David Drake, inscribed some with verses and dates.',
+ 'alkaline glaze;wheel throwing','storage jars;face vessels','food and storage','museums (Met and MFA Boston, 2022) and descendant communities',
+ 'most of the potters\' names','human-flow;living-community','Met Open Access (CC0 where marked);collection search link-out','R2','F1.23;F1.7','high',
+ 'benchmark: Met exhibition "Hear Me Now: The Black Potters of Old Edgefield" (2022–23); Heilbrunn essay "The Transatlantic Slave Trade". links: NET035; TEC022')
+row('Japanese American incarceration-camp makers','gaman','maker-community','F1.7;F1.19a','AM-WST',1942,1946,'camps 1942–46',
+ 'Japanese Americans forcibly removed to camps made furniture, tools, toys, instruments and ornaments from scrap and found materials.',
+ 'scrap wood;shells;found materials;carving','furniture;toys;games;teapots;pins','shelter;play and music;tools',
+ 'Smithsonian American Art Museum, "The Art of Gaman" (2010), and families','','human-flow;living-community',
+ 'Smithsonian American Art Museum (link out);Densho (terms to verify)','R3','F1.19a;F1.23','high',
+ 'benchmark: SAAM "The Art of Gaman" (2010–11); JDH special issue "Material Displacements" (2021) for the theme')
+row('Plantation','plantation system','institution','F1.7;F1.13;F1.9','AM-CAR;AM-EWD;AM-LAT;AS-ISE',1500,None,'approx.; Atlantic sugar plantations from the 15th–16th centuries; plantation economies continue',
+ 'Estates growing sugar, cotton, indigo, tobacco and later rubber and tea for export on enslaved, indentured or coerced labour, with workshops of enslaved smiths, carpenters and potters.',
+ 'cane mills;boiling houses;cotton gins;workshops','sugar;cotton;indigo;Colono ware','food and storage;exchange and value','historians',
+ 'the enslaved makers as named people','human-flow','SlaveVoyages (historical data public domain; estimates CC BY-NC);Library of Congress (public domain where marked);Wikimedia Commons','R2','F1.23;F1.13;F1.22','high',
+ 'benchmark: Heilbrunn essay "The Transatlantic Slave Trade"; Met "Hear Me Now" (2022). Canon mentions plantations in network rows but has no node. links: NET035; NET057; NET056; ARC201; DIA009')
+row('Haute couture system','Chambre Syndicale de la Haute Couture','institution','F1.11;THEME','EU-WCE',1868,None,'a predecessor trade body from 1868; the name Chambre Syndicale de la Haute Couture from 1911 (to verify)',
+ 'Paris dressmaking houses organised seasonal collections, models and licensed copies, setting a calendar of fashion change.',
+ 'cutting and sewing;embroidery by specialist ateliers','gowns;toiles;patterns','clothing and adornment','the Paris trade body',
+ 'seamstresses, embroiderers and suppliers named only through the houses','none','Met Open Access (CC0);Europeana (per-item licence)','R2','F1.18;F1.21;F1.14','medium',
+ 'benchmark: Heilbrunn essays "Haute Couture", "Charles Frederick Worth and the House of Worth"; Global Design History ch. 5 "The globalization of the fashion city"; JDH special issue "Interrogating Intellectual Property Rights in Fashion and Design" (2017)')
+row('Department store','','institution','THEME','EU-WCE;GL',1852,None,'the expansion of Le Bon Marché, Paris, from 1852 is often cited',
+ 'Large shops with fixed prices, display windows and departments that staged goods for consumers and commissioned designers.',
+ 'display;advertising;catalogues','shop interiors;window displays;catalogues','exchange and value','historians','the shop workers and seamstresses behind the counters','none',
+ 'Wikimedia Commons;Internet Archive (catalogues)','R3','F1.21','medium',
+ 'benchmark: JDH special issue "Design, Commercial Expansion and Business History" (1999)')
+row('Royal Academy of Arts','','institution','F1.11','EU-BLC',1768,None,'founded 1768',
+ 'A London academy that trained painters, sculptors and architects and ran annual exhibitions, while leaving most crafts out and admitting few women to full membership until the 20th century.',
+ 'drawing from casts and life','exhibitions','rule and display','its royal charter','craftspeople; women','none','Wikimedia Commons;collection search link-out','R3','F1.3;F1.17','high',
+ 'benchmark: Heilbrunn essay "The Salon and the Royal Academy in the Nineteenth Century"; JDH special issue "Dangerous Liaisons: Relationships between Design, Craft and Art" (2004) for the theme')
+row('Académie royale de peinture et de sculpture','','institution','F1.11','EU-WCE',1648,1793,'founded 1648; suppressed 1793',
+ 'The French royal academy ranked the genres and ran the Salon, separating academic art from guild craft.',
+ 'drawing from casts and life','exhibitions;lectures','rule and display','the French crown','guild painters of the Académie de Saint-Luc','none','Wikimedia Commons;collection search link-out','R3','F1.3;F1.17','high',
+ 'benchmark: Heilbrunn essays "The Salon and the Royal Academy", "The French Academy in Rome". links: INS050; MKR064')
+row('Kunstgewerbeschule (school of applied arts)','Kunstgewerbeschulen','institution','F1.11','EU-WCE;EU-EER',1867,None,'Vienna\'s school opened 1867–68 beside the Austrian Museum of Art and Industry',
+ 'Schools attached to applied-arts museums in German-speaking Europe trained designers for industry; Weimar\'s school was one of the two merged into the Bauhaus in 1919.',
+ 'drawing;workshop training','patterns;prototypes','tools','the states that founded them','','none','Wikimedia Commons;Europeana (per-item licence)','R3','F1.19;F1.20','medium',
+ 'benchmark: Heilbrunn essay "Design Reform"; Margolin ch. 11 "The Age of Exhibitions: Europe Outside Great Britain". links: INS057; MKR077; INS052')
+row('Industrial design consultancy','industrial design office','institution','F1.7;THEME','AM-EWD;GL',1926,None,'approx.; independent offices in the United States from the late 1920s',
+ 'Independent offices sold styling and product planning to manufacturers, making the industrial designer a named professional.',
+ 'clay models;renderings','appliances;vehicles;packaging','tools','historians; the designers','the in-house draughtsmen and modellers','none',
+ 'Smithsonian Open Access (CC0 where marked);collection search link-out','R3','F1.17;F1.21','medium',
+ 'benchmark: Margolin vol. 2 ch. 28 "The United States, 1917–1941"; JDH special issue "Ghosts of the Profession" (2008). links: INS064; INS066')
+row('ICSID (World Design Organization)','International Council of Societies of Industrial Design','institution','THEME','GL',1957,None,'founded 1957; renamed World Design Organization 2017',
+ 'An international federation of industrial-design societies that promoted design as a profession and published its definitions.',
+ '','','','its member societies','','none','','R3','F1.17;F1.20','high',
+ 'benchmark: JDH special issue "Ghosts of the Profession" (2008) and virtual issue "Histories of Design Pedagogy" for the profession theme')
+row('VNIITE','All-Union Research Institute of Technical Aesthetics','institution','F1.11','EU-EER',1962,1992,'founded 1962; end date after the Soviet collapse to verify',
+ 'The Soviet state design research institute, which developed "technical aesthetics" for consumer and industrial goods.',
+ 'design research;prototyping','prototypes;standards;journals','tools','the Soviet state','','none','Wikimedia Commons;collection search link-out','R3','F1.20;F1.17','medium',
+ 'benchmark: JDH special issue "Design, Stalin and the Thaw" (1997); Margolin ch. 20 and 27 cover the Soviet Union to 1940 only. links: POL151; STY158')
+row('Amt für industrielle Formgestaltung','Office for Industrial Design (GDR)','institution','F1.11','EU-WCE',1972,1990,'1972 to reunification',
+ 'East Germany\'s state design office, which set design policy for state industry.',
+ '','consumer goods;prototypes','tools','the GDR state','','none','collection search link-out','R3','F1.20;F1.17','medium',
+ 'benchmark: JDH special issue "Design, Stalin and the Thaw" (1997) for the socialist-design theme. Details to verify')
+row('Good Design Award (G Mark)','G Mark','institution','F1.8','AS-JPN',1957,None,'set up 1957 by the Ministry of International Trade and Industry',
+ 'A Japanese state design-selection system, set up partly in response to foreign complaints that Japanese firms copied Western designs.',
+ '','consumer goods','exchange and value','the Japanese state','','none','collection search link-out','R3','F1.14;F1.17','high',
+ 'benchmark: JDH special issue "Transnational Modern Design Histories in East Asia" (2014); Designing Worlds ch. 5 (Kondo). links: MOV024; INS061')
+row('Escola Superior de Desenho Industrial (ESDI)','ESDI','institution','F1.7','AM-LAT',1962,None,'founded 1962, teaching from 1963, Rio de Janeiro',
+ 'Often described as the first university-level industrial design school in Latin America, drawing on the Ulm model.',
+ 'design teaching','','tools','the state of Guanabara','','none','collection search link-out','R3','F1.20;F1.17','high',
+ 'benchmark: JDH special issue "Locating Design Exchanges in Latin America and the Caribbean" (2019); Fernández and Bonsiepe (eds), Historia del diseño en América Latina y el Caribe (2008). links: INS060')
+row('Faculty of Applied Arts, Cairo','Applied Arts School, Cairo','institution','F1.10;F1.6','AF-EGY',None,None,'origins and dates to verify',
+ 'A Cairo school that trained designers, printers and craftspeople, named in histories of Arab graphic design as a training ground.',
+ 'design teaching','','record and writing','the Egyptian state','','none','collection search link-out','R3','F1.17','low',
+ 'benchmark: Shehab and Nawar, A History of Arab Graphic Design (2020), per Brooklyn Rail review, which also names the College of Fine Arts, Baghdad')
+
+# ---------- Time: exhibitions ----------
+row('Salon (Paris)','Salon de Paris','event','F1.11','EU-WCE',1667,None,'first held 1667; regular from 1737; rival salons from 1863 (Salon des Refusés)',
+ 'The Paris academy\'s official exhibition, whose juries decided what counted as art until independent salons broke away.',
+ 'exhibition juries','paintings;sculpture','rule and display','the Académie royale; later the state','','none','Wikimedia Commons;Gallica (commercial reuse paid)','R3','F1.15;F1.3','high',
+ 'benchmark: Heilbrunn essay "The Salon and the Royal Academy in the Nineteenth Century". links: GAP Académie row')
+row('Ljubljana Biennial of Graphic Arts','','event','F1.11','EU-BYZ',1955,None,'founded 1955',
+ 'An international print exhibition in Yugoslavia that showed printmakers from both Cold War blocs and from Non-Aligned states.',
+ 'printmaking','prints','rule and display','its organisers','','none',LINK,'R3','F1.15;F1.20','medium',
+ 'benchmark: Videkanić, Nonaligned Modernism (2020), via ARTMargins review')
+
+# assign ids, resolve GAP cross-refs by name
+for i,r in enumerate(R,1): r['id']=f'GAP{i:03d}'
+name2id={r['name']:r['id'] for r in R}
+for r in R:
+    r['notes']=r['notes'].replace('GAP013 (Chicago School)',name2id['Chicago School (architecture)']).replace('GAP souvenir row',name2id['souvenir']).replace('GAP Académie row',name2id['Académie royale de peinture et de sculpture'])
+    for k in ('start','end'):
+        r[k]='' if r[k] is None else str(r[k])
+# check canon links exist
+canon=set()
+for f in glob.glob('/tmp/claude-0/-home-claude/76042139-a9b9-5b20-8cec-5583346d0a7e/scratchpad/f1-scope/canon/canon_*.csv'):
+    for c in csv.DictReader(open(f)): canon.add(c['id'])
+import re
+for r in R:
+    for l in re.findall(r'\b([A-Z]{3}\d{3})\b',r['notes']):
+        if l.startswith('GAP') or l=='TXT': continue
+        if l not in canon: print('BAD LINK',r['id'],l)
+    assert r['kind'] in FAM
+    if re.search(r'enslav|coerc|indentur|forcibly|forced|prisoner|slavery',r['making_significance']+r['leaves_out'],re.I) and 'human-flow' not in r['sensitivity']:
+        print('MISSING human-flow',r['id'],r['name'])
+w=csv.DictWriter(open(OUT,'w',newline='',encoding='utf-8'),fieldnames=H,quoting=csv.QUOTE_MINIMAL)
+w.writeheader(); [w.writerow({k:r[k] for k in H}) for r in R]
+import collections
+print(len(R)); print(collections.Counter(r['kind'] for r in R)); print(collections.Counter(r['family'] for r in R))
