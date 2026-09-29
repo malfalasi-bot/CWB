@@ -1,0 +1,1 @@
+select count(*) as n, 'n/a' as h from public.schemas where name in ('canon-node.schema.json', 'concept-dna.schema.json', 'licence-classes.json', 'program.json', 'src-entry.schema.json');

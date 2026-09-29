@@ -1,0 +1,1 @@
+select count(*) as n, md5(string_agg(h, '' order by h)) as h from (select md5(concat_ws(chr(31), "path", "title", "kind", "module", "format", "artifact_url", "docs_id", "tab_name", "rev", "content", "pdf_path", "sha256")) h from public.documents where "path" in ('docs/02-program/hub/index.md')) s;

@@ -1,0 +1,1 @@
+select count(*) as n, md5(string_agg(h, '' order by h)) as h from (select md5(concat_ws(chr(31), "id", "practice", "holders", "places", "source", "status", "units")) h from public.f1_practices where "id" in ('PR-001', 'PR-002', 'PR-003', 'PR-010', 'PR-011', 'PR-012', 'PR-013', 'PR-014', 'PR-015', 'PR-016', 'PR-017', 'PR-018')) s;

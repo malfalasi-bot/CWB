@@ -13,6 +13,7 @@ This repository holds the whole program: its documents, its schema, and each mod
 | [`modules/`](modules/) | One folder per module. Each holds its documents, specs, data and design |
 | [`modules/F1-histories-of-making/`](modules/F1-histories-of-making/README.md) | F1: 10 documents, 8 unit specs, 8 grouping pages (5 as files, 3 inside Groundwork), the Atlas data (4,228 canon nodes, 77 objects, 110 claims, 198 source routes, 130 primary texts), harvesters, mockups |
 | [`design/`](design/README.md) | Program-level design references |
+| [`supabase/`](supabase/README.md) | The content as database tables in the Supabase project CWB: table definitions, seed files and checks |
 | `tools/` | Program-level tools: the schema generator and tests, and the converter that exports Claude Docs tabs to Markdown |
 | `.github/workflows/` | Checks on every change, and the F1 Atlas harvest, which runs monthly and each 2 January and opens a pull request |
 
