@@ -113,4 +113,4 @@ Roughly 130 new canon rows are proposed across the nine specs, each listed in it
 
 ## Next
 
-Audit the content and research still required across F1: `../AUDIT_2026-10-02.md`.
+The audit of content and research still required across F1 is in `../AUDIT_2026-10-02.md`.
