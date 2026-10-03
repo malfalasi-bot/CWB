@@ -104,7 +104,13 @@ GETTY_FIELDS = ["canon_id", "canon_name", "kind", "vocabulary", "rank", "getty_i
 def fetch(url: str, timeout: int = 300) -> bytes:
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/sparql-results+json, application/json, text/csv, */*"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
+        raw = r.read()
+        encoding = (r.headers.get("Content-Encoding") or "").lower()
+    # PeriodO serves its dataset gzip-compressed (the body starts with the gzip magic bytes); urllib leaves it as is.
+    if encoding == "gzip" or raw[:2] == b"\x1f\x8b":
+        if not url.lower().endswith((".gz", ".zip")):
+            raw = gzip.decompress(raw)
+    return raw
 
 
 def sparql_json(endpoint: str, query: str, opener: Optional[Callable[[str], bytes]] = None) -> dict:
@@ -412,6 +418,9 @@ def harvest_getty(limit: int = 300, kinds: Optional[list[str]] = None, fixture: 
                 hits = getty_lookup(r["name"], vocab, opener, fx)
             except Exception as e:  # keep going; one bad lookup should not stop the run
                 print(f"{r['id']} {vocab}: {e}", file=sys.stderr)
+                if searched == 0 and not getattr(harvest_getty, "_reported", False):
+                    harvest_getty._reported = True  # type: ignore[attr-defined]
+                    _record_error(f"getty ({vocab}, first lookup, {r['id']})", e)
                 continue
             searched += 1
             if not hits:
