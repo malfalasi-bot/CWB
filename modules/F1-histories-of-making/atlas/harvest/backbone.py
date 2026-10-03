@@ -653,5 +653,30 @@ def main(argv: list[str]) -> int:
     return 0
 
 
+ERRORS = os.path.join(ROOT, "reports", "backbone_errors.md")
+
+
+def _record_error(cmd: str, exc: BaseException) -> None:
+    """A failed harvest is written where the pull request will show it, not only to a runner log nobody can open."""
+    import datetime
+    import traceback
+    os.makedirs(os.path.dirname(ERRORS), exist_ok=True)
+    first = not os.path.exists(ERRORS)
+    with open(ERRORS, "a", encoding="utf-8") as fh:
+        if first:
+            fh.write("# Backbone harvest errors\n\nOne entry per failed step, newest last. Delete this file once the cause is fixed.\n")
+        fh.write(f"\n## {cmd} · {datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}\n\n")
+        detail = getattr(exc, "reason", None) or getattr(exc, "code", None)
+        fh.write(f"{type(exc).__name__}: {exc}" + (f" ({detail})" if detail else "") + "\n\n```\n")
+        fh.write("".join(traceback.format_exception(type(exc), exc, exc.__traceback__))[-3000:])
+        fh.write("```\n")
+
+
 if __name__ == "__main__":
-    sys.exit(main(sys.argv[1:]))
+    try:
+        sys.exit(main(sys.argv[1:]))
+    except SystemExit:
+        raise
+    except BaseException as e:  # noqa: BLE001 - any failure is recorded for the pull request, then re-raised
+        _record_error(sys.argv[1] if len(sys.argv) > 1 else "?", e)
+        raise
