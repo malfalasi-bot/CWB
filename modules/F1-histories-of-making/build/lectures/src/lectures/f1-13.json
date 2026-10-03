@@ -1,0 +1,2834 @@
+{
+ "id": "f1-13",
+ "unit": "F1.13",
+ "title": "Networks: objects, materials, skills and people",
+ "subtitle": "One jar's blue, followed through all four",
+ "fps": 30,
+ "places": [
+  {
+   "id": "jingdezhen",
+   "name": "Jingdezhen",
+   "lat": 29.2947,
+   "lon": 117.20789,
+   "source": "GeoNames via cities.json 1.1.65 (CC BY 4.0)"
+  },
+  {
+   "id": "kashan",
+   "name": "Kashan",
+   "lat": 33.98237,
+   "lon": 51.42769,
+   "source": "GeoNames via cities.json 1.1.65 (CC BY 4.0)"
+  },
+  {
+   "id": "qamsar",
+   "name": "Qamsar",
+   "lat": 33.75,
+   "lon": 51.43,
+   "source": "placed by region: not in the gazetteer; drawn 0.23° south of Kashan's GeoNames point, as \"near Kashan\" (claim 4)"
+  },
+  {
+   "id": "anarak",
+   "name": "Anarak",
+   "lat": 33.31077,
+   "lon": 53.69947,
+   "source": "GeoNames via cities.json 1.1.65 (CC BY 4.0) (\"Anārak\")"
+  },
+  {
+   "id": "kilwa",
+   "name": "Kilwa Kisiwani",
+   "lat": -8.9251,
+   "lon": 39.5131,
+   "source": "GeoNames via cities.json 1.1.65 (CC BY 4.0): Kilwa Masoko, the mainland town facing the island"
+  },
+  {
+   "id": "periplus_coast",
+   "name": "the Periplus's coasts",
+   "lat": -8.9251,
+   "lon": 39.5131,
+   "source": "placed by region: the East African coast, anchored at Kilwa Masoko (GeoNames); the text names ports the lecture does not"
+  },
+  {
+   "id": "belitung",
+   "name": "off Belitung",
+   "lat": -2.73353,
+   "lon": 107.63477,
+   "source": "GeoNames via cities.json 1.1.65 (CC BY 4.0): Tanjung Pandan on Belitung; the wreck lies offshore"
+  },
+  {
+   "id": "changan",
+   "name": "Chang'an (Xi'an)",
+   "lat": 34.25833,
+   "lon": 108.92861,
+   "source": "GeoNames via cities.json 1.1.65 (CC BY 4.0) (\"Xi’an\")"
+  },
+  {
+   "id": "tianshan",
+   "name": "Tianshan corridor, western end",
+   "lat": 43.25249,
+   "lon": 76.9115,
+   "source": "placed by region: the listing's western sites are in the Zhetysu region; anchored at Almaty (GeoNames)"
+  },
+  {
+   "id": "samarkand_region",
+   "name": "Central Asia",
+   "lat": 42.87,
+   "lon": 74.59,
+   "source": "placed by region: anchored at Bishkek (GeoNames); the claims name no city"
+  },
+  {
+   "id": "baghdad",
+   "name": "Baghdad",
+   "lat": 33.34058,
+   "lon": 44.40088,
+   "source": "GeoNames via cities.json 1.1.65 (CC BY 4.0)"
+  },
+  {
+   "id": "talas",
+   "name": "Talas",
+   "lat": 42.89799,
+   "lon": 71.37334,
+   "source": "GeoNames via cities.json 1.1.65 (CC BY 4.0): Taraz; the battle site is placed by region"
+  },
+  {
+   "id": "cairo",
+   "name": "Cairo",
+   "lat": 30.06263,
+   "lon": 31.24967,
+   "source": "GeoNames via cities.json 1.1.65 (CC BY 4.0)"
+  },
+  {
+   "id": "sahel",
+   "name": "Mali, the Sahel",
+   "lat": 16.77348,
+   "lon": -3.00742,
+   "source": "placed by region: anchored at Timbuktu (GeoNames); the claims name no goldfield"
+  },
+  {
+   "id": "majorca",
+   "name": "Majorca",
+   "lat": 39.56939,
+   "lon": 2.65024,
+   "source": "GeoNames via cities.json 1.1.65 (CC BY 4.0) (Palma)"
+  },
+  {
+   "id": "manila",
+   "name": "Manila",
+   "lat": 14.6042,
+   "lon": 120.9822,
+   "source": "GeoNames via cities.json 1.1.65 (CC BY 4.0)"
+  },
+  {
+   "id": "acapulco",
+   "name": "Acapulco",
+   "lat": 16.84942,
+   "lon": -99.90891,
+   "source": "GeoNames via cities.json 1.1.65 (CC BY 4.0) (\"Acapulco de Juárez\")"
+  },
+  {
+   "id": "potosi",
+   "name": "Potosí",
+   "lat": -19.58361,
+   "lon": -65.75306,
+   "source": "GeoNames via cities.json 1.1.65 (CC BY 4.0); stands for \"New Spain and Peru\" silver (claim 15), the mine the canon names (PLC163)"
+  },
+  {
+   "id": "puebla",
+   "name": "Puebla",
+   "lat": 19.04778,
+   "lon": -98.20723,
+   "source": "GeoNames via cities.json 1.1.65 (CC BY 4.0)"
+  },
+  {
+   "id": "amsterdam",
+   "name": "Amsterdam",
+   "lat": 52.37403,
+   "lon": 4.88969,
+   "source": "GeoNames via cities.json 1.1.65 (CC BY 4.0)"
+  },
+  {
+   "id": "china",
+   "name": "China",
+   "lat": 29.2947,
+   "lon": 117.20789,
+   "source": "placed by region: the record says China; anchored at Jingdezhen (GeoNames)"
+  },
+  {
+   "id": "arita",
+   "name": "Arita",
+   "lat": 33.18333,
+   "lon": 129.9,
+   "source": "GeoNames via cities.json 1.1.65 (CC BY 4.0)"
+  },
+  {
+   "id": "korea",
+   "name": "Joseon (Korea)",
+   "lat": 35.10168,
+   "lon": 129.03004,
+   "source": "placed by region: anchored at Busan (GeoNames); the claims name no town of origin"
+  },
+  {
+   "id": "arabia",
+   "name": "Arabia",
+   "lat": 26.25722,
+   "lon": 50.61194,
+   "source": "placed by region: anchored at Muharraq (GeoNames)"
+  },
+  {
+   "id": "iran_coast",
+   "name": "Iran",
+   "lat": 27.095,
+   "lon": 56.4529,
+   "source": "placed by region: anchored at Hormoz (GeoNames)"
+  },
+  {
+   "id": "china_coast",
+   "name": "China",
+   "lat": 23.11667,
+   "lon": 113.25,
+   "source": "placed by region: anchored at Guangzhou (GeoNames)"
+  },
+  {
+   "id": "futa_toro",
+   "name": "Futa Toro",
+   "lat": 16.64892,
+   "lon": -14.96073,
+   "source": "placed by region: anchored at Podor (GeoNames), a town of the middle Senegal valley"
+  },
+  {
+   "id": "charleston",
+   "name": "South Carolina",
+   "lat": 32.77632,
+   "lon": -79.93275,
+   "source": "GeoNames via cities.json 1.1.65 (CC BY 4.0) (Charleston); the claim says \"brought to South Carolina\""
+  },
+  {
+   "id": "fayetteville",
+   "name": "North Carolina",
+   "lat": 35.05266,
+   "lon": -78.87836,
+   "source": "GeoNames via cities.json 1.1.65 (CC BY 4.0) (Fayetteville, the jail of claim 22)"
+  },
+  {
+   "id": "liverpool",
+   "name": "Liverpool",
+   "lat": 53.41058,
+   "lon": -2.97794,
+   "source": "GeoNames via cities.json 1.1.65 (CC BY 4.0)"
+  },
+  {
+   "id": "manchester",
+   "name": "Manchester",
+   "lat": 53.48095,
+   "lon": -2.23743,
+   "source": "GeoNames via cities.json 1.1.65 (CC BY 4.0)"
+  },
+  {
+   "id": "guran",
+   "name": "Guran, Qeshm",
+   "lat": 26.9492,
+   "lon": 56.2691,
+   "source": "placed by region: on Qeshm island at Qeshm town (GeoNames); the village is not in the gazetteer"
+  },
+  {
+   "id": "muharraq",
+   "name": "Muharraq, Bahrain",
+   "lat": 26.25722,
+   "lon": 50.61194,
+   "source": "GeoNames via cities.json 1.1.65 (CC BY 4.0) (\"Al Muharraq\")"
+  }
+ ],
+ "titleSeconds": 8,
+ "stations": [
+  {
+   "id": "s1",
+   "n": 1,
+   "title": "Where did the blue come from?",
+   "idea": "A network is four flows at once, and this jar's blue came from Iran.",
+   "seconds": 60,
+   "narration": "A jar, painted in blue under its glaze [2]. Potters at Jingdezhen made it in the 1300s; Cleveland holds it as 1962.154 [2]. The record does not give the potters' names [2].\n\nWe read a network as four flows at once: objects, materials, skills and people [1]. They share routes, but not terms [1].\n\nOne tap before we go. Where did the blue come from: Jingdezhen's own hills, Iran, or Europe?\n\nCleveland's record says the cobalt was imported from Iran, likely from Kashan [2]. Jiang and colleagues tested later imperial wares, from the Xuande reign of 1426 to 1435 [3]. They write that early blue-and-white relied heavily on imported cobalt from the West [3]. We write \"from Iran\" [2, 3]. So the potters and the clay were at Jingdezhen, and the blue came from Iran [2, 3]. Look for the dashed line: it marks a material, not an object.",
+   "claims": [
+    "1",
+    "2",
+    "3"
+   ],
+   "objects": [
+    "Cleveland 1962.154"
+   ],
+   "commands": [
+    {
+     "at": 0,
+     "do": "chapter",
+     "n": 1,
+     "title": "Where did the blue come from?"
+    },
+    {
+     "at": 0,
+     "do": "map.focus",
+     "lon": 88,
+     "lat": 30,
+     "zoom": 2.2,
+     "seconds": 1.2
+    },
+    {
+     "at": 0,
+     "do": "map.stamp",
+     "text": "1300s"
+    },
+    {
+     "at": 0,
+     "do": "timeline.scrub",
+     "year": 1350
+    },
+    {
+     "at": 0,
+     "do": "legend",
+     "keys": [
+      "object",
+      "material"
+     ]
+    },
+    {
+     "at": 0.3,
+     "do": "object",
+     "title": "Jar with blue underglaze decoration",
+     "holder": "Cleveland Museum of Art",
+     "accession": "1962.154",
+     "date": "Jingdezhen, Yuan, 1300s",
+     "licence": "CC0",
+     "maker": "Potters and painters at Jingdezhen; the record does not give their names. Sold by J.T. Tai and Co., New York, 1962."
+    },
+    {
+     "at": 0.5,
+     "do": "caption",
+     "text": "A jar, painted in blue under its glaze.",
+     "claim": "2",
+     "confidence": "documented"
+    },
+    {
+     "at": 3,
+     "do": "map.place",
+     "id": "jingdezhen",
+     "kind": "object"
+    },
+    {
+     "at": 3,
+     "do": "caption",
+     "text": "Potters at Jingdezhen made it in the 1300s; Cleveland holds it as 1962.154.",
+     "claim": "2",
+     "confidence": "documented"
+    },
+    {
+     "at": 3,
+     "do": "timeline.span",
+     "id": "jar",
+     "from": 1300,
+     "to": 1400,
+     "label": "the jar, 1300s",
+     "lane": 0,
+     "kind": "object"
+    },
+    {
+     "at": 8,
+     "do": "caption",
+     "text": "The record does not give the potters' names.",
+     "claim": "2",
+     "confidence": "documented"
+    },
+    {
+     "at": 11,
+     "do": "caption",
+     "text": "A network is four flows at once: objects, materials, skills and people. They share routes, but not terms.",
+     "claim": "1",
+     "confidence": "interpretive"
+    },
+    {
+     "at": 11,
+     "do": "legend",
+     "keys": [
+      "object",
+      "material",
+      "skill",
+      "people"
+     ]
+    },
+    {
+     "at": 13,
+     "do": "map.route",
+     "id": "r01",
+     "from": "kashan",
+     "to": "jingdezhen",
+     "flow": "material",
+     "seconds": 2.2
+    },
+    {
+     "at": 19,
+     "do": "predict",
+     "question": "Where did the blue come from?",
+     "options": [
+      {
+       "label": "Jingdezhen's own hills",
+       "place": "jingdezhen"
+      },
+      {
+       "label": "Iran",
+       "place": "kashan"
+      },
+      {
+       "label": "Europe",
+       "place": "amsterdam"
+      }
+     ],
+     "answer": 1,
+     "pause": 4,
+     "reveal": {
+      "text": "Cleveland's record says the cobalt was imported from Iran, likely from Kashan.",
+      "claim": "2",
+      "confidence": "documented"
+     }
+    },
+    {
+     "at": 30,
+     "do": "map.place",
+     "id": "kashan",
+     "kind": "object",
+     "label": "Kashan"
+    },
+    {
+     "at": 30.2,
+     "do": "map.light",
+     "id": "kashan"
+    },
+    {
+     "at": 30,
+     "do": "map.stamp",
+     "text": "1300s · cobalt from Iran"
+    },
+    {
+     "at": 35,
+     "do": "caption",
+     "text": "Jiang and colleagues tested imperial wares of the Xuande reign, 1426 to 1435: early blue-and-white relied heavily on imported cobalt from the West.",
+     "claim": "3",
+     "confidence": "documented"
+    },
+    {
+     "at": 35,
+     "do": "timeline.span",
+     "id": "xuande",
+     "from": 1426,
+     "to": 1435,
+     "label": "Xuande wares tested, 1426–1435",
+     "lane": 1,
+     "kind": "material"
+    },
+    {
+     "at": 45,
+     "do": "caption",
+     "text": "We write \"from Iran\". The potters and the clay were at Jingdezhen; the blue came from Iran.",
+     "claim": "2, 3",
+     "confidence": "documented"
+    },
+    {
+     "at": 53,
+     "do": "caption",
+     "text": "Look for the dashed line: it marks a material, not an object."
+    },
+    {
+     "at": 58.5,
+     "do": "caption.clear"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "n": 2,
+   "title": "Blue before China",
+   "idea": "Blue under a glaze was in Kashan's workshops a century before the jar; which mine is argued.",
+   "seconds": 56,
+   "narration": "A footed bowl from Iran, with a blue rim [5]. Cleveland dates it late 1100s to early 1200s and places it probably at Kashan [5]. It is fritware, pierced, and painted under the glaze [5]. Kelekian sold it to the museum in 1915 [5]. So blue under a glaze was in Kashan's workshops a century before the jar [5, 2].\n\nWhich mine gave the cobalt is argued [4]. One reading: Qamsar, near Kashan, the most cited source [4]. Abu'l-Qasim's treatise of 1301 places lâjvard, the blue, there [4]. The other reading: deposits near Anarak, 200 kilometres east of Kashan [4]. Jiang and colleagues propose Anarak in their discussion, not their abstract, as one of the most likely sources [4]. We do not choose between them [4]. Look for the two fuzzy marks: an argued claim gets two readings, not one dot.",
+   "claims": [
+    "4",
+    "5"
+   ],
+   "objects": [
+    "Cleveland 1915.581"
+   ],
+   "commands": [
+    {
+     "at": 0,
+     "do": "chapter",
+     "n": 2,
+     "title": "Blue before China"
+    },
+    {
+     "at": 0,
+     "do": "map.focus",
+     "lon": 52.5,
+     "lat": 33.4,
+     "zoom": 5.5,
+     "seconds": 1.6
+    },
+    {
+     "at": 0,
+     "do": "map.stamp",
+     "text": "late 1100s–1301"
+    },
+    {
+     "at": 0,
+     "do": "timeline.scrub",
+     "year": 1200
+    },
+    {
+     "at": 0,
+     "do": "legend",
+     "keys": [
+      "material",
+      "argued"
+     ]
+    },
+    {
+     "at": 0.3,
+     "do": "object",
+     "title": "Footed bowl with a blue rim",
+     "holder": "Cleveland Museum of Art",
+     "accession": "1915.581",
+     "date": "Iran, probably Kashan, late 1100s–early 1200s",
+     "licence": "CC0",
+     "maker": "Fritware, pierced, painted under the glaze. Potters at Kashan as the record places it; names not recorded. Sold by Kelekian, 1915."
+    },
+    {
+     "at": 0.5,
+     "do": "caption",
+     "text": "A footed bowl from Iran, with a blue rim.",
+     "claim": "5",
+     "confidence": "documented"
+    },
+    {
+     "at": 3,
+     "do": "caption",
+     "text": "Cleveland dates it late 1100s to early 1200s and places it probably at Kashan.",
+     "claim": "5",
+     "confidence": "documented"
+    },
+    {
+     "at": 3,
+     "do": "timeline.span",
+     "id": "bowl",
+     "from": 1175,
+     "to": 1225,
+     "label": "Kashan bowl, late 1100s–early 1200s",
+     "fuzzyStart": true,
+     "fuzzyEnd": true,
+     "lane": 0,
+     "kind": "object"
+    },
+    {
+     "at": 9,
+     "do": "caption",
+     "text": "Fritware, pierced, painted under the glaze. Kelekian sold it to the museum in 1915.",
+     "claim": "5",
+     "confidence": "documented"
+    },
+    {
+     "at": 15,
+     "do": "caption",
+     "text": "So blue under a glaze was in Kashan's workshops a century before the jar.",
+     "claim": "5, 2",
+     "confidence": "documented"
+    },
+    {
+     "at": 20,
+     "do": "caption",
+     "text": "Which mine gave the cobalt is argued.",
+     "claim": "4",
+     "confidence": "contested"
+    },
+    {
+     "at": 23,
+     "do": "map.place",
+     "id": "qamsar",
+     "kind": "argued",
+     "label": "Qamsar · argued",
+     "side": "below"
+    },
+    {
+     "at": 23,
+     "do": "caption",
+     "text": "One reading: Qamsar, near Kashan, the most cited source. Abu'l-Qasim's treatise of 1301 places lâjvard, the blue, there.",
+     "claim": "4",
+     "confidence": "contested"
+    },
+    {
+     "at": 23,
+     "do": "timeline.mark",
+     "id": "treatise",
+     "year": 1301,
+     "label": "Abu'l-Qasim's treatise, 1301",
+     "lane": 1
+    },
+    {
+     "at": 31,
+     "do": "map.place",
+     "id": "anarak",
+     "kind": "argued",
+     "label": "Anarak · argued"
+    },
+    {
+     "at": 31,
+     "do": "caption",
+     "text": "The other reading: deposits near Anarak, 200 kilometres east of Kashan. Jiang and colleagues propose it in their discussion, not their abstract.",
+     "claim": "4",
+     "confidence": "contested"
+    },
+    {
+     "at": 44,
+     "do": "caption",
+     "text": "We do not choose between them.",
+     "claim": "4",
+     "confidence": "contested"
+    },
+    {
+     "at": 47,
+     "do": "caption",
+     "text": "Look for the two fuzzy marks: an argued claim gets two readings, not one dot."
+    },
+    {
+     "at": 54,
+     "do": "caption.clear"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "n": 3,
+   "title": "By sea",
+   "idea": "Monsoon routes carried crockery, earthenware and porcelain to Kilwa, and a text of the mid-1st century lists enslaved people among exports.",
+   "seconds": 74,
+   "narration": "Content note: this station names enslaved people listed in a text of the mid-1st century. You can skip to station four; the summary keeps the dates.\n\nKilwa's merchants, on the Swahili coast, dealt from the 13th to the 16th centuries in gold, silver, pearls and perfumes, UNESCO's listing says [6]. They dealt also in Arabian crockery, Persian earthenware and Chinese porcelain [6]. Kilwa minted coins in the 11th to 14th centuries [6]. Its Great Mosque has domes and vaults, some set with Chinese porcelain [6]. The listing does not name Kilwa's builders [6].\n\nFar to the east, a ship sank off Belitung in the 9th century: about the 830s by one account, late 800s by another [7]. It held 60,000 ceramics, and it was salvaged commercially from 1998 [7]. We link to that record and show no image of it [7].\n\nThe Periplus, a text of the mid-1st century CE, lists enslaved people among exports [8]. We write them as people, in words; the translation's own terms stay in the Deep tier [8]. Look for the people mark: it never shares an arrow with crockery.",
+   "claims": [
+    "6",
+    "7",
+    "8"
+   ],
+   "held": "Swahili-coast reader (spec §9)",
+   "commands": [
+    {
+     "at": 0,
+     "do": "chapter",
+     "n": 3,
+     "title": "By sea"
+    },
+    {
+     "at": 0,
+     "do": "map.clear"
+    },
+    {
+     "at": 0,
+     "do": "object.clear"
+    },
+    {
+     "at": 0,
+     "do": "note",
+     "text": "Content note: this station names enslaved people listed in a text of the mid-1st century. You can skip to station four; the summary keeps the dates.",
+     "seconds": 5
+    },
+    {
+     "at": 0,
+     "do": "map.focus",
+     "lon": 72,
+     "lat": 8,
+     "zoom": 2.0,
+     "seconds": 1.6
+    },
+    {
+     "at": 0,
+     "do": "map.stamp",
+     "text": "1st century CE · 11th–16th centuries"
+    },
+    {
+     "at": 0,
+     "do": "timeline.scrub",
+     "year": 1300
+    },
+    {
+     "at": 0,
+     "do": "legend",
+     "keys": [
+      "object",
+      "people",
+      "region"
+     ]
+    },
+    {
+     "at": 6,
+     "do": "map.place",
+     "id": "kilwa",
+     "kind": "object",
+     "label": "Kilwa Kisiwani",
+     "side": "left"
+    },
+    {
+     "at": 6,
+     "do": "caption",
+     "text": "Kilwa's merchants, on the Swahili coast, dealt from the 13th to the 16th centuries in gold, silver, pearls and perfumes, UNESCO's listing says.",
+     "claim": "6",
+     "confidence": "documented"
+    },
+    {
+     "at": 6,
+     "do": "timeline.span",
+     "id": "kilwa_merchants",
+     "from": 1200,
+     "to": 1600,
+     "label": "Kilwa's merchants, 13th–16th c.",
+     "lane": 0,
+     "kind": "object"
+    },
+    {
+     "at": 12.5,
+     "do": "map.place",
+     "id": "arabia",
+     "kind": "region",
+     "label": "Arabia",
+     "side": "above"
+    },
+    {
+     "at": 12.5,
+     "do": "map.place",
+     "id": "iran_coast",
+     "kind": "region",
+     "label": "Iran",
+     "side": "above"
+    },
+    {
+     "at": 12.5,
+     "do": "map.place",
+     "id": "china_coast",
+     "kind": "region",
+     "label": "China",
+     "side": "above"
+    },
+    {
+     "at": 13,
+     "do": "caption",
+     "text": "They dealt also in Arabian crockery, Persian earthenware and Chinese porcelain.",
+     "claim": "6",
+     "confidence": "documented"
+    },
+    {
+     "at": 13,
+     "do": "map.route",
+     "id": "r04",
+     "from": "arabia",
+     "to": "kilwa",
+     "flow": "object",
+     "label": "crockery",
+     "bend": 0.22
+    },
+    {
+     "at": 14,
+     "do": "map.route",
+     "id": "r05",
+     "from": "iran_coast",
+     "to": "kilwa",
+     "flow": "object",
+     "label": "earthenware",
+     "bend": 0.1
+    },
+    {
+     "at": 15,
+     "do": "map.route",
+     "id": "r06",
+     "from": "china_coast",
+     "to": "kilwa",
+     "flow": "object",
+     "label": "porcelain",
+     "bend": 0.25
+    },
+    {
+     "at": 19,
+     "do": "caption",
+     "text": "Kilwa minted coins in the 11th to 14th centuries.",
+     "claim": "6",
+     "confidence": "documented"
+    },
+    {
+     "at": 19,
+     "do": "timeline.span",
+     "id": "kilwa_coins",
+     "from": 1000,
+     "to": 1400,
+     "label": "Kilwa coins, 11th–14th c.",
+     "lane": 1,
+     "kind": "material"
+    },
+    {
+     "at": 23,
+     "do": "caption",
+     "text": "Its Great Mosque has domes and vaults, some set with Chinese porcelain. The listing does not name Kilwa's builders.",
+     "claim": "6",
+     "confidence": "documented"
+    },
+    {
+     "at": 31,
+     "do": "map.place",
+     "id": "belitung",
+     "kind": "wreck",
+     "label": "off Belitung · wreck, linked",
+     "side": "below"
+    },
+    {
+     "at": 31,
+     "do": "map.route",
+     "id": "r07",
+     "from": "china_coast",
+     "to": "belitung",
+     "flow": "object",
+     "bend": 0.15
+    },
+    {
+     "at": 31,
+     "do": "caption",
+     "text": "Far to the east, a ship sank off Belitung in the 9th century: about the 830s by one account, late 800s by another.",
+     "claim": "7",
+     "confidence": "documented"
+    },
+    {
+     "at": 31,
+     "do": "timeline.span",
+     "id": "belitung_wreck",
+     "from": 826,
+     "to": 900,
+     "label": "Belitung wreck, 830s or late 800s",
+     "fuzzyStart": true,
+     "fuzzyEnd": true,
+     "lane": 2,
+     "kind": "object"
+    },
+    {
+     "at": 40,
+     "do": "caption",
+     "text": "It held 60,000 ceramics, and it was salvaged commercially from 1998. We link to that record and show no image of it.",
+     "claim": "7",
+     "confidence": "documented"
+    },
+    {
+     "at": 49,
+     "do": "map.peopleMark",
+     "id": "periplus_coast",
+     "label": "enslaved people listed among exports · mid-1st c. CE · count not recorded",
+     "side": "below"
+    },
+    {
+     "at": 49,
+     "do": "caption",
+     "text": "The Periplus, a text of the mid-1st century CE, lists enslaved people among exports.",
+     "claim": "8",
+     "confidence": "documented"
+    },
+    {
+     "at": 49,
+     "do": "timeline.mark",
+     "id": "periplus",
+     "year": 50,
+     "label": "the Periplus, mid-1st c. CE",
+     "lane": 0
+    },
+    {
+     "at": 56,
+     "do": "caption",
+     "text": "We write them as people, in words; the translation's own terms stay in the Deep tier.",
+     "claim": "8",
+     "confidence": "documented"
+    },
+    {
+     "at": 62,
+     "do": "caption",
+     "text": "Look for the people mark: it never shares an arrow with crockery."
+    },
+    {
+     "at": 71,
+     "do": "caption.clear"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "n": 4,
+   "title": "By land",
+   "idea": "A skill travels as a dated line; people moved by order are a mark of their own.",
+   "seconds": 80,
+   "narration": "Content note: this station names people moved by order. You can skip to station five; the summary keeps the dates.\n\nA corridor from Chang'an into the Tianshan [9]. UNESCO lists it as a 5,000-kilometre section with 33 sites [9]. It formed between the 2nd century BCE and the 1st century CE, and was used until the 16th century [9].\n\nA skill travels differently from a jar. One tap on the timeline: the earliest documented paper mill in the Islamic world, which band?\n\nPaper was known, and made, in Central Asia for centuries before 751, Bloom writes [10]. The earliest documented paper mill in the Islamic world is Baghdad's, in 794 to 795 [10]. The Talas story, that the battle of 751 carried paper west, is argued: Bloom calls it without factual basis, and F1.27 gives both readings [10].\n\nPeople travelled too, and not by choice. Three separate weaving communities were moved from Central Asia and Persia to China, to make cloth of gold for the Mongols [11]. The summary names no weaver [11]. Look for the timeline: the skill is a dated line; the people are a mark of their own.",
+   "claims": [
+    "9",
+    "10",
+    "11"
+   ],
+   "held": "Central Asian reader (spec §9)",
+   "commands": [
+    {
+     "at": 0,
+     "do": "chapter",
+     "n": 4,
+     "title": "By land"
+    },
+    {
+     "at": 0,
+     "do": "map.clear"
+    },
+    {
+     "at": 0,
+     "do": "note",
+     "text": "Content note: this station names people moved by order. You can skip to station five; the summary keeps the dates.",
+     "seconds": 4
+    },
+    {
+     "at": 0,
+     "do": "map.focus",
+     "lon": 78,
+     "lat": 38,
+     "zoom": 2.4,
+     "seconds": 1.6
+    },
+    {
+     "at": 0,
+     "do": "map.stamp",
+     "text": "2nd c. BCE–16th c."
+    },
+    {
+     "at": 0,
+     "do": "timeline.scrub",
+     "year": 800
+    },
+    {
+     "at": 0,
+     "do": "legend",
+     "keys": [
+      "route",
+      "skill",
+      "people",
+      "argued",
+      "region"
+     ]
+    },
+    {
+     "at": 5,
+     "do": "map.place",
+     "id": "changan",
+     "kind": "object",
+     "label": "Chang'an",
+     "side": "below"
+    },
+    {
+     "at": 5,
+     "do": "map.place",
+     "id": "tianshan",
+     "kind": "region",
+     "label": "Tianshan corridor, western end",
+     "side": "above"
+    },
+    {
+     "at": 5.5,
+     "do": "map.route",
+     "id": "r09",
+     "from": "changan",
+     "to": "tianshan",
+     "flow": "route",
+     "label": "the corridor · 5,000 km · 33 sites",
+     "bend": 0.08,
+     "seconds": 2
+    },
+    {
+     "at": 5,
+     "do": "caption",
+     "text": "A corridor from Chang'an into the Tianshan: UNESCO lists it as a 5,000-kilometre section with 33 sites.",
+     "claim": "9",
+     "confidence": "documented"
+    },
+    {
+     "at": 12,
+     "do": "caption",
+     "text": "It formed between the 2nd century BCE and the 1st century CE, and was used until the 16th century.",
+     "claim": "9",
+     "confidence": "documented"
+    },
+    {
+     "at": 12,
+     "do": "timeline.span",
+     "id": "corridor",
+     "from": -200,
+     "to": 1600,
+     "label": "the corridor: formed 2nd c. BCE–1st c. CE, used to the 16th c.",
+     "fuzzyStart": true,
+     "fuzzyEnd": true,
+     "lane": 0,
+     "kind": "route"
+    },
+    {
+     "at": 19,
+     "do": "caption",
+     "text": "A skill travels differently from a jar."
+    },
+    {
+     "at": 22,
+     "do": "predict",
+     "question": "The earliest documented paper mill in the Islamic world: which band?",
+     "options": [
+      {
+       "label": "1–500",
+       "band": "B06"
+      },
+      {
+       "label": "500–1000",
+       "band": "B07"
+      },
+      {
+       "label": "1000–1400",
+       "band": "B08"
+      }
+     ],
+     "answer": 1,
+     "pause": 4,
+     "reveal": {
+      "text": "Baghdad, 794 to 795: the earliest documented paper mill in the Islamic world.",
+      "claim": "10",
+      "confidence": "documented"
+     }
+    },
+    {
+     "at": 29,
+     "do": "map.place",
+     "id": "baghdad",
+     "kind": "object",
+     "side": "below"
+    },
+    {
+     "at": 29,
+     "do": "map.place",
+     "id": "samarkand_region",
+     "kind": "region",
+     "label": "Central Asia",
+     "side": "above"
+    },
+    {
+     "at": 29.5,
+     "do": "map.route",
+     "id": "r10",
+     "from": "samarkand_region",
+     "to": "baghdad",
+     "flow": "skill",
+     "label": "papermaking · by the late 8th c.",
+     "bend": 0.2,
+     "seconds": 2
+    },
+    {
+     "at": 29,
+     "do": "caption",
+     "text": "Paper was known, and made, in Central Asia for centuries before 751, Bloom writes.",
+     "claim": "10",
+     "confidence": "documented"
+    },
+    {
+     "at": 36,
+     "do": "timeline.mark",
+     "id": "mill",
+     "year": 794,
+     "label": "Baghdad paper mill, 794–95",
+     "lane": 1
+    },
+    {
+     "at": 36,
+     "do": "caption",
+     "text": "The earliest documented paper mill in the Islamic world is Baghdad's, in 794 to 795.",
+     "claim": "10",
+     "confidence": "documented"
+    },
+    {
+     "at": 42,
+     "do": "map.place",
+     "id": "talas",
+     "kind": "argued",
+     "label": "Talas · argued",
+     "side": "below"
+    },
+    {
+     "at": 42,
+     "do": "timeline.mark",
+     "id": "talas",
+     "year": 751,
+     "label": "Talas, 751",
+     "argued": true,
+     "lane": 2
+    },
+    {
+     "at": 42,
+     "do": "caption",
+     "text": "The Talas story, that the battle of 751 carried paper west, is argued: Bloom calls it without factual basis, and F1.27 gives both readings.",
+     "claim": "10",
+     "confidence": "contested"
+    },
+    {
+     "at": 52,
+     "do": "caption",
+     "text": "People travelled too, and not by choice."
+    },
+    {
+     "at": 55,
+     "do": "map.people",
+     "id": "r11",
+     "from": "samarkand_region",
+     "to": "changan",
+     "label": "three weaving communities, moved by Mongol order · names not recorded"
+    },
+    {
+     "at": 55,
+     "do": "map.peopleMark",
+     "id": "kashan",
+     "label": "Persia · weaving communities moved",
+     "side": "below"
+    },
+    {
+     "at": 55,
+     "do": "caption",
+     "text": "Three separate weaving communities were moved from Central Asia and Persia to China, to make cloth of gold for the Mongols.",
+     "claim": "11",
+     "confidence": "documented"
+    },
+    {
+     "at": 63,
+     "do": "caption",
+     "text": "The summary names no weaver.",
+     "claim": "11",
+     "confidence": "documented"
+    },
+    {
+     "at": 66,
+     "do": "caption",
+     "text": "Look for the timeline: the skill is a dated line; the people are a mark of their own."
+    },
+    {
+     "at": 77,
+     "do": "caption.clear"
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "n": 5,
+   "title": "Across the sand",
+   "idea": "Gold crossed the Sahara, and the argued question is whether demand made the routes or routes made the goods.",
+   "seconds": 72,
+   "narration": "Content note: this station names enslaved people carried across the Sahara. You can skip to station six; the summary keeps the dates.\n\nGold was the main commodity of the trans-Saharan trade, the Met's essay says, followed by kola nuts and enslaved people [12]. The essay's own noun for those people is different; ours is \"enslaved people\" [12]. Mansa Musa's gold, spent in Cairo in 1324 to 1325, caused the market in gold to crash [12].\n\nThe Catalan Atlas is attributed to Cresques Abraham, Majorca, 1375; the BnF holds it as Espagnol 30 [13]. It names Musse Melly, lord of Guinea, \"the richest and most distinguished ruler of this whole region\", for his gold [13]. That caption is a European mapmaker's framing, quoted as his [13].\n\nThe argued question. One reading: demand for silk, porcelain and gold built these routes and kept them [14]. The other: routes already there, monsoon sailing, caravans and ports, made such goods possible and shaped them [14]. We hold both [14]. Look for the caravan line and the dated gold: hold both readings of how they relate.",
+   "claims": [
+    "12",
+    "13",
+    "14"
+   ],
+   "held": "Malian or Sahelian reader (spec §9)",
+   "commands": [
+    {
+     "at": 0,
+     "do": "chapter",
+     "n": 5,
+     "title": "Across the sand"
+    },
+    {
+     "at": 0,
+     "do": "map.clear"
+    },
+    {
+     "at": 0,
+     "do": "note",
+     "text": "Content note: this station names enslaved people carried across the Sahara. You can skip to station six; the summary keeps the dates.",
+     "seconds": 4
+    },
+    {
+     "at": 0,
+     "do": "map.focus",
+     "lon": 14,
+     "lat": 27,
+     "zoom": 2.5,
+     "seconds": 1.6
+    },
+    {
+     "at": 0,
+     "do": "map.stamp",
+     "text": "1324–1375"
+    },
+    {
+     "at": 0,
+     "do": "timeline.scrub",
+     "year": 1324
+    },
+    {
+     "at": 0,
+     "do": "legend",
+     "keys": [
+      "material",
+      "object",
+      "people",
+      "region"
+     ]
+    },
+    {
+     "at": 5,
+     "do": "map.place",
+     "id": "sahel",
+     "kind": "region",
+     "label": "Mali, the Sahel",
+     "side": "left"
+    },
+    {
+     "at": 5,
+     "do": "map.place",
+     "id": "cairo",
+     "kind": "object",
+     "side": "right"
+    },
+    {
+     "at": 5.5,
+     "do": "map.route",
+     "id": "r12",
+     "from": "sahel",
+     "to": "cairo",
+     "flow": "material",
+     "label": "gold · 1324–25",
+     "bend": 0.2,
+     "seconds": 2
+    },
+    {
+     "at": 5,
+     "do": "caption",
+     "text": "Gold was the main commodity of the trans-Saharan trade, the Met's essay says, followed by kola nuts and enslaved people.",
+     "claim": "12",
+     "confidence": "documented"
+    },
+    {
+     "at": 13,
+     "do": "map.peopleMark",
+     "id": "sahel",
+     "label": "enslaved people, carried with gold and kola · count not recorded",
+     "side": "below"
+    },
+    {
+     "at": 13,
+     "do": "caption",
+     "text": "The essay's own noun for those people is different; ours is \"enslaved people\".",
+     "claim": "12",
+     "confidence": "documented"
+    },
+    {
+     "at": 19,
+     "do": "caption",
+     "text": "Mansa Musa's gold, spent in Cairo in 1324 to 1325, caused the market in gold to crash.",
+     "claim": "12",
+     "confidence": "documented"
+    },
+    {
+     "at": 19,
+     "do": "timeline.mark",
+     "id": "musa",
+     "year": 1324,
+     "label": "Mansa Musa in Cairo, 1324–25",
+     "lane": 0
+    },
+    {
+     "at": 19.5,
+     "do": "map.light",
+     "id": "cairo"
+    },
+    {
+     "at": 26,
+     "do": "map.place",
+     "id": "majorca",
+     "kind": "object",
+     "label": "Majorca · the Catalan Atlas, 1375 (linked)",
+     "side": "above"
+    },
+    {
+     "at": 26,
+     "do": "timeline.mark",
+     "id": "atlas",
+     "year": 1375,
+     "label": "Catalan Atlas, 1375",
+     "lane": 1
+    },
+    {
+     "at": 26,
+     "do": "caption",
+     "text": "The Catalan Atlas is attributed to Cresques Abraham, Majorca, 1375; the BnF holds it as Espagnol 30.",
+     "claim": "13",
+     "confidence": "documented"
+    },
+    {
+     "at": 34,
+     "do": "caption",
+     "text": "It names Musse Melly, lord of Guinea, \"the richest and most distinguished ruler of this whole region\", for his gold.",
+     "claim": "13",
+     "confidence": "documented"
+    },
+    {
+     "at": 41,
+     "do": "caption",
+     "text": "That caption is a European mapmaker's framing, quoted as his.",
+     "claim": "13",
+     "confidence": "documented"
+    },
+    {
+     "at": 46,
+     "do": "type",
+     "id": "readings",
+     "x": -920,
+     "y": -440,
+     "size": 22,
+     "lines": [
+      "The argued question [14]",
+      "· One reading: demand for silk, porcelain and gold built the routes and kept them.",
+      "· The other: routes already there (monsoon sailing, caravans, ports) made such goods possible and shaped them.",
+      "We hold both."
+     ]
+    },
+    {
+     "at": 46,
+     "do": "caption",
+     "text": "The argued question. One reading: demand for silk, porcelain and gold built these routes and kept them.",
+     "claim": "14",
+     "confidence": "interpretive"
+    },
+    {
+     "at": 54,
+     "do": "caption",
+     "text": "The other: routes already there, monsoon sailing, caravans and ports, made such goods possible and shaped them. We hold both.",
+     "claim": "14",
+     "confidence": "interpretive"
+    },
+    {
+     "at": 63,
+     "do": "caption",
+     "text": "Look for the caravan line and the dated gold: hold both readings of how they relate."
+    },
+    {
+     "at": 69.5,
+     "do": "caption.clear"
+    },
+    {
+     "at": 70.5,
+     "do": "type.clear"
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "n": 6,
+   "title": "Across the Pacific",
+   "idea": "Silver went west and porcelain east on the same ships, and so did people, on terms the goods never had.",
+   "seconds": 74,
+   "narration": "Content note: this station names people enslaved and carried across the Pacific. You can skip to station seven; the summary keeps the dates.\n\nA basin from Puebla, tin-glazed earthenware, about 1650 [16]. The Met credits it to \"Master Potter A\", a scholars' name for a hand the record does not name [16].\n\nOne tap: how much of the silver mined in New Spain and Peru went to Asia? A tenth, a third, or nine tenths?\n\nAs much as one-third, by one estimate; we call that probable [15]. Galleons carried porcelain, silk, ivory and spices to Acapulco [15]. Mexican ceramics display the impact of the galleon trade most vividly, Hecht writes [15].\n\nOn the same ships, people. Enslaved people from many communities in the Indian subcontinent and Southeast Asia were carried to Mexico [17]. Spanish records grouped them as chinos, a colonial label for people from many places [17]. From 1672 the law counted them as Indians, who could not lawfully be enslaved, Seijas writes [17]. Look for the people mark beside the silver arc, never on it.",
+   "claims": [
+    "15",
+    "16",
+    "17"
+   ],
+   "objects": [
+    "Met 12.3.1"
+   ],
+   "held": "Philippine or Mexican reader (spec §9)",
+   "commands": [
+    {
+     "at": 0,
+     "do": "chapter",
+     "n": 6,
+     "title": "Across the Pacific"
+    },
+    {
+     "at": 0,
+     "do": "map.clear"
+    },
+    {
+     "at": 0,
+     "do": "note",
+     "text": "Content note: this station names people enslaved and carried across the Pacific. You can skip to station seven; the summary keeps the dates.",
+     "seconds": 4
+    },
+    {
+     "at": 0,
+     "do": "map.focus",
+     "lon": 205,
+     "lat": 2,
+     "zoom": 1.85,
+     "seconds": 2
+    },
+    {
+     "at": 0,
+     "do": "map.stamp",
+     "text": "1565–1815"
+    },
+    {
+     "at": 0,
+     "do": "timeline.scrub",
+     "year": 1650
+    },
+    {
+     "at": 0,
+     "do": "legend",
+     "keys": [
+      "material",
+      "object",
+      "people"
+     ]
+    },
+    {
+     "at": 5,
+     "do": "object",
+     "title": "Basin",
+     "holder": "The Metropolitan Museum of Art",
+     "accession": "12.3.1",
+     "date": "Puebla, ca. 1650",
+     "licence": "Public domain",
+     "maker": "Tin-glazed earthenware. \"Master Potter A\", a scholars' name; the hand is not named in the record. Made under Spanish rule; gift of Mrs. Robert W. de Forest, 1912."
+    },
+    {
+     "at": 5,
+     "do": "map.place",
+     "id": "puebla",
+     "kind": "object",
+     "side": "above"
+    },
+    {
+     "at": 5,
+     "do": "timeline.span",
+     "id": "basin",
+     "from": 1645,
+     "to": 1655,
+     "label": "the basin, ca. 1650",
+     "lane": 0,
+     "kind": "object"
+    },
+    {
+     "at": 5,
+     "do": "caption",
+     "text": "A basin from Puebla, tin-glazed earthenware, about 1650. The Met credits it to \"Master Potter A\", a scholars' name for a hand the record does not name.",
+     "claim": "16",
+     "confidence": "documented"
+    },
+    {
+     "at": 14,
+     "do": "predict",
+     "question": "How much of the silver mined in New Spain and Peru went to Asia?",
+     "options": [
+      {
+       "label": "A tenth",
+       "x": -300,
+       "y": -410
+      },
+      {
+       "label": "A third",
+       "x": 60,
+       "y": -410
+      },
+      {
+       "label": "Nine tenths",
+       "x": 420,
+       "y": -410
+      }
+     ],
+     "answer": 1,
+     "pause": 4,
+     "reveal": {
+      "text": "As much as one-third, by one estimate; we call that probable.",
+      "claim": "15",
+      "confidence": "probable"
+     }
+    },
+    {
+     "at": 21,
+     "do": "map.place",
+     "id": "potosi",
+     "kind": "object",
+     "label": "Potosí · silver",
+     "side": "below"
+    },
+    {
+     "at": 21,
+     "do": "map.place",
+     "id": "manila",
+     "kind": "object",
+     "side": "left"
+    },
+    {
+     "at": 21.5,
+     "do": "map.route",
+     "id": "r15",
+     "from": "potosi",
+     "to": "manila",
+     "flow": "material",
+     "label": "silver · as much as a third · probable",
+     "bend": 0.22,
+     "seconds": 2.2
+    },
+    {
+     "at": 21,
+     "do": "timeline.span",
+     "id": "galleons",
+     "from": 1565,
+     "to": 1815,
+     "label": "the galleons, 1565–1815",
+     "lane": 1,
+     "kind": "material"
+    },
+    {
+     "at": 23,
+     "do": "chain",
+     "x": 250,
+     "y": -440,
+     "boxWidth": 190,
+     "boxHeight": 60,
+     "gap": 46,
+     "links": [
+      {
+       "id": "c1",
+       "label": "Potosí silver",
+       "flow": "material"
+      },
+      {
+       "id": "c2",
+       "label": "Manila"
+      },
+      {
+       "id": "c3",
+       "label": "Acapulco"
+      },
+      {
+       "id": "c4",
+       "label": "Puebla basin",
+       "flow": "object"
+      }
+     ],
+     "arrows": [
+      {
+       "from": "c1",
+       "to": "c2",
+       "flow": "material"
+      },
+      {
+       "from": "c2",
+       "to": "c3",
+       "flow": "object"
+      },
+      {
+       "from": "c3",
+       "to": "c4",
+       "flow": "object"
+      }
+     ]
+    },
+    {
+     "at": 27,
+     "do": "map.place",
+     "id": "acapulco",
+     "kind": "object",
+     "side": "above"
+    },
+    {
+     "at": 27.5,
+     "do": "map.route",
+     "id": "r16",
+     "from": "manila",
+     "to": "acapulco",
+     "flow": "object",
+     "label": "porcelain, silk, ivory, spices",
+     "bend": 0.12,
+     "seconds": 2.2
+    },
+    {
+     "at": 27,
+     "do": "caption",
+     "text": "Galleons carried porcelain, silk, ivory and spices to Acapulco.",
+     "claim": "15",
+     "confidence": "documented"
+    },
+    {
+     "at": 32.5,
+     "do": "map.route",
+     "id": "r18",
+     "from": "acapulco",
+     "to": "puebla",
+     "flow": "object",
+     "bend": 0.4,
+     "seconds": 1
+    },
+    {
+     "at": 32,
+     "do": "caption",
+     "text": "Mexican ceramics display the impact of the galleon trade most vividly, Hecht writes.",
+     "claim": "15",
+     "confidence": "documented"
+    },
+    {
+     "at": 37,
+     "do": "caption",
+     "text": "On the same ships, people."
+    },
+    {
+     "at": 39,
+     "do": "map.people",
+     "id": "r17",
+     "from": "manila",
+     "to": "acapulco",
+     "label": "enslaved people from many communities · grouped as chinos · from 1672 counted as Indians"
+    },
+    {
+     "at": 39,
+     "do": "caption",
+     "text": "Enslaved people from many communities in the Indian subcontinent and Southeast Asia were carried to Mexico.",
+     "claim": "17",
+     "confidence": "documented"
+    },
+    {
+     "at": 47,
+     "do": "caption",
+     "text": "Spanish records grouped them as chinos, a colonial label for people from many places.",
+     "claim": "17",
+     "confidence": "documented"
+    },
+    {
+     "at": 53,
+     "do": "caption",
+     "text": "From 1672 the law counted them as Indians, who could not lawfully be enslaved, Seijas writes.",
+     "claim": "17",
+     "confidence": "documented"
+    },
+    {
+     "at": 53,
+     "do": "timeline.mark",
+     "id": "law1672",
+     "year": 1672,
+     "label": "1672: counted as Indians",
+     "lane": 2
+    },
+    {
+     "at": 61,
+     "do": "caption",
+     "text": "Look for the people mark beside the silver arc, never on it."
+    },
+    {
+     "at": 71,
+     "do": "caption.clear"
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "n": 7,
+   "title": "The blue goes north",
+   "idea": "The blue leaves China as export ware, and a skill reaches Arita with the people who were taken.",
+   "seconds": 76,
+   "narration": "Content note: this station names potters taken by force. You can skip to station eight; the summary keeps the dates.\n\nA dish with two birds in a water landscape [18]. One tap on the timeline: when was it made?\n\nThe Rijksmuseum dates it about 1600 to 1625: China, porcelain in underglaze blue, Kraak ware, potter not named [18]. The blue that came from Iran now leaves China as export ware [18, 2]. How this dish reached Amsterdam is not recorded in the claim [18].\n\nA second route carried a skill, and the people who held it. In Hideyoshi's invasions of the 1590s, many Korean potters were taken to Japan [19]. The Met's essay says they \"came\"; Korean state-funded sources say they were dragged from Joseon, so our verb is \"taken\" [19]. Korean potters found porcelain clay at Arita early in the 1600s [19]. A Korean state foundation names one of them, Yi Sam-pyeong [19]. The Dutch then filled the gap left by China, the Met writes [19]. Look for the people mark from Korea to Arita: it carries a name where the record gives one.",
+   "claims": [
+    "18",
+    "19"
+   ],
+   "objects": [
+    "Rijksmuseum AK-RBK-16385"
+   ],
+   "held": "Korean reader, with F1.8 (spec §9)",
+   "commands": [
+    {
+     "at": 0,
+     "do": "chapter",
+     "n": 7,
+     "title": "The blue goes north"
+    },
+    {
+     "at": 0,
+     "do": "map.clear"
+    },
+    {
+     "at": 0,
+     "do": "chain.clear"
+    },
+    {
+     "at": 0,
+     "do": "object.clear"
+    },
+    {
+     "at": 0,
+     "do": "note",
+     "text": "Content note: this station names potters taken by force. You can skip to station eight; the summary keeps the dates.",
+     "seconds": 4
+    },
+    {
+     "at": 0,
+     "do": "map.focus",
+     "lon": 68,
+     "lat": 40,
+     "zoom": 1.95,
+     "seconds": 2
+    },
+    {
+     "at": 0,
+     "do": "map.stamp",
+     "text": "1590s–1625"
+    },
+    {
+     "at": 0,
+     "do": "timeline.scrub",
+     "year": 1610
+    },
+    {
+     "at": 0,
+     "do": "legend",
+     "keys": [
+      "object",
+      "skill",
+      "people",
+      "region"
+     ]
+    },
+    {
+     "at": 5,
+     "do": "object",
+     "title": "Dish with two birds in a water landscape",
+     "holder": "Rijksmuseum",
+     "accession": "AK-RBK-16385",
+     "date": "China, c. 1600–1625",
+     "licence": "CC0 1.0",
+     "maker": "Porcelain in underglaze blue, Kraak porcelain; the potter is not named. Acquisition not shown in the record."
+    },
+    {
+     "at": 5,
+     "do": "caption",
+     "text": "A dish with two birds in a water landscape.",
+     "claim": "18",
+     "confidence": "documented"
+    },
+    {
+     "at": 8,
+     "do": "predict",
+     "question": "When was it made?",
+     "options": [
+      {
+       "label": "1000–1400",
+       "band": "B08"
+      },
+      {
+       "label": "1400–1700",
+       "band": "B09"
+      },
+      {
+       "label": "1700–1900",
+       "band": "B10"
+      }
+     ],
+     "answer": 1,
+     "pause": 4,
+     "reveal": {
+      "text": "The Rijksmuseum dates it about 1600 to 1625: China, porcelain in underglaze blue, Kraak ware; potter not named.",
+      "claim": "18",
+      "confidence": "documented"
+     }
+    },
+    {
+     "at": 15,
+     "do": "timeline.span",
+     "id": "dish",
+     "from": 1600,
+     "to": 1625,
+     "label": "Kraak dish, c. 1600–1625",
+     "fuzzyStart": true,
+     "fuzzyEnd": true,
+     "lane": 0,
+     "kind": "object"
+    },
+    {
+     "at": 15,
+     "do": "map.place",
+     "id": "china",
+     "kind": "region",
+     "label": "China",
+     "side": "below"
+    },
+    {
+     "at": 15,
+     "do": "map.place",
+     "id": "amsterdam",
+     "kind": "object",
+     "side": "above"
+    },
+    {
+     "at": 15.5,
+     "do": "map.route",
+     "id": "r19",
+     "from": "china",
+     "to": "amsterdam",
+     "flow": "object",
+     "label": "the dish · route not recorded",
+     "bend": 0.18,
+     "seconds": 2.4
+    },
+    {
+     "at": 15,
+     "do": "caption",
+     "text": "The blue that came from Iran now leaves China as export ware. How this dish reached Amsterdam is not recorded in the claim.",
+     "claim": "18, 2",
+     "confidence": "documented"
+    },
+    {
+     "at": 27,
+     "do": "caption",
+     "text": "A second route carried a skill, and the people who held it."
+    },
+    {
+     "at": 30,
+     "do": "map.place",
+     "id": "korea",
+     "kind": "region",
+     "label": "Joseon",
+     "side": "above"
+    },
+    {
+     "at": 30,
+     "do": "map.place",
+     "id": "arita",
+     "kind": "object",
+     "side": "below"
+    },
+    {
+     "at": 30.5,
+     "do": "map.people",
+     "id": "r20",
+     "from": "korea",
+     "to": "arita",
+     "label": "Korean potters, taken · Yi Sam-pyeong named"
+    },
+    {
+     "at": 30,
+     "do": "timeline.mark",
+     "id": "invasions",
+     "year": 1595,
+     "label": "1590s: invasions",
+     "lane": 1
+    },
+    {
+     "at": 30,
+     "do": "caption",
+     "text": "In Hideyoshi's invasions of the 1590s, many Korean potters were taken to Japan.",
+     "claim": "19",
+     "confidence": "contested"
+    },
+    {
+     "at": 37,
+     "do": "caption",
+     "text": "The Met's essay says they \"came\"; Korean state-funded sources say they were dragged from Joseon, so our verb is \"taken\".",
+     "claim": "19",
+     "confidence": "contested"
+    },
+    {
+     "at": 46,
+     "do": "map.route",
+     "id": "r21",
+     "from": "korea",
+     "to": "arita",
+     "flow": "skill",
+     "label": "porcelain clay found at Arita, early 1600s",
+     "bend": 0.5,
+     "seconds": 1.4
+    },
+    {
+     "at": 46,
+     "do": "timeline.mark",
+     "id": "arita",
+     "year": 1616,
+     "label": "Arita, early 1600s",
+     "lane": 2
+    },
+    {
+     "at": 46,
+     "do": "caption",
+     "text": "Korean potters found porcelain clay at Arita early in the 1600s.",
+     "claim": "19",
+     "confidence": "documented"
+    },
+    {
+     "at": 51,
+     "do": "caption",
+     "text": "A Korean state foundation names one of them, Yi Sam-pyeong.",
+     "claim": "19",
+     "confidence": "documented"
+    },
+    {
+     "at": 56,
+     "do": "caption",
+     "text": "The Dutch then filled the gap left by China, the Met writes.",
+     "claim": "19",
+     "confidence": "documented"
+    },
+    {
+     "at": 61,
+     "do": "caption",
+     "text": "Look for the people mark from Korea to Arita: it carries a name where the record gives one."
+    },
+    {
+     "at": 73,
+     "do": "caption.clear"
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "n": 8,
+   "title": "The Atlantic",
+   "idea": "The count is given in words, the goods as type, and one man by his name and his own text.",
+   "seconds": 88,
+   "narration": "Content note: this station is about the Atlantic slave trade. Traders forced about 12.5 million African people onto ships, 1501 to 1866, and many died at sea [20]. We show no images of bodies or ships. You can skip this station; the summary keeps the count.\n\nSlaveVoyages estimates that 12,520,000 people departed Africa, and that about 10.7 million disembarked, mainly in the Americas [20]. We draw no diagram: people are a count in words, never a line on a map.\n\nThe goods are drawn, as type. European traders bought captive African people with goods: Indian cotton cloth, then Manchester copies, and brass manillas [21]. Guns, gunpowder and alcohol appear in summaries only; we call that part probable [21].\n\nOne person the record names. Omar ibn Said was born in Futa Toro, about 1770 [22]. He was captured in 1807 and brought to South Carolina [22]. In 1831, while enslaved in North Carolina, he wrote his life in Arabic [22]. \"I continued seeking knowledge for 25 years,\" he wrote [22]. James Owen of Bladen County was his enslaver [22]. He died, still enslaved, in 1863 or 1864; the sources differ, and we give both years [22]. Look for his two places, Futa Toro and the Carolinas: dots with his name, and no arrow.",
+   "claims": [
+    "20",
+    "21",
+    "22"
+   ],
+   "objects": [
+    "Library of Congress 2018371864"
+   ],
+   "held": "Paid reader with lived experience of the African diaspora (spec §9); held until a reader clears",
+   "commands": [
+    {
+     "at": 0,
+     "do": "chapter",
+     "n": 8,
+     "title": "The Atlantic"
+    },
+    {
+     "at": 0,
+     "do": "map.clear"
+    },
+    {
+     "at": 0,
+     "do": "object.clear"
+    },
+    {
+     "at": 0,
+     "do": "note",
+     "text": "Content note: this step is about the Atlantic slave trade. Traders forced about 12.5 million African people onto ships, 1501–1866, and many died at sea. We show no images of bodies or ships. You can skip this step; the summary keeps the count.",
+     "seconds": 9
+    },
+    {
+     "at": 0,
+     "do": "map.focus",
+     "lon": -42,
+     "lat": 24,
+     "zoom": 1.7,
+     "seconds": 2
+    },
+    {
+     "at": 0,
+     "do": "map.stamp",
+     "text": "1501–1866"
+    },
+    {
+     "at": 0,
+     "do": "timeline.scrub",
+     "year": 1800
+    },
+    {
+     "at": 0,
+     "do": "legend",
+     "keys": []
+    },
+    {
+     "at": 2,
+     "do": "map.dim",
+     "opacity": 0.5
+    },
+    {
+     "at": 10,
+     "do": "type",
+     "id": "count",
+     "x": 250,
+     "y": -440,
+     "size": 24,
+     "lines": [
+      "About 12.5 million people departed Africa, 1501–1866 (12,520,000: SlaveVoyages' estimate) [20]",
+      "About 10.7 million disembarked, mainly in the Americas [20]",
+      "· No line is drawn for this. People are a count in words."
+     ]
+    },
+    {
+     "at": 10,
+     "do": "timeline.span",
+     "id": "tast",
+     "from": 1501,
+     "to": 1866,
+     "label": "SlaveVoyages' estimate, 1501–1866",
+     "lane": 0,
+     "kind": "people"
+    },
+    {
+     "at": 10,
+     "do": "caption",
+     "text": "SlaveVoyages estimates that 12,520,000 people departed Africa, and that about 10.7 million disembarked, mainly in the Americas.",
+     "claim": "20",
+     "confidence": "documented"
+    },
+    {
+     "at": 19,
+     "do": "caption",
+     "text": "We draw no diagram: people are a count in words, never a line on a map."
+    },
+    {
+     "at": 25,
+     "do": "caption",
+     "text": "The goods are drawn, as type."
+    },
+    {
+     "at": 27,
+     "do": "type",
+     "id": "goods",
+     "x": 250,
+     "y": -250,
+     "size": 22,
+     "lines": [
+      "Goods European traders paid with [21]",
+      "· Indian cotton cloth, then Manchester copies",
+      "· brass manillas",
+      "· guns, gunpowder and alcohol: summaries only, probable"
+     ]
+    },
+    {
+     "at": 27,
+     "do": "caption",
+     "text": "European traders bought captive African people with goods: Indian cotton cloth, then Manchester copies, and brass manillas.",
+     "claim": "21",
+     "confidence": "documented"
+    },
+    {
+     "at": 36,
+     "do": "caption",
+     "text": "Guns, gunpowder and alcohol appear in summaries only; we call that part probable.",
+     "claim": "21",
+     "confidence": "probable"
+    },
+    {
+     "at": 42,
+     "do": "caption",
+     "text": "One person the record names."
+    },
+    {
+     "at": 44,
+     "do": "map.place",
+     "id": "futa_toro",
+     "kind": "person",
+     "label": "Futa Toro · Omar ibn Said, born about 1770",
+     "side": "below"
+    },
+    {
+     "at": 44,
+     "do": "timeline.mark",
+     "id": "born",
+     "year": 1770,
+     "label": "born about 1770",
+     "lane": 1
+    },
+    {
+     "at": 44,
+     "do": "caption",
+     "text": "Omar ibn Said was born in Futa Toro, about 1770.",
+     "claim": "22",
+     "confidence": "documented"
+    },
+    {
+     "at": 49,
+     "do": "map.place",
+     "id": "charleston",
+     "kind": "person",
+     "label": "South Carolina · captured 1807, brought here",
+     "side": "left"
+    },
+    {
+     "at": 49,
+     "do": "timeline.mark",
+     "id": "captured",
+     "year": 1807,
+     "label": "captured, 1807",
+     "lane": 2
+    },
+    {
+     "at": 49,
+     "do": "caption",
+     "text": "He was captured in 1807 and brought to South Carolina.",
+     "claim": "22",
+     "confidence": "documented"
+    },
+    {
+     "at": 54,
+     "do": "map.place",
+     "id": "fayetteville",
+     "kind": "person",
+     "label": "North Carolina · wrote his life in Arabic, 1831",
+     "side": "above"
+    },
+    {
+     "at": 54,
+     "do": "object",
+     "title": "Omar ibn Said, autobiography in Arabic",
+     "holder": "Library of Congress",
+     "accession": "2018371864",
+     "date": "1831",
+     "licence": "Public domain · \"free to use and reuse\"",
+     "maker": "Omar ibn Said wrote this account of his life in Arabic in 1831, while enslaved in North Carolina. He was born in Futa Toro and captured in 1807.",
+     "note": "Shown as AR-081 sets it: his name and his Arabic text lead. The English title page is not shown in the walk. A leaf with Qur'anic text is shown whole, never cropped."
+    },
+    {
+     "at": 54,
+     "do": "timeline.mark",
+     "id": "wrote",
+     "year": 1831,
+     "label": "wrote his life, 1831",
+     "lane": 1
+    },
+    {
+     "at": 54,
+     "do": "caption",
+     "text": "In 1831, while enslaved in North Carolina, he wrote his life in Arabic.",
+     "claim": "22",
+     "confidence": "documented"
+    },
+    {
+     "at": 60,
+     "do": "caption",
+     "text": "\"I continued seeking knowledge for 25 years,\" he wrote.",
+     "claim": "22",
+     "confidence": "documented"
+    },
+    {
+     "at": 64,
+     "do": "caption",
+     "text": "James Owen of Bladen County was his enslaver.",
+     "claim": "22",
+     "confidence": "documented"
+    },
+    {
+     "at": 68,
+     "do": "timeline.mark",
+     "id": "died",
+     "year": 1863,
+     "label": "died 1863 or 1864",
+     "argued": true,
+     "lane": 2
+    },
+    {
+     "at": 68,
+     "do": "caption",
+     "text": "He died, still enslaved, in 1863 or 1864; the sources differ, and we give both years.",
+     "claim": "22",
+     "confidence": "contested"
+    },
+    {
+     "at": 76,
+     "do": "caption",
+     "text": "Look for his two places, Futa Toro and the Carolinas: dots with his name, and no arrow."
+    },
+    {
+     "at": 85,
+     "do": "caption.clear"
+    },
+    {
+     "at": 86,
+     "do": "type.clear"
+    },
+    {
+     "at": 86,
+     "do": "object.clear"
+    },
+    {
+     "at": 86.5,
+     "do": "map.dim",
+     "opacity": 0
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "n": 9,
+   "title": "A lenj on the slipway",
+   "idea": "A skill is a living practice, dated to its source, and the four flows close on one jar.",
+   "seconds": 78,
+   "narration": "A wooden hull on a slipway at Guran, on Qeshm island, in the Gulf [24]. The skills of building and sailing a lenj went on UNESCO's Urgent Safeguarding List in 2011 [23]. Sailors used the sun, moon and stars, and each wind was given a name [23]. Practitioners are mostly older people, and fibreglass replaces wood [23].\n\nIn 2017, shipwrights at Guran told a photographer how they learned the trade from their fathers, and how orders dried up [24]. We link to that report; their words and names stay theirs until their cooperative has been asked [24].\n\nAcross the water, Bahrain's pearling site [25]. UNESCO says pearling dominated between the 2nd and early 20th centuries, until its demise in the 1930s [25]. The page does not say who dived, or on what terms; that is for F1.31's local author to write [25].\n\nFour flows, then. The jar's blue was a material, the dish an object, paper and the lenj skills [1]. The weavers, the potters, the chinos and Omar ibn Said are people [1]. One jar, four flows, and terms that were never shared [1]. Which flow does your own work's material travel on, and on what terms?",
+   "claims": [
+    "23",
+    "24",
+    "25",
+    "1"
+   ],
+   "held": "Iranian Gulf reader; Arab-shore reader via F1.31 (spec §9)",
+   "commands": [
+    {
+     "at": 0,
+     "do": "chapter",
+     "n": 9,
+     "title": "A lenj on the slipway"
+    },
+    {
+     "at": 0,
+     "do": "map.clear"
+    },
+    {
+     "at": 0,
+     "do": "type.clear"
+    },
+    {
+     "at": 0,
+     "do": "map.focus",
+     "lon": 53.5,
+     "lat": 26.6,
+     "zoom": 5.5,
+     "seconds": 1.8
+    },
+    {
+     "at": 0,
+     "do": "map.stamp",
+     "text": "2011–2017 · living practice"
+    },
+    {
+     "at": 0,
+     "do": "timeline.scrub",
+     "year": 2015
+    },
+    {
+     "at": 0,
+     "do": "legend",
+     "keys": [
+      "skill",
+      "region"
+     ]
+    },
+    {
+     "at": 1,
+     "do": "hull"
+    },
+    {
+     "at": 2,
+     "do": "map.place",
+     "id": "guran",
+     "kind": "object",
+     "label": "Guran, Qeshm · lenj yard",
+     "side": "below"
+    },
+    {
+     "at": 2,
+     "do": "caption",
+     "text": "A wooden hull on a slipway at Guran, on Qeshm island, in the Gulf.",
+     "claim": "24",
+     "confidence": "documented"
+    },
+    {
+     "at": 7,
+     "do": "timeline.mark",
+     "id": "lenj",
+     "year": 2011,
+     "label": "lenj skills listed, 2011",
+     "lane": 0
+    },
+    {
+     "at": 7,
+     "do": "caption",
+     "text": "The skills of building and sailing a lenj went on UNESCO's Urgent Safeguarding List in 2011.",
+     "claim": "23",
+     "confidence": "documented"
+    },
+    {
+     "at": 14,
+     "do": "caption",
+     "text": "Sailors used the sun, moon and stars, and each wind was given a name.",
+     "claim": "23",
+     "confidence": "documented"
+    },
+    {
+     "at": 20,
+     "do": "caption",
+     "text": "Practitioners are mostly older people, and fibreglass replaces wood.",
+     "claim": "23",
+     "confidence": "documented"
+    },
+    {
+     "at": 26,
+     "do": "chain",
+     "x": -560,
+     "y": -400,
+     "boxWidth": 250,
+     "boxHeight": 78,
+     "gap": 90,
+     "links": [
+      {
+       "id": "k1",
+       "label": "fathers",
+       "sub": "the trade, over years",
+       "flow": "skill"
+      },
+      {
+       "id": "k2",
+       "label": "shipwrights at Guran",
+       "sub": "2017, in their own words · linked",
+       "flow": "skill"
+      }
+     ],
+     "arrows": [
+      {
+       "from": "k1",
+       "to": "k2",
+       "flow": "skill",
+       "label": "learned"
+      }
+     ]
+    },
+    {
+     "at": 26,
+     "do": "timeline.mark",
+     "id": "report",
+     "year": 2017,
+     "label": "Guran shipwrights' report, 2017 (linked)",
+     "lane": 1
+    },
+    {
+     "at": 26,
+     "do": "caption",
+     "text": "In 2017, shipwrights at Guran told a photographer how they learned the trade from their fathers, and how orders dried up.",
+     "claim": "24",
+     "confidence": "documented"
+    },
+    {
+     "at": 35,
+     "do": "caption",
+     "text": "We link to that report; their words and names stay theirs until their cooperative has been asked.",
+     "claim": "24",
+     "confidence": "documented"
+    },
+    {
+     "at": 42,
+     "do": "map.place",
+     "id": "muharraq",
+     "kind": "plain",
+     "label": "Muharraq, Bahrain · pearling",
+     "side": "left"
+    },
+    {
+     "at": 42,
+     "do": "timeline.span",
+     "id": "pearling",
+     "from": 100,
+     "to": 1930,
+     "label": "pearling, 2nd–early 20th c.",
+     "fuzzyStart": true,
+     "lane": 2,
+     "kind": "base"
+    },
+    {
+     "at": 42,
+     "do": "caption",
+     "text": "Across the water, Bahrain's pearling site: UNESCO says pearling dominated between the 2nd and early 20th centuries, until its demise in the 1930s.",
+     "claim": "25",
+     "confidence": "documented"
+    },
+    {
+     "at": 52,
+     "do": "caption",
+     "text": "The page does not say who dived, or on what terms; that is for F1.31's local author to write.",
+     "claim": "25",
+     "confidence": "not recorded"
+    },
+    {
+     "at": 58,
+     "do": "hull.clear"
+    },
+    {
+     "at": 58,
+     "do": "chain.clear"
+    },
+    {
+     "at": 58,
+     "do": "map.dim",
+     "opacity": 0.45
+    },
+    {
+     "at": 58,
+     "do": "caption",
+     "text": "Four flows, then. The jar's blue was a material, the dish an object, paper and the lenj skills.",
+     "claim": "1",
+     "confidence": "interpretive"
+    },
+    {
+     "at": 60,
+     "do": "chain",
+     "x": 0,
+     "y": -120,
+     "boxWidth": 340,
+     "boxHeight": 84,
+     "links": [
+      {
+       "id": "jar",
+       "label": "the jar",
+       "sub": "Cleveland 1962.154 · Jingdezhen, 1300s",
+       "x": 0,
+       "y": 0
+      },
+      {
+       "id": "mat",
+       "label": "Material",
+       "sub": "cobalt from Iran · dashed",
+       "flow": "material",
+       "x": -520,
+       "y": -150
+      },
+      {
+       "id": "obj",
+       "label": "Object",
+       "sub": "the Kraak dish; the basin · solid",
+       "flow": "object",
+       "x": 520,
+       "y": -150
+      },
+      {
+       "id": "skl",
+       "label": "Skill",
+       "sub": "paper to Baghdad; the lenj · dotted",
+       "flow": "skill",
+       "x": -520,
+       "y": 150
+      },
+      {
+       "id": "ppl",
+       "label": "People",
+       "sub": "weavers, potters, chinos, Omar ibn Said · own mark",
+       "flow": "people",
+       "x": 520,
+       "y": 150
+      }
+     ],
+     "arrows": [
+      {
+       "from": "mat",
+       "to": "jar",
+       "flow": "material"
+      },
+      {
+       "from": "jar",
+       "to": "obj",
+       "flow": "object"
+      },
+      {
+       "from": "skl",
+       "to": "jar",
+       "flow": "skill"
+      },
+      {
+       "from": "ppl",
+       "to": "jar",
+       "flow": "people",
+       "label": "shared routes, not shared terms"
+      }
+     ]
+    },
+    {
+     "at": 64,
+     "do": "caption",
+     "text": "The weavers, the potters, the chinos and Omar ibn Said are people.",
+     "claim": "1",
+     "confidence": "interpretive"
+    },
+    {
+     "at": 68,
+     "do": "caption",
+     "text": "One jar, four flows, and terms that were never shared.",
+     "claim": "1",
+     "confidence": "interpretive"
+    },
+    {
+     "at": 72,
+     "do": "caption",
+     "text": "Which flow does your own work's material travel on, and on what terms?"
+    },
+    {
+     "at": 77.5,
+     "do": "caption.clear"
+    }
+   ]
+  }
+ ],
+ "closing": {
+  "seconds": 76,
+  "questions": [
+   {
+    "id": "q1",
+    "question": "Cleveland's record says the jar's cobalt was imported from where?",
+    "options": [
+     "Jingdezhen's hills",
+     "Iran",
+     "Europe"
+    ],
+    "answer": 1,
+    "claim": "2",
+    "show": [
+     {
+      "at": 0,
+      "do": "map.focus",
+      "lon": 88,
+      "lat": 30,
+      "zoom": 2.2,
+      "seconds": 0.8
+     },
+     {
+      "at": 0,
+      "do": "map.place",
+      "id": "jingdezhen",
+      "kind": "object"
+     },
+     {
+      "at": 0.2,
+      "do": "map.place",
+      "id": "kashan",
+      "kind": "object"
+     },
+     {
+      "at": 0.3,
+      "do": "map.route",
+      "id": "a1",
+      "from": "kashan",
+      "to": "jingdezhen",
+      "flow": "material",
+      "label": "cobalt",
+      "seconds": 1
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "question": "Which of these is not argued as the cobalt's source?",
+    "options": [
+     "Qamsar",
+     "Anarak",
+     "Jingdezhen"
+    ],
+    "answer": 2,
+    "claim": "4",
+    "show": [
+     {
+      "at": 0,
+      "do": "map.focus",
+      "lon": 52.5,
+      "lat": 33.4,
+      "zoom": 5.5,
+      "seconds": 0.8
+     },
+     {
+      "at": 0,
+      "do": "map.place",
+      "id": "kashan",
+      "kind": "object"
+     },
+     {
+      "at": 0.2,
+      "do": "map.place",
+      "id": "qamsar",
+      "kind": "argued",
+      "label": "Qamsar · argued",
+      "side": "below"
+     },
+     {
+      "at": 0.3,
+      "do": "map.place",
+      "id": "anarak",
+      "kind": "argued",
+      "label": "Anarak · argued"
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "question": "In which band did Kilwa mint coins?",
+    "options": [
+     "B07 · 500–1000",
+     "B08 · 1000–1400",
+     "B09 · 1400–1700"
+    ],
+    "answer": 1,
+    "claim": "6",
+    "show": [
+     {
+      "at": 0,
+      "do": "map.focus",
+      "lon": 45,
+      "lat": -5,
+      "zoom": 2.2,
+      "seconds": 0.8
+     },
+     {
+      "at": 0,
+      "do": "map.place",
+      "id": "kilwa",
+      "kind": "object",
+      "side": "left"
+     },
+     {
+      "at": 0,
+      "do": "timeline.scrub",
+      "year": 1200
+     },
+     {
+      "at": 0.2,
+      "do": "timeline.span",
+      "id": "a3",
+      "from": 1000,
+      "to": 1400,
+      "label": "Kilwa coins, 11th–14th c.",
+      "lane": 0,
+      "kind": "material"
+     },
+     {
+      "at": 0.3,
+      "do": "timeline.band",
+      "band": "B08"
+     }
+    ]
+   },
+   {
+    "id": "q4",
+    "question": "The earliest documented paper mill in the Islamic world: which city?",
+    "options": [
+     "Baghdad",
+     "Chang'an",
+     "Cairo"
+    ],
+    "answer": 0,
+    "claim": "10",
+    "show": [
+     {
+      "at": 0,
+      "do": "map.focus",
+      "lon": 70,
+      "lat": 35,
+      "zoom": 2.2,
+      "seconds": 0.8
+     },
+     {
+      "at": 0,
+      "do": "timeline.scrub",
+      "year": 794
+     },
+     {
+      "at": 0.2,
+      "do": "map.place",
+      "id": "baghdad",
+      "kind": "object",
+      "side": "below"
+     },
+     {
+      "at": 0.3,
+      "do": "map.light",
+      "id": "baghdad"
+     },
+     {
+      "at": 0.3,
+      "do": "timeline.mark",
+      "id": "a4",
+      "year": 794,
+      "label": "Baghdad paper mill, 794–95",
+      "lane": 0
+     }
+    ]
+   },
+   {
+    "id": "q5",
+    "question": "Where did the galleons land in the Americas?",
+    "options": [
+     "Acapulco",
+     "Potosí",
+     "Puebla"
+    ],
+    "answer": 0,
+    "claim": "15",
+    "show": [
+     {
+      "at": 0,
+      "do": "map.focus",
+      "lon": 205,
+      "lat": 2,
+      "zoom": 1.85,
+      "seconds": 0.8
+     },
+     {
+      "at": 0,
+      "do": "map.place",
+      "id": "manila",
+      "kind": "object",
+      "side": "left"
+     },
+     {
+      "at": 0,
+      "do": "timeline.scrub",
+      "year": 1650
+     },
+     {
+      "at": 0.2,
+      "do": "map.place",
+      "id": "acapulco",
+      "kind": "object",
+      "side": "above"
+     },
+     {
+      "at": 0.3,
+      "do": "map.route",
+      "id": "a5",
+      "from": "manila",
+      "to": "acapulco",
+      "flow": "object",
+      "label": "porcelain, silk, ivory, spices",
+      "bend": 0.12,
+      "seconds": 1
+     },
+     {
+      "at": 0.4,
+      "do": "map.light",
+      "id": "acapulco"
+     }
+    ]
+   },
+   {
+    "id": "q6",
+    "question": "Korean potters taken in the 1590s found porcelain clay where?",
+    "options": [
+     "Arita",
+     "Amsterdam",
+     "Manila"
+    ],
+    "answer": 0,
+    "claim": "19",
+    "show": [
+     {
+      "at": 0,
+      "do": "map.focus",
+      "lon": 128,
+      "lat": 35,
+      "zoom": 4,
+      "seconds": 0.8
+     },
+     {
+      "at": 0,
+      "do": "map.place",
+      "id": "korea",
+      "kind": "region",
+      "label": "Joseon",
+      "side": "above"
+     },
+     {
+      "at": 0,
+      "do": "timeline.scrub",
+      "year": 1610
+     },
+     {
+      "at": 0.2,
+      "do": "map.place",
+      "id": "arita",
+      "kind": "object",
+      "side": "below"
+     },
+     {
+      "at": 0.3,
+      "do": "map.people",
+      "id": "a6",
+      "from": "korea",
+      "to": "arita",
+      "label": "Korean potters, taken · Yi Sam-pyeong named"
+     },
+     {
+      "at": 0.4,
+      "do": "map.light",
+      "id": "arita"
+     }
+    ]
+   },
+   {
+    "id": "q7",
+    "question": "Over which years does SlaveVoyages' estimate of 12.5 million run?",
+    "options": [
+     "1301–1500",
+     "1501–1866",
+     "1900–now"
+    ],
+    "answer": 1,
+    "claim": "20",
+    "show": [
+     {
+      "at": 0,
+      "do": "map.focus",
+      "lon": -42,
+      "lat": 24,
+      "zoom": 1.7,
+      "seconds": 0.8
+     },
+     {
+      "at": 0,
+      "do": "timeline.scrub",
+      "year": 1700
+     },
+     {
+      "at": 0,
+      "do": "map.dim",
+      "opacity": 0.5
+     },
+     {
+      "at": 0.2,
+      "do": "timeline.span",
+      "id": "a7",
+      "from": 1501,
+      "to": 1866,
+      "label": "SlaveVoyages' estimate, 1501–1866 · a count in words, no line on the map",
+      "lane": 0,
+      "kind": "people"
+     }
+    ]
+   },
+   {
+    "id": "q8",
+    "question": "Where was Omar ibn Said born?",
+    "options": [
+     "Futa Toro",
+     "Fayetteville",
+     "Majorca"
+    ],
+    "answer": 0,
+    "claim": "22",
+    "show": [
+     {
+      "at": 0,
+      "do": "map.focus",
+      "lon": -40,
+      "lat": 24,
+      "zoom": 1.8,
+      "seconds": 0.8
+     },
+     {
+      "at": 0,
+      "do": "map.dim",
+      "opacity": 0
+     },
+     {
+      "at": 0,
+      "do": "timeline.scrub",
+      "year": 1770
+     },
+     {
+      "at": 0.2,
+      "do": "map.place",
+      "id": "futa_toro",
+      "kind": "person",
+      "label": "Futa Toro · Omar ibn Said, born about 1770",
+      "side": "below"
+     },
+     {
+      "at": 0.3,
+      "do": "map.light",
+      "id": "futa_toro"
+     }
+    ]
+   }
+  ]
+ }
+}

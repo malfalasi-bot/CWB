@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>F1.13 Networks, lecture</title>
+<style>
+  :root { color-scheme: dark; --bg: #0f1115; --ink: #e8e6e1; --quiet: #9a978f; --accent: #6fa8dc; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+  main { max-width: 1120px; margin: 0 auto; padding: 16px; }
+  h1 { font-size: 1.25rem; font-weight: 600; margin: 8px 0 4px; }
+  p { color: var(--quiet); margin: 0 0 12px; }
+  .frame { position: relative; width: 100%; aspect-ratio: 16 / 9; background: #000; border-radius: 8px; overflow: hidden; }
+  motion-canvas-player { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+  button { background: #1b1f27; color: var(--ink); border: 1px solid #2c313c; border-radius: 6px; padding: 8px 12px; font: inherit; }
+  button:focus-visible { outline: 2px solid var(--accent); }
+  ol { padding-left: 20px; color: var(--quiet); }
+  ol li { margin: 4px 0; }
+  ol li b { color: var(--ink); font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+  <h1>F1.13 Networks: objects, materials, skills and people</h1>
+  <p>A station tour over one map and one timeline. Tap the frame to play; the lecture is drawn live in your browser, with no video file.</p>
+  <div class="frame">
+    <motion-canvas-player id="player" quality="1"></motion-canvas-player>
+  </div>
+  <div class="row">
+    <button id="play">Play or pause</button>
+    <span id="status" style="color:var(--quiet);align-self:center"></span>
+  </div>
+  <ol id="stations"></ol>
+  <p>Narration is read from the script in the lecture data; audio is added in production. Every factual sentence carries its claim id from the unit spec.</p>
+</main>
+<script type="module">
+  import lecture from '../src/lectures/f1-13.json';
+  const el = document.getElementById('player');
+  // The player resolves its src against its own script, so give it an absolute URL beside this page.
+  el.setAttribute('src', new URL('project.js', document.baseURI).href);
+  import('@motion-canvas/player');
+  const list = document.getElementById('stations');
+  for (const s of lecture.stations) {
+    const li = document.createElement('li');
+    li.innerHTML = `<b>${s.title}</b> · ${s.idea ?? ''}`;
+    list.appendChild(li);
+  }
+  document.getElementById('play').addEventListener('click', () => (el.setPlaying ? el.setPlaying(!el.playing) : el.shadowRoot?.querySelector('.overlay')?.click()));
+</script>
+</body>
+</html>
