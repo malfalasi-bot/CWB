@@ -1,0 +1,301 @@
+canon_id,canon_name,kind,q1,label1,desc1,q2,label2,desc2,q3,label3,desc3
+GAP001,Early Christian art,style,Q429811,early Christian art,art produced by Christians before Byzantine times,Q645717,Christian art,art genre,Q115661390,Early Christian Art and Divine Epiphany,scientific article published in March 2012
+GAP002,Mannerism,style,Q131808,Mannerism,style of European art,Q1890336,mannerism,"tendency, conduct",Q113621287,mannerism,literary movement
+GAP003,Dutch Golden Age painting,style,Q2352880,Dutch Golden Age painting,17th-century Dutch painting,,,,,,
+GAP004,Casta painting,style,Q111605580,"Casta Painting, 1. From male Spaniard and female Amerindian, Mestiza",painting by Miguel Cabrera,Q12199969,Casta paintings,depictions of racial classifications resulting from intermixing in the Spanish colonial empire,Q127687627,Casta painting (anonymous),painting from Mexico
+GAP005,Namban art,style,,,,,,,,,
+GAP006,Romanticism,movement,Q37068,Romanticism,"artistic, literary, musical, and intellectual movement",Q7362837,Romanticism,academic journal,Q24884734,Romantic literature in English,era in English-language literature
+GAP007,Realism (nineteenth-century France),movement,,,,,,,,,
+GAP008,Post-Impressionism,style,Q166713,Post-impressionism,predominantly French art movement that developed roughly between 1886 and 1905,Q103962501,Post-Impressionism,encyclopedia article,Q131282140,Post-impressionism,art catalog by Bernard Denvir
+GAP009,Symbolism,movement,Q164800,Symbolism,"late nineteenth-century art movement of French, Russian and Belgian origin seeking to represent absolute truths symbolically through language and metaphorical images",Q4419563,symbolism,practice of representing things by symbols,Q15673106,symbolism,literary expression of the symbolism art movement
+GAP010,Expressionism (German),movement,,,,,,,,,
+GAP011,Fauvism,style,Q166593,Fauvism,artistic style that emphasized painterly qualities and strong color over the representational or realistic values retained by Impressionism,Q103913681,Fauvism,encyclopedia article,Q2009002,Brabant fauvism,Belgian art movement
+GAP012,Pictorialism,movement,Q851869,pictorialism,photography movement,Q103961755,Pictorialism,encyclopedia article,Q115484878,"Pictorialism, creation of photographic works","Textbook chapter ""Basics of fine-art photography"""
+GAP013,Chicago School (architecture),style,,,,,,,,,
+GAP014,Abstract Expressionism,movement,Q177725,abstract expressionism,American post–World War II art movement,Q103889050,Abstract Expressionism,encyclopedia article,Q115040029,"Abstract Expressionism, Works on Paper: Selections from The Metropolitan Museum of Art",1993 Exhibition at Metropolitan Museum
+GAP015,Minimalism,style,Q173436,Minimalism,movements in various forms of art and design,Q572901,minimalist music,form of art music or other compositional practice that employs limited or minimal musical materials,Q124068020,Minimalism,2017 video game
+GAP016,Land art,movement,Q326478,land art,form of art creation in which landscape and the work of art are inextricably linked,Q33123562,land artist,person who creates land art,Q103947537,Land art,encyclopedia article
+GAP017,Fluxus,movement,Q108908,Fluxus,"international network of artists, composers and designers",Q2100223,Fluxus,Belgian folk band,Q12622230,Fluxus Music,Korean record label
+GAP018,Plains hide painting and ledger art,style,,,,,,,,,
+GAP019,Academic art,style,Q189458,academic art,style of painting and sculpture produced under the influence of European academies of art,Q18918145,academic journal article,article published in an academic journal,Q13442814,scholarly article,"article in an academic publication, usually peer reviewed"
+GAP020,Yugoslav socialist modernism,style,,,,,,,,,
+GAP021,Korean ink-painting movement,movement,,,,,,,,,
+GAP022,Niuean hiapo,style,,,,,,,,,
+GAP023,Stained glass,technique,Q1473346,stained glass,colored glass used as an art material,Q21061279,stained-glass window,window with a image created by pieces of stained glass,Q2205972,stained-glass artist,"artist active in (flat, window) glass"
+GAP024,Manuscript illumination,technique,Q8362,manuscript illumination,"painting, drawing or other decoration applied to (medieval) manuscripts to illustrate or decorate the text (miniatures, decorated initials, decorated margins)",Q20201089,"Manuscript Illumination with Initial V, from a Bible",anonymous painting,Q30061587,"Manuscript Illumination with the Visitation in an Initial D, from a Choir Book","Illumination by the Spanish Forger, late 19th–early 20th century"
+GAP025,Enconchado,technique,Q135448181,Enconchado,,,,,,,
+GAP026,Islamic geometric pattern construction,technique,,,,,,,,,
+GAP027,Photomontage,technique,Q828107,photomontage,composite image created from two or more photographs,Q103961706,Photomontage,encyclopedia article,Q131597072,photomontage,technique of juxtaposing or partially overlapping several images or parts of them to obtain a single image
+GAP028,Hot-metal typesetting,technique,Q883672,hot metal typesetting,mechanical analog method for text composition,,,,,,
+GAP029,Machine-learning generative models,technique,,,,,,,,,
+GAP030,chair,object-type,Q140686,chairperson,leading or presiding officer of an organized group,Q15026,chair,piece of furniture for sitting on,Q1363750,chair,named and usually endowed university professorship
+GAP031,table and desk,object-type,,,,,,,,,
+GAP032,bed,object-type,Q42177,bed,piece of furniture used as a place to sleep or relax,Q67387552,Bedfordshire,historic county of England,Q105710792,Bed,"2021 single by Joel Corry, Raye and David Guetta"
+GAP033,case furniture (chest and cabinet),object-type,,,,,,,,,
+GAP034,folding screen,object-type,Q1144689,folding screen,"furniture consisting of flat, hinged panels for dividing a room, sometimes with artistic decoration",Q112194986,Folding screen,"painting by unknown artist, China",Q116391916,Folding Screen,"folding screen at the Metropolitan Museum of Art (MET, 1980.64)"
+GAP035,hand fan,object-type,Q193220,hand fan,"device used to cool oneself, usually made of folded paper",Q123059170,hand fan,"fan from the collection of the Landesmuseum Württemberg, KK braun-blau 51",Q5647112,Hand Fan Museum,art museum in California
+GAP036,netsuke,object-type,Q543901,netsuke,type of bead used to secure an inro in one's belt,Q30302964,netsuke,ivory netsuke of a man shouting on New Year day,Q100342037,Netsuke,exhibition in 1981
+GAP037,chahar bagh,object-type,Q2458241,charbagh,four-part Islamic garden layout,Q66057944,Chahar-Bagh,part of a World Heritage site in Iran,Q5067529,"Chahar Bagh, Malard",village in Iran
+GAP038,dry landscape garden,object-type,Q244226,dry landscape garden,type of Japanese garden,,,,,,
+GAP039,Chinese scholar's garden,object-type,,,,,,,,,
+GAP040,English landscape garden,style,Q12783,English garden,style of garden,Q3233398,English landscape garden of Collette,garden in central France named after French novelist Collette,,,
+GAP041,French formal garden,style,Q12774,French formal garden,style of garden based on symmetry and the principle of imposing order on nature,,,,,,
+GAP042,stupa,object-type,Q180987,stupa,"mound-like structure containing Buddhist relics, typically the ashes of Buddhist monks, used by Buddhists as a place of meditation",Q2860910,"Stupa, Dubrovačko primorje","settlement in the Municipality of Dubrovačko Primorje, Dubrovnik-Neretva County, Croatia",Q87250644,Stupa,genus of plants
+GAP043,ziggurat,object-type,Q20874454,Ziggurat,2014 video game,Q16915345,Ziggurat,2012 video game,Q170153,ziggurat,"massive structure built in the ancient Mesopotamian valley and western Iranian plateau, having the form of a terraced step pyramid"
+GAP044,basilica,object-type,Q163687,basilica,building type of a church,Q4867342,Basilica,genus of insects,Q172988,St Mark's Basilica,"church in Venice, Italy"
+GAP045,steel-frame skyscraper,object-type,,,,,,,,,
+GAP046,orrery,object-type,Q1759299,orrery,mechanical model of the solar system,Q83612213,orrery,"item 24, display 3, room 609 of the Louvre",Q112272602,Orrery,object in Musée national de la Marine
+GAP047,watch,object-type,Q376,clock,instrument that measures the passage of time,Q1946176,Watch,1978 studio album by Manfred Mann's Earth Band,Q37565241,Watch,family name
+GAP048,keyboard instruments (harpsichord and piano),object-type,,,,,,,,,
+GAP049,violin,object-type,Q8355,violin,bowed string instrument,Q56121441,Violin,vocal track by Kate Bush; 1980 studio recording,Q56284388,Violin,"live recording by Kate Bush, from a 1979 concert at the Hammersmith Odeon, London, UK"
+GAP050,guitar,object-type,Q6607,guitar,fretted string instrument,Q37207588,Guitar,family name,Q19883899,Guitar,painting by Joaquín Torres-García
+GAP051,telephone,object-type,Q188770,Telephone,2010 single by Lady Gaga ft. Beyoncé,Q11035,telephone,telecommunications device that permits two or more users to conduct a conversation,Q612672,Téléphone,French pop rock band
+GAP052,typeface,object-type,Q17451,typeface,set of glyphs that share common design features,Q354034,type designer,person who designs typefaces,Q377688,type foundry,company that designs or distributes typefaces
+GAP053,kiswa,object-type,Q7838,Swahili,Bantu language spoken mainly in East Africa,Q1511204,kiswah,"cloth that covers the Kaaba in Mecca, Saudi Arabia",Q22698819,Kiswa,watercourse in Democratic Republic of the Congo
+GAP054,Kongo crucifix,object-type,Q23775145,Kongo crucifixes,,,,,,,
+GAP055,ndop,object-type,Q2450615,Ndop,commune of Cameroon,Q12041572,Nálezová databáze ochrany přírody,,Q17144276,Ndop,Kuba figurative sculptures
+GAP056,ikenga,object-type,Q123370190,Ikenga: International Journal of the Institute of African Studies,academic journal,Q59815021,Ikenga,ward of the Aguata legislative council,Q6962731,Ikenga,igbo cultural artifact
+GAP057,byeri reliquary guardian,object-type,,,,,,,,,
+GAP058,sowei (Sande society helmet mask),object-type,,,,,,,,,
+GAP059,bandolier bag,object-type,Q890094,messenger bag,"bag or pouch with a long strap, designed to wear slung from one shoulder and across the body",Q29572285,bandolier bag,general purpose bag carried by Native Americans with attached shoulder straps worn over the shoulder and across the breast,Q116282427,Bandolier Bag,"bag at the Metropolitan Museum of Art (MET, 2011.154.194)"
+GAP060,transformation mask,object-type,Q7834089,Transformation mask,type of Mask,,,,,,
+GAP061,staff god (Rarotonga),object-type,,,,,,,,,
+GAP062,Nukuoro deity figure,object-type,,,,,,,,,
+GAP063,Torres Strait turtle-shell mask,object-type,,,,,,,,,
+GAP064,Froebel gifts,object-type,Q855926,Froebel Gifts,construction set,,,,,,
+GAP065,children's picture book,object-type,Q254554,picture book,"book with images at least as important as words, commonly directed at young children and featuring a story",Q136163523,Children’s Picture Books and Contemporary Egyptian Society,book 2025,Q98625997,Children's picture books in an age of climate anxiety,scientific article published on 01 September 2020
+GAP066,souvenir,object-type,Q31395772,Souvenir,episode of Mad Men (S3 E8),Q36973554,Souvenir,family name,Q212469,souvenir,"object that may be bought to recall an event from the past, like travel"
+GAP067,Grand Tour,network,Q6682302,Grand Tour,journey around Europe for cultural education,Q139878852,Grand Tour,,Q866427,Grand Tour,major cycling race
+GAP068,Non-Aligned cultural exchange,network,,,,,,,,,
+GAP069,Old Edgefield stoneware potters,maker-community,,,,,,,,,
+GAP070,Japanese American incarceration-camp makers,maker-community,,,,,,,,,
+GAP071,Plantation,institution,Q188913,plantation,"artificially established forest, farm or estate, where crops are grown for sale",Q984677,Plantation,"city in Broward County, Florida, United States",Q1785891,Kpando,"town in Kpando Municipal District, Ghana"
+GAP072,Haute couture system,institution,,,,,,,,,
+GAP073,Department store,institution,Q216107,department store,retail establishment; building which offers a wide range of consumer goods,Q87577284,🏬,Unicode character,Q100353030,Department Store,painting by Amrita Sher-Gil
+GAP074,Royal Academy of Arts,institution,Q270920,Royal Academy of Arts,"art institution in London, England, United Kingdom",Q2822452,Royal Academy of Arts of Liège,"Academy of art in Liège, Belgium",Q9066994,Royal Academy of Sciences and Arts of Barcelona,academy in Barcelona
+GAP075,Académie royale de peinture et de sculpture,institution,Q337579,Académie royale de peinture et de sculpture,academy that sought to professionalize the artists working for the French court,,,,,,
+GAP076,Kunstgewerbeschule (school of applied arts),institution,,,,,,,,,
+GAP077,Industrial design consultancy,institution,Q30254724,Industrial Design Consultancy,"company in Slough, United Kingdom",,,,,,
+GAP078,ICSID (World Design Organization),institution,,,,,,,,,
+GAP079,VNIITE,institution,Q4127521,VNIITE,Soviet design research institute,Q52843142,All-Russian Scientific Research Institute of Canned Food Technology,"facility in Vidnoye, Russia",Q4101974,VNIITE-PT,soviet taxi vehicle prototype
+GAP080,Amt für industrielle Formgestaltung,institution,Q480198,Amt für Industrielle Formgestaltung,,Q66780498,Amt für industrielle Formgestaltung,,Q66781879,Amt für industrielle Formgestaltung.- Tonbestand,
+GAP081,Good Design Award (G Mark),institution,,,,,,,,,
+GAP082,Escola Superior de Desenho Industrial (ESDI),institution,,,,,,,,,
+GAP083,"Faculty of Applied Arts, Cairo",institution,,,,,,,,,
+GAP084,Salon (Paris),event,Q262478,Paris Salon,art exhibition periodically held in Paris from 1667 to 1880,,,,,,
+GAP085,Ljubljana Biennial of Graphic Arts,event,,,,,,,,,
+ARC231,Ordos bronzes,archaeological-culture,,,,,,,,,
+ARC232,Xianbei,archaeological-culture,Q861054,Xianbei,Ancient people in Manchuria and Mongolia (circa 3rd century BC–3rd century AD),Q10887325,Hou Gao,Qing dynasty person CBDB = 84972,Q4448647,Xianbei,Mongolic language
+BEL056,Kongo Christianity,belief-tradition,,,,,,,,,
+COM301,Jingpiao,community,,,,,,,,,
+COM302,Rakival People,community,,,,,,,,,
+COM303,Bunuba,community,Q580923,Bunuba,Aboriginal language of Western Australia,Q139757595,Bunuba Conservation Park,conservation park in Western Australia,Q2495148,Bunuban,Australian Aboriginal language family
+COM304,Japanese prisoners of war in Uzbekistan,community,,,,,,,,,
+COM305,Gweagal,community,Q5623385,Gweagal,Clan of the Dharawal tribe of Indigenous Australians who inhabited southern Sydney area,Q106238830,Gweagal shield,Aboriginal Australian artifact,,,
+COM306,La Perouse Aboriginal Community,community,,,,,,,,,
+COM307,Ngāti Toa Rangatira,community,Q1984446,Ngāti Toa,Māori iwi (tribe) in Aotearoa New Zealand,,,,,,
+COM308,Peskotomuhkati,community,Q3183144,Malecite-Passamaquoddy,Algonquian language,Q1649265,Passamaquoddy Tribe,federally recognized Tribe in North America,Q131871544,Peskotomuhkati Nation,"non-profit organization in New Brunswick, Canada"
+DIA013,Chinos of New Spain,diaspora,,,,,,,,,
+EVT033,Meisterwerke muhammedanischer Kunst (Munich 1910),event,,,,,,,,,
+EVT034,"""The Persistence of Geometry"" (Cleveland, 2006)",event,,,,,,,,,
+EVT035,"""The Venetian Tradition"" (Cleveland, 1956–57)",event,,,,,,,,,
+INS094,Heeramaneck Galleries,institution,,,,,,,,,
+INS095,Maasai Intellectual Property Initiative,institution,,,,,,,,,
+INS096,Karamu House and the Gilpin Players,institution,,,,,,,,,
+INS097,Edison Manufacturing Company,institution,Q21022090,Edison Manufacturing Company,company organized in 1889 by Thomas Edison,Q606359,Edison Studios,Film Studios founded By Thomas A. Edison in 1894,,,
+INS098,Victor Talking Machine Company,institution,Q1470329,Victor Talking Machine Company,"American record company and phonograph manufacturer headquartered in Camden, New Jersey",Q58198290,Victor Talking Machine Co. Of Canada Limited,record company 1924-1934; Canadian subsidiary of Victor Talking Machine,Q215901,JVC,defunct Japanese multinational national electronics corporation
+INS099,Keur Moussa Abbey,institution,Q79216,Keur Moussa abbey,Catholic monastery in Senegal,,,,,,
+INS100,Crosby Brown Collection,institution,,,,,,,,,
+INS101,Nagaoka Municipal Science Museum,institution,Q30267712,Nagaoka Municipal Science Museum,"archive organization in Nagaoka, Japan",Q113298239,Nagaoka Municipal Science Museum,science museum in Japan,,,
+INS102,National Diet Library,institution,Q477675,National Diet Library,national library in Japan,Q11421242,National Diet Library Act,,Q11421238,National Diet Library Subject Headings,
+INS103,Walters Art Museum,institution,Q210081,Walters Art Museum,"art museum in Baltimore, Maryland, US",Q510564,Claricia,German artist,,,
+INS104,Diné be' Iiná,institution,,,,,,,,,
+INS105,Guan da min shao,institution,,,,,,,,,
+INS106,National Gallery of Australia,institution,Q795228,National Gallery of Australia,"National art museum in Canberra, Australia",Q6972828,National Gallery of Australia Research Library,library,Q131747924,National Gallery of Australia Search the Collection,
+INS107,Cooper Hewitt,institution,Q1129820,"Cooper Hewitt, Smithsonian Design Museum","design museum in Manhattan, New York; a division of the Smithsonian Institution",Q20684567,Cooper-Hewitt Person ID,identifier for a person in the Cooper Hewitt museum catalogue,Q116153747,Cooper Hewitt,open-source sans-serif typeface
+INS108,Partage,institution,Q65111790,Partage,family name,Q1400069,Partage,system of dividing archaeological finds between foreign excavation teams and host countries,Q123635075,Partage,periodical
+INS109,IRCICA,institution,Q13848308,IRCICA digital institute,research unit at the University of Lille in France,Q12242193,"Research Centre For Islamic History, Art and Culture",subsidiary organ of the Organization of Islamic Cooperation,Q1438176,IRCICA,
+INS110,Amsterdam drapers' guild,institution,,,,,,,,,
+INS111,Compagnons du Devoir,institution,Q1389435,Compagnonnage,French organization of craftsmen and artisans,Q2867930,Compagnons du devoir,,,,
+INS112,Museum Het Valkhof,institution,Q1127079,Museum Het Valkhof,"archeological and art museum in Nijmegen, Netherlands",,,,,,
+INS113,Badisches Landesmuseum,institution,Q799168,The Badisches Landesmuseum,museum in Germany,Q131160257,Badisches Landesmuseum 61/89,,Q131197166,Badisches Landesmuseum B 2345,
+INS114,Elbląska Biblioteka Cyfrowa,institution,Q76891087,Elbląska Biblioteka Cyfrowa,heritage institution,,,,,,
+INS115,Gundjeihmi Aboriginal Corporation,institution,Q100710693,Gundjeihmi Aboriginal Corporation,Australian aboriginal corporation representing the Mirarr people,,,,,,
+INS116,Gunditj Mirring Traditional Owners Aboriginal Corporation,institution,,,,,,,,,
+INS117,Polynesian Voyaging Society,institution,Q7226620,Polynesian Voyaging Society,research and educational corporation in Hawaii,,,,,,
+INS118,Museum of Primitive Art,institution,Q6940999,Museum of Primitive Art,Defunct tribal art museum,Q14709446,Museum of Primitive Art and Culture,,,,
+INS119,Society of Jesus,institution,Q36380,Society of Jesus,male religious institute of the Roman Catholic Church,Q7765105,The Society of Jesus,2004 film,Q101003195,S.J.,postnominal letters denoting membership of the Society of Jesus
+INS120,LINE Creators Market,institution,,,,,,,,,
+INS121,"Didier, Petit et Cie",institution,,,,,,,,,
+INS122,Abuja Pottery Training Centre,institution,,,,,,,,,
+INS123,"Fox, Henderson and Co.",institution,,,,,,,,,
+INS124,Haarlemsche Katoen Maatschappij,institution,Q53580884,Haarlemsche Katoen Maatschappij,,,,,,,
+INS125,Naval Camouflage Unit,institution,,,,,,,,,
+INS126,Evans Products,institution,Q115687349,Evans Products Company,,Q125278888,Evans Products Co. Ltd. v. Crest Warehousing Co. Ltd.,case from the Supreme Court of Canada,Q117113725,Evans Products Co.,
+INS127,Sir J.J. School of Art,institution,Q7527516,Sir Jamsetjee Jeejebhoy School of Art,"school in Mumbai, Maharashtra, India",,,,,,
+INS128,Mayo School of Industrial Art (National College of Arts),institution,,,,,,,,,
+INS129,"Egyptian School of Fine Arts, Cairo",institution,,,,,,,,,
+INS130,"""Hand and Eye Work"" curriculum (Gold Coast)",institution,,,,,,,,,
+INS131,KNUST architecture department,institution,,,,,,,,,
+INS132,"Manufacture Sénégalaise des Arts Décoratifs, Thiès",institution,,,,,,,,,
+INS133,Echigoya (Mitsukoshi),institution,,,,,,,,,
+INS134,Le Bon Marché,institution,Q1200698,Le Bon Marché,"luxury department store in the 7ᵗʰ arrondissement of Paris, France",Q113371997,24S,luxury fashion e-commerce website,Q60291647,Le Bon Marché,"""Histoire de Paris"" panel in Paris 7th arrondissement"
+INS135,Abir Congo Company,institution,,,,,,,,,
+INS136,Creative Growth Art Center,institution,Q60749524,Creative Growth Art Center,"Art center for disabilities in Oakland, California",,,,,,
+INS137,"Trinity College, Cambridge",institution,Q332342,Trinity College,constituent college of the University of Cambridge in England,Q80081792,"Trinity College, Cambridge",print by Sydney R. Jones (British) (2014.221),Q60273758,"Trinity College, Cambridge",scientific article published in Nature
+INS138,Allard Pierson Museum,institution,Q1244372,Allard Pierson Museum,"former museum in Amsterdam, the Netherlands, until 2019",Q17307187,Oude Turfmarkt 127,building in Amsterdam housing the Allard Pierson Museum,,,
+INS139,National Museum of the History of Ukraine,institution,Q2084457,National Historical Museum of Ukraine,"historical museum in Kyiv, Ukraine",Q2457600,National Museum of the History of Ukraine in World War II,"historical museum in Kyiv, Ukraine",,,
+INS140,"Museum of World Culture, Gothenburg",institution,,,,,,,,,
+INS141,National Commission for Museums and Monuments (Nigeria),institution,,,,,,,,,
+INS142,Harris Tweed Authority,institution,,,,,,,,,
+INS143,LIDCOM,institution,Q3043002,Lidcombe,"suburb of Sydney, New South Wales, Australia",Q6543598,Lidcombe railway station,"railway station in Sydney, New South Wales, Australia",Q55616838,Lidcombe Hospital Precinct,hospital
+INS144,LIDKAR,institution,,,,,,,,,
+INS145,Te Rūnanga o Toa Rangatira,institution,Q136755616,Te Runanga O Toa Rangatira Incorporated,charity from New Zealand,,,,,,
+INS146,Saami Council,institution,Q1787062,Saami Council,pan-national council of Sámi peoples,Q106827147,Saami Council's Honorary Award,,Q18690830,Saami Council Literature Prize,Sámi literary award for fiction
+INS147,Sámi Parliaments,institution,,,,,,,,,
+INS148,"Ájtte, Swedish Mountain and Sámi Museum",institution,,,,,,,,,
+INS149,South African San Council,institution,,,,,,,,,
+INS150,Making and Knowing Project,institution,Q98735058,The Making and Knowing Project,research and pedagogical project,,,,,,
+INS151,Sealaska Corporation,institution,Q1666068,Sealaska Corporation,Alaska Native Regional Corporation in Southeast Alaska,,,,,,
+INS152,Te Kohinga Harakeke o Aotearoa,institution,Q136484958,Te Kohinga Harakeke o Aotearoa – National New Zealand Flax Collection,"nationally significant living collection of traditional weaving varieties of harakeke (Phormium sp.) growing at Manaaki Whenua - Landcare Research, Lincoln site",,,,,,
+INS153,Oral History Association,institution,Q7099357,Oral History Association,organization based in US,Q15909129,Oral History Association of Macao,,Q15754678,Oral History Association Of Australia Journal,journal
+INS154,Archives of American Art Oral History Program,institution,,,,,,,,,
+INS155,Repartimiento de comercio,institution,,,,,,,,,
+INS156,A:shiwi A:wan Museum and Heritage Center,institution,Q22021699,A:shiwi A:wan Museum and Heritage Center,"archive organization in Zuni Pueblo, United States",,,,,,
+MAT129,Barley,material,Q11577,Hordeum vulgare,species of plant,Q61665121,barley,cereal grain,Q4861153,Barley,"village and civil parish in the district of North Hertfordshire, England"
+MAT130,Beech,material,Q25114537,Beech,family name,Q930289,Beech,"village and civil parish in Hampshire, United Kingdom",Q112770974,Beech,given name
+MAT131,Churro sheep wool,material,,,,,,,,,
+MAT132,Bayeta,material,Q1464666,baize,"loosely-woven plain-weave cotton or wool textile with a long nap, dyed solid colors (usually green)",Q1370169,dishcloth,cloth used in the kitchen to clean dishes and surfaces,,,
+MAT133,Germantown yarn,material,,,,,,,,,
+MAT134,Rag paper,material,Q3738205,cotton paper,type of paper,Q136334744,Rag paper,Paper made from discarded textiles,,,
+MAT135,Böttger stoneware,material,,,,,,,,,
+MAT136,Fustian,material,Q603100,fustian,"any of a range of heavy woven fabrics originating in the Middle Ages, now usually of cotton",Q141493555,Fustian cutters' cottages,"cottages in Lymm, England",Q43483297,Fustian and Velvet Cutting — A Subdivision of the Lancashire Cotton Industry,scientific article published on 2 July 2016
+MAT137,Rare-earth elements,material,Q190444,rare earth element,any of the fifteen lanthanides plus scandium and yttrium,Q137887872,rare earth elements in Myanmar,,Q59598996,"Rare Earth Elements in National Defense: Background, Oversight Issues, and Options for Congress",Congressional Research Service report
+MAT138,Kermes,material,Q2383821,Kermes,genus of insects,Q35439655,Kermes,"wadi in Agadez, Niger",Q2705591,Kermes vermilio,species of insect
+MKR094,Original Dixieland Jazz Band,maker-community,Q933710,Original Dixieland Jass Band,American jazz band,,,,,,
+MKR095,Mainz joiners' guild,maker-community,,,,,,,,,
+MKR096,Ri-metos,maker-community,,,,,,,,,
+MKR097,Bromley Hall Printworks,maker-community,,,,,,,,,
+MKR098,De Grieksche A,maker-community,Q2446366,De Grieksche A,Dutch ceramics factory,,,,,,
+MKR099,"Decorative Arts Society, Chicago",maker-community,,,,,,,,,
+MKR100,"Chance Brothers, Smethwick",maker-community,,,,,,,,,
+MKR101,Oner Art Combine,maker-community,,,,,,,,,
+MKR102,Ngonge clan,maker-community,Q132745901,Ngonge Clan,clan of Buganda kingdom,Q136709315,Ngonge clan,Sub group of Baganda people belonging to Ngonge clan,,,
+MKR103,Nahua authors of the Florentine Codex,maker-community,,,,,,,,,
+MKR104,Khambhat bead makers,maker-community,,,,,,,,,
+MKR105,Leidsche Katoenmaatschappij,maker-community,Q18286145,Leidse Katoenmaatschappij,"Dutch textile factory, based in Leiden",,,,,,
+MOV107,Design fiction,movement,Q24906197,design fiction,design practice,Q56701002,Design Fiction,,Q59568497,Design Fiction for Mixed-Reality Performances,
+NET064,British gun trade on the West African coast (to 1807),network,,,,,,,,,
+NET065,Chinese contract labour in Peru (1849–1874),network,,,,,,,,,
+NET066,Salaula,network,Q7403716,Salaula,,Q140715120,Salaula: The World of Secondhand Clothing and Zambia. Karen Tranberg Hansen,"scholarly article published in Journal of Anthropological Research, vol. 58, no. 4 (2002) (DOI: 10.1086/JAR.58.4.3630704)",,,
+OBT324,Chinese export porcelain,object-type,Q383044,Chinese export porcelain,any type of porcelain made in China for export,Q140040924,Chinese Export Porcelain,,Q115045371,Chinese Export Porcelain at The Metropolitan Museum of Art,2003 Exhibition at Metropolitan Museum
+OBT325,Noh mask,object-type,Q11612081,noh mask,mask used in noh,Q80025425,Noh Mask,wood by unknown artist (1955.557),Q48989699,Noh masks of the Konparu school,
+OBT326,Hyakumantō darani,object-type,Q3138630,Hyakumantō Darani,one million small wooden pagodas and the woodblock-printed darani scrolls enshrined within,,,,,,
+OBT327,Qompi (cumbi cloth),object-type,,,,,,,,,
+OBT328,Llauto,object-type,Q39782,brass,alloy of copper and zinc,Q3402019,llawt'u,"outfit of the ruling Sapa Incas: variety of turban with the colours of the Tahuantinsuyo, traditionally woven from the wool of the vicuña with different-colored plaits; had a stripe of wool called the maskapaycha with a symbol of the quriqinqi",Q13189967,Llautorco,Mountain in Peru
+OBT329,Diné wearing blanket,object-type,,,,,,,,,
+OBT330,Chief blanket,object-type,Q138867151,Chief Blanket (Third Phase),Chief Blanket (Third Phase) at the Art Institute of Chicago (2001.151),,,,,,
+OBT331,Diné rug,object-type,,,,,,,,,
+OBT332,Celadon roof tile,object-type,,,,,,,,,
+OBT333,Kain panjang,object-type,,,,,,,,,
+OBT334,Inscribed palm stalk,object-type,,,,,,,,,
+OBT335,Canoe splashboard,object-type,Q80041939,Canoe Splashboard,sculpture by unknown artist (1966.130),,,,,,
+OBT336,Khokhuur,object-type,,,,,,,,,
+OBT337,Koshma,object-type,Q122384011,KOSHMAR,2021 video game,Q4237127,Koshmanivka,"village in Mashivka Raion, Poltava Oblast, Ukraine",Q7251742,Koshmak,"village in Korsun-Shevchenkivskyi Raion, Cherkasy Oblast, Ukraine"
+OBT338,Kraak porcelain,object-type,Q1965056,Kraak porcelain,Chinese Ming Dynasty imported porcelain in 16th- & 17th-century Europe,,,,,,
+OBT339,Delftware,object-type,Q1184151,delftware,"type of glazed pottery, originating from the Low Countries",Q103999910,Delftware,encyclopedia article,Q69777789,Delftware master,expert maker of Delftware and officieel member of St. Luke guild
+OBT340,Pilgrim badge,object-type,Q488638,pilgrim badge,effects worn by Christian pilgrims,Q103961855,Pilgrim badge,encyclopedia article,Q61043826,Pilgrim badge,artifact at the Brittany Museum
+OBT341,Nanban lectern (shokendai),object-type,,,,,,,,,
+OBT342,Company-monogram porcelain,object-type,,,,,,,,,
+OBT343,Digital sticker,object-type,Q24839054,sticker,"illustration used in electronic messaging, typically large",,,,,,
+OBT344,Wallpaper,object-type,Q3031192,Wallpaper,magazine,Q191529,wallpaper,material used to cover and decorate interior walls,Q1139104,computer wallpaper,digital image used as a decorative background on a computer desktop
+OBT345,Nasij (cloth of gold),object-type,,,,,,,,,
+OBT346,Moulded plywood leg splint,object-type,,,,,,,,,
+OBT347,CC41 mark,object-type,,,,,,,,,
+OBT348,Hmong story cloth,object-type,,,,,,,,,
+OBT349,Funpon,object-type,,,,,,,,,
+OBT350,Siyah mashq,object-type,Q7533316,Siyah mashq,Calligraphic practice sheets (unique to Persianate calligraphic tradition),Q109675638,Siyāh Mashq in Nasta‘liq,,,,
+OBT351,Mosaic panel,object-type,Q116392257,Mosaic Panel,"mosaic panel at the Metropolitan Museum of Art (MET, 1980.497.10)",Q116378771,Mosaic Panel,"mosaic panel at the Metropolitan Museum of Art (MET, 2000.623)",Q66711996,Mosaic Panel Wall Decor in Kyiv River Terminal,
+OBT352,Ōtsu-e,object-type,Q11437366,Ōtsu-e,Japanese folk art,Q112196148,Ōtsu-e,painting by Unknown Japanese,Q60482578,Ōtsu-e Nirvana of the Buddha (Ōtsu-e Butsu Nehanzu),"painting by Hakuen (Japanese, active 1850-1870) (2016.306)"
+OBT353,Pierre Jeanneret's Chandigarh furniture,object-type,,,,,,,,,
+OBT354,Ensi,object-type,Q1684053,Ensi,Italian rapper (1985),Q11857996,Ensi,given name,Q455645,Ensisheim,"commune in Haut-Rhin, France"
+OBT355,Chuval,object-type,Q2458110,cuval,"large, deep wall bag, used primarily in tents",Q4517434,Chuvalkipovo,"village in Chishminsky District, Russia",Q4517429,Chuvalkipovsky selsoviet,"human settlement in Chishminsky District, Republic of Bashkortostan, Russia"
+OBT356,Darning sampler,object-type,Q80019293,Darning Sampler,sampler by unknown artist (1943.110),Q80018489,Darning Sampler,sampler by unknown artist (1942.528),,,
+OBT357,Jaipur foot,object-type,Q2746681,Jaipur foot,Prosthetic limb,,,,,,
+OBT358,Convict love token,object-type,,,,,,,,,
+OBT359,Storage jar,object-type,Q95965981,storage jar,container for storing liquids or bulk materials,Q114776918,Storage jar,American storage jar (MET 2022.124),Q97101632,Storage jar,"storage jar (American) by David Drake (MET, 2020.7)"
+OBT360,Belt plaque,object-type,Q111274626,Belt Plaque,"a Maya, jadeite belt plaque with two incised heiroglyphs",Q116240886,Belt plaque,"belt plaque at the Metropolitan Museum of Art (MET, 02.18.387)",Q116240896,Belt plaque,"belt plaque at the Metropolitan Museum of Art (MET, 02.18.393)"
+OBT361,"""Tre lune"" watermark",object-type,,,,,,,,,
+OBT362,Scribe's palette,object-type,Q117334916,Scribe's palette,"wooden scribe's palette of the Egyptian New Kingdom, 1539–1076 BCE, in the collection of Museo Egizio, Turin, Italy",Q117397960,Scribe's palette,"wooden scribe's palette of the Egyptian New Kingdom, 1539–1077 BCE, in the collection of Museo Egizio, Turin, Italy (Cat.6222)",Q116235135,Scribe's Palette,"palette, scribe at the Metropolitan Museum of Art (MET, 12.181.203)"
+OBT363,Felt carpet,object-type,,,,,,,,,
+OBT364,Fanner basket,object-type,,,,,,,,,
+OCC295,Navajo Nation v. Urban Outfitters (2012–2016),event,,,,,,,,,
+OCC296,Tlahuitoltepec blouse case (2015),event,,,,,,,,,
+OCC297,In re Southern Rhodesia (1919),event,,,,,,,,,
+OCC298,Mabo v Queensland (No 2) (1992),event,,,,,,,,,
+OCC299,Rhodesian censorship of Great Zimbabwe archaeology (1970s),event,,,,,,,,,
+OCC300,Navajo delegation to Washington (1874),event,,,,,,,,,
+OCC301,Naaltsoos Sání (1868),event,,,,,,,,,
+OCC302,Peru Law 6634 (1929),event,,,,,,,,,
+OCC303,Sheep Is Life,event,,,,,,,,,
+OCC304,Korea's 1916 Regulations,event,,,,,,,,,
+OCC305,China's 1930 Law on the Preservation of Antiquities,event,,,,,,,,,
+OCC306,Emi rebellion (764),event,,,,,,,,,
+OCC307,Sripuranthan Nataraja theft and return (2006–2014),event,,,,,,,,,
+OCC308,Antiquities and Art Treasures Act (1972),event,,,,,,,,,
+OCC309,Rubin v. Islamic Republic of Iran (2018),event,,,,,,,,,
+OCC310,Met Persian Expedition (1932–35),event,,,,,,,,,
+OCC311,West Prussian craft ordinance (1774),event,,,,,,,,,
+OCC312,Lake Condah drainage (1954),event,,,,,,,,,
+OCC313,"First Nations cultural protocols, third edition (2020)",event,,,,,,,,,
+OCC314,Han acquisition of Central Asian horses (1st century BCE),event,,,,,,,,,
+OCC315,Dürer's imperial privilege (1511),event,,,,,,,,,
+OCC316,"SCAPIN-1535, ""Made in Occupied Japan"" (1947)",event,,,,,,,,,
+OCC317,Getty Images v Stability AI (2025),event,,,,,,,,,
+OCC318,US Copyright Office report on generative AI training (2025),event,,,,,,,,,
+OCC319,Canut revolt (1831),event,,,,,,,,,
+OCC320,Canut revolt (1834),event,,,,,,,,,
+OCC321,Housing (Temporary Accommodation) Act (1944),event,,,,,,,,,
+OCC322,Ministry of Information posters (1939),event,,,,,,,,,
+OCC323,Tashkent earthquake (1966),event,Q4120993,Tashkent earthquake (1966),"1966 earthquake centered in Tashkent, Uzbek SSR",,,,,,
+OCC324,Mitsukoshi Department Store Declaration (1904),event,,,,,,,,,
+OCC325,"""Haute Couture"" designation (1945)",event,,,,,,,,,
+OCC326,Simplified Arabic (1954),event,,,,,,,,,
+OCC327,Project 748 (1974),event,,,,,,,,,
+OCC328,Linotype Bengali (1978–82),event,,,,,,,,,
+OCC329,Han unification (1992),event,,,,,,,,,
+OCC330,Etsy rule change (2013),event,,,,,,,,,
+OCC331,Indigo Commission (1860),event,,,,,,,,,
+OCC332,US wool-tariff removal (1894),event,,,,,,,,,
+OCC333,Crimean treasures case (2014–2023),event,,,,,,,,,
+OCC334,AAMD 1970 guideline,event,,,,,,,,,
+OCC335,Prada SS26 Kolhapuri case (2025–2026),event,,,,,,,,,
+OCC336,Haka Ka Mate Attribution Act (2014),event,,,,,,,,,
+OCC337,Frozen 2 agreement (2019),event,,,,,,,,,
+OCC338,Transfers to Ájtte (2023 and 2025),event,,,,,,,,,
+OCC339,San Code of Research Ethics (2017),event,,,,,,,,,
+OCC340,Ancestral Voices collection,event,,,,,,,,,
+OCC341,Battle of Talas (751),event,,,,,,,,,
+OCC342,Khotan silk legend,event,,,,,,,,,
+OCC343,Leonid storm (1833),event,,,,,,,,,
+OCC344,Zuni map art (2006–),event,,,,,,,,,
+OCC345,Safeguarding programme for Al Sadu (2011–2023),event,,,,,,,,,
+OCC346,UNESCO Ethical Principles for Safeguarding Intangible Cultural Heritage (2015),event,,,,,,,,,
+PER481,Michael Thonet,person,Q60229,Michael Thonet,German-Austrian cabinet maker (1796-1871),Q94854331,Michael Thonet,entrepreneur 1824-1902,Q122095916,Michael Thonet: rodina a firma,book edition published in 2021
+PER482,August Thonet,person,Q12832836,August Thonet,,Q25264304,August Thonet,(1829-1910),,,
+PER483,Musli,person,Q432,Islam,monotheistic Abrahamic religion founded by Muhammad,Q28892,Islamic calendar,lunar calendar used by Muslims to determine religious observances,Q189459,ulema,Muslim legal scholars
+PER484,Hans and Marie-Louise Erlenmeyer,person,,,,,,,,,
+PER485,Kehar Singh,person,Q130367392,Kehar Singh,Sikh artist,Q6383467,Kehar Singh,former Indian politician and convicted criminal,Q48869006,Kehar Singh,Indian wrestler
+PER486,Giovanni Paolo Panini,person,Q286670,Giovanni Paolo Panini,Italian painter and architect (1691–1765),,,,,,
+PER487,"Victor de Riqueti, marquis de Mirabeau",person,Q947485,"Victor de Riqueti, marquis de Mirabeau",French physiocrat economist (1715–1789),,,,,,
+PER488,Charles Batteux,person,Q1063695,Charles Batteux,French philosopher,Q118201854,"Charles Batteux and His ""Beaux-Arts"" in the 18th Century",article published in 2022,,,
+PER489,J. Theodore Bent,person,,,,,,,,,
+PER490,Gertrude Caton-Thompson,person,Q276177,Gertrude Caton Thompson,British archaeologist (1888–1985),Q112510226,"Gertrude Caton Thompson (1888-1985), Famous Footsteps to Fill",scientific article published in 2007,,,
+PER491,Peter Garlake,person,Q7174176,Peter Garlake,Zimbabwean academic,Q58905048,"Peter Garlake. The hunter's vision: the prehistoric rock art of Zimbabwe. 176 pages, 36 colour plates, 185 figures, 1 map. 1995. London: British Museum Press; 0-7141-2518-0 hardback £16.99",scholarly article by Thomas A. Dowson published June 1996 in Antiquity,Q57984258,"Peter Garlake (1934–2011), Great Zimbabwe and the politics of the past in Zimbabwe",scholarly article by Innocent Pikirayi published June 2012 in Azania Archaeological Research in Africa
+PER492,Sultan 'Ali al-Mashhadi,person,Q5922231,Sultan Ali Mashhadi,Iranian artist and calligrapher (1435–1519),,,,,,
+PER493,Ahmed Ansari,person,Q63995400,Ahmed Ansari Syed,Indian politician,,,,,,
+PER494,James Reese Europe,person,Q1280917,James Reese Europe,American jazz musician and United States Army officer (1880-1919),Q125415509,"James Reese Europe, Jr.",American sailor (1917–2001),Q56032559,James Reese Europe and the Infancy of Jazz Criticism,journal article about American bandleader and composer James Reese Europe
+PER495,Mamadou Kouyaté,person,Q16181804,Mamadou Kouyaté,,Q65029791,Mamadou Kouyaté,Malian association football player,Q66853534,Mamadou Kouyaté,Wikimedia disambiguation page
+PER496,Itti-Marduk-balāṭu,person,Q144318,Itti-Marduk-balatu,Babylonian king,Q1675328,Itti-Marduk-balatu,,Q24278899,Itti-Marduk-balatu,Wikimedia disambiguation page
+PER497,Wang Chaohui,person,,,,,,,,,
+PER498,Ahammangiwa (Igueghae),person,,,,,,,,,
