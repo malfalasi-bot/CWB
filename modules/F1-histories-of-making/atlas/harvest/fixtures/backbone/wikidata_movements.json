@@ -1,0 +1,437 @@
+{
+ "head": {
+  "vars": [
+   "item",
+   "label",
+   "description",
+   "inception",
+   "start",
+   "end",
+   "dissolved",
+   "countries",
+   "influenced_by",
+   "aat_id",
+   "enwiki"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q40415"
+    },
+    "label": {
+     "type": "literal",
+     "value": "Impressionism",
+     "xml:lang": "en"
+    },
+    "description": {
+     "type": "literal",
+     "value": "19th-century art movement",
+     "xml:lang": "en"
+    },
+    "countries": {
+     "type": "literal",
+     "value": "Normandy"
+    },
+    "influenced_by": {
+     "type": "literal",
+     "value": ""
+    },
+    "aat_id": {
+     "type": "literal",
+     "value": "300021503"
+    },
+    "enwiki": {
+     "type": "uri",
+     "value": "https://en.wikipedia.org/wiki/Impressionism"
+    },
+    "inception": {
+     "type": "literal",
+     "value": "1860-01-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+   },
+   {
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q34636"
+    },
+    "label": {
+     "type": "literal",
+     "value": "Art Nouveau",
+     "xml:lang": "en"
+    },
+    "description": {
+     "type": "literal",
+     "value": "international philosophy and style of art, architecture and applied art",
+     "xml:lang": "en"
+    },
+    "countries": {
+     "type": "literal",
+     "value": ""
+    },
+    "influenced_by": {
+     "type": "literal",
+     "value": ""
+    },
+    "aat_id": {
+     "type": "literal",
+     "value": "300021430"
+    },
+    "enwiki": {
+     "type": "uri",
+     "value": "https://en.wikipedia.org/wiki/Art_Nouveau"
+    },
+    "inception": {
+     "type": "literal",
+     "value": "1890-01-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "start": {
+     "type": "literal",
+     "value": "1880-01-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "end": {
+     "type": "literal",
+     "value": "1910-01-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+   },
+   {
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q124354"
+    },
+    "label": {
+     "type": "literal",
+     "value": "Bauhaus",
+     "xml:lang": "en"
+    },
+    "description": {
+     "type": "literal",
+     "value": "school in Germany that combined crafts and the fine arts",
+     "xml:lang": "en"
+    },
+    "countries": {
+     "type": "literal",
+     "value": "Germany"
+    },
+    "influenced_by": {
+     "type": "literal",
+     "value": "Q207445; Q160438"
+    },
+    "aat_id": {
+     "type": "literal",
+     "value": "300021432"
+    },
+    "enwiki": {
+     "type": "uri",
+     "value": "https://en.wikipedia.org/wiki/Bauhaus"
+    },
+    "inception": {
+     "type": "literal",
+     "value": "1919-01-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "dissolved": {
+     "type": "literal",
+     "value": "1933-01-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+   },
+   {
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q173782"
+    },
+    "label": {
+     "type": "literal",
+     "value": "Art Deco",
+     "xml:lang": "en"
+    },
+    "description": {
+     "type": "literal",
+     "value": "influential visual arts design style which first appeared in France during the 1920s",
+     "xml:lang": "en"
+    },
+    "countries": {
+     "type": "literal",
+     "value": "France"
+    },
+    "influenced_by": {
+     "type": "literal",
+     "value": "Q16675384; Q524154; Q245188; Q207103; Q153793; Q131221; Q47942; Q42934; Q35548"
+    },
+    "aat_id": {
+     "type": "literal",
+     "value": "300021426"
+    },
+    "enwiki": {
+     "type": "uri",
+     "value": "https://en.wikipedia.org/wiki/Art_Deco"
+    },
+    "inception": {
+     "type": "literal",
+     "value": "1925-01-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+   },
+   {
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q122960"
+    },
+    "label": {
+     "type": "literal",
+     "value": "Rococo",
+     "xml:lang": "en"
+    },
+    "description": {
+     "type": "literal",
+     "value": "18th-century artistic movement and style",
+     "xml:lang": "en"
+    },
+    "countries": {
+     "type": "literal",
+     "value": ""
+    },
+    "influenced_by": {
+     "type": "literal",
+     "value": "Q170292"
+    },
+    "aat_id": {
+     "type": "literal",
+     "value": "300021155"
+    },
+    "enwiki": {
+     "type": "uri",
+     "value": "https://en.wikipedia.org/wiki/Rococo"
+    },
+    "start": {
+     "type": "literal",
+     "value": "1730-01-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "end": {
+     "type": "literal",
+     "value": "1780-01-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+   },
+   {
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q207445"
+    },
+    "label": {
+     "type": "literal",
+     "value": "De Stijl",
+     "xml:lang": "en"
+    },
+    "description": {
+     "type": "literal",
+     "value": "Dutch artistic movement",
+     "xml:lang": "en"
+    },
+    "countries": {
+     "type": "literal",
+     "value": "Netherlands"
+    },
+    "influenced_by": {
+     "type": "literal",
+     "value": "Q629307; Q318816; Q207103; Q130777; Q42934; Q6034; Q5604"
+    },
+    "aat_id": {
+     "type": "literal",
+     "value": "300021259"
+    },
+    "enwiki": {
+     "type": "uri",
+     "value": "https://en.wikipedia.org/wiki/De_Stijl"
+    },
+    "inception": {
+     "type": "literal",
+     "value": "1917-01-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "start": {
+     "type": "literal",
+     "value": "1917-10-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "end": {
+     "type": "literal",
+     "value": "1932-01-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "dissolved": {
+     "type": "literal",
+     "value": "1932-01-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+   },
+   {
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q330369"
+    },
+    "label": {
+     "type": "literal",
+     "value": "Arts and Crafts movement",
+     "xml:lang": "en"
+    },
+    "description": {
+     "type": "literal",
+     "value": "international design movement",
+     "xml:lang": "en"
+    },
+    "countries": {
+     "type": "literal",
+     "value": ""
+    },
+    "influenced_by": {
+     "type": "literal",
+     "value": ""
+    },
+    "aat_id": {
+     "type": "literal",
+     "value": "300266319"
+    },
+    "enwiki": {
+     "type": "uri",
+     "value": "https://en.wikipedia.org/wiki/Arts_and_Crafts_movement"
+    },
+    "start": {
+     "type": "literal",
+     "value": "1880-01-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "end": {
+     "type": "literal",
+     "value": "1910-01-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+   },
+   {
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q185905"
+    },
+    "label": {
+     "type": "literal",
+     "value": "ukiyo-e",
+     "xml:lang": "en"
+    },
+    "description": {
+     "type": "literal",
+     "value": "Japanese art genre, fl. 17th–19th c., consisting of woodblock prints and paintings of such subjects as female beauties, kabuki actors, sumo wrestlers, scenes from history and folk tales, travel scenes, landscapes, flora, fauna, and erotica",
+     "xml:lang": "en"
+    },
+    "countries": {
+     "type": "literal",
+     "value": "Japan"
+    },
+    "influenced_by": {
+     "type": "literal",
+     "value": ""
+    },
+    "aat_id": {
+     "type": "literal",
+     "value": "300106769"
+    },
+    "enwiki": {
+     "type": "uri",
+     "value": "https://en.wikipedia.org/wiki/Ukiyo-e"
+    },
+    "inception": {
+     "type": "literal",
+     "value": "1700-01-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "end": {
+     "type": "literal",
+     "value": "1900-01-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+   },
+   {
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q852337"
+    },
+    "label": {
+     "type": "literal",
+     "value": "geometric art",
+     "xml:lang": "en"
+    },
+    "description": {
+     "type": "literal",
+     "value": "phase of Greek art characterized by geometric motifs in vase painting, fl. ca. 900–700 BCE, centred in Athens and spread among Aegean trading cities",
+     "xml:lang": "en"
+    },
+    "countries": {
+     "type": "literal",
+     "value": ""
+    },
+    "influenced_by": {
+     "type": "literal",
+     "value": ""
+    },
+    "aat_id": {
+     "type": "literal",
+     "value": "300020083"
+    },
+    "enwiki": {
+     "type": "uri",
+     "value": "https://en.wikipedia.org/wiki/Geometric_art"
+    },
+    "start": {
+     "type": "literal",
+     "value": "-0899-01-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "end": {
+     "type": "literal",
+     "value": "-0750-01-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+   },
+   {
+    "item": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1273221"
+    },
+    "label": {
+     "type": "literal",
+     "value": "Memphis Group",
+     "xml:lang": "en"
+    },
+    "description": {
+     "type": "literal",
+     "value": "Italian design group",
+     "xml:lang": "en"
+    },
+    "countries": {
+     "type": "literal",
+     "value": "Italy"
+    },
+    "influenced_by": {
+     "type": "literal",
+     "value": ""
+    },
+    "enwiki": {
+     "type": "uri",
+     "value": "https://en.wikipedia.org/wiki/Memphis_Group"
+    },
+    "inception": {
+     "type": "literal",
+     "value": "1981-01-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+   }
+  ]
+ }
+}

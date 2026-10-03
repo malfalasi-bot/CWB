@@ -233,7 +233,7 @@ Each decision has a default. Unless you change it, the default stands and the ne
 | 7 | Self-host every CC0 and CC BY 3D model and image now, before Sketchfab's new owner changes the terms | Yes |
 | 8 | Widen the canon's movement rows to the industries the programme's name implies (film, music, games, advertising, fashion, publishing), as a sweep of its own | Yes, after the 60 Ring-1 pages |
 | 9 | Build dense; no light path; the five-minute form becomes the lecture's first chapter | Yes |
-| 10 | Whether F1 will ever be sold. If it might, nothing derived from the non-commercial programmes (Smarthistory, Khan, OER Project, OpenLearn) or from CC BY-NC models and weights can go in, and the tooling choices above already assume that | Assume it might be sold |
+| 10 | Whether F1 will ever be sold | Decided 3 October: free for now; a subscription or institutional licensing may follow once the course has proved its value. Build as if it might be sold: link to non-commercial sources freely, take nothing from them into F1 |
 | 11 | The rule on "free" against "open source": GSAP and Marigold are free but not open-source licences | Free is enough; prefer open source where equal |
 
 **Next, in order, needing nothing from you**

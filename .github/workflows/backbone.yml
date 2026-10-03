@@ -1,0 +1,72 @@
+name: Backbone (F1 Atlas)
+
+# Pulls the open structural data the Atlas is built on (Wikidata movements and styles, PeriodO period definitions,
+# Pleiades places, Getty AAT and TGN ids) and matches it to the canon by name. Runs monthly, a week after the harvest,
+# and on demand. It never writes to main directly: it opens a pull request for a person to review, and nothing in it
+# reaches the canon until a person confirms each proposal.
+on:
+  schedule:
+    - cron: "41 3 8 * *"   # 03:41 UTC on the 8th of each month
+  workflow_dispatch:
+    inputs:
+      movements_limit:
+        description: "Wikidata items to fetch this run (blank: all art movements, architectural styles and art styles)"
+        default: ""
+      periods_limit:
+        description: "PeriodO period definitions to keep this run (blank: all)"
+        default: ""
+      places_limit:
+        description: "Pleiades places to keep this run (blank: all)"
+        default: ""
+      getty_limit:
+        description: "Canon movement/style/school and place rows to look up in Getty AAT and TGN this run"
+        default: "300"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  backbone:
+    name: F1 Atlas backbone
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    defaults:
+      run:
+        working-directory: modules/F1-histories-of-making/atlas
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Offline tests first
+        run: cd harvest && python test_backbone.py
+      - name: Wikidata movements and styles (CC0)
+        run: python harvest/backbone.py movements ${{ github.event.inputs.movements_limit && format('--limit {0}', github.event.inputs.movements_limit) || '' }}
+        continue-on-error: true
+      - name: PeriodO period definitions (CC0)
+        run: python harvest/backbone.py periods ${{ github.event.inputs.periods_limit && format('--limit {0}', github.event.inputs.periods_limit) || '' }}
+        continue-on-error: true
+      - name: Pleiades places (CC BY 3.0)
+        run: python harvest/backbone.py places ${{ github.event.inputs.places_limit && format('--limit {0}', github.event.inputs.places_limit) || '' }}
+        continue-on-error: true
+      - name: Getty AAT and TGN ids (ODC-By 1.0)
+        run: python harvest/backbone.py getty --limit "${{ github.event.inputs.getty_limit || '300' }}"
+        continue-on-error: true
+      - name: Match the canon to the harvest
+        run: python harvest/backbone.py match
+      - name: Open a pull request with the results
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then echo "Nothing changed."; exit 0; fi
+          BR="backbone/$(date -u +%Y-%m-%d-%H%M)"
+          git config user.name "f1-harvest-bot"
+          git config user.email "f1-harvest-bot@users.noreply.github.com"
+          git checkout -b "$BR"
+          git add -A data reports
+          git commit -m "Backbone $(date -u +%Y-%m-%d): Wikidata movements, PeriodO periods, Pleiades places, Getty ids, canon matches"
+          git push origin "$BR"
+          gh pr create --base main --head "$BR" \
+            --title "Backbone $(date -u +%Y-%m-%d)" \
+            --body "Automated backbone harvest. Review before merging (paths under modules/F1-histories-of-making/atlas/): reports/backbone_matches.md (proposed matches with date disagreements flagged), data/backbone/movements_wikidata.csv, data/backbone/periods_periodo.csv, data/backbone/places_pleiades.csv, data/backbone/getty_ids.csv. Proposals only: a canon row gains an id or a date range only when a person confirms it. Licences and attribution lines are in DATA_LICENCES.md."

@@ -1,0 +1,203 @@
+{
+ "aat": {
+  "Art Nouveau": {
+   "head": {
+    "vars": [
+     "Subject",
+     "Term",
+     "Parents"
+    ]
+   },
+   "results": {
+    "bindings": [
+     {
+      "Subject": {
+       "type": "uri",
+       "value": "http://vocab.getty.edu/aat/300403932"
+      },
+      "Term": {
+       "type": "literal",
+       "value": "Proto-Art Nouveau (English style)",
+       "xml:lang": "en"
+      },
+      "Parents": {
+       "type": "literal",
+       "value": "<modern British styles and movements>, <modern European regional styles and movements>, ... Styles and Periods Facet"
+      }
+     },
+     {
+      "Subject": {
+       "type": "uri",
+       "value": "http://vocab.getty.edu/aat/300021430"
+      },
+      "Term": {
+       "type": "literal",
+       "value": "Art Nouveau",
+       "xml:lang": "en"
+      },
+      "Parents": {
+       "type": "literal",
+       "value": "<modern European styles and movements>, European, ... Styles and Periods Facet"
+      }
+     },
+     {
+      "Subject": {
+       "type": "uri",
+       "value": "http://vocab.getty.edu/aat/300112105"
+      },
+      "Term": {
+       "type": "literal",
+       "value": "Nouveau Réalisme",
+       "xml:lang": "en"
+      },
+      "Parents": {
+       "type": "literal",
+       "value": "<post-1945 fine arts styles and movements>, <international post-1945 styles and movements>, ... Styles and Periods Facet"
+      }
+     },
+     {
+      "Subject": {
+       "type": "uri",
+       "value": "http://vocab.getty.edu/aat/300387102"
+      },
+      "Term": {
+       "type": "literal",
+       "value": "Nose art",
+       "xml:lang": "en"
+      },
+      "Parents": {
+       "type": "literal",
+       "value": "folk art (traditional art), art genres, ... Associated Concepts Facet"
+      }
+     },
+     {
+      "Subject": {
+       "type": "uri",
+       "value": "http://vocab.getty.edu/aat/300443929"
+      },
+      "Term": {
+       "type": "literal",
+       "value": "art studios (organizations)",
+       "xml:lang": "en"
+      },
+      "Parents": {
+       "type": "literal",
+       "value": "<studios by function>, studios (organizations), ... Agents Facet"
+      }
+     }
+    ]
+   }
+  }
+ },
+ "tgn": {
+  "Carthage": {
+   "head": {
+    "vars": [
+     "Subject",
+     "Term",
+     "Parents",
+     "Type"
+    ]
+   },
+   "results": {
+    "bindings": [
+     {
+      "Subject": {
+       "type": "uri",
+       "value": "http://vocab.getty.edu/tgn/2223948"
+      },
+      "Term": {
+       "type": "literal",
+       "value": "Carthage, Lake"
+      },
+      "Parents": {
+       "type": "literal",
+       "value": "Miner, South Dakota, ... World"
+      },
+      "Type": {
+       "type": "literal",
+       "value": "reservoirs (water distribution structures)",
+       "xml:lang": "en"
+      }
+     },
+     {
+      "Subject": {
+       "type": "uri",
+       "value": "http://vocab.getty.edu/tgn/2097090"
+      },
+      "Term": {
+       "type": "literal",
+       "value": "Carthage"
+      },
+      "Parents": {
+       "type": "literal",
+       "value": "Miner, South Dakota, ... World"
+      },
+      "Type": {
+       "type": "literal",
+       "value": "inhabited places",
+       "xml:lang": "en"
+      }
+     },
+     {
+      "Subject": {
+       "type": "uri",
+       "value": "http://vocab.getty.edu/tgn/2223932"
+      },
+      "Term": {
+       "type": "literal",
+       "value": "Carthage"
+      },
+      "Parents": {
+       "type": "literal",
+       "value": "Ogle, Illinois, ... World"
+      },
+      "Type": {
+       "type": "literal",
+       "value": "inhabited places",
+       "xml:lang": "en"
+      }
+     },
+     {
+      "Subject": {
+       "type": "uri",
+       "value": "http://vocab.getty.edu/tgn/2038091"
+      },
+      "Term": {
+       "type": "literal",
+       "value": "Carthage"
+      },
+      "Parents": {
+       "type": "literal",
+       "value": "Campbell, Kentucky, ... World"
+      },
+      "Type": {
+       "type": "literal",
+       "value": "inhabited places",
+       "xml:lang": "en"
+      }
+     },
+     {
+      "Subject": {
+       "type": "uri",
+       "value": "http://vocab.getty.edu/tgn/2026889"
+      },
+      "Term": {
+       "type": "literal",
+       "value": "Carthage"
+      },
+      "Parents": {
+       "type": "literal",
+       "value": "Hancock, Illinois, ... World"
+      },
+      "Type": {
+       "type": "literal",
+       "value": "inhabited places",
+       "xml:lang": "en"
+      }
+     }
+    ]
+   }
+  }
+ }
+}

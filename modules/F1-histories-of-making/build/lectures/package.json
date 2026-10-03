@@ -1,0 +1,27 @@
+{
+  "name": "f1-lectures",
+  "private": true,
+  "version": "0.1.0",
+  "description": "F1 Histories of making: the lecture production template on Motion Canvas (house timeline, map, chain, caption and legend) and the F1.13 lecture.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "serve": "vite",
+    "build:player": "vite build --config vite.player.config.ts",
+    "render": "node scripts/render.mjs",
+    "contact-sheet": "node scripts/contact-sheet.mjs"
+  },
+  "dependencies": {
+    "@motion-canvas/2d": "^3.17.2",
+    "@motion-canvas/core": "^3.17.2",
+    "@motion-canvas/player": "^3.17.2",
+    "@motion-canvas/ui": "^3.17.2",
+    "@motion-canvas/vite-plugin": "^3.17.2",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^5.4.21"
+  }
+}

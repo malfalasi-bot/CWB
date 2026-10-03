@@ -1,0 +1,5 @@
+id,title,description,uid,path,creators,created,modified,timePeriods,featureTypes,reprLat,reprLong,bbox,connectsWith
+433032,Pompeii,,,/places/433032,,,,"A,C,H,R","urban, settlement",40.74941,14.485429,"14.485429, 40.74941, 14.485429, 40.74941",
+314921,Carthago,,,/places/314921,,,,"A,C,H,R,L","settlement, port",36.853056,10.323056,,
+993,Gallia,,,/places/993,,2021-11-14T03:44:08Z,,,region,46.360953305773286,1.6706144893053327,"-19.665682, 31.937048, 9.6708805, 51.9019",
+999909607,House of the Ceii,,,/places/999909607,,2026-01-20T18:19:24Z,,R,townhouse,40.7500099,14.4895058,,

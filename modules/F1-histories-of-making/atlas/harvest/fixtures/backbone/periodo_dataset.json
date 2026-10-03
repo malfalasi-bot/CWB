@@ -1,0 +1,355 @@
+{
+ "type": "rdf:Bag",
+ "id": "p0d/#authorities",
+ "@context": [
+  "http://n2t.net/ark:/99152/p0c",
+  {
+   "@base": "http://n2t.net/ark:/99152/"
+  }
+ ],
+ "authorities": {
+  "p05krdx": {
+   "source": {
+    "title": "Sandy Pylos : an archaeological history from Nestor to Navarino",
+    "contributors": [
+     {
+      "name": "Alcock, Susan E.",
+      "id": "http://viaf.org/viaf/14872681"
+     },
+     {
+      "name": "Davis, Jack L.",
+      "id": "http://viaf.org/viaf/34515705"
+     }
+    ],
+    "yearPublished": 1998,
+    "id": "http://www.worldcat.org/oclc/37663433"
+   },
+   "type": "Authority",
+   "id": "p05krdx",
+   "periods": {
+    "p05krdx2khc": {
+     "start": {
+      "in": {
+       "year": "-0899"
+      },
+      "label": "ca. 900 B.C."
+     },
+     "type": "Period",
+     "language": "http://lexvo.org/id/iso639-1/en",
+     "id": "p05krdx2khc",
+     "localizedLabels": {
+      "en": [
+       "Geometric Period",
+       "Geometric"
+      ]
+     },
+     "source": {
+      "partOf": "http://www.worldcat.org/oclc/37663433",
+      "locator": "page 308"
+     },
+     "spatialCoverage": [
+      {
+       "id": "http://www.wikidata.org/entity/Q1247159",
+       "label": "Messenia"
+      }
+     ],
+     "label": "Geometric Period",
+     "spatialCoverageDescription": "ancient Pylos",
+     "stop": {
+      "in": {
+       "year": "-0699"
+      },
+      "label": "700 B.C."
+     },
+     "languageTag": "en"
+    },
+    "p05krdx596r": {
+     "start": {
+      "in": {
+       "year": "-0699"
+      },
+      "label": "ca. 700 B.C."
+     },
+     "type": "Period",
+     "language": "http://lexvo.org/id/iso639-1/en",
+     "id": "p05krdx596r",
+     "localizedLabels": {
+      "en": [
+       "Archaic Period",
+       "Archaic"
+      ]
+     },
+     "source": {
+      "partOf": "http://www.worldcat.org/oclc/37663433",
+      "locator": "page 308"
+     },
+     "spatialCoverage": [
+      {
+       "id": "http://www.wikidata.org/entity/Q1247159",
+       "label": "Messenia"
+      }
+     ],
+     "label": "Archaic Period",
+     "spatialCoverageDescription": "ancient Pylos",
+     "stop": {
+      "in": {
+       "year": "-0479"
+      },
+      "label": "480 B.C."
+     },
+     "languageTag": "en"
+    },
+    "p05krdxktwz": {
+     "start": {
+      "in": {
+       "year": "-0479"
+      },
+      "label": "480 B.C."
+     },
+     "type": "Period",
+     "language": "http://lexvo.org/id/iso639-1/en",
+     "id": "p05krdxktwz",
+     "localizedLabels": {
+      "en": [
+       "Classical Period",
+       "Classical"
+      ]
+     },
+     "source": {
+      "partOf": "http://www.worldcat.org/oclc/37663433",
+      "locator": "page 308"
+     },
+     "spatialCoverage": [
+      {
+       "id": "http://www.wikidata.org/entity/Q1247159",
+       "label": "Messenia"
+      }
+     ],
+     "label": "Classical Period",
+     "spatialCoverageDescription": "ancient Pylos",
+     "stop": {
+      "in": {
+       "year": "-0322"
+      },
+      "label": "323 B.C."
+     },
+     "languageTag": "en"
+    },
+    "p05krdx4jg8": {
+     "start": {
+      "in": {
+       "year": "-0322"
+      },
+      "label": "323 B.C."
+     },
+     "type": "Period",
+     "language": "http://lexvo.org/id/iso639-1/en",
+     "id": "p05krdx4jg8",
+     "localizedLabels": {
+      "en": [
+       "Hellenistic Period",
+       "Hellenistic"
+      ]
+     },
+     "source": {
+      "partOf": "http://www.worldcat.org/oclc/37663433",
+      "locator": "page 308"
+     },
+     "spatialCoverage": [
+      {
+       "id": "http://www.wikidata.org/entity/Q1247159",
+       "label": "Messenia"
+      }
+     ],
+     "label": "Hellenistic Period",
+     "spatialCoverageDescription": "ancient Pylos",
+     "stop": {
+      "in": {
+       "year": "-0030"
+      },
+      "label": "31 B.C."
+     },
+     "languageTag": "en"
+    },
+    "p05krdx4q63": {
+     "start": {
+      "in": {
+       "year": "0900"
+      },
+      "label": "A.D. 900"
+     },
+     "type": "Period",
+     "language": "http://lexvo.org/id/iso639-1/en",
+     "id": "p05krdx4q63",
+     "localizedLabels": {
+      "en": [
+       "Middle Byzantine"
+      ]
+     },
+     "source": {
+      "partOf": "http://www.worldcat.org/oclc/37663433",
+      "locator": "page 215"
+     },
+     "spatialCoverage": [
+      {
+       "id": "http://www.wikidata.org/entity/Q1247159",
+       "label": "Messenia"
+      }
+     ],
+     "label": "Middle Byzantine",
+     "spatialCoverageDescription": "ancient Pylos",
+     "stop": {
+      "in": {
+       "year": "1204"
+      },
+      "label": "A.D. 1204"
+     },
+     "languageTag": "en"
+    },
+    "p05krdxs4dx": {
+     "start": {
+      "in": {
+       "year": "1261"
+      },
+      "label": "1261 A.D."
+     },
+     "type": "Period",
+     "language": "http://lexvo.org/id/iso639-1/en",
+     "id": "p05krdxs4dx",
+     "localizedLabels": {
+      "en": [
+       "Late Byzantine Period",
+       "Late Byzantine"
+      ]
+     },
+     "source": {
+      "partOf": "http://www.worldcat.org/oclc/37663433",
+      "locator": "page 309"
+     },
+     "spatialCoverage": [
+      {
+       "id": "http://www.wikidata.org/entity/Q1247159",
+       "label": "Messenia"
+      }
+     ],
+     "label": "Late Byzantine Period",
+     "spatialCoverageDescription": "ancient Pylos",
+     "stop": {
+      "in": {
+       "year": "1453"
+      },
+      "label": "1453 A.D."
+     },
+     "languageTag": "en"
+    },
+    "p05krdxmkzt": {
+     "start": {
+      "in": {
+       "year": "-1099"
+      },
+      "label": "ca. 1100 B.C."
+     },
+     "type": "Period",
+     "language": "http://lexvo.org/id/iso639-1/en",
+     "id": "p05krdxmkzt",
+     "localizedLabels": {
+      "en": [
+       "Dark Age"
+      ]
+     },
+     "source": {
+      "partOf": "http://www.worldcat.org/oclc/37663433",
+      "locator": "page 97"
+     },
+     "spatialCoverage": [
+      {
+       "id": "http://www.wikidata.org/entity/Q1247159",
+       "label": "Messenia"
+      }
+     ],
+     "label": "Dark Age",
+     "spatialCoverageDescription": "ancient Pylos",
+     "stop": {
+      "in": {
+       "year": "-0899"
+      },
+      "label": "900 B.C."
+     },
+     "languageTag": "en"
+    },
+    "p05krdxpb2m": {
+     "start": {
+      "in": {
+       "earliestYear": "-1699",
+       "latestYear": "-1600"
+      },
+      "label": "seventeenth century B.C."
+     },
+     "type": "Period",
+     "language": "http://lexvo.org/id/iso639-1/en",
+     "id": "p05krdxpb2m",
+     "localizedLabels": {
+      "en": [
+       "Early Mycenaean"
+      ]
+     },
+     "source": {
+      "partOf": "http://www.worldcat.org/oclc/37663433",
+      "locator": "page 67"
+     },
+     "spatialCoverage": [
+      {
+       "id": "http://www.wikidata.org/entity/Q1247159",
+       "label": "Messenia"
+      }
+     ],
+     "label": "Early Mycenaean",
+     "spatialCoverageDescription": "ancient Pylos",
+     "stop": {
+      "in": {
+       "earliestYear": "-1499",
+       "latestYear": "-1400"
+      },
+      "label": "fifteenth century B.C."
+     },
+     "languageTag": "en"
+    },
+    "p05krdxc69f": {
+     "start": {
+      "in": {
+       "year": "-7550"
+      },
+      "label": "ca. 9500 BP"
+     },
+     "type": "Period",
+     "language": "http://lexvo.org/id/iso639-1/en",
+     "id": "p05krdxc69f",
+     "localizedLabels": {
+      "en": [
+       "Mesolithic"
+      ]
+     },
+     "source": {
+      "partOf": "http://www.worldcat.org/oclc/37663433",
+      "locator": "page 307"
+     },
+     "spatialCoverage": [
+      {
+       "id": "http://www.wikidata.org/entity/Q1247159",
+       "label": "Messenia"
+      }
+     ],
+     "label": "Mesolithic",
+     "spatialCoverageDescription": "ancient Pylos",
+     "stop": {
+      "in": {
+       "year": "-6050"
+      },
+      "label": "8000 BP"
+     },
+     "languageTag": "en"
+    }
+   }
+  }
+ }
+}
