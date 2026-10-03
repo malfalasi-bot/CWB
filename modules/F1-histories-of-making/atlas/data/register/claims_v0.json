@@ -37,7 +37,7 @@
   {
    "unit": "F1.5",
    "topic": "Writing",
-   "claim": "The Cascajal block from the Olmec heartland is the oldest writing in the Americas, dated by style to the early first millennium BCE",
+   "claim": "The Cascajal block from the Olmec heartland is the earliest known writing in the Americas, dated by style to the early first millennium BCE",
    "confidence": "contested",
    "confidence_note": "",
    "source": "Rodríguez Martínez et al. 2006; critique by Bruhns and Kelker 2007",
@@ -107,7 +107,7 @@
   {
    "unit": "F1.5",
    "topic": "Metals",
-   "claim": "Gold was cold-hammered into beads at Jiskairumoko, Peru, 2155–1936 BCE, the earliest worked gold in the Americas",
+   "claim": "Gold was cold-hammered into beads at Jiskairumoko, Peru, 2155–1936 BCE, the earliest known worked gold in the Americas",
    "confidence": "documented",
    "confidence_note": "",
    "source": "Aldenderfer et al. 2008",
@@ -147,7 +147,7 @@
   {
    "unit": "F1.5",
    "topic": "Cities",
-   "claim": "Jenné-jeno was a city from the 3rd century BCE with no evidence of a central ruler",
+   "claim": "Djenné-Djeno was a city from the 3rd century BCE with no evidence of a central ruler",
    "confidence": "documented",
    "confidence_note": "for dates; interpretive for how it was governed",
    "source": "McIntosh, Oxford Research Encyclopedia",
@@ -167,7 +167,7 @@
   {
    "unit": "F1.5",
    "topic": "Cotton and dye",
-   "claim": "Cotton was domesticated four separate times, twice in Africa and Asia and twice in the Americas",
+   "claim": "Cotton was domesticated four separate times, twice in Afro-Asia and twice in the Americas",
    "confidence": "documented",
    "confidence_note": "",
    "source": "Wendel and Cronn, USDA summary; Renny-Byfield et al. 2016, Genome Biology and Evolution",
@@ -198,7 +198,7 @@
    "unit": "F1.5",
    "topic": "Printing",
    "claim": "Bi Sheng made clay movable type between 1041 and 1048",
-   "confidence": "documented",
+   "confidence": "probable",
    "confidence_note": ", in one source: Shen Kuo's Dream Pool Essays",
    "source": "Summary with the passage",
    "from": "DD1",
@@ -367,7 +367,7 @@
   {
    "unit": "F1.13",
    "topic": "",
-   "claim": "Early Chinese blue-and-white depended on cobalt imported from the West",
+   "claim": "Early Chinese blue-and-white depended on cobalt imported from Iran",
    "confidence": "documented",
    "confidence_note": "",
    "source": "",
@@ -378,8 +378,8 @@
    "unit": "F1.13",
    "topic": "",
    "claim": "That cobalt came most likely from Anarak on the Iranian plateau, not from Qamsar near Kashan as previously thought; its signature matches the blue of early Islamic glazed ceramics",
-   "confidence": "probable",
-   "confidence_note": "",
+   "confidence": "contested",
+   "confidence_note": "Under review 3 Oct 2026: Anarak unverified: Jiang et al. study Xuande-era wares and the abstract names no mine.",
    "source": "Same study",
    "from": "DD2",
    "id": "CL-138"
@@ -388,8 +388,8 @@
    "unit": "F1.13",
    "topic": "",
    "claim": "An Arab-type ship sank off Belitung about 830 with some 60,000 Chinese ceramics; one bowl is dated 826",
-   "confidence": "documented",
-   "confidence_note": "",
+   "confidence": "probable",
+   "confidence_note": "Under review 3 Oct 2026: the date differs between sources; the 826 bowl is not on the page opened.",
    "source": "(to replace with the excavation report)",
    "from": "DD2",
    "id": "CL-139"
@@ -407,7 +407,7 @@
   {
    "unit": "F1.13",
    "topic": "",
-   "claim": "From the 13th to the 16th century Kilwa's merchants traded gold, silver, pearls, perfumes, Persian earthenware and Chinese porcelain; Kilwa minted its own coins; its Great Mosque's vaults held set-in Chinese porcelain",
+   "claim": "From the 13th to the 16th century Kilwa's merchants traded gold, silver, pearls, perfumes, Arabian crockery, Persian earthenware and Chinese porcelain; Kilwa minted its own coins; its Great Mosque's roofs held set-in Chinese porcelain",
    "confidence": "documented",
    "confidence_note": "",
    "source": "",
@@ -417,8 +417,8 @@
   {
    "unit": "F1.13",
    "topic": "",
-   "claim": "The 1375 Catalan Atlas shows Mansa Musa of Mali holding a gold coin, \"the richest and most noble lord\" of the region because of its gold",
-   "confidence": "documented",
+   "claim": "The Catalan Atlas, conventionally dated 1375, calls Mansa Musa (\"Musse Melly\") \"the richest and noblest of all these lands due to the abundance of gold\"",
+   "confidence": "probable",
    "confidence_note": "",
    "source": "",
    "from": "DD2",
@@ -457,7 +457,7 @@
   {
    "unit": "F1.13",
    "topic": "",
-   "claim": "The first paper mill in Baghdad was set up in 794–95; the story that Chinese prisoners taken at Talas in 751 brought papermaking west is contested",
+   "claim": "The earliest documented paper mill in the Islamic world, at Baghdad, was set up in 794–95; the story that Chinese prisoners taken at Talas in 751 brought papermaking west is contested",
    "confidence": "documented",
    "confidence_note": "mill); contested (Talas",
    "source": "Bloom,  (2001),",
@@ -465,7 +465,7 @@
    "id": "CL-146"
   },
   {
-   "unit": "F1.13",
+   "unit": "F1.12",
    "topic": "",
    "claim": "Lapita pottery appears in the Bismarck Archipelago about 3,470–3,250 years ago and reaches Fiji by about 3,130–3,010 years ago",
    "confidence": "documented",
@@ -497,7 +497,7 @@
   {
    "unit": "F1.12",
    "topic": "",
-   "claim": "A ground-edge axe fragment from the Kimberley is 44,000–49,000 years old, the earliest known anywhere",
+   "claim": "A ground-edge axe fragment from the Kimberley is 44,000–49,000 years old (Hiscock et al. 2016), the earliest securely dated",
    "confidence": "documented",
    "confidence_note": "",
    "source": "",
@@ -520,7 +520,7 @@
    "claim": "Lapita pottery appears in the Bismarck Archipelago about 3,470–3,250 years ago and reaches Vanuatu and Fiji within a few centuries",
    "confidence": "documented",
    "confidence_note": "",
-   "source": "",
+   "source": "Denham, Bronk Ramsey and Specht, Archaeology in Oceania 47:1 (2012); DD2 cited \"Anderson 2012\"",
    "from": "DD2",
    "id": "CL-152"
   },
@@ -537,7 +537,7 @@
   {
    "unit": "F1.12",
    "topic": "",
-   "claim": "In 1976 the canoe Hōkūleʻa sailed from Hawaiʻi to Tahiti navigated without instruments by Mau Piailug of Satawal; in 1980 Nainoa Thompson repeated it, the first Hawaiian navigator to do so in 600 years",
+   "claim": "In 1976 the canoe Hōkūleʻa sailed from Hawaiʻi to Tahiti navigated without instruments by Mau Piailug of Satawal; in 1980 Nainoa Thompson repeated the voyage, which the Polynesian Voyaging Society calls \"a feat that hadn't been accomplished in 600 years\"",
    "confidence": "documented",
    "confidence_note": "",
    "source": "",
@@ -547,7 +547,7 @@
   {
    "unit": "F1.12",
    "topic": "",
-   "claim": "Australia has no law against the misuse of traditional symbols, songs and stories; Creative Australia's protocols (Terri Janke, 2002, revised 2007) require consultation, consent and attribution as a condition of funding",
+   "claim": "Creative Australia's page (updated 10 March 2026) says Australia does not yet have a law against the misuse of traditional symbols; the government committed to new laws on 30 January 2023. The protocols (third edition, 29 September 2020; Terri Janke) are a condition of funding",
    "confidence": "documented",
    "confidence_note": "",
    "source": "",
@@ -557,7 +557,7 @@
   {
    "unit": "F1.10",
    "topic": "",
-   "claim": "The first paper mill in Islamic lands was set up in Baghdad in 794–95; paper then spread to Syria, Iran, Central Asia, Egypt and North Africa, and to Europe through Spain and Sicily",
+   "claim": "The earliest documented paper mill in Islamic lands was set up in Baghdad in 794–95, after Central Asia already had paper; paper then spread to Syria, Iran, Egypt and North Africa, and to Europe through Spain",
    "confidence": "documented",
    "confidence_note": "",
    "source": "Bloom, ,",
@@ -617,7 +617,7 @@
   {
    "unit": "F1.10",
    "topic": "",
-   "claim": "Gulf lenj boat-building and navigation are on UNESCO's urgent safeguarding list (2011)",
+   "claim": "\"Traditional skills of building and sailing Iranian Lenj boats in the Persian Gulf\" are on UNESCO's urgent safeguarding list (2011)",
    "confidence": "documented",
    "confidence_note": "",
    "source": "",
@@ -627,7 +627,7 @@
   {
    "unit": "F1.10",
    "topic": "",
-   "claim": "Three enamelled glass pieces in Cleveland catalogued as Mamluk-style are European work of the late 1800s; one carries an inscription naming the sultan Muhammad ibn Qala'un",
+   "claim": "Three enamelled glass pieces in Cleveland catalogued as Mamluk-style are European work of the late 1800s and about 1900; the bottle (1944.488, c. 1900) names the sultan Muhammad ibn Qala'un",
    "confidence": "documented",
    "confidence_note": "",
    "source": "Cleveland records 1981.10, 1944.235 and 1944.488, read live",
@@ -727,7 +727,7 @@
   {
    "unit": "F1.8",
    "topic": "",
-   "claim": "The  (State Building Standards) was compiled by Li Jie, a state building superintendent, in 1100 and published in 1103; its 34 chapters set units, design standards, labour estimates and material data",
+   "claim": "The Yingzao fashi (State Building Standards) was compiled by Li Jie, a state building superintendent, in 1100 and published in 1103; its 34 chapters set units, design standards, labour estimates and material data",
    "confidence": "documented",
    "confidence_note": "",
    "source": "",
@@ -760,7 +760,7 @@
    "claim": "Early blue-and-white used cobalt imported from Iran",
    "confidence": "documented",
    "confidence_note": "",
-   "source": "(shared with F1.13)",
+   "source": "Cleveland 1962.154 label (shared with F1.13); PNAS not re-opened",
    "from": "DD2",
    "id": "CL-176"
   },
@@ -770,7 +770,7 @@
    "claim": "Oracle-bone inscriptions of Wu Ding's reign are radiocarbon-dated 1254–1197 BCE",
    "confidence": "documented",
    "confidence_note": "",
-   "source": "Liu et al. 2020 (shared with F1.5)",
+   "source": "Liu et al., Radiocarbon 63 (2021) (shared with F1.5)",
    "from": "DD2",
    "id": "CL-177"
   },
@@ -808,8 +808,8 @@
    "unit": "F1.9",
    "topic": "",
    "claim": "Gujarati block-printed and painted cottons found in Egyptian deposits are the earliest material traces of the medieval western Indian Ocean trade; they date from the Fatimid to the early Mamluk periods (10th to early 16th centuries) and similar cloths were traded as far as Indonesia",
-   "confidence": "documented",
-   "confidence_note": "",
+   "confidence": "probable",
+   "confidence_note": "Under review 3 Oct 2026: overstates Barnes.",
    "source": "; Barnes,  (1997)",
    "from": "DD2",
    "id": "CL-181"
@@ -837,7 +837,7 @@
   {
    "unit": "F1.9",
    "topic": "",
-   "claim": "Two Old World cottons were domesticated separately; India's  is one",
+   "claim": "Two Afro-Asian cottons were domesticated separately; India's  is one",
    "confidence": "documented",
    "confidence_note": "",
    "source": "Renny-Byfield et al. 2016 (shared with F1.5)",
@@ -857,7 +857,7 @@
   {
    "unit": "F1.9",
    "topic": "",
-   "claim": "The National Gallery of Australia bought a Chola Nataraja for US$5 million in 2008 from Subhash Kapoor; police in Tamil Nadu recorded the theft of a Nataraja from Sripuranthan in 2008; Australia returned the bronze to India in September 2014",
+   "claim": "The National Gallery of Australia bought a Chola Nataraja for US$5 million in 2008 from Subhash Kapoor; police in Tamil Nadu were alerted in August 2008 to the theft of a Nataraja from Sripuranthan; Australia returned the bronze to India in September 2014",
    "confidence": "documented",
    "confidence_note": "",
    "source": "",
@@ -887,7 +887,7 @@
   {
    "unit": "F1.11",
    "topic": "",
-   "claim": "Roman red-gloss pottery () was mass-produced in several parts of the empire and exported to all of it; its stamps name the people involved in production, including slaves and freedmen, and the largest Arretine firms had dozens of potters",
+   "claim": "Roman red-gloss pottery (terra sigillata) was mass-produced in several parts of the empire and exported across it; its stamps name people in production, including enslaved and freed workers, and the largest Arretine firms had dozens of potters",
    "confidence": "documented",
    "confidence_note": "",
    "source": "",
@@ -897,7 +897,7 @@
   {
    "unit": "F1.11",
    "topic": "",
-   "claim": "The , compiled under Étienne Boileau in 13th-century Paris, records the statutes of the city's trades",
+   "claim": "The Livre des métiers, compiled under Étienne Boileau in 13th-century Paris, records the statutes of the city's trades",
    "confidence": "documented",
    "confidence_note": "",
    "source": "(the count of trades to be taken from the edition)",
@@ -935,9 +935,9 @@
    "id": "CL-193"
   },
   {
-   "unit": "F1.11",
+   "unit": "F1.15",
    "topic": "",
-   "claim": "The Great Exhibition of 1851 showed more than 100,000 objects to six million visitors in a purpose-built iron and glass building; Owen Jones, one of its superintendents of works, published  in 1856 with 100 plates in 19 categories",
+   "claim": "The Great Exhibition of 1851 showed more than 100,000 objects to six million visitors in a purpose-built iron and glass building; Owen Jones, one of its superintendents of works, published The Grammar of Ornament in 1856 with 100 plates in 19 categories",
    "confidence": "documented",
    "confidence_note": "",
    "source": "",
@@ -947,7 +947,7 @@
   {
    "unit": "F1.11",
    "topic": "",
-   "claim": "French  was inscribed by UNESCO in 2010: about 45,000 people, training of about five years on the move between towns, and a masterwork judged by the  before one may teach",
+   "claim": "French compagnonnage was inscribed by UNESCO in 2010: about 45,000 people, training of about five years on the move between towns, and a masterwork judged by the compagnons before one may teach",
    "confidence": "documented",
    "confidence_note": "",
    "source": "",
@@ -958,8 +958,8 @@
    "unit": "F1.11",
    "topic": "",
    "claim": "Copper was smelted at Belovode, Serbia, about 5000 BCE",
-   "confidence": "documented",
-   "confidence_note": "",
+   "confidence": "contested",
+   "confidence_note": "Belovode's priority over Near Eastern evidence is argued (F1.9a, F1.11)",
    "source": "Radivojević et al. 2010 (shared with F1.5)",
    "from": "DD2",
    "id": "CL-196"
@@ -990,14 +990,14 @@
    "claim": "Glass-blowing was invented towards the end of the first century BCE in the coastal Levant; the earliest evidence is from Jerusalem; some of the only named glass-workers of the period, such as Ennion, were Greek-speaking Syrians",
    "confidence": "documented",
    "confidence_note": "",
-   "source": "; to be backed by the excavation report",
+   "source": "Gudenrath, Corning Museum of Glass, \"Earliest inflated glass\"; to be backed by the excavation report",
    "from": "DD2",
    "id": "CL-199"
   },
   {
    "unit": "F1.9a",
    "topic": "",
-   "claim": "Magan, the copper land of Sumerian texts, is identified with Oman, where copper was mined and smelted from the Early Bronze Age (Hafit and Umm an-Nar periods, c. 3200–2000 BCE)",
+   "claim": "Magan, the copper land of Sumerian texts, is identified with the Oman peninsula, today Oman and the UAE, where copper was mined and smelted from the Early Bronze Age (Hafit and Umm an-Nar periods, c. 3200–2000 BCE)",
    "confidence": "documented",
    "confidence_note": "",
    "source": "Weisgerber and others,",
@@ -1040,7 +1040,7 @@
    "claim": "Modern domestic horses descend from the western Eurasian steppe, especially the lower Volga–Don region, and spread rapidly across Eurasia from about 2000 BCE together with Sintashta spoke-wheeled chariots; Botai's horses (c. 3500 BCE) were not their ancestors",
    "confidence": "documented",
    "confidence_note": "",
-   "source": "",
+   "source": "Librado et al. 2024",
    "from": "DD2",
    "id": "CL-204"
   },
@@ -1050,7 +1050,7 @@
    "claim": "Botai's horse remains are Przewalski's horses, and the tooth damage read as bit wear is better explained by natural wear; Botai may have been a site of mass hunting rather than domestication",
    "confidence": "contested",
    "confidence_note": ": a strong recent reading against a decade of consensus",
-   "source": "; Outram et al. 2009,  323, for the earlier view",
+   "source": "Librado et al. 2024; Outram et al. 2009, Science 323, for the earlier view",
    "from": "DD2",
    "id": "CL-205"
   },
@@ -1058,8 +1058,8 @@
    "unit": "F1.12a",
    "topic": "",
    "claim": "The Pazyryk carpet, 5th–4th century BCE, from a frozen barrow in the Altai excavated in 1949, is the oldest surviving pile carpet; it has about 1,250,000 symmetrical knots, and where it was made (Iran, Central Asia or the Altai) is unknown",
-   "confidence": "documented",
-   "confidence_note": "object); contested (origin",
+   "confidence": "probable",
+   "confidence_note": "object); contested (origin. Under review 3 Oct 2026: as WS-100: dates and excavation years to reconcile.",
    "source": "",
    "from": "DD2",
    "id": "CL-206"
@@ -1085,7 +1085,7 @@
    "id": "CL-208"
   },
   {
-   "unit": "F1.12a",
+   "unit": "F1.22a",
    "topic": "",
    "claim": "The Mongol ger is made by households: men carve the wood, women and men felt, sew and paint; it can be dismantled and carried, and is taught by mentoring",
    "confidence": "documented",
@@ -1098,8 +1098,8 @@
    "unit": "F1.12a",
    "topic": "",
    "claim": "Luristan's cast horse gear (800–600 BCE) shows steppe horse culture inside Iran",
-   "confidence": "documented",
-   "confidence_note": "object",
+   "confidence": "probable",
+   "confidence_note": "object. Under review 3 Oct 2026: \"steppe horse culture inside Iran\" has no source: drop or mark interpretive.",
    "source": "Cleveland 1980.102 (shared with West Asia)",
    "from": "DD2",
    "id": "CL-210"

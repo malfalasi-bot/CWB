@@ -32,6 +32,7 @@
       "enum": [
         "archaeological-culture",
         "belief-tradition",
+        "calendar-or-era",
         "civilisation-as-commonly-named",
         "community",
         "diaspora",
@@ -276,7 +277,8 @@
       "place"
     ],
     "PRD": [
-      "period"
+      "period",
+      "calendar-or-era"
     ],
     "GAP": [
       "event",

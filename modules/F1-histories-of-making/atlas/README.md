@@ -8,7 +8,7 @@ Everything here is produced at zero cost from free and open sources. Nothing is 
 
 | Folder | Contents |
 |---|---|
-| `data/canon/` | The canon register: 4,228 nodes in 24 kinds. It covers civilisation names, archaeological cultures, polities, dynasties, belief traditions, movements, styles, schools, maker communities, institutions, exhibitions, networks, techniques, materials, object types, living practices, "first known" claims, communities (under their own names), people, places, events and period definitions. One schema for all (see `tools/codes.py`) |
+| `data/canon/` | The canon register: 4,228 nodes in 25 kinds. It covers civilisation names, archaeological cultures, polities, dynasties, belief traditions, movements, styles, schools, maker communities, institutions, exhibitions, networks, techniques, materials, object types, living practices, "first known" claims, communities (under their own names), people, places, events, period definitions, and calendars and eras. One schema for all (see `tools/codes.py`) |
 | `data/register/` | The world-set register v0 (64 objects with licence and 1970 provenance test), claims (110), practices (12), the provenance pass |
 | `data/sources/` | 198 zero-cost source routes with licence and a commercial-safe flag; 130 primary texts on making with public-domain status |
 | `data/harvested/`, `data/matches/` | Written by the harvest jobs: register re-checks, UNESCO facts, Wikidata id proposals, open-object candidates |

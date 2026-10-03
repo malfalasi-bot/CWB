@@ -83,7 +83,7 @@ The word belongs in F1, but as a label learners search for and a subject F1 teac
 
 ## The grouping families
 
-F1 can use twenty kinds of grouping, in seven families. Every grouping is a node with the common card, plus four things of its own: its **kind**; **who defined it** (an archaeologist, a museum, the members themselves); **membership** as a relation with its own confidence; and **what it leaves out**. Groupings overlap and nest. One Benin plaque belongs at once to a polity (the Kingdom of Benin), a maker community (the Igun Eronmwon guild), a material family (copper alloy), a technique (lost-wax casting), a network (the Atlantic brass route) and a period (1500s–1600s).
+F1 can use twenty-one kinds of grouping, in seven families. Every grouping is a node with the common card, plus four things of its own: its **kind**; **who defined it** (an archaeologist, a museum, the members themselves); **membership** as a relation with its own confidence; and **what it leaves out**. Groupings overlap and nest. One Benin plaque belongs at once to a polity (the Kingdom of Benin), a maker community (the Igun Eronmwon guild), a material family (copper alloy), a technique (lost-wax casting), a network (the Atlantic brass route) and a period (1500s–1600s).
 
 | Family | Kind | Membership rule | Defined by | Example in F1 | Shown in |
 |---|---|---|---|---|---|
@@ -94,6 +94,7 @@ F1 can use twenty kinds of grouping, in seven families. Every grouping is a node
 | Time | Period band | F1's eleven global bands, for coverage and comparison only | F1 | 1000 BCE–1 CE | Timeline; coverage grid |
 | Time | Age | A technology sequence (Stone, Bronze, Iron), always tied to the region it was defined for | Archaeologists, region by region | The Iron Age of the Sahel | Timeline, with its region shown |
 | Time | Horizon | One style spread widely in a short time | Archaeologists | The Andes' Middle Horizon (Wari, Tiwanaku) | Map and timeline together |
+| Time | Calendar or era | Dated by a named reckoning of years: a calendar, an era or a reign-name system | The courts, religious traditions and astronomers who kept it | Chinese reign eras (nianhao); the Kali Yuga | Timeline, with the original date beside its CE range |
 | People | Polity | Ruled by, or living under, a state, kingdom, empire or city-state | Historians; Seshat and Cliopatria | The Kingdom of Benin; the Kushite kingdom | Map borders layer |
 | People | Dynasty | Made under a ruling house | Historians | Shang; Mamluk | Timeline |
 | People | Archaeological culture | Shared material traits in excavated sites | Archaeologists | Nok; Vinča; Lapita | Map; grouping view |

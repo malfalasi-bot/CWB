@@ -80,4 +80,4 @@ warn  canon_polities.csv POL217: review: leaves_out names coerced labour; decide
 warn  canon_polities.csv POL228: review: leaves_out names coerced labour; decide whether the row needs human-flow
 warn  canon_polities.csv POL232: review: leaves_out names coerced labour; decide whether the row needs human-flow
 warn  canon_techniques.csv TEC042: review: leaves_out names coerced labour; decide whether the row needs human-flow
-4228 rows in 19 files: 0 errors, 82 warnings
+4666 rows in 20 files: 0 errors, 82 warnings

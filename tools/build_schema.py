@@ -17,7 +17,7 @@ PREFIXES = {
     "MOV": ["movement"], "STY": ["style"], "SCH": ["school"], "MKR": ["maker-community"],
     "INS": ["institution"], "EVT": ["event"], "OCC": ["event"], "NET": ["network"], "DIA": ["diaspora"],
     "TEC": ["technique"], "MAT": ["material"], "OBT": ["object-type"], "PRA": ["living-practice"],
-    "INV": ["first-known"], "COM": ["community"], "PER": ["person"], "PLC": ["place"], "PRD": ["period"],
+    "INV": ["first-known"], "COM": ["community"], "PER": ["person"], "PLC": ["place"], "PRD": ["period", "calendar-or-era"],
     "GAP": ["event", "institution", "maker-community", "movement", "network", "object-type", "style", "technique"],
 }
 KINDS = sorted({k for v in PREFIXES.values() for k in v})
