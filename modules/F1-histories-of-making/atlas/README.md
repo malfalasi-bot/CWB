@@ -12,7 +12,7 @@ Everything here is produced at zero cost from free and open sources. Nothing is 
 | `data/register/` | The world-set register v0 (64 objects with licence and 1970 provenance test), claims (110), practices (12), the provenance pass |
 | `data/sources/` | 198 zero-cost source routes with licence and a commercial-safe flag; 130 primary texts on making with public-domain status |
 | `data/harvested/`, `data/matches/` | Written by the harvest jobs: register re-checks, UNESCO facts, Wikidata id proposals, open-object candidates |
-| `data/backbone/` | Written by the backbone job: Wikidata movements and styles, PeriodO period definitions, Pleiades places, Getty AAT and TGN candidates |
+| `data/backbone/` | Written by the backbone job: Wikidata movements and styles, PeriodO period definitions, Pleiades places, Getty AAT and TGN candidates. The Getty SPARQL endpoint answered HTTP 403 to the harvester on 3 October 2026, so until that is resolved AAT ids come through Wikidata (P1014) and TGN ids are still to be added the same way (P1667); `reports/backbone_errors.md` records any failed step |
 | `harvest/` | The harvesters (standard-library Python) and their offline tests |
 | `tools/` | Validation, coverage report, the licence switch |
 | `reports/` | Coverage by sub-region and period, validation output, UNESCO matches, backbone matches |

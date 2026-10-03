@@ -79,7 +79,7 @@ WIKIDATA_SPARQL = "https://query.wikidata.org/sparql"
 PERIODO_DATASET = "https://data.perio.do/dataset/"
 PLEIADES_PLACES_CSV = "https://atlantides.org/downloads/pleiades/dumps/pleiades-places-latest.csv.gz"
 PLEIADES_SITE = "https://pleiades.stoa.org"
-GETTY_SPARQL_JSON = "https://vocab.getty.edu/sparql.json"
+GETTY_SPARQL_JSON = "https://vocab.getty.edu/sparql.json"  # returned HTTP 403 to this harvester on 3 Oct 2026; AAT ids also arrive via Wikidata P1014
 
 UA = "F1-atlas-harvester/0.3 (educational project, Creative World; " + ("https://github.com/" + os.environ["GITHUB_REPOSITORY"] if os.environ.get("GITHUB_REPOSITORY") else "no repository URL") + ")"
 
@@ -136,6 +136,8 @@ def wd_year(xsd: str) -> Optional[int]:
 
 def gyear(s: str) -> Optional[int]:
     """xsd:gYear as PeriodO writes it ("-0899", "0400", "1453"), kept in PeriodO's own convention."""
+    if isinstance(s, (int, float)):  # the live dataset carries some years as numbers, the fixture as strings
+        return int(s)
     m = re.match(r"^(-?\d+)$", (s or "").strip())
     return int(m.group(1)) if m else None
 
