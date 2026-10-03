@@ -1,0 +1,354 @@
+unit,case,strand,strand_name,weight,note
+F1.1,Case 1 / opening: proto-cuneiform tablet (Met 1988.433.1),1,objects,1.0,one object read three ways
+F1.1,"Case 2: mosque lamp, Iznik (Cleveland 1944.236)",1,objects,1.0,
+F1.1,Case 3: Thonet side chair (AIC 1999.556),1,objects,1.0,industrial making; access lens
+F1.2,"Case A: ""Elephant Bridge"" ivory souvenir, Ekibondo",1,objects,1.0,object made for European buyers
+F1.2,"Case B: charger after a French print, Chinese export",1,objects,1.0,
+F1.2,"Case C: Kehar Singh, Weaving and Spinning, Company school",1,objects,0.5,painting; Company school as a school
+F1.2,"Case C: Kehar Singh, Weaving and Spinning, Company school",2,movements,0.5,painting; Company school as a school
+F1.2,"Case D / opening: Dine, trading-post blanket to ""Navajo"" retail goods and lawsuit",1,objects,0.5,blanket; the Dine as the community harmed
+F1.2,"Case D / opening: Dine, trading-post blanket to ""Navajo"" retail goods and lawsuit",5,concepts & people,0.5,blanket; the Dine as the community harmed
+F1.2,"Case E: Tlahuitoltepec blouse and Isabel Marant, 2015",1,objects,0.5,object; a dated appropriation event
+F1.2,"Case E: Tlahuitoltepec blouse and Isabel Marant, 2015",4,events & timeline,0.5,object; a dated appropriation event
+F1.2,"Case F: Panini, Interior of the Pantheon, Grand Tour view",1,objects,1.0,a view sold to visitors
+F1.3,"Opening: the word ""civilisation"" (Mirabeau 1757, Privy Council 1919, Mabo 1992)",5,concepts & people,1.0,a concept and its history
+F1.3,Lab: the canonical line (Vasari to Bauhaus) and Thomsen's three ages across regions,4,events & timeline,1.0,periodisation as argument
+F1.3,Case a: Vasari's Lives and the academy,5,concepts & people,1.0,"a text, its author and the idea of a canon"
+F1.3,Case b: Great Zimbabwe and the myth (Bent 1892; Rhodesian censorship),3,civilisations & places,1.0,historiography of a place
+F1.3,"Case c: ""Islamic art"" as a collectors' category (Sultan 'Ali al-Mashhadi page)",5,concepts & people,1.0,a category
+F1.4,Opening: Kinetoscope blacksmith film 1893 and Victor sound sketch 1904,1,objects,1.0,film and recording as made things
+F1.4,Lab wall: Royal Game of Ur boards and the rules tablet (177 BCE),1,objects,1.0,
+F1.4,Lab wall: four early recordings and Girls winding armatures (1904),1,objects,1.0,
+F1.4,"Case 1: gamelan saron, Java (Met 89.4.759)",1,objects,1.0,the set tuned to itself
+F1.4,"Case 2: kora, Mamadou Kouyate (Met 1975.59)",1,objects,1.0,instrument never finished; named maker secondary
+F1.4,"Case 3: Noh mask, waka-onna (Cleveland 1972.69)",1,objects,1.0,
+F1.5,"Step 1: Guess and four rows (writing at Abydos, Uruk, Yinxu, Cascajal)",1,objects,0.5,"a technique as a first-known, on a world timeline"
+F1.5,"Step 1: Guess and four rows (writing at Abydos, Uruk, Yinxu, Cascajal)",4,events & timeline,0.5,"a technique as a first-known, on a world timeline"
+F1.5,Step 2: Three or four (Egypt's case),4,events & timeline,1.0,simultaneity argument
+F1.5,"Step 3: What counts as writing (Indus signs, khipu)",5,concepts & people,1.0,a definition
+F1.5,"Step 4: Pots before farms (Xianrendong, Ounjougou, two flame pots)",1,objects,0.5,
+F1.5,"Step 4: Pots before farms (Xianrendong, Ounjougou, two flame pots)",4,events & timeline,0.5,
+F1.5,"Step 5: Metals three ways (Belovode, Jiskairumoko, Douroula)",1,objects,0.5,
+F1.5,"Step 5: Metals three ways (Belovode, Jiskairumoko, Douroula)",4,events & timeline,0.5,
+F1.5,"Step 6: Cities without one blueprint (Caral, Djenne-Djeno, Upano)",3,civilisations & places,0.5,places as recurrences
+F1.5,"Step 6: Cities without one blueprint (Caral, Djenne-Djeno, Upano)",4,events & timeline,0.5,places as recurrences
+F1.5,"Step 7: Cotton and dye (four cottons, earliest indigo, Wari)",1,objects,0.5,
+F1.5,"Step 7: Cotton and dye (four cottons, earliest indigo, Wari)",4,events & timeline,0.5,
+F1.5,"Step 8: Print, and paper that travelled (pagoda, Bi Sheng, Goryeo type, Jikji, Mainz)",1,objects,0.5,
+F1.5,"Step 8: Print, and paper that travelled (pagoda, Bi Sheng, Goryeo type, Jikji, Mainz)",4,events & timeline,0.5,
+F1.5,"Step 9: Earliest known (Botai as a first that moved; rewrite ""first ever"")",5,concepts & people,1.0,method
+F1.6,"Step 1: The chisel and the filing (Met 27.3.12 under ""Egyptian Art"")",1,objects,1.0,
+F1.6,Step 2: Iron at Douroula and Nok; the invention argument,1,objects,0.5,iron smelting as technique; Nok culture and Douroula as places
+F1.6,Step 2: Iron at Douroula and Nok; the invention argument,3,civilisations & places,0.5,iron smelting as technique; Nok culture and Douroula as places
+F1.6,"Step 3: Kush: Meroe's slag, a royal lamp (Walters 54.1549)",1,objects,0.5,
+F1.6,"Step 3: Kush: Meroe's slag, a royal lamp (Walters 54.1549)",3,civilisations & places,0.5,
+F1.6,Step 4: Reconstruction: the Haya smelts,1,objects,0.5,technique; Haya community and reconstruction method
+F1.6,Step 4: Reconstruction: the Haya smelts,5,concepts & people,0.5,technique; Haya community and reconstruction method
+F1.6,Step 5: Igbo-Ukwu: metal from two directions,1,objects,0.5,
+F1.6,Step 5: Igbo-Ukwu: metal from two directions,3,civilisations & places,0.5,
+F1.6,"Step 6: Brass and the Atlantic: plaque, head, sea chart",1,objects,0.5,the plaque; the Atlantic brass route
+F1.6,"Step 6: Brass and the Atlantic: plaque, head, sea chart",3,civilisations & places,0.5,the plaque; the Atlantic brass route
+F1.6,Step 7: 1897 and after,4,events & timeline,1.0,the Benin expedition and the returns
+F1.6,"Step 8: Gold and iron in the south (gold weights, Great Zimbabwe, axe, throwing knife)",1,objects,0.5,
+F1.6,"Step 8: Gold and iron in the south (gold weights, Great Zimbabwe, axe, throwing knife)",3,civilisations & places,0.5,
+F1.6,Step 9: Igun Street today,5,concepts & people,1.0,living guild
+F1.7,Step 1: What the cords hold (Cleveland khipu),1,objects,1.0,
+F1.7,Step 2: Blue before pots (Huaca Prieta indigo cotton; Caral),1,objects,0.5,material as earliest known
+F1.7,Step 2: Blue before pots (Huaca Prieta indigo cotton; Caral),4,events & timeline,0.5,material as earliest known
+F1.7,"Step 3: Embroidered for the dead (Paracas mantle, 1920s digs, cochineal, 1929 law)",1,objects,0.5,textiles; Paracas culture
+F1.7,"Step 3: Embroidered for the dead (Paracas mantle, 1920s digs, cochineal, 1929 law)",3,civilisations & places,0.5,textiles; Paracas culture
+F1.7,"Step 4: One style, two readings (Wari tunic; empire or low-power polity)",1,objects,0.5,tunic; Wari polity / Middle Horizon
+F1.7,"Step 4: One style, two readings (Wari tunic; empire or low-power polity)",3,civilisations & places,0.5,tunic; Wari polity / Middle Horizon
+F1.7,Step 5: Rank and account (Walters uncu; Santa Valley khipus),1,objects,1.0,
+F1.7,Step 6: Under the forest (Upano centres; Marajo mounds),3,civilisations & places,1.0,places and cultures
+F1.7,Step 7: Cloth as tribute (Huexotzinco Codex 1531; Coaixtlahuacan cochineal),1,objects,0.5,cloth and codex; the tribute polity
+F1.7,Step 7: Cloth as tribute (Huexotzinco Codex 1531; Coaixtlahuacan cochineal),3,civilisations & places,0.5,cloth and codex; the tribute polity
+F1.7,"Step 8: Sheep, Hweeldi and yarn (churro sheep; the Long Walk; the 1874 loom)",4,events & timeline,0.5,a dated forced removal; the Dine
+F1.7,"Step 8: Sheep, Hweeldi and yarn (churro sheep; the Long Walk; the 1874 loom)",5,concepts & people,0.5,a dated forced removal; the Dine
+F1.7,"Step 9: The rug, and who weaves now (Cleveland 1937.903; Sheep Is Life)",1,objects,0.5,
+F1.7,"Step 9: The rug, and who weaves now (Cleveland 1937.903; Sheep Is Life)",5,concepts & people,0.5,
+F1.8,Step 1: Guess (Song Yingxing's 72 hands; Jingdezhen),3,civilisations & places,0.5,the workshop idea; the kiln town
+F1.8,Step 1: Guess (Song Yingxing's 72 hands; Jingdezhen),5,concepts & people,0.5,the workshop idea; the kiln town
+F1.8,"Step 2: The foundry (jue and ding, piece-moulds, clan name, Xiaomintun)",1,objects,0.5,bronzes and technique; Shang Yinxu
+F1.8,"Step 2: The foundry (jue and ding, piece-moulds, clan name, Xiaomintun)",3,civilisations & places,0.5,bronzes and technique; Shang Yinxu
+F1.8,"Step 3: A million copies (Hyakumanto pagoda and charm, 764-70)",1,objects,1.0,
+F1.8,"Step 4: The code (Yingzao fashi: units, labour estimates)",5,concepts & people,1.0,a method/standard text
+F1.8,Step 5: The kiln decides (Jun glaze),1,objects,1.0,
+F1.8,Step 6: Inlay (sanggam; the tile and the bowl),1,objects,0.5,technique; Goryeo
+F1.8,Step 6: Inlay (sanggam; the tile and the bowl),3,civilisations & places,0.5,technique; Goryeo
+F1.8,"Step 7: The order (1393, 1433, 1637; civil kilns; Iranian cobalt; ""global"")",3,civilisations & places,0.5,the court-kiln polity relation; dated orders
+F1.8,"Step 7: The order (1393, 1433, 1637; civil kilns; Iranian cobalt; ""global"")",4,events & timeline,0.5,the court-kiln polity relation; dated orders
+F1.8,Step 8: Taken to Arita (Korean potters taken 1592-98),4,events & timeline,0.5,the Imjin War; potters moved as people
+F1.8,Step 8: Taken to Arita (Korean potters taken 1592-98),5,concepts & people,0.5,the Imjin War; potters moved as people
+F1.8,Step 9: The city now (state media beside makers; Mingei link),3,civilisations & places,0.5,
+F1.8,Step 9: The city now (state media beside makers; Mingei link),5,concepts & people,0.5,
+F1.9,Step 1: Guess (two cotton fragments found in Egypt; made at vs found at),1,objects,1.0,
+F1.9,"Step 2: A thread in a bead (Mehrgarh cotton, 6th millennium BCE)",1,objects,0.5,
+F1.9,"Step 2: A thread in a bead (Mehrgarh cotton, 6th millennium BCE)",4,events & timeline,0.5,
+F1.9,Step 3: Cloth by the thousand (Bengal's cloth in world markets; Ben Yiju),3,civilisations & places,1.0,region and ocean network
+F1.9,Step 4: Made for a court (Hamzanama folio; Akbar's workshop),1,objects,0.5,folio; the Mughal court
+F1.9,Step 4: Made for a court (Hamzanama folio; Akbar's workshop),3,civilisations & places,0.5,folio; the Mughal court
+F1.9,"Step 5: Cast for a temple (Chola bronzes; Sripuranthan Nataraja stolen, returned 2014)",1,objects,0.5,
+F1.9,"Step 5: Cast for a temple (Chola bronzes; Sripuranthan Nataraja stolen, returned 2014)",4,events & timeline,0.5,
+F1.9,Step 6: Silk for the spice islands (Gujarati patolu for Indonesia; Banda 1621),1,objects,0.5,
+F1.9,Step 6: Silk for the spice islands (Gujarati patolu for Indonesia; Banda 1621),3,civilisations & places,0.5,
+F1.9,"Step 7: Painted for a European wall, banned in London (Coromandel chintz; 1721 Act)",1,objects,0.5,
+F1.9,"Step 7: Painted for a European wall, banned in London (Coromandel chintz; 1721 Act)",4,events & timeline,0.5,
+F1.9,"Step 8: Undone, or not (two readings of Indian cotton's decline)",5,concepts & people,1.0,an argument
+F1.9,"Step 9: Wax and weft, still worked (batik; jamdani after 1850 and today)",1,objects,0.5,
+F1.9,"Step 9: Wax and weft, still worked (batik; jamdani after 1850 and today)",5,concepts & people,0.5,
+F1.9a,"Step 1: Guess (barley account, Met 1988.433.2)",1,objects,1.0,
+F1.9a,"Step 2: The list of hands (Umma temple workers, Walters 48.1767)",1,objects,1.0,a record object
+F1.9a,Step 3: Copper from Magan,1,objects,0.5,material; Magan/Oman and its trade
+F1.9a,Step 3: Copper from Magan,3,civilisations & places,0.5,material; Magan/Oman and its trade
+F1.9a,Step 4: Letters home (Old Assyrian letter about textiles; Lamassi),1,objects,0.5,text object; a named woman
+F1.9a,Step 4: Letters home (Old Assyrian letter about textiles; Lamassi),5,concepts & people,0.5,text object; a named woman
+F1.9a,Step 5: Records we cannot read (Proto-Elamite),1,objects,1.0,
+F1.9a,Step 6: The empire's ledger (Persepolis tablet; partage; Rubin v. Iran 2018),1,objects,0.5,
+F1.9a,Step 6: The empire's ledger (Persepolis tablet; partage; Rubin v. Iran 2018),4,events & timeline,0.5,
+F1.9a,Step 7: Cast for horses (Luristan bronze),1,objects,1.0,
+F1.9a,Step 8: A breath and a name (blown glass; Ennion),1,objects,0.5,technique; a named maker
+F1.9a,Step 8: A breath and a name (blown glass; Ennion),5,concepts & people,0.5,technique; a named maker
+F1.9a,Step 9: Sticks and water (falaj; 48-athar dial),1,objects,0.5,technique; the Gulf
+F1.9a,Step 9: Sticks and water (falaj; 48-athar dial),3,civilisations & places,0.5,technique; the Gulf
+F1.10,"Opening: ""Islamic art"" as a category (sort nine pins)",5,concepts & people,1.0,a contested category
+F1.10,"Step 1: Already here, and stayed (late antique cover; 10th-c. tiraz)",1,objects,0.5,objects; the weavers as a community
+F1.10,"Step 1: Already here, and stayed (late antique cover; 10th-c. tiraz)",5,concepts & people,0.5,objects; the weavers as a community
+F1.10,Step 2: Paper (Samarkand before Baghdad; on to Spain),1,objects,0.5,material; a route
+F1.10,Step 2: Paper (Samarkand before Baghdad; on to Spain),3,civilisations & places,0.5,material; a route
+F1.10,Step 3: The deed (waqf deed),5,concepts & people,1.0,an institution
+F1.10,Step 4: The book the deed protected (Walters W.591; Beshir Agha),1,objects,0.5,
+F1.10,Step 4: The book the deed protected (Walters W.591; Beshir Agha),5,concepts & people,0.5,
+F1.10,Step 5: The lamp (Iznik lamp; Italy-Istanbul-Iznik designs),1,objects,0.5,
+F1.10,Step 5: The lamp (Iznik lamp; Italy-Istanbul-Iznik designs),3,civilisations & places,0.5,
+F1.10,"Step 6: A ledger from India (Ben Yiju, Geniza)",3,civilisations & places,0.5,a named trader; the Indian Ocean
+F1.10,"Step 6: A ledger from India (Ben Yiju, Geniza)",5,concepts & people,0.5,a named trader; the Indian Ocean
+F1.10,Step 7: Blue (Kashan cobalt to Jingdezhen and Kilwa),1,objects,0.5,
+F1.10,Step 7: Blue (Kashan cobalt to Jingdezhen and Kilwa),3,civilisations & places,0.5,
+F1.10,Step 8: The copy (Brocard's revival glass; the lab test),1,objects,0.5,"object; the European ""Mamluk"" revival as a style"
+F1.10,Step 8: The copy (Brocard's revival glass; the lab test),2,movements,0.5,"object; the European ""Mamluk"" revival as a style"
+F1.10,"Step 9: The hand today, and the Gulf (calligraphy, Al Sadu, pearling, lenj)",3,civilisations & places,0.5,living practices; the Gulf
+F1.10,"Step 9: The hand today, and the Gulf (calligraphy, Al Sadu, pearling, lenj)",5,concepts & people,0.5,living practices; the Gulf
+F1.11,Step 1: Guess (the Syndics),1,objects,0.5,painting; the guild as institution
+F1.11,Step 1: Guess (the Syndics),5,concepts & people,0.5,painting; the guild as institution
+F1.11,"Step 2: Made in Athens (amphora, lekythos, Lydos)",1,objects,0.5,
+F1.11,"Step 2: Made in Athens (amphora, lekythos, Lydos)",3,civilisations & places,0.5,
+F1.11,"Step 3: Stamped at Lyon, found at Nijmegen (red-gloss ware)",1,objects,1.0,
+F1.11,Step 4: Rules in Constantinople (Book of the Eparch),3,civilisations & places,0.5,Byzantium; a rule text
+F1.11,Step 4: Rules in Constantinople (Book of the Eparch),5,concepts & people,0.5,Byzantium; a rule text
+F1.11,Step 5: The rule book in Paris (Boileau c. 1268; women's trades),5,concepts & people,1.0,guild rules
+F1.11,Step 6: Paper and print arrive (Spain late 10th c.; Mainz 1450s; Luyken 1694),1,objects,0.5,techniques as dated arrivals
+F1.11,Step 6: Paper and print arrive (Spain late 10th c.; Mainz 1450s; Luyken 1694),4,events & timeline,0.5,techniques as dated arrivals
+F1.11,Step 7: The test (Syndics check cloth; Raab's masterpiece),1,objects,0.5,
+F1.11,Step 7: The test (Syndics check cloth; Raab's masterpiece),5,concepts & people,0.5,
+F1.11,"Step 8: Rules rewritten, rules ended (West Prussia 1774; France 1791; Portland Vase)",1,objects,0.5,
+F1.11,"Step 8: Rules rewritten, rules ended (West Prussia 1774; France 1791; Portland Vase)",4,events & timeline,0.5,
+F1.11,Step 9: Still on the road (compagnonnage),5,concepts & people,1.0,living institution
+F1.12,Step 1: How old? (the Carpenter's Gap flake),1,objects,1.0,
+F1.12,"Step 2: The ground edge (Carpenter's Gap, 44,000-49,000 years)",1,objects,0.5,technique as earliest securely dated
+F1.12,"Step 2: The ground edge (Carpenter's Gap, 44,000-49,000 years)",4,events & timeline,0.5,technique as earliest securely dated
+F1.12,"Step 3: The date argument (Madjedbebe 65,000 or under 50,000)",3,civilisations & places,0.5,a place on Mirarr Country; a dating argument
+F1.12,"Step 3: The date argument (Madjedbebe 65,000 or under 50,000)",4,events & timeline,0.5,a place on Mirarr Country; a dating argument
+F1.12,"Step 4: Farming the water (Budj Bim, Gunditjmara Country)",1,objects,0.5,aquaculture technique; a landscape
+F1.12,"Step 4: Farming the water (Budj Bim, Gunditjmara Country)",3,civilisations & places,0.5,aquaculture technique; a landscape
+F1.12,Step 5: Pots that crossed water (Lapita; the Wuatam sherds),1,objects,0.5,
+F1.12,Step 5: Pots that crossed water (Lapita; the Wuatam sherds),3,civilisations & places,0.5,
+F1.12,Step 6: What canoes carried (Kula splashboard; aute),1,objects,0.5,objects; the Kula network
+F1.12,Step 6: What canoes carried (Kula splashboard; aute),3,civilisations & places,0.5,objects; the Kula network
+F1.12,"Step 7: The model of the sea (stick charts, ri-metos)",1,objects,0.5,
+F1.12,"Step 7: The model of the sea (stick charts, ri-metos)",5,concepts & people,0.5,
+F1.12,Step 8: The revival (Hokule'a 1976 and 1980),2,movements,0.5,dated voyages; the Hawaiian renaissance (MOV102)
+F1.12,Step 8: The revival (Hokule'a 1976 and 1980),4,events & timeline,0.5,dated voyages; the Hawaiian renaissance (MOV102)
+F1.12,Step 9: Who may use this (protocols 2020; the law),5,concepts & people,1.0,
+F1.12a,Step 1: Guess (Botai),3,civilisations & places,0.5,a culture; a first that moved
+F1.12a,Step 1: Guess (Botai),4,events & timeline,0.5,a culture; a first that moved
+F1.12a,Step 2: A first that moved (Botai; the Volga-Don),3,civilisations & places,0.5,
+F1.12a,Step 2: A first that moved (Botai; the Volga-Don),4,events & timeline,0.5,
+F1.12a,Step 3: Wheel and horse (Sintashta spoked wheels; chariots and languages),1,objects,0.5,
+F1.12a,Step 3: Wheel and horse (Sintashta spoked wheels; chariots and languages),3,civilisations & places,0.5,
+F1.12a,Step 4: Dressed to ride (Yanghai trousers),1,objects,1.0,
+F1.12a,"Step 5: Cast to carry (two gilt horses, Ordos)",1,objects,1.0,
+F1.12a,Step 6: Knots in the ice (the Pazyryk carpet),1,objects,0.5,
+F1.12a,Step 6: Knots in the ice (the Pazyryk carpet),3,civilisations & places,0.5,
+F1.12a,Step 7: Riders on silk (Sogdian silks),1,objects,0.5,
+F1.12a,Step 7: Riders on silk (Sogdian silks),3,civilisations & places,0.5,
+F1.12a,"Step 8: The horse the court wanted (Han Gan, Night-Shining White)",1,objects,0.5,
+F1.12a,"Step 8: The horse the court wanted (Han Gan, Night-Shining White)",5,concepts & people,0.5,
+F1.12a,"Step 9: Milk, felt and the moving house (Rubruck; felt panels; herders)",1,objects,0.5,
+F1.12a,"Step 9: Milk, felt and the moving house (Rubruck; felt panels; herders)",5,concepts & people,0.5,
+F1.13,Step 1: Guess (the blue; Jingdezhen jar),1,objects,0.5,
+F1.13,Step 1: Guess (the blue; Jingdezhen jar),3,civilisations & places,0.5,
+F1.13,Step 2: Blue before China (Kashan bowl; Qamsar/Anarak),1,objects,0.5,
+F1.13,Step 2: Blue before China (Kashan bowl; Qamsar/Anarak),3,civilisations & places,0.5,
+F1.13,Step 3: By sea (monsoon; Kilwa; Indian Ocean),3,civilisations & places,1.0,
+F1.13,Step 4: By land (the corridor; paper; Talas),1,objects,0.5,
+F1.13,Step 4: By land (the corridor; paper; Talas),3,civilisations & places,0.5,
+F1.13,Step 5: Across the sand (Sahelian gold to Cairo),3,civilisations & places,1.0,
+F1.13,Step 6: Across the Pacific (Manila galleon; Puebla basin; chinos),3,civilisations & places,0.5,network; people moved
+F1.13,Step 6: Across the Pacific (Manila galleon; Puebla basin; chinos),5,concepts & people,0.5,network; people moved
+F1.13,Step 7: The blue goes north (Kraak dish; Jingdezhen-Amsterdam; Korea-Arita),1,objects,0.5,
+F1.13,Step 7: The blue goes north (Kraak dish; Jingdezhen-Amsterdam; Korea-Arita),3,civilisations & places,0.5,
+F1.13,Step 8: The Atlantic (12.5 million people; manillas; Omar ibn Said),3,civilisations & places,0.5,
+F1.13,Step 8: The Atlantic (12.5 million people; manillas; Omar ibn Said),5,concepts & people,0.5,
+F1.13,Step 9: A lenj on the slipway (Gulf boat-building today),1,objects,0.5,
+F1.13,Step 9: A lenj on the slipway (Gulf boat-building today),5,concepts & people,0.5,
+F1.14,Case A / opening: Durer and Marcantonio,1,objects,0.5,prints; named persons and Vasari's account
+F1.14,Case A / opening: Durer and Marcantonio,5,concepts & people,0.5,prints; named persons and Vasari's account
+F1.14,"Case B: Blue-and-white, both ways (Jingdezhen, Iznik, Delft, England, Meissen)",1,objects,0.5,object type and technique; a copy chain across places
+F1.14,"Case B: Blue-and-white, both ways (Jingdezhen, Iznik, Delft, England, Meissen)",3,civilisations & places,0.5,object type and technique; a copy chain across places
+F1.14,Case C: Chintz and the Calico Acts,1,objects,0.5,
+F1.14,Case C: Chintz and the Calico Acts,4,events & timeline,0.5,
+F1.15,"Case A / opening: the bowl that was ""Venetian"" (Cleveland 1945.133)",1,objects,0.5,object; attribution and exhibition labels
+F1.15,"Case A / opening: the bowl that was ""Venetian"" (Cleveland 1945.133)",5,concepts & people,0.5,object; attribution and exhibition labels
+F1.15,"Case B: ""Paid in cloth"": Tongan ngatu and Jones 1856",1,objects,0.5,cloth; Tongan women makers vs Jones's framing
+F1.15,"Case B: ""Paid in cloth"": Tongan ngatu and Jones 1856",5,concepts & people,0.5,cloth; Tongan women makers vs Jones's framing
+F1.15,Case C: the Kuba raffia pile cloth,1,objects,1.0,
+F1.16,Opening: Hyakumanto pagoda (Met 30.47),1,objects,0.5,object; a dated commission after a rebellion
+F1.16,Opening: Hyakumanto pagoda (Met 30.47),4,events & timeline,0.5,object; a dated commission after a rebellion
+F1.16,Case 1: the Diamond Sutra 868; Tripitaka Koreana,1,objects,0.5,object; Buddhism as driver
+F1.16,Case 1: the Diamond Sutra 868; Tripitaka Koreana,5,concepts & people,0.5,object; Buddhism as driver
+F1.16,Case 2: a Kongo crucifix; the mission as making regime,1,objects,0.5,
+F1.16,Case 2: a Kongo crucifix; the mission as making regime,5,concepts & people,0.5,
+F1.16,Case 3: a kero; Andean religion,1,objects,0.5,
+F1.16,Case 3: a kero; Andean religion,5,concepts & people,0.5,
+F1.17,Opening: two briefs (Tornabuoni-Ghirlandaio contract 1485; LINE guidelines),5,concepts & people,1.0,the brief as concept
+F1.17,Lab regime 1: Olowe of Ise's veranda post for the Ogoga of Ikere,1,objects,0.5,object; patron regime and named maker
+F1.17,Lab regime 1: Olowe of Ise's veranda post for the Ogoga of Ikere,5,concepts & people,0.5,object; patron regime and named maker
+F1.17,Lab regime 5: a Federal Art Project poster,1,objects,0.5,object; agency regime
+F1.17,Lab regime 5: a Federal Art Project poster,5,concepts & people,0.5,object; agency regime
+F1.17,Case 1: Lamerie's tea caddy; Goldsmiths' Company rules,1,objects,0.5,
+F1.17,Case 1: Lamerie's tea caddy; Goldsmiths' Company rules,5,concepts & people,0.5,
+F1.17,Case 2: the VOC teapot,1,objects,0.5,object; the VOC as polity/network
+F1.17,Case 2: the VOC teapot,3,civilisations & places,0.5,object; the VOC as polity/network
+F1.17,Case 3: a platform-native sticker set,1,objects,0.5,
+F1.17,Case 3: a platform-native sticker set,5,concepts & people,0.5,
+F1.18,Opening: kente cloth (who weaves),1,objects,0.5,
+F1.18,Opening: kente cloth (who weaves),5,concepts & people,0.5,
+F1.18,"Case 1: Oil for 4,272 women (Girsu account)",1,objects,0.5,record object; women workers counted
+F1.18,"Case 1: Oil for 4,272 women (Girsu account)",5,concepts & people,0.5,record object; women workers counted
+F1.18,Case 2: Honeysuckle 1883 (May Morris; Lotus),2,movements,0.5,a named designer's credit inside Arts and Crafts
+F1.18,Case 2: Honeysuckle 1883 (May Morris; Lotus),5,concepts & people,0.5,a named designer's credit inside Arts and Crafts
+F1.18,"Case 3: ""Marie and Santana"" (San Ildefonso plate)",1,objects,0.5,
+F1.18,"Case 3: ""Marie and Santana"" (San Ildefonso plate)",5,concepts & people,0.5,
+F1.19,Opening: 1851 (the hall; Kashmir shawls; jamdani sari),1,objects,0.5,
+F1.19,Opening: 1851 (the hall; Kashmir shawls; jamdani sari),4,events & timeline,0.5,
+F1.19,Case 1: the portrait woven from cards (Jacquard 1839; canuts' revolts),1,objects,0.5,
+F1.19,Case 1: the portrait woven from cards (Jacquard 1839; canuts' revolts),4,events & timeline,0.5,
+F1.19,Case 2: the drum that was never sounded (o-daiko for Vienna 1873; Tomioka; Nishijin),1,objects,0.5,object; Meiji industrialisation and the exhibitions
+F1.19,Case 2: the drum that was never sounded (o-daiko for Vienna 1873; Tomioka; Nishijin),4,events & timeline,0.5,object; Meiji industrialisation and the exhibitions
+F1.19,Case 3: the cloth from Java to the Gold Coast by way of Haarlem,1,objects,0.5,
+F1.19,Case 3: the cloth from Java to the Gold Coast by way of Haarlem,3,civilisations & places,0.5,
+F1.19a,Case 1 / opening: cloth of gold for the khans; Buchier at Karakorum,1,objects,0.5,object; makers moved by conquest
+F1.19a,Case 1 / opening: cloth of gold for the khans; Buchier at Karakorum,4,events & timeline,0.5,object; makers moved by conquest
+F1.19a,Case 2: the navy as client (dazzle 1917-18),1,objects,0.5,
+F1.19a,Case 2: the navy as client (dazzle 1917-18),4,events & timeline,0.5,
+F1.19a,Case 3: weaving after the Long Walk (Dine rug),1,objects,0.5,
+F1.19a,Case 3: weaving after the Long Walk (Dine rug),4,events & timeline,0.5,
+F1.19b,Opening: the Durbar Room (Bhai Ram Singh or Lockwood Kipling),5,concepts & people,1.0,who counts as the designer
+F1.19b,Lab: lineage map of schools (Weimar-Ulm-Rio; London-Bombay-Lahore),2,movements,1.0,schools as lineages
+F1.19b,Case 1: copy to learn (Kano Tan'yu sketch; Mustard Seed Garden; Qajar sheet),2,movements,0.5,Kano school; copying as method
+F1.19b,Case 1: copy to learn (Kano Tan'yu sketch; Mustard Seed Garden; Qajar sheet),5,concepts & people,0.5,Kano school; copying as method
+F1.19b,Case 2: the school as author (Bombay School vase; colonial school chain),2,movements,0.5,
+F1.19b,Case 2: the school as author (Bombay School vase; colonial school chain),5,concepts & people,0.5,
+F1.19b,Case 3: the school as laboratory (Klee at the Bauhaus; Vkhutemas; Ulm; Eames report),2,movements,0.5,
+F1.19b,Case 3: the school as laboratory (Klee at the Bauhaus; Vkhutemas; Ulm; Eames report),5,concepts & people,0.5,
+F1.20,"Case 1 / opening: Tashkent, ""national in form""",2,movements,0.5,Soviet modernism; a city
+F1.20,"Case 1 / opening: Tashkent, ""national in form""",3,civilisations & places,0.5,Soviet modernism; a city
+F1.20,Case 2: a chair for a new capital (Chandigarh; tropical modernism; Nkrumah),2,movements,0.5,
+F1.20,Case 2: a chair for a new capital (Chandigarh; tropical modernism; Nkrumah),3,civilisations & places,0.5,
+F1.20,"Case 3: a folk print, remounted (Mingei)",2,movements,1.0,
+F1.21,"Case A / opening: the counter, 1683-1903 (Echigoya, Bon Marche, Kalighat, Uncle Josh)",4,events & timeline,0.5,the fixed-price counter as an idea; a dated sequence
+F1.21,"Case A / opening: the counter, 1683-1903 (Echigoya, Bon Marche, Kalighat, Uncle Josh)",5,concepts & people,0.5,the fixed-price counter as an idea; a dated sequence
+F1.21,"Case B: the label, 1858-1950s (House of Worth; the kanga)",1,objects,0.5,
+F1.21,"Case B: the label, 1858-1950s (House of Worth; the kanga)",5,concepts & people,0.5,
+F1.21,"Case C: the type, 1886-1992 (Linotype; Simplified Arabic; Bengali; laser; Unicode)",1,objects,0.5,
+F1.21,"Case C: the type, 1886-1992 (Linotype; Simplified Arabic; Bengali; laser; Unicode)",4,events & timeline,0.5,
+F1.21,"Lab counter 5: an Etsy listing form, 2013",5,concepts & people,1.0,platform terms
+F1.22,Case 1 / opening: red rubber to cobalt (Congo),1,objects,0.5,materials; one place over time
+F1.22,Case 1 / opening: red rubber to cobalt (Congo),3,civilisations & places,0.5,materials; one place over time
+F1.22,Case 2: the Great Heap (Chincha guano 1865; Chile saltpetre),1,objects,0.5,
+F1.22,Case 2: the Great Heap (Chincha guano 1865; Chile saltpetre),3,civilisations & places,0.5,
+F1.22,Case 3: a cover with a cotton ground (suzani; the Aral Sea),1,objects,0.5,
+F1.22,Case 3: a cover with a cotton ground (suzani; the Aral Sea),3,civilisations & places,0.5,
+F1.22,Lab chain: a pair of jeans,1,objects,1.0,
+F1.22a,Opening: Longquan bowl with kintsugi; the Bakohan bowl,1,objects,1.0,
+F1.22a,Case 1: the house that moves (Mongol ger; Turkmen ensi),1,objects,0.5,object type; a living practice
+F1.22a,Case 1: the house that moves (Mongol ger; Turkmen ensi),5,concepts & people,0.5,object type; a living practice
+F1.22a,Case 2: the blanket that became a rug (Dine),1,objects,0.5,
+F1.22a,Case 2: the blanket that became a rug (Dine),4,events & timeline,0.5,
+F1.22a,Case 3: a quilt of worn saris (kantha; cassone; salaula),1,objects,1.0,
+F1.23,Lab map: Darius I's Susa charter,3,civilisations & places,0.5,a polity's credit text; peoples by craft
+F1.23,Lab map: Darius I's Susa charter,5,concepts & people,0.5,a polity's credit text; peoples by craft
+F1.23,Lab map: the Strike Papyrus (Deir el-Medina),4,events & timeline,0.5,a dated strike; workers' own words
+F1.23,Lab map: the Strike Papyrus (Deir el-Medina),5,concepts & people,0.5,a dated strike; workers' own words
+F1.23,"Case 1 / opening: ""Dave"", 1858 (Met 2020.7)",1,objects,0.5,
+F1.23,"Case 1 / opening: ""Dave"", 1858 (Met 2020.7)",5,concepts & people,0.5,
+F1.23,Case 2: two names in one stamp (Arretine mould and bowl),1,objects,0.5,
+F1.23,Case 2: two names in one stamp (Arretine mould and bowl),5,concepts & people,0.5,
+F1.23,"Case 3: seventy hands, one reign (Kangxi dish; d'Entrecolles)",1,objects,0.5,
+F1.23,"Case 3: seventy hands, one reign (Kangxi dish; d'Entrecolles)",5,concepts & people,0.5,
+F1.24,Lab: the Luristan horse bit (short object story),1,objects,0.5,object; a provenance gap
+F1.24,Lab: the Luristan horse bit (short object story),5,concepts & people,0.5,object; a provenance gap
+F1.24,"Case 1 / opening: a plaque, two chains, one guild (Benin 1897; returns 2022-23)",1,objects,0.5,
+F1.24,"Case 1 / opening: a plaque, two chains, one guild (Benin 1897; returns 2022-23)",4,events & timeline,0.5,
+F1.24,Case 2: gold that waited in Amsterdam (Crimean loan 2014-2023; Scythian stag plaque),1,objects,0.5,
+F1.24,Case 2: gold that waited in Amsterdam (Crimean loan 2014-2023; Scythian stag plaque),4,events & timeline,0.5,
+F1.24,Case 3: two returns (Kamay spears 2024; Gothenburg Paracas),1,objects,0.5,
+F1.24,Case 3: two returns (Kamay spears 2024; Gothenburg Paracas),4,events & timeline,0.5,
+F1.25,"Case A / opening: belt buckle with animals, Ordos (Cleveland 1952.115)",1,objects,1.0,
+F1.25,"Case B: wearing blanket, Dine (Cleveland 1921.556)",1,objects,1.0,
+F1.25,"Case C: gold weight, Akan (Cleveland 1935.306)",1,objects,1.0,
+F1.25,Practice Reading: ala-kiyiz and shyrdak Kyrgyz felt carpets,1,objects,0.5,
+F1.25,Practice Reading: ala-kiyiz and shyrdak Kyrgyz felt carpets,5,concepts & people,0.5,
+F1.26,"Opening: the Kolhapuri chappal and Prada, 2025",4,events & timeline,0.5,a dated event; consent after the fact
+F1.26,"Opening: the Kolhapuri chappal and Prada, 2025",5,concepts & people,0.5,a dated event; consent after the fact
+F1.26,Case 1: Haka Ka Mate Attribution Act 2014 (Ngati Toa),5,concepts & people,1.0,attribution as protocol
+F1.26,"Case 2: Disney and the Sami Parliaments, 2019; Ajtte transfers",5,concepts & people,1.0,
+F1.26,"Case 3: the San Code of Research Ethics, 2017",5,concepts & people,1.0,
+F1.27,Case 1 / opening: two attributions (Cai Lun 105; Talas 751; Sogdian letters; Miwnay),4,events & timeline,0.5,dated attributions; the idea of attribution
+F1.27,Case 1 / opening: two attributions (Cai Lun 105; Talas 751; Sogdian letters; Miwnay),5,concepts & people,0.5,dated attributions; the idea of attribution
+F1.27,Case 2: paper's other makers (Qur'an folios; Silos; Xativa; Fabriano; Saharan copyists),1,objects,0.5,
+F1.27,Case 2: paper's other makers (Qur'an folios; Silos; Xativa; Fabriano; Saharan copyists),3,civilisations & places,0.5,
+F1.27,Case 3: is it paper? (amatl; kapa; barkcloth),1,objects,0.5,materials; a definition
+F1.27,Case 3: is it paper? (amatl; kapa; barkcloth),5,concepts & people,0.5,materials; a definition
+F1.28,Case 1 / opening: the silver tree (Rubruck 1253-55; Buchier),5,concepts & people,1.0,grading an eyewitness source
+F1.28,"Case 2: three triads, one sentence (Vitruvius in translation)",5,concepts & people,1.0,
+F1.28,"Case 3: one codex, two columns (Florentine Codex; Sahagun vs Nahua authors)",1,objects,0.5,
+F1.28,"Case 3: one codex, two columns (Florentine Codex; Sahagun vs Nahua authors)",5,concepts & people,0.5,
+F1.28,Lab demonstration: the Tiangong kaiwu,5,concepts & people,1.0,a source
+F1.28,Lab demonstration: the Satire of the Trades,5,concepts & people,1.0,a source
+F1.28a,Case 1 / opening: a lizard in the sand (Ms. Fr. 640 life-casting; the toad),1,objects,0.5,technique; reconstruction method
+F1.28a,Case 1 / opening: a lizard in the sand (Ms. Fr. 640 life-casting; the toad),5,concepts & people,0.5,technique; reconstruction method
+F1.28a,Case 2: smelting with elders (Haya; Schmidt vs Rehder),1,objects,0.5,
+F1.28a,Case 2: smelting with elders (Haya; Schmidt vs Rehder),5,concepts & people,0.5,
+F1.28a,Case 3: two canoes (Hokule'a; Hawai'iloa),1,objects,0.5,
+F1.28a,Case 3: two canoes (Hokule'a; Hawai'iloa),5,concepts & people,0.5,
+F1.28a,Lab demonstration: Indus beads (Khambhat drilling experiments),1,objects,0.5,
+F1.28a,Lab demonstration: Indus beads (Khambhat drilling experiments),3,civilisations & places,0.5,
+F1.28a,Lab demonstration: a khipu (Cleveland 1940.469),1,objects,1.0,
+F1.29,Opening: the learner's own recording (the Kit on yourself),5,concepts & people,1.0,method
+F1.29,Case 1: two felts and the epic (Kyrgyz felt; akyns; Manas),1,objects,0.5,
+F1.29,Case 1: two felts and the epic (Kyrgyz felt; akyns; Manas),5,concepts & people,0.5,
+F1.29,Case 2: seeds in a head-dress (Xuanzang's tale; Dandan-Uiliq panel; silk scroll),1,objects,0.5,
+F1.29,Case 2: seeds in a head-dress (Xuanzang's tale; Dandan-Uiliq panel; silk scroll),5,concepts & people,0.5,
+F1.29,Case 3: a fanner and a family (Lynette Youson; Senegal fanner),1,objects,0.5,
+F1.29,Case 3: a fanner and a family (Lynette Youson; Senegal fanner),5,concepts & people,0.5,
+F1.30,Case a / opening: the astrolabe that dates itself (690 AH),1,objects,0.5,object; a calendar
+F1.30,Case a / opening: the astrolabe that dates itself (690 AH),4,events & timeline,0.5,object; a calendar
+F1.30,"Case b: two bowls, one mark (reign marks)",1,objects,0.5,
+F1.30,"Case b: two bowls, one mark (reign marks)",4,events & timeline,0.5,
+F1.30,Case c: the Year of the Rat (Secret History colophon),4,events & timeline,1.0,
+F1.30,Lab station: the Long Count correlation,4,events & timeline,1.0,
+F1.30a,Case A / opening: paper without Talas,4,events & timeline,1.0,a dated event removed
+F1.30a,Case B: red that never crossed (cochineal),1,objects,0.5,
+F1.30a,Case B: red that never crossed (cochineal),3,civilisations & places,0.5,
+F1.30a,Case C: the imitation Java accepted (Dutch wax print),1,objects,0.5,
+F1.30a,Case C: the imitation Java accepted (Dutch wax print),3,civilisations & places,0.5,
+F1.31,Case A / opening: who wrote Korea's crafts? (Yanagi; Korean critiques; Joseon jar),3,civilisations & places,0.5,a place's history; who writes it
+F1.31,Case A / opening: who wrote Korea's crafts? (Yanagi; Korean critiques; Joseon jar),5,concepts & people,0.5,a place's history; who writes it
+F1.31,"Case B: commissioned at home, written by visitors (Eames India Report 1958; NID)",4,events & timeline,0.5,
+F1.31,"Case B: commissioned at home, written by visitors (Eames India Report 1958; NID)",5,concepts & people,0.5,
+F1.31,Case C: holders as authors (Zuni mapping; Great Zimbabwe masons),3,civilisations & places,0.5,
+F1.31,Case C: holders as authors (Zuni mapping; Great Zimbabwe masons),5,concepts & people,0.5,
+F1.31,"Case D: the Gulf and the UAE, structure only",3,civilisations & places,0.5,
+F1.31,"Case D: the Gulf and the UAE, structure only",5,concepts & people,0.5,
