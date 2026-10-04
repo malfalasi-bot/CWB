@@ -31,7 +31,7 @@ hi-taira-met-jp1115,ok,1722520,3733,1814
 hi-nihonbashi-met-jp471,ok,2769780,3818,2598
 hi-cat-met-jp1563,ok,2961712,3863,2819
 hi-great-wave-aic,ok,916528,1920,1327
-map-edo-1859-hi,"error: IncompleteRead(4390912 bytes read, 1027358 more expected)",0,0,0
+map-edo-1859-hi,ok,3147616,3964,3545
 map-edo-1676-hi,ok,3654361,4894,4135
 hv-000,ok,92667,330,504
 hv-001,ok,65048,330,497
