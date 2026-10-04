@@ -1,0 +1,45 @@
+name: Open-access assets (F1 build)
+
+# Fetches the open-licence images a build manifest lists (CC0 and public domain, as each holder's record states)
+# and pushes web-sized copies to a branch for review. The authoring shell has no network, so this is how images
+# reach the prototypes. Never writes to main.
+on:
+  workflow_dispatch:
+    inputs:
+      manifest:
+        description: "Manifest path, relative to modules/F1-histories-of-making/build/assets"
+        default: "edo/manifest.csv"
+      max:
+        description: "Longest side in px for the web copy"
+        default: "1600"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    name: Fetch assets
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: modules/F1-histories-of-making/build/assets
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --upgrade pip pillow
+      - name: Fetch
+        run: python fetch_assets.py "${{ github.event.inputs.manifest || 'edo/manifest.csv' }}" --max "${{ github.event.inputs.max || '1600' }}"
+      - name: Push a branch with the results
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then echo "Nothing changed."; exit 0; fi
+          BR="assets/$(date -u +%Y-%m-%d-%H%M)"
+          git config user.name "f1-harvest-bot"
+          git config user.email "f1-harvest-bot@users.noreply.github.com"
+          git checkout -b "$BR"
+          git add -A .
+          git commit -m "Open-access assets $(date -u +%Y-%m-%d): web copies from the manifest, licences as the holders state them"
+          git push origin "$BR"
+          echo "branch=$BR" >> "$GITHUB_OUTPUT"
