@@ -1,0 +1,21 @@
+id,status,source_bytes,source_w,source_h
+wave-met-jp1847,ok,2342637,3859,2594
+wave-met-jp10,ok,2758608,3863,2667
+wave-aic-1925-3245,error: HTTP Error 403: Forbidden,0,0,0
+redfuji-met-jp9,ok,3158200,3865,2665
+shower-met-jp2522,ok,3043911,2650,3860
+nihonbashi-met-jp471,ok,2769780,3818,2598
+ohisa-aic-1925-3030,error: HTTP Error 403: Forbidden,0,0,0
+actors-aic-2004-241,error: HTTP Error 403: Forbidden,0,0,0
+taira-met-jp1115,ok,1725952,3733,1814
+cat-met-jp1563,ok,2961712,3863,2819
+keyblock-met-2007-49-284,ok,2174649,2000,1431
+dutchship-met-2007-49-236,ok,973990,1280,1864
+surimono-met-jp1252,ok,3302162,3189,3533
+playbill-met-2013-851,ok,1326059,4000,2670
+komon-met-2001-428-40,ok,3542702,3312,4000
+stencil-met-55-175-16,ok,527150,1880,1188
+arita-cma-1970-46,ok,180833,900,702
+inro-cma-1916-848,ok,71950,691,900
+kiyonaga-cma-1930-197,ok,394272,900,683
+nanban-cma-1960-193,ok,577072,900,820
