@@ -1,0 +1,113 @@
+{
+ "edo_map_1670s_80s": {
+  "title": "Edo ōezu, eiri (江戸大絵図, 絵入)",
+  "maker": "Nakamura Ichiemon, active 17th century, cartographer",
+  "date": "1676 (LoC date; created_published reads 'Enpō 6 [1678]'; Tokyo Univ. identical map dated Enpō 5 = 1677)",
+  "item_url": "https://www.loc.gov/item/gm71005163/",
+  "json": "https://www.loc.gov/item/gm71005163/?fo=json",
+  "call_number": "G7964.T7G46 1676 .N3",
+  "description": "Manuscript map in watercolor, hand colored, wood block print. Covers Edo Castle and the surrounding area. Oriented with north to the right. Cadastral map showing landowners. Scale approximately 1:10,000. 1 map on 2 sheets, 134 x 149 cm.",
+  "rights": "The content of the Library of Congress Geography and Map Division digitized collections is free to use and reuse unless a Rights Advisory statement is present that indicates otherwise.\nCredit Line: Library of Congress, Geography and Map Division.",
+  "iiif_service": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd7:g7964:g7964t:ct011927",
+  "iiif_info": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd7:g7964:g7964t:ct011927/info.json",
+  "full_size_px": {
+   "width": 19576,
+   "height": 16540
+  },
+  "derivatives_listed": [
+   "…/full/pct:12.5/0/default.jpg (2447x2067)",
+   "…/full/pct:25/0/default.jpg (4894x4135)"
+  ],
+  "manifest": "https://www.loc.gov/item/gm71005163/manifest.json",
+  "alternates": [
+   {
+    "item_url": "https://www.loc.gov/item/gm71005088/",
+    "title": "Edo ōezu, eiri",
+    "maker": "Hayashi Yoshinaga",
+    "date": "1683",
+    "iiif_service": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd7:g7964:g7964t:ct011928",
+    "note": "shelf G7964.T7G46 1677 .H3; wood block print, hand colored; rights not separately fetched (same GMD collection statement expected)"
+   },
+   {
+    "item_url": "https://www.loc.gov/item/gm71005200/",
+    "title": "Edo ōezu",
+    "maker": "Ochikochi Dōin",
+    "date": "1676",
+    "iiif_service": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd7:g7964:g7964t:ct011926",
+    "note": "reduced ed. of official map compiled by Hōjō Awa no Kami"
+   },
+   {
+    "item_url": "https://www.loc.gov/item/80691955/",
+    "title": "Bushū Toshima-gun Edo shōzu",
+    "date": "1682 reprint of c.1630–31 map",
+    "iiif_service": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd7:g7964:g7964t:ct002119"
+   }
+  ]
+ },
+ "ansei_kaisei_oedo_oezu_1859": {
+  "title": "Ansei kaisei Oedo ōezu (安政改正御江戸大繪圖)",
+  "makers": "Takai Ranzan; Okadaya Kashichi; Izumoji Manjirō",
+  "date": "1859 (Ansei 6)",
+  "item_url": "https://www.loc.gov/item/77694812/",
+  "json": "https://www.loc.gov/item/77694812/?fo=json",
+  "call_number": "G7964.T7G46 1859 .T3",
+  "rights": "The content of the Library of Congress Geography and Map Division digitized collections is free to use and reuse unless a Rights Advisory statement is present that indicates otherwise.\nCredit Line: Library of Congress, Geography and Map Division.",
+  "recto": {
+   "iiif_service": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd7:g7964:g7964t:ct011892r",
+   "info": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd7:g7964:g7964t:ct011892r/info.json",
+   "full_size_px": {
+    "width": 15856,
+    "height": 14179
+   },
+   "info_json": "IIIF Image API 2 level2; tiles 512, scaleFactors 1–32; supports sizeByPct/sizeByW/sizeByWh, so full/full or full/pct:100 = 15856x14179 is the largest; listed JPEG derivatives pct:12.5 (1982x1772) and pct:25 (3964x3544); JP2 master 57.8 MB; TIFF master 674 MB"
+  },
+  "verso": {
+   "iiif_service": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd7:g7964:g7964t:ct011892v",
+   "full_size_px": {
+    "width": 6704,
+    "height": 3420
+   }
+  },
+  "notes": "Originally published Genroku 9 [1696], revised Bunsei 5 [1822], reprinted Tenpō 14 [1843]. Cadastral; north to the right; 117 x 131 cm; includes day-by-day listing of events in Edo for 1859."
+ },
+ "meireki_fire_1657": {
+  "dates": "Meireki 3, 1st month 18th–20th day = 2–4 March 1657 (ja.wikipedia); en.wikipedia: began 2 March 1657",
+  "origin": "Honmyō-ji (本妙寺), Maruyama, Hongō (本郷丸山)",
+  "outbreaks": [
+   {
+    "n": 1,
+    "date": "Meireki 3/1/18, hour of the Sheep (~14:00)",
+    "place": "Honmyō-ji, Hongō Maruyama",
+    "spread": "to Kanda and Kyōbashi, and across the Sumida; ~10,000 died at Reigan-ji and 20,000+ at Asakusa gate"
+   },
+   {
+    "n": 2,
+    "date": "1/19, hour of the Snake (~10:00)",
+    "place": "Koishikawa: below the front gate of Denzū-in (伝通院表門下), at the quarters of an Ōban yoriki in Shintakajō-chō (新鷹匠町)",
+    "spread": "Iidabashi to Kudan; most of Edo Castle including the keep burned"
+   },
+   {
+    "n": 3,
+    "date": "1/19, hour of the Monkey (~16:00)",
+    "place": "Kōjimachi 5-chōme (麹町5丁目), a townhouse",
+    "spread": "south-east to the Shinbashi shore, where it died out"
+   }
+  ],
+  "source_quotes": [
+   "ja.wikipedia 明暦の大火 §経過: '1月18日未の刻（14時ごろ）、本郷丸山の本妙寺より出火 … 1月19日巳の刻（10時ごろ）、小石川伝通院表門下、新鷹匠町の大番衆与力の宿所より出火 … 1月19日申の刻（16時ごろ）、麹町5丁目の在家より出火'",
+   "en.wikipedia Great Fire of Meireki, map caption: 'the initial March 2 fire at Honmyo-ji Temple (①), the fire at the gate of the Dentsu-in Temple (②), and the fire in Kōjimachi (③)'; text: 'The fire began ... in Edo's Hongō district'"
+  ],
+  "sources": [
+   "https://ja.wikipedia.org/wiki/明暦の大火",
+   "https://en.wikipedia.org/wiki/Great_Fire_of_Meireki"
+  ],
+  "honmyoji_original_site": null,
+  "honmyoji_note": "Wikidata has no coordinate for Honmyō-ji's original Hongō Maruyama site. Wikidata Q11520109 (本妙寺, 豊島区) P625 = 35.739658, 139.735108 is the temple's CURRENT site at Sugamo 5-35-6, Toshima (ja.wikipedia infobox gives the same address); do not use it as the 1657 origin point. (Wikidata Q3140143, linked from en.wiki 'Honmyō-ji', is the Kumamoto temple – unrelated.)",
+  "honmyoji_current_site": {
+   "lat": 35.739658,
+   "lon": 139.735108,
+   "wikidata": "Q11520109",
+   "address": "東京都豊島区巣鴨5丁目35番6号"
+  }
+ }
+}

@@ -1,0 +1,262 @@
+{
+ "perry_1852_53": {
+  "stops": [
+   {
+    "name": "Norfolk, Virginia (Hampton Roads)",
+    "lat": 36.846944,
+    "lon": -76.285278,
+    "wikidata": "Q49231",
+    "date": "1852-11-24 (cleared Hampton Roads)",
+    "note": "Wikipedia: 'cleared Hampton Roads, Virginia on November 24, 1852'; LoC Speiden timeline and HyperWar: departure from Norfolk"
+   },
+   {
+    "name": "Funchal, Madeira",
+    "lat": 32.65,
+    "lon": -16.916667,
+    "wikidata": "Q25444",
+    "date": "1852-12-11/15",
+    "note": "LoC Speiden timeline: anchored off the town of Funchal, Madeira"
+   },
+   {
+    "name": "Jamestown, St Helena",
+    "lat": -15.925139,
+    "lon": -5.717917,
+    "wikidata": "Q30970",
+    "date": "1853-01-10/11",
+    "note": "port = Jamestown (St Helena's only town/anchorage); Wikipedia names only 'St Helena'"
+   },
+   {
+    "name": "Cape Town",
+    "lat": -33.925278,
+    "lon": 18.423889,
+    "wikidata": "Q5465",
+    "date": "1853-01-24/02-03"
+   },
+   {
+    "name": "Port Louis, Mauritius",
+    "lat": -20.161944,
+    "lon": 57.498889,
+    "wikidata": "Q3929",
+    "date": "1853-02-18/28",
+    "note": "Hawks Narrative contents (e-rara): 'Departure from Port Louis'"
+   },
+   {
+    "name": "Point de Galle, Ceylon",
+    "lat": 6.032778,
+    "lon": 80.215556,
+    "wikidata": "Q319366",
+    "date": "1853-03-10/15",
+    "note": "LoC Speiden timeline: 'The Mississippi reaches Point de Galle, Island of Ceylon'"
+   },
+   {
+    "name": "Singapore",
+    "lat": 1.3,
+    "lon": 103.8,
+    "wikidata": "Q334",
+    "date": "1853-03-25/29"
+   },
+   {
+    "name": "Macao",
+    "lat": 22.19,
+    "lon": 113.538056,
+    "wikidata": "Q14773",
+    "date": "1853-04-07/28 (Macao and Hong Kong)"
+   },
+   {
+    "name": "Hong Kong",
+    "lat": 22.278333,
+    "lon": 114.158611,
+    "wikidata": "Q8646",
+    "date": "1853-04-07/28 (Macao and Hong Kong)"
+   },
+   {
+    "name": "Shanghai",
+    "lat": 31.2325,
+    "lon": 121.469167,
+    "wikidata": "Q8686",
+    "date": "1853-05-04/17"
+   },
+   {
+    "name": "Naha, Great Lew Chew (Ryukyu)",
+    "lat": 26.212222,
+    "lon": 127.679167,
+    "wikidata": "Q181966",
+    "date": "1853-05-17/26 (first stay; squadron returned there late June)",
+    "note": "LoC Speiden timeline: 'harbor at Napa Riang (Naha), Loo Choo'"
+   },
+   {
+    "name": "Port Lloyd, Peel Island (Chichijima), Bonin Islands",
+    "lat": 27.066667,
+    "lon": 142.208333,
+    "wikidata": "Q1072125",
+    "date": "1853-06-14 (anchored)",
+    "note": "Perry dispatch 25 June 1853 (whalesite.org transcription of the 1855 Correspondence): 'anchored at Port Lloyd on the morning of the 14th instant'. Coordinate = Wikidata item for Chichijima (no separate Port Lloyd item found)."
+   },
+   {
+    "name": "Naha (return)",
+    "lat": 26.212222,
+    "lon": 127.679167,
+    "wikidata": "Q181966",
+    "date": "1853-06 late – departed 1853-07-02",
+    "note": "HyperWar (NHHC-derived text): 'On July 2, the Susquehanna and Mississippi, towing the sloops Saratoga and Plymouth, sailed'"
+   },
+   {
+    "name": "Uraga, Edo Bay",
+    "lat": 35.2475,
+    "lon": 139.713972,
+    "wikidata": "Q2735604",
+    "date": "1853-07-08",
+    "note": "Wikipedia: reached Uraga July 8, 1853; landing at Kurihama 14 July (Kurihama Q6446012: 35.224659, 139.714802)"
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Perry_Expedition",
+   "https://www.loc.gov/collections/william-speiden-journals/articles-and-essays/voyage-of-mississippi-to-china-seas-and-japan/december-1852-to-december-1853/",
+   "http://www.ibiblio.org/hyperwar/PTO/Dip/Perry/",
+   "https://whalesite.org/bonin/1855%20-%20Perry%20-%20Correspondence.htm",
+   "https://era-prod11.ethz.ch/download/pdf/4594957.pdf",
+   "Wikidata wbgetentities (P625) for each port, see SOURCES.md"
+  ],
+  "coord_note": "All coordinates are Wikidata P625 of the port/town item (city centroid, not anchorage)."
+ },
+ "voc_route": {
+  "stops": [
+   {
+    "name": "Texel roadstead (departures from Amsterdam etc.)",
+    "lat": 53.066667,
+    "lon": 4.8,
+    "wikidata": "Q9966",
+    "note": "Huygens 'Dutch-Asiatic Shipping' voyages list: departures 'Texel', with 'Arrival at Cape / Departure from Cape' columns"
+   },
+   {
+    "name": "Amsterdam (VOC headquarters)",
+    "lat": 52.366667,
+    "lon": 4.883333,
+    "wikidata": "Q727"
+   },
+   {
+    "name": "Cape of Good Hope (Cape Town, VOC station from 1652)",
+    "lat": -33.925278,
+    "lon": 18.423889,
+    "wikidata": "Q5465",
+    "note": "Wikipedia VOC: 'In 1652, Jan van Riebeeck established a resupply outpost at the Cape ... to service company ships on their journey to and from East Asia.'"
+   },
+   {
+    "name": "Batavia",
+    "lat": -6.134836,
+    "lon": 106.813222,
+    "wikidata": "Q1199713",
+    "note": "Wikidata Batavia item; Wikipedia VOC: 'Ships coming into Batavia from the Netherlands carried supplies for VOC settlements in Asia.'"
+   },
+   {
+    "name": "Nagasaki (Dejima)",
+    "lat": 32.74352,
+    "lon": 129.87302,
+    "wikidata": "Q640267",
+    "note": "Nationaal Archief guide to the Dejima factory archive (Roessingh): 'At the end of June two or three ships left from Batavia and sailed with the south-western monsoon to Japan in four or five weeks.' Dejima official site: ships 'usually left Batavia (now Jakarta) in early summer, passed through the Straits of Bangka and Taiwan and entered the port of Nagasaki via Nomozaki.'"
+   }
+  ],
+  "source_sentences": [
+   "Wikipedia (Dutch East India Company): 'In 1652, Jan van Riebeeck established a resupply outpost at the Cape of Storms ... to service company ships on their journey to and from East Asia.'",
+   "Wikipedia (Dutch East India Company): 'Ships coming into Batavia from the Netherlands carried supplies for VOC settlements in Asia.' ... 'The Japanese post was in Hirado, Nagasaki from 1609 to 1641, but was relocated to Dejima from 1641 to 1853.'",
+   "Nationaal Archief 1.04.21 introduction: 'At the end of June two or three ships left from Batavia and sailed with the south-western monsoon to Japan in four or five weeks.'",
+   "nagasakidejima.jp: 'From 1621 to 1847, more than 700 Dutch ships visited Japan ... usually left Batavia (now Jakarta) in early summer'"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Vereenigde_Oostindische_Compagnie",
+   "https://resources.huygens.knaw.nl/das/voyages",
+   "https://nationaalarchief.nl/onderzoeken/archief/1.04.21/download/pdf",
+   "https://nagasakidejima.jp/english/history/"
+  ],
+  "note": "No single source sentence found giving the whole chain Texel→Cape→Batavia→Nagasaki; the route is assembled from the three sourced legs above."
+ },
+ "messageries_marseille_yokohama": {
+  "ran": true,
+  "start_year": 1865,
+  "summary": "Messageries Impériales (renamed Messageries Maritimes 1871) extended its Far East mail line to Yokohama in 1865 (branch first via Shanghai, later direct from Hong Kong). Before the Suez Canal opened (1869) passengers/mail crossed Egypt overland (Alexandria–Suez); after 1869 the line head moved to Marseille with through-service via the canal. Industrial History of Hong Kong gives 17 April 1870 for Marseille liners running on to Yokohama fortnightly.",
+  "ports_of_call_as_listed": "Marseille – Messina/Naples – Alexandria/Port Said – Suez – Aden – Galle/Colombo – Singapore – Saigon – Hong Kong – Shanghai – Yokohama (Scamp, FEMSI vol. 2 presentation)",
+  "stops": [
+   {
+    "name": "Marseille",
+    "lat": 43.296667,
+    "lon": 5.376389,
+    "wikidata": "Q23482"
+   },
+   {
+    "name": "Point de Galle",
+    "lat": 6.032778,
+    "lon": 80.215556,
+    "wikidata": "Q319366"
+   },
+   {
+    "name": "Singapore",
+    "lat": 1.3,
+    "lon": 103.8,
+    "wikidata": "Q334"
+   },
+   {
+    "name": "Hong Kong",
+    "lat": 22.278333,
+    "lon": 114.158611,
+    "wikidata": "Q8646"
+   },
+   {
+    "name": "Shanghai",
+    "lat": 31.2325,
+    "lon": 121.469167,
+    "wikidata": "Q8686"
+   },
+   {
+    "name": "Yokohama",
+    "lat": 35.450333,
+    "lon": 139.634222,
+    "wikidata": "Q38283"
+   }
+  ],
+  "missing_coords": "Messina/Naples, Alexandria/Port Said, Suez, Aden, Saigon were not looked up in Wikidata (time) – add if needed.",
+  "sources": [
+   "http://www.hongkongstudycircle.com/Papers/009-Book-MESSAGERIES-IMPERIALES-Scamp/MI-MM-Book-presentation-to-SPH-2010.pdf",
+   "https://hongkongstudycircle.com/Papers/010-Book-2-Scamp/MI-book-description-ordering-informatiion-b.pdf",
+   "https://hal.science/hal-04257381v1/document",
+   "https://industrialhistoryhk.org/messageries-maritimes-french-shipping-line-advert-1905/"
+  ],
+  "source_sentences": [
+   "Scamp: 'A branch service to Yokohama began in 1865, first via Shanghai, and then later directly from Hong Kong. When the Suez Canal was opened in 1869, the French Line ... immediately began direct service between Marseille and the Far East via that canal.'",
+   "HAL: 'La ligne principale est prolongée vers le Japon en 1865 et, après l’ouverture du canal de Suez en 1869, la tête de ligne passe de l’Égypte à Marseille.'"
+  ]
+ },
+ "pacific_mail_sf_yokohama": {
+  "start_year": 1867,
+  "first_sailing": "1867-01-01, SS Colorado, San Francisco → Yokohama → Hong Kong (Frajola)",
+  "transcontinental_railroad_completed": "May 1869 (Frajola: 'After the transcontinental railroad across the United States was completed in May 1869...')",
+  "stops": [
+   {
+    "name": "San Francisco",
+    "lat": 37.775,
+    "lon": -122.419444,
+    "wikidata": "Q62"
+   },
+   {
+    "name": "Yokohama",
+    "lat": 35.450333,
+    "lon": 139.634222,
+    "wikidata": "Q38283"
+   },
+   {
+    "name": "Hong Kong",
+    "lat": 22.278333,
+    "lon": 114.158611,
+    "wikidata": "Q8646"
+   }
+  ],
+  "source_sentences": [
+   "Wikipedia (Pacific Mail Steamship Company): 'In 1867, the company launched the first regularly scheduled trans-Pacific steamship service with a route between San Francisco, Hong Kong, and Yokohama'",
+   "Frajola, The United States Post Offices in China and Japan 1867 to 1874: 'the inauguration, on January 1, 1867, of a direct steam packet service from San Francisco to Yokohama, Japan and onward to Hong Kong ... After the transcontinental railroad across the United States was completed in May 1869...'"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Pacific_Mail_Steamship_Company",
+   "https://www.rfrajola.com/CandJBook.pdf"
+  ],
+  "note": "Railroad date sourced only to Frajola (month/year); the 10 May 1869 Golden Spike day was not separately opened."
+ }
+}

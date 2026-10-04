@@ -7,10 +7,12 @@ manifest, plus fetch_report.csv (id, status, bytes, width, height). Only rows wh
 with CC0, "Public domain" or "CC BY" are fetched; the rest are reported as skipped. Runs in GitHub Actions,
 which has the network this project's authoring shell lacks.
 """
-import csv, io, sys, time, urllib.error, urllib.request
+import csv, io, sys, time
+Image_MAX = None, urllib.error, urllib.request
 from pathlib import Path
 
 from PIL import Image
+Image.MAX_IMAGE_PIXELS = None
 
 OPEN = ("cc0", "public domain", "cc by", "pd")
 
@@ -35,7 +37,12 @@ def main():
         if only and r["id"] not in only:
             continue
         try:
-            req = urllib.request.Request(r["url"], headers={"User-Agent": "creative-world-f1-assets/1.0 (open-access fetch; contact via github.com/malfalasi-bot/CWB)"})
+            hdr = {"User-Agent": "creative-world-f1-assets/1.0 (open-access fetch; contact via github.com/malfalasi-bot/CWB)"}
+            if "artic.edu" in r["url"]:
+                hdr = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+                       "AIC-User-Agent": "creative-world-f1-assets (github.com/malfalasi-bot/CWB)", "Accept": "image/avif,image/webp,image/*,*/*;q=0.8",
+                       "Referer": "https://www.artic.edu/"}
+            req = urllib.request.Request(r["url"], headers=hdr)
             data = None
             for attempt in range(5):
                 try:
@@ -48,7 +55,9 @@ def main():
                     raise
             im = Image.open(io.BytesIO(data)).convert("RGB")
             w, h = im.size
-            for suffix, side in ((".jpg", mx), (".thumb.jpg", 480)):
+            rmx = int(r.get("max") or mx)
+            sizes = [(".jpg", rmx)] + ([(".thumb.jpg", 480)] if (r.get("thumb") or "yes") != "no" else [])
+            for suffix, side in sizes:
                 c = im.copy(); c.thumbnail((side, side), Image.LANCZOS)
                 c.save(out / f"{r['id']}{suffix}", "JPEG", quality=85, optimize=True, progressive=True)
             report.append((r["id"], "ok", len(data), w, h))

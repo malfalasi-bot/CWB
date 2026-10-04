@@ -1,0 +1,505 @@
+{
+ "_meta": {
+  "series": "Hiroshige, Tōkaidō gojūsan-tsugi no uchi (Hōeidō edition, 1833–34): 55 sheets",
+  "order_source": "Wikidata P31=Q75093704 (Fifty-three Stations of the Tōkaidō) with P1545 series ordinal; station list cross-checked against en.wikipedia 'The Fifty-three Stations of the Tōkaidō'",
+  "coords": "Wikidata P625 of each station item (all 55 had P625; none needed Wikipedia fallback)",
+  "kanji": "Wikidata ja label (post-station name, e.g. 品川宿)"
+ },
+ "stations": [
+  {
+   "n": 0,
+   "name": "Nihonbashi",
+   "kanji": "日本橋",
+   "lat": 35.68406,
+   "lon": 139.77451,
+   "wikidata": "Q75098535",
+   "src": "wikidata"
+  },
+  {
+   "n": 1,
+   "name": "Shinagawa",
+   "kanji": "品川宿",
+   "lat": 35.619974,
+   "lon": 139.742148,
+   "wikidata": "Q3133266",
+   "src": "wikidata"
+  },
+  {
+   "n": 2,
+   "name": "Kawasaki",
+   "kanji": "川崎宿",
+   "lat": 35.53251,
+   "lon": 139.70292,
+   "wikidata": "Q3133126",
+   "src": "wikidata"
+  },
+  {
+   "n": 3,
+   "name": "Kanagawa",
+   "kanji": "神奈川宿",
+   "lat": 35.474995,
+   "lon": 139.632958,
+   "wikidata": "Q546680",
+   "src": "wikidata"
+  },
+  {
+   "n": 4,
+   "name": "Hodogaya",
+   "kanji": "程ヶ谷宿",
+   "lat": 35.444028,
+   "lon": 139.595556,
+   "wikidata": "Q684671",
+   "src": "wikidata"
+  },
+  {
+   "n": 5,
+   "name": "Totsuka",
+   "kanji": "戸塚宿",
+   "lat": 35.395028,
+   "lon": 139.529861,
+   "wikidata": "Q962026",
+   "src": "wikidata"
+  },
+  {
+   "n": 6,
+   "name": "Fujisawa",
+   "kanji": "藤沢宿",
+   "lat": 35.34775,
+   "lon": 139.48294444,
+   "wikidata": "Q3069856",
+   "src": "wikidata"
+  },
+  {
+   "n": 7,
+   "name": "Hiratsuka",
+   "kanji": "平塚宿",
+   "lat": 35.327278,
+   "lon": 139.337806,
+   "wikidata": "Q613324",
+   "src": "wikidata"
+  },
+  {
+   "n": 8,
+   "name": "Ōiso",
+   "kanji": "大磯宿",
+   "lat": 35.309073,
+   "lon": 139.315203,
+   "wikidata": "Q3069823",
+   "src": "wikidata"
+  },
+  {
+   "n": 9,
+   "name": "Odawara",
+   "kanji": "小田原宿",
+   "lat": 35.248573,
+   "lon": 139.160525,
+   "wikidata": "Q3069741",
+   "src": "wikidata"
+  },
+  {
+   "n": 10,
+   "name": "Hakone",
+   "kanji": "箱根宿",
+   "lat": 35.189493,
+   "lon": 139.025375,
+   "wikidata": "Q3069817",
+   "src": "wikidata"
+  },
+  {
+   "n": 11,
+   "name": "Mishima",
+   "kanji": "三島宿",
+   "lat": 35.11931,
+   "lon": 138.91447,
+   "wikidata": "Q524171",
+   "src": "wikidata"
+  },
+  {
+   "n": 12,
+   "name": "Numazu",
+   "kanji": "沼津宿",
+   "lat": 35.096122,
+   "lon": 138.856815,
+   "wikidata": "Q3070218",
+   "src": "wikidata"
+  },
+  {
+   "n": 13,
+   "name": "Hara",
+   "kanji": "原宿",
+   "lat": 35.125262,
+   "lon": 138.797854,
+   "wikidata": "Q3032821",
+   "src": "wikidata"
+  },
+  {
+   "n": 14,
+   "name": "Yoshiwara",
+   "kanji": "吉原宿",
+   "lat": 35.1625,
+   "lon": 138.68777778,
+   "wikidata": "Q3069833",
+   "src": "wikidata"
+  },
+  {
+   "n": 15,
+   "name": "Kanbara",
+   "kanji": "蒲原宿",
+   "lat": 35.119956,
+   "lon": 138.605569,
+   "wikidata": "Q3069866",
+   "src": "wikidata"
+  },
+  {
+   "n": 16,
+   "name": "Yui",
+   "kanji": "由比宿",
+   "lat": 35.0914,
+   "lon": 138.549,
+   "wikidata": "Q3070211",
+   "src": "wikidata"
+  },
+  {
+   "n": 17,
+   "name": "Okitsu",
+   "kanji": "興津宿",
+   "lat": 35.049528,
+   "lon": 138.518864,
+   "wikidata": "Q100255630",
+   "src": "wikidata"
+  },
+  {
+   "n": 18,
+   "name": "Ejiri",
+   "kanji": "江尻宿",
+   "lat": 35.02349,
+   "lon": 138.48704,
+   "wikidata": "Q3033380",
+   "src": "wikidata"
+  },
+  {
+   "n": 19,
+   "name": "Fuchū",
+   "kanji": "府中宿",
+   "lat": 34.9747,
+   "lon": 138.387686,
+   "wikidata": "Q3032835",
+   "src": "wikidata"
+  },
+  {
+   "n": 20,
+   "name": "Mariko",
+   "kanji": "鞠子宿",
+   "lat": 34.9525,
+   "lon": 138.34472222,
+   "wikidata": "Q1568406",
+   "src": "wikidata"
+  },
+  {
+   "n": 21,
+   "name": "Okabe",
+   "kanji": "岡部宿",
+   "lat": 34.918847,
+   "lon": 138.282312,
+   "wikidata": "Q3032825",
+   "src": "wikidata"
+  },
+  {
+   "n": 22,
+   "name": "Fujieda",
+   "kanji": "藤枝宿",
+   "lat": 34.870393,
+   "lon": 138.252862,
+   "wikidata": "Q3069558",
+   "src": "wikidata"
+  },
+  {
+   "n": 23,
+   "name": "Shimada",
+   "kanji": "島田宿",
+   "lat": 34.83472222,
+   "lon": 138.16583333,
+   "wikidata": "Q3069810",
+   "src": "wikidata"
+  },
+  {
+   "n": 24,
+   "name": "Kanaya",
+   "kanji": "金谷宿",
+   "lat": 34.8227,
+   "lon": 138.128741,
+   "wikidata": "Q3069848",
+   "src": "wikidata"
+  },
+  {
+   "n": 25,
+   "name": "Nissaka",
+   "kanji": "日坂宿",
+   "lat": 34.80277778,
+   "lon": 138.07583333,
+   "wikidata": "Q956512",
+   "src": "wikidata"
+  },
+  {
+   "n": 26,
+   "name": "Kakegawa",
+   "kanji": "掛川宿",
+   "lat": 34.772927,
+   "lon": 138.015895,
+   "wikidata": "Q3070229",
+   "src": "wikidata"
+  },
+  {
+   "n": 27,
+   "name": "Fukuroi",
+   "kanji": "袋井宿",
+   "lat": 34.747516,
+   "lon": 137.923326,
+   "wikidata": "Q3070629",
+   "src": "wikidata"
+  },
+  {
+   "n": 28,
+   "name": "Mitsuke",
+   "kanji": "見附宿",
+   "lat": 34.726838,
+   "lon": 137.857,
+   "wikidata": "Q782144",
+   "src": "wikidata"
+  },
+  {
+   "n": 29,
+   "name": "Hamamatsu",
+   "kanji": "浜松宿",
+   "lat": 34.706018,
+   "lon": 137.728045,
+   "wikidata": "Q3069885",
+   "src": "wikidata"
+  },
+  {
+   "n": 30,
+   "name": "Maisaka",
+   "kanji": "舞阪宿",
+   "lat": 34.684626,
+   "lon": 137.608976,
+   "wikidata": "Q3032831",
+   "src": "wikidata"
+  },
+  {
+   "n": 31,
+   "name": "Arai",
+   "kanji": "新居宿",
+   "lat": 34.69472,
+   "lon": 137.56133,
+   "wikidata": "Q2859456",
+   "src": "wikidata"
+  },
+  {
+   "n": 32,
+   "name": "Shirasuka",
+   "kanji": "白須賀宿",
+   "lat": 34.68858,
+   "lon": 137.500845,
+   "wikidata": "Q3032808",
+   "src": "wikidata"
+  },
+  {
+   "n": 33,
+   "name": "Futagawa",
+   "kanji": "二川宿",
+   "lat": 34.72329,
+   "lon": 137.44982,
+   "wikidata": "Q3033349",
+   "src": "wikidata"
+  },
+  {
+   "n": 34,
+   "name": "Yoshida",
+   "kanji": "吉田宿",
+   "lat": 34.766647,
+   "lon": 137.389618,
+   "wikidata": "Q3032813",
+   "src": "wikidata"
+  },
+  {
+   "n": 35,
+   "name": "Goyu",
+   "kanji": "御油宿",
+   "lat": 34.8126,
+   "lon": 137.3165,
+   "wikidata": "Q657939",
+   "src": "wikidata"
+  },
+  {
+   "n": 36,
+   "name": "Akasaka",
+   "kanji": "赤坂宿",
+   "lat": 34.857,
+   "lon": 137.308,
+   "wikidata": "Q2828947",
+   "src": "wikidata"
+  },
+  {
+   "n": 37,
+   "name": "Fujikawa",
+   "kanji": "藤川宿",
+   "lat": 34.911,
+   "lon": 137.223,
+   "wikidata": "Q3033386",
+   "src": "wikidata"
+  },
+  {
+   "n": 38,
+   "name": "Okazaki",
+   "kanji": "岡崎宿",
+   "lat": 34.957956,
+   "lon": 137.169232,
+   "wikidata": "Q3069775",
+   "src": "wikidata"
+  },
+  {
+   "n": 39,
+   "name": "Chiryū",
+   "kanji": "池鯉鮒宿",
+   "lat": 35.008,
+   "lon": 137.041,
+   "wikidata": "Q2963997",
+   "src": "wikidata"
+  },
+  {
+   "n": 40,
+   "name": "Narumi",
+   "kanji": "鳴海宿",
+   "lat": 35.08049722222222,
+   "lon": 136.94975555555556,
+   "wikidata": "Q3033344",
+   "src": "wikidata"
+  },
+  {
+   "n": 41,
+   "name": "Miya",
+   "kanji": "宮宿",
+   "lat": 35.1289,
+   "lon": 136.9143,
+   "wikidata": "Q3033374",
+   "src": "wikidata"
+  },
+  {
+   "n": 42,
+   "name": "Kuwana",
+   "kanji": "桑名宿",
+   "lat": 35.06841,
+   "lon": 136.696094,
+   "wikidata": "Q3069785",
+   "src": "wikidata"
+  },
+  {
+   "n": 43,
+   "name": "Yokkaichi",
+   "kanji": "四日市宿",
+   "lat": 34.970538,
+   "lon": 136.625487,
+   "wikidata": "Q3070200",
+   "src": "wikidata"
+  },
+  {
+   "n": 44,
+   "name": "Ishiyakushi",
+   "kanji": "石薬師宿",
+   "lat": 34.89666667,
+   "lon": 136.55055556,
+   "wikidata": "Q3033356",
+   "src": "wikidata"
+  },
+  {
+   "n": 45,
+   "name": "Shōno",
+   "kanji": "庄野宿",
+   "lat": 34.89209722,
+   "lon": 136.52578889,
+   "wikidata": "Q3033358",
+   "src": "wikidata"
+  },
+  {
+   "n": 46,
+   "name": "Kameyama",
+   "kanji": "亀山宿",
+   "lat": 34.854765,
+   "lon": 136.454365,
+   "wikidata": "Q777826",
+   "src": "wikidata"
+  },
+  {
+   "n": 47,
+   "name": "Seki",
+   "kanji": "関宿",
+   "lat": 34.85166389,
+   "lon": 136.40035278,
+   "wikidata": "Q3033351",
+   "src": "wikidata"
+  },
+  {
+   "n": 48,
+   "name": "Sakashita",
+   "kanji": "坂下宿",
+   "lat": 34.888588,
+   "lon": 136.354073,
+   "wikidata": "Q3033376",
+   "src": "wikidata"
+  },
+  {
+   "n": 49,
+   "name": "Tsuchiyama",
+   "kanji": "土山宿",
+   "lat": 34.934838,
+   "lon": 136.282336,
+   "wikidata": "Q338084",
+   "src": "wikidata"
+  },
+  {
+   "n": 50,
+   "name": "Minakuchi",
+   "kanji": "水口宿",
+   "lat": 34.966188,
+   "lon": 136.182085,
+   "wikidata": "Q3069768",
+   "src": "wikidata"
+  },
+  {
+   "n": 51,
+   "name": "Ishibe",
+   "kanji": "石部宿",
+   "lat": 35.010129,
+   "lon": 136.054554,
+   "wikidata": "Q3155270",
+   "src": "wikidata"
+  },
+  {
+   "n": 52,
+   "name": "Kusatsu",
+   "kanji": "草津宿",
+   "lat": 35.01766667,
+   "lon": 135.96047222,
+   "wikidata": "Q3200642",
+   "src": "wikidata"
+  },
+  {
+   "n": 53,
+   "name": "Ōtsu",
+   "kanji": "大津宿",
+   "lat": 35.00597222,
+   "lon": 135.86141667,
+   "wikidata": "Q3069765",
+   "src": "wikidata"
+  },
+  {
+   "n": 54,
+   "name": "Kyoto (Sanjō Ōhashi)",
+   "kanji": "三条大橋",
+   "lat": 35.00907222,
+   "lon": 135.77173611,
+   "wikidata": "Q3087620",
+   "src": "wikidata"
+  }
+ ]
+}
