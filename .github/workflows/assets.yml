@@ -12,6 +12,9 @@ on:
       max:
         description: "Longest side in px for the web copy"
         default: "1600"
+      only:
+        description: "Ids to fetch, space-separated (optional; others are left as they are)"
+        default: ""
 
 permissions:
   contents: write
@@ -31,7 +34,12 @@ jobs:
           python-version: "3.12"
       - run: python -m pip install --upgrade pip pillow
       - name: Fetch
-        run: python fetch_assets.py "${{ github.event.inputs.manifest || 'edo/manifest.csv' }}" --max "${{ github.event.inputs.max || '1600' }}"
+        run: |
+          if [ -n "${{ github.event.inputs.only }}" ]; then
+            python fetch_assets.py "${{ github.event.inputs.manifest || 'edo/manifest.csv' }}" --max "${{ github.event.inputs.max || '1600' }}" --only ${{ github.event.inputs.only }}
+          else
+            python fetch_assets.py "${{ github.event.inputs.manifest || 'edo/manifest.csv' }}" --max "${{ github.event.inputs.max || '1600' }}"
+          fi
       - name: Push a branch with the results
         run: |
           if [ -z "$(git status --porcelain)" ]; then echo "Nothing changed."; exit 0; fi
