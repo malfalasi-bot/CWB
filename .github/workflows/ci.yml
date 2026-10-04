@@ -33,7 +33,7 @@ jobs:
       - name: Offline tests
         run: |
           python tools/test_tools.py
-          cd harvest && python test_harvest.py && python test_backbone.py
+          cd harvest && python test_harvest.py && python test_backbone.py && python test_depth_batch.py
       - name: Validate the canon (errors block the change; warnings are listed for review)
         run: python tools/validate_canon.py
       - name: Coverage report

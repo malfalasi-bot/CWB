@@ -8,6 +8,7 @@ What we may do with each source. Checked 28 September 2026 unless noted; the har
 | The Met Open Access | Public domain per record (`isPublicDomain`); the search filter is unreliable | Host only records whose own flag is true |
 | Art Institute of Chicago | Data CC0; `description` field CC BY 4.0; images public domain per record | Host; credit AIC when quoting descriptions |
 | Smithsonian Open Access | CC0 where marked | Host records marked CC0 |
+| Smithsonian Open Access 3D (3d.si.edu; files through the Smithsonian 3D API, 3d-api.si.edu) | CC0 where the object page says so; checked 4 October 2026 for Freer F1961.33a-b, the ritual wine ewer (gong) used by the object-page prototype | Host the glb files of objects marked CC0, downloaded and self-hosted (decision 7, audit of 3 October 2026); credit the Smithsonian as it asks |
 | Wikidata | CC0 | Use ids and facts |
 | PeriodO | CC0 | Use period definitions |
 | Getty vocabularies (AAT, TGN, ULAN) | ODC-By | Use with credit |
@@ -30,3 +31,17 @@ No description, scope note or other prose is copied from any of these sources; t
 | Te Papa, Auckland Museum (taonga Māori and Pacific material) | Restricted by the holders' own rules despite open markings | Link only |
 
 Local Contexts Notices are applied by hand under a free researcher account; Labels are applied by communities themselves.
+
+## Derived data and the viewers' dependencies
+
+Checked 4 October 2026 at the model card or the package's own `package.json`.
+
+| Item | Licence | What we do |
+|---|---|---|
+| Depth maps in `data/derived/depth/` (from `harvest/depth_batch.py`) | Each map carries the licence of the image it was computed from (CC0 or public domain); the computation adds no new rights | Host beside the image; the manifest records the source image and its licence |
+| Depth Anything V2 Small weights, `depth-anything/Depth-Anything-V2-Small-hf` (transformers) and `onnx-community/depth-anything-v2-small` (transformers.js) | Apache 2.0. The Base, Large and Giant variants are CC BY-NC and are never used | Run the Small model only, in the batch and, on request, in the browser |
+| transformers.js, `@huggingface/transformers` 4.3.0 | Apache-2.0 | Load from jsdelivr in the object page, only when a learner asks for an in-browser depth map |
+| OpenSeadragon 6.1.1 | BSD-3-Clause | Load from cdnjs for deep zoom |
+| Google model-viewer, `@google/model-viewer` 4.3.1 | Apache-2.0 | Load from jsdelivr for 3D. Its own sample models are CC BY and CC BY-NC-SA, not CC0, so we do not host them |
+| Cleveland open images used by the viewers (web, print) | CC0 per record | Shown unaltered; the record exposes no IIIF service, so the viewer loads the JPEGs as plain image levels |
+

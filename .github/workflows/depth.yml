@@ -1,0 +1,68 @@
+name: Depth maps (F1 Atlas)
+
+# Computes 2.5D depth maps for the open object images (CC0 and public domain, checked record by record at run
+# time) with Depth Anything V2 Small, Apache 2.0 weights. On demand only: the model and torch are a large
+# install, so nobody wants this monthly. Modelled on harvest.yml: it never writes to main; it opens a pull
+# request for a person to review. (GitHub Actions cannot open pull requests in this repository yet, so the
+# last step may fail; the branch is still pushed and the PR can be opened by hand.)
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Depth maps to compute this run (0 = every open image not yet done)"
+        default: "40"
+      only:
+        description: "Register ids to process, space-separated (optional, e.g. F1.25-O01 F1.25-O03)"
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  depth:
+    name: F1 Atlas depth batch
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    defaults:
+      run:
+        working-directory: modules/F1-histories-of-making/atlas
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Cache the model weights
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-depth-anything-v2-small-hf-${{ runner.os }}
+      - name: Install (pillow, transformers, torch; a CPU-only torch wheel would make this smaller)
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pillow transformers torch
+      - name: Offline test first (fixture mode, no network)
+        run: python harvest/test_depth_batch.py
+      - name: Depth batch
+        run: |
+          if [ -n "${{ github.event.inputs.only }}" ]; then
+            python harvest/depth_batch.py data/register/world_set_specs_v1.csv --limit "${{ github.event.inputs.limit || '40' }}" --only ${{ github.event.inputs.only }}
+          else
+            python harvest/depth_batch.py data/register/world_set_specs_v1.csv --limit "${{ github.event.inputs.limit || '40' }}"
+          fi
+        continue-on-error: true
+      - name: Open a pull request with the results
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then echo "Nothing changed."; exit 0; fi
+          BR="depth/$(date -u +%Y-%m-%d-%H%M)"
+          git config user.name "f1-harvest-bot"
+          git config user.email "f1-harvest-bot@users.noreply.github.com"
+          git checkout -b "$BR"
+          git add -A data/derived reports
+          git commit -m "Depth maps $(date -u +%Y-%m-%d): Depth Anything V2 Small over the open object images"
+          git push origin "$BR"
+          gh pr create --base main --head "$BR" \
+            --title "Depth maps $(date -u +%Y-%m-%d)" \
+            --body "Automated depth batch. Review before merging (paths under modules/F1-histories-of-making/atlas/): data/derived/depth/depth_manifest.csv (what was computed, from which image, under which licence), data/derived/depth/depth_skipped.csv (what was not, and why), data/derived/depth/*.png (8-bit relative depth, bright = near), reports/depth_errors.md if a step failed. Nothing here is accepted until a person merges it."

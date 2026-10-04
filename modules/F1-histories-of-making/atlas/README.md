@@ -13,7 +13,8 @@ Everything here is produced at zero cost from free and open sources. Nothing is 
 | `data/sources/` | 198 zero-cost source routes with licence and a commercial-safe flag; 130 primary texts on making with public-domain status |
 | `data/harvested/`, `data/matches/` | Written by the harvest jobs: register re-checks, UNESCO facts, Wikidata id proposals, open-object candidates |
 | `data/backbone/` | Written by the backbone job: Wikidata movements and styles, PeriodO period definitions, Pleiades places, Getty AAT and TGN candidates. The Getty SPARQL endpoint answered HTTP 403 to the harvester on 3 October 2026, so until that is resolved AAT ids come through Wikidata (P1014) and TGN ids are still to be added the same way (P1667); `reports/backbone_errors.md` records any failed step |
-| `harvest/` | The harvesters (standard-library Python) and their offline tests |
+| `data/derived/depth/` | Written by the depth job on demand: one 8-bit depth map (PNG, bright = near) per open object image, from Depth Anything V2 Small (Apache 2.0), with `depth_manifest.csv` (what, from which image, under which licence) and `depth_skipped.csv` (what not, and why); `reports/depth_errors.md` records any failed run. The object page's 2.5D parallax beat reads these maps |
+| `harvest/` | The harvesters (standard-library Python) and their offline tests. `depth_batch.py` alone needs pillow, torch and transformers for a real run; its `--fixture` mode and tests are standard library |
 | `tools/` | Validation, coverage report, the licence switch |
 | `reports/` | Coverage by sub-region and period, validation output, UNESCO matches, backbone matches |
 
@@ -41,9 +42,11 @@ python harvest/harvest.py data/register/world_set_v0.csv --out data/harvested/re
 python harvest/ich.py                   # UNESCO facts and proposed matches
 python harvest/wikidata_match.py --limit 100
 python harvest/candidates.py --tiers R1 --limit 20
+python harvest/depth_batch.py --fixture  # offline check of the depth batch; a real run needs pillow, torch, transformers
+python harvest/depth_batch.py data/register/world_set_specs_v1.csv --limit 40
 ```
 
-Python 3.9+ and nothing else. The harvest workflow (`.github/workflows/harvest.yml` at the repository root) runs monthly and on 2 January. It opens a pull request with its results and never writes to `main` directly.
+Python 3.9+ and nothing else, except the depth batch (see above). The harvest workflow (`.github/workflows/harvest.yml` at the repository root) runs monthly and on 2 January. It opens a pull request with its results and never writes to `main` directly. The depth workflow (`.github/workflows/depth.yml`) runs on demand with a `limit` input and does the same.
 
 ## Being a good guest
 

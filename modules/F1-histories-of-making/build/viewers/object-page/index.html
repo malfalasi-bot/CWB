@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Belt Buckle with Animals</title>
+<meta name="description" content="F1.25 object-lens prototype: Cleveland 1952.115 in deep zoom, 2.5D parallax and 3D, with the Object Autopsy in reading mode, the provenance chain and the record line.">
+<!--
+  F1 Histories of making · object-lens prototype · built 4 October 2026
+  One self-contained page for Cleveland Museum of Art 1952.115 (CC0).
+  Every URL on this page was opened on 4 October 2026; none was composed by hand.
+  Libraries (loaded from cdnjs and jsdelivr only):
+    OpenSeadragon 6.1.1            BSD-3-Clause   deep zoom
+    @google/model-viewer 4.3.1     Apache-2.0     3D
+    @huggingface/transformers 4.3.0 Apache-2.0    in-browser depth map (loaded only on request)
+  Model (in-browser): onnx-community/depth-anything-v2-small, Apache-2.0 (verified on huggingface.co, 4 Oct 2026).
+  Production depth maps come from atlas/harvest/depth_batch.py (depth-anything/Depth-Anything-V2-Small-hf, Apache-2.0).
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Sans+Arabic:wght@400;500&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/6.1.1/openseadragon.min.js" defer></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer@4.3.1/dist/model-viewer.min.js"></script>
+<style>
+/* ---------- tokens: the archive-warm language (design/mockups/project/Language.dc.html) ---------- */
+:root {
+  --paper: #F3EDE3;      /* page ground */
+  --surface: #FBF8F2;    /* panels, cards */
+  --ink: #1E1A15;        /* text, primary lines */
+  --ink-2: #574E42;      /* secondary text */
+  --ink-3: #6B6154;      /* labels, metadata */
+  --rule: #DCD3C4;       /* dividers, borders */
+  --accent: #A0431F;     /* current place, main action */
+  --relation: #2F4470;   /* links, records */
+  --dark: #15130F;       /* dark canvas: viewers only */
+  --dark-text: #EDE6D8;
+  --gold: #D9A25C;
+  --materials: #9FB3D9;
+  --gutter: 16px;
+  --radius: 6px;
+  --serif: 'Newsreader', Georgia, 'Times New Roman', serif;
+  --sans: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --tap: 44px;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #15130F; --surface: #1E1A15; --ink: #EDE6D8; --ink-2: #C9BFAE; --ink-3: #A79C88;
+    --rule: #3A332B; --accent: #D9794F; --relation: #9FB3D9; --dark: #0E0D0A; --dark-text: #EDE6D8;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #15130F; --surface: #1E1A15; --ink: #EDE6D8; --ink-2: #C9BFAE; --ink-3: #A79C88;
+  --rule: #3A332B; --accent: #D9794F; --relation: #9FB3D9; --dark: #0E0D0A; --dark-text: #EDE6D8;
+}
+
+/* ---------- base ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font-family: var(--sans); font-size: 16px; line-height: 1.55;
+  overflow-x: hidden; /* no horizontal page scroll on a phone */
+}
+img, canvas, video, model-viewer { max-width: 100%; }
+a { color: var(--relation); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { color: var(--accent); }
+button { font: inherit; }
+h1, h2, h3 { font-family: var(--serif); font-weight: 500; line-height: 1.15; margin: 0; }
+h1 { font-size: 32px; letter-spacing: -0.01em; }
+h2 { font-size: 26px; }
+h3 { font-size: 20px; }
+p { margin: 0 0 12px; }
+.story { font-family: var(--serif); font-size: 19px; line-height: 1.45; }
+.meta { font-size: 12px; color: var(--ink-3); letter-spacing: 0.04em; text-transform: uppercase; }
+.small { font-size: 14px; color: var(--ink-2); }
+.wrap { padding: 0 var(--gutter); max-width: 720px; margin: 0 auto; }
+section { padding: 28px 0; border-top: 1px solid var(--rule); }
+section:first-of-type { border-top: 0; }
+.sec-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+.sec-head .meta { text-transform: none; letter-spacing: 0; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* reading progress: the literal scroll() timeline */
+.progress { position: fixed; top: 0; left: 0; height: 3px; width: 100%; background: var(--accent); transform-origin: 0 50%; transform: scaleX(0); z-index: 20; }
+@supports (animation-timeline: scroll()) {
+  .progress { animation: grow linear both; animation-timeline: scroll(root); }
+  @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+}
+
+/* header */
+header.top { padding: 22px 0 18px; }
+header.top .path { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
+header.top .path span::after { content: "·"; margin-left: 6px; color: var(--rule); }
+header.top .path span:last-child::after { content: ""; }
+.line { font-family: var(--serif); font-size: 20px; color: var(--ink-2); margin-top: 8px; }
+
+/* notes */
+.note { background: var(--surface); border: 1px solid var(--rule); border-left: 3px solid var(--ink-3); padding: 12px 14px; border-radius: var(--radius); font-size: 15px; margin: 14px 0; }
+.note strong { font-weight: 600; }
+.note.cultural { border-left-color: var(--relation); }
+.note.tech { border-left-style: dashed; color: var(--ink-2); font-size: 14px; }
+
+/* buttons */
+.btn { display: inline-flex; align-items: center; justify-content: center; min-height: var(--tap); padding: 8px 16px; border-radius: 999px; border: 1px solid var(--ink); background: var(--surface); color: var(--ink); cursor: pointer; text-decoration: none; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn.primary:disabled { opacity: 0.6; cursor: default; }
+.btn.small { min-height: 36px; padding: 4px 12px; font-size: 14px; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 10px 0; }
+
+/* ---------- viewers ---------- */
+.viewer { position: relative; width: 100%; background: var(--dark); color: var(--dark-text); border-radius: var(--radius); overflow: hidden; }
+#osd { width: 100%; height: 62vw; max-height: 480px; min-height: 220px; touch-action: none; }
+.viewer .toolbar { position: absolute; right: 8px; bottom: 8px; display: flex; gap: 6px; z-index: 5; }
+.viewer .toolbar button { min-width: var(--tap); min-height: var(--tap); border-radius: 999px; border: 1px solid rgba(237,230,216,0.5); background: rgba(21,19,15,0.72); color: var(--dark-text); font-size: 18px; cursor: pointer; }
+.viewer .corner { position: absolute; left: 10px; top: 8px; font-size: 12px; color: var(--dark-text); opacity: 0.85; z-index: 5; letter-spacing: 0.04em; }
+.viewer .loading { position: absolute; inset: 0; display: grid; place-items: center; font-size: 14px; color: var(--dark-text); opacity: 0.8; pointer-events: none; }
+.viewer.ready .loading { display: none; }
+
+model-viewer { width: 100%; height: 72vw; max-height: 520px; min-height: 260px; background: var(--dark); border-radius: var(--radius); --poster-color: var(--dark); }
+.mv-fallback { display: none; }
+.mv-failed model-viewer { display: none; }
+.mv-failed .mv-fallback { display: block; }
+
+/* ---------- the 2.5D beat ---------- */
+@property --parallax-t { syntax: '<number>'; inherits: true; initial-value: 0.5; }
+.beat-stage { position: relative; width: 100%; aspect-ratio: 1263 / 814; background: var(--dark); border-radius: var(--radius); overflow: hidden; --parallax-t: 0.5; }
+.beat-stage .layer { position: absolute; inset: 0; will-change: transform; }
+.beat-stage .layer img { width: 100%; height: 100%; object-fit: cover; display: block; }
+/* two-layer fallback: the ground drifts one way, a centre ellipse (the object) the other */
+.beat-stage .layer-bg { transform: scale(1.08) translateX(calc((var(--parallax-t) - 0.5) * -18px)); }
+.beat-stage .layer-fg { clip-path: ellipse(36% 44% at 50% 50%); transform: scale(1.02) translateX(calc((var(--parallax-t) - 0.5) * 22px)) translateY(calc((var(--parallax-t) - 0.5) * -8px)); }
+.beat-stage canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.beat-stage.depth .layer { display: none; }
+.beat-stage:not(.depth) canvas { display: none; }
+.beat-stage .tag { position: absolute; left: 10px; top: 8px; font-size: 12px; color: var(--dark-text); opacity: 0.85; letter-spacing: 0.04em; }
+@supports (animation-timeline: scroll()) {
+  .beat-stage { animation: beat-t linear both; animation-timeline: view(); animation-range: entry 0% exit 100%; }
+  @keyframes beat-t { from { --parallax-t: 0; } to { --parallax-t: 1; } }
+  .note-nosda { display: none; }
+}
+@supports not (animation-timeline: scroll()) {
+  .note-nosda { display: block; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .beat-stage { animation: none !important; --parallax-t: 0.5; }
+  .beat-stage .layer { will-change: auto; }
+  .note-reduced { display: block; }
+}
+.note-reduced { display: none; }
+.depth-progress { height: 4px; background: var(--rule); border-radius: 2px; overflow: hidden; margin: 8px 0; display: none; }
+.depth-progress i { display: block; height: 100%; width: 0; background: var(--relation); transition: width 0.2s linear; }
+
+/* ---------- autopsy ---------- */
+.legend { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0 14px; }
+.chip { display: inline-flex; align-items: center; gap: 4px; font-family: var(--sans); font-size: 11.5px; line-height: 1; letter-spacing: 0.03em; text-transform: uppercase; padding: 4px 8px; border-radius: 999px; border: 1px solid var(--ink-3); color: var(--ink-2); white-space: nowrap; vertical-align: middle; }
+.chip.seen { border-style: solid; border-color: var(--ink); color: var(--ink); }
+.chip.recorded { border-style: solid; border-color: var(--relation); color: var(--relation); }
+.chip.guessed { border-style: dashed; border-color: var(--accent); color: var(--accent); }
+.chip.gap { border-style: dotted; border-color: var(--ink-3); color: var(--ink-3); }
+.chip.todo { border-style: dotted; border-color: var(--gold); color: var(--ink-2); }
+details.layer { border: 1px solid var(--rule); background: var(--surface); border-radius: var(--radius); margin-bottom: 8px; }
+details.layer summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 10px; min-height: 52px; padding: 10px 14px; font-family: var(--serif); font-size: 20px; }
+details.layer summary::-webkit-details-marker { display: none; }
+details.layer summary .n { font-family: var(--sans); font-size: 12px; color: var(--ink-3); min-width: 16px; }
+details.layer summary .q { margin-left: auto; font-family: var(--sans); font-size: 13px; color: var(--ink-3); font-weight: 400; }
+details.layer summary::after { content: "+"; font-family: var(--sans); color: var(--ink-3); margin-left: 8px; }
+details.layer[open] summary::after { content: "–"; }
+details.layer .body { padding: 0 14px 14px; border-top: 1px solid var(--rule); }
+.sentences { list-style: none; margin: 0; padding: 0; }
+.sentences li { display: grid; grid-template-columns: 1fr auto; gap: 10px; align-items: start; padding: 10px 0; border-bottom: 1px dotted var(--rule); font-family: var(--serif); font-size: 18px; line-height: 1.4; }
+.sentences li:last-child { border-bottom: 0; }
+.sentences li .src { display: block; font-family: var(--sans); font-size: 12.5px; color: var(--ink-3); margin-top: 3px; }
+.sentences li .chip { margin-top: 3px; }
+@media (max-width: 380px) { .sentences li { grid-template-columns: 1fr; } .sentences li .chip { justify-self: start; } }
+
+/* ---------- provenance strip ---------- */
+.strip { display: flex; gap: 0; overflow-x: auto; scroll-snap-type: x proximity; padding: 8px 0 12px; -webkit-overflow-scrolling: touch; margin: 0 calc(-1 * var(--gutter)); padding-left: var(--gutter); padding-right: var(--gutter); scrollbar-width: thin; }
+.stop { flex: 0 0 auto; width: 210px; scroll-snap-align: start; position: relative; padding-right: 14px; }
+.stop button { width: 100%; min-height: 64px; text-align: left; padding: 10px 12px; border-radius: var(--radius); border: 1px solid var(--ink); background: var(--surface); color: var(--ink); cursor: pointer; font-size: 14px; line-height: 1.35; }
+.stop button b { display: block; font-weight: 600; }
+.stop button .when { color: var(--ink-3); font-size: 12.5px; }
+.stop.gap button { border-style: dotted; color: var(--ink-2); }
+.stop.made button { border-style: dashed; }
+.stop button[aria-expanded="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.stop::after { content: ""; position: absolute; right: 0; top: 50%; width: 14px; border-top: 1px solid var(--ink-3); }
+.stop.gap::after { border-top-style: dotted; }
+.stop:last-child::after { display: none; }
+.stop-detail { border: 1px solid var(--rule); background: var(--surface); border-radius: var(--radius); padding: 12px 14px; font-size: 15px; }
+.stop-detail[hidden] { display: none; }
+.stop-detail code { font-size: 13px; background: var(--paper); padding: 1px 4px; border-radius: 3px; }
+
+/* ---------- record ---------- */
+.record { border: 1px solid var(--rule); background: var(--surface); border-radius: var(--radius); padding: 14px; }
+.record dl { display: grid; grid-template-columns: 110px 1fr; gap: 6px 12px; margin: 0; font-size: 15px; }
+.record dt { color: var(--ink-3); font-size: 12.5px; letter-spacing: 0.03em; text-transform: uppercase; padding-top: 2px; }
+.record dd { margin: 0; overflow-wrap: anywhere; }
+
+/* ---------- elsewhere ---------- */
+.bands { display: grid; gap: 8px; margin: 10px 0; }
+.band { border: 1px solid var(--rule); background: var(--surface); border-radius: var(--radius); padding: 10px 12px; display: flex; gap: 10px; align-items: center; justify-content: space-between; flex-wrap: wrap; font-size: 15px; }
+.band a { font-weight: 500; }
+.elsewhere { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.elsewhere li { border: 1px solid var(--rule); background: var(--surface); border-radius: var(--radius); padding: 10px 12px; }
+.elsewhere .who { display: flex; gap: 8px; flex-wrap: wrap; align-items: baseline; margin-bottom: 4px; }
+.elsewhere .who b { font-family: var(--serif); font-weight: 500; font-size: 18px; }
+.elsewhere .who .meta { text-transform: none; letter-spacing: 0; }
+.elsewhere q { font-family: var(--serif); font-size: 16.5px; }
+.elsewhere .src { font-size: 12.5px; color: var(--ink-3); margin-top: 4px; }
+
+footer { padding: 26px 0 48px; border-top: 1px solid var(--rule); font-size: 13.5px; color: var(--ink-2); }
+footer p { margin-bottom: 8px; }
+@media (min-width: 640px) { h1 { font-size: 40px; } #osd { height: 440px; } }
+</style>
+</head>
+<body>
+<div class="progress" aria-hidden="true"></div>
+
+<div class="wrap">
+
+<header class="top">
+  <div class="path meta"><span>F1 Histories of making</span><span>F1.25 Reading an object as history</span><span>Object lens</span><span>Prototype, 4 October 2026</span></div>
+  <h1>Belt Buckle with Animals</h1>
+  <p class="line">A gilt bronze buckle, 202 BCE–9 CE, from the Ordos region.</p>
+  <p class="story">Two long-eared animals fill a plate of gilt bronze, 6.1 by 11.8 cm. The record does not name the animals, and we do not guess a species. Who cast and gilded it is not recorded. Its record names one owner, Dr. Vladimir G. Simkhovitch of New York, who sold it to Cleveland in 1952. Where it was found is not recorded.</p>
+  <div class="note" role="note">
+    <strong>Content note:</strong> belt plaques like this are known mostly from burials. This buckle's findspot is not recorded, so it may have been taken from a grave. No images of burials or bodies are shown. You can skip the viewers and go to <a href="#record">the record line</a>; the autopsy keeps every date.
+  </div>
+</header>
+
+<!-- ================= (a) deep zoom ================= -->
+<section id="look" aria-labelledby="look-h">
+  <div class="sec-head"><h2 id="look-h">Look</h2><span class="meta">Deep zoom · OpenSeadragon 6.1.1</span></div>
+  <p class="small">Pinch to zoom and drag to move. Double-tap zooms in; the circle button resets the view.</p>
+  <div class="viewer" id="osd-wrap">
+    <span class="corner">CLEVELAND 1952.115 · CC0</span>
+    <div id="osd" role="img" aria-label="Deep-zoom view of the belt buckle, Cleveland Museum of Art 1952.115"></div>
+    <div class="loading" id="osd-loading">Loading the open image…</div>
+    <div class="toolbar">
+      <button type="button" id="zin" aria-label="Zoom in">+</button>
+      <button type="button" id="zout" aria-label="Zoom out">−</button>
+      <button type="button" id="zhome" aria-label="Reset the view">○</button>
+    </div>
+  </div>
+  <div class="note tech">Cleveland's record carries no IIIF image service (no <code>iiif</code>, <code>info.json</code> or tile field in the API record, checked 4 October 2026). The viewer therefore stacks the record's two open JPEGs as plain image levels. The 1,263-pixel web image loads at once; the 3,400-pixel print image loads as you zoom in. Neither is altered.</div>
+</section>
+
+<!-- ================= (c) 2.5D parallax ================= -->
+<section id="depth" aria-labelledby="depth-h">
+  <div class="sec-head"><h2 id="depth-h">Depth</h2><span class="meta">2.5D parallax · scroll-driven</span></div>
+  <p class="small">Scroll, and the buckle shifts against its ground. The shift comes from a depth map: for each pixel, how near the model reads it.</p>
+  <div class="beat-stage" id="beat">
+    <span class="tag" id="beat-tag">TWO LAYERS · NO DEPTH MAP YET</span>
+    <div class="layer layer-bg"><img src="https://openaccess-cdn.clevelandart.org/1952.115/1952.115_web.jpg" alt="" loading="lazy" decoding="async"></div>
+    <div class="layer layer-fg"><img src="https://openaccess-cdn.clevelandart.org/1952.115/1952.115_web.jpg" alt="The belt buckle: two long-eared animals in gilt bronze, photographed by the Cleveland Museum of Art" loading="lazy" decoding="async"></div>
+    <canvas id="depthCanvas" aria-hidden="true"></canvas>
+  </div>
+  <p class="small" id="depthStatus" aria-live="polite">Showing a two-layer parallax: the whole image drifts one way and a centre ellipse the other. No depth map has been computed yet.</p>
+  <div class="depth-progress" id="depthBar" aria-hidden="true"><i></i></div>
+  <div class="row">
+    <button type="button" class="btn primary" id="depthBtn">Compute the depth map in this browser</button>
+    <span class="small">Downloads a 27 MB model once (q8), then runs on the CPU. It can take a minute on a phone.</span>
+  </div>
+  <div class="note tech">In production the depth map is precomputed by <code>atlas/harvest/depth_batch.py</code> with Depth Anything V2 Small (Apache 2.0). It ships as a PNG beside the image, so the page downloads no model. The in-browser model here is <code>onnx-community/depth-anything-v2-small</code>, the same weights converted to ONNX, through transformers.js 4.3.0.</div>
+  <div class="note tech note-nosda">This browser has no scroll-driven animation, so the beat stays at its middle frame. The image is readable as it stands.</div>
+  <div class="note tech note-reduced">Reduced motion is on, so the beat stays at its middle frame. The image is readable as it stands.</div>
+</section>
+
+<!-- ================= (b) 3D ================= -->
+<section id="turn" aria-labelledby="turn-h">
+  <div class="sec-head"><h2 id="turn-h">Turn</h2><span class="meta">3D · model-viewer 4.3.1</span></div>
+  <p class="small">The buckle has no 3D model. A Smithsonian bronze of the same metal stands in, so the viewer can be judged on a phone. Drag to turn; pinch to zoom.</p>
+  <div id="mv-wrap">
+    <model-viewer id="mv"
+      src="https://cdn.3d-api.si.edu/d8c646aa-4ebc-11ea-b77f-2e728ce88125/f1961_33-part_01-laser-ortery_texture-150k-1024-low.glb"
+      alt="Ritual wine ewer (gong) with masks, dragons and real animals, Freer Gallery of Art F1961.33a-b, a bronze vessel that can be turned and zoomed"
+      camera-controls touch-action="pan-y" loading="lazy" reveal="auto" shadow-intensity="0.6" exposure="1.1" interaction-prompt="auto">
+      <div slot="progress-bar" class="depth-progress" style="display:block;margin:0;border-radius:0"><i id="mv-bar"></i></div>
+    </model-viewer>
+    <div class="mv-fallback note">The model did not load from the Smithsonian's file server. model-viewer's own sample models are CC BY, not CC0, so this page does not host one. Open the object on <a href="https://3d.si.edu/object/3d/ritual-wine-ewer-gong-masks-taotie-dragons-and-real-animals:d8c646aa-4ebc-11ea-b77f-2e728ce88125">3d.si.edu</a> instead.</div>
+  </div>
+  <p class="small" style="margin-top:10px">Ritual wine ewer (gong) with masks (taotie), dragons, and real animals · Freer Gallery of Art, National Museum of Asian Art, F1961.33a-b · ca. 1100–1050 BCE, probably late Shang dynasty, late Anyang period, as the record dates it · bronze · gift of Eugene and Agnes E. Meyer · CC0. The file is the Smithsonian 3D API's "low" web model (150k faces, 1024-pixel texture, about 1 MB), listed under <code>3d_package:d8c646aa-4ebc-11ea-b77f-2e728ce88125</code>. <a href="https://3d.si.edu/object/3d/ritual-wine-ewer-gong-masks-taotie-dragons-and-real-animals:d8c646aa-4ebc-11ea-b77f-2e728ce88125">Record on 3d.si.edu</a>.</p>
+</section>
+
+<!-- ================= (d) Object Autopsy, reading mode ================= -->
+<section id="read" aria-labelledby="read-h">
+  <div class="sec-head"><h2 id="read-h">Read</h2><span class="meta">Object Autopsy · reading mode</span></div>
+  <p class="small">Five layers, every sentence tagged. In reading mode nothing is guessed before it is shown; the lab form of this unit asks for the guess before the reveal.</p>
+  <div class="legend" aria-label="Tag legend">
+    <span class="chip seen">seen</span><span class="chip recorded">recorded</span><span class="chip guessed">guessed</span><span class="chip gap">not recorded</span>
+  </div>
+
+  <details class="layer" open>
+    <summary><span class="n">1</span>Material<span class="q">what it is made of, and what that cost</span></summary>
+    <div class="body"><ul class="sentences">
+      <li><span>The record gives the material as gilt bronze.<span class="src">Cleveland API record, technique field: "gilt bronze"</span></span><span class="chip recorded">recorded</span></li>
+      <li><span>It measures 6.1 by 11.8 cm overall, the record says.<span class="src">Cleveland API record, measurements</span></span><span class="chip recorded">recorded</span></li>
+      <li><span>Gold sits over the bronze; "gilt" is the record's word for it.<span class="src">Cleveland API record, technique field</span></span><span class="chip recorded">recorded</span></li>
+      <li><span>Mercury gilding came into general use in China around the Warring States period and was common in Han noble tombs.<span class="src">F1.25 claim 6: Jett and Chase 1995; Ma et al. 2025</span></span><span class="chip recorded">recorded</span></li>
+      <li><span>This buckle was probably gilded that way; it has not been tested.<span class="src">F1.25 claim 6, probable for this buckle</span></span><span class="chip guessed">guessed</span></li>
+      <li><span>Where the copper, tin, gold and mercury were mined, and what that cost the people who mined them, is not recorded.<span class="src">Planetary Weight thread; no source in the record</span></span><span class="chip gap">not recorded</span></li>
+    </ul></div>
+  </details>
+
+  <details class="layer">
+    <summary><span class="n">2</span>Technique<span class="q">the sequence of gestures</span></summary>
+    <div class="body"><ul class="sentences">
+      <li><span>The record's technique field says "gilt bronze" and nothing about how the buckle was cast.<span class="src">Cleveland API record</span></span><span class="chip recorded">recorded</span></li>
+      <li><span>The operational sequence for this buckle is not recorded.<span class="src">No conservation statement in the record</span></span><span class="chip gap">not recorded</span></li>
+      <li><span>We read the steps as model, mould, cast, finish, gild; the order is ours, not the record's.<span class="src">F1.25, technique strip; interpretive</span></span><span class="chip guessed">guessed</span></li>
+      <li><span>Gilders who used mercury knew its vapour was harmful.<span class="src">F1.25 claim 6; canon TEC065</span></span><span class="chip recorded">recorded</span></li>
+    </ul></div>
+  </details>
+
+  <details class="layer">
+    <summary><span class="n">3</span>Labour<span class="q">every hand, named or described</span></summary>
+    <div class="body"><ul class="sentences">
+      <li><span>Who cast and gilded the buckle is not recorded.<span class="src">Cleveland API record: creators empty</span></span><span class="chip gap">not recorded</span></li>
+      <li><span>Who made it is argued. One reading: casters in the Ordos steppe made it for their own people.<span class="src">F1.25 claim 8, contested</span></span><span class="chip guessed">guessed</span></li>
+      <li><span>The other reading: a Chinese workshop made it for steppe clients.<span class="src">F1.25 claim 8, contested</span></span><span class="chip guessed">guessed</span></li>
+      <li><span>Gold belt plaques from Xigoupan tomb 2, inscribed <i>shaofu</i>, are attributed to a Qin state workshop, so the second reading has a precedent.<span class="src">F1.25 claim 7: Liu et al. 2021</span></span><span class="chip recorded">recorded</span></li>
+      <li><span>Cleveland's record, "Ordos region, Western Han dynasty", allows both; we do not choose between them.<span class="src">Cleveland API record, culture field</span></span><span class="chip recorded">recorded</span></li>
+      <li><span>The record names an owner and a buyer, Dr. Vladimir G. Simkhovitch and the museum, and no maker.<span class="src">Cleveland API record, provenance</span></span><span class="chip recorded">recorded</span></li>
+    </ul></div>
+  </details>
+
+  <details class="layer">
+    <summary><span class="n">4</span>Trade<span class="q">the routes it travelled</span></summary>
+    <div class="body"><ul class="sentences">
+      <li><span>How the buckle travelled from the Ordos region to New York is not recorded.<span class="src">Cleveland API record: find_spot empty; provenance starts in New York</span></span><span class="chip gap">not recorded</span></li>
+      <li><span>The record's chain starts with Simkhovitch in New York and ends at the museum in 1952.<span class="src">Cleveland API record, provenance</span></span><span class="chip recorded">recorded</span></li>
+      <li><span>Xiongnu tombs of the same centuries held Chinese silks beside steppe metalwork, so goods moved both ways across this frontier.<span class="src">Canon ARC111 Xiongnu, R2</span></span><span class="chip recorded">recorded</span></li>
+      <li><span>Whether this buckle was traded, given, or carried by its makers' own people is not known.<span class="src">No source</span></span><span class="chip gap">not recorded</span></li>
+    </ul></div>
+  </details>
+
+  <details class="layer">
+    <summary><span class="n">5</span>Meaning<span class="q">what it did, and who says so</span></summary>
+    <div class="body"><ul class="sentences">
+      <li><span>The buckle shows two long-eared animals.<span class="src">Open image</span></span><span class="chip seen">seen</span></li>
+      <li><span>The record does not name the animals, and we do not guess a species.<span class="src">Cleveland API record: description empty; F1.25 §10</span></span><span class="chip recorded">recorded</span></li>
+      <li><span>The museum titles it a belt buckle; what it meant to the person who wore it is not recorded.<span class="src">Cleveland API record, title</span></span><span class="chip gap">not recorded</span></li>
+      <li><span>The Met says its Xianbei plaque pair "once adorned a leather belt belonging to a member of a nomadic community, likely the Xianbei, that migrated seasonally".<span class="src">F1.25 claim 9, the holder's framing: Met 24.174.7</span></span><span class="chip recorded">recorded</span></li>
+      <li><span>Belt plaques like this are known mostly from burials, such as Xigoupan tomb 2.<span class="src">F1.25 §2, case A; claim 7</span></span><span class="chip recorded">recorded</span></li>
+      <li><span>This buckle may have been a grave good; its findspot is not recorded.<span class="src">F1.25 §2, funerary rule</span></span><span class="chip guessed">guessed</span></li>
+    </ul></div>
+  </details>
+
+  <p class="small" style="margin-top:14px">One question to carry: the record names two people. How many of them made the buckle?</p>
+</section>
+
+<!-- ================= (e) provenance strip ================= -->
+<section id="chain" aria-labelledby="chain-h">
+  <div class="sec-head"><h2 id="chain-h">Chain</h2><span class="meta">Provenance from the record · tap a stop</span></div>
+  <p class="small">Each link is one holder the record gives. Dotted links are gaps the record leaves.</p>
+  <div class="strip" role="list" aria-label="Provenance chain">
+    <div class="stop made" role="listitem"><button type="button" data-stop="s0" aria-expanded="false" aria-controls="s0"><b>Made · Ordos region</b>202 BCE–9 CE<span class="when"> · maker not recorded</span></button></div>
+    <div class="stop gap" role="listitem"><button type="button" data-stop="s1" aria-expanded="false" aria-controls="s1"><b>Not recorded</b>findspot; how it left China<span class="when"> · before 1952</span></button></div>
+    <div class="stop" role="listitem"><button type="button" data-stop="s2" aria-expanded="false" aria-controls="s2"><b>Dr. Vladimir G. Simkhovitch</b>New York<span class="when"> · ?–1952 · sold to the museum</span></button></div>
+    <div class="stop" role="listitem"><button type="button" data-stop="s3" aria-expanded="false" aria-controls="s3"><b>The Cleveland Museum of Art</b>Cleveland, OH<span class="when"> · 1952–</span></button></div>
+  </div>
+  <div class="stop-detail" id="s0" hidden>
+    <p><strong>Made.</strong> The record's culture line: <code>China, Ordos region, Western Han dynasty (206 BCE–8 CE)</code>. Its date line: <code>202 BCE–9 CE</code>. The two Han start dates, 202 and 206 BCE, are both the record's own; the Historian pre-read checks them (F1.25 §9).</p>
+    <p>Maker: not recorded. The record's <code>creators</code> field is empty. Both readings of who made it are in the Labour layer above.</p>
+  </div>
+  <div class="stop-detail" id="s1" hidden>
+    <p><strong>Not recorded.</strong> The record's <code>find_spot</code> field is empty, so the findspot is not recorded. How and when the buckle left China is not recorded either. Belt plaques like this are known mostly from burials, which is why the content note stands at the top of this page.</p>
+    <p>This is the earliest gap in the chain, and the one a return request would turn on.</p>
+  </div>
+  <div class="stop-detail" id="s2" hidden>
+    <p><strong>Dr. Vladimir G. Simkhovitch.</strong> The record's entry, word for word: <code>(Dr. Vladimir G. Simkhovitch [1874–1959], New York, NY, sold to the Cleveland Museum of Art)</code>, dated <code>?–1952</code>. When he came to hold the buckle is not recorded; the question mark is the record's.</p>
+    <p>His dates beyond this record were not verified (F1.25 §10).</p>
+  </div>
+  <div class="stop-detail" id="s3" hidden>
+    <p><strong>The Cleveland Museum of Art.</strong> The record's entry: <code>The Cleveland Museum of Art, Cleveland, OH</code>, dated <code>1952–</code>. Accessioned 28 April 1952 through the John L. Severance Fund. On view in gallery 241B, Arts of Ancient China, as the record stood on 29 May 2026.</p>
+    <p>1970 test: pass. The register's basis: in the museum from 1952; findspot and export not recorded.</p>
+  </div>
+</section>
+
+<!-- ================= (f) record line and notes ================= -->
+<section id="record" aria-labelledby="record-h">
+  <div class="sec-head"><h2 id="record-h">Record</h2><span class="meta">Holder, accession, licence, credit</span></div>
+  <div class="record">
+    <dl>
+      <dt>Holder</dt><dd>Cleveland Museum of Art, Chinese Art</dd>
+      <dt>Accession</dt><dd>1952.115 (record id 129223)</dd>
+      <dt>Licence</dt><dd>CC0, the record's own <code>share_license_status</code>, read 4 October 2026</dd>
+      <dt>Credit line</dt><dd>John L. Severance Fund</dd>
+      <dt>Image</dt><dd>The Cleveland Museum of Art, open access, CC0. The record's <code>image_credit</code> field is empty, so no photographer is named. Images: web 1263 × 814 px; print 3400 × 2191 px; an alternate view, 1263 × 846 px. None is altered on this page.</dd>
+      <dt>Tombstone</dt><dd>"Belt Buckle with Animals, 202 BCE–9 CE. China, Ordos region, Western Han dynasty (206 BCE–8 CE). Gilt bronze; overall: 6.1 x 11.8 cm (2 3/8 x 4 5/8 in.). The Cleveland Museum of Art, John L. Severance Fund, 1952.115"</dd>
+      <dt>Links</dt><dd><a href="https://clevelandart.org/art/1952.115">Record page</a> · <a href="https://openaccess-api.clevelandart.org/api/artworks/1952.115">API record</a> · <a href="https://www.wikidata.org/wiki/Q60752087">Wikidata Q60752087</a> (from the record's external resources)</dd>
+      <dt>Register</dt><dd>F1.25-O01, world_set_specs_v1.csv · fact-check 3 October 2026 · 1970 test: pass</dd>
+    </dl>
+  </div>
+  <div class="note" role="note" style="margin-top:14px">
+    <strong>Content note:</strong> belt plaques like this are known mostly from burials. This buckle's findspot is not recorded, so it may have been taken from a grave. No images of burials or bodies are shown. You can skip this object; the unit's other cases keep the method.
+  </div>
+  <div class="note cultural" role="note">
+    <strong>Cultural note.</strong> Diné material in this unit, the wearing blanket of case B, carries the spec's Cultural note. There, meaning is read only from the holder's record and Diné-published sources, and designs are not interpreted. This buckle carries the funerary content note above instead. We name no community as its maker, because the record does not, and we do not speak for the peoples of the Ordos steppe.
+  </div>
+</section>
+
+<!-- ================= (g) elsewhere ================= -->
+<section id="elsewhere" aria-labelledby="elsewhere-h">
+  <div class="sec-head"><h2 id="elsewhere-h">Elsewhere</h2><span class="meta">What was happening, 202 BCE–9 CE</span></div>
+  <p class="small">The buckle's range crosses two bands of the world timeline: B05, 1000 BCE–1 CE, and B06, 1–500 CE. Its chapters are F1.8 East Asia and F1.12a the steppe and Central Asia. No band card is written yet; the links below are placeholders for them.</p>
+  <div class="bands">
+    <div class="band"><span><a href="#band-B05-F1.8">Band card B05 · East Asia (F1.8)</a></span><span class="chip todo">not yet written</span></div>
+    <div class="band"><span><a href="#band-B05-F1.12a">Band card B05 · Steppe and Central Asia (F1.12a)</a></span><span class="chip todo">not yet written</span></div>
+    <div class="band"><span><a href="#band-B06-F1.8">Band card B06 · East Asia (F1.8)</a></span><span class="chip todo">not yet written</span></div>
+    <div class="band"><span><a href="#band-B06-world">World row B06 · 1–500 CE</a></span><span class="chip todo">not yet written</span></div>
+  </div>
+  <p class="small">Until the cards exist, these are the canon rows whose dates cross the buckle's, quoted as the register holds them.</p>
+  <ul class="elsewhere">
+    <li><div class="who"><b>Han</b><span class="meta">F1.8 East Asia · 202 BCE–220 CE · POL160, R2</span></div><q>Han state lacquer workshops inscribed the names of each craftsman on products, and silk and paper spread along its routes.</q><div class="src">Leaves out, per the row: Xiongnu and southern peoples; convict labour.</div></li>
+    <li><div class="who"><b>Xiongnu</b><span class="meta">F1.12a steppe · c. 209 BCE–93 CE · POL227, R2</span></div><q>Xiongnu elite tombs such as Noin-Ula held Chinese silks, Bactrian textiles and bronze belt plaques.</q><div class="src">Defined by, per the row: Chinese historians (Sima Qian); archaeologists.</div></li>
+    <li><div class="who"><b>Silk Roads</b><span class="meta">F1.13 networks · c. 130 BCE–1450 CE · NET001, R1</span></div><q>Relay routes across Eurasia carried silk, paper-making, glass, metalwork, textile patterns, pigments and travelling craftspeople between China, Central Asia, Iran, South Asia and the Mediterranean.</q><div class="src">Leaves out, per the row: steppe herders, oasis makers, non-silk goods, and the relay character of most exchange.</div></li>
+    <li><div class="who"><b>Nok</b><span class="meta">F1.6 Africa · c. 1500 BCE–1 CE · ARC028, R1</span></div><q>Farming communities in central Nigeria made large fired-clay figures and smelted iron.</q></li>
+    <li><div class="who"><b>Teotihuacan</b><span class="meta">F1.7 Americas · c. 100 BCE–550 CE · POL044, R1</span></div><q>Teotihuacan housed craft workshops in apartment compounds producing obsidian tools, pottery, murals and stone masks, and distributed Thin Orange ware made in southern Puebla.</q><div class="src">Leaves out, per the row: its own name and rulers unknown.</div></li>
+    <li><div class="who"><b>Rome (Republic and Empire)</b><span class="meta">F1.11 Europe · 509 BCE–476 CE · POL120, R1</span></div><q>Roman production standardised stamped terra sigillata, spread glassblowing and relied on enslaved and freed makers across the provinces.</q></li>
+    <li><div class="who"><b>Satavahana dynasty</b><span class="meta">F1.9 South Asia · c. 100 BCE–220 CE · DYN040, R2</span></div><q>Under Satavahana rule, donors including ivory-workers of Vidisha funded the carved gateways of Sanchi and stupas such as Amaravati.</q></li>
+    <li><div class="who"><b>Ennion</b><span class="meta">F1.9a West Asia · fl. 1–50 CE · PER289, R2</span></div><q>The glassmaker, probably from Sidon, signed mould-blown cups and jugs with his name in Greek, among the earliest known glass signatures.</q><div class="src">A maker who signed, in the same half-century as a buckle whose maker is not recorded.</div></li>
+  </ul>
+</section>
+
+<footer>
+  <p>Prototype for the F1 object lens, built 4 October 2026. Its sources: the Cleveland record, the F1.25 spec (v3, fact-checked 3 October 2026), the register row F1.25-O01 and the canon. Nothing here is accepted until a person reviews it.</p>
+  <p>Libraries: OpenSeadragon 6.1.1 (BSD-3-Clause, from cdnjs); model-viewer 4.3.1 (Apache 2.0, from jsdelivr); transformers.js 4.3.0 (Apache 2.0, from jsdelivr, loaded only when you ask for the depth map). Model weights: onnx-community/depth-anything-v2-small (Apache 2.0). 3D model: Smithsonian Open Access, CC0. Type: Newsreader and IBM Plex Sans from Google Fonts.</p>
+  <p>Where this page says "not recorded", the record is silent. Where it says "argued", two readings are on record. Where it says "we read", the reading is ours.</p>
+</footer>
+
+</div>
+
+<script>
+(() => {
+  'use strict';
+  const WEB   = 'https://openaccess-cdn.clevelandart.org/1952.115/1952.115_web.jpg';   // 1263 x 814, CC0, from the record
+  const PRINT = 'https://openaccess-cdn.clevelandart.org/1952.115/1952.115_print.jpg'; // 3400 x 2191, CC0, from the record
+  const TRANSFORMERS = 'https://cdn.jsdelivr.net/npm/@huggingface/transformers@4.3.0';   // the import URL the library's README gives
+  const MODEL = 'onnx-community/depth-anything-v2-small';
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---------- (a) deep zoom: lazily, when the viewer is near ---------- */
+  function startOSD() {
+    if (!window.OpenSeadragon) { setTimeout(startOSD, 150); return; }
+    const wrap = document.getElementById('osd-wrap');
+    const viewer = OpenSeadragon({
+      element: document.getElementById('osd'),
+      tileSources: { type: 'legacy-image-pyramid', levels: [
+        { url: WEB,   width: 1263, height: 814  },
+        { url: PRINT, width: 3400, height: 2191 }
+      ]},
+      drawer: 'canvas',            // tainted cross-origin pixels are fine for canvas; WebGL would refuse them
+      crossOriginPolicy: false,    // the record's CDN sends no CORS promise, so we never ask for one here
+      showNavigationControl: false,
+      gestureSettingsTouch: { pinchToZoom: true, dragToPan: true, flickEnabled: true, scrollToZoom: false },
+      gestureSettingsMouse: { scrollToZoom: false, clickToZoom: false, dblClickToZoom: true, dragToPan: true },
+      minZoomImageRatio: 0.9, maxZoomPixelRatio: 2.2, visibilityRatio: 0.85, constrainDuringPan: true,
+      animationTime: reduced ? 0 : 0.5, springStiffness: 8, immediateRender: true,
+      placeholderFillStyle: '#2a2620', blendTime: reduced ? 0 : 0.2
+    });
+    viewer.addHandler('open', () => wrap.classList.add('ready'));
+    viewer.addHandler('open-failed', () => { document.getElementById('osd-loading').textContent = 'The open image did not load. Open the record on clevelandart.org instead.'; });
+    document.getElementById('zin').onclick  = () => viewer.viewport.zoomBy(1.6).applyConstraints();
+    document.getElementById('zout').onclick = () => viewer.viewport.zoomBy(1 / 1.6).applyConstraints();
+    document.getElementById('zhome').onclick = () => viewer.viewport.goHome();
+  }
+  const lookSec = document.getElementById('look');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((es) => { if (es.some(e => e.isIntersecting)) { io.disconnect(); startOSD(); } }, { rootMargin: '300px' });
+    io.observe(lookSec);
+  } else { startOSD(); }
+
+  /* ---------- (b) 3D: say so if the model does not arrive ---------- */
+  const mv = document.getElementById('mv');
+  const mvWrap = document.getElementById('mv-wrap');
+  mv.addEventListener('error', () => mvWrap.classList.add('mv-failed'));
+  mv.addEventListener('progress', (e) => { const b = document.getElementById('mv-bar'); if (b) b.style.width = Math.round(e.detail.totalProgress * 100) + '%'; });
+
+  /* ---------- (c) the depth beat ---------- */
+  const stage = document.getElementById('beat');
+  const canvas = document.getElementById('depthCanvas');
+  const status = document.getElementById('depthStatus');
+  const bar = document.getElementById('depthBar');
+  const btn = document.getElementById('depthBtn');
+  const tag = document.getElementById('beat-tag');
+  const say = (t) => { status.textContent = t; };
+  const progress = (p) => { bar.style.display = 'block'; bar.firstElementChild.style.width = Math.round(p * 100) + '%'; };
+
+  function readT() {
+    const v = parseFloat(getComputedStyle(stage).getPropertyValue('--parallax-t'));
+    return Number.isFinite(v) ? Math.min(1, Math.max(0, v)) : 0.5;
+  }
+
+  let pointer = { x: 0, y: 0 };
+  stage.addEventListener('pointermove', (e) => {
+    if (reduced) return;
+    const r = stage.getBoundingClientRect();
+    pointer = { x: ((e.clientX - r.left) / r.width - 0.5), y: ((e.clientY - r.top) / r.height - 0.5) };
+  });
+  stage.addEventListener('pointerleave', () => { pointer = { x: 0, y: 0 }; });
+
+  function startGL(imageSource, depth) {
+    const gl = canvas.getContext('webgl', { premultipliedAlpha: false, antialias: false });
+    if (!gl) throw new Error('WebGL is not available');
+    canvas.width = depth.width; canvas.height = depth.height;
+    const vs = `attribute vec2 p; varying vec2 v; void main(){ v = vec2(p.x*0.5+0.5, 0.5-p.y*0.5); gl_Position = vec4(p,0.,1.); }`;
+    const fs = `precision mediump float; varying vec2 v; uniform sampler2D uImg; uniform sampler2D uDep; uniform vec2 uShift;
+      void main(){
+        vec2 c = (v - 0.5) * 0.94 + 0.5;               /* a 3% inset hides the pulled edges */
+        float d = texture2D(uDep, c).r;                /* 0 far .. 1 near (relative) */
+        vec2 off = (d - 0.5) * uShift;
+        vec2 uv = clamp(c + off, 0.002, 0.998);
+        gl_FragColor = vec4(texture2D(uImg, uv).rgb, 1.0);
+      }`;
+    const sh = (type, src) => { const s = gl.createShader(type); gl.shaderSource(s, src); gl.compileShader(s);
+      if (!gl.getShaderParameter(s, gl.COMPILE_STATUS)) throw new Error(gl.getShaderInfoLog(s)); return s; };
+    const prog = gl.createProgram(); gl.attachShader(prog, sh(gl.VERTEX_SHADER, vs)); gl.attachShader(prog, sh(gl.FRAGMENT_SHADER, fs)); gl.linkProgram(prog);
+    if (!gl.getProgramParameter(prog, gl.LINK_STATUS)) throw new Error(gl.getProgramInfoLog(prog));
+    gl.useProgram(prog);
+    const buf = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1, 1,-1, -1,1, 1,1]), gl.STATIC_DRAW);
+    const loc = gl.getAttribLocation(prog, 'p'); gl.enableVertexAttribArray(loc); gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
+    const tex = (unit, upload) => { const t = gl.createTexture(); gl.activeTexture(gl.TEXTURE0 + unit); gl.bindTexture(gl.TEXTURE_2D, t);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE); gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR); gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR); upload(); return t; };
+    gl.pixelStorei(gl.UNPACK_ALIGNMENT, 1);
+    tex(0, () => gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGB, gl.RGB, gl.UNSIGNED_BYTE, imageSource));
+    tex(1, () => {
+      // RawImage from transformers.js: 1 channel, Uint8; other channel counts are reduced to one
+      let data = depth.data;
+      if (depth.channels && depth.channels !== 1) { const n = depth.width * depth.height, out = new Uint8Array(n); for (let i = 0; i < n; i++) out[i] = data[i * depth.channels]; data = out; }
+      gl.texImage2D(gl.TEXTURE_2D, 0, gl.LUMINANCE, depth.width, depth.height, 0, gl.LUMINANCE, gl.UNSIGNED_BYTE, new Uint8Array(data.buffer, data.byteOffset, data.length));
+    });
+    gl.uniform1i(gl.getUniformLocation(prog, 'uImg'), 0);
+    gl.uniform1i(gl.getUniformLocation(prog, 'uDep'), 1);
+    const uShift = gl.getUniformLocation(prog, 'uShift');
+    gl.viewport(0, 0, canvas.width, canvas.height);
+    const draw = () => {
+      const t = reduced ? 0.5 : readT();
+      const sx = (t - 0.5) * 0.07 + pointer.x * 0.03;
+      const sy = (t - 0.5) * -0.03 + pointer.y * 0.02;
+      gl.uniform2f(uShift, sx, sy);
+      gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+    };
+    stage.classList.add('depth');
+    draw();
+    if (reduced) return;                      // one still frame, readable as it stands
+    let running = false, raf = 0;
+    const loop = () => { draw(); raf = running ? requestAnimationFrame(loop) : 0; };
+    const io = new IntersectionObserver((es) => { const on = es.some(e => e.isIntersecting); if (on && !running) { running = true; loop(); } if (!on) { running = false; cancelAnimationFrame(raf); } });
+    io.observe(stage);
+  }
+
+  async function computeDepth() {
+    btn.disabled = true;
+    const t0 = performance.now();
+    try {
+      say('Fetching the open image with pixel access…');
+      const resp = await fetch(WEB, { mode: 'cors' });
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      const bmp = await createImageBitmap(await resp.blob());
+      const W = Math.min(768, bmp.width), H = Math.round(bmp.height * W / bmp.width);
+      const c = document.createElement('canvas'); c.width = W; c.height = H;
+      c.getContext('2d').drawImage(bmp, 0, 0, W, H);
+      const blob = await new Promise(r => c.toBlob(r, 'image/jpeg', 0.92));
+      const url = URL.createObjectURL(blob);
+
+      say('Loading transformers.js and the depth model (27 MB, once)…');
+      const { pipeline, env } = await import(TRANSFORMERS);
+      env.allowLocalModels = false;
+      const files = {};
+      const pipe = await pipeline('depth-estimation', MODEL, {
+        device: 'wasm', dtype: 'q8',
+        progress_callback: (p) => { if (p.status === 'progress' && p.file) { files[p.file] = [p.loaded || 0, p.total || 0];
+          let l = 0, t = 0; for (const f in files) { l += files[f][0]; t += files[f][1]; } if (t) progress(l / t); } }
+      });
+      say('Computing the depth map…');
+      const out = await pipe(url);
+      URL.revokeObjectURL(url);
+      startGL(c, out.depth);
+      bar.style.display = 'none';
+      const secs = ((performance.now() - t0) / 1000).toFixed(0);
+      tag.textContent = 'DEPTH MAP · COMPUTED HERE';
+      say(`Depth map computed in this browser with ${MODEL} (Apache 2.0) in ${secs} s, at ${out.depth.width} × ${out.depth.height} px. Scroll to move the view; the shift follows the page, not a clock.`);
+      btn.textContent = 'Depth map ready';
+    } catch (err) {
+      bar.style.display = 'none';
+      const corsLike = /fetch|HTTP|network|cors/i.test(String(err && err.message));
+      say(corsLike
+        ? 'The image host did not allow this page to read pixels across origins, so the depth map cannot be computed here. The two-layer parallax stays. In production the map is precomputed and served beside the image.'
+        : 'The in-browser model did not run on this device (' + (err && err.message ? err.message : err) + '). The two-layer parallax stays; in production the map is precomputed.');
+      btn.disabled = false;
+      btn.textContent = 'Try the depth map again';
+    }
+  }
+  btn.addEventListener('click', computeDepth);
+  if (reduced) say('Reduced motion is on. The two-layer beat stays at its middle frame; a computed depth map would show one still frame too.');
+
+  /* ---------- (e) provenance strip: tap a stop ---------- */
+  const stops = Array.from(document.querySelectorAll('.stop button'));
+  stops.forEach(b => b.addEventListener('click', () => {
+    const open = b.getAttribute('aria-expanded') === 'true';
+    stops.forEach(o => { o.setAttribute('aria-expanded', 'false'); document.getElementById(o.dataset.stop).hidden = true; });
+    if (!open) { b.setAttribute('aria-expanded', 'true'); document.getElementById(b.dataset.stop).hidden = false; }
+  }));
+  stops[0].click();
+})();
+</script>
+</body>
+</html>
