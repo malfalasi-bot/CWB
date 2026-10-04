@@ -1,0 +1,29 @@
+id,status,source_bytes,source_w,source_h
+portrait-hokusai,ok,320655,905,1287
+portrait-hiroshige,ok,714553,1280,1869
+portrait-tsutaya,ok,187515,920,653
+portrait-utamaro,ok,424759,1280,1062
+portrait-kuniyoshi,error: HTTP Error 429: Too many requests (f061ab2),0,0,0
+portrait-kunisada,error: HTTP Error 429: Too many requests (f061ab2),0,0,0
+portrait-kyoden,error: HTTP Error 429: Too many requests (f061ab2),0,0,0
+portrait-eisen,ok,1091510,1280,1916
+portrait-sadanobu,ok,156647,800,800
+portrait-tadakuni,error: HTTP Error 429: Too many requests (f061ab2),0,0,0
+portrait-hayashi,error: HTTP Error 429: Too many requests (f061ab2),0,0,0
+portrait-bing,error: HTTP Error 429: Too many requests (f061ab2),0,0,0
+portrait-van-gogh,ok,1018060,1280,1623
+portrait-wright,ok,272923,914,1500
+portrait-perry,ok,513841,1280,1540
+portrait-fenollosa,ok,780133,1430,2028
+portrait-danjuro-vii,error: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1),0,0,0
+portrait-ieyasu,ok,672578,1280,1460
+portrait-zeshin,error: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1),0,0,0
+map-edo-1859,ok,855960,1982,1773
+dejima-keiga,ok,430507,922,600
+yoshiwara-nakanocho,ok,435417,1280,853
+eisen-aizuri,ok,507068,1280,1816
+kuniyoshi-gishi,error: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1),0,0,0
+great-wave-aic,ok,422694,1280,885
+kabuki-interior,error: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1),0,0,0
+oi-yoshiwara-night,ok,326927,1280,852
+nagasaki-e-dutch-ship,ok,307690,1280,1021
