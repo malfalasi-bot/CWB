@@ -3,19 +3,19 @@ portrait-hokusai,ok,320655,905,1287
 portrait-hiroshige,ok,714553,1280,1869
 portrait-tsutaya,ok,187515,920,653
 portrait-utamaro,ok,424759,1280,1062
-portrait-kuniyoshi,error: HTTP Error 429: Too many requests (f061ab2),0,0,0
-portrait-kunisada,error: HTTP Error 429: Too many requests (f061ab2),0,0,0
-portrait-kyoden,error: HTTP Error 429: Too many requests (f061ab2),0,0,0
+portrait-kuniyoshi,ok,272938,1089,1600
+portrait-kunisada,ok,729101,1536,1132
+portrait-kyoden,ok,1806150,1327,1970
 portrait-eisen,ok,1091510,1280,1916
 portrait-sadanobu,ok,156647,800,800
-portrait-tadakuni,error: HTTP Error 429: Too many requests (f061ab2),0,0,0
-portrait-hayashi,error: HTTP Error 429: Too many requests (f061ab2),0,0,0
-portrait-bing,error: HTTP Error 429: Too many requests (f061ab2),0,0,0
+portrait-tadakuni,ok,618663,1037,876
+portrait-hayashi,ok,749461,722,1004
+portrait-bing,ok,62893,350,546
 portrait-van-gogh,ok,1018060,1280,1623
 portrait-wright,ok,272923,914,1500
 portrait-perry,ok,513841,1280,1540
 portrait-fenollosa,ok,780133,1430,2028
-portrait-danjuro-vii,error: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1),0,0,0
+portrait-danjuro-vii,ok,188152,912,1024
 portrait-ieyasu,ok,672578,1280,1460
 portrait-zeshin,error: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1),0,0,0
 map-edo-1859,ok,855960,1982,1773
