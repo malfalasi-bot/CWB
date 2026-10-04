@@ -1,0 +1,7 @@
+# Edo and the floating world · the scrolling atlas (4 October 2026)
+
+One continuous piece in place of the artboard prototype: a Pacific-centred world map (d3-geo on world-atlas 50m, MIT/ISC) and a proportional timeline 1600–2024 (the afterlife folded after 1870) that animate as the reader moves through six chapters, with seven tools embedded in the thread at the point where the story needs them (the chain, read the margin, the blue route, one design many originals, what a sheet cost, before and after the ban, an edition, the export map). "Explore the Atlas" hands the map and the timeline to the reader; clicking a timeline event scrolls to its beat.
+
+Files: `index.html` (layout and styles), `data.js` (places with Wikidata coordinates, the 1859-map pin positions, the cast, 33 events, six eras, the chapters and beats with their map/timeline scenes, the sources), `app.js` (map, timeline, story builder, tools, scroll driver). Images come from `../../assets/edo/` and `../../assets/edo-people/` (resized to 1400 px for the page); `vendor-js/` holds d3 7.9 and topojson-client 3.1 from npm; `data/countries-50m.json` is world-atlas 2.0.2. `shot.mjs` renders screenshots with Playwright for review.
+
+Still to do: narration audio (Kokoro), the three Commons images Wikimedia rate-limited (Zeshin, the Seichū gishi den sheet, the kabuki interior), a Japanese reader's pass on names and the edict paraphrase, and the full claim-id wiring (the text carries confidence words; the ids live in the research files).
