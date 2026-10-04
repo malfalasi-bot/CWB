@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>I7 · Before and after the ban</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600&amp;family=Shippori+Mincho:wght@500;700&amp;display=swap">
+<style>
+body{margin:0;background:#F4F2EC;color:#15161A;font-family:'IBM Plex Sans JP',system-ui,sans-serif;font-size:16px;line-height:1.5}
+a{color:#1C3E8C}a:hover{color:#11295F}
+.serif{font-family:'Shippori Mincho','IBM Plex Sans JP',serif}
+.kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#5B5A55;font-weight:600}
+.yr{border:1px solid #D9D5CC;background:#FFFFFF;border-radius:999px;padding:8px 14px;font:inherit;font-size:14px;cursor:pointer;min-height:44px;color:#15161A}
+.yr.on{background:#15161A;color:#FFFFFF;border-color:#15161A}
+.opt{border:1.5px solid #D9D5CC;background:#FFFFFF;color:#15161A;border-radius:999px;padding:10px 18px;font:inherit;font-size:15px;cursor:pointer;min-height:44px}
+.opt.right{background:#1C3E8C;border-color:#1C3E8C;color:#FFFFFF}
+.opt.wrong{opacity:.5;text-decoration:line-through}
+.btn{display:inline-flex;align-items:center;border:1px solid #D9D5CC;background:#FFFFFF;color:#15161A;border-radius:999px;padding:10px 18px;font:inherit;text-decoration:none;min-height:44px;box-sizing:border-box}
+input[type=range]{width:100%;accent-color:#B3301D;height:44px}
+</style>
+</helmet>
+
+<div style="display:flex;flex-direction:column;min-height:100%;width:100%;box-sizing:border-box">
+
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px 24px;padding:16px 32px;border-bottom:1px solid #D9D5CC;background:#FFFFFF">
+<a href="Main.dc.html" style="text-decoration:none;font-size:14px;display:inline-flex;align-items:center;min-height:44px">← Edo Japan · case</a>
+<div style="flex:1 1 300px;display:flex;flex-direction:column;min-width:0">
+<div class="kicker">Interactive 7 of 10 · Time lens · opened by Lecture 6</div>
+<div class="serif" style="font-size:24px;font-weight:700">Before and after the ban</div>
+</div>
+<div style="font-size:14px;color:#5B5A55;max-width:520px">Drag across 1842. What the trade sold fades; what it sold instead rises; the edict's words appear at the midpoint.</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:20px;padding:28px 32px;box-sizing:border-box">
+
+<!-- The two sheets -->
+<div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));gap:24px;align-items:start">
+<div style="display:flex;flex-direction:column;gap:8px">
+<div class="kicker">What the ban named · actors, courtesans, geisha</div>
+<div style="position:relative;background:#E9E6DE;border:1px solid #D9D5CC;aspect-ratio:4/3;overflow:hidden">
+<img src="/_blob/4aa9db1af4feb3b4656060e6833ca788" alt="Torii Kiyonaga, diptych of 1783, Cleveland 1930.197" style="width:100%;height:100%;object-fit:cover;display:block;opacity:{{opBefore}};transition:opacity .4s">
+<div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;opacity:{{opStamp}};transition:opacity .4s"><div style="border:4px solid #B3301D;color:#B3301D;border-radius:8px;padding:8px 18px;font-weight:600;font-size:28px;letter-spacing:.1em;transform:rotate(-12deg);background:rgba(244,242,236,.85)">FORBIDDEN · 1842</div></div>
+</div>
+<div style="font-size:12px;color:#5B5A55">Torii Kiyonaga, diptych, 1783 · Cleveland Museum of Art 1930.197 · CC0. Stand-in for the genre: the live build uses Kunisada's actor triptych with Danjūrō VII (AIC 2004.241–243, fetch returned 403).</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px">
+<div class="kicker">What the trade sold instead · warriors, landscapes, sumō</div>
+<div style="position:relative;background:#E9E6DE;border:1px solid #D9D5CC;aspect-ratio:4/3;overflow:hidden">
+<img src="/_blob/451f7390c2fd9678432f38148f654490" alt="Utagawa Kuniyoshi, Ghosts of the Taira at Daimotsu Bay, 1849–52, Met JP1115" style="width:100%;height:100%;object-fit:cover;display:block;opacity:{{opAfter}};transition:opacity .4s">
+</div>
+<div style="font-size:12px;color:#5B5A55">Utagawa Kuniyoshi, <em>Ghosts of the Taira at Daimotsu Bay</em>, triptych, 1849–52 · The Met JP1115 · CC0. "History" subjects were exempt as morally uplifting; the trade filled them with the same actors' faces, unnamed.</div>
+</div>
+</div>
+
+<!-- Scrubber -->
+<div style="background:#FFFFFF;border:1px solid #D9D5CC;border-radius:8px;padding:20px;display:flex;flex-direction:column;gap:12px">
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:12px">
+<div class="serif" style="font-size:40px;font-weight:700;line-height:1">{{year}}</div>
+<div style="font-size:14px;color:#5B5A55">{{yearLine}}</div>
+</div>
+<label for="yr" style="font-size:12px;color:#5B5A55">Drag between 1835 and 1850</label>
+<input id="yr" type="range" min="1835" max="1850" step="1" value="{{year}}" onChange="{{setYear}}" onInput="{{setYear}}">
+<div style="display:flex;flex-wrap:wrap;gap:8px">
+<button class="yr {{y1}}" onClick="{{go1835}}">1835</button>
+<button class="yr {{y2}}" onClick="{{go1841}}">1841 · reforms begin</button>
+<button class="yr {{y3}}" onClick="{{go1842}}">1842 · the edict</button>
+<button class="yr {{y4}}" onClick="{{go1847}}">1847 · the magistrate counts</button>
+<button class="yr {{y5}}" onClick="{{go1850}}">1850</button>
+</div>
+</div>
+
+<!-- Edict and effects -->
+<div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));gap:20px;align-items:start">
+<sc-if value="{{showEdict}}" hint-placeholder-val="{{true}}">
+<div style="border:1px solid #D9D5CC;border-left:4px solid #B3301D;border-radius:8px;padding:20px;background:#FFFFFF;display:flex;flex-direction:column;gap:8px">
+<div class="kicker" style="color:#B3301D">The edict · sixth month of 1842</div>
+<div class="serif" style="font-size:20px;line-height:1.4">Single sheets of actors, courtesans and geisha concern public morals. Their publication, and the sale of existing stock, are forbidden.</div>
+<div style="font-size:13px;color:#5B5A55">Paraphrase of the transcribed wording; the Japanese text is read in full before narration is recorded. In the eleventh month: a price cap of 16 mon a sheet, seven or eight colour impressions at most, nothing larger than a triptych. The three theatres are moved to Saruwaka-chō; Danjūrō VII is banished (probable). <span style="color:#1C3E8C">C-EDO-080 · C-EDO-081</span></div>
+</div>
+</sc-if>
+<sc-if value="{{showCount}}" hint-placeholder-val="{{true}}">
+<div style="border:1px solid #D9D5CC;border-radius:8px;padding:20px;background:#FFFFFF;display:flex;flex-direction:column;gap:10px">
+<div class="kicker">1847 · a magistrate's count of what Edo was selling</div>
+<div style="display:flex;flex-direction:column;gap:6px">
+<div style="display:flex;justify-content:space-between;font-size:14px"><span>"Actors without names": history and warrior sheets carrying actors' faces</span><span style="font-weight:600">6–7 tenths</span></div>
+<div style="height:14px;background:#E9E6DE;border-radius:7px;overflow:hidden"><div style="height:100%;width:65%;background:#1C3E8C"></div></div>
+<div style="display:flex;justify-content:space-between;font-size:14px;color:#5B5A55"><span>Everything else: landscapes, birds and flowers, sumō, satire, cats</span><span>3–4 tenths</span></div>
+<div style="height:14px;background:#E9E6DE;border-radius:7px;overflow:hidden"><div style="height:100%;width:35%;background:#A9A6A0"></div></div>
+</div>
+<div style="font-size:13px;color:#5B5A55">Osaka's actor prints stop almost entirely until 1847; Edo's continue in disguise. The same year Kuniyoshi's 51 loyal retainers sell 8,000 sets. <span style="color:#1C3E8C">C-EDO-084 · probable (one report)</span></div>
+</div>
+</sc-if>
+<sc-if value="{{showBefore}}" hint-placeholder-val="{{false}}">
+<div style="border:1px solid #D9D5CC;border-radius:8px;padding:20px;background:#FFFFFF;display:flex;flex-direction:column;gap:8px">
+<div class="kicker">Before the reforms</div>
+<div style="font-size:15px">Actors and beauties are the trade's two best-selling genres; an ordinary ten-colour sheet sells for about 24 mon; the three theatres stand at Sakai-chō, Fukiya-chō and Kobiki-chō in the centre of the city. Mizuno Tadakuni becomes senior councillor in 1839. Drag right.</div>
+</div>
+</sc-if>
+</div>
+
+<!-- Check -->
+<div style="border:1px solid #D9D5CC;border-left:4px solid #B3301D;border-radius:8px;padding:20px;background:#FFFFFF;display:flex;flex-direction:column;gap:12px">
+<div style="display:flex;align-items:center;gap:10px"><span style="display:inline-flex;width:28px;height:28px;border-radius:50%;border:2px solid #B3301D;color:#B3301D;align-items:center;justify-content:center;font-weight:600;font-size:13px">?</span><span class="kicker" style="color:#B3301D">Check · one tap</span></div>
+<div class="serif" style="font-size:20px;line-height:1.3">Which genre did the edict leave alone as morally uplifting?</div>
+<div style="display:flex;flex-wrap:wrap;gap:8px">
+<button class="opt {{c1}}" onClick="{{pick1}}">Landscapes</button>
+<button class="opt {{c2}}" onClick="{{pick2}}">Warriors and loyal retainers</button>
+<button class="opt {{c3}}" onClick="{{pick3}}">Birds and flowers</button>
+</div>
+<sc-if value="{{checked}}" hint-placeholder-val="{{false}}">
+<div style="display:flex;flex-direction:column;gap:6px;border-top:1px solid #D9D5CC;padding-top:10px">
+<div style="font-weight:500">{{verdict}}</div>
+<div style="font-size:14px;color:#5B5A55">History and warrior subjects were read as instruction in loyalty, so they passed; the trade put the banned actors' faces on them. Landscapes were not exempt by name, they were simply not named, which is why Hiroshige's road and Hokusai's mountain became the century's safest products.</div>
+<div style="display:flex;flex-wrap:wrap;gap:8px;padding-top:4px">
+<a class="btn" href="Cost.dc.html" style="background:#15161A;color:#FFFFFF;border-color:#15161A">Next · I5 What a sheet cost →</a>
+<a class="btn" href="Atlas.dc.html">See 1842 on the Time lens</a>
+</div>
+</div>
+</sc-if>
+</div>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":980}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { year: 1838, c: 0 };
+  }
+  renderVals() {
+    const y = this.state.year, c = this.state.c;
+    const opBefore = y < 1842 ? 1 : Math.max(0.12, 1 - (y - 1842) / 4);
+    const opAfter = y < 1842 ? 0.12 : Math.min(1, 0.25 + (y - 1842) / 4);
+    const opStamp = y >= 1842 ? 1 : 0;
+    const lines = {
+      1835: 'The trade at full stretch: Kunisada, Kuniyoshi, Hiroshige, Hokusai all publishing.',
+      1839: 'Mizuno Tadakuni becomes senior councillor.',
+      1841: 'The Tenpō reforms begin; the theatres are ordered out of the city centre.',
+      1842: 'Sixth month: the edict. Eleventh month: the price cap of 16 mon.',
+      1843: 'Named censors (nanushi) replace the kiwame seal; Danjūrō VII is in exile.',
+      1847: 'A magistrate reports that disguised actor prints are six or seven tenths of sales.',
+      1848: 'Kuniyoshi’s 51 retainers finish their run: 8,000 sets, 408,000 sheets.',
+      1850: 'Kuniyoshi’s cat demon of Okazaki; the ban is routine, and routinely routed around.'
+    };
+    const keys = Object.keys(lines).map(Number).filter(k => k <= y);
+    const yearLine = lines[keys[keys.length - 1]] || '';
+    const go = (n) => () => this.setState({year: n});
+    const ycls = (n) => y === n ? 'on' : '';
+    const ccls = (n) => c === 0 ? '' : (n === 2 ? 'right' : (n === c ? 'wrong' : ''));
+    return {
+      year: y, yearLine, opBefore, opAfter, opStamp,
+      setYear: (e) => this.setState({year: Number(e.target.value)}),
+      go1835: go(1835), go1841: go(1841), go1842: go(1842), go1847: go(1847), go1850: go(1850),
+      y1: ycls(1835), y2: ycls(1841), y3: ycls(1842), y4: ycls(1847), y5: ycls(1850),
+      showEdict: y >= 1842, showCount: y >= 1847, showBefore: y < 1842,
+      pick1: () => this.setState({c:1}), pick2: () => this.setState({c:2}), pick3: () => this.setState({c:3}),
+      c1: ccls(1), c2: ccls(2), c3: ccls(3), checked: c !== 0,
+      verdict: c === 2 ? 'Warriors. The exemption that made the Utagawa century.' : 'Not that one: the exemption was for history and warrior subjects.'
+    };
+  }
+}
+</script>
+</body>
+</html>

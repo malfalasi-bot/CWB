@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Lecture 5 · Blue — station tour</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600&amp;family=Shippori+Mincho:wght@500;700&amp;display=swap">
+<style>
+body{margin:0;background:#0F1522;color:#E8E6DF;font-family:'IBM Plex Sans JP',system-ui,sans-serif;font-size:16px;line-height:1.5}
+a{color:#9DB4F0}a:hover{color:#FFFFFF}
+.serif{font-family:'Shippori Mincho','IBM Plex Sans JP',serif}
+.kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#A9A6A0;font-weight:600}
+.st{display:flex;gap:12px;align-items:flex-start;padding:10px 12px;border-radius:6px;border:1px solid transparent;background:transparent;color:#E8E6DF;font:inherit;text-align:left;cursor:pointer;min-height:44px;width:100%;box-sizing:border-box}
+.st.on{background:#1C2A4A;border-color:#3B5BA8}
+.st.done .num{background:#9DB4F0;color:#0F1522}
+.num{flex:0 0 26px;height:26px;border-radius:50%;border:1.5px solid #A9A6A0;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:600}
+.opt{border:1.5px solid #5B6B8F;background:#141C2E;color:#E8E6DF;border-radius:999px;padding:10px 18px;font:inherit;font-size:15px;cursor:pointer;min-height:44px}
+.opt.right{background:#1C3E8C;border-color:#9DB4F0;color:#FFFFFF}
+.opt.wrong{opacity:.5;text-decoration:line-through}
+.node{background:#141C2E;border:1.5px solid #5B6B8F;border-radius:6px;padding:12px 14px;display:flex;flex-direction:column;gap:2px;flex:1 1 140px;min-width:0}
+.arr{display:flex;align-items:center;color:#9DB4F0;flex:0 0 24px;justify-content:center}
+.btn{border:1px solid #5B6B8F;background:transparent;color:#E8E6DF;border-radius:999px;padding:10px 18px;font:inherit;cursor:pointer;min-height:44px}
+.btn.primary{background:#E8E6DF;color:#0F1522;border-color:#E8E6DF}
+.claim{font-size:11px;letter-spacing:.06em;color:#9DB4F0;border:1px solid #3B5BA8;border-radius:4px;padding:1px 6px}
+.lbl{position:absolute;background:#0F1522;color:#FFFFFF;border:1px solid #9DB4F0;border-radius:4px;padding:4px 8px;font-size:12px;line-height:1.3;max-width:200px}
+@media (max-width:720px){.arr{display:none}}
+</style>
+</helmet>
+
+<div style="display:flex;flex-direction:column;min-height:100%;width:100%;box-sizing:border-box">
+
+<!-- Header -->
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px 24px;padding:16px 32px;border-bottom:1px solid #2A3449">
+<a href="Main.dc.html" style="text-decoration:none;font-size:14px;display:inline-flex;align-items:center;gap:6px;min-height:44px">← Edo Japan · case</a>
+<div style="flex:1 1 300px;display:flex;flex-direction:column;min-width:0">
+<div class="kicker">Lecture 5 of 8 · Place and Objects lenses · 9 min</div>
+<div class="serif" style="font-size:24px;font-weight:700;color:#FFFFFF">Blue</div>
+</div>
+<div style="font-size:14px;color:#A9A6A0">Thesis: the most famous Japanese picture is a European pigment's price curve</div>
+</div>
+
+<!-- Body -->
+<div style="display:flex;flex-wrap:wrap;flex:1 1 auto">
+
+<!-- Stage -->
+<div style="flex:999 1 560px;min-width:0;display:flex;flex-direction:column;gap:16px;padding:28px 32px;box-sizing:border-box">
+<div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+<div class="kicker">Station {{st}} of 8 · {{stTitle}}</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap">{{claimTag}}</div>
+</div>
+
+<div style="position:relative;flex:1 1 auto;min-height:440px;background:#0A0F1A;border:1px solid #2A3449;border-radius:8px;padding:24px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;gap:20px">
+
+<!-- S1 route -->
+<sc-if value="{{is1}}" hint-placeholder-val="{{true}}">
+<div class="serif" style="font-size:30px;font-weight:700;color:#FFFFFF;line-height:1.2">A chemist's accident in Berlin, 1704–06, and the ships that carried it east</div>
+<div style="display:flex;flex-wrap:wrap;gap:10px;align-items:stretch">
+<div class="node"><span class="kicker">1704–06</span><span class="serif" style="font-size:20px;color:#FFFFFF">Berlin</span><span style="font-size:13px;color:#A9A6A0">a colour-maker's accident; the earliest synthetic pigment</span></div>
+<div class="arr" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h14M12 6l6 6-6 6"/></svg></div>
+<div class="node"><span class="kicker">VOC</span><span class="serif" style="font-size:20px;color:#FFFFFF">Amsterdam → Batavia</span><span style="font-size:13px;color:#A9A6A0">Dutch ships; Chinese junks carried it too</span></div>
+<div class="arr" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h14M12 6l6 6-6 6"/></svg></div>
+<div class="node" style="border-color:#9DB4F0"><span class="kicker">one of the four mouths</span><span class="serif" style="font-size:20px;color:#FFFFFF">Nagasaki · Dejima</span><span style="font-size:13px;color:#A9A6A0">the only Dutch door, since 1641</span></div>
+<div class="arr" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h14M12 6l6 6-6 6"/></svg></div>
+<div class="node"><span class="kicker">the market</span><span class="serif" style="font-size:20px;color:#FFFFFF">Edo</span><span style="font-size:13px;color:#A9A6A0">called <em>bero-ai</em>, "Berlin indigo"</span></div>
+</div>
+<div style="font-size:13px;color:#A9A6A0">In the live build this is a MapLibre scene: the arcs draw as the narration names each port.</div>
+</sc-if>
+
+<!-- S2 price -->
+<sc-if value="{{is2}}" hint-placeholder-val="{{false}}">
+<div class="serif" style="font-size:30px;font-weight:700;color:#FFFFFF;line-height:1.2">The price falls, 1824 to 1828</div>
+<div style="display:flex;align-items:flex-end;gap:16px;height:220px;padding:0 8px;border-bottom:1px solid #3B5BA8">
+<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;height:100%;justify-content:flex-end"><div style="width:100%;height:100%;background:#1C3E8C;border-radius:4px 4px 0 0"></div><span style="font-size:13px">1824</span></div>
+<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;height:100%;justify-content:flex-end"><div style="width:100%;height:78%;background:#1C3E8C;border-radius:4px 4px 0 0"></div><span style="font-size:13px">1825</span></div>
+<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;height:100%;justify-content:flex-end"><div style="width:100%;height:55%;background:#1C3E8C;border-radius:4px 4px 0 0"></div><span style="font-size:13px">1826</span></div>
+<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;height:100%;justify-content:flex-end"><div style="width:100%;height:38%;background:#1C3E8C;border-radius:4px 4px 0 0"></div><span style="font-size:13px">1827</span></div>
+<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;height:100%;justify-content:flex-end"><div style="width:100%;height:24%;background:#3B5BA8;border-radius:4px 4px 0 0"></div><span style="font-size:13px">1828</span></div>
+</div>
+<div style="font-size:13px;color:#A9A6A0">Schematic. The live build draws the import-price series from Smith's figures, each year a claim id; the shape is what the sources describe: a steep fall over four years as Chinese-made Prussian blue arrives in bulk.</div>
+</sc-if>
+
+<!-- S3 fan -->
+<sc-if value="{{is3}}" hint-placeholder-val="{{false}}">
+<div class="serif" style="font-size:30px;font-weight:700;color:#FFFFFF;line-height:1.2">1829: an all-blue fan, censor-sealed, sells so well that a publisher bets a series on it</div>
+<div style="display:flex;flex-wrap:wrap;gap:20px;align-items:center">
+<div style="flex:0 1 300px;aspect-ratio:3/2;border:1px dashed #5B6B8F;border-radius:8px;display:flex;align-items:center;justify-content:center;text-align:center;padding:16px;font-size:13px;color:#A9A6A0">[IMAGE: Keisai Eisen, blue-printed fan (aizuri-e), 1829 · no open impression found in the four APIs on 4 Oct · link-out until one is]</div>
+<div style="flex:1 1 280px;display:flex;flex-direction:column;gap:8px;font-size:15px">
+<div><strong style="color:#FFFFFF">Keisai Eisen</strong> 渓斎英泉 designs a fan print in Prussian blue alone.</div>
+<div>A bookseller's memoir says its sales persuaded <strong style="color:#FFFFFF">Nishimuraya Yohachi</strong> to issue Hokusai's Fuji series "in the new blue".</div>
+<div style="color:#A9A6A0;font-size:13px">Confidence: probable. The memoir is a single, later source; the series' blue is documented by the Met's analysis.</div>
+</div>
+</div>
+</sc-if>
+
+<!-- S4 series -->
+<sc-if value="{{is4}}" hint-placeholder-val="{{false}}">
+<div class="serif" style="font-size:30px;font-weight:700;color:#FFFFFF;line-height:1.2">New Year 1831: the Eijudō advertisement, and the series appears</div>
+<div style="display:flex;flex-wrap:wrap;gap:16px">
+<div style="flex:1 1 300px;display:flex;flex-direction:column;gap:6px"><img src="/_blob/942402785d54f01acd96b68074255077" alt="Hokusai, Under the Wave off Kanagawa, Met JP1847" style="width:100%;display:block;border:1px solid #2A3449"><span style="font-size:12px;color:#A9A6A0">Under the Wave off Kanagawa · Met JP1847 · CC0</span></div>
+<div style="flex:1 1 300px;display:flex;flex-direction:column;gap:6px"><img src="/_blob/e05fc9febb3bb633d287f41b63ebce49" alt="Hokusai, South Wind, Clear Sky (Red Fuji), Met JP9" style="width:100%;display:block;border:1px solid #2A3449"><span style="font-size:12px;color:#A9A6A0">South Wind, Clear Sky · Met JP9 · CC0 · 93 impressions, five states known</span></div>
+</div>
+</sc-if>
+
+<!-- Prediction (chapter end) -->
+<sc-if value="{{is5}}" hint-placeholder-val="{{false}}">
+<div style="display:flex;align-items:center;gap:10px"><span style="display:inline-flex;width:30px;height:30px;border-radius:50%;border:2px solid #E0523A;color:#E0523A;align-items:center;justify-content:center;font-weight:600">?</span><span class="kicker" style="color:#E0523A">Prediction · one tap, then the map answers</span></div>
+<div class="serif" style="font-size:30px;font-weight:700;color:#FFFFFF;line-height:1.2">Where was the Prussian blue in a Great Wave of 1831 made?</div>
+<div style="display:flex;flex-wrap:wrap;gap:10px">
+<button class="opt {{pA}}" onClick="{{predA}}">In Japan</button>
+<button class="opt {{pB}}" onClick="{{predB}}">In the Netherlands only</button>
+<button class="opt {{pC}}" onClick="{{predC}}">In Prussia and elsewhere in Europe, and by then in China</button>
+</div>
+<sc-if value="{{predDone}}" hint-placeholder-val="{{false}}">
+<div style="border-left:3px solid #9DB4F0;padding:8px 14px;display:flex;flex-direction:column;gap:4px">
+<div style="color:#FFFFFF;font-weight:500">Never in Japan in the period.</div>
+<div style="font-size:14px;color:#A9A6A0">It came by ship through Nagasaki, European-made first and Chinese-made in bulk from the 1820s, which is what made it cheap. On the map, the arcs light up and Japan stays dark. <span class="claim">C-EDO-114</span></div>
+</div>
+</sc-if>
+</sc-if>
+
+<!-- S6 inside the blue -->
+<sc-if value="{{is6}}" hint-placeholder-val="{{false}}">
+<div class="serif" style="font-size:30px;font-weight:700;color:#FFFFFF;line-height:1.2">Inside the blue: what the Met's spectroscopy found</div>
+<div style="position:relative;max-width:640px">
+<img src="/_blob/942402785d54f01acd96b68074255077" alt="Hokusai, Under the Wave off Kanagawa, with analysis labels" style="width:100%;display:block;border:1px solid #2A3449">
+<div class="lbl" style="left:8%;top:14%">Dark stripes of the wave: Prussian blue mixed with indigo</div>
+<div class="lbl" style="left:40%;top:52%">The hollow: pure Prussian blue, printed twice for depth</div>
+<div class="lbl" style="left:62%;top:78%">Outline: the key block in sumi; the pink sky fades first</div>
+</div>
+<div style="font-size:13px;color:#A9A6A0">Label positions are set on the sheet in the live build; here they stand near the passages they name.</div>
+</sc-if>
+
+<!-- S7 argued -->
+<sc-if value="{{is7}}" hint-placeholder-val="{{false}}">
+<div class="kicker" style="color:#E0523A">Argued station · both readings, no ruling</div>
+<div class="serif" style="font-size:30px;font-weight:700;color:#FFFFFF;line-height:1.2">How many Great Waves were printed?</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));gap:16px">
+<div style="border:1px solid #3B5BA8;border-radius:8px;padding:16px;display:flex;flex-direction:column;gap:6px">
+<div class="kicker" style="color:#9DB4F0">Reading A · from the blocks' wear</div>
+<div style="font-size:15px">Up to about 8,000 impressions, inferred from how far the key block degrades across the 111 located sheets, ordered in eight states: breaks in the cartouche border, behind the right-hand boat, near Fuji's summit; new blocks for the sea late in the run.</div>
+</div>
+<div style="border:1px solid #3B5BA8;border-radius:8px;padding:16px;display:flex;flex-direction:column;gap:6px">
+<div class="kicker" style="color:#9DB4F0">Reading B · the number is unknowable</div>
+<div style="font-size:15px">No blocks survive, no publisher's ledger for the series survives, and the wear tells us order, not count. "Perhaps 8,000" rests on a rate of wear assumed from other series. What is documented is 111 located impressions, and that "the" print is an edition.</div>
+</div>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:16px;align-items:center">
+<img src="/_blob/d381d2e88cf41cd34c199eb771f19576" alt="Met JP1847" style="width:140px;border:1px solid #2A3449">
+<img src="/_blob/389304085c09cc39366cc66be2309d2f" alt="Met JP10" style="width:140px;border:1px solid #2A3449">
+<div style="flex:0 0 140px;aspect-ratio:4/3;border:1px dashed #5B6B8F;display:flex;align-items:center;justify-content:center;font-size:11px;color:#A9A6A0;text-align:center;padding:6px">[AIC 1925.3245 · fetch 403]</div>
+<div style="font-size:13px;color:#A9A6A0;flex:1 1 200px">Three impressions, side by side; the Institute's record states its own are later than the first state. Opens I3, One design, many originals.</div>
+</div>
+</sc-if>
+
+<!-- S8 closing -->
+<sc-if value="{{is8}}" hint-placeholder-val="{{false}}">
+<div class="kicker" style="color:#E0523A">Closing · six one-tap questions, two shown</div>
+<div style="display:flex;flex-direction:column;gap:18px">
+<div style="display:flex;flex-direction:column;gap:8px">
+<div class="serif" style="font-size:22px;color:#FFFFFF">1 · The blue entered Japan through which port?</div>
+<div style="display:flex;flex-wrap:wrap;gap:8px"><button class="opt {{q1a}}" onClick="{{ans1a}}">Edo</button><button class="opt {{q1b}}" onClick="{{ans1b}}">Nagasaki</button><button class="opt {{q1c}}" onClick="{{ans1c}}">Yokohama</button></div>
+<sc-if value="{{q1done}}" hint-placeholder-val="{{false}}"><div style="font-size:14px;color:#A9A6A0;border-left:3px solid #9DB4F0;padding-left:12px">Nagasaki: Dejima was the one Dutch door, and Chinese ships used the same port. Yokohama did not open until 1859. The map lights the port.</div></sc-if>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px">
+<div class="serif" style="font-size:22px;color:#FFFFFF">2 · Who designed the all-blue fan of 1829?</div>
+<div style="display:flex;flex-wrap:wrap;gap:8px"><button class="opt {{q2a}}" onClick="{{ans2a}}">Hokusai</button><button class="opt {{q2b}}" onClick="{{ans2b}}">Keisai Eisen</button><button class="opt {{q2c}}" onClick="{{ans2c}}">Hiroshige</button></div>
+<sc-if value="{{q2done}}" hint-placeholder-val="{{false}}"><div style="font-size:14px;color:#A9A6A0;border-left:3px solid #9DB4F0;padding-left:12px">Eisen. His fan is the earliest known all-blue sheet to sell at scale; the timeline marks 1829 and 1831 two years apart.</div></sc-if>
+</div>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:10px;padding-top:6px">
+<a class="btn primary" href="Margin.dc.html" style="text-decoration:none;display:inline-flex;align-items:center">Open I1 · Read the margin →</a>
+<a class="btn" href="Main.dc.html" style="text-decoration:none;display:inline-flex;align-items:center">Back to the case</a>
+</div>
+</sc-if>
+
+</div>
+
+<!-- Narration caption -->
+<div style="display:flex;flex-direction:column;gap:6px;border-top:1px solid #2A3449;padding-top:12px">
+<div class="kicker">Narration · every factual sentence carries its claim id</div>
+<div class="serif" style="font-size:18px;line-height:1.5;color:#FFFFFF">{{narr}}</div>
+</div>
+
+<!-- Transport -->
+<div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+<div style="display:flex;gap:8px">
+<button class="btn" onClick="{{prev}}">← Previous</button>
+<button class="btn primary" onClick="{{next}}">Next station →</button>
+</div>
+<div style="display:flex;align-items:center;gap:12px;font-size:13px;color:#A9A6A0">
+<div style="width:200px;height:4px;background:#2A3449;border-radius:2px;overflow:hidden"><div style="height:100%;background:#9DB4F0;width:{{pct}}"></div></div>
+<span>{{clock}} / 9:00</span>
+</div>
+</div>
+</div>
+
+<!-- Station list -->
+<div style="flex:1 1 300px;max-width:380px;min-width:260px;border-left:1px solid #2A3449;padding:28px 20px;box-sizing:border-box;display:flex;flex-direction:column;gap:6px">
+<div class="kicker" style="padding:0 12px 8px">Stations</div>
+<sc-for list="{{stations}}" as="s" hint-placeholder-count="8">
+<button class="st {{s.cls}}" onClick="{{s.go}}">
+<span class="num">{{s.n}}</span>
+<span style="display:flex;flex-direction:column;gap:2px;min-width:0"><span style="font-weight:500;color:#FFFFFF">{{s.title}}</span><span style="font-size:12px;color:#A9A6A0">{{s.sub}}</span></span>
+</button>
+</sc-for>
+<div style="margin-top:auto;padding:12px;border:1px solid #2A3449;border-radius:6px;font-size:13px;color:#A9A6A0">Opens: I6 The blue route · I2 Peel the colours · I3 One design, many originals. Atlas nodes: Prussian blue (material), Dejima (network), Eisen, Nishimuraya, Hokusai (people), 1829 and 1831 (events).</div>
+</div>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":900}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { st: 1, pred: 0, q1: 0, q2: 0 };
+  }
+  renderVals() {
+    const st = this.state.st;
+    const S = [
+      {n:1, title:'A chemist’s accident', sub:'Berlin 1704–06 · the route east', narr:'The deepest blue in Japanese printing was invented in Berlin, by accident, about 1704. For a century it reached Japan the only way anything European did: on a Dutch or Chinese ship, through Nagasaki, where the trade called it bero-ai, Berlin indigo.', claim:'C-EDO-110 · C-EDO-111'},
+      {n:2, title:'The price falls', sub:'1824–28 · the import records', narr:'In the 1820s Chinese makers began producing it in bulk, and the price at Nagasaki fell steeply between 1824 and 1828. A pigment for the rich became a pigment for a sixteen-mon sheet.', claim:'C-EDO-112'},
+      {n:3, title:'The all-blue fan', sub:'1829 · Keisai Eisen', narr:'In 1829 Keisai Eisen designed a fan printed in the new blue alone. A bookseller later wrote that it sold so well that the publisher Nishimuraya Yohachi decided to issue Hokusai’s views of Fuji in it.', claim:'C-EDO-113 · probable'},
+      {n:4, title:'The series appears', sub:'New Year 1831 · the Eijudō advertisement', narr:'At New Year 1831 Eijudō advertised the Thirty-six Views, one sheet at a time, each in the new blue. The wave, the red mountain and the summit shower were among the first.', claim:'C-EDO-115'},
+      {n:5, title:'Prediction', sub:'one tap · the map answers', narr:'Before the chemistry: where do you think the blue in a sheet sold in Edo in 1831 was made? Tap, and the map will answer.', claim:'prediction · chapter 1 of 2'},
+      {n:6, title:'Inside the blue', sub:'the Met’s spectroscopy', narr:'The Met’s analysis found Prussian blue mixed with indigo in the dark stripes of the wave, and pure Prussian blue, printed twice, in the hollow where the boats are. The pink of the sky was the first colour to fade.', claim:'C-EDO-116 · C-EDO-117'},
+      {n:7, title:'One design, many originals', sub:'argued · the edition', narr:'How many were printed? One reading infers up to eight thousand from the wear of the blocks across 111 located sheets. Another says the number is unknowable, since no block and no ledger survives. The course shows both and rules on neither.', claim:'C-EDO-118 · C-EDO-119 · contested'},
+      {n:8, title:'Closing', sub:'six one-tap questions', narr:'Six taps, the answers on the map and the timeline. Then the interactives stay open: follow the blue, peel the colours, or put three Great Waves in order.', claim:'closing'}
+    ];
+    const stations = S.map(s => ({...s, cls: s.n === st ? 'on' : (s.n < st ? 'done' : ''), go: () => this.setState({st: s.n})}));
+    const cur = S[st-1];
+    const mins = [0, 0, 70, 140, 200, 260, 320, 400, 480][st];
+    const clock = `${Math.floor(mins/60)}:${String(mins%60).padStart(2,'0')}`;
+    const pred = this.state.pred, q1 = this.state.q1, q2 = this.state.q2;
+    const mark = (chosen, k, right) => chosen === 0 ? '' : (k === right ? 'right' : (k === chosen ? 'wrong' : ''));
+    return {
+      st, stTitle: cur.title, narr: cur.narr, claimTag: cur.claim, stations, clock,
+      pct: `${Math.round((st-1)/7*100)}%`,
+      is1: st===1, is2: st===2, is3: st===3, is4: st===4, is5: st===5, is6: st===6, is7: st===7, is8: st===8,
+      prev: () => this.setState({st: Math.max(1, st-1)}),
+      next: () => this.setState({st: Math.min(8, st+1)}),
+      predA: () => this.setState({pred:1}), predB: () => this.setState({pred:2}), predC: () => this.setState({pred:3}),
+      pA: mark(pred,1,3), pB: mark(pred,2,3), pC: mark(pred,3,3), predDone: pred !== 0,
+      ans1a: () => this.setState({q1:1}), ans1b: () => this.setState({q1:2}), ans1c: () => this.setState({q1:3}),
+      q1a: mark(q1,1,2), q1b: mark(q1,2,2), q1c: mark(q1,3,2), q1done: q1 !== 0,
+      ans2a: () => this.setState({q2:1}), ans2b: () => this.setState({q2:2}), ans2c: () => this.setState({q2:3}),
+      q2a: mark(q2,1,2), q2b: mark(q2,2,2), q2c: mark(q2,3,2), q2done: q2 !== 0
+    };
+  }
+}
+</script>
+</body>
+</html>

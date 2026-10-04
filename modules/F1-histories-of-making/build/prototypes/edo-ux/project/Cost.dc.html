@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>I5 · What a sheet cost</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600&amp;family=Shippori+Mincho:wght@500;700&amp;display=swap">
+<style>
+body{margin:0;background:#F4F2EC;color:#15161A;font-family:'IBM Plex Sans JP',system-ui,sans-serif;font-size:16px;line-height:1.5}
+a{color:#1C3E8C}a:hover{color:#11295F}
+.serif{font-family:'Shippori Mincho','IBM Plex Sans JP',serif}
+.kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#5B5A55;font-weight:600}
+.yr{flex:1 1 0;min-width:0;display:flex;flex-direction:column;align-items:center;gap:8px;background:transparent;border:0;padding:0;font:inherit;color:#15161A;cursor:pointer;min-height:44px}
+.yr .col{width:100%;display:flex;gap:4px;align-items:flex-end;height:180px;justify-content:center}
+.yr .bar{width:34%;border-radius:4px 4px 0 0;background:#1C3E8C}
+.yr .bar.soba{background:#A9A6A0}
+.yr .lab{font-size:13px;padding:4px 10px;border-radius:999px;border:1px solid transparent}
+.yr.on .lab{background:#15161A;color:#FFFFFF}
+.yr:hover .lab{border-color:#15161A}
+.opt{border:1.5px solid #D9D5CC;background:#FFFFFF;color:#15161A;border-radius:999px;padding:10px 18px;font:inherit;font-size:15px;cursor:pointer;min-height:44px}
+.opt.right{background:#1C3E8C;border-color:#1C3E8C;color:#FFFFFF}
+.opt.wrong{opacity:.5;text-decoration:line-through}
+.btn{display:inline-flex;align-items:center;border:1px solid #D9D5CC;background:#FFFFFF;color:#15161A;border-radius:999px;padding:10px 18px;font:inherit;text-decoration:none;min-height:44px;box-sizing:border-box}
+.row{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid #D9D5CC;align-items:baseline}
+</style>
+</helmet>
+
+<div style="display:flex;flex-direction:column;min-height:100%;width:100%;box-sizing:border-box">
+
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px 24px;padding:16px 32px;border-bottom:1px solid #D9D5CC;background:#FFFFFF">
+<a href="Main.dc.html" style="text-decoration:none;font-size:14px;display:inline-flex;align-items:center;min-height:44px">← Edo Japan · case</a>
+<div style="flex:1 1 300px;display:flex;flex-direction:column;min-width:0">
+<div class="kicker">Interactive 5 of 10 · Time lens · opened by Lecture 1 and Lecture 6</div>
+<div class="serif" style="font-size:24px;font-weight:700">What a sheet cost</div>
+</div>
+<div style="font-size:14px;color:#5B5A55;max-width:520px">Pick a year. A print, a bowl of soba and a triptych in mon, each figure with its source and its confidence word. A mass product priced at a meal.</div>
+</div>
+
+<div style="display:flex;flex-wrap:wrap;gap:24px;padding:28px 32px;box-sizing:border-box;align-items:flex-start">
+
+<!-- Strip -->
+<div style="flex:999 1 520px;min-width:0;display:flex;flex-direction:column;gap:16px">
+<div style="background:#FFFFFF;border:1px solid #D9D5CC;border-radius:8px;padding:20px;display:flex;flex-direction:column;gap:12px">
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;align-items:baseline">
+<div class="serif" style="font-size:22px;font-weight:700">An ōban sheet against a bowl of soba, 1765–1860</div>
+<div style="display:flex;gap:14px;font-size:13px;color:#5B5A55"><span><span style="display:inline-block;width:12px;height:12px;background:#1C3E8C;border-radius:2px;vertical-align:middle"></span> sheet, mon</span><span><span style="display:inline-block;width:12px;height:12px;background:#A9A6A0;border-radius:2px;vertical-align:middle"></span> soba, mon</span></div>
+</div>
+<div style="position:relative">
+<div style="position:absolute;left:0;right:0;top:calc(180px - 180px * 16 / 72);border-top:2px dashed #B3301D;pointer-events:none"><span style="position:absolute;right:0;top:-22px;font-size:12px;color:#B3301D;font-weight:600;background:#FFFFFF;padding:0 6px">the 1842 cap · 16 mon</span></div>
+<div style="display:flex;gap:8px;align-items:flex-end">
+<sc-for list="{{years}}" as="y" hint-placeholder-count="7">
+<button class="yr {{y.cls}}" onClick="{{y.go}}" aria-label="{{y.label}}">
+<span class="col"><span class="bar" style="height:{{y.hSheet}}"></span><span class="bar soba" style="height:{{y.hSoba}}"></span></span>
+<span class="lab">{{y.y}}</span>
+</button>
+</sc-for>
+</div>
+</div>
+<div style="font-size:13px;color:#5B5A55">Bars are the midpoint of each sourced range; hatched years in the live build mark figures interpolated between sources. Scale: 72 mon full height. The three sources (a 1805 price, the 1842 cap, the 1847–48 diary) are documented; the rest carry "probable".</div>
+</div>
+
+<!-- Check -->
+<div style="border:1px solid #D9D5CC;border-left:4px solid #B3301D;border-radius:8px;padding:20px;background:#FFFFFF;display:flex;flex-direction:column;gap:12px">
+<div style="display:flex;align-items:center;gap:10px"><span style="display:inline-flex;width:28px;height:28px;border-radius:50%;border:2px solid #B3301D;color:#B3301D;align-items:center;justify-content:center;font-weight:600;font-size:13px">?</span><span class="kicker" style="color:#B3301D">Check · one tap, the cap lands on the line</span></div>
+<div class="serif" style="font-size:20px;line-height:1.3">In 1842 the state cut the price of an ordinary sheet by about what share?</div>
+<div style="display:flex;flex-wrap:wrap;gap:8px">
+<button class="opt {{c1}}" onClick="{{pick1}}">A tenth</button>
+<button class="opt {{c2}}" onClick="{{pick2}}">A third</button>
+<button class="opt {{c3}}" onClick="{{pick3}}">A half</button>
+</div>
+<sc-if value="{{checked}}" hint-placeholder-val="{{false}}">
+<div style="display:flex;flex-direction:column;gap:6px;border-top:1px solid #D9D5CC;padding-top:10px">
+<div style="font-weight:500">{{verdict}}</div>
+<div style="font-size:14px;color:#5B5A55">An ordinary ten-colour sheet sold for about 24 mon; the cap of the eleventh month of 1842 set 16, with seven or eight colour impressions at most. The trade answered with fewer colours, more triptychs at 60–72, and warriors.</div>
+<div style="display:flex;flex-wrap:wrap;gap:8px;padding-top:4px">
+<a class="btn" href="Atlas.dc.html" style="background:#15161A;color:#FFFFFF;border-color:#15161A">Open the Atlas →</a>
+<a class="btn" href="Main.dc.html">Back to the case</a>
+</div>
+</div>
+</sc-if>
+</div>
+</div>
+
+<!-- Year card -->
+<div style="flex:1 1 320px;max-width:420px;min-width:280px;display:flex;flex-direction:column;gap:12px">
+<div class="kicker">{{cardKicker}}</div>
+<div style="background:#FFFFFF;border:1px solid #D9D5CC;border-radius:8px;padding:20px;display:flex;flex-direction:column;gap:4px">
+<div class="serif" style="font-size:44px;font-weight:700;line-height:1">{{year}}</div>
+<div style="font-size:14px;color:#5B5A55;padding-bottom:8px">{{context}}</div>
+<div class="row"><span>An ōban sheet</span><span style="text-align:right"><strong class="serif" style="font-size:22px">{{sheet}}</strong><br><span style="font-size:12px;color:#5B5A55">{{sheetSrc}}</span></span></div>
+<div class="row"><span>A bowl of soba</span><span style="text-align:right"><strong class="serif" style="font-size:22px">{{soba}}</strong><br><span style="font-size:12px;color:#5B5A55">{{sobaSrc}}</span></span></div>
+<div class="row"><span>A triptych</span><span style="text-align:right"><strong class="serif" style="font-size:22px">{{trip}}</strong><br><span style="font-size:12px;color:#5B5A55">{{tripSrc}}</span></span></div>
+<div class="row" style="border-bottom:0"><span>A theatre seat</span><span style="text-align:right"><strong class="serif" style="font-size:22px">[FIGURE]</strong><br><span style="font-size:12px;color:#5B5A55">source pending · a bounded task in §9 of the case</span></span></div>
+</div>
+<div style="font-size:13px;color:#5B5A55">So a print cost a meal, a triptych three or four, and a complete 51-sheet set about two weeks of a labourer's meals. The live build adds a labourer's day wage when a source is read.</div>
+</div>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":900}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { year: 1842, c: 0 };
+  }
+  renderVals() {
+    const y = this.state.year, c = this.state.c;
+    const D = {
+      1765: {sheet:'no sourced figure', sSrc:'full colour arrives this year; price not read', sv:0, soba:'16 mon', soSrc:'probable · standard for most of the period', sob:16, trip:'—', tSrc:'the format is rare before 1780', ctx:'New Year: the first full-colour calendar prints, privately commissioned, then recut for sale.', k:'Chosen year · the colour revolution'},
+      1790: {sheet:'c. 20 mon', sSrc:'probable · between the 1765 and 1805 sources', sv:20, soba:'16 mon', soSrc:'probable', sob:16, trip:'—', tSrc:'not sourced for this year', ctx:'The kiwame seal is required from this year; Tsutaya is fined the next.', k:'Chosen year · the censor arrives'},
+      1805: {sheet:'20 mon', sSrc:'documented · C-EDO-050', sv:20, soba:'16 mon', soSrc:'probable', sob:16, trip:'—', tSrc:'not sourced for this year', ctx:'A sheet at the price of a bowl of noodles, by a dated source.', k:'Chosen year · a documented price'},
+      1830: {sheet:'c. 20–24 mon', sSrc:'probable · interpolated', sv:22, soba:'16 mon', soSrc:'probable', sob:16, trip:'—', tSrc:'not sourced for this year', ctx:'The Fuji series appears the next year in the new blue; Prussian blue is now cheap.', k:'Chosen year · blue and the road'},
+      1842: {sheet:'24 mon → capped at 16', sSrc:'documented · the edict of the eleventh month, C-EDO-081', sv:16, soba:'16 mon', soSrc:'probable', sob:16, trip:'at most a triptych', tSrc:'the cap limits the format', ctx:'Sixth month: actors, courtesans and geisha forbidden. Eleventh month: 16 mon, seven or eight colours, no more than three sheets.', k:'Chosen year · the cap'},
+      1848: {sheet:'16–24 mon', sSrc:'probable · the cap in force, loosely', sv:20, soba:'16–24 mon', soSrc:'probable · 24 by mid-century', sob:20, trip:'60–72 mon', tSrc:'documented · the Fujiokaya diary, C-EDO-086', ctx:'Kuniyoshi’s 51 retainers finish their run: 8,000 sets, 408,000 sheets in eight months.', k:'Chosen year · the edition'},
+      1860: {sheet:'c. 24 mon', sSrc:'probable · "about 24 by the end of the period"', sv:24, soba:'24 mon', soSrc:'probable · mid-century figure', sob:24, trip:'72 mon', tSrc:'probable', ctx:'Yokohama is open; the Hundred Views are two years finished; aniline dyes are four years away.', k:'Chosen year · the opening'}
+    };
+    const years = Object.keys(D).map(Number).map(k => ({y: String(k), label: 'Year ' + k, go: () => this.setState({year: k}), cls: y === k ? 'on' : '', hSheet: `${Math.round(D[k].sv / 72 * 180)}px`, hSoba: `${Math.round(D[k].sob / 72 * 180)}px`}));
+    const d = D[y];
+    const ccls = (n) => c === 0 ? '' : (n === 2 ? 'right' : (n === c ? 'wrong' : ''));
+    return {
+      year: y, years, cardKicker: d.k, context: d.ctx, sheet: d.sheet, sheetSrc: d.sSrc, soba: d.soba, sobaSrc: d.soSrc, trip: d.trip, tripSrc: d.tSrc,
+      pick1: () => this.setState({c:1}), pick2: () => this.setState({c:2}), pick3: () => this.setState({c:3}),
+      c1: ccls(1), c2: ccls(2), c3: ccls(3), checked: c !== 0,
+      verdict: c === 2 ? 'About a third: 24 mon to 16.' : 'Not quite: 24 mon to 16 is about a third off.'
+    };
+  }
+}
+</script>
+</body>
+</html>

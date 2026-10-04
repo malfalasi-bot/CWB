@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Atlas · four lenses, one case</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600&amp;family=Shippori+Mincho:wght@500;700&amp;display=swap">
+<style>
+body{margin:0;background:#F4F2EC;color:#15161A;font-family:'IBM Plex Sans JP',system-ui,sans-serif;font-size:16px;line-height:1.5}
+a{color:#1C3E8C}a:hover{color:#11295F}
+.serif{font-family:'Shippori Mincho','IBM Plex Sans JP',serif}
+.kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#5B5A55;font-weight:600}
+.tab{border:1px solid #D9D5CC;background:#FFFFFF;border-radius:999px;padding:8px 18px;font:inherit;font-size:15px;cursor:pointer;color:#15161A;min-height:44px}
+.tab.on{background:#15161A;color:#FFFFFF;border-color:#15161A}
+.node{border:1px solid #D9D5CC;background:#FFFFFF;border-radius:999px;padding:6px 12px;font:inherit;font-size:13px;cursor:pointer;color:#15161A;min-height:32px;text-align:left}
+.node:hover,.node.on{border-color:#1C3E8C;background:#1C3E8C;color:#FFFFFF}
+.era{display:flex;flex-direction:column;gap:8px;min-width:0;padding:10px;border-radius:6px;background:#FFFFFF;border:1px solid #D9D5CC}
+.era .bar{height:10px;border-radius:5px;background:#1C3E8C}
+.objb{border:1px solid #D9D5CC;background:#FFFFFF;border-radius:6px;padding:0;cursor:pointer;display:flex;flex-direction:column;gap:6px;overflow:hidden;font:inherit;color:#15161A;text-align:left}
+.objb.on{box-shadow:0 0 0 2px #1C3E8C inset}
+.objb img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#E9E6DE}
+.pin{position:absolute;transform:translate(-50%,-50%)}
+.pin button{border:1px solid #9DB4F0;background:#141C2E;color:#FFFFFF;border-radius:999px;padding:6px 10px;font:inherit;font-size:12px;cursor:pointer;min-height:32px;white-space:nowrap}
+.pin button:hover,.pin button.on{background:#1C3E8C}
+</style>
+</helmet>
+
+<div style="display:flex;flex-direction:column;min-height:100%;width:100%;box-sizing:border-box">
+
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px 24px;padding:16px 32px;border-bottom:1px solid #D9D5CC;background:#FFFFFF">
+<a href="Main.dc.html" style="text-decoration:none;font-size:14px;display:inline-flex;align-items:center;min-height:44px">← Edo Japan · case</a>
+<div style="flex:1 1 240px;display:flex;flex-direction:column;min-width:0">
+<div class="kicker">The Atlas · filtered to one case · 58 people · 30 places · 78 events · 52 objects</div>
+<div class="serif" style="font-size:24px;font-weight:700">Four lenses on the same nodes</div>
+</div>
+<nav aria-label="Lens" style="display:flex;flex-wrap:wrap;gap:8px">
+<button class="tab {{t1}}" onClick="{{lens1}}">Time</button>
+<button class="tab {{t2}}" onClick="{{lens2}}">Place</button>
+<button class="tab {{t3}}" onClick="{{lens3}}">Movements</button>
+<button class="tab {{t4}}" onClick="{{lens4}}">Objects</button>
+</nav>
+</div>
+
+<div style="display:flex;flex-wrap:wrap;gap:24px;padding:24px 32px;box-sizing:border-box;align-items:flex-start">
+
+<!-- Lens pane -->
+<div style="flex:999 1 560px;min-width:0;display:flex;flex-direction:column;gap:16px">
+
+<!-- TIME -->
+<sc-if value="{{isTime}}" hint-placeholder-val="{{true}}">
+<div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;align-items:baseline"><div class="serif" style="font-size:22px;font-weight:700">Six eras, turned by datable events</div><div style="font-size:13px;color:#5B5A55">Band widths are proportional to years; the afterlife is folded. Tap an event.</div></div>
+<div style="display:flex;gap:6px;align-items:stretch">
+<div class="era" style="flex:54 1 0"><div class="bar" style="opacity:.55"></div><div class="kicker">1603–1657</div><div style="font-size:13px;font-weight:500">A city is made</div></div>
+<div class="era" style="flex:108 1 0"><div class="bar" style="opacity:.7"></div><div class="kicker">1657–1765</div><div style="font-size:13px;font-weight:500">Black ink to colour</div></div>
+<div class="era" style="flex:41 1 0"><div class="bar"></div><div class="kicker">1765–1806</div><div style="font-size:13px;font-weight:500">The golden age, under a censor</div></div>
+<div class="era" style="flex:36 1 0"><div class="bar"></div><div class="kicker">1806–1842</div><div style="font-size:13px;font-weight:500">Blue and the road</div></div>
+<div class="era" style="flex:26 1 0"><div class="bar" style="background:#B3301D"></div><div class="kicker">1842–1868</div><div style="font-size:13px;font-weight:500">The ban and the opening</div></div>
+<div class="era" style="flex:40 1 0;border-style:dashed"><div class="bar" style="background:#A9A6A0"></div><div class="kicker">1868–2024</div><div style="font-size:13px;font-weight:500">The afterlife</div></div>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:8px">
+<sc-for list="{{events}}" as="e" hint-placeholder-count="16">
+<button class="node {{e.cls}}" onClick="{{e.go}}"><strong>{{e.y}}</strong> · {{e.t}}</button>
+</sc-for>
+</div>
+<div style="font-size:13px;color:#5B5A55">Eight of the 78 events the case adds to the Time lens. In the live build the band is the F1 world timeline itself, with this case's events as one filter among many; the same bands run under every civilisation.</div>
+</sc-if>
+
+<!-- PLACE -->
+<sc-if value="{{isPlace}}" hint-placeholder-val="{{false}}">
+<div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;align-items:baseline"><div class="serif" style="font-size:22px;font-weight:700">Where the trade stood, and where it went</div><div style="font-size:13px;color:#5B5A55">Schematic. The live build is MapLibre on OpenHistoricalMap tiles, with the 1677 and 1859 maps as layers.</div></div>
+<div style="position:relative;background:#0F1522;border-radius:8px;height:380px;overflow:hidden">
+<div style="position:absolute;left:4%;top:8%;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#A9A6A0">Japan</div>
+<div style="position:absolute;left:4%;top:16%;width:52%;height:72%;border:1px dashed #3B5BA8;border-radius:12px"></div>
+<div class="pin" style="left:14%;top:70%"><button class="{{p1}}" onClick="{{pl1}}">Nagasaki · Dejima</button></div>
+<div class="pin" style="left:30%;top:50%"><button class="{{p2}}" onClick="{{pl2}}">Kyoto · Nishijin</button></div>
+<div class="pin" style="left:22%;top:34%"><button class="{{p3}}" onClick="{{pl3}}">Echizen · paper</button></div>
+<div class="pin" style="left:12%;top:44%"><button class="{{p4}}" onClick="{{pl4}}">Arita · porcelain</button></div>
+<div class="pin" style="left:45%;top:40%"><button class="{{p5}}" onClick="{{pl5}}">Edo · Nihonbashi</button></div>
+<div class="pin" style="left:48%;top:27%"><button class="{{p6}}" onClick="{{pl6}}">The Yoshiwara</button></div>
+<div class="pin" style="left:38%;top:60%"><button class="{{p7}}" onClick="{{pl7}}">The Tōkaidō</button></div>
+<div style="position:absolute;left:62%;top:8%;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#A9A6A0">The world · arcs with counts</div>
+<div class="pin" style="left:72%;top:28%"><button class="{{p8}}" onClick="{{pl8}}">Berlin → blue</button></div>
+<div class="pin" style="left:84%;top:40%"><button class="{{p9}}" onClick="{{pl9}}">Amsterdam · VOC</button></div>
+<div class="pin" style="left:70%;top:56%"><button class="{{p10}}" onClick="{{pl10}}">Paris · 166,000 prints</button></div>
+<div class="pin" style="left:86%;top:70%"><button class="{{p11}}" onClick="{{pl11}}">Boston · 36,000</button></div>
+<div class="pin" style="left:70%;top:84%"><button class="{{p12}}" onClick="{{pl12}}">Chicago · Wright</button></div>
+</div>
+</sc-if>
+
+<!-- MOVEMENTS -->
+<sc-if value="{{isMov}}" hint-placeholder-val="{{false}}">
+<div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;align-items:baseline"><div class="serif" style="font-size:22px;font-weight:700">One movement, four schools, two afterlives</div><div style="font-size:13px;color:#5B5A55">Ukiyo-e was a market, not a manifesto; the schools are lines of teachers and names.</div></div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));gap:12px">
+<sc-for list="{{movs}}" as="m" hint-placeholder-count="7">
+<button class="objb {{m.cls}}" onClick="{{m.go}}" style="padding:14px;gap:4px">
+<span class="kicker">{{m.span}}</span>
+<span class="serif" style="font-size:19px;font-weight:700">{{m.t}} <span style="font-weight:500;color:#5B5A55;font-size:15px">{{m.j}}</span></span>
+<span style="font-size:13px;color:#5B5A55">{{m.s}}</span>
+</button>
+</sc-for>
+</div>
+</sc-if>
+
+<!-- OBJECTS -->
+<sc-if value="{{isObj}}" hint-placeholder-val="{{false}}">
+<div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;align-items:baseline"><div class="serif" style="font-size:22px;font-weight:700">The open set, by the idea each carries</div><div style="font-size:13px;color:#5B5A55">12 of 52. Each is a node with its holder, id, licence and the lecture that uses it.</div></div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(160px, 1fr));gap:12px">
+<sc-for list="{{objs}}" as="o" hint-placeholder-count="12">
+<button class="objb {{o.cls}}" onClick="{{o.go}}"><img src="{{o.img}}" alt="{{o.t}}"><span style="padding:0 10px 10px;font-size:12px;color:#5B5A55;line-height:1.35"><strong style="color:#15161A">{{o.idea}}</strong><br>{{o.t}}</span></button>
+</sc-for>
+</div>
+</sc-if>
+
+</div>
+
+<!-- Node card -->
+<div style="flex:1 1 320px;max-width:400px;min-width:280px;display:flex;flex-direction:column;gap:12px">
+<div class="kicker">Node card</div>
+<div style="background:#FFFFFF;border:1px solid #D9D5CC;border-radius:8px;padding:20px;display:flex;flex-direction:column;gap:10px;min-height:300px">
+<div style="display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap"><span class="kicker" style="color:#1C3E8C">{{nk}}</span><span style="font-size:12px;color:#5B5A55">{{nspan}}</span></div>
+<div class="serif" style="font-size:26px;font-weight:700;line-height:1.15">{{nt}} <span style="font-weight:500;color:#5B5A55;font-size:18px">{{nj}}</span></div>
+<div style="font-size:15px;line-height:1.5">{{nb}}</div>
+<div style="display:flex;flex-wrap:wrap;gap:6px;padding-top:4px">
+<sc-for list="{{nlinks}}" as="k" hint-placeholder-count="4"><span style="border:1px solid #D9D5CC;border-radius:999px;padding:2px 10px;font-size:12px;color:#5B5A55">{{k}}</span></sc-for>
+</div>
+<div style="font-size:12px;color:#5B5A55;border-top:1px solid #D9D5CC;padding-top:8px;margin-top:auto">{{nsrc}}</div>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:8px">
+<a href="Lecture.dc.html" style="display:inline-flex;align-items:center;border:1px solid #15161A;background:#15161A;color:#FFFFFF;border-radius:999px;padding:10px 18px;text-decoration:none;min-height:44px;box-sizing:border-box;font-size:14px">Play the lecture that uses it</a>
+<a href="Margin.dc.html" style="display:inline-flex;align-items:center;border:1px solid #D9D5CC;background:#FFFFFF;color:#15161A;border-radius:999px;padding:10px 18px;text-decoration:none;min-height:44px;box-sizing:border-box;font-size:14px">Open its interactive</a>
+</div>
+<div style="font-size:13px;color:#5B5A55">The same card opens from every lens, every lecture station and every interactive. A node knows which units cite it (F1.8, F1.13, F1.14, F1.17, F1.21, F1.25, F1.30) and its confidence word.</div>
+</div>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1120}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { lens: 1, node: 'e1842' };
+  }
+  renderVals() {
+    const lens = this.state.lens, node = this.state.node;
+    const N = {
+      e1657: {k:'Event', span:'January 1657', t:'The Meireki fire', j:'明暦の大火', b:'Six tenths of the city burn; the castle keep is never rebuilt; Ryōgoku Bridge and the eastern districts appear in the rebuilding. The 1677 map in I4 is the city twenty years after.', links:['Place: Edo','Lecture 1','I4 The city'], src:'documented · 2 sources · C-EDO-003'},
+      e1721: {k:'Event', span:'1721', t:'The census', j:'', b:'Over a million people: the largest city in the world, against sourced figures for London and Beijing.', links:['Lecture 1','Market'], src:'documented · C-EDO-005'},
+      e1765: {k:'Event', span:'New Year 1765', t:'Full-colour calendar prints', j:'錦絵', b:'Picture calendars commissioned by two poetry circles and exchanged at parties; the blocks recut for sale with the artist’s name in place of the patron’s.', links:['Harunobu','Lecture 3','AIC 1957.556'], src:'documented · C-EDO-020'},
+      e1790: {k:'Event', span:'1790', t:'The kiwame seal', j:'極', b:'The Kansei edicts require the guild’s approval seal on the key block; designer, writer and publisher are named as responsible, never the carver or printer.', links:['Licence','I1 Read the margin','Lecture 4'], src:'documented · C-EDO-030'},
+      e1791: {k:'Event', span:'1791', t:'Kyōden manacled, Tsutaya fined', j:'', b:'Fifty days in manacles for the writer; half his assets for the publisher. Tsutaya’s answer was Utamaro’s bust portraits, the most expensive prints of the decade.', links:['Tsutaya Jūzaburō','Santō Kyōden','Lecture 4'], src:'documented · C-EDO-031'},
+      e1829: {k:'Event', span:'1829', t:'The all-blue fan', j:'藍摺絵', b:'Eisen’s fan in Prussian blue alone sells well enough that Nishimuraya bets a series on the colour (probable; one later memoir).', links:['Prussian blue','Lecture 5','I6 The blue route'], src:'probable · C-EDO-113'},
+      e1842: {k:'Event', span:'sixth month, 1842', t:'The Tenpō edict', j:'天保の改革', b:'Single sheets of actors, courtesans and geisha forbidden, stock included; in the eleventh month a cap of 16 mon a sheet. The theatres are moved; the trade turns to warriors and landscapes.', links:['Licence','Lecture 6','I7 Before and after'], src:'documented · C-EDO-080'},
+      e1848: {k:'Event', span:'7th month 1847 – 3rd month 1848', t:'408,000 sheets', j:'', b:'Kuniyoshi’s 51 loyal retainers sell 8,000 sets by the publisher Fujiokaya’s own diary: the scale of the market in one number.', links:['Kuniyoshi','Market','I8 An edition'], src:'documented · C-EDO-086'},
+      e1855: {k:'Event', span:'11 November 1855', t:'The earthquake catfish', j:'鯰絵', b:'Catfish prints appear within two days of the Ansei earthquake, over 380 kinds by one diarist’s count: an unlicensed genre at news speed.', links:['Lecture 6','Market'], src:'documented · C-EDO-090'},
+      e1887: {k:'Event', span:'October 1887', t:'Van Gogh’s three copies', j:'', b:'The plum orchard, the bridge in the rain (after Met JP2522’s design) and the Eisen courtesan from a magazine cover.', links:['Afterlife','Lecture 7','I9 The export map'], src:'documented · C-EDO-100'},
+      e1921: {k:'Event', span:'1921', t:'The Spaulding gift', j:'', b:'Over 6,000 prints to the MFA Boston on condition they are never exhibited: the afterlife’s own licence.', links:['Boston','Lecture 7'], src:'documented · C-EDO-104'},
+      e2024: {k:'Event', span:'3 July 2024', t:'The thousand-yen note', j:'', b:'The Great Wave on the back of a banknote: the state that once stamped it now prints it.', links:['Afterlife','Met JP1847'], src:'documented · C-EDO-109'},
+      p1: {k:'Place · network node', span:'1641–1859', t:'Nagasaki · Dejima', j:'出島', b:'The one Dutch door, and the Chinese ships’ port. Copper, porcelain and lacquer went out; Prussian blue, glass and copperplate prints (unconfirmed) came in.', links:['Network: the Dutch trade','Lecture 5','Lecture 7'], src:'documented · C-EDO-011'},
+      p2: {k:'Place', span:'', t:'Kyoto · Nishijin', j:'西陣', b:'Silk weaving; three of its weavers went to Lyon in 1872 and came back with the Jacquard.', links:['Lecture 8'], src:'documented · C-EDO-130'},
+      p3: {k:'Place · material', span:'', t:'Echizen', j:'越前', b:'Hōsho paper of pure paper mulberry, the sheet under every print; the chain is drawn from the paper village to the Nihonbashi shop in Lecture 2.', links:['Inputs','Lecture 2'], src:'documented · C-EDO-041'},
+      p4: {k:'Place', span:'', t:'Arita', j:'有田', b:'The VOC order of 64,866 pieces in 1659; Cleveland’s jugs mounted in Dutch silver within a generation of leaving Nagasaki.', links:['Lecture 8','Cleveland 1970.46'], src:'documented · C-EDO-132'},
+      p5: {k:'Place', span:'', t:'Edo · Nihonbashi', j:'日本橋', b:'The shops: Tsutaya at Tōri Abura-chō from 1783, Nishimuraya at Bakuro-chō; station one of the Tōkaidō.', links:['Market','I4 The city','Met JP471'], src:'documented · C-EDO-012'},
+      p6: {k:'Place · content note', span:'', t:'The Yoshiwara', j:'吉原', b:'The licensed quarter; Tsutaya’s birthplace and first monopoly. Its subjects were women under indenture; I10 gives the contract’s terms and both scholarly readings.', links:['Licence','I10 The contract'], src:'documented · content note applies'},
+      p7: {k:'Place · route', span:'', t:'The Tōkaidō', j:'東海道', b:'Fifty-three stations between Edo and Kyoto; Hiroshige’s series of 1833–34 and the lords’ road of alternate attendance.', links:['Lecture 1','Lecture 6'], src:'documented'},
+      p8: {k:'Place · origin of a material', span:'1704–06', t:'Berlin', j:'', b:'Where Prussian blue was made first, by accident; never in Japan in the period.', links:['Prussian blue','Lecture 5'], src:'documented · C-EDO-110'},
+      p9: {k:'Place · network node', span:'', t:'Amsterdam', j:'', b:'The VOC’s home port; the Rijksmuseum’s Nagasaki prints (licence line to confirm).', links:['Network: the Dutch trade'], src:'documented'},
+      p10: {k:'Place · afterlife', span:'1867–1891', t:'Paris', j:'', b:'The 1867 pavilion; Hayashi’s 218 shipments (166,000 or over 300,000 prints: both counts shown); Bing’s journal and his 1890 exhibition.', links:['Afterlife','I9 The export map'], src:'documented · counts contested'},
+      p11: {k:'Place · afterlife', span:'1880s–1921', t:'Boston', j:'', b:'Bigelow’s 30,000 and the Spauldings’ 6,000, the latter never to be shown.', links:['Afterlife'], src:'documented'},
+      p12: {k:'Place · afterlife', span:'1906–1925', t:'Chicago', j:'', b:'Wright’s shows of 1906 and 1908; the Buckingham collection enters the Art Institute in 1925.', links:['Afterlife','AIC 1925.3752'], src:'documented'},
+      m1: {k:'Movement', span:'c. 1670s–1900s', t:'Ukiyo-e', j:'浮世絵', b:'Named from inside: the Buddhist "floating world" of sorrow turned into pleasure. It was against nothing; it was a market. It left out the carvers, the printers and the women in the pictures as people.', links:['Civilisation: Edo Japan','All eight lectures'], src:'Wikidata Q968159 · AAT via P1014'},
+      m2: {k:'School', span:'1680s–1800s', t:'Torii', j:'鳥居派', b:'The theatre-signboard line; Kiyonaga’s tall beauties of the 1780s.', links:['Kiyonaga','Cleveland 1930.197'], src:'documented'},
+      m3: {k:'School', span:'1760s–1800s', t:'Katsukawa', j:'勝川派', b:'Actors with recognisable faces; Hokusai’s first teacher.', links:['Shunshō','AIC 1962.1002'], src:'documented'},
+      m4: {k:'School', span:'1790s–1900s', t:'Utagawa', j:'歌川派', b:'Toyokuni, Kunisada, Kuniyoshi, Hiroshige: the line that dominated late-Edo output.', links:['Lecture 6','I7'], src:'documented'},
+      m5: {k:'School', span:'1800s–1850s', t:'Katsushika', j:'葛飾派', b:'Hokusai, his daughter Ōi, and the pupils of the Manga.', links:['Lecture 5','Met JP1847'], src:'documented'},
+      m6: {k:'Afterlife · movement', span:'1915–1960s', t:'Shin-hanga', j:'新版画', b:'The four-trade system revived for an export market by the publisher Watanabe.', links:['Afterlife'], src:'documented'},
+      m7: {k:'Afterlife · movement', span:'1904–', t:'Sōsaku-hanga', j:'創作版画', b:'The artist as carver and printer: the four trades collapsed into one, on purpose.', links:['Afterlife','F1.20'], src:'documented'},
+      o1: {k:'Object', span:'ca. 1830–32', t:'Under the Wave off Kanagawa', j:'神奈川沖浪裏', b:'Met JP1847: the icon as an edition. 111 impressions located in eight states; the blue is Prussian, printed twice in the hollow.', links:['Lecture 5','I2','I3','F1.25 Object Autopsy'], src:'CC0 · The Met · isPublicDomain: true'},
+      o2: {k:'Object', span:'ca. 1830–32', t:'Under the Wave, second impression', j:'', b:'Met JP10: the same design, a different original. Side by side with JP1847 the learner sees wear, re-cutting and cost-cutting.', links:['I3 One design, many originals'], src:'CC0 · The Met'},
+      o3: {k:'Object', span:'19th century', t:'Proof line-block print for a fan', j:'校合摺', b:'Sadahide’s key-block proof: the black-line pull from which the colour blocks were cut, registration notches outside the picture.', links:['Lecture 2','I2 Peel the colours'], src:'CC0 · The Met 2007.49.284'},
+      o4: {k:'Object', span:'1857', t:'Sudden Shower over Shin-Ōhashi Bridge', j:'大はしあたけの夕立', b:'Met JP2522: aratame and date seals in the margin; the second print Van Gogh copied.', links:['I1 Read the margin','Lecture 7'], src:'CC0 · The Met'},
+      o5: {k:'Object', span:'1783', t:'Kiyonaga diptych', j:'', b:'Cleveland 1930.197: tall beauties on large sheets, the decade before the censor.', links:['Lecture 3','I7 (stand-in)'], src:'CC0 · Cleveland'},
+      o6: {k:'Object', span:'1849–52', t:'Ghosts of the Taira at Daimotsu Bay', j:'', b:'Met JP1115: the warrior genre that replaced banned actors.', links:['Lecture 6','I7'], src:'CC0 · The Met'},
+      o7: {k:'Object', span:'ca. 1850', t:'The Okazaki cat demon', j:'', b:'Met JP1563: Kuniyoshi’s cat, from the Tōkaidō ghost play; what a ban cannot reach.', links:['Lecture 6'], src:'CC0 · The Met'},
+      o8: {k:'Object', span:'1840', t:'Water Scene, surimono', j:'摺物', b:'Met JP1252: the private commission, exempt from the sumptuary rules; thick paper, embossing.', links:['Lecture 3'], src:'CC0 · The Met'},
+      o9: {k:'Object', span:'1799', t:'Playbill for the Nakamura theatre', j:'絵本番付', b:'Met 2013.851: a licensed business’s own print product.', links:['Lecture 1','Licence'], src:'CC0 · The Met'},
+      o10: {k:'Object', span:'late 18th–early 19th c.', t:'Edo komon kosode', j:'小紋小袖', b:'Met 2001.428.40: stencil-dyed samurai dress, each domain its own pattern; the other trades.', links:['Lecture 8'], src:'CC0 · The Met'},
+      o11: {k:'Object', span:'c. 1660–80', t:'Arita jugs in Dutch silver', j:'', b:'Cleveland 1970.46: what went out through Dejima, mounted by a named silversmith.', links:['Lecture 7','Lecture 8'], src:'CC0 · Cleveland'},
+      o12: {k:'Object', span:'1861', t:'Dutch Ship (Orandasen)', j:'阿蘭陀船', b:'Met 2007.49.236: Yokohama-e, two years after the port opened.', links:['Lecture 7'], src:'CC0 · The Met'}
+    };
+    const go = (id) => () => this.setState({node: id});
+    const cls = (id) => node === id ? 'on' : '';
+    const events = [['1657','The Meireki fire','e1657'],['1721','The census','e1721'],['1765','Full colour','e1765'],['1790','The kiwame seal','e1790'],['1791','Kyōden and Tsutaya punished','e1791'],['1829','The all-blue fan','e1829'],['1842','The Tenpō edict','e1842'],['1847–48','408,000 sheets','e1848'],['1855','The earthquake catfish','e1855'],['1887','Van Gogh’s copies','e1887'],['1921','The Spaulding gift','e1921'],['2024','The banknote','e2024']].map(([y,t,id]) => ({y, t, go: go(id), cls: cls(id)}));
+    const movs = ['m1','m2','m3','m4','m5','m6','m7'].map(id => ({t: N[id].t, j: N[id].j, span: N[id].span, s: N[id].b.split('.')[0] + '.', go: go(id), cls: cls(id)}));
+    const imgs = {o1:'/_blob/d381d2e88cf41cd34c199eb771f19576', o2:'/_blob/389304085c09cc39366cc66be2309d2f', o3:'/_blob/8c1fae32a2fa6f3ef3b88061dd8c3700', o4:'/_blob/03231336125f9a454998cc9b7b4bf0e5', o5:'/_blob/04b9b912e60637a2443683cccc1e01bd', o6:'/_blob/10d57f06ef875812a107a93760473e87', o7:'/_blob/a7b0b45bfc335d08c2ca43097870a817', o8:'/_blob/9ba1cd57fc81954df6d8d16743f538ed', o9:'/_blob/59f7d6629a24a2876d41c40887767778', o10:'/_blob/2cc744a825e578bb1799472eb42ee571', o11:'/_blob/b552577720ec67462798a2a0dc8d9c97', o12:'/_blob/47746095517a2e003e4ef01236820d4b'};
+    const ideas = {o1:'The icon as an edition', o2:'Another original', o3:'The key block', o4:'The margin that dates it', o5:'Before the censor', o6:'After the ban', o7:'What a ban cannot reach', o8:'The private commission', o9:'A licensed business', o10:'The other trades', o11:'Out through Dejima', o12:'The opening'};
+    const objs = Object.keys(imgs).map(id => ({img: imgs[id], t: N[id].t, idea: ideas[id], go: go(id), cls: cls(id)}));
+    const n = N[node];
+    const pl = {};
+    for (let i = 1; i <= 12; i++) { pl['pl'+i] = go('p'+i); pl['p'+i] = cls('p'+i); }
+    return {
+      t1: lens===1?'on':'', t2: lens===2?'on':'', t3: lens===3?'on':'', t4: lens===4?'on':'',
+      lens1: () => this.setState({lens:1}), lens2: () => this.setState({lens:2}), lens3: () => this.setState({lens:3}), lens4: () => this.setState({lens:4}),
+      isTime: lens===1, isPlace: lens===2, isMov: lens===3, isObj: lens===4,
+      events, movs, objs, ...pl,
+      nk: n.k, nspan: n.span, nt: n.t, nj: n.j, nb: n.b, nlinks: n.links, nsrc: n.src
+    };
+  }
+}
+</script>
+</body>
+</html>

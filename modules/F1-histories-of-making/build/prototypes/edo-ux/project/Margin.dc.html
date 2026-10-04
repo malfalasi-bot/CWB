@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>I1 · Read the margin</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600&amp;family=Shippori+Mincho:wght@500;700&amp;display=swap">
+<style>
+body{margin:0;background:#F4F2EC;color:#15161A;font-family:'IBM Plex Sans JP',system-ui,sans-serif;font-size:16px;line-height:1.5}
+a{color:#1C3E8C}a:hover{color:#11295F}
+.serif{font-family:'Shippori Mincho','IBM Plex Sans JP',serif}
+.kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#5B5A55;font-weight:600}
+.hs{position:absolute;border:2px solid #B3301D;background:rgba(179,48,29,.10);border-radius:4px;cursor:pointer;padding:0;min-width:28px;min-height:28px;box-sizing:border-box}
+.hs:hover,.hs.on{background:rgba(28,62,140,.22);border-color:#1C3E8C;box-shadow:0 0 0 3px rgba(28,62,140,.25)}
+.hs.found{border-style:dashed}
+.mark{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:6px;border:1px solid #D9D5CC;background:#FFFFFF;font:inherit;font-size:14px;color:#15161A;cursor:pointer;text-align:left;min-height:44px}
+.mark.on{border-color:#1C3E8C;box-shadow:0 0 0 2px #1C3E8C inset}
+.dot{width:18px;height:18px;border-radius:50%;border:2px solid #B3301D;flex:0 0 18px}
+.dot.found{background:#1C3E8C;border-color:#1C3E8C}
+.band{border:1.5px solid #D9D5CC;background:#FFFFFF;color:#15161A;border-radius:6px;padding:10px 12px;font:inherit;font-size:14px;cursor:pointer;min-height:44px;flex:1 1 120px;display:flex;flex-direction:column;gap:2px;text-align:left}
+.band.right{background:#1C3E8C;color:#FFFFFF;border-color:#1C3E8C}
+.band.wrong{opacity:.5}
+.btn{display:inline-flex;align-items:center;border:1px solid #D9D5CC;background:#FFFFFF;color:#15161A;border-radius:999px;padding:10px 18px;font:inherit;text-decoration:none;min-height:44px;box-sizing:border-box}
+</style>
+</helmet>
+
+<div style="display:flex;flex-direction:column;min-height:100%;width:100%;box-sizing:border-box">
+
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px 24px;padding:16px 32px;border-bottom:1px solid #D9D5CC;background:#FFFFFF">
+<a href="Main.dc.html" style="text-decoration:none;font-size:14px;display:inline-flex;align-items:center;min-height:44px">← Edo Japan · case</a>
+<div style="flex:1 1 300px;display:flex;flex-direction:column;min-width:0">
+<div class="kicker">Interactive 1 of 10 · Objects lens · opened by Lecture 4</div>
+<div class="serif" style="font-size:24px;font-weight:700">Read the margin</div>
+</div>
+<div style="font-size:14px;color:#5B5A55;max-width:520px">A print documents its own licensing. Tap each mark on the sheet; when you have read all five, date a sheet from its seals alone.</div>
+</div>
+
+<div style="display:flex;flex-wrap:wrap;gap:32px;padding:28px 32px;box-sizing:border-box;align-items:flex-start">
+
+<!-- Sheet -->
+<div style="flex:1 1 420px;max-width:600px;min-width:0;display:flex;flex-direction:column;gap:10px">
+<div style="position:relative;background:#E9E6DE;border:1px solid #D9D5CC">
+<img src="/_blob/b59fca35610269d3e3f94c51c97bc6c7" alt="Utagawa Hiroshige, Sudden Shower over Shin-Ōhashi Bridge and Atake, 1857, with the margin marks highlighted" style="width:100%;display:block">
+<button class="hs {{h1}}" style="left:80.5%;top:0.6%;width:10.5%;height:4%" onClick="{{go1}}" aria-label="Censor's seal and date seal"></button>
+<button class="hs {{h2}}" style="left:82.5%;top:6.4%;width:5.5%;height:16.5%" onClick="{{go2}}" aria-label="Series cartouche"></button>
+<button class="hs {{h3}}" style="left:69.5%;top:7.6%;width:11%;height:10%" onClick="{{go3}}" aria-label="Title cartouche"></button>
+<button class="hs {{h4}}" style="left:11%;top:76%;width:6%;height:13%" onClick="{{go4}}" aria-label="Signature"></button>
+<button class="hs {{h5}}" style="left:3.8%;top:82.6%;width:5%;height:6.6%" onClick="{{go5}}" aria-label="Publisher's seal"></button>
+</div>
+<div style="font-size:12px;color:#5B5A55">Utagawa Hiroshige, publisher Uoya Eikichi · <em>Sudden Shower over Shin-Ōhashi Bridge and Atake</em>, from One Hundred Famous Views of Edo, 1857 · The Metropolitan Museum of Art, JP2522 · CC0. In the live build the sheet is deep-zoomable (OpenSeadragon on the Met's full image).</div>
+</div>
+
+<!-- Reading panel -->
+<div style="flex:1 1 380px;min-width:0;display:flex;flex-direction:column;gap:20px">
+<div style="display:flex;flex-direction:column;gap:8px">
+<div class="kicker">Marks on this sheet · {{foundN}} of 5 read</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(170px, 1fr));gap:8px">
+<button class="mark {{h1}}" onClick="{{go1}}"><span class="dot {{d1}}"></span>Censor and date seals</button>
+<button class="mark {{h2}}" onClick="{{go2}}"><span class="dot {{d2}}"></span>Series cartouche</button>
+<button class="mark {{h3}}" onClick="{{go3}}"><span class="dot {{d3}}"></span>Title cartouche</button>
+<button class="mark {{h4}}" onClick="{{go4}}"><span class="dot {{d4}}"></span>Signature</button>
+<button class="mark {{h5}}" onClick="{{go5}}"><span class="dot {{d5}}"></span>Publisher's seal</button>
+</div>
+</div>
+
+<div style="background:#FFFFFF;border:1px solid #D9D5CC;border-radius:8px;padding:20px;display:flex;flex-direction:column;gap:10px;min-height:220px">
+<div class="kicker" style="color:#1C3E8C">{{rk}}</div>
+<div class="serif" style="font-size:26px;font-weight:700;line-height:1.2">{{rt}} <span style="font-weight:500;color:#5B5A55;font-size:20px">{{rj}}</span></div>
+<div style="font-size:15px;line-height:1.5">{{rb}}</div>
+<div style="font-size:13px;color:#5B5A55;border-top:1px solid #D9D5CC;padding-top:8px"><strong>Who put it there:</strong> {{rw}} · <strong>What it implies:</strong> {{ri}} · <span style="color:#1C3E8C">{{rc}}</span></div>
+</div>
+
+<!-- Check -->
+<div style="border:1px solid #D9D5CC;border-left:4px solid #B3301D;border-radius:8px;padding:20px;display:flex;flex-direction:column;gap:12px;background:#FFFFFF">
+<div style="display:flex;align-items:center;gap:10px"><span style="display:inline-flex;width:28px;height:28px;border-radius:50%;border:2px solid #B3301D;color:#B3301D;align-items:center;justify-content:center;font-weight:600;font-size:13px">?</span><span class="kicker" style="color:#B3301D">Check · one tap, the timeline answers</span></div>
+<div class="serif" style="font-size:20px;line-height:1.3">From its seals alone, which band of the censor's timeline does this sheet belong to?</div>
+<div style="display:flex;flex-wrap:wrap;gap:8px">
+<button class="band {{b1}}" onClick="{{pick1}}"><span style="font-weight:600">before 1790</span><span style="font-size:12px;color:inherit;opacity:.8">no seal required</span></button>
+<button class="band {{b2}}" onClick="{{pick2}}"><span style="font-weight:600">1790–1842</span><span style="font-size:12px;opacity:.8">one round <em>kiwame</em> seal</span></button>
+<button class="band {{b3}}" onClick="{{pick3}}"><span style="font-weight:600">1843–1852</span><span style="font-size:12px;opacity:.8">named censors' seals</span></button>
+<button class="band {{b4}}" onClick="{{pick4}}"><span style="font-weight:600">1853–1875</span><span style="font-size:12px;opacity:.8"><em>aratame</em> seal with a date</span></button>
+</div>
+<sc-if value="{{checked}}" hint-placeholder-val="{{false}}">
+<div style="display:flex;flex-direction:column;gap:6px;border-top:1px solid #D9D5CC;padding-top:10px">
+<div style="font-weight:500">{{verdict}}</div>
+<div style="font-size:14px;color:#5B5A55">The round <em>aratame</em> ("examined") seal beside a date seal is the system of 1853 to the early Meiji years; the date seal here reads the ninth month of a Snake year, 1857. The record agrees. In the live build the timeline band lights and the sheet drops onto it.</div>
+<div style="display:flex;flex-wrap:wrap;gap:8px;padding-top:4px">
+<a class="btn" href="Ban.dc.html" style="background:#15161A;color:#FFFFFF;border-color:#15161A">Next · I7 Before and after the ban →</a>
+<a class="btn" href="Atlas.dc.html">See the seal chronology in the Atlas</a>
+</div>
+</div>
+</sc-if>
+</div>
+
+<div style="font-size:13px;color:#5B5A55">The live build runs this on three sheets in turn (a <em>kiwame</em>-sealed Utamaro of 1795, this Hiroshige of 1857, a <em>nanushi</em>-sealed sheet of the 1840s) and then a fourth, unread, for the check. The Utamaro is an Art Institute image that returned 403 to the fetch; the shape of the exercise is the same.</div>
+</div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1040}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { cur: 0, found: {}, band: 0 };
+  }
+  renderVals() {
+    const R = {
+      0: {k:'Tap a mark on the sheet', t:'Five marks, four hands and a state', j:'', b:'Everything a print says about its own making sits outside the picture: who drew it, who published it, who examined it, and when. The picture is the product; the margin is the paperwork.', w:'', i:'', c:''},
+      1: {k:'Top right margin · two round seals', t:'Censor’s seal and date seal', j:'改 · 巳九', b:'The upper seal reads aratame, "examined": the censor’s approval. The lower one is a date: Snake year, ninth month. From 1853 every sheet had to carry both; before that a named censor’s seal (1843–52), and before that the single kiwame seal (1790–1842).', w:'the censor, on the key block before printing', i:'the ninth month of 1857; the series date confirms it', c:'documented · C-EDO-061'},
+      2: {k:'Right edge · red cartouche', t:'Series title', j:'名所江戸百景', b:'Meisho Edo hyakkei, One Hundred Famous Views of Edo: the publisher’s product line, 1856–58, sold sheet by sheet. The cartouche is the same block on every sheet of the series; buyers collected by it.', w:'the publisher’s design, cut with the key block', i:'a serial product, not a single picture', c:'documented · C-EDO-070'},
+      3: {k:'Top right · yellow cartouche', t:'The sheet’s own title', j:'大はしあたけの夕立', b:'Ōhashi Atake no yūdachi: sudden shower over the great bridge and Atake. The title names a place first: the view is the subject, the people on the bridge are its weather.', w:'the designer or the publisher; not recorded which', i:'the place lens: Shin-Ōhashi, on the Sumida, mapped in I4', c:'documented · C-EDO-071'},
+      4: {k:'Lower left · red cartouche', t:'Signature', j:'広重画', b:'Hiroshige ga, "drawn by Hiroshige". One of the four hands, and the only one the sheet names. The carver who cut these rain lines and the printer who pulled the gradation of the sky are not recorded anywhere.', w:'the designer, as part of the drawing', i:'who is credited, and who is not', c:'documented · C-EDO-040 · H9'},
+      5: {k:'Lower left margin · small seal', t:'Publisher’s seal', j:'下谷 魚栄', b:'Shitaya, Uoya Eikichi: the publisher’s mark, with his district. He commissioned the design, paid the carver and printer, applied to the censor, and sold the sheet from his shop. From 1790 the law made him, not the carver, answerable for it.', w:'the publisher', i:'the organiser of the whole chain; the Atlas node Uoya Eikichi', c:'documented · C-EDO-015'}
+    };
+    const cur = this.state.cur, found = this.state.found, band = this.state.band;
+    const r = R[cur];
+    const go = (n) => () => this.setState({cur: n, found: {...found, [n]: true}});
+    const h = (n) => (cur === n ? 'on ' : '') + (found[n] ? 'found' : '');
+    const d = (n) => found[n] ? 'found' : '';
+    const bcls = (n) => band === 0 ? '' : (n === 4 ? 'right' : (n === band ? 'wrong' : ''));
+    return {
+      rk: r.k, rt: r.t, rj: r.j, rb: r.b, rw: r.w, ri: r.i, rc: r.c,
+      foundN: Object.keys(found).length,
+      go1: go(1), go2: go(2), go3: go(3), go4: go(4), go5: go(5),
+      h1: h(1), h2: h(2), h3: h(3), h4: h(4), h5: h(5),
+      d1: d(1), d2: d(2), d3: d(3), d4: d(4), d5: d(5),
+      pick1: () => this.setState({band:1}), pick2: () => this.setState({band:2}), pick3: () => this.setState({band:3}), pick4: () => this.setState({band:4}),
+      b1: bcls(1), b2: bcls(2), b3: bcls(3), b4: bcls(4),
+      checked: band !== 0,
+      verdict: band === 4 ? '1853–1875. The seals date it.' : 'Not that band: the sheet carries an aratame seal with a date, so it is 1853 or later.'
+    };
+  }
+}
+</script>
+</body>
+</html>
