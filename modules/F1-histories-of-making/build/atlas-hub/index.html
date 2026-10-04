@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atlas of Making</title>
+<meta name="description" content="F1 Histories of making: the Atlas hub. Nine world chapters as soft washes on a paper globe, thematic units as lenses, and a map that gets inked as you read.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Shippori+Mincho:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+</head>
+<body>
+<a class="skip" href="#panel">Skip to the list</a>
+<header class="bar">
+  <a class="brand" href="#" id="brand" aria-label="Atlas of Making: back to the whole world">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="13.5" fill="none" stroke="currentColor" stroke-width="1.6"/><ellipse cx="16" cy="16" rx="6" ry="13.5" fill="none" stroke="currentColor" stroke-width="1.1"/><path d="M3 12.5h26M3 19.5h26" stroke="currentColor" stroke-width="1"/><path d="M8 8.5c4 3 12 3 16 0" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" opacity=".85"/></svg>
+    <span class="brand-t"><span class="kicker">F1 · Histories of making</span><span class="title">Atlas of Making</span></span>
+  </a>
+  <div class="bar-tools">
+    <div class="seg" role="group" aria-label="View">
+      <button type="button" class="seg-b" data-view="globe" aria-pressed="true">Globe</button>
+      <button type="button" class="seg-b" data-view="map" aria-pressed="false">Map</button>
+      <button type="button" class="seg-b" data-view="list" aria-pressed="false">List</button>
+    </div>
+    <button type="button" class="tool" id="b-motion" aria-pressed="true"><span class="tool-i" aria-hidden="true">≈</span><span class="tool-l">Motion</span> <span class="tool-v">on</span></button>
+    <button type="button" class="tool" id="b-theme"><span class="tool-i" aria-hidden="true">◐</span><span class="tool-l">Paper</span> <span class="tool-v">auto</span></button>
+    <button type="button" class="tool tool-nb" id="b-notebook" aria-expanded="false" aria-controls="notebook"><span class="tool-l">Notebook</span></button>
+  </div>
+</header>
+<div class="viewrow">
+  <div class="seg" role="group" aria-label="View">
+    <button type="button" class="seg-b" data-view="globe" aria-pressed="true">Globe</button>
+    <button type="button" class="seg-b" data-view="map" aria-pressed="false">Map</button>
+    <button type="button" class="seg-b" data-view="list" aria-pressed="false">List</button>
+  </div>
+</div>
+
+<main class="app" id="app">
+  <section class="stage" id="stage" aria-label="The Atlas surface">
+    <div class="surface" id="surface">
+      <div class="surface-map" id="map-host" hidden></div>
+      <div class="surface-globe" id="globe-host" hidden></div>
+      <div class="labels" id="labels" role="group" aria-label="Places on the surface"></div>
+      <div class="tier" id="tier" aria-hidden="true"></div>
+      <div class="sheet" id="sheet" hidden></div>
+      <div class="clouds" id="clouds" aria-hidden="true" hidden></div>
+    </div>
+    <div class="lensbar" id="lensbar" role="group" aria-label="Lenses: thematic units that recolour the surface"></div>
+    <div class="lenscap" id="lenscap" hidden></div>
+    <div class="legend" id="legend"></div>
+    <div class="nav" id="nav" role="group" aria-label="Pan and zoom">
+      <button type="button" class="nb" data-nav="reset" aria-label="Back to the whole world" title="Whole world"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.4"/><ellipse cx="8" cy="8" rx="2.6" ry="6.2" fill="none" stroke="currentColor"/></svg></button>
+      <button type="button" class="nb" data-nav="up" aria-label="Turn north">↑</button>
+      <button type="button" class="nb" data-nav="in" aria-label="Zoom in">+</button>
+      <button type="button" class="nb" data-nav="left" aria-label="Turn west">←</button>
+      <button type="button" class="nb" data-nav="right" aria-label="Turn east">→</button>
+      <button type="button" class="nb" data-nav="back" aria-label="Up one tier (Escape)" title="Up one tier">⤺</button>
+      <button type="button" class="nb" data-nav="down" aria-label="Turn south">↓</button>
+      <button type="button" class="nb" data-nav="out" aria-label="Zoom out">−</button>
+    </div>
+    <div class="timebar" id="timebar"></div>
+  </section>
+
+  <aside class="panel" id="panel" aria-label="The Atlas as a list" tabindex="-1">
+    <div class="panel-inner" id="panel-inner"><p class="p-small">Loading the Atlas…</p></div>
+  </aside>
+</main>
+
+<aside class="notebook" id="notebook" hidden aria-label="Field notebook" tabindex="-1"></aside>
+<div class="sr" aria-live="polite" id="live"></div>
+<noscript><p class="noscript">The Atlas needs JavaScript to draw its globe, map and list.</p></noscript>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

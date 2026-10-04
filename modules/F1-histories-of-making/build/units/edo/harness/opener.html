@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<base href="/">
+<title>Overture harness</title>
+<link rel="stylesheet" href="/src/styles.css">
+<style>
+  /* Harness only: a scroll section that pins the overture and calls setProgress from scroll. The real section,
+     captions and skip link belong to the Story builder (src/overture.js). */
+  .ovh-scroll { position: relative; height: calc(9 * 110vh + 100vh); }
+  .ovh-pin { position: sticky; top: 0; height: 100vh; height: 100dvh; }
+  .ovh-cap { position: absolute; left: var(--gut); bottom: 28px; max-width: min(420px, calc(100vw - 2 * var(--gut))); z-index: 3;
+    background: color-mix(in srgb, var(--paper) 92%, transparent); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px;
+    font: 400 15px/1.45 var(--serif); box-shadow: var(--shadow); }
+  .ovh-cap b { font: 600 11px/1 var(--ui); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); display: block; margin-bottom: 6px; }
+  .ovh-hud { position: fixed; right: 8px; top: 8px; z-index: 9; font: 500 11px/1.3 var(--ui); background: var(--paper-2); color: var(--ink-2); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; white-space: pre; }
+  .ovh-hud[hidden] { display: none; }
+  .ovh-links { position: absolute; inset: 0; z-index: 2; pointer-events: none; }
+  .ovh-links a { position: absolute; pointer-events: auto; outline-offset: 2px; border-radius: 6px; }
+  .ovh-links a:focus-visible { outline: 2px solid var(--indigo); }
+  .ovh-after { min-height: 60vh; padding: 40px var(--gut); }
+</style>
+</head>
+<body>
+<div class="ovh-scroll" id="scroll">
+  <div class="ovh-pin" id="pin">
+    <div class="ovh-links" id="links"></div>
+    <div class="ovh-cap" id="cap" aria-live="polite"><b>Shot 1 · paper</b><span>Caption placeholder (the Story builder supplies the text).</span></div>
+  </div>
+</div>
+<div class="ovh-after"><p>After the overture.</p></div>
+<pre class="ovh-hud" id="hud" hidden></pre>
+<script type="module">
+  import { motion } from '/src/util.js';
+  const q = new URLSearchParams(location.search);
+  if (q.get('rm') === '1') motion.set(true);
+  if (q.get('theme')) document.documentElement.dataset.theme = q.get('theme');
+  const FONTS = [['Shippori Mincho', 'ShipporiMincho-Medium.woff2', { weight: '500' }], ['Shippori Mincho', 'ShipporiMincho-Bold.woff2', { weight: '600 800' }],
+    ['Source Serif 4', 'SourceSerif4.woff2', { weight: '200 900' }], ['IBM Plex Sans', 'IBMPlexSans.woff2', { weight: '100 700' }]];
+  await Promise.allSettled(FONTS.map(([f, u, d]) => { const ff = new FontFace(f, `url(/fonts-src/woff2/${u}) format('woff2')`, d); document.fonts.add(ff); return ff.load(); }));
+  const C = await fetch('/content.json').then((r) => r.json());
+  const shots = ['paper', 'wave', 'shop', 'blocks', 'edo', 'seal', 'sea', 'return', 'contents'];
+  const pin = document.getElementById('pin'), cap = document.getElementById('cap'), hud = document.getElementById('hud'), links = document.getElementById('links');
+  let api;
+  try {
+    const mod = (await import('/src/3d/opener.js')).default;
+    api = await mod.mount(pin, { C, motion });
+  } catch (e) { cap.innerHTML = `<b>Fallback</b>${e.message}`; throw e; }
+  window.__ov = api;
+  const scroller = document.getElementById('scroll');
+  const progress = () => { const r = scroller.getBoundingClientRect(); const span = r.height - innerHeight; return Math.max(0, Math.min(9, (-r.top / span) * 9)); };
+  let lastShot = -1;
+  const onScroll = () => {
+    const p = progress(); api.setProgress(p);
+    const s = Math.min(8, Math.floor(motion.reduced ? Math.round(p) : p));
+    if (s !== lastShot) { lastShot = s; cap.innerHTML = `<b>Shot ${s + 1} · ${shots[s]}</b><span>Caption placeholder for “${shots[s]}”. ${api.describe()}</span>`; }
+  };
+  addEventListener('scroll', onScroll, { passive: true }); onScroll();
+  // contents links aligned with the five blocks
+  pin.addEventListener('overture-contents', (e) => {
+    links.innerHTML = '';
+    for (const r of e.detail.rects) { const a = document.createElement('a'); a.href = `#act-${r.id}`; a.setAttribute('aria-label', `Act ${r.n}: ${r.title}`); Object.assign(a.style, { left: r.x + 'px', top: r.y + 'px', width: r.width + 'px', height: r.height + 'px' }); links.append(a); }
+  });
+  if (q.get('hud') === '1') { hud.hidden = false; setInterval(() => { hud.textContent = JSON.stringify(api.stats(), null, 1); }, 250); }
+  window.__ovReady = true;
+</script>
+</body>
+</html>

@@ -1,0 +1,1725 @@
+{
+ "_note": "Major routes for the Atlas hub. Each route takes its name, dates, confidence and flags from a canon register row (source). Waypoints are places named in that row's own text where possible; the line between them is schematic (a great-circle path through named nodes, never a surveyed track). A waypoint is 'Name@CC' (looked up in Natural Earth populated places, public domain) or {n, ll:[lat,lon]} (hand-located, approximate, flagged). 'shown' is the label a learner reads; historical names first.",
+ "routes": [
+  {
+   "id": "silk",
+   "source": "NET001",
+   "major": true,
+   "stops": [
+    [
+     "Chang'an",
+     "Xian@CN"
+    ],
+    [
+     "Lanzhou",
+     "Lanzhou@CN"
+    ],
+    [
+     "Dunhuang",
+     {
+      "ll": [
+       40.14,
+       94.66
+      ]
+     }
+    ],
+    [
+     "Turfan",
+     {
+      "ll": [
+       42.95,
+       89.18
+      ]
+     }
+    ],
+    [
+     "Kucha",
+     {
+      "ll": [
+       41.72,
+       82.96
+      ]
+     }
+    ],
+    [
+     "Kashgar",
+     "Kashgar@CN"
+    ],
+    [
+     "Samarkand",
+     "Samarqand@UZ"
+    ],
+    [
+     "Merv",
+     {
+      "ll": [
+       37.66,
+       62.19
+      ]
+     }
+    ],
+    [
+     "Rayy",
+     "Tehran@IR"
+    ],
+    [
+     "Baghdad",
+     "Baghdad@IQ"
+    ],
+    [
+     "Aleppo",
+     "Aleppo@SY"
+    ],
+    [
+     "Constantinople",
+     "Istanbul@TR"
+    ]
+   ]
+  },
+  {
+   "id": "steppe",
+   "source": "NET002",
+   "major": true,
+   "stops": [
+    [
+     "Hungarian plain",
+     {
+      "ll": [
+       46.9,
+       19.7
+      ]
+     }
+    ],
+    [
+     "Pontic steppe",
+     {
+      "ll": [
+       47.5,
+       35.0
+      ]
+     }
+    ],
+    [
+     "Lower Volga",
+     "Volgograd@RU"
+    ],
+    [
+     "Kazakh steppe",
+     {
+      "ll": [
+       49.0,
+       66.0
+      ]
+     }
+    ],
+    [
+     "Altai",
+     {
+      "ll": [
+       50.5,
+       86.5
+      ]
+     }
+    ],
+    [
+     "Orkhon valley",
+     {
+      "ll": [
+       47.2,
+       102.8
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "tarim-south",
+   "source": "NET003",
+   "stops": [
+    [
+     "Dunhuang",
+     {
+      "ll": [
+       40.14,
+       94.66
+      ]
+     }
+    ],
+    [
+     "Miran",
+     {
+      "ll": [
+       39.22,
+       88.97
+      ]
+     }
+    ],
+    [
+     "Khotan",
+     "Hotan@CN"
+    ],
+    [
+     "Kashgar",
+     "Kashgar@CN"
+    ]
+   ]
+  },
+  {
+   "id": "teahorse",
+   "source": "NET004",
+   "stops": [
+    [
+     "Ya'an",
+     {
+      "ll": [
+       29.98,
+       103.0
+      ]
+     }
+    ],
+    [
+     "Kangding",
+     {
+      "ll": [
+       30.05,
+       101.96
+      ]
+     }
+    ],
+    [
+     "Chamdo",
+     {
+      "ll": [
+       31.14,
+       97.17
+      ]
+     }
+    ],
+    [
+     "Lhasa",
+     "Lhasa@CN"
+    ]
+   ]
+  },
+  {
+   "id": "indianocean",
+   "source": "NET005",
+   "major": true,
+   "stops": [
+    [
+     "Kilwa",
+     {
+      "ll": [
+       -8.96,
+       39.51
+      ]
+     }
+    ],
+    [
+     "Mombasa",
+     "Mombasa@KE"
+    ],
+    [
+     "Mogadishu",
+     "Mogadishu@SO"
+    ],
+    [
+     "Aden",
+     "Aden@YE"
+    ],
+    [
+     "Muscat",
+     "Muscat@OM"
+    ],
+    [
+     "Calicut",
+     "Kozhikode@IN"
+    ],
+    [
+     "Galle",
+     {
+      "ll": [
+       6.03,
+       80.22
+      ]
+     }
+    ],
+    [
+     "Melaka",
+     "Malacca@MY"
+    ],
+    [
+     "Guangzhou",
+     "Guangzhou@CN"
+    ]
+   ]
+  },
+  {
+   "id": "arabiansea",
+   "source": "NET006",
+   "stops": [
+    [
+     "Cambay",
+     {
+      "ll": [
+       22.31,
+       72.62
+      ]
+     }
+    ],
+    [
+     "Calicut",
+     "Kozhikode@IN"
+    ],
+    [
+     "Muscat",
+     "Muscat@OM"
+    ],
+    [
+     "Aden",
+     "Aden@YE"
+    ],
+    [
+     "Berbera",
+     {
+      "ll": [
+       10.44,
+       45.01
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "bengal",
+   "source": "NET007",
+   "stops": [
+    [
+     "Tamralipta",
+     {
+      "ll": [
+       22.3,
+       87.92
+      ]
+     }
+    ],
+    [
+     "Arikamedu",
+     {
+      "ll": [
+       11.9,
+       79.82
+      ]
+     }
+    ],
+    [
+     "Anuradhapura",
+     {
+      "ll": [
+       8.33,
+       80.4
+      ]
+     }
+    ],
+    [
+     "Kedah",
+     {
+      "ll": [
+       5.65,
+       100.43
+      ]
+     }
+    ],
+    [
+     "Oc Eo",
+     {
+      "ll": [
+       10.25,
+       105.15
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "nanhai",
+   "source": "NET009",
+   "major": true,
+   "stops": [
+    [
+     "Guangzhou",
+     "Guangzhou@CN"
+    ],
+    [
+     "Belitung wreck",
+     {
+      "ll": [
+       -2.85,
+       107.9
+      ]
+     }
+    ],
+    [
+     "Palembang",
+     "Palembang@ID"
+    ],
+    [
+     "Galle",
+     {
+      "ll": [
+       6.03,
+       80.22
+      ]
+     }
+    ],
+    [
+     "Siraf",
+     {
+      "ll": [
+       27.66,
+       52.34
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "sahara-w",
+   "source": "NET010",
+   "major": true,
+   "stops": [
+    [
+     "Timbuktu",
+     "Timbuktu@ML"
+    ],
+    [
+     "Taghaza",
+     {
+      "ll": [
+       23.6,
+       -5.0
+      ]
+     }
+    ],
+    [
+     "Sijilmasa",
+     {
+      "ll": [
+       31.28,
+       -4.27
+      ]
+     }
+    ],
+    [
+     "Fez",
+     "Fez@MA"
+    ]
+   ]
+  },
+  {
+   "id": "sahara-e",
+   "source": "NET010",
+   "stops": [
+    [
+     "Gao",
+     "Gao@ML"
+    ],
+    [
+     "Agadez",
+     "Agadez@NE"
+    ],
+    [
+     "Bilma",
+     {
+      "ll": [
+       18.69,
+       12.92
+      ]
+     }
+    ],
+    [
+     "Murzuq",
+     {
+      "ll": [
+       25.92,
+       13.92
+      ]
+     }
+    ],
+    [
+     "Tripoli",
+     "Tripoli@LY"
+    ]
+   ]
+  },
+  {
+   "id": "kilwa",
+   "source": "NET011",
+   "stops": [
+    [
+     "Great Zimbabwe",
+     {
+      "ll": [
+       -20.27,
+       30.93
+      ]
+     }
+    ],
+    [
+     "Sofala",
+     {
+      "ll": [
+       -20.15,
+       34.73
+      ]
+     }
+    ],
+    [
+     "Kilwa",
+     {
+      "ll": [
+       -8.96,
+       39.51
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "dhow",
+   "source": "NET012",
+   "stops": [
+    [
+     "Zanzibar",
+     "Zanzibar@TZ"
+    ],
+    [
+     "Mombasa",
+     "Mombasa@KE"
+    ],
+    [
+     "Lamu",
+     {
+      "ll": [
+       -2.27,
+       40.9
+      ]
+     }
+    ],
+    [
+     "Aden",
+     "Aden@YE"
+    ],
+    [
+     "Muscat",
+     "Muscat@OM"
+    ],
+    [
+     "Cambay",
+     {
+      "ll": [
+       22.31,
+       72.62
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "meluhha",
+   "source": "NET016",
+   "stops": [
+    [
+     "Lothal",
+     {
+      "ll": [
+       22.52,
+       72.25
+      ]
+     }
+    ],
+    [
+     "Magan (Oman)",
+     {
+      "ll": [
+       24.35,
+       56.73
+      ]
+     }
+    ],
+    [
+     "Dilmun (Bahrain)",
+     "Manama@BH"
+    ],
+    [
+     "Ur",
+     {
+      "ll": [
+       30.96,
+       46.1
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "assur",
+   "source": "NET017",
+   "stops": [
+    [
+     "Aššur",
+     {
+      "ll": [
+       35.46,
+       43.26
+      ]
+     }
+    ],
+    [
+     "Kaneš",
+     {
+      "ll": [
+       38.85,
+       35.63
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "lapis",
+   "source": "NET018",
+   "major": true,
+   "stops": [
+    [
+     "Sar-i Sang",
+     {
+      "ll": [
+       36.2,
+       70.8
+      ]
+     }
+    ],
+    [
+     "Shahr-i Sokhta",
+     {
+      "ll": [
+       30.6,
+       61.33
+      ]
+     }
+    ],
+    [
+     "Susa",
+     {
+      "ll": [
+       32.19,
+       48.26
+      ]
+     }
+    ],
+    [
+     "Ur",
+     {
+      "ll": [
+       30.96,
+       46.1
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "obsidian-ana",
+   "source": "NET019",
+   "stops": [
+    [
+     "Göllü Dağ",
+     {
+      "ll": [
+       38.25,
+       34.56
+      ]
+     }
+    ],
+    [
+     "Çatalhöyük",
+     {
+      "ll": [
+       37.67,
+       32.83
+      ]
+     }
+    ],
+    [
+     "Jericho",
+     {
+      "ll": [
+       31.87,
+       35.44
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "lba",
+   "source": "NET020",
+   "stops": [
+    [
+     "Akhetaten (Amarna)",
+     {
+      "ll": [
+       27.65,
+       30.9
+      ]
+     }
+    ],
+    [
+     "Ugarit",
+     {
+      "ll": [
+       35.6,
+       35.78
+      ]
+     }
+    ],
+    [
+     "Enkomi",
+     {
+      "ll": [
+       35.15,
+       33.88
+      ]
+     }
+    ],
+    [
+     "Uluburun wreck",
+     {
+      "ll": [
+       36.13,
+       29.68
+      ]
+     }
+    ],
+    [
+     "Knossos",
+     {
+      "ll": [
+       35.3,
+       25.16
+      ]
+     }
+    ],
+    [
+     "Mycenae",
+     {
+      "ll": [
+       37.73,
+       22.76
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "phoenician",
+   "source": "NET021",
+   "major": true,
+   "stops": [
+    [
+     "Tyre",
+     {
+      "ll": [
+       33.27,
+       35.2
+      ]
+     }
+    ],
+    [
+     "Kition",
+     {
+      "ll": [
+       34.92,
+       33.63
+      ]
+     }
+    ],
+    [
+     "Carthage",
+     "Tunis@TN"
+    ],
+    [
+     "Gadir",
+     "Cadiz@ES"
+    ]
+   ]
+  },
+  {
+   "id": "roman-red",
+   "source": "NET022",
+   "major": true,
+   "stops": [
+    [
+     "Muziris",
+     {
+      "ll": [
+       10.15,
+       76.2
+      ]
+     }
+    ],
+    [
+     "Berenike",
+     {
+      "ll": [
+       23.91,
+       35.47
+      ]
+     }
+    ],
+    [
+     "Coptos",
+     {
+      "ll": [
+       26.0,
+       32.82
+      ]
+     }
+    ],
+    [
+     "Alexandria",
+     "Alexandria@EG"
+    ],
+    [
+     "Ostia, for Rome",
+     "Rome@IT"
+    ]
+   ]
+  },
+  {
+   "id": "medmed",
+   "source": "NET023",
+   "stops": [
+    [
+     "Fustat",
+     "Cairo@EG"
+    ],
+    [
+     "Alexandria",
+     "Alexandria@EG"
+    ],
+    [
+     "Palermo",
+     "Palermo@IT"
+    ],
+    [
+     "Almería",
+     {
+      "ll": [
+       36.84,
+       -2.46
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "venice",
+   "source": "NET024",
+   "stops": [
+    [
+     "Venice",
+     "Venice@IT"
+    ],
+    [
+     "Candia",
+     {
+      "ll": [
+       35.34,
+       25.13
+      ]
+     }
+    ],
+    [
+     "Constantinople",
+     "Istanbul@TR"
+    ],
+    [
+     "Caffa",
+     {
+      "ll": [
+       45.03,
+       35.38
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "amber",
+   "source": "NET025",
+   "stops": [
+    [
+     "Baltic coast",
+     "Gdansk@PL"
+    ],
+    [
+     "Carnuntum",
+     {
+      "ll": [
+       48.11,
+       16.86
+      ]
+     }
+    ],
+    [
+     "Aquileia",
+     {
+      "ll": [
+       45.77,
+       13.37
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "varangian",
+   "source": "NET027",
+   "stops": [
+    [
+     "Birka",
+     {
+      "ll": [
+       59.33,
+       17.54
+      ]
+     }
+    ],
+    [
+     "Novgorod",
+     {
+      "ll": [
+       58.52,
+       31.27
+      ]
+     }
+    ],
+    [
+     "Kyiv",
+     "Kiev@UA"
+    ],
+    [
+     "Constantinople",
+     "Istanbul@TR"
+    ]
+   ]
+  },
+  {
+   "id": "volga",
+   "source": "NET028",
+   "stops": [
+    [
+     "Birka",
+     {
+      "ll": [
+       59.33,
+       17.54
+      ]
+     }
+    ],
+    [
+     "Bolghar",
+     {
+      "ll": [
+       54.98,
+       49.05
+      ]
+     }
+    ],
+    [
+     "Itil",
+     "Astrakhan@RU"
+    ],
+    [
+     "Rayy",
+     "Tehran@IR"
+    ]
+   ]
+  },
+  {
+   "id": "hansa",
+   "source": "NET029",
+   "stops": [
+    [
+     "London",
+     "London@GB"
+    ],
+    [
+     "Bruges",
+     "Brugge@BE"
+    ],
+    [
+     "Lübeck",
+     "Lubeck@DE"
+    ],
+    [
+     "Visby",
+     {
+      "ll": [
+       57.64,
+       18.3
+      ]
+     }
+    ],
+    [
+     "Novgorod",
+     {
+      "ll": [
+       58.52,
+       31.27
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "grandtrunk",
+   "source": "NET030",
+   "stops": [
+    [
+     "Sonargaon",
+     "Dhaka@BD"
+    ],
+    [
+     "Patna",
+     "Patna@IN"
+    ],
+    [
+     "Varanasi",
+     "Varanasi@IN"
+    ],
+    [
+     "Agra",
+     "Agra@IN"
+    ],
+    [
+     "Delhi",
+     "New Delhi@IN"
+    ],
+    [
+     "Lahore",
+     "Lahore@PK"
+    ],
+    [
+     "Peshawar",
+     "Peshawar@PK"
+    ],
+    [
+     "Kabul",
+     "Kabul@AF"
+    ]
+   ]
+  },
+  {
+   "id": "incense",
+   "source": "NET031",
+   "stops": [
+    [
+     "Shabwa",
+     {
+      "ll": [
+       15.36,
+       47.05
+      ]
+     }
+    ],
+    [
+     "Ma'rib",
+     {
+      "ll": [
+       15.42,
+       45.35
+      ]
+     }
+    ],
+    [
+     "Najran",
+     {
+      "ll": [
+       17.49,
+       44.13
+      ]
+     }
+    ],
+    [
+     "Hegra",
+     {
+      "ll": [
+       26.79,
+       37.95
+      ]
+     }
+    ],
+    [
+     "Petra",
+     {
+      "ll": [
+       30.33,
+       35.44
+      ]
+     }
+    ],
+    [
+     "Gaza",
+     "Gaza@PS"
+    ]
+   ]
+  },
+  {
+   "id": "redsea",
+   "source": "NET032",
+   "stops": [
+    [
+     "Adulis",
+     {
+      "ll": [
+       15.27,
+       39.65
+      ]
+     }
+    ],
+    [
+     "Berenike",
+     {
+      "ll": [
+       23.91,
+       35.47
+      ]
+     }
+    ],
+    [
+     "Myos Hormos",
+     {
+      "ll": [
+       26.16,
+       34.24
+      ]
+     }
+    ],
+    [
+     "Suez",
+     "Suez@EG"
+    ]
+   ]
+  },
+  {
+   "id": "voc",
+   "source": "NET033",
+   "major": true,
+   "edo": "voc",
+   "stops": []
+  },
+  {
+   "id": "carreira",
+   "source": "NET033",
+   "stops": [
+    [
+     "Lisbon",
+     "Lisbon@PT"
+    ],
+    [
+     "Cape of Good Hope",
+     "Cape Town@ZA"
+    ],
+    [
+     "Goa",
+     "Panaji@IN"
+    ],
+    [
+     "Melaka",
+     "Malacca@MY"
+    ],
+    [
+     "Macau",
+     "Macau@MO"
+    ]
+   ]
+  },
+  {
+   "id": "atlantic",
+   "source": "NET034",
+   "major": true,
+   "stops": [
+    [
+     "Seville",
+     "Seville@ES"
+    ],
+    [
+     "Canaries",
+     "Las Palmas@ES"
+    ],
+    [
+     "Havana",
+     "Havana@CU"
+    ],
+    [
+     "Veracruz",
+     "Veracruz@MX"
+    ]
+   ]
+  },
+  {
+   "id": "trafficking-benin",
+   "source": "NET035",
+   "major": true,
+   "humanflow": true,
+   "label": "Forced passage: Bight of Benin to Bahia (schematic)",
+   "stops": [
+    [
+     "Ouidah",
+     {
+      "ll": [
+       6.36,
+       2.09
+      ]
+     }
+    ],
+    [
+     "Salvador da Bahia",
+     "Salvador@BR"
+    ]
+   ]
+  },
+  {
+   "id": "trafficking-wca",
+   "source": "NET035",
+   "humanflow": true,
+   "label": "Forced passage: West Central Africa to Brazil (schematic)",
+   "stops": [
+    [
+     "Luanda",
+     "Luanda@AO"
+    ],
+    [
+     "Rio de Janeiro",
+     "Rio de Janeiro@BR"
+    ]
+   ]
+  },
+  {
+   "id": "galleon",
+   "source": "NET036",
+   "major": true,
+   "stops": [
+    [
+     "Yuegang (Moon Harbour)",
+     {
+      "ll": [
+       24.45,
+       117.9
+      ]
+     }
+    ],
+    [
+     "Manila",
+     "Manila@PH"
+    ],
+    [
+     "Acapulco",
+     "Acapulco@MX"
+    ]
+   ]
+  },
+  {
+   "id": "galleon-atl",
+   "source": "NET036",
+   "stops": [
+    [
+     "Acapulco",
+     "Acapulco@MX"
+    ],
+    [
+     "Mexico City",
+     "Mexico City@MX"
+    ],
+    [
+     "Veracruz",
+     "Veracruz@MX"
+    ],
+    [
+     "Seville",
+     "Seville@ES"
+    ]
+   ]
+  },
+  {
+   "id": "obsidian-mes",
+   "source": "NET037",
+   "stops": [
+    [
+     "Pachuca",
+     "Pachuca@MX"
+    ],
+    [
+     "Teotihuacan",
+     {
+      "ll": [
+       19.69,
+       -98.84
+      ]
+     }
+    ],
+    [
+     "El Chayal",
+     {
+      "ll": [
+       14.73,
+       -90.4
+      ]
+     }
+    ],
+    [
+     "Tikal",
+     {
+      "ll": [
+       17.22,
+       -89.62
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "turquoise",
+   "source": "NET039",
+   "contested": true,
+   "stops": [
+    [
+     "Chaco Canyon",
+     {
+      "ll": [
+       36.06,
+       -107.96
+      ]
+     }
+    ],
+    [
+     "Cerrillos mines",
+     {
+      "ll": [
+       35.44,
+       -106.13
+      ]
+     }
+    ],
+    [
+     "Paquimé",
+     {
+      "ll": [
+       30.37,
+       -107.95
+      ]
+     }
+    ],
+    [
+     "Tula",
+     {
+      "ll": [
+       20.06,
+       -99.34
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "qhapaq",
+   "source": "NET040",
+   "major": true,
+   "stops": [
+    [
+     "Quito",
+     "Quito@EC"
+    ],
+    [
+     "Cajamarca",
+     {
+      "ll": [
+       -7.16,
+       -78.51
+      ]
+     }
+    ],
+    [
+     "Cusco",
+     "Cusco@PE"
+    ],
+    [
+     "Lake Titicaca",
+     "Puno@PE"
+    ],
+    [
+     "Santiago",
+     "Santiago@CL"
+    ]
+   ]
+  },
+  {
+   "id": "austronesian",
+   "source": "NET045",
+   "major": true,
+   "stops": [
+    [
+     "Taiwan",
+     {
+      "ll": [
+       23.0,
+       121.0
+      ]
+     }
+    ],
+    [
+     "Luzon",
+     {
+      "ll": [
+       16.5,
+       121.0
+      ]
+     }
+    ],
+    [
+     "Sulawesi",
+     {
+      "ll": [
+       -2.0,
+       120.5
+      ]
+     }
+    ],
+    [
+     "Bismarck Archipelago",
+     {
+      "ll": [
+       -5.27,
+       150.0
+      ]
+     }
+    ],
+    [
+     "Fiji",
+     {
+      "ll": [
+       -17.8,
+       178.0
+      ]
+     }
+    ],
+    [
+     "Samoa",
+     {
+      "ll": [
+       -13.8,
+       -172.0
+      ]
+     }
+    ],
+    [
+     "Society Islands",
+     {
+      "ll": [
+       -17.6,
+       -149.4
+      ]
+     }
+    ],
+    [
+     "Hawai'i",
+     {
+      "ll": [
+       19.6,
+       -155.5
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "austronesian-w",
+   "source": "NET045",
+   "stops": [
+    [
+     "Borneo",
+     {
+      "ll": [
+       1.0,
+       114.0
+      ]
+     }
+    ],
+    [
+     "Java Sea",
+     {
+      "ll": [
+       -6.0,
+       106.0
+      ]
+     }
+    ],
+    [
+     "across the Indian Ocean",
+     {
+      "ll": [
+       -12.0,
+       75.0
+      ]
+     }
+    ],
+    [
+     "Madagascar",
+     {
+      "ll": [
+       -18.9,
+       47.5
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "lapita",
+   "source": "NET046",
+   "stops": [
+    [
+     "Talasea (New Britain)",
+     {
+      "ll": [
+       -5.27,
+       150.0
+      ]
+     }
+    ],
+    [
+     "Vanuatu",
+     {
+      "ll": [
+       -15.4,
+       167.0
+      ]
+     }
+    ],
+    [
+     "Fiji",
+     {
+      "ll": [
+       -17.8,
+       178.0
+      ]
+     }
+    ],
+    [
+     "Tonga",
+     {
+      "ll": [
+       -21.1,
+       -175.2
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "trepang",
+   "source": "NET052",
+   "stops": [
+    [
+     "Makassar",
+     "Makassar@ID"
+    ],
+    [
+     "Arnhem Land coast",
+     {
+      "ll": [
+       -12.2,
+       136.8
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "fur",
+   "source": "NET043",
+   "stops": [
+    [
+     "Montreal",
+     "Montreal@CA"
+    ],
+    [
+     "London",
+     "London@GB"
+    ],
+    [
+     "Moscow",
+     "Moscow@RU"
+    ],
+    [
+     "Tobolsk",
+     {
+      "ll": [
+       58.2,
+       68.25
+      ]
+     }
+    ],
+    [
+     "Yakutsk",
+     "Yakutsk@RU"
+    ]
+   ]
+  },
+  {
+   "id": "cotton-atl",
+   "source": "NET056",
+   "humanflow": true,
+   "stops": [
+    [
+     "New Orleans",
+     "New Orleans@US"
+    ],
+    [
+     "Liverpool",
+     "Liverpool@GB"
+    ],
+    [
+     "Manchester",
+     "Manchester@GB"
+    ]
+   ]
+  },
+  {
+   "id": "rubber",
+   "source": "NET060",
+   "kind": "extraction",
+   "humanflow": true,
+   "stops": [
+    [
+     "Congo basin",
+     {
+      "ll": [
+       0.5,
+       22.0
+      ]
+     }
+    ],
+    [
+     "Boma",
+     {
+      "ll": [
+       -5.85,
+       13.05
+      ]
+     }
+    ],
+    [
+     "Antwerp",
+     "Antwerpen@BE"
+    ]
+   ]
+  },
+  {
+   "id": "guano",
+   "source": "NET061",
+   "kind": "extraction",
+   "humanflow": true,
+   "stops": [
+    [
+     "Chincha Islands",
+     {
+      "ll": [
+       -13.64,
+       -76.4
+      ]
+     }
+    ],
+    [
+     "Callao",
+     "Callao@PE"
+    ]
+   ]
+  },
+  {
+   "id": "porcelain-copy",
+   "source": "NET054",
+   "kind": "copy",
+   "label": "Porcelain copied: Jingdezhen to Persia, Delft and Meissen",
+   "stops": [
+    [
+     "Jingdezhen",
+     {
+      "ll": [
+       29.29,
+       117.2
+      ]
+     }
+    ],
+    [
+     "Persia",
+     {
+      "ll": [
+       32.0,
+       54.0
+      ]
+     }
+    ],
+    [
+     "Delft",
+     {
+      "ll": [
+       52.01,
+       4.36
+      ]
+     }
+    ],
+    [
+     "Meissen",
+     {
+      "ll": [
+       51.16,
+       13.47
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "calico-copy",
+   "source": "NET055",
+   "kind": "copy",
+   "label": "Indian cottons, then the calico bans and European imitation",
+   "stops": [
+    [
+     "India (Gujarat)",
+     "Ahmedabad@IN"
+    ],
+    [
+     "London (calico bans, 1700, 1721)",
+     "London@GB"
+    ]
+   ]
+  },
+  {
+   "id": "perry",
+   "source": "edo:routes.perry",
+   "edo": "perry",
+   "stops": []
+  },
+  {
+   "id": "mm",
+   "source": "edo:routes.mm",
+   "edo": "mm",
+   "stops": []
+  }
+ ]
+}

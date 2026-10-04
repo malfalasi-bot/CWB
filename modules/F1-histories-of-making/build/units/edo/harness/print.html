@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="/">
+<title>Print the Wave · harness</title>
+<style>
+  body { margin: 0; }
+  .hbar { font: 500 12px/1 'IBM Plex Sans', system-ui, sans-serif; display: flex; gap: 10px; align-items: center; padding: 8px 16px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+  .hbar a { color: var(--indigo); }
+  #slot { padding: 16px; }
+  body[data-mode="stage"] #slot { max-width: 560px; }
+  body[data-mode="room"] #slot { max-width: 1400px; margin: 0 auto; }
+</style>
+</head>
+<body>
+<div class="hbar">
+  <strong>print harness</strong>
+  <a href="harness/print.html?mode=stage">stage</a> <a href="harness/print.html?mode=room">room</a>
+  <a href="harness/print.html?mode=stage&amp;flat">stage 2D</a> <a href="harness/print.html?mode=room&amp;flat">room 2D</a>
+  <button id="clear" type="button">clear saved state</button>
+</div>
+<main id="slot"></main>
+<script type="module">
+import '/src/styles.css';
+import { Scope, motion, imgUrl } from '/src/util.js';
+import lab from '/src/labs/print.js';
+const q = new URLSearchParams(location.search);
+const mode = q.get('mode') || 'stage';
+document.body.dataset.mode = mode;
+if (motion.reduced) document.body.classList.add('rm');
+const C = await fetch('/content.json').then((r) => r.json());
+const store = {
+  get(k, fb) { try { const v = localStorage.getItem('edo4:' + k); return v == null ? fb : JSON.parse(v); } catch (e) { return fb; } },
+  set(k, v) { try { if (v == null) localStorage.removeItem('edo4:' + k); else localStorage.setItem('edo4:' + k, JSON.stringify(v)); } catch (e) {} },
+};
+document.getElementById('clear').onclick = () => { Object.keys(localStorage).filter((k) => k.startsWith('edo4:print')).forEach((k) => localStorage.removeItem(k)); location.reload(); };
+const scope = new Scope();
+const ctx = {
+  C, scope, motion, mode, params: { flat: q.has('flat') }, imgUrl, sprite: () => null, store,
+  onResolve: (r) => console.log('[harness] onResolve', r), openRoom: (id, a) => console.log('[harness] openRoom', id, a ?? ''),
+  openPerson: (id) => console.log('[harness] openPerson', id), openImage: (id) => console.log('[harness] openImage', id),
+};
+window.__ctx = ctx;
+window.__lab = await lab.mount(document.getElementById('slot'), ctx);
+window.__ready = true;
+</script>
+</body>
+</html>

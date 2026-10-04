@@ -138,6 +138,21 @@ world:
     name: New York
     lat: 40.7794
     lon: -73.9632
+  norfolk:
+    name: Hampton Roads, Virginia
+    kanji: ''
+    lat: 36.8469
+    lon: -76.2853
+  uraga:
+    name: Uraga
+    kanji: 浦賀
+    lat: 35.2475
+    lon: 139.714
+  canton:
+    name: China
+    kanji: 中国
+    lat: 23.13
+    lon: 113.26
 routes:
   perry:
     label: Perry’s squadron, 1852–53

@@ -34,7 +34,8 @@ events:
   - {id: e1641, year: 1641, lane: world, label: "The Dutch confined to Dejima"}
   - {id: e1657, year: 1657, lane: state, label: "The Meireki fire"}
   - {id: e1672, year: 1672, lane: print, label: "Moronobu signs his pictures"}
-  - {id: e1721, year: 1721, lane: state, label: "The first census: about 1.3 million"}
+  - {id: e1721, year: 1721, lane: state, label: "Edo counts itself: about 1.3 million"}
+  - {id: e1740, year: 1740, lane: print, label: "Uki-e: perspective prints"}
   - {id: e1765, year: 1765, lane: print, label: "Full colour: the calendar prints", img: harunobu-1765}
   - {id: e1770, year: 1770, lane: print, label: "Harunobu dies"}
   - {id: e1783, year: 1783, lane: trade, label: "Tsutaya moves to Tōri Abura-chō", img: portrait-tsutaya}
@@ -74,7 +75,7 @@ events:
   - {id: e1889, year: 1889, lane: after, label: "Tokunō’s gift names the carvers"}
   - {id: e1890, year: 1890, lane: after, label: "Bing’s 700 prints"}
   - {id: e1898, year: 1898, lane: after, label: "Fenollosa’s Tokyo exhibition", img: portrait-fenollosa}
-  - {id: e1905, year: 1905, lane: after, label: "The “packing paper” story first printed"}
+  - {id: e1905, year: 1905, lane: after, label: "The “packing paper” story in print"}
   - {id: e1906, year: 1906.2, lane: after, label: "Wright’s Hiroshige show", img: portrait-wright}
   - {id: e1913, year: 1913, lane: after, label: "Wright’s deal with the Spauldings"}
   - {id: e1920, year: 1920, lane: after, label: "The “revamped” prints scandal"}

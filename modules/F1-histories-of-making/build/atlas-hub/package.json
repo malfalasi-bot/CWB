@@ -1,0 +1,27 @@
+{
+  "name": "f1-atlas-of-making",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "data": "python3 scripts/build_data.py && python3 scripts/build_textures.py",
+    "dev": "vite --port 5180",
+    "build": "vite build && node scripts/artifact.mjs",
+    "preview": "vite preview --port 5180 --strictPort",
+    "shots": "node scripts/shots.mjs"
+  },
+  "dependencies": {
+    "d3-geo": "^3.1.1",
+    "d3-interpolate": "^3.0.1",
+    "d3-selection": "^3.0.0",
+    "d3-transition": "^3.0.1",
+    "d3-zoom": "^3.0.0",
+    "supercluster": "^8.0.1",
+    "three": "^0.186.1",
+    "topojson-client": "^3.1.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.2",
+    "world-atlas": "^2.0.2"
+  }
+}

@@ -1,0 +1,65 @@
+/* The uki-e box (lab id "ukie"). Tokens only. Classes prefixed ukie-. */
+.ukie-bench { position: relative; border: 2px solid var(--indigo); border-radius: 10px; background: var(--paper-2); color: var(--ink);
+  font: 400 15px/1.5 var(--serif); padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.ukie-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.ukie-label { font: 600 11px/1 var(--ui); letter-spacing: .12em; text-transform: uppercase; color: var(--indigo); border: 1px solid var(--indigo-line); border-radius: 999px; padding: 5px 9px; }
+.ukie-title { margin: 0; font: 700 19px/1.2 var(--display); flex: 1; min-width: 8em; }
+.ukie-reset { margin-left: auto; border: 1px solid var(--line-2); background: var(--paper); color: var(--ink-2); border-radius: 999px; font: 600 12px/1 var(--ui); padding: 0 12px; min-height: 32px; cursor: pointer; }
+.ukie-reset:hover { color: var(--ink); border-color: var(--ink-3); }
+.ukie-main { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(250px, 1fr); gap: 16px; align-items: start; min-width: 0; }
+.ukie-stage { position: relative; height: min(64vh, 640px); min-height: 320px; border-radius: 8px; background: var(--paper-3); overflow: hidden; }
+.m-stage .ukie-stage { height: min(52vh, 480px); min-height: 280px; }
+.ukie-box { position: absolute; inset: 0; touch-action: none; cursor: grab; }
+.ukie-box:active { cursor: grabbing; }
+.ukie-box:focus-visible { outline: 2px solid var(--indigo); outline-offset: -4px; }
+.ukie-box canvas.gl { position: absolute; inset: 0; display: block; }
+.ukie-flat { position: absolute; inset: 4%; width: 92%; height: 92%; object-fit: contain; }
+.ukie-svg { position: absolute; pointer-events: none; overflow: visible; opacity: 0; transition: opacity var(--d-short) var(--e-standard); }
+.ukie-svg.on { opacity: 1; }
+.ukie-svg line { fill: none; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+.ukie-svg .ukie-hz { stroke: var(--ink-3); stroke-dasharray: 6 5; stroke-width: 1.4px; }
+.ukie-fl .seg { stroke: var(--indigo); stroke-width: 4px; }
+.ukie-fl .ext { stroke: var(--indigo); stroke-width: 1.6px; stroke-dasharray: 5 4; opacity: .85; }
+.ukie-cl .seg { stroke: var(--ink); stroke-width: 4px; }
+.ukie-cl .ext { stroke: var(--ink); stroke-width: 1.3px; stroke-dasharray: 2 4; opacity: .75; }
+.ukie-spread { stroke: var(--ink); stroke-width: 3px; }
+.ukie-vp { fill: none; stroke: var(--indigo); stroke-width: 2.5px; vector-effect: non-scaling-stroke; }
+/* the lines draw in, one after another (not under reduced motion) */
+.ukie-svg.anim .ukie-fl, .ukie-svg.anim .ukie-cl { animation: ukie-in var(--d-long) var(--e-enter) both; animation-delay: calc(var(--i) * 70ms); }
+@keyframes ukie-in { from { opacity: 0; } to { opacity: 1; } }
+.ukie-pad { position: absolute; right: 10px; bottom: 10px; display: grid; grid-template-columns: repeat(3, 34px); grid-template-rows: repeat(3, 34px); gap: 2px; }
+.ukie-pad[hidden] { display: none; }
+.ukie-pad-b { border: 1px solid var(--line-2); background: color-mix(in srgb, var(--paper-2) 92%, transparent); color: var(--ink); border-radius: 6px; font: 600 12px/1 var(--ui); cursor: pointer; padding: 0; }
+.ukie-pad-b:hover { border-color: var(--ink-3); }
+.ukie-pad-b:nth-child(1) { grid-column: 2; grid-row: 1; } .ukie-pad-b:nth-child(2) { grid-column: 1; grid-row: 2; } .ukie-pad-b:nth-child(3) { grid-column: 2; grid-row: 2; font-size: 9px; color: var(--ink-3); }
+.ukie-pad-b:nth-child(4) { grid-column: 3; grid-row: 2; } .ukie-pad-b:nth-child(5) { grid-column: 2; grid-row: 3; }
+.ukie-note { position: absolute; left: 10px; top: 10px; margin: 0; font: 600 11px/1 var(--ui); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); background: color-mix(in srgb, var(--paper-2) 90%, transparent); padding: 5px 8px; border-radius: 4px; }
+.ukie-note:empty { display: none; }
+.ukie-side { display: grid; gap: 12px; align-content: start; min-width: 0; }
+.ukie-modes { display: flex; flex-wrap: wrap; gap: 4px; padding: 3px; border: 1px solid var(--line-2); border-radius: 22px; background: var(--paper); justify-self: start; }
+.ukie-mode { min-height: 36px; padding: 6px 13px; border: 0; border-radius: 999px; background: none; color: var(--ink-2); font: 600 13px/1 var(--ui); cursor: pointer; }
+.ukie-mode[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.ukie-mode:hover:not([aria-pressed="true"]) { color: var(--ink); background: var(--paper-3); }
+.ukie-mode:disabled { opacity: .4; cursor: default; }
+.ukie-p { margin: 0; }
+.ukie-meet { margin: 0; font: 400 14px/1.5 var(--serif); color: var(--ink-2); }
+.ukie-meet[hidden] { display: none; }
+.ukie-key { display: inline-block; width: 18px; height: 0; border-top: 3px solid var(--indigo); vertical-align: middle; }
+.ukie-key.cl { border-top-color: var(--ink); }
+.ukie-live { margin: 0; min-height: 1.4em; font: 500 13px/1.45 var(--ui); }
+.ukie-record { margin: 0; font: 400 13px/1.5 var(--ui); color: var(--ink-2); }
+.ukie-record a, .ukie-sources a { color: var(--indigo); }
+.ukie-foot { border-top: 1px solid var(--line); padding-top: 10px; display: grid; gap: 10px; }
+.ukie-foot h4 { margin: 0; font: 600 12px/1.2 var(--ui); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); }
+.ukie-what p { margin: 4px 0 0; font-size: 14px; color: var(--ink-2); }
+.ukie-honest { margin: 0; font: 400 12.5px/1.45 var(--ui); color: var(--ink-2); background: var(--indigo-soft); border-left: 3px solid var(--indigo); padding: 7px 10px; border-radius: 0 6px 6px 0; }
+.ukie-honest strong { color: var(--ink); }
+.ukie-sources ul { margin: 4px 0 0; padding-left: 18px; font: 400 12.5px/1.45 var(--ui); color: var(--ink-2); }
+@media (max-width: 820px) {
+  .ukie-main { grid-template-columns: minmax(0, 1fr); }
+  .ukie-stage { height: min(48vh, 420px); min-height: 260px; }
+  .ukie-mode { min-height: 44px; }
+  .ukie-pad { grid-template-columns: repeat(3, 40px); grid-template-rows: repeat(3, 40px); }
+}
+@media (prefers-reduced-motion: reduce) { .ukie-svg, .ukie-svg.anim .ukie-fl, .ukie-svg.anim .ukie-cl { animation: none; transition: none; } }
+body.rm .ukie-svg { transition: none; }

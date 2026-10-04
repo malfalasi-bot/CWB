@@ -1,0 +1,40 @@
+/* F1 shared tokens: washi and sumi. Seal red is reserved for the censor and the 1842 ban.
+   Fonts (all SIL OFL, loaded from Google Fonts in each page's head):
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Shippori+Mincho:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+*/
+:root {
+  --paper: #F1EADB; --paper-2: #FAF6EC; --paper-3: #E9E0CC; --ink: #1D1A15; --ink-2: #554E42; --ink-3: #857C6B;
+  --line: #D6CBB4; --line-2: #C2B596; --land: #E4D8BE; --land-2: #DACCAD; --coast: #4A4234; --sea: #F1EADB;
+  --indigo: #233C6B; --indigo-2: #3A5A96; --indigo-soft: rgba(35,60,107,.10); --indigo-line: rgba(35,60,107,.55);
+  --seal: #B3301E; --seal-soft: rgba(179,48,30,.10); --shadow: 0 1px 0 rgba(60,45,20,.06), 0 6px 22px -10px rgba(60,45,20,.28);
+  --spring: #B85C76; --summer: #3E7D5A; --autumn: #B8662A; --winter: #4F6E99;
+  --serif: 'Source Serif 4', 'Iowan Old Style', Georgia, serif; --display: 'Shippori Mincho', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  --ui: 'IBM Plex Sans', system-ui, sans-serif;
+  --bar: 56px; --mini: 62px; --col: clamp(360px, 34vw, 540px); --gut: max(20px, 4vw); --vh: 1vh;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #16140F; --paper-2: #1F1C16; --paper-3: #29251D; --ink: #EFE8D8; --ink-2: #BDB39F; --ink-3: #8D8471;
+    --line: #3A352B; --line-2: #4C4637; --land: #2A2620; --land-2: #332E25; --coast: #A69C86; --sea: #16140F;
+    --indigo: #9CB4E6; --indigo-2: #B9CBF0; --indigo-soft: rgba(156,180,230,.13); --indigo-line: rgba(156,180,230,.6);
+    --seal: #E2583F; --seal-soft: rgba(226,88,63,.16); --shadow: 0 1px 0 rgba(0,0,0,.3), 0 8px 26px -12px rgba(0,0,0,.7); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #16140F; --paper-2: #1F1C16; --paper-3: #29251D; --ink: #EFE8D8; --ink-2: #BDB39F; --ink-3: #8D8471;
+  --line: #3A352B; --line-2: #4C4637; --land: #2A2620; --land-2: #332E25; --coast: #A69C86; --sea: #16140F;
+  --indigo: #9CB4E6; --indigo-2: #B9CBF0; --indigo-soft: rgba(156,180,230,.13); --indigo-line: rgba(156,180,230,.6);
+  --seal: #E2583F; --seal-soft: rgba(226,88,63,.16); --shadow: 0 1px 0 rgba(0,0,0,.3), 0 8px 26px -12px rgba(0,0,0,.7); color-scheme: dark;
+}
+
+/* Motion tokens (Material 3 and IBM Carbon), shared by every F1 piece */
+:root {
+  --d-instant: 70ms; --d-micro: 110ms; --d-short: 200ms; --d-medium: 400ms; --d-long: 600ms; --d-scene: 900ms;
+  --e-standard: cubic-bezier(0.2, 0, 0, 1); --e-enter: cubic-bezier(0.05, 0.7, 0.1, 1); --e-exit: cubic-bezier(0.3, 0, 0.8, 0.15);
+  --e-productive: cubic-bezier(0.2, 0, 0.38, 0.9); --e-expressive: cubic-bezier(0.4, 0.14, 0.3, 1);
+}
+@media (prefers-reduced-motion: reduce) { :root { --d-micro: 0ms; --d-short: 0ms; --d-medium: 120ms; --d-long: 150ms; --d-scene: 150ms; } }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 400 18px/1.62 var(--serif); -webkit-font-smoothing: antialiased; }
+:focus-visible { outline: 2px solid var(--indigo); outline-offset: 2px; border-radius: 3px; }
+.kicker { font: 600 11.5px/1.3 var(--ui); letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); }

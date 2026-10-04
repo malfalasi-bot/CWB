@@ -1,0 +1,141 @@
+{
+ "version": 1,
+ "sheet": {
+  "w": 1600,
+  "h": 1075,
+  "mmWide": 379,
+  "photo": "img/waves/jp1847.webp"
+ },
+ "masks": {
+  "a": "img/print/masks-a.webp",
+  "b": "img/print/masks-b.webp",
+  "channels": {
+   "pale": [
+    "a",
+    0
+   ],
+   "beige": [
+    "a",
+    1
+   ],
+   "grey": [
+    "a",
+    2
+   ],
+   "mid": [
+    "b",
+    0
+   ],
+   "deep": [
+    "b",
+    1
+   ],
+   "key": [
+    "b",
+    2
+   ]
+  },
+  "method": "Reconstruction. The six colour clusters of content.peel (k-means on the Met photograph of JP1847) were smoothed by a majority filter; each colour block's area was then grown only where a darker cluster will cover it (pale 15 px, grey 10 px, beige 7 px, lighter blue 5 px, at 1600 px wide), as if each lighter block were cut generously under the darker ones. The key line is the black-hat (thin dark strokes) of the photograph's luminance plus its darkest pixels, specks under 14 px removed. Packed as lossless RGB WebP, one block per channel."
+ },
+ "paper": "#f4f0dc",
+ "blocks": [
+  {
+   "id": "key",
+   "n": 1,
+   "label": "The key block",
+   "short": "key line",
+   "ink": "#1e2c40",
+   "cover": 1.0,
+   "light": 0.1
+  },
+  {
+   "id": "pale",
+   "n": 2,
+   "label": "Pale washes in the sky and sea",
+   "short": "the pale washes",
+   "ink": "#e6e0c6",
+   "cover": 0.62,
+   "light": 0.876
+  },
+  {
+   "id": "beige",
+   "n": 3,
+   "label": "The yellow of the boats",
+   "short": "the yellow of the boats",
+   "ink": "#d4c6aa",
+   "cover": 0.64,
+   "light": 0.78
+  },
+  {
+   "id": "grey",
+   "n": 4,
+   "label": "The greys of the sky",
+   "short": "the grey of the sky",
+   "ink": "#8f9088",
+   "cover": 0.72,
+   "light": 0.561
+  },
+  {
+   "id": "mid",
+   "n": 5,
+   "label": "The lighter blue",
+   "short": "the lighter blue",
+   "ink": "#456983",
+   "cover": 0.86,
+   "light": 0.39
+  },
+  {
+   "id": "deep",
+   "n": 6,
+   "label": "The deep blue",
+   "short": "the deep blue",
+   "ink": "#2e4964",
+   "cover": 0.92,
+   "light": 0.27
+  }
+ ],
+ "lightToDark": [
+  "pale",
+  "beige",
+  "grey",
+  "mid",
+  "deep"
+ ],
+ "day": {
+  "sheets": 200,
+  "label": "typical",
+  "line": "One printer could pull about two hundred sheets a day.",
+  "conf": "probable"
+ },
+ "keyproof": {
+  "img": "keyblock",
+  "caption": "A real key-block proof: Utagawa (Gountei) Sadahide, Proof Line-Block Print for Fan, 19th century. The Metropolitan Museum of Art 2007.49.284, CC0. The notches outside the picture are kentō."
+ },
+ "sources": [
+  {
+   "t": "Asian Art Museum, “The ukiyo-e woodblock printing process”: the drawing pasted face down on cherry wood; one block per colour, each with kentō; damp paper rubbed with a baren; about 200 prints a day; at least about ten impressions",
+   "u": "https://education.asianart.org/resources/the-ukiyo-e-woodblock-printing-process/",
+   "conf": "documented (process); probable (the day’s count, a typical figure)"
+  },
+  {
+   "t": "The Met, “The Great Wave: Anatomy of an Icon”: spectroscopy finds Prussian blue mixed with indigo in the dark stripes, and pure Prussian blue printed twice in the hollow",
+   "u": "https://www.metmuseum.org/essays/hokusai-great-wave",
+   "conf": "documented"
+  },
+  {
+   "t": "V&A, Japanese woodblock prints: publisher, designer, carver and printer; key-block proofs",
+   "u": "https://www.vam.ac.uk/articles/japanese-woodblock-prints-ukiyo-e",
+   "conf": "documented"
+  },
+  {
+   "t": "The Met, JP1847, Under the Wave off Kanagawa (the photograph separated here), CC0",
+   "u": "https://www.metmuseum.org/art/collection/search/45434",
+   "conf": "documented"
+  },
+  {
+   "t": "The Met, 2007.49.284, Sadahide, Proof Line-Block Print for Fan (the key-block proof shown), CC0",
+   "u": "https://www.metmuseum.org/art/collection/search?q=2007.49.284",
+   "conf": "documented"
+  }
+ ]
+}

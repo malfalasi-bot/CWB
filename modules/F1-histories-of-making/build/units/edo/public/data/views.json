@@ -1,0 +1,561 @@
+{
+ "note": "Step into the View and the uki-e box. Planes cut by hand by scripts/prep-views.py (a reconstruction); boxes are px in the 2048 px plane images; z in sheet heights (sheet = 2 units tall), 0 = the picture plane, negative = behind it.",
+ "order": [
+  "hv-099",
+  "hv-058",
+  "hv-107"
+ ],
+ "what": "Hiroshige built depth out of flat layers, not from one vanishing point. A large object cut by the sheet's edge sits in front (repoussoir); horizontal bands stack the middle distance; the viewpoint is often high, so the far ground climbs the sheet. Cutting a sheet into planes and moving your eye makes the stack visible. The cut is ours: the print was made flat, from woodblocks, and these planes are a reconstruction.",
+ "prints": {
+  "hv-099": {
+   "n": 99,
+   "title": "Kinryūzan Temple at Asakusa",
+   "ja": "浅草金龍山",
+   "series": "One Hundred Famous Views of Edo",
+   "maker": "Utagawa Hiroshige",
+   "date": "1856",
+   "holder": "The Metropolitan Museum of Art",
+   "accession": "JP2519",
+   "licence": "CC0 (Met Open Access)",
+   "credit": "The Howard Mansfield Collection, Purchase, Rogers Fund, 1936",
+   "url": "https://www.metmuseum.org/art/collection/search/56689",
+   "pic": [
+    119,
+    126,
+    1316,
+    1973
+   ],
+   "planes": [
+    {
+     "id": "p0",
+     "file": "hv-099-p0.webp",
+     "box": [
+      0,
+      0,
+      1399,
+      2048
+     ],
+     "z": -2.8,
+     "label": "Snowy sky",
+     "role": "ground"
+    },
+    {
+     "id": "p1",
+     "file": "hv-099-p1.webp",
+     "box": [
+      596,
+      868,
+      718,
+      433
+     ],
+     "z": -1.8,
+     "label": "Main hall roof and five-storey pagoda",
+     "role": "far"
+    },
+    {
+     "id": "p2",
+     "file": "hv-099-p2.webp",
+     "box": [
+      323,
+      731,
+      991,
+      786
+     ],
+     "z": -1.1,
+     "label": "Snowy trees and the Hōzōmon gate",
+     "role": "middle"
+    },
+    {
+     "id": "p3",
+     "file": "hv-099-p3.webp",
+     "box": [
+      323,
+      1362,
+      991,
+      374
+     ],
+     "z": -0.45,
+     "label": "Walkers in the snow",
+     "role": "near"
+    },
+    {
+     "id": "p4",
+     "file": "hv-099-p4.webp",
+     "box": [
+      106,
+      116,
+      1214,
+      1861
+     ],
+     "z": 0,
+     "label": "Thunder Gate: pillar and great lantern",
+     "role": "repoussoir"
+    },
+    {
+     "id": "p5",
+     "file": "hv-099-p5.webp",
+     "box": [
+      1180,
+      201,
+      106,
+      1506
+     ],
+     "z": 0,
+     "label": "Title and signature cartouches",
+     "role": "surface",
+     "fixed": true
+    }
+   ],
+   "rules": [
+    {
+     "id": "repoussoir",
+     "title": "A frame in front",
+     "planes": [
+      "p4"
+     ],
+     "conf": "documented",
+     "text": "The gate's pillar and its great red lantern, cut off by the edges of the sheet, stand between you and the precinct. The eye looks past them into the snow."
+    },
+    {
+     "id": "bands",
+     "title": "Stacked planes",
+     "planes": [
+      "p3",
+      "p2",
+      "p1"
+     ],
+     "conf": "argued",
+     "text": "Walkers, then trees and the inner gate, then the hall roof and pagoda: each a flat layer, smaller and higher on the sheet as it recedes. There is no single vanishing point."
+    }
+   ],
+   "w": 1399,
+   "h": 2048
+  },
+  "hv-058": {
+   "n": 58,
+   "title": "Sudden Shower over Shin-Ōhashi Bridge and Atake",
+   "ja": "大はしあたけの夕立",
+   "series": "One Hundred Famous Views of Edo",
+   "maker": "Utagawa Hiroshige",
+   "date": "1857",
+   "holder": "The Metropolitan Museum of Art",
+   "accession": "JP2522",
+   "licence": "CC0 (Met Open Access)",
+   "credit": "The Howard Mansfield Collection, Purchase, Rogers Fund, 1936",
+   "url": "https://www.metmuseum.org/art/collection/search/55433",
+   "pic": [
+    115,
+    124,
+    1301,
+    1935
+   ],
+   "planes": [
+    {
+     "id": "p0",
+     "file": "hv-058-p0.webp",
+     "box": [
+      0,
+      0,
+      1406,
+      2048
+     ],
+     "z": -2.6,
+     "label": "Cloud, rain and river",
+     "role": "ground"
+    },
+    {
+     "id": "p1",
+     "file": "hv-058-p1.webp",
+     "box": [
+      112,
+      533,
+      1194,
+      391
+     ],
+     "z": -1.7,
+     "label": "The far bank at Atake",
+     "role": "far"
+    },
+    {
+     "id": "p2",
+     "file": "hv-058-p2.webp",
+     "box": [
+      171,
+      986,
+      567,
+      137
+     ],
+     "z": -1.0,
+     "label": "A raft on the river",
+     "role": "middle"
+    },
+    {
+     "id": "p3",
+     "file": "hv-058-p3.webp",
+     "box": [
+      112,
+      1052,
+      1194,
+      888
+     ],
+     "z": -0.12,
+     "label": "Shin-Ōhashi bridge and the walkers",
+     "role": "repoussoir"
+    },
+    {
+     "id": "p4",
+     "file": "hv-058-p4.webp",
+     "box": [
+      160,
+      131,
+      1078,
+      1710
+     ],
+     "z": 0,
+     "label": "Title and signature cartouches",
+     "role": "surface",
+     "fixed": true
+    }
+   ],
+   "rules": [
+    {
+     "id": "bands",
+     "title": "Bands of space",
+     "planes": [
+      "p0",
+      "p1"
+     ],
+     "conf": "argued",
+     "text": "A dark band of cloud printed as a graded wash (bokashi), the far bank as one dark strip, the river as an open field: depth by horizontal bands, like the mist bands (kasumi) of older pictures."
+    },
+    {
+     "id": "repoussoir",
+     "title": "The bridge in front",
+     "planes": [
+      "p3"
+     ],
+     "conf": "documented",
+     "text": "The bridge cuts across the near ground on a steep diagonal and runs off both edges of the sheet, so the river opens behind it."
+    },
+    {
+     "id": "horizon",
+     "title": "A raised far bank",
+     "planes": [
+      "p1"
+     ],
+     "y": 0.4,
+     "conf": "argued",
+     "text": "The far bank sits high on the sheet, about two-fifths of the way down: you look down on the bridge and across the river, as if from above."
+    }
+   ],
+   "w": 1406,
+   "h": 2048
+  },
+  "hv-107": {
+   "n": 107,
+   "title": "Fukagawa Susaki and Jūmantsubo",
+   "ja": "深川州崎十万坪",
+   "series": "One Hundred Famous Views of Edo",
+   "maker": "Utagawa Hiroshige",
+   "date": "1856",
+   "holder": "The Metropolitan Museum of Art",
+   "accession": "JP2520",
+   "licence": "CC0 (Met Open Access)",
+   "credit": "The Howard Mansfield Collection, Purchase, Rogers Fund, 1936",
+   "url": "https://www.metmuseum.org/art/collection/search/55733",
+   "pic": [
+    85,
+    138,
+    1287,
+    1984
+   ],
+   "planes": [
+    {
+     "id": "p0",
+     "file": "hv-107-p0.webp",
+     "box": [
+      0,
+      0,
+      1370,
+      2048
+     ],
+     "z": -3.0,
+     "label": "Sky and Mount Tsukuba",
+     "role": "ground"
+    },
+    {
+     "id": "p1",
+     "file": "hv-107-p1.webp",
+     "box": [
+      86,
+      1132,
+      1203,
+      220
+     ],
+     "z": -2.0,
+     "label": "Snow plain at the horizon",
+     "role": "far"
+    },
+    {
+     "id": "p2",
+     "file": "hv-107-p2.webp",
+     "box": [
+      86,
+      1277,
+      1203,
+      348
+     ],
+     "z": -1.25,
+     "label": "Marsh fields and pines",
+     "role": "middle"
+    },
+    {
+     "id": "p3",
+     "file": "hv-107-p3.webp",
+     "box": [
+      86,
+      1542,
+      1203,
+      446
+     ],
+     "z": -0.55,
+     "label": "Water and a floating bucket",
+     "role": "near"
+    },
+    {
+     "id": "p4",
+     "file": "hv-107-p4.webp",
+     "box": [
+      82,
+      135,
+      1210,
+      1073
+     ],
+     "z": 0.05,
+     "label": "The eagle",
+     "role": "repoussoir"
+    },
+    {
+     "id": "p5",
+     "file": "hv-107-p5.webp",
+     "box": [
+      116,
+      177,
+      1123,
+      971
+     ],
+     "z": 0,
+     "label": "Title and signature cartouches",
+     "role": "surface",
+     "fixed": true
+    }
+   ],
+   "rules": [
+    {
+     "id": "repoussoir",
+     "title": "The eagle in front",
+     "planes": [
+      "p4"
+     ],
+     "conf": "documented",
+     "text": "The eagle fills the top of the sheet and is cut off by its edges. Everything else lies far below it."
+    },
+    {
+     "id": "horizon",
+     "title": "An eye in the air",
+     "planes": [
+      "p1"
+     ],
+     "y": 0.56,
+     "conf": "argued",
+     "text": "You look down on the marsh from the eagle's height: plain, fields and water stack up the sheet towards a horizon just below the middle."
+    },
+    {
+     "id": "bands",
+     "title": "Bands of ground",
+     "planes": [
+      "p1",
+      "p2",
+      "p3"
+     ],
+     "conf": "argued",
+     "text": "Snow plain, marsh and water are three horizontal bands, each a flat layer. The graded blue at the bottom (bokashi) closes the nearest band."
+    }
+   ],
+   "w": 1370,
+   "h": 2048
+  }
+ },
+ "sources": [
+  {
+   "title": "One Hundred Famous Views of Edo (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/One_Hundred_Famous_Views_of_Edo",
+   "conf": "documented"
+  },
+  {
+   "title": "Repoussoir (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Repoussoir",
+   "conf": "documented"
+  },
+  {
+   "title": "The Met: Kinryūzan Temple at Asakusa, JP2519",
+   "url": "https://www.metmuseum.org/art/collection/search/56689",
+   "conf": "documented"
+  },
+  {
+   "title": "The Met: Sudden Shower over Shin-Ōhashi Bridge and Atake, JP2522",
+   "url": "https://www.metmuseum.org/art/collection/search/55433",
+   "conf": "documented"
+  },
+  {
+   "title": "The Met: Jūmantsubo Plain at Fukagawa Susaki, JP2520",
+   "url": "https://www.metmuseum.org/art/collection/search/55733",
+   "conf": "documented"
+  }
+ ],
+ "ukie": {
+  "id": "ukie-1748",
+  "file": "ukie-1748.webp",
+  "w": 2048,
+  "h": 1446,
+  "title": "Perspective View (uki-e) of a Kabuki Theatre",
+  "maker": "Okumura Masanobu",
+  "date": "1748 (Enkyō 5), first month",
+  "holder": "The Metropolitan Museum of Art",
+  "accession": "JP3059",
+  "licence": "CC0 (Met Open Access)",
+  "credit": "Gift of Mrs. Morris Manges, in memory of her husband, Dr. Morris Manges, 1947",
+  "url": "https://www.metmuseum.org/art/collection/search/56534",
+  "vp": [
+   0.7173,
+   0.4182
+  ],
+  "inner": [
+   0.358,
+   0.121,
+   0.817,
+   0.619
+  ],
+  "focal": 1.1,
+  "bands": [
+   0,
+   0.24,
+   0.47,
+   0.66,
+   0.84,
+   1
+  ],
+  "floorLines": [
+   [
+    0.4194,
+    0.638,
+    0.0369,
+    0.9189
+   ],
+   [
+    0.0871,
+    0.8996,
+    0.2772,
+    0.7529
+   ],
+   [
+    0.0554,
+    0.2049,
+    0.2102,
+    0.255
+   ],
+   [
+    0.0353,
+    0.2266,
+    0.1791,
+    0.2682
+   ],
+   [
+    0.4198,
+    0.5881,
+    0.3391,
+    0.6384
+   ],
+   [
+    0.9226,
+    0.3225,
+    0.8444,
+    0.356
+   ],
+   [
+    0.3611,
+    0.689,
+    0.4317,
+    0.6353
+   ],
+   [
+    0.2819,
+    0.7367,
+    0.3388,
+    0.6949
+   ]
+  ],
+  "ceilingLines": [
+   [
+    0.175,
+    0.0531,
+    0.2388,
+    0.1186
+   ],
+   [
+    0.2621,
+    0.0531,
+    0.3242,
+    0.1186
+   ],
+   [
+    0.3579,
+    0.0531,
+    0.4092,
+    0.1221
+   ],
+   [
+    0.4488,
+    0.0531,
+    0.4775,
+    0.1251
+   ],
+   [
+    0.6829,
+    0.0531,
+    0.6517,
+    0.1156
+   ],
+   [
+    0.7658,
+    0.0531,
+    0.7392,
+    0.1227
+   ],
+   [
+    0.8917,
+    0.0531,
+    0.8242,
+    0.1227
+   ]
+  ],
+  "what": "Uki-e, 'floating pictures', used the Western rule of one-point perspective: lines running away from you meet at one point on the horizon. Masanobu made this view of a kabuki theatre in 1748. Drawn over the sheet, the floor, walkway and gallery lines gather close to one point on the stage, about two-fifths of the way down; the ceiling beams lean towards points spread along the same horizon. The rule is applied by eye, not exactly. Folded into a box, the sheet holds together from one viewpoint only: swing away and the painted crowd flattens onto the floor. The perspective is a constructed convention, learned from imported pictures.",
+  "sources": [
+   {
+    "title": "Uki-e (Wikipedia): introduced in the late 1730s; earliest known printed example attributed to Torii Kiyotada, around 1739–40; Masanobu first applied the term",
+    "url": "https://en.wikipedia.org/wiki/Uki-e",
+    "conf": "documented"
+   },
+   {
+    "title": "The Met: Perspective View (uki-e) of a Kabuki Theatre, Okumura Masanobu, 1748, JP3059",
+    "url": "https://www.metmuseum.org/art/collection/search/56534",
+    "conf": "documented"
+   },
+   {
+    "title": "Horry, Anjyo and Arai, Tour into the Picture (SIGGRAPH 1997): the box method used for the fold",
+    "url": "https://dl.acm.org/doi/10.1145/258734.258854",
+    "conf": "documented"
+   }
+  ]
+ }
+}

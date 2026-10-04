@@ -1,5 +1,8 @@
 # The cast, grouped by role. The organiser comes first because the trade put him first.
 # born/died drive the timeline's lifespan bars; "~" marks an approximate year.
+# Main cast carry a character card: role, bet (one line), three highlights with a confidence word,
+# a story of 120–220 words, works (images in this unit), connections, life ticks, map places and sources.
+# Names in Japanese order. Publishers without a reliable likeness carry their trade mark in a hanko frame.
 groups:
   - id: publishers
     title: Publishers
@@ -36,13 +39,66 @@ people:
     img: portrait-tsutaya
     cap: "Santō Kyōden, caricature of Tsutaya, 1791 · National Diet Library via Wikimedia Commons · public domain (PD-Japan)"
     line: "Born in the Yoshiwara. Publisher of Utamaro, Kyōden and every Sharaku. Fined half of everything he owned in 1791."
+    role: Publisher
+    bet: "That the city would pay for the glamour of the quarter he grew up in."
+    highlights:
+      - {t: "Published the Yoshiwara guide alone from 1776", conf: documented}
+      - {t: "Published Utamaro, Kyōden and every Sharaku", conf: documented}
+      - {t: "Fined half of everything he owned, 1791", conf: documented}
+    story: |
+      Tsutaya Jūzaburō was born in the Yoshiwara on 13 February 1750 and adopted into the Kitagawa family. “Tsutaya”, Ivy Shop, was a shop name, not a surname.
+      In 1774 he opened a bookshop on the Gojikken road to the quarter’s gate. His first books were guides to the pleasure quarter. From 1776 he published the *Yoshiwara saiken* alone.
+      In 1783 he moved into the city, to Tōri Abura-chō. He widened his list: comic poetry, picture books, and the writers and designers who sold them. Utamaro lived in his house from about 1783 (probable).
+      The Kansei reforms caught him in 1791. Kyōden was manacled and Tsutaya was fined half his property. He answered with luxury: Utamaro’s mica portraits, then, in 1794, Sharaku’s ten months of actors.
+      He died in 1797, aged 47; some sources say of beriberi. His shop kept his name.
+    works: [utamaro-tsutaya, sharaku, printshop]
+    links:
+      - {to: utamaro, rel: published}
+      - {to: kyoden, rel: published}
+      - {to: sharaku, rel: published}
+      - {to: hokusai, rel: "published early work"}
+      - {to: sadanobu, rel: "fined under his reforms"}
+    life:
+      - {y: 1774, t: "Bookshop at the quarter’s gate"}
+      - {y: 1776, t: "Publishes the Yoshiwara guide alone"}
+      - {y: 1783, t: "Moves to Tōri Abura-chō"}
+      - {y: 1791, t: "Fined half his property"}
+      - {y: 1794.4, t: "Sharaku’s actors"}
+    map: {scale: city, ids: [yoshiwara-gate, toriaburacho]}
+    sources: [wiki-tsutaya, suntory-tsutaya, sa-tsutaya, wiki-utamaro]
+
   nishimuraya:
     name: Nishimuraya Yohachi (Eijudō)
     kanji: 西村屋与八
     group: publishers
     born: ~1751
     died: ~1860
+    mark: 永寿
     line: "The Eijudō firm at Bakuro-chō. Published Hokusai’s Thirty-six Views in the new blue, 1831."
+    role: Publisher
+    bet: "That a series of landscapes would sell on a new blue."
+    highlights:
+      - {t: "Issued the Thirty-six Views of Mount Fuji from 1831", conf: documented}
+      - {t: "Advertised “more than one hundred” views", conf: documented}
+      - {t: "Several generations used the name", conf: probable}
+    story: |
+      Nishimuraya Yohachi ran the Eijudō publishing house in Bakuro-chō. Several generations used the name, so the dates on this card are approximate (probable).
+      Eijudō published Hokusai’s *Thirty-six Views of Mount Fuji*. By the bookseller Tōho’s account, he issued it in the new Prussian blue after an all-blue fan by Eisen had started a fad in 1829.
+      The series was, Tōho wrote, “a great fad, double that of the fans.”
+      His advertisement, printed for New Year 1831, promised one view to a sheet and “more than one hundred, without being limited to thirty-six”. He stopped at forty-six.
+      That was the bet: a cheap imported colour, a famous mountain, and a designer past seventy. The Great Wave was one sheet of it, and so was Red Fuji.
+      No likeness of him is known, so his card carries his firm’s name in a seal frame.
+    works: [hi-wave, redfuji]
+    links:
+      - {to: hokusai, rel: published}
+      - {to: eisen, rel: "followed his fan’s fad"}
+      - {to: toho, rel: "recorded by"}
+    life:
+      - {y: 1829, t: "The blue fan fad begins"}
+      - {y: 1831, t: "New Year advertisement for the Fuji series"}
+    map: {scale: city, ids: [bakurocho]}
+    sources: [smith-blue, sumida-producers, korenberg-fuji, vermeulen]
+
   iseya:
     name: Iseya Sōbei
     kanji: ""
@@ -53,11 +109,37 @@ people:
     kanji: 竹内孫八
     group: publishers
     line: "Published Hiroshige’s Fifty-three Stations of the Tōkaidō, 1833–34."
+
   uoya:
     name: Uoya Eikichi
     kanji: 魚屋栄吉
     group: publishers
+    mark: 魚栄
     line: "Published Hiroshige’s One Hundred Famous Views of Edo, 1856–58. His seal reads Shitaya, Uoei."
+    role: Publisher
+    bet: "That a hundred views of one city would sell, sheet by sheet, for years."
+    highlights:
+      - {t: "Published the One Hundred Famous Views of Edo, 1856–58", conf: documented}
+      - {t: "His mark reads 下谷 魚栄, Shitaya, Uoei", conf: documented}
+      - {t: "Each sheet carries aratame and a date seal", conf: documented}
+    story: |
+      Uoya Eikichi was a publisher in Shitaya, in the north of the city. His mark on the margin reads 下谷 魚栄, Shitaya, Uoei.
+      Almost everything known about him comes from the sheets he paid for. Between 1856 and 1858 he issued Hiroshige’s *One Hundred Famous Views of Edo*: 118 views, and a title page by another hand.
+      It was a bet on scale. Each sheet needed its own blocks, carvers and printers, and its own approval: an *aratame* seal and a seal giving the year and month.
+      Those seals now date the series sheet by sheet. *Sudden Shower over Shin-Ōhashi* carries 巳九, the ninth month of the Snake year, 1857.
+      Hiroshige died in 1858, while the set was being finished. The series outlived them both. Van Gogh copied two of its sheets in Paris in 1887.
+      No likeness of Uoya is known, so his card carries his mark.
+    works: [shower, plum]
+    links:
+      - {to: hiroshige, rel: published}
+      - {label: "the censor", rel: "seals approved by"}
+      - {to: vangogh, rel: "two sheets copied by"}
+    life:
+      - {y: 1856, t: "The Hundred Views begin"}
+      - {y: 1857.7, t: "Sudden Shower, 9th month"}
+      - {y: 1858, t: "Hiroshige dies"}
+    sources: [hiroshige-uk, wiki-100views, jaanus-aratame, vgm-japan]
+
   eirakuya:
     name: Eirakuya Tōshirō
     kanji: 永楽屋東四郎
@@ -76,6 +158,13 @@ people:
     born: 1618
     died: 1694
     line: "Signed his book pictures from 1672. The earliest known single-sheet prints follow."
+  masanobu:
+    name: Okumura Masanobu
+    kanji: 奥村政信
+    group: designers
+    born: 1686
+    died: 1764
+    line: "Edo designer of perspective prints. His kabuki theatre of 1748, an uki-e, is in the Met."
   harunobu:
     name: Suzuki Harunobu
     kanji: 鈴木春信
@@ -90,6 +179,7 @@ people:
     born: 1726
     died: 1793
     line: "Actors with recognisable faces. Hokusai’s first teacher."
+
   utamaro:
     name: Kitagawa Utamaro
     kanji: 喜多川歌麿
@@ -99,18 +189,69 @@ people:
     img: portrait-utamaro
     cap: "Portrait attributed to Chōbunsai Eishi, 1815 · British Museum via Wikimedia Commons · public domain"
     line: "Bust portraits of women for Tsutaya in the 1790s. Manacled for fifty days in 1804; dead in 1806."
+    role: Designer
+    bet: "That a face, close up, could sell a sheet."
+    highlights:
+      - {t: "Bust portraits of women for Tsutaya, 1790s", conf: documented}
+      - {t: "More than 2,000 known prints", conf: documented}
+      - {t: "Manacled fifty days in 1804", conf: documented}
+    story: |
+      Little is known of Kitagawa Utamaro’s early life. His birthplace is given as Kyoto, Osaka, Edo or Kawagoe, and none is verified. As a boy he studied with the painter Toriyama Sekien.
+      In the mid-1780s, probably 1783, he went to live with Tsutaya Jūzaburō. The partnership made him.
+      In the 1790s he designed *ōkubi-e*, large-headed pictures of beautiful women, often on a glittering ground of powdered mica.
+      The censors pursued the genre. From 1793 prints could name no women but courtesans, and from 1800 large bust portraits of women were banned.
+      In 1804 he was manacled for fifty days for prints of the warlord Toyotomi Hideyoshi, a forbidden subject. He died on 31 October 1806.
+      More than two thousand of his prints are known. He was one of few ukiyo-e designers famous across Japan in his lifetime.
+    works: [utamaro-tsutaya]
+    links:
+      - {to: tsutaya, rel: "published by"}
+      - {label: "the censor", rel: "kiwame seal from"}
+      - {label: "the state", rel: "manacled by, 1804"}
+    life:
+      - {y: 1783, t: "Lives with Tsutaya (probable)"}
+      - {y: 1793, t: "Ten Aspects of Women’s Physiognomy"}
+      - {y: 1800, t: "Bust portraits of women banned"}
+      - {y: 1804, t: "Manacled fifty days"}
+    map: {scale: city, ids: [toriaburacho]}
+    sources: [wiki-utamaro, cma-utamaro, vjp-sumptuary]
+
   sharaku:
     name: Tōshūsai Sharaku
     kanji: 東洲斎写楽
     group: designers
     born: 1794
     died: 1795
+    mark: 写楽
     line: "About 140 actor prints in ten months of 1794–95, all published by Tsutaya. Identity unknown."
+    role: Designer
+    bet: "That a buyer wanted the actor’s real face, not an ideal one."
+    highlights:
+      - {t: "About 144 actor portraits in ten months", conf: documented}
+      - {t: "Every one published by Tsutaya", conf: documented}
+      - {t: "Identity: no theory widely accepted", conf: contested}
+    story: |
+      Tōshūsai Sharaku appears in the fifth month of 1794 and is gone by the first month of 1795. Neither his real name nor his dates are known; the bar on the timeline marks only his working months.
+      In those ten months Tsutaya published about 144 of his portraits of kabuki actors, which historians divide into four periods.
+      The first, large heads on a dark mica ground, survive in the most copies, which suggests they sold best. Many later designs survive in a single copy.
+      His actors are not flattered. Contemporaries such as Utamaro idealised their subjects; Sharaku showed the jowls and the strain. Then the work stopped.
+      Dozens of identities have been proposed: an obscure poet, the Noh actor Saitō Jūrōbei, even Hokusai. Few are taken seriously, and none is widely accepted.
+      His fame came late: he was rarely mentioned in print until Julius Kurth’s book of 1910.
+    works: [sharaku]
+    links:
+      - {to: tsutaya, rel: "published by"}
+      - {to: utamaro, rel: "rival in style"}
+    life:
+      - {y: 1794.4, t: "First actor portraits, 5th month"}
+      - {y: 1795.05, t: "Last designs, 1st month"}
+    map: {scale: city, ids: [sakaicho, fukiyacho]}
+    sources: [wiki-sharaku, aic-sharaku, met-sharaku]
+
   ryukosai:
     name: Ryūkōsai Jokei
     kanji: 流光斎如圭
     group: designers
     line: "Osaka. Never signed the prints Shioya published from his designs, and withdrew."
+
   hokusai:
     name: Katsushika Hokusai
     kanji: 葛飾北斎
@@ -120,13 +261,67 @@ people:
     img: portrait-hokusai
     cap: "Keisai Eisen, portrait of Hokusai · Wikimedia Commons · public domain (PD-Japan)"
     line: "Trained to cut woodblocks between 16 and 19. The Manga from 1814; the Fuji series from 1831."
+    role: Designer
+    bet: "That a lifetime of drawing could still be improving at ninety."
+    highlights:
+      - {t: "Trained as a block-cutter, aged 16–19", conf: documented}
+      - {t: "Known by at least thirty names", conf: documented}
+      - {t: "Thirty-six Views of Mount Fuji, c. 1830–32", conf: documented}
+    story: |
+      Katsushika Hokusai was born in Edo in 1760. As a teenager he trained to cut woodblocks, then entered the studio of the actor-print designer Katsushika Shunshō.
+      He used at least thirty names in his life, changing them as his work changed. The Great Wave is signed with one of them, Iitsu.
+      His *Manga* sketchbooks began in 1814. The *Thirty-six Views of Mount Fuji*, for Eijudō, followed around 1830–32, when he was past seventy.
+      He knew the trade’s other hands. In 1835 he gave up his share of a carving fee to secure the carver Egawa Tomekichi.
+      In 1834 he wrote that at a hundred and ten “each dot, each line will possess a life of its own”. He died on 10 May 1849, reportedly asking for five more years.
+      His output is put at more than thirty thousand paintings, sketches, prints and book pictures. His daughter Ōi painted beside him.
+    works: [hi-wave, redfuji, manga, printshop]
+    links:
+      - {to: shunsho, rel: "trained under"}
+      - {to: tsutaya, rel: "early work published by"}
+      - {to: nishimuraya, rel: "Fuji series published by"}
+      - {to: eirakuya, rel: "Manga published by"}
+      - {to: oi, rel: "father of"}
+      - {to: egawa, rel: "paid to secure"}
+      - {to: eisen, rel: "portrait drawn by"}
+    life:
+      - {y: 1776, t: "Training as a block-cutter"}
+      - {y: 1814, t: "Manga, volume one"}
+      - {y: 1831, t: "Thirty-six Views of Mount Fuji"}
+      - {y: 1834, t: "“At a hundred and ten…”"}
+      - {y: 1835, t: "Letter about the carver Egawa"}
+    map: {scale: kanto, ids: [kanagawa, fuji, edo]}
+    sources: [wiki-hokusai, bm-manga, met-wave, wiki-egawa]
+
   oi:
     name: Katsushika Ōi
     kanji: 葛飾応為
     group: designers
     born: ~1800
     died: ~1857
+    mark: 応為
     line: "Hokusai’s daughter. About ten works confirmed as hers. Her hand is inside work signed “Hokusai” (probable)."
+    role: Painter
+    bet: "That a hand could work for years inside a famous man’s name."
+    highlights:
+      - {t: "About ten works confirmed as hers", conf: documented}
+      - {t: "Painted in her father’s studio", conf: documented}
+      - {t: "Her hand in work signed “Hokusai”", conf: probable}
+    story: |
+      Katsushika Ōi was Hokusai’s daughter. Her dates are uncertain: she was born around 1800 and is last recorded in the 1850s (probable).
+      She worked as a painter in her father’s studio for most of her life. Only about ten works are confirmed as hers, among them the *Night Scene in the Yoshiwara*, with its lantern light and deep shadow.
+      Hokusai “is reported to have said” that her pictures of women were better than his.
+      Orders sent to “Hokusai” could be painted by father or daughter and signed with his name (probable).
+      That makes her the clearest case in this story of a hand hidden by the trade’s naming rules. One historian argues that her hand was made to vanish, “for profit”.
+      No reliable likeness of her survives, so her card carries her art name in a seal frame. The Ōta Memorial Museum showed her night scene in 2023.
+    works: [oi-night]
+    links:
+      - {to: hokusai, rel: "daughter of; painted in his studio"}
+    life:
+      - {y: 1800, t: "Born, around this year (probable)"}
+      - {y: 1845, t: "Night Scene in the Yoshiwara (approximate)"}
+      - {y: 1849, t: "Hokusai dies"}
+    sources: [ota-oi, davis-oi, prodig-oi, wiki-oi]
+
   eisen:
     name: Keisai Eisen
     kanji: 渓斎英泉
@@ -136,6 +331,30 @@ people:
     img: portrait-eisen
     cap: "Self-portrait, 1836 · Wikimedia Commons · public domain"
     line: "His all-blue fan of 1829 started the fad. Van Gogh copied one of his courtesans."
+    role: Designer
+    bet: "That one imported colour, in gradations, was enough."
+    highlights:
+      - {t: "His all-blue fan of 1829 started the fad", conf: documented}
+      - {t: "Began the Kisokaidō series that Hiroshige finished", conf: documented}
+      - {t: "Van Gogh copied one of his courtesans", conf: documented}
+    story: |
+      Keisai Eisen was born in Edo in 1790, the son of a noted calligrapher of the Ikeda family. He trained with the Kanō painter Hakkeisai, who gave him the name Keisai, and then with Kikukawa Eizan.
+      He is best known for *bijin-ga*, pictures of beautiful women, drawn as more worldly than earlier designers had drawn them.
+      In 1829 the fan-maker Iseya Sōbei put out his fan printed in shades of Prussian blue alone. By Tōho’s account it was a sensation. The fad that followed carried Hokusai’s Fuji series.
+      Later he designed the first eleven sheets of the *Sixty-nine Stations of the Kisokaidō*, before Hiroshige took the series over.
+      He also wrote, including lives of the forty-seven rōnin and a history of the floating-world prints. He drew the portrait of Hokusai on Hokusai’s card.
+      He died in 1848. In 1887 Van Gogh copied one of his courtesans in oil.
+    works: [eisen-aizuri, portrait-hokusai, portrait-eisen]
+    links:
+      - {to: iseya, rel: "fan published by"}
+      - {to: hiroshige, rel: "Kisokaidō finished by"}
+      - {to: hokusai, rel: "drew a portrait of"}
+      - {to: vangogh, rel: "copied by"}
+    life:
+      - {y: 1829, t: "The all-blue fan"}
+      - {y: 1836, t: "Self-portrait"}
+    sources: [wiki-eisen, smith-blue, vgm-japan]
+
   hiroshige:
     name: Utagawa Hiroshige
     kanji: 歌川広重
@@ -145,15 +364,66 @@ people:
     img: portrait-hiroshige
     cap: "Utagawa Kunisada, memorial portrait of Hiroshige, 1858 · The Met, CC0"
     line: "The Tōkaidō of 1833–34. The Hundred Famous Views of Edo, 1856–58."
+    role: Designer
+    bet: "That travellers and townspeople would buy the places they knew."
+    highlights:
+      - {t: "Fifty-three Stations of the Tōkaidō, 1833–34", conf: documented}
+      - {t: "One Hundred Famous Views of Edo, 1856–58", conf: documented}
+      - {t: "More than 8,000 works", conf: documented}
+    story: |
+      Utagawa Hiroshige was born Andō Tokutarō in Edo in 1797. His father was a fire warden for the Yayosu quay.
+      He studied under Utagawa Toyohiro. His breakthrough was the *Fifty-three Stations of the Tōkaidō*, published by Hōeidō in 1833–34: fifty-five sheets of the road from Nihonbashi to Kyoto.
+      Series of famous places followed, for Osaka in 1834, Lake Biwa in 1834 and Kyoto in 1835. He finished the *Sixty-nine Stations of the Kisokaidō*, begun by Keisai Eisen.
+      His last great project was the *One Hundred Famous Views of Edo* for the publisher Uoya Eikichi, 1856–58. Its 118 sheets show the city from spots you could walk to.
+      He died in 1858, aged 62, during an epidemic of cholera in Edo; whether it killed him is unknown. He left more than eight thousand works. In 1887 Van Gogh copied two.
+    works: [shower, plum, nihonbashi, t-kanagawa, t-hakone, t-kanbara, yoshiwara-nakanocho]
+    links:
+      - {to: hoeido, rel: "Tōkaidō published by"}
+      - {to: uoya, rel: "Hundred Views published by"}
+      - {to: eisen, rel: "finished a series begun by"}
+      - {to: vangogh, rel: "copied by"}
+      - {to: wright, rel: "shown in Chicago by"}
+    life:
+      - {y: 1833.5, t: "The Tōkaidō"}
+      - {y: 1835, t: "Famous Places of Kyoto"}
+      - {y: 1856, t: "The Hundred Views begin"}
+    map: {scale: japan, route: tokaido}
+    sources: [wiki-hiroshige, hiroshige-uk, wiki-tokaido, wiki-100views]
+
   kuniyoshi:
     name: Utagawa Kuniyoshi
     kanji: 歌川国芳
     group: designers
-    born: 1797
+    born: 1798
     died: 1861
     img: portrait-kuniyoshi
     cap: "Utagawa Yoshiiku, memorial portrait of Kuniyoshi, 1861 · British Museum via Wikimedia Commons · public domain"
     line: "Warriors from 1827, cats always. 408,000 sheets of loyal retainers in eight months."
+    role: Designer
+    bet: "That warriors, cats and ghosts could say what actors no longer could."
+    highlights:
+      - {t: "Breakthrough with the Suikoden heroes, 1827", conf: documented}
+      - {t: "408,000 sheets of loyal retainers, 1847–48", conf: documented}
+      - {t: "Cats in place of people in comic prints", conf: documented}
+    story: |
+      Utagawa Kuniyoshi was born on 1 January 1798, the son of a silk-dyer. At about twelve his drawing caught the eye of the designer Utagawa Toyokuni, who took him on.
+      His breakthrough came in 1827 with a series of heroes from the popular *Suikoden*. Warriors became his genre.
+      The Tenpō reforms banned actors and courtesans from single sheets. Kuniyoshi made the most of what was left. He drew cats in the place of people, ghosts and monsters, and comic pictures that disguised real actors.
+      Some were read as criticism of the shogunate, such as an 1843 design of a sleeping warrior haunted by demons.
+      In 1847 his fifty-one loyal retainers sold eight thousand sets, 408,000 sheets, by the Fujiokaya diary’s count.
+      He died at home in Genyadana in April 1861, aged 63.
+    works: [gishi, cat]
+    links:
+      - {to: murata, rel: "approved by (censor)"}
+      - {to: fujiokaya, rel: "sales recorded in"}
+      - {to: tadakuni, rel: "worked around the reforms of"}
+    life:
+      - {y: 1827, t: "Suikoden heroes"}
+      - {y: 1842.5, t: "The Tenpō ban"}
+      - {y: 1843, t: "The earth-spider design"}
+      - {y: 1847.6, t: "Loyal retainers: 8,000 sets"}
+    sources: [wiki-kuniyoshi, fujiokaya, kato-1847]
+
   kunisada:
     name: Utagawa Kunisada (Toyokuni III)
     kanji: 歌川国貞
@@ -204,6 +474,7 @@ people:
     img: portrait-ieyasu
     cap: "Portrait attributed to Kanō Tan’yū · Wikimedia Commons · public domain (PD-Japan)"
     line: "Shogun from 1603. Made a marsh-side castle town the seat of government."
+
   sadanobu:
     name: Matsudaira Sadanobu
     kanji: 松平定信
@@ -213,6 +484,31 @@ people:
     img: portrait-sadanobu
     cap: "Self-portrait, 1787 · Wikimedia Commons · public domain (PD-Japan)"
     line: "Chief councillor 1787–93. His reforms put a censor’s seal on every print."
+    role: Chief senior councillor
+    bet: "That a frugal, moral city could be ordered by law."
+    highlights:
+      - {t: "Chief senior councillor, 1787–1793", conf: documented}
+      - {t: "Kansei reforms: austerity and sumptuary laws", conf: documented}
+      - {t: "Every print to carry a censor’s seal from 1790", conf: documented}
+    story: |
+      Matsudaira Sadanobu was born on 15 January 1759, a grandson of the reforming eighth shogun, Tokugawa Yoshimune. He became daimyō of Shirakawa, in the north.
+      He took charge after the great Tenmei famine of 1782–88. As chief senior councillor from 1787 to 1793 he led the Kansei reforms: austerity, sumptuary laws and rural reconstruction, meant to prevent another uprising.
+      For the print trade the reforms meant censorship. From 1790 every design went to censors chosen from the publishers’ own guild, and approved sheets carried the *kiwame* seal.
+      In 1791 the writer Kyōden was manacled and his publisher Tsutaya fined half his property.
+      Sadanobu was also a writer and a moralist, under the pen name Rakuō. The portrait on his card is his own, painted in 1787. He died on 14 June 1829.
+    works: [portrait-sadanobu]
+    links:
+      - {to: tsutaya, rel: "fined under his reforms"}
+      - {to: kyoden, rel: "manacled under his reforms"}
+      - {label: "every publisher", rel: "required the kiwame seal of"}
+    life:
+      - {y: 1787, t: "Chief senior councillor"}
+      - {y: 1790, t: "The kiwame seal"}
+      - {y: 1791, t: "Kyōden manacled, Tsutaya fined"}
+      - {y: 1793, t: "Leaves office"}
+    map: {scale: city, ids: [castle]}
+    sources: [wiki-sadanobu, wiki-kansei, jaanus-aratame]
+
   tadakuni:
     name: Mizuno Tadakuni
     kanji: 水野忠邦
@@ -222,16 +518,64 @@ people:
     img: portrait-tadakuni
     cap: "Tsubaki Chinzan, portrait of Mizuno Tadakuni · Wikimedia Commons · public domain (PD-Japan)"
     line: "Architect of the Tenpō reforms, 1841–43. Banned actors and courtesans on single sheets."
+    role: Senior councillor
+    bet: "That banning the city’s pleasures would restore its discipline."
+    highlights:
+      - {t: "Led the Tenpō reforms, 1841–43", conf: documented}
+      - {t: "Actors, courtesans and geisha banned from single sheets, 1842", conf: documented}
+      - {t: "A sheet capped at 16 mon", conf: documented}
+    story: |
+      Mizuno Tadakuni was born on 19 July 1794. He was daimyō of Karatsu and then of Hamamatsu, and rose to the shogunate’s council of elders.
+      He took charge after the great Tenpō famine of 1832–36. His reforms tried to restore the frugality, simplicity and discipline of the early Edo period, banning most entertainment and displays of wealth.
+      For the print trade, 1842 was the year of the order. In the sixth month single sheets of actors, courtesans and geisha were banned. In the eleventh, sheets and fan prints were capped at sixteen mon. The three theatres were moved to Saruwaka-chō.
+      A land order, the *Agechi-rei*, asked lords near Edo and Osaka to give up their holdings, and proved unpopular (probable). He was relieved of office in February 1845 and died on 12 March 1851.
+    works: [portrait-tadakuni]
+    links:
+      - {to: danjuro, rel: "banished (probable)"}
+      - {label: "every publisher", rel: "capped prices for"}
+      - {to: kuniyoshi, rel: "reforms worked around by"}
+    life:
+      - {y: 1841, t: "The Tenpō reforms begin"}
+      - {y: 1842.5, t: "The ban on actors and courtesans"}
+      - {y: 1842.9, t: "The 16-mon cap"}
+      - {y: 1845.1, t: "Relieved of office"}
+    map: {scale: city, ids: [castle, saruwakacho]}
+    sources: [wiki-tadakuni, kato-tenpo, vjp-sumptuary, ndl-saruwaka]
+
   murata:
     name: Murata Sahei
     kanji: ""
     group: state
     line: "Ward headman and censor. His seal approved Kuniyoshi’s loyal retainers in 1847."
+
   tokuno:
     name: Tokunō Michimasa
     kanji: 得能通昌
     group: state
+    mark: 印刷
     line: "Head of the government Printing Bureau. Sent the Smithsonian a complete printing set in 1889."
+    role: Head of the Printing Bureau
+    bet: "That the state could show the world how a print was made."
+    highlights:
+      - {t: "Sent the Smithsonian a complete printing set, 1889", conf: documented}
+      - {t: "More than a hundred progressive proofs", conf: documented}
+      - {t: "Its records name the carver and the printers", conf: documented}
+    story: |
+      Tokunō Michimasa headed Japan’s government Printing Bureau in the 1880s. The bureau printed the state’s own paper: stamps, bonds and banknotes (probable).
+      In 1889 he sent the Smithsonian Institution in Washington a complete set for making a colour woodblock print. It held the carved blocks, the tools, the pigments and more than a hundred progressive proofs, each showing one more colour laid down.
+      The gift’s records did something the Edo trade almost never did. They named the makers: the carver Kido Kotarō, and the printers Yamamoto Iwakichi and Nakamura Tsurusaburō, with Morikawa Kokichirō recorded for one sheet.
+      So the carvers and printers of this story get their names once, in a state’s gift to a foreign museum. The proofs are educational-use only, so this unit links to them.
+      The bureau’s successor, the National Printing Bureau, prints the thousand-yen note with the Great Wave today (probable).
+    works: []
+    links:
+      - {to: kido, rel: "named the carver"}
+      - {to: yamamoto, rel: "named the printer"}
+      - {to: nakamura, rel: "named the printer"}
+      - {label: "the Smithsonian", rel: "gave a printing set to"}
+    life:
+      - {y: 1889, t: "The gift to the Smithsonian"}
+    map: {scale: world, ids: [tokyo, washington]}
+    sources: [si-tokuno, nmah-proof, npb-1000]
 
   kyoden:
     name: Santō Kyōden
@@ -242,6 +586,27 @@ people:
     img: portrait-kyoden
     cap: "Eiri, portrait of Santō Kyōden, c. 1795 · The Met, CC0"
     line: "Writer as Kyōden, designer as Kitao Masanobu. Fifty days in manacles in 1791."
+    role: Writer and designer
+    bet: "That a comic book could sell like a print, ten thousand copies at a time."
+    highlights:
+      - {t: "Designed as Kitao Masanobu, wrote as Kyōden", conf: documented}
+      - {t: "Handcuffed fifty days for three books, 1791", conf: documented}
+      - {t: "Ran a tobacco shop in Ginza from 1793", conf: documented}
+    story: |
+      Santō Kyōden was born in Fukagawa, Edo, on 13 September 1761. He trained as a designer under Kitao Shigemasa and illustrated comic books as Kitao Masanobu.
+      He then wrote his own: *kibyōshi*, satirical picture books, and *sharebon*, stories of the pleasure quarter. In the 1790s one of his books could sell ten thousand copies.
+      In 1791 three of his *sharebon*, published by Tsutaya, were judged offensive under the Kansei reforms. He was handcuffed for fifty days.
+      He changed course. From the autumn of 1793 he ran a successful tobacco shop in Ginza, and advertised it in his own books. He turned to *yomihon*, longer and more moral books for reading.
+      He died in 1816. His caricature of Tsutaya, drawn in 1791, is the publisher’s best-known likeness, and it is on Tsutaya’s card.
+    works: [portrait-tsutaya]
+    links:
+      - {to: tsutaya, rel: "published by; drew a caricature of"}
+      - {to: sadanobu, rel: "manacled under the reforms of"}
+    life:
+      - {y: 1791, t: "Handcuffed fifty days"}
+      - {y: 1793.7, t: "Opens a tobacco shop in Ginza"}
+    sources: [wiki-kyoden, sa-tsutaya, suntory-tsutaya]
+
   hanaogi:
     name: Hanaōgi of the Ōgiya
     kanji: 扇屋花扇
@@ -276,6 +641,7 @@ people:
     img: portrait-perry
     cap: "Daguerreotype, Mathew Brady studio · Wikimedia Commons · public domain"
     line: "Commodore. Four ships at Uraga in July 1853; a treaty in 1854."
+
   hayashi:
     name: Hayashi Tadamasa
     kanji: 林忠正
@@ -285,6 +651,32 @@ people:
     img: portrait-hayashi
     cap: "Photograph, 1904 · Wikimedia Commons · public domain"
     line: "Paris dealer from 1884. 218 shipments of prints and books in eleven years."
+    role: Dealer
+    bet: "That Paris would buy Japan’s cheap sheets as art, if a Japanese chose them."
+    highlights:
+      - {t: "Came to Paris for the 1878 exposition", conf: documented}
+      - {t: "218 shipments from Japan in eleven years", conf: documented}
+      - {t: "166,000 prints, or more than 300,000 works", conf: contested}
+    story: |
+      Hayashi Tadamasa was born in 1853. He came to Paris as an interpreter for the Exposition universelle of 1878, and stayed.
+      In 1884 he opened his own shop. Over the next eleven years he made 218 shipments from Japan.
+      One study counts 166,000 prints and 9,708 illustrated books among them. Another estimate says more than 300,000 works (argued).
+      That makes him the second trade’s central figure. A Japanese dealer chose much of what Paris saw, priced it, and sold it to collectors and painters.
+      The great Paris collections of Japanese prints were built in large part from his crates (probable).
+      The argument over Japonisme, exchange or appropriation, turns on dealers like him, who were Japanese and made the selection.
+      He died in 1906. In 2019 the National Museum of Western Art in Tokyo gave him an exhibition of his own.
+    works: [portrait-hayashi]
+    links:
+      - {label: "Paris collectors", rel: "sold to"}
+      - {label: "218 shipments", rel: "shipped from Japan"}
+      - {to: bing, rel: "fellow dealer in Paris"}
+    life:
+      - {y: 1878, t: "Interpreter at the Paris exposition"}
+      - {y: 1884, t: "Opens his shop"}
+      - {y: 1895, t: "Eleven years, 218 shipments"}
+    map: {scale: world, ids: [yokohama, paris]}
+    sources: [nmwa-hayashi, persee-hayashi, agorha-hayashi, met-japonisme]
+
   bing:
     name: Siegfried Bing
     kanji: ""
@@ -294,6 +686,32 @@ people:
     img: portrait-bing
     cap: "Photograph before 1906 · Wikimedia Commons · public domain"
     line: "Le Japon artistique, 1888–91. Over 700 prints at the École des Beaux-Arts in 1890."
+    role: Dealer and publisher
+    bet: "That Japanese design could change European art, with a magazine to show it."
+    highlights:
+      - {t: "Le Japon artistique, 1888–91", conf: documented}
+      - {t: "Over 700 prints at the École des Beaux-Arts, 1890", conf: documented}
+      - {t: "Opened the Maison de l’Art Nouveau, 1895", conf: documented}
+    story: |
+      Siegfried Bing was born in Hamburg on 26 February 1838 and moved to France in 1854. He usually signed himself S. Bing.
+      He became one of the Paris dealers who brought Japanese art to Europe, and he travelled to Japan himself.
+      From 1888 he published *Le Japon artistique*, a monthly journal in French, English and German, collected in three volumes in 1891. It put Japanese prints, textiles and objects in front of designers across Europe.
+      In 1890 he hung over seven hundred prints at the École des Beaux-Arts in Paris. The painters came to look.
+      In December 1895 he opened a new gallery, the Maison de l’Art Nouveau. Its name became the name of a style.
+      He died on 6 September 1905.
+    works: [japon-artistique]
+    links:
+      - {to: vangogh, rel: "sold prints to (probable)"}
+      - {to: hayashi, rel: "fellow dealer in Paris"}
+      - {label: "Art Nouveau", rel: "gave his shop’s name to"}
+    life:
+      - {y: 1854, t: "Moves to France"}
+      - {y: 1888, t: "Le Japon artistique"}
+      - {y: 1890, t: "700 prints at the Beaux-Arts"}
+      - {y: 1895.9, t: "Maison de l’Art Nouveau"}
+    map: {scale: world, ids: [paris]}
+    sources: [wiki-bing, met-japonisme]
+
   vangogh:
     name: Vincent van Gogh
     kanji: ""
@@ -303,6 +721,31 @@ people:
     img: portrait-van-gogh
     cap: "Self-Portrait, 1887 · Art Institute of Chicago via Wikimedia Commons · public domain"
     line: "Bought about 660 prints in early 1887. Painted three copies that autumn."
+    role: Painter
+    bet: "That cheap Japanese prints could teach a European painter to see colour."
+    highlights:
+      - {t: "Bought about 660 Japanese prints, early 1887", conf: documented}
+      - {t: "Painted three copies in oil that autumn", conf: documented}
+      - {t: "Two after Hiroshige, one after Eisen", conf: documented}
+    story: |
+      Vincent van Gogh met Japanese prints as a buyer. In early 1887, in Paris, he bought about 660 of them: cheap sheets from the second trade, probably from Bing’s stock (probable).
+      He hung some in a Paris café and studied the rest closely.
+      That autumn he painted three copies in oil. Two were after Hiroshige’s *Hundred Famous Views of Edo*: the plum orchard at Kameido and the sudden shower over Shin-Ōhashi. The third copied a courtesan by Keisai Eisen.
+      His copies change what they copy. The colours are heightened, and he painted borders of Japanese characters around them (probable).
+      Both Hiroshige sheets were published by Uoya Eikichi, and both carry their censor’s seals.
+      The copies and many of the prints are in the Van Gogh Museum in Amsterdam. The museum’s licence is non-commercial, so this unit links to them and does not show them.
+    works: [plum, shower, eisen-aizuri]
+    worksNote: "The sheets he copied, by Hiroshige and Eisen; his own copies are linked, not shown."
+    links:
+      - {to: hiroshige, rel: "copied two sheets by"}
+      - {to: eisen, rel: "copied a courtesan by"}
+      - {to: bing, rel: "bought prints from (probable)"}
+    life:
+      - {y: 1887.2, t: "Buys about 660 prints"}
+      - {y: 1887.8, t: "Three copies in oil"}
+    map: {scale: europe, ids: [paris, amsterdam]}
+    sources: [vgm-japan, vgm-bridge]
+
   fenollosa:
     name: Ernest Fenollosa
     kanji: ""
@@ -311,7 +754,33 @@ people:
     died: 1908
     img: portrait-fenollosa
     cap: "Photograph, c. 1890 · Wikimedia Commons · public domain"
-    line: "Boston’s first curator of Japanese art. Curated Japan’s first ukiyo-e exhibition, Tokyo, 1898."
+    line: "Boston’s curator of Oriental art from 1890. Curated the earliest known ukiyo-e exhibition in Japan, Tokyo, 1898."
+    role: Curator
+    bet: "That Japan’s own art needed saving, and that the prints belonged in its history."
+    highlights:
+      - {t: "Taught at the Imperial University, Tokyo, from 1878", conf: documented}
+      - {t: "Curator of Oriental art, Boston, 1890", conf: documented}
+      - {t: "Curated the earliest known ukiyo-e show in Japan, 1898", conf: documented}
+    story: |
+      Ernest Fenollosa was born in Salem, Massachusetts, on 18 February 1853. In 1878 he was invited to Japan, and taught political economy and philosophy at the Imperial University in Tokyo.
+      He became a champion of traditional Japanese art, then out of favour in a modernising country (probable). After eight years at the university he helped found the Tokyo School of Fine Arts and the Tokyo Imperial Museum.
+      He converted to Buddhism and took the name Teishin.
+      In 1890 he returned to Boston as curator of the Museum of Fine Arts’ department of Oriental art. In 1896 he published *Masters of Ukiyoe*, for an exhibition in New York.
+      In 1898 he curated an exhibition of ukiyo-e in Tokyo, the earliest known in Japan.
+      He died in London in 1908. His ashes were buried at Mii-dera, by Lake Biwa.
+    works: [portrait-fenollosa]
+    links:
+      - {label: "Museum of Fine Arts, Boston", rel: "curator at"}
+      - {label: "Tokyo School of Fine Arts", rel: "helped found"}
+      - {to: wright, rel: "fellow American collector"}
+    life:
+      - {y: 1878, t: "Arrives in Tokyo"}
+      - {y: 1890, t: "Curator in Boston"}
+      - {y: 1896, t: "Masters of Ukiyoe"}
+      - {y: 1898, t: "Ukiyo-e exhibition, Tokyo"}
+    map: {scale: world, ids: [tokyo, boston]}
+    sources: [wiki-fenollosa, wiki-ukiyoe, mfa-prints]
+
   wright:
     name: Frank Lloyd Wright
     kanji: ""
@@ -321,3 +790,30 @@ people:
     img: portrait-wright
     cap: "Photograph, 1926 · Library of Congress via Wikimedia Commons · public domain"
     line: "Architect and print dealer. A Hiroshige show in Chicago, 1906; a scandal, 1920."
+    role: Architect and dealer
+    bet: "That Japanese prints were a lesson in design, and a business."
+    highlights:
+      - {t: "Lent the Art Institute a Hiroshige exhibition, 1906", conf: documented}
+      - {t: "A Spaulding commission grew to $125,000 in 1913", conf: documented}
+      - {t: "Refunded about $30,000 after the “revamped” prints", conf: documented}
+    story: |
+      Frank Lloyd Wright went to Japan in 1905 and came back a collector. In 1906 he lent the Art Institute of Chicago a whole exhibition of Hiroshige prints.
+      For about twenty years he also dealt in them. In 1913 a commission from the Boston collectors William and John Spaulding grew from twenty thousand dollars to 125,000 in five months.
+      A *Plum Garden at Kameido* in Chicago records him as the seller to Kate Buckingham, in February 1915.
+      In 1919–20 some prints he had sold proved “revamped”: faded impressions recut and recoloured. The fraud was traced to a Tokyo dealer and a collector. Wright refunded about thirty thousand dollars.
+      In 1928 his bank seized his house, and thousands of his prints sold at a dollar each.
+      The Hammer Museum’s exhibition of 2005 traced what the prints taught his architecture.
+    works: [plum]
+    links:
+      - {to: hiroshige, rel: "showed in Chicago"}
+      - {label: "the Spauldings", rel: "sold to"}
+      - {label: "Kate Buckingham", rel: "sold to"}
+      - {label: "a Tokyo dealer", rel: "deceived by"}
+    life:
+      - {y: 1905, t: "First visit to Japan"}
+      - {y: 1906.2, t: "Hiroshige show, Chicago"}
+      - {y: 1913, t: "The Spaulding commission"}
+      - {y: 1920, t: "The revamped prints"}
+      - {y: 1928, t: "Prints sold at a dollar"}
+    map: {scale: world, ids: [chicago, boston]}
+    sources: [aic-1906, metbull-wright, aic-plum, vjp-takamizawa, hammer-wright]

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<base href="/">
+<title>Views harness</title>
+<link rel="stylesheet" href="/src/styles.css">
+<style>
+  /* Harness only: the Views room's two labs, mounted with a stand-in ctx. */
+  body { padding: 16px var(--gut) 60px; }
+  .vh-bar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 12px; font: 500 13px/1 var(--ui); }
+  .vh-bar button { min-height: 36px; }
+  .vh-host { max-width: 1320px; margin: 0 auto 28px; }
+</style>
+</head>
+<body>
+<div class="vh-bar"><b>Depth harness</b>
+  <button class="btn-ghost" id="rm" aria-pressed="false">Reduced motion</button>
+  <button class="btn-ghost" id="th">Theme</button>
+</div>
+<div class="vh-host" id="view-host"></div>
+<div class="vh-host" id="ukie-host"></div>
+<script type="module">
+  import { motion, Scope } from '/src/util.js';
+  const q = new URLSearchParams(location.search);
+  if (q.get('rm') === '1') motion.set(true);
+  const FONTS = [['Shippori Mincho', 'ShipporiMincho-Bold.woff2', { weight: '600 800' }], ['Source Serif 4', 'SourceSerif4.woff2', { weight: '200 900' }], ['IBM Plex Sans', 'IBMPlexSans.woff2', { weight: '100 700' }]];
+  await Promise.allSettled(FONTS.map(([f, u, d]) => { const ff = new FontFace(f, `url(/fonts-src/woff2/${u}) format('woff2')`, d); document.fonts.add(ff); return ff.load(); }));
+  const C = await fetch('/content.json').then((r) => r.json());
+  const mem = {};
+  const ctxFor = (extra) => ({
+    C, scope: new Scope(), motion, mode: q.get('mode') || 'room', params: {}, imgUrl: (id, k) => `img/${k ? k + '/' : ''}${id}.webp`,
+    sprite: (id) => { const s = C.sprites?.index?.[id]; if (!s) return null; const [sh, x, y, w, h] = s; const [W, H] = C.sprites.sheets[sh]; return { url: `img/sprites/${sh}.webp`, x, y, w, h, W, H }; },
+    store: { get: (k, f) => (k in mem ? mem[k] : f), set: (k, v) => { mem[k] = v; } },
+    onResolve() {}, openRoom() {}, openPerson() {}, openImage() {}, ...extra,
+  });
+  const only = q.get('lab');
+  const view = only === 'ukie' ? null : await (await import('/src/labs/view.js')).default.mount(document.getElementById('view-host'), ctxFor({ params: { print: q.get('print') || undefined } }));
+  const ukie = only === 'view' ? null : await (await import('/src/labs/ukie.js')).default.mount(document.getElementById('ukie-host'), ctxFor({}));
+  window.__labs = { view, ukie };
+  document.getElementById('rm').onclick = (e) => { motion.set(!motion.reduced); e.target.setAttribute('aria-pressed', String(motion.reduced)); };
+  document.getElementById('th').onclick = () => { const r = document.documentElement; r.dataset.theme = r.dataset.theme === 'dark' ? 'light' : 'dark'; };
+  // screenshot steps
+  const host = (id) => document.getElementById(id);
+  const S = {
+    'v-step': () => { view._set({ mode: 'step', eye: [0, 0], instant: true }); host('view-host').scrollIntoView(); },
+    'v-step-left': () => { view._set({ mode: 'step', eye: [-0.45, 0.2], instant: true }); },
+    'v-rebuild': () => { view._set({ mode: 'rebuild', look: false, instant: true }); },
+    'v-rebuild-front': () => { view._set({ mode: 'rebuild', look: true, instant: true }); },
+    'v-reveal': () => { view._set({ reveal: true, look: false, instant: true }); },
+    'v-rule': () => { view._set({ rule: 0, instant: true }); },
+    'v-flat': () => { view._set({ mode: 'flat', instant: true }); },
+    'v-058': () => { view._set({ print: 'hv-058', mode: 'step', eye: [0.4, -0.1], instant: true }); },
+    'v-107': () => { view._set({ print: 'hv-107', mode: 'step', eye: [-0.4, 0.15], instant: true }); },
+    'v-107-reb': () => { view._set({ print: 'hv-107', mode: 'rebuild', look: false, instant: true }); },
+    'u-bands': () => { ukie._set({ mode: 'bands', swing: [0.42, 0.05], instant: true }); host('ukie-host').scrollIntoView(); },
+    'u-lines': () => { ukie._set({ mode: 'lines', swing: [0, 0], instant: true }); host('ukie-host').scrollIntoView(); },
+    'u-box-front': () => { ukie._set({ mode: 'box', swing: [0, 0], instant: true }); },
+    'u-box': () => { ukie._set({ mode: 'box', swing: [-0.38, 0.1], instant: true }); },
+    'u-box-r': () => { ukie._set({ mode: 'box', swing: [0.45, -0.05], instant: true }); },
+  };
+  window.__steps = Object.keys(S).filter((k) => (only === 'ukie' ? k.startsWith('u-') : only === 'view' ? k.startsWith('v-') : true));
+  window.__step = (k) => S[k]();
+  window.__viewsReady = true;
+</script>
+</body>
+</html>

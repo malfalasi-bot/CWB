@@ -1,0 +1,246 @@
+{
+ "_note": "Holder name (as written in the world-set and harvest registers; matched as a lower-case prefix) to the city where the holder sits. Places a held object at its holder, never at its origin. Holders not listed here (online archives, 'not stated') are left off the map and kept in the list.",
+ "cleveland": [
+  "Cleveland Museum of Art",
+  "Cleveland",
+  "US"
+ ],
+ "the met": [
+  "The Metropolitan Museum of Art",
+  "New York",
+  "US"
+ ],
+ "met": [
+  "The Metropolitan Museum of Art",
+  "New York",
+  "US"
+ ],
+ "the metropolitan museum of art": [
+  "The Metropolitan Museum of Art",
+  "New York",
+  "US"
+ ],
+ "art institute of chicago": [
+  "Art Institute of Chicago",
+  "Chicago",
+  "US"
+ ],
+ "aic": [
+  "Art Institute of Chicago",
+  "Chicago",
+  "US"
+ ],
+ "rijksmuseum": [
+  "Rijksmuseum",
+  "Amsterdam",
+  "NL"
+ ],
+ "library of congress": [
+  "Library of Congress",
+  "Washington, D.C.",
+  "US"
+ ],
+ "british museum": [
+  "British Museum",
+  "London",
+  "GB"
+ ],
+ "british library": [
+  "British Library",
+  "London",
+  "GB"
+ ],
+ "walters": [
+  "Walters Art Museum",
+  "Baltimore",
+  "US"
+ ],
+ "te papa": [
+  "Te Papa Tongarewa",
+  "Wellington",
+  "NZ"
+ ],
+ "bibliothèque nationale de france": [
+  "Bibliothèque nationale de France",
+  "Paris",
+  "FR"
+ ],
+ "bnf": [
+  "Bibliothèque nationale de France",
+  "Paris",
+  "FR"
+ ],
+ "wellcome collection": [
+  "Wellcome Collection",
+  "London",
+  "GB"
+ ],
+ "national museum of african american history and culture": [
+  "NMAAHC, Smithsonian",
+  "Washington, D.C.",
+  "US"
+ ],
+ "national museum of korea": [
+  "National Museum of Korea",
+  "Seoul",
+  "KR"
+ ],
+ "smithsonian": [
+  "Smithsonian Institution",
+  "Washington, D.C.",
+  "US"
+ ],
+ "freer gallery": [
+  "Freer Gallery of Art",
+  "Washington, D.C.",
+  "US"
+ ],
+ "national museum of american history": [
+  "National Museum of American History",
+  "Washington, D.C.",
+  "US"
+ ],
+ "national museum of the american indian": [
+  "National Museum of the American Indian",
+  "Washington, D.C.",
+  "US"
+ ],
+ "national museum of oman": [
+  "National Museum of Oman",
+  "Muscat",
+  "OM"
+ ],
+ "nasjonalmuseet": [
+  "Nasjonalmuseet",
+  "Oslo",
+  "NO"
+ ],
+ "museum boijmans van beuningen": [
+  "Museum Boijmans Van Beuningen",
+  "Rotterdam",
+  "NL"
+ ],
+ "tokyo national museum": [
+  "Tokyo National Museum",
+  "Tokyo",
+  "JP"
+ ],
+ "museo egizio": [
+  "Museo Egizio",
+  "Turin",
+  "IT"
+ ],
+ "powerhouse": [
+  "Powerhouse",
+  "Sydney",
+  "AU"
+ ],
+ "william morris gallery": [
+  "William Morris Gallery",
+  "London",
+  "GB"
+ ],
+ "new york public library": [
+  "New York Public Library",
+  "New York",
+  "US"
+ ],
+ "national library of china": [
+  "National Library of China",
+  "Beijing",
+  "CN"
+ ],
+ "biblioteca medicea laurenziana": [
+  "Biblioteca Medicea Laurenziana",
+  "Florence",
+  "IT"
+ ],
+ "slub dresden": [
+  "SLUB Dresden",
+  "Dresden",
+  "DE"
+ ],
+ "maa cambridge": [
+  "Museum of Archaeology and Anthropology",
+  "Cambridge",
+  "GB"
+ ],
+ "cambridge university library": [
+  "Cambridge University Library",
+  "Cambridge",
+  "GB"
+ ],
+ "trinity college, cambridge": [
+  "Trinity College",
+  "Cambridge",
+  "GB"
+ ],
+ "harvard semitic museum": [
+  "Harvard Semitic Museum",
+  "Boston",
+  "US"
+ ],
+ "museums victoria": [
+  "Museums Victoria",
+  "Melbourne",
+  "AU"
+ ],
+ "museum het valkhof": [
+  "Museum Het Valkhof",
+  "Nijmegen",
+  "NL"
+ ],
+ "state hermitage": [
+  "State Hermitage",
+  "St. Petersburg",
+  "RU"
+ ],
+ "asian civilisations museum": [
+  "Asian Civilisations Museum",
+  "Singapore",
+  "SG"
+ ],
+ "smithsonian american art museum": [
+  "Smithsonian American Art Museum",
+  "Washington, D.C.",
+  "US"
+ ],
+ "haeinsa temple": [
+  "Haeinsa Temple",
+  "Hapcheon",
+  "KR",
+  35.801,
+  128.098
+ ],
+ "national museum of the history of ukraine": [
+  "National Museum of the History of Ukraine",
+  "Kiev",
+  "UA"
+ ],
+ "topkapı palace museum library": [
+  "Topkapı Palace Museum Library",
+  "Istanbul",
+  "TR"
+ ],
+ "santo domingo de silos": [
+  "Santo Domingo de Silos",
+  "Santo Domingo de Silos",
+  "ES",
+  41.962,
+  -3.418
+ ],
+ "a:shiwi a:wan museum and heritage center": [
+  "A:shiwi A:wan Museum and Heritage Center",
+  "Zuni Pueblo",
+  "US",
+  35.07,
+  -108.85
+ ],
+ "ájtte": [
+  "Ájtte",
+  "Jokkmokk",
+  "SE",
+  66.606,
+  19.823
+ ]
+}

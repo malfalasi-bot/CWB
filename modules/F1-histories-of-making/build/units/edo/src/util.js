@@ -79,3 +79,46 @@ export function provenance(meta) {
   const parts = [meta.maker, meta.title ? `<em>${esc(meta.title)}</em>` : '', meta.date, [meta.holder, meta.accession].filter(Boolean).join(' '), meta.licence].filter(Boolean);
   return parts.map((p) => (p.startsWith('<em>') ? p : esc(p))).join(' · ');
 }
+
+// ---- v4 additions ----------------------------------------------------------
+// Local store, namespaced 'edo4:'. Private to this browser; every access may throw (private mode, blocked storage).
+const NS4 = 'edo4:';
+export const store = {
+  get(k, fallback = null) { try { const v = localStorage.getItem(NS4 + k); return v == null ? fallback : JSON.parse(v); } catch (e) { return fallback; } },
+  set(k, v) { try { localStorage.setItem(NS4 + k, JSON.stringify(v)); } catch (e) { /* storage unavailable */ } },
+  del(k) { try { localStorage.removeItem(NS4 + k); } catch (e) { /* */ } },
+  keys(prefix = '') { try { return Object.keys(localStorage).filter((k) => k.startsWith(NS4 + prefix)).map((k) => k.slice(NS4.length)); } catch (e) { return []; } },
+};
+
+// Sprite lookup: content.sprites = { index: { id: [sheet, x, y, w, h] }, sheets: { sheet: [W, H] } }
+export function spriteOf(C, id) {
+  const r = C?.sprites?.index?.[id]; if (!r) return null;
+  const [sheet, x, y, w, h] = r; const [W, H] = C.sprites.sheets[sheet] || [0, 0];
+  return { url: `img/sprites/${sheet}.webp`, x, y, w, h, W, H };
+}
+// A sprite drawn at a given width, as a div with a background (role img when alt is given).
+export function spriteEl(C, id, width, alt = '') {
+  const s = spriteOf(C, id); if (!s) return null;
+  const k = width / s.w;
+  const d = el('div', { class: 'sprite', style: `width:${width}px;height:${Math.round(s.h * k)}px;background-image:url(${s.url});background-size:${s.W * k}px ${s.H * k}px;background-position:${-s.x * k}px ${-s.y * k}px` });
+  if (alt) { d.setAttribute('role', 'img'); d.setAttribute('aria-label', alt); } else d.setAttribute('aria-hidden', 'true');
+  return d;
+}
+
+// Keep Tab inside a container (dialogs, rooms). Returns a remover.
+export function trapFocus(root) {
+  const sel = 'a[href],button:not([disabled]),input:not([disabled]),select,textarea,[tabindex]:not([tabindex="-1"])';
+  const f = (e) => {
+    if (e.key !== 'Tab') return;
+    const items = [...root.querySelectorAll(sel)].filter((n) => n.offsetParent !== null || n === document.activeElement);
+    if (!items.length) { e.preventDefault(); return; }
+    const first = items[0], last = items[items.length - 1];
+    if (e.shiftKey && (document.activeElement === first || !root.contains(document.activeElement))) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && (document.activeElement === last || !root.contains(document.activeElement))) { e.preventDefault(); first.focus(); }
+  };
+  root.addEventListener('keydown', f);
+  return () => root.removeEventListener('keydown', f);
+}
+
+export const fmtNum = (n) => Math.round(n).toLocaleString('en-GB');
+export const plainText = (t, people = {}) => String(t || '').replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, '$2').replace(/\[\[([^\]]+)\]\]/g, (m, id) => people[id]?.name || id).replace(/\*+/g, '');

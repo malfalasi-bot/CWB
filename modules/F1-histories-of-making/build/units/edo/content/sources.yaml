@@ -93,3 +93,16 @@ loc-1859: {t: "Library of Congress, Ansei kaisei Oedo ōezu, 1859 (free to use)"
 wiki-eras: {t: "Wikipedia, Japanese era name (the nengō list)", u: "https://en.wikipedia.org/wiki/Japanese_era_name"}
 voc-route: {t: "Dutch-Asiatic Shipping (Huygens ING): Texel, the Cape, Batavia; Nagasaki ships each summer", u: "https://resources.huygens.knaw.nl/das/voyages"}
 wiki-dejima: {t: "Wikipedia, Dejima", u: "https://en.wikipedia.org/wiki/Dejima"}
+# added in v4 for the character cards (each page opened and read for these facts)
+wiki-hiroshige: {t: "Wikipedia, Hiroshige", u: "https://en.wikipedia.org/wiki/Hiroshige"}
+wiki-kuniyoshi: {t: "Wikipedia, Utagawa Kuniyoshi", u: "https://en.wikipedia.org/wiki/Utagawa_Kuniyoshi"}
+wiki-utamaro: {t: "Wikipedia, Utamaro", u: "https://en.wikipedia.org/wiki/Utamaro"}
+wiki-fenollosa: {t: "Wikipedia, Ernest Fenollosa", u: "https://en.wikipedia.org/wiki/Ernest_Fenollosa"}
+wiki-eisen: {t: "Wikipedia, Keisai Eisen", u: "https://en.wikipedia.org/wiki/Keisai_Eisen"}
+wiki-sharaku: {t: "Wikipedia, Sharaku", u: "https://en.wikipedia.org/wiki/Sharaku"}
+wiki-hokusai: {t: "Wikipedia, Hokusai", u: "https://en.wikipedia.org/wiki/Hokusai"}
+wiki-kyoden: {t: "Wikipedia, Santō Kyōden", u: "https://en.wikipedia.org/wiki/Sant%C5%8D_Ky%C5%8Dden"}
+wiki-sadanobu: {t: "Wikipedia, Matsudaira Sadanobu", u: "https://en.wikipedia.org/wiki/Matsudaira_Sadanobu"}
+wiki-tadakuni: {t: "Wikipedia, Mizuno Tadakuni", u: "https://en.wikipedia.org/wiki/Mizuno_Tadakuni"}
+wiki-ukie: {t: "Wikipedia, Uki-e", u: "https://en.wikipedia.org/wiki/Uki-e"}
+met-ukie: {t: "The Met, Okumura Masanobu, Perspective View (uki-e) of a Kabuki Theatre, 1748 (JP3059, public domain)", u: "https://www.metmuseum.org/art/collection/search/56534"}
