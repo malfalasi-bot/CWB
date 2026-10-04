@@ -1,0 +1,84 @@
+# The timeline charts the trade. Lanes: state, trade (publishers and shops), print (designs and series), world, after (the second trade).
+lanes:
+  - {id: state, label: The state}
+  - {id: trade, label: Publishers}
+  - {id: print, label: Prints}
+  - {id: world, label: The world}
+  - {id: after, label: Afterlife}
+
+# Censor regimes: the answer key to reading a sheet's margin.
+bands:
+  - {id: none, from: 1600, to: 1790, label: "No seal required", short: "no seal"}
+  - {id: kiwame, from: 1790, to: 1843, label: "The kiwame seal 極", short: "kiwame"}
+  - {id: nanushi, from: 1843, to: 1853, label: "Named censors’ seals", short: "nanushi"}
+  - {id: aratame, from: 1853, to: 1876, label: "Aratame 改 and a date", short: "aratame"}
+
+# Price of an ordinary single sheet (ōban), in mon. kind: point (dated figure) or range.
+price:
+  - {year: 1805, lo: 20, hi: 20, conf: documented, src: hoover, note: "a record of 1805"}
+  - {year: 1842, lo: 24, hi: 24, conf: documented, src: kato-tenpo, note: "an ordinary ten-colour sheet before the order"}
+  - {year: 1842.9, lo: 16, hi: 16, conf: documented, src: kato-tenpo, note: "the cap of the eleventh month", cap: true}
+  - {year: 1847.5, lo: 20, hi: 24, conf: documented, src: fujiokaya, note: "triptychs at 60 and 72 mon"}
+  - {year: 1865, lo: 24, hi: 32, conf: probable, src: hoover, note: "about 24 by the end of the period, some over 30"}
+soba: {mon: 16, to: 24, src: nippon-soba, note: "a bowl of kake-soba: 16 mon for most of the period, 24 by the mid-nineteenth century"}
+
+# Print runs (bubbles sized by count).
+runs:
+  - {year: 1831, n: 8000, label: "Great Wave, up to 8,000 (estimate)", conf: probable, src: korenberg}
+  - {year: 1833.5, n: 15000, label: "Tōkaidō sheets, 12,000–15,000 (estimate)", conf: probable, src: korenberg}
+  - {year: 1847.6, n: 408000, label: "Loyal retainers: 8,000 sets, 408,000 sheets", conf: documented, src: fujiokaya}
+
+events:
+  - {id: e1603, year: 1603, lane: state, label: "The shogunate at Edo", img: portrait-ieyasu}
+  - {id: e1635, year: 1635, lane: state, label: "Lords ordered to live in Edo in alternate years"}
+  - {id: e1641, year: 1641, lane: world, label: "The Dutch confined to Dejima"}
+  - {id: e1657, year: 1657, lane: state, label: "The Meireki fire"}
+  - {id: e1672, year: 1672, lane: print, label: "Moronobu signs his pictures"}
+  - {id: e1721, year: 1721, lane: state, label: "The first census: about 1.3 million"}
+  - {id: e1765, year: 1765, lane: print, label: "Full colour: the calendar prints", img: harunobu-1765}
+  - {id: e1770, year: 1770, lane: print, label: "Harunobu dies"}
+  - {id: e1783, year: 1783, lane: trade, label: "Tsutaya moves to Tōri Abura-chō", img: portrait-tsutaya}
+  - {id: e1790, year: 1790, lane: state, label: "The kiwame seal", seal: true}
+  - {id: e1791, year: 1791, lane: state, label: "Kyōden manacled, Tsutaya fined", img: portrait-kyoden}
+  - {id: e1793, year: 1793, lane: trade, label: "Osaka: Shioya’s monopoly on actor likenesses"}
+  - {id: e1794, year: 1794.4, lane: print, label: "Sharaku’s ten months", img: sharaku}
+  - {id: e1797, year: 1797, lane: trade, label: "Tsutaya dies"}
+  - {id: e1800, year: 1800, lane: state, label: "Bust portraits of women banned"}
+  - {id: e1804, year: 1804, lane: state, label: "Utamaro manacled", img: portrait-utamaro}
+  - {id: e1807, year: 1807, lane: trade, label: "The publishers’ guild"}
+  - {id: e1814, year: 1814, lane: print, label: "The Hokusai Manga", img: manga}
+  - {id: e1824, year: 1824, lane: world, label: "Chinese blue re-enters Nagasaki"}
+  - {id: e1829, year: 1829, lane: print, label: "Eisen’s all-blue fan", img: eisen-aizuri}
+  - {id: e1831, year: 1831, lane: print, label: "Thirty-six Views of Mount Fuji", img: wave-thumb}
+  - {id: e1833, year: 1833.5, lane: print, label: "Hiroshige’s Tōkaidō", img: nihonbashi}
+  - {id: e1835, year: 1835, lane: trade, label: "Hokusai’s letter about a carver"}
+  - {id: e1842, year: 1842.5, lane: state, label: "The Tenpō edict", seal: true, img: portrait-tadakuni}
+  - {id: e1842c, year: 1842.9, lane: state, label: "The 16-mon cap", seal: true}
+  - {id: e1842t, year: 1842, lane: state, label: "Theatres moved to Saruwaka-chō"}
+  - {id: e1847, year: 1847.6, lane: print, label: "408,000 sheets", img: gishi}
+  - {id: e1849, year: 1849, lane: print, label: "Hokusai dies"}
+  - {id: e1853, year: 1853.5, lane: world, label: "Perry at Uraga", img: portrait-perry}
+  - {id: e1855, year: 1855.9, lane: print, label: "The earthquake catfish", img: namazu}
+  - {id: e1856, year: 1856, lane: print, label: "One Hundred Famous Views of Edo", img: shower}
+  - {id: e1858, year: 1858, lane: print, label: "Hiroshige dies"}
+  - {id: e1859, year: 1859, lane: world, label: "Yokohama opens", img: yokohama-bread}
+  - {id: e1864, year: 1864, lane: print, label: "Aniline dyes arrive"}
+  - {id: e1865, year: 1865, lane: world, label: "French mail steamers reach Yokohama"}
+  - {id: e1867, year: 1867, lane: after, label: "Japan at the Paris exposition"}
+  - {id: e1867p, year: 1867.05, lane: world, label: "Pacific Mail: San Francisco–Yokohama"}
+  - {id: e1868, year: 1868, lane: state, label: "Meiji: Edo becomes Tokyo"}
+  - {id: e1872, year: 1872, lane: state, label: "The Yoshiwara debts cancelled"}
+  - {id: e1884, year: 1884, lane: after, label: "Hayashi’s Paris shop", img: portrait-hayashi}
+  - {id: e1887, year: 1887.8, lane: after, label: "Van Gogh’s copies", img: portrait-van-gogh}
+  - {id: e1888, year: 1888.4, lane: after, label: "Le Japon artistique", img: japon-artistique}
+  - {id: e1889, year: 1889, lane: after, label: "Tokunō’s gift names the carvers"}
+  - {id: e1890, year: 1890, lane: after, label: "Bing’s 700 prints"}
+  - {id: e1898, year: 1898, lane: after, label: "Fenollosa’s Tokyo exhibition", img: portrait-fenollosa}
+  - {id: e1905, year: 1905, lane: after, label: "The “packing paper” story first printed"}
+  - {id: e1906, year: 1906.2, lane: after, label: "Wright’s Hiroshige show", img: portrait-wright}
+  - {id: e1913, year: 1913, lane: after, label: "Wright’s deal with the Spauldings"}
+  - {id: e1920, year: 1920, lane: after, label: "The “revamped” prints scandal"}
+  - {id: e1921, year: 1921, lane: after, label: "The Spaulding gift, never to be shown"}
+  - {id: e1929, year: 1929, lane: after, label: "The Havemeyer bequest to the Met"}
+  - {id: e2020, year: 2020, lane: after, label: "111 Great Waves located", img: wave-aic-thumb}
+  - {id: e2024, year: 2024.5, lane: state, label: "The thousand-yen note"}

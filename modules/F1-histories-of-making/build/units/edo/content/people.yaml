@@ -1,0 +1,323 @@
+# The cast, grouped by role. The organiser comes first because the trade put him first.
+# born/died drive the timeline's lifespan bars; "~" marks an approximate year.
+groups:
+  - id: publishers
+    title: Publishers
+    kanji: 版元
+    note: "They planned the title, paid for blocks, paper and labour, applied to the censor and sold the sheets. From 1790 the law held them answerable."
+  - id: designers
+    title: Designers
+    kanji: 絵師
+    note: "They drew the picture that the carver cut through and destroyed. Theirs is usually the only name on the sheet."
+  - id: makers
+    title: Carvers and printers
+    kanji: 彫師・摺師
+    note: "The two most skilled trades in the chain, and the least recorded. Five are named here because one record named them."
+  - id: state
+    title: The state
+    kanji: 公儀
+    note: "It licensed the subjects, stamped the blocks, capped the price and moved the theatres."
+  - id: witnesses
+    title: Writers, actors and witnesses
+    kanji: 戯作者・役者
+    note: "The people inside the pictures and the people who wrote down what the trade did."
+  - id: afterlife
+    title: Dealers and collectors
+    kanji: 画商
+    note: "The second trade: the people who bought, shipped, sold, copied and gave away."
+
+people:
+  tsutaya:
+    name: Tsutaya Jūzaburō
+    kanji: 蔦屋重三郎
+    group: publishers
+    born: 1750
+    died: 1797
+    img: portrait-tsutaya
+    cap: "Santō Kyōden, caricature of Tsutaya, 1791 · National Diet Library via Wikimedia Commons · public domain (PD-Japan)"
+    line: "Born in the Yoshiwara. Publisher of Utamaro, Kyōden and every Sharaku. Fined half of everything he owned in 1791."
+  nishimuraya:
+    name: Nishimuraya Yohachi (Eijudō)
+    kanji: 西村屋与八
+    group: publishers
+    born: ~1751
+    died: ~1860
+    line: "The Eijudō firm at Bakuro-chō. Published Hokusai’s Thirty-six Views in the new blue, 1831."
+  iseya:
+    name: Iseya Sōbei
+    kanji: ""
+    group: publishers
+    line: "Fan-maker. Put out Keisai Eisen’s all-blue fan in 1829 and started the fad, by Tōho’s account."
+  hoeido:
+    name: Takenouchi Magohachi (Hōeidō)
+    kanji: 竹内孫八
+    group: publishers
+    line: "Published Hiroshige’s Fifty-three Stations of the Tōkaidō, 1833–34."
+  uoya:
+    name: Uoya Eikichi
+    kanji: 魚屋栄吉
+    group: publishers
+    line: "Published Hiroshige’s One Hundred Famous Views of Edo, 1856–58. His seal reads Shitaya, Uoei."
+  eirakuya:
+    name: Eirakuya Tōshirō
+    kanji: 永楽屋東四郎
+    group: publishers
+    line: "A Nagoya house. Published the Hokusai Manga from 1814."
+  shioya:
+    name: Shioya Chōbei
+    kanji: ""
+    group: publishers
+    line: "Osaka. Granted the sole right to publish actor likenesses in the 8th month of 1793."
+
+  moronobu:
+    name: Hishikawa Moronobu
+    kanji: 菱川師宣
+    group: designers
+    born: 1618
+    died: 1694
+    line: "Signed his book pictures from 1672. The earliest known single-sheet prints follow."
+  harunobu:
+    name: Suzuki Harunobu
+    kanji: 鈴木春信
+    group: designers
+    born: ~1725
+    died: 1770
+    line: "The designer the poetry circles chose for the full-colour calendars of 1765. No likeness of him survives."
+  shunsho:
+    name: Katsukawa Shunshō
+    kanji: 勝川春章
+    group: designers
+    born: 1726
+    died: 1793
+    line: "Actors with recognisable faces. Hokusai’s first teacher."
+  utamaro:
+    name: Kitagawa Utamaro
+    kanji: 喜多川歌麿
+    group: designers
+    born: ~1753
+    died: 1806
+    img: portrait-utamaro
+    cap: "Portrait attributed to Chōbunsai Eishi, 1815 · British Museum via Wikimedia Commons · public domain"
+    line: "Bust portraits of women for Tsutaya in the 1790s. Manacled for fifty days in 1804; dead in 1806."
+  sharaku:
+    name: Tōshūsai Sharaku
+    kanji: 東洲斎写楽
+    group: designers
+    born: 1794
+    died: 1795
+    line: "About 140 actor prints in ten months of 1794–95, all published by Tsutaya. Identity unknown."
+  ryukosai:
+    name: Ryūkōsai Jokei
+    kanji: 流光斎如圭
+    group: designers
+    line: "Osaka. Never signed the prints Shioya published from his designs, and withdrew."
+  hokusai:
+    name: Katsushika Hokusai
+    kanji: 葛飾北斎
+    group: designers
+    born: 1760
+    died: 1849
+    img: portrait-hokusai
+    cap: "Keisai Eisen, portrait of Hokusai · Wikimedia Commons · public domain (PD-Japan)"
+    line: "Trained to cut woodblocks between 16 and 19. The Manga from 1814; the Fuji series from 1831."
+  oi:
+    name: Katsushika Ōi
+    kanji: 葛飾応為
+    group: designers
+    born: ~1800
+    died: ~1857
+    line: "Hokusai’s daughter. About ten works confirmed as hers. Her hand is inside work signed “Hokusai” (probable)."
+  eisen:
+    name: Keisai Eisen
+    kanji: 渓斎英泉
+    group: designers
+    born: 1790
+    died: 1848
+    img: portrait-eisen
+    cap: "Self-portrait, 1836 · Wikimedia Commons · public domain"
+    line: "His all-blue fan of 1829 started the fad. Van Gogh copied one of his courtesans."
+  hiroshige:
+    name: Utagawa Hiroshige
+    kanji: 歌川広重
+    group: designers
+    born: 1797
+    died: 1858
+    img: portrait-hiroshige
+    cap: "Utagawa Kunisada, memorial portrait of Hiroshige, 1858 · The Met, CC0"
+    line: "The Tōkaidō of 1833–34. The Hundred Famous Views of Edo, 1856–58."
+  kuniyoshi:
+    name: Utagawa Kuniyoshi
+    kanji: 歌川国芳
+    group: designers
+    born: 1797
+    died: 1861
+    img: portrait-kuniyoshi
+    cap: "Utagawa Yoshiiku, memorial portrait of Kuniyoshi, 1861 · British Museum via Wikimedia Commons · public domain"
+    line: "Warriors from 1827, cats always. 408,000 sheets of loyal retainers in eight months."
+  kunisada:
+    name: Utagawa Kunisada (Toyokuni III)
+    kanji: 歌川国貞
+    group: designers
+    born: 1786
+    died: 1865
+    img: portrait-kunisada
+    cap: "Toyohara Kunichika, memorial portrait of Kunisada · Brooklyn Museum via Wikimedia Commons · public domain"
+    line: "The most productive designer of actors and beauties of the century."
+
+  egawa:
+    name: Egawa Tomekichi
+    kanji: 江川留吉
+    group: makers
+    line: "Carver. In 1835 Hokusai gave up his own share of the carving fee to secure him."
+    mark: 彫
+  kido:
+    name: Kido Kotarō
+    kanji: ""
+    group: makers
+    line: "Carver, named in the Smithsonian’s 1889 Tokunō gift."
+    mark: 彫
+  yamamoto:
+    name: Yamamoto Iwakichi
+    kanji: ""
+    group: makers
+    line: "Printer of the Nandina proofs in the Tokunō gift, 1889."
+    mark: 摺
+  nakamura:
+    name: Nakamura Tsurusaburō
+    kanji: ""
+    group: makers
+    line: "Printer of the centre sheet of the Tokunō triptych proofs."
+    mark: 摺
+  morikawa:
+    name: Morikawa Kokichirō
+    kanji: ""
+    group: makers
+    line: "Recorded as maker of the right sheet of the Tokunō triptych proofs."
+    mark: 摺
+
+  ieyasu:
+    name: Tokugawa Ieyasu
+    kanji: 徳川家康
+    group: state
+    born: 1543
+    died: 1616
+    img: portrait-ieyasu
+    cap: "Portrait attributed to Kanō Tan’yū · Wikimedia Commons · public domain (PD-Japan)"
+    line: "Shogun from 1603. Made a marsh-side castle town the seat of government."
+  sadanobu:
+    name: Matsudaira Sadanobu
+    kanji: 松平定信
+    group: state
+    born: 1759
+    died: 1829
+    img: portrait-sadanobu
+    cap: "Self-portrait, 1787 · Wikimedia Commons · public domain (PD-Japan)"
+    line: "Chief councillor 1787–93. His reforms put a censor’s seal on every print."
+  tadakuni:
+    name: Mizuno Tadakuni
+    kanji: 水野忠邦
+    group: state
+    born: 1794
+    died: 1851
+    img: portrait-tadakuni
+    cap: "Tsubaki Chinzan, portrait of Mizuno Tadakuni · Wikimedia Commons · public domain (PD-Japan)"
+    line: "Architect of the Tenpō reforms, 1841–43. Banned actors and courtesans on single sheets."
+  murata:
+    name: Murata Sahei
+    kanji: ""
+    group: state
+    line: "Ward headman and censor. His seal approved Kuniyoshi’s loyal retainers in 1847."
+  tokuno:
+    name: Tokunō Michimasa
+    kanji: 得能通昌
+    group: state
+    line: "Head of the government Printing Bureau. Sent the Smithsonian a complete printing set in 1889."
+
+  kyoden:
+    name: Santō Kyōden
+    kanji: 山東京伝
+    group: witnesses
+    born: 1761
+    died: 1816
+    img: portrait-kyoden
+    cap: "Eiri, portrait of Santō Kyōden, c. 1795 · The Met, CC0"
+    line: "Writer as Kyōden, designer as Kitao Masanobu. Fifty days in manacles in 1791."
+  hanaogi:
+    name: Hanaōgi of the Ōgiya
+    kanji: 扇屋花扇
+    group: witnesses
+    line: "Courtesan, poet and calligrapher. Escaped the quarter in 1794 and was brought back (probable)."
+  danjuro:
+    name: Ichikawa Danjūrō VII
+    kanji: 七代目市川團十郎
+    group: witnesses
+    born: 1791
+    died: 1859
+    img: portrait-danjuro-vii
+    cap: "Utagawa Kunisada, Danjūrō VII, surimono, 1823 · Library of Congress via Wikimedia Commons · public domain"
+    line: "The theatre’s greatest star. Banished from Edo in 1842 (probable)."
+  toho:
+    name: Seisōdō Tōho
+    kanji: 青葱堂冬圃
+    group: witnesses
+    line: "Bookseller and memoirist. His Masaki no kazura dates the blue fad to 1829."
+  fujiokaya:
+    name: Fujiokaya (the diary)
+    kanji: 藤岡屋日記
+    group: witnesses
+    line: "An Edo bookseller’s diary of news. It records the 408,000 sheets of 1847–48, and the flop."
+
+  perry:
+    name: Matthew C. Perry
+    kanji: ""
+    group: afterlife
+    born: 1794
+    died: 1858
+    img: portrait-perry
+    cap: "Daguerreotype, Mathew Brady studio · Wikimedia Commons · public domain"
+    line: "Commodore. Four ships at Uraga in July 1853; a treaty in 1854."
+  hayashi:
+    name: Hayashi Tadamasa
+    kanji: 林忠正
+    group: afterlife
+    born: 1853
+    died: 1906
+    img: portrait-hayashi
+    cap: "Photograph, 1904 · Wikimedia Commons · public domain"
+    line: "Paris dealer from 1884. 218 shipments of prints and books in eleven years."
+  bing:
+    name: Siegfried Bing
+    kanji: ""
+    group: afterlife
+    born: 1838
+    died: 1905
+    img: portrait-bing
+    cap: "Photograph before 1906 · Wikimedia Commons · public domain"
+    line: "Le Japon artistique, 1888–91. Over 700 prints at the École des Beaux-Arts in 1890."
+  vangogh:
+    name: Vincent van Gogh
+    kanji: ""
+    group: afterlife
+    born: 1853
+    died: 1890
+    img: portrait-van-gogh
+    cap: "Self-Portrait, 1887 · Art Institute of Chicago via Wikimedia Commons · public domain"
+    line: "Bought about 660 prints in early 1887. Painted three copies that autumn."
+  fenollosa:
+    name: Ernest Fenollosa
+    kanji: ""
+    group: afterlife
+    born: 1853
+    died: 1908
+    img: portrait-fenollosa
+    cap: "Photograph, c. 1890 · Wikimedia Commons · public domain"
+    line: "Boston’s first curator of Japanese art. Curated Japan’s first ukiyo-e exhibition, Tokyo, 1898."
+  wright:
+    name: Frank Lloyd Wright
+    kanji: ""
+    group: afterlife
+    born: 1867
+    died: 1959
+    img: portrait-wright
+    cap: "Photograph, 1926 · Library of Congress via Wikimedia Commons · public domain"
+    line: "Architect and print dealer. A Hiroshige show in Chicago, 1906; a scandal, 1920."

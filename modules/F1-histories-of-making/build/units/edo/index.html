@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Edo and the Floating World</title>
+<meta name="description" content="How did a city turn pictures into a mass market, and who got named when it did? Five publishers’ bets, one sheet’s life, a map and a timeline that move as you read.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%23233C6B%22/%3E%3Ctext x=%2216%22 y=%2223%22 font-size=%2218%22 text-anchor=%22middle%22 fill=%22%23F1EADB%22%3E%E6%B5%AE%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Shippori+Mincho:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+<a class="skiplink" href="#story">Skip to the story</a>
+<header class="bar">
+  <div class="bar-title"><span class="bar-kanji" aria-hidden="true">浮世</span><span>Edo and the floating world</span></div>
+  <nav class="bar-acts" aria-label="Acts"></nav>
+  <div class="bar-right">
+    <div class="bar-year" aria-live="polite"><span class="y">2024</span><span class="era"></span></div>
+    <button class="btn-ghost" id="btn-explore" aria-pressed="false" title="Pan, zoom and open every place, year and name">Explore</button>
+    <button class="btn-ghost icon" id="btn-motion" aria-pressed="false" title="Reduce motion" aria-label="Reduce motion"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 12h3m10 0h3M12 4v3m0 10v3" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/><circle cx="12" cy="12" r="3.2" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></button>
+    <button class="btn-ghost icon" id="btn-theme" title="Light or dark" aria-label="Switch light or dark"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z" stroke="currentColor" stroke-width="1.6" fill="none"/></svg></button>
+  </div>
+</header>
+<div id="stage" aria-label="Map, timeline and objects">
+  <div class="layers">
+    <div class="layer" id="layer-map" aria-hidden="true"></div>
+    <div class="layer" id="layer-time" aria-hidden="true"></div>
+    <div class="layer" id="layer-object" aria-hidden="true"></div>
+    <div class="layer" id="layer-tool" aria-hidden="true"></div>
+  </div>
+  <div id="mini" class="mini" aria-hidden="true"></div>
+  <p id="stage-desc" class="vh" aria-live="polite"></p>
+</div>
+<main id="story" tabindex="-1"></main>
+<aside id="sheet" class="sheet" aria-hidden="true" aria-label="Details"></aside>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>

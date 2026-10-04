@@ -1,0 +1,95 @@
+# Sources for the Edo unit. Every beat lists the ids it rests on; the reader sees them under "Sources" on each beat.
+# conf: the confidence of the claims the unit takes from this source (documented unless marked).
+met-wave: {t: "The Met, “The Great Wave: Anatomy of an Icon” (spectroscopy of the blues)", u: "http://metmuseum.org/essays/hokusai-great-wave"}
+met-ukiyoe: {t: "The Met, Heilbrunn essay “Woodblock Prints in the Ukiyo-e Style”", u: "https://www.metmuseum.org/essays/woodblock-prints-in-the-ukiyo-e-style"}
+met-japonisme: {t: "The Met, Heilbrunn essay “Japonisme”", u: "https://www.metmuseum.org/essays/japonisme"}
+smith-blue: {t: "Henry D. Smith II, “Hokusai and the Blue Revolution in Edo Prints” (2005)", u: "https://columbia.edu/~hds2/pdf/2005_Hokusai_and_the_Blue_Revolution.pdf"}
+fitzhugh: {t: "Fitzhugh, pigments in later Japanese paintings (Freer|Sackler)", u: "https://asia-archive.si.edu/wp-content/uploads/2017/06/Fitzhugh-Pigments-in-later-Japanese-Paintings.pdf"}
+artelino-aizuri: {t: "Artelino, “Aizuri-e” (the c. 1790 Dejima reading)", u: "https://www.artelino.com/articles/aizuri-e.asp"}
+bm-spot: {t: "British Museum blog (Korenberg), “Great Wave: spot the difference”", u: "https://www.britishmuseum.org/blog/great-wave-spot-difference"}
+korenberg: {t: "Korenberg, “The making and evolution of the Great Wave” (British Museum, 2020)", u: "https://www.britishmuseum.org/sites/default/files/2022-03/korenberg_article-for_hokusai%20_edited_volume_final-2020_accessible.pdf"}
+korenberg-fuji: {t: "Korenberg, Red Fuji: 93 impressions, five states (2021)", u: "https://openscience.fr/IMG/pdf/iste_artsci21v5n1_2.pdf"}
+bm-manga: {t: "British Museum blog (Clark), “Hokusai: father of manga?”", u: "https://www.britishmuseum.org/blog/hokusai-father-manga"}
+cartwright: {t: "Cartwright & Nakamura, Notes and Records of the Royal Society (2009)", u: "https://royalsocietypublishing.org/doi/10.1098/rsnr.2007.0039"}
+dudley: {t: "Dudley, Sarano & Dias, Notes and Records of the Royal Society (2013)", u: "https://royalsocietypublishing.org/doi/full/10.1098/rsnr.2012.0066"}
+ota-oi: {t: "Ōta Memorial Museum of Art, Katsushika Ōi, Night Scene in the Yoshiwara (2023)", u: "https://www.ukiyoe-ota-muse.jp/yoshiwarakoushi-eng/"}
+davis-oi: {t: "Julie Nelson Davis, lecture “Katsushika Ōi and the Hokusai Legacy” (abstract)", u: "https://www.deafspotlight.org/events/saturday-university-katsushika-oi-and-the-hokusai-legacy"}
+prodig-oi: {t: "Production I.G research page on Ōi (secondary; uncited letter)", u: "https://www.productionig.com/contents/works_sp/95_/s08_/001279.html", conf: probable}
+yano: {t: "Akiko Yano, on Ryūkōsai and the Osaka trade (PDF)", u: "https://www.colorado.edu/cas/sites/default/files/attached-files/akiko_yano_hr.pdf"}
+ref-kamigata: {t: "REF impact case study: Kamigata prints and fan clubs (Gerstle & Clark)", u: "https://impact.ref.ac.uk/casestudies/CaseStudy.aspx?Id=42788"}
+si-tokuno: {t: "Smithsonian, the Tokunō gift: about", u: "https://www.si.edu/spotlight/tokuno-gift/about"}
+nmah-proof: {t: "National Museum of American History, Tokunō gift record GA.03217.24", u: "https://www.americanhistory.si.edu/collections/object/nmah_788927"}
+ota-packing: {t: "Hinohara, Ōta Memorial Museum note on the “packing paper” legend (2021)", u: "https://otakinen-museum.note.jp/n/n01248684801c"}
+jaanus-aratame: {t: "JAANUS, “aratame-in” (censor and date seals)", u: "https://www.aisf.or.jp/~jaanus/deta/a/aratamein.htm"}
+vjp-seals: {t: "Viewing Japanese Prints, “Inscriptions and seals”", u: "https://www.viewingjapaneseprints.net/texts/topics_faq/faq_inscript_seals.html"}
+vjp-sumptuary: {t: "Viewing Japanese Prints, “Sumptuary edicts”", u: "https://viewingjapaneseprints.net/texts/topics_faq/faq_sumptuary.html"}
+kato-tenpo: {t: "Katō Yoshio, Ukiyo-e jiten: the Tenpō reforms, with the 1842 orders", u: "https://www.ne.jp/asahi/kato/yoshio/ukiyoeyougo/te-yougo/yougo-tenpoukaikaku.html"}
+kato-1847: {t: "Katō Yoshio: the 1847 magistrate’s reports on actor prints", u: "https://www.ne.jp/asahi/kato/yoshio/tyojutu/ukiyoe-hikka7-kouka4.html"}
+fujiokaya: {t: "Fujiokaya nikki, Kaei years (transcription)", u: "https://www.ne.jp/asahi/kato/yoshio/hujiokaya/kaei-hujiokaya.html"}
+hoover: {t: "Hoover Institution, “Nishiki-e defined” (prices, print runs, sellers)", u: "https://fanningtheflames.hoover.org/shorthand-story/5"}
+nippon-soba: {t: "nippon.com on soba prices in Edo", u: "https://www.nippon.com/en/japan-topics/g00940"}
+vam-quartet: {t: "V&A, Japanese woodblock prints (the four roles; key-block proofs)", u: "https://www.vam.ac.uk/articles/japanese-woodblock-prints-ukiyo-e"}
+aam-process: {t: "Asian Art Museum, the ukiyo-e printing process", u: "https://education.asianart.org/resources/the-ukiyo-e-woodblock-printing-process"}
+jaanus-hosho: {t: "JAANUS, “hōsho” (Echizen paper)", u: "https://projects.mcah.columbia.edu/jaanus/record/hosho"}
+sumida-producers: {t: "Sumida Hokusai Museum, Hokusai’s producers (publishers, addresses)", u: "https://hokusai-museum.jp/HokusaiProducersEN/"}
+suntory-tsutaya: {t: "Suntory Museum of Art, Tsutaya Jūzaburō exhibition (2010)", u: "https://www.suntory.com/sma/exhibition/2010_05/index.html"}
+sa-tsutaya: {t: "Samurai Archives, Tsutaya Jūzaburō", u: "https://samurai-archives.com/wiki/Tsutaya_Juzaburo"}
+wiki-tsutaya: {t: "Wikipedia, Tsutaya Jūzaburō", u: "https://en.wikipedia.org/wiki/Tsutaya_J%C5%ABzabur%C5%8D"}
+tml-azuma: {t: "Tokyo Metropolitan Library, Ehon Azuma asobi: the print shop page (Tsutaya’s Kōshodō)", u: "https://www.library.metro.tokyo.lg.jp/portals/0/edo/tokyo_library/english/modal/index.html?d=5640", conf: probable}
+forrer-sellers: {t: "Matthi Forrer, “Print sellers in Edo”", u: "https://matthiforrer.com/1791"}
+kornicki: {t: "Kornicki, lending libraries (kashihon’ya) in Edo", u: "https://www.cambridge.org/core/journals/modern-asian-studies/article/abs/publishers-gobetween-kashihonya-in-the-meiji-period/CC1EAEB86DF9BAB156ECE23E2A32CED1"}
+wiki-yoshiwara: {t: "Wikipedia, Yoshiwara", u: "https://en.wikipedia.org/wiki/Yoshiwara"}
+sa-yoshiwara: {t: "Samurai Archives, Yoshiwara (contracts, ranks)", u: "https://samurai-archives.com/w/index.php?title=Yoshiwara"}
+met-hanaogi: {t: "The Met, Utamaro, the courtesan Hanaōgi of the Ōgiya", u: "https://www.metmuseum.org/art/collection/search/55636"}
+world4-hanaogi: {t: "Famous courtesans (after Kinsei shogadan): Hanaōgi’s escape, 1794", u: "https://world4.eu/famous-courtesans", conf: probable}
+jf-1872: {t: "Japan Forward, the 1872 decree and the Yoshiwara", u: "https://japan-forward.com/yoshiwara-pleasure-quarter-tokyo-art-exhibition-paul-de-vries", conf: probable}
+wiki-kansei: {t: "Wikipedia, Kansei reforms", u: "https://en.wikipedia.org/wiki/Kansei_Reforms"}
+cma-utamaro: {t: "Cleveland Museum of Art, Utamaro 1940.1031: “Publisher: Tsutaya Jūzaburo (emblem). Censorship Seal: kiwame.”", u: "https://openaccess-api.clevelandart.org/api/artworks/118833"}
+aic-sharaku: {t: "Art Institute of Chicago, Sharaku 1934.215, publisher Tsutaya Jūzaburō", u: "https://api.artic.edu/api/v1/artworks/18811"}
+met-sharaku: {t: "The Met, Sharaku, Ōtani Oniji III as Yakko Edobei (JP2822)", u: "https://www.metmuseum.org/art/collection/search/37358"}
+wiki-ukiyoe: {t: "Wikipedia, Ukiyo-e", u: "https://en.wikipedia.org/wiki/Ukiyo-e"}
+wiki-edo: {t: "Wikipedia, Edo", u: "https://en.wikipedia.org/wiki/Edo"}
+christies-edo: {t: "Christie’s collecting guide: alternate attendance and print demand", u: "https://www.christies.com/en/stories/collecting-guide-japanese-woodblocks-5a07c97d4c78486eb5aafdc3084e4970"}
+tmg-census: {t: "Tokyo Metropolitan Government, urban planning history (Meireki fire; the 1721 census)", u: "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_keikaku_chousa_singikai_pdf_tokyotoshizukuri_en_0_03"}
+wiki-meireki: {t: "Wikipedia, Great Fire of Meireki; Japanese Wikipedia 明暦の大火 (the three outbreaks)", u: "https://en.wikipedia.org/wiki/Great_Fire_of_Meireki"}
+ndl-saruwaka: {t: "National Diet Library, Saruwaka-chō (the 1841–42 relocation)", u: "https://www.ndl.go.jp/en/landmarks/sights/saruwakacho"}
+met-playbill: {t: "The Met, picture book of play synopses for the Nakamura theatre (2013.851)", u: "https://www.metmuseum.org/art/collection/search/78741"}
+hamatake-harunobu: {t: "The 1765 calendar prints and the poetry circles (after Waterhouse)", u: "http://hamatake.org/portfolio/harunobu", conf: probable}
+vjp-poetry: {t: "Viewing Japanese Prints, poetry and calendar prints (Ōkubo Kyosen)", u: "https://www.viewingjapaneseprints.net/texts/topics_faq/poetry_defs.html"}
+met-harunobu: {t: "The Met, Harunobu, Visit to a Shrine at the Hour of the Ox, 1765 (56874)", u: "https://www.metmuseum.org/art/collection/search/56874"}
+met-manga: {t: "The Met, Hokusai Manga vol. 1 (57679)", u: "https://www.metmuseum.org/art/collection/search/57679"}
+wiki-egawa: {t: "Wikipedia, Egawa Tomekichi (Hokusai’s letter of 1835)", u: "https://en.wikipedia.org/wiki/Egawa_Tomekichi"}
+wiki-oi: {t: "Wikipedia, Katsushika Ōi", u: "https://en.wikipedia.org/wiki/Katsushika_%C5%8Ci"}
+lyon-publishers: {t: "Lyon Collection, publishers’ entries after Marks (the guild of 1807)", u: "https://woodblockprints.org/index.php/Detail/entities/273"}
+hiroshige-uk: {t: "hiroshige.org.uk, One Hundred Famous Views of Edo (Uoya Eikichi; the sheets)", u: "https://www.hiroshige.org.uk/100_Views_Of_Edo/100_Views_Of_Edo.htm"}
+wiki-100views: {t: "Wikipedia, One Hundred Famous Views of Edo (the list, with each view’s place)", u: "https://en.wikipedia.org/wiki/One_Hundred_Famous_Views_of_Edo"}
+wiki-tokaido: {t: "Wikipedia and Wikidata, the Fifty-three Stations of the Tōkaidō (station order and coordinates)", u: "https://en.wikipedia.org/wiki/The_Fifty-three_Stations_of_the_T%C5%8Dkaid%C5%8D"}
+wiki-perry: {t: "Wikipedia, Perry Expedition (ports and dates)", u: "https://en.wikipedia.org/wiki/Perry_Expedition"}
+loc-speiden: {t: "Library of Congress, William Speiden journals: the voyage of the Mississippi, 1852–53", u: "https://www.loc.gov/collections/william-speiden-journals/articles-and-essays/voyage-of-mississippi-to-china-seas-and-japan/december-1852-to-december-1853/"}
+smits-namazu: {t: "Smits, the Ansei Edo earthquake and catfish prints", u: "https://pressbooks.bccampus.ca/meijiat150/chapter/the-ansei-edo-earthquake-and-catfish-prints/"}
+rom-namazu: {t: "Royal Ontario Museum, namazu-e: introduction", u: "https://www.rom.on.ca/learn/resources/namazu-e-catfish-prints-introduction-japanese-english-caption"}
+mcdowell-namazu: {t: "McDowell, Arts (2025): about 380 varieties in two days", u: "https://exa.ai/library/publication/5v72988j02k", conf: probable}
+cesaratto: {t: "Cesaratto, Smith & Leona (2018), synthetic dyes in Japanese prints", u: "https://exa.ai/library/publication/8cg9ypffrrh"}
+mi-1865: {t: "Messageries Impériales: the Yokohama branch line, 1865 (Scamp)", u: "http://www.hongkongstudycircle.com/Papers/009-Book-MESSAGERIES-IMPERIALES-Scamp/MI-MM-Book-presentation-to-SPH-2010.pdf"}
+mm-1870: {t: "Messageries Maritimes: Marseille–Yokohama through-sailings from 17 April 1870", u: "https://industrialhistoryhk.org/messageries-maritimes-french-shipping-line-advert-1905/"}
+pacific-mail: {t: "Pacific Mail Steamship Company: San Francisco–Yokohama from 1 January 1867", u: "https://en.wikipedia.org/wiki/Pacific_Mail_Steamship_Company"}
+nmwa-hayashi: {t: "National Museum of Western Art, Hayashi Tadamasa (2019)", u: "https://www.nmwa.go.jp/en/exhibitions/2019hayashi.html"}
+persee-hayashi: {t: "Persée, Hayashi Tadamasa’s exports (Ebisu, 2001)", u: "https://www.persee.fr/doc/ebisu_1340-3656_2001_num_27_1_1134"}
+agorha-hayashi: {t: "Agorha (INHA), Hayashi Tadamasa", u: "https://agorha.inha.fr/detail/657"}
+wiki-bing: {t: "Wikipedia, Siegfried Bing", u: "https://en.wikipedia.org/wiki/Siegfried_Bing"}
+vgm-japan: {t: "Van Gogh Museum, Van Gogh and Japan (660 prints, 1887)", u: "https://www.vangoghmuseum.nl/en/about/news-and-press/news/insights-van-gogh-japan"}
+vgm-bridge: {t: "Van Gogh Museum, Bridge in the Rain (after Hiroshige), 1887", u: "https://www.vangoghmuseum.nl/en/collection/s0115V1962"}
+mfa-prints: {t: "Museum of Fine Arts, Boston: Japanese prints (45,000; the Spaulding gift)", u: "https://collections.mfa.org/collections/449579"}
+metbull-wright: {t: "Met Bulletin, “Frank Lloyd Wright and Japanese Prints”", u: "https://architecture-history.org/library/AJ/Frank%20Lloyd%20Wright%20and%20Japanese%20Prints.pdf"}
+aic-1906: {t: "Art Institute of Chicago, Hiroshige Prints lent by Frank Lloyd Wright (1906)", u: "https://www.artic.edu/exhibitions/4333/hiroshige-prints-lent-by-frank-lloyd-wright"}
+aic-plum: {t: "Art Institute of Chicago, Plum Garden at Kameido (1925.3752), provenance", u: "https://api.artic.edu/api/v1/artworks/26577"}
+vjp-takamizawa: {t: "Viewing Japanese Prints, the Takamizawa “revamped” prints", u: "https://viewingjapaneseprints.net/texts/topics_faq/takamizawa.html"}
+hammer-wright: {t: "Hammer Museum, Frank Lloyd Wright and the Architecture of Japanese Prints", u: "https://hammer.ucla.edu/exhibitions/2005/wright-and-the-architecture-of-japanese-prints"}
+boj-note: {t: "Bank of Japan, the new banknotes of 3 July 2024", u: "https://www.boj.or.jp/en/note_tfjgs/note/n_note/index.htm"}
+npb-1000: {t: "National Printing Bureau, the new 1,000-yen design", u: "https://www.npb.go.jp/en/n_banknote/design01/"}
+vermeulen: {t: "Vermeulen & Leona (2019): the Met holds all 46 Fuji designs in 121 impressions", u: "https://exa.ai/library/publication/42djwv24w3m"}
+met-wave-record: {t: "The Met, JP1847, Under the Wave off Kanagawa (H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929)", u: "https://www.metmuseum.org/art/collection/search/45434"}
+loc-1859: {t: "Library of Congress, Ansei kaisei Oedo ōezu, 1859 (free to use)", u: "https://www.loc.gov/item/77694812/"}
+wiki-eras: {t: "Wikipedia, Japanese era name (the nengō list)", u: "https://en.wikipedia.org/wiki/Japanese_era_name"}
+voc-route: {t: "Dutch-Asiatic Shipping (Huygens ING): Texel, the Cape, Batavia; Nagasaki ships each summer", u: "https://resources.huygens.knaw.nl/das/voyages"}
+wiki-dejima: {t: "Wikipedia, Dejima", u: "https://en.wikipedia.org/wiki/Dejima"}

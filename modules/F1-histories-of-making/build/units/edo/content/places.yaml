@@ -1,0 +1,2154 @@
+georef:
+  map: map-edo-1859
+  note: Affine fit to six landmarks on the 1859 map; residuals 70–220 m.
+  M:
+  - - -3.8200439443326135
+    - 292.04036824669066
+  - - 268.29506203921846
+    - -22.135003592097405
+  - - 2236.990619350748
+    - 1901.698492437832
+  lat0: 35.69
+  lon0: 139.77
+  W: 3964
+  H: 3545
+world:
+  edo:
+    name: Edo
+    kanji: 江戸
+    lat: 35.6883
+    lon: 139.7544
+  tokyo:
+    name: Tokyo
+    kanji: 東京
+    lat: 35.6894
+    lon: 139.6917
+  kyoto:
+    name: Kyoto
+    kanji: 京都
+    lat: 35.0116
+    lon: 135.7681
+  osaka:
+    name: Osaka
+    kanji: 大坂
+    lat: 34.6938
+    lon: 135.5021
+  nagasaki:
+    name: Nagasaki · Dejima
+    kanji: 長崎
+    lat: 32.7435
+    lon: 129.873
+  kanagawa:
+    name: Kanagawa
+    kanji: 神奈川
+    lat: 35.475
+    lon: 139.633
+  yokohama:
+    name: Yokohama
+    kanji: 横浜
+    lat: 35.4503
+    lon: 139.6342
+  yokohama-off:
+    name: The wave, off Kanagawa
+    kanji: ''
+    lat: 35.43
+    lon: 139.7
+    kind: note
+  fuji:
+    name: Mount Fuji
+    kanji: 富士山
+    lat: 35.3606
+    lon: 138.7275
+    kind: mountain
+  echizen:
+    name: Echizen
+    kanji: 越前
+    lat: 35.9035
+    lon: 136.1688
+  berlin:
+    name: Berlin
+    lat: 52.52
+    lon: 13.405
+  amsterdam:
+    name: Amsterdam
+    lat: 52.3667
+    lon: 4.8833
+  cape:
+    name: Cape of Good Hope
+    lat: -33.9253
+    lon: 18.4239
+  batavia:
+    name: Batavia
+    lat: -6.1348
+    lon: 106.8132
+  china:
+    name: Chinese junks
+    lat: 30.0
+    lon: 122.0
+    kind: region
+  marseille:
+    name: Marseille
+    lat: 43.2967
+    lon: 5.3764
+  suez:
+    name: Suez
+    lat: 29.97
+    lon: 32.55
+  aden:
+    name: Aden
+    lat: 12.8
+    lon: 45.03
+  galle:
+    name: Galle
+    lat: 6.0328
+    lon: 80.2156
+  singapore:
+    name: Singapore
+    lat: 1.29
+    lon: 103.85
+  hongkong:
+    name: Hong Kong
+    lat: 22.2783
+    lon: 114.1586
+  paris:
+    name: Paris
+    lat: 48.8567
+    lon: 2.3522
+  london:
+    name: London
+    lat: 51.5074
+    lon: -0.1278
+  sanfrancisco:
+    name: San Francisco
+    lat: 37.775
+    lon: -122.4194
+  chicago:
+    name: Chicago
+    lat: 41.8819
+    lon: -87.6278
+  boston:
+    name: Boston
+    lat: 42.3603
+    lon: -71.0578
+  washington:
+    name: Washington
+    lat: 38.9072
+    lon: -77.0369
+  newyork:
+    name: New York
+    lat: 40.7794
+    lon: -73.9632
+routes:
+  perry:
+    label: Perry’s squadron, 1852–53
+    stops:
+    - name: Norfolk
+      lat: 36.8469
+      lon: -76.2853
+      stop: true
+      date: 24 Nov 1852
+    - name: ''
+      lat: 30
+      lon: -45
+      stop: false
+    - name: Madeira
+      lat: 32.65
+      lon: -16.9167
+      stop: true
+      date: Dec 1852
+    - name: ''
+      lat: 12
+      lon: -22
+      stop: false
+    - name: ''
+      lat: 0
+      lon: -14
+      stop: false
+    - name: St Helena
+      lat: -15.9251
+      lon: -5.7179
+      stop: true
+      date: Jan 1853
+    - name: Cape Town
+      lat: -33.9253
+      lon: 18.4239
+      stop: true
+      date: Jan–Feb 1853
+    - name: ''
+      lat: -36
+      lon: 30
+      stop: false
+    - name: Mauritius
+      lat: -20.1619
+      lon: 57.4989
+      stop: true
+      date: Feb 1853
+    - name: Ceylon
+      lat: 6.0328
+      lon: 80.2156
+      stop: true
+      date: Mar 1853
+    - name: ''
+      lat: 6.3
+      lon: 94.5
+      stop: false
+    - name: ''
+      lat: 3.5
+      lon: 99.8
+      stop: false
+    - name: Singapore
+      lat: 1.29
+      lon: 103.85
+      stop: true
+      date: Mar 1853
+    - name: ''
+      lat: 9
+      lon: 109.5
+      stop: false
+    - name: Hong Kong
+      lat: 22.2783
+      lon: 114.1586
+      stop: true
+      date: Apr 1853
+    - name: ''
+      lat: 25
+      lon: 120.2
+      stop: false
+    - name: Shanghai
+      lat: 31.2325
+      lon: 121.4692
+      stop: true
+      date: May 1853
+    - name: Naha
+      lat: 26.2122
+      lon: 127.6792
+      stop: true
+      date: May–Jun 1853
+    - name: Bonin Islands
+      lat: 27.0667
+      lon: 142.2083
+      stop: true
+      date: Jun 1853
+    - name: ''
+      lat: 33.5
+      lon: 140.2
+      stop: false
+    - name: Uraga
+      lat: 35.2475
+      lon: 139.714
+      stop: true
+      date: 8 Jul 1853
+  voc:
+    label: Dutch ships, via the Cape and Batavia
+    stops:
+    - name: Amsterdam
+      lat: 52.3667
+      lon: 4.8833
+      stop: true
+    - name: ''
+      lat: 53.07
+      lon: 4.8
+      stop: false
+    - name: ''
+      lat: 50.6
+      lon: 0.5
+      stop: false
+    - name: ''
+      lat: 47
+      lon: -8
+      stop: false
+    - name: ''
+      lat: 20
+      lon: -24
+      stop: false
+    - name: ''
+      lat: -10
+      lon: -20
+      stop: false
+    - name: Cape of Good Hope
+      lat: -33.9253
+      lon: 18.4239
+      stop: true
+    - name: ''
+      lat: -38
+      lon: 45
+      stop: false
+    - name: ''
+      lat: -36
+      lon: 80
+      stop: false
+    - name: ''
+      lat: -20
+      lon: 102
+      stop: false
+    - name: ''
+      lat: -6.2
+      lon: 105.6
+      stop: false
+    - name: Batavia
+      lat: -6.1348
+      lon: 106.8132
+      stop: true
+    - name: ''
+      lat: 3
+      lon: 108.5
+      stop: false
+    - name: ''
+      lat: 12
+      lon: 112.5
+      stop: false
+    - name: ''
+      lat: 21
+      lon: 117.5
+      stop: false
+    - name: ''
+      lat: 27
+      lon: 124
+      stop: false
+    - name: Nagasaki
+      lat: 32.7435
+      lon: 129.873
+      stop: true
+  berlin:
+    label: Berlin to Amsterdam
+    stops:
+    - name: Berlin
+      lat: 52.52
+      lon: 13.405
+      stop: true
+    - name: Amsterdam
+      lat: 52.3667
+      lon: 4.8833
+      stop: true
+    land: true
+  china:
+    label: Chinese junks, from 1824
+    stops:
+    - name: China
+      lat: 30.0
+      lon: 122.0
+      stop: true
+    - name: ''
+      lat: 31.0
+      lon: 126.0
+      stop: false
+    - name: Nagasaki
+      lat: 32.7435
+      lon: 129.873
+      stop: true
+  mm:
+    label: Messageries Maritimes, from 1870
+    stops:
+    - name: Marseille
+      lat: 43.2967
+      lon: 5.3764
+      stop: true
+    - name: ''
+      lat: 38.2
+      lon: 15.6
+      stop: false
+    - name: ''
+      lat: 33.5
+      lon: 26
+      stop: false
+    - name: Port Said
+      lat: 31.26
+      lon: 32.3
+      stop: true
+    - name: Suez
+      lat: 29.97
+      lon: 32.55
+      stop: true
+    - name: ''
+      lat: 20
+      lon: 38.8
+      stop: false
+    - name: Aden
+      lat: 12.8
+      lon: 45.03
+      stop: true
+    - name: ''
+      lat: 12
+      lon: 55
+      stop: false
+    - name: Galle
+      lat: 6.0328
+      lon: 80.2156
+      stop: true
+    - name: ''
+      lat: 6.3
+      lon: 94.5
+      stop: false
+    - name: ''
+      lat: 3.5
+      lon: 99.8
+      stop: false
+    - name: Singapore
+      lat: 1.29
+      lon: 103.85
+      stop: true
+    - name: ''
+      lat: 9
+      lon: 109.5
+      stop: false
+    - name: Hong Kong
+      lat: 22.2783
+      lon: 114.1586
+      stop: true
+    - name: ''
+      lat: 25
+      lon: 120.2
+      stop: false
+    - name: Shanghai
+      lat: 31.2325
+      lon: 121.4692
+      stop: true
+    - name: ''
+      lat: 32.5
+      lon: 128.5
+      stop: false
+    - name: ''
+      lat: 33
+      lon: 135
+      stop: false
+    - name: Yokohama
+      lat: 35.4503
+      lon: 139.6342
+      stop: true
+  pm:
+    label: Pacific Mail from 1867; the railroad from 1869
+    stops:
+    - name: Yokohama
+      lat: 35.4503
+      lon: 139.6342
+      stop: true
+    - name: ''
+      lat: 40
+      lon: 175
+      stop: false
+    - name: ''
+      lat: 40
+      lon: -145
+      stop: false
+    - name: San Francisco
+      lat: 37.775
+      lon: -122.4194
+      stop: true
+    - name: ''
+      lat: 41
+      lon: -112
+      stop: false
+    - name: Chicago
+      lat: 41.8819
+      lon: -87.6278
+      stop: true
+    - name: Boston
+      lat: 42.3603
+      lon: -71.0578
+      stop: true
+  hayashi:
+    label: Hayashi’s 218 shipments, 1884–95
+    stops:
+    - name: Yokohama
+      lat: 35.4503
+      lon: 139.6342
+      stop: true
+    - name: ''
+      lat: 33
+      lon: 135
+      stop: false
+    - name: ''
+      lat: 32.5
+      lon: 128.5
+      stop: false
+    - name: Shanghai
+      lat: 31.2325
+      lon: 121.4692
+      stop: true
+    - name: ''
+      lat: 25
+      lon: 120.2
+      stop: false
+    - name: Hong Kong
+      lat: 22.2783
+      lon: 114.1586
+      stop: true
+    - name: ''
+      lat: 9
+      lon: 109.5
+      stop: false
+    - name: Singapore
+      lat: 1.29
+      lon: 103.85
+      stop: true
+    - name: ''
+      lat: 3.5
+      lon: 99.8
+      stop: false
+    - name: ''
+      lat: 6.3
+      lon: 94.5
+      stop: false
+    - name: Galle
+      lat: 6.0328
+      lon: 80.2156
+      stop: true
+    - name: ''
+      lat: 12
+      lon: 55
+      stop: false
+    - name: Aden
+      lat: 12.8
+      lon: 45.03
+      stop: true
+    - name: ''
+      lat: 20
+      lon: 38.8
+      stop: false
+    - name: Suez
+      lat: 29.97
+      lon: 32.55
+      stop: true
+    - name: Port Said
+      lat: 31.26
+      lon: 32.3
+      stop: true
+    - name: ''
+      lat: 33.5
+      lon: 26
+      stop: false
+    - name: ''
+      lat: 38.2
+      lon: 15.6
+      stop: false
+    - name: Marseille
+      lat: 43.2967
+      lon: 5.3764
+      stop: true
+    - name: Paris
+      lat: 48.8567
+      lon: 2.3522
+      stop: true
+    counter: 218
+links:
+  tokuno:
+  - tokyo
+  - washington
+  sheet:
+  - echizen
+  - edo
+  - newyork
+tokaido:
+- n: 0
+  name: Nihonbashi
+  kanji: 日本橋
+  lat: 35.68406
+  lon: 139.77451
+- n: 1
+  name: Shinagawa
+  kanji: 品川宿
+  lat: 35.619974
+  lon: 139.742148
+- n: 2
+  name: Kawasaki
+  kanji: 川崎宿
+  lat: 35.53251
+  lon: 139.70292
+- n: 3
+  name: Kanagawa
+  kanji: 神奈川宿
+  lat: 35.474995
+  lon: 139.632958
+- n: 4
+  name: Hodogaya
+  kanji: 程ヶ谷宿
+  lat: 35.444028
+  lon: 139.595556
+- n: 5
+  name: Totsuka
+  kanji: 戸塚宿
+  lat: 35.395028
+  lon: 139.529861
+- n: 6
+  name: Fujisawa
+  kanji: 藤沢宿
+  lat: 35.34775
+  lon: 139.48294444
+- n: 7
+  name: Hiratsuka
+  kanji: 平塚宿
+  lat: 35.327278
+  lon: 139.337806
+- n: 8
+  name: Ōiso
+  kanji: 大磯宿
+  lat: 35.309073
+  lon: 139.315203
+- n: 9
+  name: Odawara
+  kanji: 小田原宿
+  lat: 35.248573
+  lon: 139.160525
+- n: 10
+  name: Hakone
+  kanji: 箱根宿
+  lat: 35.189493
+  lon: 139.025375
+- n: 11
+  name: Mishima
+  kanji: 三島宿
+  lat: 35.11931
+  lon: 138.91447
+- n: 12
+  name: Numazu
+  kanji: 沼津宿
+  lat: 35.096122
+  lon: 138.856815
+- n: 13
+  name: Hara
+  kanji: 原宿
+  lat: 35.125262
+  lon: 138.797854
+- n: 14
+  name: Yoshiwara
+  kanji: 吉原宿
+  lat: 35.1625
+  lon: 138.68777778
+- n: 15
+  name: Kanbara
+  kanji: 蒲原宿
+  lat: 35.119956
+  lon: 138.605569
+- n: 16
+  name: Yui
+  kanji: 由比宿
+  lat: 35.0914
+  lon: 138.549
+- n: 17
+  name: Okitsu
+  kanji: 興津宿
+  lat: 35.049528
+  lon: 138.518864
+- n: 18
+  name: Ejiri
+  kanji: 江尻宿
+  lat: 35.02349
+  lon: 138.48704
+- n: 19
+  name: Fuchū
+  kanji: 府中宿
+  lat: 34.9747
+  lon: 138.387686
+- n: 20
+  name: Mariko
+  kanji: 鞠子宿
+  lat: 34.9525
+  lon: 138.34472222
+- n: 21
+  name: Okabe
+  kanji: 岡部宿
+  lat: 34.918847
+  lon: 138.282312
+- n: 22
+  name: Fujieda
+  kanji: 藤枝宿
+  lat: 34.870393
+  lon: 138.252862
+- n: 23
+  name: Shimada
+  kanji: 島田宿
+  lat: 34.83472222
+  lon: 138.16583333
+- n: 24
+  name: Kanaya
+  kanji: 金谷宿
+  lat: 34.8227
+  lon: 138.128741
+- n: 25
+  name: Nissaka
+  kanji: 日坂宿
+  lat: 34.80277778
+  lon: 138.07583333
+- n: 26
+  name: Kakegawa
+  kanji: 掛川宿
+  lat: 34.772927
+  lon: 138.015895
+- n: 27
+  name: Fukuroi
+  kanji: 袋井宿
+  lat: 34.747516
+  lon: 137.923326
+- n: 28
+  name: Mitsuke
+  kanji: 見附宿
+  lat: 34.726838
+  lon: 137.857
+- n: 29
+  name: Hamamatsu
+  kanji: 浜松宿
+  lat: 34.706018
+  lon: 137.728045
+- n: 30
+  name: Maisaka
+  kanji: 舞阪宿
+  lat: 34.684626
+  lon: 137.608976
+- n: 31
+  name: Arai
+  kanji: 新居宿
+  lat: 34.69472
+  lon: 137.56133
+- n: 32
+  name: Shirasuka
+  kanji: 白須賀宿
+  lat: 34.68858
+  lon: 137.500845
+- n: 33
+  name: Futagawa
+  kanji: 二川宿
+  lat: 34.72329
+  lon: 137.44982
+- n: 34
+  name: Yoshida
+  kanji: 吉田宿
+  lat: 34.766647
+  lon: 137.389618
+- n: 35
+  name: Goyu
+  kanji: 御油宿
+  lat: 34.8126
+  lon: 137.3165
+- n: 36
+  name: Akasaka
+  kanji: 赤坂宿
+  lat: 34.857
+  lon: 137.308
+- n: 37
+  name: Fujikawa
+  kanji: 藤川宿
+  lat: 34.911
+  lon: 137.223
+- n: 38
+  name: Okazaki
+  kanji: 岡崎宿
+  lat: 34.957956
+  lon: 137.169232
+- n: 39
+  name: Chiryū
+  kanji: 池鯉鮒宿
+  lat: 35.008
+  lon: 137.041
+- n: 40
+  name: Narumi
+  kanji: 鳴海宿
+  lat: 35.08049722222222
+  lon: 136.94975555555556
+- n: 41
+  name: Miya
+  kanji: 宮宿
+  lat: 35.1289
+  lon: 136.9143
+- n: 42
+  name: Kuwana
+  kanji: 桑名宿
+  lat: 35.06841
+  lon: 136.696094
+- n: 43
+  name: Yokkaichi
+  kanji: 四日市宿
+  lat: 34.970538
+  lon: 136.625487
+- n: 44
+  name: Ishiyakushi
+  kanji: 石薬師宿
+  lat: 34.89666667
+  lon: 136.55055556
+- n: 45
+  name: Shōno
+  kanji: 庄野宿
+  lat: 34.89209722
+  lon: 136.52578889
+- n: 46
+  name: Kameyama
+  kanji: 亀山宿
+  lat: 34.854765
+  lon: 136.454365
+- n: 47
+  name: Seki
+  kanji: 関宿
+  lat: 34.85166389
+  lon: 136.40035278
+- n: 48
+  name: Sakashita
+  kanji: 坂下宿
+  lat: 34.888588
+  lon: 136.354073
+- n: 49
+  name: Tsuchiyama
+  kanji: 土山宿
+  lat: 34.934838
+  lon: 136.282336
+- n: 50
+  name: Minakuchi
+  kanji: 水口宿
+  lat: 34.966188
+  lon: 136.182085
+- n: 51
+  name: Ishibe
+  kanji: 石部宿
+  lat: 35.010129
+  lon: 136.054554
+- n: 52
+  name: Kusatsu
+  kanji: 草津宿
+  lat: 35.01766667
+  lon: 135.96047222
+- n: 53
+  name: Ōtsu
+  kanji: 大津宿
+  lat: 35.00597222
+  lon: 135.86141667
+- n: 54
+  name: Kyoto (Sanjō Ōhashi)
+  kanji: 三条大橋
+  lat: 35.00907222
+  lon: 135.77173611
+tokaidoPrints:
+  0: nihonbashi
+  1: t-shinagawa
+  3: t-kanagawa
+  10: t-hakone
+  11: t-mishima
+  15: t-kanbara
+  16: t-yui
+  45: t-shono
+  54: t-kyoto
+city:
+  castle:
+    name: Edo Castle
+    kanji: 江戸城
+    lat: 35.688
+    lon: 139.7536
+    xy:
+    - 55.08
+    - 41.57
+  nihonbashi:
+    name: Nihonbashi
+    kanji: 日本橋
+    lat: 35.68406
+    lon: 139.77451
+    xy:
+    - 51.95
+    - 57.41
+  ryogoku:
+    name: Ryōgoku Bridge
+    kanji: 両国橋
+    lat: 35.69386
+    lon: 139.78875
+    xy:
+    - 59.16
+    - 67.34
+  honjo:
+    name: Honjo
+    kanji: 本所
+    lat: 35.7038
+    lon: 139.8023
+    xy:
+    - 66.48
+    - 76.75
+  yoshiwara:
+    name: Shin-Yoshiwara
+    kanji: 新吉原
+    lat: 35.72399
+    lon: 139.79569
+    xy:
+    - 81.65
+    - 70.43
+  yoshiwara-old:
+    name: The old Yoshiwara, to 1657
+    kanji: 元吉原
+    lat: 35.6875
+    lon: 139.7805
+    xy:
+    - 54.47
+    - 61.64
+    approx: true
+  asakusa:
+    name: Asakusa · Sensō-ji
+    kanji: 浅草寺
+    lat: 35.7148
+    lon: 139.7967
+    xy:
+    - 74.76
+    - 71.82
+  saruwakacho:
+    name: 'Saruwaka-chō: the theatres from 1842'
+    kanji: 猿若町
+    lat: 35.7175
+    lon: 139.800944
+    xy:
+    - 76.74
+    - 74.79
+  sakaicho:
+    name: 'Sakai-chō: the Nakamura theatre'
+    kanji: 堺町
+    lat: 35.687
+    lon: 139.7828
+    xy:
+    - 54.08
+    - 63.39
+    approx: true
+  fukiyacho:
+    name: 'Fukiya-chō: the Ichimura theatre'
+    kanji: 葺屋町
+    lat: 35.6863
+    lon: 139.7818
+    xy:
+    - 53.56
+    - 62.69
+    approx: true
+  kobikicho:
+    name: 'Kobiki-chō: the Morita theatre'
+    kanji: 木挽町
+    lat: 35.66944
+    lon: 139.76778
+    xy:
+    - 41.07
+    - 53.41
+    approx: true
+  toriaburacho:
+    name: 'Tōri Abura-chō: Tsutaya’s shop from 1783'
+    kanji: 通油町
+    lat: 35.690639
+    lon: 139.78025
+    xy:
+    - 56.82
+    - 61.23
+  yoshiwara-gate:
+    name: 'Gojikken road: Tsutaya’s first shop'
+    kanji: 五十間道
+    lat: 35.7232
+    lon: 139.7942
+    xy:
+    - 81.07
+    - 69.38
+    approx: true
+  bakurocho:
+    name: 'Bakuro-chō: Eijudō'
+    kanji: 馬喰町
+    lat: 35.694611
+    lon: 139.783139
+    xy:
+    - 59.77
+    - 63.11
+  shinohashi:
+    name: Shin-Ōhashi
+    kanji: 新大橋
+    lat: 35.685278
+    lon: 139.793056
+    xy:
+    - 52.7
+    - 71.14
+  hongo:
+    name: 'Hongō: the first fire'
+    kanji: 本郷
+    lat: 35.7095
+    lon: 139.76
+    xy:
+    - 71.11
+    - 44.85
+    approx: true
+  koishikawa:
+    name: 'Koishikawa: the second fire'
+    kanji: 小石川
+    lat: 35.7149
+    lon: 139.7468
+    xy:
+    - 75.27
+    - 34.65
+    approx: true
+  kojimachi:
+    name: 'Kōjimachi: the third fire'
+    kanji: 麹町
+    lat: 35.6845
+    lon: 139.7365
+    xy:
+    - 52.61
+    - 29.07
+    approx: true
+  ueno:
+    name: Ueno · Kan’ei-ji
+    kanji: 寛永寺
+    lat: 35.7115
+    lon: 139.7707
+    xy:
+    - 72.52
+    - 52.68
+  shiba:
+    name: Shiba · Zōjō-ji
+    kanji: 増上寺
+    lat: 35.6575
+    lon: 139.7483
+    xy:
+    - 32.3
+    - 39.73
+views:
+- n: 1
+  t: 'Nihonbashi: Clearing after Snow'
+  ja: 日本橋雪晴
+  season: spring
+  xy:
+  - 51.92
+  - 57.37
+  file: File:100 views edo 001.jpg
+- n: 2
+  t: Kasumigaseki
+  ja: 霞がせき
+  season: spring
+  xy:
+  - 45.89
+  - 38.97
+  file: File:100 views edo 002.jpg
+- n: 3
+  t: Hibiya and Soto-Sakurada from Yamashita-chō
+  ja: 山下町日比谷外さくら田
+  season: spring
+  xy:
+  - 43.21
+  - 48.19
+  file: File:100 views edo 003.jpg
+- n: 4
+  t: Tsukudajima and Eitai Bridge
+  ja: 永代橋佃しま
+  season: spring
+  xy:
+  - 47.01
+  - 67.47
+  file: File:100 views edo 004.jpg
+- n: 5
+  t: Ekōin Temple in Ryōgoku and Moto-Yanagi Bridge
+  ja: 両ごく回向院元柳橋
+  season: spring
+  xy:
+  - 58.74
+  - 69.76
+  file: File:100 views edo 005.jpg
+- n: 6
+  t: Hatsune Riding Ground in Bakuro-chō
+  ja: 馬喰町初音の馬場
+  season: spring
+  xy:
+  - 59.77
+  - 63.11
+  file: File:100 views edo 006.jpg
+- n: 7
+  t: Shops with Cotton Goods in Ōdenma-chō
+  ja: 大てんま町木綿店
+  season: spring
+  xy:
+  - 55.28
+  - 58.48
+  file: File:100 views edo 007.jpg
+- n: 8
+  t: Suruga-chō
+  ja: する賀てふ
+  season: spring
+  xy:
+  - 53.59
+  - 56.84
+  file: File:100 views edo 008.jpg
+- n: 9
+  t: Yatsukōji, Inside Sujikai Gate
+  ja: 筋違内八ツ小路
+  season: spring
+  xy:
+  - 61.95
+  - 52.56
+  file: File:100 views edo 009.jpg
+- n: 10
+  t: Sunrise at Kanda Myōjin Shrine
+  ja: 神田明神曙之景
+  season: spring
+  xy:
+  - 65.39
+  - 51.27
+  file: File:100 views edo 010.jpg
+- n: 11
+  t: Kiyomizu Hall and Shinobazu Pond at Ueno
+  ja: 上野清水堂不忍ノ池
+  season: spring
+  xy:
+  - 73.32
+  - 54.73
+  file: File:100 views edo 011.jpg
+- n: 12
+  t: Ueno Yamashita
+  ja: 上野山した
+  season: spring
+  xy:
+  - 71.79
+  - 54.81
+  file: File:100 views edo 012.jpg
+- n: 13
+  t: Shitaya Hirokōji
+  ja: 下谷広小路
+  season: spring
+  xy:
+  - 69.17
+  - 54.47
+  file: File:100 views edo 013.jpg
+- n: 14
+  t: Temple Gardens in Nippori
+  ja: 日暮里寺院の林泉
+  season: spring
+  xy:
+  - 87.19
+  - 47.85
+  file: File:100 views edo 014.jpg
+- n: 15
+  t: Suwa Bluff in Nippori
+  ja: 日暮里諏訪の台
+  season: spring
+  xy:
+  - 87.04
+  - 48.65
+  file: File:100 views edo 015.jpg
+- n: 16
+  t: Flower Park and Dangozaka Slope in Sendagi
+  ja: 千駄木団子坂花屋敷
+  season: spring
+  xy:
+  - 82.81
+  - 44.68
+  file: File:100 views edo 016.jpg
+- n: 17
+  t: View to the North from Asukayama
+  ja: 飛鳥山北の眺望
+  season: spring
+  xy:
+  - 102.65
+  - 25.82
+  file: File:100 views edo 017.jpg
+- n: 18
+  t: The Ōji Inari Shrine
+  ja: 王子稲荷の社
+  season: spring
+  xy:
+  - 106.21
+  - 21.77
+  file: File:100 views edo 018.jpg
+- n: 19
+  t: Dam on the Otonashi River at Ōji, known as "The Great Waterfall"
+  ja: 王子音無川堰棣 世俗大瀧ト唱
+  season: spring
+  xy:
+  - 103.3
+  - 23.84
+  file: File:100 views edo 019.jpg
+- n: 20
+  t: The Kawaguchi Ferry and Zenkōji temple
+  ja: 川口のわたし善光寺
+  season: spring
+  xy:
+  - 134.6
+  - 10.2
+  file: File:100 views edo 020.jpg
+- n: 21
+  t: Mount Atago in Shiba
+  ja: 芝愛宕山
+  season: spring
+  xy:
+  - 37.75
+  - 39.33
+  file: File:100 views edo 021.jpg
+- n: 22
+  t: Hiroo on Furukawa River
+  ja: 広尾ふる川
+  season: spring
+  xy:
+  - 24.69
+  - 28.01
+  file: File:100 views edo 022.jpg
+- n: 23
+  t: Chiyogaike Pond in Meguro
+  ja: 目黒千代か池川
+  season: spring
+  xy:
+  - 17.64
+  - 14.65
+  file: File:100 views edo 023.jpg
+- n: 24
+  t: New Fuji in Meguro
+  ja: 目黒新富士
+  season: spring
+  xy:
+  - 22.18
+  - 8.34
+  file: File:100 views edo 024.jpg
+- n: 25
+  t: The Original Fuji in Meguro
+  ja: 目黒元不二
+  season: spring
+  xy:
+  - 24.6
+  - 5.26
+  file: File:100 views edo 025.jpg
+- n: 26
+  t: The "Armour-Hanging Pine" at Hakkeizaka Bluff
+  ja: 八景坂鎧掛松
+  season: spring
+  xy:
+  - -19.15
+  - 28.52
+  file: File:100 views edo 026.jpg
+- n: 27
+  t: Plum Orchard in Kamada
+  ja: 蒲田の梅園
+  season: spring
+  xy:
+  - -36.95
+  - 30.22
+  file: File:100 views edo 027.jpg
+- n: 28
+  t: Palace Hill in Shinagawa
+  ja: 品川御殿やま
+  season: spring
+  xy:
+  - 5.08
+  - 35.69
+  file: File:100 views edo 028.jpg
+- n: 29
+  t: Moto-Hachiman Shrine in Sunamura
+  ja: 砂むら元八まん
+  season: spring
+  xy:
+  - 40.34
+  - 105.48
+  file: File:100 views edo 029.jpg
+- n: 30
+  t: Plum Park in Kameido
+  ja: 亀戸梅屋舗
+  season: spring
+  xy:
+  - 66.84
+  - 92.8
+  file: File:De pruimenboomgaard te Kameido-Rijksmuseum RP-P-1956-743.jpeg
+- n: 31
+  t: Azuma no mori Shrine and the Entwined Camphor
+  ja: 吾嬬の森連理の梓
+  season: spring
+  xy:
+  - 67.56
+  - 94.86
+  file: File:100 views edo 031.jpg
+- n: 32
+  t: The Yanagishima
+  ja: 柳しま
+  season: spring
+  xy:
+  - 69.17
+  - 88.41
+  file: File:100 views edo 032.jpg
+- n: 33
+  t: Towboats Along the Yotsugi-dōri Canal
+  ja: 四ツ木通用水引ふね
+  season: spring
+  xy:
+  - 89.9
+  - 98.5
+  file: File:100 views edo 033.jpg
+- n: 34
+  t: Night View of Matsuchiyama and the San'ya Canal
+  ja: 真乳山山谷堀夜景
+  season: spring
+  xy:
+  - 75.51
+  - 79.02
+  file: File:100 views edo 034.jpg
+- n: 35
+  t: Suijin Shrine and Massaki on the Sumida River
+  ja: 隅田川水神の森真崎
+  season: spring
+  xy:
+  - 88.07
+  - 82.51
+  file: File:100 views edo 035.jpg
+- n: 36
+  t: View From Massaki of Suijin Shrine, Uchigawa Inlet, and Sekiya
+  ja: 真崎辺より水神の森内川関屋の里を見る図
+  season: spring
+  xy:
+  - 85.82
+  - 79.52
+  file: File:100 views edo 036.jpg
+- n: 37
+  t: Kilns and the Hashiba Ferry on the Sumida River
+  ja: 墨田河橋場の渡かわら竈
+  season: spring
+  xy:
+  - 84.57
+  - 80.6
+  file: File:100 views edo 037.jpg
+- n: 38
+  t: Dawn Inside the Yoshiwara
+  ja: 廓中東雲
+  season: spring
+  xy:
+  - 81.82
+  - 70.71
+  file: File:100 views edo 038.jpg
+- n: 39
+  t: Distant View of Kinryūzan Temple and the Azuma Bridge
+  ja: 吾妻橋金龍山遠望
+  season: spring
+  xy:
+  - 74.43
+  - 77.41
+  file: File:100 views edo 039.jpg
+- n: 40
+  t: Bashō's Hermitage on Camellia Hill beside the Aqueduct at Sekiguchi
+  ja: せき口上水端はせを庵椿やま
+  season: spring
+  xy:
+  - 73.53
+  - 17.47
+  file: File:100 views edo 040.jpg
+- n: 41
+  t: Hachiman Shrine in Ichigaya
+  ja: 市ヶ谷八幡
+  season: spring
+  xy:
+  - 58.79
+  - 26.46
+  file: File:100 views edo 041.jpg
+- n: 42
+  t: Cherry Blossoms on the Banks of the Tama River
+  ja: 玉川堤の花
+  season: spring
+  xy:
+  - 56.52
+  - 3.21
+  file: File:100 views edo 042.jpg
+- n: 43
+  t: Nihonbashi Bridge and Edobashi Bridge
+  ja: 日本橋江戸ばし
+  season: summer
+  xy:
+  - 52.07
+  - 57.52
+  file: File:100 views edo 043.jpg
+- n: 44
+  t: View of Nihonbashi itchōme Street
+  ja: 日本橋通一丁目略図
+  season: summer
+  xy:
+  - 50.79
+  - 56.58
+  file: File:100 views edo 044.jpg
+- n: 45
+  t: Yatsumi Bridge
+  ja: 八ツ見のはし
+  season: summer
+  xy:
+  - 52.41
+  - 55.01
+  file: File:100 views edo 062.jpg
+- n: 46
+  t: Yoroi Ferry, Koami-chō
+  ja: 鎧の渡し小網町
+  season: summer
+  xy:
+  - 50.55
+  - 61.61
+  file: File:100 views edo 045.jpg
+- n: 47
+  t: Seidō and Kanda River from Shōhei Bridge
+  ja: 昌平橋聖堂神田川
+  season: summer
+  xy:
+  - 62.68
+  - 52.24
+  file: File:100 views edo 046.jpg
+- n: 48
+  t: Suidō Bridge and the Surugadai Quarter
+  ja: 水道橋駿河台
+  season: summer
+  xy:
+  - 65.6
+  - 41.84
+  file: File:100 views edo 063.jpg
+- n: 49
+  t: Fudō Falls in Ōji
+  ja: 王子不動之滝
+  season: summer
+  xy:
+  - 102.9
+  - 22.2
+  file: File:Fudo Wasserfall r.jpg
+- n: 50
+  t: Kumano Jūnisha Shrine at Tsunohazu, known as "Jūnisō"
+  ja: 角筈熊野十二社 俗称十二そう
+  season: summer
+  xy:
+  - 57.46
+  - -7.32
+  file: File:Hiroshige, Kumanojūnisha Shrine, 1856.jpg
+- n: 51
+  t: The Sannō  Festival Procession at Kōjimachi itchōme
+  ja: 糀町一丁目山王祭ねり込
+  season: summer
+  xy:
+  - 50.21
+  - 35.51
+  file: File:100 views edo 065.jpg
+- n: 52
+  t: The Paulownia Garden at Akasaka
+  ja: 赤坂桐畑
+  season: summer
+  xy:
+  - 44.86
+  - 30.84
+  file: File:100 views edo 048.jpg
+- n: 53
+  t: The Pagoda of Zōjōji Temple and Akabane
+  ja: 増上寺塔赤羽根
+  season: summer
+  xy:
+  - 30.17
+  - 39.33
+  file: File:100 views edo 049.jpg
+- n: 54
+  t: The Benkei Moat from Soto-Sakurada to Kōjimachi
+  ja: 外桜田弁慶堀糀町
+  season: summer
+  xy:
+  - 47.1
+  - 40.08
+  file: File:100 views edo 066.jpg
+- n: 55
+  t: The Sumiyoshi Festival at Tsukudajima
+  ja: 佃しま住吉の祭
+  season: summer
+  xy:
+  - 39.85
+  - 65.09
+  file: File:Hiroshige, Sumiyoshi festival, Tsukudajima, 1857.jpg
+- n: 56
+  t: Mannen Bridge in Fukagawa
+  ja: 深川萬年橋
+  season: summer
+  xy:
+  - 51.34
+  - 72.05
+  file: File:100 views edo 051.jpg
+- n: 57
+  t: Mitsumata Wakarenofuchi
+  ja: みつまたわかれの淵
+  season: summer
+  xy:
+  - 50.29
+  - 69.71
+  file: File:100 views edo 067.jpg
+- n: 58
+  t: Sudden Shower over Shin-Ōhashi bridge and Atake
+  ja: 大はしあたけの夕立
+  season: summer
+  xy:
+  - 52.7
+  - 71.14
+  file: File:Hiroshige Atake sous une averse soudaine.jpg
+- n: 59
+  t: Ryōgoku Bridge and the Great Riverbank
+  ja: 両国橋大川ばた
+  season: summer
+  xy:
+  - 58.57
+  - 66.61
+  file: File:Brooklyn Museum - Ryogoku Bridge and the Great Riverbank No 59 from One Hundred Views of Edo - Utagawa Hiroshige (Ando).jpg
+- n: 60
+  t: Asakusa River, Miyato River, Great Riverbank
+  ja: 浅草川大川端宮戸川
+  season: summer
+  xy:
+  - 59.25
+  - 66.69
+  file: File:100 views edo 068.jpg
+- n: 61
+  t: The "Pine of Success" and Oumayagashi on the Asakusa River
+  ja: 浅草川首尾の松御厩河岸
+  season: summer
+  xy:
+  - 64.14
+  - 69.43
+  file: File:100 views edo oumaya.jpg
+- n: 62
+  t: Komakata Hall and Azuma Bridge
+  ja: 駒形堂吾嬬橋
+  season: summer
+  xy:
+  - 70.4
+  - 72.26
+  file: File:100 views edo 055.jpg
+- n: 63
+  t: The Ayase River and Kanegafuchi
+  ja: 綾瀬川鐘か淵
+  season: summer
+  xy:
+  - 93.25
+  - 83.94
+  file: File:100 views edo 069.jpg
+- n: 64
+  t: Horikiri Iris Garden
+  ja: 堀切の花菖蒲
+  season: summer
+  xy:
+  - 95.13
+  - 91.72
+  file: File:Hiroshige, Horikiri iris garden, 1857.jpg
+- n: 65
+  t: Inside Kameido Tenjin Shrine
+  ja: 亀戸天神境内
+  season: summer
+  xy:
+  - 65.11
+  - 90.77
+  file: File:100 views edo 057.jpg
+- n: 66
+  t: The Sazaidō Hall at the Five Hundred Rakan Temple
+  ja: 五百羅漢さゞゐ堂
+  season: summer
+  xy:
+  - 55.63
+  - 95.88
+  file: File:100 views edo 070.jpg
+- n: 67
+  t: The Ferry at Sakasai
+  ja: 逆井のわたし
+  season: summer
+  xy:
+  - 59.6
+  - 111.08
+  file: File:100 views edo 058.jpg
+- n: 68
+  t: Open Garden at the Hachiman Shrine in Fukagawa
+  ja: 深川八まん山ひらき
+  season: summer
+  xy:
+  - 43.51
+  - 75.3
+  file: File:100 views edo 059.jpg
+- n: 69
+  t: Sanjusangendō Hall in Fukagawa
+  ja: 深川三十三間堂
+  season: summer
+  xy:
+  - 42.42
+  - 78.35
+  file: File:100 views edo 071.jpg
+- n: 70
+  t: The mouth of the Nakagawa River
+  ja: 中川口
+  season: summer
+  xy:
+  - 53.06
+  - 111.0
+  file: File:100 views edo 060.jpg
+- n: 71
+  t: Scattered Pines on the Tone River
+  ja: 利根川ばらばらまつ
+  season: summer
+  xy:
+  - 46.27
+  - 141.18
+  file: File:100 views edo 061.jpg
+- n: 72
+  t: The Ferry at Haneda and the Benten Shrine
+  ja: はねたのわたし弁天の社
+  season: summer
+  xy:
+  - -53.09
+  - 43.7
+  file: File:100 views edo 072.jpg
+- n: 73
+  t: The City Flourishing, the Tanabata Festival
+  ja: 市中繁栄七夕祭
+  season: autumn
+  xy:
+  - 47.47
+  - 56.33
+  file: File:100 views edo 073.jpg
+- n: 74
+  t: Silk Shops in Ōdenma-chō
+  ja: 大伝馬町ごふく店
+  season: autumn
+  xy:
+  - 56.82
+  - 61.23
+  file: File:100 views edo 074.jpg
+- n: 75
+  t: The Dyers' Quarter in Kanda
+  ja: 神田紺屋町
+  season: autumn
+  xy:
+  - 57.64
+  - 56.84
+  file: File:Hiroshige Le quartier des teinturiers de Kanda.jpg
+- n: 76
+  t: Bamboo Quay by Kyōbashi Bridge
+  ja: 京橋竹がし
+  season: autumn
+  xy:
+  - 45.28
+  - 53.95
+  file: File:100 views edo 076.jpg
+- n: 77
+  t: Inari Bridge and the Minato Shrine in Teppōzu
+  ja: 鉄砲洲稲荷橋湊神社
+  season: autumn
+  xy:
+  - 44.18
+  - 62.32
+  file: File:100 views edo 077.jpg
+- n: 78
+  t: Teppōzu and Tsukiji Monzeki Temple
+  ja: 鉄砲洲築地門跡
+  season: autumn
+  xy:
+  - 38.88
+  - 63.22
+  file: File:100 views edo 078.jpg
+- n: 79
+  t: Shiba Shinmei Shrine and Zōjōji Temple
+  ja: 芝神明増上寺
+  season: autumn
+  xy:
+  - 31.77
+  - 44.14
+  file: File:100 views edo 079.jpg
+- n: 80
+  t: Kanasugi Bridge and Shibaura
+  ja: 金杉橋芝浦
+  season: autumn
+  xy:
+  - 28.92
+  - 44.32
+  file: File:100 views edo 080.jpg
+- n: 81
+  t: Ushimachi in Takanawa
+  ja: 高輪うしまち
+  season: autumn
+  xy:
+  - 17.97
+  - 34.67
+  file: File:100 views edo 081.jpg
+- n: 82
+  t: Moon Viewing
+  ja: 月の岬
+  season: autumn
+  xy:
+  - 5.76
+  - 36.31
+  file: File:100 views edo 082.jpg
+- n: 83
+  t: Shinagawa Susaki
+  ja: 品川すさき
+  season: autumn
+  xy:
+  - 5.24
+  - 37.78
+  file: File:100 views edo 083.jpg
+- n: 84
+  t: '"Grandpa''s Teahouse" in Meguro'
+  ja: 目黒爺々が茶屋
+  season: autumn
+  xy:
+  - 19.67
+  - 11.73
+  file: File:100 views edo 084.jpg
+- n: 85
+  t: Kinokuni Hill and Distant View of Akasaka and the Tameike Pond
+  ja: 紀ノ国坂赤坂溜池遠景
+  season: autumn
+  xy:
+  - 48.96
+  - 26.43
+  file: File:100 views edo 085.jpg
+- n: 86
+  t: Naitō Shinjuku in Yotsuya
+  ja: 四ッ谷内藤新宿
+  season: autumn
+  xy:
+  - 56.84
+  - 6.8
+  file: File:100 views edo 086.jpg
+- n: 87
+  t: Benten Shrine at the Inokashira Pond
+  ja: 井の頭の池弁天の社
+  season: autumn
+  xy:
+  - 65.26
+  - -92.44
+  file: File:100 views edo 087.jpg
+- n: 88
+  t: Takinogawa in Ōji
+  ja: 王子滝の川
+  season: autumn
+  xy:
+  - 103.18
+  - 19.53
+  file: File:100 views edo 088.jpg
+- n: 89
+  t: '"Moon Pine" in Ueno'
+  ja: 上野山内月のまつ
+  season: autumn
+  xy:
+  - 73.22
+  - 54.39
+  file: File:100 views edo 089.jpg
+- n: 90
+  t: Night View of Saruwaka-machi
+  ja: 猿わか町よるの景
+  season: autumn
+  xy:
+  - 76.74
+  - 74.79
+  file: File:Hiroshige, Night View of Saruwaka-machi.jpg
+- n: 91
+  t: In the Akiba Shrine at Ukeji
+  ja: 請地秋葉の境内
+  season: autumn
+  xy:
+  - 76.22
+  - 83.71
+  file: File:100 views edo 091.jpg
+- n: 92
+  t: Mokuboji Temple and Vegetable Fields on Uchigawa Inlet
+  ja: 木母寺内川御前栽畑
+  season: autumn
+  xy:
+  - 88.93
+  - 83.57
+  file: File:100 views edo 092.jpg
+- n: 93
+  t: Niijuku Ferry
+  ja: にい宿のわたし
+  season: autumn
+  xy:
+  - 110.45
+  - 111.39
+  file: File:100 views edo 093.jpg
+- n: 94
+  t: The Maple Trees at Mama, the Tekona Shrine and Tsugihashi Bridge
+  ja: 真間の紅葉手古那の社継はし
+  season: autumn
+  xy:
+  - 91.39
+  - 154.0
+  file: File:100 views edo 094.jpg
+- n: 95
+  t: View of Kōnodai and the Tone River
+  ja: 鴻の台とね川風景
+  season: autumn
+  xy:
+  - 98.56
+  - 144.62
+  file: File:100 views edo 095.jpg
+- n: 96
+  t: Horie and Nekozane
+  ja: 堀江ねこざね
+  season: autumn
+  xy:
+  - 32.25
+  - 150.32
+  file: File:100 views edo 096.jpg
+- n: 97
+  t: '"Five Pines" and the Onagi Canal'
+  ja: 小奈木川五本まつ
+  season: autumn
+  xy:
+  - 52.38
+  - 89.77
+  file: File:100 views edo 097.jpg
+- n: 98
+  t: Fireworks by Ryōgoku Bridge
+  ja: 両国花火
+  season: autumn
+  xy:
+  - 58.93
+  - 67.36
+  file: File:100 views edo 098.jpg
+- n: 99
+  t: Kinryūzan Temple in Asakusa
+  ja: 浅草金龍山
+  season: winter
+  xy:
+  - 72.0
+  - 71.84
+  file: File:100 views edo 099.jpg
+- n: 100
+  t: Nihon Embankment and Yoshiwara
+  ja: よし原日本堤
+  season: winter
+  xy:
+  - 82.08
+  - 71.57
+  file: File:100 views edo 100.jpg
+- n: 101
+  t: Asakusa Ricefields and Torinomachi Festival
+  ja: 浅草田甫酉の町詣
+  season: winter
+  xy:
+  - 80.56
+  - 67.75
+  file: File:100 views edo 101.jpg
+- n: 102
+  t: Minowa, Kanasugi and Mikawashima
+  ja: 蓑輪金杉三河しま
+  season: winter
+  xy:
+  - 87.74
+  - 57.78
+  file: File:Hiroshige, Minowa, Kanasugi, Mikawashima, 1857.jpg
+- n: 103
+  t: Senju Great Bridge
+  ja: 千住の大はし
+  season: winter
+  xy:
+  - 93.2
+  - 70.71
+  file: File:100 views edo 103.jpg
+- n: 104
+  t: Koume Embankment
+  ja: 小梅堤
+  season: winter
+  xy:
+  - 71.54
+  - 80.77
+  file: File:100 views edo 104.jpg
+- n: 105
+  t: Oumayagashi
+  ja: 御厩河岸
+  season: winter
+  xy:
+  - 66.45
+  - 70.43
+  file: File:100 views edo 105.jpg
+- n: 106
+  t: The Fukagawa Lumberyards
+  ja: 深川木場
+  season: winter
+  xy:
+  - 45.91
+  - 83.14
+  file: File:100 views edo 106.jpg
+- n: 107
+  t: Fukagawa Susaki and Jūmantsubo
+  ja: 深川州崎十万坪
+  season: winter
+  xy:
+  - 38.21
+  - 84.36
+  file: File:100 views edo 107.jpg
+- n: 108
+  t: View of Shiba Coast
+  ja: 芝うらの風景
+  season: winter
+  xy:
+  - 33.16
+  - 54.76
+  file: File:100 views edo 108.jpg
+- n: 109
+  t: Minami Shinagawa and Samezu Coast
+  ja: 南品川鮫洲海岸
+  season: winter
+  xy:
+  - -5.92
+  - 41.0
+  file: File:100 views edo 109.jpg
+- n: 110
+  t: '"Robe-Hanging Pine" at Senzoku no ike'
+  ja: 千束の池袈裟懸松
+  season: winter
+  xy:
+  - -9.3
+  - 1.43
+  file: File:100 views edo 110.jpg
+- n: 111
+  t: Meguro Drum Bridge and Sunset Hill
+  ja: 目黒太鼓橋夕日の岡
+  season: winter
+  xy:
+  - 13.74
+  - 14.6
+  file: File:100 views edo 111.jpg
+- n: 112
+  t: Atagoshita and Yabu Lane
+  ja: 愛宕下薮小路
+  season: winter
+  xy:
+  - 40.18
+  - 40.8
+  file: File:100 views edo 112.jpg
+- n: 113
+  t: Aoi Slope outside Toranomon gate
+  ja: 虎の門外あふひ坂
+  season: winter
+  xy:
+  - 41.37
+  - 38.44
+  file: File:100 views edo 113.jpg
+- n: 114
+  t: Bikuni Bridge in Snow
+  ja: びくにはし雪中
+  season: winter
+  xy:
+  - 45.92
+  - 51.97
+  file: File:100 views edo 114.jpg
+- n: 115
+  t: The Takata Riding Grounds
+  ja: 高田の馬場
+  season: winter
+  xy:
+  - 71.88
+  - 11.3
+  file: File:100 views edo 115.jpg
+- n: 116
+  t: Sugatami Bridge, Omokage Bridge and Jariba at Takata
+  ja: 高田姿見のはし俤の橋砂利場
+  season: winter
+  xy:
+  - 74.32
+  - 10.52
+  file: File:100 views edo 116.jpg
+- n: 117
+  t: View from the Hilltop of Yushima Tenjin Shrine
+  ja: 湯しま天神坂上眺望
+  season: winter
+  xy:
+  - 69.54
+  - 51.24
+  file: File:100 views edo 117.jpg
+- n: 118
+  t: Kitsunebi on New Year's Night under the Enoki Tree near Ōji
+  ja: 王子装束ゑの木大晦日の狐火
+  season: winter
+  xy:
+  - 106.42
+  - 25.12
+  file: File:Hiroshige, New Year's Eve foxfires at the changing tree, Oji, 1857.jpg
+- n: 119
+  t: View of the Paulownia Imperiales Trees at Akasaka on a Rainy Evening
+  ja: 赤坂桐畑雨中夕けい
+  season: winter
+  xy:
+  - 47.46
+  - 29.36
+  file: File:Brooklyn Museum - View of the Kiribata (Paulownia Imperiales) Trees at Akasaka on a Rainy Evening - Utagawa Hiroshige II.jpg
+eras:
+- name: Keichō
+  kanji: 慶長
+  start: 1596
+  end: 1615
+  period_as_listed: 1596–1615 CE
+- name: Genna
+  kanji: 元和
+  start: 1615
+  end: 1624
+  period_as_listed: 1615–1624 CE
+- name: Kan'ei
+  kanji: 寛永
+  start: 1624
+  end: 1644
+  period_as_listed: 1624–1644 CE
+- name: Shōhō
+  kanji: 正保
+  start: 1645
+  end: 1648
+  period_as_listed: 1645–1648 CE
+- name: Keian
+  kanji: 慶安
+  start: 1648
+  end: 1652
+  period_as_listed: 1648–1652 CE
+- name: Jōō
+  kanji: 承応
+  start: 1652
+  end: 1655
+  period_as_listed: 1652–1655 CE
+- name: Meireki
+  kanji: 明暦
+  start: 1655
+  end: 1658
+  period_as_listed: 1655–1658 CE
+- name: Manji
+  kanji: 万治
+  start: 1658
+  end: 1661
+  period_as_listed: 1658–1661 CE
+- name: Kanbun
+  kanji: 寛文
+  start: 1661
+  end: 1673
+  period_as_listed: 1661–1673 CE
+- name: Enpō
+  kanji: 延宝
+  start: 1673
+  end: 1681
+  period_as_listed: 1673–1681 CE
+- name: Tenna
+  kanji: 天和
+  start: 1681
+  end: 1684
+  period_as_listed: 1681–1684 CE
+- name: Jōkyō
+  kanji: 貞享
+  start: 1684
+  end: 1688
+  period_as_listed: 1684–1688 CE
+- name: Genroku
+  kanji: 元禄
+  start: 1688
+  end: 1704
+  period_as_listed: 1688–1704 CE
+- name: Hōei
+  kanji: 宝永
+  start: 1704
+  end: 1711
+  period_as_listed: 1704–1711 CE
+- name: Shōtoku
+  kanji: 正徳
+  start: 1711
+  end: 1716
+  period_as_listed: 1711–1716 CE
+- name: Kyōhō
+  kanji: 享保
+  start: 1716
+  end: 1736
+  period_as_listed: 1716–1736 CE
+- name: Genbun
+  kanji: 元文
+  start: 1736
+  end: 1741
+  period_as_listed: 1736–1741 CE
+- name: Kanpō
+  kanji: 寛保
+  start: 1741
+  end: 1744
+  period_as_listed: 1741–1744 CE
+- name: Enkyō
+  kanji: 延享
+  start: 1744
+  end: 1748
+  period_as_listed: 1744–1748 CE
+- name: Kan'en
+  kanji: 寛延
+  start: 1748
+  end: 1751
+  period_as_listed: 1748–1751 CE
+- name: Hōreki
+  kanji: 宝暦
+  start: 1751
+  end: 1764
+  period_as_listed: 1751–1764 CE
+- name: Meiwa
+  kanji: 明和
+  start: 1764
+  end: 1772
+  period_as_listed: 1764–1772 CE
+- name: An'ei
+  kanji: 安永
+  start: 1772
+  end: 1781
+  period_as_listed: 1772–1781 CE
+- name: Tenmei
+  kanji: 天明
+  start: 1781
+  end: 1789
+  period_as_listed: 1781–1789 CE
+- name: Kansei
+  kanji: 寛政
+  start: 1789
+  end: 1801
+  period_as_listed: 1789–1801 CE
+- name: Kyōwa
+  kanji: 享和
+  start: 1801
+  end: 1804
+  period_as_listed: 1801–1804 CE
+- name: Bunka
+  kanji: 文化
+  start: 1804
+  end: 1818
+  period_as_listed: 1804–1818 CE
+- name: Bunsei
+  kanji: 文政
+  start: 1818
+  end: 1830
+  period_as_listed: 1818–1830 CE
+- name: Tenpō
+  kanji: 天保
+  start: 1830
+  end: 1844
+  period_as_listed: 1830–1844 CE
+- name: Kōka
+  kanji: 弘化
+  start: 1844
+  end: 1848
+  period_as_listed: 1844–1848 CE
+- name: Kaei
+  kanji: 嘉永
+  start: 1848
+  end: 1854
+  period_as_listed: 1848–1854 CE
+- name: Ansei
+  kanji: 安政
+  start: 1854
+  end: 1860
+  period_as_listed: 1854–1860 CE
+- name: Man'en
+  kanji: 万延
+  start: 1860
+  end: 1861
+  period_as_listed: 1860–1861 CE
+- name: Bunkyū
+  kanji: 文久
+  start: 1861
+  end: 1864
+  period_as_listed: 1861–1864 CE
+- name: Genji
+  kanji: 元治
+  start: 1864
+  end: 1865
+  period_as_listed: 1864–1865 CE
+- name: Keiō
+  kanji: 慶応
+  start: 1865
+  end: 1868
+  period_as_listed: 1865–1868 CE
+- name: Meiji
+  kanji: 明治
+  start: 1868
+  end: 1912
+  period_as_listed: 1868–1912 CE
+- name: Taishō
+  kanji: 大正
+  start: 1912
+  end: 1926
+  period_as_listed: 1912–1926 CE
+- name: Shōwa
+  kanji: 昭和
+  start: 1926
+  end: 1989
+  period_as_listed: 1926–1989 CE
+- name: Heisei
+  kanji: 平成
+  start: 1989
+  end: 2019
+  period_as_listed: 1989–2019 CE
+- name: Reiwa
+  kanji: 令和
+  start: 2019
+  end: null
+  period_as_listed: 2019 CE–present

@@ -1,0 +1,825 @@
+# Edo and the floating world — the script.
+# Rules (enforced by scripts/build-content.mjs): beats of 40–100 words; no sentence over 25 words;
+# one instrument state per beat, never the same twice running; every beat lists its sources.
+# Markup: [[id]] or [[id|label]] links a cast member; *italic*; **bold**; 「」 for Japanese quotation.
+
+unit:
+  title: Edo and the floating world
+  kanji: 浮世
+  question: "How did a city turn pictures into a mass market, and who got named when it did?"
+
+acts:
+- id: p
+  n: ""
+  title: A wave in your wallet
+  kicker: Prologue · 2024
+  segments:
+  - id: s0
+    title: The question
+    beats:
+    - id: p-1
+      kind: opener
+      year: 2024.5
+      show: [e2024]
+      stage: {mode: object, img: hi-wave, region: [0, 0, 1, 1], full: true}
+      sources: [boj-note, npb-1000, bm-spot, met-wave-record]
+      text: |
+        On 3 July 2024 Japan issued a new thousand-yen note. On its back is this wave, caught just before it breaks, with Mount Fuji small behind it.
+        The picture was printed in Edo around 1831. It sold for about the price of two bowls of noodles.
+        Eleven years later, the state that now prints it on money banned half of what the trade sold, and capped the price of the rest.
+    - id: p-2
+      year: 2024.5
+      show: [e1765, e1831, e1842, e1889, e2024]
+      stage: {mode: time, range: [1600, 2025], acts: true}
+      sources: [wiki-ukiyoe, met-ukiyoe]
+      text: |
+        This unit asks one question. **How did a city turn pictures into a mass market, and who got named when it did?**
+        You will follow five publishers’ bets, one to an act. You will also follow one sheet of paper, from Echizen to New York.
+        The map and the timeline move as you read. Tap any name, place or year to open it.
+
+- id: a1
+  n: "I"
+  title: The quarter’s publisher
+  kicker: Act I · 1603–1806 · Tsutaya Jūzaburō
+  segments:
+  - id: s1
+    title: A city built to be an audience
+    predict:
+      q: "In 1721 Edo counted its people for the first time. About how many lived there?"
+      options: ["About 300,000", "About 1.3 million", "About 3 million"]
+      answer: 1
+      explain: "About 1.3 million by the city’s own count, samurai and townspeople in nearly equal numbers. The buyers came before the pictures."
+      sources: [tmg-census]
+    beats:
+    - id: b1-1
+      year: 1635
+      show: [e1603, e1635]
+      people: [ieyasu]
+      stage: {mode: map, scale: japan, view: [129.5, 31.5, 142.5, 38.5], points: [edo, kyoto, osaka, nagasaki], route: tokaido-faint}
+      sources: [wiki-edo, christies-edo]
+      text: |
+        In 1603 [[ieyasu]] became shogun and made Edo, a castle town on a marshy bay, the seat of his government.
+        The emperor stayed in Kyoto. Osaka stayed the country’s warehouse.
+        From 1635 every lord in Japan had to live in Edo in alternate years, leaving his wife and heir behind when he went home.
+        Their processions filled the roads. Their households filled the city.
+    - id: b1-2
+      year: 1657
+      show: [e1657]
+      stage: {mode: map, scale: city, focus: [hongo, koishikawa, kojimachi, castle], anim: fire}
+      sources: [wiki-meireki, tmg-census]
+      text: |
+        In the first month of 1657 a fire broke out at Honmyō-ji temple in Hongō, at about two in the afternoon.
+        The next morning a second fire started in Koishikawa. That afternoon a third began in Kōjimachi.
+        Between sixty and seventy per cent of the city burned, and the castle keep was never rebuilt.
+        The dead are counted at anything from thirty thousand to a hundred thousand.
+    - id: b1-3
+      year: 1660
+      note: quarter
+      stage: {mode: map, scale: city, focus: [nihonbashi, ryogoku, honjo, yoshiwara], anim: yoshiwara-move}
+      sources: [wiki-meireki, wiki-yoshiwara]
+      text: |
+        The rebuilt city spread east. A bridge at Ryōgoku crossed the Sumida, and the districts of Honjo and Fukagawa grew on the far bank.
+        The fire also moved the licensed quarter. It had stood near Nihonbashi since 1617.
+        After 1657 it was rebuilt in the rice fields north of Asakusa, behind a moat with a single gate, as the Shin-Yoshiwara.
+    - id: b1-4
+      year: 1700
+      show: [e1721]
+      stage: {mode: map, scale: city, focus: [sakaicho, fukiyacho, kobikicho, yoshiwara, nihonbashi], pins: theatres}
+      figure: {img: playbill, cap: "Picture book of play synopses for the Nakamura theatre, dated 1799 · Torii-school artist · The Met 2013.851 · CC0"}
+      sources: [ndl-saruwaka, met-playbill, wiki-yoshiwara]
+      text: |
+        Edo’s leisure ran through two licensed businesses. Three kabuki theatres stood in the town centre, at Sakai-chō, Fukiya-chō and Kobiki-chō.
+        The quarter stood at the edge.
+        Both sold glamour to a city with time and money, and both needed advertising.
+        Because the state licensed them, it could later ban them by name.
+    - id: b1-5
+      year: 1672
+      show: [e1672]
+      people: [moronobu]
+      stage: {mode: time, range: [1600, 1780], lanes: [print, state]}
+      sources: [wiki-ukiyoe, met-ukiyoe]
+      text: |
+        Pictures had been printed from woodblocks in Japan for centuries, mostly Buddhist images and book illustrations.
+        In the 1670s Edo began trading pictures as goods. [[moronobu]] signed his book pictures from 1672, and the earliest known single sheets follow.
+        The trade called its subject *ukiyo*, the floating world: once a Buddhist word for a sorrowful world, now the world of passing pleasures.
+    - id: b1-6
+      year: 1700
+      stage: {mode: object, img: keyblock, region: [0, 0, 1, 1], marks: keyblock}
+      sources: [vam-quartet, aam-process, jaanus-hosho]
+      text: |
+        A print was never one hand. The **publisher** planned it, paid for it, applied for permission and sold it.
+        The **designer** drew it on thin paper. The **carver** pasted that drawing face down on cherry wood and cut through it, destroying it.
+        The **printer** inked the blocks and rubbed each sheet by hand.
+        This is a carver’s key block, pulled in black. The notches outside the picture registered every colour block that followed.
+    - id: b1-7
+      year: 1765
+      show: [e1765, e1770]
+      people: [harunobu]
+      stage: {mode: object, img: harunobu-1765, region: [0, 0, 1, 1]}
+      sources: [met-ukiyoe, hamatake-harunobu, vjp-poetry, met-harunobu]
+      text: |
+        Full colour arrived in a single year, and not from the trade.
+        For New Year 1765, circles of amateur poets commissioned picture calendars to exchange at parties. They paid for the best designers, carvers and paper.
+        Publishers then bought the blocks, cut out the patrons’ names and sold the sheets as *nishiki-e*, brocade pictures (probable).
+        The poets’ favourite designer was [[harunobu]]. He had five years left to live.
+    decide:
+      - q: "Who paid for the first full-colour prints in 1765?"
+        options: ["A publisher, for sale", "Circles of amateur poets, for gifts", "The shogun’s painting studio"]
+        answer: 1
+        explain: "Poetry circles commissioned them as New Year calendars. The trade sold them afterwards."
+        resolve: {events: [e1765]}
+
+  - id: s2
+    title: Tsutaya’s gamble
+    predict:
+      q: "From 1790, whom did the law hold responsible for a print?"
+      options: ["The designer alone", "The designer, the writer and the publisher", "Everyone who worked on it, carver and printer included"]
+      answer: 1
+      explain: "The designer, the writer and the publisher. The carver and the printer were never named in the law."
+      sources: [vjp-seals, jaanus-aratame]
+    beats:
+    - id: b2-1
+      year: 1783
+      show: [e1783]
+      people: [tsutaya]
+      stage: {mode: map, scale: city, focus: [yoshiwara, toriaburacho], anim: tsutaya-move}
+      sources: [wiki-tsutaya, suntory-tsutaya, sumida-producers]
+      text: |
+        [[tsutaya]] was born in the Shin-Yoshiwara in 1750 and grew up there.
+        His first business was a bookshop on the road to the quarter’s gate. His first product was its printed guide, the *Yoshiwara saiken*, which he came to publish alone.
+        In 1783 he moved into the city, to Tōri Abura-chō by Nihonbashi, the street of the big houses.
+        His seal was an ivy leaf under a three-peaked Fuji.
+    - id: b2-2
+      year: 1797
+      stage: {mode: object, img: printshop, region: [0, 0, 1, 1]}
+      sources: [tml-azuma, forrer-sellers, kornicki, hoover]
+      text: |
+        This is what a print shop looked like, drawn by Hokusai for a picture book of 1802. The Tokyo Metropolitan Library identifies it as Tsutaya’s own shop (probable).
+        Sheets hang in the front, books lie in piles.
+        Publishers sold from their shops, swapped stock with each other and supplied street sellers.
+        Some 655 lending libraries carried books door to door in 1808.
+    - id: b2-3
+      year: 1790
+      note: quarter
+      stage: {mode: tool, tool: contract}
+      figure: {img: yoshiwara-nakanocho, cap: "Utagawa Hiroshige, Cherry Blossom Time in Nakanochō, the quarter’s main street · LACMA via Wikimedia Commons · public domain"}
+      people: [hanaogi]
+      sources: [wiki-yoshiwara, sa-yoshiwara, met-hanaogi, world4-hanaogi, jf-1872]
+      text: |
+        The quarter’s women were there under contract. A typical indenture around 1800, signed by a father, exchanged a lump sum for years of service: for instance 25 ryō for five.
+        Debts for food, clothes and medicine could extend the term.
+        From 1793 the only women prints could name were courtesans. [[hanaogi]] wrote poetry admired in her day. In 1794 she ran away, and was brought back.
+    - id: b2-4
+      year: 1790
+      show: [e1790]
+      people: [sadanobu]
+      stage: {mode: object, img: utamaro-tsutaya, region: [0, 0, 1, 1], marks: utamaro-seals}
+      sources: [wiki-kansei, jaanus-aratame, vjp-seals, cma-utamaro]
+      text: |
+        In 1787 [[sadanobu]] became chief councillor and began the Kansei reforms, against a decade of famine and spending.
+        From the fifth month of 1790 publishers had to submit every design to censors chosen from their own guild.
+        Approval was a small round seal reading *kiwame*, “examined”, cut into the key block.
+        On this Utamaro, Tsutaya’s ivy leaf and the censor’s seal sit side by side.
+    - id: b2-5
+      year: 1791
+      show: [e1790, e1791, e1800]
+      people: [kyoden]
+      stage: {mode: time, range: [1775, 1810], lanes: [state, trade, print], bands: true, lifespans: [tsutaya, utamaro, kyoden]}
+      sources: [sa-tsutaya, suntory-tsutaya, vjp-sumptuary]
+      text: |
+        The seal came with examples. In 1791 three of Kyōden’s comic books, published by Tsutaya, were judged offensive.
+        [[kyoden]] was manacled for fifty days. Tsutaya was fined half of everything he owned.
+        More rules followed: no women named on prints except courtesans, and from 1800 no large bust portraits of women.
+        The stated reason was that they were “conspicuous”.
+    - id: b2-6
+      year: 1794.4
+      show: [e1794]
+      people: [utamaro, sharaku]
+      stage: {mode: object, img: sharaku, region: [0, 0, 1, 1]}
+      sources: [aic-sharaku, met-sharaku, wiki-tsutaya]
+      text: |
+        Tsutaya answered the fine with luxury. [[utamaro]]’s bust portraits of women on powdered mica were the luxury prints of the decade.
+        Then, in the fifth month of 1794, he issued actor portraits by an unknown designer signed [[sharaku]].
+        About 140 designs followed in ten months, all for Tsutaya. Then nothing.
+        Nobody knows who Sharaku was.
+    - id: b2-7
+      year: 1793
+      show: [e1793]
+      people: [shioya, ryukosai]
+      stage: {mode: map, scale: japan, view: [133.5, 33.6, 137.4, 35.6], points: [osaka, kyoto], route: tokaido-faint}
+      sources: [yano, ref-kamigata]
+      text: |
+        Osaka ran the same medium another way.
+        In the eighth month of 1793 the publisher [[shioya]] won the sole right to publish actor likenesses. In 1794 he bought a rival artist’s blocks.
+        That artist, [[ryukosai]], “never put his signature” on the prints Shioya made from his designs, and withdrew.
+        In Osaka, fan clubs and poetry circles paid for much of the trade.
+    - id: b2-8
+      year: 1806
+      show: [e1797, e1804]
+      stage: {mode: time, range: [1780, 1815], lanes: [state, trade, print], bands: true, lifespans: [tsutaya, utamaro, sadanobu]}
+      sources: [wiki-tsutaya, vjp-sumptuary, wiki-ukiyoe]
+      text: |
+        Tsutaya died in 1797, aged 47. His shop went on under his name.
+        In 1804 Utamaro was manacled for fifty days for a print of the warlord Hideyoshi, a subject the state treated as its own. He died two years later.
+        The golden age ended in handcuffs twice.
+        The censor now held the publisher answerable for every sheet. What would a publisher dare to bet on next?
+    decide:
+      - q: "On the Utamaro sheet, which mark is the state’s?"
+        options: ["The ivy leaf under Fuji", "The small round seal reading kiwame", "The signature"]
+        answer: 1
+        explain: "The kiwame seal. Every legal sheet carried it from 1790 until 1842; the band on the timeline is its reign."
+        resolve: {band: kiwame}
+
+- id: a2
+  n: "II"
+  title: A bet on blue
+  kicker: Act II · 1807–1835 · Nishimuraya Yohachi (Eijudō)
+  segments:
+  - id: s3
+    title: The old man and the pigment
+    predict:
+      q: "Where was the blue in a Great Wave sold in 1831 made?"
+      options: ["In Japan", "In the Netherlands only", "Abroad: in Europe and, by then, mostly in China"]
+      answer: 2
+      explain: "Never in Japan in this period. It came by ship to Nagasaki, and from 1824 Chinese supply made it cheap."
+      sources: [smith-blue, fitzhugh]
+    beats:
+    - id: b3-0
+      kind: opener
+      year: 1831
+      stage: {mode: object, img: hi-wave, region: [0.02, 0.18, 0.62, 0.62], full: true}
+      sources: [met-wave]
+      text: |
+        Act II begins inside the wave. Look at the hollow under the claw, where three boats lie low in the water.
+        That blue was new in 1831. It is the reason this sheet exists.
+    - id: b3-1
+      year: 1814
+      show: [e1807]
+      people: [hokusai, shunsho]
+      stage: {mode: time, range: [1755, 1855], lanes: [print, trade], lifespans: [hokusai, shunsho, tsutaya]}
+      sources: [bm-manga, sumida-producers, wiki-ukiyoe, lyon-publishers]
+      text: |
+        [[hokusai]] was born in Edo in 1760. Between 16 and 19 he trained to cut woodblocks.
+        He then studied under the actor-print designer [[shunsho]], signing himself Shunrō, and Tsutaya published some of his early work.
+        In 1807 Edo’s picture publishers formed a guild, the *jihon toiya*, which owned the blocks and policed copying.
+        Hokusai would be over seventy before his most famous sheet.
+    - id: b3-2
+      year: 1814
+      show: [e1814]
+      people: [eirakuya]
+      stage: {mode: object, img: manga, region: [0, 0, 1, 1]}
+      sources: [bm-manga, met-manga, sumida-producers]
+      text: |
+        In 1814 a Nagoya publisher, [[eirakuya]], began issuing the *Hokusai Manga*. These were sketchbooks of people, animals, gods and things, sold as models for amateurs.
+        This copy of the first volume is a later printing, after 1828.
+        The books made Hokusai a brand outside Edo. Whether they make him the “father of manga” is still a question, even in a British Museum curator’s title.
+    - id: b3-3
+      year: 1828
+      show: [e1824]
+      stage: {mode: map, scale: world, rotate: 75, view: [-5, -40, 150, 58], points: [berlin, amsterdam, cape, batavia, china, nagasaki, edo], route: blue}
+      sources: [fitzhugh, smith-blue, voc-route, wiki-dejima]
+      text: |
+        Prussian blue was first made in Berlin around 1704, by accident: a colour-maker’s red came out blue.
+        It reached Japan the only way European goods could, by ship to Nagasaki, where Edo called it *bero-ai*, “Berlin indigo”.
+        Dutch ships brought it via the Cape and Batavia.
+        Then, from 1824, Chinese junks re-entered the trade “in steadily increasing quantities”.
+    - id: b3-4
+      kind: argued
+      year: 1828
+      show: [e1824, e1829]
+      stage: {mode: time, range: [1780, 1840], lanes: [world, print], blueprice: true}
+      sources: [artelino-aizuri, smith-blue, fitzhugh]
+      argued:
+        q: "When did Prussian blue reach Edo’s printers?"
+        a: {title: "Around 1790", text: "One reading has it arriving through Dejima around 1790 and staying costly until about 1820."}
+        b: {title: "In the late 1820s", text: "Another has it known but little used until Chinese imports from 1824 made it cheap enough for a sixteen-mon sheet."}
+        evidence: "Between 1824 and 1828 the Nagasaki price fell “from 87 to 31 monme” a kin, and the Dutch withdrew from the trade."
+        verdict: b
+        why: "The price fall is what turned a luxury into a print colour. It supports the later date for printers, without denying earlier arrivals."
+      text: |
+        Historians agree the blue came by sea. They disagree about when Edo’s printers could afford it.
+        The line on the timeline is Henry Smith’s figure for the Chinese price at Nagasaki, from 87 to 31 monme of silver a kin.
+        Read both positions, then decide which the price supports.
+    - id: b3-5
+      year: 1829
+      show: [e1829]
+      people: [eisen, iseya, toho]
+      stage: {mode: object, img: eisen-aizuri, region: [0, 0, 1, 1]}
+      sources: [smith-blue]
+      text: |
+        In 1829 the fan-maker [[iseya]] put out a fan by [[eisen]] printed in light and dark shades of the new blue alone.
+        By the bookseller [[toho]]’s account it was a sensation, and other fan-makers flooded the market with all-blue fans.
+        This Eisen sheet, from the early 1830s, is printed the same way: one imported colour, in gradations, on white paper.
+    - id: b3-6
+      year: 1831
+      show: [e1831]
+      people: [nishimuraya]
+      stage: {mode: object, img: redfuji, region: [0, 0, 1, 1]}
+      sources: [smith-blue, vermeulen, korenberg-fuji]
+      text: |
+        Then, Tōho says, [[nishimuraya]] of Bakuro-chō issued Hokusai’s *Thirty-six Views of Mount Fuji* in the new blue. It was “a great fad, double that of the fans.”
+        His advertisement, printed for New Year 1831, promised one view to a sheet and “more than one hundred, without being limited to thirty-six”.
+        Thirty-six became forty-six. This is Red Fuji, one of the first.
+    decide:
+      - q: "By Tōho’s account, who started the blue fad?"
+        options: ["Hokusai, with the Wave", "A fan-maker, with an Eisen fan", "The Dutch, with a gift to the shogun"]
+        answer: 1
+        explain: "Iseya Sōbei’s Eisen fan of 1829. Eijudō followed with Hokusai’s Fuji series."
+        resolve: {events: [e1829, e1831]}
+
+  - id: s4
+    title: One sheet, many hands
+    predict:
+      q: "Is the Great Wave a tsunami?"
+      options: ["Yes, a tsunami", "No: a storm wave about ten metres high", "No: a river bore"]
+      answer: 1
+      explain: "Scientists who studied it read a plunging storm wave, about ten metres high and three kilometres offshore. Tsunamis travel low out at sea."
+      sources: [cartwright, dudley]
+    beats:
+    - id: b4-1
+      year: 1831
+      stage: {mode: map, scale: kanto, view: [138.45, 34.95, 140.05, 35.85], points: [edo, kanagawa, fuji, yokohama-off]}
+      sources: [cartwright, dudley, met-wave]
+      text: |
+        The title places the scene “off Kanagawa”, a post station on the bay road south of Edo. Fuji stands about eighty kilometres west.
+        Three long boats ride a swell, their crews bent at the oars.
+        Two scientists who studied the picture concluded Hokusai drew “an exceptionally large storm wave”. Another team put it near ten metres, about three kilometres offshore.
+    - id: b4-2
+      year: 1831
+      stage: {mode: object, img: hi-wave, region: [0.08, 0.05, 0.62, 0.9], marks: wave-blues}
+      sources: [met-wave, smith-blue, met-wave-record]
+      text: |
+        The Met examined its Great Waves with a spectrometer.
+        The dark stripes of the wave mix the new Prussian blue with old indigo.
+        The deep hollow is pure Prussian blue, printed twice.
+        Those are decisions about blocks and ink, made in a workshop. The sheet credits one man: 北斎改為一筆, “Hokusai, changing his name to Iitsu, drew this.”
+    - id: b4-3
+      year: 1831
+      stage: {mode: tool, tool: peel}
+      sources: [met-wave, aam-process, vam-quartet, korenberg]
+      text: |
+        Here the Met’s image is separated by colour, one layer per ink. Drag the slider to lay them down.
+        A real edition needed a block for each colour, cut by hand and registered to the notches.
+        One printer could pull about two hundred sheets a day. A publisher needed to sell about two thousand to profit.
+    - id: b4-4
+      year: 2020
+      show: [e2020]
+      stage: {mode: tool, tool: waves}
+      sources: [bm-spot, korenberg, met-wave-record]
+      text: |
+        There is no single Great Wave. There is an edition, pulled from the same blocks over months or years as the wood wore down.
+        By 2020 the British Museum had located 111 impressions, ordered in eight states; by 2024, 113.
+        No block survives. The most quoted estimate, up to 8,000 sheets, is an inference from wear (argued).
+        Compare three originals.
+    - id: b4-5
+      kind: argued
+      year: 1834
+      show: [e1831, e1835]
+      stage: {mode: time, range: [1755, 1855], lanes: [print, trade], lifespans: [hokusai, oi, nishimuraya]}
+      people: [oi]
+      sources: [bm-manga, met-wave, davis-oi]
+      argued:
+        q: "Who made the Great Wave?"
+        a: {title: "Hokusai", text: "The design is one man’s, made at seventy after fifty years of drawing. In 1834 he wrote that by 110 every dot and line would live (probable)."}
+        b: {title: "A system", text: "A publisher’s bet, a pigment’s price, a carver who cut the foam and a printer who pulled the blue twice. Only one is named."}
+        evidence: "The hollow was printed twice in pure Prussian blue."
+        verdict: b
+        why: "Mostly B: double printing was the printer’s work, even if the designer asked for it. The sheet shows a team; the signature shows one name."
+      text: |
+        Two readings of authorship meet in this sheet. One is the genius in the signature. The other is the trade that made it.
+        Hokusai’s own workshop complicates both: his daughter [[oi]] painted inside it.
+        Weigh the evidence, then choose.
+    - id: b4-6
+      year: 1845
+      people: [oi]
+      stage: {mode: object, img: oi-night, region: [0, 0, 1, 1]}
+      sources: [ota-oi, davis-oi, prodig-oi, wiki-oi]
+      text: |
+        This night scene in the Yoshiwara is by Katsushika Ōi. Only about ten works are confirmed as hers.
+        Hokusai “is reported to have said” her pictures of women were better than his.
+        Orders sent to “Hokusai” could be painted by father or daughter and signed with his name (probable).
+        One historian argues her hand was made to vanish, “for profit”.
+    - id: b4-7
+      year: 1835
+      show: [e1835]
+      people: [egawa]
+      stage: {mode: time, range: [1820, 1850], lanes: [trade, print], lifespans: [hokusai, egawa]}
+      sources: [wiki-egawa, korenberg]
+      text: |
+        Hokusai knew whose hands mattered.
+        In 1835 he wanted a particular carver, [[egawa]], for his *One Hundred Views of Mount Fuji*. To get him, he offered to give up his own share of the carving fee.
+        The letter implies designers normally took a cut of the carver’s pay for bringing the work.
+        It is one of very few records of what a carver was worth.
+    - id: b4-8
+      year: 1833.5
+      show: [e1833]
+      people: [hiroshige, hoeido]
+      stage: {mode: map, scale: japan, view: [134.6, 34.0, 141.3, 36.2], route: tokaido, prints: true}
+      sources: [wiki-tokaido, korenberg, wiki-ukiyoe]
+      text: |
+        In 1833–34 [[hiroshige]] designed the *Fifty-three Stations of the Tōkaidō* for the publisher [[hoeido]]: fifty-five sheets from Nihonbashi to Kyoto.
+        The Tōkaidō was the lords’ road between the two capitals.
+        Some sheets were reprinted twelve to fifteen thousand times, by the usual estimate.
+        Watch the road draw itself, station by station.
+    decide:
+      - q: "Put these in order: the Tōkaidō series, the Thirty-six Views, the ban on actor prints."
+        kind: order
+        options: ["The Tōkaidō series", "The Thirty-six Views", "The ban on actor prints"]
+        answer: [1, 0, 2]
+        explain: "Fuji in 1831, the road in 1833, the ban in 1842. The landscapes came first."
+        resolve: {events: [e1831, e1833, e1842]}
+
+- id: a3
+  n: "III"
+  title: The ban and the hundred views
+  kicker: Act III · 1841–1868 · Uoya Eikichi
+  segments:
+  - id: s5
+    title: The sixth month of 1842
+    predict:
+      q: "In 1842 the state capped the price of a print. By about how much did it cut an ordinary ten-colour sheet?"
+      options: ["About a tenth", "About a third", "About a half"]
+      answer: 1
+      explain: "About a third: from about 24 mon to 16, the price of one bowl of soba."
+      sources: [kato-tenpo]
+    beats:
+    - id: b5-1
+      year: 1841
+      show: [e1804, e1842]
+      people: [tadakuni]
+      stage: {mode: time, range: [1800, 1870], lanes: [state, print], price: true}
+      sources: [hoover, nippon-soba, vjp-sumptuary]
+      text: |
+        A record of 1805 prices an ordinary sheet at twenty mon. A bowl of *kake-soba* cost sixteen.
+        A picture cost about a meal, which is what made it a mass product.
+        In 1841 [[tadakuni]] began the Tenpō reforms, a second attempt to discipline the city’s spending.
+        The price lane on the timeline is about to change.
+    - id: b5-2
+      year: 1842.5
+      show: [e1842]
+      stage: {mode: time, range: [1830, 1860], lanes: [state, print], bands: true, edict: true}
+      sources: [kato-tenpo, vjp-sumptuary]
+      text: |
+        In the sixth month of 1842 the town order reached the prints.
+        「錦絵と唱、歌舞伎役者遊女女芸者等を壱枚摺ニ致候義、風俗ニ拘り候筋ニ付」
+        Single sheets of kabuki actors, courtesans and geisha “concern public morals”. Their publication, and the sale of existing stock, were forbidden.
+        Subjects should be loyalty, filial piety, chastity and children’s moral instruction.
+    - id: b5-3
+      year: 1842.9
+      show: [e1842c]
+      stage: {mode: time, range: [1800, 1870], lanes: [state], price: true, cap: true}
+      sources: [kato-tenpo]
+      text: |
+        In the eleventh month came the price.
+        「壱枚絵団扇絵共、拾六文以上は無用之事」: single sheets and fan prints, nothing above sixteen mon.
+        Printings were limited to seven or eight, and sets to three sheets (probable).
+        An ordinary ten-colour sheet had sold for about twenty-four. The state had banned the trade’s two best sellers and cut the price of the rest by a third.
+    - id: b5-4
+      year: 1842
+      show: [e1842t]
+      people: [danjuro]
+      stage: {mode: map, scale: city, focus: [sakaicho, fukiyacho, kobikicho, saruwakacho, yoshiwara], anim: theatres-move}
+      figure: {img: danjuro-aic, cap: "Utagawa Kunisada, the actor Ichikawa Danjūrō VII, 1826 · Art Institute of Chicago 1937.270 · CC0"}
+      sources: [ndl-saruwaka, vjp-sumptuary]
+      text: |
+        The three theatres were ordered out of the city centre to a new street, Saruwaka-chō, near the road to the Yoshiwara.
+        The state put its licensed pleasures together, at the edge.
+        [[danjuro]], the most famous actor in Japan, was banished from Edo for extravagance (probable).
+        Watch the theatres move.
+    - id: b5-5
+      year: 1853
+      stage: {mode: time, range: [1785, 1880], lanes: [state], bands: true, bandsanim: true}
+      sources: [jaanus-aratame, vjp-seals]
+      text: |
+        The censor’s machine changed with the subjects.
+        From 1843 ward headmen, *nanushi*, stamped prints with their own names: one seal, then two from 1847, then two with a date.
+        From 1853 a single seal reading *aratame*, “examined”, usually came with a date seal.
+        So a sheet’s margin dates it to within a few years. Remember the four bands.
+    - id: b5-6
+      year: 1847.6
+      show: [e1847]
+      people: [kuniyoshi, murata, fujiokaya]
+      stage: {mode: tool, tool: edition}
+      sources: [fujiokaya, kato-1847, korenberg]
+      text: |
+        The ban made warriors the safest genre, and [[kuniyoshi]] had drawn them since 1827.
+        In 1847 he gave the trade the loyal retainers of the forty-seven rōnin, one to a sheet, fifty-one in all. The censor [[murata]] approved them.
+        The [[fujiokaya]] records 8,000 sets sold between the seventh month of 1847 and the third of 1848.
+        The same diary records a flop.
+    - id: b5-7
+      kind: argued
+      year: 1847
+      show: [e1831, e1833, e1842, e1847]
+      stage: {mode: time, range: [1825, 1860], lanes: [print, state], runs: true}
+      sources: [kato-1847, smith-blue, wiki-ukiyoe]
+      argued:
+        q: "Did the ban create the landscape print?"
+        a: {title: "Yes", text: "With actors and beauties forbidden, views of famous places became the safe product, and the trade poured into them."}
+        b: {title: "No: it sped it up", text: "The Fuji series was out in 1831 and the Tōkaidō in 1833. The ban protected a genre already selling, and pushed the trade towards warriors."}
+        evidence: "A magistrate reported in 1847 that six or seven tenths of what sold were actor pictures “without names”: warriors with actors’ faces."
+        verdict: b
+        why: "The trade routed around the ban with disguised actors, not mainly with landscapes, which were already a market."
+      text: |
+        A common story says the ban made the landscape print.
+        The dates on the timeline complicate it, and so does what a magistrate found when he counted the shops five years later.
+        Weigh the two readings.
+    - id: b5-8
+      year: 1850
+      stage: {mode: object, img: cat, region: [0, 0, 1, 1]}
+      sources: [met-wave-record, vjp-sumptuary]
+      figure: null
+      text: |
+        The edict named actors, courtesans and geisha. It did not name ghosts, monsters or cats.
+        Kuniyoshi drew all three. This is the monster cat of Okazaki, from a ghost play set on the Tōkaidō: a cat, a play and an actor’s face at once.
+        The ban sharpened the trade’s talent for saying one thing with another.
+    decide:
+      - q: "At about 200 impressions a day, how many working days does one printer need for 8,000 impressions of one sheet?"
+        options: ["4", "40", "400"]
+        answer: 1
+        explain: "Forty days for one sheet. The loyal-retainers series had fifty-one, so it needed many printers working at once."
+        resolve: {events: [e1847]}
+
+  - id: s6
+    title: A hundred views of a city about to be renamed
+    predict:
+      q: "Commodore Perry sailed from Virginia to Japan in 1852–53. Which way did he go?"
+      options: ["West, across the Pacific", "East, across the Atlantic and Indian Oceans", "South, round Cape Horn"]
+      answer: 1
+      explain: "East: Madeira, the Cape, Mauritius, Ceylon, Singapore and China, eight months to Uraga."
+      sources: [wiki-perry, loc-speiden]
+    beats:
+    - id: b6-1
+      year: 1853.5
+      show: [e1853]
+      people: [perry]
+      stage: {mode: map, scale: world, rotate: 40, view: [-80, -40, 150, 45], route: perry}
+      sources: [wiki-perry, loc-speiden]
+      text: |
+        [[perry]] left Hampton Roads, Virginia, on 24 November 1852.
+        He crossed the Atlantic to Madeira, rounded the Cape of Good Hope, called at Mauritius, Ceylon and Singapore, and gathered his ships in China.
+        On 8 July 1853 four American ships anchored off Uraga, at the mouth of Edo Bay.
+        A treaty followed in 1854.
+    - id: b6-2
+      year: 1855.9
+      show: [e1855]
+      stage: {mode: object, img: namazu, region: [0, 0, 1, 1]}
+      sources: [smits-namazu, rom-namazu, mcdowell-namazu]
+      text: |
+        On 11 November 1855 an earthquake struck Edo, and thousands died.
+        Within two days the shops were selling *namazu-e*, pictures of the giant catfish said to cause earthquakes. One study counts about 380 kinds (probable).
+        Most were unsigned and uncensored. Here the god of Kashima pins the catfish with his sword.
+        The trade moved at the speed of news.
+    - id: b6-3
+      year: 1857
+      show: [e1856]
+      people: [uoya]
+      stage: {mode: map, scale: city, focus: all, layer: views}
+      sources: [hiroshige-uk, wiki-100views]
+      text: |
+        Between 1856 and 1858 Hiroshige designed the *One Hundred Famous Views of Edo* for the publisher [[uoya]]. There are 118 views, with a title page by another hand.
+        Every view stood somewhere you could walk to. Each dot on this map of 1859 is one of them, coloured by season.
+        Tap any dot to see the sheet. Hiroshige died in 1858, as the set was being finished.
+    - id: b6-4
+      year: 1857
+      stage: {mode: tool, tool: margin}
+      sources: [jaanus-aratame, vjp-seals, hiroshige-uk]
+      text: |
+        This is one of the hundred views: a sudden shower over the Shin-Ōhashi bridge, 1857.
+        Everything the sheet says about its own making sits outside the picture.
+        Tap each mark. Then date the sheet from its seals alone, the way a curator does first.
+    - id: b6-5
+      year: 1859
+      show: [e1859]
+      stage: {mode: map, scale: kanto, view: [139.3, 35.25, 140.0, 35.75], points: [edo, kanagawa, yokohama]}
+      figure: {img: yokohama-bread, cap: "Utagawa Yoshikazu, Americans Baking Bread, 1861 · Art Institute of Chicago 1926.1692 · CC0"}
+      sources: [wiki-ukiyoe, wiki-perry]
+      text: |
+        In 1859 a fishing village on the Kanagawa shore, close to where Hokusai set his wave, became the treaty port of Yokohama.
+        Foreign merchants, ships and households arrived.
+        Within a year or two Edo’s publishers were selling *Yokohama-e*, prints of the newcomers at work and at home.
+        It was the last new genre the Edo trade invented.
+    - id: b6-6
+      year: 1868
+      show: [e1864, e1868, e1872]
+      stage: {mode: time, range: [1840, 1885], lanes: [state, print, world], bands: true}
+      sources: [cesaratto, wiki-edo, jf-1872]
+      text: |
+        In 1864 synthetic aniline dyes arrived, and the palette of the last prints turned to hard reds and purples.
+        In 1868 the shogunate fell, the emperor moved to Edo, and the city was renamed Tokyo.
+        In 1872 a decree cancelled the debts of the Yoshiwara’s women (probable).
+        The trade did not end. It was about to find its best customers.
+    decide:
+      - q: "Which seal tells you a sheet was printed after 1853?"
+        options: ["The round kiwame seal", "Two ward headmen’s seals", "Aratame with a date seal"]
+        answer: 2
+        explain: "Aratame, “examined”, with a date seal: the system from 1853 until about 1875."
+        resolve: {band: aratame}
+
+- id: a4
+  n: "IV"
+  title: The second trade
+  kicker: Act IV · 1865–1928 · Hayashi, Bing and Wright
+  segments:
+  - id: s7
+    title: Paris
+    predict:
+      q: "Did ukiyo-e reach Europe as wrapping paper for porcelain?"
+      options: ["Yes, by the thousand", "A legend: the first printed account describes a bound book used to wedge porcelain", "No: only through dealers"]
+      answer: 1
+      explain: "The earliest printed source, from 1905, describes a small bound book used to wedge porcelain in a crate. Nothing shows sheets used as wrapping."
+      sources: [ota-packing]
+    beats:
+    - id: b7-1
+      year: 1870
+      show: [e1865, e1867]
+      stage: {mode: map, scale: world, rotate: 75, view: [-10, -15, 150, 55], points: [marseille, suez, aden, galle, singapore, hongkong, yokohama], route: mm}
+      sources: [mi-1865, mm-1870, met-japonisme]
+      text: |
+        In 1865 French mail steamers opened a branch line to Yokohama.
+        In 1867 Japan showed at the Paris exposition, the shogunate’s last year.
+        After the Suez Canal opened in 1869, the Messageries Maritimes ran through-sailings from Marseille to Yokohama, from April 1870.
+        Prints, books, lacquer and porcelain now had a regular road to Europe.
+    - id: b7-2
+      year: 1905
+      show: [e1905]
+      stage: {mode: time, range: [1850, 1915], lanes: [after], legend: true}
+      sources: [ota-packing]
+      text: |
+        A famous story says Europe found ukiyo-e as packing paper.
+        Its earliest printed source is a memoir of 1905. At the printer Delâtre’s, the engraver Bracquemond found “un petit livre bizarrement broché”, a small oddly bound book, wedging porcelain.
+        It was a volume of the Manga, not loose sheets, and its date of 1856 is disputed.
+        Retellings turned it into wrapping paper.
+    - id: b7-3
+      year: 1884
+      show: [e1884]
+      people: [hayashi]
+      stage: {mode: map, scale: world, rotate: 75, view: [-10, -15, 150, 55], points: [yokohama, marseille, paris], route: hayashi}
+      sources: [nmwa-hayashi, persee-hayashi, agorha-hayashi]
+      text: |
+        [[hayashi]] came to Paris as an interpreter for the exposition of 1878 and opened a shop in 1884.
+        Over eleven years he made 218 shipments from Japan.
+        One count gives 166,000 prints and 9,708 illustrated books. Another says more than 300,000 works (argued).
+        The second trade had a Japanese dealer at its centre.
+    - id: b7-4
+      year: 1888.4
+      show: [e1888, e1890]
+      people: [bing]
+      stage: {mode: object, img: japon-artistique, region: [0, 0, 1, 1]}
+      sources: [wiki-bing, met-japonisme]
+      text: |
+        [[bing]], a Hamburg-born dealer in Paris, published *Le Japon artistique* from 1888 to 1891: thirty-six issues in French, English and German.
+        In 1890 he hung over seven hundred prints at the École des Beaux-Arts.
+        His shop would later give a name to Art Nouveau.
+        The painters came to look.
+    - id: b7-5
+      year: 1887.8
+      show: [e1887]
+      people: [vangogh]
+      stage: {mode: map, scale: europe, view: [-2, 47.5, 6, 53], points: [paris, amsterdam, london]}
+      sources: [vgm-japan, vgm-bridge]
+      text: |
+        [[vangogh]] bought about 660 Japanese prints in early 1887 and hung some in a Paris café.
+        That autumn he painted three copies in oil. Two were after Hiroshige: a plum orchard, and the sudden shower over Shin-Ōhashi. The third copied a courtesan by Eisen.
+        The copies are in Amsterdam. The museum’s licence is non-commercial, so they are linked, not shown.
+    - id: b7-6
+      kind: argued
+      year: 1890
+      show: [e1884, e1887, e1890]
+      stage: {mode: time, range: [1860, 1930], lanes: [after], lifespans: [hayashi, bing, vangogh]}
+      sources: [met-japonisme, nmwa-hayashi]
+      argued:
+        q: "Exchange or appropriation?"
+        a: {title: "Exchange", text: "Japan showed itself at Paris on purpose, Japanese dealers chose and sold the prints, and European art changed for good."}
+        b: {title: "Appropriation", text: "Europe took the forms without the makers, prized single sheets as curios, and named the borrowing after itself: Japonisme."}
+        evidence: "A Japanese dealer, Hayashi, chose and shipped much of what Paris saw."
+        verdict: a
+        why: "Mostly A for this evidence: the selection was Japanese. The B reading still holds for how the prints were displayed and credited."
+      text: |
+        The borrowing has a name, *Japonisme*, and a counter-name, appropriation.
+        Both describe something real.
+        Weigh one piece of evidence against the two readings.
+
+  - id: s8
+    title: America, and the scandal
+    predict:
+      q: "Who curated Japan’s first exhibition of ukiyo-e, in Tokyo in 1898?"
+      options: ["A Japanese court painter", "Ernest Fenollosa, an American curator", "Hayashi Tadamasa"]
+      answer: 1
+      explain: "Fenollosa, Boston’s curator of Japanese art. Japan’s own first show of its popular prints was organised by an American."
+      sources: [wiki-ukiyoe, agorha-hayashi]
+    beats:
+    - id: b8-1
+      year: 1898
+      show: [e1867p, e1898]
+      people: [fenollosa]
+      stage: {mode: map, scale: world, rotate: -150, view: [120, 10, -60, 50], points: [yokohama, sanfrancisco, chicago, boston], route: pm}
+      sources: [pacific-mail, wiki-ukiyoe, mfa-prints]
+      text: |
+        From 1 January 1867 Pacific Mail steamers ran from San Francisco to Yokohama. From 1869 a railroad crossed America.
+        Boston bought first and most.
+        [[fenollosa]] became the Museum of Fine Arts’ first curator of Japanese art. In 1898 he curated Japan’s first exhibition of ukiyo-e, in Tokyo.
+    - id: b8-2
+      year: 1921
+      show: [e1921]
+      stage: {mode: time, range: [1860, 1935], lanes: [after], lifespans: [fenollosa, wright]}
+      sources: [mfa-prints]
+      text: |
+        In 1921 the brothers William and John Spaulding gave Boston’s Museum of Fine Arts more than six thousand prints. Their one condition was that the prints never be exhibited.
+        They may be studied, and never shown.
+        The museum now holds more than forty-five thousand Japanese prints.
+        The afterlife had licence rules of its own.
+    - id: b8-3
+      year: 1906.2
+      show: [e1906, e1913]
+      people: [wright]
+      stage: {mode: object, img: plum, region: [0, 0, 1, 1]}
+      sources: [aic-1906, metbull-wright, aic-plum]
+      text: |
+        [[wright]] first went to Japan in 1905. In 1906 he lent the Art Institute of Chicago a whole exhibition of Hiroshige.
+        He dealt in prints for twenty years. A deal with the Spauldings in 1913 grew from twenty thousand dollars to 125,000 in five months.
+        This Plum Garden at Kameido names him in its provenance: sold to Kate Buckingham, February 1915.
+    - id: b8-4
+      year: 1920
+      show: [e1920]
+      stage: {mode: time, range: [1900, 1935], lanes: [after], lifespans: [wright]}
+      sources: [vjp-takamizawa, metbull-wright, hammer-wright]
+      text: |
+        In 1919–20 some prints Wright had sold proved “revamped”: faded impressions recut and recoloured, with pinholes where new blocks were registered.
+        The fraud was traced to a Tokyo dealer and a collector, and cost Wright about thirty thousand dollars in refunds.
+        In 1928 his bank seized his house. Thousands of his prints sold at a dollar each.
+    - id: b8-5
+      year: 1889
+      show: [e1889]
+      people: [tokuno, kido, yamamoto, nakamura, morikawa]
+      stage: {mode: map, scale: world, rotate: -150, view: [120, 10, -60, 50], points: [tokyo, washington], route: tokuno}
+      sources: [si-tokuno, nmah-proof]
+      text: |
+        In 1889 [[tokuno]], head of Japan’s government Printing Bureau, sent the Smithsonian a complete printing set. It held blocks, tools, pigments and over a hundred progressive proofs.
+        Its records name the carver [[kido]] and the printers [[yamamoto]] and [[nakamura]].
+        A century of nameless carvers and printers got names only when the state sent the trade abroad.
+    decide:
+      - q: "Which collection may never be exhibited, by its donors’ condition?"
+        options: ["Hayashi’s stock, Paris", "The Spaulding gift, Boston", "The Buckingham collection, Chicago"]
+        answer: 1
+        explain: "The Spaulding gift of 1921: more than six thousand prints, to be studied and never shown."
+        resolve: {events: [e1921]}
+
+- id: a5
+  n: "V"
+  title: The icon
+  kicker: Act V · 2020–2024 · the Bank of Japan
+  segments:
+  - id: s9
+    title: One sheet’s life
+    predict:
+      q: "How many original impressions of the Great Wave are known today?"
+      options: ["21", "113", "About 8,000"]
+      answer: 1
+      explain: "113 located by 2024. Eight thousand is an estimate of how many were printed; twenty-one was an old guess."
+      sources: [bm-spot, korenberg]
+    beats:
+    - id: b9-1
+      year: 1929
+      show: [e1929]
+      stage: {mode: map, scale: world, rotate: -170, view: [100, 15, -60, 50], points: [echizen, edo, newyork], route: sheet}
+      sources: [jaanus-hosho, sumida-producers, met-wave-record]
+      text: |
+        Follow one sheet. Its paper was probably *hōsho* of paper-mulberry, the kind Echizen was famous for.
+        It was cut, inked and printed in Edo for Eijudō of Bakuro-chō, about 1831, and sold for sixteen to twenty mon.
+        How it crossed the Pacific is not recorded. In 1929 it entered the Met in the Havemeyer bequest, as JP1847.
+    - id: b9-2
+      year: 2020
+      show: [e2020]
+      stage: {mode: time, range: [1600, 2025], lanes: [print, after], runs: true}
+      sources: [bm-spot, korenberg, korenberg-fuji, vermeulen]
+      text: |
+        The census goes on. By 2020 the British Museum had located 111 Great Waves, in eight states. Red Fuji has 93 known impressions in five.
+        The Met holds all forty-six Fuji designs, in 121 impressions.
+        None of the blocks survives, and no record of the print run exists.
+        Every count is a museum’s, not a publisher’s.
+    - id: b9-3
+      year: 2024.5
+      show: [e2024]
+      stage: {mode: object, img: hi-wave, region: [0, 0, 1, 1], full: true}
+      sources: [boj-note, npb-1000]
+      text: |
+        On 3 July 2024 the Bank of Japan put the wave on the back of the thousand-yen note.
+        The note’s image is not openly licensed, so it is described here, not shown.
+        A publisher bet this sheet on a pigment fad. A censor stamped it, and a later state capped its price. Now the state prints it as money.
+    - id: b9-4
+      year: 2024.5
+      show: [e1790, e1831, e1842, e1889, e2024]
+      stage: {mode: time, range: [1600, 2025], lanes: [state, trade, print, world, after], lifespans: [tsutaya, utamaro, hokusai, oi, hiroshige, kuniyoshi, hayashi, wright], acts: true}
+      sources: [wiki-ukiyoe, si-tokuno]
+      text: |
+        Five bets. Tsutaya answered a fine with luxury. Eijudō bet on a pigment’s price. The ban turned the trade to warriors and views.
+        Hayashi, Bing and Wright made a second trade abroad. The Bank of Japan made an icon.
+        The designers were named on every sheet. The carvers and printers were named once, in 1889, for export.
+    - id: b9-5
+      kind: closing
+      year: 2024.5
+      stage: {mode: tool, tool: closing}
+      sources: [jaanus-aratame, smith-blue, kato-tenpo, ndl-saruwaka, mfa-prints, si-tokuno]
+      text: |
+        Six last questions, one tap each, from across the unit.
+        Then the map and the timeline are yours: every place, year and name opens.
