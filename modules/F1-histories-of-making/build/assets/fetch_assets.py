@@ -45,7 +45,7 @@ def main():
             data = None
             for attempt in range(5):
                 try:
-                    with urllib.request.urlopen(req, timeout=60) as resp:
+                    with urllib.request.urlopen(req, timeout=180) as resp:
                         data = resp.read()
                     break
                 except urllib.error.HTTPError as he:
