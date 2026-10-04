@@ -7,8 +7,7 @@ manifest, plus fetch_report.csv (id, status, bytes, width, height). Only rows wh
 with CC0, "Public domain" or "CC BY" are fetched; the rest are reported as skipped. Runs in GitHub Actions,
 which has the network this project's authoring shell lacks.
 """
-import csv, io, sys, time
-Image_MAX = None, urllib.error, urllib.request
+import csv, io, sys, time, urllib.error, urllib.request
 from pathlib import Path
 
 from PIL import Image
