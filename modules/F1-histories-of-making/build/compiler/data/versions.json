@@ -1,0 +1,896 @@
+[
+ {
+  "id": "v0",
+  "name": "The full case (document)",
+  "date": "2026-10-04",
+  "url": "https://claude.ai/artifact/25xbkperkvu3XM5YnUpNEr",
+  "source": "modules/F1-histories-of-making/research/edo-2026-10-04/EDO_FULL_CASE.md",
+  "thesis": "Edo read whole as the earliest documentable mass creative industry: one essential question, a system diagram, a cast of 58, six eras, 52 objects, eight lectures and ten interactives, as a reference recipe for every F1 page.",
+  "judged": "No critique of the document itself is recorded. It was written because the lead judged the existing reference pages \"still pretty weak, from concept to execution\" (research/edo-2026-10-04/README.md), and it is the yardstick later critiques use (REPORT_EDO_REDESIGN.md cites its ~62-minute lecture plan and notes v2 dropped three of its ten interactives).",
+  "stats": {
+   "chapters": 10,
+   "lectures": 8,
+   "tools": 10,
+   "toolsNote": "specified, none built",
+   "files": 1,
+   "jsKB": 0,
+   "words": 8753
+  },
+  "posters": {
+   "opening": {
+    "d": "posters/v0-opening-d.webp",
+    "m": "posters/v0-opening-m.webp",
+    "shows": "Title, byline and §1 concept"
+   },
+   "wave": {
+    "d": "posters/v0-wave-d.webp",
+    "m": "posters/v0-wave-m.webp",
+    "shows": "§5 Lecture 5 \"Blue\" (the Great Wave and Prussian blue)"
+   },
+   "map": "none",
+   "timeline": {
+    "d": "posters/v0-timeline-d.webp",
+    "m": null,
+    "shows": "§3 the six-era spine table"
+   },
+   "tool": {
+    "d": "posters/v0-tool-d.webp",
+    "m": null,
+    "shows": "§6 I3 One design, many originals (spec)"
+   },
+   "person": {
+    "d": "posters/v0-person-d.webp",
+    "m": null,
+    "shows": "§2 cast by role, publishers table"
+   },
+   "question": {
+    "d": "posters/v0-question-d.webp",
+    "m": null,
+    "shows": "§5 Lecture 1 with its prediction and argued station"
+   },
+   "nav": "none"
+  },
+  "posterNote": "Rendered locally from the repo export (rev 10) with a neutral doc style; the live Claude Doc (and its embedded system-diagram widget) could not be rendered here.",
+  "fingerprint": {
+   "spine": {
+    "label": "System-first reference document",
+    "desc": "Sections run concept → cast by role → six-era spine → object set → lectures → interactives → how it holds together (EDO_FULL_CASE.md §1–§7), organised around the essential question \"How does a city turn pictures into a mass market, and who gets named when it does?\" and a five-part system (inputs, four trades, market, afterlife)."
+   },
+   "layout": {
+    "label": "Long-form doc, tables",
+    "desc": "A single-column Claude Doc with ~114 table rows (cast, eras, events); no screens or stage (EDO_FULL_CASE.md)."
+   },
+   "navigation": {
+    "label": "Numbered headings only",
+    "desc": "Ten numbered sections; no in-page wayfinding beyond the doc outline."
+   },
+   "questioning": {
+    "label": "Specified predictions and checks",
+    "desc": "Each lecture specifies one \"Prediction (one tap on the map)\" and an \"Argued\" station; each interactive ends on a one-tap \"Check\" (EDO_FULL_CASE.md §5–§6). Nothing is built."
+   },
+   "tools": {
+    "label": "Ten designed interactives (I1–I10)",
+    "desc": "Read the margin, Peel the colours, One design many originals, The city 1677–1859, What a sheet cost, The blue route, Before and after the ban, An edition, The export map, The contract; each with lens, data, what the learner does, what it shows, check (§6)."
+   },
+   "motion": {
+    "label": "None",
+    "desc": "Static document."
+   },
+   "visual": {
+    "label": "Plain document",
+    "desc": "Doc typography plus one embedded system-diagram widget that the repo export only records as \"[embedded content: the system of the floating world …]\"."
+   },
+   "text": {
+    "label": "Dense, sourced reference prose",
+    "desc": "8,753 words; confidence words on claims, quotes ≤ 25 words, Japanese name order, content-note protocol (§8)."
+   },
+   "people": {
+    "label": "Cast tables by role",
+    "desc": "Publishers, designers by school, carvers and printers (three named), censors and the state, theatre, dealers and collectors; 58 documented, 46 named; the publisher first because the 1790 law named him (§2)."
+   },
+   "mapping": {
+    "label": "None built (maps specified)",
+    "desc": "Maps exist only as specifications: I4 1677↔1859 LoC transparency, I6 blue-route arcs, I9 export map (§6)."
+   },
+   "timeline": {
+    "label": "Era table + anchor-event list",
+    "desc": "Six eras (A city is made … The afterlife) each \"turned by something a learner can date\", plus 78 sourced events (§3)."
+   }
+  }
+ },
+ {
+  "id": "v1",
+  "name": "Edo Case — UX Prototype (Design canvas)",
+  "date": "2026-10-04",
+  "url": "https://claude.ai/artifact/VgCXxxurNdANYWDT6uKJ3j",
+  "source": "modules/F1-histories-of-making/build/prototypes/edo-ux/project/*.dc.html (canvas.json)",
+  "thesis": "The case as a hub page whose system diagram is the index: tap a box and the lectures and interactives that operate it light up; lectures are station tours and interactives are separate screens.",
+  "judged": "too complicated, lectures too thin, no coherent thread",
+  "stats": {
+   "screens": 6,
+   "lectures": 8,
+   "lecturesBuilt": 1,
+   "stationsInBuiltLecture": 8,
+   "tools": 3,
+   "toolsNote": "3 of 10 interactives built (Margin, Ban, Cost); the rest link to \"Prototype: see I1\"",
+   "files": 7,
+   "jsKB": 38.1,
+   "words": 3034,
+   "wordsNote": "visible text across the six artboards in their initial state"
+  },
+  "posters": {
+   "opening": {
+    "d": "posters/v1-opening-d.webp",
+    "m": "posters/v1-opening-m.webp",
+    "shows": "Main.dc.html case page top"
+   },
+   "wave": {
+    "d": "posters/v1-wave-d.webp",
+    "m": "posters/v1-wave-m.webp",
+    "shows": "Lecture 5 \"Blue\", station 6 Inside the blue (spectroscopy labels on the Wave)"
+   },
+   "map": {
+    "d": "posters/v1-map-d.webp",
+    "m": null,
+    "shows": "Atlas.dc.html Place lens"
+   },
+   "timeline": {
+    "d": "posters/v1-timeline-d.webp",
+    "m": null,
+    "shows": "Atlas.dc.html Time lens (era bands, 1842 selected)"
+   },
+   "tool": {
+    "d": "posters/v1-tool-d.webp",
+    "m": null,
+    "shows": "Margin.dc.html with the censor seal hotspot read"
+   },
+   "person": {
+    "d": "posters/v1-person-d.webp",
+    "m": null,
+    "shows": "Main.dc.html cast by role (Publishers tab)"
+   },
+   "question": {
+    "d": "posters/v1-question-d.webp",
+    "m": null,
+    "shows": "Lecture 5 station 5 one-tap prediction"
+   },
+   "nav": {
+    "d": "posters/v1-nav-d.webp",
+    "m": null,
+    "shows": "Main.dc.html system diagram with Licence tapped"
+   }
+  },
+  "posterNote": "The Design runtime is not available locally; posters were rendered by a stand-in runtime (scratch support.js) that implements the canvas template bindings ({{…}}, sc-for, sc-if, DCLogic state). Blob images were mapped to build/assets/edo by alt text. Phone posters show the artboards' own @media (max-width:720px) rules.",
+  "fingerprint": {
+   "spine": {
+    "label": "Hub-and-spoke: system diagram as index",
+    "desc": "Main.dc.html: five boxes (Inputs, Production, Licence, Market, Afterlife) filter eight lecture cards and ten interactive tiles (\"Tap a box: the lectures that walk through it and the interactives that operate it light up\"). No single narrative thread joins them."
+   },
+   "layout": {
+    "label": "Separate screens (artboards)",
+    "desc": "canvas.json lays out six 1440-wide boards: a long case page (1440×3560), a lecture player (dark stage + 8-station sidebar), and one page per interactive."
+   },
+   "navigation": {
+    "label": "Hub page + lens bar + station list",
+    "desc": "Top bar lens pills (Time, Place, Movements, Objects); lecture player with numbered station list and Previous/Next station plus a progress bar (Lecture.dc.html); every screen links \"← Edo Japan · case\"."
+   },
+   "questioning": {
+    "label": "One-tap prediction + seal-red check cards",
+    "desc": "Lecture station 5 \"Prediction · one tap, then the map answers\" (\"Where was the Prussian blue in a Great Wave of 1831 made?\"); Margin and Cost end on \"Check · one tap\"; seal red #B3301D is reserved for predictions and checks (README)."
+   },
+   "tools": {
+    "label": "Standalone interactive pages (3 of 10 built)",
+    "desc": "Margin.dc.html: five hotspots on Hiroshige's Sudden Shower, then date the sheet to a censor band; Ban.dc.html: year scrubber 1835–1850 fading genres; Cost.dc.html: price bars against a bowl of soba with the 1842 cap line."
+   },
+   "motion": {
+    "label": "Static state swaps",
+    "desc": "DCLogic setState re-renders only; no timers, transitions or scroll-linked motion in any artboard script."
+   },
+   "visual": {
+    "label": "Paper, ink, one Prussian-blue accent; dark lecture stage",
+    "desc": "Paper #F4F2EC, ink #15161A, Prussian blue #1C3E8C as the one accent, seal red for checks; Shippori Mincho display + IBM Plex Sans JP body; lecture stage #0F1522 so prints carry the light (README.md)."
+   },
+   "text": {
+    "label": "Short station narration with claim ids",
+    "desc": "\"Narration · every factual sentence carries its claim id\": one or two sentences per station (Lecture.dc.html); the case page carries thesis, stats and card blurbs. Judged \"lectures too thin\"."
+   },
+   "people": {
+    "label": "Role tabs over dark text cards",
+    "desc": "Main.dc.html \"The organiser first\": five role tabs (Publishers 8, Designers 20, Carvers and printers, Censors and the state, Dealers and collectors); name + kanji + dates + note, no portraits."
+   },
+   "mapping": {
+    "label": "Schematic place diagram",
+    "desc": "Atlas.dc.html Place lens: labelled pills in a Japan box and a world box with arc counts; the board notes \"The live build is MapLibre on OpenHistoricalMap tiles\". No geography drawn."
+   },
+   "timeline": {
+    "label": "Proportional era bands + event chips",
+    "desc": "Atlas.dc.html Time lens: six eras with widths proportional to years (afterlife folded), 12 dated event chips; tapping one opens a node card shared by every lens."
+   }
+  }
+ },
+ {
+  "id": "v2",
+  "name": "The scrolling atlas",
+  "date": "2026-10-04",
+  "url": "https://claude.ai/artifact/6fWBj38Cb9WJdVsBgEFPDN",
+  "source": "modules/F1-histories-of-making/build/prototypes/edo-story/ (index.html, app.js, data.js)",
+  "thesis": "One continuous scroll in place of the artboards: a Pacific-centred world map and a proportional timeline animate beside six chapters, with eight tools embedded where the story needs them.",
+  "judged": "not coherent; tools primitive; atlas should be an interactive world map; timeline should be designed like one with animations; elements need visuals; lazy. (Research critique: \"a well-sourced essay with a slideshow of dots beside it\" — REPORT_EDO_REDESIGN.md.)",
+  "stats": {
+   "chapters": 7,
+   "beats": 33,
+   "tools": 8,
+   "checks": 5,
+   "files": 5,
+   "filesNote": "source files; plus 42 images, d3 7.9 (280 KB), topojson-client, world-atlas 50m (756 KB)",
+   "jsKB": 106.9,
+   "words": 5627,
+   "wordsNote": "narrative words per the critique (REPORT_EDO_REDESIGN.md); 7,302 including tool and caption text"
+  },
+  "posters": {
+   "opening": {
+    "d": "posters/v2-opening-d.webp",
+    "m": "posters/v2-opening-m.webp",
+    "shows": "Prologue b0-1"
+   },
+   "wave": {
+    "d": "posters/v2-wave-d.webp",
+    "m": "posters/v2-wave-m.webp",
+    "shows": "b4-4 Under the wave off Kanagawa"
+   },
+   "map": {
+    "d": "posters/v2-map-d.webp",
+    "m": null,
+    "shows": "b4-2 the blue route (Berlin → Nagasaki)"
+   },
+   "timeline": {
+    "d": "posters/v2-timeline-d.webp",
+    "m": null,
+    "shows": "b5-1 the sixth month of 1842"
+   },
+   "tool": {
+    "d": "posters/v2-tool-d.webp",
+    "m": null,
+    "shows": "b4-5 One design, many originals"
+   },
+   "person": {
+    "d": "posters/v2-person-d.webp",
+    "m": null,
+    "shows": "b3-1 Tsutaya with inline cast card"
+   },
+   "question": {
+    "d": "posters/v2-question-d.webp",
+    "m": null,
+    "shows": "b4-7 What a sheet cost, check card"
+   },
+   "nav": {
+    "d": "posters/v2-nav-d.webp",
+    "m": null,
+    "shows": "Explore the Atlas mode"
+   }
+  },
+  "posterNote": "Served statically with vendor-js (d3 7.9.0, topojson-client) and data/countries-50m.json restored from node_modules, images linked from build/assets.",
+  "fingerprint": {
+   "spine": {
+    "label": "Seven chapters on one scroll, motif index",
+    "desc": "33 beats (b0-1 … b6-4) in a prologue and six chapters (data.js). Critique: \"The thread is an index, not a plot\"; protagonists dropped after one chapter."
+   },
+   "layout": {
+    "label": "Sticky dark stage + cream reading column",
+    "desc": "index.html .layout grid (1fr | 660px): a navy stage with the map above the timeline, a cream essay column beside it; on phones the stage stacks above the text."
+   },
+   "navigation": {
+    "label": "Chapter dots + \"Explore the Atlas\" toggle",
+    "desc": "Header chips 0–6; \"Explore the Atlas\" dims the story and hands the map and timeline to the reader; clicking a timeline event scrolls to its beat (README.md, app.js)."
+   },
+   "questioning": {
+    "label": "One-tap checks inside tools",
+    "desc": "Five \"Check · …\" multiple-choice cards inside the margin, blue, price, ban and export tools (app.js); right/wrong shown by colour and strikethrough (critique)."
+   },
+   "tools": {
+    "label": "Eight embedded widgets",
+    "desc": "Tools.process (the chain), margin, blue (route scrubber), waves (three impressions), price, ban, edition (counter), export in app.js; four autoplay; a 900 ms unscoped timer lets tools overwrite later map scenes (critique)."
+   },
+   "motion": {
+    "label": "Scroll-triggered flights + autoplay",
+    "desc": "Map.go() d3-zoom flights per beat and a timeline playhead tween; no prefers-reduced-motion handling (critique counts zero occurrences)."
+   },
+   "visual": {
+    "label": "Editorial column beside a navy dashboard",
+    "desc": "Tokens --paper #F4F2EC, --blue #1C3E8C, --seal2 on every pin, route and slider (index.html); 96×120 portrait crops; the 1859 raster flashes cream into the navy pane 19 times (critique)."
+   },
+   "text": {
+    "label": "Long essay paragraphs",
+    "desc": "5,627 narrative words; every beat has a sentence over 25 words, 97 in all, longest 69 (critique)."
+   },
+   "people": {
+    "label": "Inline cast card at first mention",
+    "desc": "data.js CAST: portrait, kanji, dates, role, one line, credit; 18 people with no carver, printer or woman (critique)."
+   },
+   "mapping": {
+    "label": "Pacific-centred d3 world + 1859 raster city",
+    "desc": "d3-geo on world-atlas 50m with views world/japan/kanto/blue/tokaido/pacific/export/europe, and the LoC 1859 sheet with pins set by eye; city view in 19 of 33 beats; map decorative in 22 (critique)."
+   },
+   "timeline": {
+    "label": "Proportional ruler, afterlife folded",
+    "desc": "Timeline in app.js: 1600–2024 with a break after 1870, six era bands, 33 events with ≤ 3 lit, no lanes or lifespans (critique)."
+   }
+  }
+ },
+ {
+  "id": "v3",
+  "name": "Edo unit v3 — five acts, one stage",
+  "date": "2026-10-04",
+  "url": "git 04e3cc7 (no separate artifact; v4 republished to 73RSURL2MWqJpyJuh4mdh6)",
+  "source": "modules/F1-histories-of-making/build/units/edo @ 04e3cc7",
+  "thesis": "Five acts on five publishers' bets, with one pinned stage (three-scale map, a timeline that charts the trade, deep-zoom objects, six tools) driven by short beats.",
+  "judged": "investigative questions at chapter starts feel weird/invasive; readings are small blocks with a question; components not grouped; interactions primitive. (Recorded verbatim in ARCH_V4.md \"What the user asked for\".)",
+  "stats": {
+   "acts": 6,
+   "segments": 9,
+   "beats": 62,
+   "tools": 6,
+   "predictions": 9,
+   "checks": 7,
+   "people": 40,
+   "events": 53,
+   "files": 237,
+   "jsKB": 496.5,
+   "words": 3560
+  },
+  "posters": {
+   "opening": {
+    "d": "posters/v3-opening-d.webp",
+    "m": "posters/v3-opening-m.webp",
+    "shows": "Prologue p-1"
+   },
+   "wave": {
+    "d": "posters/v3-wave-d.webp",
+    "m": "posters/v3-wave-m.webp",
+    "shows": "b4-2 the Met's spectroscopy marks on the Wave"
+   },
+   "map": {
+    "d": "posters/v3-map-d.webp",
+    "m": null,
+    "shows": "b3-3 the blue route (Equal Earth)"
+   },
+   "timeline": {
+    "d": "posters/v3-timeline-d.webp",
+    "m": null,
+    "shows": "b5-2 the 1842 edict on the lane chart"
+   },
+   "tool": {
+    "d": "posters/v3-tool-d.webp",
+    "m": null,
+    "shows": "b4-4 Compare three Great Waves"
+   },
+   "person": {
+    "d": "posters/v3-person-d.webp",
+    "m": null,
+    "shows": "b2-1 with Tsutaya's entity sheet open"
+   },
+   "question": {
+    "d": "posters/v3-question-d.webp",
+    "m": null,
+    "shows": "s1-predict: Before you read: predict"
+   },
+   "nav": {
+    "d": "posters/v3-nav-d.webp",
+    "m": null,
+    "shows": "Act II opener over the full timeline"
+   }
+  },
+  "posterNote": "Built from a git worktree at 04e3cc7 (node_modules symlinked from v4; only three.js differs) and served from dist/.",
+  "fingerprint": {
+   "spine": {
+    "label": "Prologue + five acts on publishers' bets",
+    "desc": "content/story.yaml: p, a1 Tsutaya, a2 Eijudō, a3 Uoya, a4 Hayashi–Bing–Wright, a5 the Bank of Japan; 9 segments, 62 beats."
+   },
+   "layout": {
+    "label": "One pinned stage + floating beat cards",
+    "desc": "src/main.js \"One pinned stage (map, timeline, object or tool) driven by the story column\"; beats are paper cards over the left of the stage; on phones tools render inside the beat card."
+   },
+   "navigation": {
+    "label": "Act numerals + year/era readout + Explore",
+    "desc": "index.html bar: P I–V act links, live year with Japanese era, Explore (pan/zoom everything), reduce-motion and theme buttons; a mini timeline strip under every stage; act-opener cards."
+   },
+   "questioning": {
+    "label": "Predict first, decide after",
+    "desc": "story.js puts a \"Before you read: predict\" card at the start of each of 9 segments and 7 \"decide\" checks after; judged weird/invasive."
+   },
+   "tools": {
+    "label": "Six stage tools",
+    "desc": "src/tools.js: peel (layers), waves (three Great Waves with diagnostics), margin, edition, contract (read, not played), closing recall."
+   },
+   "motion": {
+    "label": "Instrument transitions with scoped timers",
+    "desc": "Map flights and scale changes, scripted anims (fire, yoshiwara-move, tsutaya-move, theatres-move), timeline bands; every timer owned by a Scope (src/util.js); reduce-motion toggle."
+   },
+   "visual": {
+    "label": "Washi, sumi, indigo; seal red reserved",
+    "desc": "Paper/ink palette with indigo accent and seal red only for the censor and 1842; Shippori Mincho, Source Serif 4, IBM Plex Sans (README.md); prints full-bleed at deep zoom (OpenSeadragon)."
+   },
+   "text": {
+    "label": "Short linted beats",
+    "desc": "scripts/build-content.mjs lint: 40–100 words per beat, no sentence over 25 words, no two consecutive beats with the same instrument state; 3,560 words. Judged \"small blocks with a question\"."
+   },
+   "people": {
+    "label": "Inline cast card + entity sheet",
+    "desc": "src/cards.js Sheet: one panel for a person, place, event or image with portrait, dates, a line and \"Appears in\"; 40 people."
+   },
+   "mapping": {
+    "label": "Three-scale ink map",
+    "desc": "src/map.js: world in Equal Earth rotated per scene, Japan and the Kantō on a 10 m coastline, Edo on the 1859 LoC sheet with a fitted georeference; 19 map beats (world 7, city 6, Japan 3, Kantō 2, Europe 1)."
+   },
+   "timeline": {
+    "label": "Lane chart of the trade",
+    "desc": "src/timeline.js \"a chart of the trade, not a ruler\": lanes by kind, lifespans, four censor bands, price lane with the 1842 cap, print-run bubbles; mini strip in two scales."
+   }
+  }
+ },
+ {
+  "id": "v4",
+  "name": "Edo unit v4 — overture, scenes, rooms (current)",
+  "date": "2026-10-04",
+  "url": "https://claude.ai/artifact/73RSURL2MWqJpyJuh4mdh6",
+  "source": "modules/F1-histories-of-making/build/units/edo (ARCH_V4.md)",
+  "thesis": "v3's pinned stage rebuilt as one grammar: a 3.5D overture that tells the whole story, washi scene sheets on an ink thread, optional instrument-native guesses, character cards, act Rebuilds, and full-screen rooms (Desks, Workshop, Views).",
+  "judged": "Current version; no critique recorded yet.",
+  "stats": {
+   "acts": 6,
+   "overtureShots": 9,
+   "beats": 71,
+   "tools": 9,
+   "toolsNote": "lab modules (src/labs/index.js); 5 on the stage, all 9 in rooms",
+   "guesses": 9,
+   "rebuilds": 5,
+   "people": 41,
+   "events": 54,
+   "files": 141,
+   "jsKB": 1522,
+   "jsNote": "26 chunks; three.js and OpenSeadragon load on demand",
+   "words": 4132
+  },
+  "posters": {
+   "opening": {
+    "d": "posters/v4-opening-d.webp",
+    "m": "posters/v4-opening-m.webp",
+    "shows": "Overture shot 1 (paper, 浮世)"
+   },
+   "wave": {
+    "d": "posters/v4-wave-d.webp",
+    "m": "posters/v4-wave-m.webp",
+    "shows": "b4-2 the Met's spectroscopy marks on the Wave"
+   },
+   "map": {
+    "d": "posters/v4-map-d.webp",
+    "m": null,
+    "shows": "b3-3 the blue route (Equal Earth)"
+   },
+   "timeline": {
+    "d": "posters/v4-timeline-d.webp",
+    "m": null,
+    "shows": "b5-2 the 1842 edict on the lane chart with price lane"
+   },
+   "tool": {
+    "d": "posters/v4-tool-d.webp",
+    "m": null,
+    "shows": "b4-4 One design, three originals (compare lab)"
+   },
+   "person": {
+    "d": "posters/v4-person-d.webp",
+    "m": "posters/v4-person-m.webp",
+    "shows": "b2-1 with Tsutaya's character sheet open"
+   },
+   "question": {
+    "d": "posters/v4-question-d.webp",
+    "m": null,
+    "shows": "b4-1 map guess (what rose over the boats)"
+   },
+   "nav": {
+    "d": "posters/v4-nav-d.webp",
+    "m": null,
+    "shows": "Act II opener with the Rooms menu open"
+   },
+   "overture": {
+    "d": "posters/v4-overture-d.webp",
+    "m": "posters/v4-overture-m.webp",
+    "shows": "Overture shot 2 (the Wave planes)"
+   },
+   "roomDesks": {
+    "d": "posters/v4-roomDesks-d.webp",
+    "m": null,
+    "shows": "Desks room: Seal Timeline"
+   },
+   "roomWorkshop": {
+    "d": "posters/v4-roomWorkshop-d.webp",
+    "m": null,
+    "shows": "Workshop room: Print the Wave"
+   },
+   "roomViews": {
+    "d": "posters/v4-roomViews-d.webp",
+    "m": null,
+    "shows": "Views room: Step into the View"
+   }
+  },
+  "posterNote": "Built with build-content + vite into a scratch outDir (public/content.json restored afterwards); WebGL via SwiftShader.",
+  "fingerprint": {
+   "spine": {
+    "label": "Overture → acts → scenes → Rebuild → Coda",
+    "desc": "src/story.js: act opener (hero, numeral, the bet, scenes) → scenes on an ink thread → the act's Rebuild → the Coda; the nine-shot overture (src/overture.js) tells the whole concept first."
+   },
+   "layout": {
+    "label": "Pinned stage + washi scene sheets + rooms",
+    "desc": "Story column of scene sheets beside the pinned stage (src/main.js); rooms are full-screen panels with tabs, focus trap and back-button (src/rooms.js)."
+   },
+   "navigation": {
+    "label": "Act bar + Rooms menu + Cast deck",
+    "desc": "index.html bar: act numerals, year/era, Cast button with met counter, Rooms menu (Desks, Workshop, Views), Explore, reduce motion, theme; hash routes #room-desks.censor; \"Go deeper\" links in beats."
+   },
+   "questioning": {
+    "label": "Optional late guesses, ghost vs record",
+    "desc": "src/guess.js: one optional prompt late in a scene, answered on the instrument (map tap/route, timeline drag, viewer tap) or inline (slider, choice, bet, order); your answer a hollow ghost, the record solid ink; never scored. 9 guesses + 5 act Rebuilds + Coda ledger (src/rebuild.js)."
+   },
+   "tools": {
+    "label": "Lab modules with stage and room modes",
+    "desc": "src/labs/index.js: print, compare, edition, contract, catalogue, sealtimeline, censor, view, ukie; one mount(root, ctx) interface, workbench frame, \"What this shows\", sources, reset (ARCH_V4.md)."
+   },
+   "motion": {
+    "label": "Choreographed, tokenised, 3D where space is the argument",
+    "desc": "Motion tokens --d-* / --e-* (ARCH_V4.md); three.js overture and Step into the View with off-axis multi-plane parallax and a GLSL ink-bleed reveal (src/3d/planes.js); timeline events \"happen\" as the cursor passes; reduced-motion cuts."
+   },
+   "visual": {
+    "label": "Washi/sumi/indigo kept, materials added",
+    "desc": "Same palette and type as v3, plus 浮世 bleeding into washi, hanko chips, kraft Rebuild sheets, workbench frames (2 px indigo) for labs (ARCH_V4.md, src/cards.css)."
+   },
+   "text": {
+    "label": "Linted beats on an ink thread",
+    "desc": "Same lint (≤ 25-word sentences); 71 beats, 4,132 words; overture captions one line per shot (content/story.yaml overture.shots)."
+   },
+   "people": {
+    "label": "Character chip → card → sheet + Cast deck",
+    "desc": "src/cards.js: inline chip with portrait or hanko, hover card, sheet with Story · Works · Connections · Life, \"Show on map/timeline\"; a Cast deck where unmet people are silhouettes; 41 people."
+   },
+   "mapping": {
+    "label": "Three-scale ink map with cards and guesses",
+    "desc": "src/map.js: v3's three scales plus place cards, greedy label placement, dated relocation arcs, map guesses and Rebuild tiles; 24 map beats."
+   },
+   "timeline": {
+    "label": "Lane chart with a \"now\" cursor that makes things happen",
+    "desc": "src/timeline.js: left of the indigo cursor is inked, right is pencil; bands stamp in, the price steps down at 1842, run bubbles grow; drag-a-marker guesses and Rebuild tiles on the same axis."
+   }
+  }
+ },
+ {
+  "id": "atlas",
+  "name": "Atlas of Making (F1 hub)",
+  "date": "2026-10-04",
+  "url": "https://claude.ai/artifact/EpQh77TKiuqa5ot5dMowQ8",
+  "source": "modules/F1-histories-of-making/build/atlas-hub (README.md)",
+  "thesis": "A paper-and-ink globe on which nine world chapters are soft washes, units are lenses, and marks take ink only when the learner has engaged them; Edo is a story inside F1.8 East Asia.",
+  "judged": "Current; no critique recorded. It answers the v2 critique \"atlas should be an interactive world map\" (reports/Atlas 3D map and game mechanics.md).",
+  "stats": {
+   "views": 3,
+   "worldChapters": 9,
+   "placedRows": 771,
+   "routes": 51,
+   "files": 14,
+   "jsKB": 700.7
+  },
+  "posters": {
+   "opening": {
+    "d": "posters/atlas-opening-d.webp",
+    "m": "posters/atlas-opening-m.webp",
+    "shows": "World tier globe"
+   },
+   "wave": "none",
+   "map": {
+    "d": "posters/atlas-map-d.webp",
+    "m": null,
+    "shows": "#u-F1.8 East Asia region tier"
+   },
+   "timeline": {
+    "d": "posters/atlas-timeline-d.webp",
+    "m": null,
+    "shows": "Map view with the scrubber at 1800"
+   },
+   "tool": {
+    "d": "posters/atlas-tool-d.webp",
+    "m": null,
+    "shows": "Field notebook after an #ink.edo hand-off"
+   },
+   "person": {
+    "d": "posters/atlas-person-d.webp",
+    "m": null,
+    "shows": "#n-PER205 Tsutaya node card"
+   },
+   "question": {
+    "d": "posters/atlas-question-d.webp",
+    "m": null,
+    "shows": "Networks lens with its framing question"
+   },
+   "nav": {
+    "d": "posters/atlas-nav-d.webp",
+    "m": null,
+    "shows": "List view"
+   },
+   "edo": {
+    "d": "posters/atlas-edo-d.webp",
+    "m": null,
+    "shows": "#s-edo: the Edo story on the 1859 sheet"
+   }
+  },
+  "posterNote": "Served from build/atlas-hub/dist; WebGL globe via SwiftShader.",
+  "fingerprint": {
+   "spine": {
+    "label": "Hub: chapters → units → stories → nodes",
+    "desc": "README.md: List is primary and complete (worlds → units → stories → nodes); the Edo story sits inside F1.8 East Asia and opens the unit in a new tab."
+   },
+   "layout": {
+    "label": "Side panel + globe/map stage",
+    "desc": "Left card panel with breadcrumbs, right stage with lenses bar, view switch (Globe, Map, List), zoom pad and year scrubber (dist/index.html)."
+   },
+   "navigation": {
+    "label": "Globe / Map / List + tiers + URL tokens",
+    "desc": "World → region → unit tiers; plain hash tokens #u-F1.8, #n-PER205, #s-edo, #l-F1.13, #y-1600, #v-map (README.md)."
+   },
+   "questioning": {
+    "label": "Framing questions only",
+    "desc": "Units and lenses carry a question shown in the panel or lens caption (src/panel.js u.question, src/main.js lenscap); no checks or guesses."
+   },
+   "tools": {
+    "label": "Field notebook + ink hand-off",
+    "desc": "src/main.js openNotebook: what you have inked, rumours, lenses practised, an exportable notebook code; units hand back #ink.edo.… tokens (build/units/shared/LINKS.md)."
+   },
+   "motion": {
+    "label": "Globe flights, routes drawn by year, kinun veil",
+    "desc": "van Wijk–Nuij flights (d3 interpolateZoom), render-on-demand three.js, the golden-cloud veil parting onto the 1859 sheet; reduced motion → fade cuts, no auto-rotate (README.md)."
+   },
+   "visual": {
+    "label": "Paper-and-ink globe",
+    "desc": "Shader sphere with washi, baked sumi coast, brushed chapter washes, pencil contours that turn to ink (README.md, src/globe.js)."
+   },
+   "text": {
+    "label": "Card copy",
+    "desc": "Short card text per chapter, unit and node with confidence and \"why this mark\" edges."
+   },
+   "people": {
+    "label": "Node card",
+    "desc": "#n-PER205: kind, name, making, confidence, chapter tag, \"Note it: ink this mark\", why-this-mark edges with sources."
+   },
+   "mapping": {
+    "label": "3D globe + Equal Earth fallback + list",
+    "desc": "three.js globe, d3-geo Equal Earth SVG fallback, supercluster bubbles at region tier; only place-anchored rows (771) are marks, none with invented coordinates (README.md)."
+   },
+   "timeline": {
+    "label": "Deep-time scrubber with play",
+    "desc": "Year scrubber 12,000 BCE–2026 with play; routes draw to the chosen year (#y-… token)."
+   }
+  }
+ },
+ {
+  "id": "desks",
+  "name": "The Print Desks (side branch)",
+  "date": "2026-10-04",
+  "url": "https://claude.ai/artifact/Qu4AiUxBdmiaycRs9AcjKp",
+  "source": "no local source; planned pieces named in build/atlas-hub/scripts/build_data.py",
+  "thesis": "Planned as a separate artifact of evidence desks: Seal Timeline, Catalogue Desk, Censor's Desk.",
+  "judged": "Superseded on 4 October 2026: \"published by an earlier pass that planned separate pieces; their content now lives inside the Edo unit\" (build/units/shared/LINKS.md). The live page is a placeholder.",
+  "stats": {
+   "files": 1,
+   "jsKB": 0,
+   "words": 9
+  },
+  "posters": {
+   "opening": {
+    "d": "posters/desks-opening-d.webp",
+    "m": null,
+    "shows": "Placeholder page"
+   },
+   "wave": "none",
+   "map": "none",
+   "timeline": "none",
+   "tool": "none",
+   "person": "none",
+   "question": "none",
+   "nav": "none"
+  },
+  "posterNote": "Placeholder HTML read with the Artifact tool and rendered locally.",
+  "fingerprint": {
+   "spine": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "layout": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "navigation": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "questioning": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "tools": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\" Planned: Seal Timeline, Catalogue Desk, Censor's Desk — built later as v4's Desks room (src/labs/sealtimeline.js, catalogue.js, censor.js)."
+   },
+   "motion": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "visual": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "text": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "people": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "mapping": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "timeline": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   }
+  }
+ },
+ {
+  "id": "workshop",
+  "name": "Edo Print Workshop (side branch)",
+  "date": "2026-10-04",
+  "url": "https://claude.ai/artifact/UMadfVGh6pAasUYG1UdRFX",
+  "source": "no local source; planned pieces named in build/atlas-hub/scripts/build_data.py",
+  "thesis": "Planned as a separate artifact: Print the Wave and Step into the View.",
+  "judged": "Superseded on 4 October 2026 (build/units/shared/LINKS.md). The live page is a placeholder.",
+  "stats": {
+   "files": 1,
+   "jsKB": 0,
+   "words": 9
+  },
+  "posters": {
+   "opening": {
+    "d": "posters/workshop-opening-d.webp",
+    "m": null,
+    "shows": "Placeholder page"
+   },
+   "wave": "none",
+   "map": "none",
+   "timeline": "none",
+   "tool": "none",
+   "person": "none",
+   "question": "none",
+   "nav": "none"
+  },
+  "posterNote": "Placeholder HTML read with the Artifact tool and rendered locally.",
+  "fingerprint": {
+   "spine": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "layout": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "navigation": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "questioning": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "tools": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\" Planned: Print the Wave, Step into the View — built later as v4's Workshop and Views rooms (src/labs/print/*, src/labs/view.js, ukie.js)."
+   },
+   "motion": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "visual": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "text": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "people": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "mapping": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "timeline": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   }
+  }
+ },
+ {
+  "id": "atlas0",
+  "name": "Atlas of Making, first version (side branch)",
+  "date": "2026-10-04",
+  "url": "https://claude.ai/artifact/KofGwdTPrtaCgLG8ykoBYi",
+  "source": "no local source",
+  "thesis": "First publish of the Atlas hub, replaced by the current Atlas artifact.",
+  "judged": "Superseded on 4 October 2026 (build/units/shared/LINKS.md). The live page is a placeholder.",
+  "stats": {
+   "files": 1,
+   "jsKB": 0,
+   "words": 9
+  },
+  "posters": {
+   "opening": {
+    "d": "posters/atlas0-opening-d.webp",
+    "m": null,
+    "shows": "Placeholder page"
+   },
+   "wave": "none",
+   "map": "none",
+   "timeline": "none",
+   "tool": "none",
+   "person": "none",
+   "question": "none",
+   "nav": "none"
+  },
+  "posterNote": "Placeholder HTML read with the Artifact tool and rendered locally.",
+  "fingerprint": {
+   "spine": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "layout": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "navigation": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "questioning": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "tools": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\" Planned as the hub; built as the current Atlas (build/atlas-hub)."
+   },
+   "motion": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "visual": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "text": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "people": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "mapping": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   },
+   "timeline": {
+    "label": "None (placeholder page)",
+    "desc": "The published page only says it \"is being built. Check back shortly.\""
+   }
+  }
+ }
+]

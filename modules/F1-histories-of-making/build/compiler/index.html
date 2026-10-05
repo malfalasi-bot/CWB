@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Edo Concept Composer</title>
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <pattern id="hatch-adapt" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+      <rect width="6" height="6" class="pat-bg-adapt"></rect><line x1="0" y1="0" x2="0" y2="6" class="pat-adapt" stroke-width="2"></line>
+    </pattern>
+    <pattern id="hatch-conflict" patternUnits="userSpaceOnUse" width="6" height="6">
+      <rect width="6" height="6" class="pat-bg-conflict"></rect>
+      <path d="M0 0L6 6M6 0L0 6" class="pat-conflict" stroke-width="1.4" fill="none"></path>
+    </pattern>
+  </defs>
+</svg>
+<a class="skip" href="#composer">Skip to the composer</a>
+<header class="vbar" id="vbar">
+  <div class="vbar-row">
+    <a class="brand" href="#top" aria-label="Edo Concept Composer, back to top"><span class="brand-mark" aria-hidden="true">合</span><span class="brand-name">Edo Concept Composer</span></a>
+    <div class="verdict" id="verdict"><span class="vglyph" id="vglyph"></span><span class="vtext" id="vtext">Loading the model…</span></div>
+    <div class="vcounts" id="vcounts" aria-label="Pair counts by status"></div>
+    <div class="parray" id="parray" aria-hidden="true"></div>
+    <div class="vtools">
+      <div class="seg" role="group" aria-label="Review pass" id="passSeg">
+        <button type="button" data-pass="1" aria-pressed="false"><span class="lg">Pass 1 · </span>Blind</button>
+        <button type="button" data-pass="2" aria-pressed="true"><span class="lg">Pass 2 · </span>Decide</button>
+      </div>
+      <button type="button" class="icon-btn" id="undoBtn" aria-label="Undo last change" title="Undo">↶</button>
+      <button type="button" class="icon-btn" id="redoBtn" aria-label="Redo" title="Redo">↷</button>
+      <button type="button" class="icon-btn" id="themeBtn" aria-label="Switch colour theme" title="Theme">◐</button>
+    </div>
+  </div>
+  <div class="vbar-sub">
+    <nav class="secnav" aria-label="Sections">
+      <a href="#versions">Versions</a><a href="#composer">Composer</a><a href="#feasibility">Feasibility</a><a href="#methods"><span class="lg">Teaching methods</span><span class="sh">Methods</span></a><a href="#brief">Brief</a>
+    </nav>
+    <p class="preview" id="preview" aria-hidden="true"></p>
+    <p class="storechip" id="storechip">Saved on this device only</p>
+  </div>
+</header>
+<div id="live" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+<main id="top">
+  <section class="intro">
+    <h1>Compose the final Edo concept</h1>
+    <p class="lede">Every version of the <em>Edo and the floating world</em> unit, taken apart into twelve design decisions. Pick one option per decision and the bar above says at once whether the combination can be built, what it costs, and where it breaks.</p>
+    <ol class="howto">
+      <li><strong>Pass 1 · Blind.</strong> Options are shuffled and their versions hidden. Mark each Approve, Maybe or Reject on the idea, not the polish.</li>
+      <li><strong>Pass 2 · Decide.</strong> Versions return, each option is scored against v4 (+ better, S same, − worse), and you choose one per row. A reason is required for every Reject and every choice.</li>
+      <li><strong>Check and write up.</strong> The ledger explains every pair, the blueprint shows where problems sit on the page, and the brief writes itself.</li>
+    </ol>
+  </section>
+
+  <section id="versions" class="sec" aria-labelledby="h-versions">
+    <div class="sec-head"><h2 id="h-versions">Versions</h2><p>Six versions of the unit and the Atlas hub, each with today’s verdict for its own path, plus three placeholder side branches. Posters show the same beats in every version.</p></div>
+    <div id="versionsBody"></div>
+  </section>
+
+  <section id="composer" class="sec" aria-labelledby="h-composer">
+    <div class="sec-head"><h2 id="h-composer">Composer</h2><p>Rows are decisions, cards are the options earlier versions used. The solid line is your path; the dashed line is v4. Badges on other cards say what swapping to them would do.</p></div>
+    <div class="toolbar" id="boardTools"></div>
+    <div id="repairsBox"></div>
+    <div class="board-wrap" id="boardWrap"><svg class="pathsvg" id="pathSvg" aria-hidden="true"></svg><div id="board"></div></div>
+  </section>
+
+  <section id="feasibility" class="sec" aria-labelledby="h-feas">
+    <div class="sec-head"><h2 id="h-feas">Feasibility</h2><p>Why the verdict says what it says: every pair of chosen options, the house rules, the budgets, and a schematic of the page you have composed.</p></div>
+    <div class="feas-grid">
+      <div class="feas-ledger" id="ledger"></div>
+      <div class="feas-blue" id="blueprint"></div>
+    </div>
+  </section>
+
+  <section id="methods" class="sec" aria-labelledby="h-methods">
+    <div class="sec-head"><h2 id="h-methods">Teaching methods for the whole course</h2><p>Thirty ways to carry F1’s content, with evidence, cost and fit to the seven page archetypes. Methods you select here become the custom Teaching-method mix in the composer.</p></div>
+    <div id="methodsBody"></div>
+  </section>
+
+  <section id="brief" class="sec" aria-labelledby="h-brief">
+    <div class="sec-head"><h2 id="h-brief">Brief</h2><p>A decision record per dimension, written from your choices, notes and the feasibility check. It updates as you work.</p></div>
+    <div id="briefBody"></div>
+  </section>
+  <footer class="foot"><p id="footNote"></p></footer>
+</main>
+<dialog id="posterDialog" aria-labelledby="posterDialogTitle"><form method="dialog" class="pd-head"><h2 id="posterDialogTitle">Poster</h2><button class="btn" value="close">Close</button></form><img id="posterDialogImg" alt=""></dialog>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

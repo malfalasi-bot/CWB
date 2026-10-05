@@ -1,0 +1,1110 @@
+[
+ {
+  "dimension": "spine",
+  "label": "Spine (the organising thread)",
+  "options": [
+   {
+    "id": "spine-system-index",
+    "label": "System diagram as index",
+    "sourceVersions": [
+     "v0",
+     "v1"
+    ],
+    "what": "The five-part system (inputs, four trades, licence, market, afterlife) is the organiser; lectures and interactives hang off its boxes.",
+    "why": "Make the case readable \"whole\" and let every piece point back to one model of a creative industry.",
+    "worked": "Clear conceptual model; strong for reference and for reuse across other civilisation pages.",
+    "weaknesses": "Judged \"no coherent thread\" in v1: an index is not a plot, the learner has no reason to go on.",
+    "requires": [
+     "a hub page or diagram component",
+     "tagging every piece to a system box"
+    ],
+    "conflicts": [
+     "a single linear scroll as the only entry"
+    ],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/v1-nav-d.webp"
+   },
+   {
+    "id": "spine-chapters-motifs",
+    "label": "Chronological chapters with motifs",
+    "sourceVersions": [
+     "v2"
+    ],
+    "what": "Seven chapters in date order, held together by eight listed motifs (market, four hands, seal, price, blue, ban, export, icon).",
+    "why": "One continuous thread in place of separate screens.",
+    "worked": "Chronology is easy to follow; one real loop (learn the seal in ch. 3, use it in ch. 5).",
+    "weaknesses": "Critique: \"an index, not a plot\"; protagonists drop after one chapter; timeline runs backwards inside chapters.",
+    "requires": [
+     "scroll-driven stage"
+    ],
+    "conflicts": [
+     "hub-first navigation"
+    ],
+    "effort": "S",
+    "quality": "rough",
+    "poster": "posters/v2-opening-d.webp"
+   },
+   {
+    "id": "spine-publishers-bets",
+    "label": "Five acts on five publishers' bets",
+    "sourceVersions": [
+     "v3",
+     "v4"
+    ],
+    "what": "Prologue plus five acts, each led by a publisher (Tsutaya, Eijudō, Uoya, Hayashi–Bing–Wright, the Bank of Japan) and a bet.",
+    "why": "The research report's fix for v2: a named protagonist and stakes per act, payoffs across acts.",
+    "worked": "Gives a dramatic question per act and recurring characters; survived into v4 unchanged.",
+    "weaknesses": "v3 opened each segment with a prediction, which read as invasive; act content still dense in places.",
+    "requires": [
+     "act/segment/beat content model (story.yaml)",
+     "cast data with roles"
+    ],
+    "conflicts": [],
+    "effort": "M",
+    "quality": "polished",
+    "poster": "posters/v4-nav-d.webp"
+   },
+   {
+    "id": "spine-overture-coda",
+    "label": "Overture that tells the whole story, Coda that rebuilds it",
+    "sourceVersions": [
+     "v4"
+    ],
+    "what": "A nine-shot scroll overture (paper, wave, shop, blocks, Edo, seal, sea, return, contents) before Act I; act Rebuilds and a Coda order-rebuild with a private guess ledger at the end.",
+    "why": "The brief asked for an opening \"3.5D\" scrollytelling that tells the whole concept and for questions folded into the experience.",
+    "worked": "Frames the thesis in under a minute; the Coda closes the loop and hands off to the Atlas.",
+    "weaknesses": "Adds a long intro before content (skip link needed); heavy WebGL dependency with still fallback.",
+    "requires": [
+     "WebGL stage with still-image fallback",
+     "scroll-progress driver",
+     "motion tokens"
+    ],
+    "conflicts": [
+     "a hub-first entry (v1)"
+    ],
+    "effort": "L",
+    "quality": "polished",
+    "poster": "posters/v4-overture-d.webp"
+   }
+  ]
+ },
+ {
+  "dimension": "layout",
+  "label": "Layout",
+  "options": [
+   {
+    "id": "layout-doc",
+    "label": "Single-column document",
+    "sourceVersions": [
+     "v0"
+    ],
+    "what": "One long doc with tables.",
+    "why": "Research capture and review.",
+    "worked": "Complete and easy to edit with others.",
+    "weaknesses": "Not a learning experience; no visuals.",
+    "requires": [],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/v0-opening-d.webp"
+   },
+   {
+    "id": "layout-screens",
+    "label": "Separate screens (hub + lecture player + tool pages)",
+    "sourceVersions": [
+     "v1"
+    ],
+    "what": "A hub page, a lecture player with a dark stage and station list, and one page per interactive.",
+    "why": "Prototype each learner surface separately on a canvas.",
+    "worked": "Each screen is clear and focused; the lecture player is a recognisable pattern.",
+    "weaknesses": "Judged \"too complicated\": many entry points and context switches.",
+    "requires": [
+     "routing between screens"
+    ],
+    "conflicts": [
+     "one pinned stage"
+    ],
+    "effort": "M",
+    "quality": "working",
+    "poster": "posters/v1-wave-d.webp"
+   },
+   {
+    "id": "layout-split-stage",
+    "label": "Sticky stage beside a reading column",
+    "sourceVersions": [
+     "v2"
+    ],
+    "what": "A dark map+timeline pane fixed beside a cream essay column.",
+    "why": "Keep instruments visible while reading.",
+    "worked": "Instruments always present.",
+    "weaknesses": "Two products side by side; raster flashes cream into navy; both instruments live at once; 47 viewports of identical anatomy (critique).",
+    "requires": [
+     "scroll driver"
+    ],
+    "conflicts": [
+     "full-bleed objects"
+    ],
+    "effort": "S",
+    "quality": "rough",
+    "poster": "posters/v2-map-d.webp"
+   },
+   {
+    "id": "layout-pinned-stage-cards",
+    "label": "One pinned stage, beats as cards over it",
+    "sourceVersions": [
+     "v3"
+    ],
+    "what": "The stage fills the screen and shows one instrument at a time; short beat cards scroll over its left side; tools sit in the stage (in the beat card on phones).",
+    "why": "Benchmarks: every award exemplar holds one instrument while short steps change its state.",
+    "worked": "Full-bleed prints and maps; one instrument per beat; coherent with deep zoom.",
+    "weaknesses": "Judged \"components not grouped\" and \"small blocks with a question\".",
+    "requires": [
+     "scroll-linked state per step",
+     "instrument APIs with show(state)",
+     "Scope-owned timers"
+    ],
+    "conflicts": [
+     "two live instruments at once"
+    ],
+    "effort": "M",
+    "quality": "working",
+    "poster": "posters/v3-wave-d.webp"
+   },
+   {
+    "id": "layout-scene-sheets-rooms",
+    "label": "Pinned stage + scene sheets on an ink thread + full-screen rooms",
+    "sourceVersions": [
+     "v4"
+    ],
+    "what": "Beats grouped into washi scene sheets with an ink thread; act openers as heroes; deep tools moved to full-screen rooms reached by links.",
+    "why": "Answer \"group components that make a set\" and give tools room to breathe.",
+    "worked": "Visible grouping; rooms let tools be full-size without breaking the scroll.",
+    "weaknesses": "Two levels (story and rooms) to keep in sync; more chrome.",
+    "requires": [
+     "pinned stage",
+     "room shell with focus trap and hash routes",
+     "lab mount/destroy interface"
+    ],
+    "conflicts": [],
+    "effort": "M",
+    "quality": "polished",
+    "poster": "posters/v4-roomDesks-d.webp"
+   }
+  ]
+ },
+ {
+  "dimension": "navigation",
+  "label": "Navigation and wayfinding",
+  "options": [
+   {
+    "id": "nav-headings",
+    "label": "Document headings",
+    "sourceVersions": [
+     "v0"
+    ],
+    "what": "Numbered sections only.",
+    "why": "Reference reading.",
+    "worked": "Fine for a doc.",
+    "weaknesses": "No wayfinding in an experience.",
+    "requires": [],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "working",
+    "poster": "none"
+   },
+   {
+    "id": "nav-hub-filter",
+    "label": "Hub with system-diagram filter and lens bar",
+    "sourceVersions": [
+     "v1"
+    ],
+    "what": "Tap a system box and the lectures and interactives that touch it light up; lens pills (Time, Place, Movements, Objects) in the top bar.",
+    "why": "Make the diagram the table of contents.",
+    "worked": "Shows how pieces relate to the model.",
+    "weaknesses": "Adds a choice before any content; judged too complicated.",
+    "requires": [
+     "tagging content to system boxes"
+    ],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/v1-nav-d.webp"
+   },
+   {
+    "id": "nav-station-list",
+    "label": "Lecture station list with Previous/Next",
+    "sourceVersions": [
+     "v1"
+    ],
+    "what": "A numbered station sidebar with progress and Previous/Next.",
+    "why": "A familiar lecture-player pattern.",
+    "worked": "Clear progress within a lecture.",
+    "weaknesses": "Separate from the rest of the case.",
+    "requires": [],
+    "conflicts": [
+     "continuous scroll"
+    ],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/v1-question-d.webp"
+   },
+   {
+    "id": "nav-chapter-dots-explore",
+    "label": "Chapter dots + Explore toggle",
+    "sourceVersions": [
+     "v2"
+    ],
+    "what": "Numbered chapter circles in the header; \"Explore the Atlas\" dims the story and hands over the map and timeline.",
+    "why": "Give a free-exploration mode beside the story.",
+    "worked": "Explore mode is a good idea that later versions kept.",
+    "weaknesses": "Titles only on hover, no reading time or in-chapter progress; explore had nothing to click (critique).",
+    "requires": [
+     "instruments that support free pan/zoom"
+    ],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "rough",
+    "poster": "posters/v2-nav-d.webp"
+   },
+   {
+    "id": "nav-act-bar",
+    "label": "Act numerals + live year/era + Explore",
+    "sourceVersions": [
+     "v3",
+     "v4"
+    ],
+    "what": "A slim bar with P I–V act links, the current year with its Japanese era, Explore, reduce-motion and theme.",
+    "why": "Orientation in time at every step.",
+    "worked": "Always know act and year; works on phones.",
+    "weaknesses": "v3 lacked a way into tools or people outside the story.",
+    "requires": [
+     "story steps that carry a year"
+    ],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "polished",
+    "poster": "posters/v3-nav-d.webp"
+   },
+   {
+    "id": "nav-rooms-cast",
+    "label": "Rooms menu, Cast deck and \"Go deeper\" links",
+    "sourceVersions": [
+     "v4"
+    ],
+    "what": "A Rooms menu (Desks, Workshop, Views) with hash routes, a Cast deck that counts people met, and in-beat links into rooms.",
+    "why": "Give depth without lengthening the scroll.",
+    "worked": "Separates reading from doing; deep links shareable (#room-desks.censor).",
+    "weaknesses": "More entry points again (risk of v1's complexity).",
+    "requires": [
+     "room shell",
+     "Cast API",
+     "hash routing within artifact limits"
+    ],
+    "conflicts": [],
+    "effort": "M",
+    "quality": "polished",
+    "poster": "posters/v4-nav-d.webp"
+   },
+   {
+    "id": "nav-atlas-tiers",
+    "label": "Globe/Map/List with world → region → unit tiers",
+    "sourceVersions": [
+     "atlas"
+    ],
+    "what": "Three views of the same data; breadcrumbs; URL tokens per state.",
+    "why": "A hub across all F1 chapters.",
+    "worked": "List view is complete and accessible; tokens make states linkable.",
+    "weaknesses": "Hub only; does not teach by itself.",
+    "requires": [
+     "place-anchored data model",
+     "WebGL with 2D fallback"
+    ],
+    "conflicts": [],
+    "effort": "L",
+    "quality": "polished",
+    "poster": "posters/atlas-nav-d.webp"
+   }
+  ]
+ },
+ {
+  "dimension": "questioning",
+  "label": "Questions and learning checks",
+  "options": [
+   {
+    "id": "q-spec-predict-check",
+    "label": "Prediction per lecture, check per interactive (specified)",
+    "sourceVersions": [
+     "v0"
+    ],
+    "what": "Each lecture has one one-tap prediction and an argued station; each interactive ends with a one-tap check.",
+    "why": "Learning evidence: predictions and retrieval.",
+    "worked": "Clear pedagogical intent.",
+    "weaknesses": "Unbuilt.",
+    "requires": [],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "rough",
+    "poster": "none"
+   },
+   {
+    "id": "q-one-tap-check",
+    "label": "One-tap check cards (seal red)",
+    "sourceVersions": [
+     "v1",
+     "v2"
+    ],
+    "what": "Multiple-choice cards inside lectures and tools, answered by one tap with a verdict.",
+    "why": "Quick retrieval inside tools.",
+    "worked": "Cheap and clear.",
+    "weaknesses": "v2: right/wrong by colour and strikethrough only, no live region; feels like a quiz bolted on.",
+    "requires": [],
+    "conflicts": [
+     "the no-score rule in ARCH_V4.md"
+    ],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/v2-question-d.webp"
+   },
+   {
+    "id": "q-predict-first",
+    "label": "Predict before each segment, decide after",
+    "sourceVersions": [
+     "v3"
+    ],
+    "what": "A \"Before you read: predict\" card opens each of 9 segments; 7 decide checks follow.",
+    "why": "Pre-questions prime attention (learning evidence).",
+    "worked": "Systematic coverage.",
+    "weaknesses": "Judged weird and invasive at chapter starts; readings became \"small blocks with a question\".",
+    "requires": [
+     "segment model"
+    ],
+    "conflicts": [
+     "an overture or act opener as first impression"
+    ],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/v3-question-d.webp"
+   },
+   {
+    "id": "q-ghost-guess",
+    "label": "Optional late guess answered on the instrument; ghost vs record",
+    "sourceVersions": [
+     "v4"
+    ],
+    "what": "One optional prompt late in a scene: tap a place, drag a year, tap a mark, or slider/choice/bet; your answer is a hollow ghost and the record solid ink; nothing scored; scrolling past shows the record.",
+    "why": "Fold questions into the experience instead of in front of it.",
+    "worked": "Feels like part of the instrument; respects the no-points rule.",
+    "weaknesses": "Only 9 in 71 beats; easy to miss.",
+    "requires": [
+     "instrument guess APIs (MapStage.guess, Timeline.guess, Viewer.guessTap)",
+     "aria-live results"
+    ],
+    "conflicts": [
+     "scored quizzes, red/green feedback"
+    ],
+    "effort": "M",
+    "quality": "polished",
+    "poster": "posters/v4-question-d.webp"
+   },
+   {
+    "id": "q-rebuild",
+    "label": "Act Rebuild and Coda ledger",
+    "sourceVersions": [
+     "v4"
+    ],
+    "what": "At each act end, place 4–6 tiles back on the timeline or map; the Coda rebuilds six items in order and shows your guesses against the record.",
+    "why": "Retrieval practice without scores.",
+    "worked": "Spaced retrieval with one tile from an earlier act.",
+    "weaknesses": "Unmeasured; optional and skippable by design.",
+    "requires": [
+     "tile placement on map and timeline"
+    ],
+    "conflicts": [],
+    "effort": "M",
+    "quality": "working",
+    "poster": "none"
+   },
+   {
+    "id": "q-framing-question",
+    "label": "Framing question on the card",
+    "sourceVersions": [
+     "atlas"
+    ],
+    "what": "Units and lenses carry a guiding question shown on the card or lens caption.",
+    "why": "Orient exploration without checks.",
+    "worked": "Light and non-invasive.",
+    "weaknesses": "No feedback loop.",
+    "requires": [],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/atlas-question-d.webp"
+   }
+  ]
+ },
+ {
+  "dimension": "tools",
+  "label": "Tools and interactives",
+  "options": [
+   {
+    "id": "tools-spec",
+    "label": "Ten interactives as system joints (spec)",
+    "sourceVersions": [
+     "v0"
+    ],
+    "what": "I1–I10 each with lens, data, action, meaning and check.",
+    "why": "Design every interactive against the system.",
+    "worked": "The spec set every later tool.",
+    "weaknesses": "Unbuilt.",
+    "requires": [],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "rough",
+    "poster": "none"
+   },
+   {
+    "id": "tools-pages",
+    "label": "Standalone interactive pages",
+    "sourceVersions": [
+     "v1"
+    ],
+    "what": "Read the margin (hotspots + dating), Before and after the ban (year scrubber), What a sheet cost (bars + cap line).",
+    "why": "Prototype the joints of the system one by one.",
+    "worked": "Margin and Cost carried forward.",
+    "weaknesses": "Disconnected from narrative; 7 of 10 not built.",
+    "requires": [],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/v1-tool-d.webp"
+   },
+   {
+    "id": "tools-embedded-widgets",
+    "label": "Eight widgets embedded in the scroll",
+    "sourceVersions": [
+     "v2"
+    ],
+    "what": "Chain flowchart, margin, blue-route scrubber, three waves, price, ban, edition counter, export map, inline in beats.",
+    "why": "Put each tool where the story needs it.",
+    "worked": "Placement in the thread was right.",
+    "weaknesses": "Judged primitive; four autoplay; timer bug overwrote the map; three meaningful ones dropped (critique).",
+    "requires": [
+     "scoped timers"
+    ],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "rough",
+    "poster": "posters/v2-tool-d.webp"
+   },
+   {
+    "id": "tools-stage-tools",
+    "label": "Six stage tools",
+    "sourceVersions": [
+     "v3"
+    ],
+    "what": "Peel, three waves, margin, edition, contract (read, not played), closing recall, rendered in the pinned stage.",
+    "why": "Rebuild the meaningful tools to the case spec.",
+    "worked": "Three waves with diagnostics and peel are solid.",
+    "weaknesses": "Judged interactions primitive.",
+    "requires": [
+     "pinned stage",
+     "deep zoom"
+    ],
+    "conflicts": [],
+    "effort": "M",
+    "quality": "working",
+    "poster": "posters/v3-tool-d.webp"
+   },
+   {
+    "id": "tools-labs-rooms",
+    "label": "Lab modules with stage and room modes",
+    "sourceVersions": [
+     "v4"
+    ],
+    "what": "Nine labs (print, compare, edition, contract, catalogue, seal timeline, censor, step into the view, uki-e box) behind one mount interface; compact in the stage, full in rooms.",
+    "why": "Make tools feel crafted and give them space; absorb the Desks and Workshop side branches.",
+    "worked": "Consistent workbench frame, sources, reset, keyboard paths; 3D only where space is the argument.",
+    "weaknesses": "Biggest code surface (lazy chunks ~1.5 MB JS total).",
+    "requires": [
+     "lab interface + registry",
+     "room shell",
+     "three.js for print/view"
+    ],
+    "conflicts": [],
+    "effort": "L",
+    "quality": "polished",
+    "poster": "posters/v4-roomWorkshop-d.webp"
+   },
+   {
+    "id": "tools-notebook",
+    "label": "Field notebook and ink hand-off",
+    "sourceVersions": [
+     "atlas"
+    ],
+    "what": "Inked marks, rumours and lenses practised, carried between artifacts in plain #ink tokens.",
+    "why": "Knowledge as the save file (Atlas study).",
+    "worked": "No points; works across separate artifacts.",
+    "weaknesses": "Depends on learners finishing a unit.",
+    "requires": [
+     "shared token format (LINKS.md)"
+    ],
+    "conflicts": [
+     "localStorage-only progress across artifacts"
+    ],
+    "effort": "M",
+    "quality": "working",
+    "poster": "posters/atlas-tool-d.webp"
+   }
+  ]
+ },
+ {
+  "dimension": "motion",
+  "label": "Motion level",
+  "options": [
+   {
+    "id": "motion-none",
+    "label": "None / state swaps",
+    "sourceVersions": [
+     "v0",
+     "v1"
+    ],
+    "what": "Static pages; state re-renders only.",
+    "why": "Prototype speed.",
+    "worked": "Fast to build.",
+    "weaknesses": "Feels inert; v2 critique asked for animation.",
+    "requires": [],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/v1-timeline-d.webp"
+   },
+   {
+    "id": "motion-flights-autoplay",
+    "label": "Scroll-triggered flights + autoplay tools",
+    "sourceVersions": [
+     "v2"
+    ],
+    "what": "Map flies per beat; tools autoplay for 4–5 s.",
+    "why": "Make instruments respond to reading.",
+    "worked": "Shows the instruments are alive.",
+    "weaknesses": "No pause, no reduced motion, orphaned timers.",
+    "requires": [
+     "scroll driver"
+    ],
+    "conflicts": [
+     "accessibility rules (WCAG 2.2.2)"
+    ],
+    "effort": "S",
+    "quality": "rough",
+    "poster": "posters/v2-map-d.webp"
+   },
+   {
+    "id": "motion-scoped-transitions",
+    "label": "Scoped instrument transitions",
+    "sourceVersions": [
+     "v3"
+    ],
+    "what": "Map scale changes, scripted map anims (fire, relocations), timeline lanes; every timer in a Scope; reduce-motion toggle.",
+    "why": "Fix v2's timer bug and make motion meaningful.",
+    "worked": "Reliable; nothing runs after its beat.",
+    "weaknesses": "Still read as primitive.",
+    "requires": [
+     "Scope utility"
+    ],
+    "conflicts": [],
+    "effort": "M",
+    "quality": "working",
+    "poster": "posters/v3-map-d.webp"
+   },
+   {
+    "id": "motion-choreographed-3d",
+    "label": "Choreographed motion with tokens and 3D/2.5D",
+    "sourceVersions": [
+     "v4",
+     "atlas"
+    ],
+    "what": "Duration and easing tokens, one primary motion per beat, ink-bleed reveals, multi-plane parallax, globe flights; reduced motion cuts to stills.",
+    "why": "Stop interactions feeling primitive; space is the argument for the Wave and the views.",
+    "worked": "Distinctive; still accessible.",
+    "weaknesses": "WebGL cost and fallbacks to maintain.",
+    "requires": [
+     "three.js stage with tiering and still fallback",
+     "motion tokens"
+    ],
+    "conflicts": [
+     "low-end devices without fallback"
+    ],
+    "effort": "L",
+    "quality": "polished",
+    "poster": "posters/v4-overture-d.webp"
+   }
+  ]
+ },
+ {
+  "dimension": "visual",
+  "label": "Visual language",
+  "options": [
+   {
+    "id": "visual-plain-doc",
+    "label": "Plain document",
+    "sourceVersions": [
+     "v0"
+    ],
+    "what": "Doc typography.",
+    "why": "Research record.",
+    "worked": "Readable.",
+    "weaknesses": "No visuals.",
+    "requires": [],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/v0-opening-d.webp"
+   },
+   {
+    "id": "visual-paper-blue-dark-stage",
+    "label": "Paper, ink, Prussian blue; dark lecture stage",
+    "sourceVersions": [
+     "v1"
+    ],
+    "what": "Paper #F4F2EC, ink, one blue accent, seal red for checks; dark stage so prints carry the light.",
+    "why": "Let the prints be the colour.",
+    "worked": "Restrained and legible.",
+    "weaknesses": "Two moods (light hub, dark lecture).",
+    "requires": [],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/v1-opening-d.webp"
+   },
+   {
+    "id": "visual-editorial-navy",
+    "label": "Editorial cream column beside a navy dashboard",
+    "sourceVersions": [
+     "v2"
+    ],
+    "what": "Serif display, cream column, navy map pane, seal red on every accent, 96×120 portrait crops.",
+    "why": "Quick, clean template.",
+    "worked": "Competent typography.",
+    "weaknesses": "\"Competent and placeless\"; two products; seal red means nothing (critique).",
+    "requires": [],
+    "conflicts": [
+     "seal red reserved for the censor"
+    ],
+    "effort": "S",
+    "quality": "rough",
+    "poster": "posters/v2-person-d.webp"
+   },
+   {
+    "id": "visual-washi-sumi-indigo",
+    "label": "Washi, sumi and indigo; seal red only for the censor",
+    "sourceVersions": [
+     "v3",
+     "v4",
+     "atlas"
+    ],
+    "what": "One ink-on-paper world: washi grounds, sumi line, indigo accent, seal red reserved for the censor and 1842; Shippori Mincho / Source Serif 4 / IBM Plex Sans; prints full-bleed.",
+    "why": "Commit to one world (critique).",
+    "worked": "Kept by the user as the visual direction (ARCH_V4.md).",
+    "weaknesses": "v3 felt ungrouped; v4 adds materials (hanko, kraft, workbench frames) to group sets.",
+    "requires": [
+     "shared tokens (build/units/shared/edo-tokens.css)"
+    ],
+    "conflicts": [
+     "literal colours outside tokens"
+    ],
+    "effort": "S",
+    "quality": "polished",
+    "poster": "posters/v4-wave-d.webp"
+   }
+  ]
+ },
+ {
+  "dimension": "text",
+  "label": "Text density and voice",
+  "options": [
+   {
+    "id": "text-reference",
+    "label": "Dense reference prose",
+    "sourceVersions": [
+     "v0"
+    ],
+    "what": "Full sentences with sources and confidence words, tables.",
+    "why": "Capture everything once.",
+    "worked": "Source of truth for content.",
+    "weaknesses": "Not learner-facing.",
+    "requires": [],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/v0-wave-d.webp"
+   },
+   {
+    "id": "text-station-narration",
+    "label": "Short station narration with claim ids",
+    "sourceVersions": [
+     "v1"
+    ],
+    "what": "One or two sentences per station with claim ids.",
+    "why": "Narrated lectures.",
+    "worked": "Traceable claims.",
+    "weaknesses": "Judged \"lectures too thin\".",
+    "requires": [
+     "claim register"
+    ],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/v1-wave-d.webp"
+   },
+   {
+    "id": "text-essay",
+    "label": "Long essay paragraphs",
+    "sourceVersions": [
+     "v2"
+    ],
+    "what": "5,627 words in 33 beats; long sentences; \"the course\" voice.",
+    "why": "Keep the research depth.",
+    "worked": "Dense beats that stay with one object read well.",
+    "weaknesses": "97 sentences over 25 words; hedged; one primary quote (critique).",
+    "requires": [],
+    "conflicts": [
+     "the 25-word sentence rule"
+    ],
+    "effort": "S",
+    "quality": "rough",
+    "poster": "posters/v2-wave-d.webp"
+   },
+   {
+    "id": "text-linted-beats",
+    "label": "Short linted beats (40–100 words, ≤ 25-word sentences)",
+    "sourceVersions": [
+     "v3",
+     "v4"
+    ],
+    "what": "Content as YAML validated by zod and linted at build; quotes in Japanese with translation; confidence words.",
+    "why": "Enforce the voice guide mechanically.",
+    "worked": "Consistent, short, sourced; build fails on violations.",
+    "weaknesses": "v3 read as fragments; v4 groups them into scenes on an ink thread.",
+    "requires": [
+     "content pipeline (build-content.mjs)"
+    ],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "polished",
+    "poster": "posters/v4-timeline-d.webp"
+   }
+  ]
+ },
+ {
+  "dimension": "people",
+  "label": "People presentation",
+  "options": [
+   {
+    "id": "people-tables",
+    "label": "Cast tables by role",
+    "sourceVersions": [
+     "v0"
+    ],
+    "what": "Role tables with dates and what the learner needs.",
+    "why": "Capture the whole cast, publisher first.",
+    "worked": "Complete (58 documented).",
+    "weaknesses": "No faces or story.",
+    "requires": [],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/v0-person-d.webp"
+   },
+   {
+    "id": "people-role-tabs",
+    "label": "Role tabs with text cards",
+    "sourceVersions": [
+     "v1"
+    ],
+    "what": "Five role tabs over dark name cards with kanji, dates and a note.",
+    "why": "Show the cast by function.",
+    "worked": "Puts carvers and the state in the cast.",
+    "weaknesses": "No portraits; detached from lectures.",
+    "requires": [],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/v1-person-d.webp"
+   },
+   {
+    "id": "people-inline-card",
+    "label": "Inline cast card at first mention",
+    "sourceVersions": [
+     "v2",
+     "v3"
+    ],
+    "what": "A small card (portrait, kanji, dates, one line, credit) in the beat where a person first appears.",
+    "why": "Meet people in context.",
+    "worked": "Simple, in context.",
+    "weaknesses": "v2: same 96×120 crop decapitates seated portraits; repeated portraits; thin cast.",
+    "requires": [
+     "portrait set with credits"
+    ],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/v2-person-d.webp"
+   },
+   {
+    "id": "people-entity-sheet",
+    "label": "Entity sheet dialog",
+    "sourceVersions": [
+     "v3"
+    ],
+    "what": "A panel for a person/place/event/image with \"Appears in\" links.",
+    "why": "Depth on demand.",
+    "worked": "Shared component for all entity kinds.",
+    "weaknesses": "Generic; not a character.",
+    "requires": [],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/v3-person-d.webp"
+   },
+   {
+    "id": "people-character-cards",
+    "label": "Character chip → card → sheet + Cast deck",
+    "sourceVersions": [
+     "v4"
+    ],
+    "what": "Chips in prose (portrait or hanko), hover card, sheet with Story · Works · Connections · Life and \"Show on map/timeline\"; a Cast deck with unmet silhouettes and a met counter.",
+    "why": "Main people as interactive character cards (brief).",
+    "worked": "Strong, consistent, reusable; links people to instruments.",
+    "weaknesses": "Met counter edges toward collection mechanics; needs portraits for all main people.",
+    "requires": [
+     "Cast API (decorate, meet, open, mountDeck)",
+     "people.yaml with works and life"
+    ],
+    "conflicts": [],
+    "effort": "M",
+    "quality": "polished",
+    "poster": "posters/v4-person-d.webp"
+   },
+   {
+    "id": "people-node-card",
+    "label": "Atlas node card",
+    "sourceVersions": [
+     "atlas"
+    ],
+    "what": "Person as a node with making, confidence and \"why this mark\" edges.",
+    "why": "Cross-chapter graph.",
+    "worked": "Honest provenance.",
+    "weaknesses": "Thin as a portrait of a person.",
+    "requires": [
+     "canon register"
+    ],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/atlas-person-d.webp"
+   }
+  ]
+ },
+ {
+  "dimension": "mapping",
+  "label": "Map design",
+  "options": [
+   {
+    "id": "map-specified",
+    "label": "Maps specified, not drawn",
+    "sourceVersions": [
+     "v0"
+    ],
+    "what": "I4, I6 and I9 describe the maps.",
+    "why": "—",
+    "worked": "—",
+    "weaknesses": "No map.",
+    "requires": [],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "rough",
+    "poster": "none"
+   },
+   {
+    "id": "map-schematic",
+    "label": "Schematic place diagram",
+    "sourceVersions": [
+     "v1"
+    ],
+    "what": "Labelled pills in a Japan box and a world box with arc counts.",
+    "why": "Stand in for a MapLibre build.",
+    "worked": "Shows intent.",
+    "weaknesses": "No geography.",
+    "requires": [],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "rough",
+    "poster": "posters/v1-map-d.webp"
+   },
+   {
+    "id": "map-dots-raster",
+    "label": "d3 world dots + 1859 raster with pins by eye",
+    "sourceVersions": [
+     "v2"
+    ],
+    "what": "Pacific-centred world (50 m), Japan and Kantō views, the LoC 1859 sheet as a raster with ten pins.",
+    "why": "Put a world map beside the story.",
+    "worked": "The blue route arc beat worked.",
+    "weaknesses": "Decorative in 22 of 33 beats; Kantō a blob; Tōkaidō straight through Fuji; judged \"should be an interactive world map\".",
+    "requires": [
+     "world-atlas, d3-geo"
+    ],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "rough",
+    "poster": "posters/v2-map-d.webp"
+   },
+   {
+    "id": "map-three-scale",
+    "label": "Three-scale ink map (world, Japan/Kantō, georeferenced Edo)",
+    "sourceVersions": [
+     "v3",
+     "v4"
+    ],
+    "what": "Equal Earth world rotated per scene, Japan and Kantō on a 10 m coastline, Edo on the 1859 sheet with a fitted georeference; v4 adds place cards, label priority, relocation arcs, map guesses and Rebuild tiles.",
+    "why": "Make the map do work in every map beat; scale breaks as their own beat.",
+    "worked": "Accurate, legible, one ink style; city animations (fire, relocations).",
+    "weaknesses": "City raster still a single sheet; no 1677 comparison yet.",
+    "requires": [
+     "georeference (content/georef59.json)",
+     "place data with Wikidata coordinates"
+    ],
+    "conflicts": [],
+    "effort": "M",
+    "quality": "polished",
+    "poster": "posters/v4-map-d.webp"
+   },
+   {
+    "id": "map-globe-hub",
+    "label": "Paper-and-ink 3D globe with 2D fallback",
+    "sourceVersions": [
+     "atlas"
+    ],
+    "what": "three.js globe with washes, routes and clustered marks; Equal Earth SVG fallback; list view.",
+    "why": "\"Atlas should be an interactive world map\" (v2 critique) and the 3D study.",
+    "worked": "Distinctive; honest about placement.",
+    "weaknesses": "Hub-scale; not a teaching instrument inside the unit.",
+    "requires": [
+     "WebGL tiering and fallback",
+     "supercluster"
+    ],
+    "conflicts": [],
+    "effort": "L",
+    "quality": "polished",
+    "poster": "posters/atlas-map-d.webp"
+   }
+  ]
+ },
+ {
+  "dimension": "timeline",
+  "label": "Timeline design",
+  "options": [
+   {
+    "id": "tl-table",
+    "label": "Era table + event list",
+    "sourceVersions": [
+     "v0"
+    ],
+    "what": "Six eras and 78 sourced events as tables.",
+    "why": "Capture the spine.",
+    "worked": "Complete.",
+    "weaknesses": "Not visual.",
+    "requires": [],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/v0-timeline-d.webp"
+   },
+   {
+    "id": "tl-era-chips",
+    "label": "Proportional era bands + event chips",
+    "sourceVersions": [
+     "v1"
+    ],
+    "what": "Six bands sized by years, afterlife folded, tap a chip for a node card.",
+    "why": "Time as one of four lenses.",
+    "worked": "Simple and clear.",
+    "weaknesses": "No quantities or lanes.",
+    "requires": [],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/v1-timeline-d.webp"
+   },
+   {
+    "id": "tl-scrubber",
+    "label": "Year scrubber inside a tool",
+    "sourceVersions": [
+     "v1",
+     "v2"
+    ],
+    "what": "Drag a year (1835–1850) and watch genres fade (Ban); scrub the blue route.",
+    "why": "Make change over time tangible.",
+    "worked": "Direct manipulation.",
+    "weaknesses": "Separate from the main timeline; v2 versions autoplay.",
+    "requires": [],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/v2-map-d.webp"
+   },
+   {
+    "id": "tl-ruler",
+    "label": "Proportional ruler with folded afterlife",
+    "sourceVersions": [
+     "v2"
+    ],
+    "what": "1600–2024 strip, break after 1870, 33 events, ≤ 3 lit.",
+    "why": "Always-visible time.",
+    "worked": "Shows where you are.",
+    "weaknesses": "\"A ruler with 3 px knobs\"; overlapping labels; no lanes (critique); judged should be designed like a timeline with animations.",
+    "requires": [],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "rough",
+    "poster": "posters/v2-timeline-d.webp"
+   },
+   {
+    "id": "tl-lane-chart",
+    "label": "Lane chart of the trade",
+    "sourceVersions": [
+     "v3",
+     "v4"
+    ],
+    "what": "Lanes by kind, lifespans, censor bands, price lane with the 1842 cap, print-run bubbles; mini strip under other stages. v4 adds a \"now\" cursor that inks the past and makes events happen, plus drag guesses and Rebuild tiles.",
+    "why": "\"A chart of the trade, not a ruler.\"",
+    "worked": "Quantities and regimes visible; v4 animation answers the critique.",
+    "weaknesses": "Dense on phones; needs careful labelling.",
+    "requires": [
+     "timeline.yaml with lanes, bands, price, runs"
+    ],
+    "conflicts": [],
+    "effort": "M",
+    "quality": "polished",
+    "poster": "posters/v4-timeline-d.webp"
+   },
+   {
+    "id": "tl-deep-time",
+    "label": "Deep-time scrubber with play",
+    "sourceVersions": [
+     "atlas"
+    ],
+    "what": "12,000 BCE–2026 with play; routes draw by year.",
+    "why": "Cross-chapter time.",
+    "worked": "Simple control for a hub.",
+    "weaknesses": "Coarse for a unit.",
+    "requires": [],
+    "conflicts": [],
+    "effort": "S",
+    "quality": "working",
+    "poster": "posters/atlas-timeline-d.webp"
+   }
+  ]
+ }
+]

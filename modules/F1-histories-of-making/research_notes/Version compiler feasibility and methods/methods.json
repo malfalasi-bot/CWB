@@ -1,0 +1,1861 @@
+[
+ {
+  "id": "scrolly",
+  "name": "Scrollytelling narrative walk",
+  "family": "acquisition",
+  "oneLine": "A learner-paced story in short text steps that drives a pinned map, timeline or object beside it.",
+  "suits": [
+   "acquisition of a narrative with a time or route spine",
+   "Bloom: remember, understand",
+   "Seixas: continuity and change; cause and consequence (as told)",
+   "content whose argument is spatial or chronological"
+  ],
+  "evidence": {
+   "strength": "mixed",
+   "note": "Raises engagement and perceived understanding reliably; measured recall is neutral to slightly positive. Stepped layouts with explicit text-to-visual linking beat continuous vertical scroll on comprehension. Its strongest backing is indirect: spatial and temporal contiguity are among the largest multimedia effects. Pair with retrieval to convert engagement into memory.",
+   "sources": [
+    {
+     "t": "Zhi, Ottley & Metoyer 2019, linking and layout in narrative visualization (CGF), N=180",
+     "u": "https://onlinelibrary.wiley.com/doi/10.1111/cgf.13719"
+    },
+    {
+     "t": "Schneiders 2020, scrollytelling vs video vs audio vs text explainers (Media and Communication), N=381",
+     "u": "https://consensus.app/papers/details/cd639afb2ae5543cb568ef6eeb00d7d9/"
+    },
+    {
+     "t": "Mayer 2017, Using multimedia for e-learning (J. Comput. Assist. Learn.): segmenting d=0.70, contiguity d=0.79/1.30",
+     "u": "https://consensus.app/papers/details/5ca62b3d23f75783a489de775688f399/"
+    },
+    {
+     "t": "Zdanovic et al. 2022, data storytelling vs traditional visualization: no recall difference (CHIIR)",
+     "u": "https://consensus.app/papers/details/3e679fb9cb1c5fe390689f259171e502/"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "NYT, Snow Fall (2012), the reference scrollytelling piece",
+    "u": "https://www.nytimes.com/projects/2012/snow-fall/"
+   },
+   {
+    "t": "Google Arts & Culture story: Emakimono, Tokugawa Art Museum",
+    "u": "https://artsandculture.google.com/story/emakimono-illustrated-handscrolls-the-tokugawa-art-museum/QQVRePrklPIhJg?hl=en"
+   }
+  ],
+  "cost": "M",
+  "edoExample": "Already the Edo spine: e.g. Act I beat b1-2, the three Meireki fires drawn in sequence on the 1859 map as the text names Hongo, Koishikawa and Kojimachi; one instrument state per beat.",
+  "archetypes": {
+   "A": 1,
+   "B": 3,
+   "C": 3,
+   "D": 2,
+   "E": 2,
+   "F": 1,
+   "G": 0
+  },
+  "units": [
+   "F1.5",
+   "F1.6",
+   "F1.7",
+   "F1.8",
+   "F1.9",
+   "F1.9a",
+   "F1.10",
+   "F1.11",
+   "F1.12",
+   "F1.12a",
+   "F1.13",
+   "F1.19",
+   "F1.19a",
+   "F1.21",
+   "F1.30a"
+  ],
+  "icapLevel": "passive",
+  "f1Forms": [
+   1
+  ],
+  "cautions": "Never let essential content live only behind an optional interaction; a text-list fallback for every instrument state."
+ },
+ {
+  "id": "video",
+  "name": "Lecture or video explainer",
+  "family": "acquisition",
+  "oneLine": "A short, segmented, narrated video (talking head, object close-up, or animated process) of 2-8 minutes.",
+  "suits": [
+   "acquisition of processes that unfold in time (casting, carving, weaving)",
+   "Bloom: understand",
+   "Seixas: evidence (when it shows the maker's hands)",
+   "phone five-minute form"
+  ],
+  "evidence": {
+   "strength": "moderate",
+   "note": "Adding video to existing teaching g=0.80; replacing other teaching with video g=0.28. Segmenting and coherence matter more than length; benefits concentrate in lower-level processing. Expensive to make at zero cost, so link to open or holder-made films where licences allow and make our own only for silent animated processes.",
+   "sources": [
+    {
+     "t": "Noetel et al. 2020, Video improves learning in higher education (Rev. Educ. Res.): g=0.80 added, g=0.28 swapped",
+     "u": "https://consensus.app/papers/details/668daad647b05fbda55adfc0c0b62cef/"
+    },
+    {
+     "t": "Mayer 2017, Using multimedia for e-learning (J. Comput. Assist. Learn.): segmenting d=0.70, contiguity d=0.79/1.30",
+     "u": "https://consensus.app/papers/details/5ca62b3d23f75783a489de775688f399/"
+    },
+    {
+     "t": "Rey et al. 2019, segmenting meta-analysis (Educ. Psychol. Rev.)",
+     "u": "https://consensus.app/papers/details/af8dc817f0875ce4b8d2d9da27b24741/"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "Smarthistory: unscripted expert conversations in front of the object",
+    "u": "https://smarthistory.org/"
+   },
+   {
+    "t": "Crash Course World History (10-12 min episodes)",
+    "u": "https://en.wikipedia.org/wiki/Crash_Course_(web_series)"
+   }
+  ],
+  "cost": "L",
+  "edoExample": "A 60-90 s captioned animation of the Wave's colour blocks dropping onto the kento marks (the peel layers already in the build), reused as the phone five-minute form; no narration needed.",
+  "archetypes": {
+   "A": 1,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 2,
+   "F": 1,
+   "G": 1
+  },
+  "units": [
+   "F1.4",
+   "F1.18",
+   "F1.21",
+   "F1.28a",
+   "F1.19"
+  ],
+  "icapLevel": "passive",
+  "f1Forms": [
+   7
+  ],
+  "cautions": "Smarthistory is CC BY-NC-SA: linkable, not embeddable into a remixed artifact without checking terms. No generated images of historical objects (Scope v2 Q32)."
+ },
+ {
+  "id": "stepthrough",
+  "name": "Step-through explainer or narrated slideshow",
+  "family": "acquisition",
+  "oneLine": "A fixed sequence of 4-9 frames the learner advances, each with one idea and one manipulation (drag a token, reveal a layer).",
+  "suits": [
+   "a chain or procedure (commissioning chain, protocol steps, operational sequence)",
+   "Bloom: understand, apply",
+   "Seixas: cause and consequence (as a chain)"
+  ],
+  "evidence": {
+   "strength": "moderate",
+   "note": "Learner-paced segmenting is one of the better-supported multimedia principles (segmenting d=0.70); slideshow layouts beat vertical scroll on comprehension in one controlled study. Narration helps mainly when material is system-paced, so keep text primary and narration optional.",
+   "sources": [
+    {
+     "t": "Mayer 2017, Using multimedia for e-learning (J. Comput. Assist. Learn.): segmenting d=0.70, contiguity d=0.79/1.30",
+     "u": "https://consensus.app/papers/details/5ca62b3d23f75783a489de775688f399/"
+    },
+    {
+     "t": "Rey et al. 2019, segmenting meta-analysis (Educ. Psychol. Rev.)",
+     "u": "https://consensus.app/papers/details/af8dc817f0875ce4b8d2d9da27b24741/"
+    },
+    {
+     "t": "Zhi, Ottley & Metoyer 2019, linking and layout in narrative visualization (CGF), N=180",
+     "u": "https://onlinelibrary.wiley.com/doi/10.1111/cgf.13719"
+    },
+    {
+     "t": "Wang et al. 2016, modality meta-analysis: d=0.24 overall, larger only when system-paced",
+     "u": "https://consensus.app/papers/details/0dda3eb1b36b51aa8d1da62aa4e65b67/"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "Google Arts & Culture story: Emakimono, Tokugawa Art Museum",
+    "u": "https://artsandculture.google.com/story/emakimono-illustrated-handscrolls-the-tokugawa-art-museum/QQVRePrklPIhJg?hl=en"
+   },
+   {
+    "t": "Nicky Case, Explorable Explanations (design notes)",
+    "u": "https://blog.ncase.me/explorable-explanations"
+   }
+  ],
+  "cost": "S",
+  "edoExample": "'One sheet, many hands' (b1-6) as four frames: publisher, designer, carver, printer; at each the learner drags brief, money and credit tokens onto the hands, then the record's answer: credit stops at designer and publisher.",
+  "archetypes": {
+   "A": 2,
+   "B": 2,
+   "C": 2,
+   "D": 1,
+   "E": 3,
+   "F": 3,
+   "G": 1
+  },
+  "units": [
+   "F1.17",
+   "F1.26",
+   "F1.28a",
+   "F1.29",
+   "F1.19",
+   "F1.23"
+  ],
+  "icapLevel": "active",
+  "f1Forms": [
+   2,
+   8
+  ]
+ },
+ {
+  "id": "audio",
+  "name": "Podcast, audio essay or audio walk",
+  "family": "acquisition",
+  "oneLine": "Listening formats: a 10-15 minute object-centred audio essay, or a walk narrated against a map or a real street.",
+  "suits": [
+   "acquisition on the move; commuting learners",
+   "voice and testimony",
+   "Seixas: historical perspectives (when voices are primary)",
+   "accessibility (audio description)"
+  ],
+  "evidence": {
+   "strength": "mixed",
+   "note": "In a direct comparison audio produced less recall than scrollytelling or video; the modality advantage holds mainly for short system-paced material. Value is reach, accessibility and voice, not efficiency. Text-to-speech is allowed under the programme's 'AI inside the rules' if a person checks it.",
+   "sources": [
+    {
+     "t": "Schneiders 2020, scrollytelling vs video vs audio vs text explainers (Media and Communication), N=381",
+     "u": "https://consensus.app/papers/details/cd639afb2ae5543cb568ef6eeb00d7d9/"
+    },
+    {
+     "t": "Wang et al. 2016, modality meta-analysis: d=0.24 overall, larger only when system-paced",
+     "u": "https://consensus.app/papers/details/0dda3eb1b36b51aa8d1da62aa4e65b67/"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "BBC Radio 4 / British Museum, A History of the World in 100 Objects (100 x 15-min audio)",
+    "u": "https://en.wikipedia.org/wiki/A_History_of_the_World_in_100_Objects"
+   },
+   {
+    "t": "British Library Sounds, National Life Stories: Crafts Lives (makers' oral histories)",
+    "u": "https://sounds.bl.uk/oral-history/crafts"
+   }
+  ],
+  "cost": "S",
+  "edoExample": "A 12-minute audio walk 'Nihonbashi to the quarter's gate, 1790' keyed to the 1859 map pins (publishers' street, Tsutaya's shop, the theatres), with the content note spoken before the Yoshiwara stop and nothing dramatised there.",
+  "archetypes": {
+   "A": 2,
+   "B": 2,
+   "C": 2,
+   "D": 1,
+   "E": 2,
+   "F": 0,
+   "G": 2
+  },
+  "units": [
+   "F1.4",
+   "F1.13",
+   "F1.16",
+   "F1.17",
+   "F1.21",
+   "F1.29"
+  ],
+  "icapLevel": "passive",
+  "f1Forms": [
+   8
+  ]
+ },
+ {
+  "id": "case",
+  "name": "Case study (decision case)",
+  "family": "inquiry",
+  "oneLine": "One documented situation told up to a decision point; the learner judges what the actor should weigh, then reads what happened.",
+  "suits": [
+   "briefer lane: commissioning, regulation, restitution decisions",
+   "Bloom: analyse, evaluate",
+   "Seixas: ethical dimension; historical perspectives"
+  ],
+  "evidence": {
+   "strength": "mixed",
+   "note": "Single cases are less effective than paired cases: case comparison beats single-case study (d=0.50 across 57 experiments). Use cases in pairs or with a stated principle after them. Direct evidence for case teaching outside professional schools is thin (marked uncertain).",
+   "sources": [
+    {
+     "t": "Alfieri, Nokes-Malach & Schunn 2013, Learning through case comparisons (Educ. Psychol.): d=0.50, 57 experiments",
+     "u": "https://consensus.app/papers/details/aa29d4d385a85293b72bb516e0000abf/"
+    },
+    {
+     "t": "Schwartz & Bransford 1998, A time for telling (Cognition and Instruction 16(4))",
+     "u": "https://doi.org/10.1207/s1532690xci1604_4"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "MIT Case Studies in Social and Ethical Responsibilities of Computing (open, peer-reviewed cases)",
+    "u": "https://mit-serc.pubpub.org/"
+   },
+   {
+    "t": "Smarthistory: unscripted expert conversations in front of the object",
+    "u": "https://smarthistory.org/"
+   }
+  ],
+  "cost": "S",
+  "edoExample": "'Tsutaya's fine, 1791': the facts to the moment Kyoden is manacled and half his estate is fined; the learner weighs comply, retreat or go luxury, then reads b2-6 (mica busts, then Sharaku).",
+  "archetypes": {
+   "A": 2,
+   "B": 2,
+   "C": 2,
+   "D": 1,
+   "E": 3,
+   "F": 3,
+   "G": 2
+  },
+  "units": [
+   "F1.17",
+   "F1.19",
+   "F1.19a",
+   "F1.23",
+   "F1.24",
+   "F1.26",
+   "F1.2"
+  ],
+  "icapLevel": "constructive",
+  "f1Forms": [
+   3,
+   13
+  ]
+ },
+ {
+  "id": "worked",
+  "name": "Worked example, then faded practice",
+  "family": "practice",
+  "oneLine": "An expert reading shown step by step, then a second with steps removed, then the learner alone (modelling, coaching, fading).",
+  "suits": [
+   "learning a reading method: autopsy, sourcing, provenance, seal dating",
+   "Bloom: apply",
+   "Seixas: evidence",
+   "Merrill: demonstration then application"
+  ],
+  "evidence": {
+   "strength": "strong",
+   "note": "Worked examples g=0.48 (maths); they also beat problem-solving in ill-structured legal reasoning, so the effect is not only for algorithms. Fading steps plus self-explanation prompts improves transfer. Matches Merrill's demonstration-application principles and Chernikova's finding that novices learn best from examples.",
+   "sources": [
+    {
+     "t": "Barbieri et al. 2023, worked examples meta-analysis (Educ. Psychol. Rev.): g=0.48",
+     "u": "https://consensus.app/papers/details/d59268ae831952f597db8ed574c9c1ed/"
+    },
+    {
+     "t": "Nievelstein et al. 2013, worked examples in ill-structured legal reasoning (Contemp. Educ. Psychol.)",
+     "u": "https://consensus.app/papers/details/b097912b94af57218e5a6dfdec2a451a/"
+    },
+    {
+     "t": "Atkinson, Renkl & Merrill 2003, fading worked-out steps plus self-explanation prompts (J. Educ. Psychol. 95(4))",
+     "u": "https://doi.org/10.1037/0022-0663.95.4.774"
+    },
+    {
+     "t": "Merrill 2002, First principles of instruction (ETR&D 50(3))",
+     "u": "https://doi.org/10.1007/BF02505024"
+    },
+    {
+     "t": "Chernikova et al. 2020, Simulation-based learning in higher education (Rev. Educ. Res.): g=0.85, 145 studies; examples help novices",
+     "u": "https://consensus.app/papers/details/453910073fb35715b83cc5e5d21d1f41/"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "Historical Thinking Matters (Wineburg et al.): videos of historians reading documents aloud",
+    "u": "https://historicalthinkingmatters.org/why/"
+   },
+   {
+    "t": "Digital Inquiry Group (formerly Stanford History Education Group): Reading Like a Historian",
+    "u": "https://www.inquirygroup.org/"
+   }
+  ],
+  "cost": "S",
+  "edoExample": "The Historian reads Utamaro's sheet (b2-4) mark by mark: signature, Tsutaya's ivy leaf, kiwame seal, what each proves; then a Hiroshige of 1856 with two marks pre-read and two left; then an unlabelled Kuniyoshi read alone.",
+  "archetypes": {
+   "A": 3,
+   "B": 1,
+   "C": 2,
+   "D": 2,
+   "E": 2,
+   "F": 3,
+   "G": 3
+  },
+  "units": [
+   "F1.1",
+   "F1.25",
+   "F1.24",
+   "F1.28",
+   "F1.28a",
+   "F1.27",
+   "F1.9a",
+   "F1.12a"
+  ],
+  "icapLevel": "active",
+  "f1Forms": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "obl",
+  "name": "Object-based learning and slow looking",
+  "family": "inquiry",
+  "oneLine": "Prolonged, structured looking at one object before any label (See-Think-Wonder, Ten Times Two), then the record.",
+  "suits": [
+   "observation and noticing; separating seen from inferred",
+   "Bloom: understand, analyse",
+   "Seixas: evidence",
+   "material culture, technique traces"
+  ],
+  "evidence": {
+   "strength": "weak",
+   "note": "Widely practised in museums and UCL/Harvard teaching, but evidence is mostly qualitative case studies; no controlled effect sizes for slow looking itself were found. The nearest experimental evidence (one museum visit) gives small effects (+0.06 to +0.09 SD) that are larger for less-advantaged learners. Still the module's signature method; measure it.",
+   "sources": [
+    {
+     "t": "Chatterjee & Hannan (eds) 2015, Engaging the Senses: Object-Based Learning in Higher Education (review)",
+     "u": "https://scholarworks.iu.edu/journals/index.php/mar/article/download/23048/28982/52511"
+    },
+    {
+     "t": "Object-based learning and research-based education: case studies from UCL curricula (qualitative)",
+     "u": "https://discovery.ucl.ac.uk/id/eprint/10051332/7/Blum_Chapter%2011_Teaching-and-Learning-in-Higher-Education.pdf"
+    },
+    {
+     "t": "Greene, Kisida & Bowen 2014, art-museum field-trip RCT, N=10,912: critical thinking +0.09 SD, historical empathy +0.06, tolerance +0.07; ~2-3x for rural/high-poverty",
+     "u": "https://www.educationnext.org/wp-content/uploads/2013/09/ednext_XIV_1_greene.pdf"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "Project Zero thinking routine: See Think Wonder",
+    "u": "https://pz.harvard.edu/sites/default/files/2026-03/See%20think%20wonder.pdf"
+   },
+   {
+    "t": "Project Zero, Out of Eden Learn: slow looking and global peer exchange online",
+    "u": "https://learn.outofedenwalk.com/"
+   }
+  ],
+  "cost": "S",
+  "edoExample": "Before any label, two minutes on JP1847: ten words, look again, ten more; then deep zoom on the foam fingers and the Prussian-blue sky, revealing which marks the carver cut and which the printer's bokashi made.",
+  "archetypes": {
+   "A": 3,
+   "B": 2,
+   "C": 1,
+   "D": 0,
+   "E": 2,
+   "F": 2,
+   "G": 2
+  },
+  "units": [
+   "F1.1",
+   "F1.25",
+   "F1.22a",
+   "F1.18",
+   "F1.6",
+   "F1.8",
+   "F1.15"
+  ],
+  "icapLevel": "constructive",
+  "f1Forms": [
+   3,
+   15
+  ]
+ },
+ {
+  "id": "dbq",
+  "name": "Primary-source analysis (document-based inquiry)",
+  "family": "inquiry",
+  "oneLine": "A question answered from 2-6 sources the learner sources, contextualises, close-reads and corroborates.",
+  "suits": [
+   "Bloom: analyse, evaluate",
+   "Seixas: evidence; historical perspectives",
+   "texts, contracts, edicts, catalogues, labels"
+  ],
+  "evidence": {
+   "strength": "moderate",
+   "note": "Reading Like a Historian (6 months, 236 students) improved historical thinking, transfer, factual knowledge and reading comprehension; multiple texts beat a textbook. Without scaffolds learners slip into binary reliable/unreliable judgements.",
+   "sources": [
+    {
+     "t": "Reisman 2012, Reading Like a Historian intervention (Cognition and Instruction), 236 students, 6 months",
+     "u": "https://consensus.app/papers/details/24ebc232b74354ca93c70847c281a93c/"
+    },
+    {
+     "t": "Nokes, Dole & Hacker 2007, multiple texts vs textbook in history (J. Educ. Psychol.)",
+     "u": "https://consensus.app/papers/details/34544af030fc5324a018263454f9bba4/"
+    },
+    {
+     "t": "Jay 2021, trained students treat sources as binary reliable/unreliable (Cognition and Instruction)",
+     "u": "https://consensus.app/papers/details/b4addb8bfa765571919b13eb3e5195f3/"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "Digital Inquiry Group (formerly Stanford History Education Group): Reading Like a Historian",
+    "u": "https://www.inquirygroup.org/"
+   },
+   {
+    "t": "Library of Congress, Teaching with Primary Sources: historical thinking guide",
+    "u": "https://www.loc.gov/static/programs/teachers/about-this-program/teaching-with-primary-sources-partner-program/documents/historical_thinking.pdf"
+   }
+  ],
+  "cost": "S",
+  "edoExample": "The packing-paper story (b7-2): the 1905 Bracquemond memoir set beside two later retellings; the learner dates each, measures distance from 1856, and finds where 'a small oddly bound book' became 'wrapping paper'.",
+  "archetypes": {
+   "A": 2,
+   "B": 2,
+   "C": 2,
+   "D": 2,
+   "E": 3,
+   "F": 3,
+   "G": 3
+  },
+  "units": [
+   "F1.3",
+   "F1.9a",
+   "F1.11",
+   "F1.12a",
+   "F1.24",
+   "F1.28",
+   "F1.29",
+   "F1.27"
+  ],
+  "icapLevel": "constructive",
+  "f1Forms": [
+   4,
+   13
+  ]
+ },
+ {
+  "id": "predict",
+  "name": "Prediction prompt (guess, then reveal)",
+  "family": "practice",
+  "oneLine": "A one-tap commitment on the instrument (slider, map, timeline, marks) before the fact is shown.",
+  "suits": [
+   "surprising facts; misconceptions",
+   "Bloom: remember",
+   "Seixas: cause and consequence (testing a prior)",
+   "every opening move"
+  ],
+  "evidence": {
+   "strength": "moderate",
+   "note": "Prequestions help the asked content (g=0.54) but barely anything else (g=0.04); predictions help most for expectancy-violating outcomes. Target the one fact you most want remembered; reveal at once.",
+   "sources": [
+    {
+     "t": "St. Hilaire, Carpenter & Jonsson 2023, prequestions meta-analysis: g=0.54 specific, g=0.04 general",
+     "u": "https://consensus.app/papers/details/ae47f3256d405351ba11ef75d04f388d/"
+    },
+    {
+     "t": "Brod, Hasselhorn & Bunge 2018, predictions boost memory for surprising outcomes (Learning and Instruction)",
+     "u": "https://consensus.app/papers/details/dbb6eb136ec658568e53fdb7bb2d5544/"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "NYT Upshot, You Draw It (predict the curve, then see the data)",
+    "u": "https://www.nytimes.com/interactive/2015/05/28/upshot/you-draw-it-how-family-income-affects-childrens-college-chances.html"
+   },
+   {
+    "t": "F1 Edo unit (v4), internal",
+    "u": "https://claude.ai/artifact/73RSURL2MWqJpyJuh4mdh6"
+   }
+  ],
+  "cost": "S",
+  "edoExample": "Existing: the log slider 'how many lived in Edo in 1721?' (truth about 1.3 million) and 'how many Great Waves survive?' (113 by 2024).",
+  "archetypes": {
+   "A": 3,
+   "B": 3,
+   "C": 3,
+   "D": 3,
+   "E": 2,
+   "F": 2,
+   "G": 0
+  },
+  "units": [
+   "F1.2",
+   "F1.5",
+   "F1.6",
+   "F1.9a",
+   "F1.12",
+   "F1.12a",
+   "F1.13",
+   "F1.25",
+   "F1.26",
+   "F1.28",
+   "F1.28a",
+   "F1.30",
+   "F1.30a"
+  ],
+  "icapLevel": "active",
+  "f1Forms": [
+   15
+  ],
+  "cautions": "Never on sensitive content (no guessing a woman's contract term or a death toll as a game)."
+ },
+ {
+  "id": "chrono",
+  "name": "Chronology and map building (timeline and route placement)",
+  "family": "practice",
+  "oneLine": "The learner places events, objects or stops on a timeline with ranges, or on a map, then sees the record.",
+  "suits": [
+   "Bloom: remember, understand",
+   "Seixas: continuity and change; significance (what gets a place on the line)",
+   "simultaneity; dates as ranges; routes"
+  ],
+  "evidence": {
+   "strength": "weak",
+   "note": "Little direct experimental evidence on timeline or map building for adults (marked uncertain). It earns its place by proxy: it is retrieval practice with feedback (strong) and a spatial-temporal organiser (contiguity). F1.3's point that the timeline is an argument makes building one a method, not a quiz.",
+   "sources": [
+    {
+     "t": "Yang et al. 2021, classroom quizzing meta-analysis (Psychol. Bull.): g=0.499, 222 studies",
+     "u": "https://consensus.app/papers/details/d5865595581856df817e7452b18cbdc4/"
+    },
+    {
+     "t": "Mayer 2017, Using multimedia for e-learning (J. Comput. Assist. Learn.): segmenting d=0.70, contiguity d=0.79/1.30",
+     "u": "https://consensus.app/papers/details/5ca62b3d23f75783a489de775688f399/"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "Knight Lab TimelineJS (free, open-source timeline authoring)",
+    "u": "https://timeline.knightlab.com/"
+   },
+   {
+    "t": "The Met, Heilbrunn Timeline of Art History",
+    "u": "https://www.metmuseum.org/essays/timeline-of-art-history"
+   }
+  ],
+  "cost": "M",
+  "edoExample": "Existing 'Rebuild' at each act end: six tiles to the timeline (Act I, 1635-1794) or to the map (Act IV: Paris, Tokyo, Boston, Chicago, Washington), plus the coda ordering of six events across 1790-2024.",
+  "archetypes": {
+   "A": 1,
+   "B": 2,
+   "C": 3,
+   "D": 3,
+   "E": 1,
+   "F": 1,
+   "G": 2
+  },
+  "units": [
+   "F1.3",
+   "F1.5",
+   "F1.13",
+   "F1.19a",
+   "F1.30",
+   "F1.27",
+   "F1.10"
+  ],
+  "icapLevel": "active",
+  "f1Forms": [
+   11,
+   12
+  ]
+ },
+ {
+  "id": "graph",
+  "name": "Concept map and knowledge-graph exploration",
+  "family": "inquiry",
+  "oneLine": "Exploring or building node-link structures: the Atlas Connections view, Connect Two Things, or the learner's own map.",
+  "suits": [
+   "relations, networks, influence as claim",
+   "Bloom: analyse, create",
+   "Seixas: cause and consequence; significance",
+   "the threshold concept (a web, not a line)"
+  ],
+  "evidence": {
+   "strength": "strong",
+   "note": "Concept and knowledge maps g=0.58 across 142 effects; creating maps (g=0.72) beats studying given maps (g=0.43); effective in non-STEM domains; also improves critical thinking (g=0.53). Browsing a large graph without a question is not the same thing: give every view one question.",
+   "sources": [
+    {
+     "t": "Schroeder et al. 2018, concept maps meta-analysis (Educ. Psychol. Rev.): g=0.58; creating 0.72, studying 0.43; non-STEM too",
+     "u": "https://consensus.app/papers/details/5b2e2d1f20b05887a0d28f8a2249010d/"
+    },
+    {
+     "t": "Nesbit & Adesope 2006, Learning with concept and knowledge maps (Rev. Educ. Res.), 55 studies",
+     "u": "https://consensus.app/papers/details/be2bc5f0b65059f5843d1a9011102744/"
+    },
+    {
+     "t": "Barta et al. 2022, concept mapping and critical thinking meta-analysis (Educ. Res. Rev.): g=0.53",
+     "u": "https://consensus.app/papers/details/79647c2fc2ee5b02bcd96fa71b1caf94/"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "Kindred Britain (Stanford): a network of 30,000 related people",
+    "u": "https://kindred.stanford.edu/"
+   },
+   {
+    "t": "Stanford, Mapping the Republic of Letters",
+    "u": "http://republicofletters.stanford.edu/"
+   }
+  ],
+  "cost": "M",
+  "edoExample": "Connect Two Things: the Wave and Van Gogh's Hiroshige copies; the chain runs through Hayashi's 218 shipments and Bing's shop; the learner challenges the 'influenced by' edge and must name the source that would change its confidence.",
+  "archetypes": {
+   "A": 2,
+   "B": 1,
+   "C": 3,
+   "D": 1,
+   "E": 2,
+   "F": 1,
+   "G": 3
+  },
+  "units": [
+   "F1.13",
+   "F1.14",
+   "F1.19b",
+   "F1.20",
+   "F1.27",
+   "F1.31",
+   "F1.15"
+  ],
+  "icapLevel": "constructive",
+  "f1Forms": [
+   4,
+   12
+  ]
+ },
+ {
+  "id": "compare",
+  "name": "Comparison and contrasting cases",
+  "family": "inquiry",
+  "oneLine": "Two to seven cases side by side (before/after slider, comparison wall); the learner finds what differs and what is shared, then hears the principle.",
+  "suits": [
+   "Bloom: analyse",
+   "Seixas: continuity and change; perspectives",
+   "copies, impressions, states, techniques across worlds",
+   "'a time for telling': compare first, explain after"
+  ],
+  "evidence": {
+   "strength": "strong",
+   "note": "Case comparison d=0.50 (57 experiments, 336 tests); larger when learners look for similarities, when the principle comes after the comparison, and with perceptual content. Contrasting cases prepare learners to learn from a later explanation.",
+   "sources": [
+    {
+     "t": "Alfieri, Nokes-Malach & Schunn 2013, Learning through case comparisons (Educ. Psychol.): d=0.50, 57 experiments",
+     "u": "https://consensus.app/papers/details/aa29d4d385a85293b72bb516e0000abf/"
+    },
+    {
+     "t": "Schwartz & Bransford 1998, A time for telling (Cognition and Instruction 16(4))",
+     "u": "https://doi.org/10.1207/s1532690xci1604_4"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "Ukiyo-e.org (John Resig): finds the same print across museums for side-by-side comparison",
+    "u": "https://ukiyo-e.org/"
+   },
+   {
+    "t": "Mirador IIIF viewer: side-by-side comparison of open museum images",
+    "u": "https://projectmirador.org/"
+   }
+  ],
+  "cost": "S",
+  "edoExample": "Three Great Waves (Met JP1847, Met JP10, AIC) aligned in the viewer: the learner marks differences in the sky, the boat outlines and the fading of Prussian blue, then learns about states, block wear and light.",
+  "archetypes": {
+   "A": 2,
+   "B": 3,
+   "C": 3,
+   "D": 1,
+   "E": 3,
+   "F": 2,
+   "G": 1
+  },
+  "units": [
+   "F1.4",
+   "F1.7",
+   "F1.9",
+   "F1.11",
+   "F1.12",
+   "F1.14",
+   "F1.15",
+   "F1.20",
+   "F1.22a",
+   "F1.28"
+  ],
+  "icapLevel": "constructive",
+  "f1Forms": [
+   5,
+   10
+  ]
+ },
+ {
+  "id": "sac",
+  "name": "Structured academic controversy (and the solo argued card)",
+  "family": "discussion",
+  "oneLine": "Pairs argue one reading from evidence, swap sides, then write a consensus; solo version: weigh evidence against two sourced readings.",
+  "suits": [
+   "contested claims with two sourced readings",
+   "Bloom: evaluate",
+   "Seixas: evidence; ethical dimension; perspectives"
+  ],
+  "evidence": {
+   "strength": "moderate",
+   "note": "Johnson & Johnson's meta-analysis: controversy beats concurrence seeking (ES 0.70, n=12), debate (0.62, n=4) and individual work (0.76, n=13) on achievement. The studies are older, small and mostly the authors' own, so treat as moderate. The solo argued card has no direct test; its basis is the multiple-texts evidence.",
+   "sources": [
+    {
+     "t": "Johnson & Johnson 2009, Energizing learning (Educ. Researcher): controversy vs concurrence ES 0.70 (n=12), vs debate 0.62 (n=4), vs individualistic 0.76 (n=13)",
+     "u": "https://doi.org/10.3102/0013189X08330540"
+    },
+    {
+     "t": "Nokes, Dole & Hacker 2007, multiple texts vs textbook in history (J. Educ. Psychol.)",
+     "u": "https://consensus.app/papers/details/34544af030fc5324a018263454f9bba4/"
+    },
+    {
+     "t": "Reisman 2012, Reading Like a Historian intervention (Cognition and Instruction), 236 students, 6 months",
+     "u": "https://consensus.app/papers/details/24ebc232b74354ca93c70847c281a93c/"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "Digital Inquiry Group: New Deal Structured Academic Controversy lesson",
+    "u": "https://www.inquirygroup.org/history-lessons/new-deal-sac"
+   },
+   {
+    "t": "Digital Inquiry Group (formerly Stanford History Education Group): Reading Like a Historian",
+    "u": "https://www.inquirygroup.org/"
+   }
+  ],
+  "cost": "S",
+  "edoExample": "'Exchange or appropriation?' (b7-6): cohort pairs argue from Hayashi's shipments (A) and Japonisme's naming (B), swap, then co-write one sentence; the unit's verdict 'mostly A for this evidence; B still holds for display and credit' is shown after.",
+  "archetypes": {
+   "A": 1,
+   "B": 2,
+   "C": 2,
+   "D": 1,
+   "E": 3,
+   "F": 3,
+   "G": 1
+  },
+  "units": [
+   "F1.2",
+   "F1.3",
+   "F1.6",
+   "F1.13",
+   "F1.15",
+   "F1.20",
+   "F1.24",
+   "F1.28a",
+   "F1.12"
+  ],
+  "icapLevel": "interactive",
+  "f1Forms": [
+   13
+  ]
+ },
+ {
+  "id": "socratic",
+  "name": "Socratic dialogue or AI tutor (partner voices)",
+  "family": "discussion",
+  "oneLine": "A questioning partner with a declared agenda (Historian, Mirror, Fabricator, Stranger) that asks rather than tells and ends on a test.",
+  "suits": [
+   "Bloom: evaluate, create",
+   "Seixas: evidence (who says so?)",
+   "checking the learner's own artifact",
+   "any unit's partner row"
+  ],
+  "evidence": {
+   "strength": "mixed",
+   "note": "A pedagogy-designed AI tutor beat in-class active learning in one RCT; unrestricted chat raised practice scores but lowered later unaided scores by 17%, while a guardrailed tutor removed most of that harm; a scaffolded tutor gave the same learning as no AI in a CS1 RCT. Design (hints first, no answers, test at the end) decides the sign. Inference is not free, which strains the zero-cost rule.",
+   "sources": [
+    {
+     "t": "Kestin et al. 2025, AI tutor vs in-class active learning RCT (Scientific Reports)",
+     "u": "https://consensus.app/papers/details/f12731c50ae651e59469569386ea8ed9/"
+    },
+    {
+     "t": "Bastani et al. 2025, Generative AI without guardrails can harm learning (PNAS): -17% after access removed; tutor guardrails mitigate",
+     "u": "https://consensus.app/papers/details/3fa1c5bedc1a5530bb7ef15044cb4b28/"
+    },
+    {
+     "t": "Bassner et al. 2025, scaffolded vs unrestricted AI in CS1 RCT: higher scores, same learning",
+     "u": "https://consensus.app/papers/details/4ba657dd763c5dd0b39ce09ededdebba/"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "Khanmigo (Khan Academy's tutor that asks rather than tells)",
+    "u": "https://www.khanmigo.ai/"
+   },
+   {
+    "t": "Historical Thinking Matters (Wineburg et al.): videos of historians reading documents aloud",
+    "u": "https://historicalthinkingmatters.org/why/"
+   }
+  ],
+  "cost": "M",
+  "edoExample": "The Historian on the Wave: 'Who is named on this sheet, and who cut the foam?' It presses until the learner cites the 1889 Tokuno set as the first record naming carver Kido; it never speaks as Hokusai or any courtesan.",
+  "archetypes": {
+   "A": 2,
+   "B": 2,
+   "C": 2,
+   "D": 1,
+   "E": 2,
+   "F": 3,
+   "G": 3
+  },
+  "units": [
+   "F1.1",
+   "F1.6",
+   "F1.13",
+   "F1.23",
+   "F1.25",
+   "F1.28a",
+   "F1.30a",
+   "F1.27",
+   "F1.31"
+  ],
+  "icapLevel": "interactive",
+  "f1Forms": [],
+  "cautions": "No impersonating historical people; no AI voice for living communities; offline fallback is the written test."
+ },
+ {
+  "id": "roleplay",
+  "name": "Role-play and perspective-taking",
+  "family": "practice",
+  "oneLine": "The learner takes the position of a historical office (publisher, censor, commissioner, curator) facing a real, documented choice.",
+  "suits": [
+   "Bloom: apply, evaluate",
+   "Seixas: historical perspectives; ethical dimension",
+   "institutional decisions, regimes, briefs"
+  ],
+  "evidence": {
+   "strength": "weak",
+   "note": "Reacting to the Past raised self-efficacy and engagement but not measured perspective taking (N=201, quasi-experimental). Game fiction moderates behaviour during play only. Use roles that serve a decision; never roles of coerced or exploited people.",
+   "sources": [
+    {
+     "t": "Bledsoe & Richardson 2022, Reacting to the Past quasi-experiment, N=201: self-efficacy up, perspective taking unchanged (IJTLHE)",
+     "u": "https://files.eric.ed.gov/fulltext/EJ1366192.pdf"
+    },
+    {
+     "t": "Mission US research and outcomes (EDC studies 2011, 2016, 2025 efficacy study)",
+     "u": "https://www.mission-us.org/about/proven-impact/research-and-outcomes/"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "Reacting to the Past (Barnard): role-immersion games set in historical moments",
+    "u": "https://reacting.barnard.edu/"
+   },
+   {
+    "t": "Mission US (THIRTEEN/WNET): branching role-play history games",
+    "u": "https://www.mission-us.org/"
+   }
+  ],
+  "cost": "M",
+  "edoExample": "At the Censor's Desk in 1842 the learner is the guild examiner applying the Tenpo rules to six sheets (actors and courtesans banned, 16-mon cap); the role is the office, never the women or the actors.",
+  "archetypes": {
+   "A": 0,
+   "B": 1,
+   "C": 1,
+   "D": 0,
+   "E": 2,
+   "F": 2,
+   "G": 0
+  },
+  "units": [
+   "F1.17",
+   "F1.21",
+   "F1.26",
+   "F1.24",
+   "F1.19b"
+  ],
+  "icapLevel": "constructive",
+  "f1Forms": [],
+  "cautions": "Yoshiwara: read, not played. No role for enslaved, indentured or displaced people (F1.13, F1.19a, F1.23)."
+ },
+ {
+  "id": "branching",
+  "name": "Branching scenario or interactive fiction",
+  "family": "practice",
+  "oneLine": "A short text story with 2-4 decision points; every branch ends on 'What actually happened' with sources.",
+  "suits": [
+   "contingency: the choices actors faced",
+   "Bloom: apply",
+   "Seixas: cause and consequence; perspectives"
+  ],
+  "evidence": {
+   "strength": "weak",
+   "note": "EDC studies of Mission US report gains over comparison classes (1,118 students, 2011; 15% vs under 1% gain, 2016) but they are quasi-experimental and K-12. Games show effects only over several sessions (one session g=0.08). Treat as a motivator for contingency, not a knowledge vehicle.",
+   "sources": [
+    {
+     "t": "Mission US research and outcomes (EDC studies 2011, 2016, 2025 efficacy study)",
+     "u": "https://www.mission-us.org/about/proven-impact/research-and-outcomes/"
+    },
+    {
+     "t": "Clark, Tanner-Smith & Killingsworth 2016, digital games meta-analysis (Rev. Educ. Res.): g=0.33; one session g=0.08",
+     "u": "https://doi.org/10.3102/0034654315582065"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "Mission US (THIRTEEN/WNET): branching role-play history games",
+    "u": "https://www.mission-us.org/"
+   },
+   {
+    "t": "Twine: free open-source tool for branching interactive fiction",
+    "u": "https://twinery.org/"
+   }
+  ],
+  "cost": "M",
+  "edoExample": "'Eijudo's bet, 1830': three choices (a beauty series, a Fuji series in imported blue, reprints); each branch ends on the Fuji series of 1831 and the price lane, with sources; no score.",
+  "archetypes": {
+   "A": 0,
+   "B": 1,
+   "C": 1,
+   "D": 0,
+   "E": 2,
+   "F": 2,
+   "G": 0
+  },
+  "units": [
+   "F1.17",
+   "F1.21",
+   "F1.26",
+   "F1.30a",
+   "F1.19"
+  ],
+  "icapLevel": "active",
+  "f1Forms": [
+   1
+  ],
+  "cautions": "Not for war, coercion or the quarter; no outcomes, scores or timers."
+ },
+ {
+  "id": "sim",
+  "name": "Simulation, sandbox or explorable",
+  "family": "practice",
+  "oneLine": "A rule-based model the learner can manipulate (route costs, block wear, calendar conversion, supply chain) to see consequences.",
+  "suits": [
+   "systems and trade-offs: routes, supply chains, process splits, calendars",
+   "Bloom: apply, analyse",
+   "Seixas: cause and consequence"
+  ],
+  "evidence": {
+   "strength": "moderate",
+   "note": "Simulations g=0.85 for complex professional skills, with examples helping novices; intrinsically integrated mechanics produce more learning and seven times more voluntary play. Evidence is from medicine, teacher education and STEM; transfer to history is plausible but untested (marked uncertain). A realist 3D history tour underperformed a short lecture.",
+   "sources": [
+    {
+     "t": "Chernikova et al. 2020, Simulation-based learning in higher education (Rev. Educ. Res.): g=0.85, 145 studies; examples help novices",
+     "u": "https://consensus.app/papers/details/453910073fb35715b83cc5e5d21d1f41/"
+    },
+    {
+     "t": "Habgood & Ainsworth 2011, intrinsic integration (J. Learning Sciences)",
+     "u": "https://shura.shu.ac.uk/3556/1/Habgood_Ainsworth_final.pdf"
+    },
+    {
+     "t": "Assassin's Creed Discovery Tour study: 44% knowledge gain vs 51% after a 12-min lecture (Variety report of Montreal study)",
+     "u": "https://variety.com/2018/gaming/news/assassins-creed-origins-discovery-tour-effectiveness-1202861325"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "ORBIS: Stanford geospatial network model of the Roman world (route cost simulator)",
+    "u": "https://orbis.stanford.edu/"
+   },
+   {
+    "t": "Nicky Case & Vi Hart, Parable of the Polygons (explorable simulation)",
+    "u": "https://ncase.me/polygons/"
+   }
+  ],
+  "cost": "L",
+  "edoExample": "The edition lab: set block wear and run size and watch impressions degrade; the learner finds why 'up to 8,000 printed' is an inference from wear while 113 is a count.",
+  "archetypes": {
+   "A": 1,
+   "B": 1,
+   "C": 3,
+   "D": 2,
+   "E": 2,
+   "F": 3,
+   "G": 1
+  },
+  "units": [
+   "F1.13",
+   "F1.19",
+   "F1.22",
+   "F1.30",
+   "F1.30a",
+   "F1.14",
+   "F1.10"
+  ],
+  "icapLevel": "active",
+  "f1Forms": [
+   4
+  ]
+ },
+ {
+  "id": "deduction",
+  "name": "Evidence or deduction game (Obra Dinn-style)",
+  "family": "inquiry",
+  "oneLine": "A set of unlabelled items to identify or date from evidence, confirmed in batches so guessing does not pay.",
+  "suits": [
+   "Bloom: analyse, evaluate",
+   "Seixas: evidence",
+   "dating, attribution, provenance, seen/recorded/guessed"
+  ],
+  "evidence": {
+   "strength": "weak",
+   "note": "No learning evaluations of commercial deduction games were found; the archival-mystery model (Great Unsolved Mysteries) has awards, not trials. The mechanism is sound by proxy: the mechanic is the historian's practice (intrinsic integration) and it is retrieval with feedback.",
+   "sources": [
+    {
+     "t": "Habgood & Ainsworth 2011, intrinsic integration (J. Learning Sciences)",
+     "u": "https://shura.shu.ac.uk/3556/1/Habgood_Ainsworth_final.pdf"
+    },
+    {
+     "t": "Yang et al. 2021, classroom quizzing meta-analysis (Psychol. Bull.): g=0.499, 222 studies",
+     "u": "https://consensus.app/papers/details/d5865595581856df817e7452b18cbdc4/"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "Return of the Obra Dinn (Lucas Pope, 2018): deduce identities from evidence, confirmed in threes",
+    "u": "https://obradinn.com/"
+   },
+   {
+    "t": "Great Unsolved Mysteries in Canadian History: archive-based historical mysteries",
+    "u": "https://www.canadashistory.ca/awards/governor-general-s-history-awards/award-recipients/2008/great-unsolved-mysteries-in-canadian-history"
+   }
+  ],
+  "cost": "M",
+  "edoExample": "The Seal Timeline desk: date nine unlabelled sheets from their censor seals (kiwame 1790-1842, nanushi pairs, aratame and date seals); results confirm three at a time.",
+  "archetypes": {
+   "A": 2,
+   "B": 1,
+   "C": 2,
+   "D": 1,
+   "E": 2,
+   "F": 3,
+   "G": 1
+  },
+  "units": [
+   "F1.1",
+   "F1.14",
+   "F1.23",
+   "F1.24",
+   "F1.28",
+   "F1.9a",
+   "F1.15"
+  ],
+  "icapLevel": "constructive",
+  "f1Forms": [
+   4,
+   15
+  ]
+ },
+ {
+  "id": "making",
+  "name": "Making and reconstruction (making to know)",
+  "family": "production",
+  "oneLine": "Rebuilding a technique at kitchen-table scale from a source, logging each step as text says / object shows / holder says / I decided.",
+  "suits": [
+   "tacit knowledge; technique; the gap between recipe and practice",
+   "Bloom: apply, create",
+   "Seixas: evidence (what a remake can and cannot show)",
+   "maker lane"
+  ],
+  "evidence": {
+   "strength": "mixed",
+   "note": "Enacting is one of Fiorella and Mayer's eight generative strategies; the Making and Knowing Project documents rich learning qualitatively. No controlled studies of reconstruction for history learning were found (marked uncertain).",
+   "sources": [
+    {
+     "t": "Fiorella & Mayer 2016, Eight ways to promote generative learning (Educ. Psychol. Rev.) incl. enacting and teaching",
+     "u": "https://consensus.app/papers/details/00814a2a523555679bdeb93403953693/"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "Making and Knowing Project: Secrets of Craft and Nature, Research and Teaching Companion",
+    "u": "https://teaching640.makingandknowing.org/"
+   },
+   {
+    "t": "Making and Knowing Project, digital critical edition of BnF Ms. Fr. 640 (announcement)",
+    "u": "https://scienceandsociety.columbia.edu/news/making-and-knowing-project-published-digital-critical-edition"
+   }
+  ],
+  "cost": "M",
+  "edoExample": "A two-block print with eraser or lino blocks and paper kento marks: register a key block and one colour; log three trials, one variable each (paper damp or dry); label the result 'Reconstruction, an interpretation'.",
+  "archetypes": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 0,
+   "E": 1,
+   "F": 3,
+   "G": 2
+  },
+  "units": [
+   "F1.28a",
+   "F1.18",
+   "F1.7",
+   "F1.6",
+   "F1.19",
+   "F1.25"
+  ],
+  "icapLevel": "constructive",
+  "f1Forms": [
+   2,
+   3
+  ],
+  "cautions": "Excluded: toxic materials, live animals, sacred or restricted techniques (F1.28a)."
+ },
+ {
+  "id": "tour",
+  "name": "Field trip or virtual tour",
+  "family": "inquiry",
+  "oneLine": "Visiting a place or collection, physically or through open 360 views and museum stories, with one question to carry.",
+  "suits": [
+   "place, scale, display context, the museum as author",
+   "Bloom: understand",
+   "Seixas: significance"
+  ],
+  "evidence": {
+   "strength": "weak",
+   "note": "A large RCT of one art-museum visit found small gains (critical thinking +0.09 SD, historical empathy +0.06), two to three times larger for rural and high-poverty pupils. No comparable evidence for virtual tours was found.",
+   "sources": [
+    {
+     "t": "Greene, Kisida & Bowen 2014, art-museum field-trip RCT, N=10,912: critical thinking +0.09 SD, historical empathy +0.06, tolerance +0.07; ~2-3x for rural/high-poverty",
+     "u": "https://www.educationnext.org/wp-content/uploads/2013/09/ednext_XIV_1_greene.pdf"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "Google Arts & Culture: museum Street View tours and stories",
+    "u": "https://artsandculture.google.com/"
+   },
+   {
+    "t": "Project Zero, Out of Eden Learn: slow looking and global peer exchange online",
+    "u": "https://learn.outofedenwalk.com/"
+   }
+  ],
+  "cost": "S",
+  "edoExample": "'Step into the View': three Hiroshige Hundred Views placed on the 1859 map at their viewpoints; locally, the learner visits any print room or open collection and logs one impression's label as the museum wrote it.",
+  "archetypes": {
+   "A": 1,
+   "B": 3,
+   "C": 2,
+   "D": 0,
+   "E": 1,
+   "F": 0,
+   "G": 2
+  },
+  "units": [
+   "F1.6",
+   "F1.7",
+   "F1.8",
+   "F1.9",
+   "F1.10",
+   "F1.11",
+   "F1.12",
+   "F1.24",
+   "F1.31"
+  ],
+  "icapLevel": "active",
+  "f1Forms": [
+   12
+  ]
+ },
+ {
+  "id": "oral",
+  "name": "Oral history and interview",
+  "family": "inquiry",
+  "oneLine": "Recording what living makers and users know, under consent that is free, prior, informed and asked again at review.",
+  "suits": [
+   "living practice; vernacular knowledge; use and meaning",
+   "Bloom: create",
+   "Seixas: perspectives; ethical dimension",
+   "G-archetype field work"
+  ],
+  "evidence": {
+   "strength": "weak",
+   "note": "Strong professional standards (OHA) and rich archives, but no controlled learning evidence was found; value is method and ethics, not measured recall.",
+   "sources": [
+    {
+     "t": "Oral History Association principles (standards, not outcome evidence)",
+     "u": "https://oralhistory.org/principles-and-best-practices-revised-2018/"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "British Library Sounds, National Life Stories: Crafts Lives (makers' oral histories)",
+    "u": "https://sounds.bl.uk/oral-history/crafts"
+   },
+   {
+    "t": "1947 Partition Archive (crowd-sourced, consented oral histories)",
+    "u": "https://www.1947partitionarchive.org/"
+   }
+  ],
+  "cost": "M",
+  "edoExample": "Under the F1.29 kit, ask three people what the Wave means on the thousand-yen note (or interview a mokuhanga printer, with consent); tag each statement as told-by, never as fact.",
+  "archetypes": {
+   "A": 0,
+   "B": 1,
+   "C": 0,
+   "D": 0,
+   "E": 1,
+   "F": 1,
+   "G": 3
+  },
+  "units": [
+   "F1.29",
+   "F1.31",
+   "F1.12",
+   "F1.18",
+   "F1.22a",
+   "F1.4"
+  ],
+  "icapLevel": "interactive",
+  "f1Forms": [
+   8
+  ]
+ },
+ {
+  "id": "pbl",
+  "name": "Problem- or project-based research",
+  "family": "production",
+  "oneLine": "A driving question answered over weeks with a public product (research piece, regional slot, lineage).",
+  "suits": [
+   "Bloom: create",
+   "Seixas: all six",
+   "Mastery depth; the artifact"
+  ],
+  "evidence": {
+   "strength": "mixed",
+   "note": "PBL helps skills robustly but not knowledge (Dochy 2003); a second-order meta-analysis gives ES 0.60 with effects shrinking in higher-quality studies. Minimal guidance underperforms, so worked cases come first.",
+   "sources": [
+    {
+     "t": "Dochy et al. 2003, PBL meta-analysis (Learning and Instruction): skills robustly positive, knowledge non-robust negative",
+     "u": "https://consensus.app/papers/details/5161b1f431af5f81a5f6ca8fc62a9da6/"
+    },
+    {
+     "t": "Erdem et al. 2025, PBL second-order meta-analysis (Studies in Higher Education): ES=0.60, moderated by research quality",
+     "u": "https://consensus.app/papers/details/799d68570a8d5998b4b6eb6f39075a5e/"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "National History Day: year-long student history research projects",
+    "u": "https://www.nhd.org/"
+   },
+   {
+    "t": "Smithsonian Learning Lab: learners build and annotate their own collections",
+    "u": "https://learninglab.si.edu/"
+   }
+  ],
+  "cost": "M",
+  "edoExample": "'Who made this impression?': pick one open-access Hiroshige or Hokusai impression, trace its provenance chain to the dealer (Hayashi, Wright, the Spauldings), and produce a credit map and attribution line.",
+  "archetypes": {
+   "A": 1,
+   "B": 0,
+   "C": 1,
+   "D": 0,
+   "E": 1,
+   "F": 2,
+   "G": 3
+  },
+  "units": [
+   "F1.27",
+   "F1.31",
+   "F1.29",
+   "F1.24"
+  ],
+  "icapLevel": "constructive",
+  "f1Forms": [
+   4
+  ]
+ },
+ {
+  "id": "retrieval",
+  "name": "Retrieval practice and spaced prompts",
+  "family": "practice",
+  "oneLine": "Short recall items at segment ends and again days later, embedded in the page rather than a separate quiz.",
+  "suits": [
+   "Bloom: remember",
+   "facts that later reasoning needs: dates, names, techniques",
+   "returning learners"
+  ],
+  "evidence": {
+   "strength": "strong",
+   "note": "Practice testing and distributed practice are the two high-utility techniques in Dunlosky et al.; classroom quizzing g=0.499. Recall beats recognition, so prefer place-on-map or order-on-timeline items over multiple choice.",
+   "sources": [
+    {
+     "t": "Dunlosky et al. 2013, Improving students' learning with effective learning techniques (PSPI): practice testing and distributed practice high utility",
+     "u": "https://doi.org/10.1177/1529100612453266"
+    },
+    {
+     "t": "Yang et al. 2021, classroom quizzing meta-analysis (Psychol. Bull.): g=0.499, 222 studies",
+     "u": "https://consensus.app/papers/details/d5865595581856df817e7452b18cbdc4/"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "Quantum Country (Matuschak & Nielsen): essay with embedded spaced-repetition prompts",
+    "u": "https://quantum.country/qcvc"
+   },
+   {
+    "t": "Orbit: open-source spaced-repetition prompts embeddable in any web page",
+    "u": "https://github.com/andymatuschak/orbit"
+   }
+  ],
+  "cost": "S",
+  "edoExample": "On return a week later, three cards resurface: 'What did the kiwame seal certify, and from when?' 'What did the 1842 reforms cap?' 'Who was first recorded as the Wave's carver, and in what year?'",
+  "archetypes": {
+   "A": 2,
+   "B": 3,
+   "C": 2,
+   "D": 3,
+   "E": 2,
+   "F": 1,
+   "G": 0
+  },
+  "units": [
+   "F1.5",
+   "F1.6",
+   "F1.7",
+   "F1.8",
+   "F1.9",
+   "F1.10",
+   "F1.11",
+   "F1.12",
+   "F1.13",
+   "F1.30",
+   "F1.3"
+  ],
+  "icapLevel": "active",
+  "f1Forms": [
+   15
+  ],
+  "cautions": "No streaks, points or completion badges (see learning_games_evidence.md)."
+ },
+ {
+  "id": "selfexp",
+  "name": "Self-explanation prompts",
+  "family": "practice",
+  "oneLine": "After a reveal, the learner states which clue decided it (one tap among reasons, or one line).",
+  "suits": [
+   "Bloom: understand, analyse",
+   "Seixas: evidence",
+   "converting a guess into a principle"
+  ],
+  "evidence": {
+   "strength": "moderate",
+   "note": "Self-explanation prompts g=0.55 (69 effects); rated moderate utility by Dunlosky. With learning time held constant one study found no gain and higher load; prompts work best when scaffolded and aimed at correct information.",
+   "sources": [
+    {
+     "t": "Bisra et al. 2018, Inducing self-explanation meta-analysis (Educ. Psychol. Rev.): g=0.55, 69 effects",
+     "u": "https://consensus.app/papers/details/541078a2cfb75a72ace8edd9e9a6a153/"
+    },
+    {
+     "t": "Beege et al. 2024, self-explanation prompts gave no gain with time controlled (Instr. Sci.)",
+     "u": "https://consensus.app/papers/details/800d6cf11c165211844e27dbc94a036b/"
+    },
+    {
+     "t": "Rittle-Johnson, Loehr & Durkin 2017, constraints on when self-explanation helps (Psychon. Bull. Rev.)",
+     "u": "https://consensus.app/papers/details/b05e4379247953918631822146d8854b/"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "Historical Thinking Matters (Wineburg et al.): videos of historians reading documents aloud",
+    "u": "https://historicalthinkingmatters.org/why/"
+   },
+   {
+    "t": "Digital Inquiry Group (formerly Stanford History Education Group): Reading Like a Historian",
+    "u": "https://www.inquirygroup.org/"
+   }
+  ],
+  "cost": "S",
+  "edoExample": "After the tap on Utamaro's marks: 'Which clue showed the carver is missing?' Options: no carver's seal; the law named three people; the key block was destroyed. Then the record's reason.",
+  "archetypes": {
+   "A": 3,
+   "B": 2,
+   "C": 2,
+   "D": 2,
+   "E": 3,
+   "F": 3,
+   "G": 2
+  },
+  "units": [
+   "F1.1",
+   "F1.2",
+   "F1.14",
+   "F1.23",
+   "F1.25",
+   "F1.26",
+   "F1.28"
+  ],
+  "icapLevel": "constructive",
+  "f1Forms": [
+   15
+  ]
+ },
+ {
+  "id": "peer",
+  "name": "Peer review and critique",
+  "family": "collaboration",
+  "oneLine": "Learners review each other's artifacts against a short rubric (every hand sourced, confidence words used) and respond.",
+  "suits": [
+   "Bloom: evaluate",
+   "the design-studio crit",
+   "Mastery outputs; the briefer's brief"
+  ],
+  "evidence": {
+   "strength": "moderate",
+   "note": "Peer assessment g=0.31 against no assessment and 0.28 against teacher assessment (54 studies), robust across contexts; peer grades in MOOCs track staff grades when rubrics are calibrated.",
+   "sources": [
+    {
+     "t": "Double, McGrane & Hopfenbeck 2020, peer assessment meta-analysis (Educ. Psychol. Rev.): g=0.31, 54 studies",
+     "u": "https://consensus.app/papers/details/3772c7204f665da992607fd1ca80b621/"
+    },
+    {
+     "t": "Kulkarni et al. 2013, Peer and self assessment in massive online classes (ACM TOCHI)",
+     "u": "https://doi.org/10.1145/2505057"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "Project Zero, Out of Eden Learn: slow looking and global peer exchange online",
+    "u": "https://learn.outofedenwalk.com/"
+   },
+   {
+    "t": "Smithsonian Learning Lab: learners build and annotate their own collections",
+    "u": "https://learninglab.si.edu/"
+   }
+  ],
+  "cost": "M",
+  "edoExample": "Learners swap credit maps of one Wave impression; the reviewer marks any hand without a source or confidence word and any edge that names a dealer but no maker.",
+  "archetypes": {
+   "A": 1,
+   "B": 0,
+   "C": 1,
+   "D": 0,
+   "E": 2,
+   "F": 2,
+   "G": 3
+  },
+  "units": [
+   "F1.27",
+   "F1.31",
+   "F1.26",
+   "F1.30a",
+   "F1.23"
+  ],
+  "icapLevel": "interactive",
+  "f1Forms": [],
+  "cautions": "Needs a cohort and moderation; never rank individuals."
+ },
+ {
+  "id": "portfolio",
+  "name": "Portfolio and learning journal (the Lineage layer)",
+  "family": "production",
+  "oneLine": "The learner's own accumulating record: nodes, edges, sourced lines and reflections exported to the artifact (SRC).",
+  "suits": [
+   "Bloom: create",
+   "Seixas: significance (what the learner keeps)",
+   "continuity across 38 units"
+  ],
+  "evidence": {
+   "strength": "mixed",
+   "note": "Self-regulated-learning programmes help (g=0.36) and self-assessment helps strategy use and self-efficacy; no direct evidence for portfolios as such was retrieved (marked uncertain). Value is integration across units and the artifact itself.",
+   "sources": [
+    {
+     "t": "Theobald 2021, self-regulated learning training meta-analysis (Contemp. Educ. Psychol.): g=0.36",
+     "u": "https://consensus.app/papers/details/2e0d442b368d516eaf2a5ead29bcccb8/"
+    },
+    {
+     "t": "Panadero et al. 2017, self-assessment meta-analyses (Educ. Res. Rev.)",
+     "u": "https://consensus.app/papers/details/18ce0e2e359e54438f4abfec1cc83261/"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "Smithsonian Learning Lab: learners build and annotate their own collections",
+    "u": "https://learninglab.si.edu/"
+   },
+   {
+    "t": "Europeana: galleries and stories built from open heritage records",
+    "u": "https://www.europeana.eu/"
+   }
+  ],
+  "cost": "S",
+  "edoExample": "The coda inks Edo people and places in the Atlas (#from-edo); the learner adds one object of their own influenced by Japonisme with a sourced 'copied from' or 'adapted from' edge and a confidence word.",
+  "archetypes": {
+   "A": 2,
+   "B": 2,
+   "C": 2,
+   "D": 1,
+   "E": 2,
+   "F": 2,
+   "G": 3
+  },
+  "units": [
+   "F1.1",
+   "F1.13",
+   "F1.27",
+   "F1.30",
+   "F1.31",
+   "F1.25"
+  ],
+  "icapLevel": "constructive",
+  "f1Forms": [
+   4
+  ]
+ },
+ {
+  "id": "comics",
+  "name": "Comics and sequential illustration",
+  "family": "acquisition",
+  "oneLine": "A narrative told in drawn panels (our own drawings), useful where sequence and hands matter.",
+  "suits": [
+   "process and sequence; a sheet's life; labour made visible",
+   "Bloom: understand",
+   "Seixas: perspectives"
+  ],
+  "evidence": {
+   "strength": "mixed",
+   "note": "Comics beat text for understanding and retention in one climate-change experiment, matched text for skilled adult readers (read faster), and helped medium but not high achievers in another. Expect efficiency and access gains rather than deeper learning.",
+   "sources": [
+    {
+     "t": "Budke 2023, comics vs text on climate change, comic better for understanding and retention (Sustainability Science)",
+     "u": "https://consensus.app/papers/details/12eddc84dd405bb1bc63a86ceab4747c/"
+    },
+    {
+     "t": "Rasamimanana et al. 2025, comics vs text in skilled adults: same comprehension, faster reading (Cognitive Science)",
+     "u": "https://consensus.app/papers/details/7d850cc4729b51b19926f2979fdebe5d/"
+    },
+    {
+     "t": "Lin et al. 2016, science comic vs text booklet, N=697: helps medium achievers, not high achievers (IJSE)",
+     "u": "https://consensus.app/papers/details/3327df062fe5529dacaa29c6f56b9c9f/"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "Graphic History Collective: comics of labour and working-class history",
+    "u": "https://graphichistorycollective.com/"
+   },
+   {
+    "t": "Hokusai Manga (1814-78) as a sequential-image precedent; see the Met record of volumes",
+    "u": "https://www.metmuseum.org/search-results?q=hokusai+manga"
+   }
+  ],
+  "cost": "M",
+  "edoExample": "Six panels, 'One sheet's life' (b9-1): mulberry paper in Echizen, the carver at Eijudo, the printer's second blue pass, a shop wall, a Havemeyer crate, Met gallery JP1847; drawn by us, every panel captioned with its source.",
+  "archetypes": {
+   "A": 1,
+   "B": 2,
+   "C": 1,
+   "D": 1,
+   "E": 2,
+   "F": 1,
+   "G": 0
+  },
+  "units": [
+   "F1.25",
+   "F1.21",
+   "F1.19",
+   "F1.23",
+   "F1.8"
+  ],
+  "icapLevel": "passive",
+  "f1Forms": [
+   14
+  ],
+  "cautions": "Never draw the quarter's women, shunga, or coerced labour as spectacle; no generated images of historical people or objects."
+ },
+ {
+  "id": "datastory",
+  "name": "Data storytelling and visual essay",
+  "family": "acquisition",
+  "oneLine": "An argument carried by quantities drawn honestly: counts, ranges, uncertainty, with the reading beside the chart.",
+  "suits": [
+   "scale, survival, trade volumes, extraction",
+   "Bloom: understand, analyse",
+   "Seixas: significance; evidence (counts are someone's)"
+  ],
+  "evidence": {
+   "strength": "mixed",
+   "note": "Data stories raise engagement but showed no recall advantage over traditional charts; text-visual linking is what helps. Use for quantities that change an argument, not decoration.",
+   "sources": [
+    {
+     "t": "Zdanovic et al. 2022, data storytelling vs traditional visualization: no recall difference (CHIIR)",
+     "u": "https://consensus.app/papers/details/3e679fb9cb1c5fe390689f259171e502/"
+    },
+    {
+     "t": "Zhi, Ottley & Metoyer 2019, linking and layout in narrative visualization (CGF), N=180",
+     "u": "https://onlinelibrary.wiley.com/doi/10.1111/cgf.13719"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "The Pudding: visual essays built on data",
+    "u": "https://pudding.cool/"
+   },
+   {
+    "t": "SlaveVoyages database and maps (Trans-Atlantic and Intra-American)",
+    "u": "https://www.slavevoyages.org/"
+   }
+  ],
+  "cost": "M",
+  "edoExample": "'113 survivors': the runs lane set up to 8,000 estimated printed against 113 located, Red Fuji's 93, and Hayashi's 166,000 vs 300,000 prints (argued) as a range bar, with each count labelled by who counted.",
+  "archetypes": {
+   "A": 0,
+   "B": 1,
+   "C": 3,
+   "D": 2,
+   "E": 3,
+   "F": 0,
+   "G": 0
+  },
+  "units": [
+   "F1.13",
+   "F1.22",
+   "F1.5",
+   "F1.19",
+   "F1.21",
+   "F1.10"
+  ],
+  "icapLevel": "passive",
+  "f1Forms": [
+   1,
+   11,
+   12
+  ]
+ },
+ {
+  "id": "counterfactual",
+  "name": "Counterfactual history exercise",
+  "family": "inquiry",
+  "oneLine": "Change one documented variable, hold the rest, and trace sourced consequences until the sources stop; label it fiction.",
+  "suits": [
+   "causation; testing a claimed cause",
+   "Bloom: analyse, create",
+   "Seixas: cause and consequence"
+  ],
+  "evidence": {
+   "strength": "weak",
+   "note": "Argued for in history-education theory and reported in practitioner studies (Year 7 causal diagrams); no controlled outcome studies found.",
+   "sources": [
+    {
+     "t": "Bennett 2019, counterfactual diagrams for Year 7 causal reasoning (Teaching History 174), practitioner study",
+     "u": "https://eric.ed.gov/?id=EJ1214242"
+    },
+    {
+     "t": "Towards bad history? A call for the use of counterfactual historical reasoning in history education (theoretical)",
+     "u": "https://www.researchgate.net/publication/281866251_Towards_bad_history_A_call_for_the_use_of_counterfactual_reasoning_in_history_education"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "F1 Edo unit (v4), internal",
+    "u": "https://claude.ai/artifact/73RSURL2MWqJpyJuh4mdh6"
+   }
+  ],
+  "cost": "S",
+  "edoExample": "Rule Card: 'Remove the 1842 ban. Does the landscape print still boom?' Held fixed: the Fuji series (1831), the Tokaido (1833), cheap Prussian blue; the learner finds the ban protected a genre already selling (the act III argued card).",
+  "archetypes": {
+   "A": 0,
+   "B": 1,
+   "C": 1,
+   "D": 2,
+   "E": 1,
+   "F": 3,
+   "G": 2
+  },
+  "units": [
+   "F1.30a",
+   "F1.5",
+   "F1.13",
+   "F1.14",
+   "F1.19"
+  ],
+  "icapLevel": "constructive",
+  "f1Forms": [
+   13,
+   4
+  ],
+  "cautions": "Atrocity is never the variable (F1.30a)."
+ },
+ {
+  "id": "annotate",
+  "name": "Collaborative annotation",
+  "family": "collaboration",
+  "oneLine": "A cohort marks up a shared primary text or image (claims, sources, questions) in a layer others can read.",
+  "suits": [
+   "close reading of primary texts and labels",
+   "Bloom: analyse",
+   "Seixas: evidence; perspectives"
+  ],
+  "evidence": {
+   "strength": "mixed",
+   "note": "Reviews find promising but thin evidence; team annotation improved comprehension and metacognition but not critical thinking; assigned roles raise participation. Free tools exist but need accounts and moderation.",
+   "sources": [
+    {
+     "t": "Novak, Razzouk & Johnson 2012, social annotation tools in HE: literature review, 16 studies (Internet & Higher Education)",
+     "u": "https://consensus.app/papers/details/9e07ec1c0c445ded8d2378391006dd62/"
+    },
+    {
+     "t": "Johnson, Archibald & Tenenbaum 2010, individual vs team social annotation: team annotation improved comprehension and metacognition (Comput. Hum. Behav.)",
+     "u": "https://consensus.app/papers/details/1a2a32378b12566c92ee89c2a90794e3/"
+    },
+    {
+     "t": "Zhu et al. 2023, roles (facilitator, synthesizer, summarizer) with Hypothesis (Internet & Higher Education)",
+     "u": "https://consensus.app/papers/details/92ae6048a42b58d9a20b59c3eb969b3f/"
+    }
+   ]
+  },
+  "exemplars": [
+   {
+    "t": "Hypothesis: free, open-source web annotation (groups, public or private)",
+    "u": "https://web.hypothes.is/"
+   },
+   {
+    "t": "Smithsonian Learning Lab: learners build and annotate their own collections",
+    "u": "https://learninglab.si.edu/"
+   }
+  ],
+  "cost": "S",
+  "edoExample": "A shared layer on a public-domain issue of Bing's Le Japon artistique (1888-91): the cohort tags every claim about who made the prints, and every place Japanese makers are named or left out.",
+  "archetypes": {
+   "A": 2,
+   "B": 1,
+   "C": 1,
+   "D": 0,
+   "E": 2,
+   "F": 3,
+   "G": 2
+  },
+  "units": [
+   "F1.28",
+   "F1.9a",
+   "F1.24",
+   "F1.3",
+   "F1.11",
+   "F1.29"
+  ],
+  "icapLevel": "interactive",
+  "f1Forms": [
+   4
+  ],
+  "cautions": "Shunga and restricted material excluded from any shared corpus."
+ }
+]

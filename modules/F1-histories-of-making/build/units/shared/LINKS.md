@@ -5,6 +5,8 @@
 | Edo and the floating world (v4; includes the Desks, Workshop and Views rooms) | build/units/edo | https://claude.ai/artifact/73RSURL2MWqJpyJuh4mdh6 |
 | Atlas of Making (the hub) | build/atlas-hub | https://claude.ai/artifact/EpQh77TKiuqa5ot5dMowQ8 |
 
+| Edo Concept Composer (all versions, feasibility, teaching methods, final brief) | build/compiler | https://claude.ai/artifact/FztXX3RBg7D8KcR2AQ14Aa |
+
 Superseded on 4 October 2026 (published by an earlier pass that planned separate pieces; their content now lives inside the Edo unit and the Atlas above):
 The Print Desks https://claude.ai/artifact/Qu4AiUxBdmiaycRs9AcjKp · Edo Print Workshop https://claude.ai/artifact/UMadfVGh6pAasUYG1UdRFX · Atlas of Making (first version) https://claude.ai/artifact/KofGwdTPrtaCgLG8ykoBYi.
 
