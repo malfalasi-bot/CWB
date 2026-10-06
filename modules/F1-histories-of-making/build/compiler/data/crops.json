@@ -1,0 +1,680 @@
+{
+ "_note": "Component close-ups. box = [x0, y0, x1, y1] in tenths of the 1440x900 poster. src = a file in img-src/ instead of a poster. anim = frames for an animated close-up.",
+ "spine-system-index": {
+  "poster": "v1-nav-d",
+  "box": [
+   0,
+   0.5,
+   10,
+   5.5
+  ],
+  "caption": "v1: the five-box system diagram used as the index"
+ },
+ "spine-chapters-motifs": {
+  "poster": "v2-opening-d",
+  "box": [
+   0,
+   0,
+   10,
+   7
+  ],
+  "caption": "v2: chapter dots over the map, prologue as chapter 0"
+ },
+ "spine-publishers-bets": {
+  "poster": "v4-nav-d",
+  "box": [
+   0,
+   0.4,
+   7.6,
+   9.2
+  ],
+  "caption": "Act opener: a publisher's bet, its scenes, then Rebuild"
+ },
+ "spine-overture-coda": {
+  "poster": "v4-overture-d",
+  "box": [
+   0.3,
+   3.0,
+   9,
+   10
+  ],
+  "caption": "Overture shot 2: the whole story told in nine shots"
+ },
+ "spine-atlas-hub": {
+  "poster": "atlas-nav-d",
+  "box": [
+   0,
+   0.6,
+   8,
+   10
+  ],
+  "caption": "Atlas: chapters → units → stories"
+ },
+ "layout-doc": {
+  "poster": "v0-wave-d",
+  "box": [
+   0,
+   0,
+   10,
+   10
+  ],
+  "caption": "v0: one long document"
+ },
+ "layout-screens": {
+  "poster": "v1-wave-d",
+  "box": [
+   0,
+   0,
+   10,
+   10
+  ],
+  "caption": "v1: a lecture player screen"
+ },
+ "layout-split-stage": {
+  "poster": "v2-wave-d",
+  "box": [
+   0,
+   0,
+   10,
+   10
+  ],
+  "caption": "v2: map stage left, reading column right"
+ },
+ "layout-pinned-stage-cards": {
+  "poster": "v3-wave-d",
+  "box": [
+   0,
+   0,
+   10,
+   10
+  ],
+  "caption": "v3: one pinned stage, a beat card over it"
+ },
+ "layout-scene-sheets-rooms": {
+  "poster": "v4-wave-d",
+  "box": [
+   0,
+   0,
+   10,
+   10
+  ],
+  "caption": "v4: scene sheet on the ink thread beside the stage"
+ },
+ "layout-panel-stage": {
+  "poster": "atlas-opening-d",
+  "box": [
+   0,
+   0,
+   10,
+   10
+  ],
+  "caption": "Atlas: side panel beside the globe"
+ },
+ "nav-headings": {
+  "poster": "v0-opening-d",
+  "box": [
+   2.2,
+   0.3,
+   7.8,
+   4.2
+  ],
+  "caption": "v0: document title and numbered headings"
+ },
+ "nav-hub-filter": {
+  "poster": "v1-map-d",
+  "box": [
+   0,
+   0,
+   10,
+   6
+  ],
+  "caption": "v1: lens bar (Time, Place, Movements, Objects) over one node set"
+ },
+ "nav-station-list": {
+  "poster": "v1-question-d",
+  "box": [
+   7.0,
+   0.8,
+   10,
+   9.8
+  ],
+  "caption": "v1: station list with the current station lit"
+ },
+ "nav-chapter-dots-explore": {
+  "poster": "v2-nav-d",
+  "box": [
+   0,
+   0,
+   6,
+   2.6
+  ],
+  "caption": "v2: chapter dots and the Explore toggle"
+ },
+ "nav-act-bar": {
+  "src": "v4-bar",
+  "box": [
+   0,
+   0,
+   10,
+   8
+  ],
+  "caption": "Act numerals, live year and era, Cast, Rooms, Explore"
+ },
+ "nav-rooms-cast": {
+  "poster": "v4-nav-d",
+  "box": [
+   6.2,
+   0,
+   10,
+   3.4
+  ],
+  "caption": "v4: Cast counter and the Rooms menu"
+ },
+ "nav-atlas-tiers": {
+  "poster": "atlas-map-d",
+  "box": [
+   0,
+   0,
+   10,
+   3.2
+  ],
+  "caption": "Atlas: Globe / Map / List and world → region tiers"
+ },
+ "tools-spec": {
+  "poster": "v0-tool-d",
+  "box": [
+   2.2,
+   0.3,
+   7.8,
+   6.2
+  ],
+  "caption": "v0: interactives written as specs"
+ },
+ "tools-pages": {
+  "poster": "v1-tool-d",
+  "box": [
+   0,
+   0,
+   10,
+   10
+  ],
+  "caption": "v1: Read the margin, its own page"
+ },
+ "tools-embedded-widgets": {
+  "poster": "v2-question-d",
+  "box": [
+   5.6,
+   0.3,
+   10,
+   7.4
+  ],
+  "caption": "v2: What a sheet cost, a widget in the scroll"
+ },
+ "tools-stage-tools": {
+  "poster": "v3-tool-d",
+  "box": [
+   3.8,
+   0.7,
+   10,
+   8.6
+  ],
+  "caption": "v3: Compare three Great Waves on the stage"
+ },
+ "tools-labs-rooms": {
+  "poster": "v4-tool-d",
+  "box": [
+   3.9,
+   0.5,
+   10,
+   9.6
+  ],
+  "caption": "v4: the comparison lab, also openable as a room"
+ },
+ "tools-notebook": {
+  "poster": "atlas-tool-d",
+  "box": [
+   4.6,
+   0.8,
+   10,
+   9.6
+  ],
+  "caption": "Atlas: field notebook after an ink hand-off"
+ },
+ "motion-none": {
+  "poster": "v1-timeline-d",
+  "box": [
+   0,
+   0,
+   10,
+   10
+  ],
+  "caption": "v1: state swaps, nothing moves"
+ },
+ "motion-flights-autoplay": {
+  "poster": "v2-map-d",
+  "box": [
+   0,
+   0,
+   5.5,
+   10
+  ],
+  "caption": "v2: a flight arc that plays as you scroll"
+ },
+ "motion-scoped-transitions": {
+  "poster": "v3-wave-d",
+  "box": [
+   3.6,
+   0.6,
+   10,
+   9.8
+  ],
+  "caption": "v3: inspect boxes ease in on the instrument only"
+ },
+ "motion-choreographed-3d": {
+  "anim": [
+   "v4-ov-0_4",
+   "v4-ov-1_6",
+   "v4-ov-3_6",
+   "v4-ov-4_7",
+   "v4-ov-5_6",
+   "v4-ov-8_5"
+  ],
+  "box": [
+   0,
+   0,
+   10,
+   10
+  ],
+  "caption": "v4 overture: six of its nine shots"
+ },
+ "map-specified": {
+  "poster": "v0-tool-d",
+  "box": [
+   2.2,
+   3.0,
+   7.8,
+   5.6
+  ],
+  "caption": "v0: the map described, not drawn"
+ },
+ "map-schematic": {
+  "poster": "v1-map-d",
+  "box": [
+   0,
+   1.0,
+   7.5,
+   6.5
+  ],
+  "caption": "v1: schematic place diagram"
+ },
+ "map-dots-raster": {
+  "poster": "v2-person-d",
+  "box": [
+   0,
+   0.3,
+   5.5,
+   8.4
+  ],
+  "caption": "v2: the 1859 sheet with pins placed by eye"
+ },
+ "map-three-scale": {
+  "poster": "v4-map-d",
+  "box": [
+   1.8,
+   0.2,
+   10,
+   9.8
+  ],
+  "caption": "World scale: the blue route, Berlin to Edo"
+ },
+ "map-globe-hub": {
+  "poster": "atlas-question-d",
+  "box": [
+   3.2,
+   0.4,
+   10,
+   9.4
+  ],
+  "caption": "Atlas: paper-and-ink globe with a lens on"
+ },
+ "tl-table": {
+  "poster": "v0-timeline-d",
+  "box": [
+   2.2,
+   0.5,
+   7.8,
+   7.0
+  ],
+  "caption": "v0: the six-era table"
+ },
+ "tl-era-chips": {
+  "poster": "v1-timeline-d",
+  "box": [
+   0,
+   0.8,
+   7.5,
+   5.4
+  ],
+  "caption": "v1: proportional era bands and event chips"
+ },
+ "tl-scrubber": {
+  "poster": "v2-map-d",
+  "box": [
+   5.6,
+   6.4,
+   10,
+   10
+  ],
+  "caption": "v2: a year scrubber inside the blue-route tool"
+ },
+ "tl-ruler": {
+  "poster": "v2-nav-d",
+  "box": [
+   0,
+   7.4,
+   5.5,
+   10
+  ],
+  "caption": "v2: proportional ruler along the stage foot"
+ },
+ "tl-lane-chart": {
+  "poster": "v3-question-d",
+  "box": [
+   3.9,
+   0.4,
+   10,
+   9.8
+  ],
+  "caption": "Lane chart: the state, publishers, prints, the world, afterlife"
+ },
+ "tl-deep-time": {
+  "poster": "atlas-timeline-d",
+  "box": [
+   1.5,
+   7.2,
+   10,
+   10
+  ],
+  "caption": "Atlas: deep-time scrubber with play"
+ },
+ "q-spec-predict-check": {
+  "poster": "v0-question-d",
+  "box": [
+   2.2,
+   0.6,
+   7.8,
+   5.8
+  ],
+  "caption": "v0: prediction and check written into each lecture"
+ },
+ "q-one-tap-check": {
+  "poster": "v1-tool-d",
+  "box": [
+   4.4,
+   6.0,
+   10,
+   8.5
+  ],
+  "caption": "v1: a one-tap check, answered on the timeline"
+ },
+ "q-predict-first": {
+  "poster": "v3-question-d",
+  "box": [
+   0,
+   5.0,
+   3.9,
+   9.7
+  ],
+  "caption": "v3: predict before you read"
+ },
+ "q-ghost-guess": {
+  "poster": "v4-question-d",
+  "box": [
+   0.3,
+   4.6,
+   6.9,
+   9.8
+  ],
+  "caption": "v4: an optional guess, answered on the map"
+ },
+ "q-rebuild": {
+  "src": "v4-rebuild",
+  "box": [
+   0,
+   0,
+   10,
+   10
+  ],
+  "caption": "v4: Rebuild, put the act back on its timeline"
+ },
+ "q-framing-question": {
+  "poster": "atlas-map-d",
+  "box": [
+   0,
+   1.1,
+   3.1,
+   5.4
+  ],
+  "caption": "Atlas: one framing question on the card"
+ },
+ "people-tables": {
+  "poster": "v0-person-d",
+  "box": [
+   2.2,
+   0.4,
+   7.8,
+   9.0
+  ],
+  "caption": "v0: cast tables by role"
+ },
+ "people-role-tabs": {
+  "poster": "v1-person-d",
+  "box": [
+   0,
+   0.5,
+   10,
+   8.0
+  ],
+  "caption": "v1: role tabs with text cards"
+ },
+ "people-inline-card": {
+  "poster": "v2-person-d",
+  "box": [
+   5.8,
+   6.7,
+   10,
+   8.7
+  ],
+  "caption": "v2: a cast card at first mention"
+ },
+ "people-entity-sheet": {
+  "poster": "v3-person-d",
+  "box": [
+   7.2,
+   0,
+   10,
+   9.2
+  ],
+  "caption": "v3: entity sheet beside the map"
+ },
+ "people-character-cards": {
+  "poster": "v4-person-d",
+  "box": [
+   0.5,
+   0,
+   10,
+   9.7
+  ],
+  "caption": "v4: chip in the text, character sheet open"
+ },
+ "people-node-card": {
+  "poster": "atlas-person-d",
+  "box": [
+   0,
+   0,
+   3.1,
+   5.4
+  ],
+  "caption": "Atlas: a person node card"
+ },
+ "text-reference": {
+  "poster": "v0-wave-d",
+  "box": [
+   2.0,
+   0.6,
+   7.8,
+   7.0
+  ],
+  "caption": "v0: dense reference prose"
+ },
+ "text-station-narration": {
+  "poster": "v1-wave-d",
+  "box": [
+   0,
+   7.4,
+   10,
+   10
+  ],
+  "caption": "v1: one narration line per station"
+ },
+ "text-essay": {
+  "poster": "v2-person-d",
+  "box": [
+   5.8,
+   0.4,
+   10,
+   8.5
+  ],
+  "caption": "v2: long essay paragraphs"
+ },
+ "text-linted-beats": {
+  "poster": "v4-wave-d",
+  "box": [
+   0.3,
+   4.5,
+   4.0,
+   8.7
+  ],
+  "caption": "Short beats, sentences of 25 words or fewer"
+ },
+ "text-card-copy": {
+  "poster": "atlas-edo-d",
+  "box": [
+   0,
+   0.5,
+   3.1,
+   6.2
+  ],
+  "caption": "Atlas: short card copy"
+ },
+ "visual-plain-doc": {
+  "poster": "v0-opening-d",
+  "box": [
+   0,
+   0,
+   10,
+   10
+  ],
+  "caption": "v0: a plain document"
+ },
+ "visual-paper-blue-dark-stage": {
+  "poster": "v1-wave-d",
+  "box": [
+   0,
+   0,
+   10,
+   10
+  ],
+  "caption": "v1: dark lecture stage, Prussian blue"
+ },
+ "visual-editorial-navy": {
+  "poster": "v2-wave-d",
+  "box": [
+   0,
+   0,
+   10,
+   10
+  ],
+  "caption": "v2: cream column beside a navy dashboard"
+ },
+ "visual-washi-sumi-indigo": {
+  "poster": "v3-opening-d",
+  "box": [
+   0,
+   0,
+   10,
+   10
+  ],
+  "caption": "Washi, sumi and indigo"
+ },
+ "me-lecture": {
+  "poster": "v1-question-d",
+  "box": [
+   0,
+   0,
+   10,
+   10
+  ],
+  "caption": "Lecture station with a prediction"
+ },
+ "me-narrative": {
+  "poster": "v2-opening-d",
+  "box": [
+   0,
+   0,
+   10,
+   10
+  ],
+  "caption": "A scrolling story beside the map"
+ },
+ "me-v4": {
+  "poster": "v4-question-d",
+  "box": [
+   0,
+   0,
+   10,
+   10
+  ],
+  "caption": "Story, optional guess, the instrument answers"
+ },
+ "me-evidence": {
+  "poster": "v4-roomDesks-d",
+  "box": [
+   0,
+   0,
+   10,
+   10
+  ],
+  "caption": "Seal Timeline: reading evidence from margins"
+ },
+ "me-making": {
+  "poster": "v4-roomWorkshop-d",
+  "box": [
+   0,
+   0,
+   10,
+   10
+  ],
+  "caption": "Print the Wave: making by reconstruction"
+ },
+ "me-dialogue": {
+  "poster": "v0-question-d",
+  "box": [
+   2.2,
+   0.6,
+   7.8,
+   5.8
+  ],
+  "caption": "Argued stations from the v0 lectures (not built)"
+ },
+ "me-explore": {
+  "poster": "atlas-opening-d",
+  "box": [
+   0,
+   0,
+   10,
+   10
+  ],
+  "caption": "Exploring the Atlas"
+ }
+}

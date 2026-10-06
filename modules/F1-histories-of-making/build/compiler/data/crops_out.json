@@ -1,0 +1,801 @@
+{
+"spine-system-index": {
+"w": 1280,
+"h": 400,
+"caption": "v1: the five-box system diagram used as the index",
+"poster": "posters/v1-nav-d.webp",
+"box": [
+0,
+0.5,
+10,
+5.5
+]
+},
+"spine-chapters-motifs": {
+"w": 1280,
+"h": 560,
+"caption": "v2: chapter dots over the map, prologue as chapter 0",
+"poster": "posters/v2-opening-d.webp",
+"box": [
+0,
+0,
+10,
+7
+]
+},
+"spine-publishers-bets": {
+"w": 1094,
+"h": 792,
+"caption": "Act opener: a publisher's bet, its scenes, then Rebuild",
+"poster": "posters/v4-nav-d.webp",
+"box": [
+0,
+0.4,
+7.6,
+9.2
+]
+},
+"spine-overture-coda": {
+"w": 1253,
+"h": 630,
+"caption": "Overture shot 2: the whole story told in nine shots",
+"poster": "posters/v4-overture-d.webp",
+"box": [
+0.3,
+3.0,
+9,
+10
+]
+},
+"spine-atlas-hub": {
+"w": 1152,
+"h": 846,
+"caption": "Atlas: chapters \u2192 units \u2192 stories",
+"poster": "posters/atlas-nav-d.webp",
+"box": [
+0,
+0.6,
+8,
+10
+]
+},
+"layout-doc": {
+"w": 1280,
+"h": 800,
+"caption": "v0: one long document",
+"poster": "posters/v0-wave-d.webp",
+"box": [
+0,
+0,
+10,
+10
+]
+},
+"layout-screens": {
+"w": 1280,
+"h": 800,
+"caption": "v1: a lecture player screen",
+"poster": "posters/v1-wave-d.webp",
+"box": [
+0,
+0,
+10,
+10
+]
+},
+"layout-split-stage": {
+"w": 1280,
+"h": 800,
+"caption": "v2: map stage left, reading column right",
+"poster": "posters/v2-wave-d.webp",
+"box": [
+0,
+0,
+10,
+10
+]
+},
+"layout-pinned-stage-cards": {
+"w": 1280,
+"h": 800,
+"caption": "v3: one pinned stage, a beat card over it",
+"poster": "posters/v3-wave-d.webp",
+"box": [
+0,
+0,
+10,
+10
+]
+},
+"layout-scene-sheets-rooms": {
+"w": 1280,
+"h": 800,
+"caption": "v4: scene sheet on the ink thread beside the stage",
+"poster": "posters/v4-wave-d.webp",
+"box": [
+0,
+0,
+10,
+10
+]
+},
+"layout-panel-stage": {
+"w": 1280,
+"h": 800,
+"caption": "Atlas: side panel beside the globe",
+"poster": "posters/atlas-opening-d.webp",
+"box": [
+0,
+0,
+10,
+10
+]
+},
+"nav-headings": {
+"w": 806,
+"h": 351,
+"caption": "v0: document title and numbered headings",
+"poster": "posters/v0-opening-d.webp",
+"box": [
+2.2,
+0.3,
+7.8,
+4.2
+]
+},
+"nav-hub-filter": {
+"w": 1280,
+"h": 480,
+"caption": "v1: lens bar (Time, Place, Movements, Objects) over one node set",
+"poster": "posters/v1-map-d.webp",
+"box": [
+0,
+0,
+10,
+6
+]
+},
+"nav-station-list": {
+"w": 432,
+"h": 810,
+"caption": "v1: station list with the current station lit",
+"poster": "posters/v1-question-d.webp",
+"box": [
+7.0,
+0.8,
+10,
+9.8
+]
+},
+"nav-chapter-dots-explore": {
+"w": 864,
+"h": 234,
+"caption": "v2: chapter dots and the Explore toggle",
+"poster": "posters/v2-nav-d.webp",
+"box": [
+0,
+0,
+6,
+2.6
+]
+},
+"nav-act-bar": {
+"w": 1280,
+"h": 51,
+"caption": "Act numerals, live year and era, Cast, Rooms, Explore",
+"poster": null,
+"box": [
+0,
+0,
+10,
+8
+]
+},
+"nav-rooms-cast": {
+"w": 547,
+"h": 306,
+"caption": "v4: Cast counter and the Rooms menu",
+"poster": "posters/v4-nav-d.webp",
+"box": [
+6.2,
+0,
+10,
+3.4
+]
+},
+"nav-atlas-tiers": {
+"w": 1280,
+"h": 256,
+"caption": "Atlas: Globe / Map / List and world \u2192 region tiers",
+"poster": "posters/atlas-map-d.webp",
+"box": [
+0,
+0,
+10,
+3.2
+]
+},
+"tools-spec": {
+"w": 806,
+"h": 531,
+"caption": "v0: interactives written as specs",
+"poster": "posters/v0-tool-d.webp",
+"box": [
+2.2,
+0.3,
+7.8,
+6.2
+]
+},
+"tools-pages": {
+"w": 1280,
+"h": 800,
+"caption": "v1: Read the margin, its own page",
+"poster": "posters/v1-tool-d.webp",
+"box": [
+0,
+0,
+10,
+10
+]
+},
+"tools-embedded-widgets": {
+"w": 634,
+"h": 639,
+"caption": "v2: What a sheet cost, a widget in the scroll",
+"poster": "posters/v2-question-d.webp",
+"box": [
+5.6,
+0.3,
+10,
+7.4
+]
+},
+"tools-stage-tools": {
+"w": 893,
+"h": 711,
+"caption": "v3: Compare three Great Waves on the stage",
+"poster": "posters/v3-tool-d.webp",
+"box": [
+3.8,
+0.7,
+10,
+8.6
+]
+},
+"tools-labs-rooms": {
+"w": 878,
+"h": 819,
+"caption": "v4: the comparison lab, also openable as a room",
+"poster": "posters/v4-tool-d.webp",
+"box": [
+3.9,
+0.5,
+10,
+9.6
+]
+},
+"tools-notebook": {
+"w": 778,
+"h": 792,
+"caption": "Atlas: field notebook after an ink hand-off",
+"poster": "posters/atlas-tool-d.webp",
+"box": [
+4.6,
+0.8,
+10,
+9.6
+]
+},
+"motion-none": {
+"w": 1280,
+"h": 800,
+"caption": "v1: state swaps, nothing moves",
+"poster": "posters/v1-timeline-d.webp",
+"box": [
+0,
+0,
+10,
+10
+]
+},
+"motion-flights-autoplay": {
+"w": 792,
+"h": 900,
+"caption": "v2: a flight arc that plays as you scroll",
+"poster": "posters/v2-map-d.webp",
+"box": [
+0,
+0,
+5.5,
+10
+]
+},
+"motion-scoped-transitions": {
+"w": 922,
+"h": 828,
+"caption": "v3: inspect boxes ease in on the instrument only",
+"poster": "posters/v3-wave-d.webp",
+"box": [
+3.6,
+0.6,
+10,
+9.8
+]
+},
+"motion-choreographed-3d": {
+"w": 960,
+"h": 600,
+"anim": true,
+"caption": "v4 overture: six of its nine shots",
+"poster": null
+},
+"map-specified": {
+"w": 806,
+"h": 234,
+"caption": "v0: the map described, not drawn",
+"poster": "posters/v0-tool-d.webp",
+"box": [
+2.2,
+3.0,
+7.8,
+5.6
+]
+},
+"map-schematic": {
+"w": 1080,
+"h": 495,
+"caption": "v1: schematic place diagram",
+"poster": "posters/v1-map-d.webp",
+"box": [
+0,
+1.0,
+7.5,
+6.5
+]
+},
+"map-dots-raster": {
+"w": 792,
+"h": 729,
+"caption": "v2: the 1859 sheet with pins placed by eye",
+"poster": "posters/v2-person-d.webp",
+"box": [
+0,
+0.3,
+5.5,
+8.4
+]
+},
+"map-three-scale": {
+"w": 1181,
+"h": 864,
+"caption": "World scale: the blue route, Berlin to Edo",
+"poster": "posters/v4-map-d.webp",
+"box": [
+1.8,
+0.2,
+10,
+9.8
+]
+},
+"map-globe-hub": {
+"w": 979,
+"h": 810,
+"caption": "Atlas: paper-and-ink globe with a lens on",
+"poster": "posters/atlas-question-d.webp",
+"box": [
+3.2,
+0.4,
+10,
+9.4
+]
+},
+"tl-table": {
+"w": 806,
+"h": 585,
+"caption": "v0: the six-era table",
+"poster": "posters/v0-timeline-d.webp",
+"box": [
+2.2,
+0.5,
+7.8,
+7.0
+]
+},
+"tl-era-chips": {
+"w": 1080,
+"h": 414,
+"caption": "v1: proportional era bands and event chips",
+"poster": "posters/v1-timeline-d.webp",
+"box": [
+0,
+0.8,
+7.5,
+5.4
+]
+},
+"tl-scrubber": {
+"w": 634,
+"h": 324,
+"caption": "v2: a year scrubber inside the blue-route tool",
+"poster": "posters/v2-map-d.webp",
+"box": [
+5.6,
+6.4,
+10,
+10
+]
+},
+"tl-ruler": {
+"w": 792,
+"h": 234,
+"caption": "v2: proportional ruler along the stage foot",
+"poster": "posters/v2-nav-d.webp",
+"box": [
+0,
+7.4,
+5.5,
+10
+]
+},
+"tl-lane-chart": {
+"w": 878,
+"h": 846,
+"caption": "Lane chart: the state, publishers, prints, the world, afterlife",
+"poster": "posters/v3-question-d.webp",
+"box": [
+3.9,
+0.4,
+10,
+9.8
+]
+},
+"tl-deep-time": {
+"w": 1224,
+"h": 252,
+"caption": "Atlas: deep-time scrubber with play",
+"poster": "posters/atlas-timeline-d.webp",
+"box": [
+1.5,
+7.2,
+10,
+10
+]
+},
+"q-spec-predict-check": {
+"w": 806,
+"h": 468,
+"caption": "v0: prediction and check written into each lecture",
+"poster": "posters/v0-question-d.webp",
+"box": [
+2.2,
+0.6,
+7.8,
+5.8
+]
+},
+"q-one-tap-check": {
+"w": 806,
+"h": 225,
+"caption": "v1: a one-tap check, answered on the timeline",
+"poster": "posters/v1-tool-d.webp",
+"box": [
+4.4,
+6.0,
+10,
+8.5
+]
+},
+"q-predict-first": {
+"w": 562,
+"h": 423,
+"caption": "v3: predict before you read",
+"poster": "posters/v3-question-d.webp",
+"box": [
+0,
+5.0,
+3.9,
+9.7
+]
+},
+"q-ghost-guess": {
+"w": 951,
+"h": 468,
+"caption": "v4: an optional guess, answered on the map",
+"poster": "posters/v4-question-d.webp",
+"box": [
+0.3,
+4.6,
+6.9,
+9.8
+]
+},
+"q-rebuild": {
+"w": 491,
+"h": 808,
+"caption": "v4: Rebuild, put the act back on its timeline",
+"poster": null,
+"box": [
+0,
+0,
+10,
+10
+]
+},
+"q-framing-question": {
+"w": 446,
+"h": 387,
+"caption": "Atlas: one framing question on the card",
+"poster": "posters/atlas-map-d.webp",
+"box": [
+0,
+1.1,
+3.1,
+5.4
+]
+},
+"people-tables": {
+"w": 806,
+"h": 774,
+"caption": "v0: cast tables by role",
+"poster": "posters/v0-person-d.webp",
+"box": [
+2.2,
+0.4,
+7.8,
+9.0
+]
+},
+"people-role-tabs": {
+"w": 1280,
+"h": 600,
+"caption": "v1: role tabs with text cards",
+"poster": "posters/v1-person-d.webp",
+"box": [
+0,
+0.5,
+10,
+8.0
+]
+},
+"people-inline-card": {
+"w": 605,
+"h": 180,
+"caption": "v2: a cast card at first mention",
+"poster": "posters/v2-person-d.webp",
+"box": [
+5.8,
+6.7,
+10,
+8.7
+]
+},
+"people-entity-sheet": {
+"w": 403,
+"h": 828,
+"caption": "v3: entity sheet beside the map",
+"poster": "posters/v3-person-d.webp",
+"box": [
+7.2,
+0,
+10,
+9.2
+]
+},
+"people-character-cards": {
+"w": 1280,
+"h": 817,
+"caption": "v4: chip in the text, character sheet open",
+"poster": "posters/v4-person-d.webp",
+"box": [
+0.5,
+0,
+10,
+9.7
+]
+},
+"people-node-card": {
+"w": 446,
+"h": 486,
+"caption": "Atlas: a person node card",
+"poster": "posters/atlas-person-d.webp",
+"box": [
+0,
+0,
+3.1,
+5.4
+]
+},
+"text-reference": {
+"w": 835,
+"h": 576,
+"caption": "v0: dense reference prose",
+"poster": "posters/v0-wave-d.webp",
+"box": [
+2.0,
+0.6,
+7.8,
+7.0
+]
+},
+"text-station-narration": {
+"w": 1280,
+"h": 208,
+"caption": "v1: one narration line per station",
+"poster": "posters/v1-wave-d.webp",
+"box": [
+0,
+7.4,
+10,
+10
+]
+},
+"text-essay": {
+"w": 605,
+"h": 729,
+"caption": "v2: long essay paragraphs",
+"poster": "posters/v2-person-d.webp",
+"box": [
+5.8,
+0.4,
+10,
+8.5
+]
+},
+"text-linted-beats": {
+"w": 533,
+"h": 378,
+"caption": "Short beats, sentences of 25 words or fewer",
+"poster": "posters/v4-wave-d.webp",
+"box": [
+0.3,
+4.5,
+4.0,
+8.7
+]
+},
+"text-card-copy": {
+"w": 446,
+"h": 513,
+"caption": "Atlas: short card copy",
+"poster": "posters/atlas-edo-d.webp",
+"box": [
+0,
+0.5,
+3.1,
+6.2
+]
+},
+"visual-plain-doc": {
+"w": 1280,
+"h": 800,
+"caption": "v0: a plain document",
+"poster": "posters/v0-opening-d.webp",
+"box": [
+0,
+0,
+10,
+10
+]
+},
+"visual-paper-blue-dark-stage": {
+"w": 1280,
+"h": 800,
+"caption": "v1: dark lecture stage, Prussian blue",
+"poster": "posters/v1-wave-d.webp",
+"box": [
+0,
+0,
+10,
+10
+]
+},
+"visual-editorial-navy": {
+"w": 1280,
+"h": 800,
+"caption": "v2: cream column beside a navy dashboard",
+"poster": "posters/v2-wave-d.webp",
+"box": [
+0,
+0,
+10,
+10
+]
+},
+"visual-washi-sumi-indigo": {
+"w": 1280,
+"h": 800,
+"caption": "Washi, sumi and indigo",
+"poster": "posters/v3-opening-d.webp",
+"box": [
+0,
+0,
+10,
+10
+]
+},
+"me-lecture": {
+"w": 1280,
+"h": 800,
+"caption": "Lecture station with a prediction",
+"poster": "posters/v1-question-d.webp",
+"box": [
+0,
+0,
+10,
+10
+]
+},
+"me-narrative": {
+"w": 1280,
+"h": 800,
+"caption": "A scrolling story beside the map",
+"poster": "posters/v2-opening-d.webp",
+"box": [
+0,
+0,
+10,
+10
+]
+},
+"me-v4": {
+"w": 1280,
+"h": 800,
+"caption": "Story, optional guess, the instrument answers",
+"poster": "posters/v4-question-d.webp",
+"box": [
+0,
+0,
+10,
+10
+]
+},
+"me-evidence": {
+"w": 1280,
+"h": 800,
+"caption": "Seal Timeline: reading evidence from margins",
+"poster": "posters/v4-roomDesks-d.webp",
+"box": [
+0,
+0,
+10,
+10
+]
+},
+"me-making": {
+"w": 1280,
+"h": 800,
+"caption": "Print the Wave: making by reconstruction",
+"poster": "posters/v4-roomWorkshop-d.webp",
+"box": [
+0,
+0,
+10,
+10
+]
+},
+"me-dialogue": {
+"w": 806,
+"h": 468,
+"caption": "Argued stations from the v0 lectures (not built)",
+"poster": "posters/v0-question-d.webp",
+"box": [
+2.2,
+0.6,
+7.8,
+5.8
+]
+},
+"me-explore": {
+"w": 1280,
+"h": 800,
+"caption": "Exploring the Atlas",
+"poster": "posters/atlas-opening-d.webp",
+"box": [
+0,
+0,
+10,
+10
+]
+}
+}
