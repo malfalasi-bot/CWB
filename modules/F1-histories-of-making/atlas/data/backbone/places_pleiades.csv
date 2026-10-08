@@ -47,7 +47,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 265938,Torreparedones,settlement; archaeological-site,37.7552577014,-4.37758419156,HHR,,,https://pleiades.stoa.org/places/265938
 265939,Isturgi,settlement,38.026896,-3.983804,RL,,,https://pleiades.stoa.org/places/265939
 265943,Jumilla,settlement,38.4555288,-1.3248629,HRL,,,https://pleiades.stoa.org/places/265943
-265945,El Laderón,settlement,37.540948,-4.373006,HR,,,https://pleiades.stoa.org/places/265945
+265945,El Laderón,settlement,37.540948,-4.373006,HRM,,,https://pleiades.stoa.org/places/265945
 265946,Laminium,settlement,38.899451,-3.053453,HRL,,,https://pleiades.stoa.org/places/265946
 265948,Letrania,villa,37.786162,-3.612398,RL,,,https://pleiades.stoa.org/places/265948
 265949,Libisosa,settlement,38.9418966911,-2.35501311079,HRL,,,https://pleiades.stoa.org/places/265949
@@ -333,16 +333,16 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 271080,Veneris Iugum,unlocated; lighthouse; cape,36.7210296,-2.1932327,MT,,,https://pleiades.stoa.org/places/271080
 271081,Veneris Litus,unlocated,,,,,,https://pleiades.stoa.org/places/271081
 275577,Abila M.,mountain,35.9,-5.283333,CHRLM,,,https://pleiades.stoa.org/places/275577
-275578,el Adeb,settlement,35.149999,-5.959999,RL,,,https://pleiades.stoa.org/places/275578
+275578,el Adeb,settlement,35.149999,-5.959999,RLM,,,https://pleiades.stoa.org/places/275578
 275579,Ad Mercuri?,station,35.508424,-5.839493,R,30,300,https://pleiades.stoa.org/places/275579
 275580,Ad Novas,station; settlement-modern,35.69404,-5.93182,RLT,,,https://pleiades.stoa.org/places/275580
 275581,Ain Dalia,fort,35.659998,-5.83,R,30,300,https://pleiades.stoa.org/places/275581
-275582,Ain el Hajaj,fort,33.991731,-6.752441,R,30,300,https://pleiades.stoa.org/places/275582
+275582,Ain el Hajaj,fort,33.991731,-6.752441,RM,,,https://pleiades.stoa.org/places/275582
 275583,Ain el Hammam,bath,35.636653,-5.924985,RLTT,,,https://pleiades.stoa.org/places/275583
-275584,Ain Kerma,settlement,34.006995,-5.615987,R,30,300,https://pleiades.stoa.org/places/275584
-275585,Ain Mesbah,villa,35.170026,-6.010001,R,30,300,https://pleiades.stoa.org/places/275585
+275584,Ain Kerma,settlement,34.006995,-5.615987,RM,,,https://pleiades.stoa.org/places/275584
+275585,Ain Mesbah,villa,35.170026,-6.010001,RM,,,https://pleiades.stoa.org/places/275585
 275586,Ain Schkour,fort,34.111025,-5.507561,R,30,300,https://pleiades.stoa.org/places/275586
-275587,Ain Skhoun,villa,34.154176,-5.48348,R,30,300,https://pleiades.stoa.org/places/275587
+275587,Ain Skhoun,villa,34.154176,-5.48348,RT,,,https://pleiades.stoa.org/places/275587
 275588,Ain Taslalet,villa,34.162287,-5.505728,RM,,,https://pleiades.stoa.org/places/275588
 275590,Aquae Dacicae,bath,34.14657,-5.800742,R,30,300,https://pleiades.stoa.org/places/275590
 275591,Aquila Maior (promontory),cape,35.6848561,-5.2746647,RLT,,,https://pleiades.stoa.org/places/275591
@@ -355,28 +355,28 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 275601,Baquates,label; people,33.9533750806,-5.14473182864,R,30,300,https://pleiades.stoa.org/places/275601
 275602,Barbari Pr.,cape,35.55019,-5.22618,RLM,,,https://pleiades.stoa.org/places/275602
 275603,el Benian,fort,35.652287,-5.690206,RL,,,https://pleiades.stoa.org/places/275603
-275604,Beni Said,fort,35.730002,-5.829997,RL,,,https://pleiades.stoa.org/places/275604
-275605,Lalla Sfia,fort,33.96003,-5.62999,R,30,300,https://pleiades.stoa.org/places/275605
-275606,Bou Hellou,settlement; settlement-modern,34.15041,-4.39922,RT,,,https://pleiades.stoa.org/places/275606
-275607,Bou Rebaa,fort,34.059561,-5.754021,R,30,300,https://pleiades.stoa.org/places/275607
-275608,Briej,fort,35.572512,-5.844739,RL,,,https://pleiades.stoa.org/places/275608
+275604,Beni Said,fort,35.730002,-5.829997,RLM,,,https://pleiades.stoa.org/places/275604
+275605,Lalla Sfia,fort,33.96003,-5.62999,RT,,,https://pleiades.stoa.org/places/275605
+275606,Bou Hellou,settlement; settlement-modern,34.15041,-4.39922,RMT,,,https://pleiades.stoa.org/places/275606
+275607,Bou Rebaa,fort,34.059561,-5.754021,RM,,,https://pleiades.stoa.org/places/275607
+275608,Briej,fort,35.572512,-5.844739,RLM,,,https://pleiades.stoa.org/places/275608
 275613,Cephisis,lake,35.6046892418,-5.9544297479,CHRMT,,,https://pleiades.stoa.org/places/275613
 275614,Columnae Herculis,cape,36.0000788333,-5.37119316667,ACHR,,,https://pleiades.stoa.org/places/275614
 275615,Cottae?,settlement,35.79,-5.93005,ACHR,,,https://pleiades.stoa.org/places/275615
-275617,Dar bel Amri,tower-defensive; defensive-wall; fort-2,34.1843559816,-5.9608679578,R,30,300,https://pleiades.stoa.org/places/275617
-275618,Dar Dqios,fort,33.946431,-6.793405,R,30,300,https://pleiades.stoa.org/places/275618
+275617,Dar bel Amri,tower-defensive; defensive-wall; fort-2,34.1843559816,-5.9608679578,RM,,,https://pleiades.stoa.org/places/275617
+275618,Dar Dqios,fort,33.946431,-6.793405,RM,,,https://pleiades.stoa.org/places/275618
 275619,Dar Sied,villa,35.48,-5.98,RL,,,https://pleiades.stoa.org/places/275619
 275620,Djouima,settlement,35.245358,-6.11995,HRM,,,https://pleiades.stoa.org/places/275620
-275621,Douar Naasa,villa,34.213874,-5.921407,R,30,300,https://pleiades.stoa.org/places/275621
-275623,Emsa,settlement,35.513781,-5.23159,HR,,,https://pleiades.stoa.org/places/275623
+275621,Douar Naasa,villa,34.213874,-5.921407,RM,,,https://pleiades.stoa.org/places/275621
+275623,Emsa,settlement,35.513781,-5.23159,HRT,,,https://pleiades.stoa.org/places/275623
 275624,Ermaia Akra,production; mine,35.523027,-6.005891,HR,,,https://pleiades.stoa.org/places/275624
 275626,Ferme Biarnay,villa,34.447825,-5.661983,R,30,300,https://pleiades.stoa.org/places/275626
-275627,Ferme Priou,settlement,34.259999,-5.928089,R,30,300,https://pleiades.stoa.org/places/275627
+275627,Ferme Priou,settlement,34.259999,-5.928089,RM,,,https://pleiades.stoa.org/places/275627
 275628,Fghaina,fort,34.334787,-6.490905,R,30,300,https://pleiades.stoa.org/places/275628
 275629,Frigidae,fort-2; station,34.96001,-6.150002,RL,,,https://pleiades.stoa.org/places/275629
-275631,el Gaada,fort-2,34.1166616043,-5.67908249656,R,30,300,https://pleiades.stoa.org/places/275631
+275631,el Gaada,fort-2,34.1166616043,-5.67908249656,RM,,,https://pleiades.stoa.org/places/275631
 275632,Gadadra,villa,34.499464,-6.133148,R,30,300,https://pleiades.stoa.org/places/275632
-275634,Gandori,fort,35.774585,-5.768108,RL,,,https://pleiades.stoa.org/places/275634
+275634,Gandori,fort,35.774585,-5.768108,RLM,,,https://pleiades.stoa.org/places/275634
 275635,el Gour,tumulus,33.850361177,-5.30874165173,RL,,,https://pleiades.stoa.org/places/275635
 275637,Hafra Ennaga,villa,34.182376,-5.494466,R,30,300,https://pleiades.stoa.org/places/275637
 275639,Heras? (island),island,36.0040912,-5.6097877,HRM,,,https://pleiades.stoa.org/places/275639
@@ -387,12 +387,12 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 275650,Kaunoi,label; people,34.0746611491,-6.18038505763,HR,,,https://pleiades.stoa.org/places/275650
 275651,Khedis,settlement,33.9894,-6.763371,R,30,300,https://pleiades.stoa.org/places/275651
 275652,Kitzan,settlement,35.550581,-5.346157,HR,,,https://pleiades.stoa.org/places/275652
-275653,Kouass,settlement,35.511263,-6.005866,HRL,,,https://pleiades.stoa.org/places/275653
+275653,Kouass,settlement,35.511263,-6.005866,HRLM,,,https://pleiades.stoa.org/places/275653
 275654,Koudia Aicha,fort,34.045116,-5.735342,R,30,300,https://pleiades.stoa.org/places/275654
 275655,Koudia bou Mimoun,fort,34.289951,-5.842998,HR,,,https://pleiades.stoa.org/places/275655
-275656,Koudia es Souma,villa,35.190895,-6.091355,HRL,,,https://pleiades.stoa.org/places/275656
+275656,Koudia es Souma,villa,35.190895,-6.091355,HRLM,,,https://pleiades.stoa.org/places/275656
 275657,Koudia Fergana,fort,34.843173,-5.937707,R,30,300,https://pleiades.stoa.org/places/275657
-275658,Krimda,villa,35.27,-6.07,HRL,,,https://pleiades.stoa.org/places/275658
+275658,Krimda,villa,35.27,-6.07,HRLM,,,https://pleiades.stoa.org/places/275658
 275659,Ksar es Sghir,settlement,35.8451,-5.56309,HRL,,,https://pleiades.stoa.org/places/275659
 275661,Lalla Aicha,fort,34.27642,-6.568408,R,30,300,https://pleiades.stoa.org/places/275661
 275662,Lalla Yto,villa,34.34657,-6.203001,R,30,300,https://pleiades.stoa.org/places/275662
@@ -414,20 +414,20 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 275680,Mezgalef,villa,35.289999,-6.09,HR,,,https://pleiades.stoa.org/places/275680
 275681,MM18,settlement,34.799334,-6.127611,R,30,300,https://pleiades.stoa.org/places/275681
 275682,Mogogha,tumulus,35.745296,-5.76978,HM,,,https://pleiades.stoa.org/places/275682
-275683,Mzora,tumulus,35.404171,-5.9439278,RRLM,,,https://pleiades.stoa.org/places/275683
+275683,Mzora,tumulus,35.404171,-5.9439278,RRLT,,,https://pleiades.stoa.org/places/275683
 275685,Oppidum Novum,settlement,35.008501,-5.902791,R,30,300,https://pleiades.stoa.org/places/275685
 275686,Oued Akrech,quarry,33.93,-6.799999,RL,,,https://pleiades.stoa.org/places/275686
-275687,Oued Bqader,villa,34.475742,-6.279911,R,30,300,https://pleiades.stoa.org/places/275687
+275687,Oued Bqader,villa,34.475742,-6.279911,RM,,,https://pleiades.stoa.org/places/275687
 275688,Ouerbikai,label; people,34.4292575133,-5.5547691952,R,30,300,https://pleiades.stoa.org/places/275688
 275689,Oueroueis,label; people,34.5074098692,-5.58355181179,R,30,300,https://pleiades.stoa.org/places/275689
 275691,Rekada,villa,35.209999,-6.13,HRLM,,,https://pleiades.stoa.org/places/275691
 275692,el Rhorba,fort,35.728292,-5.758288,RL,,,https://pleiades.stoa.org/places/275692
 275693,Rirha,settlement,34.310912,-5.932459,RM,,,https://pleiades.stoa.org/places/275693
-275694,er Rmel,settlement,35.89005,-5.319788,RL,,,https://pleiades.stoa.org/places/275694
+275694,er Rmel,settlement,35.89005,-5.319788,RLM,,,https://pleiades.stoa.org/places/275694
 275696,Sala,settlement,34.006821,-6.821498,HRLMT,,,https://pleiades.stoa.org/places/275696
 275697,Salat (river),river,33.3972079986,-6.35600802933,RM,,,https://pleiades.stoa.org/places/275697
 275698,Salenses,label; people,34.107804744,-6.61802723853,R,30,300,https://pleiades.stoa.org/places/275698
-275699,Sania,production,35.732191,-5.341957,RL,,,https://pleiades.stoa.org/places/275699
+275699,Sania,production,35.732191,-5.341957,RLM,,,https://pleiades.stoa.org/places/275699
 275700,Sebaa Rjel,fort,34.315898,-6.514451,R,30,300,https://pleiades.stoa.org/places/275700
 275701,Sedra Mehara,fort,34.051498,-5.649837,R,30,300,https://pleiades.stoa.org/places/275701
 275702,Seguia Faraoun,fort,33.987546,-6.884904,R,30,300,https://pleiades.stoa.org/places/275702
@@ -439,7 +439,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 275708,Sidi Ahmed,unknown,34.3426452687,-5.97206146571,RM,,,https://pleiades.stoa.org/places/275708
 275709,Sidi Allal el Bahraoui,tumulus,34.005992,-6.527652,HR,,,https://pleiades.stoa.org/places/275709
 275710,Sidi Amar ben Azouz,fort,33.930403,-5.632851,R,30,300,https://pleiades.stoa.org/places/275710
-275711,Sidi bou Hayel,settlement,35.780909,-5.360689,RL,,,https://pleiades.stoa.org/places/275711
+275711,Sidi bou Hayel,settlement,35.780909,-5.360689,RLM,,,https://pleiades.stoa.org/places/275711
 275712,Sidi el Mekki,villa; settlement-modern,34.14842,-5.955336,RT,,,https://pleiades.stoa.org/places/275712
 275713,Sidi el Mokffi,unknown,34.25,-5.75,R,30,300,https://pleiades.stoa.org/places/275713
 275714,Sidi Embarek,fort,34.184011,-5.620215,R,30,300,https://pleiades.stoa.org/places/275714
@@ -450,7 +450,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 275719,Sidi Mohammed ben Naseur,villa,34.308691,-5.997415,R,30,300,https://pleiades.stoa.org/places/275719
 275720,Sidi Moussa,settlement,34.052133,-5.723152,RLT,,,https://pleiades.stoa.org/places/275720
 275721,Sidi Said,settlement,33.891331,-5.574834,RT,,,https://pleiades.stoa.org/places/275721
-275722,Sidi Slimane,tumulus,34.263614,-5.921704,H,-330,-30,https://pleiades.stoa.org/places/275722
+275722,Sidi Slimane,tumulus,34.263614,-5.921704,HM,,,https://pleiades.stoa.org/places/275722
 275723,Sokossioi,label; people,35.2688345672,-5.0755883229,R,30,300,https://pleiades.stoa.org/places/275723
 275724,Soloeis/Ampelusia Pr.,cape,35.7910308,-5.9236482,RM,,,https://pleiades.stoa.org/places/275724
 275725,Souk el Arba,fort-2; settlement; bath,34.692414,-5.997725,RTT,,,https://pleiades.stoa.org/places/275725
@@ -458,7 +458,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 275727,Sububus (river),river,34.312355056,-5.57780720523,,,,https://pleiades.stoa.org/places/275727
 275729,Tabernae,fort,35.333689,-5.981627,RL,,,https://pleiades.stoa.org/places/275729
 275730,Taenia Longa?,cape,35.3478170894,-5.17998275249,,,,https://pleiades.stoa.org/places/275730
-275731,Tahadart,production; mine,35.572398,-5.990335,HRL,,,https://pleiades.stoa.org/places/275731
+275731,Tahadart,production; mine,35.572398,-5.990335,HRLT,,,https://pleiades.stoa.org/places/275731
 275732,Tamuda,settlement,35.5591446771,-5.41101042002,HHRL,,,https://pleiades.stoa.org/places/275732
 275733,Tamuda (river),river; mouth,35.5193103364,-5.44788879467,RMT,,,https://pleiades.stoa.org/places/275733
 275734,Thamusida,fort-2; fortified-settlement; fort; settlement,34.3349563869,-6.49034690299,R,30,300,https://pleiades.stoa.org/places/275734
@@ -518,10 +518,10 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 285392,Ad Dracones?,station,35.3826,-0.957499,RL,,,https://pleiades.stoa.org/places/285392
 285393,Ad Fratres?,station,35.101893,-1.858203,R,30,300,https://pleiades.stoa.org/places/285393
 285395,Agueneb,temple-2,33.907941,1.369109,RM,,,https://pleiades.stoa.org/places/285395
-285396,Ain Balloul,fort,34.985836,0.470283,RM,,,https://pleiades.stoa.org/places/285396
-285397,Ain Bénia,villa,35.103058,1.693235,R,30,300,https://pleiades.stoa.org/places/285397
+285396,Ain Balloul,fort,34.985836,0.470283,RT,,,https://pleiades.stoa.org/places/285396
+285397,Ain Bénia,villa,35.103058,1.693235,RM,,,https://pleiades.stoa.org/places/285397
 285398,Ain bent es Soltane,villa,34.849815,-1.032855,RM,,,https://pleiades.stoa.org/places/285398
-285399,Ain ed Draham,settlement,34.98361,1.116953,R,30,300,https://pleiades.stoa.org/places/285399
+285399,Ain ed Draham,settlement,34.98361,1.116953,NRM,,,https://pleiades.stoa.org/places/285399
 285400,Ain el Aneb,settlement,35.576,1.824867,RLM,,,https://pleiades.stoa.org/places/285400
 285401,Ain el Bridj,settlement,35.16668,-1.149976,RLM,,,https://pleiades.stoa.org/places/285401
 285402,Ain el Merselia,settlement,35.993788,1.142576,RM,,,https://pleiades.stoa.org/places/285402
@@ -536,9 +536,9 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 285411,Ala Miliaria/Tigit,settlement,35.099704,0.250236,RL,,,https://pleiades.stoa.org/places/285411
 285412,Albulae/Praesidium Sufative,settlement,35.301602,-1.144788,RLT,,,https://pleiades.stoa.org/places/285412
 285413,Altava,settlement,34.903623,-1.031484,RL,,,https://pleiades.stoa.org/places/285413
-285414,Ammi Moussa,villa,35.868417,1.109859,LM,,,https://pleiades.stoa.org/places/285414
+285414,Ammi Moussa,villa,35.868417,1.109859,LT,,,https://pleiades.stoa.org/places/285414
 285415,Aquae Sirenses,settlement,35.31646,-0.049719,RL,,,https://pleiades.stoa.org/places/285415
-285416,Argoub Rouiba,settlement,35.309358,-0.565538,R,30,300,https://pleiades.stoa.org/places/285416
+285416,Argoub Rouiba,settlement,35.309358,-0.565538,RM,,,https://pleiades.stoa.org/places/285416
 285418,Ballene Praesidium,settlement,35.721173,0.352432,R,30,300,https://pleiades.stoa.org/places/285418
 285419,Bavares,label; people,35.2273824863,0.848246334671,HRL,,,https://pleiades.stoa.org/places/285419
 285420,el Bayadh,fort,33.689614,1.015099,RM,,,https://pleiades.stoa.org/places/285420
@@ -549,7 +549,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 285426,Cen(..)?,fort,35.01676,1.099985,RL,,,https://pleiades.stoa.org/places/285426
 285428,Cohors Breucorum/Kaputurbe,fort,35.087353,0.620137,R,30,300,https://pleiades.stoa.org/places/285428
 285430,Columnata,settlement,35.470067,1.521582,RL,,,https://pleiades.stoa.org/places/285430
-285432,Damous,settlement,35.02711,-1.556147,RLM,,,https://pleiades.stoa.org/places/285432
+285432,Damous,settlement,35.02711,-1.556147,RLT,,,https://pleiades.stoa.org/places/285432
 285433,Derrag,fort,35.907459,2.388442,RM,,,https://pleiades.stoa.org/places/285433
 285434,Djebel Orousse,quarry,35.866663,-0.416673,RM,,,https://pleiades.stoa.org/places/285434
 285435,Djedars,temple-2,35.094724,1.199725,LT,,,https://pleiades.stoa.org/places/285435
@@ -557,30 +557,30 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 285437,Dryitai?,label; people,35.2698167435,0.35993966267,R,30,300,https://pleiades.stoa.org/places/285437
 285439,Eloulioi?,label; people,35.1326537579,-0.455624109784,R,30,300,https://pleiades.stoa.org/places/285439
 285440,Error? (island),island,37.1814368085,10.3275070025,M,,,https://pleiades.stoa.org/places/285440
-285442,Fortassa,settlement,35.45602,0.68479,R,30,300,https://pleiades.stoa.org/places/285442
+285442,Fortassa,settlement,35.45602,0.68479,RM,,,https://pleiades.stoa.org/places/285442
 285444,Gadaum Castra,settlement,35.929412,0.824593,R,30,300,https://pleiades.stoa.org/places/285444
 285445,Gent,settlement,35.365217,-0.35433,RM,,,https://pleiades.stoa.org/places/285445
-285446,Ghar Roubane,mine-2,34.602227,-1.778333,R,30,300,https://pleiades.stoa.org/places/285446
-285447,Guetna,settlement,35.392496,-0.057595,RL,,,https://pleiades.stoa.org/places/285447
+285446,Ghar Roubane,mine-2,34.602227,-1.778333,RM,,,https://pleiades.stoa.org/places/285446
+285447,Guetna,settlement,35.392496,-0.057595,RLM,,,https://pleiades.stoa.org/places/285447
 285449,Hadjar Ouâghef,settlement,34.980085,-1.361854,R,30,300,https://pleiades.stoa.org/places/285449
 285450,Herpeditanoi,label; people,35.0737766423,-2.81881108355,HRL,,,https://pleiades.stoa.org/places/285450
 285452,Inkermann,settlement,35.959185,0.913777,RM,,,https://pleiades.stoa.org/places/285452
 285453,Isaris (river),river,35.0902540544,-1.30142800668,M,,,https://pleiades.stoa.org/places/285453
-285455,Kansade,settlement,35.551541,1.638242,R,30,300,https://pleiades.stoa.org/places/285455
+285455,Kansade,settlement,35.551541,1.638242,RM,,,https://pleiades.stoa.org/places/285455
 285456,Kaputtasaccora,settlement,34.947302,-0.719489,R,30,300,https://pleiades.stoa.org/places/285456
 285458,Kerkab,settlement,34.988179,0.214719,R,30,300,https://pleiades.stoa.org/places/285458
 285460,el Khadra,fort,34.060874,0.576068,RT,,,https://pleiades.stoa.org/places/285460
-285461,el Kherba,settlement,35.383282,1.916545,R,30,300,https://pleiades.stoa.org/places/285461
-285462,Kherba Achlef,settlement,35.53838,1.36428,RL,,,https://pleiades.stoa.org/places/285462
+285461,el Kherba,settlement,35.383282,1.916545,RM,,,https://pleiades.stoa.org/places/285461
+285462,Kherba Achlef,settlement,35.53838,1.36428,RLM,,,https://pleiades.stoa.org/places/285462
 285463,Kherba des Aouissat,settlement,35.44824,1.423835,RL,,,https://pleiades.stoa.org/places/285463
 285465,Kherba Oum el Adame,settlement,35.494891,1.806046,R,30,300,https://pleiades.stoa.org/places/285465
-285466,Koliaa,settlement,35.012108,0.038515,R,30,300,https://pleiades.stoa.org/places/285466
+285466,Koliaa,settlement,35.012108,0.038515,RM,,,https://pleiades.stoa.org/places/285466
 285467,Koudiat en Nessera,settlement,34.672821,-1.441871,RLM,,,https://pleiades.stoa.org/places/285467
 285468,Koudiat er Roum,settlement,34.675884,-1.470323,RL,,,https://pleiades.stoa.org/places/285468
-285469,Koudiat Lakdar,settlement,35.580625,-0.913275,RM,,,https://pleiades.stoa.org/places/285469
+285469,Koudiat Lakdar,settlement,35.580625,-0.913275,RT,,,https://pleiades.stoa.org/places/285469
 285470,Koudiat M'rakab,tomb,35.65983,1.817621,R,30,300,https://pleiades.stoa.org/places/285470
 285471,Koudiat Sidi ben Beha,fort,35.07079,1.298818,R,30,300,https://pleiades.stoa.org/places/285471
-285472,Ksar el Kaoua,villa; archaeological-site,35.9190215548,1.20023889698,L,300,640,https://pleiades.stoa.org/places/285472
+285472,Ksar el Kaoua,villa; archaeological-site,35.9190215548,1.20023889698,LM,,,https://pleiades.stoa.org/places/285472
 285473,Ksar Hannoun,settlement,35.015228,-1.177969,R,30,300,https://pleiades.stoa.org/places/285473
 285475,Laturus Sinus,water-open,35.5,-0.5,R,30,300,https://pleiades.stoa.org/places/285475
 285476,Lemnis?,settlement,35.073106,-2.102887,R,30,300,https://pleiades.stoa.org/places/285476
@@ -588,12 +588,12 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 285480,Massaesylii?,label; people,35.4963826667,-0.0114311701483,RL,,,https://pleiades.stoa.org/places/285480
 285482,Mauretania Caesariensis,province-2,36.740851,5.057965,RL,,,https://pleiades.stoa.org/places/285482
 285484,Melanogaitouloi?,label; people,34.1406527226,0.638118680889,HRL,,,https://pleiades.stoa.org/places/285484
-285485,el Mendjel el Abiod,settlement,35.733325,2.133347,R,30,300,https://pleiades.stoa.org/places/285485
-285486,Merhassel,settlement,35.65138,1.470047,R,30,300,https://pleiades.stoa.org/places/285486
+285485,el Mendjel el Abiod,settlement,35.733325,2.133347,RM,,,https://pleiades.stoa.org/places/285485
+285486,Merhassel,settlement,35.65138,1.470047,RM,,,https://pleiades.stoa.org/places/285486
 285487,Mersa Madakh,settlement,35.636708,-1.061261,CH,,,https://pleiades.stoa.org/places/285487
 285488,Mina,settlement,35.737087,0.559522,RL,,,https://pleiades.stoa.org/places/285488
 285489,Mina (river),river,35.6060310399,0.684624349443,MT,,,https://pleiades.stoa.org/places/285489
-285490,Misserghin,settlement,35.62345,-0.734433,RL,,,https://pleiades.stoa.org/places/285490
+285490,Misserghin,settlement,35.62345,-0.734433,RLM,,,https://pleiades.stoa.org/places/285490
 285491,Moulouya (river),river,33.6703284089,-3.75673599222,RMTT,,,https://pleiades.stoa.org/places/285491
 285493,Nakmousioi?,label; people,35.3629671792,1.30100904118,R,30,300,https://pleiades.stoa.org/places/285493
 285494,Nigritae,label; people,33.6816201934,0.397305098789,HRL,,,https://pleiades.stoa.org/places/285494
@@ -682,7 +682,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 29501,Bam,settlement,29.1155957325,58.3689535049,1AHRLCASKIMT1SLM,,,https://pleiades.stoa.org/places/29501
 29503,Barna,settlement,25.227074,62.331697,CH,,,https://pleiades.stoa.org/places/29503
 29517,Carmania,region,27.4992930482,57.0291406073,CHRL,,,https://pleiades.stoa.org/places/29517
-295207,el Abadia,settlement,36.267887,1.685606,R,30,300,https://pleiades.stoa.org/places/295207
+295207,el Abadia,settlement,36.267887,1.685606,RM,,,https://pleiades.stoa.org/places/295207
 295209,Agouni Tabet,settlement,36.783887,4.324969,R,30,300,https://pleiades.stoa.org/places/295209
 295210,Ain Bessem,fort-2,36.3199184868,3.65022679908,RT,,,https://pleiades.stoa.org/places/295210
 295211,Ain el Hammam,settlement,36.1674411161,0.441736987059,RT,,,https://pleiades.stoa.org/places/295211
@@ -737,13 +737,13 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 295263,Fouka,settlement,36.665098,2.746637,R,30,300,https://pleiades.stoa.org/places/295263
 295265,Ghorfa des Ouled Meriem,tomb,36.1394979561,3.57418368876,R,30,300,https://pleiades.stoa.org/places/295265
 295266,Ghorfa des Ouled Selama,tomb,36.1112154523,3.76824956067,L,300,640,https://pleiades.stoa.org/places/295266
-295267,Gouraya,settlement,36.566844,1.905412,CHR,,,https://pleiades.stoa.org/places/295267
+295267,Gouraya,settlement,36.566844,1.905412,CHRM,,,https://pleiades.stoa.org/places/295267
 295268,Gunugu,settlement,36.5629777331,1.865316461,CHRL,,,https://pleiades.stoa.org/places/295268
 295270,Haouch el Oudjani,fort,36.861432,3.827762,R,30,300,https://pleiades.stoa.org/places/295270
 295271,el Hattaba,settlement,36.551689,2.2851,RL,,,https://pleiades.stoa.org/places/295271
 295273,Iar Castellum?,settlement,36.53072,1.568591,R,30,300,https://pleiades.stoa.org/places/295273
 295274,Icampenses,label; people,36.75,3.25,RL,,,https://pleiades.stoa.org/places/295274
-295275,Icherène,settlement,36.49292,2.146724,RL,,,https://pleiades.stoa.org/places/295275
+295275,Icherène,settlement,36.49292,2.146724,RLM,,,https://pleiades.stoa.org/places/295275
 295276,Icosium,settlement,36.7689125,3.0532175,CHRLM,,,https://pleiades.stoa.org/places/295276
 295277,Iesalenses,label; people,36.0532104452,3.59485792199,L,300,640,https://pleiades.stoa.org/places/295277
 295278,Imainserène,tomb,36.65063,4.211769,RM,,,https://pleiades.stoa.org/places/295278
@@ -760,9 +760,9 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 295290,Kherba de Sfisifa,church-2; settlement,36.0998390568,3.39506524086,RLT,,,https://pleiades.stoa.org/places/295290
 295291,Kherba Sidi el Ahmar,settlement,36.035522,1.268594,R,30,300,https://pleiades.stoa.org/places/295291
 295292,Kherbet Ramoul,settlement,36.324171,0.687871,HRL,,,https://pleiades.stoa.org/places/295292
-295293,Kobr Roumia,tomb,36.814389,3.816335,L,300,640,https://pleiades.stoa.org/places/295293
+295293,Kobr Roumia,tomb,36.814389,3.816335,LM,,,https://pleiades.stoa.org/places/295293
 295294,Koubba de Sidi Hamza,fortified-settlement; settlement,36.2894083088,3.62672011544,R,30,300,https://pleiades.stoa.org/places/295294
-295295,el Ksar,settlement,36.381709,1.494735,R,30,300,https://pleiades.stoa.org/places/295295
+295295,el Ksar,settlement,36.381709,1.494735,RM,,,https://pleiades.stoa.org/places/295295
 295296,el Ksar mta Bent es Soltane,fort,36.692122,3.981635,R,30,300,https://pleiades.stoa.org/places/295296
 295297,Ksar Roumi,settlement,36.716492,3.758864,RL,,,https://pleiades.stoa.org/places/295297
 295299,Lambdia,settlement,36.266978,2.775955,RL,,,https://pleiades.stoa.org/places/295299
@@ -798,7 +798,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 295340,Sidi Aissa,settlement,36.394244,2.389202,RL,,,https://pleiades.stoa.org/places/295340
 295341,Sidi-bou-el-Messabih,villa,36.590348,2.291792,RL,,,https://pleiades.stoa.org/places/295341
 295342,Sidi-el-Masmeudi,villa,36.494028,2.281579,RL,,,https://pleiades.stoa.org/places/295342
-295343,Sidi-Ghilès,settlement,36.583208,2.118907,R,30,300,https://pleiades.stoa.org/places/295343
+295343,Sidi-Ghilès,settlement,36.583208,2.118907,RM,,,https://pleiades.stoa.org/places/295343
 295344,Sidi-Haddouch,settlement,36.526293,2.137201,RL,,,https://pleiades.stoa.org/places/295344
 295345,Souk el Khemis,settlement; settlement-modern,36.3912273,3.631778,RLTT,,,https://pleiades.stoa.org/places/295345
 295346,Sufasar,settlement,36.19245,2.51327,RL,,,https://pleiades.stoa.org/places/295346
@@ -849,7 +849,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 29633,Korodamon? Akron,cape,22.533032,59.7982879,HRM,,,https://pleiades.stoa.org/places/29633
 29635,Kryptos Limen?,settlement,23.612619,58.592587,HR,,,https://pleiades.stoa.org/places/29635
 29636,Kuh-i Khwaja,settlement,30.582929,61.449416,HRL,,,https://pleiades.stoa.org/places/29636
-29640,Lakh-mazar,settlement,32.684617,59.436502,RL,,,https://pleiades.stoa.org/places/29640
+29640,Lakh-mazar,settlement,32.684617,59.436502,RLT,,,https://pleiades.stoa.org/places/29640
 29652,Macoraba,settlement,21.426804,39.815421,1AHRCSIOE1OLKOM,,,https://pleiades.stoa.org/places/29652
 29656,Maka/Maketa,region; people,27.5,57.5,,,,https://pleiades.stoa.org/places/29656
 296717,Untitled,bridge,36.532654,1.691148,RL,,,https://pleiades.stoa.org/places/296717
@@ -875,7 +875,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 297477,Villa of M. Hortensius Gaudentius,villa,36.5789583075,2.4637135517,R,30,300,https://pleiades.stoa.org/places/297477
 297478,Untitled,numbered feature; tumulus,36.095164,2.96072,CHR,,,https://pleiades.stoa.org/places/297478
 297479,Groups of bazinas (tumuli),tomb; tumulus,36.0906943858,4.34215989283,CHR,,,https://pleiades.stoa.org/places/297479
-29748,Sar-o Tar,settlement,30.551217,61.66014,R,30,300,https://pleiades.stoa.org/places/29748
+29748,Sar-o Tar,settlement; archaeological-site,30.551217,61.66014,RT,,,https://pleiades.stoa.org/places/29748
 29755,Shahristan/Zarang?,settlement,30.962827,61.6263685,HRLS,,,https://pleiades.stoa.org/places/29755
 29756,Shiragan/Sirjan,settlement,29.436543,55.668645,L,300,640,https://pleiades.stoa.org/places/29756
 29762,[Siraf],settlement,27.670345,52.33683,RLS,,,https://pleiades.stoa.org/places/29762
@@ -1099,7 +1099,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 629324739,Basilica Ulpia,basilica,41.8955351988,12.4845662049,RL,,,https://pleiades.stoa.org/places/629324739
 376850631,Horti Maiani,garden-hortus,41.891775,12.486137,R,30,300,https://pleiades.stoa.org/places/376850631
 488530237,Northern necropolis at Apulum,cemetery,46.077878,23.564085,R,30,300,https://pleiades.stoa.org/places/488530237
-263405328,Palamari,defensive-wall; archaeological-site,38.9646711547,24.5092173013,32,,,https://pleiades.stoa.org/places/263405328
+263405328,Palamari,defensive-wall; archaeological-site,38.9646711547,24.5092173013,32M,,,https://pleiades.stoa.org/places/263405328
 423262161,Grotte di Pertosa,cave,40.5370195,15.4549915,M,,,https://pleiades.stoa.org/places/423262161
 372769291,Regio XIII (Aventinus),region,41.8799139132,12.4795883597,,,,https://pleiades.stoa.org/places/372769291
 63672748,Kudachurt,cemetery,43.32347,43.64811,32M,,,https://pleiades.stoa.org/places/63672748
@@ -1128,6 +1128,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 345438602,Unnamed Well,well,29.761179,32.796584,,,,https://pleiades.stoa.org/places/345438602
 345477552,Sepulcrum Hirtii,tomb,41.8966802318,12.4715977004,M,,,https://pleiades.stoa.org/places/345477552
 345477553,Curiae Veteres,shrine,,,HR,,,https://pleiades.stoa.org/places/345477553
+506737959,Tomb of Sampsigeramus,tomb,34.727496,36.703829,T,,,https://pleiades.stoa.org/places/506737959
 584074927,Blenheim Roman villa,villa,51.842005,-1.3389195,R,30,300,https://pleiades.stoa.org/places/584074927
 552653587,Platanista grove,grove,37.07333,22.42972,R,30,300,https://pleiades.stoa.org/places/552653587
 81533409,San Pietro a Badia Pozzeveri,church,43.8204821615,10.6558565299,MM,,,https://pleiades.stoa.org/places/81533409
@@ -1168,7 +1169,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 830124755,Tall Ghaḍaiyrīfah,findspot; archaeological-site,34.1818,44.2649,3M,,,https://pleiades.stoa.org/places/830124755
 335229932,Northern sanctuary at Kythnos,sanctuary,37.40856605,24.3948526,ACHR,,,https://pleiades.stoa.org/places/335229932
 335229933,Methone (Macedonian),settlement,40.4745461432,22.5738549558,HR,,,https://pleiades.stoa.org/places/335229933
-739961553,Esterzili,temple-2,39.7490002,9.3273206,2,,,https://pleiades.stoa.org/places/739961553
+739961553,Esterzili,temple-2,39.7486876076,9.32737014889,2M,,,https://pleiades.stoa.org/places/739961553
 946753455,So-called Oratory of Phalaris,temple-2,37.296636174,13.5885778853,RM,,,https://pleiades.stoa.org/places/946753455
 540456065,"Le Crot au Port, Fontenay-près-Vézelay",settlement; production; villa,47.46572,3.74559,M,,,https://pleiades.stoa.org/places/540456065
 540456066,Iberia (modern region/peninsula),peninsula,40.0,-5.0,M,,,https://pleiades.stoa.org/places/540456066
@@ -3802,7 +3803,9 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 348371058,Polonnaruwa,settlement; archaeological-site,7.94750934612,81.0013394462,M,,,https://pleiades.stoa.org/places/348371058
 449007780,House of the surgeon,townhouse,40.7516167,14.4818647,HM,,,https://pleiades.stoa.org/places/449007780
 649390474,Herkyna (River),river,38.4415774861,22.8886340296,HRT,,,https://pleiades.stoa.org/places/649390474
+650751935,Samad al-Shan,archaeological-site,22.811111,58.15,1T,,,https://pleiades.stoa.org/places/650751935
 382107875,Olginate Roman Bridge,bridge,45.8030256,9.4152155,TT,,,https://pleiades.stoa.org/places/382107875
+817592339,Aktil Höyüğü,tell,38.366258389,37.4196277743,N,,,https://pleiades.stoa.org/places/817592339
 202520973,Funerary chapel of Amenirdis I,tomb; temple-2,25.718817142,32.6015548307,TNTT,,,https://pleiades.stoa.org/places/202520973
 595443937,Kyrtones tower (Phthiotis),tower-defensive,38.6074207,23.0691574,H,-330,-30,https://pleiades.stoa.org/places/595443937
 911517620,Monte Mario,hill,41.9244045,12.4521318,MT,,,https://pleiades.stoa.org/places/911517620
@@ -7523,6 +7526,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 22263645,Casa degli Archi,townhouse,40.750077,14.491294,T,,,https://pleiades.stoa.org/places/22263645
 384365956,Withdrawn: Columbarium of Constantine,tomb,41.8567297,12.5294367,RT,,,https://pleiades.stoa.org/errata/384365956
 59492268,Fonte do Ídolo,spring; shrine; fountain,41.5485513493,-8.42184835948,T,,,https://pleiades.stoa.org/places/59492268
+939573265,Basilidae,unlocated; people,,,R,30,300,https://pleiades.stoa.org/places/939573265
 305065,Civitas Gentis Suburburum/Idicra?,settlement,36.233342,6.016655,RL,,,https://pleiades.stoa.org/places/305065
 305066,Civitas Nattabutum/Castellum Ro(...),settlement,36.239408,7.260549,RL,,,https://pleiades.stoa.org/places/305066
 305068,Cuicul,settlement; archaeological-site,36.321014003,5.73538618658,RLM,,,https://pleiades.stoa.org/places/305068
@@ -12282,7 +12286,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 487072546,Castle of Bominaco,fort,42.2457396353,13.660395471,MM,,,https://pleiades.stoa.org/places/487072546
 158906364,Ponte Sereno,bridge,41.70469995,13.2668477,R,30,300,https://pleiades.stoa.org/places/158906364
 384940621,Tell Um Hammad Sharqi,settlement,32.137785,35.581186,E,,,https://pleiades.stoa.org/places/384940621
-419672522,Necropolis of Porta Vesuvio,cemetery,40.7537462,14.4840775,RM,,,https://pleiades.stoa.org/places/419672522
+419672522,Necropolis of Porta Vesuvio,cemetery,40.7537462,14.4840775,RT,,,https://pleiades.stoa.org/places/419672522
 419672523,Castellum aquae,aqueduct,40.7532186893,14.4841617643,RM,,,https://pleiades.stoa.org/places/419672523
 335494560,Central Baths,bath,40.7515258,14.4866934,RM,,,https://pleiades.stoa.org/places/335494560
 956605009,tribus Suburana (Succusana),people,,,HR,,,https://pleiades.stoa.org/places/956605009
@@ -12374,7 +12378,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 550641,Kilbianoi (Kato),label; people,38.145259369,28.1096001169,R,30,300,https://pleiades.stoa.org/places/550641
 550642,Kilbos (river),river,38.25,28.25,R,30,300,https://pleiades.stoa.org/places/550642
 550643,Kilikes,label; people,39.5731812118,27.0441737992,A,-1000,-550,https://pleiades.stoa.org/places/550643
-550644,Killaion (mountain),mountain,38.983,26.523,T,,,https://pleiades.stoa.org/places/550644
+550644,Killaion (mountain),mountain,38.983,26.523,RT,,,https://pleiades.stoa.org/places/550644
 550645,Killaios (mountain),mountain; label,39.6853380249,26.9513010706,HR,,,https://pleiades.stoa.org/places/550645
 550646,Killaios? (river),river,39.5830513149,26.9434357784,HRM,,,https://pleiades.stoa.org/places/550646
 550647,Kissos? (river),river,38.75,28.25,R,30,300,https://pleiades.stoa.org/places/550647
@@ -13533,6 +13537,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 317153357,Byzantine arcosolia,cemetery; archaeological-site,37.2884678,13.5999198,L,300,640,https://pleiades.stoa.org/places/317153357
 499750546,Lower Agora,plaza,37.2918294,13.5858994,CHR,,,https://pleiades.stoa.org/places/499750546
 897704864,Casmonates,people,,,R,30,300,https://pleiades.stoa.org/places/897704864
+499394756,Chryse (sunken island),unlocated; island,39.9118699976,25.2393084346,MA,,,https://pleiades.stoa.org/places/499394756
 717263631,Catacombs of Generosa,cemetery,41.8367291,12.4312344,LM,,,https://pleiades.stoa.org/places/717263631
 266116488,Nuraghe Losa,nuraghe,40.1169199874,8.7902311963,2EMACHRLM,,,https://pleiades.stoa.org/places/266116488
 39588356,Assur Archive 44,archive-repository,35.454939,43.256647,NTT,,,https://pleiades.stoa.org/places/39588356
@@ -15193,6 +15198,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 857932175,Dothan,settlement,32.413528,35.239861,RM,,,https://pleiades.stoa.org/places/857932175
 857932176,Moab,region; state,31.499159,35.780512,EN,,,https://pleiades.stoa.org/places/857932176
 194091492,"Spolverino, Alberese",production; villa,42.6886813,11.0706977,R,30,300,https://pleiades.stoa.org/places/194091492
+606192094,Telepylos,kingdom; fiction,,,MA,,,https://pleiades.stoa.org/places/606192094
 525090637,Matieni (mountains),mountain,36.5,46.5,C,-550,-330,https://pleiades.stoa.org/places/525090637
 1088718,Gaulopes,unlocated; people,,,R,30,300,https://pleiades.stoa.org/places/1088718
 583407059,Diyālā,settlement,37.5,42.5,CUEAOLNAHRRTLLCSISM,,,https://pleiades.stoa.org/places/583407059
@@ -25472,7 +25478,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 530925,Kastri,unknown,39.25,20.75,CH,,,https://pleiades.stoa.org/places/530925
 530926,Kastri (Xiromero),fort-2,38.6730737639,21.0122333961,CHM,,,https://pleiades.stoa.org/places/530926
 530927,Kastri Lithies,fort,38.7864,20.759457,H,-330,-30,https://pleiades.stoa.org/places/530927
-530928,Kastrion,settlement,39.265477,20.572425,ACH,,,https://pleiades.stoa.org/places/530928
+530928,Kastrion,settlement,39.265477,20.572425,ACHT,,,https://pleiades.stoa.org/places/530928
 530929,Kastriotissa,settlement,39.082111,21.120975,CH,,,https://pleiades.stoa.org/places/530929
 530930,Kastriza,settlement,39.293402,20.552714,H,-330,-30,https://pleiades.stoa.org/places/530930
 530931,Kastro,settlement,39.284573,20.772018,ACH,,,https://pleiades.stoa.org/places/530931
@@ -25568,7 +25574,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 531031,Palaiokatouna,fort,38.686613,20.681735,CH,,,https://pleiades.stoa.org/places/531031
 531032,Palaiokhori,settlement,39.33883,20.69393,CH,,,https://pleiades.stoa.org/places/531032
 531033,Palaiokhori,settlement,39.530128,21.312192,CH,,,https://pleiades.stoa.org/places/531033
-531034,Palairos,settlement; archaeological-site,38.8357596355,20.8259142913,ACHR,,,https://pleiades.stoa.org/places/531034
+531034,Palairos,settlement; archaeological-site,38.8357637355,20.8259247688,ACHR,,,https://pleiades.stoa.org/places/531034
 531035,Palatia,fort,38.31451,20.596106,CH,,,https://pleiades.stoa.org/places/531035
 531036,Pale,settlement,38.222555,20.437481,CHR,,,https://pleiades.stoa.org/places/531036
 531037,Paliouri-Dragoumi,settlement,39.700994,20.644692,CH,,,https://pleiades.stoa.org/places/531037
@@ -25943,7 +25949,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 97875560,Ǧidda,settlement,,,1CE1SOLKOM,,,https://pleiades.stoa.org/places/97875560
 742422331,Great Dolmen of Comenda da Igreja,tomb,38.7579844,-8.2032034,43,,,https://pleiades.stoa.org/places/742422331
 194521550,Palea Kameni,island,36.3973896173,25.3795202806,M,,,https://pleiades.stoa.org/places/194521550
-236026498,Nuraghe Nolza,nuraghe,39.9169585,9.0730663,2,,,https://pleiades.stoa.org/places/236026498
+236026498,Nuraghe Nolza,nuraghe,39.9170218547,9.07307152931,2T,,,https://pleiades.stoa.org/places/236026498
 464482219,Temple of Apollo at Delphi,temple-2,38.4823167,22.5012215,ACHRLM,,,https://pleiades.stoa.org/places/464482219
 464482220,Sanctuary of Apollo at Cyrene,sanctuary; temple-2,32.823511431,21.8525166344,ACHRLM,,,https://pleiades.stoa.org/places/464482220
 464482221,L-Shaped Palace at Gla,architecturalcomplex,38.4855848981,23.1820956781,LM,,,https://pleiades.stoa.org/places/464482221
@@ -27359,9 +27365,11 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 978854625,Arch of Augustus (Susa),arch,45.1360184099,7.04291238731,R,30,300,https://pleiades.stoa.org/places/978854625
 978854626,Segusio aqueduct,aqueduct,45.1355913425,7.04255885219,R,30,300,https://pleiades.stoa.org/places/978854626
 312305084,Jerash Hippodrome,circus,32.2736024126,35.8907073926,RL,,,https://pleiades.stoa.org/places/312305084
+445647938,Puntal dels Llops,hillfort,39.7019542621,-0.541835326316,T,,,https://pleiades.stoa.org/places/445647938
 306258360,Tomb of Molpadia (Athens),unlocated; tomb; monument,,,,,,https://pleiades.stoa.org/places/306258360
 306258361,Sanctuary of Achilles (Laconia),sanctuary,37.07333,22.42972,T,,,https://pleiades.stoa.org/places/306258361
 973726783,Laphystios (Mountain),mountain,38.4151,22.9166,RT,,,https://pleiades.stoa.org/places/973726783
+698148329,Tomb of Sarenput II,tomb,24.1016766904,32.8901259442,MT,,,https://pleiades.stoa.org/places/698148329
 156802663,Castrum Caetani,fort-2; church-2; fort,41.8514527471,12.5213999077,MT,,,https://pleiades.stoa.org/places/156802663
 390040629,"So-called ""Temple of Augustus""",temple-2,40.821301,14.1205749,R,30,300,https://pleiades.stoa.org/places/390040629
 364546694,Canicella necropolis,cemetery,42.7153066,12.1177572,A,-1000,-550,https://pleiades.stoa.org/places/364546694
@@ -32592,7 +32600,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 825838273,Macellum (Pompeii),architecturalcomplex,40.7500831022,14.4851162763,HFM,,,https://pleiades.stoa.org/places/825838273
 662909765,San Marcello al Corso,church-2,41.8986810838,12.4819911632,FSSM,,,https://pleiades.stoa.org/places/662909765
 779964391,Çatıören,archaeological-site,36.521562,34.126654,HRLE,,,https://pleiades.stoa.org/places/779964391
-403927880,Temple of Hermes at Çatıören,temple-2,36.521676442,34.1254944902,,,,https://pleiades.stoa.org/places/403927880
+403927880,Temple of Hermes at Çatıören,temple-2,36.521676442,34.1254944902,H,-330,-30,https://pleiades.stoa.org/places/403927880
 39219089,Casian,settlement; villa,44.499886,28.479088,RLTT,,,https://pleiades.stoa.org/places/39219089
 918352244,Peschiera,architecturalcomplex,41.9410934365,12.7760945098,S,,,https://pleiades.stoa.org/places/918352244
 536839380,The Great Sphinx,monument,29.9752796303,31.1376381478,OM,,,https://pleiades.stoa.org/places/536839380
@@ -35401,7 +35409,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 560526963,Torre di Pietra Pertusa,tower-single; fort,42.0398808331,12.4801982566,MT,,,https://pleiades.stoa.org/places/560526963
 789812439,Valladolid,settlement; settlement-modern,41.6521328,-4.728562,MM,,,https://pleiades.stoa.org/places/789812439
 415113284,Roman temple of Córdoba,temple-2,37.8848788,-4.7766452,R,30,300,https://pleiades.stoa.org/places/415113284
-271500627,Porta Rosa,city-gate,40.1626764538,15.1586443953,HRM,,,https://pleiades.stoa.org/places/271500627
+271500627,Porta Rosa,city-gate,40.1626702998,15.1586444507,HRM,,,https://pleiades.stoa.org/places/271500627
 802931429,Belvoir Fortress,castle,32.59560257,35.5214777122,MM,,,https://pleiades.stoa.org/places/802931429
 218806479,Aspronisi,island,36.3834956174,25.3478242081,MT,,,https://pleiades.stoa.org/places/218806479
 309231036,Durisdeer,fortlet,55.3256358444,-3.73091908899,R,30,300,https://pleiades.stoa.org/places/309231036
@@ -41634,7 +41642,7 @@ pleiades_id,title,place_types,lat,lon,time_periods,period_start,period_end,uri
 118662,Eining,fort-2; archaeological-site; fort,48.8546955944,11.7737571304,R,30,300,https://pleiades.stoa.org/places/118662
 118663,Eislingen,fort,48.69438,9.706014,R,30,300,https://pleiades.stoa.org/places/118663
 118664,*Elantia (river),river,49.3223042891,8.8111053152,RMT,,,https://pleiades.stoa.org/places/118664
-118665,Emerkingen,fort,48.2152885,9.65223,R,30,300,https://pleiades.stoa.org/places/118665
+118665,Emerkingen,fort,48.2152885,9.65223,RM,,,https://pleiades.stoa.org/places/118665
 118667,Erding,cemetery,48.306266,11.9070175,LT,,,https://pleiades.stoa.org/places/118667
 118668,Ergersheim,settlement,49.511879,10.328137,RL,,,https://pleiades.stoa.org/places/118668
 118669,Essingen,fort,48.808738,10.027479,RL,,,https://pleiades.stoa.org/places/118669
