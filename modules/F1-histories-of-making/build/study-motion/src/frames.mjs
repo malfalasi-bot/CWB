@@ -1,5 +1,5 @@
 // Generates frame geometry for the study storyboards: coastline paths for the world and Japan, and place → px.
-import { geoEqualEarth, geoMercator, geoPath } from '/home/claude/creative-world/modules/F1-histories-of-making/build/atlas-hub/node_modules/d3-geo/src/index.js';
+import { geoEqualEarth, geoMercator, geoOrthographic, geoGraticule, geoPath } from '/home/claude/creative-world/modules/F1-histories-of-making/build/atlas-hub/node_modules/d3-geo/src/index.js';
 import { feature } from '/home/claude/creative-world/modules/F1-histories-of-making/build/atlas-hub/node_modules/topojson-client/src/index.js';
 import { readFileSync, writeFileSync } from 'fs';
 const land50 = feature(JSON.parse(readFileSync('/home/claude/creative-world/modules/F1-histories-of-making/build/atlas-hub/node_modules/world-atlas/land-50m.json')), 'land');
@@ -39,13 +39,35 @@ for (const [v, list] of Object.entries(ARCS)) {
     out.arcs[v][a + '>' + b] = d;
   }
 }
+// orthographic globe views for the scene frames: the globe is larger than the frame (radius 330 px) so it reads as a turn
+const ORTHO = { 'o-berlin': [12, 48], 'o-cape': [16, -2], 'o-batavia': [92, -4], 'o-nagasaki': [126, 28], 'o-edo': [138, 36], 'o-suez': [48, 18], 'o-singapore': [100, 8], 'o-yokohama': [132, 32], 'o-paris': [5, 46], 'o-world-blue': [75, 25], 'o-eurasia': [70, 52] };
+out.ortho = {};
+const grat = geoGraticule().step([15, 15])();
+for (const [k, c] of Object.entries(ORTHO)) {
+  const p = geoOrthographic().rotate([-c[0], -c[1]]).scale(330).translate([W / 2, H / 2 + 20]).clipAngle(90);
+  const path = geoPath(p).digits(1);
+  const places = {};
+  for (const [id, ll] of Object.entries(PL)) { const q = p(ll); const d = Math.hypot(ll[0] - c[0] > 180 ? ll[0] - c[0] - 360 : ll[0] - c[0] < -180 ? ll[0] - c[0] + 360 : ll[0] - c[0], ll[1] - c[1]); if (q && d < 85) places[id] = q.map((v) => +v.toFixed(1)); }
+  const arcs = {};
+  const pairs = [['berlin', 'amsterdam'], ['amsterdam', 'cape'], ['cape', 'batavia'], ['batavia', 'nagasaki'], ['canton', 'nagasaki'], ['nagasaki', 'edo'], ['edo', 'paris'], ['marseille', 'suez'], ['suez', 'aden'], ['aden', 'galle'], ['galle', 'singapore'], ['singapore', 'hongkong'], ['hongkong', 'yokohama'], ['yokohama', 'sanfrancisco'], ['sanfrancisco', 'chicago'], ['chicago', 'boston'], ['yokohama', 'hongkong'], ['kyoto', 'edo'], ['osaka', 'edo']];
+  for (const [a, b] of pairs) {
+    const ip = geoInterpolate(PL[a], PL[b]); const coords = [];
+    for (let t = 0; t <= 1.0001; t += 1 / 32) coords.push(ip(Math.min(1, t)));
+    const d = path({ type: 'LineString', coordinates: coords });
+    const mid = p(ip(0.62)); const vis = mid && path({ type: 'Point', coordinates: ip(0.62) });
+    if (d) arcs[a + '>' + b] = { d, mid: vis ? mid.map((v) => +v.toFixed(1)) : null };
+  }
+  out.ortho[k] = { land: path(land110), grat: path(grat), sphere: path({ type: 'Sphere' }), places, arcs, center: c };
+}
 // thin the paths: drop points closer than 0.9 px to the last kept point
-const thin = (d) => d.split('M').filter(Boolean).map((seg) => {
+const thin2 = (d) => d.split('M').filter(Boolean).map((seg) => { const pts = seg.split('L').map((q) => q.split(',').map(Number)); const keep = [pts[0]]; for (const q of pts.slice(1)) { const l = keep[keep.length - 1]; if (Math.hypot(q[0] - l[0], q[1] - l[1]) >= 6) keep.push(q); } if (keep.length > 1 && keep[keep.length - 1] !== pts[pts.length - 1]) keep.push(pts[pts.length - 1]); return keep.length < 2 ? '' : 'M' + keep.map((q) => q.join(',')).join('L'); }).join('');
+const thin = (d, tol = 0.9) => d.split('M').filter(Boolean).map((seg) => {
   const pts = seg.replace(/Z$/, '').split('L').map((q) => q.split(',').map(Number));
   const keep = [pts[0]];
-  for (const q of pts.slice(1)) { const l = keep[keep.length - 1]; if (Math.hypot(q[0] - l[0], q[1] - l[1]) >= 0.9) keep.push(q); }
+  for (const q of pts.slice(1)) { const l = keep[keep.length - 1]; if (Math.hypot(q[0] - l[0], q[1] - l[1]) >= tol) keep.push(q); }
   return keep.length < 3 ? '' : 'M' + keep.map((q) => q.join(',')).join('L') + 'Z';
 }).join('');
 for (const v of Object.values(out.views)) v.land = thin(v.land);
+for (const o of Object.values(out.ortho)) { o.land = thin(o.land, 1.6); o.grat = thin2(o.grat); }
 writeFileSync(new URL('./frames.json', import.meta.url), JSON.stringify(out));
 console.log('ok', Object.keys(out.views), out.sheet.places.castle, out.sheet.places.yoshiwara, out.sheet.places.kojimachi);

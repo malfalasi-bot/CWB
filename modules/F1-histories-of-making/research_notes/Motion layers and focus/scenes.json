@@ -1,0 +1,4217 @@
+{
+ "meta": {
+  "title": "Edo: the scene study (data)",
+  "built": "2026-10-12",
+  "companion": "scenes.md",
+  "inputs": [
+   "inventory.json",
+   "inventory.md",
+   "story.yaml",
+   "EDO_FULL_CASE.md",
+   "images.json",
+   "sources.yaml",
+   "STUDY.md §3–§7"
+  ],
+  "rules": [
+   "open licences only",
+   "no invented placement: approx places drawn soft; undated legs dashed",
+   "quotes ≤ 25 words",
+   "confidence words as the inventory marks them",
+   "'earliest known', never 'first'",
+   "Japanese names in Japanese order",
+   "the Yoshiwara is read, not played",
+   "no points, no timers",
+   "one focus per beat; camera settles then caption; dim don't hide; stepped at dated stops; reader holds the pace; the timeline is the only clock"
+  ],
+  "criteria": {
+   "a_significance": "3 = in the unit's question, an act's bet or a lecture's thesis; 2 = a lecture station or era turn; 1 = a side note",
+   "b_density": "dated legs or ticks, numbers, named people and objects, quotations",
+   "c_assets": "images in images.json belonging to the item: 0 none, 1 one, 2 two or three, 3 four or more",
+   "d_visual": "what would be seen moving; whether a globe turn is needed",
+   "e_sourcing": "3 documented; 2 documented with an argued or probable member; 1 probable or undated throughout"
+  },
+  "counts": {
+   "journeys_scored": 20,
+   "groups_scored": 16,
+   "treatments": 8,
+   "shots": 45,
+   "captions": 47,
+   "guesses": 5,
+   "glyphs_to_make": 14,
+   "not_scenes": 28
+  }
+ },
+ "ranking": {
+  "journeys": {
+   "blue": {
+    "scores": {
+     "a_significance": 3,
+     "b_density": 3,
+     "c_assets": 3,
+     "d_visual": 3,
+     "e_sourcing": 2
+    },
+    "total": 14,
+    "justification": {
+     "a": "Act II's bet and L5's thesis ('a European pigment's price curve'); argued station b3-4.",
+     "b": "1704, 1824, 87→31 monme, 1829, 1831; Hokusai, Nishimuraya, Eisen, Iseya, Tōho; three quotations.",
+     "c": "5 images.",
+     "d": "Ship on four legs, a junk, a price falling, a fan, an advertisement; Berlin and Edo need a globe turn.",
+     "e": "Route documented; five of six legs undated; arrival at Edo's printers argued."
+    },
+    "assets_in_hand": [
+     "eisen-aizuri",
+     "redfuji",
+     "hi-wave",
+     "portrait-eisen",
+     "portrait-hokusai"
+    ],
+    "verdict": "scene",
+    "reason": "T3"
+   },
+   "china-junks": {
+    "scores": {
+     "a_significance": 2,
+     "b_density": 2,
+     "c_assets": 0,
+     "d_visual": 2,
+     "e_sourcing": 3
+    },
+    "total": 9,
+    "justification": {
+     "a": "The turn inside the blue story.",
+     "b": "One dated leg; 87→31 monme.",
+     "c": "None.",
+     "d": "A junk crossing, a price falling; one view.",
+     "e": "Documented."
+    },
+    "assets_in_hand": [],
+    "verdict": "fold",
+    "reason": "leg and lane of blue (T3)"
+   },
+   "voc": {
+    "scores": {
+     "a_significance": 2,
+     "b_density": 1,
+     "c_assets": 0,
+     "d_visual": 2,
+     "e_sourcing": 3
+    },
+    "total": 8,
+    "justification": {
+     "a": "The one road in; L5 S1, L7 S1 (dropped in v4).",
+     "b": "Three legs, all undated; no people.",
+     "c": "None.",
+     "d": "A ship; globe turn.",
+     "e": "Documented."
+    },
+    "assets_in_hand": [],
+    "verdict": "fold",
+    "reason": "legs of blue (T3); too thin alone"
+   },
+   "engravings": {
+    "scores": {
+     "a_significance": 1,
+     "b_density": 1,
+     "c_assets": 0,
+     "d_visual": 1,
+     "e_sourcing": 1
+    },
+    "total": 4,
+    "justification": {
+     "a": "A side note in b1-5u.",
+     "b": "Undated; 'Dejima or China'.",
+     "c": "ukie-1748 is in the ukie lab, not images.json.",
+     "d": "Nothing specific moves.",
+     "e": "Probable."
+    },
+    "assets_in_hand": [],
+    "verdict": "not a scene",
+    "reason": "undated, probable, no image"
+   },
+   "tokaido": {
+    "scores": {
+     "a_significance": 3,
+     "b_density": 2,
+     "c_assets": 3,
+     "d_visual": 3,
+     "e_sourcing": 3
+    },
+    "total": 14,
+    "justification": {
+     "a": "L6 S7; b4-8 'watch the road draw itself'; evidence in b5-7; the overture's shot.",
+     "b": "55 points, 1833–34, 12,000–15,000 reprints (estimate); Hiroshige, Hōeidō; all 54 legs undated.",
+     "c": "10 images.",
+     "d": "The road drawing station by station with the sheets rising; one view, no globe turn.",
+     "e": "Documented."
+    },
+    "assets_in_hand": [
+     "nihonbashi",
+     "t-shinagawa",
+     "t-kanagawa",
+     "t-hakone",
+     "t-mishima",
+     "t-kanbara",
+     "t-yui",
+     "t-shono",
+     "t-kyoto",
+     "portrait-hiroshige"
+    ],
+    "verdict": "scene",
+    "reason": "T4"
+   },
+   "sankin": {
+    "scores": {
+     "a_significance": 3,
+     "b_density": 1,
+     "c_assets": 1,
+     "d_visual": 2,
+     "e_sourcing": 2
+    },
+    "total": 9,
+    "justification": {
+     "a": "L1's thesis; the Act I opener.",
+     "b": "Two schematic legs, 1635; domains not named.",
+     "c": "1 image.",
+     "d": "Processions converging, but no data for them.",
+     "e": "Documented, legs schematic."
+    },
+    "assets_in_hand": [
+     "portrait-ieyasu"
+    ],
+    "verdict": "opener",
+    "reason": "Act I opener (STUDY S1), not a scene"
+   },
+   "paper": {
+    "scores": {
+     "a_significance": 3,
+     "b_density": 1,
+     "c_assets": 1,
+     "d_visual": 2,
+     "e_sourcing": 1
+    },
+    "total": 8,
+    "justification": {
+     "a": "The unit's promise (p-2) and b9-1.",
+     "b": "Two legs, both undated; 1929; 16–20 mon.",
+     "c": "1 image.",
+     "d": "A sheet travelling, but the Pacific crossing 'is not recorded'.",
+     "e": "Probable; unrecorded route."
+    },
+    "assets_in_hand": [
+     "hi-wave"
+    ],
+    "verdict": "not a scene",
+    "reason": "undated; stays a dashed line on the Act V still"
+   },
+   "yoshiwara-move": {
+    "scores": {
+     "a_significance": 2,
+     "b_density": 1,
+     "c_assets": 1,
+     "d_visual": 1,
+     "e_sourcing": 3
+    },
+    "total": 8,
+    "justification": {
+     "a": "L1 S3, b1-3.",
+     "b": "One leg, 1657; 1617.",
+     "c": "1 image (the sheet).",
+     "d": "One mark moves; the quarter may not be dramatised.",
+     "e": "Documented; origin approx."
+    },
+    "assets_in_hand": [
+     "map-edo-1859"
+    ],
+    "verdict": "fold",
+    "reason": "last tick of the fire (T8); sensitive"
+   },
+   "fire-1657": {
+    "scores": {
+     "a_significance": 3,
+     "b_density": 2,
+     "c_assets": 1,
+     "d_visual": 3,
+     "e_sourcing": 3
+    },
+    "total": 12,
+    "justification": {
+     "a": "L1 S3; era turn 'A city is made'.",
+     "b": "Three outbreaks with times of day; 60–70 % burned; 30,000–100,000 dead; no named people, no quotation.",
+     "c": "1 image (the sheet).",
+     "d": "Three pulses in order with flames; the keep fading; the quarter's mark moving.",
+     "e": "Documented; coordinates approx."
+    },
+    "assets_in_hand": [
+     "map-edo-1859"
+    ],
+    "verdict": "scene",
+    "reason": "T8"
+   },
+   "tsutaya-move": {
+    "scores": {
+     "a_significance": 3,
+     "b_density": 2,
+     "c_assets": 2,
+     "d_visual": 2,
+     "e_sourcing": 3
+    },
+    "total": 12,
+    "justification": {
+     "a": "Act I's bet; L4 S2; the I4 check.",
+     "b": "One leg, 1783; 1750, 1774, 1776; the ivy seal.",
+     "c": "3 images (printshop probable).",
+     "d": "One shop mark moves once; a seal lands.",
+     "e": "Documented; origin approx."
+    },
+    "assets_in_hand": [
+     "portrait-tsutaya",
+     "printshop",
+     "map-edo-1859"
+    ],
+    "verdict": "fold",
+    "reason": "tick of tsutaya-life (T6)"
+   },
+   "theatres-move": {
+    "scores": {
+     "a_significance": 3,
+     "b_density": 2,
+     "c_assets": 3,
+     "d_visual": 3,
+     "e_sourcing": 2
+    },
+    "total": 13,
+    "justification": {
+     "a": "L6 S5; Act III's bet; I4.",
+     "b": "Three legs, one year, three named houses; Danjūrō's exile probable.",
+     "c": "4 images.",
+     "d": "Three arcs converging on one street on the sheet.",
+     "e": "Documented; year 1842 vs 1841–43; origins approx."
+    },
+    "assets_in_hand": [
+     "danjuro-aic",
+     "portrait-danjuro-vii",
+     "playbill",
+     "map-edo-1859"
+    ],
+    "verdict": "fold",
+    "reason": "tick of ban-effects (T1)"
+   },
+   "perry": {
+    "scores": {
+     "a_significance": 2,
+     "b_density": 3,
+     "c_assets": 1,
+     "d_visual": 3,
+     "e_sourcing": 3
+    },
+    "total": 12,
+    "justification": {
+     "a": "The spine's 'opening'; b6-0/b6-1; not a lecture station.",
+     "b": "The only journey dated at every stop (11 legs), 24 Nov 1852 to 8 Jul 1853, four ships.",
+     "c": "1 image.",
+     "d": "A steamship round two-thirds of the globe: the clearest globe-turn case.",
+     "e": "Documented."
+    },
+    "assets_in_hand": [
+     "portrait-perry"
+    ],
+    "verdict": "reserve",
+    "reason": "first reserve; loses the tie to fire-1657 on significance"
+   },
+   "hayashi": {
+    "scores": {
+     "a_significance": 3,
+     "b_density": 3,
+     "c_assets": 1,
+     "d_visual": 3,
+     "e_sourcing": 2
+    },
+    "total": 12,
+    "justification": {
+     "a": "Act IV's bet; L7 S3; the evidence line of b7-6.",
+     "b": "218 shipments, 166,000 prints, 9,708 books, >300,000 (argued), 1878, 1884, eleven years.",
+     "c": "1 image; the scene borrows japon-artistique.",
+     "d": "Crates repeating along nine legs with a counter; globe turn.",
+     "e": "Shipments documented, count argued; per-shipment dates not in the sources."
+    },
+    "assets_in_hand": [
+     "portrait-hayashi"
+    ],
+    "verdict": "fold",
+    "reason": "spine of afterlife-Paris (T2)"
+   },
+   "vangogh-copies": {
+    "scores": {
+     "a_significance": 2,
+     "b_density": 2,
+     "c_assets": 3,
+     "d_visual": 2,
+     "e_sourcing": 3
+    },
+    "total": 12,
+    "justification": {
+     "a": "L7 S4, b7-5.",
+     "b": "660 prints early 1887, three copies that autumn; second leg undated.",
+     "c": "4 images.",
+     "d": "Three sheets go to Paris and come back as oil, but the oils cannot be shown.",
+     "e": "Documented; 'from Bing' probable."
+    },
+    "assets_in_hand": [
+     "plum",
+     "shower",
+     "eisen-aizuri",
+     "portrait-van-gogh"
+    ],
+    "verdict": "fold",
+    "reason": "ticks of afterlife-Paris (T2)"
+   },
+   "pm": {
+    "scores": {
+     "a_significance": 2,
+     "b_density": 2,
+     "c_assets": 1,
+     "d_visual": 3,
+     "e_sourcing": 2
+    },
+    "total": 10,
+    "justification": {
+     "a": "b8-1, L7 S6, I9.",
+     "b": "1 Jan 1867, 1869, 45,000 prints at the MFA; Bigelow and Spaulding counts in the case only.",
+     "c": "1 image.",
+     "d": "A steamer then a train; globe turn.",
+     "e": "Documented; the railroad has no source id."
+    },
+    "assets_in_hand": [
+     "plum"
+    ],
+    "verdict": "fold",
+    "reason": "afterlife-America (ninth run)"
+   },
+   "tokuno": {
+    "scores": {
+     "a_significance": 3,
+     "b_density": 2,
+     "c_assets": 0,
+     "d_visual": 2,
+     "e_sourcing": 3
+    },
+    "total": 10,
+    "justification": {
+     "a": "The answer to 'who got named': b8-5, b9-4, L7 S7, L2 S3.",
+     "b": "One leg, 1889, five named people; 'over a hundred' proofs vs the case's 23.",
+     "c": "None (linked, usage conditions).",
+     "d": "A crate with names appearing; block-and-baren glyph; globe turn.",
+     "e": "Documented."
+    },
+    "assets_in_hand": [],
+    "verdict": "fold",
+    "reason": "afterlife-America (ninth run)"
+   },
+   "exhibition-1867": {
+    "scores": {
+     "a_significance": 3,
+     "b_density": 1,
+     "c_assets": 0,
+     "d_visual": 2,
+     "e_sourcing": 3
+    },
+    "total": 9,
+    "justification": {
+     "a": "Opens Act IV, L7 S2.",
+     "b": "One leg, 1867, no counts.",
+     "c": "None.",
+     "d": "A crate and a pavilion, Edo→Paris; globe turn.",
+     "e": "Documented; no route in places.yaml."
+    },
+    "assets_in_hand": [],
+    "verdict": "fold",
+    "reason": "first tick of afterlife-Paris (T2)"
+   },
+   "mm": {
+    "scores": {
+     "a_significance": 2,
+     "b_density": 2,
+     "c_assets": 0,
+     "d_visual": 3,
+     "e_sourcing": 3
+    },
+    "total": 10,
+    "justification": {
+     "a": "b7-1, I9; no station of its own.",
+     "b": "Eight legs all 1870, the 1865 branch, Suez 1869; no people.",
+     "c": "None.",
+     "d": "A steamer through Suez with crates; globe turn.",
+     "e": "Documented."
+    },
+    "assets_in_hand": [],
+    "verdict": "fold",
+    "reason": "shot 2 of afterlife-Paris (T2)"
+   },
+   "fenollosa": {
+    "scores": {
+     "a_significance": 2,
+     "b_density": 2,
+     "c_assets": 1,
+     "d_visual": 1,
+     "e_sourcing": 2
+    },
+    "total": 8,
+    "justification": {
+     "a": "b8-1g bet, b8-1r.",
+     "b": "1878, 1890, 1898.",
+     "c": "1 image.",
+     "d": "One person back and forth.",
+     "e": "Documented; the 1898 leg 'not stated'."
+    },
+    "assets_in_hand": [
+     "portrait-fenollosa"
+    ],
+    "verdict": "not a scene",
+    "reason": "thin; a tick of afterlife-America"
+   },
+   "wright": {
+    "scores": {
+     "a_significance": 2,
+     "b_density": 3,
+     "c_assets": 2,
+     "d_visual": 2,
+     "e_sourcing": 3
+    },
+    "total": 12,
+    "justification": {
+     "a": "Named in Act IV's bet; L7 S6.",
+     "b": "1905, 1906, $20,000→$125,000 in 1913, Feb 1915, $30,000, 1928, a dollar a print.",
+     "c": "2 images.",
+     "d": "A dealer's prices rising and crashing on a lane; Chicago–Tokyo needs a globe turn.",
+     "e": "Documented."
+    },
+    "assets_in_hand": [
+     "plum",
+     "portrait-wright"
+    ],
+    "verdict": "fold",
+    "reason": "same content as wright-arc; afterlife-America"
+   }
+  },
+  "groups": {
+   "ban-effects": {
+    "scores": {
+     "a_significance": 3,
+     "b_density": 3,
+     "c_assets": 3,
+     "d_visual": 3,
+     "e_sourcing": 3
+    },
+    "total": 15,
+    "justification": {
+     "a": "Act III's bet; L6's thesis and its argued station b5-7; STUDY S5.",
+     "b": "Six ticks dated to the month, two edicts quoted, 24→16 mon, six or seven tenths, 408,000, 3,000/450; Tadakuni, Kuniyoshi, Murata, Fujiokaya, Danjūrō.",
+     "c": "7 images.",
+     "d": "A wording card, a price stepping down, three theatres moving, a bubble growing.",
+     "e": "Documented (theatres' year noted)."
+    },
+    "assets_in_hand": [
+     "portrait-tadakuni",
+     "danjuro-aic",
+     "portrait-danjuro-vii",
+     "gishi",
+     "cat",
+     "portrait-kuniyoshi",
+     "map-edo-1859"
+    ],
+    "verdict": "scene",
+    "reason": "T1"
+   },
+   "afterlife": {
+    "scores": {
+     "a_significance": 3,
+     "b_density": 3,
+     "c_assets": 3,
+     "d_visual": 3,
+     "e_sourcing": 3
+    },
+    "total": 15,
+    "justification": {
+     "a": "Acts IV and V, L7, STUDY S7.",
+     "b": "Fifteen dated ticks; 218, 166,000, 660, 700, 6,000, 45,000, 111/113.",
+     "c": "12+ images.",
+     "d": "Arcs leaving Japan, a counter, a Pacific-centred globe turn, steamer and train.",
+     "e": "Documented (Hayashi's count argued; 1856 contested, never ticked)."
+    },
+    "assets_in_hand": [
+     "japon-artistique",
+     "plum",
+     "shower",
+     "eisen-aizuri",
+     "hi-wave",
+     "waves",
+     "portrait-hayashi",
+     "portrait-bing",
+     "portrait-van-gogh",
+     "portrait-wright",
+     "portrait-fenollosa"
+    ],
+    "verdict": "scene (split)",
+    "reason": "T2 Paris; America as a ninth run (15 ticks exceed the cap of 12)"
+   },
+   "censor-regimes": {
+    "scores": {
+     "a_significance": 3,
+     "b_density": 3,
+     "c_assets": 3,
+     "d_visual": 3,
+     "e_sourcing": 2
+    },
+    "total": 14,
+    "justification": {
+     "a": "The 'who got named' half of the question; L2 S7, I1, b5-5; all three desks run on it.",
+     "b": "1790, 1843, 1847, 1852, 1853; three seals; Sadanobu, Tadakuni, Murata.",
+     "c": "7 images.",
+     "d": "Seals cut or stamped onto a margin; the bands animate.",
+     "e": "Bands documented; who examined after 1853 probable."
+    },
+    "assets_in_hand": [
+     "harunobu-1765",
+     "utamaro-tsutaya",
+     "sharaku",
+     "gishi",
+     "shower",
+     "namazu",
+     "cat"
+    ],
+    "verdict": "scene",
+    "reason": "T5"
+   },
+   "fuji-series": {
+    "scores": {
+     "a_significance": 3,
+     "b_density": 3,
+     "c_assets": 3,
+     "d_visual": 2,
+     "e_sourcing": 3
+    },
+    "total": 14,
+    "justification": {
+     "a": "Act II's bet, L5 S3–S4.",
+     "b": "1829, New Year 1831, 36→46, Red Fuji's 93 impressions; two quotations.",
+     "c": "5 images.",
+     "d": "A fan, an advertisement, sheets appearing on the stage; no map.",
+     "e": "Documented."
+    },
+    "assets_in_hand": [
+     "eisen-aizuri",
+     "redfuji",
+     "hi-wave",
+     "portrait-eisen",
+     "portrait-hokusai"
+    ],
+    "verdict": "fold",
+    "reason": "merged into blue (T3)"
+   },
+   "blue-price": {
+    "scores": {
+     "a_significance": 3,
+     "b_density": 1,
+     "c_assets": 0,
+     "d_visual": 2,
+     "e_sourcing": 3
+    },
+    "total": 9,
+    "justification": {
+     "a": "L5's thesis literally.",
+     "b": "Two points.",
+     "c": "None.",
+     "d": "A line falling.",
+     "e": "Documented."
+    },
+    "assets_in_hand": [],
+    "verdict": "fold",
+    "reason": "caption and lane of blue's junk leg (T3)"
+   },
+   "price-sequence": {
+    "scores": {
+     "a_significance": 3,
+     "b_density": 3,
+     "c_assets": 0,
+     "d_visual": 2,
+     "e_sourcing": 3
+    },
+    "total": 11,
+    "justification": {
+     "a": "The unit's refrain ('a bowl of noodles'), L6 S3, I5.",
+     "b": "Six points with sources, soba 16/24, the cap quoted, 'a third'.",
+     "c": "None (documents, not images).",
+     "d": "A coin and a bowl on a stepping line; stage only.",
+     "e": "Documented, 1865 probable."
+    },
+    "assets_in_hand": [],
+    "verdict": "fold",
+    "reason": "price lane of ban-effects (T1)"
+   },
+   "print-runs": {
+    "scores": {
+     "a_significance": 2,
+     "b_density": 3,
+     "c_assets": 3,
+     "d_visual": 2,
+     "e_sourcing": 2
+    },
+    "total": 12,
+    "justification": {
+     "a": "I8, L5 S7, b4-3, b5-6.",
+     "b": "8,000 / 12–15,000 / 408,000 / 200 a day / 2,000 to profit / 3,000 and 450.",
+     "c": "5 images.",
+     "d": "Bubbles and specks on the stage; already the edition lab.",
+     "e": "Estimates probable, 1847–48 documented."
+    },
+    "assets_in_hand": [
+     "hi-wave",
+     "waves",
+     "nihonbashi",
+     "gishi"
+    ],
+    "verdict": "demonstration",
+    "reason": "moment D, built (edition lab)"
+   },
+   "kansei-punishments": {
+    "scores": {
+     "a_significance": 2,
+     "b_density": 2,
+     "c_assets": 3,
+     "d_visual": 1,
+     "e_sourcing": 2
+    },
+    "total": 10,
+    "justification": {
+     "a": "L4 S4–S5, S8.",
+     "b": "Five ticks, fifty days, half of everything, three books.",
+     "c": "6 images.",
+     "d": "Manacles would dramatise; lifespans and bands suffice.",
+     "e": "1800 and 1804 probable."
+    },
+    "assets_in_hand": [
+     "portrait-kyoden",
+     "portrait-utamaro",
+     "portrait-sadanobu",
+     "portrait-tsutaya",
+     "utamaro-tsutaya",
+     "sharaku"
+    ],
+    "verdict": "not a scene",
+    "reason": "timeline still (b2-5, b2-8)"
+   },
+   "hundred-views": {
+    "scores": {
+     "a_significance": 3,
+     "b_density": 2,
+     "c_assets": 3,
+     "d_visual": 2,
+     "e_sourcing": 3
+    },
+    "total": 13,
+    "justification": {
+     "a": "Act III's title; Uoya is its publisher; L6 S7.",
+     "b": "118 views, 1856–58, the Shower's ninth month, Hiroshige's death; the dots carry seasons, not dates.",
+     "c": "4 images; 107 Commons files referenced, not fetched.",
+     "d": "118 dots inking onto the sheet; no dated order.",
+     "e": "Documented."
+    },
+    "assets_in_hand": [
+     "map-edo-1859",
+     "shower",
+     "plum",
+     "portrait-hiroshige"
+    ],
+    "verdict": "scene",
+    "reason": "T7"
+   },
+   "wave-census": {
+    "scores": {
+     "a_significance": 2,
+     "b_density": 2,
+     "c_assets": 3,
+     "d_visual": 1,
+     "e_sourcing": 2
+    },
+    "total": 10,
+    "justification": {
+     "a": "Act V, L5 S7.",
+     "b": "111, 113, 93, 121, 46.",
+     "c": "4 images.",
+     "d": "A count ticking; nothing moves on a map.",
+     "e": "Count documented, the run argued."
+    },
+    "assets_in_hand": [
+     "hi-wave",
+     "waves",
+     "redfuji"
+    ],
+    "verdict": "demonstration",
+    "reason": "compare lab plus a counter caption"
+   },
+   "wright-arc": {
+    "scores": {
+     "a_significance": 2,
+     "b_density": 3,
+     "c_assets": 2,
+     "d_visual": 2,
+     "e_sourcing": 3
+    },
+    "total": 12,
+    "justification": {
+     "a": "Named in Act IV's bet; L7 S6.",
+     "b": "Six ticks with dollar figures.",
+     "c": "2 images.",
+     "d": "Prices rising and crashing on a lane; Chicago–Tokyo needs a globe turn.",
+     "e": "Documented."
+    },
+    "assets_in_hand": [
+     "plum",
+     "portrait-wright"
+    ],
+    "verdict": "fold",
+    "reason": "afterlife-America (ninth run)"
+   },
+   "six-eras": {
+    "scores": {
+     "a_significance": 2,
+     "b_density": 2,
+     "c_assets": 0,
+     "d_visual": 1,
+     "e_sourcing": 2
+    },
+    "total": 7,
+    "justification": {
+     "a": "The v0 spine, replaced by the five acts.",
+     "b": "Six eras, each with its turning events.",
+     "c": "None.",
+     "d": "Nothing moves.",
+     "e": "No sources listed."
+    },
+    "assets_in_hand": [],
+    "verdict": "not a scene",
+    "reason": "structure"
+   },
+   "five-acts": {
+    "scores": {
+     "a_significance": 3,
+     "b_density": 2,
+     "c_assets": 0,
+     "d_visual": 1,
+     "e_sourcing": 2
+    },
+    "total": 8,
+    "justification": {
+     "a": "The spine of v4.",
+     "b": "Five bets with spans.",
+     "c": "None.",
+     "d": "Act openers are moment A, not scenes.",
+     "e": "No sources listed."
+    },
+    "assets_in_hand": [],
+    "verdict": "not a scene",
+    "reason": "structure; openers"
+   },
+   "nengo": {
+    "scores": {
+     "a_significance": 1,
+     "b_density": 3,
+     "c_assets": 0,
+     "d_visual": 1,
+     "e_sourcing": 3
+    },
+    "total": 8,
+    "justification": {
+     "a": "A lane under the timeline.",
+     "b": "41 dated eras.",
+     "c": "None.",
+     "d": "Nothing moves.",
+     "e": "Documented."
+    },
+    "assets_in_hand": [],
+    "verdict": "not a scene",
+    "reason": "lane; read by T5's date-seal captions"
+   },
+   "meireki-outbreaks": {
+    "scores": {
+     "a_significance": 3,
+     "b_density": 2,
+     "c_assets": 1,
+     "d_visual": 3,
+     "e_sourcing": 3
+    },
+    "total": 12,
+    "justification": {
+     "a": "As fire-1657.",
+     "b": "As fire-1657.",
+     "c": "1 image.",
+     "d": "As fire-1657.",
+     "e": "Documented."
+    },
+    "assets_in_hand": [
+     "map-edo-1859"
+    ],
+    "verdict": "fold",
+    "reason": "identical to fire-1657 (T8)"
+   },
+   "tsutaya-life": {
+    "scores": {
+     "a_significance": 3,
+     "b_density": 3,
+     "c_assets": 3,
+     "d_visual": 2,
+     "e_sourcing": 3
+    },
+    "total": 14,
+    "justification": {
+     "a": "Act I's spine; all of L4.",
+     "b": "Seven ticks; half his property; about 140 designs; 47 or 48.",
+     "c": "7 images.",
+     "d": "One shop mark that moves once and halves once; the rest lifespans and sheets.",
+     "e": "Documented; age at death inconsistent."
+    },
+    "assets_in_hand": [
+     "portrait-tsutaya",
+     "printshop",
+     "utamaro-tsutaya",
+     "sharaku",
+     "portrait-kyoden",
+     "portrait-utamaro",
+     "map-edo-1859"
+    ],
+    "verdict": "scene",
+    "reason": "T6"
+   }
+  },
+  "sorted": [
+   {
+    "kind": "group",
+    "id": "ban-effects",
+    "total": 15
+   },
+   {
+    "kind": "group",
+    "id": "afterlife",
+    "total": 15
+   },
+   {
+    "kind": "journey",
+    "id": "blue",
+    "total": 14
+   },
+   {
+    "kind": "journey",
+    "id": "tokaido",
+    "total": 14
+   },
+   {
+    "kind": "group",
+    "id": "censor-regimes",
+    "total": 14
+   },
+   {
+    "kind": "group",
+    "id": "fuji-series",
+    "total": 14
+   },
+   {
+    "kind": "group",
+    "id": "tsutaya-life",
+    "total": 14
+   },
+   {
+    "kind": "journey",
+    "id": "theatres-move",
+    "total": 13
+   },
+   {
+    "kind": "group",
+    "id": "hundred-views",
+    "total": 13
+   },
+   {
+    "kind": "journey",
+    "id": "fire-1657",
+    "total": 12
+   },
+   {
+    "kind": "journey",
+    "id": "tsutaya-move",
+    "total": 12
+   },
+   {
+    "kind": "journey",
+    "id": "perry",
+    "total": 12
+   },
+   {
+    "kind": "journey",
+    "id": "hayashi",
+    "total": 12
+   },
+   {
+    "kind": "journey",
+    "id": "vangogh-copies",
+    "total": 12
+   },
+   {
+    "kind": "journey",
+    "id": "wright",
+    "total": 12
+   },
+   {
+    "kind": "group",
+    "id": "print-runs",
+    "total": 12
+   },
+   {
+    "kind": "group",
+    "id": "wright-arc",
+    "total": 12
+   },
+   {
+    "kind": "group",
+    "id": "meireki-outbreaks",
+    "total": 12
+   },
+   {
+    "kind": "group",
+    "id": "price-sequence",
+    "total": 11
+   },
+   {
+    "kind": "journey",
+    "id": "pm",
+    "total": 10
+   },
+   {
+    "kind": "journey",
+    "id": "tokuno",
+    "total": 10
+   },
+   {
+    "kind": "journey",
+    "id": "mm",
+    "total": 10
+   },
+   {
+    "kind": "group",
+    "id": "kansei-punishments",
+    "total": 10
+   },
+   {
+    "kind": "group",
+    "id": "wave-census",
+    "total": 10
+   },
+   {
+    "kind": "journey",
+    "id": "china-junks",
+    "total": 9
+   },
+   {
+    "kind": "journey",
+    "id": "sankin",
+    "total": 9
+   },
+   {
+    "kind": "journey",
+    "id": "exhibition-1867",
+    "total": 9
+   },
+   {
+    "kind": "group",
+    "id": "blue-price",
+    "total": 9
+   },
+   {
+    "kind": "journey",
+    "id": "voc",
+    "total": 8
+   },
+   {
+    "kind": "journey",
+    "id": "paper",
+    "total": 8
+   },
+   {
+    "kind": "journey",
+    "id": "yoshiwara-move",
+    "total": 8
+   },
+   {
+    "kind": "journey",
+    "id": "fenollosa",
+    "total": 8
+   },
+   {
+    "kind": "group",
+    "id": "five-acts",
+    "total": 8
+   },
+   {
+    "kind": "group",
+    "id": "nengo",
+    "total": 8
+   },
+   {
+    "kind": "group",
+    "id": "six-eras",
+    "total": 7
+   },
+   {
+    "kind": "journey",
+    "id": "engravings",
+    "total": 4
+   }
+  ]
+ },
+ "top8": [
+  {
+   "treatment": "T1",
+   "title": "The sixth month of 1842",
+   "kind": "run"
+  },
+  {
+   "treatment": "T2",
+   "title": "The afterlife, Paris",
+   "kind": "journey"
+  },
+  {
+   "treatment": "T3",
+   "title": "The blue",
+   "kind": "journey"
+  },
+  {
+   "treatment": "T4",
+   "title": "The road",
+   "kind": "journey"
+  },
+  {
+   "treatment": "T5",
+   "title": "The censor regimes",
+   "kind": "run"
+  },
+  {
+   "treatment": "T6",
+   "title": "Tsutaya's gamble",
+   "kind": "incident"
+  },
+  {
+   "treatment": "T7",
+   "title": "A hundred views",
+   "kind": "run"
+  },
+  {
+   "treatment": "T8",
+   "title": "The Meireki fire",
+   "kind": "incident"
+  }
+ ],
+ "reserves": [
+  {
+   "id": "perry",
+   "total": 12,
+   "why": "the purest globe-follow journey and the only one dated at every stop; context to the trade rather than the trade; loses the tie to fire-1657 on significance; the T2 template with eleven stops"
+  },
+  {
+   "id": "afterlife-america",
+   "members": [
+    "pm",
+    "fenollosa",
+    "tokuno",
+    "wright-arc",
+    "e1921"
+   ],
+   "why": "the second half of the split afterlife run; a ninth treatment on the T2 template"
+  }
+ ],
+ "treatments": [
+  {
+   "id": "T1",
+   "title": "The sixth month of 1842",
+   "kind": "run",
+   "subkind": "run with a city incident",
+   "inventory_ids": {
+    "groups": [
+     "ban-effects",
+     "price-sequence"
+    ],
+    "journeys": [
+     "theatres-move"
+    ],
+    "events": [
+     "x1841-tenpo",
+     "e1842",
+     "e1842c",
+     "e1842t",
+     "x1842-danjuro",
+     "x1847-report",
+     "e1847",
+     "x1848-flop"
+    ],
+    "objects": [
+     "price-1805",
+     "tenpo-edict",
+     "tenpo-cap",
+     "magistrate-1847",
+     "fujiokaya-diary",
+     "gishi",
+     "cat",
+     "danjuro-aic"
+    ]
+   },
+   "span": [
+    1841,
+    1850
+   ],
+   "focus": [
+    1838,
+    1850
+   ],
+   "surfaces": [
+    "timeline",
+    "sheet-1859",
+    "timeline",
+    "stage"
+   ],
+   "told_in": {
+    "beats": [
+     "b5-1",
+     "b5-2",
+     "b5-3",
+     "b5-4",
+     "b5-6",
+     "b5-7",
+     "b5-8"
+    ],
+    "stations": [
+     "L6 S1",
+     "L6 S2",
+     "L6 S3",
+     "L6 S4",
+     "L6 S5",
+     "L6 S6"
+    ],
+    "interactives": [
+     "I5",
+     "I7",
+     "I8"
+    ]
+   },
+   "understand": "The state banned the trade's two best sellers and capped the rest; the trade routed round it with nameless actors, warriors and cats, not mainly landscapes.",
+   "demands": [
+    {
+     "quote": "A record of 1805 prices an ordinary sheet at twenty mon. A bowl of kake-soba cost sixteen.",
+     "from": "b5-1",
+     "element": "coin and soba-bowl glyphs",
+     "surface": "timeline (price lane)",
+     "date": 1805,
+     "note": "before state"
+    },
+    {
+     "quote": "In 1841 Tadakuni began the Tenpō reforms",
+     "from": "b5-1; L6 S1",
+     "element": "state-lane tick, portrait chip",
+     "surface": "timeline",
+     "date": 1841
+    },
+    {
+     "quote": "「錦絵と唱、歌舞伎役者遊女女芸者等を壱枚摺ニ致候義、風俗ニ拘り候筋ニ付」",
+     "from": "b5-2; L6 S2",
+     "element": "wording card, seal-red",
+     "surface": "timeline",
+     "date": 1842.5
+    },
+    {
+     "quote": "「壱枚絵団扇絵共、拾六文以上は無用之事」",
+     "from": "b5-3; L6 S3",
+     "element": "cap line landing, 24→16",
+     "surface": "timeline",
+     "date": 1842.9
+    },
+    {
+     "quote": "The three theatres were ordered out of the city centre to a new street, Saruwaka-chō",
+     "from": "b5-4; L6 S5",
+     "element": "three pavilion marks move",
+     "surface": "sheet-1859",
+     "date": 1842,
+     "note": "case: 1841–43"
+    },
+    {
+     "quote": "banished from Edo for extravagance (probable)",
+     "from": "b5-4",
+     "element": "actor chip; no arc",
+     "surface": "stage",
+     "date": 1842,
+     "note": "destination not in the sources"
+    },
+    {
+     "quote": "1847: six or seven tenths of sales were actor pictures “without names”",
+     "from": "b5-7 evidence; L6 S4",
+     "element": "count card",
+     "surface": "timeline",
+     "date": 1847.1
+    },
+    {
+     "quote": "The Fujiokaya records how many sets sold between the seventh month of 1847 and the third of 1848.",
+     "from": "b5-6; L6 S6",
+     "element": "the 408,000 bubble growing",
+     "surface": "timeline",
+     "date": [
+      1847.6,
+      1848.3
+     ]
+    },
+    {
+     "quote": "The same diary records a flop.",
+     "from": "b5-6",
+     "element": "small bubble, 3,000 / 450",
+     "surface": "timeline",
+     "date": 1848.3
+    },
+    {
+     "quote": "This is the monster cat of Okazaki",
+     "from": "b5-8",
+     "element": "the cat sheet",
+     "surface": "stage",
+     "date": "c. 1850"
+    }
+   ],
+   "shots": [
+    {
+     "n": 1,
+     "surface": "timeline",
+     "camera": "zoom 1800–1870 → 1838–1850, settle",
+     "clock": {
+      "readout": "1841",
+      "time_passing": "none; before state held"
+     },
+     "actors": [
+      "price lane at 20 mon (1805)",
+      "soba at 16",
+      "Tadakuni's chip"
+     ],
+     "micro_elements": [
+      "coin",
+      "soba bowl"
+     ],
+     "caption": {
+      "text": "1841: Tadakuni begins the Tenpō reforms. A sheet cost twenty mon in 1805; a bowl of kake-soba sixteen.",
+      "words": 18,
+      "sources": [
+       "hoover",
+       "nippon-soba",
+       "wiki-tadakuni"
+      ]
+     },
+     "labels": [
+      "Tenpō reforms",
+      "price lane",
+      "soba",
+      "state lane"
+     ],
+     "primary_label": "Tenpō reforms",
+     "dims": [
+      "trade, world, after lanes"
+     ],
+     "duration": "reader-held",
+     "flags": []
+    },
+    {
+     "n": 2,
+     "surface": "timeline",
+     "camera": "hold",
+     "clock": {
+      "readout": "sixth month 1842",
+      "time_passing": "tick"
+     },
+     "actors": [
+      "wording card lands on the state lane"
+     ],
+     "micro_elements": [
+      "seal-red mark"
+     ],
+     "caption": {
+      "text": "Sixth month, 1842: single sheets of actors, courtesans and geisha “concern public morals”. Publication and existing stock forbidden.",
+      "words": 18,
+      "sources": [
+       "kato-tenpo",
+       "vjp-sumptuary"
+      ]
+     },
+     "labels": [
+      "The Tenpō edict"
+     ],
+     "primary_label": "The Tenpō edict",
+     "dims": [
+      "price lane to half"
+     ],
+     "duration": "reader-held",
+     "flags": []
+    },
+    {
+     "n": 3,
+     "surface": "timeline",
+     "camera": "hold",
+     "clock": {
+      "readout": "eleventh month 1842",
+      "time_passing": "tick"
+     },
+     "actors": [
+      "price lane steps 24→16",
+      "cap line draws",
+      "soba bowl at 16"
+     ],
+     "micro_elements": [
+      "coin",
+      "soba bowl"
+     ],
+     "caption": {
+      "text": "Eleventh month: nothing above sixteen mon, the price of one bowl of soba. A ten-colour sheet had sold for twenty-four.",
+      "words": 20,
+      "sources": [
+       "kato-tenpo"
+      ]
+     },
+     "labels": [
+      "16-mon cap",
+      "24 mon",
+      "soba"
+     ],
+     "primary_label": "16-mon cap",
+     "dims": [],
+     "duration": "reader-held",
+     "flags": [
+      "the b5-2 slider guess is asked before this reveal",
+      "impression limit (probable) on the card, not the caption"
+     ]
+    },
+    {
+     "n": 4,
+     "surface": "sheet-1859",
+     "camera": "cut; settle; before state held 2 s",
+     "clock": {
+      "readout": "1842",
+      "time_passing": "three legs at 1.2 s each"
+     },
+     "actors": [
+      "Sakai-chō → Saruwaka-chō (Nakamura)",
+      "Fukiya-chō → Saruwaka-chō (Ichimura)",
+      "Kobiki-chō → Saruwaka-chō (Morita)",
+      "Danjūrō's figure on the stage, no arc"
+     ],
+     "micro_elements": [
+      "pavilion glyph ×3"
+     ],
+     "caption": {
+      "text": "1842: the three theatres ordered out of the centre to Saruwaka-chō, near the road to the Yoshiwara. Danjūrō VII banished (probable).",
+      "words": 21,
+      "sources": [
+       "ndl-saruwaka",
+       "vjp-sumptuary"
+      ]
+     },
+     "labels": [
+      "Saruwaka-chō",
+      "Sakai-chō · Fukiya-chō",
+      "Kobiki-chō"
+     ],
+     "primary_label": "Saruwaka-chō",
+     "dims": [
+      "the rest of the sheet",
+      "the Yoshiwara (unlabelled)"
+     ],
+     "duration": "3.6 s draw, then reader-held",
+     "flags": [
+      "approx: sakaicho, fukiyacho, kobikicho",
+      "year inconsistency: 1842 (timeline) vs 1841–43 (case)",
+      "leg order is list order; the sources give no sequence",
+      "no flames: the sources give an order, not a fire",
+      "Danjūrō's destination not in the sources"
+     ]
+    },
+    {
+     "n": 5,
+     "surface": "timeline",
+     "camera": "cut back; hold",
+     "clock": {
+      "readout": "1847.1",
+      "time_passing": "tick"
+     },
+     "actors": [
+      "count card"
+     ],
+     "micro_elements": [],
+     "caption": {
+      "text": "1847: the magistrate's officers count the shops. Six or seven tenths of sales are actor pictures “without names”.",
+      "words": 18,
+      "sources": [
+       "kato-1847"
+      ]
+     },
+     "labels": [
+      "1847 report",
+      "print lane"
+     ],
+     "primary_label": "1847 report",
+     "dims": [],
+     "duration": "reader-held",
+     "flags": []
+    },
+    {
+     "n": 6,
+     "surface": "timeline",
+     "camera": "hold; cursor crawls",
+     "clock": {
+      "readout": "seventh month 1847 → third month 1848",
+      "time_passing": "cursor crawls eight months; the counter on the caption climbs to 408,000"
+     },
+     "actors": [
+      "runs bubble grows",
+      "gishi thumbnail",
+      "then a small bubble beside it"
+     ],
+     "micro_elements": [
+      "bubble",
+      "counter"
+     ],
+     "caption": {
+      "text": "Seventh month 1847 to third month 1848: Kuniyoshi's loyal retainers, fifty-one sheets. 8,000 sets, 408,000 sheets, by the publisher's diary.",
+      "words": 20,
+      "sources": [
+       "fujiokaya",
+       "kato-1847"
+      ]
+     },
+     "labels": [
+      "408,000 sheets",
+      "Kuniyoshi",
+      "Fujiokaya",
+      "the flop"
+     ],
+     "primary_label": "408,000 sheets",
+     "dims": [],
+     "duration": "auto-step 4 s with pause bar, then reader-held",
+     "flags": [
+      "the flop's title is not named in the unit"
+     ],
+     "second_caption": {
+      "text": "The same diary records a flop: 3,000 printed, 450 sold. Its title is not named in the unit.",
+      "words": 19,
+      "sources": [
+       "fujiokaya"
+      ]
+     }
+    },
+    {
+     "n": 7,
+     "surface": "stage",
+     "camera": "cut",
+     "clock": {
+      "readout": "c. 1850",
+      "time_passing": "none"
+     },
+     "actors": [
+      "the cat sheet"
+     ],
+     "micro_elements": [],
+     "caption": {
+      "text": "1850: the edict named actors, courtesans and geisha. It did not name ghosts, monsters or cats. Kuniyoshi drew all three.",
+      "words": 20,
+      "sources": [
+       "vjp-sumptuary",
+       "wiki-kuniyoshi"
+      ]
+     },
+     "labels": [],
+     "primary_label": null,
+     "dims": [
+      "timeline to a quarter"
+     ],
+     "duration": "reader-held",
+     "flags": [
+      "then the argued station b5-7 is offered"
+     ]
+    }
+   ],
+   "interactions": {
+    "step": "nine ticks (1841, 1842.5, 1842.9, 1842 theatres, 1847.1, 1847.6, 1848.3, 1850, plus 1805 before state)",
+    "scrub": [
+     1838,
+     1850
+    ],
+    "tap_stop": "a tick opens its card: edict text, cap, count, diary",
+    "open_object": [
+     "gishi",
+     "cat",
+     "danjuro-aic"
+    ],
+    "links": [
+     "desks:censor (b5-3)",
+     "edition lab (b5-6)"
+    ],
+    "guess": {
+     "beat": "b5-2",
+     "type": "slider",
+     "q": "An ordinary ten-colour sheet sold for about 24 mon. What ceiling did the state set?",
+     "truth": 16,
+     "unit": "mon",
+     "placed": "before shot 3"
+    }
+   },
+   "assets": {
+    "in_hand": [
+     "portrait-tadakuni",
+     "danjuro-aic",
+     "portrait-danjuro-vii",
+     "gishi",
+     "cat",
+     "portrait-kuniyoshi",
+     "playbill",
+     "map-edo-1859"
+    ],
+    "to_make": [
+     {
+      "what": "wording card (the 1842 order)",
+      "licence": "Katō's transcription of a public record, cited (kato-tenpo)"
+     },
+     {
+      "what": "coin, soba-bowl and pavilion glyphs",
+      "licence": "own drawing, CC0"
+     }
+    ],
+    "exists": [
+     "theatres-move arcs (map.js)",
+     "408,000 speck field (edition lab)"
+    ]
+   },
+   "risks": [
+    "theatres' year: 1842 (timeline) vs 1841–43 (case): editor",
+    "approximate origins: sakaicho, fukiyacho, kobikicho",
+    "label collision: Sakai-chō / Fukiya-chō (~150 m): one shared leader",
+    "Danjūrō's destination not in the sources: no arc",
+    "no flames: the theatres were ordered out, not burned (not in the sources)",
+    "the flop's title not named",
+    "the edict known only in Katō's transcription (case §9): quote that line only"
+   ]
+  },
+  {
+   "id": "T2",
+   "title": "The afterlife, Paris",
+   "kind": "journey",
+   "subkind": "journey + run (Paris half of afterlife)",
+   "inventory_ids": {
+    "groups": [
+     "afterlife"
+    ],
+    "journeys": [
+     "exhibition-1867",
+     "mm",
+     "hayashi",
+     "vangogh-copies"
+    ],
+    "events": [
+     "e1865",
+     "e1867",
+     "x1869-suez",
+     "x1878-paris",
+     "e1884",
+     "x1887-purchase",
+     "e1887",
+     "e1888",
+     "e1890"
+    ],
+    "objects": [
+     "japon-artistique",
+     "plum",
+     "shower",
+     "eisen-aizuri",
+     "vangogh-copies"
+    ]
+   },
+   "span": [
+    1865,
+    1890
+   ],
+   "surfaces": [
+    "globe-world",
+    "globe-region (Europe)",
+    "stage",
+    "timeline (after lane)"
+   ],
+   "told_in": {
+    "beats": [
+     "b7-0",
+     "b7-1",
+     "b7-2",
+     "b7-3",
+     "b7-4",
+     "b7-5",
+     "b7-6"
+    ],
+    "stations": [
+     "L7 S2",
+     "L7 S3",
+     "L7 S4"
+    ],
+    "interactives": [
+     "I9"
+    ],
+    "study": [
+     "S7"
+    ]
+   },
+   "understand": "The export was a second trade with a Japanese dealer at its centre, on a steamer line opened in 1870, and its counts are the evidence in the exchange-or-appropriation argument.",
+   "demands": [
+    {
+     "quote": "In 1867 Japan sent an official exhibit to the Paris exposition. It was the shogunate's last year of rule.",
+     "from": "b7-0; L7 S2",
+     "element": "crate Edo→Paris; Japan's pavilion (no French flag demanded)",
+     "surface": "globe-world",
+     "date": 1867
+    },
+    {
+     "quote": "In 1865 French mail steamers opened a branch line to Yokohama.",
+     "from": "b7-1",
+     "element": "steamer glyph",
+     "surface": "globe-world",
+     "date": 1865
+    },
+    {
+     "quote": "After the Suez Canal opened in 1869, the Messageries Maritimes ran through-sailings from Marseille to Yokohama, from April 1870.",
+     "from": "b7-1",
+     "element": "route mm, eight legs",
+     "surface": "globe-world",
+     "date": 1870
+    },
+    {
+     "quote": "Hayashi came to Paris as an interpreter for the exposition of 1878 and opened a shop in 1884.",
+     "from": "b7-3; L7 S3",
+     "element": "shop mark at Paris",
+     "surface": "globe-world",
+     "date": [
+      1878,
+      1884
+     ]
+    },
+    {
+     "quote": "Over eleven years he made 218 shipments from Japan.",
+     "from": "b7-3",
+     "element": "crates repeating on route hayashi; counter",
+     "surface": "globe-world",
+     "date": [
+      1884,
+      1895
+     ]
+    },
+    {
+     "quote": "One count gives 166,000 prints and 9,708 illustrated books. Another says more than 300,000 works (argued).",
+     "from": "b7-3",
+     "element": "both counts on the caption",
+     "surface": "caption",
+     "date": 1895
+    },
+    {
+     "quote": "Van Gogh bought about 660 Japanese prints in early 1887",
+     "from": "b7-5; L7 S4",
+     "element": "660 at Paris",
+     "surface": "globe-region",
+     "date": 1887.2
+    },
+    {
+     "quote": "That autumn he painted three copies in oil.",
+     "from": "b7-5",
+     "element": "plum, shower, eisen-aizuri flip to 'copied, linked' cards",
+     "surface": "stage",
+     "date": 1887.8
+    },
+    {
+     "quote": "In 1890 he hung over seven hundred prints at the École des Beaux-Arts.",
+     "from": "b7-4; L7 S3",
+     "element": "the cover; a 700 tick",
+     "surface": "stage, timeline",
+     "date": [
+      1888.4,
+      1890
+     ]
+    }
+   ],
+   "shots": [
+    {
+     "n": 1,
+     "surface": "globe-world",
+     "camera": "settle (rotate 75, view −10 −15 150 55)",
+     "clock": {
+      "readout": "1867",
+      "time_passing": "one leg, 1.5 s"
+     },
+     "actors": [
+      "arc Edo → Paris (schematic)",
+      "crate rides it",
+      "pavilion lands at Paris"
+     ],
+     "micro_elements": [
+      "crate",
+      "pavilion"
+     ],
+     "caption": {
+      "text": "1867: Japan sends an official exhibit to the Paris exposition, in the shogunate's last year of rule.",
+      "words": 17,
+      "sources": [
+       "met-japonisme",
+       "wiki-ukiyoe"
+      ]
+     },
+     "labels": [
+      "Paris",
+      "Edo"
+     ],
+     "primary_label": "Paris",
+     "dims": [
+      "every other route"
+     ],
+     "duration": "1.5 s, then reader-held",
+     "flags": [
+      "no route in places.yaml: drawn soft, schematic"
+     ]
+    },
+    {
+     "n": 2,
+     "surface": "globe-world",
+     "camera": "follow the route, globe panning to keep the leading stop centred",
+     "clock": {
+      "readout": "1865 → 1869 → April 1870",
+      "time_passing": "readout steps 1865, 1869, 1870; eight legs at 1.2 s"
+     },
+     "actors": [
+      "steamer at Yokohama (1865)",
+      "route mm draws Marseille → Port Said → Suez → Aden → Galle → Singapore → Hong Kong → Shanghai → Yokohama"
+     ],
+     "micro_elements": [
+      "steamer"
+     ],
+     "caption": {
+      "text": "April 1870: after Suez opens, Messageries Maritimes sails Marseille to Yokohama. Prints have a regular road to Europe.",
+      "words": 18,
+      "sources": [
+       "mm-1870",
+       "met-japonisme"
+      ]
+     },
+     "labels": [
+      "Marseille",
+      "Suez",
+      "Singapore",
+      "Yokohama"
+     ],
+     "primary_label": "Marseille",
+     "dims": [
+      "the 1867 arc to a quarter"
+     ],
+     "duration": "9.6 s draw with pause, then reader-held",
+     "flags": [
+      "Port Said unlabelled (adjacent to Suez)"
+     ],
+     "first_caption": {
+      "text": "1865: French mail steamers open a branch line to Yokohama.",
+      "words": 10,
+      "sources": [
+       "mi-1865"
+      ]
+     }
+    },
+    {
+     "n": 3,
+     "surface": "globe-world",
+     "camera": "hold",
+     "clock": {
+      "readout": "1878 → 1884",
+      "time_passing": "two ticks"
+     },
+     "actors": [
+      "Hayashi's chip",
+      "shop mark at Paris"
+     ],
+     "micro_elements": [
+      "shop"
+     ],
+     "caption": {
+      "text": "1878: Hayashi Tadamasa comes to Paris as the exposition's interpreter. 1884: he opens a shop.",
+      "words": 15,
+      "sources": [
+       "nmwa-hayashi"
+      ]
+     },
+     "labels": [
+      "Paris",
+      "Hayashi's shop"
+     ],
+     "primary_label": "Paris",
+     "dims": [],
+     "duration": "reader-held",
+     "flags": []
+    },
+    {
+     "n": 4,
+     "surface": "globe-world",
+     "camera": "hold",
+     "clock": {
+      "readout": "1884 → 1895",
+      "time_passing": "readout crawls a year every 2 s (22 s) with pause bar; the counter climbs to 218"
+     },
+     "actors": [
+      "crates pulse along route hayashi (reverse of mm) at an even rate"
+     ],
+     "micro_elements": [
+      "crate",
+      "counter"
+     ],
+     "caption": {
+      "text": "1884–95: 218 shipments, Yokohama to Paris. One count: 166,000 prints and 9,708 books. Another: over 300,000 works (argued).",
+      "words": 18,
+      "sources": [
+       "nmwa-hayashi",
+       "persee-hayashi",
+       "agorha-hayashi"
+      ]
+     },
+     "labels": [
+      "Yokohama",
+      "Shanghai",
+      "Suez",
+      "Paris"
+     ],
+     "primary_label": "Yokohama",
+     "dims": [
+      "the mm line to a quarter"
+     ],
+     "duration": "22 s auto with pause bar",
+     "flags": [
+      "crates evenly spaced: per-shipment dates are not in the sources",
+      "the count of prints is argued"
+     ]
+    },
+    {
+     "n": 5,
+     "surface": "globe-region",
+     "camera": "cut to Europe (view −2 47.5 6 53) with inset locator",
+     "clock": {
+      "readout": "early 1887",
+      "time_passing": "tick"
+     },
+     "actors": [
+      "660 at Paris"
+     ],
+     "micro_elements": [
+      "inset locator"
+     ],
+     "caption": {
+      "text": "Early 1887: Van Gogh buys about 660 Japanese prints in Paris, probably from Bing (probable).",
+      "words": 15,
+      "sources": [
+       "vgm-japan"
+      ]
+     },
+     "labels": [
+      "Paris",
+      "Amsterdam"
+     ],
+     "primary_label": "Paris",
+     "dims": [
+      "London"
+     ],
+     "duration": "reader-held",
+     "flags": [
+      "'from Bing' is probable"
+     ]
+    },
+    {
+     "n": 6,
+     "surface": "stage",
+     "camera": "cut",
+     "clock": {
+      "readout": "autumn 1887",
+      "time_passing": "tick"
+     },
+     "actors": [
+      "plum, shower, eisen-aizuri",
+      "each flips to 'copied in oil, Amsterdam, linked'"
+     ],
+     "micro_elements": [
+      "flip card"
+     ],
+     "caption": {
+      "text": "Autumn 1887: three copies in oil, two after Hiroshige and one after Eisen. The copies are in Amsterdam, linked, not shown.",
+      "words": 21,
+      "sources": [
+       "vgm-japan",
+       "vgm-bridge"
+      ]
+     },
+     "labels": [],
+     "primary_label": null,
+     "dims": [],
+     "duration": "reader-stepped",
+     "flags": [
+      "the oils are non-commercial licence: linked, not shown"
+     ]
+    },
+    {
+     "n": 7,
+     "surface": "stage",
+     "camera": "hold; timeline after lane ticks",
+     "clock": {
+      "readout": "1888 → 1890",
+      "time_passing": "two ticks"
+     },
+     "actors": [
+      "Le Japon artistique cover",
+      "700 tick"
+     ],
+     "micro_elements": [],
+     "caption": {
+      "text": "1888–91: Bing's Le Japon artistique, thirty-six issues in three languages. 1890: over seven hundred prints at the École des Beaux-Arts.",
+      "words": 20,
+      "sources": [
+       "wiki-bing",
+       "met-japonisme"
+      ]
+     },
+     "labels": [
+      "Le Japon artistique",
+      "1890"
+     ],
+     "primary_label": "Le Japon artistique",
+     "dims": [],
+     "duration": "reader-held",
+     "flags": [
+      "then the argued station b7-6 is offered"
+     ]
+    }
+   ],
+   "interactions": {
+    "step": "nine ticks (1865, 1867, 1870, 1878, 1884, 1887.2, 1887.8, 1888.4, 1890)",
+    "scrub": [
+     1865,
+     1890
+    ],
+    "tap_stop": "a port opens its card; Paris opens the collection card (both Hayashi counts, Bing's 700, Van Gogh's 660)",
+    "open_object": [
+     "japon-artistique",
+     "plum",
+     "shower",
+     "eisen-aizuri"
+    ],
+    "guess": {
+     "beat": "b7-1g",
+     "type": "timeline",
+     "q": "A famous story says Europe found ukiyo-e as packing paper. When was it first printed?",
+     "truth": 1905,
+     "note": "the 1856 find stays contested and is never a tick"
+    }
+   },
+   "assets": {
+    "in_hand": [
+     "japon-artistique",
+     "plum",
+     "shower",
+     "eisen-aizuri",
+     "portrait-hayashi",
+     "portrait-bing",
+     "portrait-van-gogh"
+    ],
+    "to_make": [
+     {
+      "what": "steamer, crate, pavilion, shop glyphs",
+      "licence": "own drawing, CC0"
+     },
+     {
+      "what": "schematic 1867 arc Edo→Paris",
+      "licence": "n/a (unrouted; drawn soft)"
+     },
+     {
+      "what": "counter caption",
+      "licence": "n/a"
+     },
+     {
+      "what": "Europe inset locator",
+      "licence": "n/a"
+     }
+    ],
+    "exists": [
+     "routes mm and hayashi (places.yaml)",
+     "hayashi 218 pulse (map.js)"
+    ]
+   },
+   "risks": [
+    "the 1867 leg has no route in places.yaml: schematic, soft",
+    "per-shipment dates absent: crates evenly spaced, said so",
+    "Hayashi's count argued",
+    "'from Bing' probable",
+    "the Van Gogh oils are non-commercial: linked, not shown",
+    "label collisions: Marseille/Paris at world tier (Paris only until shot 2); Port Said/Suez; Galle/Singapore",
+    "no French flag: the content names Japan's pavilion",
+    "the America half (pm, fenollosa, tokuno, wright-arc, e1921) is a ninth run on this template"
+   ]
+  },
+  {
+   "id": "T3",
+   "title": "The blue",
+   "kind": "journey",
+   "subkind": "journey with a price run",
+   "inventory_ids": {
+    "journeys": [
+     "blue",
+     "china-junks",
+     "voc"
+    ],
+    "groups": [
+     "fuji-series",
+     "blue-price"
+    ],
+    "events": [
+     "x1704-blue",
+     "e1824",
+     "x1828-blueprice",
+     "e1829",
+     "e1831"
+    ],
+    "objects": [
+     "nagasaki-blue-prices",
+     "eisen-aizuri",
+     "toho-memoir",
+     "eijudo-advert-1831",
+     "redfuji",
+     "hi-wave"
+    ]
+   },
+   "span": [
+    1704,
+    1831
+   ],
+   "surfaces": [
+    "globe-world",
+    "timeline (price lane under the globe)",
+    "stage"
+   ],
+   "told_in": {
+    "beats": [
+     "b3-2g",
+     "b3-3",
+     "b3-4",
+     "b3-5",
+     "b3-6",
+     "b4-0"
+    ],
+    "stations": [
+     "L5 S1",
+     "L5 S2",
+     "L5 S3",
+     "L5 S4"
+    ],
+    "interactives": [
+     "I6"
+    ],
+    "study": [
+     "S4",
+     "S8"
+    ]
+   },
+   "understand": "The Fuji series was sold on a pigment made in Berlin, which reached Edo only by sea and became a print colour when Chinese imports cut its Nagasaki price by two-thirds after 1824.",
+   "demands": [
+    {
+     "quote": "Prussian blue was first made in Berlin around 1704, by accident: a colour-maker's red came out blue.",
+     "from": "b3-3; L5 S1",
+     "element": "Berlin inks; pigment glyph; the caption says 'made', not 'first'",
+     "surface": "globe-world",
+     "date": "c. 1704",
+     "note": "case 1704–06; atlas c. 1706"
+    },
+    {
+     "quote": "Dutch ships brought it to Nagasaki via the Cape and Batavia.",
+     "from": "b3-3",
+     "element": "ship glyph on Amsterdam → Cape → Batavia → Nagasaki, dashed",
+     "surface": "globe-world",
+     "date": "undated"
+    },
+    {
+     "quote": "Then, from 1824, Chinese junks re-entered the trade “in steadily increasing quantities”, and the price began to fall.",
+     "from": "b3-3; L5 S2",
+     "element": "junk glyph China → Nagasaki; the price lane",
+     "surface": "globe-world + timeline",
+     "date": 1824
+    },
+    {
+     "quote": "from 87 to 31 monme of silver a kin",
+     "from": "b3-4",
+     "element": "the lane steps down",
+     "surface": "timeline",
+     "date": [
+      1824,
+      1828
+     ]
+    },
+    {
+     "quote": "It reached Japan the only way foreign goods could: through the port of Nagasaki.",
+     "from": "b3-2g",
+     "element": "Nagasaki → Edo, dashed, probable; argued",
+     "surface": "globe-world",
+     "date": "undated"
+    },
+    {
+     "quote": "In 1829 the fan-maker Iseya put out a fan by Eisen printed in light and dark shades of the new blue alone.",
+     "from": "b3-5; L5 S3",
+     "element": "fan glyph at Edo; eisen-aizuri as stand-in",
+     "surface": "stage",
+     "date": 1829
+    },
+    {
+     "quote": "His advertisement, printed for New Year 1831, promised one view to a sheet and “more than one hundred, without being limited to thirty-six”.",
+     "from": "b3-6; L5 S4",
+     "element": "advertisement card at Bakuro-chō; Red Fuji; the Wave",
+     "surface": "stage",
+     "date": 1831
+    }
+   ],
+   "shots": [
+    {
+     "n": 1,
+     "surface": "globe-world",
+     "camera": "settle (rotate 75; Berlin and Edo held in one view)",
+     "clock": {
+      "readout": "c. 1704",
+      "time_passing": "none"
+     },
+     "actors": [
+      "Berlin inks"
+     ],
+     "micro_elements": [
+      "pigment glyph"
+     ],
+     "caption": {
+      "text": "Around 1704, in Berlin, a colour-maker's red came out blue. Edo would call it bero-ai, “Berlin indigo”.",
+      "words": 17,
+      "sources": [
+       "fitzhugh",
+       "smith-blue"
+      ]
+     },
+     "labels": [
+      "Berlin",
+      "Edo"
+     ],
+     "primary_label": "Berlin",
+     "dims": [
+      "everything else"
+     ],
+     "duration": "reader-held",
+     "flags": [
+      "the b3-2g map guess is asked before this shot",
+      "date inconsistency: 1704 / 1704–06 / c. 1706"
+     ]
+    },
+    {
+     "n": 2,
+     "surface": "globe-world",
+     "camera": "follow the route; the globe turns to keep the leading stop centred",
+     "clock": {
+      "readout": "1704–1824 (a span; no leg is dated)",
+      "time_passing": "four dashed legs at 1.2 s; the readout does not move"
+     },
+     "actors": [
+      "Berlin → Amsterdam (overland, probable)",
+      "Amsterdam → Cape",
+      "Cape → Batavia",
+      "Batavia → Nagasaki · Dejima"
+     ],
+     "micro_elements": [
+      "ship"
+     ],
+     "caption": {
+      "text": "Dutch ships brought the blue to Nagasaki via the Cape and Batavia: the only road for foreign goods into Japan.",
+      "words": 20,
+      "sources": [
+       "voc-route",
+       "wiki-dejima",
+       "smith-blue"
+      ]
+     },
+     "labels": [
+      "Nagasaki · Dejima",
+      "Amsterdam",
+      "Cape",
+      "Batavia"
+     ],
+     "primary_label": "Nagasaki · Dejima",
+     "dims": [
+      "other routes"
+     ],
+     "duration": "4.8 s draw with pause, then reader-held",
+     "flags": [
+      "undated legs drawn dashed",
+      "each label inks as its leg draws"
+     ]
+    },
+    {
+     "n": 3,
+     "surface": "globe-world + timeline",
+     "camera": "hold; the price lane rises under the globe",
+     "clock": {
+      "readout": "1824 → 1828",
+      "time_passing": "readout steps a year at a time over ~5 s"
+     },
+     "actors": [
+      "junk arc from the 'Chinese junks' region node to Nagasaki",
+      "price lane steps 87 → 31"
+     ],
+     "micro_elements": [
+      "junk",
+      "price line"
+     ],
+     "caption": {
+      "text": "From 1824 Chinese junks re-enter the trade “in steadily increasing quantities”. Nagasaki price: 87 monme a kin in 1824, 31 by 1828.",
+      "words": 22,
+      "sources": [
+       "smith-blue"
+      ]
+     },
+     "labels": [
+      "Nagasaki",
+      "Chinese junks",
+      "87 monme",
+      "31 monme"
+     ],
+     "primary_label": "Nagasaki",
+     "dims": [
+      "the Dutch legs to a quarter"
+     ],
+     "duration": "5 s auto with pause, then reader-held",
+     "flags": [
+      "the junk origin is a region node (30, 122), not Canton: soft region mark",
+      "then the argued station b3-4 is offered"
+     ]
+    },
+    {
+     "n": 4,
+     "surface": "globe-world → stage",
+     "camera": "push-in to Edo",
+     "clock": {
+      "readout": "1829",
+      "time_passing": "tick"
+     },
+     "actors": [
+      "Nagasaki → Edo dashed leg",
+      "fan glyph at Edo",
+      "eisen-aizuri on the stage"
+     ],
+     "micro_elements": [
+      "fan"
+     ],
+     "caption": {
+      "text": "1829: Iseya's fan by Eisen, in light and dark shades of the new blue alone. Other fan-makers flood the market.",
+      "words": 20,
+      "sources": [
+       "smith-blue"
+      ]
+     },
+     "labels": [
+      "Edo",
+      "Nagasaki"
+     ],
+     "primary_label": "Edo",
+     "dims": [
+      "the globe"
+     ],
+     "duration": "1.2 s leg, then reader-held",
+     "flags": [
+      "Nagasaki → Edo undated, probable; argued (c. 1790 vs late 1820s)",
+      "eisen-aizuri is an early-1830s sheet standing for the 1829 fan: labelled"
+     ]
+    },
+    {
+     "n": 5,
+     "surface": "stage",
+     "camera": "cut",
+     "clock": {
+      "readout": "New Year 1831",
+      "time_passing": "tick"
+     },
+     "actors": [
+      "advertisement card at Bakuro-chō (sheet inset)",
+      "Red Fuji",
+      "the Wave (hand-off to b4-0)"
+     ],
+     "micro_elements": [
+      "advertisement card"
+     ],
+     "caption": {
+      "text": "New Year 1831: Eijudō promises one view to a sheet, “more than one hundred, without being limited to thirty-six”. Thirty-six became forty-six.",
+      "words": 22,
+      "sources": [
+       "smith-blue",
+       "korenberg-fuji"
+      ]
+     },
+     "labels": [
+      "Bakuro-chō · Eijudō"
+     ],
+     "primary_label": "Bakuro-chō · Eijudō",
+     "dims": [],
+     "duration": "reader-held",
+     "flags": [
+      "series date: 1831 (timeline) vs c. 1830–32 (images.json): readout carries 'c. 1830–32'"
+     ]
+    }
+   ],
+   "interactions": {
+    "step": "five stops and two price points",
+    "scrub": [
+     1704,
+     1831
+    ],
+    "tap_stop": "a stop opens its card; the two price points open Smith's figures",
+    "open_object": [
+     "eisen-aizuri",
+     "redfuji",
+     "hi-wave"
+    ],
+    "guess": {
+     "beat": "b3-2g",
+     "type": "map",
+     "q": "Where was the new blue first made? Tap the map.",
+     "truth": [
+      "berlin",
+      "canton"
+     ],
+     "primary": "berlin",
+     "placed": "before shot 1"
+    }
+   },
+   "assets": {
+    "in_hand": [
+     "eisen-aizuri",
+     "redfuji",
+     "hi-wave",
+     "portrait-eisen",
+     "portrait-hokusai"
+    ],
+    "to_make": [
+     {
+      "what": "ship, junk, fan, pigment glyphs",
+      "licence": "own drawing, CC0"
+     },
+     {
+      "what": "dashed undated-leg style",
+      "licence": "n/a"
+     },
+     {
+      "what": "Nagasaki → Edo leg",
+      "licence": "n/a (not in places.yaml; drawn dashed, probable)"
+     },
+     {
+      "what": "advertisement card",
+      "licence": "text quoted via Smith 2005 (smith-blue), ≤ 25 words, cited"
+     }
+    ],
+    "exists": [
+     "routes berlin, voc, china (places.yaml)",
+     "blueprice lane (timeline)"
+    ]
+   },
+   "risks": [
+    "five of six legs undated: the readout shows a span, never a guessed year",
+    "'first made' in b3-3 against the 'earliest known' rule: the caption says 'made'",
+    "date inconsistency 1704 / 1704–06 / c. 1706",
+    "arrival at Edo's printers argued (b3-4)",
+    "the junk origin is a region, not a port",
+    "the fan stand-in is not the 1829 fan (Brooklyn, not in hand)",
+    "label collisions: Berlin/Amsterdam at world tier (sequenced); Nagasaki · Dejima (one label)"
+   ]
+  },
+  {
+   "id": "T4",
+   "title": "The road",
+   "kind": "journey",
+   "subkind": "journey without dated stops (spatial stepper, clock held)",
+   "inventory_ids": {
+    "journeys": [
+     "tokaido"
+    ],
+    "events": [
+     "e1833"
+    ],
+    "objects": [
+     "nihonbashi",
+     "t-shinagawa",
+     "t-kanagawa",
+     "t-hakone",
+     "t-mishima",
+     "t-kanbara",
+     "t-yui",
+     "t-shono",
+     "t-kyoto"
+    ]
+   },
+   "span": [
+    1833,
+    1834
+   ],
+   "road_from": 1635,
+   "surfaces": [
+    "unit-map (Japan, view 134.6 34.0 141.3 36.2)",
+    "stage"
+   ],
+   "told_in": {
+    "beats": [
+     "b4-8",
+     "b1-1",
+     "b5-8"
+    ],
+    "stations": [
+     "L6 S7",
+     "L1 S2"
+    ],
+    "interactives": []
+   },
+   "understand": "The lords' road was the series' spine; Hiroshige's sheets sit where the road stops; the reprint figures are estimates.",
+   "demands": [
+    {
+     "quote": "The Tōkaidō was the lords' road between the two capitals.",
+     "from": "b4-8",
+     "element": "the faint road, before state",
+     "surface": "unit-map",
+     "date": 1635
+    },
+    {
+     "quote": "In 1833–34 Hiroshige designed the Fifty-three Stations of the Tōkaidō for the publisher Hōeidō: fifty-five sheets from Nihonbashi to Kyoto.",
+     "from": "b4-8; L6 S7",
+     "element": "the route draws, 55 points",
+     "surface": "unit-map",
+     "date": "1833–34"
+    },
+    {
+     "quote": "Watch the road draw itself, station by station.",
+     "from": "b4-8",
+     "element": "stepped legs; sheets rise at nine stations",
+     "surface": "unit-map + stage",
+     "date": "undated"
+    },
+    {
+     "quote": "Kanbara's snow, Mishima's mist",
+     "from": "L6 S7",
+     "element": "t-kanbara (n 15), t-mishima (n 11)",
+     "surface": "stage",
+     "date": null
+    },
+    {
+     "quote": "Some sheets were reprinted twelve to fifteen thousand times, by the usual estimate.",
+     "from": "b4-8",
+     "element": "runs bubble (probable)",
+     "surface": "caption",
+     "date": 1833.5
+    },
+    {
+     "quote": "the monster cat of Okazaki, from a ghost play set on the Tōkaidō",
+     "from": "b5-8",
+     "element": "Okazaki (n 38): a tap card, not a tick",
+     "surface": "unit-map",
+     "date": "c. 1850"
+    }
+   ],
+   "shots": [
+    {
+     "n": 1,
+     "surface": "unit-map",
+     "camera": "still; settle",
+     "clock": {
+      "readout": "1635 → 1833",
+      "time_passing": "readout moves from the lords' road to the series"
+     },
+     "actors": [
+      "faint road",
+      "Nihonbashi",
+      "Kyoto"
+     ],
+     "micro_elements": [],
+     "caption": {
+      "text": "The Tōkaidō: the lords' road between the two capitals. Fifty-five points, Nihonbashi to Sanjō Ōhashi in Kyoto.",
+      "words": 17,
+      "sources": [
+       "wiki-tokaido"
+      ]
+     },
+     "labels": [
+      "Nihonbashi",
+      "Kyoto"
+     ],
+     "primary_label": "Nihonbashi",
+     "dims": [
+      "other places"
+     ],
+     "duration": "reader-held",
+     "flags": [
+      "Edo unlabelled: Nihonbashi is in it"
+     ]
+    },
+    {
+     "n": 2,
+     "surface": "unit-map + stage",
+     "camera": "follow the road at constant pace between the nine print stations",
+     "clock": {
+      "readout": "1833–34 (held)",
+      "time_passing": "none: the stations carry no dates, so the stepper is spatial with the clock held"
+     },
+     "actors": [
+      "road draws station to station",
+      "at each print station the sheet rises on the stage and its label inks"
+     ],
+     "micro_elements": [
+      "station marks"
+     ],
+     "caption": {
+      "text": "1833–34: Hiroshige designs the Fifty-three Stations for Hōeidō, fifty-five sheets. The road draws itself, station by station.",
+      "words": 17,
+      "sources": [
+       "wiki-tokaido",
+       "korenberg",
+       "wiki-hiroshige"
+      ]
+     },
+     "labels": [
+      "the current station",
+      "the previous station"
+     ],
+     "primary_label": "the current station",
+     "dims": [
+      "other stations"
+     ],
+     "duration": "auto-step 3 s per print station with pause bar, or arrows",
+     "flags": [
+      "all 54 legs undated: the clock must not move while the road draws",
+      "segments between stations are straight lines: schematic"
+     ],
+     "ticks": [
+      {
+       "n": 0,
+       "name": "Nihonbashi",
+       "image": "nihonbashi",
+       "holder": "Met JP471",
+       "caption": "Nihonbashi, station one: morning view, where the road and the series begin."
+      },
+      {
+       "n": 1,
+       "name": "Shinagawa",
+       "image": "t-shinagawa",
+       "holder": "Commons (MIA)",
+       "caption": "Shinagawa, station 1: Hiroshige's sheet, Commons (MIA).",
+       "note": "author on the pattern; title and holder from images.json"
+      },
+      {
+       "n": 3,
+       "name": "Kanagawa",
+       "image": "t-kanagawa",
+       "holder": "Commons (BM)",
+       "caption": "Kanagawa, station 3: Hiroshige's sheet, Commons (BM).",
+       "note": "author on the pattern; title and holder from images.json"
+      },
+      {
+       "n": 10,
+       "name": "Hakone",
+       "image": "t-hakone",
+       "holder": "Commons (MFA)",
+       "caption": "Hakone, station 10: Hiroshige's sheet, Commons (MFA).",
+       "note": "author on the pattern; title and holder from images.json"
+      },
+      {
+       "n": 11,
+       "name": "Mishima",
+       "image": "t-mishima",
+       "holder": "AIC 1932.170",
+       "caption": "Mishima, station 11: Hiroshige's sheet, AIC 1932.170.",
+       "note": "author on the pattern; title and holder from images.json"
+      },
+      {
+       "n": 15,
+       "name": "Kanbara",
+       "image": "t-kanbara",
+       "holder": "Commons (MFA)",
+       "caption": "Kanbara, station 15: Hiroshige's sheet, Commons (MFA).",
+       "note": "author on the pattern; title and holder from images.json"
+      },
+      {
+       "n": 16,
+       "name": "Yui",
+       "image": "t-yui",
+       "holder": "AIC 1963.666",
+       "caption": "Yui, station 16: Hiroshige's sheet, AIC 1963.666.",
+       "note": "author on the pattern; title and holder from images.json"
+      },
+      {
+       "n": 45,
+       "name": "Shōno",
+       "image": "t-shono",
+       "holder": "AIC 1925.3553",
+       "caption": "Shōno, station 45: Hiroshige's sheet, AIC 1925.3553.",
+       "note": "author on the pattern; title and holder from images.json"
+      },
+      {
+       "n": 54,
+       "name": "Kyoto (Sanjō Ōhashi)",
+       "image": "t-kyoto",
+       "holder": "AIC 1925.3563",
+       "caption": "Kyoto (Sanjō Ōhashi), station 54: Hiroshige's sheet, AIC 1925.3563.",
+       "note": "author on the pattern; title and holder from images.json"
+      }
+     ],
+     "per_stop_caption_pattern": "station number, sheet title, holder; e.g. 'Nihonbashi, station one: morning view, where the road and the series begin.' (Met JP471)"
+    },
+    {
+     "n": 3,
+     "surface": "unit-map",
+     "camera": "hold at Kyoto",
+     "clock": {
+      "readout": "1833–34 (held)",
+      "time_passing": "none"
+     },
+     "actors": [
+      "full road drawn",
+      "46 unpictured stations as small tappable marks"
+     ],
+     "micro_elements": [
+      "runs bubble (probable)"
+     ],
+     "caption": {
+      "text": "Kyoto, Sanjō Ōhashi: the road's end. Some sheets were reprinted twelve to fifteen thousand times, by the usual estimate (probable).",
+      "words": 20,
+      "sources": [
+       "korenberg",
+       "wiki-tokaido"
+      ]
+     },
+     "labels": [
+      "Kyoto",
+      "Nihonbashi"
+     ],
+     "primary_label": "Kyoto",
+     "dims": [],
+     "duration": "reader-held",
+     "flags": [
+      "reprint figure is an estimate (probable)"
+     ]
+    }
+   ],
+   "interactions": {
+    "step": "nine print stations (n 0, 1, 3, 10, 11, 15, 16, 45, 54)",
+    "scrub": "drag along the road (spatial; the clock holds)",
+    "tap_stop": "any of the 55 marks: name, and the sheet where one exists; Okazaki (n 38) and Hamamatsu (n 29, Tadakuni's domain) are tap cards only",
+    "open_object": [
+     "nihonbashi",
+     "t-shinagawa",
+     "t-kanagawa",
+     "t-hakone",
+     "t-mishima",
+     "t-kanbara",
+     "t-yui",
+     "t-shono",
+     "t-kyoto"
+    ],
+    "guess": null,
+    "guess_note": "b4-8 carries no guess and the content supports none"
+   },
+   "assets": {
+    "in_hand": [
+     "nihonbashi",
+     "t-shinagawa",
+     "t-kanagawa",
+     "t-hakone",
+     "t-mishima",
+     "t-kanbara",
+     "t-yui",
+     "t-shono",
+     "t-kyoto",
+     "portrait-hiroshige"
+    ],
+    "to_make": [
+     {
+      "what": "station marks",
+      "licence": "own drawing, CC0"
+     }
+    ],
+    "exists": [
+     "tokaido list (places.yaml, n 0–54)",
+     "tokaidoPrints mapping (map.js)"
+    ],
+    "not_made": [
+     "procession glyph: the domains are unnamed in the unit"
+    ]
+   },
+   "risks": [
+    "all legs undated: the one scene whose stepper is spatial",
+    "fifty-three in the title, fifty-five sheets",
+    "straight segments are schematic",
+    "label collisions: Nihonbashi/Shinagawa (~8 km, sequenced); Kanagawa/Yokohama (Yokohama not drawn in 1833); Hakone/Mishima (n 10, 11); Edo/Nihonbashi",
+    "the reprint figure is an estimate"
+   ]
+  },
+  {
+   "id": "T5",
+   "title": "The censor regimes",
+   "kind": "run",
+   "subkind": "run on the stage and the timeline bands; no map",
+   "inventory_ids": {
+    "groups": [
+     "censor-regimes"
+    ],
+    "events": [
+     "e1790",
+     "x1843-nanushi",
+     "e1855"
+    ],
+    "objects": [
+     "harunobu-1765",
+     "utamaro-tsutaya",
+     "gishi",
+     "shower",
+     "namazu",
+     "desk-odawara",
+     "desk-seki",
+     "desk-hotohoto"
+    ]
+   },
+   "span": [
+    1765,
+    1855
+   ],
+   "bands": [
+    1600,
+    1876
+   ],
+   "surfaces": [
+    "stage (a print's margin)",
+    "timeline (bands)"
+   ],
+   "told_in": {
+    "beats": [
+     "b2-4",
+     "b2-5",
+     "b5-5",
+     "b6-4",
+     "b6-2"
+    ],
+    "stations": [
+     "L2 S7",
+     "L4 S4"
+    ],
+    "interactives": [
+     "I1"
+    ],
+    "labs": [
+     "catalogue",
+     "sealtimeline",
+     "censor"
+    ]
+   },
+   "understand": "Four regimes, four seals; a margin dates a sheet to within a few years; the law named designer, writer and publisher and never the carver or the printer.",
+   "demands": [
+    {
+     "quote": "no censor's seal anywhere",
+     "from": "harunobu-1765 (Seal Timeline 'before 1790' card)",
+     "element": "an empty margin, before state",
+     "surface": "stage",
+     "date": 1765
+    },
+    {
+     "quote": "From the fifth month of 1790 publishers had to submit every design to censors chosen from their own guild.",
+     "from": "b2-4; L4 S4",
+     "element": "tick; the kiwame band inks",
+     "surface": "timeline",
+     "date": 1790
+    },
+    {
+     "quote": "Approval was a small round seal reading kiwame, “examined”, cut into the key block.",
+     "from": "b2-4",
+     "element": "極 appears printed with the key line (cut, not wet-stamped)",
+     "surface": "stage",
+     "date": 1790
+    },
+    {
+     "quote": "The law named three people for every sheet: the designer, the writer and the publisher. It never named the carver or the printer.",
+     "from": "b2-5; L2 S7",
+     "element": "names card",
+     "surface": "stage",
+     "date": 1790
+    },
+    {
+     "quote": "From 1843 ward headmen, nanushi, stamped prints with their own names: one seal, then two from 1847, then two with a date.",
+     "from": "b5-5",
+     "element": "name seals stamp (wet): one, two, two plus date",
+     "surface": "stage",
+     "date": [
+      1843,
+      1847,
+      1852
+     ]
+    },
+    {
+     "quote": "From 1853 a single seal reading aratame, “examined”, usually came with a date seal.",
+     "from": "b5-5; b6-4",
+     "element": "改 and 巳九 on the shower margin",
+     "surface": "stage",
+     "date": [
+      1853,
+      1857
+     ]
+    },
+    {
+     "quote": "Most were unsigned and uncensored.",
+     "from": "b6-2",
+     "element": "the namazu margin, empty",
+     "surface": "stage",
+     "date": 1855.9
+    }
+   ],
+   "shots": [
+    {
+     "n": 1,
+     "surface": "timeline + stage",
+     "camera": "timeline focus 1785–1880 (lane state, bands at a quarter); stage settles on the harunobu-1765 margin",
+     "clock": {
+      "readout": "1765",
+      "time_passing": "none; before state"
+     },
+     "actors": [
+      "empty margin"
+     ],
+     "micro_elements": [],
+     "caption": {
+      "text": "Before 1790 no seal was required. This calendar print of 1765 carries none.",
+      "words": 13,
+      "sources": [
+       "met-harunobu",
+       "vjp-seals"
+      ]
+     },
+     "labels": [
+      "No seal (band)"
+     ],
+     "primary_label": "No seal (band)",
+     "dims": [
+      "other bands"
+     ],
+     "duration": "reader-held",
+     "flags": []
+    },
+    {
+     "n": 2,
+     "surface": "stage",
+     "camera": "hold; the kiwame band inks",
+     "clock": {
+      "readout": "fifth month 1790",
+      "time_passing": "tick"
+     },
+     "actors": [
+      "極 appears with the key line on utamaro-tsutaya's margin, one pulse",
+      "ivy leaf beside it"
+     ],
+     "micro_elements": [
+      "seal 極 (cut, printed with the line)"
+     ],
+     "caption": {
+      "text": "Fifth month, 1790: every design goes to censors from the publishers' own guild. The seal: 極 kiwame, “examined”, cut into the key block.",
+      "words": 23,
+      "sources": [
+       "wiki-kansei",
+       "jaanus-aratame",
+       "vjp-seals"
+      ]
+     },
+     "labels": [
+      "kiwame 極",
+      "Tsutaya's ivy leaf",
+      "signature"
+     ],
+     "primary_label": "kiwame 極",
+     "dims": [],
+     "duration": "reader-held",
+     "flags": [
+      "the b2-4 tap guess is asked here"
+     ]
+    },
+    {
+     "n": 3,
+     "surface": "stage",
+     "camera": "hold",
+     "clock": {
+      "readout": "1790",
+      "time_passing": "none"
+     },
+     "actors": [
+      "names card"
+     ],
+     "micro_elements": [],
+     "caption": {
+      "text": "The law named three people for every sheet: designer, writer and publisher. It never named the carver or the printer.",
+      "words": 20,
+      "sources": [
+       "vjp-seals",
+       "vjp-sumptuary"
+      ]
+     },
+     "labels": [],
+     "primary_label": null,
+     "dims": [],
+     "duration": "reader-held",
+     "flags": []
+    },
+    {
+     "n": 4,
+     "surface": "stage",
+     "camera": "hold; the nanushi band inks",
+     "clock": {
+      "readout": "1843 → 1847 → 1852",
+      "time_passing": "three sub-ticks at 2.5 s"
+     },
+     "actors": [
+      "on the gishi margin a name seal stamps",
+      "a second name seal (1847)",
+      "a date seal joins (1852; shown on a desk print)"
+     ],
+     "micro_elements": [
+      "name seal (wet stamp) ×2",
+      "date seal"
+     ],
+     "caption": {
+      "text": "From 1843 ward headmen, nanushi, stamp their own names: one seal, two from 1847, two with a date from 1852.",
+      "words": 20,
+      "sources": [
+       "jaanus-aratame",
+       "vjp-seals"
+      ]
+     },
+     "labels": [
+      "nanushi",
+      "Murata",
+      "1847",
+      "1852"
+     ],
+     "primary_label": "nanushi",
+     "dims": [],
+     "duration": "7.5 s auto with pause bar",
+     "flags": [
+      "the 1852 date seal is on a desk print (desks.json), not in images.json"
+     ]
+    },
+    {
+     "n": 5,
+     "surface": "stage",
+     "camera": "hold; the aratame band inks",
+     "clock": {
+      "readout": "1853 → 1857",
+      "time_passing": "two ticks"
+     },
+     "actors": [
+      "the shower margin: 改, then 巳九 read against the nengō lane"
+     ],
+     "micro_elements": [
+      "seal 改",
+      "date seal 巳九"
+     ],
+     "caption": {
+      "text": "From 1853 one seal, 改 aratame, usually with a date seal. 巳九, Snake year, ninth month: 1857.",
+      "words": 17,
+      "sources": [
+       "jaanus-aratame",
+       "hiroshige-uk"
+      ]
+     },
+     "labels": [
+      "aratame 改",
+      "date seal 巳九",
+      "publisher 魚栄",
+      "signature"
+     ],
+     "primary_label": "aratame 改",
+     "dims": [],
+     "duration": "reader-held",
+     "flags": [
+      "who examined after 1853 is probable"
+     ]
+    },
+    {
+     "n": 6,
+     "surface": "stage",
+     "camera": "cut",
+     "clock": {
+      "readout": "November 1855",
+      "time_passing": "tick"
+     },
+     "actors": [
+      "the namazu sheet, its margin empty"
+     ],
+     "micro_elements": [],
+     "caption": {
+      "text": "November 1855: catfish prints within two days of the earthquake, most unsigned and uncensored. A margin can be empty.",
+      "words": 19,
+      "sources": [
+       "smits-namazu",
+       "rom-namazu"
+      ]
+     },
+     "labels": [
+      "no seal"
+     ],
+     "primary_label": "no seal",
+     "dims": [],
+     "duration": "reader-held",
+     "flags": []
+    }
+   ],
+   "interactions": {
+    "step": "six ticks (1765, 1790, 1843, 1847, 1852, 1853/1857, 1855.9)",
+    "scrub": null,
+    "tap_stop": "a band opens its card and the desk prints that belong to it",
+    "open_object": "each margin at deep zoom (Catalogue Desk)",
+    "links": [
+     "desks:seals (b5-5)",
+     "desks:catalogue (b6-4)"
+    ],
+    "guess": {
+     "beat": "b2-4",
+     "type": "tap",
+     "q": "From 1790, whose marks on this sheet made them answerable to the law?",
+     "truth": "signature and publisher's mark",
+     "placed": "shot 2"
+    }
+   },
+   "assets": {
+    "in_hand": [
+     "harunobu-1765",
+     "utamaro-tsutaya",
+     "sharaku",
+     "gishi",
+     "shower",
+     "namazu",
+     "cat",
+     "portrait-sadanobu",
+     "portrait-tadakuni"
+    ],
+    "to_make": [
+     {
+      "what": "four seal glyphs (極, 改, a name seal, a date seal)",
+      "licence": "redrawn marks, own drawing, CC0"
+     }
+    ],
+    "exists": [
+     "bandsanim (b5-5)",
+     "timeline bands"
+    ],
+    "to_fetch": [
+     "desk-odawara",
+     "desk-seki",
+     "desk-hotohoto",
+     "desk-actors1850 (Cleveland / AIC, in desks.json, not images.json)"
+    ]
+   },
+   "risks": [
+    "who examined after 1853 is probable",
+    "kiwame 'cut into the key block' vs nanushi 'stamped': the two micro-animations must differ or the content is contradicted",
+    "the case reads the seal on AIC 1925.3030, the unit on Cleveland 1940.1031 (a different object, same fact)",
+    "Hori Take's carver seals (L2 S7) were dropped in v4: not ticked",
+    "the 1857 reading depends on the nengō lane",
+    "no map: no label collisions"
+   ]
+  },
+  {
+   "id": "T6",
+   "title": "Tsutaya's gamble",
+   "kind": "incident",
+   "subkind": "run with a city incident",
+   "inventory_ids": {
+    "groups": [
+     "tsutaya-life"
+    ],
+    "journeys": [
+     "tsutaya-move"
+    ],
+    "events": [
+     "x1774-tsutaya-shop",
+     "e1783",
+     "e1790",
+     "e1791",
+     "e1794",
+     "e1797"
+    ],
+    "objects": [
+     "portrait-tsutaya",
+     "printshop",
+     "utamaro-tsutaya",
+     "sharaku"
+    ]
+   },
+   "span": [
+    1750,
+    1797
+   ],
+   "surfaces": [
+    "sheet-1859",
+    "stage",
+    "timeline (lifespans)"
+   ],
+   "told_in": {
+    "beats": [
+     "b2-1",
+     "b2-2",
+     "b2-4",
+     "b2-5",
+     "b2-6",
+     "b2-8"
+    ],
+    "stations": [
+     "L4 S1",
+     "L4 S2",
+     "L4 S3",
+     "L4 S4",
+     "L4 S5",
+     "L4 S6",
+     "L4 S7",
+     "L4 S8"
+    ],
+    "interactives": [
+     "I4 check"
+    ],
+    "study": [
+     "S3"
+    ]
+   },
+   "understand": "A publisher born at the edge moved to the centre, was fined half of what he owned, answered with luxury, and from 1790 was held answerable for every sheet.",
+   "demands": [
+    {
+     "quote": "Tsutaya was born in the Shin-Yoshiwara in 1750 and grew up there.",
+     "from": "b2-1; L4 S1",
+     "element": "the quarter as a labelled district; never entered",
+     "surface": "sheet-1859",
+     "date": 1750
+    },
+    {
+     "quote": "His first business was a bookshop on the road to the quarter's gate.",
+     "from": "b2-1",
+     "element": "shop glyph on the Gojikken road (approx)",
+     "surface": "sheet-1859",
+     "date": 1774
+    },
+    {
+     "quote": "His first product was its printed guide, the Yoshiwara saiken, which he came to publish alone.",
+     "from": "b2-1",
+     "element": "book glyph",
+     "surface": "sheet-1859",
+     "date": 1776
+    },
+    {
+     "quote": "In 1783 he moved into the city, to Tōri Abura-chō by Nihonbashi, the street of the big houses.",
+     "from": "b2-1; L4 S2",
+     "element": "one leg, the shop moves",
+     "surface": "sheet-1859",
+     "date": 1783
+    },
+    {
+     "quote": "His seal was an ivy leaf under a three-peaked Fuji.",
+     "from": "b2-1",
+     "element": "seal glyph lands",
+     "surface": "sheet-1859",
+     "date": 1783
+    },
+    {
+     "quote": "This is what a print shop looked like, drawn by Hokusai for a picture book of 1802.",
+     "from": "b2-2; L4 S2",
+     "element": "printshop image, labelled stand-in",
+     "surface": "stage",
+     "date": 1802
+    },
+    {
+     "quote": "Kyōden was manacled for fifty days. Tsutaya was fined half of everything he owned.",
+     "from": "b2-5; L4 S4",
+     "element": "the shop mark halves; no manacle glyph",
+     "surface": "sheet-1859 + timeline",
+     "date": 1791
+    },
+    {
+     "quote": "About 140 designs followed in ten months, all for Tsutaya. Then nothing.",
+     "from": "b2-6; L4 S6",
+     "element": "a ten-month span fills; the sharaku sheet",
+     "surface": "timeline + stage",
+     "date": [
+      1794.4,
+      1795.2
+     ]
+    },
+    {
+     "quote": "Tsutaya died in 1797, aged 47. His shop went on under his name.",
+     "from": "b2-8; L4 S8",
+     "element": "lifespan ends; the mark stays",
+     "surface": "timeline + sheet-1859",
+     "date": 1797
+    }
+   ],
+   "shots": [
+    {
+     "n": 1,
+     "surface": "sheet-1859",
+     "camera": "wide; settle at the gate, never inside the quarter",
+     "clock": {
+      "readout": "1750 → 1774",
+      "time_passing": "two ticks"
+     },
+     "actors": [
+      "the quarter as a labelled district",
+      "the Gojikken-road blot (approx)",
+      "shop glyph"
+     ],
+     "micro_elements": [
+      "shop"
+     ],
+     "caption": {
+      "text": "1750: Tsutaya Jūzaburō is born in the Shin-Yoshiwara. 1774: a bookshop on the road to the quarter's gate.",
+      "words": 18,
+      "sources": [
+       "wiki-tsutaya",
+       "suntory-tsutaya"
+      ]
+     },
+     "labels": [
+      "Shin-Yoshiwara",
+      "Gojikken road"
+     ],
+     "primary_label": "Shin-Yoshiwara",
+     "dims": [
+      "the rest of the sheet"
+     ],
+     "duration": "reader-held",
+     "flags": [
+      "content note shown once",
+      "yoshiwara-gate approx",
+      "the Yoshiwara is a labelled district: no interior, no figures"
+     ]
+    },
+    {
+     "n": 2,
+     "surface": "sheet-1859",
+     "camera": "hold",
+     "clock": {
+      "readout": "1776",
+      "time_passing": "tick"
+     },
+     "actors": [
+      "book glyph at the shop"
+     ],
+     "micro_elements": [
+      "book"
+     ],
+     "caption": {
+      "text": "1776: he publishes the Yoshiwara saiken, the quarter's printed guide, alone.",
+      "words": 11,
+      "sources": [
+       "wiki-tsutaya"
+      ]
+     },
+     "labels": [
+      "Gojikken road"
+     ],
+     "primary_label": "Gojikken road",
+     "dims": [],
+     "duration": "reader-held",
+     "flags": []
+    },
+    {
+     "n": 3,
+     "surface": "sheet-1859",
+     "camera": "follow one leg gate → Tōri Abura-chō",
+     "clock": {
+      "readout": "1783",
+      "time_passing": "one leg, 1.5 s"
+     },
+     "actors": [
+      "shop mark moves",
+      "mark pulses once",
+      "ivy-leaf seal lands"
+     ],
+     "micro_elements": [
+      "shop",
+      "seal (ivy leaf under Fuji)"
+     ],
+     "caption": {
+      "text": "1783: into the city, to Tōri Abura-chō by Nihonbashi, the street of the big houses. His seal: an ivy leaf under Fuji.",
+      "words": 22,
+      "sources": [
+       "wiki-tsutaya",
+       "suntory-tsutaya",
+       "sumida-producers"
+      ]
+     },
+     "labels": [
+      "Tōri Abura-chō",
+      "Nihonbashi",
+      "Gojikken road"
+     ],
+     "primary_label": "Tōri Abura-chō",
+     "dims": [
+      "the quarter to a quarter"
+     ],
+     "duration": "1.5 s, then reader-held",
+     "flags": [
+      "the I4 map tap guess is asked before the leg draws"
+     ]
+    },
+    {
+     "n": 4,
+     "surface": "stage",
+     "camera": "cut",
+     "clock": {
+      "readout": "1783 (held)",
+      "time_passing": "none"
+     },
+     "actors": [
+      "printshop image with its stand-in line"
+     ],
+     "micro_elements": [],
+     "caption": {
+      "text": "A print shop drawn by Hokusai in 1802. The Tokyo Metropolitan Library identifies it as Tsutaya's own (probable). Sheets hang in front.",
+      "words": 22,
+      "sources": [
+       "tml-azuma",
+       "forrer-sellers"
+      ]
+     },
+     "labels": [],
+     "primary_label": null,
+     "dims": [],
+     "duration": "reader-held",
+     "flags": [
+      "the image is 1802 for an 1783 beat: a labelled stand-in; identification probable"
+     ]
+    },
+    {
+     "n": 5,
+     "surface": "timeline + sheet-1859",
+     "camera": "timeline (state, trade; lifespans tsutaya, kyoden) with the kiwame tick; the sheet beside",
+     "clock": {
+      "readout": "1790 → 1791",
+      "time_passing": "two ticks"
+     },
+     "actors": [
+      "kiwame tick",
+      "the shop mark halves"
+     ],
+     "micro_elements": [],
+     "caption": {
+      "text": "1791: three of Kyōden's books, published by Tsutaya, judged offensive. Kyōden manacled fifty days; Tsutaya fined half of everything he owned.",
+      "words": 21,
+      "sources": [
+       "sa-tsutaya",
+       "vjp-sumptuary",
+       "wiki-kyoden"
+      ]
+     },
+     "labels": [
+      "Tōri Abura-chō"
+     ],
+     "primary_label": "Tōri Abura-chō",
+     "dims": [],
+     "duration": "reader-held",
+     "flags": [
+      "no manacle glyph: punishments named with their verbs, not drawn"
+     ]
+    },
+    {
+     "n": 6,
+     "surface": "stage + timeline",
+     "camera": "cut",
+     "clock": {
+      "readout": "fifth month 1794 → 1795",
+      "time_passing": "a ten-month span fills on the print lane"
+     },
+     "actors": [
+      "the sharaku sheet",
+      "counter 'about 140 designs'"
+     ],
+     "micro_elements": [
+      "span bar",
+      "counter"
+     ],
+     "caption": {
+      "text": "Fifth month, 1794: actor portraits signed Sharaku. About 140 designs in ten months, all for Tsutaya. Then nothing.",
+      "words": 18,
+      "sources": [
+       "aic-sharaku",
+       "met-sharaku"
+      ]
+     },
+     "labels": [
+      "Sharaku's ten months"
+     ],
+     "primary_label": "Sharaku's ten months",
+     "dims": [],
+     "duration": "reader-held",
+     "flags": []
+    },
+    {
+     "n": 7,
+     "surface": "timeline + sheet-1859",
+     "camera": "hold",
+     "clock": {
+      "readout": "1797",
+      "time_passing": "tick"
+     },
+     "actors": [
+      "the lifespan bar ends",
+      "the shop mark stays"
+     ],
+     "micro_elements": [],
+     "caption": {
+      "text": "1797: Tsutaya dies, aged 47. His shop goes on under his name.",
+      "words": 12,
+      "sources": [
+       "wiki-tsutaya",
+       "suntory-tsutaya"
+      ]
+     },
+     "labels": [],
+     "primary_label": null,
+     "dims": [],
+     "duration": "reader-held",
+     "flags": [
+      "age at death: 47 (unit) vs 48 (case): editor"
+     ]
+    }
+   ],
+   "interactions": {
+    "step": "seven ticks (1750, 1774, 1776, 1783, 1791, 1794.4, 1797)",
+    "scrub": [
+     1750,
+     1797
+    ],
+    "tap_stop": "a tick opens its card",
+    "open_object": [
+     "printshop",
+     "utamaro-tsutaya",
+     "sharaku",
+     "portrait-tsutaya"
+    ],
+    "guess": {
+     "beat": "new (I4 check)",
+     "type": "map",
+     "q": "Where did Tsutaya's shop stand after 1783?",
+     "truth": "toriaburacho",
+     "placed": "before shot 3's leg"
+    },
+    "links": [
+     "contract (I10): read from the content note, never inside the scene"
+    ]
+   },
+   "assets": {
+    "in_hand": [
+     "portrait-tsutaya",
+     "printshop",
+     "utamaro-tsutaya",
+     "sharaku",
+     "portrait-kyoden",
+     "portrait-utamaro",
+     "portrait-sadanobu",
+     "map-edo-1859"
+    ],
+    "to_make": [
+     {
+      "what": "shop, book and ivy-leaf seal glyphs",
+      "licence": "redrawn, own drawing, CC0"
+     }
+    ],
+    "exists": [
+     "tsutaya-move (map.js MOVES)"
+    ]
+   },
+   "risks": [
+    "the Yoshiwara rule: a labelled district, a gate, no interior, no figures; yoshiwara-nakanocho is not used here",
+    "yoshiwara-gate approx",
+    "age at death 47/48",
+    "the 1802 shop image for an 1783 beat (said so)",
+    "the 1788 advertisement (L3 S6) has no source id: not ticked",
+    "label collisions: Tōri Abura-chō/Nihonbashi (adjacent); Shin-Yoshiwara/Saruwaka-chō/Asakusa cluster (only the quarter labelled)"
+   ]
+  },
+  {
+   "id": "T7",
+   "title": "A hundred views",
+   "kind": "run",
+   "subkind": "run on the sheet",
+   "inventory_ids": {
+    "groups": [
+     "hundred-views"
+    ],
+    "events": [
+     "e1856",
+     "e1858"
+    ],
+    "objects": [
+     "shower",
+     "hv-058",
+     "hv-099",
+     "hv-107",
+     "plum",
+     "map-edo-1859"
+    ]
+   },
+   "span": [
+    1856,
+    1858
+   ],
+   "surfaces": [
+    "sheet-1859 (whole)",
+    "stage",
+    "timeline strip"
+   ],
+   "told_in": {
+    "beats": [
+     "b6-3",
+     "b6-4"
+    ],
+    "stations": [
+     "L6 S7"
+    ],
+    "labs": [
+     "view"
+    ]
+   },
+   "understand": "118 views, each a place you could walk to, finished as Hiroshige died; the sheet's margin, not its picture, dates it.",
+   "demands": [
+    {
+     "quote": "Between 1856 and 1858 Hiroshige designed the One Hundred Famous Views of Edo for the publisher Uoya.",
+     "from": "b6-3; L6 S7",
+     "element": "the span; Uoya's chip",
+     "surface": "timeline",
+     "date": 1856
+    },
+    {
+     "quote": "There are 118 views, with a title page by another hand.",
+     "from": "b6-3",
+     "element": "the count on the caption",
+     "surface": "caption",
+     "date": null
+    },
+    {
+     "quote": "Each dot on this map of 1859 is one of them, coloured by season.",
+     "from": "b6-3",
+     "element": "119 dots (two Akasaka sheets) in four season washes",
+     "surface": "sheet-1859",
+     "date": "undated: season only"
+    },
+    {
+     "quote": "a sudden shower over the Shin-Ōhashi bridge, 1857",
+     "from": "b6-4; inventory: 9th month of the Snake year",
+     "element": "dot n 58 pulses; the shower sheet",
+     "surface": "sheet-1859 + stage",
+     "date": 1857.7
+    },
+    {
+     "quote": "Hiroshige died in 1858, as the set was being finished.",
+     "from": "b6-3",
+     "element": "lifespan ends; the memorial portrait",
+     "surface": "timeline",
+     "date": 1858
+    }
+   ],
+   "shots": [
+    {
+     "n": 1,
+     "surface": "sheet-1859",
+     "camera": "whole sheet, settle; bare of dots",
+     "clock": {
+      "readout": "1856",
+      "time_passing": "none"
+     },
+     "actors": [
+      "Uoya's chip"
+     ],
+     "micro_elements": [],
+     "caption": {
+      "text": "1856: Hiroshige begins the One Hundred Famous Views of Edo for the publisher Uoya Eikichi.",
+      "words": 15,
+      "sources": [
+       "hiroshige-uk",
+       "wiki-100views"
+      ]
+     },
+     "labels": [
+      "Nihonbashi",
+      "Edo Castle",
+      "Asakusa",
+      "Ryōgoku"
+     ],
+     "primary_label": "Nihonbashi",
+     "dims": [],
+     "duration": "reader-held",
+     "flags": []
+    },
+    {
+     "n": 2,
+     "surface": "sheet-1859",
+     "camera": "hold; the cursor crawls",
+     "clock": {
+      "readout": "1856 → 1858",
+      "time_passing": "readout crawls ~8 s with pause bar while the four season washes ink at 1.5 s each"
+     },
+     "actors": [
+      "spring 42 dots",
+      "summer 30",
+      "autumn 26",
+      "winter 21"
+     ],
+     "micro_elements": [
+      "season dot tints"
+     ],
+     "caption": {
+      "text": "118 views in three years. Every view stood somewhere you could walk to. Each dot is one, coloured by the season it shows.",
+      "words": 23,
+      "sources": [
+       "hiroshige-uk",
+       "wiki-100views"
+      ]
+     },
+     "labels": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+     ],
+     "primary_label": "spring",
+     "dims": [
+      "place labels"
+     ],
+     "duration": "8 s auto with pause bar",
+     "flags": [
+      "the dots have no publication dates in the sources: the order is by the season depicted, not by date, and the caption says so",
+      "dot xy on a georeference with 70–220 m residuals: approximate",
+      "119 entries for 118 views (two Akasaka sheets)"
+     ]
+    },
+    {
+     "n": 3,
+     "surface": "sheet-1859 → stage",
+     "camera": "push-in on Shin-Ōhashi; dot n 58 pulses once",
+     "clock": {
+      "readout": "ninth month 1857",
+      "time_passing": "tick"
+     },
+     "actors": [
+      "the shower sheet on the stage"
+     ],
+     "micro_elements": [
+      "pulse"
+     ],
+     "caption": {
+      "text": "Ninth month of the Snake year, 1857: a sudden shower over Shin-Ōhashi bridge. The seals in its margin date it.",
+      "words": 20,
+      "sources": [
+       "hiroshige-uk",
+       "jaanus-aratame"
+      ]
+     },
+     "labels": [
+      "Shin-Ōhashi",
+      "Atake"
+     ],
+     "primary_label": "Shin-Ōhashi",
+     "dims": [
+      "other dots"
+     ],
+     "duration": "reader-held",
+     "flags": [
+      "the margin tool (b6-4, moment D) is offered here, reader-stepped"
+     ]
+    },
+    {
+     "n": 4,
+     "surface": "timeline strip + sheet-1859",
+     "camera": "hold",
+     "clock": {
+      "readout": "1858",
+      "time_passing": "tick"
+     },
+     "actors": [
+      "Hiroshige's lifespan ends",
+      "memorial-portrait chip",
+      "the dots hold"
+     ],
+     "micro_elements": [],
+     "caption": {
+      "text": "1858: Hiroshige dies as the set is finished. A last portrait of the city, ten years before it was renamed Tokyo.",
+      "words": 21,
+      "sources": [
+       "wiki-hiroshige",
+       "hiroshige-uk",
+       "wiki-edo"
+      ]
+     },
+     "labels": [],
+     "primary_label": null,
+     "dims": [],
+     "duration": "reader-held",
+     "flags": []
+    }
+   ],
+   "interactions": {
+    "step": "three dated ticks (1856, 1857.7, 1858)",
+    "scrub": [
+     1856,
+     1858
+    ],
+    "tap_stop": "any dot opens its sheet (places.yaml views; Commons file)",
+    "open_object": [
+     "shower",
+     "margin tool",
+     "view lab (hv-099, hv-058, hv-107)"
+    ],
+    "explore_only": [
+     "season filter"
+    ],
+    "guess": null,
+    "guess_note": "b6-3 carries no guess and the content supports none"
+   },
+   "assets": {
+    "in_hand": [
+     "map-edo-1859",
+     "shower",
+     "plum",
+     "portrait-hiroshige"
+    ],
+    "to_fetch": [
+     "107 of 119 view entries name a Commons file (public domain); none is in images.json"
+    ],
+    "to_make": [
+     {
+      "what": "four season dot tints (washi, sumi, indigo palette)",
+      "licence": "own, CC0"
+     },
+     {
+      "what": "title-page note",
+      "licence": "n/a"
+     }
+    ],
+    "exists": [
+     "views layer (places.yaml views, map.js)"
+    ]
+   },
+   "risks": [
+    "no per-sheet dates: never tick the dots by date",
+    "118 views, 119 entries; the title page not dotted",
+    "dot positions approximate (georef residuals 70–220 m)",
+    "label collisions: dense dots around Nihonbashi and Ryōgoku (no dot labels; tap only); Shin-Ōhashi/Atake adjacent",
+    "twelve views have no Commons file"
+   ]
+  },
+  {
+   "id": "T8",
+   "title": "The Meireki fire",
+   "kind": "incident",
+   "subkind": "city-scale incident with an after-state",
+   "inventory_ids": {
+    "journeys": [
+     "fire-1657",
+     "yoshiwara-move"
+    ],
+    "groups": [
+     "meireki-outbreaks"
+    ],
+    "events": [
+     "e1657",
+     "x1617-yoshiwara",
+     "x1657-yoshiwara-move"
+    ],
+    "objects": [
+     "map-edo-1859"
+    ]
+   },
+   "span": "January 1657, two days; then after 1657",
+   "surfaces": [
+    "sheet-1859"
+   ],
+   "told_in": {
+    "beats": [
+     "b1-2",
+     "b1-3"
+    ],
+    "stations": [
+     "L1 S3"
+    ],
+    "study": [
+     "S2"
+    ]
+   },
+   "understand": "Three fires in two days burned six or seven tenths of the city, the keep was never rebuilt, and the rebuilt city spread east and moved its licensed quarter north.",
+   "demands": [
+    {
+     "quote": "In the first month of 1657 a fire broke out at Honmyō-ji temple in Hongō, at about two in the afternoon.",
+     "from": "b1-2; L1 S3",
+     "element": "micro flames on the Hongō blot (approx)",
+     "surface": "sheet-1859",
+     "date": "day 1, about 14:00"
+    },
+    {
+     "quote": "The next morning a second fire started in Koishikawa.",
+     "from": "b1-2",
+     "element": "flames, Koishikawa (approx)",
+     "surface": "sheet-1859",
+     "date": "day 2, morning"
+    },
+    {
+     "quote": "That afternoon a third began in Kōjimachi.",
+     "from": "b1-2",
+     "element": "flames, Kōjimachi (approx)",
+     "surface": "sheet-1859",
+     "date": "day 2, afternoon"
+    },
+    {
+     "quote": "Between sixty and seventy per cent of the city burned, and the castle keep was never rebuilt.",
+     "from": "b1-2",
+     "element": "keep mark fades to an outline; a number on the caption; no burnt area painted",
+     "surface": "sheet-1859",
+     "date": 1657
+    },
+    {
+     "quote": "The dead are counted at anything from thirty thousand to a hundred thousand.",
+     "from": "b1-2",
+     "element": "range card",
+     "surface": "caption",
+     "date": 1657
+    },
+    {
+     "quote": "A bridge at Ryōgoku crossed the Sumida, and the districts of Honjo and Fukagawa grew on the far bank.",
+     "from": "b1-3",
+     "element": "Ryōgoku and Honjo ink (Fukagawa: no place in places.yaml, caption only)",
+     "surface": "sheet-1859",
+     "date": "after 1657"
+    },
+    {
+     "quote": "After 1657 it was rebuilt in the rice fields north of Asakusa, behind a moat with a single gate, as the Shin-Yoshiwara.",
+     "from": "b1-3",
+     "element": "one mark moves (approx origin); content note; no interior",
+     "surface": "sheet-1859",
+     "date": "after 1657"
+    }
+   ],
+   "shots": [
+    {
+     "n": 1,
+     "surface": "sheet-1859",
+     "camera": "settle; before state held 2 s",
+     "clock": {
+      "readout": "1657 · first month",
+      "time_passing": "none"
+     },
+     "actors": [
+      "the keep",
+      "three soft blots",
+      "Nihonbashi",
+      "the old quarter (approx, dim)"
+     ],
+     "micro_elements": [],
+     "caption": {
+      "text": "First month of 1657. Three districts marked approximately on the 1859 map: Hongō, Koishikawa, Kōjimachi. The castle keep stands.",
+      "words": 19,
+      "sources": [
+       "wiki-meireki",
+       "tmg-census",
+       "loc-1859"
+      ]
+     },
+     "labels": [
+      "Edo Castle",
+      "Hongō",
+      "Koishikawa",
+      "Kōjimachi"
+     ],
+     "primary_label": "Edo Castle",
+     "dims": [
+      "the rest of the sheet"
+     ],
+     "duration": "2 s hold, then reader-held",
+     "flags": [
+      "the 1859 map stands for 1657: said once",
+      "approx: hongo, koishikawa, kojimachi, yoshiwara-old"
+     ]
+    },
+    {
+     "n": 2,
+     "surface": "sheet-1859",
+     "camera": "hold",
+     "clock": {
+      "readout": "day 1 · about two in the afternoon",
+      "time_passing": "tick 1"
+     },
+     "actors": [
+      "Hongō pulses once",
+      "small flames flicker on the blot and never leave it"
+     ],
+     "micro_elements": [
+      "flame micro-glyph"
+     ],
+     "caption": {
+      "text": "Day one, about two in the afternoon: a fire breaks out at Honmyō-ji temple in Hongō.",
+      "words": 16,
+      "sources": [
+       "wiki-meireki"
+      ]
+     },
+     "labels": [
+      "Hongō"
+     ],
+     "primary_label": "Hongō",
+     "dims": [
+      "other blots"
+     ],
+     "duration": "reader-held",
+     "flags": [
+      "no burnt extent is in the sources: flames stay on the blot"
+     ]
+    },
+    {
+     "n": 3,
+     "surface": "sheet-1859",
+     "camera": "hold",
+     "clock": {
+      "readout": "day 2 · morning",
+      "time_passing": "tick 2"
+     },
+     "actors": [
+      "Koishikawa pulses; flames",
+      "Hongō's flames fall to embers"
+     ],
+     "micro_elements": [
+      "flame micro-glyph",
+      "ember"
+     ],
+     "caption": {
+      "text": "The next morning: a second fire starts in Koishikawa.",
+      "words": 9,
+      "sources": [
+       "wiki-meireki"
+      ]
+     },
+     "labels": [
+      "Koishikawa",
+      "Hongō"
+     ],
+     "primary_label": "Koishikawa",
+     "dims": [],
+     "duration": "reader-held",
+     "flags": []
+    },
+    {
+     "n": 4,
+     "surface": "sheet-1859",
+     "camera": "hold",
+     "clock": {
+      "readout": "day 2 · afternoon",
+      "time_passing": "tick 3"
+     },
+     "actors": [
+      "Kōjimachi pulses; flames",
+      "the keep fades to an outline"
+     ],
+     "micro_elements": [
+      "flame micro-glyph",
+      "keep outline"
+     ],
+     "caption": {
+      "text": "That afternoon: a third fire in Kōjimachi. Six or seven tenths of the city burn; the castle keep is never rebuilt.",
+      "words": 21,
+      "sources": [
+       "wiki-meireki",
+       "tmg-census"
+      ]
+     },
+     "labels": [
+      "Kōjimachi",
+      "Edo Castle"
+     ],
+     "primary_label": "Kōjimachi",
+     "dims": [],
+     "duration": "reader-held",
+     "flags": [
+      "the 60–70 % is a caption number, never a painted shape"
+     ]
+    },
+    {
+     "n": 5,
+     "surface": "sheet-1859",
+     "camera": "hold",
+     "clock": {
+      "readout": "1657",
+      "time_passing": "none"
+     },
+     "actors": [
+      "flames to embers",
+      "range card"
+     ],
+     "micro_elements": [
+      "ember"
+     ],
+     "caption": {
+      "text": "The dead are counted at anything from thirty thousand to a hundred thousand.",
+      "words": 13,
+      "sources": [
+       "wiki-meireki"
+      ]
+     },
+     "labels": [],
+     "primary_label": null,
+     "dims": [],
+     "duration": "reader-held",
+     "flags": [
+      "sensitivity: a range on a card; no figures, no bodies"
+     ]
+    },
+    {
+     "n": 6,
+     "surface": "sheet-1859",
+     "camera": "hold; one leg 1.5 s",
+     "clock": {
+      "readout": "after 1657",
+      "time_passing": "the readout says 'after 1657' (b1-3 sits at 1660 as a placeholder)"
+     },
+     "actors": [
+      "Ryōgoku bridge mark inks",
+      "Honjo inks",
+      "the quarter's mark moves from near Nihonbashi to north of Asakusa"
+     ],
+     "micro_elements": [
+      "bridge mark"
+     ],
+     "caption": {
+      "text": "After 1657 the city spreads east over Ryōgoku bridge. The licensed quarter, near Nihonbashi since 1617, is rebuilt north of Asakusa.",
+      "words": 21,
+      "sources": [
+       "wiki-meireki",
+       "wiki-yoshiwara"
+      ]
+     },
+     "labels": [
+      "Ryōgoku",
+      "Honjo",
+      "Shin-Yoshiwara",
+      "Nihonbashi"
+     ],
+     "primary_label": "Ryōgoku",
+     "dims": [
+      "the fire blots"
+     ],
+     "duration": "1.5 s, then reader-held",
+     "flags": [
+      "content note on the card; the quarter is a mark, no interior, no figures",
+      "yoshiwara-old approx",
+      "Fukagawa has no place in places.yaml: caption only"
+     ]
+    }
+   ],
+   "interactions": {
+    "step": "three outbreaks and two after-ticks (arrows; a two-day span is stepped, not scrubbed)",
+    "scrub": null,
+    "tap_stop": "a blot opens its card (time of day, the temple)",
+    "open_object": [
+     "map-edo-1859"
+    ],
+    "guess": null,
+    "guess_note": "a death toll is not a guess; b1-2 carries none"
+   },
+   "assets": {
+    "in_hand": [
+     "map-edo-1859"
+    ],
+    "to_make": [
+     {
+      "what": "flame micro-glyph (two-frame flicker; a static ember under reduced motion)",
+      "licence": "own drawing, CC0"
+     },
+     {
+      "what": "keep outline mark",
+      "licence": "own, CC0"
+     },
+     {
+      "what": "Ryōgoku bridge mark",
+      "licence": "own, CC0"
+     }
+    ],
+    "exists": [
+     "fire pins (map.js anim fire)",
+     "yoshiwara-move (map.js MOVES)"
+    ],
+    "not_in_hand": [
+     "map-edo-1677 (L1 S4's transparency scrub cannot be built)"
+    ]
+   },
+   "risks": [
+    "the 1859 map stands for 1657: two centuries of anachronism, said once; the 1677 map is missing",
+    "four approximate places",
+    "no burnt area: do not paint one",
+    "'18–20 January' (case) vs 'the first month' (story): both on the card",
+    "the Yoshiwara rule: a mark that moves, content note, no interior",
+    "Fukagawa has no place in places.yaml",
+    "label collisions: old Yoshiwara/Nihonbashi (~0.5 km, approx: label the quarter only while it moves); Asakusa/Shin-Yoshiwara/Saruwaka-chō (Shin-Yoshiwara only)"
+   ]
+  }
+ ],
+ "repeats": [
+  {
+   "id": "date-number-caption",
+   "pattern": "Every shot's caption carries the clock's date and one figure (a price, a count, a share, a range). The caption is the counter; nothing counts elsewhere."
+  },
+  {
+   "id": "before-state",
+   "pattern": "Every city incident holds the 'before' state for 2 s on the sheet before anything moves (T1 shot 4, T6 shot 1, T8 shot 1)."
+  },
+  {
+   "id": "globe-follows-constant-leg",
+   "pattern": "Every route scene pans the globe to keep the leading stop centred at a constant 1.2 s per leg; distance never sets duration. Undated legs are dashed and the readout shows a span. The undated road (T4) steps by place with the clock held and says so."
+  },
+  {
+   "id": "inset-on-region-cut",
+   "pattern": "Every world scene keeps context when it cuts to a region: inset locator, full route at a quarter (T2 shot 5)."
+  },
+  {
+   "id": "end-on-object",
+   "pattern": "Every scene ends on an object on the stage: the map hands off to the proof (the cat, the cover, Red Fuji and the Wave, the Kyoto sheet, the empty catfish margin, the Sharaku, the Shower)."
+  },
+  {
+   "id": "argued-after-evidence",
+   "pattern": "Argued stations are offered after the evidence shot, never before (b3-4 after the price, b5-7 after the count and the bubble, b7-6 after the counts)."
+  },
+  {
+   "id": "existing-guess-or-none",
+   "pattern": "Guesses are the existing nine or none: five scenes carry one (b5-2, b7-1g, b3-2g, b2-4, I4's map tap); three carry none because the content supports none (T4, T7, T8). No timers, no scores."
+  },
+  {
+   "id": "label-budget",
+   "pattern": "One primary and at most three others; close pairs (Sakai-chō/Fukiya-chō, Nihonbashi/Shinagawa, Berlin/Amsterdam, Port Said/Suez, Kanagawa/Yokohama, Shin-Ōhashi/Atake, Asakusa/Shin-Yoshiwara/Saruwaka-chō) are labelled one at a time as their leg draws or share one leader."
+  },
+  {
+   "id": "honesty-line",
+   "pattern": "Every scene has an honesty line: approximate blots, dashed undated legs, stand-ins (the early-1830s sheet for the 1829 fan; the 1802 shop for 1783; the 1859 map for 1657 and 1750), 'linked, not shown', the argued count. The framework needs one caption-footer slot for it."
+  },
+  {
+   "id": "glyph-set",
+   "pattern": "Micro-elements come from a fixed set of fourteen own-drawn CC0 glyphs (ship, junk, steamer, crate, pavilion, shop, book, fan, pigment, coin, soba bowl, flame, seals: one cut and three stamped, bubble), each drawn only where a line demands it. No flag appeared because no line demanded one."
+  },
+  {
+   "id": "sensitivity-moves",
+   "pattern": "The quarter is a labelled district and a mark that moves, with the content note once and no interior; punishments are named with their verbs and no glyph; death tolls are ranges on a card."
+  },
+  {
+   "id": "run-cap",
+   "pattern": "Runs are capped at twelve ticks: afterlife (15) splits into Paris and America; the Tōkaidō's 55 stations become nine print stations. Every scene has 3–7 shots and at most nine ticks."
+  },
+  {
+   "id": "reduced-motion",
+   "pattern": "Reduced motion is the same scene: every flight a cut, every draw a fade, every flicker a static mark; captions and end states identical."
+  }
+ ]
+}

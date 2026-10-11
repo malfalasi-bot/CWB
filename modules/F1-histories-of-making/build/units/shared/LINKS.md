@@ -23,3 +23,5 @@ node or step codes the learner engaged, e.g. `#ink.edo.tsutaya~hokusai~e1842~des
 ## Study (12 October 2026)
 - Edo motion, layers and focus: https://claude.ai/artifact/ScB2y7em7CwFptFwphxbgR (page) · `reports/Edo motion, layers and focus.md` · inputs in `research_notes/Motion layers and focus/`
 - The decisions of 12 October are recorded in the Composer's db (`decisions/<dimension>`) and in `research_notes/Motion layers and focus/STUDY.md` §1.
+- Edo scenes and the framework (study 2): https://claude.ai/artifact/PBGj46jyL1YK6BZaVnpJ3L (page) · `reports/Edo scene framework.md` · `research_notes/Motion layers and focus/{scenes.md, scenes.json, FRAMEWORK.md, beats_study.md, editorial_process.md}`
+- Answers of 12 October (late): instrument guesses cover the checks; lectures as a side panel and a room; Atlas lectures by chapter; v4's look is the finish.
