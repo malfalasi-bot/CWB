@@ -19,3 +19,7 @@ node or step codes the learner engaged, e.g. `#ink.edo.tsutaya~hokusai~e1842~des
 - Atlas reads `#ink.*`, stores it in its own localStorage (try/catch), and inks the matching nodes and the unit territory.
 - The Atlas links into a piece with `#from.atlas` (the piece shows a "Back to the Atlas" link).
 - Pieces link to each other with a plain anchor of a scene id, e.g. `.../73RSURL2MWqJpyJuh4mdh6#b4-3`.
+
+## Study (12 October 2026)
+- Edo motion, layers and focus: https://claude.ai/artifact/ScB2y7em7CwFptFwphxbgR (page) · `reports/Edo motion, layers and focus.md` · inputs in `research_notes/Motion layers and focus/`
+- The decisions of 12 October are recorded in the Composer's db (`decisions/<dimension>`) and in `research_notes/Motion layers and focus/STUDY.md` §1.
