@@ -1,7 +1,7 @@
 """Grades every run in an iteration against objective assertions, writes grading.json per run."""
 import json, os, re, sys
 from PIL import Image
-IT = sys.argv[1]
+IT = sys.argv[1] if __name__ == "__main__" else ""
 COMMON = [
   ("Paper ground: the page background is the course's washi #F1EADB (or the token --paper)", lambda h, d: ('F1EADB' in h.upper()) or ('--paper' in h)),
   ("Course serif: Source Serif 4 or Shippori Mincho named in the font stack", lambda h, d: ('Source Serif' in h) or ('Shippori' in h)),
@@ -39,7 +39,9 @@ SPECIFIC = {
   ("Page works at 390 px: screenshot is 390 wide and the rows stack", lambda h, d: Image.open(os.path.join(d,'shot-390.png')).width in (390,780)),
  ],
 }
-for e in sorted(os.listdir(IT)):
+if __name__ == "__main__":
+  pass
+for e in (sorted(os.listdir(IT)) if __name__ == "__main__" else []):
     ep = os.path.join(IT, e)
     if not os.path.isdir(ep) or not e.startswith('eval-'): continue
     key = e[:6]

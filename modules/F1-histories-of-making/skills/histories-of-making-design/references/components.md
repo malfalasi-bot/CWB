@@ -1,8 +1,8 @@
 # Components
 
-Twenty-eight components in seven families (objects · time · place and motion · groupings and relations · arguments and methods · protocol · frame), each with its references (numbers refer to `research_notes/Design language references/references_study.md`), its surface, its anatomy, its rules, and its first Edo instance. Build the anatomy in the order given; stop at the budget.
+Thirty-three components in eight families (objects · time · place and motion · groupings and relations · arguments and methods · protocol · frame · story), each with its references (numbers refer to `research_notes/Design language references/references_study.md`), its surface, its anatomy, its rules, and its first Edo instance. Build the anatomy in the order given; stop at the budget.
 
-Contents: 1 Annotated object page · 2 Exploded view · 3 Typology plate · 4 Span list · 5 Material biography · 6 Works wall · 7 Phase strip · 8 Journey bar · 9 List · globe · panel · 10 Anchored label · 11 Sized legend · 12 Route callout · 13 Stepper · 14 One-colour map · 15 Progress bar per item · 16 Frosted panel · 17 Gallery rhythm · 18 Lecture identity · 19 Process step-strip and comparison box · 20 Character sheet · 21 Grouping page · 22 Relation graph · 23 Compare sheet · 24 Argument card · 25 Credit map · 26 Coverage grid · 27 Branch view · 28 Protocol sheet
+Contents: 1 Annotated object page · 2 Exploded view · 3 Typology plate · 4 Span list · 5 Material biography · 6 Works wall · 7 Phase strip · 8 Journey bar · 9 List · globe · panel · 10 Anchored label · 11 Sized legend · 12 Route callout · 13 Stepper · 14 One-colour map · 15 Progress bar per item · 16 Frosted panel · 17 Gallery rhythm · 18 Lecture identity · 19 Process step-strip and comparison box · 20 Character sheet · 21 Grouping page · 22 Relation graph · 23 Compare sheet · 24 Argument card · 25 Credit map · 26 Coverage grid · 27 Branch view · 28 Protocol sheet · 29 Scene player · 30 Lane chart with focus · 31 Scene sheet · 32 Station player · 33 Inline widget
 
 ## 1. Annotated object page (refs 08, 09, 03)
 
@@ -259,3 +259,54 @@ Anatomy: (1) the Notice: the community's own name first, one line, the course's 
 Rules: a held item is unpublished and its gap is said in words; restricted stays discoverable but inaccessible, with the reason; the course notices but never labels; no interior of a sacred or domestic space; no restricted design, no recitation, no drawing of our own of an excluded object, no generated image; multiple community narratives in the order the community sets; never a game.
 
 First: F1.29 (oral history kit); F1.26 (protocol builder); F1.12 (Country and record).
+
+## 29. Scene player (STUDY §3, §7; FRAMEWORK §1–§8)
+
+One player for the unit stage, the timeline focus and the Atlas; plays a scene from `scenes.yaml`.
+
+Anatomy: the surface (globe, map, sheet or stage) with the focus mask dimming everything outside the scene; the clock readout top right in the shot's mode; the timeline strip under a map surface (span, ticks, cursor; the journey bar for a journey); the caption in its fixed slot (bottom left on maps, beside the object on the stage) with its sources and claim id; the step control (previous / next, "n of N", a pause bar when a shot auto-steps); the locator inset on a region cut; the honesty line on the last shot; the hand-off ("open the unit at this scene", "open the Atlas here").
+
+Rules: one camera move per shot; the camera settles 400 ms before the caption lands; the globe turns before a leg draws; one primary label and ≤ 3 others; at most two highlight kinds; glyphs from the library only; nothing auto-advances past 5 s without a control; arrows step, space pauses, Escape leaves; reduced motion cuts and fades with the same captions and end states; every scene ends on an object on the stage.
+
+First: the blue (journey), the sixth month of 1842 (run), the Meireki fire (incident), one sheet many hands (demonstration).
+
+## 30. Lane chart with focus (STUDY §5)
+
+The unit's only timeline, and the clock of every surface.
+
+Anatomy: lanes (the state; the makers; the objects; the world; the afterlife), a price lane, run bubbles, the calendar lane (the source's reckoning: nengō, reign, Hijri); the cursor with its readout (CE · the reckoning); the act band with declared gaps and overlaps; a focus: the chart zoomed to a span never narrower than ten years, its items listed as ticks, the chart dimmed outside the span; the stop-and-play controls (Play, Step, Hold, Escape) with the pause bar; the span-list twin.
+
+Rules: no fast sweep; a tick is a point (hollow if probable), a halo for circa, a bar for a range, never an argued value; auto-step 2.5–4 s with a pause bar, only inside a focus; ≤ 12 ticks per focus (a longer group splits); the map and the stage answer the cursor; the lecture player's stations are the same ticks.
+
+First: the Edo lane chart; the censor regimes; the ban and its effects; the afterlife 1867–1928.
+
+## 31. Scene sheet (beats on the ink thread) (beats_study §2–§4)
+
+The text beside the pinned stage: the hinge between the instrument and the lecture.
+
+Anatomy: the threshold as the title card (its thesis sentence, the lecture and station span); 3–7 beats after it on the ink thread, each of one kind (caption, focus, bridge, note, prompt), each with its station chip; the one aside, if any, in the margin off the thread; a prompt's answer drawn on the instrument as truth ink, never as a card; the bridge as the last card where place or scale changes.
+
+Rules: lengths per kind (`beats.md` §3); subject and date in every beat's own words; no antecedent outside the beat; confidence words only in notes and a prompt's `say`; a focus has one number or date and one mark; a caption's first sentence names the instrument; every year and number a register claim; read cold, out of order, before it ships.
+
+First: Act II scenes 3–4 (Lecture 5 "Blue").
+
+## 32. Station player (the lectures layer) (STUDY §8; beats_study §1)
+
+The full lecture, at full volume, beside the stage or as a room.
+
+Anatomy: the lecture's title and thesis; its stations as a list with "n of N"; the station text (narration and storyboard); the station's instrument state applied to the stage when the learner asks ("show this"); the highlighted beats of the station it is on; the prediction, once, where the lecture poses it; the argued pair as an argument card (24); sources; previous / next.
+
+Rules: a station is one instrument state and one showable claim; the station is a tick of the lane chart; the player never auto-plays narration; the lecture colour appears only on its own elements (18); on phones the player is a sheet from the bottom.
+
+First: Lecture 5 "Blue", eight stations.
+
+## 33. Inline widget (STUDY §8)
+
+An in-lecture interactive placed where the story needs it (a route scrubber, a price card, margin hotspots, an export counter).
+
+Anatomy: a "What this shows" line in mono above; the instrument bound to the clock; one control; the caption with its claim id; no autoplay.
+
+Rules: one widget per beat; it listens to the cursor and never runs its own clock; reduced motion shows the end state; a widget that only decorates is cut.
+
+First: the blue-route scrubber; the price card; the margin hotspots; the export counter.
+

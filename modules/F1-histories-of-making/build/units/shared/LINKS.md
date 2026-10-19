@@ -30,3 +30,7 @@ node or step codes the learner engaged, e.g. `#ink.edo.tsutaya~hokusai~e1842~des
 - Reference study (twenty references): https://claude.ai/artifact/RocimpNhz1XZMAF4bGPt2c · `research_notes/Design language references/references_study.md` · images in `refs/`
 - The skill: `skills/histories-of-making-design/` (SKILL.md, references/components.md, tokens.css, checklist.md); evals in `evals/`; grading script in `skills/histories-of-making-design-workspace/grade.py`
 - Expandability study (the language against all 38 units and 21 grouping kinds): https://claude.ai/artifact/9U6KpHe1678oe9KH1d6FpR · `research_notes/Design language expandability/` · the skill is now version 2 (28 components, scripts/calendars/protocol/identities/method references)
+
+## Design language v3 (20 October 2026)
+- Skill: `skills/histories-of-making-design/` — v3 folds in the motion/layers/focus study and the scene framework (`references/scenes.md`), the beats study (`references/beats.md`) and the editorial process (`references/claims.md`); components 29–33 (scene player, lane chart with focus, scene sheet, station player, inline widget).
+- Evals 6–8 (journey scene, beats from stations, claims register + lane chart): `skills/histories-of-making-design-workspace/iteration-3/` — review.html, benchmark.md.

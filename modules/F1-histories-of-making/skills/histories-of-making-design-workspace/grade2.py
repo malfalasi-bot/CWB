@@ -1,6 +1,6 @@
 import json, os, re, sys
 from PIL import Image
-IT = sys.argv[1]
+IT = sys.argv[1] if __name__ == "__main__" else ""
 def has(h, *pats): return all(re.search(p, h, re.I|re.S) for p in pats)
 COMMON = [
   ("Paper ground and course tokens (#F1EADB / --paper)", lambda h,d: 'F1EADB' in h.upper() or '--paper' in h),
@@ -47,7 +47,9 @@ SPEC = {
   ("Course notices but never labels (no 'TK Label' applied by the course)", lambda h,d: not re.search(r'label applied|labelled by the course', h, re.I)),
  ],
 }
-for e in sorted(os.listdir(IT)):
+if __name__ == "__main__":
+  pass
+for e in (sorted(os.listdir(IT)) if __name__ == "__main__" else []):
     ep=os.path.join(IT,e)
     if not os.path.isdir(ep) or not e.startswith('eval-'): continue
     key=e[:6]

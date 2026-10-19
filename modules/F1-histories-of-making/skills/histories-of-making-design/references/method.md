@@ -28,16 +28,16 @@ Fill the inventory schema used for Edo (`research_notes/Motion layers and focus/
 
 ## 4. Register
 
-Every date and number on any page is a claim in the register (`content/claims.yaml`: id, claim, value, precision, calendar, confidence, sources, alternates, display, where_used). The lint refuses a year in prose the register does not hold. Resolve alternates before any tick is authored; name the outside source needed where the repo cannot settle it.
+Every date and number on any page is a claim in the register (`content/claims.yaml`, schema and lint in `claims.md`: id, claim, value, precision, calendar, confidence, sources, alternates, display, where_used, editor_note). The lint refuses a year in prose the register does not hold. Resolve alternates before any tick is authored; name the outside source needed where the repo cannot settle it. Freeze the register (`claims-v1`) before step 6.
 
 ## 5. Choose
 
 From SKILL.md §4, the page type for each kind of knowledge the unit carries; from `identities.md`, the unit's colours and motifs; from `scripts.md`, the fonts and bidi rules for its scripts; from `protocol.md`, the level for every living-practice row; from `calendars.md`, the reckonings to show beside CE. Write the choices as a one-page plan: surfaces, components, what waits.
 
-## 6. Storyboard
+## 6. Storyboard, lectures and beats
 
-For each scene, quote the content line that demands each element (a ship, a seal, flames), then the shot list with camera, clock, actors, labels, caption with sources, and the honesty line, as in `research_notes/Motion layers and focus/scenes.md`. Rank the unit's journeys and runs by significance, density, assets, visual potential and sourcing before choosing which get scenes.
+Rank the unit's journeys and runs (`scenes.md` §7) and choose which get scenes. For each scene, quote the content line that demands each element (a ship, a seal, flames), then the shot list with camera, clock, actors, labels, caption with sources, and the honesty line, as in `research_notes/Motion layers and focus/scenes.md`. Write each scene to the schema in `scenes.md` §5. Write the lectures as stations in `lectures.yaml` (one instrument state and one showable claim each), then derive the beats by the curation in `beats.md` §5; never draft beats first.
 
 ## 7. Build and lint
 
-Build from `tokens.css` and `components.md`; run `checklist.md` at 1440 and 390 px; run the content lint (claims, lengths, confidence words, "earliest known", names, protocol levels). A unit under the thresholds ships its list twin and its grouping cards first and its scenes when the data arrives; it never ships a map with invented placement to look complete.
+Build from `tokens.css` and `components.md`; run `checklist.md` at 1440 and 390 px; run the content lints (`claims.md` §3, `scenes.md` §8, `beats.md` §6; lengths, confidence words, "earliest known", names, protocol levels). A unit under the thresholds ships its list twin and its grouping cards first and its scenes when the data arrives; it never ships a map with invented placement to look complete.

@@ -67,5 +67,22 @@ Run against a screenshot at 1440 px and at 390 px (and in the dark room if the s
 - [ ] Every living-practice, sacred, coerced or seized item carries a protocol level (1–6) and the page draws it: Notice first, content note once, display basis, link-out, excluded in words, or held.
 - [ ] The course notices but never labels; restricted stays discoverable but inaccessible with the reason; consent shown as who, what, when; no generated image; no interior; never a game.
 
+## Scenes and the clock
+- [ ] Every scene has a kind, a span, claims, an honesty line, `ends_on` an object, and `reduced` on every shot; 3–7 shots; a journey has a follow shot; an incident opens on a held "before"; a run has ≤ 9 ticks.
+- [ ] One camera move per shot; the camera settles 400 ms before the caption; no fast sweep; a focus never narrower than ten years; stop-and-play with a pause bar; arrows step, space pauses, Escape leaves.
+- [ ] A layer arrives because the clock reached it, a scene asked for it or the learner inked it; no toggle in the story; no second clock; nothing drifts inside a scene.
+- [ ] Every glyph is in the shared library and the storyboard quotes the content line that demands it; no person glyph on a trade or coerced leg.
+
+## Lectures, beats and people
+- [ ] Lectures are stations (one instrument state, one showable claim each) in `lectures.yaml`; stations are the lane chart's ticks; the player never auto-plays.
+- [ ] Beats are derived from stations: one threshold first, 3–7 after; each of one kind at its length; a station chip on every beat except asides; ≤ 1 aside, ≤ 1 prompt, neither first nor last; no reveal beat.
+- [ ] Every beat names its subject and date in its own words; no dependent opening; a focus has one number or date and one mark; a caption names the instrument first; confidence words only in notes and a prompt's `say`.
+- [ ] People in three layers: inline card at first mention, entity sheet, character cards and Cast; a person never rides a leg.
+
+## The claims register
+- [ ] Every date and number on the surface is a record in `claims.yaml` with value, precision, calendar, confidence, sources, alternates and one display string; the register is frozen before authoring.
+- [ ] Documented unmarked; probable, contested and argued carry the word in the sentence; a range is a bar, a circa a halo, an argued value never a tick, a tile or a clock.
+- [ ] The lint reports no E-codes; every canon disagreement is fixed or carries an editor note.
+
 ## Method (for a new unit)
 - [ ] Research, benchmark, inventory, register, choose, storyboard, build: each step has its file in the unit's research notes, and the benchmark table says what waits.
