@@ -48,3 +48,24 @@ Run against a screenshot at 1440 px and at 390 px (and in the dark room if the s
 - [ ] Reduced motion: the same page with cuts and fades; captions and end states identical.
 - [ ] Quotes ≤ 25 words; "earliest known", never "first"; Japanese names in Japanese order; the Yoshiwara read, not played.
 - [ ] No points, badges, streaks, leaderboards, timers, confetti, completion percentages.
+
+## Groupings, relations and arguments
+- [ ] Every grouping shows "as defined by [who, when]", its membership confidence, "what it leaves out", and the region an age or period was defined for; the civilisation word is not in navigation.
+- [ ] No movement drawn as a line from one origin; no polity as a succession chain; no rise-and-fall curve without a source; groupings carry no identity colour.
+- [ ] Relation graph: every edge typed and sourced; documented solid, probable dotted, contested dashed; ≤ 40 nodes; no drifting layout; a list twin on phones.
+- [ ] Compare sheet: the same six readings; "not known" cells; one scale; the "leaves out" row; nothing coloured or ranked.
+- [ ] Argument card: two readings, neither coloured, both sourced, never marked right; the card returns at the end.
+- [ ] Credit map and coverage grid: "unnamed" / "not known" / "none open" rows kept; counts say who counted and when.
+- [ ] Branch view: one variable, the ghost in `--ghost` with no date, place or glyph; atrocity never the variable; posed after the evidence.
+
+## Scripts, names, calendars
+- [ ] Each script loads its own serif and sans with `lang`; RTL runs isolated; axes and steppers never mirror; no faux italic or bold.
+- [ ] Names as the community writes them; the own name first, the record's exonym after it in quotation marks; transliteration named once.
+- [ ] The readout is CE · the source's reckoning; lunar years across two CE years written as both; Long Count with its correlation; no conversion the register lacks; BCE written out.
+
+## Protocol
+- [ ] Every living-practice, sacred, coerced or seized item carries a protocol level (1–6) and the page draws it: Notice first, content note once, display basis, link-out, excluded in words, or held.
+- [ ] The course notices but never labels; restricted stays discoverable but inaccessible with the reason; consent shown as who, what, when; no generated image; no interior; never a game.
+
+## Method (for a new unit)
+- [ ] Research, benchmark, inventory, register, choose, storyboard, build: each step has its file in the unit's research notes, and the benchmark table says what waits.

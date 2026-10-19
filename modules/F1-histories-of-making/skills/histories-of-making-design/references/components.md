@@ -1,8 +1,8 @@
 # Components
 
-Eighteen components, each with its references (numbers refer to `research_notes/Design language references/references_study.md`), its surface, its anatomy, its rules, and its first Edo instance. Build the anatomy in the order given; stop at the budget.
+Twenty-eight components in seven families (objects · time · place and motion · groupings and relations · arguments and methods · protocol · frame), each with its references (numbers refer to `research_notes/Design language references/references_study.md`), its surface, its anatomy, its rules, and its first Edo instance. Build the anatomy in the order given; stop at the budget.
 
-Contents: 1 Annotated object page · 2 Exploded view · 3 Typology plate · 4 Span list · 5 Material biography · 6 Works wall · 7 Phase strip · 8 Journey bar · 9 List · globe · panel · 10 Anchored label · 11 Sized legend · 12 Route callout · 13 Stepper · 14 One-colour map · 15 Progress bar per item · 16 Frosted panel · 17 Gallery rhythm · 18 Lecture identity · 19 Process step-strip and comparison box (two small ones) · 20 Character sheet
+Contents: 1 Annotated object page · 2 Exploded view · 3 Typology plate · 4 Span list · 5 Material biography · 6 Works wall · 7 Phase strip · 8 Journey bar · 9 List · globe · panel · 10 Anchored label · 11 Sized legend · 12 Route callout · 13 Stepper · 14 One-colour map · 15 Progress bar per item · 16 Frosted panel · 17 Gallery rhythm · 18 Lecture identity · 19 Process step-strip and comparison box · 20 Character sheet · 21 Grouping page · 22 Relation graph · 23 Compare sheet · 24 Argument card · 25 Credit map · 26 Coverage grid · 27 Branch view · 28 Protocol sheet
 
 ## 1. Annotated object page (refs 08, 09, 03)
 
@@ -158,7 +158,7 @@ Scene / objects / scene. The unit opening: the act bar; one photograph or the ac
 
 ## 18. Lecture identity (ref 02)
 
-One colour and one motif per lecture (SKILL.md section 4). Where it appears: the lecture's card (a 4 px colour bar at the left and the motif at 24 px), the threshold beat (the motif as a drop-cap-sized mark), its tick on the timeline (a dot in its colour), its panel header in the Atlas (the colour as the header rule), its journey bar (the travelled part). Where it never appears: on a route, a mark, a map wash, body text.
+One colour and one motif per lecture, derived by `identities.md`. Where it appears: the lecture's card (a 4 px colour bar at the left and the motif at 24 px), the threshold beat (the motif as a drop-cap-sized mark), its tick on the timeline (a dot in its colour), its panel header in the Atlas (the colour as the header rule), its journey bar (the travelled part). Where it never appears: on a route, a mark, a map wash, body text.
 
 ## 19. Process step-strip and comparison box (ref 09)
 
@@ -167,3 +167,95 @@ Step-strip: 3–6 steps as small drawings or crops in a row, numbered, one sente
 ## 20. Character sheet (refs 08, 13)
 
 The third people layer. Portrait (credited), name in Japanese order with kanji, dates (register claims with confidence), one paragraph (≤ 120 words), "appears in" links, the one object most tied to the person, sources, stepper. The inline card (first layer) is the portrait, name, dates and one line; the entity sheet (second layer) adds the paragraph.
+
+## 21. Grouping page (refs 13, 18, 19; Atlas logic §6; Met chronology pages; Smarthistory; WHG)
+
+One page design for all twenty-one kinds of grouping: movement, style, school, archaeological culture, horizon, civilisation (as commonly named), community or people, maker community, belief tradition, polity, dynasty, period, age, calendar, network, interaction sphere or diaspora, region, culture area, environment, material, technique.
+
+Anatomy, top to bottom:
+1. The card: the name as its own members write it (the record's name after it in quotation marks); the kind as the eyebrow; "as defined by [who], [when]" in mono; a span-list row (open-ended as "1860 – …" where the practice is living); the one-colour map of where its members made, or the globe for a network; the membership confidence word; "what it leaves out" in one sentence.
+2. The walk: 6–9 steps over a 120 px map and a span strip, with the stepper; each step one member or one claim.
+3. Members: a gallery row of real objects with lens chips (material, technique, function), contested members tagged "argued" with both readings on tap.
+4. Neighbours and counterparts: adjacent groupings in time and place, as links with their spans.
+5. Afterlives: where its members went, who collected or revived it, as a journey bar where routed.
+6. What is argued: the open questions, each with both readings and their sources.
+7. The apply hook: the one thing the learner can do with it (a lens to switch on, a comparison to open, a tile for the Rebuild).
+8. Sources, then the stepper.
+
+Kind variants: a civilisation puts the caveat card above the card ("a common name, not a grouping the evidence makes; it opens onto: …"); a community puts the Protocol sheet (28) first and shows its territory as a wash; a polity turns on the borders lens labelled "states only"; a dynasty replaces the map with its reigns as a span list; a network draws its arcs on the globe and its people as a separate layer; a period or age shows the region it was defined for beside its bar; a material or technique opens on its biography (5) or step-strip (19).
+
+Rules: never ranked; no rise-and-fall curve unless a source draws it; no origin line (a movement is not an arrow from one place); no identity colour (groupings are ink); the civilisation word never in navigation; every count names who counted and when; the page exists as a list twin.
+
+First: Mingei (movement, F1.8); Nok (archaeological culture, F1.6); the Indian Ocean (network, F1.13); the Diné (community, F1.7, with protocol).
+
+## 22. Relation graph (refs 13, 14; Atlas logic §5; Mathematics Genealogy; Republic of Letters)
+
+For connections, lineage (taught by, copied from, descends from, worked with) and the learner's own authoring.
+
+Anatomy: nodes as paper chips (name over a mono line: kind, range); 1 px sumi edges with their type at the midpoint; documented solid, probable dotted, contested dashed with both readings on tap; the selected node's edges in ink and the rest at a quarter; the panel at the right (9) ending with sources and the stepper; the learner's own nodes and edges on kraft.
+
+Rules: ≤ 40 nodes on screen, then a cluster count; one edge type lit at a time; "challenge an edge" opens the claim and never deletes it; no drifting layout (positions fixed by the data, not a simulation); on phones a list of links; an edge without a source cannot be drawn.
+
+First: F1.1, the tablet dropped onto its nodes; F1.19b, the designer's lineage; F1.27, the learner's lineage.
+
+## 23. Compare sheet (refs 09, 04; Atlas logic §5)
+
+Two to six things read through the same readings.
+
+Anatomy: a column per node (2 at Orientation, up to 6 at Mastery), each headed by the object at one scale (or the scale figure) with its credit line; a row per reading (material, labour, meaning, trade, technique, use), each cell ≤ 25 words with a claim id, an empty cell reading "not known"; a last row, "what this comparison leaves out"; sources; stepper.
+
+Rules: one scale or the scale figure in every column; no cell scored, ranked or coloured; excluded material never enters a column; the readings are the same six on every sheet so comparisons compare.
+
+First: F1.1, the tablet and the khipu; F1.5, three sites at one date; F1.11, three guild rules.
+
+## 24. Argument card (refs 08, 18; Atlas logic §3)
+
+Archetype E opens on one. A claim with two readings.
+
+Anatomy: a mono eyebrow, "argument"; the question in serif; the two readings as deck-size serif paragraphs one above the other, never side by side; each with its case line in `--ink-2` and its claim id; a hairline "I lean to this" under each; the card returns at the end of the unit with "what you wrote".
+
+Variant, the prediction card: the question, a guess made on the instrument, the record shown after; the scene `guess` of the framework.
+
+Rules: no third position; neither reading coloured; the choice is a position, never marked right; both readings sourced; never on coerced or sacred material.
+
+First: F1.3, "civilisation" 1756–57 → 1919 → 1992; F1.2, the plane.
+
+## 25. Credit map (refs 08, 05; F1.18, F1.23)
+
+A ledger of who did the work, over one object.
+
+Anatomy: the object at the left; role rows at the right (designed, spun, dyed, wove or shaped, finished, sold, named on the label), each holding a name, "unnamed" or "not known", and a confidence word; a leader from each filled row to the part of the object it touches; the holder's own credit line beneath, quoted exactly; a last line, "who the credit leaves out".
+
+Rules: rows are never deleted, only set to "not known"; the holder's line is never edited; nothing scored; read-only on coerced cases.
+
+First: the AIC *Lotus* curtain (F1.18); the Benin plaque (F1.23).
+
+## 26. Coverage grid (ref 04; Atlas logic §2; Heilbrunn regions)
+
+Where the record is thick and where it is thin.
+
+Anatomy: rows the nine world chapters, columns the eleven period bands; a cell holds a count in ink and opens a gallery row; an empty cell shows paper and "none open", never a dash; a dated record-density strip beneath; the source and date of the count in the corner.
+
+Rules: counts of things, never progress; every cell links to Place and Time at that cut; ages carry their region; the grid never colours by density (size and ink only).
+
+First: F1.3's density strip; the Atlas's coverage view.
+
+## 27. Branch view (refs 05, 10; FRAMEWORK §8)
+
+A counterfactual beside the record, visually distinct.
+
+Anatomy: the documented line as a span list or works wall in ink; one tick as the variable with a one-sentence rule card; the branch from it in `--ghost`, labelled "did not happen"; consequences as ghost cards tagged "counterfactual"; a "return" control; the clock stays on the documented tick, held.
+
+Rules: one variable at a time; atrocity is never the variable; the ghost gains no date, place or glyph; posed only after the evidence; never on a map.
+
+First: F1.14, one variable on copies; F1.30a.
+
+## 28. Protocol sheet (refs 13, 18; Mukurtu; Local Contexts; CARE)
+
+Consent, review and display for a living community's making. It comes before the content it governs.
+
+Anatomy: (1) the Notice: the community's own name first, one line, the course's TK/BC Notice text used exactly, icon unaltered; (2) the content note, once, before the object; (3) the display-basis line in mono ("made for sale"; "shown with permission, [who], [date]"; "not shown: sacred"); (4) kit mode (F1.29): a stepper, consent → questions → recording → community review → release, each step writing to the learner's record; (5) brief mode (F1.26, F1.16): fixed by the rite / open to the maker / not ours to decide; (6) the review line: "cleared by [reader], [date]" or "awaiting reader".
+
+Rules: a held item is unpublished and its gap is said in words; restricted stays discoverable but inaccessible, with the reason; the course notices but never labels; no interior of a sacred or domestic space; no restricted design, no recitation, no drawing of our own of an excluded object, no generated image; multiple community narratives in the order the community sets; never a game.
+
+First: F1.29 (oral history kit); F1.26 (protocol builder); F1.12 (Country and record).
