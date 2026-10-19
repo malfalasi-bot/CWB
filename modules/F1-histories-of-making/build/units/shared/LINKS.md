@@ -25,3 +25,7 @@ node or step codes the learner engaged, e.g. `#ink.edo.tsutaya~hokusai~e1842~des
 - The decisions of 12 October are recorded in the Composer's db (`decisions/<dimension>`) and in `research_notes/Motion layers and focus/STUDY.md` §1.
 - Edo scenes and the framework (study 2): https://claude.ai/artifact/PBGj46jyL1YK6BZaVnpJ3L (page) · `reports/Edo scene framework.md` · `research_notes/Motion layers and focus/{scenes.md, scenes.json, FRAMEWORK.md, beats_study.md, editorial_process.md}`
 - Answers of 12 October (late): instrument guesses cover the checks; lectures as a side panel and a room; Atlas lectures by chapter; v4's look is the finish.
+
+## Design language (20 October 2026)
+- Reference study (twenty references): https://claude.ai/artifact/RocimpNhz1XZMAF4bGPt2c · `research_notes/Design language references/references_study.md` · images in `refs/`
+- The skill: `skills/histories-of-making-design/` (SKILL.md, references/components.md, tokens.css, checklist.md); evals in `evals/`; grading script in `skills/histories-of-making-design-workspace/grade.py`

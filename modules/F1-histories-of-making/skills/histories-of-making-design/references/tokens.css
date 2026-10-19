@@ -1,0 +1,50 @@
+/* Histories of making: the tokens. Copy as-is; do not restyle. Light is paper; dark exists for the lecture room only. */
+:root {
+  /* ground and ink */
+  --paper: #F1EADB; --paper-2: #FAF6EC; --paper-3: #E9E0CC; --ink: #1D1A15; --ink-2: #554E42; --ink-3: #7A7162;
+  --line: #D6CBB4; --line-2: #C2B596; --land: #E4D8BE; --land-2: #DACCAD; --coast: #4A4234; --sea: #F1EADB;
+  /* the two accents */
+  --indigo: #233C6B; --indigo-2: #3A5A96; --indigo-soft: rgba(35,60,107,.10); --indigo-line: rgba(35,60,107,.55);
+  --seal: #B3301E; --seal-soft: rgba(179,48,30,.10);
+  /* seasons: the Hundred Views and the Tōkaidō only */
+  --spring: #B85C76; --summer: #3E7D5A; --autumn: #B8662A; --winter: #4F6E99;
+  /* kraft: the labs' workbench */
+  --kraft: #DCC8A3; --kraft-2: #EADCC0; --kraft-line: #B49C72;
+  /* lecture identity (Edo); other units define their own eight */
+  --lecture-1: #5C6B7A; --lecture-2: #8A5A3C; --lecture-3: #B85C76; --lecture-4: #4F7A5A;
+  --lecture-5: #233C6B; --lecture-6: #B3301E; --lecture-7: #7A7A86; --lecture-8: #B08A3E;
+  /* apparatus */
+  --leader: 1px; --leader-dot: 6px; --frost: color-mix(in srgb, var(--paper) 86%, transparent); --frost-blur: 6px;
+  --ghost: color-mix(in srgb, var(--ink) 40%, transparent);
+  --shadow: 0 1px 0 rgba(60,45,20,.06), 0 6px 22px -10px rgba(60,45,20,.28);
+  --lift: drop-shadow(0 1px 0 rgba(60,45,20,.10)) drop-shadow(0 18px 30px rgba(60,45,20,.16));
+  --tex: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cfilter id='n' x='0' y='0'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .3 0 0 0 0 .25 0 0 0 0 .18 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='260' height='260' filter='url%28%23n%29'/%3E%3C/svg%3E");
+  /* type */
+  --serif: 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
+  --display: 'Shippori Mincho', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  --ui: 'IBM Plex Sans', system-ui, sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, Menlo, monospace;
+  --body: 17px; --body-lh: 1.55; --measure: 68ch;
+  --deck: italic 400 19px/1.4 var(--serif);
+  --annot-name: 600 12px/1.3 var(--ui); --annot-text: 400 12px/1.4 var(--ui);
+  --eyebrow: 500 11px/1.3 var(--mono); --readout: 500 17px/1 var(--serif);
+  --pull: 500 26px/1.25 var(--serif);
+  /* motion */
+  --d-instant: 70ms; --d-micro: 110ms; --d-short: 200ms; --d-medium: 400ms; --d-long: 600ms; --d-scene: 900ms;
+  --e-standard: cubic-bezier(0.2, 0, 0, 1); --e-enter: cubic-bezier(0.05, 0.7, 0.1, 1); --e-exit: cubic-bezier(0.3, 0, 0.8, 0.15);
+  --e-productive: cubic-bezier(0.2, 0, 0.38, 0.9); --e-expressive: cubic-bezier(0.4, 0.14, 0.3, 1);
+  --card-rise: 240ms var(--e-enter);
+  /* layout */
+  --bar: 56px; --col: clamp(360px, 34vw, 540px); --gut: max(20px, 4vw); --r: 12px;
+}
+/* the lecture room: the only dark surface */
+:root[data-theme="dark"], .room-dark {
+  --paper: #16140F; --paper-2: #1F1C16; --paper-3: #29251D; --ink: #EFE8D8; --ink-2: #BDB39F; --ink-3: #978E7A;
+  --line: #3A352B; --line-2: #4C4637; --land: #2A2620; --land-2: #332E25; --coast: #A69C86; --sea: #16140F;
+  --indigo: #9CB4E6; --indigo-2: #B9CBF0; --indigo-soft: rgba(156,180,230,.13); --indigo-line: rgba(156,180,230,.6);
+  --seal: #E2583F; --seal-soft: rgba(226,88,63,.16);
+  --kraft: #3A3022; --kraft-2: #46392A; --kraft-line: #6E5C40;
+  --shadow: 0 1px 0 rgba(0,0,0,.3), 0 8px 26px -12px rgba(0,0,0,.7);
+  --lift: drop-shadow(0 1px 0 rgba(0,0,0,.4)) drop-shadow(0 18px 30px rgba(0,0,0,.45)); color-scheme: dark;
+}
+@media (prefers-reduced-motion: reduce) { :root { --d-short: 0ms; --d-medium: 0ms; --d-long: 0ms; --d-scene: 0ms; --card-rise: 0ms; } }
