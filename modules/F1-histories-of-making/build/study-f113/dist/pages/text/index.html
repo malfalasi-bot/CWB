@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The blue · scene sheet</title>
+<meta name="description" content="F1.13 Networks, Lecture 1, scene 'The blue': the beats on the ink thread beside the pinned stage at its station-1 state. A static mock of component 31; the stage is a labelled placeholder.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Histories of making: the tokens. Copy as-is; do not restyle. Light is paper; dark exists for the lecture room only. */
+:root {
+  /* ground and ink */
+  --paper: #F1EADB; --paper-2: #FAF6EC; --paper-3: #E9E0CC; --ink: #1D1A15; --ink-2: #554E42; --ink-3: #7A7162;
+  --line: #D6CBB4; --line-2: #C2B596; --land: #E4D8BE; --land-2: #DACCAD; --coast: #4A4234; --sea: #F1EADB;
+  /* the two accents */
+  --indigo: #233C6B; --indigo-2: #3A5A96; --indigo-soft: rgba(35,60,107,.10); --indigo-line: rgba(35,60,107,.55);
+  --seal: #B3301E; --seal-soft: rgba(179,48,30,.10);
+  /* seasons: the Hundred Views and the Tōkaidō only */
+  --spring: #B85C76; --summer: #3E7D5A; --autumn: #B8662A; --winter: #4F6E99;
+  /* kraft: the labs' workbench */
+  --kraft: #DCC8A3; --kraft-2: #EADCC0; --kraft-line: #B49C72;
+  /* lecture identity (Edo); other units define their own eight */
+  --lecture-1: #5C6B7A; --lecture-2: #8A5A3C; --lecture-3: #B85C76; --lecture-4: #4F7A5A;
+  --lecture-5: #233C6B; --lecture-6: #B3301E; --lecture-7: #7A7A86; --lecture-8: #B08A3E;
+  /* apparatus */
+  --leader: 1px; --leader-dot: 6px; --frost: color-mix(in srgb, var(--paper) 86%, transparent); --frost-blur: 6px;
+  --ghost: color-mix(in srgb, var(--ink) 40%, transparent);
+  --shadow: 0 1px 0 rgba(60,45,20,.06), 0 6px 22px -10px rgba(60,45,20,.28);
+  --lift: drop-shadow(0 1px 0 rgba(60,45,20,.10)) drop-shadow(0 18px 30px rgba(60,45,20,.16));
+  --tex: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cfilter id='n' x='0' y='0'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .3 0 0 0 0 .25 0 0 0 0 .18 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='260' height='260' filter='url%28%23n%29'/%3E%3C/svg%3E");
+  /* type */
+  --serif: 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
+  --display: 'Shippori Mincho', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  --ui: 'IBM Plex Sans', system-ui, sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, Menlo, monospace;
+  --body: 17px; --body-lh: 1.55; --measure: 68ch;
+  --deck: italic 400 19px/1.4 var(--serif);
+  --annot-name: 600 12px/1.3 var(--ui); --annot-text: 400 12px/1.4 var(--ui);
+  --eyebrow: 500 11px/1.3 var(--mono); --readout: 500 17px/1 var(--serif);
+  --pull: 500 26px/1.25 var(--serif);
+  /* motion */
+  --d-instant: 70ms; --d-micro: 110ms; --d-short: 200ms; --d-medium: 400ms; --d-long: 600ms; --d-scene: 900ms;
+  --e-standard: cubic-bezier(0.2, 0, 0, 1); --e-enter: cubic-bezier(0.05, 0.7, 0.1, 1); --e-exit: cubic-bezier(0.3, 0, 0.8, 0.15);
+  --e-productive: cubic-bezier(0.2, 0, 0.38, 0.9); --e-expressive: cubic-bezier(0.4, 0.14, 0.3, 1);
+  --card-rise: 240ms var(--e-enter);
+  /* layout */
+  --bar: 56px; --col: clamp(360px, 34vw, 540px); --gut: max(20px, 4vw); --r: 12px;
+}
+/* the lecture room: the only dark surface */
+:root[data-theme="dark"], .room-dark {
+  --paper: #16140F; --paper-2: #1F1C16; --paper-3: #29251D; --ink: #EFE8D8; --ink-2: #BDB39F; --ink-3: #978E7A;
+  --line: #3A352B; --line-2: #4C4637; --land: #2A2620; --land-2: #332E25; --coast: #A69C86; --sea: #16140F;
+  --indigo: #9CB4E6; --indigo-2: #B9CBF0; --indigo-soft: rgba(156,180,230,.13); --indigo-line: rgba(156,180,230,.6);
+  --seal: #E2583F; --seal-soft: rgba(226,88,63,.16);
+  --kraft: #3A3022; --kraft-2: #46392A; --kraft-line: #6E5C40;
+  --shadow: 0 1px 0 rgba(0,0,0,.3), 0 8px 26px -12px rgba(0,0,0,.7);
+  --lift: drop-shadow(0 1px 0 rgba(0,0,0,.4)) drop-shadow(0 18px 30px rgba(0,0,0,.45)); color-scheme: dark;
+}
+@media (prefers-reduced-motion: reduce) { :root { --d-short: 0ms; --d-medium: 0ms; --d-long: 0ms; --d-scene: 0ms; --card-rise: 0ms; } }
+
+/* F1.13: the unit's one lecture identity (plan.md, provisional): cobalt-grey, the jar */
+:root { --unit-l1: #4A6472; }
+
+/* ---- the page ---- */
+*, *::before, *::after { box-sizing: border-box; }
+html { background: var(--paper); }
+body {
+  margin: 0; background: var(--paper); background-image: var(--tex); color: var(--ink);
+  font: 400 var(--body)/var(--body-lh) var(--serif); -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration: none; }
+em { font-style: italic; }
+.eyebrow { font: var(--eyebrow); letter-spacing: .04em; text-transform: uppercase; color: var(--ink-3); }
+.mono { font-family: var(--mono); }
+.ui { font-family: var(--ui); }
+
+/* the band */
+.band {
+  position: sticky; top: 0; z-index: 5; height: var(--bar); display: flex; align-items: center; justify-content: space-between;
+  padding: 0 var(--gut); background: var(--paper); background-image: var(--tex); border-bottom: 1px solid var(--line);
+}
+.band .left { display: flex; align-items: baseline; gap: 14px; min-width: 0; flex: 1 1 auto; }
+.band .unit { font: 500 12px/1 var(--mono); color: var(--ink-3); letter-spacing: .03em; white-space: nowrap; }
+.band .scene { font: 500 15px/1 var(--ui); color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.band .acts { display: flex; gap: 10px; font: 500 12px/1 var(--mono); color: var(--ink-3); }
+.band .acts .on { color: var(--ink); }
+.clock { display: flex; flex-direction: column; align-items: flex-end; gap: 3px; flex: none; }
+.clock .read { font: var(--readout); font-size: 19px; color: var(--ink); font-variant-numeric: tabular-nums; }
+.clock .read small { font: 400 12px/1 var(--mono); color: var(--ink-3); margin-left: 8px; letter-spacing: .02em; }
+.clock .mode { font: var(--eyebrow); color: var(--ink-3); letter-spacing: .04em; text-transform: uppercase; }
+
+/* layout: the stage pinned, the sheet scrolling */
+.layout {
+  display: grid; grid-template-columns: minmax(0, 1fr) var(--col); gap: calc(var(--gut) * 1.4);
+  padding: 28px var(--gut) 64px; max-width: 1440px; margin: 0 auto;
+}
+.stage-col { position: sticky; top: calc(var(--bar) + 24px); align-self: start; }
+
+/* ---- the stage ---- */
+.stage { display: grid; gap: 18px; }
+.stage-top { display: grid; grid-template-columns: 5fr 6fr; gap: 18px; align-items: start; }
+.stage-label { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.stage-label .what { font: var(--eyebrow); color: var(--ink-3); letter-spacing: .04em; text-transform: uppercase; }
+.stage-label .state { font: 400 12px/1.4 var(--ui); color: var(--ink-2); text-align: right; }
+
+.frame {
+  position: relative; background: var(--paper-2); border: 1px solid var(--line); border-radius: 3px;
+  aspect-ratio: 4 / 3; display: grid; place-items: center; overflow: hidden; box-shadow: var(--shadow);
+}
+.frame .motif { width: 112px; height: 112px; color: var(--ghost); }
+.frame .placeholder { position: absolute; left: 16px; bottom: 14px; right: 16px; font: 400 12px/1.4 var(--ui); color: var(--ink-3); }
+.frame .placeholder b { font-weight: 600; color: var(--ink-2); }
+.credit { font: var(--annot-text); color: var(--ink-2); margin-top: 8px; }
+.credit .name { font: var(--annot-name); color: var(--ink); display: block; }
+
+.map { position: relative; border: 1px solid var(--line); border-radius: 3px; background: var(--sea); overflow: hidden; }
+.map svg { display: block; width: 100%; height: auto; }
+.map .slot {
+  position: absolute; left: 12px; bottom: 10px; font: 400 12px/1.4 var(--ui); color: var(--ink-2);
+  background: var(--frost); backdrop-filter: blur(var(--frost-blur)); padding: 6px 9px; border-radius: 3px; max-width: 62%;
+}
+.map .slot b { font-weight: 600; color: var(--ink); }
+.map .inset { position: absolute; right: 10px; top: 10px; font: var(--eyebrow); color: var(--ink-3); text-transform: uppercase; letter-spacing: .04em; }
+.map-note { font: var(--annot-text); color: var(--ink-3); margin-top: 6px; }
+
+.strip { margin-top: 2px; }
+.strip svg { display: block; width: 100%; height: auto; }
+.strip-note { font: var(--annot-text); color: var(--ink-3); margin-top: 4px; display: flex; justify-content: space-between; gap: 12px; }
+
+.pull { font: var(--pull); color: var(--ink); max-width: 30ch; margin: 6px 0 0; }
+.pull b { font-weight: 600; white-space: nowrap; }
+.pull small { display: block; font: var(--annot-text); color: var(--ink-3); margin-top: 6px; }
+
+/* ---- the sheet ---- */
+.sheet { min-width: 0; }
+.card {
+  position: relative; padding: 0 0 26px; margin-bottom: 8px;
+}
+.card .bar { height: 4px; background: var(--unit-l1); border-radius: 2px; width: 120px; margin-bottom: 18px; }
+.card .head { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+.card .head .motif { width: 24px; height: 24px; color: var(--unit-l1); flex: none; }
+.card .head .tie { font: var(--eyebrow); color: var(--unit-l1); letter-spacing: .04em; text-transform: uppercase; }
+.card h1 { font: 400 34px/1.15 var(--serif); margin: 0 0 12px; letter-spacing: -.005em; }
+.card h1 em { font-style: italic; }
+.card .deck { font: var(--deck); color: var(--ink-2); margin: 0 0 14px; max-width: var(--measure); }
+.card p { margin: 0; max-width: var(--measure); }
+.card .meta { font: 400 11px/1.5 var(--mono); color: var(--ink-3); margin-top: 12px; }
+.card .meta span + span::before { content: " · "; }
+.card .meta .m { color: var(--ink-2); }
+
+.thread { position: relative; padding-left: 26px; }
+.thread::before { content: ""; position: absolute; left: 6px; top: 6px; bottom: 6px; width: 1px; background: var(--ink); opacity: .55; }
+.beat { position: relative; padding: 4px 0 30px; }
+.beat::before {
+  content: ""; position: absolute; left: -24px; top: 11px; width: 7px; height: 7px; border-radius: 50%;
+  background: var(--paper); border: 1px solid var(--ink);
+}
+.beat.focus::before { background: var(--ink); }
+.beat .kindrow { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; flex-wrap: wrap; }
+.beat .kind { font: var(--eyebrow); color: var(--ink-3); letter-spacing: .05em; text-transform: uppercase; }
+.beat .kind.note { color: var(--ink-2); }
+.chip {
+  font: 500 11px/1 var(--ui); color: var(--ink); border: 1px solid var(--line-2); border-radius: 999px; padding: 4px 8px;
+  letter-spacing: .02em; white-space: nowrap;
+}
+.chip.l1 { border-color: var(--unit-l1); color: var(--unit-l1); }
+.beat p { margin: 0; max-width: var(--measure); }
+.beat .meta { font: 400 11px/1.5 var(--mono); color: var(--ink-3); margin-top: 8px; }
+.beat .meta span + span::before { content: " · "; }
+.beat .meta .m { color: var(--ink-2); }
+
+/* the prompt */
+.prompt .q { font: 400 19px/1.4 var(--serif); margin: 0 0 10px; max-width: var(--measure); }
+.prompt .options { display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 12px; padding: 0; list-style: none; }
+.prompt .options li {
+  font: 500 13px/1 var(--ui); padding: 9px 12px; border: 1px solid var(--line-2); border-radius: 999px; color: var(--ink);
+}
+.prompt .options li.chosen { border-color: var(--ink); }
+.prompt .say { border-top: 1px solid var(--line); padding-top: 10px; margin-top: 4px; }
+.prompt .say .lab { display: flex; gap: 8px; align-items: center; margin-bottom: 6px; }
+.prompt .say .lab .eyebrow { color: var(--ink-2); }
+.prompt .say .lab .tag { font: 500 11px/1 var(--ui); color: var(--indigo); border: 1px solid var(--indigo-line); border-radius: 999px; padding: 3px 7px; }
+.prompt .say p { color: var(--ink-2); }
+
+/* the bridge */
+.bridge .ends { font: 500 12px/1.4 var(--ui); color: var(--ink-2); margin: 0 0 8px; }
+.bridge .ends .arrow { color: var(--indigo); }
+
+/* sources, stepper */
+.sources { padding-left: 26px; margin-top: 8px; }
+.sources h2 { font: var(--eyebrow); letter-spacing: .05em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 10px; }
+.sources ol { margin: 0; padding: 0; list-style: none; display: grid; gap: 4px; }
+.sources li { font: 400 12px/1.5 var(--ui); color: var(--ink-2); }
+.sources li .id { font: 500 11px/1 var(--mono); color: var(--ink); margin-right: 8px; }
+.sources .honesty { font: 400 12px/1.5 var(--ui); color: var(--ink-3); margin-top: 12px; max-width: var(--measure); }
+.stepper { display: flex; justify-content: space-between; gap: 16px; padding: 26px 0 0 26px; margin-top: 18px; border-top: 1px solid var(--line); }
+.stepper a { font: 500 13px/1.4 var(--ui); color: var(--ink); max-width: 48%; }
+.stepper a small { display: block; font: var(--eyebrow); letter-spacing: .04em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 3px; }
+.stepper a.next { text-align: right; }
+
+/* phones */
+@media (max-width: 720px) {
+  :root { --body: 16px; --gut: 16px; }
+  .layout { grid-template-columns: minmax(0, 1fr); gap: 28px; padding-top: 20px; }
+  .stage-col { position: static; }
+  .band .acts, .band .scene, .clock .read small { display: none; }
+  .card h1 { font-size: 28px; }
+  .map .slot { max-width: 78%; }
+  .stage-top { grid-template-columns: minmax(0, 1fr); }
+  .pull { font-size: 23px; }
+}
+</style>
+</head>
+<body>
+
+<header class="band" role="banner">
+  <div class="left">
+    <span class="unit">F1.13 · Networks · L1</span>
+    <span class="scene">The blue · scene 1 of 4</span>
+    <nav class="acts" aria-label="Scenes"><span class="on">S1 the blue</span><span>S2 the galleons</span><span>S3 Omar ibn Said</span><span>S4 the blue goes north</span></nav>
+  </div>
+  <div class="clock" aria-label="The clock">
+    <span class="mode">the clock · span</span>
+    <span class="read">1300s<small>the jar · f13-e-jar</small></span>
+  </div>
+</header>
+
+<main class="layout">
+
+  <!-- ========== the pinned stage: station-1 instrument state, as a schematic placeholder ========== -->
+  <aside class="stage-col" aria-label="The stage">
+    <div class="stage">
+      <div class="stage-label">
+        <span class="what">Stage · placeholder · station 1 state</span>
+        <span class="state">map, Asia at zoom 2.2 · the jar on the stage · the leg Kashan → Jingdezhen, drawn after the guess</span>
+      </div>
+
+      <div class="stage-top">
+      <!-- the object frame -->
+      <figure style="margin:0">
+        <div class="frame" role="img" aria-label="Frame for the jar's photograph, to be placed at build">
+          <svg class="motif" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">
+            <path d="M8.5 2.5h7v2.2h-1.3c3 1.6 4.6 4.6 4.6 8 0 3.9-1.9 7-4.8 8.3H10c-2.9-1.3-4.8-4.4-4.8-8.3 0-3.4 1.6-6.4 4.6-8H8.5z"/>
+            <path d="M7.2 9.5c3.2-1.2 6.4-1.2 9.6 0M6.6 15.5c3.6 1.1 7.2 1.1 10.8 0"/>
+          </svg>
+          <div class="placeholder"><b>the holder's photograph, placed at build</b> · no image in the repo; nothing drawn or generated in its place</div>
+        </div>
+        <figcaption class="credit">
+          <span class="name">Jar with blue underglaze decoration</span>
+          Cleveland Museum of Art · 1962.154 · Jingdezhen, Yuan, 1300s · porcelain, cobalt under the glaze · CC0 · potters and painters not named in the record
+        </figcaption>
+      </figure>
+
+      <!-- the schematic map -->
+      <div>
+        <div class="map">
+          <svg viewBox="0 0 600 270" role="img" aria-label="Schematic map: a dashed indigo leg from Kashan to Jingdezhen, Kashan lit">
+            <!-- a soft land extent, schematic; no borders lens -->
+            <path d="M40 70 C 120 30, 220 40, 300 65 C 380 90, 470 60, 560 80 C 585 120, 575 180, 540 215 C 480 245, 390 235, 330 225 C 250 215, 160 235, 95 210 C 45 185, 20 120, 40 70 Z" fill="#E4D8BE"/>
+            <!-- the leg: undated, a material: dashed, indigo; drawn after the guess -->
+            <path d="M150 128 Q 330 70 470 165" fill="none" stroke="#233C6B" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round"/>
+            <!-- Kashan: lit after the guess (the halo), the primary label -->
+            <circle cx="150" cy="128" r="14" fill="rgba(35,60,107,.12)"/>
+            <circle cx="150" cy="128" r="5" fill="#233C6B"/>
+            <text x="150" y="160" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="16" font-weight="600" fill="#1D1A15">Kashan</text>
+            <text x="150" y="180" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" fill="#554E42">cobalt from Iran · lit after the guess</text>
+            <!-- Jingdezhen: the object holder's frame mark -->
+            <rect x="464" y="159" width="12" height="12" fill="none" stroke="#1D1A15" stroke-width="1.2"/>
+            <text x="470" y="196" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="16" font-weight="600" fill="#1D1A15">Jingdezhen</text>
+            <text x="470" y="216" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" fill="#554E42">the jar, 1300s</text>
+            <!-- the leg's label -->
+            <text x="318" y="88" text-anchor="middle" font-family="IBM Plex Mono, Menlo, monospace" font-size="13" fill="#233C6B">cobalt · a material · undated, dashed</text>
+          </svg>
+          <span class="inset">Asia · zoom 2.2 · schematic</span>
+        </div>
+        <div class="credit"><span class="name">The leg Kashan → Jingdezhen</span>drawn as truth ink after the guess: a material, not an object · claim F1.13-C02 · two highlight kinds on screen: a journey leg (indigo) and an object holder (the frame); Qamsar and Anarak arrive with station 2</div>
+      </div>
+      </div>
+
+      <!-- the timeline strip: the scene's span, its ticks, the cursor -->
+      <div class="strip">
+        <svg viewBox="0 0 600 100" role="img" aria-label="Timeline strip 1175 to 1435 with the Kashan bowl, the jar, Abu'l-Qasim's treatise and the Xuande wares; the cursor inside the jar's span, readout 1300s">
+          <!-- axis: x = 20 + (year - 1175) / 260 * 560 -->
+          <line x1="20" y1="80" x2="580" y2="80" stroke="#C2B596" stroke-width="1"/>
+          <g font-family="IBM Plex Mono, Menlo, monospace" font-size="10" fill="#7A7162">
+            <text x="20" y="95">1175</text>
+            <text x="289" y="95" text-anchor="middle">1300</text>
+            <text x="504" y="95" text-anchor="middle">1400</text>
+            <text x="580" y="95" text-anchor="end">1435</text>
+          </g>
+          <!-- lane 0, objects: the Kashan bowl 1175–1225 (fuzzy ends), the jar 1300–1400 -->
+          <rect x="20" y="22" width="108" height="6" fill="#1D1A15" opacity=".3"/>
+          <rect x="26" y="22" width="96" height="6" fill="#1D1A15" opacity=".3"/>
+          <text x="22" y="15" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="10" fill="#554E42">Kashan bowl · late 1100s–early 1200s</text>
+          <rect x="289" y="22" width="215" height="6" fill="#1D1A15"/>
+          <text x="289" y="15" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="10" fill="#1D1A15">the jar · 1300s</text>
+          <!-- lane 1, materials: Abu'l-Qasim's treatise 1301 (a point); Xuande wares tested 1426–1435 (a bar) -->
+          <circle cx="291" cy="52" r="3" fill="#1D1A15"/>
+          <text x="299" y="56" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="10" fill="#554E42">Abu'l-Qasim's treatise · 1301</text>
+          <rect x="560" y="49" width="20" height="6" fill="#1D1A15"/>
+          <text x="580" y="70" text-anchor="end" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="10" fill="#554E42">Xuande wares tested · 1426–1435</text>
+          <!-- the cursor: placed by the record's pos (display "1300s"), seal red -->
+          <line x1="397" y1="4" x2="397" y2="84" stroke="#B3301E" stroke-width="1.2"/>
+          <circle cx="397" cy="80" r="3.2" fill="#B3301E"/>
+        </svg>
+        <div class="strip-note"><span>the lane chart's strip · lanes: objects (above), materials (below) · the scene's span 1175–1435</span><span>ranges are bars; 1301 is a point</span></div>
+      </div>
+
+      <p class="pull">Early blue-and-white relied heavily on imported cobalt: wares of <b>1426–1435</b> tested.<small>Jiang and colleagues · F1.13-C03</small></p>
+    </div>
+  </aside>
+
+  <!-- ========== the scene sheet: beats on the ink thread ========== -->
+  <section class="sheet" aria-label="The scene sheet">
+
+    <!-- the threshold as the title card -->
+    <article class="card" id="b-blue-1">
+      <div class="bar" aria-hidden="true"></div>
+      <div class="head">
+        <svg class="motif" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">
+          <path d="M8.5 2.5h7v2.2h-1.3c3 1.6 4.6 4.6 4.6 8 0 3.9-1.9 7-4.8 8.3H10c-2.9-1.3-4.8-4.4-4.8-8.3 0-3.4 1.6-6.4 4.6-8H8.5z"/>
+          <path d="M7.2 9.5c3.2-1.2 6.4-1.2 9.6 0M6.6 15.5c3.6 1.1 7.2 1.1 10.8 0"/>
+        </svg>
+        <span class="tie">Threshold · Lecture 1 · The blue, stations 1–2</span>
+      </div>
+      <h1>The <em>blue</em></h1>
+      <p class="deck">One jar's blue, followed through all four.</p>
+      <p>A jar painted in blue under its glaze: potters at Jingdezhen made it in the 1300s, and the record does not give their names. A network is four flows at once, objects, materials, skills and people; they share routes, but not terms.</p>
+      <div class="meta"><span class="m">claims</span><span>f13-e-jar</span><span>F1.13-C01</span><span>F1.13-C02</span><span class="m">sources</span><span>F1.13-C01</span><span>F1.13-C02</span></div>
+    </article>
+
+    <div class="thread">
+
+      <!-- caption, L1.1 -->
+      <article class="beat caption" id="b-blue-2">
+        <div class="kindrow"><span class="kind">caption</span><span class="chip l1">L1 · 1</span></div>
+        <p>On the stage, the jar with blue underglaze decoration that the Cleveland Museum of Art holds as 1962.154: Jingdezhen, the 1300s, made by potters and painters whose names the record does not give. The map settles on Jingdezhen; the jar's century sits as a bar on the objects lane.</p>
+        <div class="meta"><span class="m">claims</span><span>f13-e-jar</span><span>F1.13-C02</span><span class="m">sources</span><span>F1.13-C02</span></div>
+      </article>
+
+      <!-- prompt, L1.1: the lecture's own guess; the answer is drawn on the map -->
+      <article class="beat prompt" id="b-blue-3">
+        <div class="kindrow"><span class="kind">prompt · L1.predict-1</span><span class="chip l1">L1 · 1</span></div>
+        <p class="q">The jar's blue, Jingdezhen, the 1300s: where did the blue come from, Jingdezhen's own hills, Iran, or Europe?</p>
+        <ul class="options" aria-label="Options">
+          <li>Jingdezhen's own hills</li>
+          <li class="chosen">Iran</li>
+          <li>Europe</li>
+        </ul>
+        <div class="say">
+          <div class="lab"><span class="eyebrow">say</span><span class="tag">drawn after the guess</span></div>
+          <p>Cleveland's record says the cobalt was imported from Iran, likely from Kashan. The dashed leg from Kashan to Jingdezhen is drawn after the guess; it marks a material, not an object.</p>
+        </div>
+        <div class="meta"><span class="m">answer</span><span>on the map: the leg r01 Kashan → Jingdezhen, Kashan lit; never a beat</span><span class="m">claims</span><span>f13-e-jar</span><span>F1.13-C02</span></div>
+      </article>
+
+      <!-- focus, L1.1 -->
+      <article class="beat focus" id="b-blue-4">
+        <div class="kindrow"><span class="kind">focus · mark f13-e-xuande</span><span class="chip l1">L1 · 1</span></div>
+        <p>Jingdezhen, 1426–1435: Jiang and colleagues tested imperial wares of the Xuande reign and write that early blue-and-white relied heavily on imported cobalt from the West. The bar on the materials lane is their sample.</p>
+        <div class="meta"><span class="m">claims</span><span>f13-e-xuande</span><span>F1.13-C03</span><span class="m">sources</span><span>F1.13-C03</span></div>
+      </article>
+
+      <!-- caption, L1.2 -->
+      <article class="beat caption" id="b-blue-5">
+        <div class="kindrow"><span class="kind">caption</span><span class="chip l1">L1 · 2</span></div>
+        <p>On the stage, a footed bowl from Iran with a blue rim, fritware, pierced and painted under the glaze: the Cleveland Museum of Art dates it late 1100s–early 1200s and holds it as 1915.581. Blue under a glaze was in Kashan's workshops a century before the Jingdezhen jar; the map tightens on Kashan.</p>
+        <div class="meta"><span class="m">claims</span><span>f13-e-kashan-bowl</span><span>F1.13-C05</span><span>F1.13-C02</span><span class="m">sources</span><span>F1.13-C05</span><span>F1.13-C02</span></div>
+      </article>
+
+      <!-- note, L1.2: the contested cobalt mine -->
+      <article class="beat note" id="b-blue-6">
+        <div class="kindrow"><span class="kind note">note · argued · a-cobalt-mine</span><span class="chip l1">L1 · 2</span></div>
+        <p>Which mine gave the cobalt in Kashan's blue is argued; the lecture does not choose. One reading: Qamsar, near Kashan, where Abu'l-Qasim's treatise of 1301 places lâjvard, the blue, the most cited source. The other: deposits near Anarak, 200 kilometres east of Kashan, which Jiang and colleagues propose in their discussion. The two fuzzy marks on the map are the two readings; Cleveland places the bowl probably at Kashan.</p>
+        <div class="meta"><span class="m">claims</span><span>f13-e-abulqasim</span><span>F1.13-C04</span><span>F1.13-C05</span><span class="m">argument card</span><span>both readings sourced, neither coloured, never marked right</span></div>
+      </article>
+
+      <!-- bridge, to L1.7 -->
+      <article class="beat bridge" id="b-blue-7">
+        <div class="kindrow"><span class="kind">bridge · the map scale changes</span><span class="chip l1">L1 · 7</span></div>
+        <p class="ends">Kashan <span class="arrow">→</span> Amsterdam · Iran at zoom 5.5 → Asia at zoom 1.95</p>
+        <p>From Kashan and the cobalt of the 1300s to Amsterdam and a Kraak dish of about 1600–1625: the blue that came from Iran leaves China as export ware. The map opens from Iran to the whole of Asia for station 7, The blue goes north.</p>
+        <div class="meta"><span class="m">claims</span><span>f13-e-jar</span><span>f13-e-kraak</span><span>F1.13-C18</span><span>F1.13-C02</span><span class="m">sources</span><span>F1.13-C18</span><span>F1.13-C02</span></div>
+      </article>
+
+    </div>
+
+    <!-- sources -->
+    <section class="sources" aria-label="Sources">
+      <h2>Sources · the stations' register ids</h2>
+      <ol>
+        <li><span class="id">F1.13-C01</span>the four-flows framing: objects, materials, skills and people (interpretive)</li>
+        <li><span class="id">F1.13-C02</span>Cleveland Museum of Art, the record of 1962.154: the jar, Jingdezhen, 1300s; cobalt imported from Iran, likely from Kashan</li>
+        <li><span class="id">F1.13-C03</span>Jiang and colleagues: Xuande wares, 1426–1435, tested for imported cobalt</li>
+        <li><span class="id">F1.13-C04</span>the cobalt mine, contested: Abu'l-Qasim's treatise, 1301 (Qamsar); Jiang and colleagues' discussion (Anarak)</li>
+        <li><span class="id">F1.13-C05</span>Cleveland Museum of Art, the record of 1915.581: the footed bowl, Iran, probably Kashan, late 1100s–early 1200s</li>
+        <li><span class="id">F1.13-C18</span>Rijksmuseum, the record of AK-RBK-16385: the Kraak dish, c. 1600–1625</li>
+      </ol>
+      <p class="honesty">Honesty: the leg Kashan → Jingdezhen is undated and drawn dashed; neither Cleveland object has an image in the repo; the cobalt mine is argued and drives no tick; the prompt's answer is drawn, never a beat.</p>
+    </section>
+
+    <nav class="stepper" aria-label="Previous and next">
+      <a href="#" class="prev"><small>previous</small>Lecture 1 · the title card</a>
+      <a href="#" class="next"><small>next</small>Scene 2 · The galleons, station 6</a>
+    </nav>
+
+  </section>
+</main>
+
+</body>
+</html>

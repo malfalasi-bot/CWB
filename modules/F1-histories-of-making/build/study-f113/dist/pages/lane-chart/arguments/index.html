@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Two arguments · F1.13 Networks</title>
+<meta name="description" content="F1.13 Networks: the unit's two argument cards (component 24), which mine gave the blue, and whether demand made the routes or routes the goods.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Histories of making: the tokens. Copy as-is; do not restyle. Light is paper; dark exists for the lecture room only. */
+:root {
+  /* ground and ink */
+  --paper: #F1EADB; --paper-2: #FAF6EC; --paper-3: #E9E0CC; --ink: #1D1A15; --ink-2: #554E42; --ink-3: #7A7162;
+  --line: #D6CBB4; --line-2: #C2B596; --land: #E4D8BE; --land-2: #DACCAD; --coast: #4A4234; --sea: #F1EADB;
+  /* the two accents */
+  --indigo: #233C6B; --indigo-2: #3A5A96; --indigo-soft: rgba(35,60,107,.10); --indigo-line: rgba(35,60,107,.55);
+  --seal: #B3301E; --seal-soft: rgba(179,48,30,.10);
+  /* seasons: the Hundred Views and the Tōkaidō only */
+  --spring: #B85C76; --summer: #3E7D5A; --autumn: #B8662A; --winter: #4F6E99;
+  /* kraft: the labs' workbench */
+  --kraft: #DCC8A3; --kraft-2: #EADCC0; --kraft-line: #B49C72;
+  /* lecture identity (Edo); other units define their own eight */
+  --lecture-1: #5C6B7A; --lecture-2: #8A5A3C; --lecture-3: #B85C76; --lecture-4: #4F7A5A;
+  --lecture-5: #233C6B; --lecture-6: #B3301E; --lecture-7: #7A7A86; --lecture-8: #B08A3E;
+  /* apparatus */
+  --leader: 1px; --leader-dot: 6px; --frost: color-mix(in srgb, var(--paper) 86%, transparent); --frost-blur: 6px;
+  --ghost: color-mix(in srgb, var(--ink) 40%, transparent);
+  --shadow: 0 1px 0 rgba(60,45,20,.06), 0 6px 22px -10px rgba(60,45,20,.28);
+  --lift: drop-shadow(0 1px 0 rgba(60,45,20,.10)) drop-shadow(0 18px 30px rgba(60,45,20,.16));
+  --tex: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cfilter id='n' x='0' y='0'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .3 0 0 0 0 .25 0 0 0 0 .18 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='260' height='260' filter='url%28%23n%29'/%3E%3C/svg%3E");
+  /* type */
+  --serif: 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
+  --display: 'Shippori Mincho', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  --ui: 'IBM Plex Sans', system-ui, sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, Menlo, monospace;
+  --body: 17px; --body-lh: 1.55; --measure: 68ch;
+  --deck: italic 400 19px/1.4 var(--serif);
+  --annot-name: 600 12px/1.3 var(--ui); --annot-text: 400 12px/1.4 var(--ui);
+  --eyebrow: 500 11px/1.3 var(--mono); --readout: 500 17px/1 var(--serif);
+  --pull: 500 26px/1.25 var(--serif);
+  /* motion */
+  --d-instant: 70ms; --d-micro: 110ms; --d-short: 200ms; --d-medium: 400ms; --d-long: 600ms; --d-scene: 900ms;
+  --e-standard: cubic-bezier(0.2, 0, 0, 1); --e-enter: cubic-bezier(0.05, 0.7, 0.1, 1); --e-exit: cubic-bezier(0.3, 0, 0.8, 0.15);
+  --e-productive: cubic-bezier(0.2, 0, 0.38, 0.9); --e-expressive: cubic-bezier(0.4, 0.14, 0.3, 1);
+  --card-rise: 240ms var(--e-enter);
+  /* layout */
+  --bar: 56px; --col: clamp(360px, 34vw, 540px); --gut: max(20px, 4vw); --r: 12px;
+}
+/* the lecture room: the only dark surface */
+:root[data-theme="dark"], .room-dark {
+  --paper: #16140F; --paper-2: #1F1C16; --paper-3: #29251D; --ink: #EFE8D8; --ink-2: #BDB39F; --ink-3: #978E7A;
+  --line: #3A352B; --line-2: #4C4637; --land: #2A2620; --land-2: #332E25; --coast: #A69C86; --sea: #16140F;
+  --indigo: #9CB4E6; --indigo-2: #B9CBF0; --indigo-soft: rgba(156,180,230,.13); --indigo-line: rgba(156,180,230,.6);
+  --seal: #E2583F; --seal-soft: rgba(226,88,63,.16);
+  --kraft: #3A3022; --kraft-2: #46392A; --kraft-line: #6E5C40;
+  --shadow: 0 1px 0 rgba(0,0,0,.3), 0 8px 26px -12px rgba(0,0,0,.7);
+  --lift: drop-shadow(0 1px 0 rgba(0,0,0,.4)) drop-shadow(0 18px 30px rgba(0,0,0,.45)); color-scheme: dark;
+}
+@media (prefers-reduced-motion: reduce) { :root { --d-short: 0ms; --d-medium: 0ms; --d-long: 0ms; --d-scene: 0ms; --card-rise: 0ms; } }
+
+/* ---- page: nothing coloured; an argument card is ink on paper ---- */
+* { box-sizing: border-box; }
+html { background: var(--paper); }
+body { margin: 0; background: var(--paper) var(--tex); color: var(--ink); font: 400 var(--body)/var(--body-lh) var(--serif); -webkit-font-smoothing: antialiased; }
+a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--line-2); }
+a:hover, a:focus-visible { border-bottom-color: var(--ink); }
+.mono { font: var(--eyebrow); color: var(--ink-3); letter-spacing: .02em; }
+.wrap { padding: 0 var(--gut); max-width: 1400px; margin: 0 auto; }
+h1, h2, h3 { font-weight: 500; margin: 0; }
+p { margin: 0; max-width: var(--measure); }
+
+.band { position: sticky; top: 0; z-index: 10; background: var(--frost); backdrop-filter: blur(var(--frost-blur)); border-bottom: 1px solid var(--line); }
+.band .wrap { min-height: var(--bar); display: flex; align-items: center; gap: 16px; }
+.band .crumb { flex: 1 1 auto; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.band .clock { font: var(--readout); color: var(--ink-3); display: flex; align-items: baseline; gap: 10px; white-space: nowrap; }
+.band .clock .m { font: var(--eyebrow); color: var(--ink-3); }
+
+.head { padding: 44px 0 10px; }
+.head h1 { font-size: clamp(30px, 3.6vw, 44px); line-height: 1.12; letter-spacing: -.01em; max-width: 22ch; }
+.head h1 em { font-style: italic; font-weight: 400; }
+.head .deck { font: var(--deck); color: var(--ink-2); margin-top: 12px; }
+
+/* component 24: the argument card */
+.arg { max-width: 760px; margin: 36px 0 0; padding: 30px 0 8px; border-top: 1px solid var(--line); }
+.arg .ey { font: var(--eyebrow); color: var(--ink-3); }
+.arg h2 { font-size: clamp(26px, 3vw, 34px); line-height: 1.2; margin-top: 10px; max-width: 24ch; }
+.arg h2 em { font-style: italic; font-weight: 400; }
+.arg .readings { display: grid; grid-template-columns: 1fr; gap: 0; margin-top: 22px; }
+.reading { padding: 20px 0 18px; border-top: 1px solid var(--line); }
+.reading .k { font: var(--eyebrow); color: var(--ink-3); margin-bottom: 8px; }
+.reading .text { font: 400 19px/1.45 var(--serif); color: var(--ink); max-width: 60ch; }
+.reading .text [data-claim] { border-bottom: 1px dotted var(--line-2); }
+.reading .case { font: 400 13px/1.5 var(--ui); color: var(--ink-2); margin-top: 10px; max-width: 70ch; }
+.reading .case .id { font: 500 11px var(--mono); color: var(--ink-3); }
+.lean { margin-top: 14px; display: flex; align-items: center; gap: 12px; }
+.lean button { all: unset; cursor: pointer; font: 500 13px/1 var(--ui); color: var(--ink); padding: 8px 0; border-top: 1px solid var(--line-2); border-bottom: 1px solid var(--line-2); min-height: 20px; }
+.lean button:hover, .lean button:focus-visible { border-color: var(--ink); outline: none; }
+.lean button[aria-pressed="true"] { border-color: var(--ink); }
+.lean button[aria-pressed="true"]::after { content: " · your position"; color: var(--ink-3); font: 400 12px var(--mono); }
+.lean .note { font: 400 12px/1.4 var(--ui); color: var(--ink-3); }
+.returns { font: var(--eyebrow); color: var(--ink-3); margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+.argsrc { font: 400 13px/1.5 var(--ui); color: var(--ink-2); margin-top: 10px; max-width: 76ch; }
+.argsrc .id { font: 500 11px var(--mono); color: var(--ink-3); }
+
+.sources { padding-top: 36px; }
+.sources ol { margin: 8px 0 0; padding-left: 22px; font-size: 14px; line-height: 1.5; color: var(--ink-2); }
+.sources li { margin: 4px 0; max-width: 78ch; }
+.sources .id { font: 500 11px var(--mono); color: var(--ink-3); }
+.prevnext { display: flex; justify-content: space-between; gap: 20px; padding: 28px 0 60px; border-top: 1px solid var(--line); margin-top: 26px; }
+.prevnext a { border: 0; font: 400 16px var(--serif); }
+.prevnext small { display: block; font: var(--eyebrow); color: var(--ink-3); margin-bottom: 4px; }
+.prevnext .next { text-align: right; }
+
+@media (max-width: 720px) {
+  :root { --body: 16px; }
+  .band .crumb { display: none; }
+  .head { padding: 30px 0 6px; }
+  .reading .text { font-size: 18px; }
+  .prevnext { flex-direction: column; }
+  .prevnext .next { text-align: left; }
+}
+</style>
+</head>
+<body>
+
+<header class="band">
+  <div class="wrap">
+    <span class="crumb mono">F1.13 · Networks: objects, materials, skills and people · two argument cards · component 24</span>
+    <span class="clock"><span class="m">the clock</span><span>clock held</span><span class="m">· an argument has no time device</span></span>
+  </div>
+</header>
+
+<main class="wrap">
+
+<div class="head">
+  <p class="mono">Step 7 · build · the unit's argued pairs, both readings sourced, neither coloured, never marked right</p>
+  <h1 style="margin-top:10px">Two questions <em>the evidence leaves open</em></h1>
+  <p class="deck">A claim with two readings is a card, never a tick.</p>
+</div>
+
+<!-- ============ card 1 ============ -->
+<article class="arg" id="a-cobalt-mine" aria-labelledby="q1" data-claim="F1.13-C04">
+  <div class="ey">argument · contested · F1.13-C04 · inventory a-cobalt-mine · station 2, Blue before China</div>
+  <h2 id="q1">Which mine <em>gave the blue?</em></h2>
+  <div class="readings">
+    <section class="reading" aria-labelledby="r1a">
+      <div class="k" id="r1a">reading one</div>
+      <p class="text">Qamsar, near Kashan: "the most cited source". Abu'l-Qasim's treatise of <span data-claim="f13-e-abulqasim">1301</span> places lâjvard there, and Cleveland's record for the jar says its cobalt came from Iran, likely from Kashan.</p>
+      <p class="case">The case: a written source of the period names the place, and the jar's holder follows it. <span class="id">F1.13-C04 · F1.13-C02 · f13-e-abulqasim</span></p>
+      <div class="lean"><button type="button" aria-pressed="false" data-lean="r1a">I lean to this</button><span class="note">a position, not an answer</span></div>
+    </section>
+    <section class="reading" aria-labelledby="r1b">
+      <div class="k" id="r1b">reading two</div>
+      <p class="text">Anarak, or more than one source: deposits near Anarak, <span data-claim="F1.13-C04">200 km</span> east of Kashan. Jiang et al. (2020) propose, in their discussion, that ores from the Anarak mining district, "rather than those originating from Qamsar, Kashan as previously thought", "might have served as one of the most likely sources"; Colomban et al. (2021) read the trace elements.</p>
+      <p class="case">The case: the geochemistry of the pigment in the wares, read against the deposits; the Anarak reading verified at source 3 October 2026. <span class="id">F1.13-C04 · Colomban et al. 2021 · Jiang et al. 2020</span></p>
+      <div class="lean"><button type="button" aria-pressed="false" data-lean="r1b">I lean to this</button><span class="note">a position, not an answer</span></div>
+    </section>
+  </div>
+  <p class="argsrc">What would settle it: a geochemical review (research.md). On the lane chart the mine places no tick; the treatise's year is the only tick, and the Xuande wares tested for imported cobalt, <span data-claim="f13-e-xuande">1426–35</span>, are a bar in the materials lane. <span class="id">f13-e-xuande · F1.13-C03</span></p>
+  <p class="returns">the card returns at the end of the unit with what you wrote</p>
+</article>
+
+<!-- ============ card 2 ============ -->
+<article class="arg" id="a-demand-routes" aria-labelledby="q2" data-claim="F1.13-C14">
+  <div class="ey">argument · interpretive · F1.13-C14 · inventory a-demand-routes · station 5, Across the sand</div>
+  <h2 id="q2">Did demand make the routes, <em>or routes the goods?</em></h2>
+  <div class="readings">
+    <section class="reading" aria-labelledby="r2a">
+      <div class="k" id="r2a">reading one</div>
+      <p class="text">Demand for silk, porcelain and gold built and kept the routes. The goods came first; the roads, the sailings and the caravans followed where buyers were.</p>
+      <p class="case">The case: the course's own argument, read against the canon's Silk Roads and Indian Ocean rows. <span class="id">F1.13-C14 · NET001 · NET005</span></p>
+      <div class="lean"><button type="button" aria-pressed="false" data-lean="r2a">I lean to this</button><span class="note">a position, not an answer</span></div>
+    </section>
+    <section class="reading" aria-labelledby="r2b">
+      <div class="k" id="r2b">reading two</div>
+      <p class="text">Routes already there, the monsoon sailing, the caravans, the oases and the ports, made such goods possible and shaped them. What became a good was decided by what the route could carry.</p>
+      <p class="case">The case: the course's own argument, read against the same canon rows; both readings are interpretive and neither is a record. <span class="id">F1.13-C14 · NET001 · NET005</span></p>
+      <div class="lean"><button type="button" aria-pressed="false" data-lean="r2b">I lean to this</button><span class="note">a position, not an answer</span></div>
+    </section>
+  </div>
+  <p class="argsrc">The lecture poses it at station 5, after the gold has crossed the sand; the card is offered after the evidence and never before it. Nothing on the lane chart depends on either reading.</p>
+  <p class="returns">the card returns at the end of the unit with what you wrote</p>
+</article>
+
+<!-- ============ sources ============ -->
+<section class="sources" aria-labelledby="so-h">
+  <h2 id="so-h" style="font-size:20px">Sources</h2>
+  <ol>
+    <li><span class="id">F1.13-C04</span> Colomban et al. 2021, <i>Minerals</i> 11(6), 633 (CC BY); Jiang et al. 2020, <i>PNAS</i> (full text, discussion); Abu'l-Qasim's treatise, 1301. Contested: both readings; the Anarak reading verified at source 3 October 2026.</li>
+    <li><span class="id">F1.13-C02</span> Cleveland Museum of Art, open access record 1962.154: "The cobalt that was used for the blue underglaze decoration was imported from Iran, likely from Kashan."</li>
+    <li><span class="id">F1.13-C03</span> Jiang et al. 2020, <i>PNAS</i>: imperial wares of the Xuande reign (1426–1435) tested for imported cobalt.</li>
+    <li><span class="id">F1.13-C14</span> Our own argument; canon rows NET001 (the Silk Roads) and NET005 (the Indian Ocean). Interpretive, both readings.</li>
+    <li><span class="id">inventory.json · research.md</span> F1.13 method run, counted by Claude Fable 5.1, 20 October 2026: arguments a-cobalt-mine and a-demand-routes; what outside research would settle.</li>
+  </ol>
+</section>
+
+<nav class="prevnext" aria-label="previous and next">
+  <a href="../"><small>previous</small>The lane chart with focus</a>
+  <a href="#" class="next"><small>next</small>The Indian Ocean: a network</a>
+</nav>
+
+</main>
+
+<script>
+// "I lean to this" is a position, never marked right: one per card, toggled, nothing scored.
+document.querySelectorAll('.arg').forEach(function (card) {
+  card.querySelectorAll('[data-lean]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var on = b.getAttribute('aria-pressed') === 'true';
+      card.querySelectorAll('[data-lean]').forEach(function (o) { o.setAttribute('aria-pressed', 'false'); });
+      if (!on) b.setAttribute('aria-pressed', 'true');
+    });
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Omar ibn Said · shot 3 of 7</title>
+<meta name="description" content="F1.13 Networks, scene S3 Omar ibn Said: a static mock of the shot at South Carolina, 1807, with the person's chip at the place and no route drawn.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Naskh+Arabic:wght@400;500&family=IBM+Plex+Sans+Arabic:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Histories of making: the tokens. Copied as-is from references/tokens.css. */
+:root {
+  --paper: #F1EADB; --paper-2: #FAF6EC; --paper-3: #E9E0CC; --ink: #1D1A15; --ink-2: #554E42; --ink-3: #7A7162;
+  --line: #D6CBB4; --line-2: #C2B596; --land: #E4D8BE; --land-2: #DACCAD; --coast: #4A4234; --sea: #F1EADB;
+  --indigo: #233C6B; --indigo-2: #3A5A96; --indigo-soft: rgba(35,60,107,.10); --indigo-line: rgba(35,60,107,.55);
+  --seal: #B3301E; --seal-soft: rgba(179,48,30,.10);
+  --spring: #B85C76; --summer: #3E7D5A; --autumn: #B8662A; --winter: #4F6E99;
+  --kraft: #DCC8A3; --kraft-2: #EADCC0; --kraft-line: #B49C72;
+  --lecture-1: #5C6B7A; --lecture-2: #8A5A3C; --lecture-3: #B85C76; --lecture-4: #4F7A5A;
+  --lecture-5: #233C6B; --lecture-6: #B3301E; --lecture-7: #7A7A86; --lecture-8: #B08A3E;
+  --leader: 1px; --leader-dot: 6px; --frost: color-mix(in srgb, var(--paper) 86%, transparent); --frost-blur: 6px;
+  --ghost: color-mix(in srgb, var(--ink) 40%, transparent);
+  --shadow: 0 1px 0 rgba(60,45,20,.06), 0 6px 22px -10px rgba(60,45,20,.28);
+  --lift: drop-shadow(0 1px 0 rgba(60,45,20,.10)) drop-shadow(0 18px 30px rgba(60,45,20,.16));
+  --tex: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cfilter id='n' x='0' y='0'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .3 0 0 0 0 .25 0 0 0 0 .18 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='260' height='260' filter='url%28%23n%29'/%3E%3C/svg%3E");
+  --serif: 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
+  --display: 'Shippori Mincho', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  --ui: 'IBM Plex Sans', system-ui, sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, Menlo, monospace;
+  --body: 17px; --body-lh: 1.55; --measure: 68ch;
+  --deck: italic 400 19px/1.4 var(--serif);
+  --annot-name: 600 12px/1.3 var(--ui); --annot-text: 400 12px/1.4 var(--ui);
+  --eyebrow: 500 11px/1.3 var(--mono); --readout: 500 17px/1 var(--serif);
+  --pull: 500 26px/1.25 var(--serif);
+  --d-instant: 70ms; --d-micro: 110ms; --d-short: 200ms; --d-medium: 400ms; --d-long: 600ms; --d-scene: 900ms;
+  --e-standard: cubic-bezier(0.2, 0, 0, 1); --e-enter: cubic-bezier(0.05, 0.7, 0.1, 1); --e-exit: cubic-bezier(0.3, 0, 0.8, 0.15);
+  --e-productive: cubic-bezier(0.2, 0, 0.38, 0.9); --e-expressive: cubic-bezier(0.4, 0.14, 0.3, 1);
+  --card-rise: 240ms var(--e-enter);
+  --bar: 56px; --col: clamp(360px, 34vw, 540px); --gut: max(20px, 4vw); --r: 12px;
+  /* F1.13's provisional lecture identity (plan.md): cobalt, #4A6472; on the band's 4 px bar, the jar motif and the journey bar's travelled part only */
+  --unit: #4A6472; --unit-soft: rgba(74,100,114,.16);
+}
+@media (prefers-reduced-motion: reduce) { :root { --d-short: 0ms; --d-medium: 0ms; --d-long: 0ms; --d-scene: 0ms; --card-rise: 0ms; } }
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--paper); color: var(--ink); font: 400 var(--body)/var(--body-lh) var(--serif); min-height: 100vh; position: relative; }
+body::before { content: ""; position: fixed; inset: 0; background-image: var(--tex); pointer-events: none; opacity: .9; z-index: 0; }
+.page { position: relative; z-index: 1; display: flex; flex-direction: column; height: 100vh; }
+
+.band { height: var(--bar); display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 18px; padding: 0 var(--gut); border-bottom: 1px solid var(--line); }
+.band .identity { display: flex; align-items: center; gap: 12px; height: 100%; }
+.band .identity .bar { width: 4px; height: 28px; background: var(--unit); border-radius: 1px; }
+.band .identity svg { width: 24px; height: 24px; display: block; }
+.band .identity .eyebrow { font: var(--eyebrow); color: var(--ink-3); letter-spacing: .04em; }
+.band .title { font: 500 19px/1.2 var(--serif); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.band .title i { font-style: italic; font-weight: 400; }
+.band .clock { text-align: right; }
+.band .clock .readout { font: var(--readout); }
+.band .clock .mode { font: var(--eyebrow); color: var(--ink-3); margin-top: 3px; }
+
+/* the content note: once, before anything else (protocol level 2, AR-081) */
+.note { padding: 12px var(--gut); border-bottom: 1px solid var(--line); display: grid; grid-template-columns: auto 1fr auto; gap: 16px; align-items: baseline; }
+.note b { font: var(--eyebrow); color: var(--ink-3); text-transform: uppercase; letter-spacing: .06em; }
+.note p { margin: 0; font: 400 15px/1.45 var(--serif); color: var(--ink); max-width: var(--measure); }
+.note a { font: var(--eyebrow); color: var(--ink-2); text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; }
+
+.surface { position: relative; flex: 1 1 auto; min-height: 0; padding: 0 var(--gut); }
+.globe-wrap { position: relative; height: 100%; }
+svg.globe { width: 100%; height: 100%; display: block; }
+.frost { background: var(--frost); backdrop-filter: blur(var(--frost-blur)); -webkit-backdrop-filter: blur(var(--frost-blur)); border: 1px solid var(--line); border-radius: var(--r); padding: 14px 18px; }
+.caption { position: absolute; left: var(--gut); bottom: 18px; max-width: 460px; }
+.caption p { margin: 0 0 8px; font: 400 16px/1.5 var(--serif); }
+.caption .name { font: 500 16px/1.5 var(--serif); }
+.caption .record { color: var(--ink-2); }
+.caption .arabic { font: 400 12px/1.5 var(--mono); color: var(--ink-3); margin: 0 0 8px; }
+.caption .arabic span[lang="ar"] { font-family: 'Noto Naskh Arabic', 'IBM Plex Sans Arabic', serif; unicode-bidi: isolate; }
+.caption .meta { font: var(--eyebrow); color: var(--ink-3); display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.caption .meta b { font-weight: 500; color: var(--ink-2); }
+
+.lbl-name { font: var(--annot-name); fill: var(--ink); }
+.lbl-sub { font: 400 11px/1.3 var(--mono); fill: var(--ink-3); }
+.chip-back { fill: var(--paper-2); stroke: var(--line-2); stroke-width: 1; }
+
+/* the strip under the map: the scene span, the ticks and the cursor (an incident has no journey bar) */
+.strip { padding: 16px var(--gut) 6px; border-top: 1px solid var(--line); }
+.strip .track { position: relative; height: 84px; overflow: hidden; }
+.strip .axis { position: absolute; left: 0; right: 0; top: 46px; height: 2px; background: var(--line-2); }
+.strip .span { position: absolute; top: 38px; height: 18px; background: var(--indigo-soft); border-radius: 2px; }
+.strip .end { position: absolute; top: 0; font: 500 15px/1.2 var(--serif); white-space: nowrap; }
+.strip .end small { display: block; font: 400 11px/1.4 var(--mono); color: var(--ink-3); }
+.strip .end.left { left: 0; } .strip .end.right { right: 0; text-align: right; }
+.strip .tick { position: absolute; top: 43px; width: 8px; height: 8px; margin-left: -4px; border-radius: 50%; background: var(--ink); }
+.strip .tick.halo::before { content: ""; position: absolute; inset: -6px; border-radius: 50%; border: 1px solid var(--ink-3); opacity: .6; }
+.strip .tick.cursor { background: var(--seal); width: 2px; height: 22px; top: 36px; margin-left: -1px; border-radius: 0; }
+.strip .tick.pale { background: var(--paper); border: 1.5px solid var(--ink-3); }
+.strip .dotted { position: absolute; top: 46px; height: 0; border-top: 2px dotted var(--ink-3); }
+.strip .tl { position: absolute; top: 58px; transform: translateX(-50%); font: 400 11px/1.3 var(--mono); color: var(--ink-3); white-space: nowrap; }
+.strip .tl.now { color: var(--seal); font-weight: 500; }
+.strip .tl.l { transform: none; } .strip .tl.r { transform: translateX(-100%); }
+
+.apparatus { display: grid; grid-template-columns: 1fr auto 1fr; gap: 24px; align-items: start; padding: 10px var(--gut) 18px; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font: var(--annot-text); color: var(--ink-2); align-items: center; }
+.legend .k { display: inline-flex; align-items: center; gap: 7px; }
+.legend .k svg { width: 28px; height: 14px; display: block; }
+.legend .title { font: var(--eyebrow); color: var(--ink-3); text-transform: uppercase; letter-spacing: .06em; width: 100%; }
+.stepper { display: inline-flex; align-items: center; gap: 14px; justify-self: center; }
+.stepper button { width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--line-2); background: transparent; color: var(--ink); font: 400 18px/1 var(--serif); cursor: pointer; }
+.stepper .n { font: var(--eyebrow); color: var(--ink-2); letter-spacing: .04em; }
+.right { justify-self: end; max-width: 520px; display: grid; gap: 8px; }
+.rule, .honesty { font: 400 11px/1.45 var(--mono); color: var(--ink-2); }
+.rule b, .honesty b { font-weight: 500; color: var(--ink-3); text-transform: uppercase; letter-spacing: .06em; margin-right: 8px; }
+.rule { color: var(--ink); }
+
+@media (max-width: 720px) {
+  .page { height: auto; min-height: 100vh; }
+  .band { grid-template-columns: auto 1fr; grid-template-rows: auto auto; height: auto; padding-top: 10px; padding-bottom: 10px; row-gap: 4px; }
+  .band .title { grid-column: 1 / -1; white-space: normal; font-size: 17px; }
+  .band .clock { grid-column: 2; grid-row: 1; }
+  .note { grid-template-columns: 1fr; gap: 6px; }
+  .surface { padding: 0; }
+  .globe-wrap { height: auto; }
+  svg.globe { aspect-ratio: 1 / 1; height: auto; }
+  svg.globe.phone .lbl-name { font-size: 17px; } svg.globe.phone .lbl-sub { font-size: 15px; }
+  .caption { position: static; max-width: none; margin: 0 16px 12px; }
+  .strip, .apparatus { padding-left: 16px; padding-right: 16px; }
+  .apparatus { grid-template-columns: 1fr; }
+  .right { justify-self: start; max-width: none; }
+  .strip .track { height: 104px; }
+  .strip .axis, .strip .dotted { top: 66px; } .strip .span { top: 58px; } .strip .tick { top: 63px; } .strip .tick.cursor { top: 56px; } .strip .tl { top: 78px; }
+  .strip .end small { white-space: normal; max-width: 170px; }
+  .strip .tl.later { display: none; }
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="band">
+    <div class="identity" aria-label="F1.13 Networks, the lecture's identity: cobalt, the jar">
+      <span class="bar" aria-hidden="true"></span>
+      <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#4A6472" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8.5 3.5h7M9 3.5v2.2c0 .6-.4 1-1 1.3C5.6 8.2 4 10.4 4 13.2c0 3.6 2.6 6.3 5.5 7.3h5c2.9-1 5.5-3.7 5.5-7.3 0-2.8-1.6-5-4-6.2-.6-.3-1-.7-1-1.3V3.5"/>
+        <path d="M6.2 12.5c1.6-.9 3.6-.9 5.8 0s4.2.9 5.8 0" stroke-width="1"/>
+      </svg>
+      <span class="eyebrow">F1.13 · Networks · scene S3</span>
+    </div>
+    <h1 class="title">Omar ibn Said, <i>his own life in Arabic</i></h1>
+    <div class="clock" aria-label="the clock, point mode">
+      <div class="readout">1807</div>
+      <div class="mode">point · f13-e-omar-captured</div>
+    </div>
+  </header>
+
+  <section class="note" aria-label="content note">
+    <b>Content note</b>
+    <p>This scene is about the Atlantic slave trade. Traders forced about 12.5 million African people onto ships, 1501 to 1866, and many died at sea. We show no images of bodies or ships. You can skip this scene; the summary keeps the count.</p>
+    <a href="#next">skip this scene</a>
+  </section>
+
+  <main class="surface">
+    <div class="globe-wrap">
+      <svg class="globe" id="globe" viewBox="0 0 1360 500" preserveAspectRatio="xMidYMid meet" role="img" aria-label="The Atlantic on a schematic globe, dimmed: Omar ibn Said's chip at South Carolina with one seal-red pulse ring settling at the place, 1807; his chip at Futa Toro from the shot before; no line of any colour between the two.">
+        <defs>
+          <clipPath id="disc"><circle id="discc" cx="0" cy="0" r="0"/></clipPath>
+          <filter id="blot" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+        </defs>
+        <g id="drawn"></g>
+      </svg>
+
+      <aside class="caption frost" aria-label="caption">
+        <p><span class="name">Omar ibn Said</span> was captured in 1807 and brought to South Carolina.</p>
+        <p class="arabic">the record: "Omar ben Saeed" · romanisation: Library of Congress · his name in Arabic, as the record writes it: <span lang="ar" dir="auto">placed at build</span></p>
+        <div class="meta">
+          <span><b>sources</b> F1.13-C22</span>
+          <span><b>claim</b> f13-e-omar-captured</span>
+          <span><b>protocol</b> level 2 · AR-081</span>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <section class="strip" aria-label="the timeline strip: the scene span, the ticks and the cursor">
+    <div class="track">
+      <div class="end left">1501<small>the scene span · SlaveVoyages' estimate · f13-e-tast-span</small></div>
+      <div class="end right">1866<small>the count: a card, in words</small></div>
+      <div class="span" style="left:0;width:100%"></div>
+      <div class="axis"></div>
+      <div class="tick halo" style="left:73.7%"></div><div class="tl r" style="left:71%">c. 1770 · born, Futa Toro</div>
+      <div class="tick cursor" style="left:83.8%"></div><div class="tl now" style="left:83.8%">1807 · captured</div>
+      <div class="tick pale" style="left:90.4%"></div><div class="tl r later" style="left:100%">1831 · wrote his life</div>
+      <div class="dotted" style="left:99.2%;width:.8%" title="1863 or 1864, contested: a dotted bar, never a tick"></div>
+    </div>
+  </section>
+
+  <footer class="apparatus">
+    <div class="legend" aria-label="the sized legend">
+      <span class="title">Key · marks used (two highlight kinds)</span>
+      <span class="k"><svg viewBox="0 0 28 14"><rect x="3" y="2" width="22" height="10" rx="2" fill="#FAF6EC" stroke="#C2B596"/><rect x="7" y="5.5" width="14" height="3" fill="#1D1A15"/></svg>person · the chip, ink, no glyph</span>
+      <span class="k"><svg viewBox="0 0 28 14"><circle cx="14" cy="7" r="6" fill="none" stroke="#B3301E" stroke-opacity=".6"/><circle cx="14" cy="7" r="2.5" fill="#B3301E"/></svg>incident · one pulse, settling to a dot</span>
+      <span class="k"><svg viewBox="0 0 28 14"><circle cx="14" cy="7" r="5" fill="#7A7162" opacity=".35" filter="url(#blot)"/></svg>placed by region · a soft blot</span>
+      <span class="k"><svg viewBox="0 0 28 14"><path d="M2 7h24" stroke="#233C6B" stroke-width="2" stroke-dasharray="2 20"/></svg>journey line · none: people are not routes</span>
+    </div>
+    <div class="stepper" aria-label="step control">
+      <button type="button" aria-label="previous shot">‹</button>
+      <span class="n">3 of 7</span>
+      <button type="button" aria-label="next shot">›</button>
+    </div>
+    <div class="right">
+      <div class="rule"><b>Rule</b>human-flow: a person, the chip; content note AR-081; his name and his Arabic text lead; no glyph; no goods grammar</div>
+      <div class="honesty"><b>Honesty</b>No line is drawn between Futa Toro and the Carolinas: "dots with his name, and no arrow". Futa Toro is placed by region (anchored at Podor) and is a soft blot. The count of the trade is a card in words, never a bubble or a crawl. His death, 1863 or 1864, is contested and never a tick or a clock. The Arabic spelling of his name is not in the unit's files and is left for the record at build. Graticule only: coastlines are not in the unit's data. The manuscript's image is the holder's photograph, placed at build.</div>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  // The gazetteer (f1-13.json `places`): Charleston and Fayetteville from GeoNames via cities.json 1.1.65 (CC BY 4.0); the claim says "brought to South Carolina"
+  // and "in North Carolina", so the labels carry the states. Futa Toro is placed by region, anchored at Podor (GeoNames).
+  var P = {
+    futa_toro:   { name: 'Futa Toro',      lat: 16.64892, lon: -14.96073, approx: true },
+    charleston:  { name: 'South Carolina', lat: 32.77632, lon: -79.93275 },
+    fayetteville:{ name: 'North Carolina', lat: 35.05266, lon: -78.87836 }
+  };
+  var C = { lat: 24, lon: -42 };   // the lecture's focus for station 8: 42° W, 24° N
+  var W = 1360, H = 500, R = 232, cx = 700, cy = 250;
+  var d2r = Math.PI / 180, sl0 = Math.sin(C.lat * d2r), cl0 = Math.cos(C.lat * d2r);
+  function proj(lat, lon) {
+    var la = lat * d2r, dl = (lon - C.lon) * d2r;
+    var cosc = sl0 * Math.sin(la) + cl0 * Math.cos(la) * Math.cos(dl);
+    return { x: cx + R * Math.cos(la) * Math.sin(dl), y: cy - R * (cl0 * Math.sin(la) - sl0 * Math.cos(la) * Math.cos(dl)), front: cosc > 0.002 };
+  }
+  var svgNS = 'http://www.w3.org/2000/svg', g = document.getElementById('drawn');
+  function el(n, attrs, parent) { var e = document.createElementNS(svgNS, n); for (var k in attrs) e.setAttribute(k, attrs[k]); (parent || g).appendChild(e); return e; }
+  function pathFrom(points) { var d = '', pen = false; for (var i = 0; i < points.length; i++) { var p = points[i]; if (p.front) { d += (pen ? 'L' : 'M') + p.x.toFixed(1) + ' ' + p.y.toFixed(1); pen = true; } else pen = false; } return d; }
+  var phone = window.innerWidth < 720;
+  if (phone) { var svg = document.getElementById('globe'); svg.setAttribute('viewBox', (cx-R-24)+' '+(cy-R-24)+' '+(2*R+48)+' '+(2*R+48)); svg.classList.add('phone'); }
+
+  el('circle', { cx: cx, cy: cy, r: R, fill: '#F1EADB', stroke: '#4A4234', 'stroke-width': 1, 'stroke-opacity': .6 });
+  document.getElementById('discc').setAttribute('cx', cx); document.getElementById('discc').setAttribute('cy', cy); document.getElementById('discc').setAttribute('r', R);
+  // the focus mask: everything outside the moment at a quarter (the graticule is drawn dimmed)
+  var grat = el('g', { 'clip-path': 'url(#disc)', fill: 'none', stroke: '#C2B596', 'stroke-width': .7, opacity: .5 });
+  for (var lon = -180; lon < 180; lon += 30) { var pts = []; for (var la = -90; la <= 90; la += 2) pts.push(proj(la, lon)); el('path', { d: pathFrom(pts) }, grat); }
+  for (var lat = -60; lat <= 60; lat += 30) { var pts2 = []; for (var lo = -180; lo <= 180; lo += 2) pts2.push(proj(lat, lo)); el('path', { d: pathFrom(pts2), 'stroke-width': lat === 0 ? 1.1 : .7, stroke: lat === 0 ? '#A69C86' : '#C2B596' }, grat); }
+  el('text', { x: cx - 30, y: cy + 120, 'text-anchor': 'middle', 'font-family': "'IBM Plex Mono', ui-monospace, Menlo, monospace", 'font-size': 11, fill: '#7A7162', 'letter-spacing': '.12em', opacity: .7 }).textContent = 'THE ATLANTIC';
+
+  var f = proj(P.futa_toro.lat, P.futa_toro.lon), c = proj(P.charleston.lat, P.charleston.lon);
+  // Futa Toro: placed by region, a soft blot; his chip from shot 2 stays, as the other label
+  el('circle', { cx: f.x, cy: f.y, r: 9, fill: '#7A7162', opacity: .35, filter: 'url(#blot)' });
+  el('circle', { cx: f.x, cy: f.y, r: 2.5, fill: '#1D1A15' });
+  // South Carolina: the 1807 tick fires: one seal-red pulse ring (600 ms) settling to a dot, then his chip at the place
+  el('circle', { cx: c.x, cy: c.y, r: 16, fill: 'none', stroke: '#B3301E', 'stroke-width': 1.2, 'stroke-opacity': .45 });
+  el('circle', { cx: c.x, cy: c.y, r: 8, fill: 'none', stroke: '#B3301E', 'stroke-width': 1.2, 'stroke-opacity': .8 });
+  el('circle', { cx: c.x, cy: c.y, r: 3.5, fill: '#B3301E' });
+
+  // the chip: a paper chip, name over a mono line; a one-elbow leader from the mark
+  function chip(p, name, sub, dx, dy, anchor, primary) {
+    var k = phone ? 1.42 : 1, lx = p.x + dx, ly = p.y + dy, w = (Math.max(name.length * 7.6, sub.length * 6.7) + 20) * k, h = 36 * k;
+    var bx = anchor === 'end' ? lx - w : lx;
+    el('path', { d: 'M' + p.x + ' ' + p.y + 'V' + (ly + 6) + 'H' + (anchor === 'end' ? lx - 1 : lx + 1), fill: 'none', stroke: '#1D1A15', 'stroke-width': 1, opacity: primary ? 1 : .7 });
+    el('rect', { x: bx, y: ly - 10, width: w, height: h, rx: 4, 'class': 'chip-back', opacity: primary ? 1 : .8 });
+    el('text', { x: bx + 10, y: ly + 4, 'class': 'lbl-name', opacity: primary ? 1 : .8 }).textContent = name;
+    el('text', { x: bx + 10, y: ly + 18 * k, 'class': 'lbl-sub' }).textContent = sub;
+  }
+  if (phone) {
+    chip(c, 'Omar ibn Said', 'South Carolina · captured 1807, brought here', -96, -96, 'start', true);
+    chip(f, 'Omar ibn Said', 'Futa Toro · born about 1770', 30, 44, 'end', false);
+  } else {
+    chip(c, 'Omar ibn Said', 'South Carolina · captured 1807, brought here', -34, -70, 'end', true);
+    chip(f, 'Omar ibn Said', 'Futa Toro · born about 1770', 40, 36, 'start', false);
+  }
+})();
+</script>
+</body>
+</html>
