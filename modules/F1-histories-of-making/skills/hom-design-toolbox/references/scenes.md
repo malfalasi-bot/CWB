@@ -14,7 +14,7 @@ From the first two studies (`research_notes/Motion layers and focus/STUDY.md`, `
 | Map | A three-scale ink map in the unit; the Atlas globe as the hub, completed first, then layered with scenes |
 | Timeline | The lane chart (v3/v4), reactivated; the fast sweep dropped; stop-and-play focus on one event, object, journey or run |
 | People | Three layers: inline card at first mention → linked entity sheet → character cards and the Cast deck |
-| Text | Beats on the stage as hinges; the full lectures as a linked layer through the station player (`beats.md`) |
+| Text | Beats on the stage as hinges; the full lectures as a linked layer through the station player (`hom-writing/references/beats.md`) |
 
 ## 2. The moment grammar
 
@@ -23,7 +23,7 @@ Six kinds of moment. Each has one surface, one trigger, one thing that moves and
 | Moment | Where | Trigger | What moves | Pace |
 |---|---|---|---|---|
 | **A. Opener** (act, lecture, chapter) | the stage; the map at the act's scale | entering the act | one slow push-in on a still map, then the title card lands; nothing else | 6–8 s, then held |
-| **B. Journey** | map or globe | the beat that names it; the Atlas layer | a route drawn stop by stop; each stop gets a date and a number; the rest dims | 1–1.5 s per leg, held at each stop |
+| **B. Journey** | map or globe | the beat that names it; the Atlas layer | a route drawn stop by stop; each stop gets a date and a number; the rest dims | 1.2 s per leg, held at each stop |
 | **C. Incident** | a dated sheet or the regional map | the beat; a timeline tick | the camera settles on the place, the mark pulses once, the caption carries the date | 2 s settle, one pulse, held |
 | **D. Demonstration** | the stage (an object), never the map | the beat; a room | an object taken apart or rebuilt in steps the reader takes | reader-stepped, never auto |
 | **E. Run of events** | the timeline focus, the map answering | selecting a group; an act's Rebuild | the lane chart zooms to the span; items tick in order; each tick changes one thing | 2.5–4 s per tick, with a pause bar |
@@ -87,11 +87,12 @@ A scene is data (`content/scenes.yaml`), built into the unit's content and copie
   honesty: Four of six legs are undated and drawn dashed; the 1829 fan is shown by an early-1830s sheet.
   guess: b3-2g                  # an existing prompt id, or none
   ends_on: { object: redfuji }  # every scene ends on an object on the stage
+  content_note: none            # or the note, once, before the first shot (human-flow, funerary, sacred)
   shots:
     - n: 1
       surface: globe-world
       camera: { move: settle, keep: [berlin, edo] }        # settle | follow | push | cut | hold
-      clock: { mode: point, readout: "c. 1704" }           # point | span | step | crawl | held
+      clock: { mode: point, readout: "c. 1704", claim: ed-blue-berlin }   # point | span | step | crawl | held; claim: the record the readout rests on, never contested or argued
       actors: [ { glyph: pigment, at: berlin } ]
       labels: { primary: berlin, others: [edo] }           # one primary, at most three others
       dim: [routes, marks]                                 # what fades to a quarter
@@ -106,7 +107,7 @@ A scene is data (`content/scenes.yaml`), built into the unit's content and copie
       labels: { primary: nagasaki, others: [amsterdam, cape, batavia], ink_as_drawn: true }
 ```
 
-Two fields the F1.13 run added: a scene-level `content_note` (the note once, before the first shot, for human-flow, funerary or sacred content) and `clock.claim` (the record the readout rests on; a contested or argued record may not be named here). A caption whose text carries two documented values lists both ids under `claim`.
+Two fields the F1.13 run added: a scene-level `content_note` (the note once, before the first shot, for human-flow, funerary or sacred content) and `clock.claim` (the record the readout rests on; a contested or argued record may not be named here). A caption whose text carries two documented values lists both ids under `claim`. The schema block below carries both fields; the lint checks them.
 
 The schema enforces: one `camera` move per shot; one `primary` label; a `claim` on every caption that carries a date or a number; `honesty` present; `reduced` on every shot; `ends_on` an object; a journey has at least one `follow` shot; a run has at most nine ticks; an incident has a `before` shot held before anything moves.
 
@@ -128,7 +129,7 @@ The readout sits top right on every surface (`calendars.md` for its form).
 |---|---|---|
 | point | `1842 · Tenpō 13` | one dated tick |
 | span | `1704–1824` with a bar on the strip | undated legs between two dated ends; the readout holds, the bar shows the extent |
-| step | `1824 → 1825 → … 1828`, 1–2 s per tick | a dated run of ticks (a price falling) |
+| step | `1824 → 1825 → … 1828`, 2.5–4 s per tick with a pause bar (1–2 s only inside a crawl's counter) | a dated run of ticks (a price falling) |
 | crawl | the year advances continuously with a pause bar; the caption's counter climbs | a long span with a count (218 shipments over eleven years) |
 | held | `1833 · clock held`, muted | a spatial stepper where nothing is dated (the stations of a road) |
 
@@ -147,7 +148,7 @@ Six kinds, differing in shape, colour and motion together, never in colour alone
 | Person | the chip | ink | none | the name | the character sheet |
 | Mentioned place | a pale hollow dot | ink-3 | none | none unless tapped | the place card |
 
-A seventh kind, proposed by the F1.13 run for unnamed groups of people moved by force (the Korean potters, the people the galleons carried): the **people card**, a paper card beside the leg naming the group, the count as a range and who counted, with no mark on the leg itself; it is drawn only with a content note, never as a glyph or a chip.
+A seventh kind, adopted after the F1.13 run for unnamed groups of people moved by force (the Korean potters, the people the galleons carried): the **people card**, a paper card beside the leg naming the group, the count as a range and who counted, with no mark on the leg itself; it is drawn only with a content note, never as a glyph or a chip.
 
 A lecture does not highlight every place it mentions; mentioned places stay pale and unlabelled. A place becomes a journey stop only when a leg reaches it, an incident only when a tick fires. Washes and lenses recolour the ground, never the marks.
 
@@ -207,4 +208,4 @@ Every scene: kind, span, claims, honesty, ends_on, reduced per shot. Every capti
 - **The unit timeline.** The lane chart with focus, stop-and-play and the calendar lane; the cursor is the only clock; every map beat and widget listens to it.
 - **The Atlas globe.** Completed first; then the scene system and the two data layers; then the lecture and journey layer menu at world tier. Choosing a lecture flies to its places, lands the chapter card (two or three sentences, one date, one number), plays its scenes stop by stop with the step control and the strip, and hands off to the unit at any stop.
 - **Rooms.** Unchanged; linked from beats and demonstrations.
-- **Lectures.** The full lectures through the station player, as a layer opened from the act bar and the Atlas; stations bound to ticks (`beats.md`).
+- **Lectures.** The full lectures through the station player, as a layer opened from the act bar and the Atlas; stations bound to ticks (`hom-writing/references/beats.md`).

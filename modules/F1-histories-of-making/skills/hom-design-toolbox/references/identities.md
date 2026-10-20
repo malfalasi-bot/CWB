@@ -6,7 +6,7 @@ Each unit's lectures (or cases, for a method unit) own one muted colour and one 
 
 1. **Count:** the unit's lectures or cases, 3–8.
 2. **Name each colour after a material row the unit reaches** (a MAT row in the canon: a pigment, a wood, a fibre, a metal, a clay). The colour is a muted reading of that material, never a saturated swatch.
-3. **Hue spacing:** ≥ 20° between any two within a unit; ≥ 36° between the identity sets of the nine world chapters so the Atlas list reads; never the two accents (indigo and seal red are the trade and the state everywhere; Edo's L5 and L6 are not repeated elsewhere).
+3. **Hue spacing:** ≥ 20° between any two within a unit; ≥ 36° between the identity sets of the nine world chapters so the Atlas list reads; never the two accents (indigo and seal red are the trade and the state everywhere). One exception, recorded here so it is not a contradiction: Edo's L5 (Prussian blue) and L6 (the seal) take the accents themselves because their subjects are the trade and the state; no other unit may.
 4. **Contrast:** 4.5:1 as text on paper and on sumi.
 5. **Motif:** one 24 px sumi-line glyph per lecture from the shared glyph library; a new glyph is added to the library only when a content line demands it.
 6. **Where it appears:** the lecture's card (4 px bar and motif), its threshold, its tick, its panel header, its journey bar's travelled part. Never on a route, a mark, a map wash or body text.

@@ -57,7 +57,7 @@ ed-blue-at-printers:
 
 ## 2. Display rules
 
-Documented is unmarked; the other three confidence words appear in brackets after the display, or as the word in the sentence in prose. `display` is the bare string and renders verbatim; a surface adds only the bracket and the alternates.
+Documented is unmarked; the other three confidence words appear as the word in the sentence the reader reads (the learner view) and as a chip beside the value in the editor view; never as a bracket or a code in prose. `display` is the bare string and renders verbatim; a surface adds only the bracket and the alternates.
 
 | Surface | Point | Circa | Range | Argued or contested |
 |---|---|---|---|---|

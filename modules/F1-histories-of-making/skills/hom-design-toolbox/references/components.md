@@ -9,10 +9,10 @@ Contents: 1 Annotated object page · 2 Exploded view · 3 Typology plate · 4 Sp
 The most common page in the course. One object, explained.
 
 Anatomy, top to bottom:
-1. Header band: the act bar or chapter band with the era colour tab and the clock readout (the object's date, with its confidence word if less than documented).
+1. Header band: the act bar or chapter band (the lecture's 4 px bar where the page belongs to a lecture; eras and other groupings take no colour) and the clock readout (the object's date, with its confidence word if less than documented).
 2. Title (serif, roman + italic) and a one-line italic deck.
 3. The object, as large as the viewport allows, on paper with the grain. On desktop the object takes the right 60 % and the text column the left 40 %; on phones the object comes first, full width.
-4. Leaders: 3–7, each a 1 px sumi line with one 90° elbow, a 6 px dot at the object end, ending in a label of `600 12px` name over `400 12px` one sentence (≤ 25 words). Leaders never cross; labels never overlap; the placer treats the title and the caption slot as occupied.
+4. Leaders: 3–7 (a page needing more is two pages), each a 1 px sumi line with one 90° elbow, a 6 px dot at the object end, ending in a label of `600 12px` name over `400 12px` one sentence (≤ 25 words). Leaders never cross; labels never overlap; the placer treats the title and the caption slot as occupied.
 5. The scale figure: a 1.7 m human silhouette (or a hand, for small objects) beside a bar of the object's height; and the location thumb: a 120 px map with one dot.
 6. The credit line in mono: holder · accession · date · materials · licence (e.g. "The Metropolitan Museum of Art · JP1847 · c. 1830–32 · woodblock print, ink and colour on paper · CC0").
 7. One pull-fact: 26 px serif, the number or two words in 600. One only.
@@ -276,7 +276,7 @@ The unit's only timeline, and the clock of every surface.
 
 Anatomy: lanes (the state; the makers; the objects; the world; the afterlife), a price lane, run bubbles, the calendar lane (the source's reckoning: nengō, reign, Hijri); the cursor with its readout (CE · the reckoning); the act band with declared gaps and overlaps; a focus: the chart zoomed to a span never narrower than ten years, its items listed as ticks, the chart dimmed outside the span; the stop-and-play controls (Play, Step, Hold, Escape) with the pause bar; the span-list twin.
 
-Rules: no fast sweep; a tick is a point (hollow if probable), a halo for circa, a bar for a range, never an argued value; auto-step 2.5–4 s with a pause bar, only inside a focus; ≤ 12 ticks per focus (a longer group splits); the map and the stage answer the cursor; the lecture player's stations are the same ticks.
+Rules: no fast sweep; a tick is a point (hollow if probable), a halo for circa, a bar for a range, never an argued value; auto-step 2.5–4 s with a pause bar, only inside a focus; ≤ 9 ticks per focus (a longer group splits); the map and the stage answer the cursor; the lecture player's stations are the same ticks.
 
 First: the Edo lane chart; the censor regimes; the ban and its effects; the afterlife 1867–1928.
 
@@ -286,7 +286,7 @@ The text beside the pinned stage: the hinge between the instrument and the lectu
 
 Anatomy: the threshold as the title card (its thesis sentence, the lecture and station span); 3–7 beats after it on the ink thread, each of one kind (caption, focus, bridge, note, prompt), each with its station chip; the one aside, if any, in the margin off the thread; a prompt's answer drawn on the instrument as truth ink, never as a card; the bridge as the last card where place or scale changes.
 
-Rules: lengths per kind (`beats.md` §3); subject and date in every beat's own words; no antecedent outside the beat; confidence words only in notes and a prompt's `say`; a focus has one number or date and one mark; a caption's first sentence names the instrument; every year and number a register claim; read cold, out of order, before it ships.
+Rules: lengths per kind (`hom-writing/references/beats.md` §3); subject and date in every beat's own words; no antecedent outside the beat; confidence words only in notes and a prompt's `say`; a focus has one number or date and one mark; a caption's first sentence names the instrument; every year and number a register claim; read cold, out of order, before it ships.
 
 First: Act II scenes 3–4 (Lecture 5 "Blue").
 

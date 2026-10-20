@@ -36,8 +36,8 @@ From SKILL.md §4, the page type for each kind of knowledge the unit carries; fr
 
 ## 6. Storyboard, lectures and beats
 
-Rank the unit's journeys and runs (`scenes.md` §7) and choose which get scenes. For each scene, quote the content line that demands each element (a ship, a seal, flames), then the shot list with camera, clock, actors, labels, caption with sources, and the honesty line, as in `research_notes/Motion layers and focus/scenes.md`. Write each scene to the schema in `scenes.md` §5. Write the lectures as stations in `lectures.yaml` (one instrument state and one showable claim each), then derive the beats by the curation in `beats.md` §5; never draft beats first.
+Rank the unit's journeys and runs (`scenes.md` §7) and choose which get scenes. For each scene, quote the content line that demands each element (a ship, a seal, flames), then the shot list with camera, clock, actors, labels, caption with sources, and the honesty line, as in `research_notes/Motion layers and focus/scenes.md`. Write each scene to the schema in `scenes.md` §5. Write the lectures as stations in `lectures.yaml` (one instrument state and one showable claim each), then derive the beats by the curation in `hom-writing/references/beats.md` §5; never draft beats first.
 
 ## 7. Build and lint
 
-Build from `tokens.css` and `components.md`; run `checklist.md` at 1440 and 390 px; run the content lints (`claims.md` §3, `scenes.md` §8, `beats.md` §6; lengths, confidence words, "earliest known", names, protocol levels). A unit under the thresholds ships its list twin and its grouping cards first and its scenes when the data arrives; it never ships a map with invented placement to look complete.
+Build from `tokens.css` and `components.md`; run `checklist.md` at 1440 and 390 px; run the content lints (`claims.md` §3, `scenes.md` §8, `hom-writing/references/beats.md` §6; lengths, confidence words, "earliest known", names, protocol levels). A unit under the thresholds ships its list twin and its grouping cards first and its scenes when the data arrives; it never ships a map with invented placement to look complete.

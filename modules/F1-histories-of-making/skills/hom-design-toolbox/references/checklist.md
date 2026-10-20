@@ -9,7 +9,7 @@ Run against a screenshot at 1440 px and at 390 px (and in the dark room if the s
 - [ ] No flags, emoji, icon rows, slogans, glow, neon, scan lines.
 
 ## Type
-- [ ] Source Serif 4 body at 17/1.55 (16 on phones), paragraphs ≤ 68 characters.
+- [ ] Source Serif 4 body at 17/1.55 (16 on phones), lines ≤ 68 characters (the measure, not the paragraph).
 - [ ] Titles pair roman and italic; decks are one italic sentence.
 - [ ] Annotations: `600 12px` name over `400 12px` one sentence, ≤ 25 words.
 - [ ] One pull-fact per page, the number in 600; eyebrows and readouts in mono.
@@ -26,9 +26,9 @@ Run against a screenshot at 1440 px and at 390 px (and in the dark room if the s
 - [ ] Typology plate: ranges under objects, one scale, undated at the row's end.
 
 ## Time
-- [ ] The clock readout at the top right on every surface with a date; mode fits the content (point · span · step · crawl · held).
+- [ ] The clock readout at the top right on every surface that has a date (a compare sheet or an argument card has none and shows no clock); mode fits the content (point · span · step · crawl · held).
 - [ ] Ranges are bars, never points; argued dates never drive a tick, a tile or a clock.
-- [ ] A route scene has the journey bar; a run has ≤ 9 ticks; a span list has both ends per row.
+- [ ] A route scene has the journey bar; a run or a focus has ≤ 9 ticks; a scene has 3–7 shots; a span list has both ends per row.
 - [ ] No fast sweep; auto-step only inside a focus, with a pause control, ≤ 5 s between controls.
 
 ## Maps and scenes
@@ -46,7 +46,7 @@ Run against a screenshot at 1440 px and at 390 px (and in the dark room if the s
 ## Access and rules
 - [ ] Keyboard: every stepper, bar, card and label reachable; arrows step scenes; Escape leaves a focus.
 - [ ] Reduced motion: the same page with cuts and fades; captions and end states identical.
-- [ ] Quotes ≤ 25 words; "earliest known", never "first"; Japanese names in Japanese order; the Yoshiwara read, not played.
+- [ ] Quotes ≤ 25 words; no priority claim ("earliest known", never "first", "invented", "the origin of"; the word inside a quoted title or name is not a claim); names as the community writes them; the Yoshiwara read, not played.
 - [ ] No points, badges, streaks, leaderboards, timers, confetti, completion percentages.
 
 ## Groupings, relations and arguments

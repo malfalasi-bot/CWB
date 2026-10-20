@@ -1,4 +1,7 @@
-# Text: lectures, beats and people
+# Lectures and beats: one reading order (optional)
+
+Moved from the design skill on 20 October 2026. Use it for a unit that has full lectures as stations; the seven kinds and their lengths are a pattern, not a law. The caption rule is now: a probable, contested or argued value may appear in a caption only with its word in the sentence.
+
 
 From `research_notes/Motion layers and focus/beats_study.md` and `STUDY.md` §1, §8. The principle: **the lecture carries the argument, the instrument carries the evidence, the beat is the hinge.** A beat says what the stage shows now, in one claim, and points to the station that argues it. It is never a second telling.
 

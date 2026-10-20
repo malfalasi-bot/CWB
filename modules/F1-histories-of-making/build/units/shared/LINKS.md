@@ -41,3 +41,7 @@ node or step codes the learner engaged, e.g. `#ink.edo.tsutaya~hokusai~e1842~des
 
 ## Ballet (20 October 2026)
 - `research_notes/Ballet/` — pass1_dossier.md, pass2_verify.md, pass2_body.md, pass2_presentation.md, BRIEF.md (the teaching brief), RETHINK.md (the constitution and the new loop).
+
+## Ecosystem v2 (20 October 2026)
+- `WORKFLOW.md`, `CHANGELOG.md`, `skills/EVALS.md`; skills `hom-constitution`, `hom-research`, `hom-writing`, `hom-design-toolbox` (was histories-of-making-design), `hom-lint`.
+- `research_notes/Ecosystem review/` — audit_repo.md, critique_content.md, best_practice.md, critique_skill.md, FINDINGS.md.

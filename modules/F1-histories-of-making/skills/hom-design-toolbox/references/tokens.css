@@ -6,6 +6,7 @@
   /* the two accents */
   --indigo: #233C6B; --indigo-2: #3A5A96; --indigo-soft: rgba(35,60,107,.10); --indigo-line: rgba(35,60,107,.55);
   --seal: #B3301E; --seal-soft: rgba(179,48,30,.10);
+  /* Edo-only tokens follow (seasons, lecture identities): a unit defines its own in units/<unit>/tokens.css by identities.md; nothing here is required outside Edo */
   /* seasons: the Hundred Views and the Tōkaidō only */
   --spring: #B85C76; --summer: #3E7D5A; --autumn: #B8662A; --winter: #4F6E99;
   /* kraft: the labs' workbench */
