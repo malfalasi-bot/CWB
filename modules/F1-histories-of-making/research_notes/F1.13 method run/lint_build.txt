@@ -1,0 +1,3 @@
+W-CANON-DISAGREES research_notes/F1.13 method run/claims.yaml:f13-e-tast-span ← f13-e-tast-span: alternate [1525, 1867] (NET035), display "1501–1866"
+
+0 errors, 1 warning; 94 records in the register; 187 year tokens checked in 9 files (16 citation or counting years skipped)

@@ -1,0 +1,1410 @@
+# F1.13 Networks: objects, materials, skills and people — the claims register
+# Schema: skills/histories-of-making-design/references/claims.md §1.
+# One record per dated or numbered claim, keyed by the claim, not the year.
+# Ids: f13-<inventory event id> for every event in inventory.json;
+#      f13-<register or canon id, lowercased>[-aspect] for dated or numbered claims
+#      with no inventory event. Stable once frozen (tag claims-v1).
+# Extra fields beyond the schema: `protocol` (level 1–6 and the reason, as plan.md
+# assigns), `rule` (the human-flow display rule), `as_of` (the year a count was
+# taken), and `lecture` inside where_used (station ids in f1-13.json).
+# Sources: register ids (F1.13-Cnn), canon ids (OCCnnn, NETnnn, DIAnnn, COMnnn,
+# CIVnnn, PRAnnn), or a research-note citation. Nothing here is from memory.
+# Written by Claude Fable 5.1, 20 October 2026, from research.md, benchmark.md,
+# inventory.json, plan.md, claims_specs_v1.csv (F1.13-C01–C25), f1-13.json and
+# grouping-pages/indian_ocean.md. Unfrozen until the editor signs it.
+
+f13-occ014-zhang-qian:
+  claim: Zhang Qian's first mission to the Western Regions
+  kind: span
+  value: [-138, -126]
+  precision: circa
+  calendar: gregorian
+  pos: -132
+  confidence: documented
+  sources: [OCC014]
+  alternates:
+    - {value: [-138, -115], sources: [OCC014], note: "the canon row's start and end, which take in the second mission, c. 119–115 BCE"}
+  display: "138–126 BCE"
+  where_used: {beats: [], events: [], people: [zhang-qian], atlas: [], objects: [], lecture: []}
+  editor_note: "From the canon row only (defined by Han historians, Sima Qian). BCE written out. Not used by any station; held for the character sheet."
+
+f13-c09-corridor-span:
+  claim: The Chang'an–Tianshan corridor forms and stays in use
+  kind: span
+  value: [-200, 1600]
+  precision: range
+  calendar: gregorian
+  pos: 700
+  confidence: documented
+  sources: [F1.13-C09]
+  alternates: []
+  display: "2nd century BCE – 16th century"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [], lecture: [s4]}
+  editor_note: "UNESCO's words: formed 'between the 2nd century BC and 1st century AD', used 'until the 16th century'. Both ends are centuries, so the bar is fuzzy at both ends; the lecture draws it -200 to 1600. BCE and CE written out on every surface."
+
+f13-c09-corridor-length:
+  claim: The Chang'an–Tianshan corridor's inscribed section, in kilometres
+  kind: number
+  value: 5000
+  precision: circa
+  calendar: gregorian
+  confidence: documented
+  sources: [F1.13-C09]
+  alternates: []
+  display: "5,000 km"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [], lecture: [s4]}
+  editor_note: "Counted by UNESCO in the 2014 inscription ('a 5,000 km section'). The route label carries it with the 33 sites."
+
+f13-c09-corridor-sites:
+  claim: The number of sites in the inscribed corridor
+  kind: number
+  value: 33
+  precision: year
+  calendar: gregorian
+  confidence: documented
+  sources: [F1.13-C09]
+  alternates: []
+  display: "33 sites"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [], lecture: [s4]}
+  editor_note: "Counted by UNESCO in the 2014 inscription. Precision 'year' here means exact."
+
+f13-c09-inscribed:
+  claim: UNESCO inscribes the Chang'an–Tianshan corridor
+  kind: date
+  value: 2014
+  precision: year
+  calendar: gregorian
+  pos: 2014
+  confidence: documented
+  sources: [F1.13-C09]
+  alternates: []
+  display: "2014"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [], lecture: []}
+  editor_note: "The listing's date. Not spoken in the lecture; here so the counts above can say who counted and when."
+
+f13-e-periplus:
+  claim: The Periplus of the Erythraean Sea lists enslaved people among exports
+  kind: date
+  value: 50
+  precision: circa
+  calendar: gregorian
+  pos: 50
+  confidence: documented
+  sources: [F1.13-C08]
+  alternates: []
+  display: "mid-1st century CE"
+  where_used: {beats: [], events: [e-periplus], people: [], atlas: [], objects: [], lecture: [s3]}
+  protocol: "level 2, content note once per scene (plan.md): human flow; the translation's own words stay in the Deep tier, attributed (N6); learners read 'enslaved people' (AR-086)"
+  rule: "a range on a card; never a bubble or a crawl — and here the count is not recorded, so the card says so"
+  editor_note: "The register dates the text 'mid-1st century CE'; 50 is the placing value only and never renders. Three-digit, so the four-digit lint does not scan it; the beat lint must check the words."
+
+f13-c25-pearling-span:
+  claim: Pearling dominates Bahrain's economy
+  kind: span
+  value: [100, 1930]
+  precision: range
+  calendar: gregorian
+  pos: 1015
+  confidence: documented
+  sources: [F1.13-C25]
+  alternates: []
+  display: "2nd – early 20th centuries"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [], lecture: [s9]}
+  editor_note: "UNESCO's words: 'between the 2nd and early 20th centuries'. Fuzzy start; the end is the demise record. The page does not say who dived or on what terms; that is F1.31's local author's to write, and no count of divers exists here."
+
+f13-c10-talas:
+  claim: The battle of Talas carries papermaking west (the Talas story)
+  kind: date
+  value: 751
+  precision: year
+  calendar: gregorian
+  pos: 751
+  confidence: contested
+  sources: [F1.13-C10]
+  alternates:
+    - {value: null, sources: [F1.13-C10], note: "Bloom: paper was 'known—and made—in Central Asia for centuries' before 751; the capture story is 'without factual basis'. Both readings in F1.27"}
+  display: "751"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [], lecture: [s4]}
+  editor_note: "The battle's year is not what is argued; the transfer is. Contested, so this drives no tick, tile or clock: the lecture's timeline.mark 'talas' (751, flagged argued) must render as a dotted mark inside the argued panel, not a tick of its own. Three-digit; outside the four-digit lint's scan."
+
+f13-e-talas:
+  claim: Papermaking is begun in Baghdad itself
+  kind: date
+  value: 790
+  precision: circa
+  calendar: gregorian
+  pos: 790
+  confidence: documented
+  sources: [F1.13-C10]
+  alternates: []
+  display: "by the late 8th century"
+  where_used: {beats: [], events: [e-talas], people: [], atlas: [], objects: [], lecture: [s4]}
+  editor_note: "Bloom's sentence: 'Papermaking was begun in Baghdad itself by the late 8th century.' The inventory event bundles the Talas story under this id; the story has its own record, f13-c10-talas, and the dated mill is f13-c10-baghdad-mill. 790 places the skill leg; it never renders."
+
+f13-c10-baghdad-mill:
+  claim: The earliest documented paper mill in the Islamic world is working in Baghdad
+  kind: span
+  value: [794, 795]
+  precision: range
+  calendar: gregorian
+  pos: 794.5
+  confidence: documented
+  sources: [F1.13-C10]
+  alternates: []
+  display: "794–95"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [], lecture: [s4, closing.q4]}
+  editor_note: "The register's own line: 'the earliest documented paper mill in the Islamic world, Baghdad, 794–95'. 'Earliest documented', never 'first'. Three-digit; the four-digit lint does not scan it."
+
+f13-e-belitung:
+  claim: A ship sinks off Belitung
+  kind: date
+  value: [826, 900]
+  precision: range
+  calendar: gregorian
+  pos: 863
+  confidence: documented
+  sources: [F1.13-C07]
+  alternates:
+    - {value: [830, 839], sources: [F1.13-C07], note: "Flecker, via the Indian Ocean page: 'about the 830s'"}
+    - {value: [867, 900], sources: [F1.13-C07], note: "'late 9th century'"}
+  display: "9th century"
+  where_used: {beats: [], events: [e-belitung], people: [], atlas: [], objects: [belitung-cargo], lecture: [s3]}
+  protocol: "level 5, excluded (plan.md): commercial salvage; named in text with no image and no drawing of our own; the record linked"
+  editor_note: "The register's confidence note says 'documented (dates differ)'. The two published dates are alternates, so the tick is a fuzzy bar 826–900 as the lecture draws it, never a point. Flecker's own paper is the outside source that would narrow it (research.md)."
+
+f13-c06-kilwa-coins:
+  claim: Kilwa mints coins
+  kind: span
+  value: [1000, 1400]
+  precision: range
+  calendar: gregorian
+  pos: 1200
+  confidence: documented
+  sources: [F1.13-C06]
+  alternates: []
+  display: "11th–14th centuries"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [], lecture: [s3, closing.q3]}
+  editor_note: "UNESCO's listing (whc 144). Century words, so both ends are fuzzy. The closing question maps it to band B08 (1000–1400), the course's own band."
+
+f13-civ004-tomb-bowls:
+  claim: Swahili builders set imported bowls into the façades of pillar and dome tombs
+  kind: date
+  value: 1200
+  precision: circa
+  calendar: gregorian
+  pos: 1200
+  confidence: documented
+  sources: [CIV004, "grouping-pages/indian_ocean.md step 5 (Carfantan; UNESCO Kilwa)"]
+  alternates: []
+  display: "from the 13th century"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [], lecture: []}
+  protocol: "level 2, content note; described, not shown (plan.md): funerary"
+  editor_note: "The Indian Ocean walk's step 5. 'From the 13th century' is an open start; 1200 places it. What the bowls meant to their owners is interpretive there and carries no date. Tombs are described, never drawn from a photograph of a grave."
+
+f13-e-kashan-bowl:
+  claim: The Kashan bowl is made
+  kind: span
+  value: [1175, 1225]
+  precision: range
+  calendar: gregorian
+  pos: 1200
+  confidence: documented
+  sources: [F1.13-C05]
+  alternates: []
+  display: "late 1100s–early 1200s"
+  where_used: {beats: [], events: [e-kashan-bowl], people: [], atlas: [], objects: [cma-1915-581], lecture: [s2]}
+  editor_note: "Cleveland's record: 'late 1100s–early 1200s', Iran, 'probably Kashan'. The place is probable; the date is the holder's and documented. The bar is fuzzy at both ends as the lecture draws it. Fact-checked 3 Oct 2026; the holder's API was not reachable on 20 Oct 2026."
+
+f13-c06-kilwa-merchants:
+  claim: Kilwa's merchants deal in gold, silver, pearls, perfumes, Arabian crockery, Persian earthenware and Chinese porcelain
+  kind: span
+  value: [1200, 1600]
+  precision: range
+  calendar: gregorian
+  pos: 1400
+  confidence: documented
+  sources: [F1.13-C06]
+  alternates: []
+  display: "13th–16th centuries"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [], lecture: [s3]}
+  editor_note: "UNESCO's listing (whc 144), re-read 3 Oct 2026 ('domes and vaults', not 'roofs'). The three routes into Kilwa are undated legs (dashed); this span is their only clock. The listing names no builder or merchant."
+
+f13-e-abulqasim:
+  claim: Abu'l-Qasim Kashani's treatise places lâjvard, the blue, near Kashan
+  kind: date
+  value: 1301
+  precision: year
+  calendar: gregorian
+  pos: 1301
+  confidence: documented
+  sources: [F1.13-C04]
+  alternates: []
+  display: "1301"
+  where_used: {beats: [], events: [e-abulqasim], people: [abul-qasim], atlas: [], objects: [], lecture: [s2]}
+  editor_note: "The treatise's date is documented; what it says about the mine is one reading of the contested record f13-c04 (the argument card a-cobalt-mine). This record may drive a tick; the mine question may not. plan.md notes the treatise's own dating of 700 AH; no source in the register gives the conversion, so the readout is '1301' alone until one is read."
+
+f13-e-mansa-musa:
+  claim: Mansa Musa's hajj passes through Cairo and his gold crashes the market there
+  kind: span
+  value: [1324, 1325]
+  precision: range
+  calendar: gregorian
+  pos: 1324.5
+  confidence: documented
+  sources: [F1.13-C12, OCC037]
+  alternates: []
+  display: "1324–25"
+  where_used: {beats: [], events: [e-mansa-musa], people: [mansa-musa], atlas: [], objects: [], lecture: [s5]}
+  editor_note: "The Met essay (2000) and the canon event agree. The canon row flags human-flow and leaves out 'the enslaved people in the caravan'; plan.md assigns no protocol level to this row, and station 5 already carries a content note, so the level is listed as unassigned in register.md rather than invented here. The gold leg Sahel → Cairo is the only dated trans-Saharan leg."
+
+f13-e-jar:
+  claim: The Cleveland jar is made at Jingdezhen
+  kind: span
+  value: [1300, 1400]
+  precision: range
+  calendar: gregorian
+  pos: 1350
+  confidence: documented
+  sources: [F1.13-C02]
+  alternates: []
+  display: "1300s"
+  where_used: {beats: [], events: [e-jar], people: [], atlas: [], objects: [cma-1962-154], lecture: [s1, s9, closing.q1]}
+  editor_note: "Cleveland's record: Jingdezhen, Yuan, '1300s'. The record does not name the potters. The unit's opening object and its closing one; the lecture's clock scrubs to 1350, this record's pos. Fact-checked 3 Oct 2026."
+
+f13-e-catalan-atlas:
+  claim: The Catalan Atlas names Musse Melly, lord of Guinea
+  kind: date
+  value: 1375
+  precision: year
+  calendar: gregorian
+  pos: 1375
+  confidence: documented
+  sources: [F1.13-C13]
+  alternates: []
+  display: "1375"
+  where_used: {beats: [], events: [e-catalan-atlas], people: [mansa-musa], atlas: [], objects: [bnf-espagnol-30], lecture: [s5]}
+  protocol: "level 4, link-out only (plan.md): a public-domain work; Gallica's commercial terms; the record and metadata shown, the image not held"
+  editor_note: "BnF gives maker (attributed to Cresques Abraham), date and shelfmark (Espagnol 30); the caption's translation is the Block Museum's; the Catalan text was not read. Re-sourced 3 Oct 2026."
+
+f13-e-xuande:
+  claim: Jiang and colleagues test imperial wares of the Xuande reign for imported cobalt
+  kind: span
+  value: [1426, 1435]
+  precision: range
+  calendar: gregorian
+  pos: 1430.5
+  confidence: documented
+  sources: [F1.13-C03]
+  alternates: []
+  display: "1426–35"
+  where_used: {beats: [], events: [e-xuande], people: [], atlas: [], objects: [], lecture: [s1]}
+  editor_note: "The reign dates are the paper's (Jiang et al. 2020, abstract). The reign era is a Chinese reign reckoning ('Xuande'), but the register holds no reign-year conversion, so the readout stays CE with the era named in the label. We write 'from Iran' on the strength of C02 and C04, not this paper alone."
+
+f13-e-potosi:
+  claim: Silver is found at Potosí
+  kind: date
+  value: 1545
+  precision: year
+  calendar: gregorian
+  pos: 1545
+  confidence: documented
+  sources: [OCC062]
+  alternates: []
+  display: "1545"
+  where_used: {beats: [], events: [e-potosi], people: [], atlas: [], objects: [], lecture: [s6]}
+  editor_note: "Canon event only; the lecture names Potosí without the year. The row flags human-flow and Indigenous-community (the mitayos and enslaved Africans who worked the mines) and plan.md assigns no level; listed as unassigned in register.md. Opens the galleons focus 1545–1815."
+
+f13-e-urdaneta:
+  claim: Urdaneta's return route opens the galleon trade
+  kind: date
+  value: 1565
+  precision: year
+  calendar: gregorian
+  pos: 1565
+  confidence: documented
+  sources: [OCC067, F1.13-C15]
+  alternates: []
+  display: "1565"
+  where_used: {beats: [], events: [e-urdaneta], people: [urdaneta], atlas: [], objects: [], lecture: [s6]}
+  editor_note: "Canon event; Hecht's essay title carries the same start year. The canon row leaves out the Filipino and Chinese sailors and shipbuilders."
+
+f13-c15-galleon-span:
+  claim: The Manila galleons sail between Manila and Acapulco
+  kind: span
+  value: [1565, 1815]
+  precision: range
+  calendar: gregorian
+  pos: 1690
+  confidence: documented
+  sources: [F1.13-C15, NET036]
+  alternates: []
+  display: "1565–1815"
+  where_used: {beats: [], events: [e-urdaneta, e-galleon-end], people: [], atlas: [], objects: [], lecture: [s6]}
+  editor_note: "Hecht (2003) in the essay's title; the canon network row gives the same ends ('first return voyage 1565; last galleon 1815'). The two dated legs of journey j-galleon carry this span; the Acapulco → Puebla leg is undated and dashed."
+
+f13-c15-silver-third:
+  claim: As much as one-third of the silver mined in New Spain and Peru goes to the Far East
+  kind: number
+  value: 0.33
+  precision: circa
+  calendar: gregorian
+  confidence: probable
+  sources: [F1.13-C15]
+  alternates: []
+  display: "as much as one-third"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [], lecture: [s6]}
+  editor_note: "Hecht's sentence ('As much as one-third'); the register marks the fraction probable and the rest of C15 documented. 'As much as' is an upper bound, so precision is circa and the value is a fraction, not a sum. Who counted: not stated in the essay; that is the outside source the editor needs (register.md). Rendered with the word 'probable' in the sentence, as the lecture does."
+
+f13-e-imjin:
+  claim: Korean potters are taken to Japan in the Imjin War
+  kind: span
+  value: [1592, 1598]
+  precision: range
+  calendar: gregorian
+  pos: 1595
+  confidence: documented
+  sources: [OCC071, DIA012, F1.13-C19]
+  alternates:
+    - {value: [1590, 1599], sources: [F1.13-C19], note: "the Met's essay (Willmann, 2011): 'Hideyoshi's invasions of the 1590s'"}
+  display: "1592–98"
+  where_used: {beats: [], events: [e-imjin], people: [], atlas: [], objects: [], lecture: [s7, closing.q6]}
+  protocol: "level 2, content note (plan.md): human flow by force; conflict-looting flag; people as chips"
+  rule: "people as chips; no glyph rides the leg"
+  editor_note: "The war's years are documented in both canon rows. What C19 marks contested is the verb: the Met's 'came' against the Korean sources' 'dragged from Joseon'; our verb is 'taken' (AR-083). The lecture writes 'the 1590s', which is the Met's decade and this record's alternate, not its display; the lint reports it and the lecture author chooses '1592–98' or the editor accepts the decade."
+
+f13-e-carracks:
+  claim: Dutch forces capture the carracks São Jacinto and Santa Catarina and auction their porcelain in Amsterdam
+  kind: span
+  value: [1602, 1604]
+  precision: range
+  calendar: gregorian
+  pos: 1603
+  confidence: documented
+  sources: [OCC072]
+  alternates:
+    - {value: [1602, 1603], sources: [OCC072], note: "the captures alone; the Amsterdam sale is 1604"}
+  display: "1602–04"
+  where_used: {beats: [], events: [e-carracks], people: [], atlas: [], objects: [], lecture: []}
+  editor_note: "Canon event; a tick in the run 'the blue goes north'. The row flags conflict-looting and leaves out the Jingdezhen potters; plan.md assigns no level, listed as unassigned in register.md. The dish's own route to Amsterdam is not recorded (f13-e-kraak)."
+
+f13-e-kraak:
+  claim: The Kraak dish is made
+  kind: span
+  value: [1600, 1625]
+  precision: circa
+  calendar: gregorian
+  pos: 1612.5
+  confidence: documented
+  sources: [F1.13-C18]
+  alternates: []
+  display: "c. 1600–1625"
+  where_used: {beats: [], events: [e-kraak], people: [], atlas: [], objects: [rijks-ak-rbk-16385], lecture: [s7]}
+  editor_note: "The Rijksmuseum's record: China, c. 1600–1625, Kraak porcelain, anonymous potter, CC0 1.0. The register's earlier '1624' was our own error, corrected 3 Oct 2026, not a published alternate. The route to Amsterdam is undated and labelled 'route not recorded'."
+
+f13-e-arita:
+  claim: Korean potters find porcelain clay at Arita
+  kind: span
+  value: [1600, 1620]
+  precision: circa
+  calendar: gregorian
+  pos: 1610
+  confidence: contested
+  sources: [F1.13-C19, DIA012]
+  alternates:
+    - {value: null, sources: [F1.13-C19, DIA012], note: "the second reading (inventory a-arita): the Arita find is a later story; the skill and the clay have separate dates. DIA012 credits Yi Sam-pyeong with finding the Arita porcelain stone and gives no year"}
+  display: "early 1600s"
+  where_used: {beats: [], events: [e-arita], people: [], atlas: [], objects: [], lecture: [s7, closing.q6]}
+  protocol: "level 2, content note (plan.md): the potters were taken by force; people as chips"
+  rule: "people as chips; no glyph rides the leg"
+  editor_note: "The Met's 'early in the 1600s' is one reading; the inventory marks it contested and plan.md says it is a card, not a tick. The lecture's timeline.mark 'arita' (1616) and its route label carry it without the word 'contested'; the lint reports what it can see and register.md names the mark. Dates 1600–1620 are our reading of 'early 1600s' for placing only."
+
+f13-e-sakoku:
+  claim: The Tokugawa sakoku edicts restrict foreign trade to Nagasaki
+  kind: span
+  value: [1633, 1639]
+  precision: range
+  calendar: gregorian
+  pos: 1636
+  confidence: documented
+  sources: [OCC077]
+  alternates: []
+  display: "1633–39"
+  where_used: {beats: [], events: [e-sakoku], people: [], atlas: [], objects: [], lecture: []}
+  editor_note: "Canon event; a tick in the run 'the blue goes north'. The canon notes that the 'closed country' label is contested and the term was coined in 1801; the dates are not."
+
+f13-e-basin:
+  claim: The Puebla basin is made
+  kind: date
+  value: 1650
+  precision: circa
+  calendar: gregorian
+  pos: 1650
+  confidence: documented
+  sources: [F1.13-C16]
+  alternates: []
+  display: "c. 1650"
+  where_used: {beats: [], events: [e-basin], people: [], atlas: [], objects: [met-12-3-1], lecture: [s6]}
+  editor_note: "The Met's record (object 674): 'ca. 1650'. '1647–1650' is not on the record as fetched 3 Oct 2026, so it is not an alternate. A halo, drawn 1645–1655 by the lecture. 'Master Potter A' is a scholars' name for a hand the record does not name."
+
+f13-e-voc-order:
+  claim: The VOC places its first large order for Japanese porcelain at Arita
+  kind: date
+  value: 1659
+  precision: year
+  calendar: gregorian
+  pos: 1659
+  confidence: documented
+  sources: [OCC080]
+  alternates: []
+  display: "1659"
+  where_used: {beats: [], events: [e-voc-order], people: [], atlas: [], objects: [], lecture: []}
+  editor_note: "Canon event; closes the run 'the blue goes north'. The canon notes give piece counts (4,149 ordered in 1656; 64,866 in 1659) that no surface uses; they become records if a works wall ever draws them."
+
+f13-c17-chinos-law:
+  claim: The law counts the chinos of New Spain as Indians, who could not lawfully be enslaved
+  kind: date
+  value: 1672
+  precision: year
+  calendar: gregorian
+  pos: 1672
+  confidence: documented
+  sources: [F1.13-C17]
+  alternates: []
+  display: "1672"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [], lecture: [s6]}
+  protocol: "level 2, content note once per scene (plan.md): enslaved people on the galleons; counts as ranges on a card"
+  rule: "a range on a card; never a bubble or a crawl — Seijas gives 'countless', so the card reads 'count not recorded'; people as chips; no glyph rides the leg"
+  editor_note: "Seijas (2014), abstract. 'Chinos' is a colonial label for people from many places and is shown as the record's word, after 'enslaved people'."
+
+f13-e-galleon-end:
+  claim: The last Manila galleon sails
+  kind: date
+  value: 1815
+  precision: year
+  calendar: gregorian
+  pos: 1815
+  confidence: documented
+  sources: [NET036, F1.13-C15]
+  alternates: []
+  display: "1815"
+  where_used: {beats: [], events: [e-galleon-end], people: [], atlas: [], objects: [], lecture: [s6]}
+  editor_note: "The canon network row ('last galleon 1815') and the end year of Hecht's essay title. Closes the galleons focus 1545–1815 and the span f13-c15-galleon-span."
+
+f13-e-omar-captured:
+  claim: Omar ibn Said is captured in Futa Toro and brought to South Carolina
+  kind: date
+  value: 1807
+  precision: year
+  calendar: gregorian
+  pos: 1807
+  confidence: documented
+  sources: [F1.13-C22]
+  alternates: []
+  display: "1807"
+  where_used: {beats: [], events: [e-omar-captured], people: [omar-ibn-said], atlas: [], objects: [], lecture: [s8]}
+  protocol: "level 2, content note AR-081 (plan.md): enslavement; his name and his Arabic text lead; the English title page not shown; a Qur'anic leaf shown whole"
+  rule: "people as chips; no glyph rides the leg — a person's journey is dots with his name and no arrow"
+  editor_note: "The Library of Congress's record: 'captured in 1807 and brought to South Carolina'. The leg Charleston → Fayetteville is undated."
+
+f13-c22-owen-purchase:
+  claim: James Owen of Bladen County buys Omar ibn Said at the Fayetteville jail
+  kind: date
+  value: 1810
+  precision: year
+  calendar: gregorian
+  pos: 1810
+  confidence: probable
+  sources: [F1.13-C22]
+  alternates: []
+  display: "1810"
+  where_used: {beats: [], events: [], people: [omar-ibn-said], atlas: [], objects: [], lecture: []}
+  protocol: "level 2, content note AR-081 (plan.md): enslavement"
+  rule: "people as chips; no glyph rides the leg"
+  editor_note: "Only NCpedia dates the purchase (1810); Jameson (1925) names James Owen, brother of Governor John Owen, and the LoC blog reverses the brothers. Probable until a second source dates it. Not spoken in the lecture, which says only 'James Owen of Bladen County was his enslaver'."
+
+f13-e-omar-writes:
+  claim: Omar ibn Said writes the account of his life in Arabic while enslaved in North Carolina
+  kind: date
+  value: 1831
+  precision: year
+  calendar: gregorian
+  pos: 1831
+  confidence: documented
+  sources: [F1.13-C22]
+  alternates: []
+  display: "1831"
+  where_used: {beats: [], events: [e-omar-writes], people: [omar-ibn-said], atlas: [], objects: [loc-2018371864], lecture: [s8]}
+  protocol: "level 2, content note AR-081 (plan.md): his name and his Arabic text lead; the English title page ('Owned by Governor Owen') not shown; a leaf with Qur'anic text (Sūrat al-Mulk) shown whole, never cropped"
+  rule: "people as chips; no glyph rides the leg"
+  editor_note: "The Library of Congress's record and blog. The manuscript is public domain, 'free to use and reuse'; no image is in the repo yet."
+
+f13-c22-years-seeking:
+  claim: Omar ibn Said writes that he continued seeking knowledge for a number of years
+  kind: number
+  value: 25
+  precision: year
+  calendar: gregorian
+  confidence: documented
+  sources: [F1.13-C22]
+  alternates: []
+  display: "25 years"
+  where_used: {beats: [], events: [], people: [omar-ibn-said], atlas: [], objects: [], lecture: [s8]}
+  protocol: "level 2, content note AR-081 (plan.md)"
+  editor_note: "His own words in the 1831 text, as the LoC translates them: 'I continued seeking knowledge for 25 years.' Counted by him. A quotation, never a number on a tile."
+
+f13-c22-born:
+  claim: Omar ibn Said is born in Futa Toro
+  kind: date
+  value: 1770
+  precision: circa
+  calendar: gregorian
+  pos: 1770
+  confidence: documented
+  sources: [F1.13-C22]
+  alternates: []
+  display: "about 1770"
+  where_used: {beats: [], events: [], people: [omar-ibn-said], atlas: [], objects: [], lecture: [s8, closing.q8]}
+  protocol: "level 2, content note AR-081 (plan.md)"
+  rule: "people as chips; no glyph rides the leg"
+  editor_note: "LoC's name record and blog: 'born about 1770'. A circa, so a halo on the character sheet ('c. 1770'); the lecture writes 'about 1770' in prose, which the display rules allow."
+
+f13-c22-died:
+  claim: Omar ibn Said dies, still enslaved
+  kind: date
+  value: 1863
+  precision: year
+  calendar: gregorian
+  pos: 1863
+  confidence: contested
+  sources: [F1.13-C22]
+  alternates:
+    - {value: 1864, sources: [F1.13-C22], note: "NCpedia and UNC (DocSouth) give 1864; the LoC's name record and blog give 1863"}
+  display: "1863 or 1864"
+  where_used: {beats: [], events: [], people: [omar-ibn-said], atlas: [], objects: [], lecture: [s8]}
+  protocol: "level 2, content note AR-081 (plan.md)"
+  rule: "people as chips; no glyph rides the leg"
+  editor_note: "The register's confidence note: 'contested (death year, 1863 or 1864)'. Contested, so no life tick: the character sheet shows the word on the highlight and both years; the lecture's timeline.mark 'died' (1863, flagged argued) must be a dotted bar across both years, not a tick, and its caption needs the word 'contested'. An outside source (a biography that weighs the two) would resolve it."
+
+f13-e-tast-span:
+  claim: SlaveVoyages' estimate of the transatlantic trafficking of enslaved Africans runs over these years
+  kind: span
+  value: [1501, 1866]
+  precision: range
+  calendar: gregorian
+  pos: 1683.5
+  confidence: documented
+  sources: [F1.13-C20]
+  alternates:
+    - {value: [1525, 1867], sources: [NET035], note: "the canon network row: 'first direct Africa–Americas voyage c.1525; last documented voyage 1866–67'. W-CANON-DISAGREES: fix the canon row or keep this note"}
+  display: "1501–1866"
+  where_used: {beats: [], events: [e-tast-span], people: [], atlas: [], objects: [], lecture: [s8, closing.q7]}
+  protocol: "level 2, content note; the count a card (plan.md): human flow; 'bought people in exchange for goods' named as people"
+  rule: "a range on a card; never a bubble or a crawl"
+  editor_note: "SlaveVoyages' own account as read 3 Oct 2026. The span is a bar on the lane 'people' and the count (f13-c20-departed) a card beside it; no line is drawn on the map. Held for the paid reader with lived experience of the African diaspora (spec §9) before anything on this station is published."
+
+f13-c20-departed:
+  claim: Traders force captive Africans onto ships bound for the Americas (people departed)
+  kind: number
+  value: 12520000
+  precision: circa
+  calendar: gregorian
+  as_of: 1866
+  confidence: documented
+  sources: [F1.13-C20]
+  alternates:
+    - {value: 12750000, sources: [F1.13-C20], note: "an encyclopedia's figure, dropped 3 Oct 2026 in favour of SlaveVoyages' own account; its 'up to 2 million' deaths at sea dropped with it"}
+  display: "about 12.5 million"
+  where_used: {beats: [], events: [e-tast-span], people: [], atlas: [], objects: [], lecture: [s8, closing.q7]}
+  protocol: "level 2, content note; the count a card (plan.md)"
+  rule: "a range on a card; never a bubble or a crawl"
+  editor_note: "Who counted and when: the SlaveVoyages database's estimate (12,520,000 departed, 1501–1866), as its own essay and estimates page state them, read 3 Oct 2026; the estimates page was not readable to our fetcher, so the figure rests on the database essay. Documented as an estimate: the display says 'about'. The deaths at sea are not registered because no figure the register trusts was kept; the lecture's content note says 'many died at sea' in words only."
+
+f13-c20-disembarked:
+  claim: Captive Africans disembark, mainly in the Americas (people disembarked)
+  kind: number
+  value: 10700000
+  precision: circa
+  calendar: gregorian
+  as_of: 1866
+  confidence: documented
+  sources: [F1.13-C20]
+  alternates: []
+  display: "about 10.7 million"
+  where_used: {beats: [], events: [e-tast-span], people: [], atlas: [], objects: [], lecture: [s8]}
+  protocol: "level 2, content note; the count a card (plan.md)"
+  rule: "a range on a card; never a bubble or a crawl"
+  editor_note: "Who counted and when: SlaveVoyages' estimate, read 3 Oct 2026. Shown with the departed count on one card, in words; the difference is never computed on a surface."
+
+f13-dia005-hadrami-count:
+  claim: The Hadrami diaspora numbers about a third of all Hadramis
+  kind: number
+  value: 110000
+  precision: circa
+  calendar: gregorian
+  as_of: "mid-1930s"
+  confidence: probable
+  sources: [DIA005, "grouping-pages/indian_ocean.md step 7 (Wikipedia after Engseng Ho, 2006)"]
+  alternates: []
+  display: "about 110,000"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [], lecture: []}
+  protocol: "level 1, Notice: a living community (canon DIA005, living-community); the community's own name first"
+  rule: "a range on a card; never a bubble or a crawl"
+  editor_note: "Who counted and when: the Indian Ocean draft gives 'by the mid-1930s ... about 110,000, a third of all Hadramis', citing Wikipedia after Engseng Ho (2006); the draft calls it 'documented as cited'. Held at probable here because the count is read through an encyclopedia; it becomes documented when Ho (2006) is read and names the census or estimate behind it (register.md). The Indian Ocean grouping page is the only surface that uses it."
+
+f13-com203-siddi-karnataka:
+  claim: The census counts Siddi people in Karnataka
+  kind: number
+  value: 10477
+  precision: year
+  calendar: gregorian
+  as_of: 2011
+  confidence: probable
+  sources: [COM203, "grouping-pages/indian_ocean.md, Afterlives (Wikipedia, 'Siddi')"]
+  alternates: []
+  display: "10,477"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [], lecture: []}
+  protocol: "level 1, Notice (plan.md): a living community named in the Indian Ocean walk; the community's own name first (Siddi; the record: 'Sidi', 'Habshi'); the census count with who counted"
+  rule: "a range on a card; never a bubble or a crawl"
+  editor_note: "Who counted and when: the 2011 census, as the Indian Ocean draft reports it via Wikipedia. Precision 'year' means the figure is exact as reported. Probable until the census table itself is read (register.md). The canon row flags living-community and human-flow (East African ancestors, some enslaved); the count is never drawn as a bubble."
+
+f13-com203-siddi-gujarat:
+  claim: The census counts Siddi people in Gujarat
+  kind: number
+  value: 8661
+  precision: year
+  calendar: gregorian
+  as_of: 2011
+  confidence: probable
+  sources: [COM203, "grouping-pages/indian_ocean.md, Afterlives (Wikipedia, 'Siddi')"]
+  alternates: []
+  display: "8,661"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [], lecture: []}
+  protocol: "level 1, Notice (plan.md): a living community; the community's own name first; the census count with who counted"
+  rule: "a range on a card; never a bubble or a crawl"
+  editor_note: "Who counted and when: the 2011 census, via Wikipedia as the draft cites it. Probable until the census table is read. Shown with the Karnataka count on one card; the two are never summed on a surface."
+
+f13-c25-pearling-demise:
+  claim: Pearling in Bahrain comes to its demise
+  kind: date
+  value: [1930, 1939]
+  precision: circa
+  calendar: gregorian
+  pos: 1935
+  confidence: documented
+  sources: [F1.13-C25]
+  alternates: []
+  display: "the 1930s"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [], lecture: [s9]}
+  editor_note: "UNESCO's word is 'demise in the 1930s'. A decade, so a halo. The end of f13-c25-pearling-span."
+
+f13-c16-deforest-gift:
+  claim: Mrs. Robert W. de Forest gives the Puebla basin to the Met
+  kind: date
+  value: 1912
+  precision: year
+  calendar: gregorian
+  pos: 1912
+  confidence: documented
+  sources: [F1.13-C16]
+  alternates: []
+  display: "1912"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [met-12-3-1], lecture: [s6]}
+  editor_note: "The Met's record (object 674). Provenance before the gift is not on the record; the journey bar bound to holders shows a dashed gap."
+
+f13-c05-kelekian-sale:
+  claim: Kelekian sells the Kashan bowl to the Cleveland Museum of Art
+  kind: date
+  value: 1915
+  precision: year
+  calendar: gregorian
+  pos: 1915
+  confidence: documented
+  sources: [F1.13-C05]
+  alternates: []
+  display: "1915"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [cma-1915-581], lecture: [s2]}
+  editor_note: "Cleveland's record. The accession number 1915.581 carries the same year and is excluded from the year scan by the lint."
+
+f13-c02-tai-sale:
+  claim: J.T. Tai and Co., New York, sells the Yuan jar to the Cleveland Museum of Art
+  kind: date
+  value: 1962
+  precision: year
+  calendar: gregorian
+  pos: 1962
+  confidence: documented
+  sources: [F1.13-C02]
+  alternates: []
+  display: "1962"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [cma-1962-154], lecture: [s1]}
+  editor_note: "Cleveland's record. Provenance before the sale is not on the record as the register holds it; a dashed 'not recorded' gap on the holders bar."
+
+f13-c07-ceramics-count:
+  claim: The Belitung ship holds this many ceramics
+  kind: number
+  value: 60000
+  precision: circa
+  calendar: gregorian
+  as_of: 1998
+  confidence: documented
+  sources: [F1.13-C07]
+  alternates: []
+  display: "60,000"
+  where_used: {beats: [], events: [e-belitung], people: [], atlas: [], objects: [belitung-cargo], lecture: [s3]}
+  protocol: "level 5, excluded (plan.md): commercial salvage; named in text, no image, no drawing of our own"
+  editor_note: "Who counted and when: the Trafficking Culture encyclopaedia entry's round figure, which rests on the salvage from 1998; no excavation inventory is cited, so precision is circa. A number in words on the card, never a bubble."
+
+f13-c07-salvage:
+  claim: The Belitung cargo is salvaged commercially
+  kind: date
+  value: 1998
+  precision: year
+  calendar: gregorian
+  pos: 1998
+  confidence: documented
+  sources: [F1.13-C07]
+  alternates: []
+  display: "from 1998"
+  where_used: {beats: [], events: [e-belitung], people: [], atlas: [], objects: [belitung-cargo], lecture: [s3]}
+  protocol: "level 5, excluded (plan.md): commercial salvage; the record linked, nothing shown"
+  editor_note: "Trafficking Culture's entry. The start of the salvage; its end is not given there, so the display is 'from 1998'."
+
+f13-c07-sale:
+  claim: The Belitung cargo is sold to Singapore
+  kind: date
+  value: 2005
+  precision: year
+  calendar: gregorian
+  pos: 2005
+  confidence: documented
+  sources: [F1.13-C07, "grouping-pages/indian_ocean.md, Afterlives (Trafficking Culture)"]
+  alternates: []
+  display: "2005"
+  where_used: {beats: [], events: [e-belitung], people: [], atlas: [], objects: [belitung-cargo], lecture: []}
+  protocol: "level 5, excluded (plan.md)"
+  editor_note: "The register says 'sold for US$32 million in 2005'; the Indian Ocean draft names the buyer, Singapore's Sentosa Leisure Group. The price is f13-c07-sale-price. Not spoken in the lecture."
+
+f13-c07-sale-price:
+  claim: The price paid for the Belitung cargo, in US dollars
+  kind: number
+  value: 32000000
+  precision: year
+  calendar: gregorian
+  as_of: 2005
+  confidence: documented
+  sources: [F1.13-C07]
+  alternates: []
+  display: "US$32 million"
+  where_used: {beats: [], events: [e-belitung], people: [], atlas: [], objects: [belitung-cargo], lecture: []}
+  protocol: "level 5, excluded (plan.md)"
+  editor_note: "Who counted: the reported sale price in the Trafficking Culture entry, 2005. A price, so indigo if ever drawn; the Atlas links out and states the salvage history (the argued question 'should a salvaged cargo be shown?' in indian_ocean.md)."
+
+f13-e-lenj-usl:
+  claim: The traditional skills of building and sailing Iranian lenj boats are inscribed on UNESCO's Urgent Safeguarding List
+  kind: date
+  value: 2011
+  precision: year
+  calendar: gregorian
+  pos: 2011
+  confidence: documented
+  sources: [F1.13-C23, PRA143]
+  alternates: []
+  display: "2011"
+  where_used: {beats: [], events: [e-lenj-usl], people: [guran-shipwrights], atlas: [], objects: [], lecture: [s9]}
+  protocol: "level 3, display basis (plan.md): a living practice, not sacred; 'shown as published by the photographer, 2017; link-out'; UNESCO's page linked, per-photo licences"
+  editor_note: "UNESCO decision 6.COM 8.10. The practice's row (PRA143) has no end: an open-ended bar '2011 – …' on the living-practices run. The present number of yards is not known to us and no count is registered; the page says so (research.md)."
+
+f13-e-pearling-whc:
+  claim: Bahrain's 'Pearling, Testimony of an Island Economy' is inscribed as World Heritage
+  kind: date
+  value: 2012
+  precision: year
+  calendar: gregorian
+  pos: 2012
+  confidence: documented
+  sources: [F1.13-C25]
+  alternates: []
+  display: "2012"
+  where_used: {beats: [], events: [e-pearling-whc], people: [], atlas: [], objects: [], lecture: []}
+  editor_note: "UNESCO whc 1364. The lecture names the site without the inscription year; a tick on the living-practices run only."
+
+f13-e-busuttil:
+  claim: Shipwrights at Guran, Qeshm, speak to the photographer Shaun Busuttil about learning the trade from their fathers and about orders drying up
+  kind: date
+  value: 2017
+  precision: year
+  calendar: gregorian
+  pos: 2017
+  confidence: documented
+  sources: [F1.13-C24]
+  alternates: []
+  display: "2017"
+  where_used: {beats: [], events: [e-busuttil], people: [guran-shipwrights], atlas: [], objects: [], lecture: [s9]}
+  protocol: "level 3, display basis (plan.md): 'shown as published by the photographer, 2017; link-out'; their words and names are not reproduced until the Guran shipwrights' cooperative has been asked (AR-085); consent shown as who consented to what, when"
+  editor_note: "The report's own date. The chain on the stage ('fathers → shipwrights at Guran, 2017, in their own words · linked') carries this year and the link; no quotation."
+
+f13-c22-loc-purchase:
+  claim: The Library of Congress buys Omar ibn Said's manuscript at Sotheby's London
+  kind: date
+  value: 2017
+  precision: year
+  calendar: gregorian
+  pos: 2017.5
+  confidence: documented
+  sources: [F1.13-C22]
+  alternates: []
+  display: "2017"
+  where_used: {beats: [], events: [], people: [omar-ibn-said], atlas: [], objects: [loc-2018371864], lecture: []}
+  protocol: "level 2, content note AR-081 (plan.md)"
+  editor_note: "The LoC's rights page: bought 30 June 2017; the schema has no day precision, so the day lives here and the display is the year. The last link of the provenance chain on the holders bar; what came between Owen's household and Sotheby's is not on the record and is a dashed gap."
+
+f13-c04-anarak-distance:
+  claim: The Anarak deposits lie east of Kashan, in kilometres
+  kind: number
+  value: 200
+  precision: circa
+  calendar: gregorian
+  confidence: documented
+  sources: [F1.13-C04]
+  alternates: []
+  display: "200 km"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [], lecture: [s2]}
+  editor_note: "The distance is stated in C04 (Colomban et al. 2021, CC BY) and is not what is contested; which mine gave the blue is (argument card a-cobalt-mine: Qamsar against Anarak, Jiang et al. 2020 in their discussion). The mine question carries no date or number of its own, so it has no record; the two readings are the card's. A geochemical review is the outside source (research.md)."
+
+f13-c11-weaving-communities:
+  claim: Weaving communities are moved from Central Asia and Persia to China to make cloth of gold for the Mongols
+  kind: number
+  value: 3
+  precision: year
+  calendar: gregorian
+  confidence: documented
+  sources: [F1.13-C11]
+  alternates: []
+  display: "three"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [], lecture: [s4]}
+  rule: "people as chips; no glyph rides the leg — the lecture draws them as a people mark of their own, with 'names not recorded'"
+  editor_note: "Who counted: the Columbia summary's 'three separate weaving communities'; it names no weaver and gives no date, so this record places nothing on the clock. Coerced labour, yet plan.md assigns no protocol level to C11; station 4 carries a content note already. Listed as unassigned in register.md rather than invented here."
+
+# ---------------------------------------------------------------------------
+# The Indian Ocean grouping page (grouping-pages/indian_ocean.md, built at
+# build/units/f1-13-method/grouping-indian-ocean/). Ids f13-io-<aspect>.
+# Sourced from the draft's own source lines and the canon ids it names;
+# confidence as the draft marks it. Added 20 October 2026 at the coordinator's
+# request; unfrozen with the rest.
+# ---------------------------------------------------------------------------
+
+f13-io-span-start:
+  claim: The Indian Ocean world's span opens with Harappan–Gulf contact and runs to the present
+  kind: span
+  value: [-2500, null]
+  precision: circa
+  calendar: gregorian
+  pos: -2500
+  confidence: documented
+  sources: [NET005, "grouping-pages/indian_ocean.md, card (Span)"]
+  alternates: []
+  display: "c. 2500 BCE – …"
+  where_used: {beats: [], events: [], people: [], atlas: [NET005, NET006], objects: [], lecture: []}
+  editor_note: "The canon row's start ('from Harappan–Gulf contact c.2500 BCE') and no end ('ongoing'): an open-ended bar to the edge. The sub-circuits' starts (NET007 c. 400 BCE, NET008 c. 500 BCE) are three-digit and rest on the canon rows; the Arabian Sea circuit NET006 shares this start. BCE written out."
+
+f13-io-ports-span:
+  claim: Siraf, Aden, Calicut, Hormuz and Malacca serve as the ocean's sea gates
+  kind: span
+  value: [800, 1400]
+  precision: circa
+  calendar: gregorian
+  pos: 1100
+  confidence: documented
+  sources: [PLC277, "grouping-pages/indian_ocean.md step 3 (Whitehouse's excavations; UNESCO 2021 for Quanzhou)"]
+  alternates: []
+  display: "c. 800–1400"
+  where_used: {beats: [], events: [], people: [], atlas: [PLC277, PLC294, PLC221, PLC278, PLC245, PLC190], objects: [], lecture: []}
+  editor_note: "The draft: 'Dates for Aden, Calicut, Hormuz and Malacca are the canon's, approx.' The bar is the canon's approximate spans gathered; Siraf's own row is 800–1100. Fuzzy at both ends."
+
+f13-io-siraf-excavations:
+  claim: Excavations at Siraf begin and find a massive haul of Chinese and Islamic pottery
+  kind: date
+  value: 1966
+  precision: year
+  calendar: gregorian
+  pos: 1966
+  confidence: documented
+  sources: [PLC277, "grouping-pages/indian_ocean.md step 3 (Current World Archaeology, 'Siraf, Iran')"]
+  alternates: []
+  display: "from 1966"
+  where_used: {beats: [], events: [], people: [], atlas: [PLC277], objects: [], lecture: []}
+  editor_note: "The canon row names David Whitehouse as the archaeologist; the Current World Archaeology page is undated. Siraf is now under the village of Taheri."
+
+f13-io-fustat-finds:
+  claim: The Gujarati cotton fragments are dug from rubbish mounds near Fustat
+  kind: span
+  value: [1920, 1939]
+  precision: circa
+  calendar: gregorian
+  pos: 1930
+  confidence: documented
+  sources: ["grouping-pages/indian_ocean.md step 4 (Shaikh, The Met, 2023; Barnes, Ashmolean)", NET055]
+  alternates: []
+  display: "the 1920s and 1930s"
+  where_used: {beats: [], events: [], people: [], atlas: [PLC003], objects: ["Met 30.112.40", "Met 30.112.28", "Cleveland 1951.516"], lecture: []}
+  editor_note: "Two decades, so a halo across both. The makers' workshops and names are not known (the draft); the finds are the one dated end of the undated leg Gujarat → Fustat."
+
+f13-io-newberry-radiocarbon:
+  claim: Radiocarbon dates in the Ashmolean's Newberry collection of Indian block-printed textiles run across this span
+  kind: span
+  value: [1010, 1700]
+  precision: circa
+  calendar: gregorian
+  pos: 1355
+  confidence: documented
+  sources: ["grouping-pages/indian_ocean.md step 4 (Barnes, Indian Block-Printed Textiles in Egypt: The Newberry Collection, Ashmolean)"]
+  alternates: []
+  display: "c. 1010 (±55) to the late 1600s"
+  where_used: {beats: [], events: [], people: [], atlas: [NET055], objects: [], lecture: []}
+  editor_note: "Who counted: the Ashmolean's radiocarbon programme as Barnes reports it. The ±55 belongs to the earliest date and is kept in the display; 'late 1600s' is placed at 1700 for the bar's end only. Fuzzy at both ends."
+
+f13-io-changsha-sherds:
+  claim: Sherds of Changsha ware are counted at Shanga
+  kind: number
+  value: 20
+  precision: year
+  calendar: gregorian
+  confidence: documented
+  sources: ["grouping-pages/indian_ocean.md step 5 (Carfantan, Chinese Porcelain and Ceramics from the East African Coast, SEACS)"]
+  alternates: []
+  display: "twenty"
+  where_used: {beats: [], events: [], people: [], atlas: [OBT070, TEC034], objects: [], lecture: []}
+  editor_note: "Who counted: Carfantan's survey, as the page says ('the twenty sherds as counted in Carfantan's survey'). Precision 'year' means exact as reported."
+
+f13-io-changsha-ware:
+  claim: Changsha ware reaches the Swahili coast at Shanga
+  kind: span
+  value: [800, 900]
+  precision: range
+  calendar: gregorian
+  pos: 850
+  confidence: documented
+  sources: ["grouping-pages/indian_ocean.md step 5 (Carfantan)", NET009]
+  alternates: []
+  display: "9th century"
+  where_used: {beats: [], events: [], people: [], atlas: [OBT070], objects: [], lecture: []}
+  editor_note: "The ware's century as Carfantan gives it; the same century as the Belitung ship (f13-e-belitung), which carried the type. Three-digit, outside the four-digit lint."
+
+f13-io-bowls-span:
+  claim: Chinese bowls reach the Swahili coast and are set into tomb façades
+  kind: span
+  value: [800, 1500]
+  precision: circa
+  calendar: gregorian
+  pos: 1150
+  confidence: documented
+  sources: ["grouping-pages/indian_ocean.md step 5 (Carfantan; UNESCO Kilwa)", CIV004]
+  alternates: []
+  display: "9th century to c. 1500"
+  where_used: {beats: [], events: [], people: [], atlas: [CIV004, NET054], objects: ["Cleveland 1964.164"], lecture: []}
+  editor_note: "The walk's step-5 bar: from the Changsha sherds (9th century) to the end of the stone towns' flourishing as the canon row gives it (CIV004: 'stone towns flourish c. 1000–1500'). The tombs' own record is f13-civ004-tomb-bowls (from the 13th century; level 2, described, not shown). What the bowls meant is interpretive and undated."
+
+f13-io-ben-yiju-born:
+  claim: Abraham Ben Yiju is born in Ifriqiya
+  kind: date
+  value: 1100
+  precision: circa
+  calendar: gregorian
+  pos: 1100
+  confidence: documented
+  sources: [PER326, "grouping-pages/indian_ocean.md step 6 (Goitein; Princeton Geniza Project; Wikipedia, 'Abraham Ben Yiju')"]
+  alternates: []
+  display: "about 1100"
+  where_used: {beats: [], events: [], people: [ben-yiju], atlas: [PER326], objects: [], lecture: []}
+  editor_note: "The draft's 'born in Ifriqiya about 1100'. The canon row gives only fl. 1120–1160 (f13-io-ben-yiju-fl). A halo on the character sheet."
+
+f13-io-ben-yiju-fl:
+  claim: Abraham Ben Yiju is active as a merchant
+  kind: span
+  value: [1120, 1160]
+  precision: circa
+  calendar: gregorian
+  pos: 1140
+  confidence: documented
+  sources: [PER326]
+  alternates: []
+  display: "fl. c. 1120–1160"
+  where_used: {beats: [], events: [], people: [ben-yiju], atlas: [PER326], objects: [], lecture: []}
+  editor_note: "The canon row: 'fl.; approximate'. A shorter bar on the character sheet, never a life tick."
+
+f13-io-ben-yiju-mangalore:
+  claim: Abraham Ben Yiju is trading from Mangalore and running a bronze workshop there
+  kind: date
+  value: 1132
+  precision: year
+  calendar: gregorian
+  pos: 1132
+  confidence: documented
+  sources: [PER326, TXT067, "grouping-pages/indian_ocean.md step 6 (Goitein; Princeton Geniza Project)"]
+  alternates: []
+  display: "by 1132"
+  where_used: {beats: [], events: [], people: [ben-yiju], atlas: [PER326, TXT067], objects: [], lecture: []}
+  editor_note: "The draft: 'was trading from Mangalore by 1132'. Mangalore has no canon row (the draft says so)."
+
+f13-io-ben-yiju-deed-1132:
+  claim: Abraham Ben Yiju frees an enslaved woman, Ashu, who takes the name Berakha
+  kind: date
+  value: 1132
+  precision: year
+  calendar: gregorian
+  pos: 1132.8
+  confidence: documented
+  sources: ["grouping-pages/indian_ocean.md step 6 (Princeton Geniza Project, Legal document IOM D 55.10; Goitein)", TXT067]
+  alternates: []
+  display: "17 October 1132"
+  where_used: {beats: [], events: [], people: [ben-yiju, ashu], atlas: [TXT067], objects: ["IOM D 55.10 (link-out)"], lecture: []}
+  rule: "people as chips; no glyph rides the leg — Ashu is a person on her own layer, named in his deed and with no row of her own; her voice is not recorded"
+  editor_note: "The deed's date as the Princeton Geniza Project gives it; the schema has no day precision, so the display carries the day and pos places it in late 1132. That Ashu became his wife is probable (most specialists; the draft) and is a separate, undated claim. Enslavement: the page's content note covers the walk once; plan.md assigns no protocol level to this step, so none is written here and register.md lists it as unassigned. The manuscript image rights sit with the holder (the Institute of Oriental Manuscripts); the page text is CC BY 2.0; link-out."
+
+f13-io-ibn-battuta-life:
+  claim: Ibn Battuta lives
+  kind: span
+  value: [1304, 1369]
+  precision: range
+  calendar: gregorian
+  pos: 1336.5
+  confidence: documented
+  sources: [PER325]
+  alternates:
+    - {value: [1304, 1368], sources: [PER325], note: "the canon row: 'died 1368 or 1369'"}
+  display: "1304–1368/69"
+  where_used: {beats: [], events: [], people: [ibn-battuta], atlas: [PER325], objects: [], lecture: []}
+  editor_note: "The canon row gives both death years and grades neither; the display shows both, as the people list on the grouping page does, and no life tick is drawn from the end. A biography settles it."
+
+f13-io-ibn-battuta-kilwa:
+  claim: Ibn Battuta visits Kilwa
+  kind: date
+  value: 1331
+  precision: year
+  calendar: gregorian
+  pos: 1331
+  confidence: documented
+  sources: [PER325, "grouping-pages/indian_ocean.md, Members"]
+  alternates: []
+  display: "1331"
+  where_used: {beats: [], events: [], people: [ibn-battuta], atlas: [PER325, TXT072], objects: [], lecture: []}
+  editor_note: "The draft's members line; the Rihla (TXT072) is the text. Not in the walk's nine steps."
+
+f13-io-pires-malacca:
+  claim: Tomé Pires records Gujarati merchants settled in Malacca
+  kind: span
+  value: [1512, 1515]
+  precision: circa
+  calendar: gregorian
+  pos: 1513.5
+  confidence: documented
+  sources: [DIA006, "grouping-pages/indian_ocean.md step 7 (Wikipedia, 'Tomé Pires')"]
+  alternates: []
+  display: "c. 1512–15"
+  where_used: {beats: [], events: [], people: [pires], atlas: [DIA006, PLC245], objects: [], lecture: []}
+  editor_note: "The draft's 'c. 1512–15', read through Wikipedia; the draft marks step 7 documented. Opens the step-7 bar that ends at the Hadrami count's mid-1930s (f13-dia005-hadrami-count)."
+
+f13-io-forced-movement-span:
+  claim: Enslavers move people across the Indian Ocean
+  kind: span
+  value: [50, 1873]
+  precision: range
+  calendar: gregorian
+  pos: 961.5
+  confidence: documented
+  sources: ["grouping-pages/indian_ocean.md step 8 (Periplus, Schoff translation, ToposText; Wikipedia, 'Zanj Rebellion')", TXT073, PLC080, NET005]
+  alternates: []
+  display: "1st century CE into the 1800s"
+  where_used: {beats: [], events: [], people: [], atlas: [COM203, PLC080, POL011, TXT073], objects: [], lecture: []}
+  protocol: "level 2, content note once (plan.md, as for the Periplus C08): human flow; the page's content note sits once, before the walk; people as a chip on their own layer, never a mark on a leg"
+  rule: "a range on a card; never a bubble or a crawl — and the numbers moved across this ocean are not known with any precision (the draft), so no count is drawn"
+  editor_note: "The draft's words: 'from at least the 1st century CE into the 1800s'. The bar opens at the Periplus (f13-e-periplus) and closes at the Zanzibar market's closure (f13-io-zanzibar-market-closed), which the page's step header uses as the end year. Fuzzy start."
+
+f13-io-zanj-revolt:
+  claim: Enslaved workers who cleared salt-crusted land in lower Iraq rise in revolt
+  kind: span
+  value: [869, 883]
+  precision: range
+  calendar: gregorian
+  pos: 876
+  confidence: documented
+  sources: ["grouping-pages/indian_ocean.md step 8 and What is argued (Wikipedia, 'Zanj Rebellion')"]
+  alternates: []
+  display: "869–883"
+  where_used: {beats: [], events: [], people: [], atlas: [], objects: [], lecture: []}
+  protocol: "level 2, content note once (plan.md, as for the Periplus C08): human flow; coerced labour"
+  rule: "a range on a card; never a bubble or a crawl"
+  editor_note: "The years are documented; who the rebels were is contested (a rising of enslaved East Africans, 'Zanj', against a wider uprising of the poor: Talhami and Shaban) and is the argument card's, with no date of its own. Three-digit, outside the four-digit lint; the beat lint must check the words. The harm warning applies to the historical term, kept as data after the people."
+
+f13-io-zanzibar-market-closed:
+  claim: Zanzibar's slave market closes
+  kind: date
+  value: 1873
+  precision: year
+  calendar: gregorian
+  pos: 1873
+  confidence: documented
+  sources: [PLC080, "grouping-pages/indian_ocean.md step 8"]
+  alternates: []
+  display: "1873"
+  where_used: {beats: [], events: [], people: [], atlas: [PLC080, POL011], objects: [], lecture: []}
+  protocol: "level 2, content note once (plan.md, as for the Periplus C08): human flow"
+  rule: "a range on a card; never a bubble or a crawl"
+  editor_note: "The canon place row's own line ('its slave market closed in 1873'). The end of f13-io-forced-movement-span."
+
+f13-io-african-archaeology:
+  claim: African archaeology reads the Swahili towns as African towns working in Indian Ocean trade
+  kind: date
+  value: [1960, 1969]
+  precision: circa
+  calendar: gregorian
+  pos: 1965
+  confidence: documented
+  sources: [CIV004, "grouping-pages/indian_ocean.md, What is argued (Chittick, Horton, Chami; Carfantan)"]
+  alternates: []
+  display: "since the 1960s"
+  where_used: {beats: [], events: [], people: [], atlas: [CIV004], objects: [], lecture: []}
+  editor_note: "The argument card 'Whose coast?': the colonial framing is kept as data and flagged; this record dates the second reading's rise and drives nothing. The decade is the draft's; an open start ('since')."
+
+f13-io-kilwa-whc:
+  claim: Kilwa Kisiwani and Songo Mnara are inscribed as World Heritage
+  kind: date
+  value: 1981
+  precision: year
+  calendar: gregorian
+  pos: 1981
+  confidence: documented
+  sources: ["grouping-pages/indian_ocean.md, Afterlives (UNESCO World Heritage, 144)", F1.13-C06]
+  alternates: []
+  display: "1981"
+  where_used: {beats: [], events: [], people: [], atlas: [PLC076], objects: [], lecture: []}
+  editor_note: "The listing's date as the draft gives it. An afterlife, not a tick in the walk."
+
+f13-io-quanzhou-whc:
+  claim: Quanzhou is inscribed as World Heritage as 'Emporium of the World in Song-Yuan China'
+  kind: date
+  value: 2021
+  precision: year
+  calendar: gregorian
+  pos: 2021
+  confidence: documented
+  sources: ["grouping-pages/indian_ocean.md step 3 and Afterlives (UNESCO World Heritage, 1561)"]
+  alternates: []
+  display: "2021"
+  where_used: {beats: [], events: [], people: [], atlas: [PLC076], objects: [], lecture: []}
+  editor_note: "The listing's date. The number 1561 after 'UNESCO World Heritage List' is the list id, not a year; the lint skips it as a holder's citation."
+
+f13-io-smithsonian-cancelled:
+  claim: The Smithsonian cancels its exhibition of the Belitung cargo
+  kind: date
+  value: 2011
+  precision: year
+  calendar: gregorian
+  pos: 2011.5
+  confidence: documented
+  sources: ["grouping-pages/indian_ocean.md, Afterlives and What is argued (Trafficking Culture)", F1.13-C07]
+  alternates: []
+  display: "2011"
+  where_used: {beats: [], events: [], people: [], atlas: [PLC248], objects: [belitung-cargo], lecture: []}
+  protocol: "level 5, excluded (plan.md): commercial salvage; named in text, no image, no drawing of our own"
+  editor_note: "The Smithsonian's stated reason (that showing the finds would condone 'commercial exploitation of unscientifically excavated objects') and the reading of the cancellation as a slight are the argument card's. The sale is f13-c07-sale (2005)."
+
+f13-io-lenj-fibreglass-2011:
+  claim: UNESCO records that fibreglass boats are replacing wooden lenj and that yards are turning to repair work
+  kind: date
+  value: 2011
+  precision: year
+  calendar: gregorian
+  pos: 2011
+  confidence: documented
+  sources: [F1.13-C23, "grouping-pages/indian_ocean.md step 9 and Afterlives (UNESCO ICH, 2011)"]
+  alternates: []
+  display: "2011"
+  where_used: {beats: [], events: [], people: [guran-shipwrights], atlas: [PRA143], objects: [], lecture: [s9]}
+  protocol: "level 3, display basis (plan.md): a living practice; 'shown as published by the photographer, 2017; link-out'"
+  editor_note: "Same year as the inscription (f13-e-lenj-usl) but a different claim: the file's own observation that practitioners were few and mostly older. The present number of yards is not known to us."
+
+f13-io-da-gama-calicut:
+  claim: Vasco da Gama reaches Calicut by the Cape route
+  kind: date
+  value: 1498
+  precision: year
+  calendar: gregorian
+  pos: 1498
+  confidence: documented
+  sources: [OCC053, "grouping-pages/indian_ocean.md, Neighbours"]
+  alternates:
+    - {value: [1497, 1499], sources: [OCC053], note: "the canon row's start and end: the voyage 1497–1499"}
+  display: "1498"
+  where_used: {beats: [], events: [], people: [], atlas: [NET033, OCC053], objects: [], lecture: []}
+  editor_note: "The canon event, whose row flags conflict-looting and leaves out 'the Gujarati and Arab pilots and traders already on the route'. plan.md assigns no protocol level; listed as unassigned in register.md. The draft: 'From 1498 the Cape Route and the East India companies cut into it by force.'"
+
+f13-io-kilwa-sacked:
+  claim: Portuguese forces under Francisco de Almeida sack Kilwa and Mombasa
+  kind: date
+  value: 1505
+  precision: year
+  calendar: gregorian
+  pos: 1505
+  confidence: documented
+  sources: [OCC054, "grouping-pages/indian_ocean.md, Neighbours"]
+  alternates: []
+  display: "1505"
+  where_used: {beats: [], events: [], people: [], atlas: [NET033, OCC054, PLC076], objects: [], lecture: []}
+  editor_note: "The canon event; conflict-looting; the row leaves out Swahili accounts such as the Kilwa Chronicle (TXT048). plan.md assigns no protocol level; listed as unassigned in register.md."
+
+# ---------------------------------------------------------------------------
+# The neighbours the Indian Ocean page lists: canon-row spans, as the canon gives
+# them; not re-checked. Ids f13-net-<canon id lowercased>. Added 20 October 2026.
+# ---------------------------------------------------------------------------
+
+f13-net-net001:
+  claim: The Silk Roads network is in use
+  kind: span
+  value: [-130, 1450]
+  precision: circa
+  calendar: gregorian
+  pos: 660
+  confidence: documented
+  sources: [NET001]
+  alternates: []
+  display: "c. 130 BCE – 1450"
+  where_used: {beats: [], events: [], people: [], atlas: [NET001], objects: [], lecture: [], pages: [grouping-indian-ocean/neighbours]}
+  editor_note: "As the canon row gives it; not re-checked. The row's date note: 'conventional start with Han envoy Zhang Qian's missions c.138–126 BCE; steppe exchange far older; decline after c.1450 debated'. Defined by: Ferdinand von Richthofen (term Seidenstraße, 1877); historians; UNESCO (Chang'an–Tianshan corridor, 2014)."
+
+f13-net-net032:
+  claim: The Red Sea network is in use
+  kind: span
+  value: [-2600, null]
+  precision: circa
+  calendar: gregorian
+  pos: -2600
+  confidence: documented
+  sources: [NET032]
+  alternates: []
+  display: "c. 2600 BCE – …"
+  where_used: {beats: [], events: [], people: [], atlas: [NET032], objects: [], lecture: [], pages: [grouping-indian-ocean/neighbours]}
+  editor_note: "As the canon row gives it; not re-checked. The row's date note: 'Egyptian harbour at Wadi al-Jarf c.2600 BCE; Punt voyages; Berenike and Aksum; ongoing'. Defined by: archaeologists; historians. No end ('ongoing'): an open-ended bar to the edge."
+
+f13-net-net033:
+  claim: The Cape Route and the East India companies carry Asian goods to Europe
+  kind: span
+  value: [1498, 1874]
+  precision: range
+  calendar: gregorian
+  pos: 1686
+  confidence: documented
+  sources: [NET033]
+  alternates: []
+  display: "1498–1874"
+  where_used: {beats: [], events: [], people: [], atlas: [NET033], objects: [], lecture: [], pages: [grouping-indian-ocean/neighbours]}
+  sensitivity: "human-flow;conflict-looting (the canon row's flag); plan.md assigns no protocol level to this neighbour; listed as unassigned in register.md"
+  editor_note: "As the canon row gives it; not re-checked. The row's date note: 'da Gama 1498; VOC 1602–1799; English EIC to 1874'. Defined by: historians; company archives."
+
+f13-net-net010:
+  claim: The trans-Saharan trade runs by camel caravan
+  kind: span
+  value: [300, 1900]
+  precision: circa
+  calendar: gregorian
+  pos: 1100
+  confidence: documented
+  sources: [NET010]
+  alternates: []
+  display: "c. 300 – 1900"
+  where_used: {beats: [], events: [], people: [], atlas: [NET010], objects: [], lecture: [], pages: [grouping-indian-ocean/neighbours]}
+  sensitivity: "human-flow (the canon row's flag); plan.md assigns no protocol level to this neighbour; listed as unassigned in register.md"
+  rule: "a range on a card; never a bubble or a crawl"
+  editor_note: "As the canon row gives it; not re-checked. The row's date note: 'camel caravans from c.3rd–4th c. CE; earlier Garamantian links; decline late 19th c.'. Defined by: historians; Arabic geographers (al-Bakri, Ibn Battuta)."
+
+f13-net-net013:
+  claim: Cowrie shells circulate as currency
+  kind: span
+  value: [-1200, 1900]
+  precision: circa
+  calendar: gregorian
+  pos: 350
+  confidence: documented
+  sources: [NET013]
+  alternates: []
+  display: "c. 1200 BCE – 1900"
+  where_used: {beats: [], events: [], people: [], atlas: [NET013], objects: [], lecture: [], pages: [grouping-indian-ocean/neighbours]}
+  sensitivity: "human-flow (the canon row's flag); plan.md assigns no protocol level to this neighbour; listed as unassigned in register.md"
+  rule: "a range on a card; never a bubble or a crawl"
+  editor_note: "As the canon row gives it; not re-checked. The row's date note: 'cowries in Shang China c.1200 BCE; Maldivian cowries to Bengal and West Africa to 19th c.'. Defined by: historians (Hogendorn and Johnson, 'The Shell Money of the Slave Trade', 1986)."
+
+f13-net-net045:
+  claim: Austronesian voyaging spreads across the Pacific and Indian Oceans
+  kind: span
+  value: [-3000, 1300]
+  precision: circa
+  calendar: gregorian
+  pos: -850
+  confidence: documented
+  sources: [NET045]
+  alternates: []
+  display: "c. 3000 BCE – 1300"
+  where_used: {beats: [], events: [], people: [], atlas: [NET045], objects: [], lecture: [], pages: [grouping-indian-ocean/neighbours]}
+  sensitivity: "Indigenous-community;living-community (the canon row's flag); plan.md assigns no protocol level to this neighbour; listed as unassigned in register.md"
+  editor_note: "As the canon row gives it; not re-checked. The row's date note: 'out of Taiwan c.3000–2500 BCE; Madagascar c.500–700 CE; Aotearoa c.1250–1300'. Defined by: linguists; archaeologists; Pacific voyaging communities."
+
+f13-net-net023:
+  claim: Medieval Mediterranean trade is in use
+  kind: span
+  value: [700, 1500]
+  precision: circa
+  calendar: gregorian
+  pos: 1100
+  confidence: documented
+  sources: [NET023]
+  alternates: []
+  display: "c. 700 – 1500"
+  where_used: {beats: [], events: [], people: [], atlas: [NET023], objects: [], lecture: [], pages: [grouping-indian-ocean/neighbours]}
+  editor_note: "As the canon row gives it; not re-checked. The row's date note: 'approximate'. Defined by: historians (e.g. S.D. Goitein; Olivia Remie Constable)."
+
+f13-net-net009:
+  claim: The Nanhai route links the south China coast to Southeast Asia and the Indian Ocean
+  kind: span
+  value: [-200, 1500]
+  precision: circa
+  calendar: gregorian
+  pos: 650
+  confidence: documented
+  sources: [NET009]
+  alternates: []
+  display: "c. 200 BCE – 1500"
+  where_used: {beats: [], events: [], people: [], atlas: [NET009], objects: [], lecture: [], pages: [grouping-indian-ocean/neighbours]}
+  sensitivity: "conflict-looting (the canon row's flag); plan.md assigns no protocol level to this neighbour; listed as unassigned in register.md"
+  editor_note: "As the canon row gives it; not re-checked. The row's date note: 'Han references; Song–Yuan peak at Guangzhou and Quanzhou'. Defined by: Chinese historical texts; historians; UNESCO (Quanzhou, 2021)."
+
+f13-net-dia007:
+  claim: The Chinese maritime diaspora settles the ports of Southeast Asia and the Indian Ocean
+  kind: span
+  value: [1400, null]
+  precision: circa
+  calendar: gregorian
+  pos: 1400
+  confidence: documented
+  sources: [DIA007]
+  alternates: []
+  display: "c. 1400 – …"
+  where_used: {beats: [], events: [], people: [], atlas: [DIA007], objects: [], lecture: [], pages: [grouping-indian-ocean/neighbours]}
+  sensitivity: "living-community (the canon row's flag); plan.md assigns no protocol level to this neighbour; listed as unassigned in register.md"
+  editor_note: "As the canon row gives it; not re-checked. The row's date note: 'long-standing; ongoing'. Defined by: historians; communities. No end ('ongoing'): an open-ended bar to the edge."
+
+f13-net-net035:
+  claim: The transatlantic trafficking of enslaved Africans, as the canon row spans it
+  kind: span
+  value: [1525, 1867]
+  precision: circa
+  calendar: gregorian
+  pos: 1696
+  confidence: documented
+  sources: [NET035]
+  alternates: []
+  display: "c. 1525 – 1867"
+  where_used: {beats: [], events: [], people: [], atlas: [NET035], objects: [], lecture: [], pages: [grouping-indian-ocean/neighbours]}
+  sensitivity: "human-flow (the canon row's flag); plan.md assigns no protocol level to this neighbour; listed as unassigned in register.md"
+  protocol: "level 2, content note; the count a card (plan.md, C20/C21): human flow"
+  rule: "a range on a card; never a bubble or a crawl"
+  editor_note: "The canon row's own span, which the neighbours list prints; the register's transatlantic span is f13-e-tast-span (1501–1866, SlaveVoyages' estimate, C20), on which this canon value sits as a sourced alternate and is reported as W-CANON-DISAGREES. Fix the canon row or keep both: the page shows the canon's value with the canon's name beside it. As the canon row gives it; not re-checked. The row's date note: 'first direct Africa–Americas voyage c.1525; last documented voyage 1866–67'. Defined by: historians; SlaveVoyages database. Human flow: level 2, content note; the count a card (plan.md, C20/C21)."

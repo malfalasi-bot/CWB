@@ -1,0 +1,854 @@
+{
+ "unit": "F1.13",
+ "schema": "research_notes/Motion layers and focus/inventory.json",
+ "counted_by": "Claude Fable 5.1, 20 October 2026",
+ "events": [
+  {
+   "id": "e-periplus",
+   "name": "The Periplus lists enslaved people among exports",
+   "year": 50,
+   "precision": "circa",
+   "place": "periplus_coast",
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C08"
+   ],
+   "sensitivity": "human-flow"
+  },
+  {
+   "id": "e-talas",
+   "name": "Papermaking in Baghdad by the late 8th century; the 751 Talas story",
+   "year": 790,
+   "precision": "circa",
+   "place": "baghdad",
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C10"
+   ],
+   "note": "the Talas capture story is argued; Bloom: paper was made in Central Asia for centuries before 751"
+  },
+  {
+   "id": "e-belitung",
+   "name": "A ship sinks off Belitung",
+   "year": 830,
+   "precision": "range",
+   "range": [
+    826,
+    900
+   ],
+   "place": "belitung",
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C07"
+   ],
+   "note": "Flecker: about the 830s; others: late 9th century"
+  },
+  {
+   "id": "e-kashan-bowl",
+   "name": "The Kashan bowl is made",
+   "range": [
+    1175,
+    1225
+   ],
+   "precision": "range",
+   "place": "kashan",
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C05"
+   ],
+   "object": "cma-1915-581"
+  },
+  {
+   "id": "e-abulqasim",
+   "name": "Abu'l-Qasim's treatise places lajvard near Kashan",
+   "year": 1301,
+   "precision": "year",
+   "place": "kashan",
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C04"
+   ]
+  },
+  {
+   "id": "e-mansa-musa",
+   "name": "Mansa Musa's hajj passes through Cairo",
+   "range": [
+    1324,
+    1325
+   ],
+   "precision": "range",
+   "place": "cairo",
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C12",
+    "OCC037"
+   ]
+  },
+  {
+   "id": "e-jar",
+   "name": "The Cleveland jar is made at Jingdezhen",
+   "range": [
+    1300,
+    1400
+   ],
+   "precision": "range",
+   "place": "jingdezhen",
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C02"
+   ],
+   "object": "cma-1962-154"
+  },
+  {
+   "id": "e-catalan-atlas",
+   "name": "The Catalan Atlas names Musse Melly",
+   "year": 1375,
+   "precision": "year",
+   "place": "majorca",
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C13"
+   ],
+   "object": "bnf-espagnol-30"
+  },
+  {
+   "id": "e-xuande",
+   "name": "Xuande wares tested for imported cobalt",
+   "range": [
+    1426,
+    1435
+   ],
+   "precision": "range",
+   "place": "jingdezhen",
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C03"
+   ]
+  },
+  {
+   "id": "e-potosi",
+   "name": "Silver found at Potosí",
+   "year": 1545,
+   "precision": "year",
+   "place": "potosi",
+   "confidence": "documented",
+   "sources": [
+    "OCC062"
+   ]
+  },
+  {
+   "id": "e-urdaneta",
+   "name": "Urdaneta's return route opens the galleon trade",
+   "year": 1565,
+   "precision": "year",
+   "place": "manila",
+   "confidence": "documented",
+   "sources": [
+    "OCC067",
+    "F1.13-C15"
+   ]
+  },
+  {
+   "id": "e-imjin",
+   "name": "Korean potters taken to Japan in the Imjin War",
+   "range": [
+    1592,
+    1598
+   ],
+   "precision": "range",
+   "place": "korea",
+   "confidence": "documented",
+   "sources": [
+    "OCC071",
+    "DIA012"
+   ],
+   "sensitivity": "human-flow;conflict-looting"
+  },
+  {
+   "id": "e-carracks",
+   "name": "Capture of the carracks São Jacinto and Santa Catarina",
+   "range": [
+    1602,
+    1604
+   ],
+   "precision": "range",
+   "place": "china",
+   "confidence": "documented",
+   "sources": [
+    "OCC072"
+   ]
+  },
+  {
+   "id": "e-kraak",
+   "name": "The Kraak dish is made",
+   "range": [
+    1600,
+    1625
+   ],
+   "precision": "circa",
+   "place": "china",
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C18"
+   ],
+   "object": "rijks-ak-rbk-16385"
+  },
+  {
+   "id": "e-arita",
+   "name": "Porcelain clay found at Arita",
+   "range": [
+    1600,
+    1620
+   ],
+   "precision": "circa",
+   "place": "arita",
+   "confidence": "contested",
+   "sources": [
+    "F1.13-C19"
+   ]
+  },
+  {
+   "id": "e-sakoku",
+   "name": "Sakoku edicts",
+   "range": [
+    1633,
+    1639
+   ],
+   "precision": "range",
+   "place": "arita",
+   "confidence": "documented",
+   "sources": [
+    "OCC077"
+   ]
+  },
+  {
+   "id": "e-basin",
+   "name": "The Puebla basin is made",
+   "year": 1650,
+   "precision": "circa",
+   "place": "puebla",
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C16"
+   ],
+   "object": "met-12-3-1"
+  },
+  {
+   "id": "e-voc-order",
+   "name": "VOC's first large order for Japanese porcelain",
+   "year": 1659,
+   "precision": "year",
+   "place": "arita",
+   "confidence": "documented",
+   "sources": [
+    "OCC080"
+   ]
+  },
+  {
+   "id": "e-omar-captured",
+   "name": "Omar ibn Said is captured and brought to South Carolina",
+   "year": 1807,
+   "precision": "year",
+   "place": "charleston",
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C22"
+   ],
+   "sensitivity": "human-flow"
+  },
+  {
+   "id": "e-omar-writes",
+   "name": "Omar ibn Said writes his autobiography in Arabic",
+   "year": 1831,
+   "precision": "year",
+   "place": "fayetteville",
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C22"
+   ],
+   "object": "loc-2018371864"
+  },
+  {
+   "id": "e-galleon-end",
+   "name": "The last Manila galleon",
+   "year": 1815,
+   "precision": "year",
+   "place": "acapulco",
+   "confidence": "documented",
+   "sources": [
+    "NET036"
+   ]
+  },
+  {
+   "id": "e-tast-span",
+   "name": "SlaveVoyages' estimate: about 12.5 million people forced onto ships",
+   "range": [
+    1501,
+    1866
+   ],
+   "precision": "range",
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C20"
+   ],
+   "sensitivity": "human-flow",
+   "display_rule": "a range on a card; never a bubble, never a crawl"
+  },
+  {
+   "id": "e-lenj-usl",
+   "name": "Lenj skills inscribed on the Urgent Safeguarding List",
+   "year": 2011,
+   "precision": "year",
+   "place": "guran",
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C23"
+   ]
+  },
+  {
+   "id": "e-pearling-whc",
+   "name": "Pearling, Testimony of an Island Economy inscribed",
+   "year": 2012,
+   "precision": "year",
+   "place": "muharraq",
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C25"
+   ]
+  },
+  {
+   "id": "e-busuttil",
+   "name": "Shipwrights at Guran speak to Shaun Busuttil",
+   "year": 2017,
+   "precision": "year",
+   "place": "guran",
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C24"
+   ]
+  }
+ ],
+ "journeys": [
+  {
+   "id": "j-cobalt",
+   "name": "The cobalt: Kashan to Jingdezhen",
+   "kind": "material",
+   "flow": "material",
+   "legs": [
+    {
+     "from": "kashan",
+     "to": "jingdezhen",
+     "dated": false
+    }
+   ],
+   "ends": {
+    "from": [
+     1175,
+     1225
+    ],
+    "to": [
+     1300,
+     1400
+    ]
+   },
+   "confidence": "documented ends, undated route",
+   "sources": [
+    "F1.13-C02",
+    "F1.13-C03",
+    "F1.13-C04",
+    "F1.13-C05"
+   ],
+   "objects": [
+    "cma-1915-581",
+    "cma-1962-154"
+   ]
+  },
+  {
+   "id": "j-galleon",
+   "name": "The galleons: silver west, porcelain east",
+   "kind": "trade",
+   "flow": "material/object",
+   "legs": [
+    {
+     "from": "potosi",
+     "to": "manila",
+     "dated": true,
+     "span": [
+      1565,
+      1815
+     ],
+     "glyph": "coin"
+    },
+    {
+     "from": "manila",
+     "to": "acapulco",
+     "dated": true,
+     "span": [
+      1565,
+      1815
+     ],
+     "glyph": "ship"
+    },
+    {
+     "from": "acapulco",
+     "to": "puebla",
+     "dated": false
+    }
+   ],
+   "count": {
+    "text": "as much as a third of the silver mined in New Spain and Peru",
+    "confidence": "probable",
+    "source": "F1.13-C15"
+   },
+   "people": {
+    "note": "enslaved people from South and Southeast Asia on the same ships, on terms the goods never had",
+    "source": "F1.13-C17",
+    "rule": "human-flow: as people, with a content note; never a glyph on the leg"
+   },
+   "objects": [
+    "met-12-3-1"
+   ]
+  },
+  {
+   "id": "j-kilwa",
+   "name": "Crockery, earthenware and porcelain to Kilwa",
+   "kind": "trade",
+   "flow": "object",
+   "legs": [
+    {
+     "from": "arabia",
+     "to": "kilwa",
+     "dated": false,
+     "label": "Arabian crockery"
+    },
+    {
+     "from": "iran_coast",
+     "to": "kilwa",
+     "dated": false,
+     "label": "Persian earthenware"
+    },
+    {
+     "from": "china_coast",
+     "to": "kilwa",
+     "dated": false,
+     "label": "Chinese porcelain"
+    }
+   ],
+   "ends": {
+    "span": [
+     1200,
+     1600
+    ]
+   },
+   "confidence": "documented (UNESCO 144); routes probable",
+   "sources": [
+    "F1.13-C06"
+   ],
+   "objects": [],
+   "incident": "e-belitung"
+  },
+  {
+   "id": "j-gold",
+   "name": "Gold across the sand: Mansa Musa's hajj",
+   "kind": "trade",
+   "flow": "material",
+   "legs": [
+    {
+     "from": "sahel",
+     "to": "cairo",
+     "dated": true,
+     "span": [
+      1324,
+      1325
+     ]
+    }
+   ],
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C12",
+    "F1.13-C13"
+   ],
+   "objects": [
+    "bnf-espagnol-30 (link-out)"
+   ]
+  },
+  {
+   "id": "j-paper",
+   "name": "Papermaking reaches Baghdad",
+   "kind": "skill",
+   "flow": "skill",
+   "legs": [
+    {
+     "from": "samarkand_region",
+     "to": "baghdad",
+     "dated": true,
+     "by": 790
+    }
+   ],
+   "confidence": "documented (Bloom); the Talas story argued",
+   "sources": [
+    "F1.13-C10"
+   ]
+  },
+  {
+   "id": "j-corridor",
+   "name": "The Chang'an–Tianshan corridor",
+   "kind": "route",
+   "flow": "route",
+   "legs": [
+    {
+     "from": "changan",
+     "to": "tianshan",
+     "dated": true,
+     "span": [
+      -200,
+      1600
+     ]
+    }
+   ],
+   "count": {
+    "text": "5,000 km, 33 sites",
+    "source": "F1.13-C09"
+   },
+   "confidence": "documented"
+  },
+  {
+   "id": "j-arita",
+   "name": "Korean potters taken to Japan",
+   "kind": "people",
+   "flow": "people",
+   "legs": [
+    {
+     "from": "korea",
+     "to": "arita",
+     "dated": true,
+     "span": [
+      1592,
+      1598
+     ]
+    }
+   ],
+   "confidence": "documented; the Arita clay story contested",
+   "sources": [
+    "F1.13-C19",
+    "DIA012"
+   ],
+   "rule": "human-flow: people as chips with a content note; no glyph rides this leg; conflict-looting flag"
+  },
+  {
+   "id": "j-kraak",
+   "name": "The dish to Amsterdam",
+   "kind": "trade",
+   "flow": "object",
+   "legs": [
+    {
+     "from": "china",
+     "to": "amsterdam",
+     "dated": false,
+     "label": "route not recorded"
+    }
+   ],
+   "ends": {
+    "from": [
+     1600,
+     1625
+    ]
+   },
+   "confidence": "documented object; route not recorded",
+   "sources": [
+    "F1.13-C18",
+    "OCC072"
+   ],
+   "objects": [
+    "rijks-ak-rbk-16385"
+   ]
+  },
+  {
+   "id": "j-omar",
+   "name": "Omar ibn Said: Futa Toro to Charleston to Fayetteville",
+   "kind": "person",
+   "flow": "people",
+   "legs": [
+    {
+     "from": "futa_toro",
+     "to": "charleston",
+     "dated": true,
+     "year": 1807
+    },
+    {
+     "from": "charleston",
+     "to": "fayetteville",
+     "dated": false
+    }
+   ],
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C22"
+   ],
+   "objects": [
+    "loc-2018371864"
+   ],
+   "rule": "human-flow: a person, the chip; content note AR-081; his name and his Arabic text lead; no glyph; no goods grammar"
+  }
+ ],
+ "objects": [
+  {
+   "id": "cma-1962-154",
+   "title": "Jar with blue underglaze decoration",
+   "holder": "Cleveland Museum of Art",
+   "accession": "1962.154",
+   "date": "1300s",
+   "place": "jingdezhen",
+   "licence": "CC0",
+   "status": "open",
+   "verified": "fact-check 3 Oct 2026",
+   "image_in_repo": false
+  },
+  {
+   "id": "cma-1915-581",
+   "title": "Footed bowl with a blue rim",
+   "holder": "Cleveland Museum of Art",
+   "accession": "1915.581",
+   "date": "late 1100s–early 1200s",
+   "place": "kashan",
+   "licence": "CC0",
+   "status": "open",
+   "verified": "fact-check 3 Oct 2026",
+   "image_in_repo": false
+  },
+  {
+   "id": "rijks-ak-rbk-16385",
+   "title": "Dish with two birds in a water landscape",
+   "holder": "Rijksmuseum",
+   "accession": "AK-RBK-16385",
+   "date": "c. 1600–1625",
+   "place": "china",
+   "licence": "CC0 1.0",
+   "status": "open",
+   "verified": "fact-check 3 Oct 2026",
+   "image_in_repo": false
+  },
+  {
+   "id": "met-12-3-1",
+   "title": "Basin",
+   "holder": "The Metropolitan Museum of Art",
+   "accession": "12.3.1",
+   "met_object_id": 674,
+   "date": "ca. 1650",
+   "place": "puebla",
+   "licence": "Public domain",
+   "status": "open",
+   "verified": "fact-check 3 Oct 2026",
+   "image_in_repo": false
+  },
+  {
+   "id": "loc-2018371864",
+   "title": "The life of Omar ben Saeed",
+   "holder": "Library of Congress",
+   "accession": "2018371864",
+   "date": "1831",
+   "place": "fayetteville",
+   "licence": "Public domain",
+   "status": "open",
+   "verified": "fact-check 3 Oct 2026",
+   "image_in_repo": false,
+   "protocol": "level 2: content note (AR-081); the name and the Arabic text lead; the English title page not shown; a Qur'anic leaf shown whole"
+  },
+  {
+   "id": "bnf-espagnol-30",
+   "title": "Catalan Atlas",
+   "holder": "Bibliothèque nationale de France",
+   "accession": "Espagnol 30",
+   "date": "1375",
+   "licence": "public-domain work; Gallica charges for commercial reuse",
+   "status": "link-out",
+   "protocol": "level 4"
+  },
+  {
+   "id": "belitung-cargo",
+   "title": "Belitung cargo",
+   "holder": "Asian Civilisations Museum",
+   "accession": "—",
+   "status": "excluded",
+   "protocol": "level 5: named in text, no image, no drawing of our own (commercial salvage)"
+  }
+ ],
+ "groups": [
+  {
+   "id": "g-blue",
+   "name": "The blue, 1175–1435",
+   "ticks": [
+    "e-kashan-bowl",
+    "e-abulqasim",
+    "e-jar",
+    "e-xuande"
+   ],
+   "lane": "the objects",
+   "kind": "run"
+  },
+  {
+   "id": "g-porcelain-north",
+   "name": "The blue goes north, 1592–1659",
+   "ticks": [
+    "e-imjin",
+    "e-carracks",
+    "e-kraak",
+    "e-arita",
+    "e-sakoku",
+    "e-voc-order"
+   ],
+   "kind": "run",
+   "note": "e-arita is contested: it is a card, not a tick"
+  },
+  {
+   "id": "g-galleons",
+   "name": "The galleons, 1545–1815",
+   "ticks": [
+    "e-potosi",
+    "e-urdaneta",
+    "e-basin",
+    "e-galleon-end"
+   ],
+   "kind": "run"
+  },
+  {
+   "id": "g-atlantic",
+   "name": "The Atlantic, 1501–1866",
+   "ticks": [
+    "e-omar-captured",
+    "e-omar-writes"
+   ],
+   "span": "e-tast-span",
+   "kind": "run",
+   "rule": "the span is a bar and the count a card; no crawl"
+  },
+  {
+   "id": "g-living",
+   "name": "Living practices, 2011–2017",
+   "ticks": [
+    "e-lenj-usl",
+    "e-pearling-whc",
+    "e-busuttil"
+   ],
+   "kind": "run"
+  }
+ ],
+ "people": [
+  {
+   "id": "omar-ibn-said",
+   "name": "Omar ibn Said",
+   "own_name_first": true,
+   "record_name": "Omar ben Saeed",
+   "dates": {
+    "born": "c. 1770",
+    "captured": 1807,
+    "wrote": 1831
+   },
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C22"
+   ],
+   "layer": "inline card at station 8; character sheet; the Cast deck",
+   "protocol": "level 2"
+  },
+  {
+   "id": "mansa-musa",
+   "name": "Mansa Musa",
+   "record_name": "Musse Melly (Catalan Atlas)",
+   "dates": {
+    "hajj": [
+     1324,
+     1325
+    ]
+   },
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C12",
+    "F1.13-C13"
+   ]
+  },
+  {
+   "id": "abul-qasim",
+   "name": "Abu'l-Qasim Kashani",
+   "dates": {
+    "treatise": 1301
+   },
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C04"
+   ]
+  },
+  {
+   "id": "zhang-qian",
+   "name": "Zhang Qian",
+   "dates": {
+    "missions": [
+     -138,
+     -126
+    ]
+   },
+   "confidence": "documented",
+   "sources": [
+    "OCC014"
+   ]
+  },
+  {
+   "id": "urdaneta",
+   "name": "Andrés de Urdaneta",
+   "dates": {
+    "return_route": 1565
+   },
+   "confidence": "documented",
+   "sources": [
+    "OCC067"
+   ]
+  },
+  {
+   "id": "guran-shipwrights",
+   "name": "The shipwrights of Guran",
+   "kind": "maker community",
+   "dates": {
+    "spoke": 2017
+   },
+   "confidence": "documented",
+   "sources": [
+    "F1.13-C24"
+   ],
+   "protocol": "level 3: shown with permission as published by the photographer; link-out to the story"
+  }
+ ],
+ "arguments": [
+  {
+   "id": "a-cobalt-mine",
+   "question": "Which mine gave the blue?",
+   "reading_1": "Qamsar, near Kashan: Abu'l-Qasim (1301) places lajvard there; the most cited source",
+   "reading_2": "Anarak, or more than one source: Colomban et al. 2021 on trace elements",
+   "confidence": "contested",
+   "claim": "F1.13-C04"
+  },
+  {
+   "id": "a-demand-routes",
+   "question": "Did demand make the routes, or routes the goods?",
+   "reading_1": "demand for silk, porcelain and gold built and kept the routes",
+   "reading_2": "routes already there (monsoon, oases, caravans) decided what became a good",
+   "confidence": "interpretive",
+   "claim": "F1.13-C14"
+  },
+  {
+   "id": "a-arita",
+   "question": "Did Korean potters find Arita's porcelain clay?",
+   "reading_1": "the Met: Korean potters brought the skill and found the clay in the early 1600s",
+   "reading_2": "the Arita find is a later story; the skill and the clay have separate dates",
+   "confidence": "contested",
+   "claim": "F1.13-C19"
+  },
+  {
+   "id": "a-hippalus",
+   "question": "Who found the monsoon route?",
+   "reading_1": "the Periplus credits the Greek pilot Hippalus",
+   "reading_2": "Arabian Sea sailors knew the pattern long before",
+   "confidence": "contested",
+   "claim": "indian_ocean.md"
+  }
+ ]
+}

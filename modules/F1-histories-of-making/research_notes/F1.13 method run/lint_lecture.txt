@@ -1,0 +1,11 @@
+W-CANON-DISAGREES research_notes/F1.13 method run/claims.yaml:f13-e-tast-span ← f13-e-tast-span: alternate [1525, 1867] (NET035), display "1501–1866"
+E-DATE-MISMATCH f1-13.json s7.map.stamp@0 ← f13-e-imjin: "1590s" in "1590s–1625", display "1592–98" (1590 is a sourced alternate: the Met's essay (Willmann, 2011): 'Hideyoshi's invasions of…)
+E-DATE-MISMATCH f1-13.json s7.timeline.mark@30:invasions ← f13-e-imjin: "1590s" in "1590s: invasions", display "1592–98" (1590 is a sourced alternate: the Met's essay (Willmann, 2011): 'Hideyoshi's invasions of…)
+E-DATE-MISMATCH f1-13.json s7.caption@30 ← f13-e-imjin: "1590s" in "In Hideyoshi's invasions of the 1590s, many Korean potters were taken…", display "1592–98" (1590 is a sourced alternate: the Met's essay (Willmann, 2011): 'Hideyoshi's invasions of…)
+E-CONF-MISSING f1-13.json s7.caption@46 ← f13-e-arita: "Korean potters found porcelain clay at Arita early in the 1600s." without the word, contested; "early 1600s" needs "contested" in the sentence
+E-CONF-MISSING f1-13.json s8.timeline.mark@68:died ← f13-c22-died: "died 1863 or 1864" without the word, contested; "1863 or 1864" needs "contested" in the sentence
+E-ARGUED-TICK f1-13.json s8.timeline.mark@68:died ← f13-c22-died: "died 1863 or 1864" on a tick, tile or clock, f13-c22-died is contested and may drive no tick, tile or clock (display "1863 or 1864")
+E-CONF-MISSING f1-13.json s8.caption@68 ← f13-c22-died: "He died, still enslaved, in 1863 or 1864; the sources differ, and we …" without the word, contested; "1863 or 1864" needs "contested" in the sentence
+E-DATE-MISMATCH f1-13.json closing.q6.question ← f13-e-imjin: "1590s" in "Korean potters taken in the 1590s found porcelain clay where?", display "1592–98" (1590 is a sourced alternate: the Met's essay (Willmann, 2011): 'Hideyoshi's invasions of…)
+
+8 errors, 1 warning; 94 records in the register; 93 year tokens checked in 1 file (0 citation or counting years skipped)

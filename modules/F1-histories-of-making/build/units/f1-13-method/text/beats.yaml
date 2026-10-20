@@ -1,0 +1,302 @@
+# F1.13 Networks · Lecture 1 "One jar's blue, followed through all four"
+# Two scenes as beats on the ink thread (component 31), derived from the
+# stations in lectures.yaml by beats.md §5 (lectures first, beats derived;
+# never drafted): one instrument state per tick, one showable claim per beat,
+# kind by the step-4 rule, written to length, subject and date in each beat's
+# own words, sources the station's ids only.
+#
+# Claim ids: `f13-<inventory event id>` for the dated ticks the lecture draws
+# (research_notes/F1.13 method run/inventory.json), register ids F1.13-Cnn for
+# the register's claims. The register (content/claims.yaml) is the editor's and
+# is frozen before these beats ship; the display strings the lint assumes are
+# under `displays` at the end, taken from the lecture data, not invented.
+# Before: 24 lecture captions at stations 1, 2 and 6 (86 in the lecture).
+# After: 12 beats (7 + 5). Nothing was added: no date, number, place or
+# accession outside the lecture, the inventory and the plan.
+
+scenes:
+  - id: blue
+    title: The blue
+    lecture: L1
+    stations: [1, 2]              # the threshold names "Lecture 1 · The blue, stations 1–2"
+    bridge_to: 7                  # the bridge's destination station (beats.md §3: the destination's station)
+    span: [1175, 1435]            # the focus "the blue" (plan.md): the Kashan bowl → the Xuande wares tested
+    kind: journey                 # the material leg Kashan → Jingdezhen, undated, dashed; the globe turns to follow
+    prediction: L1.predict-1      # the lecture's own guess at station 1: "Where did the blue come from?"
+    argued: a-cobalt-mine         # F1.13-C04, station 2: a note and an argument card, never a tick
+    ends_on: { object: cma-1915-581 }   # the stage object at station 2, under the bridge; see honesty
+    honesty: >-
+      The leg Kashan → Jingdezhen has no date of its own: its ends are the
+      Kashan bowl (late 1100s–early 1200s) and the jar (1300s), so it is drawn
+      dashed, and the lecture's legend (dashed = a material) and the scene
+      grammar (dashed = undated) agree on it. Neither Cleveland object has an
+      image in the repo; each is a frame with its credit line and "the
+      holder's photograph, placed at build". The cobalt mine (F1.13-C04) is
+      argued and drives no tick: Qamsar and Anarak are two fuzzy marks. The
+      prompt's answer is the leg and the lit mark at Kashan, drawn after the
+      guess, never a beat. The journey template would end on the jar at
+      Jingdezhen, the leg's last stop; the lecture's station order puts the
+      jar first and the Kashan bowl second, so the scene ends on the bowl and
+      the editor may swap `ends_on` if the stations are reordered.
+
+    beats:
+      - id: b-blue-1
+        kind: threshold
+        station: L1.1
+        stations: "1–2"
+        text: >-
+          A jar painted in blue under its glaze: potters at Jingdezhen made it
+          in the 1300s, and the record does not give their names. A network
+          is four flows at once, objects, materials, skills and people; they
+          share routes, but not terms.
+        tie: "Lecture 1 · The blue, stations 1–2"
+        instrument: "map, Asia at zoom 2.2; the jar on the stage; clock 1300s"
+        claims: [f13-e-jar, F1.13-C01, F1.13-C02]
+        sources: [F1.13-C01, F1.13-C02]
+        # 42 words; one date (1300s), one number (four); the scene's thesis in
+        # the lecture's words (station 1's idea). Iran is held back for the prompt.
+
+      - id: b-blue-2
+        kind: caption
+        station: L1.1
+        text: >-
+          On the stage, the jar with blue underglaze decoration that the
+          Cleveland Museum of Art holds as 1962.154: Jingdezhen, the 1300s,
+          made by potters and painters whose names the record does not give.
+          The map settles on Jingdezhen; the jar's century sits as a bar on
+          the objects lane.
+        instrument: "object cma-1962-154 (frame: the holder's photograph, placed at build); map settles on Jingdezhen; timeline bar 'the jar, 1300s', lane 0"
+        claims: [f13-e-jar, F1.13-C02]
+        sources: [F1.13-C02]
+        # 49 words; the first sentence names the instrument (the stage) and its object.
+
+      - id: b-blue-3
+        kind: prompt
+        station: L1.1
+        prediction: L1.predict-1
+        text: >-
+          The jar's blue, Jingdezhen, the 1300s: where did the blue come
+          from, Jingdezhen's own hills, Iran, or Europe?
+        question: "Where did the blue come from?"           # the lecture's own words
+        options: ["Jingdezhen's own hills", "Iran", "Europe"]
+        say: >-
+          Cleveland's record says the cobalt was imported from Iran, likely
+          from Kashan. The dashed leg from Kashan to Jingdezhen is drawn after
+          the guess; it marks a material, not an object.
+        answer:
+          instrument: map
+          route: { id: r01, from: kashan, to: jingdezhen, flow: material, dashed: true }   # truth ink, drawn after the guess; never a beat
+          light: kashan
+          stamp: "1300s · cobalt from Iran"
+        instrument: "map: the material leg Kashan → Jingdezhen, drawn after the guess"
+        claims: [f13-e-jar, F1.13-C02]
+        sources: [F1.13-C02]
+        # text 18 words (≤ 22); say 31 words (≤ 40); not first, not last; no
+        # later beat restates "imported from Iran, likely from Kashan".
+
+      - id: b-blue-4
+        kind: focus
+        station: L1.1
+        mark: f13-e-xuande                      # the bar 'Xuande wares tested, 1426–1435' on the materials lane
+        text: >-
+          Jingdezhen, 1426–1435: Jiang and colleagues tested imperial wares of
+          the Xuande reign and write that early blue-and-white relied heavily
+          on imported cobalt from the West. The bar on the materials lane is
+          their sample.
+        instrument: "timeline: bar 1426–1435, lane 1, material"
+        claims: [f13-e-xuande, F1.13-C03]
+        sources: [F1.13-C03]
+        # 34 words, two sentences, one date (1426–1435), one mark. The
+        # evidence the lecture gives after its reveal (F1.13-C03), not the
+        # answer (F1.13-C02, Iran and Kashan) restated.
+
+      - id: b-blue-5
+        kind: caption
+        station: L1.2
+        text: >-
+          On the stage, a footed bowl from Iran with a blue rim, fritware,
+          pierced and painted under the glaze: the Cleveland Museum of Art
+          dates it late 1100s–early 1200s and holds it as 1915.581. Blue under
+          a glaze was in Kashan's workshops a century before the Jingdezhen
+          jar; the map tightens on Kashan.
+        instrument: "object cma-1915-581 (frame: the holder's photograph, placed at build); map, Iran at zoom 5.5; timeline fuzzy bar 'Kashan bowl, late 1100s–early 1200s', lane 0"
+        claims: [f13-e-kashan-bowl, F1.13-C05, F1.13-C02]
+        sources: [F1.13-C05, F1.13-C02]
+        # 53 words; the first sentence names the stage and its object; the
+        # record's "probably at Kashan" is held for the note, so no
+        # confidence word sits here.
+
+      - id: b-blue-6
+        kind: note
+        station: L1.2
+        argued: a-cobalt-mine
+        text: >-
+          Which mine gave the cobalt in Kashan's blue is argued; the lecture
+          does not choose. One reading: Qamsar, near Kashan, where
+          Abu'l-Qasim's treatise of 1301 places lâjvard, the blue, the most
+          cited source. The other: deposits near Anarak, 200 kilometres east
+          of Kashan, which Jiang and colleagues propose in their discussion.
+          The two fuzzy marks on the map are the two readings; Cleveland
+          places the bowl probably at Kashan.
+        instrument: "map: two argued marks, Qamsar and Anarak; timeline mark 'Abu'l-Qasim's treatise, 1301', lane 1; the argument card (24) beside the sheet"
+        claims: [f13-e-abulqasim, F1.13-C04, F1.13-C05]
+        sources: [F1.13-C04, F1.13-C05]
+        # 69 words; names the claim it qualifies (F1.13-C04) in its first
+        # sentence; the confidence words (argued, probably) live here.
+
+      - id: b-blue-7
+        kind: bridge
+        station: L1.7
+        from: kashan
+        to: amsterdam
+        text: >-
+          From Kashan and the cobalt of the 1300s to Amsterdam and a Kraak
+          dish of about 1600–1625: the blue that came from Iran leaves China
+          as export ware. The map opens from Iran to the whole of Asia for
+          station 7, The blue goes north.
+        instrument: "map scale changes: Iran at zoom 5.5 → Asia to Europe at zoom 1.95; the route China → Amsterdam is not recorded and draws dashed"
+        claims: [f13-e-jar, f13-e-kraak, F1.13-C18, F1.13-C02]
+        sources: [F1.13-C18, F1.13-C02]
+        # 45 words; names both ends (Kashan, Amsterdam) and two dates; the only
+        # beat that changes map scale; station L1.7 is the destination's.
+
+    # No aside: an aside carries an adjacent fact the lecture does not hold,
+    # with its own year, proper noun and source; the research notes give none
+    # for these stations (Kelekian's 1915 sale is in the lecture and stays
+    # there), so the margin stays empty rather than invented.
+
+  - id: galleons
+    title: The galleons
+    lecture: L1
+    stations: [6]
+    span: [1565, 1815]            # the station's stamp; the plan's focus adds Potosí 1545, which no beat here uses
+    kind: journey                 # Potosí → Manila (silver) → Acapulco (porcelain) → Puebla (undated)
+    prediction: L1.predict-6      # "How much of the silver mined in New Spain and Peru went to Asia?"
+    content_note: >-
+      This scene names people enslaved and carried across the Pacific. You
+      can skip to station seven; the summary keeps the dates.
+    protocol: "level 2: content note once, before the people mark; people as a mark beside the silver arc, never a glyph on the leg (the human-flow rule)"
+    ends_on: { object: met-12-3-1 }
+    honesty: >-
+      Station 6 has two instrument states, the route (Potosí → Manila →
+      Acapulco, the galleons' bar 1565–1815) and the basin (the Met's 12.3.1
+      on the stage, about 1650), so it is two ticks and two beats. The last
+      leg, Acapulco → Puebla, has no date in the lecture and draws dashed. The
+      silver fraction (as much as a third) is probable and appears only in the
+      prompt's say and the leg's label, drawn after the guess. The Met basin
+      has no image in the repo: a frame with the credit line. The enslaved
+      people of F1.13-C17 are a note with the content note, never a caption,
+      and never ride the leg.
+
+    beats:
+      - id: b-gal-1
+        kind: threshold
+        station: L1.6
+        stations: "6"
+        text: >-
+          On the Manila galleons of 1565–1815 silver went west and porcelain
+          east on the same ships, and so did people, on terms the goods never
+          had. A basin from Puebla, tin-glazed earthenware, is the object the
+          trade reached.
+        tie: "Lecture 1 · The galleons, station 6"
+        instrument: "map, the Pacific at zoom 1.85; clock span 1565–1815"
+        claims: [f13-e-urdaneta, f13-e-galleon-end, F1.13-C15, F1.13-C16, F1.13-C17]
+        sources: [F1.13-C15, F1.13-C16, F1.13-C17]
+        # 38 words; one date (the span 1565–1815); the number (a third) is held
+        # for the prompt; the scene's thesis is station 6's idea, verbatim.
+
+      - id: b-gal-2
+        kind: focus
+        station: L1.6
+        state: the route
+        mark: f13-e-urdaneta                    # the bar 'the galleons, 1565–1815' on the materials lane, from Urdaneta's route (1565) to the last galleon (1815)
+        text: >-
+          Potosí to Manila to Acapulco, 1565–1815: the galleons carried silver
+          west and porcelain, silk, ivory and spices east. The bar on the
+          materials lane is the span of the trade, and the globe turns to
+          follow the legs.
+        instrument: "map: legs r15 Potosí → Manila (material, coin) and r16 Manila → Acapulco (object, ship); timeline bar 1565–1815, lane 1"
+        claims: [f13-e-urdaneta, f13-e-galleon-end, F1.13-C15]
+        sources: [F1.13-C15]
+        # 38 words, two sentences, one date (1565–1815), one mark; the first
+        # instrument state (the route).
+
+      - id: b-gal-3
+        kind: prompt
+        station: L1.6
+        prediction: L1.predict-6
+        text: >-
+          Potosí's silver on the galleons of 1565–1815: how much of the silver
+          mined in New Spain and Peru went to Asia?
+        question: "How much of the silver mined in New Spain and Peru went to Asia?"   # the lecture's own words
+        options: ["A tenth", "A third", "Nine tenths"]
+        say: >-
+          As much as one-third, by one estimate; we call that probable. The
+          label on the silver leg from Potosí to Manila, drawn after the
+          guess, carries the fraction and its confidence word.
+        answer:
+          instrument: map
+          route: { id: r15, from: potosi, to: manila, flow: material, label: "silver · as much as a third · probable" }   # truth ink, drawn after the guess; never a beat
+        instrument: "map: the label on the silver leg, drawn after the guess"
+        claims: [f13-e-urdaneta, f13-e-galleon-end, F1.13-C15]
+        sources: [F1.13-C15]
+        # text 21 words (≤ 22); say 32 words (≤ 40); not first, not last; the
+        # confidence word (probable) sits in the say, where it may.
+
+      - id: b-gal-4
+        kind: note
+        station: L1.6
+        content_note: true
+        text: >-
+          Content note: the galleons of 1565–1815 carried people too. Enslaved
+          people from many communities in the Indian subcontinent and
+          Southeast Asia were carried to Mexico; Spanish records grouped them
+          as chinos, a colonial label for people from many places. From 1672
+          the law counted them as Indians, who could not lawfully be enslaved,
+          Seijas writes. A people mark sits beside the silver arc, never on
+          it.
+        instrument: "map: people mark r17 beside Manila → Acapulco, a mark of its own, no glyph on the leg; timeline mark '1672: counted as Indians', lane 2"
+        claims: [f13-e-urdaneta, f13-e-galleon-end, F1.13-C17]
+        sources: [F1.13-C17]
+        # 66 words; a content note, named as such in its first words; the
+        # people of F1.13-C17 are a note, never a caption; the 1672 law is the
+        # register's F1.13-C17.
+
+      - id: b-gal-5
+        kind: caption
+        station: L1.6
+        state: the basin
+        text: >-
+          On the stage, a basin from Puebla, tin-glazed earthenware, about
+          1650: The Metropolitan Museum of Art holds it as 12.3.1 and credits
+          it to "Master Potter A", a scholars' name for a hand the record does
+          not name. Mexican ceramics display the impact of the galleon trade
+          most vividly, Hecht writes; the last leg runs from Acapulco to
+          Puebla.
+        instrument: "object met-12-3-1 (frame: the holder's photograph, placed at build); timeline bar 'the basin, ca. 1650', lane 0; leg r18 Acapulco → Puebla, undated, dashed"
+        claims: [f13-e-basin, F1.13-C16, F1.13-C15]
+        sources: [F1.13-C16, F1.13-C15]
+        # 59 words; the first sentence names the stage and its object; the
+        # second instrument state (the basin); the scene ends on this object.
+
+    # No aside and no bridge: the scene stays at one map scale and the lecture
+    # carries every fact used here.
+
+# Display strings assumed for the claims lint, taken from the lecture data and
+# inventory.json (precision as the inventory gives it). The register
+# (content/claims.yaml) is the editor's; these are listed so the lint can
+# compare, not to stand in for it.
+displays:
+  f13-e-jar:         { display: "1300s", value: [1300, 1400], precision: range, confidence: documented, sources: [F1.13-C02] }
+  f13-e-xuande:      { display: "1426–1435", value: [1426, 1435], precision: range, confidence: documented, sources: [F1.13-C03] }
+  f13-e-kashan-bowl: { display: "late 1100s–early 1200s", value: [1175, 1225], precision: range, confidence: documented, sources: [F1.13-C05] }
+  f13-e-abulqasim:   { display: "1301", value: 1301, precision: year, confidence: documented, sources: [F1.13-C04] }
+  f13-e-kraak:       { display: "c. 1600–1625", prose: "about 1600–1625", value: [1600, 1625], precision: circa, confidence: documented, sources: [F1.13-C18] }
+  f13-e-urdaneta:    { display: "1565", value: 1565, precision: year, confidence: documented, sources: [OCC067, F1.13-C15] }
+  f13-e-galleon-end: { display: "1815", value: 1815, precision: year, confidence: documented, sources: [NET036] }
+  f13-e-basin:       { display: "ca. 1650", prose: "about 1650", value: 1650, precision: circa, confidence: documented, sources: [F1.13-C16] }
+  F1.13-C04:         { display: "200 kilometres", note: "the distance Anarak–Kashan the lecture gives; the mine itself is contested and drives no tick" }
+  F1.13-C15:         { display: "as much as a third", confidence: probable }
+  F1.13-C17:         { display: "1672", note: "the law that counted chinos as Indians" }
+  # "1565–1815" in the beats is the span between f13-e-urdaneta and
+  # f13-e-galleon-end, the lecture's own stamp; both ids are cited.

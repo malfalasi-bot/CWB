@@ -34,3 +34,7 @@ node or step codes the learner engaged, e.g. `#ink.edo.tsutaya~hokusai~e1842~des
 ## Design language v3 (20 October 2026)
 - Skill: `skills/histories-of-making-design/` — v3 folds in the motion/layers/focus study and the scene framework (`references/scenes.md`), the beats study (`references/beats.md`) and the editorial process (`references/claims.md`); components 29–33 (scene player, lane chart with focus, scene sheet, station player, inline widget).
 - Evals 6–8 (journey scene, beats from stations, claims register + lane chart): `skills/histories-of-making-design-workspace/iteration-3/` — review.html, benchmark.md.
+
+## F1.13 method run (20 October 2026)
+- `research_notes/F1.13 method run/` — research, benchmark, inventory, claims.yaml (94 records) + lint, plan, STUDY.md.
+- `build/units/f1-13-method/` — scenes (S2 galleons, S3 Omar ibn Said mocks), text (lectures.yaml, beats.yaml, scene sheet), lane-chart (+ arguments), grouping-indian-ocean.

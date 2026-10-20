@@ -1,0 +1,83 @@
+{
+ "unit": "F1.13 Networks: objects, materials, skills and people",
+ "counted_by": "Claude Fable 5.1, 20 October 2026, from atlas/data/canon/*.csv, atlas/data/register/*.csv and build/lectures/src/lectures/f1-13.json",
+ "canon_rows_reaching_unit": 743,
+ "kinds": {
+  "object-type": 50,
+  "event": 85,
+  "maker-community": 13,
+  "institution": 32,
+  "technique": 29,
+  "community": 14,
+  "period": 13,
+  "material": 37,
+  "style": 48,
+  "network": 65,
+  "interaction-sphere": 3,
+  "diaspora": 13,
+  "place": 125,
+  "person": 27,
+  "civilisation-as-commonly-named": 15,
+  "dynasty": 15,
+  "living-practice": 24,
+  "first-known": 18,
+  "archaeological-culture": 11,
+  "horizon": 2,
+  "belief-tradition": 1,
+  "polity": 82,
+  "movement": 16,
+  "school": 5
+ },
+ "tiers": {
+  "R3": 390,
+  "R1": 81,
+  "R2": 272
+ },
+ "rows_with_start": 685,
+ "rows_with_end": 461,
+ "rows_defined_by": 743,
+ "rows_leaves_out": 467,
+ "place_rows": 125,
+ "place_rows_with_coordinates_in_canon": 0,
+ "lecture_gazetteer_points": 33,
+ "claims_in_register": 25,
+ "claims_by_confidence": {
+  "interpretive": 2,
+  "documented": 21,
+  "contested": 2
+ },
+ "world_set_objects": 11,
+ "world_set_by_status": {
+  "open": 5,
+  "held": 2,
+  "link-out": 3,
+  "excluded": 1
+ },
+ "open_objects_by_licence": {
+  "F1.10-O05": "CC0",
+  "F1.13-O01": "CC0",
+  "F1.13-O02": "CC0 1.0",
+  "F1.13-O03": "Public domain",
+  "F1.13-O04": "Public domain"
+ },
+ "open_object_images_in_repo": 0,
+ "living_practice_rows": 24,
+ "living_practice_rows_with_protocol_level": 0,
+ "sensitivity_flags": {
+  "Indigenous-community": 69,
+  "living-community": 119,
+  "none": 320,
+  "human-flow": 174,
+  "funerary": 60,
+  "sacred": 67,
+  "conflict-looting": 57,
+  "ancestral": 11
+ },
+ "journeys_with_dated_legs_in_lecture": [
+  "galleons 1565–1815 (Potosí → Manila → Acapulco → Puebla)",
+  "gold 1324–25 (Sahel → Cairo)",
+  "papermaking by the late 8th c. (Samarkand region → Baghdad)",
+  "Korean potters 1592–98 (Korea → Arita, human flow)",
+  "cobalt by the 1300s (Kashan → Jingdezhen; legs undated, ends dated by objects)"
+ ]
+}

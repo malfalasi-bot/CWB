@@ -1,0 +1,484 @@
+# F1.13 Networks: step 6 (storyboard), the four scenes to the schema in scenes.md §5.
+# Written by Claude Fable 5.1, 20 October 2026, from research_notes/F1.13 method run/
+# (research.md, benchmark.md, inventory.json, plan.md) and build/lectures/src/lectures/f1-13.json.
+#
+# Claim ids: f13-<inventory event id> (inventory.json events) or the register's F1.13-C01…C25.
+# Place ids: the lecture's gazetteer (f1-13.json `places`), which carries a source line per point.
+# Source ids: register claims (F1.13-Cnn) and canon rows (OCCnnn, NETnnn, DIAnnn) as inventory.json cites them.
+# Every open object the scenes end on has no image in the repo (inventory.json `image_in_repo: false`):
+# `ends_on` carries `frame: placeholder` and the holder's credit line; nothing is drawn or generated in its place.
+#
+# Two fields extend the §5 schema and are flagged in storyboard.md: `content_note` (the protocol's level-2 note,
+# shown once before the first shot) and `clock.claim` (the register id behind a readout the caption does not carry).
+# Where a caption carries two register values its `claim` is a list.
+
+- id: f13-cobalt
+  kind: journey
+  title: The cobalt
+  span: [1175, 1435]
+  claims: [f13-e-kashan-bowl, f13-e-abulqasim, f13-e-jar, f13-e-xuande, F1.13-C02, F1.13-C04, F1.13-C05]
+  surfaces: [globe-world, timeline, stage]
+  understand: The jar's potters and clay were at Jingdezhen and its blue came from Iran, on a route the record does not give.
+  honesty: >-
+    The one leg, Kashan to Jingdezhen, is undated and drawn dashed; no stop between the ends is in the sources.
+    Which mine gave the cobalt is contested (Qamsar or Anarak) and is a card with two pale dots, never a tick or a clock;
+    Qamsar is not in the gazetteer and is placed 0.23° south of Kashan's point as "near Kashan".
+    Nothing claims the Kashan bowl's blue and the jar's blue share one mine. The Xuande tests (1426–35) postdate the jar
+    and are shown as the evidence they are. The jar's image is the holder's photograph, placed at build.
+  guess: none          # station 1's predict ("Where did the blue come from?") has no id in f1-13.json; bind when lectures.yaml gives it one
+  ends_on:
+    object: cma-1962-154
+    frame: placeholder
+    text: "the holder's photograph, placed at build"
+    holder: Cleveland Museum of Art
+    accession: "1962.154"
+    date: 1300s
+    licence: CC0
+  shots:
+    - n: 1
+      surface: globe-world
+      camera: { move: settle, keep: [kashan] }
+      clock: { mode: span, readout: "late 1100s – early 1200s", claim: f13-e-kashan-bowl }
+      actors: [ { glyph: pigment, at: kashan } ]
+      labels: { primary: kashan, others: [] }
+      dim: [routes, marks]
+      caption:
+        text: "A footed bowl from Iran, with a blue rim: Cleveland dates it late 1100s to early 1200s and places it probably at Kashan."
+        sources: [F1.13-C05]
+        claim: f13-e-kashan-bowl
+      duration: held
+      reduced: cut
+    - n: 2
+      surface: globe-world
+      camera: { move: hold }
+      clock: { mode: point, readout: "1301", claim: f13-e-abulqasim }
+      actors:
+        - { mark: mentioned-place, at: qamsar }       # pale hollow dot, unlabelled; the card names it
+        - { mark: mentioned-place, at: anarak }
+        - { card: argument, id: a-cobalt-mine, claim: F1.13-C04 }   # contested: a card, never a tick
+      labels: { primary: kashan, others: [] }
+      dim: [routes, marks]
+      caption:
+        text: "Which mine gave the cobalt is argued: Qamsar, near Kashan, where Abu'l-Qasim's treatise of 1301 places lâjvard; or deposits near Anarak."
+        sources: [F1.13-C04]
+        claim: f13-e-abulqasim
+      duration: held
+      reduced: still
+    - n: 3
+      surface: globe-world
+      camera: { move: follow, legs: [[kashan, jingdezhen]], per_leg: 1.2 }
+      clock: { mode: span, readout: "late 1100s – 1300s", claim: [f13-e-kashan-bowl, f13-e-jar] }
+      actors: [ { glyph: pigment, follow: legs, dated: false } ]     # dashed leg; a material, not an object
+      labels: { primary: jingdezhen, others: [kashan], ink_as_drawn: true }
+      dim: [routes, marks]
+      caption:
+        text: "Cleveland's record says the jar's cobalt was imported from Iran, likely from Kashan; the route is not recorded and is drawn dashed."
+        sources: [F1.13-C02]
+        claim: F1.13-C02
+      duration: held
+      reduced: fade
+    - n: 4
+      surface: globe-world
+      camera: { move: hold }
+      clock: { mode: span, readout: "1300s", claim: f13-e-jar }
+      actors: [ { mark: object-holder, at: jingdezhen } ]
+      labels: { primary: jingdezhen, others: [kashan] }
+      dim: [routes, marks]
+      caption:
+        text: "Potters at Jingdezhen made the jar in the 1300s; Cleveland holds it as 1962.154. The record does not give the potters' names."
+        sources: [F1.13-C02]
+        claim: f13-e-jar
+      duration: held
+      reduced: still
+    - n: 5
+      surface: timeline
+      camera: { move: cut }
+      clock: { mode: span, readout: "1426–35", claim: f13-e-xuande }
+      actors: [ { tick: f13-e-xuande, lane: the-objects, kind: bar } ]
+      labels: { primary: jingdezhen, others: [] }
+      dim: [lanes]
+      caption:
+        text: "Jiang and colleagues tested imperial wares of the Xuande reign, 1426 to 1435: early blue-and-white relied heavily on imported cobalt from the West."
+        sources: [F1.13-C03]
+        claim: f13-e-xuande
+      duration: held
+      reduced: cut
+    - n: 6
+      surface: stage
+      camera: { move: cut }
+      clock: { mode: span, readout: "1300s", claim: f13-e-jar }
+      actors: [ { object: cma-1962-154, frame: placeholder } ]
+      labels: { primary: cleveland-museum-of-art, others: [] }
+      dim: []
+      caption:
+        text: "The jar, painted in blue under its glaze: the potters and the clay were at Jingdezhen; the blue came from Iran."
+        sources: [F1.13-C02, F1.13-C03]
+        claim: f13-e-jar
+      duration: held
+      reduced: cut
+
+- id: f13-galleons
+  kind: journey
+  title: The galleons
+  span: [1565, 1815]
+  claims: [f13-e-urdaneta, f13-e-galleon-end, f13-e-basin, F1.13-C15, F1.13-C16, F1.13-C17]
+  surfaces: [globe-world, timeline, stage]
+  understand: Silver went west and porcelain east on the same ships for 250 years, and so did people, on terms the goods never had.
+  content_note: "Content note: this scene names people enslaved and carried across the Pacific. You can skip to the next scene; the summary keeps the dates."   # protocol level 2, once, before shot 1
+  honesty: >-
+    The Acapulco → Puebla leg is undated and drawn dashed. Potosí stands for "New Spain and Peru" silver, as the gazetteer says.
+    The Potosí → Manila leg (172°) and the Manila → Acapulco leg (129°) exceed the 70° follow window, so the globe turns first
+    and keeps turning with the glyph; the leading stop stays in the central 60 % of the view. "As much as a third" is one
+    estimate and is written probable. The enslaved people carried on the same ships are a card beside the leg, never a mark
+    on it; no count is recorded. The basin's image is the holder's photograph, placed at build.
+  guess: none          # station 6's predict ("How much of the silver mined in New Spain and Peru went to Asia?") has no id in f1-13.json
+  ends_on:
+    object: met-12-3-1
+    frame: placeholder
+    text: "the holder's photograph, placed at build"
+    holder: The Metropolitan Museum of Art
+    accession: "12.3.1"
+    date: ca. 1650
+    licence: Public domain
+  shots:
+    - n: 1
+      surface: globe-world
+      before: true
+      camera: { move: settle, keep: [manila, acapulco] }       # Pacific-centred: the view centre on the leg's midpoint, 38.9° N 170.3° W
+      clock: { mode: span, readout: "1565–1815", claim: [f13-e-urdaneta, f13-e-galleon-end] }
+      actors: []                                              # the content note holds; the full route at a quarter, nothing moves
+      labels: { primary: manila, others: [acapulco] }
+      dim: [routes, marks]
+      caption:
+        text: "Silver went west and porcelain east on the same ships, 1565 to 1815, and so did people, on terms the goods never had."
+        sources: [F1.13-C15, F1.13-C17, NET036]
+        claim: [f13-e-urdaneta, f13-e-galleon-end]
+      duration: held
+      reduced: still
+    - n: 2
+      surface: globe-world
+      camera: { move: settle, keep: [potosi, acapulco] }
+      clock: { mode: point, readout: "1565", claim: f13-e-urdaneta }
+      actors: [ { glyph: coin, at: potosi } ]                 # "the silver mined in New Spain and Peru"; the number rides the caption
+      labels: { primary: potosi, others: [acapulco] }
+      dim: [routes, marks]
+      caption:
+        text: "Potosí's silver: as much as one-third of the silver mined in New Spain and Peru went to Asia, by one estimate; we call that probable."
+        sources: [F1.13-C15]
+        claim: F1.13-C15
+      duration: held
+      reduced: cut
+    - n: 3
+      surface: globe-world
+      camera: { move: follow, legs: [[potosi, manila]], per_leg: 1.2 }
+      clock: { mode: span, readout: "1565–1815", claim: [f13-e-urdaneta, f13-e-galleon-end] }
+      actors: [ { glyph: coin, follow: legs, dated: true } ]
+      labels: { primary: manila, others: [potosi], ink_as_drawn: true }
+      dim: [routes, marks]
+      caption:
+        text: "From 1565, Urdaneta's return route opens the galleon trade; silver from Potosí crosses to Manila."
+        sources: [OCC067, F1.13-C15]
+        claim: f13-e-urdaneta
+      duration: held
+      reduced: fade
+    - n: 4
+      surface: globe-world
+      camera: { move: follow, legs: [[manila, acapulco]], per_leg: 1.2 }
+      clock: { mode: span, readout: "1565–1815", claim: [f13-e-urdaneta, f13-e-galleon-end] }
+      actors: [ { glyph: ship, follow: legs, dated: true } ]
+      labels: { primary: acapulco, others: [manila], ink_as_drawn: true }
+      dim: [routes, marks]
+      caption:
+        text: "Galleons carried porcelain, silk, ivory and spices to Acapulco, from 1565 to the last Manila galleon of 1815."
+        sources: [F1.13-C15, NET036]
+        claim: [f13-e-urdaneta, f13-e-galleon-end]
+      duration: held
+      reduced: fade
+    - n: 5
+      surface: globe-world
+      camera: { move: hold }
+      clock: { mode: span, readout: "1565–1815", claim: [f13-e-urdaneta, f13-e-galleon-end] }
+      actors: [ { card: people, at: acapulco, beside_leg: [manila, acapulco], claim: F1.13-C17 } ]   # a card beside the leg; no glyph, no chip (no name recorded), no count
+      labels: { primary: acapulco, others: [manila] }
+      dim: [routes, marks]
+      caption:
+        text: "On the same ships, people: enslaved people from the Indian subcontinent and Southeast Asia, grouped by Spanish records as chinos; from 1672 counted as Indians."
+        sources: [F1.13-C17]
+        claim: F1.13-C17
+      duration: held
+      reduced: still
+    - n: 6
+      surface: globe-world
+      camera: { move: follow, legs: [[acapulco, puebla]], per_leg: 1.2, inset: true }
+      clock: { mode: span, readout: "1565–1815", claim: [f13-e-urdaneta, f13-e-galleon-end] }
+      actors: [ { line: journey, follow: legs, dated: false } ]      # dashed; no glyph, no content line names the carrier
+      labels: { primary: puebla, others: [acapulco], ink_as_drawn: true }
+      dim: [routes, marks]
+      caption:
+        text: "Mexican ceramics display the impact of the galleon trade most vividly, Hecht writes; the leg from Acapulco to Puebla is undated."
+        sources: [F1.13-C15]
+        claim: F1.13-C15
+      duration: held
+      reduced: fade
+    - n: 7
+      surface: stage
+      camera: { move: cut }
+      clock: { mode: point, readout: "c. 1650", claim: f13-e-basin }
+      actors: [ { object: met-12-3-1, frame: placeholder } ]
+      labels: { primary: the-metropolitan-museum-of-art, others: [] }
+      dim: []
+      caption:
+        text: "A basin from Puebla, tin-glazed earthenware, about 1650; the Met credits it to \"Master Potter A\", a scholars' name for an unnamed hand."
+        sources: [F1.13-C16]
+        claim: f13-e-basin
+      duration: held
+      reduced: cut
+
+- id: f13-omar
+  kind: incident                 # a person's journey: no follow shot, because no leg is drawn (research.md, the human-flow rule)
+  title: Omar ibn Said
+  span: [1501, 1866]
+  claims: [f13-e-tast-span, f13-e-omar-captured, f13-e-omar-writes, F1.13-C22]
+  surfaces: [globe-world, timeline, stage]
+  understand: One man the record names, Omar ibn Said, wrote his own life in Arabic in 1831 while enslaved; the count of the trade is given in words, and no line is drawn for people.
+  content_note: "Content note: this scene is about the Atlantic slave trade. Traders forced about 12.5 million African people onto ships, 1501 to 1866, and many died at sea. We show no images of bodies or ships. You can skip this scene; the summary keeps the count."   # protocol level 2 (AR-081), once, before shot 1
+  protocol: "level 2: content note (AR-081); his name and his Arabic text lead; the English title page is not shown; a Qur'anic leaf is shown whole"
+  rule: "human-flow: a person, the chip; content note AR-081; his name and his Arabic text lead; no glyph; no goods grammar"   # inventory.json j-omar
+  honesty: >-
+    No line is drawn between Futa Toro, South Carolina and North Carolina: the lecture's own line is "dots with his name, and no arrow",
+    so the one dated leg (1807) is shown as a tick and a pulse at the place reached, not as a route. Futa Toro is placed by region
+    (anchored at Podor) and is a soft blot. South Carolina and North Carolina are closer than 18 px at world scale and are labelled
+    in sequence, then share one leader. The count of the trade is a card in words, never a bubble or a crawl. His death, 1863 or 1864,
+    is contested and never a tick or a clock. The Arabic spelling of his name is not in the unit's files and is left for the record
+    to supply at build. The manuscript's image is the holder's photograph, placed at build.
+  guess: none
+  ends_on:
+    object: loc-2018371864
+    frame: placeholder
+    text: "the holder's photograph, placed at build"
+    holder: Library of Congress
+    accession: "2018371864"
+    date: 1831
+    licence: Public domain
+  shots:
+    - n: 1
+      surface: globe-world
+      before: true
+      camera: { move: settle, keep: [futa_toro, charleston] }     # the Atlantic; the lecture's focus 42° W 24° N
+      clock: { mode: span, readout: "1501–1866", claim: f13-e-tast-span }
+      actors: [ { card: count, claim: f13-e-tast-span, text: "about 12.5 million people departed Africa, 1501–1866; about 10.7 million disembarked" } ]   # a card on the caption; no line, no bubble, no crawl
+      labels: { primary: none, others: [] }
+      dim: [routes, marks, washes]
+      caption:
+        text: "SlaveVoyages estimates that 12,520,000 people departed Africa, 1501 to 1866, and that about 10.7 million disembarked, mainly in the Americas."
+        sources: [F1.13-C20]
+        claim: f13-e-tast-span
+      duration: held
+      reduced: still
+    - n: 2
+      surface: globe-world
+      camera: { move: hold }
+      clock: { mode: held, readout: "clock held", claim: none }     # the birth rests on F1.13-C22, which also holds the contested death (1863 or 1864): no record of his may drive the clock below documented, so the clock is held; the caption carries "about 1770"
+      actors: [ { chip: omar-ibn-said, at: futa_toro, approx: true } ]    # the person is the chip; Futa Toro a soft blot
+      labels: { primary: futa_toro, others: [] }
+      dim: [routes, marks]
+      caption:
+        text: "Omar ibn Said was born in Futa Toro, about 1770."
+        sources: [F1.13-C22]
+        claim: F1.13-C22
+      duration: held
+      reduced: still
+    - n: 3
+      surface: globe-world
+      camera: { move: hold }
+      clock: { mode: point, readout: "1807", claim: f13-e-omar-captured }
+      actors:
+        - { pulse: incident, at: charleston, once: true }                 # seal red, one 600 ms pulse: the capture is the incident
+        - { chip: omar-ibn-said, at: charleston }
+      labels: { primary: charleston, others: [futa_toro] }
+      dim: [routes, marks]
+      caption:
+        text: "Omar ibn Said was captured in 1807 and brought to South Carolina."
+        sources: [F1.13-C22]
+        claim: f13-e-omar-captured
+      duration: held
+      reduced: still
+    - n: 4
+      surface: globe-world
+      camera: { move: hold }
+      clock: { mode: point, readout: "1831", claim: f13-e-omar-writes }
+      actors: [ { chip: omar-ibn-said, at: fayetteville } ]
+      labels: { primary: fayetteville, others: [charleston, futa_toro], shared_leader: [charleston, fayetteville] }
+      dim: [routes, marks]
+      caption:
+        text: "In 1831, while enslaved in North Carolina, Omar ibn Said wrote his life in Arabic."
+        sources: [F1.13-C22]
+        claim: f13-e-omar-writes
+      duration: held
+      reduced: still
+    - n: 5
+      surface: globe-world
+      camera: { move: hold }
+      clock: { mode: point, readout: "1831", claim: f13-e-omar-writes }
+      actors: [ { card: quotation, claim: F1.13-C22 } ]
+      labels: { primary: fayetteville, others: [charleston] }
+      dim: [routes, marks]
+      caption:
+        text: "\"I continued seeking knowledge for 25 years,\" Omar ibn Said wrote. James Owen of Bladen County was his enslaver."
+        sources: [F1.13-C22]
+        claim: F1.13-C22
+      duration: held
+      reduced: still
+    - n: 6
+      surface: timeline
+      camera: { move: cut }
+      clock: { mode: point, readout: "1831", claim: f13-e-omar-writes }   # the clock rests on the documented record; the contested death never drives it
+      actors: [ { card: note, claim: F1.13-C22, alternates: [1863, 1864], mark: dotted-bar } ]
+      labels: { primary: none, others: [] }
+      dim: [lanes]
+      caption:
+        text: "Omar ibn Said died, still enslaved, in 1863 or 1864; the sources differ (contested), and we give both years."
+        sources: [F1.13-C22]
+        claim: F1.13-C22
+      duration: held
+      reduced: still
+    - n: 7
+      surface: stage
+      camera: { move: cut }
+      clock: { mode: point, readout: "1831", claim: f13-e-omar-writes }
+      actors: [ { object: loc-2018371864, frame: placeholder, leaf: "a Qur'anic leaf, whole, never cropped", not_shown: "the English title page" } ]
+      labels: { primary: library-of-congress, others: [] }
+      dim: []
+      caption:
+        text: "Omar ibn Said's life, written in Arabic, 1831: the Library of Congress holds it as 2018371864; a Qur'anic leaf is shown whole."
+        sources: [F1.13-C22]
+        claim: f13-e-omar-writes
+      duration: held
+      reduced: cut
+
+- id: f13-blue-north
+  kind: run
+  title: The blue goes north
+  span: [1592, 1659]
+  claims: [f13-e-imjin, f13-e-carracks, f13-e-kraak, f13-e-arita, f13-e-sakoku, f13-e-voc-order, F1.13-C18, F1.13-C19]
+  surfaces: [timeline, globe-world, stage]
+  understand: The blue leaves China as export ware, and a skill reaches Arita with the people who were taken.
+  content_note: "Content note: this scene names potters taken by force. You can skip to the next scene; the summary keeps the dates."   # protocol level 2, once, before shot 1
+  group: g-porcelain-north           # inventory.json; five ticks and one contested card
+  ticks: [f13-e-imjin, f13-e-carracks, f13-e-kraak, f13-e-sakoku, f13-e-voc-order]   # e-arita is contested: a card, never a tick
+  honesty: >-
+    The Arita find (early 1600s) is contested and is a card over a dotted bar across its alternates, never a tick or a clock.
+    The dish's route to Amsterdam is not recorded and is drawn dashed. Joseon and China are placed by region (anchored at Busan
+    and Jingdezhen) and are soft blots. The potters taken to Japan are chips at both ends, with no line between them.
+    The carracks (1602–04) and the sakoku edicts (1633–39) are canon rows the lecture does not narrate (OCC072, OCC077);
+    their captions carry only what the rows say. "Earliest known large order" renders the row's "first". The dish's image
+    is the holder's photograph, placed at build.
+  guess: none          # station 7's predict ("When was it made?") has no id in f1-13.json
+  ends_on:
+    object: rijks-ak-rbk-16385
+    frame: placeholder
+    text: "the holder's photograph, placed at build"
+    holder: Rijksmuseum
+    accession: AK-RBK-16385
+    date: c. 1600–1625
+    licence: CC0 1.0
+  shots:
+    - n: 1
+      surface: timeline
+      before: true
+      camera: { move: settle, focus: [1592, 1659] }           # the lane chart zooms to the span; the chart dims outside it
+      clock: { mode: span, readout: "1592–1659", claim: [f13-e-imjin, f13-e-voc-order] }
+      actors: [ { ticks: listed, fired: none } ]
+      labels: { primary: none, others: [] }
+      dim: [lanes]
+      caption:
+        text: "The blue goes north, 1592 to 1659: the lane chart holds the invasions, the carracks, the dish, the edicts and the VOC's order."
+        sources: [OCC071, OCC072, F1.13-C18, OCC077, OCC080]
+        claim: [f13-e-imjin, f13-e-voc-order]
+      duration: held
+      reduced: still
+    - n: 2
+      surface: globe-world
+      camera: { move: cut, keep: [korea, arita], inset: true }
+      clock: { mode: span, readout: "1592–98", claim: f13-e-imjin }
+      actors:
+        - { tick: f13-e-imjin, lane: the-world, kind: bar }
+        - { chip: korean-potters, at: korea, approx: true, label: "Korean potters, taken · Yi Sam-pyeong named" }
+        - { chip: korean-potters, at: arita }                   # chips at both ends; no line; no glyph rides
+      labels: { primary: arita, others: [korea], shared_leader: [korea, arita] }
+      dim: [routes, marks]
+      caption:
+        text: "In Hideyoshi's invasions, 1592 to 1598, many Korean potters were taken to Japan; the Met says \"came\", Korean sources \"dragged\"; our verb is \"taken\"."
+        sources: [F1.13-C19, OCC071, DIA012]
+        claim: f13-e-imjin
+      duration: held
+      reduced: still
+    - n: 3
+      surface: timeline
+      camera: { move: cut }
+      clock: { mode: span, readout: "1602–04", claim: f13-e-carracks }
+      actors: [ { tick: f13-e-carracks, lane: the-world, kind: bar } ]
+      labels: { primary: none, others: [] }
+      dim: [lanes]
+      caption:
+        text: "Capture of the carracks São Jacinto and Santa Catarina, 1602 to 1604, as the canon records it."
+        sources: [OCC072]
+        claim: f13-e-carracks
+      duration: held
+      reduced: still
+    - n: 4
+      surface: globe-world
+      camera: { move: follow, legs: [[china, amsterdam]], per_leg: 1.2, inset: true }    # 79°: the globe turns first, then the leg draws
+      clock: { mode: span, readout: "c. 1600–1625", claim: f13-e-kraak }
+      actors:
+        - { tick: f13-e-kraak, lane: the-objects, kind: bar, halo: true }
+        - { line: journey, follow: legs, dated: false, label: "route not recorded" }   # dashed; no glyph: no content line names the carrier
+      labels: { primary: amsterdam, others: [china], ink_as_drawn: true }
+      dim: [routes, marks]
+      caption:
+        text: "The Rijksmuseum dates the dish about 1600 to 1625, Kraak ware, potter not named; how it reached Amsterdam is not recorded."
+        sources: [F1.13-C18]
+        claim: f13-e-kraak
+      duration: held
+      reduced: fade
+    - n: 5
+      surface: timeline
+      camera: { move: cut }
+      clock: { mode: span, readout: "c. 1600–1625", claim: f13-e-kraak }    # the clock stays on the documented record; the contested card does not move it
+      actors: [ { card: argued, claim: f13-e-arita, argument: a-arita, mark: dotted-bar, alternates: [1600, 1620] } ]
+      labels: { primary: none, others: [] }
+      dim: [lanes]
+      caption:
+        text: "Korean potters found porcelain clay at Arita early in the 1600s (contested); a Korean state foundation names one of them, Yi Sam-pyeong."
+        sources: [F1.13-C19]
+        claim: f13-e-arita
+      duration: held
+      reduced: still
+    - n: 6
+      surface: timeline
+      camera: { move: hold }
+      clock: { mode: step, readout: "1633–39 → 1659", claim: [f13-e-sakoku, f13-e-voc-order] }
+      actors:
+        - { tick: f13-e-sakoku, lane: the-state, kind: bar }
+        - { tick: f13-e-voc-order, lane: the-world, kind: point }
+      labels: { primary: none, others: [] }
+      dim: [lanes]
+      caption:
+        text: "Sakoku edicts, 1633 to 1639; then the VOC's earliest known large order for Japanese porcelain, 1659: the Dutch fill the gap left by China."
+        sources: [OCC077, OCC080, F1.13-C19]
+        claim: [f13-e-sakoku, f13-e-voc-order]
+      duration: 3.5          # auto-step, two ticks, with the pause bar
+      reduced: still
+    - n: 7
+      surface: stage
+      camera: { move: cut }
+      clock: { mode: span, readout: "c. 1600–1625", claim: f13-e-kraak }
+      actors: [ { object: rijks-ak-rbk-16385, frame: placeholder } ]
+      labels: { primary: rijksmuseum, others: [] }
+      dim: []
+      caption:
+        text: "A dish with two birds in a water landscape: China, porcelain in underglaze blue, Kraak ware, about 1600 to 1625; potter not named."
+        sources: [F1.13-C18]
+        claim: f13-e-kraak
+      duration: held
+      reduced: cut

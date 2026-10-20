@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The galleons · shot 4 of 7</title>
+<meta name="description" content="F1.13 Networks, scene S2 The galleons: a static mock of the follow shot in which the Manila → Acapulco leg draws over a Pacific-centred schematic globe.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Histories of making: the tokens. Copied as-is from references/tokens.css. */
+:root {
+  --paper: #F1EADB; --paper-2: #FAF6EC; --paper-3: #E9E0CC; --ink: #1D1A15; --ink-2: #554E42; --ink-3: #7A7162;
+  --line: #D6CBB4; --line-2: #C2B596; --land: #E4D8BE; --land-2: #DACCAD; --coast: #4A4234; --sea: #F1EADB;
+  --indigo: #233C6B; --indigo-2: #3A5A96; --indigo-soft: rgba(35,60,107,.10); --indigo-line: rgba(35,60,107,.55);
+  --seal: #B3301E; --seal-soft: rgba(179,48,30,.10);
+  --spring: #B85C76; --summer: #3E7D5A; --autumn: #B8662A; --winter: #4F6E99;
+  --kraft: #DCC8A3; --kraft-2: #EADCC0; --kraft-line: #B49C72;
+  --lecture-1: #5C6B7A; --lecture-2: #8A5A3C; --lecture-3: #B85C76; --lecture-4: #4F7A5A;
+  --lecture-5: #233C6B; --lecture-6: #B3301E; --lecture-7: #7A7A86; --lecture-8: #B08A3E;
+  --leader: 1px; --leader-dot: 6px; --frost: color-mix(in srgb, var(--paper) 86%, transparent); --frost-blur: 6px;
+  --ghost: color-mix(in srgb, var(--ink) 40%, transparent);
+  --shadow: 0 1px 0 rgba(60,45,20,.06), 0 6px 22px -10px rgba(60,45,20,.28);
+  --lift: drop-shadow(0 1px 0 rgba(60,45,20,.10)) drop-shadow(0 18px 30px rgba(60,45,20,.16));
+  --tex: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cfilter id='n' x='0' y='0'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .3 0 0 0 0 .25 0 0 0 0 .18 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='260' height='260' filter='url%28%23n%29'/%3E%3C/svg%3E");
+  --serif: 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
+  --display: 'Shippori Mincho', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  --ui: 'IBM Plex Sans', system-ui, sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, Menlo, monospace;
+  --body: 17px; --body-lh: 1.55; --measure: 68ch;
+  --deck: italic 400 19px/1.4 var(--serif);
+  --annot-name: 600 12px/1.3 var(--ui); --annot-text: 400 12px/1.4 var(--ui);
+  --eyebrow: 500 11px/1.3 var(--mono); --readout: 500 17px/1 var(--serif);
+  --pull: 500 26px/1.25 var(--serif);
+  --d-instant: 70ms; --d-micro: 110ms; --d-short: 200ms; --d-medium: 400ms; --d-long: 600ms; --d-scene: 900ms;
+  --e-standard: cubic-bezier(0.2, 0, 0, 1); --e-enter: cubic-bezier(0.05, 0.7, 0.1, 1); --e-exit: cubic-bezier(0.3, 0, 0.8, 0.15);
+  --e-productive: cubic-bezier(0.2, 0, 0.38, 0.9); --e-expressive: cubic-bezier(0.4, 0.14, 0.3, 1);
+  --card-rise: 240ms var(--e-enter);
+  --bar: 56px; --col: clamp(360px, 34vw, 540px); --gut: max(20px, 4vw); --r: 12px;
+  /* F1.13's provisional lecture identity (plan.md): cobalt, #4A6472; on the band's 4 px bar, the jar motif and the journey bar's travelled part only */
+  --unit: #4A6472; --unit-soft: rgba(74,100,114,.16);
+}
+@media (prefers-reduced-motion: reduce) { :root { --d-short: 0ms; --d-medium: 0ms; --d-long: 0ms; --d-scene: 0ms; --card-rise: 0ms; } }
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--paper); color: var(--ink);
+  font: 400 var(--body)/var(--body-lh) var(--serif);
+  min-height: 100vh; position: relative;
+}
+body::before { content: ""; position: fixed; inset: 0; background-image: var(--tex); pointer-events: none; opacity: .9; z-index: 0; }
+.page { position: relative; z-index: 1; display: flex; flex-direction: column; height: 100vh; }
+
+/* the band */
+.band { height: var(--bar); display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 18px; padding: 0 var(--gut); border-bottom: 1px solid var(--line); }
+.band .identity { display: flex; align-items: center; gap: 12px; height: 100%; }
+.band .identity .bar { width: 4px; height: 28px; background: var(--unit); border-radius: 1px; }
+.band .identity svg { width: 24px; height: 24px; display: block; }
+.band .identity .eyebrow { font: var(--eyebrow); color: var(--ink-3); letter-spacing: .04em; }
+.band .title { font: 500 19px/1.2 var(--serif); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.band .title i { font-style: italic; font-weight: 400; }
+.band .clock { text-align: right; }
+.band .clock .readout { font: var(--readout); }
+.band .clock .mode { font: var(--eyebrow); color: var(--ink-3); margin-top: 3px; }
+.band .clock .spanbar { position: relative; height: 2px; background: var(--line); margin-top: 5px; width: 120px; margin-left: auto; }
+.band .clock .spanbar i { position: absolute; left: 0; right: 0; top: 0; bottom: 0; background: var(--indigo); }
+
+/* the content note, once, before the surface */
+.note { padding: 8px var(--gut); font: 400 14px/1.45 var(--serif); color: var(--ink-2); border-bottom: 1px solid var(--line); }
+.note b { font: var(--eyebrow); color: var(--ink-3); margin-right: 10px; text-transform: uppercase; letter-spacing: .06em; }
+
+/* the surface */
+.surface { position: relative; flex: 1 1 auto; min-height: 0; padding: 0 var(--gut); }
+.globe-wrap { position: relative; height: 100%; }
+svg.globe { width: 100%; height: 100%; display: block; }
+.frost { background: var(--frost); backdrop-filter: blur(var(--frost-blur)); -webkit-backdrop-filter: blur(var(--frost-blur)); border: 1px solid var(--line); border-radius: var(--r); padding: 14px 18px; }
+.caption { position: absolute; left: var(--gut); bottom: 18px; max-width: 440px; }
+.caption p { margin: 0 0 8px; font: 400 16px/1.5 var(--serif); }
+.caption .meta { font: var(--eyebrow); color: var(--ink-3); display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.caption .meta b { font-weight: 500; color: var(--ink-2); }
+
+/* annotations in the svg */
+.lbl-name { font: var(--annot-name); fill: var(--ink); }
+.lbl-sub { font: 400 11px/1.3 var(--mono); fill: var(--ink-3); }
+.lbl-back { fill: var(--paper); fill-opacity: .86; }
+
+/* the journey bar */
+.journey { padding: 18px var(--gut) 6px; border-top: 1px solid var(--line); }
+.journey .track { position: relative; height: 92px; }
+.journey .line { position: absolute; left: 0; right: 0; top: 50px; height: 2px; background: var(--ink); }
+.journey .line.dashed { background: none; border-top: 2px dashed var(--ink-2); height: 0; }
+.journey .travelled { position: absolute; top: 42px; height: 18px; background: var(--unit-soft); border-radius: 2px; }
+.journey .stop { position: absolute; top: 47px; width: 8px; height: 8px; margin-left: -4px; border-radius: 50%; background: var(--ink); border: 1px solid var(--paper); }
+.journey .stop.hollow { background: var(--paper); border: 1.5px solid var(--ink-3); }
+.journey .stoplbl { position: absolute; top: 60px; transform: translateX(-50%); font: var(--annot-name); color: var(--ink-2); white-space: nowrap; }
+.journey .stoplbl small { display: block; font: 400 11px/1.3 var(--mono); color: var(--ink-3); font-weight: 400; }
+.journey .end { position: absolute; top: 0; font: 500 15px/1.2 var(--serif); white-space: nowrap; }
+.journey .end small { display: block; font: 400 11px/1.4 var(--mono); color: var(--ink-3); }
+.journey .end.left { left: 0; } .journey .end.right { right: 0; text-align: right; }
+.journey .now { position: absolute; top: 34px; margin-left: -12px; width: 24px; height: 24px; }
+.journey .tick { position: absolute; top: 44px; width: 1px; height: 8px; background: var(--ink-3); }
+.journey .tick span { position: absolute; bottom: 10px; font: 400 11px/1.3 var(--mono); color: var(--ink-3); white-space: nowrap; }
+.journey .tick.l span { left: 3px; } .journey .tick.r span { right: 3px; }
+
+/* apparatus row: legend, stepper, honesty */
+.apparatus { display: grid; grid-template-columns: 1fr auto 1fr; gap: 24px; align-items: start; padding: 10px var(--gut) 18px; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font: var(--annot-text); color: var(--ink-2); align-items: center; }
+.legend .k { display: inline-flex; align-items: center; gap: 7px; }
+.legend .k svg { width: 28px; height: 14px; display: block; }
+.legend .title { font: var(--eyebrow); color: var(--ink-3); text-transform: uppercase; letter-spacing: .06em; width: 100%; }
+.stepper { display: inline-flex; align-items: center; gap: 14px; justify-self: center; }
+.stepper button { width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--line-2); background: transparent; color: var(--ink); font: 400 18px/1 var(--serif); cursor: pointer; }
+.stepper button[disabled] { color: var(--ink-3); border-color: var(--line); }
+.stepper .n { font: var(--eyebrow); color: var(--ink-2); letter-spacing: .04em; }
+.honesty { font: 400 11px/1.45 var(--mono); color: var(--ink-2); justify-self: end; max-width: 520px; }
+.honesty b { font-weight: 500; color: var(--ink-3); text-transform: uppercase; letter-spacing: .06em; margin-right: 8px; }
+
+/* phones */
+@media (max-width: 720px) {
+  .page { height: auto; min-height: 100vh; }
+  .band { grid-template-columns: auto 1fr; grid-template-rows: auto auto; height: auto; padding-top: 10px; padding-bottom: 10px; row-gap: 4px; }
+  .band .title { grid-column: 1 / -1; white-space: normal; font-size: 17px; }
+  .band .clock { grid-column: 2; grid-row: 1; }
+  .surface { padding: 0; }
+  .globe-wrap { height: auto; }
+  svg.globe { aspect-ratio: 1 / 1; height: auto; }
+  svg.globe.phone .lbl-name { font-size: 17px; } svg.globe.phone .lbl-sub { font-size: 15px; }
+  .journey .tick span { display: none; }
+  .journey .end small { white-space: normal; max-width: 170px; }
+  .caption { position: static; max-width: none; margin: 0 16px 12px; }
+  .journey, .apparatus { padding-left: 16px; padding-right: 16px; }
+  .apparatus { grid-template-columns: 1fr; }
+  .honesty { justify-self: start; max-width: none; }
+  .journey .track { height: 118px; }
+  .journey .line { top: 70px; } .journey .travelled { top: 62px; } .journey .stop { top: 67px; } .journey .stoplbl { top: 80px; } .journey .now { top: 54px; } .journey .tick { top: 64px; }
+  .journey .stoplbl small { display: none; }
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="band">
+    <div class="identity" aria-label="F1.13 Networks, the lecture's identity: cobalt, the jar">
+      <span class="bar" aria-hidden="true"></span>
+      <!-- the jar motif: the unit's identity glyph, 24 px, sumi line in the unit colour (plan.md: "one jar's blue, followed through all four") -->
+      <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#4A6472" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8.5 3.5h7M9 3.5v2.2c0 .6-.4 1-1 1.3C5.6 8.2 4 10.4 4 13.2c0 3.6 2.6 6.3 5.5 7.3h5c2.9-1 5.5-3.7 5.5-7.3 0-2.8-1.6-5-4-6.2-.6-.3-1-.7-1-1.3V3.5"/>
+        <path d="M6.2 12.5c1.6-.9 3.6-.9 5.8 0s4.2.9 5.8 0" stroke-width="1"/>
+      </svg>
+      <span class="eyebrow">F1.13 · Networks · scene S2</span>
+    </div>
+    <h1 class="title">The galleons, <i>silver west, porcelain east</i></h1>
+    <div class="clock" aria-label="the clock, span mode">
+      <div class="readout">1565–1815</div>
+      <div class="spanbar" aria-hidden="true"><i></i></div>
+      <div class="mode">span · f13-e-urdaneta · f13-e-galleon-end</div>
+    </div>
+  </header>
+
+  <div class="note"><b>Content note</b>This scene names people enslaved and carried across the Pacific. You can skip to the next scene; the summary keeps the dates.</div>
+
+  <main class="surface">
+    <div class="globe-wrap">
+      <svg class="globe" id="globe" viewBox="0 0 1360 560" preserveAspectRatio="xMidYMid meet" role="img" aria-label="A Pacific-centred schematic globe: the Manila to Acapulco leg drawing, with the ship glyph riding it; Acapulco labelled as the stop being reached; Manila labelled; Puebla a pale dot not yet reached; the Potosí leg at a quarter over the eastern rim.">
+        <defs>
+          <!-- the ship glyph: own drawing, 24 px grid, two weights of sumi line, indigo wash; demanded by "Galleons carried porcelain, silk, ivory and spices to Acapulco" -->
+          <symbol id="g-ship" viewBox="0 0 24 24">
+            <path d="M3 15.5h18l-2.2 4.2H5.6z" fill="#233C6B" fill-opacity=".18" stroke="#1D1A15" stroke-width="1.4" stroke-linejoin="round"/>
+            <path d="M12 3.2v12.3" stroke="#1D1A15" stroke-width="1.1"/>
+            <path d="M12 4.5c3.6 1.2 5.2 3.6 5.4 7.2H12zM12 6.8c-2.8 1-4.3 3-4.5 5.6H12z" fill="#233C6B" fill-opacity=".18" stroke="#1D1A15" stroke-width="1"/>
+            <path d="M2.5 19.6c1.6-1 3.2-1 4.8 0s3.2 1 4.8 0 3.2-1 4.8 0 3.2 1 4.8 0" stroke="#233C6B" stroke-width=".9" fill="none"/>
+          </symbol>
+          <clipPath id="disc"><circle id="discc" cx="0" cy="0" r="0"/></clipPath>
+        </defs>
+        <g id="drawn"></g>
+      </svg>
+
+      <aside class="caption frost" aria-label="caption">
+        <p>Galleons carried porcelain, silk, ivory and spices to Acapulco, from 1565 to the last Manila galleon of 1815.</p>
+        <div class="meta">
+          <span><b>sources</b> F1.13-C15 · NET036</span>
+          <span><b>claim</b> f13-e-urdaneta · f13-e-galleon-end</span>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <section class="journey" aria-label="the journey bar">
+    <div class="track" id="track">
+      <div class="end left">Potosí<small>1565 · silver, "as much as a third", probable</small></div>
+      <div class="end right">Puebla<small>the basin, c. 1650 · the leg undated</small></div>
+      <div class="travelled" style="left:0;width:58%"></div>
+      <div class="line" style="left:0;width:78%"></div>
+      <div class="line dashed" style="left:78%;width:22%"></div>
+      <div class="stop" style="left:0"></div>
+      <div class="stop" style="left:33%"></div><div class="stoplbl" style="left:33%">Manila<small>1565 · Urdaneta's return route</small></div>
+      <div class="stop" style="left:78%"></div><div class="stoplbl" style="left:78%">Acapulco<small>1815 · the last Manila galleon</small></div>
+      <div class="stop hollow" style="left:100%"></div>
+      <div class="tick" style="left:0"></div>
+      <div class="tick l" style="left:42.8%"><span>1672 · counted as Indians</span></div>
+      <div class="tick r" style="left:34%"><span>c. 1650 · the basin</span></div>
+      <div class="tick" style="left:100%"></div>
+      <svg class="now" style="left:58%" aria-label="the now mark: the ship at the cursor"><use href="#g-ship" width="24" height="24"/></svg>
+    </div>
+  </section>
+
+  <footer class="apparatus">
+    <div class="legend" aria-label="the sized legend">
+      <span class="title">Key · sizes and lines used</span>
+      <span class="k"><svg viewBox="0 0 28 14"><circle cx="14" cy="7" r="3" fill="#1D1A15"/></svg>a dated stop, 6 px</span>
+      <span class="k"><svg viewBox="0 0 28 14"><circle cx="14" cy="7" r="3" fill="#F1EADB" stroke="#7A7162"/></svg>a mentioned place, pale, unlabelled</span>
+      <span class="k"><svg viewBox="0 0 28 14"><path d="M2 7h24" stroke="#233C6B" stroke-width="2"/></svg>leg dated, solid</span>
+      <span class="k"><svg viewBox="0 0 28 14"><path d="M2 7h24" stroke="#233C6B" stroke-width="2" stroke-dasharray="4 3"/></svg>leg undated, dashed</span>
+      <span class="k"><svg viewBox="0 0 28 14"><path d="M2 7h24" stroke="#233C6B" stroke-width="2" opacity=".25"/></svg>other routes, a quarter</span>
+      <span class="k"><svg viewBox="0 0 28 14"><use href="#g-ship" x="7" y="0" width="14" height="14"/></svg>journey · the ship rides the leg</span>
+    </div>
+    <div class="stepper" aria-label="step control">
+      <button type="button" aria-label="previous shot">‹</button>
+      <span class="n">4 of 7</span>
+      <button type="button" aria-label="next shot">›</button>
+    </div>
+    <div class="honesty"><b>Honesty</b>The Acapulco → Puebla leg is undated and drawn dashed. Potosí stands for "New Spain and Peru" silver. Both Pacific legs exceed the 70° window, so the globe turns with the glyph. "As much as a third" is one estimate, probable. The enslaved people on the same ships are a card beside the leg (shot 5), never a mark on it; no count is recorded. Graticule only: coastlines are not in the unit's data. The basin's image is the holder's photograph, placed at build.</div>
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  // The gazetteer: f1-13.json `places`, GeoNames via cities.json 1.1.65 (CC BY 4.0); Potosí stands for "New Spain and Peru" silver.
+  var P = {
+    manila:   { name: 'Manila',   lat: 14.6042,   lon: 120.9822 },
+    acapulco: { name: 'Acapulco', lat: 16.84942,  lon: -99.90891 },
+    potosi:   { name: 'Potosí',   lat: -19.58361, lon: -65.75306 },
+    puebla:   { name: 'Puebla',   lat: 19.04778,  lon: -98.20723 }
+  };
+  // The view centre: the great-circle midpoint of Manila → Acapulco (38.87° N, 170.31° W), computed from the gazetteer.
+  var C = { lat: 38.87, lon: -170.31 };
+  var W = 1360, H = 560, R = 262, cx = 700, cy = 282;
+  var d2r = Math.PI / 180;
+  var sl0 = Math.sin(C.lat * d2r), cl0 = Math.cos(C.lat * d2r);
+  function proj(lat, lon) {
+    var la = lat * d2r, dl = (lon - C.lon) * d2r;
+    var cosc = sl0 * Math.sin(la) + cl0 * Math.cos(la) * Math.cos(dl);
+    return { x: cx + R * Math.cos(la) * Math.sin(dl), y: cy - R * (cl0 * Math.sin(la) - sl0 * Math.cos(la) * Math.cos(dl)), front: cosc > 0.002 };
+  }
+  function vec(lat, lon) { var la = lat * d2r, lo = lon * d2r; return [Math.cos(la) * Math.cos(lo), Math.cos(la) * Math.sin(lo), Math.sin(la)]; }
+  function gc(a, b, t) { // slerp along the great circle, then back to lat/lon
+    var A = vec(a.lat, a.lon), B = vec(b.lat, b.lon);
+    var d = Math.acos(Math.max(-1, Math.min(1, A[0]*B[0] + A[1]*B[1] + A[2]*B[2])));
+    var k1 = Math.sin((1 - t) * d) / Math.sin(d), k2 = Math.sin(t * d) / Math.sin(d);
+    var x = k1*A[0] + k2*B[0], y = k1*A[1] + k2*B[1], z = k1*A[2] + k2*B[2];
+    return { lat: Math.asin(z) / d2r, lon: Math.atan2(y, x) / d2r };
+  }
+  var svgNS = 'http://www.w3.org/2000/svg';
+  var g = document.getElementById('drawn');
+  function el(n, attrs, parent) { var e = document.createElementNS(svgNS, n); for (var k in attrs) e.setAttribute(k, attrs[k]); (parent || g).appendChild(e); return e; }
+  function pathFrom(points) { // split into visible runs
+    var d = '', pen = false;
+    for (var i = 0; i < points.length; i++) { var p = points[i]; if (p.front) { d += (pen ? 'L' : 'M') + p.x.toFixed(1) + ' ' + p.y.toFixed(1); pen = true; } else pen = false; }
+    return d;
+  }
+  // the disc and the washes: paper sea, a faint grain; territories are not drawn (no coastline data in the unit)
+  el('circle', { cx: cx, cy: cy, r: R, fill: '#F1EADB', stroke: '#4A4234', 'stroke-width': 1 });
+  document.getElementById('discc').setAttribute('cx', cx); document.getElementById('discc').setAttribute('cy', cy); document.getElementById('discc').setAttribute('r', R);
+  var grat = el('g', { 'clip-path': 'url(#disc)', fill: 'none', stroke: '#C2B596', 'stroke-width': .7 });
+  for (var lon = -180; lon < 180; lon += 30) { var pts = []; for (var la = -90; la <= 90; la += 2) pts.push(proj(la, lon)); el('path', { d: pathFrom(pts) }, grat); }
+  for (var lat = -60; lat <= 60; lat += 30) { var pts2 = []; for (var lo = -180; lo <= 180; lo += 2) pts2.push(proj(lat, lo)); el('path', { d: pathFrom(pts2), 'stroke-width': lat === 0 ? 1.1 : .7, stroke: lat === 0 ? '#A69C86' : '#C2B596' }, grat); }
+  // a soft label for the water the globe is centred on, ink-3, no border
+  el('text', { x: cx - 40, y: cy + 150, 'text-anchor': 'middle', 'font-family': "'IBM Plex Mono', ui-monospace, Menlo, monospace", 'font-size': 11, fill: '#7A7162', 'letter-spacing': '.12em' }).textContent = 'THE PACIFIC';
+
+  function leg(a, b, attrs, t1) { var pts = []; var n = 96; for (var i = 0; i <= n; i++) { var t = i / n; if (t1 !== undefined && t > t1) break; var q = gc(a, b, t); pts.push(proj(q.lat, q.lon)); } return el('path', Object.assign({ d: pathFrom(pts), fill: 'none', 'stroke-linecap': 'round' }, attrs)); }
+  // other routes at a quarter: Potosí → Manila, dated, solid, already drawn in shot 3 (rises over the eastern rim only)
+  leg(P.potosi, P.manila, { stroke: '#233C6B', 'stroke-width': 2, opacity: .25 });
+  // the leg being drawn: Manila → Acapulco, dated 1565–1815, solid; the frame holds it at t = 0.55 of the 1.2 s draw
+  var T = 0.55;
+  leg(P.manila, P.acapulco, { stroke: '#233C6B', 'stroke-width': 2.2 }, T);
+  // the rest of the leg, not yet drawn: nothing (dim, don't hide applies to other routes, not to the unreached part of this one)
+  // the undated leg Acapulco → Puebla, dashed, unreached (shot 6): drawn at a quarter, dashed
+  leg(P.acapulco, P.puebla, { stroke: '#233C6B', 'stroke-width': 2, 'stroke-dasharray': '5 4', opacity: .25 });
+
+  // the ship riding the leg (its heading follows the line)
+  var q0 = gc(P.manila, P.acapulco, T - 0.01), q1 = gc(P.manila, P.acapulco, T);
+  var s0 = proj(q0.lat, q0.lon), s1 = proj(q1.lat, q1.lon);
+  var ang = Math.atan2(s1.y - s0.y, s1.x - s0.x) / d2r;
+  var ship = el('use', { href: '#g-ship', width: 28, height: 28, x: -14, y: -14, transform: 'translate(' + s1.x.toFixed(1) + ',' + s1.y.toFixed(1) + ') rotate(' + (ang > 90 || ang < -90 ? ang + 180 : ang).toFixed(1) + ')' });
+
+  // stops: Manila (reached, dated, solid), Acapulco (being reached: the primary), Puebla (mentioned, pale hollow, unlabelled)
+  var m = proj(P.manila.lat, P.manila.lon), a = proj(P.acapulco.lat, P.acapulco.lon), pu = proj(P.puebla.lat, P.puebla.lon);
+  el('circle', { cx: m.x, cy: m.y, r: 4, fill: '#1D1A15', stroke: '#F1EADB', 'stroke-width': 1 });
+  el('circle', { cx: a.x, cy: a.y, r: 4, fill: '#1D1A15', stroke: '#F1EADB', 'stroke-width': 1 });
+  el('circle', { cx: pu.x, cy: pu.y, r: 3.5, fill: '#F1EADB', stroke: '#7A7162', 'stroke-width': 1.2 });
+
+  // labels: one primary (Acapulco, the stop being reached) and one other (Manila); each a name over a mono second line, one-elbow leader, paper backing at 86 %
+  function label(p, name, sub, dx, dy, anchor) {
+    var lx = p.x + dx, ly = p.y + dy;
+    // leader: one 90° elbow from the mark to the label's baseline edge
+    var ex = (anchor === 'end') ? lx + 4 : lx - 4;
+    el('path', { d: 'M' + p.x + ' ' + p.y + 'V' + ly + 'H' + ex, fill: 'none', stroke: '#1D1A15', 'stroke-width': 1 });
+    var wName = name.length * 7.4 + 8, wSub = sub.length * 6.6 + 8, w = Math.max(wName, wSub);
+    var bx = anchor === 'end' ? lx - w : lx;
+    el('rect', { x: bx - 2, y: ly - 13, width: w + 4, height: 30, rx: 3, 'class': 'lbl-back' });
+    el('text', { x: lx, y: ly - 1, 'text-anchor': anchor, 'class': 'lbl-name' }).textContent = name;
+    el('text', { x: lx, y: ly + 12, 'text-anchor': anchor, 'class': 'lbl-sub' }).textContent = sub;
+  }
+  if (window.innerWidth < 720) { var svg = document.getElementById('globe'); svg.setAttribute('viewBox', (cx-R-24)+' '+(cy-R-24)+' '+(2*R+48)+' '+(2*R+48)); svg.classList.add('phone'); }
+  label(a, 'Acapulco', '1815 · the last Manila galleon', -30, 54, 'end');
+  label(m, 'Manila', '1565 · Urdaneta\'s return route', 34, -40, 'start');
+})();
+</script>
+</body>
+</html>

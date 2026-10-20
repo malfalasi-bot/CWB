@@ -106,6 +106,8 @@ A scene is data (`content/scenes.yaml`), built into the unit's content and copie
       labels: { primary: nagasaki, others: [amsterdam, cape, batavia], ink_as_drawn: true }
 ```
 
+Two fields the F1.13 run added: a scene-level `content_note` (the note once, before the first shot, for human-flow, funerary or sacred content) and `clock.claim` (the record the readout rests on; a contested or argued record may not be named here). A caption whose text carries two documented values lists both ids under `claim`.
+
 The schema enforces: one `camera` move per shot; one `primary` label; a `claim` on every caption that carries a date or a number; `honesty` present; `reduced` on every shot; `ends_on` an object; a journey has at least one `follow` shot; a run has at most nine ticks; an incident has a `before` shot held before anything moves.
 
 ### The camera: the globe turns to follow
@@ -144,6 +146,8 @@ Six kinds, differing in shape, colour and motion together, never in colour alone
 | Object holder | a small frame | ink, pale | none | the museum, on tap | the object |
 | Person | the chip | ink | none | the name | the character sheet |
 | Mentioned place | a pale hollow dot | ink-3 | none | none unless tapped | the place card |
+
+A seventh kind, proposed by the F1.13 run for unnamed groups of people moved by force (the Korean potters, the people the galleons carried): the **people card**, a paper card beside the leg naming the group, the count as a range and who counted, with no mark on the leg itself; it is drawn only with a content note, never as a glyph or a chip.
 
 A lecture does not highlight every place it mentions; mentioned places stay pale and unlabelled. A place becomes a journey stop only when a leg reaches it, an incident only when a tick fires. Washes and lenses recolour the ground, never the marks.
 

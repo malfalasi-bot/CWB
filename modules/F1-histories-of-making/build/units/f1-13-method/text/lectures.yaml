@@ -1,0 +1,379 @@
+# F1.13 Networks: objects, materials, skills and people — the lecture as data
+# (beats.md §1; component 32, the station player). Step 6 of the method, run on
+# 20 October 2026 from build/lectures/src/lectures/f1-13.json (nine stations),
+# research_notes/F1.13 method run/{research,benchmark,inventory,plan}.
+#
+# One lecture (L1) of nine stations, not eight lectures: the unit's identity is
+# one colour and one motif (plan.md: cobalt-grey #4A6472, provisional; the jar).
+# Every date, number and accession below is the lecture's own or the
+# inventory's; nothing was added. Claim ids: register ids F1.13-Cnn (the
+# lecture's bracketed numbers, [2] → F1.13-C02); the dated ticks the lecture
+# draws are inventory events, cited in beats.yaml as f13-<event id>.
+# Instrument states are read from each station's commands (map.focus,
+# map.route, map.place, object, timeline.span, timeline.mark, type, chain,
+# hull). `sources` is the union of the station's claim list and the claims its
+# captions cite. `captions` keeps the station's own caption commands, in order,
+# as the "before" count for the derivation (86 in all).
+
+unit: F1.13
+lecture:
+  id: L1
+  title: "Networks: objects, materials, skills and people"
+  subtitle: "One jar's blue, followed through all four"
+  identity: { colour: "#4A6472", motif: jar, status: provisional }   # plan.md, identities.md
+  stations_count: 9
+  # The one thesis sentence the nine ideas add up to, in the lecture's own words
+  # (station 1: "a network is four flows at once ... they share routes, but not
+  # terms"; station 9: "one jar, four flows, and terms that were never shared").
+  thesis: >-
+    One jar's blue, followed through all four flows, shows that a network is
+    objects, materials, skills and people at once: they share routes, but not
+    terms.
+  # The guesses the lecture poses, station by station (the `predict` commands).
+  # The answer is drawn on the instrument after the guess; it is never a beat.
+  prediction:
+    - id: L1.predict-1
+      station: 1
+      question: "Where did the blue come from?"
+      options: ["Jingdezhen's own hills", "Iran", "Europe"]
+      answer: "Iran"                         # drawn: the material leg Kashan → Jingdezhen; Kashan lit
+      claim: F1.13-C02
+      reveal_in_lecture: "Cleveland's record says the cobalt was imported from Iran, likely from Kashan."
+    - id: L1.predict-4
+      station: 4
+      question: "The earliest documented paper mill in the Islamic world: which band?"
+      options: ["1–500", "500–1000", "1000–1400"]
+      answer: "500–1000"                     # drawn: the mark at 794 on the timeline, Baghdad on the map
+      claim: F1.13-C10
+      reveal_in_lecture: "Baghdad, 794 to 795: the earliest documented paper mill in the Islamic world."
+    - id: L1.predict-6
+      station: 6
+      question: "How much of the silver mined in New Spain and Peru went to Asia?"
+      options: ["A tenth", "A third", "Nine tenths"]
+      answer: "A third"                      # drawn: the silver leg Potosí → Manila with its label
+      claim: F1.13-C15
+      confidence: probable
+      reveal_in_lecture: "As much as one-third, by one estimate; we call that probable."
+    - id: L1.predict-7
+      station: 7
+      question: "When was it made?"          # the Kraak dish on the stage
+      options: ["1000–1400", "1400–1700", "1700–1900"]
+      answer: "1400–1700"                    # drawn: the fuzzy bar 1600–1625 on the objects lane
+      claim: F1.13-C18
+      reveal_in_lecture: "The Rijksmuseum dates it about 1600 to 1625: China, porcelain in underglaze blue, Kraak ware; potter not named."
+  # The argued pairs (component 24, the argument card): two readings, both
+  # sourced, neither coloured, never marked right; none drives a tick.
+  argued:
+    - id: a-cobalt-mine
+      claim: F1.13-C04
+      station: 2
+      confidence: contested
+      question: "Which mine gave the blue?"
+      reading_1: "Qamsar, near Kashan: Abu'l-Qasim's treatise of 1301 places lâjvard there; the most cited source."
+      reading_2: "Deposits near Anarak, 200 kilometres east of Kashan: Jiang and colleagues propose it in their discussion, not their abstract."
+      lecture_says: "We do not choose between them."
+    - id: a-demand-routes
+      claim: F1.13-C14
+      station: 5
+      confidence: interpretive
+      question: "Did demand make the routes, or routes the goods?"
+      reading_1: "Demand for silk, porcelain and gold built these routes and kept them."
+      reading_2: "Routes already there, monsoon sailing, caravans and ports, made such goods possible and shaped them."
+      lecture_says: "We hold both."
+    - id: a-arita
+      claim: F1.13-C19
+      station: 7
+      confidence: contested
+      question: "Did Korean potters find Arita's porcelain clay?"
+      reading_1: "The Met: Korean potters brought the skill and found the clay at Arita early in the 1600s; a Korean state foundation names Yi Sam-pyeong."
+      reading_2: "The Arita find is a later story; the skill and the clay have separate dates (inventory a-arita)."
+      lecture_says: "The Met's essay says they \"came\"; Korean state-funded sources say they were dragged from Joseon, so our verb is \"taken\"."
+
+  stations:
+    - n: 1
+      id: L1.1
+      title: "Where did the blue come from?"
+      idea: "A network is four flows at once, and this jar's blue came from Iran."
+      claim: >-
+        Potters at Jingdezhen made the jar in the 1300s, and Cleveland's record
+        says its cobalt was imported from Iran: the dashed leg from Kashan to
+        Jingdezhen marks a material, not an object.
+      instrument:
+        map: { focus: "Asia, lon 88 lat 30, zoom 2.2", places: [jingdezhen, kashan], route: "r01 Kashan → Jingdezhen, flow material, dashed; drawn after the guess", light: kashan }
+        stage: { object: cma-1962-154 }
+        timeline: { cursor: 1350, spans: ["the jar, 1300s (1300–1400), lane 0, object", "Xuande wares tested, 1426–1435, lane 1, material"] }
+        stamp: ["1300s", "1300s · cobalt from Iran"]
+        legend: [object, material, skill, people]
+        tool: "predict L1.predict-1"
+      objects:
+        - "Cleveland Museum of Art · 1962.154"   # Jar with blue underglaze decoration, Jingdezhen, Yuan, 1300s, CC0
+      sources: [F1.13-C01, F1.13-C02, F1.13-C03]
+      prediction: L1.predict-1
+      captions:
+        - "A jar, painted in blue under its glaze."
+        - "Potters at Jingdezhen made it in the 1300s; Cleveland holds it as 1962.154."
+        - "The record does not give the potters' names."
+        - "A network is four flows at once: objects, materials, skills and people. They share routes, but not terms."
+        - "Jiang and colleagues tested imperial wares of the Xuande reign, 1426 to 1435: early blue-and-white relied heavily on imported cobalt from the West."
+        - "We write \"from Iran\". The potters and the clay were at Jingdezhen; the blue came from Iran."
+        - "Look for the dashed line: it marks a material, not an object."
+
+    - n: 2
+      id: L1.2
+      title: "Blue before China"
+      idea: "Blue under a glaze was in Kashan's workshops a century before the jar; which mine is argued."
+      claim: >-
+        Cleveland dates the footed bowl with a blue rim late 1100s–early 1200s:
+        blue under a glaze was in Kashan's workshops a century before the jar.
+      instrument:
+        map: { focus: "Iran, lon 52.5 lat 33.4, zoom 5.5", places: [kashan], argued_marks: ["Qamsar · argued", "Anarak · argued"] }
+        stage: { object: cma-1915-581 }
+        timeline: { cursor: 1200, spans: ["Kashan bowl, late 1100s–early 1200s (1175–1225, fuzzy), lane 0, object"], marks: ["Abu'l-Qasim's treatise, 1301, lane 1"] }
+        stamp: "late 1100s–1301"
+        legend: [material, argued]
+        tool: "argument card a-cobalt-mine"
+      objects:
+        - "Cleveland Museum of Art · 1915.581"   # Footed bowl with a blue rim, Iran, probably Kashan, late 1100s–early 1200s, CC0
+      sources: [F1.13-C04, F1.13-C05, F1.13-C02]
+      argued: a-cobalt-mine
+      captions:
+        - "A footed bowl from Iran, with a blue rim."
+        - "Cleveland dates it late 1100s to early 1200s and places it probably at Kashan."
+        - "Fritware, pierced, painted under the glaze. Kelekian sold it to the museum in 1915."
+        - "So blue under a glaze was in Kashan's workshops a century before the jar."
+        - "Which mine gave the cobalt is argued."
+        - "One reading: Qamsar, near Kashan, the most cited source. Abu'l-Qasim's treatise of 1301 places lâjvard, the blue, there."
+        - "The other reading: deposits near Anarak, 200 kilometres east of Kashan. Jiang and colleagues propose it in their discussion, not their abstract."
+        - "We do not choose between them."
+        - "Look for the two fuzzy marks: an argued claim gets two readings, not one dot."
+
+    - n: 3
+      id: L1.3
+      title: "By sea"
+      idea: "Monsoon routes carried crockery, earthenware and porcelain to Kilwa, and a text of the mid-1st century lists enslaved people among exports."
+      content_note: "This station names enslaved people listed in a text of the mid-1st century. You can skip to station four; the summary keeps the dates."
+      claim: >-
+        Kilwa's merchants, on the Swahili coast, dealt from the 13th to the
+        16th centuries in Arabian crockery, Persian earthenware and Chinese
+        porcelain: three object legs into Kilwa.
+      instrument:
+        map: { focus: "Indian Ocean, lon 72 lat 8, zoom 2.0", places: [kilwa, arabia, iran_coast, china_coast, belitung], routes: ["r04 Arabia → Kilwa, crockery", "r05 Iran → Kilwa, earthenware", "r06 China → Kilwa, porcelain", "r07 China → off Belitung, wreck, linked"], people_mark: "the Periplus's coasts · enslaved people listed among exports · mid-1st c. CE · count not recorded" }
+        stage: { object: none, excluded: "the Belitung cargo, level 5: named, no image, no drawing" }
+        timeline: { cursor: 1300, spans: ["Kilwa's merchants, 13th–16th c. (1200–1600), lane 0", "Kilwa coins, 11th–14th c. (1000–1400), lane 1", "Belitung wreck, 830s or late 800s (826–900, fuzzy), lane 2"], marks: ["the Periplus, mid-1st c. CE (50), lane 0"] }
+        stamp: "1st century CE · 11th–16th centuries"
+        legend: [object, people, region]
+      objects: []
+      sources: [F1.13-C06, F1.13-C07, F1.13-C08]
+      captions:
+        - "Kilwa's merchants, on the Swahili coast, dealt from the 13th to the 16th centuries in gold, silver, pearls and perfumes, UNESCO's listing says."
+        - "They dealt also in Arabian crockery, Persian earthenware and Chinese porcelain."
+        - "Kilwa minted coins in the 11th to 14th centuries."
+        - "Its Great Mosque has domes and vaults, some set with Chinese porcelain. The listing does not name Kilwa's builders."
+        - "Far to the east, a ship sank off Belitung in the 9th century: about the 830s by one account, late 800s by another."
+        - "It held 60,000 ceramics, and it was salvaged commercially from 1998. We link to that record and show no image of it."
+        - "The Periplus, a text of the mid-1st century CE, lists enslaved people among exports."
+        - "We write them as people, in words; the translation's own terms stay in the Deep tier."
+        - "Look for the people mark: it never shares an arrow with crockery."
+
+    - n: 4
+      id: L1.4
+      title: "By land"
+      idea: "A skill travels as a dated line; people moved by order are a mark of their own."
+      content_note: "This station names people moved by order. You can skip to station five; the summary keeps the dates."
+      claim: >-
+        The earliest documented paper mill in the Islamic world is Baghdad's,
+        in 794 to 795: a skill is a dated line on the timeline.
+      instrument:
+        map: { focus: "Central Asia, lon 78 lat 38, zoom 2.4", places: [changan, tianshan, baghdad, samarkand_region, talas], routes: ["r09 Chang'an → Tianshan, the corridor · 5,000 km · 33 sites", "r10 Central Asia → Baghdad, skill, papermaking · by the late 8th c."], people: "r11 Central Asia → Chang'an, three weaving communities moved by Mongol order · names not recorded; people mark at Kashan (Persia)", argued_marks: ["Talas · argued"] }
+        stage: { object: none }
+        timeline: { cursor: 800, spans: ["the corridor: formed 2nd c. BCE–1st c. CE, used to the 16th c. (−200–1600, fuzzy), lane 0, route"], marks: ["Baghdad paper mill, 794–95, lane 1", "Talas, 751, argued, lane 2"] }
+        stamp: "2nd c. BCE–16th c."
+        legend: [route, skill, people, argued, region]
+        tool: "predict L1.predict-4"
+      objects: []
+      sources: [F1.13-C09, F1.13-C10, F1.13-C11]
+      prediction: L1.predict-4
+      captions:
+        - "A corridor from Chang'an into the Tianshan: UNESCO lists it as a 5,000-kilometre section with 33 sites."
+        - "It formed between the 2nd century BCE and the 1st century CE, and was used until the 16th century."
+        - "A skill travels differently from a jar."
+        - "Paper was known, and made, in Central Asia for centuries before 751, Bloom writes."
+        - "The earliest documented paper mill in the Islamic world is Baghdad's, in 794 to 795."
+        - "The Talas story, that the battle of 751 carried paper west, is argued: Bloom calls it without factual basis, and F1.27 gives both readings."
+        - "People travelled too, and not by choice."
+        - "Three separate weaving communities were moved from Central Asia and Persia to China, to make cloth of gold for the Mongols."
+        - "The summary names no weaver."
+        - "Look for the timeline: the skill is a dated line; the people are a mark of their own."
+
+    - n: 5
+      id: L1.5
+      title: "Across the sand"
+      idea: "Gold crossed the Sahara, and the argued question is whether demand made the routes or routes made the goods."
+      content_note: "This station names enslaved people carried across the Sahara. You can skip to station six; the summary keeps the dates."
+      claim: >-
+        Mansa Musa's gold, spent in Cairo in 1324 to 1325, caused the market in
+        gold to crash: the dated gold leg from the Sahel to Cairo.
+      instrument:
+        map: { focus: "Sahara, lon 14 lat 27, zoom 2.5", places: [sahel, cairo, majorca], route: "r12 Mali, the Sahel → Cairo, material, gold · 1324–25", people_mark: "the Sahel · enslaved people, carried with gold and kola · count not recorded", light: cairo }
+        stage: { object: none, link_out: "Bibliothèque nationale de France · Espagnol 30, the Catalan Atlas, 1375 (level 4)" }
+        timeline: { cursor: 1324, marks: ["Mansa Musa in Cairo, 1324–25, lane 0", "Catalan Atlas, 1375, lane 1"] }
+        stamp: "1324–1375"
+        legend: [material, object, people, region]
+        tool: "type: the argued question, two readings (argument card a-demand-routes)"
+      objects: []            # the lecture lists none; the Catalan Atlas is link-out only
+      sources: [F1.13-C12, F1.13-C13, F1.13-C14]
+      argued: a-demand-routes
+      captions:
+        - "Gold was the main commodity of the trans-Saharan trade, the Met's essay says, followed by kola nuts and enslaved people."
+        - "The essay's own noun for those people is different; ours is \"enslaved people\"."
+        - "Mansa Musa's gold, spent in Cairo in 1324 to 1325, caused the market in gold to crash."
+        - "The Catalan Atlas is attributed to Cresques Abraham, Majorca, 1375; the BnF holds it as Espagnol 30."
+        - "It names Musse Melly, lord of Guinea, \"the richest and most distinguished ruler of this whole region\", for his gold."
+        - "That caption is a European mapmaker's framing, quoted as his."
+        - "The argued question. One reading: demand for silk, porcelain and gold built these routes and kept them."
+        - "The other: routes already there, monsoon sailing, caravans and ports, made such goods possible and shaped them. We hold both."
+        - "Look for the caravan line and the dated gold: hold both readings of how they relate."
+
+    - n: 6
+      id: L1.6
+      title: "Across the Pacific"
+      idea: "Silver went west and porcelain east on the same ships, and so did people, on terms the goods never had."
+      content_note: "This station names people enslaved and carried across the Pacific. You can skip to station seven; the summary keeps the dates."
+      claim: >-
+        The galleons of 1565–1815 carried silver west from Potosí to Manila and
+        porcelain east to Acapulco, and a basin made at Puebla about 1650 is
+        the object the trade reached.
+      # Two instrument states, so two ticks and two beats (beats.md §5.2):
+      instrument:
+        states:
+          - name: the route
+            map: { focus: "Pacific, lon 205 lat 2, zoom 1.85", places: [potosi, manila, acapulco, puebla], routes: ["r15 Potosí → Manila, material, silver · as much as a third · probable", "r16 Manila → Acapulco, object, porcelain, silk, ivory, spices", "r18 Acapulco → Puebla, object, undated"], people: "r17 Manila → Acapulco, enslaved people from many communities · grouped as chinos · from 1672 counted as Indians (a mark beside the silver arc, never on it)" }
+            timeline: { cursor: 1650, spans: ["the galleons, 1565–1815, lane 1, material"], marks: ["1672: counted as Indians, lane 2"] }
+            tool: "chain Potosí silver → Manila → Acapulco → Puebla basin; predict L1.predict-6"
+          - name: the basin
+            stage: { object: met-12-3-1 }
+            timeline: { spans: ["the basin, ca. 1650 (1645–1655), lane 0, object"] }
+        stamp: "1565–1815"
+        legend: [material, object, people]
+      objects:
+        - "The Metropolitan Museum of Art · 12.3.1"   # Basin, Puebla, ca. 1650, tin-glazed earthenware, public domain (Met object id 674)
+      sources: [F1.13-C15, F1.13-C16, F1.13-C17]
+      prediction: L1.predict-6
+      captions:
+        - "A basin from Puebla, tin-glazed earthenware, about 1650. The Met credits it to \"Master Potter A\", a scholars' name for a hand the record does not name."
+        - "Galleons carried porcelain, silk, ivory and spices to Acapulco."
+        - "Mexican ceramics display the impact of the galleon trade most vividly, Hecht writes."
+        - "On the same ships, people."
+        - "Enslaved people from many communities in the Indian subcontinent and Southeast Asia were carried to Mexico."
+        - "Spanish records grouped them as chinos, a colonial label for people from many places."
+        - "From 1672 the law counted them as Indians, who could not lawfully be enslaved, Seijas writes."
+        - "Look for the people mark beside the silver arc, never on it."
+
+    - n: 7
+      id: L1.7
+      title: "The blue goes north"
+      idea: "The blue leaves China as export ware, and a skill reaches Arita with the people who were taken."
+      content_note: "This station names potters taken by force. You can skip to station eight; the summary keeps the dates."
+      claim: >-
+        The Rijksmuseum dates the Kraak dish about 1600–1625: the blue that
+        came from Iran now leaves China as export ware.
+      instrument:
+        map: { focus: "Asia to Europe, lon 68 lat 40, zoom 1.95", places: [china, amsterdam, korea, arita], routes: ["r19 China → Amsterdam, object, the dish · route not recorded", "r21 Korea → Arita, skill, porcelain clay found at Arita, early 1600s"], people: "r20 Joseon → Arita, Korean potters, taken · Yi Sam-pyeong named" }
+        stage: { object: rijks-ak-rbk-16385 }
+        timeline: { cursor: 1610, spans: ["Kraak dish, c. 1600–1625, fuzzy, lane 0, object"], marks: ["1590s: invasions (1595), lane 1", "Arita, early 1600s (1616), lane 2"] }
+        stamp: "1590s–1625"
+        legend: [object, skill, people, region]
+        tool: "predict L1.predict-7; argument card a-arita"
+      objects:
+        - "Rijksmuseum · AK-RBK-16385"   # Dish with two birds in a water landscape, China, c. 1600–1625, Kraak porcelain, CC0 1.0
+      sources: [F1.13-C18, F1.13-C19, F1.13-C02]
+      prediction: L1.predict-7
+      argued: a-arita
+      captions:
+        - "A dish with two birds in a water landscape."
+        - "The blue that came from Iran now leaves China as export ware. How this dish reached Amsterdam is not recorded in the claim."
+        - "A second route carried a skill, and the people who held it."
+        - "In Hideyoshi's invasions of the 1590s, many Korean potters were taken to Japan."
+        - "The Met's essay says they \"came\"; Korean state-funded sources say they were dragged from Joseon, so our verb is \"taken\"."
+        - "Korean potters found porcelain clay at Arita early in the 1600s."
+        - "A Korean state foundation names one of them, Yi Sam-pyeong."
+        - "The Dutch then filled the gap left by China, the Met writes."
+        - "Look for the people mark from Korea to Arita: it carries a name where the record gives one."
+
+    - n: 8
+      id: L1.8
+      title: "The Atlantic"
+      idea: "The count is given in words, the goods as type, and one man by his name and his own text."
+      content_note: "This station is about the Atlantic slave trade. Traders forced about 12.5 million African people onto ships, 1501 to 1866, and many died at sea. We show no images of bodies or ships. You can skip this station; the summary keeps the count."
+      claim: >-
+        SlaveVoyages estimates that 12,520,000 people departed Africa, 1501 to
+        1866, and that about 10.7 million disembarked: a count in words on a
+        card, never a line on the map.
+      instrument:
+        map: { focus: "Atlantic, lon −42 lat 24, zoom 1.7, dimmed to 0.5", places: ["futa_toro · Omar ibn Said, born about 1770 (person)", "charleston · South Carolina · captured 1807 (person)", "fayetteville · North Carolina · wrote his life in Arabic, 1831 (person)"], routes: "none: dots with his name, and no arrow" }
+        stage: { object: loc-2018371864, protocol: "level 2, AR-081: his name and his Arabic text lead; the English title page not shown; a Qur'anic leaf shown whole" }
+        timeline: { cursor: 1800, spans: ["SlaveVoyages' estimate, 1501–1866, lane 0, people (a bar; the count a card)"], marks: ["born about 1770, lane 1", "captured, 1807, lane 2", "wrote his life, 1831, lane 1", "died 1863 or 1864, argued, lane 2"] }
+        stamp: "1501–1866"
+        legend: []
+        tool: "type: the count in words; type: the goods, as type"
+      objects:
+        - "Library of Congress · 2018371864"   # Omar ibn Said, autobiography in Arabic, 1831, public domain
+      sources: [F1.13-C20, F1.13-C21, F1.13-C22]
+      captions:
+        - "SlaveVoyages estimates that 12,520,000 people departed Africa, and that about 10.7 million disembarked, mainly in the Americas."
+        - "We draw no diagram: people are a count in words, never a line on a map."
+        - "The goods are drawn, as type."
+        - "European traders bought captive African people with goods: Indian cotton cloth, then Manchester copies, and brass manillas."
+        - "Guns, gunpowder and alcohol appear in summaries only; we call that part probable."
+        - "One person the record names."
+        - "Omar ibn Said was born in Futa Toro, about 1770."
+        - "He was captured in 1807 and brought to South Carolina."
+        - "In 1831, while enslaved in North Carolina, he wrote his life in Arabic."
+        - "\"I continued seeking knowledge for 25 years,\" he wrote."
+        - "James Owen of Bladen County was his enslaver."
+        - "He died, still enslaved, in 1863 or 1864; the sources differ, and we give both years."
+        - "Look for his two places, Futa Toro and the Carolinas: dots with his name, and no arrow."
+
+    - n: 9
+      id: L1.9
+      title: "A lenj on the slipway"
+      idea: "A skill is a living practice, dated to its source, and the four flows close on one jar."
+      claim: >-
+        The skills of building and sailing a lenj went on UNESCO's Urgent
+        Safeguarding List in 2011: a living practice, dated to its source.
+      instrument:
+        map: { focus: "the Gulf, lon 53.5 lat 26.6, zoom 5.5", places: ["guran · Guran, Qeshm · lenj yard", "muharraq · Muharraq, Bahrain · pearling"] }
+        stage: { object: none, drawing: "hull: a wooden hull on a slipway (the unit's own schematic, not a photograph)", protocol: "level 3: the Guran shipwrights' report linked; their words and names stay theirs until their cooperative has been asked" }
+        timeline: { cursor: 2015, spans: ["pearling, 2nd–early 20th c. (100–1930, fuzzy start), lane 2"], marks: ["lenj skills listed, 2011, lane 0", "Guran shipwrights' report, 2017 (linked), lane 1"] }
+        stamp: "2011–2017 · living practice"
+        legend: [skill, region]
+        tool: "chain fathers → shipwrights at Guran (learned); closing chain: the jar at the centre, Material · Object · Skill · People around it"
+      objects: []
+      sources: [F1.13-C23, F1.13-C24, F1.13-C25, F1.13-C01]
+      captions:
+        - "A wooden hull on a slipway at Guran, on Qeshm island, in the Gulf."
+        - "The skills of building and sailing a lenj went on UNESCO's Urgent Safeguarding List in 2011."
+        - "Sailors used the sun, moon and stars, and each wind was given a name."
+        - "Practitioners are mostly older people, and fibreglass replaces wood."
+        - "In 2017, shipwrights at Guran told a photographer how they learned the trade from their fathers, and how orders dried up."
+        - "We link to that report; their words and names stay theirs until their cooperative has been asked."
+        - "Across the water, Bahrain's pearling site: UNESCO says pearling dominated between the 2nd and early 20th centuries, until its demise in the 1930s."
+        - "The page does not say who dived, or on what terms; that is for F1.31's local author to write."
+        - "Four flows, then. The jar's blue was a material, the dish an object, paper and the lenj skills."
+        - "The weavers, the potters, the chinos and Omar ibn Said are people."
+        - "One jar, four flows, and terms that were never shared."
+        - "Which flow does your own work's material travel on, and on what terms?"
+
+# Objects the stations put on the stage (world set; fact-checked 3 October
+# 2026; no image in the repo, so each is a frame with the credit line and
+# "the holder's photograph, placed at build").
+objects:
+  cma-1962-154:      { title: "Jar with blue underglaze decoration", holder: "Cleveland Museum of Art", accession: "1962.154", date: "Jingdezhen, Yuan, 1300s", licence: "CC0", station: 1 }
+  cma-1915-581:      { title: "Footed bowl with a blue rim", holder: "Cleveland Museum of Art", accession: "1915.581", date: "Iran, probably Kashan, late 1100s–early 1200s", licence: "CC0", station: 2 }
+  met-12-3-1:        { title: "Basin", holder: "The Metropolitan Museum of Art", accession: "12.3.1", date: "Puebla, ca. 1650", licence: "Public domain", station: 6 }
+  rijks-ak-rbk-16385: { title: "Dish with two birds in a water landscape", holder: "Rijksmuseum", accession: "AK-RBK-16385", date: "China, c. 1600–1625", licence: "CC0 1.0", station: 7 }
+  loc-2018371864:    { title: "Omar ibn Said, autobiography in Arabic", holder: "Library of Congress", accession: "2018371864", date: "1831", licence: "Public domain", station: 8, protocol: 2 }
+
+# The lane chart's ticks are these stations (component 30; beats.md §1). The
+# three focuses the plan names: the blue 1175–1435 (stations 1–2), the galleons
+# 1565–1815 (station 6), the Atlantic 1501–1866 (station 8).

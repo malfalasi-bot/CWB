@@ -1,0 +1,636 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The lane chart · F1.13 Networks</title>
+<meta name="description" content="F1.13 Networks: the unit's lane chart with focus (component 30), five lanes over the full span, the focus open on the blue, 1175–1435, with its span-list twin.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Histories of making: the tokens. Copy as-is; do not restyle. Light is paper; dark exists for the lecture room only. */
+:root {
+  /* ground and ink */
+  --paper: #F1EADB; --paper-2: #FAF6EC; --paper-3: #E9E0CC; --ink: #1D1A15; --ink-2: #554E42; --ink-3: #7A7162;
+  --line: #D6CBB4; --line-2: #C2B596; --land: #E4D8BE; --land-2: #DACCAD; --coast: #4A4234; --sea: #F1EADB;
+  /* the two accents */
+  --indigo: #233C6B; --indigo-2: #3A5A96; --indigo-soft: rgba(35,60,107,.10); --indigo-line: rgba(35,60,107,.55);
+  --seal: #B3301E; --seal-soft: rgba(179,48,30,.10);
+  /* seasons: the Hundred Views and the Tōkaidō only */
+  --spring: #B85C76; --summer: #3E7D5A; --autumn: #B8662A; --winter: #4F6E99;
+  /* kraft: the labs' workbench */
+  --kraft: #DCC8A3; --kraft-2: #EADCC0; --kraft-line: #B49C72;
+  /* lecture identity (Edo); other units define their own eight */
+  --lecture-1: #5C6B7A; --lecture-2: #8A5A3C; --lecture-3: #B85C76; --lecture-4: #4F7A5A;
+  --lecture-5: #233C6B; --lecture-6: #B3301E; --lecture-7: #7A7A86; --lecture-8: #B08A3E;
+  /* apparatus */
+  --leader: 1px; --leader-dot: 6px; --frost: color-mix(in srgb, var(--paper) 86%, transparent); --frost-blur: 6px;
+  --ghost: color-mix(in srgb, var(--ink) 40%, transparent);
+  --shadow: 0 1px 0 rgba(60,45,20,.06), 0 6px 22px -10px rgba(60,45,20,.28);
+  --lift: drop-shadow(0 1px 0 rgba(60,45,20,.10)) drop-shadow(0 18px 30px rgba(60,45,20,.16));
+  --tex: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cfilter id='n' x='0' y='0'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .3 0 0 0 0 .25 0 0 0 0 .18 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='260' height='260' filter='url%28%23n%29'/%3E%3C/svg%3E");
+  /* type */
+  --serif: 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
+  --display: 'Shippori Mincho', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  --ui: 'IBM Plex Sans', system-ui, sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, Menlo, monospace;
+  --body: 17px; --body-lh: 1.55; --measure: 68ch;
+  --deck: italic 400 19px/1.4 var(--serif);
+  --annot-name: 600 12px/1.3 var(--ui); --annot-text: 400 12px/1.4 var(--ui);
+  --eyebrow: 500 11px/1.3 var(--mono); --readout: 500 17px/1 var(--serif);
+  --pull: 500 26px/1.25 var(--serif);
+  /* motion */
+  --d-instant: 70ms; --d-micro: 110ms; --d-short: 200ms; --d-medium: 400ms; --d-long: 600ms; --d-scene: 900ms;
+  --e-standard: cubic-bezier(0.2, 0, 0, 1); --e-enter: cubic-bezier(0.05, 0.7, 0.1, 1); --e-exit: cubic-bezier(0.3, 0, 0.8, 0.15);
+  --e-productive: cubic-bezier(0.2, 0, 0.38, 0.9); --e-expressive: cubic-bezier(0.4, 0.14, 0.3, 1);
+  --card-rise: 240ms var(--e-enter);
+  /* layout */
+  --bar: 56px; --col: clamp(360px, 34vw, 540px); --gut: max(20px, 4vw); --r: 12px;
+}
+/* the lecture room: the only dark surface */
+:root[data-theme="dark"], .room-dark {
+  --paper: #16140F; --paper-2: #1F1C16; --paper-3: #29251D; --ink: #EFE8D8; --ink-2: #BDB39F; --ink-3: #978E7A;
+  --line: #3A352B; --line-2: #4C4637; --land: #2A2620; --land-2: #332E25; --coast: #A69C86; --sea: #16140F;
+  --indigo: #9CB4E6; --indigo-2: #B9CBF0; --indigo-soft: rgba(156,180,230,.13); --indigo-line: rgba(156,180,230,.6);
+  --seal: #E2583F; --seal-soft: rgba(226,88,63,.16);
+  --kraft: #3A3022; --kraft-2: #46392A; --kraft-line: #6E5C40;
+  --shadow: 0 1px 0 rgba(0,0,0,.3), 0 8px 26px -12px rgba(0,0,0,.7);
+  --lift: drop-shadow(0 1px 0 rgba(0,0,0,.4)) drop-shadow(0 18px 30px rgba(0,0,0,.45)); color-scheme: dark;
+}
+@media (prefers-reduced-motion: reduce) { :root { --d-short: 0ms; --d-medium: 0ms; --d-long: 0ms; --d-scene: 0ms; --card-rise: 0ms; } }
+
+/* ---- the unit's provisional identity (plan.md): cobalt-grey, on the lecture's station ticks and the band's 4 px bar only ---- */
+:root { --f13: #4A6472; }
+
+/* ---- page ---- */
+* { box-sizing: border-box; }
+html { background: var(--paper); }
+body { margin: 0; background: var(--paper) var(--tex); color: var(--ink); font: 400 var(--body)/var(--body-lh) var(--serif); -webkit-font-smoothing: antialiased; }
+a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--line-2); }
+a:hover, a:focus-visible { border-bottom-color: var(--ink); }
+.mono { font: var(--eyebrow); color: var(--ink-3); letter-spacing: .02em; }
+.wrap { padding: 0 var(--gut); max-width: 1400px; margin: 0 auto; }
+h1, h2, h3 { font-weight: 500; margin: 0; }
+p { margin: 0; max-width: var(--measure); }
+.measure { max-width: var(--measure); }
+
+/* band */
+.band { position: sticky; top: 0; z-index: 10; background: var(--frost); backdrop-filter: blur(var(--frost-blur)); border-bottom: 1px solid var(--line); }
+.band .wrap { min-height: var(--bar); display: flex; align-items: center; gap: 16px; }
+.band .idbar { width: 4px; height: 28px; background: var(--f13); flex: 0 0 4px; border-radius: 1px; }
+.band .crumb { flex: 1 1 auto; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.band .clock { font: var(--readout); font-variant-numeric: tabular-nums; display: flex; align-items: baseline; gap: 10px; white-space: nowrap; }
+.band .clock .m { font: var(--eyebrow); color: var(--ink-3); }
+
+/* head */
+.head { padding: 44px 0 20px; }
+.head h1 { font-size: clamp(30px, 3.6vw, 44px); line-height: 1.12; letter-spacing: -.01em; max-width: 22ch; }
+.head h1 em { font-style: italic; font-weight: 400; }
+.head .deck { font: var(--deck); color: var(--ink-2); margin-top: 12px; }
+.head .note { margin-top: 18px; display: grid; gap: 6px; }
+
+/* chart blocks */
+section { padding: 22px 0; }
+.sec-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 10px; }
+.sec-head h2 { font-size: 20px; }
+.chart { position: relative; }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chart text { font-family: var(--ui); }
+.lane-lab { font: 600 11px var(--ui); fill: var(--ink-3); letter-spacing: .06em; text-transform: uppercase; }
+.lane-rule { stroke: var(--line); stroke-width: 1; }
+.ax text { font: 500 11px var(--mono); fill: var(--ink-3); }
+.ax line { stroke: var(--line); stroke-dasharray: 2 4; }
+.ax .edge text { fill: var(--ink); font-weight: 500; }
+.ax .edge line { stroke: var(--ink-2); stroke-dasharray: none; }
+.tick .pt { fill: var(--ink); }
+.tick .pt.hollow { fill: var(--paper-2); stroke: var(--ink); stroke-width: 1.5; }
+.tick .halo { fill: var(--ink); opacity: .12; }
+.tick .bar { fill: var(--ink); }
+.tick .bar.soft { fill: url(#fuzzy); }
+.tick .bar.circa { stroke: var(--ink); stroke-opacity: .25; stroke-width: 6; fill: var(--ink); }
+.tick .name { font: 600 12px var(--ui); fill: var(--ink); paint-order: stroke; stroke: var(--paper); stroke-width: 4px; }
+.tick .date { font: 400 11px var(--mono); fill: var(--ink-2); paint-order: stroke; stroke: var(--paper); stroke-width: 4px; }
+.tick .n { font: 500 10px var(--mono); fill: var(--paper); }
+.tick .nbg { fill: var(--ink); }
+.tick.quiet .pt, .tick.quiet .bar { fill: var(--ink-3); }
+.tick.quiet .name { fill: var(--ink-2); font-weight: 500; }
+.cardmark rect { fill: var(--paper-2); stroke: var(--ink-2); stroke-width: 1; }
+.cardmark line { stroke: var(--ink-2); stroke-width: 1; }
+.cardmark text { font: 500 9.5px var(--mono); fill: var(--ink-2); }
+.dim rect { fill: var(--paper); opacity: .68; }
+.focusbox { fill: none; stroke: var(--ink-2); stroke-width: 1; }
+.focuslink rect { fill: none; stroke: var(--ink-3); stroke-width: 1; stroke-dasharray: 3 3; }
+.focuslink text { font: 500 10.5px var(--mono); fill: var(--ink-2); }
+.focuslink.on rect { stroke: var(--ink); stroke-dasharray: none; }
+.focuslink.on text { fill: var(--ink); }
+.station circle { fill: var(--f13); }
+.station text { font: 500 10px var(--mono); fill: var(--f13); }
+.station.out circle { opacity: .35; }
+.station.out text { opacity: .5; }
+.cursor line { stroke: var(--seal); stroke-width: 1.5; }
+.cursor .head { fill: var(--seal); }
+.cursor .ro rect { fill: var(--frost); stroke: var(--line); }
+.cursor .ro text { font: 500 13px var(--serif); fill: var(--ink); font-variant-numeric: tabular-nums; }
+.cursor .ro text.m { font: 500 9.5px var(--mono); fill: var(--ink-3); }
+.spanbar rect { fill: var(--ink); opacity: .55; }
+.spanbar text { font: 600 12px var(--ui); fill: var(--ink); paint-order: stroke; stroke: var(--paper); stroke-width: 4px; }
+.key { display: flex; flex-wrap: wrap; gap: 6px 22px; margin-top: 10px; }
+.key span { font: 400 12px var(--ui); color: var(--ink-2); display: inline-flex; align-items: center; gap: 7px; }
+.key i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--ink); }
+.key i.hollow { background: var(--paper-2); border: 1.5px solid var(--ink); }
+.key i.halo { box-shadow: 0 0 0 5px rgba(29,26,21,.12); }
+.key i.bar { width: 26px; height: 6px; border-radius: 3px; }
+.key i.soft { width: 26px; height: 6px; border-radius: 3px; background: linear-gradient(90deg, transparent, var(--ink) 30%, var(--ink) 70%, transparent); }
+.key i.cd { width: 14px; height: 10px; border-radius: 2px; background: var(--paper-2); border: 1px solid var(--ink-2); }
+.key i.st { background: var(--f13); width: 8px; height: 8px; }
+.key i.cur { width: 2px; height: 14px; border-radius: 0; background: var(--seal); }
+
+/* controls */
+.controls { margin-top: 14px; display: grid; grid-template-columns: 1fr auto; gap: 14px 28px; align-items: center; }
+.btns { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.btns button { font: 600 13px/1 var(--ui); color: var(--ink); background: var(--paper-2); border: 1px solid var(--line-2); border-radius: 999px; min-height: 40px; padding: 0 16px; cursor: pointer; }
+.btns button[aria-pressed="true"] { border-color: var(--ink); background: var(--paper-3); }
+.btns button:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.btns .nof { font: 500 12px var(--mono); color: var(--ink-2); padding: 0 6px; font-variant-numeric: tabular-nums; }
+.pausebar { grid-column: 1 / -1; height: 2px; background: var(--line); position: relative; overflow: hidden; }
+.pausebar i { position: absolute; left: 0; top: 0; bottom: 0; width: 0; background: var(--ink); }
+.pausebar.run i { transition: width 3s linear; width: 100%; }
+.keys { font: var(--eyebrow); color: var(--ink-3); }
+.keys kbd { font: inherit; border: 1px solid var(--line-2); border-radius: 4px; padding: 1px 5px; }
+
+/* tick list (the focus's items) */
+.ticklist { list-style: none; margin: 18px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px 24px; }
+.ticklist li { display: grid; grid-template-columns: 22px 1fr; gap: 8px; align-items: baseline; padding: 8px 0; border-top: 1px solid var(--line); }
+.ticklist li.quiet { color: var(--ink-2); }
+.ticklist .num { font: 500 11px var(--mono); color: var(--ink-3); }
+.ticklist b { font: 600 13px var(--ui); display: block; }
+.ticklist small { font: 400 11.5px var(--mono); color: var(--ink-2); display: block; }
+
+/* cards (never ticks) */
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 16px; }
+.card { background: var(--paper-2); border: 1px solid var(--line); border-radius: var(--r); padding: 14px 16px; }
+.card .ey { font: var(--eyebrow); color: var(--ink-3); margin-bottom: 6px; }
+.card h3 { font-size: 18px; line-height: 1.3; }
+.card p { font-size: 15px; line-height: 1.5; color: var(--ink); margin-top: 6px; }
+.card .case { font: 400 12px/1.45 var(--ui); color: var(--ink-2); margin-top: 8px; }
+.card .range { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; margin: 10px 0 4px; font: 500 12px var(--mono); color: var(--ink-2); }
+.card .range i { height: 6px; border-radius: 3px; background: var(--ink); display: block; }
+.card .cn { font: 400 12.5px/1.45 var(--ui); color: var(--ink-2); border-top: 1px solid var(--line); padding-top: 8px; margin-top: 10px; }
+
+/* span list twin */
+.spanlist { list-style: none; margin: 0; padding: 0; }
+.spanlist li { display: grid; grid-template-columns: 64px 1fr auto 1fr 64px; align-items: center; gap: 12px; height: 32px; }
+.spanlist .y { font: 500 12px var(--mono); color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.spanlist .y.r { text-align: right; }
+.spanlist .rule { height: 1px; background: var(--line-2); }
+.spanlist li.on .rule { background: var(--ink); }
+.spanlist a { border: 0; font: 400 16px var(--serif); color: var(--ink); white-space: nowrap; }
+.spanlist li.on a { font-weight: 600; }
+.spanlist li.on a::after { content: " · open"; font: 500 11px var(--mono); color: var(--ink-3); }
+.focuslinks { display: flex; gap: 8px 22px; flex-wrap: wrap; margin-top: 12px; }
+.focuslinks a { font: 500 13px var(--ui); border-bottom: 1px solid var(--line-2); }
+
+/* objects row */
+.objects { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 320px)); gap: 28px; }
+.frame { background: var(--paper-2); padding: 10px; border: 1px solid var(--line-2); box-shadow: var(--shadow); }
+.frame .ph { aspect-ratio: 1 / 1; display: grid; place-items: center; text-align: center; padding: 20px; background: var(--paper-3); color: var(--ink-3); font: 400 12px/1.4 var(--ui); }
+.objcap { margin-top: 10px; font-size: 14px; line-height: 1.45; color: var(--ink-2); }
+.objcap .credit { display: block; font: 400 11px/1.5 var(--mono); color: var(--ink-3); margin-top: 4px; }
+
+/* reading, pull, sources */
+.pull { font: var(--pull); max-width: 30ch; margin: 8px 0 0; }
+.pull b { font-weight: 600; }
+.reading p + p { margin-top: 14px; }
+.reading [data-claim] { border-bottom: 1px dotted var(--line-2); }
+.sources ol { margin: 8px 0 0; padding-left: 22px; font-size: 14px; line-height: 1.5; color: var(--ink-2); }
+.sources li { margin: 4px 0; max-width: 78ch; }
+.sources .id { font: 500 11px var(--mono); color: var(--ink-3); }
+.prevnext { display: flex; justify-content: space-between; gap: 20px; padding: 28px 0 60px; border-top: 1px solid var(--line); margin-top: 26px; }
+.prevnext a { border: 0; font: 400 16px var(--serif); }
+.prevnext small { display: block; font: var(--eyebrow); color: var(--ink-3); margin-bottom: 4px; }
+.prevnext .next { text-align: right; }
+
+@media (max-width: 720px) {
+  :root { --body: 16px; }
+  .band .crumb { display: none; }
+  .head { padding: 30px 0 14px; }
+  .controls { grid-template-columns: 1fr; }
+  .spanlist li { grid-template-columns: 52px 1fr 52px; height: auto; padding: 8px 0; }
+  .spanlist .rule { display: none; }
+  .spanlist a { white-space: normal; text-align: center; font-size: 15px; }
+  .objects { grid-template-columns: 1fr 1fr; gap: 14px; }
+  .prevnext { flex-direction: column; }
+  .prevnext .next { text-align: left; }
+}
+</style>
+</head>
+<body>
+
+<header class="band">
+  <div class="wrap">
+    <span class="idbar" aria-hidden="true"></span>
+    <span class="crumb mono">F1.13 · Networks: objects, materials, skills and people · the lane chart with focus · component 30</span>
+    <span class="clock" id="clock" aria-live="polite"><span class="m">the clock</span><span id="clock-ro" data-claim="f13-e-abulqasim">1301</span><span class="m">· focus 2 of 4</span></span>
+  </div>
+</header>
+
+<main class="wrap">
+
+<div class="head">
+  <p class="mono">Step 7 · build · the unit's only timeline, and the clock of every surface</p>
+  <h1 style="margin-top:10px">One jar's blue, <em>followed through all four</em></h1>
+  <p class="deck">Five lanes over the full span, with the focus open on the blue.</p>
+  <div class="note">
+    <p class="mono">Lanes: the objects · the materials · the skills · the people · the world. The Edo chart's lanes for the state, the makers and the afterlife are replaced by the materials, the skills and the people: this unit is four flows on shared routes (F1.13-C01) with no one state and no afterlife act; the objects and the world lanes stay.</p>
+    <p class="mono">Readout: CE only. The register holds no other reckoning for these claims; Abu'l-Qasim's 700 AH waits for the register before it is shown beside 1301 (plan.md).</p>
+  </div>
+</div>
+
+<!-- ============ the overview strip: the full span ============ -->
+<section aria-labelledby="ov-h">
+  <div class="sec-head">
+    <h2 id="ov-h">The full span, <em>200 BCE to 2017</em></h2>
+    <span class="mono">overview strip · the focus window clear, the rest dimmed · the three focuses as links</span>
+  </div>
+  <div class="chart" id="overview"></div>
+  <div class="key" aria-label="key">
+    <span><i></i> a point, documented</span>
+    <span><i class="hollow"></i> a point, probable (none in this unit)</span>
+    <span><i class="halo"></i> circa: a halo</span>
+    <span><i class="bar"></i> a range: a bar</span>
+    <span><i class="soft"></i> fuzzy ends where the sources differ</span>
+    <span><i class="cd"></i> a card, never a tick: argued, contested, or a count of people</span>
+    <span><i class="st"></i> the lecture's station, at the year it scrubs the clock to</span>
+    <span><i class="cur"></i> the cursor</span>
+  </div>
+
+  <div class="cards">
+    <article class="card" id="card-tast" data-claim="f13-e-tast-span">
+      <div class="ey">a range on a card · the people lane, beside the span bar · F1.13-C20</div>
+      <h3>About <span data-claim="F1.13-C20">12.5 million</span> people</h3>
+      <div class="range"><span data-claim="f13-e-tast-span">1501</span><i></i><span data-claim="f13-e-tast-span">1866</span></div>
+      <p>Traders forced about <span data-claim="F1.13-C20">12.5 million</span> captive Africans onto ships bound for the Americas; about <span data-claim="F1.13-C20">10.7 million</span> disembarked. SlaveVoyages' estimate, read 3 October 2026.</p>
+      <div class="case">Shown as a range on a card, never as a bubble that grows or a crawl that climbs: the human-flow rule (research.md; module file §5.4). The goods exchanged (F1.13-C21) are linked, not merged.</div>
+      <div class="cn">Content note: this card is about the Atlantic slave trade. The people are named as people; no image of bodies or ships is shown. Held for a paid reader with lived experience of the African diaspora before publication (station 8).</div>
+    </article>
+    <article class="card" id="card-arita" data-claim="f13-e-arita">
+      <div class="ey">contested · a card, not a tick · the skills lane, early 1600s · F1.13-C19</div>
+      <h3>Porcelain clay found at Arita</h3>
+      <p>The Met reads it one way, and the date is contested: Korean potters found porcelain clay at Arita early in the <span data-claim="f13-e-arita">1600s</span>. The canon and Korean sources: the potters were taken by force in the Imjin War, <span data-claim="f13-e-imjin">1592–98</span>; the find is a later story with its own date.</p>
+      <div class="case">Contested wording (AR-083): our verb is "taken"; the Met's "came" is quoted as the Met's. The potters' move is a tick in the people lane; the clay find places nothing on the chart.</div>
+    </article>
+    <article class="card" id="card-mine" data-claim="F1.13-C04">
+      <div class="ey">argued · a card, not a tick · the materials lane · F1.13-C04</div>
+      <h3>Which mine gave the blue?</h3>
+      <p>Qamsar near Kashan, where Abu'l-Qasim's treatise of <span data-claim="f13-e-abulqasim">1301</span> places lajvard; or the Anarak district, from the trace elements (Colomban et al. 2021; Jiang et al. 2020). Neither reading drives a tick.</p>
+      <div class="case"><a href="arguments/">Open the argument card</a> · the treatise's own year is the only tick.</div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ the focus: the blue ============ -->
+<section aria-labelledby="fo-h">
+  <div class="sec-head">
+    <h2 id="fo-h">Focus: The blue, <em data-claim="f13-g-blue">1175–1435</em></h2>
+    <span class="mono">inventory group g-blue · four ticks · lane: the objects · the chart dimmed outside the span · never narrower than ten years</span>
+  </div>
+  <div class="chart" id="focus" tabindex="0" aria-label="The lane chart zoomed to the blue, 1175 to 1435, with four ticks"></div>
+
+  <div class="controls">
+    <div class="btns" role="group" aria-label="stop and play">
+      <button type="button" id="b-play" aria-pressed="false">Play</button>
+      <button type="button" id="b-step">Step</button>
+      <button type="button" id="b-hold" aria-pressed="true">Hold</button>
+      <button type="button" id="b-esc">Escape</button>
+      <span class="nof" id="nof">2 of 4</span>
+    </div>
+    <div class="keys"><kbd>←</kbd> <kbd>→</kbd> step · <kbd>space</kbd> pauses · <kbd>Esc</kbd> leaves the focus · 3 s a tick, held longer for a longer caption</div>
+    <div class="pausebar" id="pausebar" aria-hidden="true"><i></i></div>
+  </div>
+
+  <ol class="ticklist" id="ticklist" aria-label="the focus's items as ticks"></ol>
+
+  <div class="focuslinks">
+    <span class="mono">other focuses:</span>
+    <a href="#g-galleons" data-focus="g-galleons">The galleons, <span data-claim="f13-g-galleons">1545–1815</span></a>
+    <a href="#g-atlantic" data-focus="g-atlantic">The Atlantic, <span data-claim="f13-g-atlantic">1501–1866</span></a>
+  </div>
+</section>
+
+<!-- ============ the span-list twin ============ -->
+<section aria-labelledby="sl-h">
+  <div class="sec-head">
+    <h2 id="sl-h">The span list, <em>the chart's twin</em></h2>
+    <span class="mono">component 4 · one row per group in inventory.json · each row a link to its focus</span>
+  </div>
+  <ol class="spanlist" id="spanlist"></ol>
+</section>
+
+<!-- ============ the objects in the focus ============ -->
+<section aria-labelledby="ob-h">
+  <div class="sec-head">
+    <h2 id="ob-h">The two objects <em>the focus ends on</em></h2>
+    <span class="mono">open by licence · no image in the repo · the holder's photograph, placed at build (benchmark.md)</span>
+  </div>
+  <div class="objects">
+    <figure class="frame" style="margin:0">
+      <div class="ph">the holder's photograph, placed at build<br>Cleveland 1915.581</div>
+      <figcaption class="objcap">Footed bowl with a blue rim, Kashan.
+        <span class="credit" data-claim="f13-e-kashan-bowl">Cleveland Museum of Art · 1915.581 · late 1100s–early 1200s · fritware, pierced, painted under the glaze · CC0</span></figcaption>
+    </figure>
+    <figure class="frame" style="margin:0">
+      <div class="ph">the holder's photograph, placed at build<br>Cleveland 1962.154</div>
+      <figcaption class="objcap">Jar with blue underglaze decoration, Jingdezhen.
+        <span class="credit" data-claim="f13-e-jar">Cleveland Museum of Art · 1962.154 · 1300s · blue underglaze decoration · CC0</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ the reading ============ -->
+<section class="reading" aria-labelledby="rd-h">
+  <h2 id="rd-h" style="font-size:20px">The reading</h2>
+  <p class="pull">The cobalt for the jar's blue <b data-claim="f13-e-jar">was imported from Iran</b>, likely from Kashan.</p>
+  <p style="margin-top:18px">Cleveland's record for the jar, made at Jingdezhen in the <span data-claim="f13-e-jar">1300s</span>, says its cobalt was imported from Iran, likely from Kashan. The focus reads that one sentence as four ticks. A century before the jar, the Kashan bowl, <span data-claim="f13-e-kashan-bowl">late 1100s–early 1200s</span>, was painted under the glaze with a blue rim; its bar has fuzzy ends because the holder's "late" and "early" are not years.</p>
+  <p>In <span data-claim="f13-e-abulqasim">1301</span> Abu'l-Qasim's treatise placed lajvard near Kashan. Which mine, Qamsar or Anarak, is contested (<span data-claim="F1.13-C04">F1.13-C04</span>), so the mine is a card and only the treatise's year is a tick. Jiang et al. 2020 tested imperial wares of the Xuande reign, <span data-claim="f13-e-xuande">1426–35</span>, and found imported cobalt.</p>
+  <p>Between the bowl and the jar the route from Kashan to Jingdezhen is undated, so the journey draws dashed between two dated ends. Four of the lecture's stations fall inside the span, and the cursor on <span data-claim="f13-e-abulqasim">1301</span> is the only clock on the page.</p>
+</section>
+
+<!-- ============ sources ============ -->
+<section class="sources" aria-labelledby="so-h">
+  <h2 id="so-h" style="font-size:20px">Sources</h2>
+  <ol>
+    <li><span class="id">F1.13-C02</span> Cleveland Museum of Art, open access record 1962.154 (the jar; "imported from Iran, likely from Kashan").</li>
+    <li><span class="id">F1.13-C05</span> Cleveland Museum of Art, open access record 1915.581 (the bowl, late 1100s–early 1200s).</li>
+    <li><span class="id">F1.13-C04</span> Colomban et al. 2021, <i>Minerals</i> (CC BY); Jiang et al. 2020, <i>PNAS</i> (discussion); Abu'l-Qasim's treatise, 1301.</li>
+    <li><span class="id">F1.13-C03</span> Jiang et al. 2020, <i>PNAS</i>: imperial wares of the Xuande reign, 1426–1435, tested for imported cobalt.</li>
+    <li><span class="id">F1.13-C20</span> SlaveVoyages, the Transatlantic Slave Trade Database essay and estimates page, read 3 October 2026.</li>
+    <li><span class="id">F1.13-C19</span> The Metropolitan Museum of Art, "Edo-period Japanese porcelain" (Willmann, 2011); Northeast Asian History Foundation (Korean sources).</li>
+    <li><span class="id">OCC062 · OCC067 · OCC071 · OCC072 · OCC077 · OCC080 · NET036</span> canon event rows for Potosí, Urdaneta's route, the Imjin War, the carracks, the sakoku edicts, the VOC order and the last galleon.</li>
+    <li><span class="id">F1.13-C07 · C08 · C10 · C12 · C13 · C16 · C18 · C22 · C23 · C24 · C25</span> the register rows for the Belitung wreck, the Periplus, papermaking in Baghdad, Mansa Musa, the Catalan Atlas, the Puebla basin, the Kraak dish, Omar ibn Said, the lenj inscription, the Guran shipwrights and Bahrain's pearling.</li>
+    <li><span class="id">inventory.json · benchmark.md · plan.md</span> F1.13 method run, counted by Claude Fable 5.1, 20 October 2026; the lecture <i>f1-13.json</i>, nine stations, for the station years.</li>
+  </ol>
+</section>
+
+<nav class="prevnext" aria-label="previous and next">
+  <a href="#"><small>previous</small>The claims register, step 4</a>
+  <a href="#" class="next"><small>next</small>The lectures layer: nine stations</a>
+</nav>
+
+</main>
+
+<script>
+(function () {
+  'use strict';
+  // ---- data: every tick is an inventory event; claim ids are f13-<event id> or a register id ----
+  var LANES = [
+    { id: 'objects', label: 'the objects' },
+    { id: 'materials', label: 'the materials' },
+    { id: 'skills', label: 'the skills' },
+    { id: 'people', label: 'the people' },
+    { id: 'world', label: 'the world' }
+  ];
+  // kind: point | circa (point with halo) | range (bar) | fuzzy (bar with fuzzy ends) | circa-range (bar with a halo)
+  var EV = [
+    { id: 'e-periplus', lane: 'people', kind: 'circa', v: [50], d: 'c. 50', name: 'The Periplus lists enslaved people among exports', reg: 'F1.13-C08', human: true },
+    { id: 'e-talas', lane: 'skills', kind: 'circa', v: [790], d: 'c. 790', name: 'Papermaking in Baghdad by the late 8th century', reg: 'F1.13-C10' },
+    { id: 'e-belitung', lane: 'objects', kind: 'fuzzy', v: [826, 900], d: '9th century', name: 'A ship sinks off Belitung (cargo excluded: commercial salvage)', reg: 'F1.13-C07' },
+    { id: 'e-kashan-bowl', lane: 'objects', kind: 'fuzzy', v: [1175, 1225], d: '1175–1225', name: 'The Kashan bowl is made', reg: 'F1.13-C05', run: 1, side: 'r' },
+    { id: 'e-abulqasim', lane: 'materials', kind: 'point', v: [1301], d: '1301', name: "Abu'l-Qasim's treatise places lajvard near Kashan", reg: 'F1.13-C04', run: 2, side: 'l' },
+    { id: 'e-mansa-musa', lane: 'materials', kind: 'range', v: [1324, 1325], d: '1324–25', name: "Mansa Musa's hajj passes through Cairo", reg: 'F1.13-C12', side: 'r', below: true, quiet: true },
+    { id: 'e-jar', lane: 'objects', kind: 'range', v: [1300, 1400], d: '1300s', name: 'The Cleveland jar is made at Jingdezhen', reg: 'F1.13-C02', run: 3, side: 'r' },
+    { id: 'e-catalan-atlas', lane: 'world', kind: 'point', v: [1375], d: '1375', name: 'The Catalan Atlas names Musse Melly', reg: 'F1.13-C13', side: 'l', quiet: true },
+    { id: 'e-xuande', lane: 'materials', kind: 'range', v: [1426, 1435], d: '1426–35', name: 'Xuande wares tested for imported cobalt', reg: 'F1.13-C03', run: 4, side: 'l' },
+    { id: 'e-potosi', lane: 'materials', kind: 'point', v: [1545], d: '1545', name: 'Silver found at Potosí', reg: 'OCC062' },
+    { id: 'e-urdaneta', lane: 'world', kind: 'point', v: [1565], d: '1565', name: "Urdaneta's return route opens the galleon trade", reg: 'F1.13-C15' },
+    { id: 'e-imjin', lane: 'people', kind: 'range', v: [1592, 1598], d: '1592–98', name: 'Korean potters taken to Japan in the Imjin War', reg: 'DIA012', human: true },
+    { id: 'e-carracks', lane: 'world', kind: 'range', v: [1602, 1604], d: '1602–04', name: 'Capture of the carracks São Jacinto and Santa Catarina', reg: 'OCC072' },
+    { id: 'e-kraak', lane: 'objects', kind: 'circa-range', v: [1600, 1625], d: 'c. 1600–1625', name: 'The Kraak dish is made', reg: 'F1.13-C18' },
+    { id: 'e-sakoku', lane: 'world', kind: 'range', v: [1633, 1639], d: '1633–39', name: 'Sakoku edicts', reg: 'OCC077' },
+    { id: 'e-basin', lane: 'objects', kind: 'circa', v: [1650], d: 'c. 1650', name: 'The Puebla basin is made', reg: 'F1.13-C16' },
+    { id: 'e-voc-order', lane: 'world', kind: 'point', v: [1659], d: '1659', name: "VOC's first large order for Japanese porcelain", reg: 'OCC080' },
+    { id: 'e-tast-span', lane: 'people', kind: 'range', v: [1501, 1866], d: '1501–1866', name: 'The transatlantic estimate: a range, its count on a card', reg: 'F1.13-C20', human: true, span: true },
+    { id: 'e-omar-captured', lane: 'people', kind: 'point', v: [1807], d: '1807', name: 'Omar ibn Said is captured and brought to South Carolina', reg: 'F1.13-C22', human: true },
+    { id: 'e-galleon-end', lane: 'world', kind: 'point', v: [1815], d: '1815', name: 'The last Manila galleon', reg: 'NET036' },
+    { id: 'e-omar-writes', lane: 'people', kind: 'point', v: [1831], d: '1831', name: 'Omar ibn Said writes his autobiography in Arabic', reg: 'F1.13-C22' },
+    { id: 'e-lenj-usl', lane: 'skills', kind: 'point', v: [2011], d: '2011', name: 'Lenj skills inscribed on the Urgent Safeguarding List', reg: 'F1.13-C23' },
+    { id: 'e-pearling-whc', lane: 'world', kind: 'point', v: [2012], d: '2012', name: 'Pearling, Testimony of an Island Economy inscribed', reg: 'F1.13-C25' },
+    { id: 'e-busuttil', lane: 'people', kind: 'point', v: [2017], d: '2017', name: 'Shipwrights at Guran speak to Shaun Busuttil', reg: 'F1.13-C24' }
+  ];
+  // cards, never ticks (an argued or contested value; a count of people)
+  var CARDS = [
+    { id: 'a-cobalt-mine', lane: 'materials', at: 1301, label: 'card: the mine', href: '#card-mine', reg: 'F1.13-C04' },
+    { id: 'e-arita', lane: 'skills', at: 1610, label: 'card: Arita', href: '#card-arita', reg: 'F1.13-C19' },
+    { id: 'e-tast-count', lane: 'people', at: 1683, label: 'card: the count', href: '#card-tast', reg: 'F1.13-C20' }
+  ];
+  var GROUPS = [
+    { id: 'g-blue', name: 'The blue', span: [1175, 1435], ticks: ['e-kashan-bowl', 'e-abulqasim', 'e-jar', 'e-xuande'] },
+    { id: 'g-atlantic', name: 'The Atlantic', span: [1501, 1866], ticks: ['e-omar-captured', 'e-omar-writes'], spanOf: 'e-tast-span' },
+    { id: 'g-galleons', name: 'The galleons', span: [1545, 1815], ticks: ['e-potosi', 'e-urdaneta', 'e-basin', 'e-galleon-end'] },
+    { id: 'g-porcelain-north', name: 'The blue goes north', span: [1592, 1659], ticks: ['e-imjin', 'e-carracks', 'e-kraak', 'e-sakoku', 'e-voc-order'], note: 'e-arita is contested: a card, not a tick' },
+    { id: 'g-living', name: 'Living practices', span: [2011, 2017], ticks: ['e-lenj-usl', 'e-pearling-whc', 'e-busuttil'] }
+  ];
+  // the lecture's stations (f1-13.json): the year each scrubs the clock to
+  var STATIONS = [
+    { n: 1, y: 1350, t: 'Where did the blue come from?' }, { n: 2, y: 1200, t: 'Blue before China' }, { n: 3, y: 1300, t: 'By sea' },
+    { n: 4, y: 800, t: 'By land' }, { n: 5, y: 1324, t: 'Across the sand' }, { n: 6, y: 1650, t: 'Across the Pacific' },
+    { n: 7, y: 1610, t: 'The blue goes north' }, { n: 8, y: 1800, t: 'The Atlantic' }, { n: 9, y: 2015, t: 'A lenj on the slipway' }
+  ];
+  var FULL = [-200, 2017];
+  var FOCUS = GROUPS[0];
+  var state = { i: 1, playing: false, inFocus: true, timer: null };
+
+  var byId = {}; EV.forEach(function (e) { byId[e.id] = e; });
+  function pos(e) { return e.v.length > 1 ? (e.v[0] + e.v[1]) / 2 : e.v[0]; }
+  function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;'); }
+  function yr(y) { return y < 0 ? (-y) + ' BCE' : String(y); }
+  function laneY(i, top, h) { return top + h * i + h * 0.62; }
+
+  function drawTick(e, x, y, px, opts) {
+    var o = opts || {}, parts = [], label = '', cls = 'tick' + (e.quiet ? ' quiet' : '');
+    var g = '<g class="' + cls + '" data-claim="f13-' + e.id + '" data-register="' + e.reg + '"><title>' + esc(e.name + ' · ' + e.d + ' · f13-' + e.id) + '</title>';
+    var x0 = x(e.v[0]), x1 = e.v.length > 1 ? x(e.v[1]) : x0, w = Math.max(2, x1 - x0), bh = o.small ? 4 : 7;
+    if (e.kind === 'point') parts.push('<circle class="pt" cx="' + x0 + '" cy="' + y + '" r="' + (o.small ? 3 : 5) + '"/>');
+    else if (e.kind === 'circa') parts.push('<circle class="halo" cx="' + x0 + '" cy="' + y + '" r="' + (o.small ? 7 : 12) + '"/><circle class="pt" cx="' + x0 + '" cy="' + y + '" r="' + (o.small ? 3 : 5) + '"/>');
+    else if (e.kind === 'range') parts.push('<rect class="bar" x="' + x0 + '" y="' + (y - bh / 2) + '" width="' + w + '" height="' + bh + '" rx="' + (bh / 2) + '"/>');
+    else if (e.kind === 'fuzzy') parts.push('<rect class="bar soft" x="' + (x0 - (o.small ? 3 : 8)) + '" y="' + (y - bh / 2) + '" width="' + (w + (o.small ? 6 : 16)) + '" height="' + bh + '" rx="' + (bh / 2) + '"/>');
+    else if (e.kind === 'circa-range') parts.push('<rect class="bar circa" x="' + x0 + '" y="' + (y - bh / 2) + '" width="' + w + '" height="' + bh + '" rx="' + (bh / 2) + '"/>');
+    if (o.labels) {
+      var side = e.side || 'r', lx = side === 'r' ? x0 + (e.kind === 'point' || e.kind === 'circa' ? 10 : 2) : (e.v.length > 1 ? x1 : x0) - 10;
+      var anchor = side === 'r' ? 'start' : 'end', y1 = e.below ? y + 20 : y - 14, y2 = e.below ? y + 32 : y - 2;
+      label = '<text class="name" x="' + lx + '" y="' + y1 + '" text-anchor="' + anchor + '">' + esc(e.name) + '</text>' +
+              '<text class="date" x="' + lx + '" y="' + y2 + '" text-anchor="' + anchor + '">' + esc(e.d) + (e.run ? ' · f13-' + e.id : '') + '</text>';
+    }
+    if (e.run && o.numbers) {
+      var nx = (e.kind === 'point' || e.kind === 'circa') ? x0 : x0 + w / 2;
+      label += '<circle class="nbg" cx="' + nx + '" cy="' + (y + 18) + '" r="7"/><text class="n" x="' + nx + '" y="' + (y + 21.5) + '" text-anchor="middle">' + e.run + '</text>';
+    }
+    return g + parts.join('') + label + '</g>';
+  }
+
+  function render() {
+    var ov = document.getElementById('overview'), fo = document.getElementById('focus');
+    var W = ov.clientWidth || 1200, mob = W < 720;
+    var defs = '<defs><linearGradient id="fuzzy" x1="0" x2="1"><stop offset="0" stop-color="#1D1A15" stop-opacity="0"/><stop offset=".18" stop-color="#1D1A15"/><stop offset=".82" stop-color="#1D1A15"/><stop offset="1" stop-color="#1D1A15" stop-opacity="0"/></linearGradient></defs>';
+
+    // ---------- the overview strip ----------
+    (function () {
+      var left = mob ? 80 : 112, right = 12, top = 26, lh = mob ? 34 : 30, stH = 30, H = top + lh * LANES.length + stH + 56;
+      var x = function (v) { return left + (v - FULL[0]) / (FULL[1] - FULL[0]) * (W - left - right); };
+      var s = '<svg viewBox="0 0 ' + W + ' ' + H + '" width="' + W + '" height="' + H + '" role="img" aria-label="Overview strip, 200 BCE to 2017, five lanes">' + defs;
+      // dim outside the focus
+      s += '<g class="dim" aria-hidden="true"><rect x="' + left + '" y="' + (top - 6) + '" width="' + (x(FOCUS.span[0]) - left) + '" height="' + (lh * LANES.length + 12) + '"/><rect x="' + x(FOCUS.span[1]) + '" y="' + (top - 6) + '" width="' + (W - right - x(FOCUS.span[1])) + '" height="' + (lh * LANES.length + 12) + '"/></g>';
+      // lanes
+      LANES.forEach(function (l, i) {
+        var y = laneY(i, top, lh);
+        s += '<line class="lane-rule" x1="' + left + '" x2="' + (W - right) + '" y1="' + y + '" y2="' + y + '"/>';
+        s += '<text class="lane-lab" x="' + (left - 10) + '" y="' + (y + 4) + '" text-anchor="end">' + (mob ? l.label.replace('the ', '') : l.label) + '</text>';
+      });
+      // axis
+      s += '<g class="ax">';
+      [-200, 0, 500, 1000, 1500, 2000].forEach(function (t) {
+        var lab = (mob && t === 0) ? '' : '<text x="' + x(t) + '" y="' + (top - 12) + '" text-anchor="middle">' + yr(t) + '</text>';
+        s += '<g><line x1="' + x(t) + '" x2="' + x(t) + '" y1="' + (top - 8) + '" y2="' + (top + lh * LANES.length) + '"/>' + lab + '</g>';
+      });
+      s += '</g>';
+      // the Atlantic span bar (a range is a bar; its count is the card beside it)
+      var sp = byId['e-tast-span'], py = laneY(3, top, lh);
+      s += '<g class="spanbar" data-claim="f13-e-tast-span"><title>' + esc(sp.name + ' · ' + sp.d) + '</title><rect x="' + x(sp.v[0]) + '" y="' + (py + 6) + '" width="' + (x(sp.v[1]) - x(sp.v[0])) + '" height="4" rx="2"/></g>';
+      // ticks
+      EV.forEach(function (e) {
+        if (e.span) return;
+        s += drawTick(e, x, laneY(LANES.findIndex(function (l) { return l.id === e.lane; }), top, lh), null, { small: true });
+      });
+      // cards, never ticks
+      CARDS.forEach(function (c) {
+        var y = laneY(LANES.findIndex(function (l) { return l.id === c.lane; }), top, lh), cx = x(c.at);
+        s += '<a href="' + c.href + '" class="cardmark" data-claim="' + (c.id.indexOf('e-') === 0 ? 'f13-' + c.id : c.reg) + '"><title>' + esc(c.label + ' · ' + c.reg) + '</title><line x1="' + cx + '" x2="' + cx + '" y1="' + y + '" y2="' + (y - 9) + '"/><rect x="' + (cx - 7) + '" y="' + (y - 19) + '" width="14" height="10" rx="1.5"/></a>';
+      });
+      // focus windows as links
+      var rowOf = { 'g-blue': 0, 'g-galleons': 0, 'g-atlantic': 1 };
+      GROUPS.forEach(function (g) {
+        if (!(g.id in rowOf)) return;
+        var on = g.id === FOCUS.id, x0 = x(g.span[0]), x1 = x(g.span[1]), ly = top + lh * LANES.length + 18 + rowOf[g.id] * 13;
+        s += '<a href="#' + g.id + '" class="focuslink' + (on ? ' on' : '') + '" data-focus="' + g.id + '"><title>' + esc(g.name + ', ' + g.span[0] + '–' + g.span[1]) + '</title><rect x="' + x0 + '" y="' + (top - 6) + '" width="' + (x1 - x0) + '" height="' + (lh * LANES.length + 12) + '" rx="2"/>' +
+             (mob ? '' : '<text x="' + x0 + '" y="' + ly + '">' + esc(g.name + ' ' + g.span[0] + '–' + g.span[1]) + (on ? ' · open' : '') + '</text>') + '</a>';
+      });
+      // stations
+      var sy = top + lh * LANES.length + (mob ? 36 : 50);
+      s += '<text class="lane-lab" x="' + (left - 10) + '" y="' + (sy + 4) + '" text-anchor="end" style="fill:var(--f13)">stations</text>';
+      STATIONS.forEach(function (st) {
+        s += '<g class="station" data-station="s' + st.n + '"><title>' + esc('Station ' + st.n + ' · ' + st.t) + '</title><circle cx="' + x(st.y) + '" cy="' + sy + '" r="4"/>' + (mob ? '' : '<text x="' + x(st.y) + '" y="' + (sy + 14) + '" text-anchor="middle">' + st.n + '</text>') + '</g>';
+      });
+      // the cursor
+      var cur = byId[FOCUS.ticks[state.i]], cx = x(pos(cur));
+      s += '<g class="cursor" aria-hidden="true"><line x1="' + cx + '" x2="' + cx + '" y1="' + (top - 4) + '" y2="' + (top + lh * LANES.length) + '"/><path class="head" d="M' + (cx - 4) + ' ' + (top - 8) + ' h8 l-4 5z"/></g>';
+      s += '</svg>';
+      ov.innerHTML = s;
+    })();
+
+    // ---------- the focus ----------
+    (function () {
+      var left = mob ? 8 : 112, right = 16, top = 30, lh = mob ? 60 : 70, stH = 40, H = top + lh * LANES.length + stH + 40;
+      var dom = [1150, 1460];
+      var x = function (v) { return left + (v - dom[0]) / (dom[1] - dom[0]) * (W - left - right); };
+      var s = '<svg viewBox="0 0 ' + W + ' ' + H + '" width="' + W + '" height="' + H + '" role="img" aria-label="The focus, 1175 to 1435">' + defs;
+      var labs = '';
+      LANES.forEach(function (l, i) {
+        var y = laneY(i, top, lh);
+        s += '<line class="lane-rule" x1="' + left + '" x2="' + (W - right) + '" y1="' + y + '" y2="' + y + '"/>';
+        labs += mob ? '<text class="lane-lab" x="' + left + '" y="' + (top + lh * i + 14) + '">' + l.label + '</text>'
+                    : '<text class="lane-lab" x="' + (left - 12) + '" y="' + (y + 4) + '" text-anchor="end">' + l.label + '</text>';
+      });
+      if (!mob) s += labs;
+      s += '<g class="ax">';
+      [1200, 1250, 1300, 1350, 1400].forEach(function (t) {
+        s += '<g><line x1="' + x(t) + '" x2="' + x(t) + '" y1="' + (top - 8) + '" y2="' + (top + lh * LANES.length) + '"/><text x="' + x(t) + '" y="' + (top - 12) + '" text-anchor="middle">' + t + '</text></g>';
+      });
+      FOCUS.span.forEach(function (t) {
+        s += '<g class="edge" data-claim="f13-g-blue"><line x1="' + x(t) + '" x2="' + x(t) + '" y1="' + (top - 8) + '" y2="' + (top + lh * LANES.length + 6) + '"/><text x="' + x(t) + '" y="' + (top + lh * LANES.length + 20) + '" text-anchor="middle">' + t + '</text></g>';
+      });
+      s += '</g>';
+      // the undated route between two dated ends: dashed in the materials lane? no: the journey is a scene; here only the ticks. (the journey bar lives on the scene)
+      EV.forEach(function (e) {
+        if (pos(e) < dom[0] || pos(e) > dom[1]) return;
+        s += drawTick(e, x, laneY(LANES.findIndex(function (l) { return l.id === e.lane; }), top, lh), null, { labels: !mob, numbers: true });
+      });
+      // the argued mine: a card mark, no tick
+      var cm = CARDS[0], cy = laneY(1, top, lh), cx0 = x(cm.at);
+      s += '<a href="' + cm.href + '" class="cardmark" data-claim="' + cm.reg + '"><title>argued: which mine · a card, never a tick · F1.13-C04</title><line x1="' + cx0 + '" x2="' + cx0 + '" y1="' + (cy + 4) + '" y2="' + (cy + 30) + '"/><rect x="' + (cx0 - 9) + '" y="' + (cy + 30) + '" width="18" height="12" rx="1.5"/>' + (mob ? '' : '<text x="' + (cx0 + 13) + '" y="' + (cy + 40) + '">argued: which mine · a card, not a tick · F1.13-C04</text>') + '</a>';
+      // stations inside and just outside the span
+      var sy = top + lh * LANES.length + (mob ? 40 : 44);
+      s += '<text class="lane-lab" x="' + (mob ? W - right : left - 12) + '" y="' + (sy + 4) + '" text-anchor="end" style="fill:var(--f13)">stations</text>';
+      STATIONS.forEach(function (st) {
+        if (st.y < dom[0] || st.y > dom[1]) return;
+        var out = st.y < FOCUS.span[0] || st.y > FOCUS.span[1];
+        s += '<g class="station' + (out ? ' out' : '') + '" data-station="s' + st.n + '"><title>' + esc('Station ' + st.n + ' · ' + st.t) + '</title><circle cx="' + x(st.y) + '" cy="' + sy + '" r="5"/><text x="' + x(st.y) + '" y="' + (sy + 16) + '" text-anchor="middle">S' + st.n + '</text></g>';
+      });
+      // dim outside the span
+      if (state.inFocus) {
+        s += '<g class="dim" aria-hidden="true"><rect x="' + left + '" y="' + (top - 10) + '" width="' + (x(FOCUS.span[0]) - left) + '" height="' + (lh * LANES.length + 16) + '"/><rect x="' + x(FOCUS.span[1]) + '" y="' + (top - 10) + '" width="' + (W - right - x(FOCUS.span[1])) + '" height="' + (lh * LANES.length + 16) + '"/></g>';
+      }
+      if (mob) s += labs;
+      // the cursor with its readout (CE only)
+      var cur = byId[FOCUS.ticks[state.i]], cx = x(pos(cur)), ro = cur.d, rw = Math.max(54, ro.length * 8 + 22);
+      var rx = Math.min(Math.max(cx - rw / 2, left), W - right - rw);
+      s += '<g class="cursor" data-claim="f13-' + cur.id + '"><line x1="' + cx + '" x2="' + cx + '" y1="' + (top + 2) + '" y2="' + (top + lh * LANES.length + 4) + '"/><path class="head" d="M' + (cx - 5) + ' ' + (top + lh * LANES.length + 4) + ' h10 l-5 6z"/>' +
+           '<g class="ro"><rect x="' + rx + '" y="' + (top - 30) + '" width="' + rw + '" height="22" rx="6"/><text x="' + (rx + rw / 2) + '" y="' + (top - 15) + '" text-anchor="middle">' + esc(ro) + '</text></g></g>';
+      s += '</svg>';
+      fo.innerHTML = s;
+    })();
+
+    // ---------- the tick list ----------
+    var tl = document.getElementById('ticklist'), items = '';
+    FOCUS.ticks.forEach(function (id, i) {
+      var e = byId[id];
+      items += '<li' + (i === state.i ? ' aria-current="true"' : '') + ' data-claim="f13-' + e.id + '"><span class="num">' + (i + 1) + '</span><span><b>' + esc(e.name) + '</b><small>' + esc(e.d) + ' · ' + (e.kind === 'point' ? 'a point' : e.kind === 'circa' ? 'circa, a halo' : e.kind === 'fuzzy' ? 'a bar, fuzzy ends' : 'a bar') + ' · documented · f13-' + e.id + ' · ' + e.reg + '</small></span></li>';
+    });
+    ['e-mansa-musa', 'e-catalan-atlas'].forEach(function (id) {
+      var e = byId[id];
+      items += '<li class="quiet" data-claim="f13-' + e.id + '"><span class="num">·</span><span><b>' + esc(e.name) + '</b><small>' + esc(e.d) + ' · in the span, not in this run · ' + e.reg + '</small></span></li>';
+    });
+    tl.innerHTML = items;
+
+    // ---------- the span list twin ----------
+    var sl = document.getElementById('spanlist'), rows = '';
+    GROUPS.slice().sort(function (a, b) { return a.span[0] - b.span[0]; }).forEach(function (g) {
+      rows += '<li id="' + g.id + '"' + (g.id === FOCUS.id ? ' class="on"' : '') + ' data-claim="f13-' + g.id + '"><span class="y">' + g.span[0] + '</span><span class="rule"></span><a href="#' + g.id + '" data-focus="' + g.id + '">' + esc(g.name) + '</a><span class="rule"></span><span class="y r">' + g.span[1] + '</span></li>';
+    });
+    sl.innerHTML = rows;
+
+    document.getElementById('nof').textContent = (state.i + 1) + ' of ' + FOCUS.ticks.length;
+    var ro = document.getElementById('clock-ro'); ro.textContent = byId[FOCUS.ticks[state.i]].d; ro.setAttribute('data-claim', 'f13-' + FOCUS.ticks[state.i]);
+    ro.nextElementSibling.textContent = state.inFocus ? '· focus ' + (state.i + 1) + ' of ' + FOCUS.ticks.length : '· full span';
+  }
+
+  // ---------- stop-and-play: Play steps tick to tick with a pause bar; Step moves one; Hold stays; Escape leaves ----------
+  var pb = document.getElementById('pausebar');
+  function setPlaying(p) {
+    state.playing = p;
+    document.getElementById('b-play').setAttribute('aria-pressed', p ? 'true' : 'false');
+    document.getElementById('b-hold').setAttribute('aria-pressed', p ? 'false' : 'true');
+    clearTimeout(state.timer); pb.classList.remove('run'); pb.querySelector('i').style.width = '0';
+    if (p) { void pb.offsetWidth; pb.classList.add('run'); state.timer = setTimeout(function () { step(1); if (state.i === FOCUS.ticks.length - 1) setPlaying(false); else setPlaying(true); }, 3000); }
+  }
+  function step(d) { state.i = Math.max(0, Math.min(FOCUS.ticks.length - 1, state.i + d)); render(); }
+  document.getElementById('b-play').addEventListener('click', function () { if (!state.inFocus) state.inFocus = true; setPlaying(!state.playing); });
+  document.getElementById('b-step').addEventListener('click', function () { setPlaying(false); step(1); });
+  document.getElementById('b-hold').addEventListener('click', function () { setPlaying(false); });
+  document.getElementById('b-esc').addEventListener('click', function () { setPlaying(false); state.inFocus = false; render(); });
+  document.addEventListener('keydown', function (ev) {
+    if (ev.target && /^(INPUT|TEXTAREA)$/.test(ev.target.tagName)) return;
+    if (ev.key === 'ArrowRight') { setPlaying(false); step(1); ev.preventDefault(); }
+    else if (ev.key === 'ArrowLeft') { setPlaying(false); step(-1); ev.preventDefault(); }
+    else if (ev.key === ' ') { setPlaying(!state.playing); ev.preventDefault(); }
+    else if (ev.key === 'Escape') { setPlaying(false); state.inFocus = false; render(); }
+  });
+  document.addEventListener('click', function (ev) {
+    var a = ev.target.closest && ev.target.closest('[data-focus]');
+    if (a && a.getAttribute('data-focus') === 'g-blue') { state.inFocus = true; render(); }
+  });
+  var rt; window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(render, 120); });
+  render();
+})();
+</script>
+</body>
+</html>
