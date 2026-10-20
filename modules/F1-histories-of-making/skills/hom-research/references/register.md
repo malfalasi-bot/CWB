@@ -1,6 +1,6 @@
 # The register schema
 
-From `research_notes/Motion layers and focus/editorial_process.md`. Every dated or numbered claim in a unit lives in one file, `atlas/data/register/units/<unit>.yaml`; the timeline, the people, the Atlas items and the prose are derived from it or checked against it. Prose never carries a date or count the register does not hold. Dates and numbers are never typed into prose, captions, ticks, tiles or clocks directly.
+Every dated or numbered claim in a unit lives in one file, `atlas/data/register/units/<unit>.yaml`; the timeline, the people, the Atlas items and the prose are derived from it or checked against it. Prose never carries a date or count the register does not hold. Dates and numbers are never typed into prose, captions, ticks, tiles or clocks directly.
 
 ## 1. A record is keyed by the claim, not the year
 
@@ -62,7 +62,7 @@ ed-blue-at-printers:
 
 ## 2. Display rules
 
-Documented is unmarked; the other three confidence words appear in brackets after the display, or as the word in the sentence in prose. `display` is the bare string and renders verbatim; a surface adds only the bracket and the alternates.
+Documented is unmarked; the other three confidence words appear as the word in the sentence the reader reads (the learner view) and as a chip beside the value in the editor view; never as a bracket or a code in prose. `display` is the bare string and renders verbatim; a surface adds only the word and the alternates.
 
 | Surface | Point | Circa | Range | Argued or contested |
 |---|---|---|---|---|
