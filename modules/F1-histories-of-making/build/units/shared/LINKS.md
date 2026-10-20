@@ -38,3 +38,6 @@ node or step codes the learner engaged, e.g. `#ink.edo.tsutaya~hokusai~e1842~des
 ## F1.13 method run (20 October 2026)
 - `research_notes/F1.13 method run/` — research, benchmark, inventory, claims.yaml (94 records) + lint, plan, STUDY.md.
 - `build/units/f1-13-method/` — scenes (S2 galleons, S3 Omar ibn Said mocks), text (lectures.yaml, beats.yaml, scene sheet), lane-chart (+ arguments), grouping-indian-ocean.
+
+## Ballet (20 October 2026)
+- `research_notes/Ballet/` — pass1_dossier.md, pass2_verify.md, pass2_body.md, pass2_presentation.md, BRIEF.md (the teaching brief), RETHINK.md (the constitution and the new loop).
