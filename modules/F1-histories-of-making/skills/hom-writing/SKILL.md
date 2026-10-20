@@ -7,14 +7,17 @@ description: How to write a learner-facing page for the F1 "Histories of making"
 
 The prose comes before any HTML. Write the page as text with its captions and its objectives; the toolbox dresses it afterwards. The learner is an adult with no background in the subject who has twenty minutes and a phone.
 
-## 1. Before the first sentence: the brief
+## 1. Before the first sentence: the subject, then the brief
 
-Write from the unit's brief (`hom-research` makes it): the thesis, five to seven claims with their strongest source, three verified objects, one argument, one living maker, what the sources leave out, the spine the subject suggests. If there is no brief, write one first; a page without a thesis becomes a catalogue.
+A page is written from a planned unit, never from the first good object. Before any page: the subject is scoped from every angle the course needs (for an art form: history and institutions; the body or the hands and their technique; the objects, makers and materials; the stage, space or setting; money, labour and ownership; the record and how it is taught), from the scholarly base and not from a handful of articles; the scope says what a learner must, should and could know, the concepts and debates, and what each session carries (`research_notes/Ballet/scope/` is the worked example). A page is one part of that plan, and its reader should see where it sits: what came before, what this page adds, what comes next. A page that tells the story of one object without the idea it serves is a feature article, not teaching.
+
+Then write from the unit's brief (`hom-research` makes it): the thesis, five to seven claims with their strongest source, three verified objects, one argument, one living maker, what the sources leave out, the spine the subject suggests. If there is no brief, write one first; a page without a thesis becomes a catalogue.
 
 ## 2. The opening
 
 - **Objectives, in the second person, before anything else.** "By the end you will be able to…" three lines, each a verb a reader can test on themselves (date a print from its margin; name the four trades and who the law named; explain why the maker's name is missing). Drawn from the unit spec's success criteria, written by the editor.
-- **The thesis in one sentence**, and the first object within the first 150 words.
+- **The context first, then the thesis**: what the reader needs to know to understand why this matters (the period, the place, the institution, the idea), in two or three sentences; then the thesis in one sentence; the first object within the first 200 words.
+- **No question or guess at the opening.** The page opens with context and the idea, never with a quiz, a poll or a "choose one" (decided by the course owner, 21 October 2026). Questions belong at the end of a section or a session, after the reader has the material to answer them, and as making tasks rather than right-or-wrong choices.
 - **The five terms the page will use** that the reader does not know (nishiki-e, kiwame; flow, relay; pointe, turnout), each glossed in a clause the first time it appears, never in a glossary alone.
 - Where the subject carries a content note, it comes once, here, with a persistent control to skip the stations it covers; never repeated station by station.
 
@@ -47,11 +50,11 @@ Under the image, never over it. A caption says what the eye cannot see ("Prussia
 
 ## 6. What to leave out
 
-The thesis chooses. A fact that does not serve one of the brief's claims goes back to the dossier, however good it is. A page's reading is 400–900 words of prose (the lint counts everything a learner sees, key and guess included, so a page with a figure key runs to about 1,000); a unit is a twenty-minute read; what does not fit is a link, not a paragraph. A named person stays on the page only with a number or a line of their own; a reader keeps three names, so a list of seven loses them all. Every page ends with one short paragraph on what its sources leave out, in the reader's terms: the people it could not name, the places the record does not reach. It is written for the reader, not as an apology to the project: no objects the reader cannot see, no verification state ("being fetched", "not yet checked"), which belongs to the editor view only. Negatives are scoped to what was read ("no source read for this page", "the nearest count this page found"), never to the world ("no source anywhere", "the only count that exists").
+The thesis chooses. A fact that does not serve one of the brief's claims goes back to the dossier, however good it is. A page's reading is 400–900 words of prose (the lint counts everything a learner sees, key and guess included, so a page with a figure key runs to about 1,000); a unit is a twenty-minute read; what does not fit is a link, not a paragraph. A named person stays on the page only with a number or a line of their own; a reader keeps three names, so a list of seven loses them all. A page does not end on what its sources leave out. Gaps that matter to the argument go inside the argument, where the reader meets them ("the makers are known to us only from a journalist's visit" belongs in the paragraph about the makers); the list of what the page could not include, why there is no photograph, and how the names were sourced go to the editor view. The page ends on the idea and on where the reader goes next. Where a gap is part of the learning, it is written for the reader, not as an apology to the project: no objects the reader cannot see, no verification state ("being fetched", "not yet checked"), which belongs to the editor view only. Negatives are scoped to what was read ("no source read for this page", "the nearest count this page found"), never to the world ("no source anywhere", "the only count that exists").
 
 ## 7. Guesses, arguments and the ending
 
-- A guess is a commitment: it comes before the paragraph that answers it, not after; no answer visible before the choice, including in the next heading or a figure key on the same screen; two responses, one for each way the reader chose; no hint that quotes the answer.
+- No opening guess or quiz (see §2). Where a session uses a question, it comes after the material, asks the reader to apply or argue rather than recall, and has no right-or-wrong reveal.
 - An argued card records the reader's lean and shows the evidence against it with one sentence for the reader who leaned the other way.
 - One spaced return per unit (a question from two sections back) and one across units.
 - The unit ends with something the learner makes: the attribution line, the SRC line, the margin read, written by the learner with a worked example first. That is the assessment; there are no points.
