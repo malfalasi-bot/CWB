@@ -1,0 +1,6 @@
+W-WORDS build/units/ballet/dist/the-shoe.html: 1227 words in the learner view (400–900 expected per page)
+J-PRIORITY build/units/ballet/dist/the-shoe.html:44: "first" in "The people at Freed's factory are named here from two visits in 2013 by the writer of Spit" (judge: is this a claim of priority?)
+
+0 errors in 1 file(s)
+
+0 errors, 0 warnings; 34 records in the register; 15 year tokens checked in 1 file (0 citation or counting years skipped)

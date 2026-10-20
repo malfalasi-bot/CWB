@@ -36,16 +36,21 @@ def learner_text(path):
     s = open(path, encoding="utf8").read()
     if path.endswith(".html"):
         i = s.lower().find("<body"); s = s[i:] if i >= 0 else s
-        s = re.sub(r"<(svg|script|style)\b.*?</\1>", " ", s, flags=re.S | re.I)
+        s = re.sub(r"<(svg|script|style|aside|footer)\b.*?</\1>", " ", s, flags=re.S | re.I)
+        s = re.sub(r"<(\w+)[^>]*\bhidden\b[^>]*>.*?</\1>", " ", s, flags=re.S | re.I)   # anything hidden from the learner
         # drop editor/apparatus elements by class or id (shallow: the element's own tag block)
-        s = re.sub(r"<(\w+)[^>]*(class|id)=\"[^\"]*(editor|apparatus|colophon|sources|credit|honesty|waits)[^\"]*\"[^>]*>.*?</\1>", " ", s, flags=re.S | re.I)
+        s = re.sub(r"<(\w+)[^>]*(class|id)=\"[^\"]*(editor|apparatus|colophon|sources|credit|honesty|waits|chip)[^\"]*\"[^>]*>.*?</\1>", " ", s, flags=re.S | re.I)
+        s = re.sub(r"<(div|header|nav)[^>]*class=\"[^\"]*band[^\"]*\"[^>]*>.*?</\1>", " ", s, flags=re.S | re.I)   # the band is navigation
+        s = re.sub(r"</(p|li|h[1-6]|button|div|td|th|figcaption)>", ". ", s, flags=re.I)
+        s = re.sub(r"<(p|li|h[1-6]|button|div|td|th|figcaption)\b[^>]*>", "\n", s, flags=re.I)   # a block boundary ends a sentence
         s = re.sub(r"<[^>]+>", " ", s)
         s = re.sub(r"&nbsp;", " ", s)
+        s = re.sub(r"([.!?])\s*\.", r"\1", s)
     return re.sub(r"[ \t]+", " ", s)
 
 def sentences(t):
     t = re.sub(r"\s+", " ", t)
-    parts = re.split(r"(?<=[.!?])\s+(?=[A-Z\"“])", t)
+    parts = re.split(r"(?<=[.!?])\s+(?=[A-Za-z\"“])", t)
     return [p.strip() for p in parts if len(p.split()) >= 3]
 
 def main(argv):

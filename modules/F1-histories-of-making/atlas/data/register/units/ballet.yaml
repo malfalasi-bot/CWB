@@ -1,0 +1,526 @@
+# atlas/data/register/units/ballet.yaml — the register for the ballet unit (one store; records keyed by the claim)
+# header
+unit: ballet
+title: "Ballet, as a history of making"
+status: unfrozen
+signed_by: null
+signed_date: null
+drafted_by: "Claude Fable 5.1, 21 October 2026, from research_notes/Ballet/pass1_dossier.md, pass2_verify.md, pass2_body.md; revised after the round-1 board (research_notes/Ballet/board/round1/)"
+revision: 3
+spotcheck_sample: [bal-crown-pairs-day, bal-crown-years, bal-marks-reason, bal-training-years, bal-paris-strike-2023, bal-freed-output, bal-makers-count, bal-capezio, bal-grishko, bal-heritage-crafts, bal-piecework, bal-wear-no-other, bal-freed-founded, bal-brugnoli, bal-gaynor-launch]  # checked at source by the board over three rounds, 21 Oct 2026; none failed
+
+sources:
+  freed-history: {title: "Freed of London, History", url: "https://www.freedoflondon.com/history/", kind: institutional, interest: "the company about itself", date_accessed: "2026-10-20", archive_url: null}
+  spitalfields-2013: {title: "At Freed of London Ltd, Ballet & Theatrical Shoemakers (Spitalfields Life, 16 May 2013; republished 18 Jan 2019)", url: "https://spitalfieldslife.com/2013/05/16/at-freed-of-london-ltd-ballet-theatrical-shoemakers/", kind: press, interest: "a journalist's factory visit", date_accessed: "2026-10-20", archive_url: null}
+  4dancers-2012: {title: "The history & making of Freed pointe shoes (4dancers, Jan 2012)", url: "https://4dancers.org/2012/01/the-history-making-of-freed-pointe-shoes", kind: teaching page, interest: none, date_accessed: "2026-10-20", archive_url: null}
+  heritage-crafts: {title: "Heritage Crafts, Pointe shoe making (Red List)", url: "https://www.heritagecrafts.org.uk/pointe-shoe-making/", kind: institutional, interest: "a listing body", date_accessed: "2026-10-20", archive_url: null}
+  pointe-2020: {title: "Rosica, A history of pointe shoes (Pointe Magazine, 4 Aug 2020)", url: "https://pointemagazine.com/history-of-pointe-shoes/", kind: press, interest: none, date_accessed: "2026-10-20", archive_url: null}
+  pointe-2018-nycb: {title: "Fuhrer, Inside NYCB's pointe shoe room (Pointe/Dance Spirit, 13 Mar 2018)", url: "https://pointemagazine.com/nycb-pointe-shoe-room/", kind: press, interest: "named staff quoted", date_accessed: "2026-10-20", archive_url: null}
+  sofii-rbo: {title: "Hammond, Royal Ballet and Opera annual Pointe Shoe Appeal (SOFII, 11 Dec 2024)", url: "https://sofii.org/case-study/royal-ballet-and-opera-annual-pointe-shoe-appeal", kind: press, interest: "a fundraising showcase, one remove from the company", date_accessed: "2026-10-20", archive_url: null}
+  brb-appeal: {title: "Birmingham Royal Ballet, Pointe Shoe Appeal (video 20 Mar 2024)", url: "https://brb.org.uk/join-and-support/pointe-shoe-appeal", kind: institutional, interest: "a fundraising page", date_accessed: "2026-10-20", archive_url: null}
+  pointe-book-2012: {title: "Barringer and Schlesinger, The Pointe Book (2012), as cited by Wikipedia 'Pointe shoe'", url: "https://en.wikipedia.org/wiki/Pointe_shoe", kind: aggregator, interest: none, date_accessed: "2026-10-20", archive_url: null}
+  wiki-brugnoli: {title: "Wikipedia, Amalia Brugnoli (citing Migel 1981)", url: "https://en.wikipedia.org/wiki/Amalia_Brugnoli", kind: aggregator, interest: none, date_accessed: "2026-10-20", archive_url: null}
+  australian-ballet-gaslight: {title: "The Australian Ballet, Ghosts in the gaslight", url: "https://australianballet.com.au/blog/ghosts-in-the-gaslight", kind: teaching page, interest: none, date_accessed: "2026-10-20", archive_url: null}
+  carnavalet-g38944: {title: "Musée Carnavalet, Marie Taglioni dans la Sylphide, pl. 3 (G.38944)", url: "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/marie-taglioni-dans-la-sylphide-pl-3", kind: holder record, interest: none, date_accessed: "2026-10-20", archive_url: null}
+  roh-bussell: {title: "ROH Collections, pointe shoes worn and signed by Darcey Bussell", url: "https://rohcollections.org.uk/Magnify/Costumes5687.aspx", kind: holder record, interest: none, date_accessed: "2026-10-20", archive_url: null}
+  brb-madgwick: {title: "Birmingham Royal Ballet, My first ballet shoes: Sandra Madgwick (5 Feb 2024)", url: "https://brb.org.uk/stories/my-first-ballet-shoes-sandra-madgwick", kind: institutional, interest: none, date_accessed: "2026-10-20", archive_url: null}
+  euronews-2023: {title: "Paris Opera ballerinas to go on strike over Christmas period (Euronews, 20 Dec 2023)", url: "https://www.euronews.com/2023/12/20/paris-opera-ballerinas-to-go-on-strike-over-christmas-period", kind: press, interest: "a union figure in a dispute", date_accessed: "2026-10-20", archive_url: null}
+  moscow-times-2020: {title: "For ballet shoes, Russian company is on pointe (AFP via Moscow Times, 2 Mar 2020)", url: "https://www.themoscowtimes.com/2020/03/02/for-ballet-shoes-russian-company-is-on-pointe-a69479", kind: press, interest: "company-supplied figures", date_accessed: "2026-10-20", archive_url: null}
+  lemelson-minden: {title: "Lemelson-MIT, Eliza Minden", url: "https://lemelson.mit.edu/resources/eliza-minden", kind: institutional, interest: none, date_accessed: "2026-10-20", archive_url: null}
+  uspto-5740618: {title: "US patent 5,740,618, Dynamic toe shoe box liner (granted 21 Apr 1998)", url: "https://patents.google.com/patent/US5740618", kind: primary, interest: none, date_accessed: "2026-10-20", archive_url: null}
+  wiki-capezio: {title: "Wikipedia, Capezio", url: "https://en.wikipedia.org/wiki/Capezio", kind: aggregator, interest: none, date_accessed: "2026-10-20", archive_url: null}
+  capezio-about: {title: "Capezio, About us ('Established 1887'; first shop near the old Metropolitan Opera House)", url: "https://www.capezio.com/about-us/", kind: institutional, interest: "the company about itself", date_accessed: "2026-10-20", archive_url: null}
+  spitalfields-makers-2013: {title: "The Pointe Shoe Makers of Hackney (Spitalfields Life, 16 July 2013; interviews Sarah Winman, photographs Patricia Niven)", url: "https://spitalfieldslife.com/2013/07/16/the-pointe-shoe-makers-of-hackney/", kind: press, interest: "a journalist's portrait series; the makers speak in their own words", date_accessed: "2026-10-21", archive_url: null}
+  freed-pointe-shoes: {title: "Freed of London, Pointe shoes ('nearly 250,000 pairs' a year)", url: "https://www.freedoflondon.com/pointe-shoes/", kind: institutional, interest: "the company about itself", date_accessed: "2026-10-20", archive_url: null}
+  spectator-2019: {title: "The big burly blokes who make infinitely precise pointe shoes by hand (Spectator Australia, 27 Nov 2019)", url: "https://www.spectator.com.au/2019/11/the-big-burly-blokes-who-make-infinitely-precise-pointe-shoes-by-hand/", kind: press, interest: none, date_accessed: "2026-10-20", archive_url: null}
+  sceneweb-2023: {title: "Levée du préavis de grève des danseurs du ballet de l'Opéra national de Paris (Sceneweb, 21 Dec 2023)", url: "https://sceneweb.fr/levee-du-preavis-de-greve-des-danseurs-du-ballet-de-lopera-national-de-paris/", kind: press, interest: none, date_accessed: "2026-10-21", archive_url: null}
+  franceinfo-2023: {title: "Opéra de Paris : la CGT lève son préavis de grève pour Noël et le réveillon (Franceinfo, Dec 2023)", url: "https://www.franceinfo.fr/culture/musique/opera/opera-de-paris-la-cgt-leve-son-preavis-de-greve-pour-noel-et-le-reveillon-de-la-saint-sylvestre_6258663.html", kind: press, interest: none, date_accessed: "2026-10-21", archive_url: null}
+  csm-1990: {title: "Andreae, A Pointe Well Made (Christian Science Monitor, 11 Jan 1990)", url: "https://www.csmonitor.com/1990/0111/pfreed.html", kind: press, interest: none, date_accessed: "2026-10-21", archive_url: null}
+  dance-spirit-2015: {title: "Your moment of dance zen: Freed's mesmerizing pointe shoe video (Dance Spirit, 9 Jul 2015; reporting Freed's own introduction film)", url: "https://dancespirit.com/your-moment-of-dance-zen-freeds-mesmerizing-pointe-shoe-video/", kind: press, interest: "reports the company's own film", date_accessed: "2026-10-21", archive_url: null}
+  wiki-grishko: {title: "Wikipedia, Grishko (citing Moscow Times 2011, Rossiyskaya Gazeta 2008)", url: "https://en.wikipedia.org/wiki/Grishko", kind: aggregator, interest: none, date_accessed: "2026-10-20", archive_url: null}
+
+records:
+  bal-freed-founded:
+    claim: Frederick Freed and his wife Dora open the shop in Cecil Court, London
+    kind: date
+    value: 1929
+    precision: year
+    calendar: gregorian
+    confidence: documented
+    sources: [freed-history]
+    alternates:
+      - {value: 1920, sources: [spitalfields-2013], note: "'founded in 1920 in St Martin's Lane'"}
+    display: "1929"
+    where_used: {pages: [the-shoe]}
+    editor_note: "The company's own history page as fetched names Frederick only; Dora Freed, milliner and co-founder, is from Spitalfields Life 2013. Spitalfields Life 2013 gives 'founded in 1920 in St Martin's Lane' instead: recorded as an alternate. Endell Street 1934; Mercer Street 1947; Hackney from the 1960s."
+    alternates_note: "1920, St Martin's Lane (spitalfields-2013)"
+    rule: "a company date, labelled as the company's in the sentence"
+  bal-freed-hackney:
+    claim: Freed's pointe shoes are made at a factory in Hackney, east London
+    kind: date
+    value: 1960
+    precision: circa
+    calendar: gregorian
+    confidence: documented
+    sources: [freed-history, spitalfields-2013]
+    alternates: []
+    display: "the 1960s"
+    where_used: {pages: [the-shoe]}
+    editor_note: "The decade of the move; the year is not on the company page."
+  bal-box-materials:
+    claim: The box of a pointe shoe is built from layers of paper, hessian and satin stuck with flour-and-water paste; there is no wood in it
+    kind: number
+    value: 0
+    precision: year
+    calendar: gregorian
+    confidence: documented
+    sources: [spitalfields-2013, 4dancers-2012]
+    alternates: []
+    display: "no wood"
+    where_used: {pages: [the-shoe]}
+    editor_note: "Observed on the factory visit (Spitalfields Life quotes 'There's no wood in the block'); the paste is mixed weekly."
+  bal-turn-shoe:
+    claim: A pointe shoe is made inside out on a last and turned right side out when complete
+    kind: number
+    value: 1
+    precision: year
+    calendar: gregorian
+    confidence: documented
+    sources: [spitalfields-2013, 4dancers-2012]
+    alternates: []
+    display: "inside out"
+    where_used: {pages: [the-shoe]}
+    editor_note: "The turn-shoe method; observed."
+  bal-crown-pairs-day:
+    claim: Ray, the maker whose mark is the crown, makes forty pairs a day, as he told the visiting writer
+    kind: number
+    value: 40
+    precision: circa
+    calendar: gregorian
+    confidence: documented
+    sources: [spitalfields-makers-2013]
+    alternates:
+      - {value: 41, sources: [spitalfields-2013], note: "'Crown makes 41 pairs a day', the May 2013 factory visit"}
+      - {value: 35, sources: [4dancers-2012], note: "'about 30 to 40 pairs a day' for a maker generally"}
+    display: "forty pairs a day"
+    where_used: {pages: [the-shoe]}
+    editor_note: "His own figure, told, not counted; one journalist's record, so probable with the teller named in the sentence. The round-1 board found the name; v1 had said it was not in the record."
+    rule: "a told figure, labelled as the teller's in the sentence"
+  bal-crown-years:
+    claim: Ray had been at Freed for twenty-six years when interviewed
+    kind: number
+    value: 26
+    precision: year
+    calendar: gregorian
+    confidence: documented
+    sources: [spitalfields-makers-2013]
+    alternates:
+      - {value: 24, sources: [spitalfields-2013], note: "the May 2013 visit gives 24"}
+    display: "twenty-six years"
+    where_used: {pages: [the-shoe]}
+    editor_note: "'I have been here for twenty-six years', July 2013; the May visit says 24. One journalist's record."
+    rule: "a told figure, labelled as the teller's in the sentence"
+  bal-marks-reason:
+    claim: The makers' marks exist so that a faulty shoe can be traced to its maker, in a maker's own words
+    kind: number
+    value: 1
+    precision: year
+    calendar: gregorian
+    confidence: documented
+    sources: [spitalfields-makers-2013]
+    alternates: []
+    display: "so they know who to blame"
+    where_used: {pages: [the-shoe]}
+    editor_note: "Ray's words. Who began the marks and when is not in any source read; v1's 'Frederick Freed began the marks in 1929' was unsourced and is withdrawn."
+    rule: "a told figure, labelled as the teller's in the sentence"
+  bal-training-years:
+    claim: Training a pointe-shoe maker takes two to three years, Spitalfields Life says
+    kind: number
+    value: [2, 3]
+    precision: range
+    calendar: gregorian
+    confidence: documented
+    sources: [spitalfields-makers-2013]
+    alternates: []
+    display: "two to three years"
+    where_used: {pages: [the-shoe]}
+    editor_note: "The article's statement; one journalist's record."
+    rule: "a told figure, labelled as the teller's in the sentence"
+  bal-oven:
+    claim: One account gives the overnight oven at about seventy degrees Celsius
+    kind: number
+    value: 70
+    precision: circa
+    calendar: gregorian
+    confidence: documented
+    sources: [4dancers-2012, spitalfields-2013]
+    alternates: []
+    display: "about 70 degrees"
+    where_used: {pages: [the-shoe]}
+    editor_note: "Overnight baking is in both; the temperature only in 4dancers (160 °F)."
+    rule: "a told figure, labelled as the teller's in the sentence"
+  bal-monakhova-years:
+    claim: Olga Monakhova had worked twenty-seven years at Grishko's factory, AFP reported
+    kind: number
+    value: 27
+    precision: year
+    calendar: gregorian
+    confidence: documented
+    sources: [moscow-times-2020]
+    alternates: []
+    display: "twenty-seven years"
+    where_used: {pages: [the-shoe]}
+    editor_note: "AFP, 2020."
+    rule: "a told figure, labelled as the teller's in the sentence"
+  bal-makers-count:
+    claim: The number of pointe-shoe makers at Freed
+    kind: number
+    value: [20, 40]
+    precision: range
+    calendar: gregorian
+    confidence: contested
+    sources: [4dancers-2012, csm-1990]
+    alternates:
+      - {value: 40, sources: [csm-1990], note: "'approximately 40 makers', 1990"}
+      - {value: [20, 30], sources: [4dancers-2012], note: "2012"}
+      - {value: 26, sources: [pointe-book-2012], note: "Wikipedia 'Freed of London'"}
+    display: "between twenty and forty"
+    where_used: {pages: [the-shoe]}
+    editor_note: "Counts by outsiders across three decades; the company's own count (28 in pass 1) was not found on the page fetched and is dropped until it is. Business Insider's 24 (2021) dropped: not in hand."
+  bal-freed-output:
+    claim: Freed's own figures for pairs of pointe shoes a year run from about 160,000 to nearly 250,000
+    kind: number
+    value: [160000, 250000]
+    precision: range
+    calendar: gregorian
+    confidence: contested
+    sources: [dance-spirit-2015, freed-pointe-shoes]
+    alternates:
+      - {value: 160000, sources: [dance-spirit-2015], note: "48,000 standard and 112,000 custom pairs a year, about 700 a day, from Freed's 2015 film as reported"}
+      - {value: 250000, sources: [freed-pointe-shoes], note: "'nearly 250,000' on the company's site"}
+      - {value: 150000, sources: [spitalfields-2013], note: "'more than 150,000 pairs a year', a visitor's figure, 2013"}
+      - {value: 333000, sources: [spectator-2019], note: "a visitor's figure, 2019"}
+    display: "from about 160,000 to nearly 250,000"
+    where_used: {pages: [the-shoe]}
+    editor_note: "The company's two figures disagree with each other and with the visitors'; the page says so, which is what it teaches. v2 had dropped the film figure."
+    rule: "a company figure, labelled as the company's"
+  bal-heritage-crafts:
+    claim: Heritage Crafts lists pointe-shoe making in the UK as critically endangered, with two businesses employing two or more makers and between 21 and 50 professionals
+    kind: number
+    value: 2
+    precision: year
+    calendar: gregorian
+    confidence: documented
+    sources: [heritage-crafts]
+    alternates: []
+    display: "two businesses"
+    where_used: {pages: [the-shoe]}
+    editor_note: "Red List, reviewed 2025: critically endangered; 21–50 professionals in two businesses (Freed, Suffolk Pointe); 3 apprentices at Freed; viability: 'trade is buoyant', materials harder and dearer to source, fewer independent dance shops. v2 wrongly said 'closing of workshops'."
+  bal-hours-per-pair:
+    claim: A pair of pointe shoes lasts about ten to twenty hours of dancing
+    kind: number
+    value: [10, 20]
+    precision: range
+    calendar: gregorian
+    confidence: probable
+    sources: [pointe-book-2012]
+    alternates:
+      - {value: 1, sources: [brb-appeal], note: "'can wear out within one hour during a performance': a fundraising claim"}
+    display: "ten to twenty hours"
+    where_used: {pages: [the-shoe]}
+    editor_note: "Barringer and Schlesinger via Wikipedia; a principal may finish a pair in a performance."
+  bal-rbo-pairs:
+    claim: The Royal Ballet says it uses more than six thousand pairs of pointe shoes a year
+    kind: number
+    value: 6000
+    precision: circa
+    calendar: gregorian
+    confidence: documented
+    sources: [sofii-rbo]
+    alternates:
+      - {value: 10000, sources: [brb-appeal], note: "an older ROH appeal figure, possibly all footwear"}
+    display: "more than 6,000 pairs"
+    where_used: {pages: [the-shoe]}
+    editor_note: "The company's figure, from its appeal; documented as the company's claim, not audited."
+    rule: "a fundraising figure, labelled as the company's"
+  bal-rbo-cost:
+    claim: The Royal Ballet pays about fifty pounds a pair on average
+    kind: number
+    value: 50
+    precision: circa
+    calendar: gregorian
+    confidence: documented
+    sources: [sofii-rbo]
+    alternates:
+      - {value: 39, sources: [sofii-rbo], note: "the earlier average the appeal cites"}
+    display: "about £50"
+    where_used: {pages: [the-shoe]}
+    editor_note: "The company's figure."
+    rule: "a fundraising figure, labelled as the company's"
+  bal-nycb-budget:
+    claim: Linnette Roe, New York City Ballet's shoe-room supervisor, put the company's pointe-shoe bill at about 780,000 dollars a year
+    kind: number
+    value: 780000
+    precision: circa
+    calendar: gregorian
+    confidence: documented
+    sources: [pointe-2018-nycb]
+    alternates:
+      - {value: 500000, sources: [pointe-2018-nycb], note: "Playbill 2007: $500,000"}
+    display: "about $780,000"
+    where_used: {pages: [the-shoe]}
+    editor_note: "Linnette Roe, the shoe-room supervisor, quoted in the press, 2018; 9,000–11,000 pairs of all types."
+    rule: "a company figure, labelled as the company's"
+  bal-brugnoli:
+    claim: Amalia Brugnoli rises onto the tips of her toes on stage; whether she was the earliest is contested
+    kind: date
+    value: 1823
+    precision: year
+    calendar: gregorian
+    confidence: contested
+    sources: [pointe-2020, wiki-brugnoli]
+    alternates:
+      - {value: 1822, sources: [wiki-brugnoli], note: "Wikipedia gives both years"}
+      - {value: [1813, 1815], sources: [wiki-brugnoli], note: "Geneviève Gosselin is reported on pointe in Paris c. 1813–15; citation needed"}
+    display: "1823"
+    where_used: {pages: [the-shoe]}
+    editor_note: "The 1823 date is given by Pointe Magazine (Vienna was in pass 1 from ballet.org.uk, not in the register, so the page no longer says Vienna); the priority is what is contested (Gosselin c. 1813–15; a Bias lithograph of 1821 per the board's historian, not yet seen). Hammond, 'Searching for the Sylph' (DRJ 1987–88) and Guest are the sources to add. Never a tick."
+  bal-taglioni-sylphide:
+    claim: Marie Taglioni dances La Sylphide at the Paris Opéra
+    kind: date
+    value: 1832
+    precision: year
+    calendar: gregorian
+    confidence: documented
+    sources: [australian-ballet-gaslight, pointe-2020]
+    alternates: []
+    display: "12 March 1832"
+    where_used: {pages: [the-shoe]}
+    editor_note: "The premiere date; her shoes were darned satin slippers with a leather sole, no box (Pointe Magazine, probable)."
+  bal-italian-box:
+    claim: Italian shoemakers reinforce the toe with newspaper, paste and pasteboard
+    kind: date
+    value: [1870, 1899]
+    precision: range
+    calendar: gregorian
+    confidence: probable
+    sources: [pointe-2020]
+    alternates: []
+    display: "the 1870s to 1890s"
+    where_used: {pages: [the-shoe]}
+    editor_note: "Pointe Magazine's account; no primary seen."
+  bal-dancers-sew:
+    claim: Dancers sew their own ribbons and elastics and break their shoes in; the factory supplies the shoe only
+    kind: number
+    value: 1
+    precision: year
+    calendar: gregorian
+    confidence: documented
+    sources: [brb-madgwick, pointe-2018-nycb]
+    alternates: []
+    display: "their own"
+    where_used: {pages: [the-shoe]}
+    editor_note: "Sandra Madgwick's statement; the NYCB shoe-room article."
+  bal-paris-prep-hours:
+    claim: The Paris Opéra dancers' union put preparation time at about forty-two hours a month, make-up and dressing included
+    kind: number
+    value: 42
+    precision: circa
+    calendar: gregorian
+    confidence: documented
+    sources: [euronews-2023]
+    alternates: []
+    display: "about 42 hours a month"
+    where_used: {pages: [the-shoe]}
+    editor_note: "A union representative's figure in a dispute, December 2023; it covers make-up and dressing and does not itemise shoe sewing; the page says so."
+    rule: "a party's figure in a dispute, labelled as theirs"
+  bal-capezio:
+    claim: Salvatore Capezio establishes his shop near the old Metropolitan Opera House, New York
+    kind: date
+    value: 1887
+    precision: year
+    calendar: gregorian
+    confidence: documented
+    sources: [capezio-about, wiki-capezio]
+    alternates: []
+    display: "1887"
+    where_used: {pages: [the-shoe]}
+    editor_note: "'Established 1887' on the company's page (pass 2); documented as the company's own date. 'Near', not 'opposite'."
+    rule: "a company date, labelled as the company's in the sentence"
+  bal-grishko:
+    claim: Nikolay Grishko founds his pointe-shoe company in Moscow
+    kind: date
+    value: [1988, 1989]
+    precision: range
+    calendar: gregorian
+    confidence: contested
+    sources: [moscow-times-2020, wiki-grishko]
+    alternates:
+      - {value: 1988, sources: [moscow-times-2020], note: "AFP 2020"}
+      - {value: 1989, sources: [wiki-grishko], note: "Wikipedia after Moscow Times 2011"}
+    display: "1988 or 1989"
+    where_used: {pages: [the-shoe]}
+    editor_note: "AFP; the company's own page not fetched."
+  bal-gaynor-launch:
+    claim: Gaynor Minden introduces its moulded-shank pointe shoe in New York
+    kind: date
+    value: 1993
+    precision: month
+    calendar: gregorian
+    confidence: documented
+    sources: [lemelson-minden]
+    alternates: []
+    display: "April 1993"
+    where_used: {pages: [the-shoe]}
+    editor_note: "The launch (April 1993), given by the Lemelson-MIT profile and the company; the patents are 1990 and 1991 (priority 1988) and 1998 (US 5,740,618). The board's historian: the hedge belongs on the patent story, not the launch."
+  bal-gaynor-patent:
+    claim: The patent for the foam liner of the Gaynor Minden box is granted
+    kind: date
+    value: 1998
+    precision: month
+    calendar: gregorian
+    confidence: documented
+    sources: [uspto-5740618]
+    alternates: []
+    display: "1998"
+    where_used: {pages: []}
+    editor_note: "US 5,740,618, filed 1995; the '1993 patent' often repeated is the launch year."
+  bal-spitalfields-visit:
+    claim: Spitalfields Life visits Freed's factory twice in 2013, in May and July, with the photographer Patricia Niven
+    kind: date
+    value: 2013
+    precision: month
+    calendar: gregorian
+    confidence: documented
+    sources: [spitalfields-2013, spitalfields-makers-2013]
+    alternates: []
+    display: "2013"
+    where_used: {pages: [the-shoe]}
+    editor_note: "May 2013; republished 2019."
+  bal-roe-2018:
+    claim: Linnette Roe, NYCB's shoe-room supervisor, gives the company's shoe budget to the press
+    kind: date
+    value: 2018
+    precision: month
+    calendar: gregorian
+    confidence: documented
+    sources: [pointe-2018-nycb]
+    alternates: []
+    display: "2018"
+    where_used: {pages: [the-shoe]}
+    editor_note: "13 March 2018."
+  bal-paris-strike-2023:
+    claim: Paris Opéra dancers give notice of a strike over preparation time, and the notice is lifted before the first strike day
+    kind: date
+    value: 2023
+    precision: month
+    calendar: gregorian
+    confidence: documented
+    sources: [euronews-2023, sceneweb-2023, franceinfo-2023]
+    alternates: []
+    display: "December 2023"
+    where_used: {pages: [the-shoe]}
+    editor_note: "Notice given for 23, 25 and 31 December; lifted on 21 December 2023 (Sceneweb; Franceinfo); the performances went ahead. v1 wrongly said the dancers struck."
+  bal-spectator-visit-2019:
+    claim: A second journalist visits Freed's Hackney factory
+    kind: date
+    value: 2019
+    precision: year
+    calendar: gregorian
+    confidence: documented
+    sources: [spectator-2019]
+    alternates: []
+    display: "2019"
+    where_used: {pages: [the-shoe]}
+    editor_note: "Dated by publication, November 2019."
+  bal-piecework:
+    claim: Freed's pointe-shoe makers are paid by the pair
+    kind: number
+    value: 1
+    precision: year
+    calendar: gregorian
+    confidence: documented
+    sources: [spitalfields-2013]
+    alternates: []
+    display: "paid by the pair"
+    where_used: {pages: [the-shoe]}
+    editor_note: "'their employment is piecework and they are their own men', May 2013 visit."
+  bal-wear-no-other:
+    claim: A dancer chooses a maker and then wears no other
+    kind: number
+    value: 1
+    precision: year
+    calendar: gregorian
+    confidence: documented
+    sources: [spitalfields-2013]
+    alternates: []
+    display: "will wear no other"
+    where_used: {pages: [the-shoe]}
+    editor_note: "'Every ballerina chooses a maker who makes her shoes according to her personal specifications and then will wear no other.' v2's 'ask for a maker by one' was not in the source."
+    rule: "a told figure, labelled as the teller's in the sentence"
+  bal-freed-film-2015:
+    claim: Freed publishes an introduction film giving its own output figures
+    kind: date
+    value: 2015
+    precision: year
+    calendar: gregorian
+    confidence: documented
+    sources: [dance-spirit-2015]
+    alternates: []
+    display: "2015"
+    where_used: {pages: [the-shoe]}
+    editor_note: "Dated by Dance Spirit's report, July 2015; the film itself not viewed."
+  bal-grishko-staff:
+    claim: Grishko says its shoes are made by more than five hundred people in Moscow, the Czech Republic and North Macedonia
+    kind: number
+    value: 500
+    precision: circa
+    calendar: gregorian
+    confidence: documented
+    sources: [moscow-times-2020]
+    alternates: []
+    display: "about five hundred people"
+    where_used: {pages: [the-shoe]}
+    editor_note: "AFP via the Moscow Times, 2 March 2020; a company figure."
+    rule: "a company figure, labelled as the company's"
+
+people:
+  ray-crown: {name: "Ray", mark: "crown", role: "pointe-shoe maker, Freed, Hackney", recorded_by: "spitalfields-makers-2013", note: "named by a journalist; not on the company's pages"}
+  taksim-anchor: {name: "Taksim", mark: "anchor", role: "pointe-shoe maker, Freed", recorded_by: "spitalfields-makers-2013"}
+  fred-f: {name: "Fred", mark: "F", role: "pointe-shoe maker, Freed", recorded_by: "spitalfields-makers-2013"}
+  daniel-butterfly: {name: "Daniel", mark: "butterfly", role: "pointe-shoe maker in training, Freed", recorded_by: "spitalfields-makers-2013"}
+  sheila: {name: "Sheila", role: "pointe-shoe finisher, Freed, forty years", recorded_by: "spitalfields-2013", note: "captioned by first name only; v2 gave her the surname of Philip Goodman, chargehand, who started the same day"}
+  varsha-bahen: {name: "Varsha Bahen", role: "finisher, Freed", recorded_by: "spitalfields-2013"}
+  rashimi-patel: {name: "Rashimi Patel", role: "pairing, Freed", recorded_by: "spitalfields-2013"}
+  luthu-miah: {name: "Luthu Miah", role: "supervisor of the binding room, Freed", recorded_by: "spitalfields-2013", note: "not on the page"}
+  philip-goodman: {name: "Philip Goodman", role: "chargehand, Freed, forty years", recorded_by: "spitalfields-2013", note: "not on the page"}
+  ozel-ahmed: {name: "Ozel Ahmed", role: "supervisor, theatrical shoes department, Freed, twenty years", recorded_by: "spitalfields-2013", note: "not on the page; v2 wrongly placed Ahmed in the finishing rooms and counted Ahmed among the women; no source gives a gender"}
+  sergei-murza: {name: "Sergei Murza", role: "craftsman, Grishko, Moscow", recorded_by: "moscow-times-2020"}
+  olga-monakhova: {name: "Olga Monakhova", role: "sewing workshop, Grishko, twenty-seven years", recorded_by: "moscow-times-2020"}
+  linnette-roe: {name: "Linnette Roe", role: "shoe-room supervisor, New York City Ballet", recorded_by: "pointe-2018-nycb"}
+  dora-freed: {name: "Dora Freed", role: "co-founder of Freed of London, milliner", recorded_by: "spitalfields-2013", note: "the company's history page as fetched names Frederick only"}
+
+objects:
+  carnavalet-taglioni-pl3:
+    title: "Marie Taglioni dans la Sylphide, pl. 3 (Souvenir d'adieu)"
+    holder: "Musée Carnavalet, Paris Musées"
+    accession: "G.38944"
+    date: "c. 1845"
+    maker: "Edward Morton after Alfred Edward Chalon; printed by M. & N. Hanhart"
+    licence: "CC0 Paris Musées"
+    rights_uri: "https://creativecommons.org/publicdomain/zero/1.0/"
+    rights_checked: "2026-10-20, Claude Fable 5.1, at the holder's record page (pass 1); image not yet fetched"
+    sources: [carnavalet-g38944]
+    status: open, image not in hand
+  roh-bussell-shoes:
+    title: "Pointe shoes worn and signed by Darcey Bussell"
+    holder: "Royal Opera House Collections"
+    accession: "Costumes 5687"
+    date: "not given on the record as read"
+    maker: "not given"
+    licence: "ROH: not open"
+    rights_uri: null
+    rights_checked: "2026-10-20: ROH images are not open; link-out only"
+    sources: [roh-bussell]
+    status: link-out
+    protocol: "level 4: link-out"

@@ -1,5 +1,13 @@
 # Changelog
 
+## 21 October 2026, the ballet loop
+
+- `WORKFLOW.md` gains step 5, the board of six personas before the human read, with the round files under `research_notes/<unit>/board/`. Replaces nothing; it fills the gap between lint and the human gate that the ballet page exposed (lints clean, eleven faults).
+- `hom-writing`: guess before the paragraph it tests and no answer in the next heading or figure key; objectives in sayable words and checked against the finished page; told figures with the teller in the sentence and the register rule "a told figure, labelled as the teller's in the sentence"; negatives scoped to what was read; schematic figures with a numbered key when no photograph is free; people named from press sources carry provenance and a removal undertaking; a named person stays only with a number or a line of their own.
+- `hom-lint`: `lint_claims.py` reads the header + sources + records register shape; `lint_prose.py` strips hidden chips, apparatus, aside and footer. Known gap: the claims lint checks years only; told numbers and names are checked by the board, not by script.
+- Register `atlas/data/register/units/ballet.yaml` to revision 3: 34 records, 28 sources, 14 people, `spotcheck_sample` filled from the board's checks. Page `build/units/ballet/the-shoe.md` v3 (v1 and v2 kept beside it).
+
+
 Format: Keep a Changelog. Each entry says what changed and what it replaces.
 
 ## 2026-10-20 — ecosystem v2

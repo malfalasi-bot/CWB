@@ -109,7 +109,7 @@ CITE_BEFORE = re.compile(
 MONTHS = r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?"
 DAY_DATE_BEFORE = re.compile(r"\b\d{1,2}\s+" + MONTHS + r"\s*$")
 COUNT_VERBS = re.compile(r"\b(?:counted|re-?counted|verified|read|re-?read|fetched|checked|fact-?checked|re-?sourced|corrected|accessed|retrieved|as\s+of|generated|built|rendered)\b(?:[^.;]|\.(?=\d)){0,60}$", re.I)
-SKIP_CONTEXT_WORDS = ("sources", "cite", "credit", "counted", "verified", "colophon")
+SKIP_CONTEXT_WORDS = ("sources", "cite", "credit", "counted", "verified", "colophon", "editor", "chip", "apparatus", "waits")
 
 YAML_PROSE_KEYS = {"text", "caption", "note", "reveal", "question", "prompt",
                    "body", "label", "title", "sub", "idea", "narration",
@@ -145,7 +145,14 @@ class Register:
     def __init__(self, path):
         with open(path, encoding="utf-8") as f:
             data = yaml.safe_load(f) or {}
-        self.records = {k: v for k, v in data.items() if isinstance(v, dict)}
+        # a unit register has a header, `sources:` and `records:`; an older flat file is records only
+        if isinstance(data.get("records"), dict):
+            self.header = {k: v for k, v in data.items() if k not in ("records", "sources", "objects")}
+            self.sources_meta = data.get("sources") or {}
+            self.records = {k: v for k, v in data["records"].items() if isinstance(v, dict)}
+        else:
+            self.header, self.sources_meta = {}, {}
+            self.records = {k: v for k, v in data.items() if isinstance(v, dict)}
         self.by_source = {}
         self.index = {}  # year -> list of (id, how) where how in value|display|alternate
         self.pos = {}

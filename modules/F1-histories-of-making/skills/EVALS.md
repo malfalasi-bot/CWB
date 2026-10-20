@@ -14,6 +14,10 @@ What the old harness tested was vocabulary (111 assertions; two were `lambda: Tr
 | 8 | Prose and vocabulary | hom-writing | any learner view | `lint_prose.py`: zero E-codes; priority claims decided by the judge from the J-PRIORITY list ("First Day's Vases" passes, "first made in Berlin" fails) |
 | 9 | Structural (trimmed) | toolbox | the built page | tokens present; `document.scrollWidth` ≤ 390 at 390 px; credit line under every image; sources and previous/next present; no dark ground outside the lecture room |
 
+## What the ballet loop showed (21 October 2026)
+
+Evals 1, 2, 4 and 8 would all have passed the ballet page's first draft; the board found eleven faults in it that no eval here catches: a wrong room and an invented surname for a worker, a press that belongs to another department, a strike that never happened, a company's figure attributed to visitors, an origin story with no source, an objective the page did not meet, a guess placed after its answer. Two additions follow: eval 2's script should check told numbers and proper names against the register and people block, not years only; and a tenth eval, **the board**, runs the six personas of `WORKFLOW.md` step 5 on the built page and passes when no persona scores below 4 and every fault they quote is either fixed or recorded as open in the register header. The board is judged work and costs six agent runs a round; it runs behind lint and before the human read, never instead of the human.
+
 ## Harness
 
 - `run_eval.py` from the skill-creator package with three seeds; the baseline is the previous tagged skill set, run on the same evals with the same paths available.

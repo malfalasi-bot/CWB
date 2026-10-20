@@ -1,4 +1,4 @@
-# The workflow (current, 20 October 2026)
+# The workflow (current, 21 October 2026)
 
 This is the one description of how work on the course is done. It replaces the seven-step method of `skills/hom-design-toolbox/references/method.md` and the four resets before it; each change to it is a `CHANGELOG.md` entry that says what it replaces.
 
@@ -7,10 +7,11 @@ This is the one description of how work on the course is done. It replaces the s
 1. **Research** (`hom-research`). Read `specs/F1.N.md` first; it is the source of truth for the unit's question and success criteria. Pass one: the dossier in twelve kinds. Pass two: verify at the holder, fill the gaps, study how the subject is already presented. Write the unit's register (`atlas/data/register/units/<unit>.yaml`, the only store) and the benchmark of what the content can carry.
 2. **Brief** (`hom-research` §6). One page: thesis, claims, objects, argument, living maker, counts, what is left out, the spine, the learner's path, what is still needed. The human reads the brief and decides the spine.
 3. **One page** (`hom-writing`, then one reference of `hom-design-toolbox`). The learner view as prose first; then dressed. No system, no fan-out, no second page until the first is read.
-4. **Lint** (`hom-lint`): claims and prose; the editor view shows what waits.
-5. **The human read.** A named person reads the learner view on a phone, says the thesis back, names the first thing learned and where they stopped. Changes go back to step 3. Where possible a five-reader think-aloud (`research_notes/Reader tests/`, protocol to write).
-6. **Freeze and sign.** Spot-check (link works · page is about this · page says this value) on a sample and every documented record on a tick; the editor signs the register header; tag `claims-<unit>-v1`; the colophon switches from "unreviewed" to the reviewer's name and date; the spec's rows are updated to say what now exists.
-7. **Then the rest of the unit**, page by page, and only then the Atlas links, scenes and tools the brief said earn their place.
+4. **Lint** (`hom-lint`): claims and prose; the editor view shows what waits. Clean lints do not mean a correct page: the ballet page passed both with eleven substantive faults.
+5. **The board.** Before any human reads it, six readers in persona (a historian of the subject, a first-time learner on a phone, a practitioner of the craft, a learning designer, an editor and fact-checker who re-fetches sources, an inclusion and ethics reader) each score the learner view 1–5 and list faults with the sentence quoted and the fix, written to `research_notes/<unit>/board/round<N>/`. Fixes go back to step 3; the round repeats until no persona scores below 4 (the ballet page took three rounds: 2/3/2/3/2/3 → 3/4/3/3/3/4 → 4/4/4/4/4/4). The editor persona's source checks are recorded in the register's `spotcheck_sample`. The board is a stand-in for the human read, not a replacement; it does not sign.
+6. **The human read.** A named person reads the learner view on a phone, says the thesis back, names the first thing learned and where they stopped. Changes go back to step 3. Where possible a five-reader think-aloud (`research_notes/Reader tests/`, protocol to write).
+7. **Freeze and sign.** Spot-check (link works · page is about this · page says this value) on a sample and every documented record on a tick; the editor signs the register header; tag `claims-<unit>-v1`; the colophon switches from "unreviewed" to the reviewer's name and date; the spec's rows are updated to say what now exists.
+8. **Then the rest of the unit**, page by page, and only then the Atlas links, scenes and tools the brief said earn their place.
 
 ## Standing rules
 
