@@ -1,0 +1,19 @@
+# Brief: the ballet as a made work, from idea to finished experience
+
+Context. Creative World is a design-education program about world-building: learners build a "Concept DNA" for their own world (premise; perimeter; rules; anti-DNA; obligations; collection map; anchor expression; adjacent translation; rights and money; handover; lifecycle; grammars; sources). F1 "Histories of making" is its history foundation. Six research passes on ballet already exist in `../scope/` (history and institutions; body and technique; objects and materials; stage design; economics, labour, authorship; scholarship and teaching). They treat ballet's objects, bodies and institutions as made things. What is missing is **the work itself as a product**: each ballet is a concept that someone had, rooted in sources and influences, developed by a team into a world with its own rules, vocabulary, palette, music and look, produced, received, and then remade. The course wants to use this to teach how ideas become a finished creative concept and an experience.
+
+For each work assigned to you, find out and write:
+1. **Premise.** The idea in one or two sentences, as its makers framed it, and as scholars read it.
+2. **Roots.** Where the idea came from: literary, folk, visual, musical, political, travel or scientific sources; earlier works it answers; the culture it borrowed from and how (with the debate where borrowing is contested). Name the specific texts and images (e.g. Heine's *De l'Allemagne* for *Giselle*).
+3. **Who had it and how it was developed.** The originator (often not the choreographer); the documents of development (livret, scenario, letters, programme notes, design meetings, memoirs); the sequence from idea to rehearsal; the decisions and abandoned directions where recorded.
+4. **The world it built.** Its rules: setting, vocabulary of movement, music, palette, costume and scenic language, what it refuses (its anti-DNA, explicit or implicit); its "grammar" against the conventions of its day.
+5. **The team and the credit.** Every role you can find (librettist, composer, choreographer, designer, scene painter, costumier, lighting, producer or patron), and who the credit line names and drops.
+6. **Production.** Budget, workshops, time, the theatre, the premiere (date and place), the audience it was made for.
+7. **Reception and afterlife.** What happened at the premiere; how it was revived, notated, remade and reinterpreted; which versions are now "the" work; how the concept travelled into fashion, design, film or other media (adjacent translation).
+8. **Primary documents and open images.** Livrets, scores, designs, programmes, photographs, films: who holds them and on what terms (CC0, PD, CC BY, CC BY-SA; or non-commercial/link-only). Give URLs only when you saw them in a result; never compose one.
+9. **Best sources.** The scholarship (author, title, year), marked open access where it is.
+10. **Concept DNA reading.** A short mapping of the work to the Concept DNA fields above, where it fits naturally, marked as our interpretation.
+
+Rules: claims marked documented (seen at source), probable (secondary), contested (give both readings) or argued; "earliest known", never "first"; quotes under 25 words; Japanese names in Japanese order; no composed URLs. Search widely (Google Scholar, JSTOR, Project MUSE, OAPEN, DOAJ, archive.org, Gallica, LoC, NYPL, V&A, museum sites).
+
+**Save as you go.** Create your output file within your first five tool calls with headings for each work, and append after every few searches, so nothing is lost if you are cut off. End the file with a cross-work section: patterns you see in how ballet concepts are born and developed (who originates, what sources, how teams form, how worlds get rules, how works are remade). Reply with a 200-word summary.
