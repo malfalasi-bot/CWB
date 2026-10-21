@@ -74,6 +74,9 @@ Gaps the register still has (argued): no Indian, Iranian, Gulf, Indonesian, Braz
 Exactly the ten headings of works/BRIEF_WORKS.md (premise; roots; who had it and how it was developed; the world it built; the team and the credit; production; reception and afterlife; primary documents and open images; best sources; Concept DNA reading). Length 1,200–1,800 words (the W files average about 1,450 per work). Add a header block that is the short card (3.2), so every full card also works as a short card.
 
 ### 3.2 Short card (every work): about 150 words, two minutes
+
+**Superseded 22 October 2026** by the concept-first short card in `../CASE_WORLD_PLAN.md` §3.2 (idea, built from, the world, the look, the family, off the stage, remade as, threads, credit in one line). The table below is kept as the record of the first design; its harvestable fields still feed the credit line and the index row.
+
 | Field | Content | Harvestable? |
 |---|---|---|
 | Title | original script + English | yes (Wikidata labels, company sites) |
