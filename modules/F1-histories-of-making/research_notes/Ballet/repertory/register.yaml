@@ -1,0 +1,2644 @@
+# Ballet core register, Creative World F1 (Histories of making)
+# Built 2026-10-21. See CENSUS.md for method, thread definitions and card design.
+#
+# FIELD KEY
+#   id            slug: short-title-year (year of the premiere of THIS version)
+#   title         {orig: original-language title, en: English title}
+#   premiere      {date: ISO where known, else year; place: city, theatre; company}
+#   choreographer, composer, scenario (librettist / scenario author), designer: lists
+#   based_on      literary or other source ("none" for plotless; "remake of <id>" for re-readings)
+#   premise       one line, our wording
+#   period        court | enlightenment | romantic | imperial | modernist | postwar | late20 | c21
+#   region        country or culture of making
+#   w_file        where it is taken apart in depth (works/W1..W3 section) or null
+#   tier          A = full card exists in W1-W3; B = needs a full card; C = short card
+#   threads       cross-work concept codes (defined in CENSUS.md section 4)
+#   confidence    documented = seen at source this pass or in a W file with its citation;
+#                 probable = working knowledge, not re-checked this pass;
+#                 contested = sources disagree (see note)
+#   sources       where each fact was seen. "W1 §5" = works/W1_court_to_imperial.md section 5.
+#                 URLs appear only where they were returned by a search or fetch in this pass.
+#                 No Wikidata QIDs: the endpoint was blocked in this session (CENSUS.md §0).
+#   note          open questions for the human check
+#
+# Names: Japanese names family name first. "Earliest known", never "first".
+
+works:
+
+# ---------------------------------------------------------------- COURT
+- id: balet-comique-1581
+  title: {orig: "Balet comique de la Royne", en: "The Queen's Comic Ballet"}
+  premiere: {date: 1581-10-15, place: "Paris, Petit-Bourbon (Salle Bourbon)", company: "court of Henri III / Louise de Lorraine"}
+  choreographer: [Balthasar de Beaujoyeulx]
+  composer: [Lambert de Beaulieu, Jacques Salmon]
+  scenario: [Balthasar de Beaujoyeulx, Nicolas Filleul (verse)]
+  designer: [Jacques Patin]
+  based_on: "Circe myth (Homer, Odyssey); Neoplatonic allegory"
+  premise: "The enchantress Circe is overcome by the gods and the king, restoring harmony to a realm torn by religious war."
+  period: court
+  region: France
+  w_file: W1 §1
+  tier: A
+  threads: [T17, T12, T01]
+  confidence: documented
+  sources: ["W1 §1"]
+
+- id: ballet-de-la-nuit-1653
+  title: {orig: "Ballet royal de la Nuit", en: "Royal Ballet of the Night"}
+  premiere: {date: 1653-02-23, place: "Paris, Petit-Bourbon", company: "court of Louis XIV"}
+  choreographer: [various court dancing masters]
+  composer: [Jean de Cambefort, Jean-Baptiste Boësset, Michel Lambert, Jean-Baptiste Lully (some airs)]
+  scenario: [Isaac de Benserade (verse), Clément (scenario)]
+  designer: [Giacomo Torelli (machines)]
+  based_on: "allegory of night giving way to dawn"
+  premise: "Twelve hours of night, with its thieves, witches and dreams, end as the young king rises as the Sun."
+  period: court
+  region: France
+  w_file: W1 §2
+  tier: A
+  threads: [T17, T20, T01]
+  confidence: documented
+  sources: ["W1 §2"]
+
+- id: bourgeois-gentilhomme-1670
+  title: {orig: "Le Bourgeois gentilhomme", en: "The Bourgeois Gentleman"}
+  premiere: {date: 1670-10-14, place: "Château de Chambord", company: "court of Louis XIV"}
+  choreographer: [Pierre Beauchamp]
+  composer: [Jean-Baptiste Lully]
+  scenario: [Molière]
+  designer: [unknown]
+  based_on: "Molière's comedy; the 1669 Ottoman embassy"
+  premise: "A social climber is tricked by a mock 'Turkish ceremony' into believing he has been made a mamamouchi."
+  period: court
+  region: France
+  w_file: null
+  tier: C
+  threads: [T05, T17]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "comédie-ballet, not a ballet proper; boundary case kept for the exotic-other thread"
+
+# ---------------------------------------------------------------- ENLIGHTENMENT
+- id: pygmalion-salle-1734
+  title: {orig: "Pygmalion", en: "Pygmalion"}
+  premiere: {date: 1734-02-14, place: "London, Covent Garden Theatre", company: "John Rich's company"}
+  choreographer: [Marie Sallé]
+  composer: [Jean-Joseph Mouret (probable)]
+  scenario: [Marie Sallé]
+  designer: ["Marie Sallé (costume reform - loose hair, muslin dress)"]
+  based_on: "Ovid, Metamorphoses X"
+  premise: "A sculptor's statue comes to life; Sallé danced it uncorseted, a reform of costume and expression."
+  period: enlightenment
+  region: Britain / France
+  w_file: null
+  tier: B
+  threads: [T19, T12, T04]
+  confidence: probable
+  sources: ["working knowledge; scope/01 may cover Sallé"]
+  note: "earliest known ballet d'action by a woman choreographer; date and composer to check"
+
+- id: indes-galantes-1735
+  title: {orig: "Les Indes galantes", en: "The Amorous Indies"}
+  premiere: {date: 1735-08-23, place: "Paris Opéra (Palais-Royal)", company: "Académie royale de musique"}
+  choreographer: [Louis Dupré, Marie Sallé (later entrées) (probable)]
+  composer: [Jean-Philippe Rameau]
+  scenario: [Louis Fuzelier]
+  designer: [unknown]
+  based_on: "travel literature on Turkey, Peru, Persia and North America"
+  premise: "Love in four 'Indies' (Turkey, Peru, Persia, the American forest) as seen from the Opéra."
+  period: enlightenment
+  region: France
+  w_file: null
+  tier: C
+  threads: [T05, T23]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "opéra-ballet; Clément Cogitore's 2017 krump staging (Paris) is a key remake"
+
+- id: don-juan-angiolini-1761
+  title: {orig: "Don Juan, ou le Festin de pierre", en: "Don Juan"}
+  premiere: {date: 1761-10-17, place: "Vienna, Burgtheater", company: "court theatre"}
+  choreographer: [Gasparo Angiolini]
+  composer: [Christoph Willibald Gluck]
+  scenario: [Ranieri de' Calzabigi (probable)]
+  designer: [unknown]
+  based_on: "Molière, Dom Juan; Tirso de Molina"
+  premise: "The seducer is dragged to hell by the statue of the man he killed: a pantomime ballet that tells a whole tragedy without words."
+  period: enlightenment
+  region: Austria
+  w_file: null
+  tier: C
+  threads: [T18, T01]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: medee-et-jason-1763
+  title: {orig: "Médée et Jason", en: "Medea and Jason"}
+  premiere: {date: 1763-02-11, place: "Stuttgart, ducal court theatre", company: "court of Duke Carl Eugen of Württemberg"}
+  choreographer: [Jean-Georges Noverre]
+  composer: [Jean-Joseph Rodolphe]
+  scenario: [Jean-Georges Noverre]
+  designer: [Louis-René Boquet (costumes) (probable)]
+  based_on: "Euripides, Medea; Corneille"
+  premise: "Medea's revenge as a ballet d'action: the passions told in pantomime, the program of the Lettres sur la danse put on stage."
+  period: enlightenment
+  region: Germany / France
+  w_file: W1 §3
+  tier: A
+  threads: [T12, T15]
+  confidence: documented
+  sources: ["W1 §3"]
+
+- id: fille-mal-gardee-1789
+  title: {orig: "La Fille mal gardée (Le Ballet de la paille)", en: "The Wayward Daughter"}
+  premiere: {date: 1789-07-01, place: "Bordeaux, Grand Théâtre", company: "Grand Théâtre de Bordeaux"}
+  choreographer: [Jean Dauberval]
+  composer: [popular French airs, arranged]
+  scenario: [Jean Dauberval]
+  designer: [unknown]
+  based_on: "a genre print of a scolding mother (Baudouin, 'La Réprimande', tradition says)"
+  premise: "A farmer's daughter outwits her mother to marry the young farmer she loves rather than the rich simpleton."
+  period: enlightenment
+  region: France
+  w_file: null
+  tier: B
+  threads: [T07, T11, T14]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "earliest known ballet still in repertory in descendant form; see fille-mal-gardee-ashton-1960"
+
+- id: flore-et-zephire-1796
+  title: {orig: "Flore et Zéphire", en: "Flore and Zephyr"}
+  premiere: {date: 1796-07-07, place: "London, King's Theatre", company: "King's Theatre"}
+  choreographer: [Charles-Louis Didelot]
+  composer: [Cesare Bossi]
+  scenario: [Charles-Louis Didelot]
+  designer: [Liparotti (machinist) (probable)]
+  based_on: "classical myth"
+  premise: "The west wind courts Flora; flying machinery lifts dancers into the air, a precursor of the Romantic illusion of weightlessness."
+  period: enlightenment
+  region: Britain / France / Russia
+  w_file: null
+  tier: C
+  threads: [T12, T03, T09]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: creatures-of-prometheus-1801
+  title: {orig: "Die Geschöpfe des Prometheus", en: "The Creatures of Prometheus"}
+  premiere: {date: 1801-03-28, place: "Vienna, Burgtheater", company: "court theatre"}
+  choreographer: [Salvatore Viganò]
+  composer: [Ludwig van Beethoven]
+  scenario: [Salvatore Viganò]
+  designer: [unknown]
+  based_on: "Prometheus myth"
+  premise: "Prometheus brings two statues to life and has them taught the arts, a parable of education and enlightenment."
+  period: enlightenment
+  region: Austria / Italy
+  w_file: null
+  tier: C
+  threads: [T12, T19, T04]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "choreography lost; score survives in concert repertory"
+
+# ---------------------------------------------------------------- ROMANTIC
+- id: robert-le-diable-nuns-1831
+  title: {orig: "Robert le diable: Ballet des nonnes", en: "Robert the Devil: Ballet of the Nuns"}
+  premiere: {date: 1831-11-21, place: "Paris Opéra, Salle Le Peletier", company: "Paris Opéra"}
+  choreographer: [Filippo Taglioni]
+  composer: [Giacomo Meyerbeer]
+  scenario: [Eugène Scribe, Germain Delavigne]
+  designer: [Pierre Ciceri (moonlit cloister), gas lighting]
+  based_on: "medieval legend of Robert the Devil"
+  premise: "Dead nuns rise by moonlight in a ruined cloister to seduce the hero: the scene from which the white act grew."
+  period: romantic
+  region: France
+  w_file: null
+  tier: C
+  threads: [T02, T01, T20]
+  confidence: probable
+  sources: ["working knowledge; W1 §4 likely mentions it as a root of La Sylphide"]
+  note: "an opera scene, not a ballet; kept because it is the earliest known ballet blanc"
+
+- id: sylphide-1832
+  title: {orig: "La Sylphide", en: "La Sylphide"}
+  premiere: {date: 1832-03-12, place: "Paris Opéra, Salle Le Peletier", company: "Paris Opéra"}
+  choreographer: [Filippo Taglioni]
+  composer: [Jean-Madeleine Schneitzhoeffer]
+  scenario: [Adolphe Nourrit]
+  designer: [Pierre Ciceri (sets), Eugène Lami (costumes)]
+  based_on: "Charles Nodier, Trilby (1822)"
+  premise: "A Scottish farmer leaves his bride for an air spirit and destroys her by trying to possess her."
+  period: romantic
+  region: France
+  w_file: W1 §4
+  tier: A
+  threads: [T01, T02, T03, T07, T05]
+  confidence: documented
+  sources: ["W1 §4"]
+
+- id: sylphide-bournonville-1836
+  title: {orig: "Sylfiden", en: "La Sylphide (Bournonville)"}
+  premiere: {date: 1836-11-28, place: "Copenhagen, Royal Theatre", company: "Royal Danish Ballet"}
+  choreographer: [August Bournonville]
+  composer: [Herman Severin Løvenskiold]
+  scenario: [after Adolphe Nourrit]
+  designer: [unknown]
+  based_on: "remake of sylphide-1832"
+  premise: "The Paris ballet re-made in Copenhagen with a new score; the version that survived in continuous performance."
+  period: romantic
+  region: Denmark
+  w_file: null
+  tier: C
+  threads: [T13, T01, T02, T03]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: giselle-1841
+  title: {orig: "Giselle, ou les Wilis", en: "Giselle"}
+  premiere: {date: 1841-06-28, place: "Paris Opéra, Salle Le Peletier", company: "Paris Opéra"}
+  choreographer: [Jean Coralli, Jules Perrot]
+  composer: [Adolphe Adam]
+  scenario: [Théophile Gautier, Jules-Henri Vernoy de Saint-Georges]
+  designer: [Pierre Ciceri (sets), Paul Lormier (costumes)]
+  based_on: "Heinrich Heine, De l'Allemagne (the Wili legend); Victor Hugo, 'Fantômes'"
+  premise: "A village girl dies of a nobleman's betrayal and, among the vengeful ghosts of jilted brides, saves him."
+  period: romantic
+  region: France
+  w_file: W1 §5
+  tier: A
+  threads: [T01, T02, T07, T15]
+  confidence: documented
+  sources: ["W1 §5"]
+
+- id: napoli-1842
+  title: {orig: "Napoli, eller Fiskeren og hans Brud", en: "Napoli, or The Fisherman and His Bride"}
+  premiere: {date: 1842-03-29, place: "Copenhagen, Royal Theatre", company: "Royal Danish Ballet"}
+  choreographer: [August Bournonville]
+  composer: [Edvard Helsted, Holger Simon Paulli, Niels Gade, Hans Christian Lumbye]
+  scenario: [August Bournonville]
+  designer: [unknown]
+  based_on: "Bournonville's 1841 visit to Naples; the Blue Grotto"
+  premise: "A Neapolitan fisherman rescues his bride from a sea-god's grotto; the last act is a wedding tarantella."
+  period: romantic
+  region: Denmark / Italy
+  w_file: null
+  tier: C
+  threads: [T01, T05, T14, T21]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: esmeralda-1844
+  title: {orig: "La Esmeralda", en: "La Esmeralda"}
+  premiere: {date: 1844-03-09, place: "London, Her Majesty's Theatre", company: "Her Majesty's Theatre"}
+  choreographer: [Jules Perrot]
+  composer: [Cesare Pugni]
+  scenario: [Jules Perrot]
+  designer: [William Grieve (probable)]
+  based_on: "Victor Hugo, Notre-Dame de Paris (1831)"
+  premise: "A Romani street dancer is loved by a priest, a poet, a captain and the bell-ringer, and condemned as a witch."
+  period: romantic
+  region: Britain / France / Russia
+  w_file: null
+  tier: B
+  threads: [T18, T05, T21]
+  confidence: probable
+  sources: ["working knowledge; W3 §1 notes Chinese troupe danced it (as Notre-Dame de Paris) before Red Detachment"]
+
+- id: pas-de-quatre-1845
+  title: {orig: "Pas de Quatre", en: "Pas de Quatre"}
+  premiere: {date: 1845-07-12, place: "London, Her Majesty's Theatre", company: "Her Majesty's Theatre (Benjamin Lumley)"}
+  choreographer: [Jules Perrot]
+  composer: [Cesare Pugni]
+  scenario: [none]
+  designer: [none known]
+  based_on: "none (a showcase of four stars: Taglioni, Grisi, Cerrito, Grahn)"
+  premise: "Four rival ballerinas share one stage, each given a solo to her strength; the star system made into a ballet."
+  period: romantic
+  region: Britain
+  w_file: null
+  tier: C
+  threads: [T10]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "modern versions are Dolin (1941) and Keith Lester (1936) reconstructions from lithographs"
+
+- id: paquita-1846
+  title: {orig: "Paquita", en: "Paquita"}
+  premiere: {date: 1846-04-01, place: "Paris Opéra, Salle Le Peletier", company: "Paris Opéra"}
+  choreographer: [Joseph Mazilier]
+  composer: [Édouard Deldevez]
+  scenario: [Paul Foucher, Joseph Mazilier]
+  designer: [unknown]
+  based_on: "Spanish setting during Napoleon's occupation"
+  premise: "A Romani girl in Spain saves a French officer and turns out to be of noble birth."
+  period: romantic
+  region: France / Russia
+  w_file: null
+  tier: C
+  threads: [T05, T07]
+  confidence: probable
+  sources: ["working knowledge; W3 §9 mentions Ratmansky's 2014 reconstruction"]
+  note: "the Grand pas (Petipa, St Petersburg 1881, music Minkus) is what survives in repertory"
+
+- id: corsaire-1856
+  title: {orig: "Le Corsaire", en: "The Corsair"}
+  premiere: {date: 1856-01-23, place: "Paris Opéra, Salle Le Peletier", company: "Paris Opéra"}
+  choreographer: [Joseph Mazilier]
+  composer: [Adolphe Adam]
+  scenario: [Jules-Henri Vernoy de Saint-Georges, Joseph Mazilier]
+  designer: [unknown]
+  based_on: "Lord Byron, The Corsair (1814)"
+  premise: "A pirate rescues a Greek girl from a slave market and a pasha's harem; a shipwreck ends it."
+  period: romantic
+  region: France / Russia
+  w_file: null
+  tier: B
+  threads: [T05, T18]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "repertory versions descend from Petipa's St Petersburg revisions (1863-1899)"
+
+- id: papillon-1860
+  title: {orig: "Le Papillon", en: "The Butterfly"}
+  premiere: {date: 1860-11-26, place: "Paris Opéra, Salle Le Peletier", company: "Paris Opéra"}
+  choreographer: [Marie Taglioni]
+  composer: [Jacques Offenbach]
+  scenario: [Jules-Henri Vernoy de Saint-Georges, Marie Taglioni]
+  designer: [unknown]
+  based_on: "fairy tale"
+  premise: "A girl turned into a butterfly by a fairy is caught and pinned by the prince who loves her."
+  period: romantic
+  region: France
+  w_file: null
+  tier: C
+  threads: [T03, T06, T01]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "the only ballet Marie Taglioni choreographed; Emma Livry, its star, died of burns from a gas jet in 1863"
+
+- id: pharaohs-daughter-1862
+  title: {orig: "Дочь фараона (La Fille du Pharaon)", en: "The Pharaoh's Daughter"}
+  premiere: {date: 1862-01-30, place: "St Petersburg, Bolshoi Kamenny Theatre", company: "Imperial Ballet"}
+  choreographer: [Marius Petipa]
+  composer: [Cesare Pugni]
+  scenario: [Jules-Henri Vernoy de Saint-Georges, Marius Petipa]
+  designer: [unknown]
+  based_on: "Théophile Gautier, Le Roman de la momie (1858)"
+  premise: "An English lord, dreaming in a pyramid under opium, lives a romance with a mummy who comes to life."
+  period: romantic
+  region: Russia / France
+  w_file: null
+  tier: C
+  threads: [T05, T20, T01, T18]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "Lacotte reconstruction-pastiche, Bolshoi 2000"
+
+- id: don-quixote-1869
+  title: {orig: "Дон Кихот", en: "Don Quixote"}
+  premiere: {date: 1869-12-26, place: "Moscow, Bolshoi Theatre", company: "Imperial Ballet (Moscow)"}
+  choreographer: [Marius Petipa]
+  composer: [Ludwig Minkus]
+  scenario: [Marius Petipa]
+  designer: [unknown]
+  based_on: "Cervantes, Don Quixote (the Kitri and Basilio episode)"
+  premise: "In a Barcelona square the knight blesses the love of an innkeeper's daughter and a barber, against her father's choice."
+  period: imperial
+  region: Russia / Spain
+  w_file: null
+  tier: B
+  threads: [T18, T05, T14, T21, T20]
+  confidence: probable
+  sources: ["working knowledge; Bachtrack 2023 top 10 (documented, see CENSUS §1.1)"]
+  note: "repertory version is Gorsky's Moscow revision (1900) via many stagers; Bachtrack 7th most performed 2023"
+
+# ---------------------------------------------------------------- IMPERIAL
+- id: coppelia-1870
+  title: {orig: "Coppélia, ou la Fille aux yeux d'émail", en: "Coppélia"}
+  premiere: {date: 1870-05-25, place: "Paris Opéra, Salle Le Peletier", company: "Paris Opéra"}
+  choreographer: [Arthur Saint-Léon]
+  composer: [Léo Delibes]
+  scenario: [Charles Nuitter, Arthur Saint-Léon]
+  designer: [Charles Cambon, Édouard Desplechin, Antoine Lavastre (sets); Alfred Albert (costumes)]
+  based_on: "E. T. A. Hoffmann, Der Sandmann (1816)"
+  premise: "A village girl impersonates a toymaker's doll to win back her fiancé, who has fallen for the doll."
+  period: imperial
+  region: France
+  w_file: W1 §6
+  tier: A
+  threads: [T04, T19, T14, T07]
+  confidence: documented
+  sources: ["W1 §6"]
+
+- id: sylvia-1876
+  title: {orig: "Sylvia, ou la Nymphe de Diane", en: "Sylvia"}
+  premiere: {date: 1876-06-14, place: "Paris, Palais Garnier", company: "Paris Opéra"}
+  choreographer: [Louis Mérante]
+  composer: [Léo Delibes]
+  scenario: [Jules Barbier, Baron de Reinach]
+  designer: [Jules Chéret, Auguste Rubé, Philippe Chaperon (sets); Eugène Lacoste (costumes) (probable)]
+  based_on: "Torquato Tasso, Aminta (1573)"
+  premise: "A huntress-nymph of Diana is won by a shepherd with the help of Eros."
+  period: imperial
+  region: France
+  w_file: null
+  tier: C
+  threads: [T12, T18]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "Ashton 1952 (Royal Ballet) is the repertory version"
+
+- id: bayadere-1877
+  title: {orig: "Баядерка (La Bayadère)", en: "La Bayadère"}
+  premiere: {date: 1877-02-04, place: "St Petersburg, Bolshoi Kamenny Theatre", company: "Imperial Ballet"}
+  choreographer: [Marius Petipa]
+  composer: [Ludwig Minkus]
+  scenario: [Sergei Khudekov, Marius Petipa]
+  designer: [Mikhail Bocharov, Matvei Shishkov, Heinrich Wagner, Andrei Roller (sets)]
+  based_on: "Kalidasa, Shakuntala (via Gautier's 1858 ballet Sacountala); travel writing on Indian devadasis"
+  premise: "A temple dancer loved by a warrior is killed by his royal bride; in an opium vision he finds her among the Shades."
+  period: imperial
+  region: Russia
+  w_file: W1 §7
+  tier: A
+  threads: [T05, T02, T01, T20, T07]
+  confidence: documented
+  sources: ["W1 §7"]
+
+- id: swan-lake-1877-1895
+  title: {orig: "Лебединое озеро", en: "Swan Lake"}
+  premiere: {date: "1877-03-04 (Moscow, Reisinger); 1895-01-27 (St Petersburg, Petipa-Ivanov)", place: "Moscow, Bolshoi Theatre; St Petersburg, Mariinsky Theatre", company: "Imperial Ballet"}
+  choreographer: [Julius Reisinger (1877), Marius Petipa, Lev Ivanov (1895)]
+  composer: [Pyotr Ilyich Tchaikovsky (1895 revised by Riccardo Drigo)]
+  scenario: [Vladimir Begichev, Vasily Geltser (1877); Modest Tchaikovsky (1895)]
+  designer: [various]
+  based_on: "German and Russian swan-maiden folklore; Musäus (contested)"
+  premise: "A prince swears love to a woman turned into a swan and is tricked into betraying her by her black double."
+  period: imperial
+  region: Russia
+  w_file: W1 §10
+  tier: A
+  threads: [T03, T01, T02, T06, T07]
+  confidence: documented
+  sources: ["W1 §10"]
+  note: "Bachtrack 2nd most performed ballet 2023 and 2024"
+
+- id: excelsior-1881
+  title: {orig: "Excelsior", en: "Excelsior"}
+  premiere: {date: 1881-01-11, place: "Milan, Teatro alla Scala", company: "La Scala"}
+  choreographer: [Luigi Manzotti]
+  composer: [Romualdo Marenco]
+  scenario: [Luigi Manzotti]
+  designer: [Alfredo Edel (costumes) (probable)]
+  based_on: "nineteenth-century faith in progress: the steamship, the telegraph, the Suez Canal, the Mont Cenis tunnel"
+  premise: "Light defeats Obscurantism through the inventions of the century, in a spectacle of hundreds of dancers."
+  period: imperial
+  region: Italy
+  w_file: null
+  tier: B
+  threads: [T09, T17, T05]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "the machine-age thread's nineteenth-century anchor; reconstructed by Filippo Crivelli and Ugo Dell'Ara (1967)"
+
+- id: sleeping-beauty-1890
+  title: {orig: "Спящая красавица", en: "The Sleeping Beauty"}
+  premiere: {date: 1890-01-15, place: "St Petersburg, Mariinsky Theatre", company: "Imperial Ballet"}
+  choreographer: [Marius Petipa]
+  composer: [Pyotr Ilyich Tchaikovsky]
+  scenario: [Ivan Vsevolozhsky, Marius Petipa]
+  designer: [Ivan Vsevolozhsky (costumes); Andreyev, Bocharov, Shishkov, Levogt, Ivanov (sets)]
+  based_on: "Charles Perrault, La Belle au bois dormant (1697)"
+  premise: "A princess cursed by a slighted fairy sleeps a hundred years until a prince's kiss; a homage to the court of Louis XIV."
+  period: imperial
+  region: Russia
+  w_file: W1 §8
+  tier: A
+  threads: [T06, T17, T01, T20]
+  confidence: documented
+  sources: ["W1 §8"]
+
+- id: nutcracker-1892
+  title: {orig: "Щелкунчик", en: "The Nutcracker"}
+  premiere: {date: 1892-12-18, place: "St Petersburg, Mariinsky Theatre", company: "Imperial Ballet"}
+  choreographer: [Lev Ivanov (after Petipa's plan)]
+  composer: [Pyotr Ilyich Tchaikovsky]
+  scenario: [Marius Petipa, Ivan Vsevolozhsky]
+  designer: [Konstantin Ivanov, Mikhail Bocharov (sets); Ivan Vsevolozhsky (costumes)]
+  based_on: "E. T. A. Hoffmann, Nussknacker und Mausekönig (1816), via Dumas père"
+  premise: "On Christmas Eve a girl's nutcracker doll becomes a prince who takes her to the Kingdom of Sweets."
+  period: imperial
+  region: Russia
+  w_file: W1 §9
+  tier: A
+  threads: [T04, T06, T05, T20, T01]
+  confidence: documented
+  sources: ["W1 §9"]
+  note: "Bachtrack: most performed ballet in the world (2023, 2024)"
+
+- id: raymonda-1898
+  title: {orig: "Раймонда", en: "Raymonda"}
+  premiere: {date: 1898-01-19, place: "St Petersburg, Mariinsky Theatre", company: "Imperial Ballet"}
+  choreographer: [Marius Petipa]
+  composer: [Alexander Glazunov]
+  scenario: [Lydia Pashkova, Marius Petipa]
+  designer: [Orest Allegri, Konstantin Ivanov, Pyotr Lambin (sets); Ekaterina Ofitserova (costumes) (probable)]
+  based_on: "medieval Provençal and crusader legend"
+  premise: "A Hungarian-Provençal noblewoman waits for her crusader knight and resists a Saracen knight who tries to abduct her."
+  period: imperial
+  region: Russia
+  w_file: null
+  tier: C
+  threads: [T05, T14, T20]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "scenario by a woman writer (Pashkova); Act III Hungarian divertissement"
+
+- id: dying-swan-1905
+  title: {orig: "Умирающий лебедь (Le Cygne)", en: "The Dying Swan"}
+  premiere: {date: 1905, place: "St Petersburg (charity concert, Hall of Nobility) (probable)", company: "Anna Pavlova"}
+  choreographer: [Mikhail Fokine]
+  composer: [Camille Saint-Saëns ("Le Cygne", Carnival of the Animals)]
+  scenario: [none]
+  designer: [Léon Bakst (later costume) (probable)]
+  based_on: "Tennyson, 'The Dying Swan' (Fokine's account, contested)"
+  premise: "A two-minute solo: a swan's last struggle; Pavlova's signature."
+  period: imperial
+  region: Russia
+  w_file: null
+  tier: C
+  threads: [T03, T13]
+  confidence: probable
+  sources: ["working knowledge; W3 §7 notes Masilo's Saint-Saëns finale (documented)"]
+  note: "date given variously 1905 or 1907 (contested)"
+
+- id: pavillon-darmide-1907
+  title: {orig: "Павильон Армиды (Le Pavillon d'Armide)", en: "The Pavilion of Armida"}
+  premiere: {date: 1907-11-25, place: "St Petersburg, Mariinsky Theatre", company: "Imperial Ballet"}
+  choreographer: [Mikhail Fokine]
+  composer: [Nikolai Tcherepnin]
+  scenario: [Alexandre Benois]
+  designer: [Alexandre Benois]
+  based_on: "Théophile Gautier, Omphale (1834); Tasso's Armida"
+  premise: "A traveller sleeps in a pavilion where a tapestry of Armida comes alive; awake, he finds her scarf."
+  period: imperial
+  region: Russia
+  w_file: null
+  tier: C
+  threads: [T01, T20, T18]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "opened the Ballets Russes' first Paris season (1909)"
+
+- id: les-sylphides-1909
+  title: {orig: "Шопениана / Les Sylphides", en: "Les Sylphides (Chopiniana)"}
+  premiere: {date: "1907/1908 (St Petersburg, as Chopiniana); 1909-06-02 (Paris, Théâtre du Châtelet, as Les Sylphides)", place: "St Petersburg; Paris", company: "Imperial Ballet students; Ballets Russes"}
+  choreographer: [Mikhail Fokine]
+  composer: [Frédéric Chopin (orch. Glazunov and others)]
+  scenario: [none]
+  designer: [Alexandre Benois (1909)]
+  based_on: "remake of the Romantic white act, with no story"
+  premise: "A poet among sylphs in moonlight: a white act without a plot, a ballet about the Romantic ballet."
+  period: modernist
+  region: Russia / France
+  w_file: null
+  tier: B
+  threads: [T02, T10, T13, T01]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "earliest known plotless ballet in the modern repertory (argued)"
+
+# ---------------------------------------------------------------- MODERNIST (1909-1945)
+- id: scheherazade-1910
+  title: {orig: "Schéhérazade", en: "Scheherazade"}
+  premiere: {date: 1910-06-04, place: "Paris Opéra (Palais Garnier)", company: "Ballets Russes"}
+  choreographer: [Mikhail Fokine]
+  composer: [Nikolai Rimsky-Korsakov]
+  scenario: [Alexandre Benois (claimed), Léon Bakst (credited)]
+  designer: [Léon Bakst]
+  based_on: "The Thousand and One Nights (frame story)"
+  premise: "While the shah is away his wives and the Golden Slave hold an orgy; he returns and has them killed."
+  period: modernist
+  region: Russia / France
+  w_file: W2 §1
+  tier: A
+  threads: [T05, T18]
+  confidence: documented
+  sources: ["W2 §1, §12.1"]
+
+- id: firebird-1910
+  title: {orig: "L'Oiseau de feu / Жар-птица", en: "The Firebird"}
+  premiere: {date: 1910-06-25, place: "Paris Opéra (Palais Garnier)", company: "Ballets Russes"}
+  choreographer: [Mikhail Fokine]
+  composer: [Igor Stravinsky]
+  scenario: [Mikhail Fokine and committee]
+  designer: [Alexander Golovin (sets), Léon Bakst (Firebird and Tsarevna costumes)]
+  based_on: "Russian fairy tales (Afanasyev); Polonsky 1844; Yershov"
+  premise: "Prince Ivan captures the magic Firebird, spares her for a feather, and with her help destroys the immortal Kashchei."
+  period: modernist
+  region: Russia / France
+  w_file: W2 §2
+  tier: A
+  threads: [T03, T06, T14, T01]
+  confidence: documented
+  sources: ["W2 §2, §12.1"]
+
+- id: petrushka-1911
+  title: {orig: "Petrouchka / Петрушка", en: "Petrushka"}
+  premiere: {date: 1911-06-13, place: "Paris, Théâtre du Châtelet", company: "Ballets Russes"}
+  choreographer: [Mikhail Fokine]
+  composer: [Igor Stravinsky]
+  scenario: [Igor Stravinsky, Alexandre Benois]
+  designer: [Alexandre Benois]
+  based_on: "Russian puppet theatre; the Butter Week fair in St Petersburg"
+  premise: "At a Shrovetide fair, a puppet with a soul loves a ballerina doll and is killed by the Moor; his ghost mocks the showman."
+  period: modernist
+  region: Russia / France
+  w_file: W2 §3
+  tier: A
+  threads: [T04, T21, T14, T05]
+  confidence: documented
+  sources: ["W2 §3, §12.1"]
+
+- id: spectre-de-la-rose-1911
+  title: {orig: "Le Spectre de la rose", en: "The Spirit of the Rose"}
+  premiere: {date: 1911-04-19, place: "Monte Carlo, Théâtre de Monte-Carlo", company: "Ballets Russes"}
+  choreographer: [Mikhail Fokine]
+  composer: [Carl Maria von Weber (Invitation to the Dance, orch. Berlioz)]
+  scenario: [Jean-Louis Vaudoyer]
+  designer: [Léon Bakst]
+  based_on: "Théophile Gautier, poem 'Le Spectre de la rose'"
+  premise: "A girl home from her first ball dreams the rose she wore dances with her, then leaps out of the window."
+  period: modernist
+  region: France / Russia
+  w_file: null
+  tier: C
+  threads: [T20, T01, T18]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: apres-midi-faune-1912
+  title: {orig: "L'Après-midi d'un faune", en: "Afternoon of a Faun"}
+  premiere: {date: 1912-05-29, place: "Paris, Théâtre du Châtelet", company: "Ballets Russes"}
+  choreographer: [Vaslav Nijinsky]
+  composer: [Claude Debussy]
+  scenario: [Vaslav Nijinsky]
+  designer: [Léon Bakst]
+  based_on: "Stéphane Mallarmé (1876); Greek vase painting in the Louvre"
+  premise: "A faun pursues nymphs in a flat frieze of profile movement and is left with a scarf."
+  period: modernist
+  region: France / Russia
+  w_file: W2 §4
+  tier: A
+  threads: [T12, T18]
+  confidence: documented
+  sources: ["W2 §4, §12.1"]
+
+- id: jeux-1913
+  title: {orig: "Jeux", en: "Games"}
+  premiere: {date: 1913-05-15, place: "Paris, Théâtre des Champs-Élysées", company: "Ballets Russes"}
+  choreographer: [Vaslav Nijinsky]
+  composer: [Claude Debussy]
+  scenario: [Vaslav Nijinsky]
+  designer: [Léon Bakst]
+  based_on: "contemporary tennis and flirtation"
+  premise: "A young man and two women look for a lost tennis ball in a park at dusk and trade kisses."
+  period: modernist
+  region: France / Russia
+  w_file: null
+  tier: C
+  threads: [T11, T09]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "earliest known ballet on sport in contemporary dress (argued)"
+
+- id: rite-of-spring-1913
+  title: {orig: "Le Sacre du printemps / Весна священная", en: "The Rite of Spring"}
+  premiere: {date: 1913-05-29, place: "Paris, Théâtre des Champs-Élysées", company: "Ballets Russes"}
+  choreographer: [Vaslav Nijinsky]
+  composer: [Igor Stravinsky]
+  scenario: [Igor Stravinsky, Nicholas Roerich]
+  designer: [Nicholas Roerich]
+  based_on: "archaeology and ethnography of pagan Russia; Afanasyev; Talashkino"
+  premise: "Pagan tribes celebrate spring; a chosen maiden dances herself to death."
+  period: modernist
+  region: Russia / France
+  w_file: W2 §5
+  tier: A
+  threads: [T16, T14, T08, T12]
+  confidence: documented
+  sources: ["W2 §5, §12.1"]
+  note: "200+ later versions (W2); see sacre-bausch-1975, rites-page-1997"
+
+- id: parade-1917
+  title: {orig: "Parade", en: "Parade"}
+  premiere: {date: 1917-05-18, place: "Paris, Théâtre du Châtelet", company: "Ballets Russes"}
+  choreographer: [Léonide Massine]
+  composer: [Erik Satie]
+  scenario: [Jean Cocteau]
+  designer: [Pablo Picasso]
+  based_on: "fairground sideshows, silent cinema, ragtime, Cubism"
+  premise: "Fairground managers and acts try to lure a crowd into a show that never begins."
+  period: modernist
+  region: France
+  w_file: W2 §6
+  tier: A
+  threads: [T21, T09, T11]
+  confidence: documented
+  sources: ["W2 §6, §12.1"]
+
+- id: autumn-leaves-pavlova-1918
+  title: {orig: "Autumn Leaves (Feuilles d'automne)", en: "Autumn Leaves"}
+  premiere: {date: "1918 or 1919", place: "Rio de Janeiro (probable)", company: "Anna Pavlova's company"}
+  choreographer: [Anna Pavlova]
+  composer: [Frédéric Chopin]
+  scenario: [Anna Pavlova]
+  designer: [Konstantin Korovin (probable)]
+  based_on: "none (allegory)"
+  premise: "A chrysanthemum is torn by the autumn wind and abandoned by a passing poet."
+  period: modernist
+  region: Russia / Latin America (touring)
+  w_file: null
+  tier: C
+  threads: [T03, T15]
+  confidence: contested
+  sources: ["working knowledge"]
+  note: "Pavlova's only extended choreography; premiere place and year to verify"
+
+- id: tricorne-1919
+  title: {orig: "Le Tricorne / El sombrero de tres picos", en: "The Three-Cornered Hat"}
+  premiere: {date: 1919-07-22, place: "London, Alhambra Theatre", company: "Ballets Russes"}
+  choreographer: [Léonide Massine]
+  composer: [Manuel de Falla]
+  scenario: [Gregorio Martínez Sierra]
+  designer: [Pablo Picasso]
+  based_on: "Pedro Antonio de Alarcón, El sombrero de tres picos (1874)"
+  premise: "A miller and his wife outwit a lecherous magistrate in an Andalusian village."
+  period: modernist
+  region: Spain / France
+  w_file: null
+  tier: C
+  threads: [T14, T18, T07, T05]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "Massine learned Spanish dance from Félix Fernández García, who is uncredited (contested credit)"
+
+- id: boutique-fantasque-1919
+  title: {orig: "La Boutique fantasque", en: "The Magic Toyshop"}
+  premiere: {date: 1919-06-05, place: "London, Alhambra Theatre", company: "Ballets Russes"}
+  choreographer: [Léonide Massine]
+  composer: [Gioachino Rossini (arr. Ottorino Respighi)]
+  scenario: [Léonide Massine]
+  designer: [André Derain]
+  based_on: "Die Puppenfee (Vienna 1888)"
+  premise: "Two dancing dolls in a toyshop, sold to separate buyers, elope overnight with the other toys' help."
+  period: modernist
+  region: France / Britain
+  w_file: null
+  tier: C
+  threads: [T04, T06]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: maries-tour-eiffel-1921
+  title: {orig: "Les Mariés de la tour Eiffel", en: "The Wedding Party on the Eiffel Tower"}
+  premiere: {date: 1921-06-18, place: "Paris, Théâtre des Champs-Élysées", company: "Ballets suédois"}
+  choreographer: [Jean Börlin]
+  composer: [Germaine Tailleferre, Georges Auric, Arthur Honegger, Darius Milhaud, Francis Poulenc]
+  scenario: [Jean Cocteau]
+  designer: [Irène Lagut (sets), Jean Hugo (costumes and masks)]
+  based_on: "bourgeois wedding photography; music hall"
+  premise: "A wedding party on the Eiffel Tower is spoken by two phonograph-narrators while a camera swallows and spits out characters."
+  period: modernist
+  region: France / Sweden
+  w_file: null
+  tier: C
+  threads: [T09, T11, T21]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "a woman composer (Tailleferre) and a woman designer (Lagut) on the team"
+
+- id: triadic-ballet-1922
+  title: {orig: "Das Triadische Ballett", en: "The Triadic Ballet"}
+  premiere: {date: 1922-09-30, place: "Stuttgart, Landestheater", company: "Oskar Schlemmer with Albert Burger and Elsa Hötzel"}
+  choreographer: [Oskar Schlemmer]
+  composer: [Paul Hindemith (1926 mechanical-organ score)]
+  scenario: [none]
+  designer: [Oskar Schlemmer]
+  based_on: "Bauhaus theory of the figure in space"
+  premise: "Three dancers in eighteen sculptural costumes move through yellow, pink and black sequences: the body as geometry."
+  period: modernist
+  region: Germany
+  w_file: null
+  tier: B
+  threads: [T09, T10, T04]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "boundary case (Bauhaus stage, not a ballet company); key for designers"
+
+- id: skating-rink-1922
+  title: {orig: "Skating Rink", en: "Skating Rink"}
+  premiere: {date: 1922-01-20, place: "Paris, Théâtre des Champs-Élysées", company: "Ballets suédois"}
+  choreographer: [Jean Börlin]
+  composer: [Arthur Honegger]
+  scenario: [Ricciotto Canudo]
+  designer: [Fernand Léger]
+  based_on: "Canudo's poem; the roller-skating rink as urban leisure"
+  premise: "On a working-class skating rink, a madman steals a woman from her partner as the crowd circles."
+  period: modernist
+  region: France / Sweden
+  w_file: null
+  tier: C
+  threads: [T11, T09]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: les-noces-1923
+  title: {orig: "Les Noces / Свадебка", en: "The Wedding"}
+  premiere: {date: 1923-06-13, place: "Paris, Théâtre de la Gaîté-Lyrique", company: "Ballets Russes"}
+  choreographer: [Bronislava Nijinska]
+  composer: [Igor Stravinsky]
+  scenario: [Igor Stravinsky]
+  designer: [Natalia Goncharova]
+  based_on: "Kireevsky's collection of Russian wedding songs; the peasant wedding ritual"
+  premise: "A Russian peasant wedding as an impersonal rite: braiding, blessing, feast and bedding, with the couple as functions of the group."
+  period: modernist
+  region: Russia / France
+  w_file: W2 §7
+  tier: A
+  threads: [T14, T16, T08]
+  confidence: documented
+  sources: ["W2 §7, §12.1"]
+
+- id: creation-du-monde-1923
+  title: {orig: "La Création du monde", en: "The Creation of the World"}
+  premiere: {date: 1923-10-25, place: "Paris, Théâtre des Champs-Élysées", company: "Ballets suédois"}
+  choreographer: [Jean Börlin]
+  composer: [Darius Milhaud]
+  scenario: [Blaise Cendrars]
+  designer: [Fernand Léger]
+  based_on: "Cendrars, Anthologie nègre (1921); African sculpture as seen in Paris; Harlem jazz"
+  premise: "African deities create plants, animals and the first couple, in a European fantasy of Africa built from jazz and sculpture."
+  period: modernist
+  region: France / Sweden
+  w_file: null
+  tier: B
+  threads: [T05, T23, T09, T12]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "the primitivism debate: borrowing without African makers on the team"
+
+- id: les-biches-1924
+  title: {orig: "Les Biches", en: "The House Party"}
+  premiere: {date: 1924-01-06, place: "Monte Carlo, Théâtre de Monte-Carlo", company: "Ballets Russes"}
+  choreographer: [Bronislava Nijinska]
+  composer: [Francis Poulenc]
+  scenario: [none (sung texts from popular songs)]
+  designer: [Marie Laurencin]
+  based_on: "1920s fashionable house parties"
+  premise: "A hostess, flappers, three athletes and an ambiguous 'girl in blue' flirt in a white salon: gender and desire in code."
+  period: modernist
+  region: France
+  w_file: null
+  tier: B
+  threads: [T11, T22]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "woman choreographer and woman designer"
+
+- id: train-bleu-1924
+  title: {orig: "Le Train Bleu", en: "The Blue Train"}
+  premiere: {date: 1924-06-20, place: "Paris, Théâtre des Champs-Élysées", company: "Ballets Russes"}
+  choreographer: [Bronislava Nijinska]
+  composer: [Darius Milhaud]
+  scenario: [Jean Cocteau]
+  designer: [Henri Laurens (set), Gabrielle Chanel (costumes), Pablo Picasso (curtain)]
+  based_on: "the Riviera express; Suzanne Lenglen; the 1924 Olympics; sportswear"
+  premise: "Bathers, a tennis champion and a golfer flirt on a Riviera beach: an operetta danced in real sportswear."
+  period: modernist
+  region: France
+  w_file: W2 §8
+  tier: A
+  threads: [T11, T09]
+  confidence: documented
+  sources: ["W2 §8, §12.1"]
+
+- id: relache-1924
+  title: {orig: "Relâche", en: "Cancelled"}
+  premiere: {date: 1924-12-04, place: "Paris, Théâtre des Champs-Élysées", company: "Ballets suédois"}
+  choreographer: [Jean Börlin]
+  composer: [Erik Satie]
+  scenario: [Francis Picabia]
+  designer: [Francis Picabia (wall of car headlamps); René Clair (film Entr'acte)]
+  based_on: "Dada"
+  premise: "An 'instantaneist' anti-ballet: headlights blind the audience, a woman dresses and undresses, a film interrupts."
+  period: modernist
+  region: France / Sweden
+  w_file: null
+  tier: C
+  threads: [T09, T10]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: pas-dacier-1927
+  title: {orig: "Le Pas d'acier / Стальной скок", en: "The Steel Step"}
+  premiere: {date: 1927-06-07, place: "Paris, Théâtre Sarah-Bernhardt", company: "Ballets Russes"}
+  choreographer: [Léonide Massine]
+  composer: [Sergei Prokofiev]
+  scenario: [Georgy Yakulov, Sergei Prokofiev]
+  designer: [Georgy Yakulov]
+  based_on: "Soviet industrialisation as imagined in Paris; Constructivism"
+  premise: "From the black-market Russia of the NEP to a factory where workers become parts of the machine."
+  period: modernist
+  region: France / USSR
+  w_file: null
+  tier: C
+  threads: [T09, T08]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: red-poppy-1927
+  title: {orig: "Красный мак", en: "The Red Poppy"}
+  premiere: {date: 1927-06-14, place: "Moscow, Bolshoi Theatre", company: "Bolshoi Ballet"}
+  choreographer: [Lev Lashchilin, Vasily Tikhomirov]
+  composer: [Reinhold Glière]
+  scenario: [Mikhail Kurilko]
+  designer: [Mikhail Kurilko]
+  based_on: "news reports from China (Pravda); the Soviet ship in Chinese port"
+  premise: "A Chinese dancer in a port city gives her life to save a Soviet ship's captain from her Western-backed lover."
+  period: modernist
+  region: USSR
+  w_file: W2 §10a
+  tier: A
+  threads: [T08, T05, T20]
+  confidence: documented
+  sources: ["W2 §10a, §12.1"]
+  note: "who originated it is contested (Glière or Kurilko, W2); renamed The Red Flower 1957"
+
+- id: apollon-musagete-1928
+  title: {orig: "Apollon musagète", en: "Apollo"}
+  premiere: {date: "1928-04-27 (Washington, Bolm); 1928-06-12 (Paris, Balanchine)", place: "Washington, Library of Congress; Paris, Théâtre Sarah-Bernhardt", company: "Coolidge Foundation; Ballets Russes"}
+  choreographer: [Adolph Bolm (1928 Washington), George Balanchine (1928 Paris)]
+  composer: [Igor Stravinsky]
+  scenario: [Igor Stravinsky]
+  designer: [André Bauchant (1928), Coco Chanel (1929 costumes)]
+  based_on: "Greek myth via Lully and Boileau"
+  premise: "The young god Apollo is born, taught by three Muses, chooses Terpsichore and ascends Parnassus."
+  period: modernist
+  region: France / USA
+  w_file: W2 §9
+  tier: A
+  threads: [T12, T19, T10]
+  confidence: documented
+  sources: ["W2 §9, §12.1"]
+
+- id: bolero-nijinska-1928
+  title: {orig: "Boléro", en: "Bolero"}
+  premiere: {date: 1928-11-22, place: "Paris Opéra (Palais Garnier)", company: "Ballets Ida Rubinstein"}
+  choreographer: [Bronislava Nijinska]
+  composer: [Maurice Ravel]
+  scenario: [Ida Rubinstein (commission)]
+  designer: [Alexandre Benois]
+  based_on: "Spanish tavern dance"
+  premise: "A woman dancing on a tavern table draws the men around her into a rising frenzy."
+  period: modernist
+  region: France
+  w_file: null
+  tier: C
+  threads: [T05, T14, T13]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "a woman patron (Rubinstein) commissions a woman choreographer; see bolero-bejart-1961"
+
+- id: prodigal-son-1929
+  title: {orig: "Le Fils prodigue", en: "Prodigal Son"}
+  premiere: {date: 1929-05-21, place: "Paris, Théâtre Sarah-Bernhardt", company: "Ballets Russes"}
+  choreographer: [George Balanchine]
+  composer: [Sergei Prokofiev]
+  scenario: [Boris Kochno]
+  designer: [Georges Rouault]
+  based_on: "Gospel of Luke 15; Pushkin's 'The Stationmaster' (Kochno's source, probable)"
+  premise: "A son leaves home, is stripped by a siren and her thugs, and crawls back to his father's arms."
+  period: modernist
+  region: France
+  w_file: null
+  tier: C
+  threads: [T18, T12]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: golden-age-1930
+  title: {orig: "Золотой век", en: "The Golden Age"}
+  premiere: {date: 1930-10-26, place: "Leningrad, State Academic Theatre of Opera and Ballet (Mariinsky)", company: "GATOB (Kirov)"}
+  choreographer: [Vasily Vainonen, Leonid Yakobson, Vladimir Chesnakov]
+  composer: [Dmitri Shostakovich]
+  scenario: [Alexander Ivanovsky]
+  designer: [Valentina Khodasevich]
+  based_on: "a libretto competition (1929); the 'decadent West' of football, jazz and fascism"
+  premise: "A Soviet football team at an industrial exhibition in a Western city is framed by fascists and freed by workers."
+  period: modernist
+  region: USSR
+  w_file: null
+  tier: B
+  threads: [T08, T11, T09]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "Grigorovich remade it with a new libretto (Bolshoi 1982)"
+
+- id: bolt-1931
+  title: {orig: "Болт", en: "The Bolt"}
+  premiere: {date: 1931-04-08, place: "Leningrad, State Academic Theatre of Opera and Ballet", company: "GATOB (Kirov)"}
+  choreographer: [Fyodor Lopukhov]
+  composer: [Dmitri Shostakovich]
+  scenario: [Vasily Smirnov]
+  designer: [Tatiana Bruni, Georgy Korshikov]
+  based_on: "factory life during the first Five-Year Plan"
+  premise: "A lazy worker throws a bolt into a machine to sabotage the factory and is caught by the Komsomol."
+  period: modernist
+  region: USSR
+  w_file: null
+  tier: C
+  threads: [T08, T09]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "closed after one performance; Ratmansky remake Bolshoi 2005"
+
+- id: green-table-1932
+  title: {orig: "Der grüne Tisch", en: "The Green Table"}
+  premiere: {date: 1932-07-03, place: "Paris, Théâtre des Champs-Élysées", company: "Folkwang Tanzbühne (Essen)"}
+  choreographer: [Kurt Jooss]
+  composer: [Fritz Cohen]
+  scenario: [Kurt Jooss]
+  designer: [Hein Heckroth]
+  based_on: "medieval Dance of Death; the failure of interwar diplomacy"
+  premise: "Masked diplomats argue around a table, war breaks out, and Death collects everyone."
+  period: modernist
+  region: Germany
+  w_file: null
+  tier: B
+  threads: [T08, T17]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "won the Archives Internationales de la Danse competition 1932; notated (Labanotation)"
+
+- id: flames-of-paris-1932
+  title: {orig: "Пламя Парижа", en: "The Flames of Paris"}
+  premiere: {date: 1932-11-07, place: "Leningrad, State Academic Theatre of Opera and Ballet", company: "GATOB (Kirov)"}
+  choreographer: [Vasily Vainonen]
+  composer: [Boris Asafyev]
+  scenario: [Nikolai Volkov, Vladimir Dmitriev]
+  designer: [Vladimir Dmitriev]
+  based_on: "Félix Gras, Les Rouges du Midi (1896); French revolutionary songs"
+  premise: "Marseille volunteers march on Paris and storm the Tuileries: the crowd as hero."
+  period: modernist
+  region: USSR
+  w_file: W2 §10b
+  tier: A
+  threads: [T08, T14]
+  confidence: documented
+  sources: ["W2 §10b, §12.1"]
+
+- id: les-presages-1933
+  title: {orig: "Les Présages", en: "Destiny"}
+  premiere: {date: 1933-04-13, place: "Monte Carlo, Théâtre de Monte-Carlo", company: "Ballets Russes de Monte Carlo"}
+  choreographer: [Léonide Massine]
+  composer: [Pyotr Ilyich Tchaikovsky (Symphony No. 5)]
+  scenario: [Léonide Massine]
+  designer: [André Masson]
+  based_on: "none (symphony as scenario)"
+  premise: "Man struggles with Fate across four movements: the earliest known 'symphonic ballet' set to a whole symphony."
+  period: modernist
+  region: France
+  w_file: null
+  tier: C
+  threads: [T10, T12]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: fountain-bakhchisarai-1934
+  title: {orig: "Бахчисарайский фонтан", en: "The Fountain of Bakhchisarai"}
+  premiere: {date: 1934-09-28, place: "Leningrad, State Academic Theatre of Opera and Ballet", company: "GATOB (Kirov)"}
+  choreographer: [Rostislav Zakharov]
+  composer: [Boris Asafyev]
+  scenario: [Nikolai Volkov]
+  designer: [Valentina Khodasevich]
+  based_on: "Alexander Pushkin, The Fountain of Bakhchisarai (1823)"
+  premise: "A Crimean khan captures a Polish princess; his jealous favourite kills her and he builds a fountain of tears."
+  period: modernist
+  region: USSR
+  w_file: null
+  tier: B
+  threads: [T18, T05, T15]
+  confidence: probable
+  sources: ["working knowledge; W3 §10, §11 document its export to Cairo (1966) and Japan (1957)"]
+  note: "model drambalet; the template exported to Cairo, Tokyo and Beijing"
+
+- id: serenade-1934
+  title: {orig: "Serenade", en: "Serenade"}
+  premiere: {date: "1934-06-10 (students, Woodlands estate, White Plains); 1935-03-01 (American Ballet, Adelphi Theatre, New York)", place: "White Plains, NY; New York", company: "School of American Ballet / American Ballet"}
+  choreographer: [George Balanchine]
+  composer: [Pyotr Ilyich Tchaikovsky (Serenade for Strings)]
+  scenario: [none]
+  designer: [Jean Lurçat (1935); Barbara Karinska (later costumes)]
+  based_on: "classroom accidents kept in (a student falls, one arrives late)"
+  premise: "Seventeen women in blue moonlight: a plotless ballet with a ghost of a story, made on students."
+  period: modernist
+  region: USA
+  w_file: null
+  tier: B
+  threads: [T10, T02]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: icare-1935
+  title: {orig: "Icare", en: "Icarus"}
+  premiere: {date: 1935-07-09, place: "Paris Opéra (Palais Garnier)", company: "Paris Opéra Ballet"}
+  choreographer: [Serge Lifar]
+  composer: [rhythms by Serge Lifar, orchestrated by J. E. Szyfer (percussion)]
+  scenario: [Serge Lifar]
+  designer: [Paul Larthe; Pablo Picasso (1962 revival)]
+  based_on: "Icarus myth"
+  premise: "Icarus fixes on wings, flies and falls, danced to percussion composed after the choreography."
+  period: modernist
+  region: France
+  w_file: null
+  tier: C
+  threads: [T12, T03]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: bright-stream-1935
+  title: {orig: "Светлый ручей", en: "The Bright Stream"}
+  premiere: {date: 1935-06-04, place: "Leningrad, Maly Opera Theatre", company: "Maly Opera Ballet"}
+  choreographer: [Fyodor Lopukhov]
+  composer: [Dmitri Shostakovich]
+  scenario: [Adrian Piotrovsky, Fyodor Lopukhov]
+  designer: [Mikhail Bobyshov]
+  based_on: "life on a Kuban collective farm"
+  premise: "City artists visit a kolkhoz harvest festival; cross-dressed disguises expose a philandering dacha-owner."
+  period: modernist
+  region: USSR
+  w_file: null
+  tier: C
+  threads: [T08, T14, T21, T22]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "condemned by Pravda (Feb 1936); Piotrovsky later shot; Ratmansky remake Bolshoi 2003"
+
+- id: rakes-progress-1935
+  title: {orig: "The Rake's Progress", en: "The Rake's Progress"}
+  premiere: {date: 1935-05-20, place: "London, Sadler's Wells Theatre", company: "Vic-Wells Ballet"}
+  choreographer: [Ninette de Valois]
+  composer: [Gavin Gordon]
+  scenario: [Gavin Gordon]
+  designer: [Rex Whistler]
+  based_on: "William Hogarth, A Rake's Progress (engravings, 1735)"
+  premise: "A young heir squanders his inheritance in Georgian London and ends in Bedlam."
+  period: modernist
+  region: Britain
+  w_file: null
+  tier: B
+  threads: [T18, T15]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "woman choreographer and company founder; a ballet made from pictures"
+
+- id: jardin-aux-lilas-1936
+  title: {orig: "Jardin aux lilas", en: "Lilac Garden"}
+  premiere: {date: 1936-01-26, place: "London, Mercury Theatre", company: "Ballet Rambert"}
+  choreographer: [Antony Tudor]
+  composer: [Ernest Chausson (Poème)]
+  scenario: [Antony Tudor]
+  designer: [Hugh Stevenson]
+  based_on: "Edwardian marriage of convenience"
+  premise: "At a garden party before her arranged wedding, a woman tries to say goodbye to the man she loves."
+  period: modernist
+  region: Britain
+  w_file: null
+  tier: C
+  threads: [T24]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "a psychological ballet; Marie Rambert as producer"
+
+- id: les-patineurs-1937
+  title: {orig: "Les Patineurs", en: "The Skaters"}
+  premiere: {date: 1937-02-16, place: "London, Sadler's Wells Theatre", company: "Vic-Wells Ballet"}
+  choreographer: [Frederick Ashton]
+  composer: [Giacomo Meyerbeer (arr. Constant Lambert)]
+  scenario: [none]
+  designer: [William Chappell]
+  based_on: "Victorian skating parties"
+  premise: "Couples skate on a frozen pond at night; a show-off spins until the curtain falls on him."
+  period: modernist
+  region: Britain
+  w_file: null
+  tier: C
+  threads: [T11, T10]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: checkmate-1937
+  title: {orig: "Checkmate", en: "Checkmate"}
+  premiere: {date: 1937-06-15, place: "Paris, Théâtre des Champs-Élysées", company: "Vic-Wells Ballet"}
+  choreographer: [Ninette de Valois]
+  composer: [Arthur Bliss]
+  scenario: [Arthur Bliss]
+  designer: [Edward McKnight Kauffer]
+  based_on: "chess as a game between Love and Death"
+  premise: "The Black Queen seduces and kills the Red Knight and corners the old Red King."
+  period: modernist
+  region: Britain
+  w_file: null
+  tier: C
+  threads: [T11, T17]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: billy-the-kid-1938
+  title: {orig: "Billy the Kid", en: "Billy the Kid"}
+  premiere: {date: 1938-10-16, place: "Chicago, Chicago Opera House", company: "Ballet Caravan"}
+  choreographer: [Eugene Loring]
+  composer: [Aaron Copland]
+  scenario: [Lincoln Kirstein]
+  designer: [Jared French]
+  based_on: "legend of the outlaw; Walter Noble Burns, The Saga of Billy the Kid (1926)"
+  premise: "The pioneer march west frames the short violent life of the outlaw Billy."
+  period: modernist
+  region: USA
+  w_file: null
+  tier: C
+  threads: [T14, T23]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "Kirstein's Americana program; same commissioner as Estancia (see estancia-1952)"
+
+- id: laurencia-1939
+  title: {orig: "Лауренсия", en: "Laurencia"}
+  premiere: {date: 1939-03-22, place: "Leningrad, Kirov Theatre", company: "Kirov Ballet"}
+  choreographer: [Vakhtang Chabukiani]
+  composer: [Alexander Krein]
+  scenario: [Evgeny Mandelberg]
+  designer: [Simon Virsaladze]
+  based_on: "Lope de Vega, Fuenteovejuna (c. 1612-14)"
+  premise: "Spanish villagers, roused by a woman assaulted by the Commander, rise and kill him."
+  period: modernist
+  region: USSR
+  w_file: null
+  tier: C
+  threads: [T08, T18, T14, T07]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: romeo-juliet-lavrovsky-1940
+  title: {orig: "Ромео и Джульетта", en: "Romeo and Juliet"}
+  premiere: {date: "1938-12-30 (Brno, Ivo Váňa Psota); 1940-01-11 (Leningrad, Lavrovsky)", place: "Brno, Mahen Theatre; Leningrad, Kirov Theatre", company: "Brno ballet; Kirov Ballet"}
+  choreographer: [Ivo Váňa Psota (1938), Leonid Lavrovsky (1940)]
+  composer: [Sergei Prokofiev]
+  scenario: [Adrian Piotrovsky, Sergei Radlov, Sergei Prokofiev, Leonid Lavrovsky]
+  designer: [Pyotr Williams (1940)]
+  based_on: "William Shakespeare, Romeo and Juliet"
+  premise: "Two young lovers from feuding families of Verona die for a love their city cannot allow."
+  period: modernist
+  region: Czechoslovakia / USSR
+  w_file: null
+  tier: B
+  threads: [T18, T24, T15]
+  confidence: probable
+  sources: ["working knowledge; Bachtrack 2023 top 10 lists Prokofiev's Romeo and Juliet 4th (documented, CENSUS §1.1)"]
+  note: "the original happy-ending version (1935) was rejected; see romeo-juliet-macmillan-1965"
+
+- id: maiden-tower-1940
+  title: {orig: "Qız qalası", en: "The Maiden Tower"}
+  premiere: {date: 1940-04-18, place: "Baku, Azerbaijan State Academic Opera and Ballet Theatre", company: "Azerbaijan State Opera and Ballet"}
+  choreographer: [not named in sources seen]
+  composer: [Afrasiyab Badalbeyli]
+  scenario: [Afrasiyab Badalbeyli]
+  designer: [not named in sources seen]
+  based_on: "legend of the Maiden Tower, Baku; poem by Jafar Jabbarli"
+  premise: "A princess throws herself from Baku's Maiden Tower rather than submit to a forced marriage."
+  period: modernist
+  region: Azerbaijan (USSR)
+  w_file: null
+  tier: B
+  threads: [T14, T24, T15]
+  confidence: documented
+  sources: ["https://en.wikipedia.org/wiki/Maiden_Tower_(ballet)", "https://azertag.az/en/xeber/first_azerbaijani_national_ballet___the_maiden_tower-2049782", "https://www.azernews.az/culture/201032.html"]
+  note: "sources call it the first ballet of the 'Muslim East'; we say earliest known; lead Gamar Almaszade; new version 24 Oct 1999 (Yulana Alikishizade) removed Soviet propaganda; premise wording probable"
+
+- id: la-coronela-1940
+  title: {orig: "La Coronela", en: "The Colonel's Wife"}
+  premiere: {date: 1940-11-23, place: "Mexico City, Palacio de Bellas Artes", company: "Ballet de Bellas Artes"}
+  choreographer: [Waldeen (Waldeen von Falkenstein)]
+  composer: [Silvestre Revueltas (completed by Blas Galindo, orch. Candelario Huízar)]
+  scenario: [Waldeen, Gabriel Fernández Ledesma, Seki Sano; choral verse Efraín Huerta]
+  designer: [Gabriel Fernández Ledesma (sets, costumes); Germán Cueto (masks)]
+  based_on: "twelve engravings by José Guadalupe Posada"
+  premise: "Four episodes from Posada's Mexico: the young ladies of the old regime, the dance of the dispossessed, Don Ferruco's nightmare, the Last Judgement."
+  period: modernist
+  region: Mexico
+  w_file: null
+  tier: B
+  threads: [T08, T14, T18]
+  confidence: documented
+  sources: ["https://datosabiertos.unam.mx/FaM:BDREV:MU14", "https://inbadigital.bellasartes.gob.mx/jspui/handle/11271/1263", "https://es.wikipedia.org/wiki/La_coronela"]
+  note: "commissioned by INBA via Celestino Gorostiza; Revueltas died before orchestrating; a woman choreographer (US-born) founding Mexican nationalist modern dance; modern-dance company, boundary case"
+
+- id: rodeo-1942
+  title: {orig: "Rodeo, or The Courting at Burnt Ranch", en: "Rodeo"}
+  premiere: {date: 1942-10-16, place: "New York, Metropolitan Opera House", company: "Ballet Russe de Monte Carlo"}
+  choreographer: [Agnes de Mille]
+  composer: [Aaron Copland]
+  scenario: [Agnes de Mille]
+  designer: [Oliver Smith (sets), Kermit Love (costumes)]
+  based_on: "ranch life in the American West"
+  premise: "A tomboy cowgirl tries to outride the cowhands and wins the Champion Roper by putting on a dress (or by not quite)."
+  period: modernist
+  region: USA
+  w_file: null
+  tier: B
+  threads: [T14, T11, T22]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "woman choreographer; the ending's gender politics is the teaching point"
+
+- id: pillar-of-fire-1942
+  title: {orig: "Pillar of Fire", en: "Pillar of Fire"}
+  premiere: {date: 1942-04-08, place: "New York, Metropolitan Opera House", company: "Ballet Theatre"}
+  choreographer: [Antony Tudor]
+  composer: [Arnold Schoenberg (Verklärte Nacht)]
+  scenario: [Antony Tudor (after Richard Dehmel's poem)]
+  designer: [Jo Mielziner]
+  based_on: "Richard Dehmel, 'Verklärte Nacht' (1896)"
+  premise: "A repressed woman, afraid of spinsterhood, gives herself to a stranger and is redeemed by love."
+  period: modernist
+  region: USA / Britain
+  w_file: null
+  tier: C
+  threads: [T24, T18]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: gayane-1942
+  title: {orig: "Гаянэ", en: "Gayane"}
+  premiere: {date: 1942-12-09, place: "Molotov (Perm), evacuated Kirov Theatre", company: "Kirov Ballet"}
+  choreographer: [Nina Anisimova]
+  composer: [Aram Khachaturian]
+  scenario: [Konstantin Derzhavin]
+  designer: [Nikolai Altman (probable)]
+  based_on: "Khachaturian's 1939 ballet Happiness (libretto Gevorg Hovhannisyan); Armenian folk music"
+  premise: "On an Armenian collective farm, a woman exposes her husband as a traitor and saboteur."
+  period: modernist
+  region: Armenia / USSR
+  w_file: null
+  tier: B
+  threads: [T08, T14, T24]
+  confidence: documented
+  sources: ["https://en.wikipedia.org/wiki/Gayane_(ballet)", "https://www.khachaturian.am/eng/works/ballets_1.htm"]
+  note: "woman choreographer (Anisimova, a character dancer); 'Sabre Dance' written overnight at the theatre's request (documented, Khachaturian museum); premise wording probable; libretto rewritten several times"
+
+# ---------------------------------------------------------------- POSTWAR (1944-1975)
+- id: fancy-free-1944
+  title: {orig: "Fancy Free", en: "Fancy Free"}
+  premiere: {date: 1944-04-18, place: "New York, Metropolitan Opera House", company: "Ballet Theatre"}
+  choreographer: [Jerome Robbins]
+  composer: [Leonard Bernstein]
+  scenario: [Jerome Robbins]
+  designer: [Oliver Smith (set), Kermit Love (costumes)]
+  based_on: "wartime New York; Paul Cadmus's painting The Fleet's In! (probable)"
+  premise: "Three sailors on shore leave compete for two girls in a Manhattan bar."
+  period: postwar
+  region: USA
+  w_file: null
+  tier: B
+  threads: [T11, T14]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "became On the Town (musical 1944, film 1949): adjacent translation"
+
+- id: cinderella-zakharov-1945
+  title: {orig: "Золушка", en: "Cinderella"}
+  premiere: {date: 1945-11-21, place: "Moscow, Bolshoi Theatre", company: "Bolshoi Ballet"}
+  choreographer: [Rostislav Zakharov]
+  composer: [Sergei Prokofiev]
+  scenario: [Nikolai Volkov]
+  designer: [Pyotr Williams]
+  based_on: "Charles Perrault, Cendrillon (1697)"
+  premise: "A mistreated stepdaughter goes to the ball with a fairy's help and is found again by a slipper."
+  period: postwar
+  region: USSR
+  w_file: null
+  tier: B
+  threads: [T06, T07, T20]
+  confidence: probable
+  sources: ["working knowledge; Bachtrack 2023 top 10 lists Prokofiev's Cinderella 5th (documented, CENSUS §1.1)"]
+  note: "card should cover Ashton 1948 (earliest known full-length British ballet, probable) and later versions (Ratmansky, Wheeldon, Maillot)"
+
+- id: four-temperaments-1946
+  title: {orig: "The Four Temperaments", en: "The Four Temperaments"}
+  premiere: {date: 1946-11-20, place: "New York, Central High School of Needle Trades", company: "Ballet Society"}
+  choreographer: [George Balanchine]
+  composer: [Paul Hindemith]
+  scenario: [none]
+  designer: [Kurt Seligmann (1946; later practice clothes)]
+  based_on: "medieval humours theory (melancholic, sanguine, phlegmatic, choleric)"
+  premise: "Theme and four variations on the humours, danced in a new angular vocabulary; later stripped to practice clothes."
+  period: postwar
+  region: USA
+  w_file: null
+  tier: B
+  threads: [T10]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: symphonic-variations-1946
+  title: {orig: "Symphonic Variations", en: "Symphonic Variations"}
+  premiere: {date: 1946-04-24, place: "London, Royal Opera House", company: "Sadler's Wells Ballet"}
+  choreographer: [Frederick Ashton]
+  composer: [César Franck]
+  scenario: [none]
+  designer: [Sophie Fedorovitch]
+  based_on: "none (music-led; Ashton's reading of mystical texts, probable)"
+  premise: "Six dancers who never leave the stage against a pale green backcloth: postwar renewal as pure dance."
+  period: postwar
+  region: Britain
+  w_file: null
+  tier: C
+  threads: [T10]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "woman designer"
+
+- id: jeune-homme-et-la-mort-1946
+  title: {orig: "Le Jeune Homme et la mort", en: "The Young Man and Death"}
+  premiere: {date: 1946-06-25, place: "Paris, Théâtre des Champs-Élysées", company: "Ballets des Champs-Élysées"}
+  choreographer: [Roland Petit]
+  composer: [J. S. Bach (Passacaglia in C minor, orch. Respighi)]
+  scenario: [Jean Cocteau]
+  designer: [Georges Wakhévitch (set), Karinska (costumes)]
+  based_on: "Cocteau's scenario; rehearsed to jazz, performed to Bach"
+  premise: "A painter in a Paris garret is driven by a woman to hang himself; she returns as Death and leads him over the roofs."
+  period: postwar
+  region: France
+  w_file: null
+  tier: C
+  threads: [T15, T19]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: symphony-in-c-1947
+  title: {orig: "Le Palais de cristal / Symphony in C", en: "Symphony in C"}
+  premiere: {date: 1947-07-28, place: "Paris Opéra (Palais Garnier)", company: "Paris Opéra Ballet"}
+  choreographer: [George Balanchine]
+  composer: [Georges Bizet]
+  scenario: [none]
+  designer: [Leonor Fini (1947)]
+  based_on: "none (music-led)"
+  premise: "Four movements, four ballerinas, four colours of jewels (1947), merged into a finale of fifty dancers."
+  period: postwar
+  region: France / USA
+  w_file: null
+  tier: C
+  threads: [T10]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "woman designer (Fini) at Paris; renamed and redressed in white and black for Ballet Society 1948"
+
+- id: fall-river-legend-1948
+  title: {orig: "Fall River Legend", en: "Fall River Legend"}
+  premiere: {date: 1948-04-22, place: "New York, Metropolitan Opera House", company: "Ballet Theatre"}
+  choreographer: [Agnes de Mille]
+  composer: [Morton Gould]
+  scenario: [Agnes de Mille]
+  designer: [Oliver Smith (sets), Miles White (costumes)]
+  based_on: "the Lizzie Borden case (1892)"
+  premise: "A New England spinster, crushed by her stepmother and her town, takes an axe to her parents and goes to the gallows."
+  period: postwar
+  region: USA
+  w_file: null
+  tier: C
+  threads: [T24, T15]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "woman choreographer; changes history (Borden was acquitted)"
+
+- id: carmen-petit-1949
+  title: {orig: "Carmen", en: "Carmen"}
+  premiere: {date: 1949-02-21, place: "London, Prince's Theatre", company: "Ballets de Paris de Roland Petit"}
+  choreographer: [Roland Petit]
+  composer: [Georges Bizet (arr.)]
+  scenario: [Roland Petit]
+  designer: [Antoni Clavé]
+  based_on: "Prosper Mérimée (1845); Bizet's opera (1875)"
+  premise: "Carmen as a cropped-haired femme fatale in a stylised Spain: sex and death in forty minutes."
+  period: postwar
+  region: France
+  w_file: null
+  tier: C
+  threads: [T05, T18, T15]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: miss-julie-1950
+  title: {orig: "Fröken Julie", en: "Miss Julie"}
+  premiere: {date: 1950-03-01, place: "Västerås, Sweden", company: "Riksteatern (Birgit Cullberg)"}
+  choreographer: [Birgit Cullberg]
+  composer: [Ture Rangström]
+  scenario: [Birgit Cullberg]
+  designer: [Allan Fridericia (probable)]
+  based_on: "August Strindberg, Fröken Julie (1888)"
+  premise: "On Midsummer Eve a count's daughter seduces her father's valet and, shamed, takes his razor."
+  period: postwar
+  region: Sweden
+  w_file: null
+  tier: B
+  threads: [T18, T07, T24, T15]
+  confidence: probable
+  sources: ["working knowledge; W3 §5 documents Cullberg as Ek's root"]
+  note: "woman choreographer; Royal Swedish Ballet took it in 1950; ABT 1958"
+
+- id: shurale-1950
+  title: {orig: "Шурале", en: "Shurale"}
+  premiere: {date: "1945 (Kazan, Tatar Opera and Ballet); 1950-05-28 (Leningrad, Kirov, Yakobson)", place: "Kazan; Leningrad", company: "Tatar State Opera and Ballet; Kirov Ballet"}
+  choreographer: [Leonid Zhukov, Gai Tagirov (1945), Leonid Yakobson (1950)]
+  composer: [Farid Yarullin]
+  scenario: [Ahmed Faizi]
+  designer: [Boris Erdman (1950) (probable)]
+  based_on: "Tatar folk tales; Ğabdulla Tuqay's poem 'Şüräle' (1907)"
+  premise: "A hunter steals the wings of a bird-maiden in a forest ruled by the wood-goblin Shurale and must defend her."
+  period: postwar
+  region: Tatarstan (USSR)
+  w_file: null
+  tier: B
+  threads: [T03, T14, T01, T06]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "Muslim-majority national ballet; the bird-maiden thread outside Europe; Yarullin killed at the front 1943"
+
+- id: the-cage-1951
+  title: {orig: "The Cage", en: "The Cage"}
+  premiere: {date: 1951-06-10, place: "New York, City Center", company: "New York City Ballet"}
+  choreographer: [Jerome Robbins]
+  composer: [Igor Stravinsky (Concerto in D for strings)]
+  scenario: [Jerome Robbins]
+  designer: [Jean Rosenthal (set, lighting), Ruth Sobotka (costumes)]
+  based_on: "insect behaviour; the Wilis of Giselle (argued)"
+  premise: "A tribe of female insects initiate a novice, who kills her male lovers."
+  period: postwar
+  region: USA
+  w_file: null
+  tier: C
+  threads: [T02, T03, T13, T16]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "two women designers (Rosenthal, Sobotka)"
+
+- id: estancia-1952
+  title: {orig: "Estancia", en: "Estancia"}
+  premiere: {date: 1952-08-19, place: "Buenos Aires, Teatro Colón", company: "Ballet del Teatro Colón"}
+  choreographer: [Michel Borowski]
+  composer: [Alberto Ginastera]
+  scenario: [Alberto Ginastera (sung texts from José Hernández, Martín Fierro)]
+  designer: [Dante Ortolani]
+  based_on: "José Hernández, Martín Fierro (1872); Argentine rural life"
+  premise: "A city boy wins a ranch girl by proving himself as a gaucho, ending in a malambo."
+  period: postwar
+  region: Argentina
+  w_file: null
+  tier: B
+  threads: [T14, T07, T11]
+  confidence: documented
+  sources: ["https://ressources.ircam.fr/en/work/estancia", "https://en.wikipedia.org/wiki/Estancia_(Ginastera)"]
+  note: "commissioned 1941 by Lincoln Kirstein for American Ballet Caravan, unstaged then; Wheeldon remade it for NYCB 2010 (set Santiago Calatrava); premise wording probable"
+
+- id: afternoon-faun-robbins-1953
+  title: {orig: "Afternoon of a Faun", en: "Afternoon of a Faun (Robbins)"}
+  premiere: {date: 1953-05-14, place: "New York, City Center", company: "New York City Ballet"}
+  choreographer: [Jerome Robbins]
+  composer: [Claude Debussy]
+  scenario: [Jerome Robbins]
+  designer: [Jean Rosenthal (set, lighting), Irene Sharaff (costumes)]
+  based_on: "remake of apres-midi-faune-1912; a dancer watching himself in the studio mirror"
+  premise: "Two dancers in a studio meet in the mirror (the audience) and part after a kiss."
+  period: postwar
+  region: USA
+  w_file: null
+  tier: C
+  threads: [T13, T19]
+  confidence: probable
+  sources: ["working knowledge; W2 §12.1 lists Robbins 1953 as a remake"]
+
+- id: white-haired-girl-matsuyama-1955
+  title: {orig: "白毛女", en: "The White-Haired Girl (Matsuyama Ballet)"}
+  premiere: {date: 1955-02-12, place: "Tokyo, Hibiya Public Hall (日比谷公会堂)", company: "Matsuyama Ballet (松山バレエ団)"}
+  choreographer: [Matsuyama Mikiko (松山樹子)]
+  composer: [Hayashi Hikaru (林光)]
+  scenario: [Shimizu Masao (清水正夫) (producer); Hijikata Yoshi (土方与志) (director); after the Yan'an geju (He Jingzhi, Ding Yi, 1945)]
+  designer: [Hijikata Umeko (土方梅子) (costumes)]
+  based_on: "the Chinese geju The White-Haired Girl (Yan'an 1945) and the 1950 film"
+  premise: "A peasant girl sold to a landlord flees to the mountains, her hair turns white, and the revolutionary army rescues her."
+  period: postwar
+  region: Japan / China
+  w_file: W3 §11
+  tier: A
+  threads: [T08, T24, T01, T18]
+  confidence: documented
+  sources: ["W3 §11"]
+  note: "earliest known ballet adaptation of the story; woman choreographer"
+
+- id: agon-1957
+  title: {orig: "Agon", en: "Agon"}
+  premiere: {date: 1957-12-01, place: "New York, City Center", company: "New York City Ballet"}
+  choreographer: [George Balanchine]
+  composer: [Igor Stravinsky]
+  scenario: [none]
+  designer: [none (practice clothes); lighting Nananne Porcher]
+  based_on: "François de Lauze, Apologie de la danse (1623); Mersenne's dance examples"
+  premise: "Twelve dancers in practice clothes play out the combinations of twelve-tone music and old court dances as a contest."
+  period: postwar
+  region: USA
+  w_file: W2 §11
+  tier: A
+  threads: [T10, T17, T11]
+  confidence: documented
+  sources: ["W2 §11, §12.1"]
+
+- id: stone-flower-1957
+  title: {orig: "Каменный цветок (Сказ о каменном цветке)", en: "The Stone Flower"}
+  premiere: {date: "1954-02-12 (Bolshoi, Lavrovsky); 1957-04-25 (Kirov, Grigorovich)", place: "Moscow, Bolshoi; Leningrad, Kirov", company: "Bolshoi Ballet; Kirov Ballet"}
+  choreographer: [Leonid Lavrovsky (1954), Yuri Grigorovich (1957)]
+  composer: [Sergei Prokofiev]
+  scenario: [Mira Mendelson-Prokofieva, Leonid Lavrovsky (1954); Yuri Grigorovich (1957)]
+  designer: [Simon Virsaladze (1957)]
+  based_on: "Pavel Bazhov, The Malachite Box (Ural tales, 1939)"
+  premise: "A Ural stonecutter seeks to carve a perfect stone flower and is held by the Mistress of the Copper Mountain."
+  period: postwar
+  region: USSR
+  w_file: null
+  tier: C
+  threads: [T19, T01, T14, T06]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "scenario co-written by a woman (Mendelson-Prokofieva)"
+
+- id: sacre-bejart-1959
+  title: {orig: "Le Sacre du printemps (Béjart)", en: "The Rite of Spring (Béjart)"}
+  premiere: {date: 1959-12-08, place: "Brussels, Théâtre de la Monnaie", company: "Ballet du XXe Siècle (precursor company)"}
+  choreographer: [Maurice Béjart]
+  composer: [Igor Stravinsky]
+  scenario: [Maurice Béjart]
+  designer: [Pierre Caille (probable)]
+  based_on: "remake of rite-of-spring-1913"
+  premise: "The Rite as a mass mating ritual of a male and a female tribe, not a sacrifice."
+  period: postwar
+  region: Belgium / France
+  w_file: null
+  tier: C
+  threads: [T13, T16]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: fish-beauty-1959
+  title: {orig: "鱼美人", en: "The Fish Beauty"}
+  premiere: {date: 1959, place: "Beijing, Tianqiao Theatre (天桥剧场)", company: "Beijing Dance School (北京舞蹈学校), choreography training class"}
+  choreographer: [Pyotr Gusev (古雪夫, chief), Li Chengxiang (李承祥), Li Chenglian (栗承廉), Wang Shiqi (王世琦)]
+  composer: [Wu Zuqiang (吴祖强), Du Mingxin (杜鸣心)]
+  scenario: [Li Chengxiang and the training class]
+  designer: [not named in sources seen]
+  based_on: "Li Chengxiang's student étude; Chinese folk tale motifs"
+  premise: "A fish-spirit falls in love with a young hunter and must resist the Mountain Demon to become human."
+  period: postwar
+  region: China
+  w_file: null
+  tier: B
+  threads: [T03, T01, T14, T06]
+  confidence: documented
+  sources: ["https://yjzx.hnu.edu.cn/info/1024/1514.htm", "http://www.chnmusic.cn/lunwen/2022/0314/8694.html"]
+  note: "a deliberate fusion of Chinese classical dance (upper body) and ballet (legs) per Gusev; premiered for the 10th anniversary of the PRC; lead Chen Ailian; premise wording probable; same composers as Red Detachment"
+
+- id: revelations-1960
+  title: {orig: "Revelations", en: "Revelations"}
+  premiere: {date: 1960-01-31, place: "New York, 92nd Street YM-YWHA", company: "Alvin Ailey American Dance Theater"}
+  choreographer: [Alvin Ailey]
+  composer: [traditional spirituals, gospel and blues]
+  scenario: [Alvin Ailey]
+  designer: [Ves Harper (probable)]
+  based_on: "Ailey's 'blood memories' of Black church in Texas"
+  premise: "From sorrow to baptism to Sunday celebration: African American spirituals in three sections."
+  period: postwar
+  region: USA
+  w_file: null
+  tier: B
+  threads: [T14, T16]
+  confidence: probable
+  sources: ["working knowledge; Bachtrack 2023 top 10 (8th) (documented, CENSUS §1.1)"]
+  note: "modern dance, not ballet; included because Bachtrack counts it among the most performed dance works"
+
+- id: fille-mal-gardee-ashton-1960
+  title: {orig: "La Fille mal gardée (Ashton)", en: "La Fille mal gardée (Ashton)"}
+  premiere: {date: 1960-01-28, place: "London, Royal Opera House", company: "Royal Ballet"}
+  choreographer: [Frederick Ashton]
+  composer: [Ferdinand Hérold (arr. John Lanchbery)]
+  scenario: [after Jean Dauberval]
+  designer: [Osbert Lancaster]
+  based_on: "remake of fille-mal-gardee-1789; Karsavina's memories of the Russian version"
+  premise: "Lise and Colas outwit Widow Simone and the dim Alain, with a clog dance, a maypole and a ribbon cat's cradle."
+  period: postwar
+  region: Britain
+  w_file: null
+  tier: B
+  threads: [T13, T07, T14, T11]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: legend-of-love-1961
+  title: {orig: "Легенда о любви", en: "The Legend of Love"}
+  premiere: {date: 1961-03-23, place: "Leningrad, Kirov Theatre", company: "Kirov Ballet"}
+  choreographer: [Yuri Grigorovich]
+  composer: [Arif Melikov]
+  scenario: [Nazım Hikmet]
+  designer: [Simon Virsaladze]
+  based_on: "Nazım Hikmet's play Ferhad and Şirin, after Nizami"
+  premise: "A queen gives up her beauty to save her sister; both love the painter Ferhad, who is set to cut a mountain to bring water."
+  period: postwar
+  region: USSR / Azerbaijan / Turkey
+  w_file: null
+  tier: C
+  threads: [T05, T18, T19]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: bolero-bejart-1961
+  title: {orig: "Boléro (Béjart)", en: "Boléro (Béjart)"}
+  premiere: {date: 1961-01-10, place: "Brussels, Théâtre de la Monnaie", company: "Ballet du XXe Siècle"}
+  choreographer: [Maurice Béjart]
+  composer: [Maurice Ravel]
+  scenario: [none]
+  designer: [Maurice Béjart]
+  based_on: "remake of bolero-nijinska-1928"
+  premise: "A single dancer on a red table, the 'Melody', draws a circle of men, the 'Rhythm', into a crescendo."
+  period: postwar
+  region: Belgium
+  w_file: null
+  tier: C
+  threads: [T13, T10, T22]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "the Melody role danced by women and men (Jorge Donn 1979), a gender-open role"
+
+- id: red-detachment-1964
+  title: {orig: "红色娘子军", en: "The Red Detachment of Women"}
+  premiere: {date: "1964-09-26 (Chinese sources) or early Oct 1964 (Wilcox)", place: "Beijing, Tianqiao Theatre", company: "Central Opera and Dance Drama Theatre ballet troupe (now National Ballet of China)"}
+  choreographer: [Li Chengxiang (李承祥), Jiang Zuhui (蒋祖慧), Wang Xixian (王希贤)]
+  composer: [Wu Zuqiang, Du Mingxin, Wang Yanqiao, Shi Wanchun, Dai Hongwei]
+  scenario: [collective, after Liang Xin's screenplay]
+  designer: [see W3 §1]
+  based_on: "Xie Jin's film (1961) from Liang Xin's script; the Qiongya women's Red Army company (1931)"
+  premise: "A slave girl on Hainan escapes, joins an all-women Red Army company and grows from revenge to class consciousness."
+  period: postwar
+  region: China
+  w_file: W3 §1
+  tier: A
+  threads: [T08, T24, T14, T13]
+  confidence: contested
+  sources: ["W3 §1", "http://www.chnmusic.cn/lunwen/2022/0314/8694.html (composers)"]
+  note: "premiere date contested (W3 §1); team formed by vice-minister Lin Mohan after Zhou Enlai's prompt; Jiang Zuhui, a woman co-choreographer, later made new-years-sacrifice-1981"
+
+- id: the-dream-1964
+  title: {orig: "The Dream", en: "The Dream"}
+  premiere: {date: 1964-04-02, place: "London, Royal Opera House", company: "Royal Ballet"}
+  choreographer: [Frederick Ashton]
+  composer: [Felix Mendelssohn (arr. John Lanchbery)]
+  scenario: [Frederick Ashton]
+  designer: [Henry Bardon (sets), David Walker (costumes)]
+  based_on: "William Shakespeare, A Midsummer Night's Dream"
+  premise: "Oberon and Titania quarrel; Puck's love-juice muddles four lovers and gives Titania an ass for a lover."
+  period: postwar
+  region: Britain
+  w_file: null
+  tier: C
+  threads: [T18, T01, T06]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "Balanchine's A Midsummer Night's Dream (NYCB 1962) is the comparison"
+
+- id: cesmebasi-1965
+  title: {orig: "Çeşmebaşı", en: "At the Fountain"}
+  premiere: {date: 1965-02-19, place: "Ankara, Büyük Tiyatro", company: "Turkish State Opera and Ballet"}
+  choreographer: [Ninette de Valois (probable)]
+  composer: [Ferit Tüzün]
+  scenario: [none ("a fantasy" without a fixed plot, per programme)]
+  designer: [Refik Eren, Hüseyin Mumcu (sets); Hale Eren (costumes)]
+  based_on: "Anatolian village life; Tüzün's 'Anadolu Süiti'; Karagöz shadow theatre"
+  premise: "A day at a village fountain: girls gossip, a troupe of travelling acrobats and Karagöz and Hacivat perform, night falls."
+  period: postwar
+  region: Turkey
+  w_file: null
+  tier: C
+  threads: [T14, T21, T04]
+  confidence: documented
+  sources: ["https://tr.wikipedia.org/wiki/%C3%87e%C5%9Fmeba%C5%9F%C4%B1_Balesi", "https://www.gastearsivi.com/gazete/akis/1965-02-26/32"]
+  note: "Akis (26 Feb 1965) calls it the earliest Turkish ballet on a Turkish composer's music; de Valois founded the Turkish school (1947) and attended; her authorship of the choreography is not stated in the text seen; finale encored at premiere"
+
+- id: romeo-juliet-macmillan-1965
+  title: {orig: "Romeo and Juliet (MacMillan)", en: "Romeo and Juliet (MacMillan)"}
+  premiere: {date: 1965-02-09, place: "London, Royal Opera House", company: "Royal Ballet"}
+  choreographer: [Kenneth MacMillan]
+  composer: [Sergei Prokofiev]
+  scenario: [after Shakespeare]
+  designer: [Nicholas Georgiadis]
+  based_on: "remake of romeo-juliet-lavrovsky-1940; Zeffirelli's 1960 stage production; Cranko's Stuttgart version (1962)"
+  premise: "The Prokofiev ballet re-made as gritty Renaissance street life around two teenagers."
+  period: postwar
+  region: Britain
+  w_file: null
+  tier: B
+  threads: [T13, T18, T24]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: song-of-the-earth-1965
+  title: {orig: "Das Lied von der Erde", en: "Song of the Earth"}
+  premiere: {date: 1965-11-07, place: "Stuttgart, Württemberg State Theatre", company: "Stuttgart Ballet"}
+  choreographer: [Kenneth MacMillan]
+  composer: [Gustav Mahler]
+  scenario: [none]
+  designer: [Nicholas Georgiadis]
+  based_on: "Mahler's settings of Chinese Tang poems (via Hans Bethge)"
+  premise: "A man, a woman and a masked Messenger of Death pass through six songs on the transience of life."
+  period: postwar
+  region: Germany / Britain
+  w_file: null
+  tier: C
+  threads: [T10, T05]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: onegin-1965
+  title: {orig: "Onegin", en: "Onegin"}
+  premiere: {date: 1965-04-13, place: "Stuttgart, Württemberg State Theatre", company: "Stuttgart Ballet"}
+  choreographer: [John Cranko]
+  composer: [Pyotr Ilyich Tchaikovsky (arr. Kurt-Heinz Stolze, not from the opera)]
+  scenario: [John Cranko]
+  designer: [Jürgen Rose]
+  based_on: "Alexander Pushkin, Eugene Onegin (1833)"
+  premise: "A bookish girl's love is rejected by a bored aristocrat; years later, married, she rejects him."
+  period: postwar
+  region: Germany
+  w_file: null
+  tier: B
+  threads: [T18, T24]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: white-haired-girl-shanghai-1965
+  title: {orig: "白毛女", en: "The White-Haired Girl (Shanghai)"}
+  premiere: {date: 1965, place: "Shanghai", company: "Shanghai Dance School (上海市舞蹈学校)"}
+  choreographer: [Hu Rongrong (胡蓉蓉) and collective (probable)]
+  composer: [Yan Jinxuan (严金萱) and collective (probable)]
+  scenario: [collective]
+  designer: [collective]
+  based_on: "the Yan'an geju (1945); see white-haired-girl-matsuyama-1955"
+  premise: "Xi'er's story as a revolutionary model ballet: the landlord's victim becomes a fighter when the Eighth Route Army comes."
+  period: postwar
+  region: China
+  w_file: null
+  tier: C
+  threads: [T08, T24, T13]
+  confidence: probable
+  sources: ["working knowledge; W3 §11 mentions the Chinese ballet version"]
+  note: "one of the eight model works (样板戏); compare with the Japanese version for adjacent translation; woman choreographer to verify"
+
+- id: carmen-suite-1967
+  title: {orig: "Кармен-сюита", en: "Carmen Suite"}
+  premiere: {date: 1967-04-20, place: "Moscow, Bolshoi Theatre", company: "Bolshoi Ballet"}
+  choreographer: [Alberto Alonso]
+  composer: [Rodion Shchedrin (after Bizet)]
+  scenario: [Alberto Alonso]
+  designer: [Boris Messerer]
+  based_on: "Bizet's Carmen; Mérimée"
+  premise: "Carmen in a bullring of chairs, watched by spectators: fate, freedom and the corrida in one act."
+  period: postwar
+  region: Cuba / USSR
+  w_file: null
+  tier: B
+  threads: [T13, T18, T05, T24]
+  confidence: documented
+  sources: ["https://en.wikipedia.org/wiki/Carmen_Suite_(ballet)", "https://www.rohcollections.org.uk/work.aspx?genre=All&letter=C&row=16&work=33542"]
+  note: "made for Maya Plisetskaya; initially banned as 'disrespectful' to the opera (Wikipedia); designer probable; Ballet Nacional de Cuba took it the same year"
+
+- id: raka-1967
+  title: {orig: "Raka", en: "Raka"}
+  premiere: {date: "1967-08 (Pretoria)", place: "Pretoria", company: "PACT Ballet (Performing Arts Council of the Transvaal)"}
+  choreographer: [Frank Staff]
+  composer: [Graham Newcater]
+  scenario: [after N. P. van Wyk Louw]
+  designer: [Raimond Schoop]
+  based_on: "N. P. van Wyk Louw, Raka (Afrikaans epic poem, 1941)"
+  premise: "A half-human creature, Raka, enters a village; only the warrior Koki resists him while the others are seduced."
+  period: postwar
+  region: South Africa
+  w_file: null
+  tier: B
+  threads: [T23, T18, T16]
+  confidence: documented
+  sources: ["https://esat.sun.ac.za/index.php/Raka", "https://www.dbnl.org/tekst/_ons003196901_01/_ons003196901_01_0047.php", "https://en.wikipedia.org/wiki/Frank_Staff"]
+  note: "made under apartheid by a white company on an Afrikaans poem: the colonial-encounter thread read critically; costumes drew on Ndebele ('Mapogger') motifs (Ons Erfdeel 1969); filmed and distributed by Twentieth Century Fox; Veronica Paeper restaged it 1999, 2004"
+
+- id: jewels-1967
+  title: {orig: "Jewels", en: "Jewels"}
+  premiere: {date: 1967-04-13, place: "New York, New York State Theater", company: "New York City Ballet"}
+  choreographer: [George Balanchine]
+  composer: [Gabriel Fauré (Emeralds), Igor Stravinsky (Rubies), Pyotr Ilyich Tchaikovsky (Diamonds)]
+  scenario: [none]
+  designer: [Peter Harvey (sets), Barbara Karinska (costumes)]
+  based_on: "Van Cleef and Arpels jewellery (contested as origin); France, America, Russia as styles"
+  premise: "Three plotless acts as three gems and three national styles of ballet."
+  period: postwar
+  region: USA
+  w_file: null
+  tier: B
+  threads: [T10, T13]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "often called the earliest known full-length plotless ballet; woman costume designer (Karinska)"
+
+- id: spartacus-1968
+  title: {orig: "Спартак", en: "Spartacus"}
+  premiere: {date: 1968-04-09, place: "Moscow, Bolshoi Theatre", company: "Bolshoi Ballet"}
+  choreographer: [Yuri Grigorovich]
+  composer: [Aram Khachaturian]
+  scenario: [Yuri Grigorovich (after Nikolai Volkov)]
+  designer: [Simon Virsaladze]
+  based_on: "Appian and Plutarch; Raffaello Giovagnoli, Spartaco (1874)"
+  premise: "The slave revolt of 73-71 BCE told through four characters: Spartacus, Phrygia, Crassus, Aegina."
+  period: postwar
+  region: USSR
+  w_file: W3 §2
+  tier: A
+  threads: [T08, T12, T13]
+  confidence: documented
+  sources: ["W3 §2"]
+  note: "earlier versions: Yakobson (Kirov, 27 Dec 1956), Moiseyev (Bolshoi 1958)"
+
+- id: dances-at-a-gathering-1969
+  title: {orig: "Dances at a Gathering", en: "Dances at a Gathering"}
+  premiere: {date: 1969-05-22, place: "New York, New York State Theater", company: "New York City Ballet"}
+  choreographer: [Jerome Robbins]
+  composer: [Frédéric Chopin]
+  scenario: [none]
+  designer: [Joe Eula (costumes), Thomas Skelton (lighting)]
+  based_on: "none (Chopin piano pieces; folk-dance memory)"
+  premise: "Ten dancers in a sunlit field meet, part and look at the sky, an hour of Chopin without a story."
+  period: postwar
+  region: USA
+  w_file: null
+  tier: C
+  threads: [T10, T14]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: ecstasy-of-rita-joe-1971
+  title: {orig: "The Ecstasy of Rita Joe", en: "The Ecstasy of Rita Joe"}
+  premiere: {date: 1971, place: "Winnipeg (probable)", company: "Royal Winnipeg Ballet"}
+  choreographer: [Norbert Vesak]
+  composer: [Ann Mortifee]
+  scenario: [after George Ryga]
+  designer: [unknown]
+  based_on: "George Ryga, The Ecstasy of Rita Joe (play, 1967)"
+  premise: "A young First Nations woman who moves to the city is crushed by poverty, the courts and violence."
+  period: postwar
+  region: Canada
+  w_file: null
+  tier: C
+  threads: [T23, T24, T18]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "woman composer; an Indigenous subject made by settler artists; date and venue to verify"
+
+- id: anna-karenina-plisetskaya-1972
+  title: {orig: "Анна Каренина", en: "Anna Karenina"}
+  premiere: {date: 1972-06-10, place: "Moscow, Bolshoi Theatre", company: "Bolshoi Ballet"}
+  choreographer: [Maya Plisetskaya, Natalia Ryzhenko, Victor Smirnov-Golovanov]
+  composer: [Rodion Shchedrin]
+  scenario: [Boris Lvov-Anokhin]
+  designer: [Valery Levental]
+  based_on: "Leo Tolstoy, Anna Karenina (1878)"
+  premise: "A married woman's passion for an officer ends under a train."
+  period: postwar
+  region: USSR
+  w_file: null
+  tier: C
+  threads: [T18, T24, T15, T09]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "a ballerina as choreographer inside the Soviet system"
+
+- id: tarde-en-la-siesta-1973
+  title: {orig: "Tarde en la siesta", en: "Afternoon Siesta"}
+  premiere: {date: 1973, place: "Havana (probable)", company: "Ballet Nacional de Cuba"}
+  choreographer: [Alberto Méndez]
+  composer: [Ernesto Lecuona]
+  scenario: [Alberto Méndez]
+  designer: [unknown]
+  based_on: "colonial Havana; four sisters on a summer afternoon"
+  premise: "Four sisters in a colonial Cuban house dream of love and loss through an afternoon of Lecuona."
+  period: postwar
+  region: Cuba
+  w_file: null
+  tier: C
+  threads: [T14, T24]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "low confidence on date and premise; verify via Ballet Nacional de Cuba repertory"
+
+- id: manon-1974
+  title: {orig: "Manon", en: "Manon"}
+  premiere: {date: 1974-03-07, place: "London, Royal Opera House", company: "Royal Ballet"}
+  choreographer: [Kenneth MacMillan]
+  composer: [Jules Massenet (arr. Leighton Lucas; not from the opera)]
+  scenario: [Kenneth MacMillan]
+  designer: [Nicholas Georgiadis]
+  based_on: "Abbé Prévost, Manon Lescaut (1731)"
+  premise: "A convent-bound girl chooses between a poor student and a rich protector, and dies deported in a Louisiana swamp."
+  period: postwar
+  region: Britain
+  w_file: null
+  tier: B
+  threads: [T18, T15, T24]
+  confidence: probable
+  sources: ["working knowledge"]
+
+- id: sacre-bausch-1975
+  title: {orig: "Das Frühlingsopfer (Le Sacre du printemps)", en: "The Rite of Spring (Bausch)"}
+  premiere: {date: 1975-12-03, place: "Wuppertal, Opernhaus", company: "Tanztheater Wuppertal"}
+  choreographer: [Pina Bausch]
+  composer: [Igor Stravinsky]
+  scenario: [Pina Bausch]
+  designer: [Rolf Borzik]
+  based_on: "remake of rite-of-spring-1913"
+  premise: "On a stage covered in earth, the group chooses a woman by a red dress and she dances to death."
+  period: postwar
+  region: Germany
+  w_file: null
+  tier: B
+  threads: [T13, T16, T24]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "woman choreographer; Tanztheater, not a ballet company, but taken into Paris Opéra Ballet repertory (1997) and restaged with École des Sables dancers (2021); see sacre-acogny-2021"
+
+# ---------------------------------------------------------------- LATE 20TH CENTURY (1976-1999)
+- id: push-comes-to-shove-1976
+  title: {orig: "Push Comes to Shove", en: "Push Comes to Shove"}
+  premiere: {date: 1976-01-09, place: "New York, Uris Theater", company: "American Ballet Theatre"}
+  choreographer: [Twyla Tharp]
+  composer: [Joseph Lamb (ragtime), Joseph Haydn (Symphony No. 82)]
+  scenario: [none]
+  designer: [Santo Loquasto (costumes), Jennifer Tipton (lighting)]
+  based_on: "none (classical ballet meets vaudeville and a bowler hat)"
+  premise: "Baryshnikov with a bowler hat leads a classical corps through Haydn, mixing ballet with shrugs, slouches and showbiz."
+  period: late20
+  region: USA
+  w_file: null
+  tier: B
+  threads: [T10, T11, T13]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "woman choreographer and woman lighting designer; earliest known crossover of postmodern dance into a major ballet company (argued)"
+
+- id: mayerling-1978
+  title: {orig: "Mayerling", en: "Mayerling"}
+  premiere: {date: 1978-02-14, place: "London, Royal Opera House", company: "Royal Ballet"}
+  choreographer: [Kenneth MacMillan]
+  composer: [Franz Liszt (arr. John Lanchbery)]
+  scenario: [Gillian Freeman]
+  designer: [Nicholas Georgiadis]
+  based_on: "the 1889 murder-suicide of Crown Prince Rudolf and Mary Vetsera"
+  premise: "A drug-addled, syphilitic crown prince, trapped by court politics, kills his teenage mistress and himself."
+  period: late20
+  region: Britain
+  w_file: null
+  tier: C
+  threads: [T17, T15]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "scenario by a woman novelist (Freeman)"
+
+- id: lady-of-camellias-1978
+  title: {orig: "Die Kameliendame", en: "The Lady of the Camellias"}
+  premiere: {date: 1978-11-04, place: "Stuttgart, Württemberg State Theatre", company: "Stuttgart Ballet"}
+  choreographer: [John Neumeier]
+  composer: [Frédéric Chopin]
+  scenario: [John Neumeier]
+  designer: [Jürgen Rose]
+  based_on: "Alexandre Dumas fils, La Dame aux camélias (1848); Prévost's Manon as a play-within"
+  premise: "A Paris courtesan gives up her young lover at his father's demand and dies of consumption."
+  period: late20
+  region: Germany
+  w_file: null
+  tier: C
+  threads: [T18, T15, T24]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "compare Ashton's Marguerite and Armand (1963) on the same source"
+
+- id: rama-hari-1980
+  title: {orig: "Rama, Hari", en: "Rama, Hari"}
+  premiere: {date: 1980-02-08, place: "Manila, Cultural Center of the Philippines", company: "Ballet Philippines (then CCP Dance Company)"}
+  choreographer: [Alice Reyes]
+  composer: [Ryan Cayabyab]
+  scenario: [Bienvenido Lumbera (Filipino libretto)]
+  designer: [Salvador Bernal]
+  based_on: "the Ramayana"
+  premise: "Prince Rama and Sita, exiled on the eve of his coronation, win back the kingdom, as a Filipino rock opera-ballet with singers among dancers."
+  period: late20
+  region: Philippines
+  w_file: null
+  tier: B
+  threads: [T05, T12, T14, T13]
+  confidence: documented
+  sources: ["https://ardp.ph/our-repertoire/rama-hari/", "https://qa.philstar.com/other-sections/starweek-magazine/2012/11/25/872687/halina-halina-sa-mithila-rama-hari-revisited", "https://ncca.gov.ph/about-culture-and-arts/culture-profile/national-artists-of-the-philippines/ryan-cayabyab/"]
+  note: "woman choreographer; choreographed 1979, opened 8 Feb 1980 (Philstar); an Asian epic routed through Filipino language and pop"
+
+- id: new-years-sacrifice-1981
+  title: {orig: "祝福", en: "The New Year's Sacrifice"}
+  premiere: {date: "1981-06-25/27", place: "Beijing, Tianqiao Theatre (天桥剧场)", company: "Central Ballet of China (中央芭蕾舞团)"}
+  choreographer: [Jiang Zuhui (蒋祖慧)]
+  composer: [Liu Tingyu (刘廷禹)]
+  scenario: [Jiang Zuhui, Liu Tingyu, Chen Minfan, Jiang Weihao]
+  designer: [Zheng Riyang (郑日洋), Jin Taihong, Liang Hongzhou, Peng Yufei, Li Keyu]
+  based_on: "Lu Xun, 'The New Year's Sacrifice' (祝福, 1924)"
+  premise: "Xianglin's widow, sold into a second marriage, loses husband and child and is cast out as unlucky by her village."
+  period: late20
+  region: China
+  w_file: null
+  tier: B
+  threads: [T18, T24, T15, T07]
+  confidence: documented
+  sources: ["https://nbc.cn/img_content-3404-10006.html", "http://chinadance.cn/wudao/article-21539-1.html"]
+  note: "woman choreographer; made for Lu Xun's centenary; read as the earliest Chinese ballet of psychological portrayal after the Cultural Revolution (chinadance.cn, argued there); premiere date 25-27 June (NBC) vs 27 June (chinadance): contested in detail"
+
+- id: giselle-ek-1982
+  title: {orig: "Giselle (Ek)", en: "Giselle (Mats Ek)"}
+  premiere: {date: 1982-07-06, place: "Sweden (venue not confirmed)", company: "Cullberg Ballet"}
+  choreographer: [Mats Ek]
+  composer: [Adolphe Adam]
+  scenario: [Mats Ek]
+  designer: [Marie-Louise Ekman]
+  based_on: "remake of giselle-1841"
+  premise: "The village outsider is driven mad by a man of another class; Act II is a psychiatric asylum."
+  period: late20
+  region: Sweden
+  w_file: W3 §5
+  tier: A
+  threads: [T13, T15, T07]
+  confidence: documented
+  sources: ["W3 §5"]
+
+- id: giselle-alonso-1945-1963
+  title: {orig: "Giselle (Alicia Alonso)", en: "Giselle (Alicia Alonso)"}
+  premiere: {date: "1945 (Havana, Pro-Arte Musical) to 1963 (ICAIC film)", place: "Havana", company: "Ballet Nacional de Cuba (and predecessors)"}
+  choreographer: [Alicia Alonso (after Coralli and Perrot)]
+  composer: [Adolphe Adam]
+  scenario: [after Gautier and Saint-Georges]
+  designer: [see W3 §3]
+  based_on: "remake of giselle-1841"
+  premise: "A Cuban ballerina and company claim the Romantic classic as a national work and return it to Paris."
+  period: postwar
+  region: Cuba
+  w_file: W3 §3
+  tier: A
+  threads: [T13, T14, T02]
+  confidence: documented
+  sources: ["W3 §3"]
+  note: "listed here out of date order because it was built over 1945-1963; woman choreographer"
+
+- id: creole-giselle-1984
+  title: {orig: "Creole Giselle", en: "Creole Giselle"}
+  premiere: {date: 1984, place: "London Coliseum", company: "Dance Theatre of Harlem"}
+  choreographer: [after Coralli and Perrot, staged by Frederic Franklin]
+  composer: [Adolphe Adam]
+  scenario: [Arthur Mitchell, Carl Michel]
+  designer: [Carl Michel]
+  based_on: "remake of giselle-1841; free people of colour in 1840s Louisiana"
+  premise: "Giselle transposed to Louisiana's free Black society, where class is counted in generations from slavery."
+  period: late20
+  region: USA
+  w_file: W3 §4
+  tier: A
+  threads: [T13, T07, T02, T15]
+  confidence: documented
+  sources: ["W3 §4"]
+
+- id: the-kabuki-1986
+  title: {orig: "ザ・カブキ", en: "The Kabuki"}
+  premiere: {date: 1986-04-16, place: "Tokyo, Tokyo Bunka Kaikan (東京文化会館)", company: "Tokyo Ballet (東京バレエ団)"}
+  choreographer: [Maurice Béjart]
+  composer: [Mayuzumi Toshirō (黛敏郎)]
+  scenario: [Maurice Béjart]
+  designer: [Nuno Côrte-Real (sets, costumes)]
+  based_on: "Kanadehon Chūshingura (仮名手本忠臣蔵, 1748), the 47 rōnin"
+  premise: "A young man of today falls into the world of Chūshingura and leads the 47 masterless samurai to revenge and ritual suicide."
+  period: late20
+  region: Japan / France
+  w_file: null
+  tier: B
+  threads: [T05, T18, T13, T14]
+  confidence: documented
+  sources: ["https://ballet-archive.tosei-showa-music.ac.jp/works/view/41 (search highlight)", "https://www.teatroallascala.org/en/archive/performance.html?guid_=&id_allest_=1455&id_allest_conc_=&id_evento_=11565&mode=EVENTI", "W3 §11 (contrast case)"]
+  note: "Japanese dance movement taught by Hanayagi Yoshijirō (花柳芳次郎) (La Scala credits); a European choreographer's 'Japan' made with a Japanese company: the exotic-other thread from the other side; premise wording probable"
+
+- id: shim-chung-1986
+  title: {orig: "심청", en: "Shim Chung"}
+  premiere: {date: 1986-09-21, place: "Seoul, National Theater of Korea", company: "Universal Ballet"}
+  choreographer: [Adrienne Dellas, "additional choreography - Roy Tobias, Oleg Vinogradov, Bingxian Liu"]
+  composer: [Kevin Barber Pickard (with Choi Dong-sun)]
+  scenario: [Park Yong-ku]
+  designer: [Kim Myung-ho, Hong Yong-han (sets); Sylvia Taalsohn, Oleg Vinogradov, Oh Han-gyul (costumes)]
+  based_on: "the Korean folk tale and pansori Simcheong-ga"
+  premise: "A daughter sells herself as a sacrifice to the sea to restore her blind father's sight, and returns from the Sea King's palace as a queen."
+  period: late20
+  region: South Korea
+  w_file: null
+  tier: B
+  threads: [T14, T16, T01, T24, T06]
+  confidence: documented
+  sources: ["https://www.universalballet.com/en/bbs/board.php?bo_table=repertory&wr_id=9", "https://www.koreatimes.co.kr/lifestyle/arts-theater/20160612/ballet-shim-chung-celebrates-30th-anniversary", "https://www.tparents.org/Library/Unification/Talks/Pickard/Pickard-870100.htm"]
+  note: "woman choreographer; commissioned for the 1986 Asian Games arts festival; the company was founded by the Unification Church (patronage and politics to note on the card); filial piety (hyodo) as the stated core value"
+
+- id: in-the-upper-room-1986
+  title: {orig: "In the Upper Room", en: "In the Upper Room"}
+  premiere: {date: 1986-08-28, place: "Highland Park, Illinois, Ravinia Festival", company: "Twyla Tharp Dance"}
+  choreographer: [Twyla Tharp]
+  composer: [Philip Glass]
+  scenario: [none]
+  designer: [Norma Kamali (costumes), Jennifer Tipton (lighting)]
+  based_on: "none (stamina; sneakers versus pointe shoes)"
+  premise: "Dancers in sneakers and dancers on pointe emerge from fog in relays until everyone is exhausted."
+  period: late20
+  region: USA
+  w_file: null
+  tier: C
+  threads: [T10, T11]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "three women on the creative team; taken into ABT and Royal Ballet repertory"
+
+- id: swan-lake-ek-1987
+  title: {orig: "Svansjön", en: "Swan Lake (Mats Ek)"}
+  premiere: {date: 1987, place: "Sweden (venue not found)", company: "Cullberg Ballet"}
+  choreographer: [Mats Ek]
+  composer: [Pyotr Ilyich Tchaikovsky]
+  scenario: [Mats Ek]
+  designer: [Marie-Louise Ekman]
+  based_on: "remake of swan-lake-1877-1895"
+  premise: "A prince's failed break from his mother; bald swans of both sexes."
+  period: late20
+  region: Sweden
+  w_file: W3 §5
+  tier: A
+  threads: [T13, T03, T22]
+  confidence: documented
+  sources: ["W3 §5"]
+
+- id: in-the-middle-1987
+  title: {orig: "In the Middle, Somewhat Elevated", en: "In the Middle, Somewhat Elevated"}
+  premiere: {date: 1987-05-30, place: "Paris Opéra (Palais Garnier)", company: "Paris Opéra Ballet"}
+  choreographer: [William Forsythe]
+  composer: [Thom Willems]
+  scenario: [none]
+  designer: [William Forsythe]
+  based_on: "none (classical vocabulary pushed off balance); title from the golden cherries hung above the stage"
+  premise: "Nine dancers in practice clothes stretch classical positions to breaking point under hard light and industrial sound."
+  period: late20
+  region: France / Germany
+  w_file: null
+  tier: B
+  threads: [T10, T09, T13]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "commissioned by Rudolf Nureyev; later inside Impressing the Czar (Frankfurt 1988)"
+
+- id: hard-nut-1991
+  title: {orig: "The Hard Nut", en: "The Hard Nut"}
+  premiere: {date: 1991-01-12, place: "Brussels, Théâtre Royal de la Monnaie", company: "Mark Morris Dance Group"}
+  choreographer: [Mark Morris]
+  composer: [Pyotr Ilyich Tchaikovsky]
+  scenario: [Mark Morris (after Hoffmann)]
+  designer: [Adrianne Lobel (sets), Martin Pakledinaz (costumes), Charles Burns (comic-art source)]
+  based_on: "remake of nutcracker-1892; Hoffmann's story of the hard nut; 1970s suburbia; Charles Burns comics"
+  premise: "The Nutcracker in a 1970s suburban party, with cross-cast roles and snowflakes of both sexes throwing snow."
+  period: late20
+  region: Belgium / USA
+  w_file: null
+  tier: C
+  threads: [T13, T04, T22, T06]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "woman set designer; compare Bourne's Nutcracker! (1992)"
+
+- id: swan-lake-bourne-1995
+  title: {orig: "Swan Lake (Bourne)", en: "Swan Lake (Matthew Bourne)"}
+  premiere: {date: 1995-11-09, place: "London, Sadler's Wells Theatre", company: "Adventures in Motion Pictures"}
+  choreographer: [Matthew Bourne]
+  composer: [Pyotr Ilyich Tchaikovsky]
+  scenario: [Matthew Bourne]
+  designer: [Lez Brotherston]
+  based_on: "remake of swan-lake-1877-1895; Hitchcock's The Birds"
+  premise: "A modern prince starved of his mother's love meets a male Swan who embodies the freedom he cannot have."
+  period: late20
+  region: Britain
+  w_file: W3 §6
+  tier: A
+  threads: [T13, T03, T22, T17]
+  confidence: documented
+  sources: ["W3 §6"]
+
+- id: rites-page-1997
+  title: {orig: "Rites", en: "Rites"}
+  premiere: {date: "1997-03-17 (season 17-29 March)", place: "Melbourne, Victorian Arts Centre (Melbourne Festival)", company: "Bangarra Dance Theatre with The Australian Ballet"}
+  choreographer: [Stephen Page]
+  composer: [Igor Stravinsky (The Rite of Spring)]
+  scenario: [Stephen Page]
+  designer: [Peter England (set), Jennifer Irwin (costumes), Mark Howett (lighting)]
+  based_on: "remake of rite-of-spring-1913 through Aboriginal cosmology (Awakening, Earth, Wind, Fire, Water, Dreaming)"
+  premise: "The Rite as the elemental forces of an ancient Australian landscape, danced by Indigenous and classical dancers together."
+  period: late20
+  region: Australia
+  w_file: null
+  tier: B
+  threads: [T13, T16, T23, T14]
+  confidence: documented
+  sources: ["https://www.bangarra.com.au/productions/rites/", "https://bangarra-knowledgeground.com.au/productions/rites"]
+  note: "Page quote (under 25 words): 'Rites is an exploration of the natural forces which determine our ancient landscape'; woman costume designer"
+
+# ---------------------------------------------------------------- 21ST CENTURY
+- id: raise-the-red-lantern-2001
+  title: {orig: "大红灯笼高高挂", en: "Raise the Red Lantern"}
+  premiere: {date: 2001-05-02, place: "Beijing, Tianqiao Theatre (天桥剧场)", company: "National Ballet of China (中央芭蕾舞团)"}
+  choreographer: [Wang Xinpeng (王新鹏), Wang Yuanyuan (王媛媛)]
+  composer: [Chen Qigang (陈其钢)]
+  scenario: [Zhang Yimou (张艺谋)]
+  designer: [Zeng Li (曾力) (sets), Jérôme Kaplan (costumes), Zhang Yimou (lighting)]
+  based_on: "Su Tong, Wives and Concubines (妻妾成群, 1990); Zhang Yimou's film (1991)"
+  premise: "In a 1920s mansion, a new concubine loves a Peking-opera actor; the jealous second wife betrays them and all three are executed."
+  period: c21
+  region: China
+  w_file: null
+  tier: B
+  threads: [T24, T18, T17, T15]
+  confidence: documented
+  sources: ["https://www.nbc.cn/wap/content-3443-10668.html", "https://www.nbc.cn/content-3406-10055.html"]
+  note: "a film director as ballet author; producer Zhao Ruheng (赵汝蘅, woman); woman co-choreographer; Peking opera performers from the China National Peking Opera Company"
+
+- id: el-leila-el-kebira-2001
+  title: {orig: "الليلة الكبيرة", en: "The Grand Night"}
+  premiere: {date: "2001/2002", place: "Cairo Opera House", company: "Cairo Opera Ballet Company"}
+  choreographer: [Abdel-Moneim Kamel]
+  composer: [Sayed Mekawy (re-orchestrated by Gamal Salama)]
+  scenario: [after Salah Jahin's verse operetta]
+  designer: [Abdel-Moneim Kamel]
+  based_on: "Salah Jahin and Sayed Mekawy, puppet operetta (1961)"
+  premise: "A night at a village moulid: vendors, fortune-teller, circus, a lost child; puppets turned into dancers."
+  period: c21
+  region: Egypt
+  w_file: W3 §10
+  tier: A
+  threads: [T21, T04, T14, T13]
+  confidence: documented
+  sources: ["W3 §10"]
+
+- id: swan-lake-masilo-2010
+  title: {orig: "Swan Lake (Masilo)", en: "Swan Lake (Dada Masilo)"}
+  premiere: {date: 2010-07, place: "Grahamstown (Makhanda), National Arts Festival", company: "Dada Masilo / The Dance Factory"}
+  choreographer: [Dada Masilo]
+  composer: [Pyotr Ilyich Tchaikovsky, Camille Saint-Saëns, Steve Reich, Arvo Pärt (probable for the last two)]
+  scenario: [Dada Masilo]
+  designer: [see W3 §7]
+  based_on: "remake of swan-lake-1877-1895"
+  premise: "Odette is married off to Siegfried, who loves a male Odile; a requiem for those lost to AIDS and homophobia."
+  period: c21
+  region: South Africa
+  w_file: W3 §7
+  tier: A
+  threads: [T13, T03, T22, T14]
+  confidence: documented
+  sources: ["W3 §7"]
+  note: "woman choreographer"
+
+- id: alice-wheeldon-2011
+  title: {orig: "Alice's Adventures in Wonderland", en: "Alice's Adventures in Wonderland"}
+  premiere: {date: 2011-02-28, place: "London, Royal Opera House", company: "Royal Ballet (co-production National Ballet of Canada)"}
+  choreographer: [Christopher Wheeldon]
+  composer: [Joby Talbot]
+  scenario: [Nicholas Wright]
+  designer: [Bob Crowley]
+  based_on: "Lewis Carroll, Alice's Adventures in Wonderland (1865)"
+  premise: "Alice follows a rabbit into Wonderland, where Victorian garden-party guests become cards, caterpillars and queens."
+  period: c21
+  region: Britain / Canada
+  w_file: null
+  tier: B
+  threads: [T06, T01, T18, T20]
+  confidence: probable
+  sources: ["working knowledge; Bachtrack Jan 2025 top 10 entry (documented, CENSUS §1.1)"]
+  note: "Bachtrack: performed by at least 7 other companies; the new-classic thread"
+
+- id: woolf-works-2015
+  title: {orig: "Woolf Works", en: "Woolf Works"}
+  premiere: {date: 2015-05-11, place: "London, Royal Opera House", company: "Royal Ballet"}
+  choreographer: [Wayne McGregor]
+  composer: [Max Richter]
+  scenario: [Uzma Hameed (dramaturg)]
+  designer: [Ciguë, We Not I, Lucy Carter (lighting), Moritz Junge (costumes)]
+  based_on: "Virginia Woolf, Mrs Dalloway, Orlando, The Waves; her letters"
+  premise: "Three acts, three Woolf novels: memory, time travelling through bodies, and the sea of her death."
+  period: c21
+  region: Britain
+  w_file: null
+  tier: B
+  threads: [T18, T10, T22]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "woman dramaturg and lighting designer"
+
+- id: sleeping-beauty-ratmansky-2015
+  title: {orig: "The Sleeping Beauty (Ratmansky)", en: "The Sleeping Beauty (Ratmansky)"}
+  premiere: {date: 2015-03-03, place: "Costa Mesa, Segerstrom Center for the Arts", company: "American Ballet Theatre (co-production Teatro alla Scala)"}
+  choreographer: [Alexei Ratmansky (after Petipa, from Stepanov notation)]
+  composer: [Pyotr Ilyich Tchaikovsky]
+  scenario: [Ivan Vsevolozhsky, Marius Petipa]
+  designer: [Richard Hudson (after Léon Bakst)]
+  based_on: "remake (reconstruction) of sleeping-beauty-1890; Harvard Stepanov notations"
+  premise: "The 1890 ballet recovered from notation: remaking by subtraction of a century's habits."
+  period: c21
+  region: USA / Italy
+  w_file: W3 §9
+  tier: A
+  threads: [T13, T06, T17]
+  confidence: documented
+  sources: ["W3 §9"]
+
+- id: giselle-khan-2016
+  title: {orig: "Giselle (Khan)", en: "Giselle (Akram Khan)"}
+  premiere: {date: 2016-09-27, place: "Manchester, Palace Theatre", company: "English National Ballet"}
+  choreographer: [Akram Khan]
+  composer: [Vincenzo Lamagna (after Adam)]
+  scenario: [Ruth Little (dramaturg), Akram Khan]
+  designer: [Tim Yip]
+  based_on: "remake of giselle-1841; Rana Plaza collapse (2013); migrant labour"
+  premise: "Giselle among migrant garment workers locked out of a closed factory; the Wilis are the ghosts of dead workers."
+  period: c21
+  region: Britain / Bangladesh (diaspora)
+  w_file: W3 §8
+  tier: A
+  threads: [T13, T07, T02, T15, T08]
+  confidence: documented
+  sources: ["W3 §8"]
+  note: "composer and designer names from working knowledge (probable); commission by Tamara Rojo (woman director)"
+
+- id: jane-eyre-marston-2016
+  title: {orig: "Jane Eyre", en: "Jane Eyre"}
+  premiere: {date: 2016-05, place: "Doncaster, Cast", company: "Northern Ballet"}
+  choreographer: [Cathy Marston]
+  composer: [Philip Feeney (arr. of Mendelssohn, Fanny Mendelssohn, Schubert, Schumann and others)]
+  scenario: [Cathy Marston]
+  designer: [Patrick Kinmonth]
+  based_on: "Charlotte Brontë, Jane Eyre (1847)"
+  premise: "An orphan governess falls in love with her employer and discovers the wife hidden in his attic."
+  period: c21
+  region: Britain
+  w_file: null
+  tier: C
+  threads: [T18, T24, T15]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "woman choreographer; taken into ABT repertory 2019; date and credits to verify"
+
+- id: flight-pattern-2017
+  title: {orig: "Flight Pattern", en: "Flight Pattern"}
+  premiere: {date: 2017-03-16, place: "London, Royal Opera House", company: "Royal Ballet"}
+  choreographer: [Crystal Pite]
+  composer: [Henryk Górecki (Symphony No. 3, Symphony of Sorrowful Songs)]
+  scenario: [none]
+  designer: [Jay Gower Taylor (set), Nancy Bryant (costumes), Tom Visser (lighting)]
+  based_on: "the refugee crisis in Europe"
+  premise: "Thirty-six dancers in grey coats move as one migrating mass, then a single parting at a door."
+  period: c21
+  region: Canada / Britain
+  w_file: null
+  tier: B
+  threads: [T08, T10, T23]
+  confidence: probable
+  sources: ["working knowledge; Bachtrack Jan 2025: Pite 21st most performed choreographer (documented)"]
+  note: "earliest known Royal Ballet main-stage work by a woman in nearly two decades (contemporary press, probable)"
+
+- id: giselle-masilo-2017
+  title: {orig: "Giselle (Masilo)", en: "Giselle (Dada Masilo)"}
+  premiere: {date: 2017-05-04, place: "Oslo, Dansens Hus", company: "Dada Masilo / The Dance Factory"}
+  choreographer: [Dada Masilo]
+  composer: [Philip Miller (probable)]
+  scenario: [Dada Masilo]
+  designer: [see W3 §7]
+  based_on: "remake of giselle-1841"
+  premise: "A rough, violent Giselle in a South African village; the Wilis are ancestral spirits, and there is no forgiveness."
+  period: c21
+  region: South Africa
+  w_file: W3 §7
+  tier: A
+  threads: [T13, T02, T15, T14]
+  confidence: documented
+  sources: ["W3 §7"]
+  note: "woman choreographer"
+
+- id: cleopatra-cairo-2019
+  title: {orig: "كليوباترا", en: "Cleopatra"}
+  premiere: {date: 2019-10-15, place: "Cairo Opera House, Main Hall", company: "Cairo Opera Ballet Company"}
+  choreographer: [José Perez (assistant René de Cárdenas)]
+  composer: [Mohamed Saad Basha]
+  scenario: [José Perez, Erminia Kamel]
+  designer: [Mohamed El Gharabawy (set), Manuela Scerri (costumes), Yasser Shaalan (lighting)]
+  based_on: "the history of Cleopatra and Mark Antony"
+  premise: "Egypt's last queen, her love for Antony, war, defeat and death, told by an Egyptian composer for Cairo's company."
+  period: c21
+  region: Egypt
+  w_file: null
+  tier: C
+  threads: [T12, T05, T17, T15]
+  confidence: documented
+  sources: ["https://english.ahram.org.eg/NewsContent/5/35/352290/Arts--Culture/Stage--Street/Egyptian-composer-Mohamed-Saad-Basha-%E2%80%98very-happy%E2%80%99-.aspx", "https://cairogossip.com/gossip/arts-culture/cleopatra-ballet-to-show-at-cairo-opera-house-for-the-first-time/"]
+  note: "artistic director Erminia Kamel (woman) co-wrote the scenario; reclaiming an Orientalist subject from inside Egypt (argued)"
+
+- id: frida-lopez-ochoa-2020
+  title: {orig: "Frida", en: "Frida"}
+  premiere: {date: 2020, place: "Amsterdam, Dutch National Opera and Ballet", company: "Dutch National Ballet"}
+  choreographer: [Annabelle Lopez Ochoa]
+  composer: [Peter Salem]
+  scenario: [Annabelle Lopez Ochoa]
+  designer: [Dieuweke van Reij (sets, costumes) (probable)]
+  based_on: "the life and paintings of Frida Kahlo"
+  premise: "Frida Kahlo's injured body, marriage and painting as a sequence of living pictures."
+  period: c21
+  region: Netherlands / Mexico (subject)
+  w_file: null
+  tier: C
+  threads: [T19, T24, T14]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "woman choreographer (Belgian-Colombian); date and credits to verify"
+
+- id: the-cellist-2020
+  title: {orig: "The Cellist", en: "The Cellist"}
+  premiere: {date: 2020-02-17, place: "London, Royal Opera House", company: "Royal Ballet"}
+  choreographer: [Cathy Marston]
+  composer: [Philip Feeney (after Elgar and others)]
+  scenario: [Edward Kemp (probable)]
+  designer: [Hildegard Bechtler]
+  based_on: "the life of Jacqueline du Pré"
+  premise: "A cellist's love affair with her instrument (danced by a man) and her loss of it to multiple sclerosis."
+  period: c21
+  region: Britain
+  w_file: null
+  tier: C
+  threads: [T19, T04, T15]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "woman choreographer and woman designer"
+
+- id: common-grounds-acogny-2021
+  title: {orig: "common ground[s]", en: "common ground[s]"}
+  premiere: {date: 2021, place: "touring with Pina Bausch's Rite of Spring (Dakar / Europe) (probable)", company: "Pina Bausch Foundation, École des Sables, Sadler's Wells"}
+  choreographer: [Germaine Acogny, Malou Airaudo]
+  composer: [Fabrice Bouillon-LaForest (probable)]
+  scenario: [Germaine Acogny, Malou Airaudo]
+  designer: [unknown]
+  based_on: "the two women's lives; paired on the bill with Bausch's Sacre danced by 34 dancers from 14 African countries"
+  premise: "Two women in their seventies, from Senegal and France, share memory and grief; the companion piece to an African-cast Rite of Spring."
+  period: c21
+  region: Senegal / Germany / Britain
+  w_file: null
+  tier: B
+  threads: [T13, T16, T14]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "card should cover both pieces (the African-cast Bausch Sacre as remake); premiere date, place and composer to verify; two women choreographers"
+
+- id: like-water-for-chocolate-2022
+  title: {orig: "Like Water for Chocolate", en: "Like Water for Chocolate"}
+  premiere: {date: 2022-06-02, place: "London, Royal Opera House", company: "Royal Ballet (co-production American Ballet Theatre)"}
+  choreographer: [Christopher Wheeldon]
+  composer: [Joby Talbot]
+  scenario: [Christopher Wheeldon, Joby Talbot (after the novel)]
+  designer: [Bob Crowley]
+  based_on: "Laura Esquivel, Como agua para chocolate (1989)"
+  premise: "In revolutionary Mexico, a youngest daughter forbidden to marry pours her feelings into food that bewitches those who eat it."
+  period: c21
+  region: Britain / Mexico (source)
+  w_file: null
+  tier: C
+  threads: [T18, T24, T01]
+  confidence: probable
+  sources: ["working knowledge"]
+  note: "a woman novelist's source; Mexican advisors on the team (to check)"

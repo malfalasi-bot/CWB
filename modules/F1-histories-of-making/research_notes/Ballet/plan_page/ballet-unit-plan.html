@@ -35,883 +35,334 @@ tr:last-child td{border-bottom:0} td:first-child{font-weight:600;min-width:11ch}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 @media (max-width:860px){.wrap{grid-template-columns:minmax(0,1fr);gap:0} nav.toc{position:static;margin-bottom:28px} nav.toc ol{grid-template-columns:1fr 1fr;gap:4px 16px} header.top{padding-block:32px 20px}}
 @media (max-width:480px){nav.toc ol{grid-template-columns:1fr} body{font-size:16px}}
+.lib{margin:1.4em 0;display:grid;gap:10px}
+.lib-top{border:1px solid var(--accent);border-radius:8px;padding:14px 16px;background:var(--wash)}
+.lib-top p{margin:.2em 0} .lib-top .eyebrow{margin-bottom:6px}
+.lib-paths{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;position:relative}
+.lib-paths div{border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:6px;padding:10px 12px;background:var(--paper);display:flex;flex-direction:column;gap:4px;min-width:0}
+.lib-paths b{font-weight:600} .lib-paths span{font-size:14px;color:var(--ink2)}
+@media (max-width:700px){.lib-paths{grid-template-columns:1fr 1fr}}
 </style>
-<header class="top"><p class="eyebrow">F1 Histories of making · ballet · module plan · 21 October 2026</p>
+<header class="top"><p class="eyebrow">F1 Histories of making · ballet · case world plan · 21 October 2026</p>
 <h1>Ballet as a history of making</h1>
-<p class="lede">A module of about 44 hours, built around the ballets themselves as made concepts: a prologue, six acts and an epilogue, with every piece of the research placed. From 15 research files, about 119,000 words, in <code>research_notes/Ballet/</code>.</p></header>
-<div class="wrap"><nav class="toc" aria-label="Contents"><ol><li><a href="#1-the-short-answers">1. The short answers</a></li><li><a href="#2-why-ballet-is-the-right-case-for-a-cou">2. Why ballet is the right case for a course on building worlds</a></li><li><a href="#3-how-the-structure-was-chosen">3. How the structure was chosen</a></li><li><a href="#4-the-module-a-prologue-six-acts-and-an-">4. The module: a prologue, six acts and an epilogue</a></li><li><a href="#5-the-case-card-the-concept-as-the-produ">5. The case card: the concept as the product</a></li><li><a href="#6-what-the-learner-holds-at-the-end">6. What the learner holds at the end</a></li><li><a href="#7-where-all-the-research-goes">7. Where all the research goes</a></li><li><a href="#8-before-writing">8. Before writing</a></li><li><a href="#9-decisions-for-you">9. Decisions for you</a></li><li><a href="#appendix-every-angle-topic-and-where-it-">Appendix: every angle topic and where it goes</a></li></ol></nav><main><div class="tw"><table>
+<p class="lede">One library of every ballet, object, product and concept thread, with several paths through it: an F1 history core, an optional six-act deep path, borrowings by twelve other modules, and <i>Giselle</i> as the program's historical exemplar. With the studies behind each decision. From 18 research files, about 141,000 words.</p></header>
+<div class="wrap"><nav class="toc" aria-label="Contents"><ol><li><a href="#1-the-short-answers">1. The short answers</a></li><li><a href="#2-the-shape-one-library-several-paths">2. The shape: one library, several paths</a></li><li><a href="#3-the-library">3. The library</a></li><li><a href="#4-where-it-lives-the-evidence-and-the-re">4. Where it lives: the evidence and the recommendation</a></li><li><a href="#5-length-and-number-of-parts">5. Length and number of parts</a></li><li><a href="#6-the-returning-work">6. The returning work</a></li><li><a href="#7-what-to-build-first">7. What to build first</a></li><li><a href="#8-the-gulf">8. The Gulf</a></li><li><a href="#9-what-i-would-decide-and-what-is-yours">9. What I would decide, and what is yours</a></li><li><a href="#sources-for-the-evidence">Sources for the evidence</a></li></ol></nav><main><div class="tw"><table>
 <thead>
 <tr>
 <th>Folder</th>
-<th>Files</th>
+<th>What it holds</th>
 <th>Words</th>
-<th>What they hold</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><code>scope/</code></td>
-<td>6</td>
+<td>Six angles: history and institutions; body and technique; objects, makers and materials; stage design; money, labour and ownership; scholarship and teaching</td>
 <td>55,000</td>
-<td>Six angles: history and institutions; body and technique; objects, makers and materials; stage design; money, labour and ownership; scholarship, archives and teaching</td>
 </tr>
 <tr>
 <td><code>works/</code></td>
-<td>3</td>
-<td>43,500</td>
-<td>33 ballets taken apart as made works, from <em>Balet comique</em> (1581) to Khan's <em>Giselle</em> (2016): premise, roots, originator, development, world rules, team and credit, production, afterlife, documents, Concept DNA reading</td>
+<td>33 ballets taken apart as made concepts; theories of the concept from 1682 to now; a structure study</td>
+<td>64,000</td>
 </tr>
 <tr>
-<td><code>works/</code></td>
-<td>1</td>
-<td>11,600</td>
-<td>How ballet's makers and scholars have theorised the concept and the creative process, from Ménestrier (1682) to McGregor; the documents a concept leaves; a Concept DNA mapping</td>
+<td><code>repertory/</code></td>
+<td>A census of the repertory; a register of 148 works (<code>register.yaml</code>); a card design at three depths; 24 concept threads</td>
+<td>4,000 + register</td>
 </tr>
 <tr>
-<td><code>works/</code></td>
-<td>1</td>
+<td><code>products/</code></td>
+<td>Ballet as a source of products and collections; 29 proposed object and product cards</td>
 <td>8,000</td>
-<td>A structure study: seven ways to organise the module, the learning evidence, precedents, how much fits in a sitting</td>
+</tr>
+<tr>
+<td><code>decisions/</code></td>
+<td>Studies and benchmarks for the five open decisions</td>
+<td>9,500</td>
 </tr>
 </tbody>
 </table></div>
 <h2 id="1-the-short-answers">1. The short answers</h2>
-<p><strong>Is the six-session plan the best way to organise it?</strong> No. It split ballet by angle (court, body, stage, things, money, routes), so every session rebuilt its context from scratch, the works themselves were scattered, and the concept, which you rightly call the main product, had no home. No study shows that ordering by theme or by date is better in itself; the evidence that does exist favours worked examples, stories, and a framework of dates the learner can hang things on (section 3).</p>
-<p><strong>Should the sessions be mixed or joined?</strong> Joined. The angles stop being sessions and become the chapters of each work's making. <em>Giselle</em> is a concept (Gautier's), a team (seven makers, one uncredited), a body technique (pointe without a block), a set of things (Lormier's costumes, Ciceri's reused set), a business (Pillet needed a vehicle for a star), and a record (Stepanov notation, Justamant). Taking one work apart touches every angle at once, in the order a maker meets them.</p>
-<p><strong>Is the concept itself a product?</strong> Yes, and this is now the spine. Every ballet is a premise someone had, rooted in named sources, specified in documents (a letter, a livret, a composer's plan, designs), built by a team into a world with rules and refusals, delivered as an experience on one night, then handed on and remade. The module treats that chain as the thing being made, and the bodies, objects and stages as how it was made.</p>
-<p><strong>What changes when all the research goes in?</strong> Three things. The unit of the module becomes the work, not the angle. The angle research moves to the period where each idea first decided something (the blocked shoe to Imperial Russia, copyright to the 1950s), so it is met in context instead of in a block. And the routes out of Europe stop being a final session: each act from Act III on carries at least one case made outside the Paris, St Petersburg and New York line.</p>
-<h2 id="2-why-ballet-is-the-right-case-for-a-cou">2. Why ballet is the right case for a course on building worlds</h2>
-<p>The course teaches learners to turn ideas, objects and influences into a finished concept and an experience. Ballet has done that, on record, for 445 years:</p>
-<ul>
-<li><strong>The idea rarely comes from the choreographer.</strong> Across 33 works the originator was a queen's commission, a first minister, a tenor, a critic, an archivist, a theatre director, a composer, a painter, a poet, a patron, a state contest or a dancer remaking her own role. Ideas come from the edges of an institution, and the institution assigns a team.</li>
-<li><strong>Every concept has nameable roots.</strong> Heine's Wilis and a Hugo poem behind <em>Giselle</em>; Perrault and the Louis XIV revival behind <em>The Sleeping Beauty</em>; Afanasyev's tales and Golovin's painting behind <em>The Firebird</em>; Roerich's archaeology and Princess Tenisheva's workshops at Talashkino behind <em>The Rite of Spring</em>; a 1961 film behind <em>The Red Detachment of Women</em>; the Rana Plaza collapse behind Khan's <em>Giselle</em>.</li>
-<li><strong>The concept leaves documents, in a sequence a designer recognises.</strong> A letter of proposal (Vsevolozhsky to Tchaikovsky, 1888); a scenario or livret; a composer's specification down to the bar (Petipa's plan for <em>The Sleeping Beauty</em>); design drawings and maquettes; a rehearsal score; a production book; notation as the handover (the Sergeyev collection, digitised by Harvard in 2024); a revival package (Cunningham's Dance Capsules).</li>
-<li><strong>Worlds are built from rules and refusals.</strong> Nearly every work in the sample runs on two worlds and two movement languages (village and forest; court and lake; classical for magic, folk for humans). Most reform theories are defined by what they refuse: Noverre against masks, Fokine against ready-made steps, Balanchine's "eliminate".</li>
-<li><strong>Remaking is part of the life of a concept.</strong> The research found five modes of remaking, each a question a designer can ask of any concept: re-setting (where else does this hierarchy exist?), re-psychologising (what if the supernatural is inside the hero?), re-politicising (whose story should this be?), re-motivating (why does each character act?), re-excavating (what was there before habit?).</li>
-<li><strong>The credit line is a design decision.</strong> "Choreography by Coralli" drops Perrot; "after Petipa" drops Ivanov; "China Ballet Troupe" drops everyone; "Matthew Bourne's <em>Swan Lake</em>" puts the remaker in the title. The course's Attribution and Authority thread runs through every case.</li>
-</ul>
-<p>These map onto the Concept DNA the learner builds across the program (section 6).</p>
-<h2 id="3-how-the-structure-was-chosen">3. How the structure was chosen</h2>
-<p>Seven structures were assessed against these learners (adult, self-paced, phone-first, twenty-minute sittings, Maker and Briefer lanes, one Concept DNA across the program). Full study: <code>works/S_structure_study.md</code>.</p>
+<p><strong>Should every ballet have its own card?</strong> Yes. The register now holds 148 works from 1581 to 2022: 35 have full cards already, 48 need full cards, and 65 get short cards of about 150 words. It includes 34 works by women choreographers and 29 made outside western Europe, North America and Russia. Beyond the register, an index of 500 to 1,500 works can be harvested from open data. A well-read person knows 100 to 150 ballets; a one-volume reference covers 500 to 1,500; tens of thousands exist.</p>
+<p><strong>Can the shoe, the fashion and the products stay?</strong> Yes, as first-class parts of the library, not as background. There are now 29 object and product cards (the pointe shoe as a product line, the tutu as a family, the leotard, the ballet flat, the <em>Train Bleu</em> bathing suit, the Ballets Russes posters, the <em>Nutcracker</em> as a licensing economy, balletcore) and five "collection logics" taken from ballet itself (the divertissement, the season, the mixed bill, costume families, the repertory with an anchor work). Each is read as a collection: its anchor, its members, its rules, what may vary, what is refused, how it is carried and sold. That is the program's threshold "the collection precedes the object", taught on real cases.</p>
+<p><strong>How can concepts be discussed beyond <em>Giselle</em> and <em>Swan Lake</em>?</strong> Through 24 concept threads that cut across the whole register, each taught on a comparison wall of six to ten ballets from at least three centuries and three regions. "The bird-woman" runs from <em>La Sylphide</em> to <em>The Firebird</em>, a Tatar bird-maiden (<em>Shurale</em>, Kazan 1950), a Chinese fish spirit (<em>The Fish Beauty</em>, Beijing 1959) and Bourne's male swans. "A woman against family and patriarch" runs from Baku 1940 to Beijing 1964, 1981 and 2001 and Seoul 1986. The strongest finding in the learning research supports this: comparing two cases roughly doubled transfer over studying the same cases one at a time, and across 57 experiments case comparison beat single-case study (Gentner, Loewenstein and Thompson 2003; Alfieri and others 2013, effect size 0.50).</p>
+<p><strong>F1 only, or wider?</strong> Wider. F1 is 34 hours in total; the ballet module alone was 44. And about half of what it asks learners to make (a premise, rules and refusals, obligations, a remake, a credit line) belongs to Concept DNA fields that other modules own. Recommendation: a shared <strong>ballet case world</strong> in the program's world set, which F1 and about a dozen other modules draw on; <em>Giselle</em> written as the program's <strong>historical exemplar Concept DNA</strong>; an <strong>F1 history core</strong> of about 6 hours; and the six acts kept as an <strong>optional deep path</strong> of about 35 hours, built from the same cards. Section 4 gives the evidence.</p>
+<p><strong>Four acts or six?</strong> Six, but evened to 5 or 6 hours each, about 35 hours in all. Section 5.</p>
+<p><strong>The other questions:</strong> <em>Giselle</em> stays as the returning work, with <em>Swan Lake</em> at three fixed points; the first build is the Prologue plus the full <em>Giselle</em> 1841 case, tested with five learners per lane in two rounds; the Gulf gets a route case now (how ballet reached the Gulf) plus the Cairo work <em>El-Leila El-Kebira</em>, and the missing Gulf-made ballet becomes a commissioning brief for learners. Sections 6 to 8.</p>
+<h2 id="2-the-shape-one-library-several-paths">2. The shape: one library, several paths</h2>
+<div class="lib" role="img" aria-label="One library feeding four paths">
+<div class="lib-top"><p class="eyebrow">The ballet library · a case world in the program's world set</p>
+<p>Works (148, growing to 1,500) · objects and products (29) · concept threads (24) · collection logics (5) · people and makers · concept documents · routes · systems (about 100)</p></div>
+<div class="lib-paths">
+<div><b>F1 history core</b><span>about 6 hours, all learners</span></div>
+<div><b>The deep path</b><span>six acts, about 35 hours, optional</span></div>
+<div><b>Borrowings</b><span>1–3 sittings in 12 other modules</span></div>
+<div><b>The exemplar</b><span><i>Giselle</i> as a full Concept DNA</span></div>
+</div></div>
+<p>Every card is written once, in the library, and tagged with the units and Concept DNA fields it serves. Paths link to cards; no module re-tells the history. That is how nothing in the research is lost and nothing is written twice.</p>
+<h2 id="3-the-library">3. The library</h2>
+<h3>3.1 Work cards, at three depths</h3>
 <div class="tw"><table>
 <thead>
 <tr>
-<th>Structure</th>
-<th>Keeps chronology</th>
-<th>Home for the works</th>
-<th>Builds a concept</th>
-<th>Main risk</th>
-<th>Verdict</th>
+<th>Depth</th>
+<th>Count now</th>
+<th>What it holds</th>
+<th>Time to read</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Chronological survey</td>
-<td>Strong</td>
-<td>Moderate</td>
-<td>Weak</td>
-<td>Reads as the line F1 argues against</td>
-<td>Too passive</td>
+<td>Full card</td>
+<td>35 written, 48 to research</td>
+<td>The ten headings: roots, premise, who had it, the world, how it was made, team and credit, the night, the record, afterlife, Concept DNA reading</td>
+<td>15–20 minutes</td>
 </tr>
 <tr>
-<td>Thematic by angle (the old plan)</td>
-<td>Weak</td>
-<td>Weak</td>
-<td>Fragmented</td>
-<td>Context rebuilt every session</td>
-<td>Replaced</td>
+<td>Short card</td>
+<td>148 (all register works)</td>
+<td>Title; premiere line; makers line, with women and uncredited makers named; source; premise; the world's rule; lineage (answers what, remade as what); two to four threads; one image with its licence; confidence flags</td>
+<td>2 minutes</td>
 </tr>
 <tr>
-<td>Case-based around works</td>
-<td>Moderate</td>
-<td>Strong</td>
-<td>Strong</td>
-<td>Repetitive if every case uses the full template</td>
-<td>Kept, inside acts</td>
-</tr>
-<tr>
-<td>Object-based</td>
-<td>Strong</td>
-<td>Weak</td>
-<td>Weak</td>
-<td>A work is not an object</td>
-<td>Kept for entry points</td>
-</tr>
-<tr>
-<td>Studio-based</td>
-<td>Weak</td>
-<td>Moderate</td>
-<td>Strong</td>
-<td>Costs the history; duplicates the Method modules</td>
-<td>Kept for each act's product</td>
-</tr>
-<tr>
-<td>One work remade as the spine</td>
-<td>Strong inside one work</td>
-<td>Strong for one</td>
-<td>Strong for remaking</td>
-<td>Court period does not fit; canon-centred</td>
-<td>Kept as a braid</td>
-</tr>
-<tr>
-<td><strong>Works in acts (hybrid)</strong></td>
-<td><strong>Strong</strong></td>
-<td><strong>Strong</strong></td>
-<td><strong>Strong</strong></td>
-<td><strong>Needs a light template and a rule for which angles lead</strong></td>
-<td><strong>Chosen</strong></td>
+<td>Index row</td>
+<td>500–1,500, by harvest</td>
+<td>Title, year, city, company, choreographer, composer, period, region, tier, source</td>
+<td>a glance</td>
 </tr>
 </tbody>
 </table></div>
-<p>What the evidence supports, and how firmly:</p>
+<p>Dates and credits can be harvested; premise, the rule, threads, the originator and image rights need research and a human check every time. Wikidata could not be reached from this workspace (proxy and permission blocks), so the 97 register rows marked "probable" wait for a harvest or a manual check.</p>
+<h3>3.2 Object and product cards (29)</h3>
+<p>Each card: name, date, maker or brand, the family it belongs to, whether it is the anchor or a variant, the rule it shows, what was refused, how it was carried, one fact with its confidence, and the image route. Grouped by family:</p>
 <ul>
-<li>Worked examples beat problem-solving for beginners, including learning to recognise designers' styles (Rourke and Sweller 2009; documented). So take works apart fully before asking learners to build their own.</li>
-<li>Stories are understood and remembered better than essays (Mar and others 2021, effect about 0.55; documented). A work's life is a ready-made story.</li>
-<li>Mixing periods helps learners tell visual styles apart (paintings showed the largest effect) but not arguments (Brunmair and Richter 2019; documented). So show the looks of different periods side by side, and keep each sitting's argument in one block.</li>
-<li>Guidance should fade as knowledge grows (probable). Early acts are fully worked; later acts hand more to the learner.</li>
-<li>Learners need a framework of dates to hang depth on (probable, from history-teaching research). So a short overview first, and anchor dates that come back.</li>
-<li>Longer online courses lose learners, and the first two weeks decide engagement (Jordan 2015; documented). So the module is built in acts that can each be finished on their own, and it opens on a work and a story, not a court treatise.</li>
-<li>A twenty-minute sitting holds about 1,000 to 1,500 words, four to six images and one task (argued from reading-speed data). One sitting carries one claim and one work-moment or object.</li>
+<li><strong>The pointe shoe as a product line.</strong> Freed's shoe with the maker's mark; Freed and Ballet Black's "Ballet Brown" and "Ballet Bronze" (2018); Gaynor Minden's eight-field ordering code; Grishko's Maya, named for Plisetskaya; Capezio's "Pavlova". Three ways of naming variants: by the maker, by the dancer, by the variables.</li>
+<li><strong>Costume families.</strong> The Romantic tutu "à la Taglioni"; the <em>La Mode</em> plate "Robe à la Taglioni" (1830s); the <em>Train Bleu</em> bathing suit (Chanel, 1924: hand-knitted for the leads, machine-knitted for the chorus); the Paquin–Bakst ensembles (1912–13).</li>
+<li><strong>Practice clothes into everyday wear.</strong> The leotard; ballet-pink tights; legwarmers.</li>
+<li><strong>The ballet flat.</strong> Capezio for Claire McCardell (1941); Ferragamo for Audrey Hepburn (1954); Repetto's Cendrillon for Brigitte Bardot (1956); Chanel's two-tone (1984); Miu Miu (2022): the pointe shoe with its technology removed.</li>
+<li><strong>Identity and carriers.</strong> Cocteau's matched posters (1911); the <em>Comœdia illustré</em> programme as the season's catalogue; the Sylphide souvenir prints; NYCB's lyre from Noguchi's <em>Orpheus</em>; the Royal Ballet and Opera's wordmark (2024–25).</li>
+<li><strong>Licensing and names.</strong> The Erzgebirge nutcracker, older than the ballet; the <em>Nutcracker Suite</em>, played in March 1892, nine months before the ballet; <em>Barbie in the Nutcracker</em> (2001); the pavlova, and the dispute over where it was invented; Roja Dove's <em>Diaghilev</em> perfume; Van Cleef &amp; Arpels's dancer brooches (1941) and Balanchine's <em>Jewels</em> (1967), which fed a jewellery collection in turn; Misty Copeland's Under Armour campaign (2014); NYCB's fashion gala.</li>
 </ul>
-<h2 id="4-the-module-a-prologue-six-acts-and-an-">4. The module: a prologue, six acts and an epilogue</h2>
-<p>About 44 hours, or 130 sittings of twenty minutes. Each act is a period named by an idea, takes two to five works apart as full cases, gives shorter treatment to satellite works, places the angle research where it first mattered ("systems"), returns to <em>Giselle</em> once, and ends with one product the learner keeps. Each act can be taken on its own after the prologue.</p>
-<p><strong>The braid: <em>Giselle</em>.</strong> It returns in every act from Act II: Paris 1841; Petipa's revisions and the Stepanov notation in St Petersburg; Sergeyev's 1924 Paris staging from that notation; Alicia Alonso's Havana version; then Creole <em>Giselle</em> (1984), Ek (1982), Khan (2016) and Masilo (2017). By the end, the learner holds a 180-year version history of one concept. <em>Swan Lake</em> was the alternative; <em>Giselle</em> won because its originator wrote down how the idea came, and because it has the widest range of remakes.</p>
-<p><strong>The lens rule.</strong> Each case foregrounds two or three angles, chosen for where that work is strongest, so that across the module each angle leads at least twice and none is repeated case after case.</p>
-<h3 class="sess"><span class="sn">Prologue.</span> What a ballet is, as a made thing (2 hours, 6 sittings)</h3>
+<p>The old page "The shoe" becomes the pointe-shoe family's cards and one sitting in Act VI, with the earlier research kept.</p>
+<h3>3.3 Concept threads (24), each a comparison wall</h3>
+<p>Two worlds · the white act · the bird-woman and creature-woman · the automaton, doll and puppet · the exotic other · the fairy tale · the peasant and the prince · revolution and the collective hero · the machine age · plotless and music-led · sport, leisure and the everyday · myth and antiquity · the remake · folk as national idiom · the abandoned woman · rite and sacrifice · court, power and spectacle · the literary adaptation · the maker and the made · the dream or vision scene · fair, festival and carnival · gender re-cast · encounter, colony and Indigeneity · a woman against family and patriarch.</p>
+<p>Two walls show how they teach:
+- <strong>The exotic other.</strong> Each Orientalist work is paired with a work made from inside the culture it depicts: <em>La Bayadère</em> (1877) with <em>Rama Hari</em> (Manila, 1980); <em>Schéhérazade</em> (1910) and <em>The Pharaoh's Daughter</em> (1862) with <em>Cleopatra</em> (Cairo, 2019).
+- <strong>Folk as national idiom.</strong> The cluster of "earliest known national ballets": Baku 1940, Mexico City 1940, Perm 1942, Kazan 1945, Buenos Aires 1952, Beijing 1959, Ankara 1965, Pretoria 1967, Manila 1980, Seoul 1986. One form, ten states, ten ways to build a nation's world.</p>
+<h3>3.4 Collection logics from ballet itself</h3>
 <ul>
-<li><em>Giselle</em> in one sitting: the idea in a critic's letter, the team, the premiere, the versions.</li>
-<li>How to take a work apart: the case card (section 5).</li>
-<li>The anchor dates (1581, 1661, 1841, 1890, 1913, 1964, 1995) on a map of routes, not a line.</li>
-<li>Ballet's record is paper, and the most common open image of ballet is a painter's (the Degas problem).</li>
-<li>Ballet is one dance among many (Kealiinohomoku; Järvinen).</li>
-<li>The working vocabulary: positions, turnout, pointe, corps, livret, divertissement, répétiteur.</li>
+<li><strong>The divertissement:</strong> a set of short numbers held by one world (Act III of <em>The Sleeping Beauty</em>), each detachable as a gala "single".</li>
+<li><strong>The season:</strong> Diaghilev's new "drop" of three or four one-act works a year, balanced by register, each with newly commissioned artists, carried by posters and a programme magazine.</li>
+<li><strong>The mixed bill:</strong> three works under one evening's name and image.</li>
+<li><strong>Costume families:</strong> corps identical, soloists varied, principals as the anchor, characters as exceptions; rank decides colour and decoration.</li>
+<li><strong>The repertory with an anchor work:</strong> <em>The Nutcracker</em> brings in about 45% of NYCB's ticket revenue by the company's own figure, and pays for new work.</li>
 </ul>
-<h3 class="sess"><span class="sn">Act I.</span> The court designs a world, 1581 to 1763 (5 hours, 15 sittings)</h3>
+<h3>3.5 The rest of the library</h3>
 <ul>
-<li><strong>Idea:</strong> ballet began as a court's concept for showing power, and the court turned dance into a standard that could be written, taught and owned.</li>
-<li><strong>Full cases:</strong> <em>Balet comique de la Royne</em> (1581): a concept that survives only as a printed book, a team of named specialists, and a plot later claimed by a poet. <em>Ballet royal de la Nuit</em> (1653): Mazarin's brief, the young king as the rising sun. Noverre's <em>Lettres sur la danse</em> (1760) and <em>Médée et Jason</em> (1763): the earliest known written grammar published before the work, and its refusals (masks, symmetry, irrelevant virtuosity).</li>
-<li><strong>Systems:</strong> the stage as a machine (Torelli); the Académie Royale de Danse (1661); five positions and turnout as a standard set of parts; Feuillet's notation (1700) and the 1704 ruling between Beauchamp and Feuillet; the Opéra school; eighteenth-century costume and the step.</li>
-<li><strong>The concept lesson:</strong> premise as a theme; Ménestrier's "unity of design" as a perimeter; a grammar written down first.</li>
-<li><strong>Product.</strong> <em>Maker:</em> a one-page "dessein" for your own world (one subject, its parts, what does not belong), and a 16-count notation another learner can perform. <em>Briefer:</em> a commission for a court occasion (purpose, message, who performs), and a judgement of two responses.</li>
+<li><strong>People and makers</strong>, named and unnamed, with who recorded them (from the register's people blocks and the scope files).</li>
+<li><strong>Concept documents</strong>, in the order ballet invented them: letter of proposal, livret, the composer's plan, designs and maquettes, the rehearsal score, the production book, notation, the revival package.</li>
+<li><strong>Routes:</strong> the five export models, with their instances from Beijing to Muscat.</li>
+<li><strong>Systems:</strong> about 100 topics from the six angle files (the school as a machine, gas and the white act, the cost disease, copyright), each placed where it first mattered (appendix of <code>MODULE_PLAN.md</code>).</li>
 </ul>
-<h3 class="sess"><span class="sn">Act II.</span> The theatre sells a dream: Paris, 1820 to 1870 (6 hours, 18 sittings)</h3>
-<ul>
-<li><strong>Idea:</strong> the Romantic ballet was a business product as much as an art: a director needed a star vehicle, a writer supplied a story, a workshop built a world of light.</li>
-<li><strong>Full cases:</strong> <em>La Sylphide</em> (1832): a tenor's idea from Nodier's tale, with the sprite changed from male to female. <em>Giselle</em> (1841), braid: Gautier's account of the idea, the rejected first draft, Saint-Georges's plot, Perrot uncredited, Adam's motifs, Ciceri's reused set. <em>Coppélia</em> (1870): Hoffmann's dark tale turned comic, the hero danced by a woman.</li>
-<li><strong>Satellites:</strong> the nuns of <em>Robert le diable</em> (1831) as the model white act; Bournonville's Danish <em>Sylphide</em> (1836), the version that survived.</li>
-<li><strong>Systems:</strong> the Opéra as a private concession from 1831; gas lighting from 1822 and the white act as a lighting effect; the Romantic tutu; pointe before the pointe shoe (Hammond; Taglioni's shoe has no block); the market and the travesty dancer (Garafola: pensions cut, women in men's roles); the 1805 rule that designers deposit their drawings; the risk of gas (Emma Livry, 1862); Blasis's manual; the dancers Degas painted, as workers in an institution.</li>
-<li><strong>The concept lesson:</strong> premise as a story; the livret as the concept document; the two-world grammar; a star as an obligation.</li>
-<li><strong>Product.</strong> <em>Maker:</em> a livret for your world: two worlds, a crossing, the scene sequence, three rules. <em>Briefer:</em> a director's brief for a star vehicle, and a judgement of three livrets against it.</li>
-</ul>
-<h3 class="sess"><span class="sn">Act III.</span> The empire specifies: St Petersburg and Moscow, 1847 to 1903 (6 hours, 18 sittings)</h3>
-<ul>
-<li><strong>Idea:</strong> in the Imperial theatres a concept was specified like a commission: a director proposed it, a ballet master wrote the plan, a composer delivered to the bar.</li>
-<li><strong>Full cases:</strong> <em>The Sleeping Beauty</em> (1890): Vsevolozhsky's letter, Petipa's numbered plan, Perrault cut in half, the Louis XIV revival, the workshop painters splitting the acts. <em>La Bayadère</em> (1877): authorship contested between Khudekov and Petipa; Orientalism and its sources. <em>Swan Lake</em> (1877, 1895): a failure in Moscow, remade after the composer's death with a new libretto by his brother.</li>
-<li><strong>Satellites:</strong> <em>The Nutcracker</em> (1892): Hoffmann via Dumas, and the racial types in its character dances that remakes now change. <em>Giselle</em> in St Petersburg (braid): Petipa's revisions, Justamant's Paris notation, Stepanov's.</li>
-<li><strong>Systems:</strong> the school as a machine (St Petersburg 1738; Moscow's foundlings, 1773); the Imperial Theatres as patron and bureaucracy; pay (a visiting Italian ballerina earned about fourteen times her Russian colleague); the scenic studios; the classical tutu; the blocked shoe and the Italian school; Stepanov's notation (1892) and the scores Sergeyev would carry west; "character" dance and classical dance as two registers.</li>
-<li><strong>The concept lesson:</strong> obligations as a specification; the commission; the divertissement as a collection of numbers held by one world.</li>
-<li><strong>Product.</strong> <em>Maker:</em> a Petipa-style plan for one act of your world: each number's action, character, length and tempo. <em>Briefer:</em> a letter of proposal (Vsevolozhsky's) and a list of fixed constraints.</li>
-</ul>
-<h3 class="sess"><span class="sn">Act IV.</span> The committee and the avant-garde, 1909 to 1960 (8 hours, 24 sittings)</h3>
-<ul>
-<li><strong>Idea:</strong> the Ballets Russes made ballet a collaboration between painters, composers and choreographers, run by a producer who commissioned people rather than stories; the state and the neoclassical stage answered with their own models.</li>
-<li><strong>Full cases:</strong> <em>The Firebird</em> (1910): a committee in Benois's flat, Afanasyev's tales, classical dance for magic and folk dance for humans. <em>The Rite of Spring</em> (1913): Stravinsky's vision against Roerich's world, Talashkino, the riot, and the 1987 reconstruction copyrighted as a new work. <em>Le Train Bleu</em> (1924): Cocteau's idea, Chanel's real sportswear, Picasso's curtain painted by Shervashidze. <em>The Flames of Paris</em> (1932): a Soviet concept made by a team for an anniversary. <em>Agon</em> (1957): rules taken from a 1623 dance manual, practice clothes, timings agreed in advance.</li>
-<li><strong>Satellites:</strong> <em>Schéhérazade</em> (colour as story; the Poiret vogue; credit disputed), <em>Petrushka</em>, <em>L'Après-midi d'un faune</em> (the Louvre's vases), <em>Parade</em>, <em>Les Noces</em>, <em>Apollon musagète</em>, <em>The Red Poppy</em>, Schlemmer's <em>Triadic Ballet</em> at the Bauhaus (ballet as a design curriculum). <em>Giselle</em> (braid): Sergeyev's 1924 staging from notation.</li>
-<li><strong>Systems:</strong> Diaghilev's method (the committee, the veto, the season as a collection); the Ballets Russes as a business; designer and scene painter (Sapunov, Shervashidze, Polunin; the costumier Marie Muelle); Karinska and her workshop; costumes that survive as altered composites; stage to street (Bakst for Paquin, Poiret, Chanel, Art Deco); Fokine's five principles (1914); Soviet <em>drambalet</em>; the émigré diaspora (Harbin, Shanghai, Rio, Australia); syllabi as exports (RAD 1920, Cecchetti 1922, Vaganova 1934); lighting as a credited profession (Rosenthal); the bare stage.</li>
-<li><strong>The concept lesson:</strong> the team and the curator; refusals that generate rules; a grammar invented for each work against a shared one; the anchor expression; obligations imposed by a state.</li>
-<li><strong>Product.</strong> <em>Maker:</em> assemble a committee for your world: the brief, the team, a credit line naming every hand, and one translation of the world off the stage (a garment, an interior, a poster). <em>Briefer:</em> a Diaghilev brief ("astonish me", with its constraints), and a judgement of proposals.</li>
-</ul>
-<h3 class="sess"><span class="sn">Act V.</span> States and routes, 1945 to 1990 (6 hours, 18 sittings)</h3>
-<ul>
-<li><strong>Idea:</strong> after 1945 ballet travelled by institutions, and states used it to build nations; the same Soviet model produced different worlds in Beijing, Havana, Tokyo and Cairo.</li>
-<li><strong>Full cases:</strong> <em>The Red Detachment of Women</em> (Beijing, 1964): a film turned into a ballet by a committee under the state. Alicia Alonso's <em>Giselle</em> (Havana, 1945 to 1963; braid): a performer's role, first danced in 1943, hardened into a national concept, given back to Paris in 1972. Matsuyama Ballet's <em>The White-Haired Girl</em> (Tokyo, 1955): the earliest known ballet of that Chinese story, which China then borrowed back. <em>El-Leila El-Kebira</em> (Cairo Opera Ballet, 2001 or 2002): a 1961 puppet operetta made into a ballet.</li>
-<li><strong>Satellites:</strong> <em>Spartacus</em> (Bolshoi, 1968).</li>
-<li><strong>Systems:</strong> five export models (state teachers, examined syllabi, émigrés, the touring star, the presenting opera house); Cold War tours and competitions; public patronage and philanthropy (the Arts Council, the Ford grants of 1963, the NEA); South Africa; the Gulf opera houses (Muscat from 2011) and Saudi Arabia's licensing of dance; Dance Theatre of Harlem (1969).</li>
-<li><strong>The concept lesson:</strong> who may change a work, and who sets the brief; a source in another medium (film, puppet theatre).</li>
-<li><strong>Product.</strong> <em>Maker:</em> a route map for one ballet: every place, institution and hand it passed through, with the hidden strands marked. <em>Briefer:</em> a cultural-diplomacy brief for a touring production, and what it must not say.</li>
-</ul>
-<h3 class="sess"><span class="sn">Act VI.</span> Remaking, and the industry now, 1980 to today (8 hours, 24 sittings)</h3>
-<ul>
-<li><strong>Idea:</strong> remaking is how a concept stays alive; every remake keeps a fixed layer and frees another, and the line between them is the concept.</li>
-<li><strong>Full cases:</strong> Creole <em>Giselle</em> (1984; braid): re-setting in 1840s Louisiana, keeping the steps. Bourne's <em>Swan Lake</em> (1995): re-psychologising, male swans in feathered breeches. Khan's <em>Giselle</em> (2016; braid): migrant garment workers and a wall. Masilo's <em>Swan Lake</em> (2010) and <em>Giselle</em> (2017; braid): re-politicising. Ratmansky's <em>The Sleeping Beauty</em> (2015): re-excavating from notation.</li>
-<li><strong>Satellites:</strong> Ek's <em>Giselle</em> (1982) and <em>Swan Lake</em> (1987).</li>
-<li><strong>Systems:</strong> the pointe shoe today (makers' marks, piecework, two businesses on Britain's endangered-crafts list, Gaynor Minden's moulded shank, polyester satin, the dancer's own hours on the shoe); skin tone (the brown shoe of 2018, after dancers had coloured their own for decades); the Paris Opéra's 2021 report and Final Bow for Yellowface; the body ideal, injury and its costs; dancers as a workforce (contracts, unions, the Paris strikes and pensions); the cost disease and the <em>Nutcracker</em> economy; who owns a ballet (copyright from 1978, the Graham ruling, the Balanchine Trust, Ashton's bequests); the record today (film, Benesh, the répétiteur, revival packages); workrooms as factories (the Royal Ballet and Opera at Thurrock; the Paris Opéra's 180 artisans in eleven trades); materials and their weight (nylon net, rosin, waste).</li>
-<li><strong>The concept lesson:</strong> the five modes of remaking; the keep-and-change line; handover, lifecycle, rights and money.</li>
-<li><strong>Product.</strong> <em>Maker:</em> a remake proposal for one work in this module: the mode, a keep-and-change table, the anchor image, the credit chain. <em>Briefer:</em> a commissioning brief that states what must not change and what may, and a judged set of three proposals.</li>
-</ul>
-<h3 class="sess"><span class="sn">Epilogue.</span> Your world, with ballet as precedent (3 hours, 9 sittings)</h3>
-<ul>
-<li>Choose the premise of your own world and write it three ways: as a theme (court), as a story (livret), as a system (Agon).</li>
-<li>Fill your own case card, using the six act products.</li>
-<li>Write the handover: what a stranger would need to remake your world.</li>
-</ul>
-<h2 id="5-the-case-card-the-concept-as-the-produ">5. The case card: the concept as the product</h2>
-<p>Every full case is taken apart on the same card, in the order a concept is made. In early acts the module fills the card; by Act VI the learner fills most of it from the sources given. Each heading names the Concept DNA field it feeds.</p>
+<h2 id="4-where-it-lives-the-evidence-and-the-re">4. Where it lives: the evidence and the recommendation</h2>
+<p><strong>The options:</strong> (a) inside F1 as an extension; (b) a standalone elective of 44 hours; (c) a program-wide case world in the world set; (d) the program's historical exemplar beside the planned contemporary exemplar Concept DNA; (e) a combination.</p>
+<p><strong>What the studies and precedents show:</strong>
+- <strong>Comparison is what makes reuse work.</strong> Comparing two cases roughly doubled transfer over studying them separately, and separate study of the same two cases was no better than no training (Gentner, Loewenstein and Thompson 2003). Across 57 experiments, comparison beat single-case study (Alfieri and others 2013, effect size 0.50). A rich case met five times alone is five lots of separate study; met beside a second case each time, it teaches the principle.
+- <strong>Recurring cases across a curriculum are established practice, but the evidence is mostly satisfaction.</strong> Medicine and nursing use "virtual families" met in every module (Eastern Virginia Medical School's CareForward has more than 40 characters; at Edith Cowan, 82% of students said the shared family helped them link units). Strathclyde's law school ran six modules inside one fictional town, Ardcalloch, and reported better coursework and exams but a "high work rate for staff". The Open University built one study pack for three modules because a core idea was being taught differently in each. Business schools that reuse one case across courses cap it at two or three classes per course so students are not bored, and name a case champion.
+- <strong>No precedent found puts a case of this size inside one module.</strong>
+- <strong>The program already plans the pieces:</strong> a world set of about 1,200 cases tagged by unit, "the exemplar Concept DNA" before M2, and "cognitive apprenticeship (worked exemplar, then the learner's own)" as a principle.</p>
+<p><strong>Recommendation:</strong> (c) + (d), with a small (a), and (b) as an optional route.
+1. <strong>The case world.</strong> Publish the library as a "Ballet" collection in the world set.
+2. <strong>The historical exemplar.</strong> Write <em>Giselle</em> (1841) field by field as a full Concept DNA, marked as a reading, and pair it with the contemporary exemplar when M2 is built, so every Method unit that uses it compares the two.
+3. <strong>F1's core, about 6 hours:</strong> the Prologue, the full <em>Giselle</em> 1841 case, one non-European case (<em>The White-Haired Girl</em>, Tokyo 1955, or <em>El-Leila El-Kebira</em>, Cairo 2001 or 2002), and two comparison walls. This keeps ballet at the scale of one F1 strand among many, which F1's own argument (a web, not a line) requires.
+4. <strong>The deep path, about 35 hours,</strong> as an optional route for learners who want the whole history, assembled from the same cards once the first slice has been tested.
+5. <strong>The borrowing rule:</strong> one to three sittings per module; each ballet card set beside a non-ballet case from that module's own set, with a "what do these share?" task and the principle given after; the Historian voice keeps the record of which module used which card.</p>
 <div class="tw"><table>
 <thead>
 <tr>
-<th>Heading</th>
-<th>What it records</th>
+<th>Module</th>
+<th>Ballet cards it draws</th>
 <th>Concept DNA field</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Roots</td>
-<td>The texts, images, objects, music and events the idea came from, and how each was used</td>
-<td>Sources (SRC)</td>
+<td>F3 Body and senses</td>
+<td>the made body, turnout, injury, the ageing dancer</td>
+<td>—</td>
 </tr>
 <tr>
-<td>Premise</td>
-<td>The idea in one sentence, as its makers framed it and as scholars read it</td>
-<td>Premise (PRM)</td>
+<td>F4 Material and meaning</td>
+<td>paste, hessian and polyester satin; nylon net; rosin</td>
+<td>Planetary weight</td>
 </tr>
 <tr>
-<td>Who had it</td>
-<td>The originator, the brief, and the documents of development</td>
-<td>Brief (BRF), Obligations (OBL)</td>
+<td>M1 Research and premise</td>
+<td>roots and premises (Gautier's letter, Roerich's ethnography); a premise written three ways</td>
+<td>Premise, Sources</td>
 </tr>
 <tr>
-<td>The world</td>
-<td>Its rules, its grammar of movement and look, and what it refuses</td>
-<td>Rules (RUL), Grammars (GRM), Anti-DNA (ANT), Perimeter (PER)</td>
+<td>M2 Concept DNA</td>
+<td>the <em>Giselle</em> exemplar; Fokine's refusals; Petipa's plan as obligations</td>
+<td>Rules, Anti-DNA, Obligations, Grammars</td>
 </tr>
 <tr>
-<td>How it was made</td>
-<td>The bodies, things, stage and workshops, through two or three angles</td>
-<td>Anchor expression (ANC)</td>
+<td>M3 World architecture</td>
+<td>two worlds; the divertissement and the season as collection maps</td>
+<td>Perimeter, Collection map</td>
 </tr>
 <tr>
-<td>Team and credit</td>
-<td>Every role, and who the credit line names and drops</td>
-<td>Rights and money (RGT)</td>
+<td>M4 Make and test</td>
+<td>the five modes of remaking; revival packages</td>
+<td>Adjacent translation, Version history</td>
 </tr>
 <tr>
-<td>The night</td>
-<td>The premiere: place, audience, what they saw and felt</td>
-<td>(the experience)</td>
+<td>S1 Space and experience</td>
+<td>the night; gas and the white act; the machine stage; the bare stage</td>
+<td>Anchor expression</td>
 </tr>
 <tr>
-<td>The record</td>
-<td>What survives, who holds it, on what terms</td>
-<td>Handover (HND)</td>
+<td>S2 Object and product</td>
+<td>the pointe shoe as a product line; Gaynor Minden's code; the ballet flat</td>
+<td>Collection map, Grammars</td>
 </tr>
 <tr>
-<td>Afterlife</td>
-<td>Versions, remakes and translations into other media</td>
-<td>Lifecycle (LCY), Adjacent translation (ADJ), Version history (VER)</td>
-</tr>
-</tbody>
-</table></div>
-<h3>A filled card, in brief: <em>Giselle</em> (Paris Opéra, 28 June 1841)</h3>
-<ul>
-<li><strong>Roots:</strong> Heine's passage on the Wilis in <em>De l'Allemagne</em>; Hugo's poem "Fantômes", about a girl who died after a ball; the white acts of <em>La Sylphide</em> and <em>Robert le diable</em>.</li>
-<li><strong>Premise:</strong> love outlasts betrayal and death (a peasant girl, deceived by a disguised nobleman, dies and protects him among the ghosts of jilted brides).</li>
-<li><strong>Who had it:</strong> Théophile Gautier, poet and critic, by his own account on reading Heine. His first draft, an empty ballroom of Wilis, was rejected as a string of dances. Saint-Georges built the plot. The director, Léon Pillet, needed a vehicle to launch Carlotta Grisi.</li>
-<li><strong>The world:</strong> two worlds (a sunlit vine-harvest village; a moonlit forest grave) and two movement languages; the rule that the Wilis dance any man to death before dawn and that love can only delay it; no happy marriage.</li>
-<li><strong>How it was made:</strong> Adam's recurring motifs; Ciceri's Act I set reused from an earlier ballet; Lormier's costumes; Grisi's dances made by her partner, Jules Perrot.</li>
-<li><strong>Team and credit:</strong> credited to Coralli for choreography; Perrot, who made Grisi's dances, appears on no poster or programme.</li>
-<li><strong>The night:</strong> the Opéra's subscribers; an immediate success.</li>
-<li><strong>The record:</strong> Lormier's designs (BnF, non-commercial); Justamant's notation of the 1860s Paris version; Stepanov's notation from St Petersburg (Harvard).</li>
-<li><strong>Afterlife:</strong> dropped in Paris in 1868; survived in St Petersburg; returned west as "Russian" in 1911; reconstructed by Ratmansky in 2019; remade in Havana, Louisiana, an asylum, a garment factory and South Africa.</li>
-</ul>
-<h2 id="6-what-the-learner-holds-at-the-end">6. What the learner holds at the end</h2>
-<ul>
-<li><strong>A case library of about twenty ballets</strong>, each on the case card, entered in the Concept DNA's Sources field and tagged to the fields it informs later (premise, rules, anti-DNA, grammar, rights, translation, lifecycle). The Method modules can reuse the library as worked examples.</li>
-<li><strong>The version history of <em>Giselle</em></strong>, 1841 to 2017: who changed what, why, and who paid.</li>
-<li><strong>Six act products, which follow the documents ballet itself invented, in the order it invented them:</strong> a dessein and a notation (the court), a livret (the Romantic theatre), a composer's plan (the Imperial theatre), a committee, a credit line and a translation (the Ballets Russes), a route map (the state era), a remake proposal (today).</li>
-<li><strong>In the Briefer lane:</strong> six briefs (a court commission, a star vehicle, a letter of proposal, an "astonish me" brief, a touring brief, a commissioning brief with fixed and free layers) and six judged sets.</li>
-<li><strong>From the epilogue:</strong> a premise written three ways and a handover for the learner's own world.</li>
-</ul>
-<p>The learner leaves knowing the history, and having practised, in historical order, every document a concept passes through on its way to becoming an experience.</p>
-<h2 id="7-where-all-the-research-goes">7. Where all the research goes</h2>
-<p>Nothing is dropped. Each topic from the six angle files goes to the act where it first decided something; topics that span the module recur in the case cards. The full map is in the appendix.</p>
-<div class="tw"><table>
-<thead>
-<tr>
-<th>Angle file</th>
-<th>Prologue</th>
-<th>I</th>
-<th>II</th>
-<th>III</th>
-<th>IV</th>
-<th>V</th>
-<th>VI</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>01 History and institutions</td>
-<td>canon map</td>
-<td>court, Académie</td>
-<td>Opéra as enterprise; Danish route</td>
-<td>Imperial patronage; school</td>
-<td>Ballets Russes; diaspora; Italy; Britain</td>
-<td>Soviet export; Japan; Cuba; China; Egypt; South Africa; Gulf; competitions</td>
-<td>whiteness and its contest; diaspora now</td>
+<td>S3 Body and wearables</td>
+<td>tutu families; Karinska; skin tone; the <em>Train Bleu</em> jersey</td>
+<td>Grammars</td>
 </tr>
 <tr>
-<td>02 Body and technique</td>
-<td>vocabulary</td>
-<td>codification; positions; Feuillet</td>
-<td>pointe before the shoe; male dancer</td>
-<td>the school; Vaganova's roots</td>
-<td>syllabi as exports; notation; film</td>
-<td>body ideal abroad</td>
-<td>injury; eating disorders; ageing; disability; reconstruction</td>
+<td>S5 Identity and communication</td>
+<td>posters, programmes, the NYCB lyre, the RBO wordmark; credit lines</td>
+<td>Alignment</td>
 </tr>
 <tr>
-<td>03 Objects, makers, materials</td>
-<td></td>
-<td>18th-century costume</td>
-<td>Romantic tutu; Taglioni's shoe</td>
-<td>classical tutu; blocked shoe</td>
-<td>Ballets Russes costume; Karinska; scenery as built object</td>
-<td></td>
-<td>pointe shoe today; makers' marks; dancer's labour; skin tone; workrooms; floor; materials; waste</td>
+<td>R2 Money, law and rights</td>
+<td>copyright, the Balanchine Trust, the cost disease, <em>Nutcracker</em> licensing</td>
+<td>Rights and money</td>
 </tr>
 <tr>
-<td>04 Stage design</td>
-<td></td>
-<td>machine stage</td>
-<td>gas; Ciceri; white act</td>
-<td>Imperial scenic studios</td>
-<td>Ballets Russes design; designer and executant; stage to street; Constructivism; lighting; bare stage; Noguchi and Cunningham</td>
-<td></td>
-<td>scenic workshop today; projection</td>
+<td>R4 Responsibility</td>
+<td>makers' pay, injury, materials, waste, the Paris Opéra's 2021 report</td>
+<td>Lifecycle, Planetary weight</td>
 </tr>
 <tr>
-<td>05 Money, labour, ownership</td>
-<td></td>
-<td>Beauchamp v. Feuillet</td>
-<td>market model; travesty; Véron</td>
-<td>Imperial pay; benefit system</td>
-<td>Ballets Russes business; Ford grants</td>
-<td>public patronage; state</td>
-<td>cost disease; <em>Nutcracker</em> economy; workforce; unions; copyright; estates; data on authorship; AI clauses</td>
-</tr>
-<tr>
-<td>06 Scholarship and teaching</td>
-<td>the record is paper; Degas problem; one dance among many; the surveys</td>
-<td>treatises (LoC)</td>
-<td>Degas's dancers</td>
-<td>notation archive</td>
-<td>design-history framing of the Ballets Russes</td>
-<td>ballet beyond Europe</td>
-<td>who holds the record today</td>
+<td>Regional slot</td>
+<td>how ballet reached the Gulf</td>
+<td>Sources</td>
 </tr>
 </tbody>
 </table></div>
-<h2 id="8-before-writing">8. Before writing</h2>
-<ul>
-<li><strong>Read at source.</strong> About twenty items rest on summaries and are marked probable: Hammond (1987–88), Foster's "Phallic Pointe", Daly, Aalten, the Mauss quotation, Wiley's Tchaikovsky book (Petipa's plan reached us through two secondary sites), Garafola and Taruskin where cited via Wikipedia, the Benois–Bakst dispute over <em>Schéhérazade</em>, the Ballets Russes committee in Benois and Grigoriev, Gautier's letter to Heine in the original.</li>
-<li><strong>Contested dates</strong> are listed in each file with both readings (for example the Paris Opéra pension, 1698 or 1713; <em>Red Detachment</em>'s premiere; <em>El-Leila El-Kebira</em>'s).</li>
-<li><strong>Readers needed:</strong> Russian (Imperial and Soviet sources, Cairo), Chinese (<em>Red Detachment</em>), Japanese (Matsuyama), Arabic (<em>El-Leila El-Kebira</em>, the Gulf); a dancer, a shoemaker or costume maker, and a scenic artist.</li>
-<li><strong>Thin everywhere:</strong> ballet made in the Gulf (none found; the opera houses commission tours, opera and dance theatre); disability in classical companies; makers' wages; production outside Europe and the US.</li>
-<li><strong>Images:</strong> no open images were found for any post-1945 work; the reliably open holders are the Met, the National Gallery of Art, NYPL, the Library of Congress and Harvard; Gallica and the V&amp;A are non-commercial; designs by Goncharova, Benois and Picasso stay in copyright until 2031 to 2044. An image list per act is the next research job.</li>
-</ul>
-<h2 id="9-decisions-for-you">9. Decisions for you</h2>
-<ol>
-<li><strong>Where the module lives.</strong> A ballet module inside F1 at Practice and Mastery depth, with the twelve-hour plan as its Orientation path; or a case module shared by F1 and the Method modules (M1 premise, M2 Concept DNA, M3 world architecture), which would reuse its case cards as worked examples. F1's own Concept DNA role is Sources only, so the epilogue's premise work would count toward M1.</li>
-<li><strong>Six acts of 5 to 8 hours, or four longer ones</strong> (merging II with III and V with VI). Shorter acts finish better; six follow the history more closely.</li>
-<li><strong>The braid:</strong> <em>Giselle</em> (chosen) or <em>Swan Lake</em>.</li>
-<li><strong>Which act to write first.</strong> Proposed: the Prologue and Act II, because <em>Giselle</em> opens both and Act II has the best-documented origin story.</li>
-<li><strong>The Gulf strand:</strong> a research pass in Arabic sources and Gulf press, and whether a Gulf-made case exists or must be commissioned as a design brief instead.</li>
-</ol>
-<h2 id="appendix-every-angle-topic-and-where-it-">Appendix: every angle topic and where it goes</h2>
+<p><strong>Risks:</strong> scattered meetings without comparison would leave fragments (hence the borrowing rule); coordination costs (hence building each card once); learners copying the exemplar (hence always showing it beside a second, different one); the deep path may wait (acceptable, because the library already carries the research).</p>
+<h2 id="5-length-and-number-of-parts">5. Length and number of parts</h2>
+<p><strong>What the studies show:</strong>
+- <strong>Length costs starts more than finishes.</strong> Each added week cut open-course completion by about 10%, but among learners who started, completion was unrelated to length (Jordan 2014).
+- <strong>Smaller parts pass more often.</strong> At the Open University, 30-credit modules had 42% higher odds of being passed than 60-credit ones, and each planned break week raised the odds by 28% (Nguyen, Thorne and Rienties 2018).
+- <strong>Boundaries are where learners leave.</strong> In MIT's Supply Chain MicroMasters, most dropout happened between courses, not within them; dropout per course fell from 48% in the first to 16% in the last; putting the hardest course first drove learners away (Borrella and others 2019).
+- <strong>Uneven parts discourage.</strong> FutureLearn found weekly workloads varying up to tenfold within one course (Ballesteros Mesa and Wilde 2016).
+- <strong>A task early keeps learners.</strong> Learners who only watched in week one dropped out three times as often as those who did the task (Ye and Biswas 2014).
+- Benchmarks: a FutureLearn course runs 2–6 weeks at 2–6 hours a week; a Coursera course 4–12 weeks; F1 is 34 hours.</p>
+<p><strong>Recommendation: six acts, evened to 5–6 hours each, about 35 hours in all.</strong> Four acts of ten hours would each be longer than a typical online course; the history's own turning points (1661, 1832, 1890, 1909, 1945, 1980) argue for six. The epilogue's premise work moves to M1, where premise belongs, and the systems lists become library cards reached on demand.</p>
+<p><strong>Protect the first two weeks.</strong> The court is the least concrete material, so the default route opens at the Prologue and Act II (<em>Giselle</em>), then goes back to Act I as "what Paris inherited". Every act can also be entered on its own. Each act's last screen shows the next act's first case, and a break week is planned between acts.</p>
+<h3>The deep path, revised</h3>
 <div class="tw"><table>
 <thead>
 <tr>
-<th>File</th>
-<th>Topic</th>
 <th>Act</th>
+<th>Hours</th>
+<th>Full cases</th>
+<th>Comparison walls</th>
+<th>Products and collections</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>01</td>
-<td>Court ballet as statecraft</td>
-<td>I</td>
+<td>Prologue: what a ballet is, as a made thing</td>
+<td>2</td>
+<td><em>Giselle</em> in one sitting</td>
+<td>the anchor-date map</td>
+<td>—</td>
 </tr>
 <tr>
-<td>01</td>
-<td>The Académie Royale de Danse (1661) and codification</td>
-<td>I</td>
+<td>I. The court designs a world, 1581–1763</td>
+<td>4</td>
+<td><em>Balet comique</em>; <em>Ballet royal de la Nuit</em>; Noverre</td>
+<td>court, power and spectacle</td>
+<td>the king's costume as an emblem</td>
 </tr>
 <tr>
-<td>01</td>
-<td>The school as a machine for making dancers</td>
-<td>III (with the 1738 and 1773 schools); I (Opéra school)</td>
+<td>II. The theatre sells a dream, Paris 1820–1870</td>
+<td>6</td>
+<td><em>La Sylphide</em>; <em>Giselle</em>; <em>Coppélia</em></td>
+<td>the white act; the automaton</td>
+<td>Taglioni fashions and souvenir prints: a dancer's name as a brand; the Romantic tutu</td>
 </tr>
 <tr>
-<td>01</td>
-<td>Syllabi as exportable technology</td>
-<td>IV</td>
+<td>III. The empire specifies, St Petersburg 1847–1903</td>
+<td>6</td>
+<td><em>The Sleeping Beauty</em>; <em>La Bayadère</em>; <em>Swan Lake</em></td>
+<td>the exotic other, paired with works from inside; the fairy tale</td>
+<td>the divertissement as a collection; the classical tutu and costume families; the <em>Nutcracker Suite</em> before the ballet</td>
 </tr>
 <tr>
-<td>01</td>
-<td>Romantic ballet and the Paris Opéra as an enterprise</td>
-<td>II</td>
+<td>IV. The committee and the avant-garde, 1909–1960</td>
+<td>6</td>
+<td><em>The Firebird</em>; <em>The Rite of Spring</em>; <em>Le Train Bleu</em>; <em>Agon</em></td>
+<td>the machine age; plotless and music-led</td>
+<td>the season as a drop; Cocteau's posters; Paquin–Bakst; the <em>Train Bleu</em> jersey; Van Cleef &amp; Arpels and <em>Jewels</em></td>
 </tr>
 <tr>
-<td>01</td>
-<td>Imperial Russia: state patronage and the repertory</td>
-<td>III</td>
+<td>V. States and routes, 1945–1990</td>
+<td>5</td>
+<td><em>The Red Detachment of Women</em>; Alonso's <em>Giselle</em>; <em>The White-Haired Girl</em>; <em>El-Leila El-Kebira</em></td>
+<td>folk as national idiom; a woman against family and patriarch</td>
+<td>the leotard and the ballet flat (McCardell, Hepburn, Bardot); the NYCB lyre</td>
 </tr>
 <tr>
-<td>01</td>
-<td>The Ballets Russes as touring company and diaspora</td>
-<td>IV</td>
+<td>VI. Remaking and the industry now, 1980–</td>
+<td>6</td>
+<td>Creole <em>Giselle</em>; Bourne's <em>Swan Lake</em>; Khan's <em>Giselle</em>; Masilo; Ratmansky</td>
+<td>the remake (the <em>Giselle</em>, <em>Rite</em> and <em>Swan Lake</em> families)</td>
+<td>the pointe shoe as a product line; brown and bronze shoes; balletcore; <em>Barbie in the Nutcracker</em>; the RBO wordmark</td>
 </tr>
 <tr>
-<td>01</td>
-<td>Ballet and the twentieth-century state</td>
-<td>IV (Soviet), V</td>
-</tr>
-<tr>
-<td>01</td>
-<td>Whiteness, exclusion and its contest</td>
-<td>V (Dance Theatre of Harlem), VI</td>
-</tr>
-<tr>
-<td>01</td>
-<td>The Royal Danish Ballet and Bournonville</td>
-<td>II</td>
-</tr>
-<tr>
-<td>01</td>
-<td>Italy: Blasis, La Scala, Cecchetti</td>
-<td>II (Blasis), III (Italian virtuose), IV (Cecchetti method)</td>
-</tr>
-<tr>
-<td>01</td>
-<td>Britain as exporter</td>
-<td>IV, V</td>
-</tr>
-<tr>
-<td>01</td>
-<td>America: Kirstein, Balanchine, NYCB, the Africanist presence</td>
-<td>IV (<em>Agon</em>), VI</td>
-</tr>
-<tr>
-<td>01</td>
-<td>Competitions as Cold War institutions</td>
-<td>V</td>
-</tr>
-<tr>
-<td>01</td>
-<td>Japan by the émigré route</td>
-<td>IV (Harbin, Shanghai), V (Tokyo 1946, Matsuyama)</td>
-</tr>
-<tr>
-<td>01</td>
-<td>South Africa</td>
-<td>V; VI (Masilo)</td>
-</tr>
-<tr>
-<td>01</td>
-<td>The touring star as colonial carrier</td>
-<td>IV (Pavlova)</td>
-</tr>
-<tr>
-<td>01</td>
-<td>The institution as employer</td>
-<td>III, VI</td>
-</tr>
-<tr>
-<td>01</td>
-<td>Fifteenth-century Italian dance masters</td>
-<td>I</td>
-</tr>
-<tr>
-<td>01</td>
-<td>Noverre and the <em>ballet d'action</em></td>
-<td>I</td>
-</tr>
-<tr>
-<td>01</td>
-<td>Fascism and ballet (Lifar)</td>
-<td>IV</td>
-</tr>
-<tr>
-<td>01</td>
-<td>Australia</td>
-<td>IV (de Basil tours)</td>
-</tr>
-<tr>
-<td>01</td>
-<td>The Gulf and the Arab opera house</td>
-<td>V</td>
-</tr>
-<tr>
-<td>01</td>
-<td>Egypt, Lebanon, Iran</td>
-<td>V</td>
-</tr>
-<tr>
-<td>01</td>
-<td>Notation systems as archives</td>
-<td>I (Feuillet), III (Stepanov), VI (Benesh)</td>
-</tr>
-<tr>
-<td>01</td>
-<td>Present-day diaspora and politics</td>
-<td>VI</td>
-</tr>
-<tr>
-<td>02</td>
-<td>Technique makes the body</td>
-<td>Prologue, III</td>
-</tr>
-<tr>
-<td>02</td>
-<td>Codification: five positions, turnout, vocabulary</td>
-<td>I</td>
-</tr>
-<tr>
-<td>02</td>
-<td>Pointe as a technology of the body</td>
-<td>II</td>
-</tr>
-<tr>
-<td>02</td>
-<td>The body ideal and its policing</td>
-<td>VI</td>
-</tr>
-<tr>
-<td>02</td>
-<td>What the making costs the body: injury and workload</td>
-<td>VI</td>
-</tr>
-<tr>
-<td>02</td>
-<td>Rival technique systems and their manuals</td>
-<td>IV</td>
-</tr>
-<tr>
-<td>02</td>
-<td>Notation: writing down a moving body</td>
-<td>I, III</td>
-</tr>
-<tr>
-<td>02</td>
-<td>Film as the record of a technique</td>
-<td>IV, VI</td>
-</tr>
-<tr>
-<td>02</td>
-<td>Reconstruction</td>
-<td>IV (<em>Rite</em>), VI (Ratmansky)</td>
-</tr>
-<tr>
-<td>02</td>
-<td>Gender in technique and the male dancer</td>
-<td>II (travesty), VI (Bourne)</td>
-</tr>
-<tr>
-<td>02</td>
-<td>The ageing dancer; turnout as anatomy; the studio as apparatus; disability now</td>
-<td>VI; I (turnout); II (Degas's barre)</td>
-</tr>
-<tr>
-<td>03</td>
-<td>The pointe shoe as a made object</td>
-<td>II (no block), III (the block), VI (today)</td>
-</tr>
-<tr>
-<td>03</td>
-<td>The makers' mark and piecework</td>
-<td>VI</td>
-</tr>
-<tr>
-<td>03</td>
-<td>The dancer's own labour on the shoe</td>
-<td>VI</td>
-</tr>
-<tr>
-<td>03</td>
-<td>The tutu: bell to plate to "powder puff"</td>
-<td>II, III, IV (Karinska)</td>
-</tr>
-<tr>
-<td>03</td>
-<td>Designer named, maker not</td>
-<td>IV, VI</td>
-</tr>
-<tr>
-<td>03</td>
-<td>Ballets Russes costume as made object</td>
-<td>IV</td>
-</tr>
-<tr>
-<td>03</td>
-<td>Materials and their weight</td>
-<td>VI</td>
-</tr>
-<tr>
-<td>03</td>
-<td>Company workrooms as factories</td>
-<td>VI (III for the Imperial workshops)</td>
-</tr>
-<tr>
-<td>03</td>
-<td>Karinska and her workshop</td>
-<td>IV</td>
-</tr>
-<tr>
-<td>03</td>
-<td>Skin tone: brown shoes and tights</td>
-<td>V (Dance Theatre of Harlem), VI</td>
-</tr>
-<tr>
-<td>03</td>
-<td>Scenery as built and painted object</td>
-<td>IV</td>
-</tr>
-<tr>
-<td>03</td>
-<td>The floor</td>
-<td>VI</td>
-</tr>
-<tr>
-<td>03</td>
-<td>Pointe shoe redesigned (Gaynor Minden)</td>
-<td>VI</td>
-</tr>
-<tr>
-<td>03</td>
-<td>Wigs, make-up and caricature</td>
-<td>III (<em>Nutcracker</em>), VI</td>
-</tr>
-<tr>
-<td>03</td>
-<td>Waste and the short life of objects</td>
-<td>VI</td>
-</tr>
-<tr>
-<td>03</td>
-<td>Net and lace machines; rosin; dancewear firms</td>
-<td>II (net), VI</td>
-</tr>
-<tr>
-<td>03</td>
-<td>Ballet and fashion; luxury patronage of craft</td>
-<td>IV, VI</td>
-</tr>
-<tr>
-<td>03</td>
-<td>Eighteenth-century costume and the step</td>
-<td>I</td>
-</tr>
-<tr>
-<td>03</td>
-<td>Conservation as making in reverse</td>
-<td>IV</td>
-</tr>
-<tr>
-<td>04</td>
-<td>The stage as a machine</td>
-<td>I</td>
-</tr>
-<tr>
-<td>04</td>
-<td>The Romantic stage: Ciceri, gas, the white act</td>
-<td>II</td>
-</tr>
-<tr>
-<td>04</td>
-<td>The Ballets Russes as a design event</td>
-<td>IV</td>
-</tr>
-<tr>
-<td>04</td>
-<td>Designer and executant</td>
-<td>IV</td>
-</tr>
-<tr>
-<td>04</td>
-<td>Stage to street</td>
-<td>IV</td>
-</tr>
-<tr>
-<td>04</td>
-<td>Imperial Russia's scenic studios</td>
-<td>III</td>
-</tr>
-<tr>
-<td>04</td>
-<td>Constructivism, projection and the Soviet stage</td>
-<td>IV</td>
-</tr>
-<tr>
-<td>04</td>
-<td>Noguchi, Rauschenberg, Johns</td>
-<td>IV</td>
-</tr>
-<tr>
-<td>04</td>
-<td>Lighting design as a profession</td>
-<td>IV</td>
-</tr>
-<tr>
-<td>04</td>
-<td>The bare stage</td>
-<td>IV (<em>Agon</em>)</td>
-</tr>
-<tr>
-<td>04</td>
-<td>The Royal Ballet's designers (Messel)</td>
-<td>V</td>
-</tr>
-<tr>
-<td>04</td>
-<td>The scenic workshop today</td>
-<td>VI</td>
-</tr>
-<tr>
-<td>04</td>
-<td>Projection and digital scenography; fashion designers on stage; women designers recovered; the market and the museum; conservation</td>
-<td>VI; IV</td>
-</tr>
-<tr>
-<td>05</td>
-<td>Who pays: three funding models</td>
-<td>II (market), III (state), V (public), VI (mixed)</td>
-</tr>
-<tr>
-<td>05</td>
-<td>The cost disease</td>
-<td>VI</td>
-</tr>
-<tr>
-<td>05</td>
-<td>Dancers as a workforce</td>
-<td>VI</td>
-</tr>
-<tr>
-<td>05</td>
-<td>Who owns a ballet</td>
-<td>IV (<em>Agon</em>, Balanchine), VI</td>
-</tr>
-<tr>
-<td>05</td>
-<td>The record: notation, film, the répétiteur</td>
-<td>III, VI</td>
-</tr>
-<tr>
-<td>05</td>
-<td>The makers behind the stage</td>
-<td>II (Véron's scene painters), VI</td>
-</tr>
-<tr>
-<td>05</td>
-<td>The <em>Nutcracker</em> economy</td>
-<td>VI</td>
-</tr>
-<tr>
-<td>05</td>
-<td>Philanthropy that chose a style; public patronage</td>
-<td>V</td>
-</tr>
-<tr>
-<td>05</td>
-<td>Pensions and strikes at the Paris Opéra</td>
-<td>I (founding), VI</td>
-</tr>
-<tr>
-<td>05</td>
-<td>What training costs</td>
-<td>III, VI</td>
-</tr>
-<tr>
-<td>05</td>
-<td>Data on who gets to author</td>
-<td>VI</td>
-</tr>
-<tr>
-<td>05</td>
-<td>The Ballets Russes as a business</td>
-<td>IV</td>
-</tr>
-<tr>
-<td>05</td>
-<td>Imperial pay and the benefit system</td>
-<td>III</td>
-</tr>
-<tr>
-<td>05</td>
-<td>Japan's studio economy; Soviet touring for hard currency; second careers; Latin American labour; stand-ins; AI clauses; the Romantic Opéra's sexual economy</td>
-<td>V; VI; II</td>
-</tr>
-<tr>
-<td>06</td>
-<td>Ballet's record is paper</td>
-<td>Prologue</td>
-</tr>
-<tr>
-<td>06</td>
-<td>Who holds the record, and on what terms</td>
-<td>Prologue, VI</td>
-</tr>
-<tr>
-<td>06</td>
-<td>The Degas problem</td>
-<td>Prologue, II</td>
-</tr>
-<tr>
-<td>06</td>
-<td>Ballet is one dance among many</td>
-<td>Prologue</td>
-</tr>
-<tr>
-<td>06</td>
-<td>The survey histories and their framings</td>
-<td>Prologue</td>
-</tr>
-<tr>
-<td>06</td>
-<td>Costume and choreography as one design problem</td>
-<td>II, IV</td>
-</tr>
-<tr>
-<td>06</td>
-<td>Notation, reconstruction and authenticity</td>
-<td>III, VI</td>
-</tr>
-<tr>
-<td>06</td>
-<td>Ballet beyond Europe</td>
-<td>V</td>
-</tr>
-<tr>
-<td>06</td>
-<td>The pointe shoe as invented tradition</td>
-<td>VI</td>
-</tr>
-<tr>
-<td>06</td>
-<td>Orientalism and racialised objects</td>
-<td>III, IV</td>
-</tr>
-<tr>
-<td>06</td>
-<td>Choreography beyond the body</td>
-<td>IV (Bauhaus), VI</td>
-</tr>
-<tr>
-<td>06</td>
-<td>Ballet and opera as one institution</td>
-<td>II</td>
-</tr>
-<tr>
-<td>06</td>
-<td>Dance medicine</td>
-<td>VI</td>
-</tr>
-<tr>
-<td>W4</td>
-<td>Theories of the concept (Ménestrier to McGregor)</td>
-<td>each act's concept lesson: I (Ménestrier, Noverre), II (Gautier, the livret), III (Petipa's plan), IV (Fokine, Diaghilev, Balanchine, Cunningham, <em>drambalet</em>, Bauhaus), VI (Forsythe, McGregor, Davies)</td>
+<td><strong>Total</strong></td>
+<td><strong>35</strong></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
-</table></div></main></div>
+</table></div>
+<p>Each act ends with one product in each lane, as before: the concept document of that era (a dessein and a notation; a livret; a composer's plan; a committee, credit line and translation; a route map; a remake proposal), now with a collection note: one product family from the learner's world, read through that era's logic.</p>
+<h2 id="6-the-returning-work">6. The returning work</h2>
+<p><strong>What the studies show.</strong> To notice what varies, a learner needs something held constant (variation theory, Marton and Pang 2006), so a returning work is a sound design: story and score stay, while maker, city, body and politics change. A rotating braid removes the constant. But learning from one instance generalises poorly (Raviv, Lupyan and Green 2022), so the remake modes must be seen in more than one work.</p>
+<p><strong>The data.</strong> On Bachtrack's annual counts of performances, <em>Swan Lake</em> is the second most performed ballet in every year seen, after <em>The Nutcracker</em>; <em>Giselle</em> sits fourth to seventh. <em>Giselle</em> has the more global and better-documented ladder of remakes (Havana, Louisiana, Stockholm, London, Johannesburg; its originator recorded how the idea came). <em>Swan Lake</em> has the design-led remake design learners know (Bourne) and a film (<em>Black Swan</em>). Ek and Masilo each remade both.</p>
+<p><strong>Recommendation.</strong> <em>Giselle</em> returns in every act from Act II; <em>Swan Lake</em> comes in at three fixed points: Act III (its Moscow failure beside <em>Giselle</em>'s Petipa revision), Act VI (Ek's and Masilo's two remakes side by side, maker constant, work varied) and one comparison wall of both works' versions. Each mode of remaking is taught in at least two works, and one sitting says plainly what <em>Giselle</em> is not typical of.</p>
+<h2 id="7-what-to-build-first">7. What to build first</h2>
+<p><strong>What the studies show.</strong> The first one or two weeks decide engagement (Jordan 2015; Evans, Baker and Dee 2016); a task in week one separates stayers from leavers; series need two to four episodes to hook viewers (Netflix 2015, company data); five testers find most usability problems, and three rounds of five beat one round of fifteen (Nielsen and Landauer 1993), though this is contested for varied users.</p>
+<p><strong>Recommendation.</strong>
+1. <strong>A vertical slice, 4–5 hours:</strong> the Prologue and the full <em>Giselle</em> 1841 case, with its first task in the second or third sitting, the Maker and Briefer products, and the <em>Giselle</em> exemplar Concept DNA. Test with five learners per lane in two rounds; measure minutes per sitting, whether the first task is done, whether learners start the seventh sitting unprompted, and a transfer task (fill a card for <em>La Sylphide</em> from given sources).
+2. <strong>Short cards for all 148 works, the 24 walls and the 29 product cards</strong> (about 4–5 person-weeks of human checking), so the library exists at once.
+3. <strong>A second slice outside Paris</strong> (Tokyo 1955 or Cairo 2001), so the second test is not also canonical.
+4. <strong>Full cards for the 48 remaining works</strong> (about 10–14 person-weeks of checking), starting with the works that complete one-sided walls.
+5. <strong>The deep path, act by act.</strong>
+6. <strong>The harvest to 500–1,500 index rows</strong> once Wikidata can be reached.</p>
+<h2 id="8-the-gulf">8. The Gulf</h2>
+<p><strong>What exists.</strong> No resident professional ballet company and no Gulf-made ballet with a documented concept was found in six states. What can be documented: émigré-founded schools (Kuwait School of Dance, 1974; Bahrain Ballet Centre, 1982; Fantasia Ballet, Abu Dhabi, 1998); examined syllabi (the RAD in Muscat, Doha and Kuwait); opera houses presenting touring seasons (Doha 2010, Muscat 2011, Manama 2012, Dubai and Kuwait 2016); and Saudi Arabia's Theater and Performing Arts Commission, which licenses ballet and in 2024 bought a dance-training programme from Lebanon's Caracalla school. Nearby: the Soviet-built schools of Cairo (1958), Baghdad (1968 or 1969) and Damascus (1992). Scholarship on Gulf ballet: none found beyond opera-house studies.</p>
+<p><strong>Recommendation, in line with the program's rule that every module ends with a regional slot:</strong>
+- <strong>Now:</strong> a route case, "How ballet reached the Gulf", built on the five export models with a Gulf or Arab instance for each; <em>El-Leila El-Kebira</em> (Cairo) as the Arab made work; every Gulf fact labelled by its source type, and self-described "firsts" written as "described as the first".
+- <strong>The missing work as a brief:</strong> Maker and Briefer write the commission a Gulf house could issue (premise, roots, mode of remaking, what must not change), labelled as a design exercise, not as history.
+- <strong>Before the regional vertical:</strong> an Arabic reader for Gulf and Levant press and ministry sources; consented interviews (a school founder, an opera-house programmer, a commission officer); a Russian reader for the Soviet side. Some people in this history have chosen anonymity, and the protocol for living people applies.</p>
+<h2 id="9-what-i-would-decide-and-what-is-yours">9. What I would decide, and what is yours</h2>
+<p>My view, after the studies: build the library and the slice first. The long version you want survives in full, as the library (every ballet, every product, every thread) and as the deep path, without making F1 carry a case larger than itself. The decisions that are yours:</p>
+<ol>
+<li>Accept the case-world shape (library + F1 core + deep path + borrowings + exemplar), or keep the deep path inside F1.</li>
+<li>Six acts of 5–6 hours (recommended) or four of about 9.</li>
+<li>The default route opening at Act II, or strict chronology from Act I.</li>
+<li><em>Giselle</em> with <em>Swan Lake</em> at three fixed points (recommended), or <em>Swan Lake</em> as the main braid.</li>
+<li>The vertical slice first (recommended).</li>
+<li>Fund an Arabic reader and interviews for the Gulf strand, now or with the regional vertical.</li>
+</ol>
+<h2 id="sources-for-the-evidence">Sources for the evidence</h2>
+<p>The studies cited here are listed with links in <code>decisions/BENCHMARKS.md</code> (research log L1 to L5) and <code>works/S_structure_study.md</code> (logs 1 to 4). Repertory counts and threads: <code>repertory/CENSUS.md</code>. Products and collections: <code>products/PRODUCTS_AND_COLLECTIONS.md</code>.</p></main></div>
