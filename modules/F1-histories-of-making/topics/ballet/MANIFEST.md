@@ -33,7 +33,7 @@ Written by `tools/content_versions.py manifest`. Do not edit by hand. Research a
 | `research/works/W3_remaking_global.md` | 14495 | 7a38007 2026-10-25 |
 | `research/works/W4_theories_of_concept_and_process.md` | 11607 | 7a38007 2026-10-25 |
 
-## Planning (36 files)
+## Planning (37 files)
 
 | File | Words | Version or last change |
 |---|---|---|
@@ -44,6 +44,7 @@ Written by `tools/content_versions.py manifest`. Do not edit by hand. Research a
 | `planning/RETHINK.md` | 946 | 7a38007 2026-10-25 |
 | `planning/REVIEW.md` | 3772 | 7a38007 2026-10-25 |
 | `planning/UNIT_PLAN.md` | 3378 | 7a38007 2026-10-25 |
+| `planning/blueprint_page/ballet-blueprint.html` | - | not committed |
 | `planning/board/SUMMARY.md` | 560 | 7a38007 2026-10-25 |
 | `planning/board/round1/_page-v1.md` | 1007 | 7a38007 2026-10-25 |
 | `planning/board/round1/editor.md` | 3660 | 7a38007 2026-10-25 |

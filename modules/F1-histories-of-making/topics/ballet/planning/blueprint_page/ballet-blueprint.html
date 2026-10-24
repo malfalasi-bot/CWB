@@ -1,0 +1,233 @@
+<title>Ballet Unit Blueprint</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column with a sticky contents rail on wide screens; the same family as the ballet review page (Didone display, humanist sans, mono labels), so the two read as one series. */
+:root{--bg:#f4f5f7;--paper:#ffffff;--ink:#16181d;--ink2:#4a4f5a;--line:#d9dce3;--accent:#8a4b12;--wash:#f0e7dc;--alt:#2f5d7c;--altwash:#e3ecf2;
+--display:"Bodoni Moda",Didot,"Bodoni 72",Georgia,serif;--body:"Source Sans 3","Segoe UI",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121318;--paper:#1a1c22;--ink:#e9eaee;--ink2:#a9aeb9;--line:#2d313a;--accent:#e2a866;--wash:#2a2219;--alt:#8cbad8;--altwash:#1b2731;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121318;--paper:#1a1c22;--ink:#e9eaee;--ink2:#a9aeb9;--line:#2d313a;--accent:#e2a866;--wash:#2a2219;--alt:#8cbad8;--altwash:#1b2731;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+header.top{max-width:1120px;margin:0 auto 36px;padding-block:48px 28px;border-bottom:1px solid var(--line)}
+.wrap{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:220px minmax(0,1fr);gap:56px}
+.eyebrow{font:500 12px/1.4 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+h1{font:700 clamp(34px,5vw,56px)/1.05 var(--display);margin:.25em 0 .3em;text-wrap:balance;letter-spacing:-.01em}
+.lede{max-width:62ch;color:var(--ink2);margin:0}
+nav.toc{position:sticky;top:calc(env(safe-area-inset-top,0px) + 24px);align-self:start;font-size:14px}
+nav.toc ol{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+nav.toc a{color:var(--ink2);text-decoration:none;display:block;padding:4px 0 4px 12px;border-left:2px solid var(--line)}
+nav.toc a:hover,nav.toc a:focus-visible{color:var(--ink);border-left-color:var(--accent)}
+main{min-width:0;max-width:74ch}
+h2{font:700 30px/1.15 var(--display);margin:2.2em 0 .6em;text-wrap:balance;scroll-margin-top:24px}
+section:first-child h2{margin-top:0}
+h3{font:600 19px/1.3 var(--body);margin:1.8em 0 .5em;text-wrap:balance}
+p,li{text-wrap:pretty} ul,ol{padding-left:1.3em} li{margin:.35em 0}
+strong{font-weight:600}
+a{color:var(--accent)} code{font:14px var(--mono);background:var(--wash);padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}
+.tw{overflow-x:auto;margin:1.2em 0;border:1px solid var(--line);border-radius:6px;background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.45}
+th,td{text-align:left;vertical-align:top;padding:10px 14px;border-bottom:1px solid var(--line)}
+th{font:500 12px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);background:var(--wash)}
+tr:last-child td{border-bottom:0}
+td.n{font:500 13px/1.45 var(--mono);color:var(--accent);white-space:nowrap}
+td.h{font-variant-numeric:tabular-nums;white-space:nowrap}
+.decide{display:grid;gap:14px;margin:1.2em 0}
+.d{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:16px 18px}
+.d .k{font:500 12px/1.4 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin:0 0 4px}
+.d p{margin:.4em 0}
+.d .def{color:var(--ink2);font-size:15px}
+.fig{margin:1.4em 0;border:1px solid var(--line);border-radius:6px;background:var(--paper);overflow-x:auto}
+.fig svg{display:block;min-width:720px;width:100%;height:auto}
+.fig figcaption{font-size:14px;color:var(--ink2);padding:10px 16px;border-top:1px solid var(--line)}
+svg text{font-family:var(--mono);font-size:12px;fill:var(--ink2)}
+svg .lab{fill:var(--ink);font-family:var(--body);font-size:13px;font-weight:600}
+svg .rule{stroke:var(--line);stroke-width:1}
+svg .gis{fill:var(--accent)} svg .gisl{stroke:var(--accent);stroke-width:2}
+svg .sw{fill:var(--alt)} svg .swl{stroke:var(--alt);stroke-width:2;stroke-dasharray:4 4}
+svg .wall{fill:var(--wash);stroke:var(--accent);stroke-width:1}
+svg .hrs{fill:var(--altwash);stroke:var(--alt);stroke-width:1}
+.layers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:1.2em 0}
+.layer{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:14px 16px;min-width:0}
+.layer h4{font:700 18px/1.25 var(--display);margin:0 0 6px}
+.layer p{margin:0;font-size:15px;color:var(--ink2)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (max-width:860px){.wrap{grid-template-columns:minmax(0,1fr);gap:0}nav.toc{display:none}.layers{grid-template-columns:minmax(0,1fr)}}
+</style>
+
+<header class="top">
+  <p class="eyebrow">F1 Histories of making · Atlas concept unit 1 · 25 October 2026</p>
+  <h1>Ballet as a made world: the full unit</h1>
+  <p class="lede">What came out of your instructions of 25 October: the research passes, the study of one worked example against a macro view, the blueprint of the full ballet unit, the template every Atlas concept will follow, and how learner content is now kept and versioned beside its research. Four decisions are yours at the end.</p>
+</header>
+
+<div class="wrap">
+<nav class="toc" aria-label="Contents"><ol>
+  <li><a href="#short">In short</a></li>
+  <li><a href="#two">Both directions</a></li>
+  <li><a href="#unit">The unit</a></li>
+  <li><a href="#objects">Objects and lessons</a></li>
+  <li><a href="#template">The template</a></li>
+  <li><a href="#versions">Versioning</a></li>
+  <li><a href="#decide">Your decisions</a></li>
+</ol></nav>
+
+<main>
+<section id="short">
+<h2>In short</h2>
+<ul>
+  <li><strong>Every chapter now opens on history.</strong> Each of the unit's thirteen chapters starts on a dated, sourced story from the research (a critic reading Heine in 1841, a king as the rising sun in 1653, a suitcase of notations carried out of Russia). There are no prediction or quiz openers anywhere in the unit.</li>
+  <li><strong>The research covers every angle.</strong> Four gap passes (music, mime and the craft of choreography; the night, the audience and the house; media, childhood and popular culture; technology, AI and handover) added about 41,500 words. Ballet's research is now 26 files and about 208,000 words.</li>
+  <li><strong>One worked example and a macro view, together.</strong> <em>Giselle</em> runs through eight of the thirteen chapters; fourteen comparison walls set the rest of the 148-work repertory side by side.</li>
+  <li><strong>The long version is now the template</strong> for every novel concept in the Atlas: art forms, movements, schools, styles, networks.</li>
+  <li><strong>Learner content sits beside its research and cannot change silently.</strong> A check run on every push fails if a page's text changes without a new version, and warns when the research under a page has moved.</li>
+</ul>
+</section>
+
+<section id="two">
+<h2>The worked example and the macro view</h2>
+<p>You asked why we teach from one narrow point, and whether we are losing the macro perspective. The study (<code>planning/decisions/EXEMPLAR_STUDY.md</code>) found that the two directions are not rivals. Novices learn fastest from one example worked in full; they transfer what they learned only when they then compare varied cases side by side, with the principle named after the comparison. One example alone gets copied. Many examples alone leave fragments.</p>
+
+<h3>Inside the ballet unit</h3>
+<p>The unit does both. <em>Giselle</em> is followed from Gautier's idea in 1841 through St Petersburg, the 1924 Paris staging from notation, Havana, and its remakes. <em>Swan Lake</em> returns at three fixed points as the counter-example. Each chapter also holds one or two comparison walls, each entered through a pair of works.</p>
+
+<figure class="fig">
+<svg viewBox="0 0 900 290" role="img" aria-labelledby="figt figd">
+  <title id="figt">The worked example threaded through the chapters</title>
+  <desc id="figd">Thirteen chapters, 0 to 12. Giselle appears in chapters 0, 3, 4, 5, 7, 8, 10 and 11. Swan Lake appears in chapters 4, 5 and 10. Comparison walls per chapter: 0, 1, 0, 2, 1, 2, 1, 2, 2, 1, 1, 1, 0. Hours per chapter: 2, 3, 3, 4, 3, 4, 3, 4, 3, 3, 3, 4, 2.</desc>
+  <text class="lab" x="16" y="88">Giselle</text>
+  <text class="lab" x="16" y="128">Swan Lake</text>
+  <text class="lab" x="16" y="168">Walls</text>
+  <text class="lab" x="16" y="232">Hours</text>
+  <g id="cols"></g>
+</svg>
+<figcaption>Chapters 0 to 12. Filled dots: where the worked example (<em>Giselle</em>) or the counter-example (<em>Swan Lake</em>) returns. Squares: comparison walls. Bars: hours, 41 in all.</figcaption>
+</figure>
+
+<h3>Across the program</h3>
+<p>The same pattern, at program scale, is the study's design E. Your wish for an internationally known world is design D: a real world as the one spine. The study recommends keeping recognition and history where real worlds work well, and a fictional spine where nothing real can go.</p>
+<div class="layers">
+  <div class="layer"><h4>History-first openers</h4><p>Every module opens on a story from its lead world in a fixed cast of eight real worlds: the Bauhaus, <em>The Nutcracker</em>, <em>One Thousand and One Nights</em>, Morris &amp; Co., the Sydney Opera House, the Ballets Russes, and LEGO and IKEA as text only.</p></div>
+  <div class="layer"><h4>The field atlas</h4><p>For each Concept DNA field, three to five of those worlds side by side. It is a view of the existing Atlas, not a new library, and the regional slot adds a regional world to each module.</p></div>
+  <div class="layer"><h4>One historical twin</h4><p>The Bauhaus, worked fully in M2 where the Concept DNA is taught, read forwards from its own documents (reserve: <em>The Nutcracker</em>).</p></div>
+  <div class="layer"><h4>One spine built forwards</h4><p>Salt Road, given a researched lineage from real salt worlds, so it too opens on history. It is the world the engines generate from.</p></div>
+</div>
+
+<h3>Why not a famous real world as the spine</h3>
+<div class="tw"><table>
+<thead><tr><th>Limit</th><th>What happens with a real spine</th></tr></thead>
+<tbody>
+<tr><td><strong>The engines</strong></td><td>The spine is fed to the Stranger Lab and the area engines, which generate objects, images and briefs. The program forbids generated images of historical objects, people or places, so a real world cannot do that job.</td></tr>
+<tr><td><strong>Rights</strong></td><td>The spine appears in every unit and export; in the commercial build most of a real world's best images become link-only.</td></tr>
+<tr><td><strong>Copying</strong></td><td>A famous worked example is the one learners copy most ("make it look Bauhaus").</td></tr>
+<tr><td><strong>Reach</strong></td><td>One culture's history would sit at the centre of every module.</td></tr>
+<tr><td><strong>Schema</strong></td><td>The learner schema holds the three fictional seed worlds; a real world is not a seed without a change.</td></tr>
+</tbody></table></div>
+<p>The three strongest real candidates, for the twin and the openers: the Bauhaus, <em>The Nutcracker</em> and the Sydney Opera House. No data yet say which names learners in each region know; a ten-minute recognition check with the testers would settle it.</p>
+</section>
+
+<section id="unit">
+<h2>The unit, chapter by chapter</h2>
+<p>About 41 hours in full. An orientation path takes 2 hours (chapter 0 and the closing lessons); a practice path about 18 (chapters 0, 3, 5, 7, 10 and 12, or chosen by route). Each chapter opens on its story, demonstrates the concept through it, takes one or two works apart in the order of a design job, holds its object studies, sets works side by side on a wall, says what it teaches a world-builder, and ends with a say-back and an Apply task in each lane.</p>
+<div class="tw"><table>
+<thead><tr><th>Ch.</th><th>Opens on</th><th>Teaches</th><th>Hours</th></tr></thead>
+<tbody>
+<tr><td class="n">0</td><td>A critic reading Heine, 1841: Gautier writes "Les Wilis, a ballet" on a sheet; a librettist, a director and an uncredited choreographer finish it</td><td>A ballet as a made concept whose author is often not the choreographer; the whole lineage in one walk; <em>Giselle</em> in miniature</td><td class="h">2</td></tr>
+<tr><td class="n">1</td><td>The king as the rising sun, 23 February 1653</td><td>Court ballet as a team-made spectacle; the stage as a machine; the Académie (1661); notation and the 1704 ruling on who invented it; Noverre's grammar</td><td class="h">3</td></tr>
+<tr><td class="n">2</td><td>A teacher paid by the finished dancer, Moscow 1773</td><td>The school as a machine for making dancers; technique as a specification; pointe as a technique before a technology; the body ideal and its costs</td><td class="h">3</td></tr>
+<tr><td class="n">3</td><td>A tenor's idea: <em>La Sylphide</em>, 12 March 1832</td><td>The Opéra as a business; gas and the white act; two worlds as the Romantic grammar; <em>Giselle</em> in full; the ballerina's name as a brand</td><td class="h">4</td></tr>
+<tr><td class="n">4</td><td>A pas de deux lost for seventy-six years, found in the Bolshoi archive in 1953</td><td>The score as the world's time-frame; mime as a sign language; choreography as a component library; the dancer as co-author</td><td class="h">3</td></tr>
+<tr><td class="n">5</td><td>A letter of proposal: Vsevolozhsky to Tchaikovsky, May 1888, then Petipa's plan in bars</td><td>The commission as a specification; the divertissement as a collection; costume families; notation; the exotic other, paired with works made from inside</td><td class="h">4</td></tr>
+<tr><td class="n">6</td><td>A staircase built as a stage: the Palais Garnier, 5 January 1875</td><td>Who the audience was and who got in; the evening as designed time; the building as the first expression of a world, from Paris to Cairo, Oslo, Muscat and Dubai; access</td><td class="h">3</td></tr>
+<tr><td class="n">7</td><td>A winter of meetings in St Petersburg, 1908–09, that produced <em>The Firebird</em></td><td>Diaghilev's method; the painter as designer; stage to street; refusals that generate rules; the Bauhaus <em>Triadic Ballet</em>; <em>Giselle</em> staged from notation in 1924</td><td class="h">4</td></tr>
+<tr><td class="n">8</td><td><em>Swan Lake</em> in a ruined city: Tokyo, August 1946</td><td>The five ways ballet travelled; one Soviet model making different worlds; national ballets from folk material; who was kept out; how ballet reached the Gulf</td><td class="h">3</td></tr>
+<tr><td class="n">9</td><td>Swans on every channel: Soviet television, 19 August 1991 (why is contested)</td><td>Most people meet a world through its media; film, television and relays; childhood as the pipeline; manga in Japan; <em>The Nutcracker</em> as a transmedia world</td><td class="h">3</td></tr>
+<tr><td class="n">10</td><td><em>Giselle</em> moved to Louisiana by Dance Theatre of Harlem, 1984</td><td>Five modes of remaking; the line between kept and freed is the concept; skin tone and repair after harm</td><td class="h">3</td></tr>
+<tr><td class="n">11</td><td>A suitcase of notations: Sergeyev, after 1917, to Harvard in 1969 and online in 2024</td><td>Who pays and who is paid; who owns a ballet; handover documents; technology and AI, from Cunningham's software to the likeness clauses of 2025</td><td class="h">4</td></tr>
+<tr><td class="n">12</td><td>The poster, the programme and the sole</td><td>The lessons gathered; the field-atlas entries; the learner's own world placed in a lineage, written as a commission in Petipa's form</td><td class="h">2</td></tr>
+</tbody></table></div>
+<p>Items marked probable in the research (Gautier's letter, the 1888 letter and plan, Beccari's terms, the 1946 date, the 1991 broadcast, Garnier's staircase quotation) are checked at source before their chapter is written.</p>
+</section>
+
+<section id="objects">
+<h2>Where the shoe and the fashion live</h2>
+<p>The ten object studies each live in the chapter where the object first mattered, and every unit that needs one links to it rather than re-telling it.</p>
+<div class="tw"><table>
+<thead><tr><th>Object study</th><th>Chapters</th><th>Linked from</th></tr></thead>
+<tbody>
+<tr><td>The pointe shoe: the idea before the shoe; the product line today</td><td class="h">2, 11</td><td>F1.23, F1.22a, F1.19, S2</td></tr>
+<tr><td>The tutu: bell, plate, powder puff</td><td class="h">3, 5, 7</td><td>F1.18, S3</td></tr>
+<tr><td>Costume as a family</td><td class="h">5</td><td>M3, S3</td></tr>
+<tr><td>The stage as a made object</td><td class="h">1, 3, 7</td><td>F1.19b, S1</td></tr>
+<tr><td>Stage to street</td><td class="h">7</td><td>F1.15, S3, S5</td></tr>
+<tr><td>The season as a collection</td><td class="h">7</td><td>M3, S5</td></tr>
+<tr><td>The ballerina's name as a brand</td><td class="h">3</td><td>S5</td></tr>
+<tr><td><em>The Nutcracker</em> as a product world</td><td class="h">5, 9</td><td>F1.21, M3</td></tr>
+<tr><td>Practice clothes into everyday wear</td><td class="h">9</td><td>S3, S2</td></tr>
+<tr><td>Ballet now as fashion and identity</td><td class="h">11</td><td>S5</td></tr>
+</tbody></table></div>
+<h3>What a world-builder keeps</h3>
+<p>The unit closes on seventeen lessons, each taught in a named chapter. Five of them:</p>
+<ul>
+  <li>The idea rarely comes from the person credited with it.</li>
+  <li>A concept leaves documents: a proposal, a scenario, a specification, designs, notation.</li>
+  <li>The building is the first expression of the world, and it decides who belongs.</li>
+  <li>Remaking is how a concept stays alive; the line between what is kept and what is freed is the concept.</li>
+  <li>A world survives only if its paper and its people are handed over together.</li>
+</ul>
+</section>
+
+<section id="template">
+<h2>The template for every Atlas concept</h2>
+<p><code>briefs/ATLAS_CONCEPT_UNIT_TEMPLATE_v2.md</code> makes the long version the standard. A concept is taught in three layers: the <strong>record</strong> (research by angle, the works register, the claims register), the <strong>Atlas cards</strong> in the voice guide's four tiers, and the <strong>unit</strong> the learner reads.</p>
+<p>No learner text is written until twelve research angles each have a scope file: lineage and institutions; makers and technique; the works as made concepts; the internal grammar; objects and workshops; space; the experience and the audience; money, labour and ownership; record, media and handover; routes and reach; afterlives and products; scholarship and archives. Three reviews follow, by readers who have not seen the plan: curriculum fit, subject gaps, and writing.</p>
+<p>A comparable concept needs eight to twelve research passes, the three reviews, a blueprint, and about 40,000 words of learner text at full depth. The grouping page of the old template stays, as the record layer.</p>
+</section>
+
+<section id="versions">
+<h2>Content beside its research, versioned</h2>
+<p>Each concept now has one folder, <code>topics/&lt;topic&gt;/</code>, with <code>research/</code>, <code>planning/</code> and <code>learner/</code> side by side. Ballet moved there with its history kept; a notice stays at the old path.</p>
+<ul>
+  <li><strong>Every learner file carries its version, status and sources.</strong> The sources are the research files it was written from, each fingerprinted as it stood at the time.</li>
+  <li><strong>Text cannot change without a new version.</strong> Each earlier version is kept as a snapshot, and the file lists what changed in each.</li>
+  <li><strong>Stale research is flagged.</strong> If a research file under a page changes, the check warns until the writer bumps the page or confirms it still holds.</li>
+  <li><strong>Generated indexes</strong> list every file in a topic with its size and last change, and every learner file with its version and status.</li>
+  <li><strong>The check runs on every push.</strong> The shoe page is the first file under it: version 0.3.0, in review, with 0.1.0 and 0.2.0 kept.</li>
+</ul>
+<p>Release tags (<code>ballet.the-shoe@0.3.0</code>) are made locally, but this session's connection to GitHub refuses tag pushes. The version record does not depend on them; the tag can be pushed from your machine.</p>
+</section>
+
+<section id="decide">
+<h2>Your decisions</h2>
+<p>Recorded in <code>DECISIONS_2026-10-25.md</code> with what each changes. Each has a default that stands unless you say otherwise.</p>
+<div class="decide">
+  <div class="d"><p class="k">1 · The blueprint</p><p>Approve the thirteen chapters, their opening stories, <em>Giselle</em> as the worked example and the placement of the object studies.</p><p class="def">Default: approved; writing starts with chapters 0 and 3, then the pointe-shoe study rebuilt as version 1.0.0.</p></div>
+  <div class="d"><p class="k">2 · The program's exemplar</p><p>Design E (Salt Road as a spine with a real lineage, the Bauhaus as twin, a cast of eight real worlds for openers and the field atlas), or design D (a famous real world as the spine, with the limits above).</p><p class="def">Default: design E.</p></div>
+  <div class="d"><p class="k">3 · The existing specs</p><p>35 of the 38 F1 specs open on a one-tap reveal; four open on Prediction first (F1.2, F1.8, F1.12a, F1.15). Rewrite them all now, or each when its unit is next written.</p><p class="def">Default: each when its unit is next written, starting with F1.2; the claim and counter-claim are kept and told inside the story.</p></div>
+  <div class="d"><p class="k">4 · The program documents</p><p>The opening-move menu in the final structure and decision P5 live in Claude Docs, outside the repository.</p><p class="def">Default: you update them in the Hub from the decisions file, or ask me to draft the wording.</p></div>
+</div>
+</section>
+</main>
+</div>
+
+<script>
+(function(){
+  var g=document.getElementById('cols'); if(!g) return;
+  var ns='http://www.w3.org/2000/svg';
+  var gis=[0,3,4,5,7,8,10,11], sw=[4,5,10];
+  var walls=[0,1,0,2,1,2,1,2,2,1,1,1,0], hrs=[2,3,3,4,3,4,3,4,3,3,3,4,2];
+  function x(i){return 140+i*58}
+  function el(t,a){var e=document.createElementNS(ns,t);for(var k in a)e.setAttribute(k,a[k]);g.appendChild(e);return e}
+  el('line',{x1:x(gis[0]),x2:x(gis[gis.length-1]),y1:84,y2:84,'class':'gisl'});
+  el('line',{x1:x(sw[0]),x2:x(sw[sw.length-1]),y1:124,y2:124,'class':'swl'});
+  for(var i=0;i<13;i++){
+    el('line',{x1:x(i),x2:x(i),y1:44,y2:262,'class':'rule'});
+    var t=el('text',{x:x(i),y:32,'text-anchor':'middle'}); t.textContent=i;
+    if(gis.indexOf(i)>-1) el('circle',{cx:x(i),cy:84,r:7,'class':'gis'});
+    if(sw.indexOf(i)>-1) el('circle',{cx:x(i),cy:124,r:6,'class':'sw'});
+    for(var w=0;w<walls[i];w++) el('rect',{x:x(i)-(walls[i]*17-4)/2+w*17,y:157,width:13,height:13,'class':'wall'});
+    var h=hrs[i]*12; el('rect',{x:x(i)-11,y:262-h,width:22,height:h,'class':'hrs'});
+    var ht=el('text',{x:x(i),y:280,'text-anchor':'middle'}); ht.textContent=hrs[i]+'h';
+  }
+})();
+</script>

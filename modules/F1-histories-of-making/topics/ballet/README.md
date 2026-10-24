@@ -5,7 +5,7 @@ Ballet is the clearest case the course has of a world made on purpose: a concept
 - **Kind:** art form
 - **Status:** blueprint (research complete for this pass; reviews R1 to R3 done; blueprint awaiting approval)
 - **Template:** `briefs/ATLAS_CONCEPT_UNIT_TEMPLATE_v2.md`
-- **Blueprint:** `planning/BLUEPRINT.md` (13 chapters, about 41 hours; *Giselle* as the worked example, *Swan Lake* as the counter-example; ten object studies; twelve motif walls)
+- **Blueprint:** `planning/BLUEPRINT.md` (13 chapters, about 41 hours; *Giselle* as the worked example, *Swan Lake* as the counter-example; ten object studies; fourteen motif walls)
 - **Claims register:** `atlas/data/register/units/ballet.yaml`
 - **Placements:** F1.23, F1.4 and F1.17 lead; tiles in about twenty other F1 units (`planning/review/R1_curriculum_fit.md` §2.1); method and practice areas through the link register
 - **Decisions:** `../../DECISIONS_2026-10-25.md`

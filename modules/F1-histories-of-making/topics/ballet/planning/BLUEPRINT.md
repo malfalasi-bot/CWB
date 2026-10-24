@@ -15,7 +15,7 @@ Ballet is the clearest case the course has of a world made on purpose: a concept
 
 - **Worked example:** *Giselle*, followed through chapters 0, 3, 4, 5, 7, 8, 10 and 11: Gautier's idea (1841), its two worlds, its score and mime, Petipa's revisions and Stepanov's notation in St Petersburg, Sergeyev's 1924 Paris staging from that notation, Alicia Alonso's Havana version, and the remakes in Louisiana, a Swedish asylum, a garment factory and South Africa.
 - **Counter-example:** *Swan Lake*, at chapters 4, 5 and 10 (the lost pas de deux, the Moscow failure and the 1895 remake, the Ek and Masilo remakes beside their *Giselle*).
-- **Macro view:** twelve motif walls, one or two per chapter, drawn from the 148-work register, each entered through a pair. The topic also supplies entries to the program's field atlas.
+- **Macro view:** fourteen motif walls, none to two per chapter, drawn from the 148-work register, each entered through a pair. The topic also supplies entries to the program's field atlas.
 
 ## Chapters
 
