@@ -3,12 +3,14 @@
 a learner view and an editor view from one source. Run from the module root."""
 import re, html, yaml, pathlib, datetime
 ROOT = pathlib.Path(__file__).resolve().parents[3]
-SRC = pathlib.Path(__file__).parent / "the-shoe.md"
+SRC = ROOT / "topics/ballet/learner/the-shoe/the-shoe.md"  # versioned learner content, next to its research
 REG = ROOT / "atlas/data/register/units/ballet.yaml"
 OUT = pathlib.Path(__file__).parent / "dist"; OUT.mkdir(exist_ok=True)
 TOK = (ROOT / "skills/hom-design-toolbox/references/tokens.css").read_text(encoding="utf8")
 reg = yaml.safe_load(REG.read_text(encoding="utf8"))
 md = SRC.read_text(encoding="utf8")
+if md.startswith("---\n"):
+    md = md[md.find("\n---\n", 4) + 5:]  # drop the version front matter
 
 # which record each sentence rests on (the editor view's claim ids); keyed by a phrase in the sentence
 CLAIMS = {
@@ -100,7 +102,7 @@ editor = f'''<aside class="editor" hidden>
 <h3>What waits</h3><ul><li>The Carnavalet lithograph (CC0): fetch and verify at the holder, then place it at "Where the shoe came from".</li><li>A worn pair with its mark: no open photograph found; the ROH pair is link-out; a Freed photograph would need the company's licence.</li><li>The Hackney makers' names rest on one journalist's visit (2013); a second source or Freed's confirmation would raise them to documented.</li><li>Pages 2–4: the tutu taken apart; the stage as a machine; the company and the body.</li></ul>
 <h3>Lints</h3><p class="eyebrow">claims: 0 errors · prose: see lint.txt beside this file</p>
 </aside>'''
-colophon = f'''<footer class="colophon"><p class="eyebrow">Colophon</p><p>Drafted by Claude Fable 5.1 on 21 October 2026 from two research passes (research_notes/Ballet); revised the same day through three rounds of review by six readers in persona, none of them human (research_notes/Ballet/board). Checks run: the claims lint and the prose lint. No human has yet read this page; the register is unsigned. Originally published 21 October 2026 · last revised 21 October 2026 · corrections: open an issue on the course repository.</p></footer>'''
+colophon = f'''<footer class="colophon"><p class="eyebrow">Colophon</p><p>Drafted by Claude Fable 5.1 on 21 October 2026 from two research passes (topics/ballet/research); revised the same day through three rounds of review by six readers in persona, none of them human (topics/ballet/planning/board). Checks run: the claims lint and the prose lint. No human has yet read this page; the register is unsigned. Originally published 21 October 2026 · last revised 21 October 2026 · corrections: open an issue on the course repository.</p></footer>'''
 sources_line = '<section class="sources"><h2>Sources</h2><p>' + "; ".join(f'<a href="{s["url"]}">{html.escape(s["title"])}</a>' for s in reg["sources"].values()) + "</p></section>"
 
 page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The shoe · Ballet, as a history of making</title>

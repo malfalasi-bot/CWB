@@ -40,7 +40,7 @@ node or step codes the learner engaged, e.g. `#ink.edo.tsutaya~hokusai~e1842~des
 - `build/units/f1-13-method/` — scenes (S2 galleons, S3 Omar ibn Said mocks), text (lectures.yaml, beats.yaml, scene sheet), lane-chart (+ arguments), grouping-indian-ocean.
 
 ## Ballet (20 October 2026)
-- `research_notes/Ballet/` — pass1_dossier.md, pass2_verify.md, pass2_body.md, pass2_presentation.md, BRIEF.md (the teaching brief), RETHINK.md (the constitution and the new loop).
+- `topics/ballet/` (moved from `research_notes/Ballet/` on 25 October 2026) — `research/` (26 files: pass 1 and 2, scope, scope2, works, repertory, products), `planning/` (BRIEF, RETHINK, REVIEW, BLUEPRINT, reviews, decisions), `learner/` (versioned pages).
 
 ## Ecosystem v2 (20 October 2026)
 - `WORKFLOW.md`, `CHANGELOG.md`, `skills/EVALS.md`; skills `hom-constitution`, `hom-research`, `hom-writing`, `hom-design-toolbox` (was histories-of-making-design), `hom-lint`.

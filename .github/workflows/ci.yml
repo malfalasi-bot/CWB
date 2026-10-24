@@ -38,3 +38,18 @@ jobs:
         run: python tools/validate_canon.py
       - name: Coverage report
         run: python tools/coverage.py
+
+  content-versions:
+    name: Learner content versions
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Versioning tool tests
+        run: python -m unittest tools/test_content_versions.py
+      - name: Every learner file is versioned, snapshotted and traced to its research (stale sources are warnings)
+        run: python tools/content_versions.py check

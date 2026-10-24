@@ -1,5 +1,14 @@
 # Changelog
 
+## 25 October 2026, topics and the Atlas concept unit
+
+- **Decisions** (`DECISIONS_2026-10-25.md`): history first for every subject and concept; Prediction first dropped (35 of 38 specs open on a one-tap reveal; each is rewritten when its unit is next written); Object first only for an object, widened to its story; the long version is the Atlas concept unit; design E for the worked example and the macro view (default, awaiting the owner).
+- **Topics** (`topics/`): one folder per Atlas concept unit, with `research/`, `planning/` and `learner/` side by side. Ballet moved in from `research_notes/Ballet/` and `build/units/ballet/` (a notice stays at the old path). `topics/README.md` sets the layout and the versioning rules; `topics/_template/` starts a new topic.
+- **Versioning** (`tools/content_versions.py`, program level, standard library only): front matter with version, status, body hash, sources with git blob shas and a change list; `history/<version>.md` snapshots; `check`, `bump`, `confirm`, `init`, `index`, `manifest`. Run by CI in the new `content-versions` job. Tags `<content_id>@<version>`.
+- **Template** `briefs/ATLAS_CONCEPT_UNIT_TEMPLATE_v2.md`: twelve research angles, three review gates, the unit's shape (history-first chapters, a returning worked example, motif walls, object studies, three paths), writing, placement, quality and versioning. Extends `PAGE_TEMPLATES_v1.md` §1, which stays as the record layer.
+- **Ballet:** gap research G1 to G4; `planning/BLUEPRINT.md` (13 chapters, about 41 hours); `planning/decisions/EXEMPLAR_STUDY.md`.
+- `hom-writing` §1 gains the history-first rule and points to the concept-unit template.
+
 ## 21 October 2026, the ballet loop
 
 - `WORKFLOW.md` gains step 5, the board of six personas before the human read, with the round files under `research_notes/<unit>/board/`. Replaces nothing; it fills the gap between lint and the human gate that the ballet page exposed (lints clean, eleven faults).

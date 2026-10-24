@@ -1,3 +1,24 @@
+---
+content_id: ballet.the-shoe
+title: The shoe
+kind: page
+topic: ballet
+version: 0.3.0
+status: in-review
+updated: 2026-10-21
+authors: Claude Fable 5.1 (draft); six-persona board, three rounds (review)
+claims_register: modules/F1-histories-of-making/atlas/data/register/units/ballet.yaml
+body_sha256: 4deb330408ed6742200c59997a8a7f42e15a29ec0c2436161f888de53b6b3b99
+derived_from:
+  - modules/F1-histories-of-making/topics/ballet/research/pass1_dossier.md@357e8931fcc5ff1f5d53bbb5571e707c83670646
+  - modules/F1-histories-of-making/topics/ballet/research/pass2_verify.md@37d41725f2d89dee2817285fb30a0c80371b68f9
+  - modules/F1-histories-of-making/topics/ballet/research/pass2_body.md@06b74d5359272a995367bd6e03222856515cdfda
+  - modules/F1-histories-of-making/topics/ballet/research/scope/03_objects_makers_materials.md@0247cca9c50cb1987f5ca926a96554066c4beb2d
+changes:
+  - 0.3.0 | 2026-10-21 | Third board round: Spitalfields visit split into May and July; four register claims reworded to their tellers; figure redrawn with a hollow block; Vienna dropped; removal undertaking added. Scores 4/4/4/4/4/4. To be rebuilt as F1.23's worked credit map and the ballet unit's object study (REVIEW.md, 25 Oct).
+  - 0.2.0 | 2026-10-21 | Second version after board round 1: Crown named as Ray; the press removed; the Paris strike corrected to a notice lifted; objectives rewritten; guess moved before its answer; build-state text removed.
+  - 0.1.0 | 2026-10-21 | First draft from the two research passes and the register.
+---
 # Ballet, as a history of making · 1 of 4
 
 ## The shoe
