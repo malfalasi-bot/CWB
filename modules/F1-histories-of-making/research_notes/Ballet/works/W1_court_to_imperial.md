@@ -75,7 +75,7 @@ Scope 01 and 04 already give the date, venue dispute and Patin's credit. This en
 ## 2. *Ballet royal de la Nuit* (Paris, 1653)
 
 **1. Premise.**
-- *As framed by its makers.* One night in twelve hours, divided into four "veilles" (watches) from 6 p.m. to 6 a.m.; every creature of the night passes, from thieves and beggars to witches and gods, until the Sun rises in the person of the fifteen-year-old Louis XIV [documented: Wikipedia summary of the livret "Divisé en quatre Parties ou quatre Veilles"; probable for the hours].
+- *As framed by its makers.* One night in twelve hours, divided into four "veilles" (watches) from 6 p.m. to 6 a.m.; every creature of the night passes, from thieves and beggars to witches and gods, until the Sun rises in the person of the fourteen-year-old Louis XIV (born 5 September 1638; corrected 25 Oct 2026 after review R2) [documented: Wikipedia summary of the livret "Divisé en quatre Parties ou quatre Veilles"; probable for the hours].
 - *As scholars and remakers read it.* A political allegory after the Fronde: the darkness of revolt dispelled by the young king. Sébastien Daucé calls it "le sacre profane", a secular coronation [documented: Caen press dossier, 2020]. Burden and Thorp (2009) read it through the court's organisation of spectacle and Mazarin's patronage [probable].
 
 **2. Roots.**

@@ -1,0 +1,262 @@
+<title>Ballet Fresh Review</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column with a sticky contents rail on wide screens; Didone display for the ballet-poster register, a humanist sans for reading, mono for labels. */
+:root{--bg:#f4f5f7;--paper:#ffffff;--ink:#16181d;--ink2:#4a4f5a;--line:#d9dce3;--accent:#8a4b12;--wash:#f0e7dc;
+--display:"Bodoni Moda",Didot,"Bodoni 72",Georgia,serif;--body:"Source Sans 3","Segoe UI",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121318;--paper:#1a1c22;--ink:#e9eaee;--ink2:#a9aeb9;--line:#2d313a;--accent:#e2a866;--wash:#2a2219;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121318;--paper:#1a1c22;--ink:#e9eaee;--ink2:#a9aeb9;--line:#2d313a;--accent:#e2a866;--wash:#2a2219;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+.wrap{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:220px minmax(0,1fr);gap:56px}
+header.top{max-width:1120px;margin:0 auto;padding-block:48px 28px;border-bottom:1px solid var(--line);margin-bottom:36px}
+.eyebrow{font:500 12px/1.4 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+h1{font:700 clamp(34px,5vw,56px)/1.05 var(--display);margin:.25em 0 .3em;text-wrap:balance;letter-spacing:-.01em}
+.lede{max-width:62ch;color:var(--ink2);margin:0}
+nav.toc{position:sticky;top:calc(env(safe-area-inset-top,0px) + 24px);align-self:start;font-size:14px}
+nav.toc ol{list-style:none;margin:0;padding:0;display:grid;gap:6px;counter-reset:t}
+nav.toc a{color:var(--ink2);text-decoration:none;display:block;padding:4px 0 4px 12px;border-left:2px solid var(--line)}
+nav.toc a:hover,nav.toc a:focus-visible{color:var(--ink);border-left-color:var(--accent)}
+main{min-width:0;max-width:72ch}
+h2{font:700 30px/1.15 var(--display);margin:2.2em 0 .6em;text-wrap:balance;scroll-margin-top:24px}
+h2:first-child{margin-top:0}
+h3{font:600 19px/1.3 var(--body);margin:1.8em 0 .5em}
+h3.sess{font:700 22px/1.25 var(--display);padding-top:1.1em;border-top:1px solid var(--line)}
+.lead-table{} h3.sess .sn{display:block;font:500 12px/1.4 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+p,li{text-wrap:pretty} ul,ol{padding-left:1.3em} li{margin:.35em 0}
+strong{font-weight:600} em{font-style:italic}
+a{color:var(--accent)} code{font:14px var(--mono);background:var(--wash);padding:1px 5px;border-radius:4px}
+.tw{overflow-x:auto;margin:1.2em 0;border:1px solid var(--line);border-radius:6px;background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.45}
+th,td{text-align:left;vertical-align:top;padding:10px 14px;border-bottom:1px solid var(--line)}
+th{font:500 12px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);background:var(--wash)}
+tr:last-child td{border-bottom:0} td:first-child{font-weight:600;min-width:11ch}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (max-width:860px){.wrap{grid-template-columns:minmax(0,1fr);gap:0} nav.toc{position:static;margin-bottom:28px} nav.toc ol{grid-template-columns:1fr 1fr;gap:4px 16px} header.top{padding-block:32px 20px}}
+@media (max-width:480px){nav.toc ol{grid-template-columns:1fr} body{font-size:16px}}
+.lib{margin:1.4em 0;display:grid;gap:10px}
+.lib-top{border:1px solid var(--accent);border-radius:8px;padding:14px 16px;background:var(--wash)}
+.lib-top p{margin:.2em 0} .lib-top .eyebrow{margin-bottom:6px}
+.lib-paths{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;position:relative}
+.lib-paths div{border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:6px;padding:10px 12px;background:var(--paper);display:flex;flex-direction:column;gap:4px;min-width:0}
+.lib-paths b{font-weight:600} .lib-paths span{font-size:14px;color:var(--ink2)}
+@media (max-width:700px){.lib-paths{grid-template-columns:1fr 1fr}}
+blockquote{margin:1.2em 0;padding:14px 18px;border-left:3px solid var(--accent);background:var(--paper);border-radius:0 6px 6px 0;font-size:15.5px} blockquote p{margin:.35em 0}
+.walks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:1.2em 0 2em}
+@media (max-width:860px){.walks{grid-template-columns:minmax(0,1fr)}}
+.walk{border:1px solid var(--line);border-radius:14px;background:var(--paper);display:flex;flex-direction:column;min-width:0;overflow:hidden}
+.walk header{padding:16px 18px 10px;border-bottom:1px solid var(--line)}
+.walk .wt{font:700 19px/1.25 var(--display);margin:0 0 6px} .walk .wq{margin:0;color:var(--ink2);font-size:15px;font-style:italic}
+.walk .bar{height:3px;background:var(--line)} .walk .bar span{display:block;height:100%;background:var(--accent);transition:width .25s}
+.walk .step{padding:16px 18px 6px;flex:1} .walk .count{font:500 11px/1.4 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin:0 0 6px}
+.walk h4{font:600 17px/1.3 var(--body);margin:0 0 8px} .walk .step p{font-size:16px;line-height:1.55;margin:0 0 10px}
+.walk .note{background:var(--wash);border-radius:8px;padding:10px 12px;font-size:15px!important} .walk .note span{display:block;font:500 11px/1.4 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}
+.walk .src{font-size:13px;color:var(--ink2);margin:6px 0 4px} .walk .src summary{cursor:pointer} .walk .src p{font-size:13px!important}
+.walk .dia{width:100%;max-width:320px;display:block;margin:6px auto 12px;color:var(--ink)}
+.walk .ctl{display:flex;justify-content:space-between;gap:10px;padding:12px 18px 16px}
+.walk button{font:inherit;font-size:15px;padding:9px 16px;border-radius:999px;border:1px solid var(--line);background:var(--paper);color:var(--ink);cursor:pointer}
+.walk button.next{background:var(--accent);border-color:var(--accent);color:var(--paper)} .walk button:disabled{opacity:.4;cursor:default}
+</style>
+<header class="top"><p class="eyebrow">F1 Histories of making · ballet · fresh review · 25 October 2026</p>
+<h1>Ballet: a fresh review</h1>
+<p class="lede">Everything proposed since 20 October, re-read against the program's own learners, units, voice and containers, with three independent reviews: what holds, what was wrong, what was never researched, why the cards read as chopped data, and two walks showing the better format.</p></header>
+<div class="wrap"><nav class="toc" aria-label="Contents"><ol><li><a href="#1-in-short">1. In short</a></li><li><a href="#2-my-answers-re-read">2. My answers, re-read</a></li><li><a href="#3-the-course-i-should-have-planned-for">3. The course I should have planned for</a></li><li><a href="#4-what-was-missing">4. What was missing</a></li><li><a href="#5-why-the-cards-do-not-work-and-what-doe">5. Why the cards do not work, and what does</a></li><li><a href="#6-the-corrected-shape">6. The corrected shape</a></li><li><a href="#7-what-i-would-do-next-in-order">7. What I would do next, in order</a></li><li><a href="#8-decisions-for-you">8. Decisions for you</a></li><li><a href="#sources-for-this-review">Sources for this review</a></li></ol></nav><main><h2 id="1-in-short">1. In short</h2>
+<ol>
+<li><strong>The research is strong; the plans were not built for this course.</strong> Every plan I wrote was built outward from the research. None was built inward from the program: the four personas, the unit anatomy, the Atlas and its card tiers, the F1 units that already ask ballet's questions, the Method unit that already teaches "the concept is the product" (M1.11a), and the decision that Salt Road is the program's worked example (P5). I invented acts, case cards, "threads", object studies and a library, when the program already has units, the Atlas, voice-guide tiers and the world set.</li>
+<li><strong>The cards read as chopped data because they are records, not teaching.</strong> The short cards are database fields with labels: about 195 words, 25 to 35 names, 15 semicolons and three verbs. A learner reads them once and keeps two sentences. My own presentation study of 20 October had already found the right model (the London Museum's Pavlova costume, told in making order) and the program's voice guide already sets the tiers (Line, Label, Story, Deep). I used neither.</li>
+<li><strong>Whole parts of ballet were never researched.</strong> The six research angles were cut by <em>making</em>, so nobody looked at what makes a ballet a world a person enters: the music, mime, the craft of choreography, the night at the theatre, the building, and the photographs, films, toys and feeds through which most people meet ballet at all. For a course about concepts and experiences, that is the larger half.</li>
+<li><strong>Several of my recommendations conflict with settled decisions:</strong> <em>Giselle</em> as a "historical exemplar" (P5 says Salt Road), the program writing the Gulf regional slot (F1.31 says local authors), and an F1 size of 34 hours (v3.6 is about 4 / 22 / 22, about 48).</li>
+<li><strong>What to keep:</strong> all of the research; the idea that the ballets themselves are made concepts; the objects-and-collections material; the comparison walls; the long version, as an elective. <strong>What changes:</strong> where each piece lives, and how it is written.</li>
+</ol>
+<h2 id="2-my-answers-re-read">2. My answers, re-read</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Date</th>
+<th>What I proposed</th>
+<th>What holds</th>
+<th>What was wrong</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20 Oct</td>
+<td><strong>The teaching brief and three spines</strong> (body outward; one ballet followed through time; one bench read outward)</td>
+<td>The thesis (the makers are unnamed), the seven claims, the presentation study's "borrow and avoid" list</td>
+<td>The brief was a single page with no place in F1; spine choice made without asking which unit it served</td>
+</tr>
+<tr>
+<td>20–21 Oct</td>
+<td><strong>"The shoe" page</strong>, three rounds of a six-persona board</td>
+<td>Accurate, carefully sourced prose; Ray and his quote; "the dancer is on the poster, the designer is in the programme, the maker is a symbol on a sole"</td>
+<td>It is F1.23's question (the credit map), not a ballet unit. It opened with a three-option guess, buried its big idea in the seventh paragraph, told the origin of pointe last, and ended on notes for the editor. The board's personas were invented for the board, not the program's four, and each round made sentences more accurate and longer</td>
+</tr>
+<tr>
+<td>21 Oct</td>
+<td><strong>Rules added to the skills</strong>: no opening quiz; context before thesis; gaps inside the argument</td>
+<td>The rules themselves</td>
+<td>They were written into my own <code>hom-</code> skills without checking the voice guide and the program's opening moves. The two can live together: ballet units open "Object first" or "Story first", which the program already offers; "Prediction first" stays for the units that use it (F1.2, F5.8). One line in the Hub settles it</td>
+</tr>
+<tr>
+<td>21 Oct</td>
+<td><strong>Twelve-hour unit in six angle sessions</strong></td>
+<td>The six angle files</td>
+<td>It split ballet by research angle, so each session rebuilt its context, the works were scattered, and the concept had no home</td>
+</tr>
+<tr>
+<td>21 Oct</td>
+<td><strong>44-hour module: prologue, six acts, epilogue; <em>Giselle</em> returning; the case card mapped to the Concept DNA</strong></td>
+<td>The acts as an outline of ballet's history; the case card's order (idea, world, look, family, translations, versions); the five modes of remaking; the evidence on comparison and worked examples</td>
+<td>Larger than F1 itself; half its products belong to Method modules (premise, rules, obligations, remakes); the case card is a record, not a way to teach</td>
+</tr>
+<tr>
+<td>21–22 Oct</td>
+<td><strong>Case world: library, F1 core, deep path, borrowings, <em>Giselle</em> as exemplar; then the objects strand and concept-first short cards</strong></td>
+<td>The library idea (it is the Atlas); borrowing by other modules; the ten object studies as content; the product and collection research</td>
+<td>A parallel library beside the Atlas; "concept threads" reuses the program's word "threads" for something else; <em>Giselle</em> as exemplar against P5; a 7-hour core with no position in F1's order; short cards still records; stale F1 hours</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="3-the-course-i-should-have-planned-for">3. The course I should have planned for</h2>
+<ul>
+<li><strong>The learners are four people, not "the learner".</strong> Amara (spatial designer, Lagos, ten minutes on a phone), Daniel (brand lead, Mexico City, twenty-minute blocks, quits if he cannot use it in a meeting within a week), Mei (homeware founder, Osaka, wants a blunt partner, quits if nothing connects to her product), Omar (architecture graduate, Amman, reads everything, quits if history is a list of names). Every unit names the persona its Apply step is tested against.</li>
+<li><strong>F1 already asks ballet's questions.</strong> About fifteen of its 35 units have a strong ballet case: F1.4 (what a maker learns from a performance), F1.23 (whose name is on the object), F1.17 (who commissions), F1.19b (when designing split from making), F1.14 (when a copy makes something new), F1.28a (reconstruction), F1.20 (modernisms), F1.13 (networks), F1.18 (women's work), F1.22a (use), F1.24 (the museum as author), F1.11 (the guild), F1.26 (consultation), F1.2 (appropriation), F1.3 (how histories get written). The full map is in <code>review/R1_curriculum_fit.md</code> §2.1.</li>
+<li><strong>The concept-as-product idea already has a home.</strong> M1.11a, "World-building lessons from film, games and performance: bibles, rules, stakes, time", dissects public world bibles in its lab. <em>Giselle</em>'s documents (Gautier's account, the livret, Petipa's plan for <em>The Sleeping Beauty</em>) are world bibles. M2 (Concept DNA), M3 (world architecture, collection maps), M4 (make and test, remakes) and the practice areas S1 (space and experience), S2 (object and product), S3 (body and wearables) and S5 (identity) each have a natural ballet case.</li>
+<li><strong>The program already has the containers.</strong> The Atlas holds every work, person, object and institution as a card in four voice-guide tiers: Line (16 words), Label (50 to 60), Story (150 to 250) and Deep (600 to 1,200). The world set holds open objects with rights. The link register tracks every case one module hands to another. Units have opening moves, labs, partner voices, two Apply lanes, a closing contribution and success criteria.</li>
+</ul>
+<h2 id="4-what-was-missing">4. What was missing</h2>
+<h3>4.1 Knowledge never researched (from R2, which I agree with)</h3>
+<p><strong>Must add</strong>, because the course is about experiences as much as objects:
+1. <strong>Music and the composer as a maker.</strong> Specialist ballet composers against symphonists; the conductor's edits (Drigo on <em>Swan Lake</em>); the rehearsal pianist. The score is the time-frame of the world.
+2. <strong>Mime.</strong> A full sign language that let audiences read a story without words, and why reformers rejected it.
+3. <strong>Choreography as a craft.</strong> The pas de deux formula, the corps as geometry, the variation and the coda: ballet's component library, reused across hundreds of works.
+4. <strong>The night.</strong> Subscribers, the paid claque, the interval, applause, the curtain call, who could get in, and how that changed.
+5. <strong>The theatre building as a designed world.</strong> The Palais Garnier, the Mariinsky, the Royal Opera House, Sydney, Oslo, Dubai Opera, the Royal Opera House Muscat.
+6. <strong>Media.</strong> Photography, film, television, cinema relays, YouTube and Instagram, through which most people meet ballet.
+7. <strong>AI and motion capture</strong>, for the program's AI Collaboration thread (from LifeForms to motion banks and McGregor's work with AI).
+8. <strong>Handover documents</strong>, for the Handover Grammar thread: production and costume bibles, technical riders, lighting plots, revival packages.</p>
+<p><strong>Should add:</strong> the dancer as co-author; ballet's border with modern and contemporary dance; ballet training as an industry and ballet and childhood (the pink tutu, music boxes, competitions); popular culture (<em>The Red Shoes</em>, <em>Billy Elliot</em>, <em>Black Swan</em>, anime); the senses and audience access (audio description, relaxed performances); disability, queer histories and abuse; streaming and sponsorship; sustainability frameworks; for the Gulf, the region's own heritage dances on UNESCO's lists beside imported ballet.</p>
+<h3>4.2 Lessons the material holds but no file states</h3>
+<p>The plans state six lessons well (the idea rarely comes from the choreographer; roots can be named; a concept leaves documents; worlds are built from rules and refusals; remaking is part of a concept's life; the credit line is a design decision). R2 adds ten that a world-builder needs, and I agree with all of them:
+1. A world is experienced in time, and the time is designed.
+2. A world must teach its audience to read it.
+3. Strong worlds run on a small, strict, reusable grammar.
+4. The building is the first expression of the world, and it decides who belongs.
+5. Most people meet a world through its media, not its premiere.
+6. A world survives only if its paper and its people are handed over together.
+7. A world recruits its next makers from childhood, and that pipeline is also a product.
+8. The performer co-authors the world every night.
+9. A world is defined against its neighbours.
+10. The same world is read differently by different audiences.</p>
+<h3>4.3 Design and world-building ideas that were researched but never used</h3>
+<p>They sit in one research file (W4) and appear in no plan: transmedia world-making (<em>The Nutcracker</em> from Hoffmann to Disney is the textbook case); experience design and the service blueprint (the night as a designed journey); front stage and back stage (behind-the-scenes as a product); archive and repertoire; brand worlds (the Ballets Russes, "Russian ballet" as a national brand); the object biography.</p>
+<h3>4.4 Errors found and fixed</h3>
+<ul>
+<li>Louis XIV was fourteen in 1653, not fifteen (fixed in W1).</li>
+<li><em>Shurale</em> premiered in Kazan in 1945; 1950 is the Leningrad staging (fixed in the plan).</li>
+<li>Saudi Arabia's commission did not "buy" a training programme from Caracalla; a contractor reports a 2024 programme run in partnership with the Caracalla school (fixed).</li>
+<li>R2 says the NYCB figure for <em>The Nutcracker</em> (about 45% of ticket revenue) has no source. It does: NYCB's executive director, quoted by NPR on 22 December 2025, logged in the products file. It stays, labelled as the company's figure.</li>
+<li>Still to correct: "100 to 150 ballets" stated as fact (it is our estimate); modern-dance works in the register without an inclusion rule; Ciceri's appointment given three ways; the full card's "the night" heading holds production facts, not the experience.</li>
+</ul>
+<h2 id="5-why-the-cards-do-not-work-and-what-doe">5. Why the cards do not work, and what does</h2>
+<p><strong>What a learner keeps.</strong> Read once on a phone, the <em>Firebird</em> card leaves "a Russian fairy tale in Paris" and "classical dance for magic, folk dance for humans". What drops out is everything that makes it a lesson in making: a committee of friends invented the story over a winter, two composers dropped out before a 27-year-old Stravinsky was hired, the choreographer dictated the music scene by scene with a piano standing in for a wall, the producer threw out his designer's costume for the lead, and Russia did not see the ballet until eleven years later because it had been made for Paris. Those are the moments a designer recognises from their own work. The card holds them as fragments, or not at all.</p>
+<p><strong>Why, in the research on reading and memory:</strong>
+- People remember connections, not items. Facts with more causal links to the rest of a story are recalled more (Trabasso and van den Broek 1985). A list is the structure recalled least (Meyer and Freedle 1984).
+- Newcomers cannot fill the gaps a terse text leaves; experts can (McNamara and others 1996; the expertise reversal effect). A record works as reference for someone who already knows the story. It fails as a first meeting.
+- Stories are understood and remembered better than exposition (Mar and others 2021, across about 33,000 readers).
+- Each unexplained name takes a slot in working memory, which holds about four new items at once (Cowan 2001). Twenty-five names in 193 words is far over.
+- Museum interpretation says the same: one theme sentence, starting from something you can see (Tilden; Ham; Serrell; the Getty and Smithsonian guides already in our voice guide).</p>
+<p><strong>The fix:</strong> keep the card fields as the record behind each Atlas card, and write what the learner reads as sentences, in the voice guide's tiers, with one question at the top and a "because" or "so that" on every fact.</p>
+<h3>5.1 Which form for which content</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Content</th>
+<th>Form (program forms)</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>A ballet as a made concept</strong></td>
+<td>A walk of six or seven steps in the order of a design job (brief, sources, idea, world rules, execution, launch, afterlife), as a step-through (form 2), with one design drawing told as an object story (form 3)</td>
+<td>The learner meets the work as a worked example of a design process, with the reasoning shown at each step</td>
+</tr>
+<tr>
+<td><strong>An object</strong> (the pointe shoe, the tutu)</td>
+<td>An object story in making order (form 3), the build as drawn steps (forms 2 and 14), and a before-and-after (form 5)</td>
+<td>One idea first (the idea came before the shoe), then parts, then steps, one per screen</td>
+</tr>
+<tr>
+<td><strong>A concept across many ballets</strong> (two worlds, the bird-woman)</td>
+<td>A pair first, then a comparison wall (form 10), then a timeline scrub or map (forms 11, 12)</td>
+<td>Comparing two cases teaches the principle; a wall opened cold is a list again</td>
+</tr>
+<tr>
+<td><strong>A product family</strong> (the pointe shoe line, the ballet flat)</td>
+<td>A step-through that builds the family: anchor, what may vary, what may not, how variants are named, life off the stage</td>
+<td>The learner sees the collection logic before they apply it</td>
+</tr>
+<tr>
+<td><strong>Any work in the Atlas</strong></td>
+<td>Line and Label for every work; Story and Deep where a unit uses it</td>
+<td>Reference stays reference; teaching is written as sentences</td>
+</tr>
+</tbody>
+</table></div>
+<h3>5.2 The same work, rewritten (<em>The Firebird</em>)</h3>
+<p><strong>Line (16 words):</strong> <em>The Firebird</em>, Paris 1910: a Russian fairy tale devised by a committee for a Paris audience.</p>
+<p><strong>Label (54 words):</strong> The Firebird wears red-orange, a feathered headdress and harem trousers. Léon Bakst drew that costume; on Diaghilev's orders it replaced Alexander Golovin's. Golovin's world surrounds her: a sorcerer's overgrown garden, dancers in Slavic festival dress. She dances on pointe; they dance folk rounds. Programmes credit the story to Fokine. It was probably a committee's.</p>
+<p><strong>Story (about 240 words):</strong></p>
+<blockquote>
+<p>A piano stands in for a wall. Michel Fokine, the choreographer, acts out Prince Ivan arriving at a sorcerer's wall while Igor Stravinsky plays. Fokine asks for "just a hint" of Ivan's folk tune, "by means of separate notes". Stravinsky wrote the score to Fokine's dictation, passage by passage, and avoided working that way afterwards.</p>
+<p>The story came from a group. Over the winter of 1908–09, friends of Serge Diaghilev, the impresario taking Russian ballet to Paris, met to build a scenario. They merged at least two of Alexander Afanasyev's folk tales and probably added the thirteen captive princesses. Tcherepnin withdrew from writing the music, and Liadov did not deliver it. Stravinsky, aged 27, was commissioned in December 1909.</p>
+<p>The world runs on one rule. The Firebird, a magic creature, dances classical steps on pointe. The princesses, who are human, dance folk round-dances. The sorcerer's monsters move in angular character dance. Watch any scene and you can tell who belongs to which world by how they move.</p>
+<p>It opened at the Paris Opéra on 25 June 1910 and was not staged in Russia until 1921. Fourteen years later, the same company made <em>Le Train Bleu</em>, which we read as refusing Russianness altogether.</p>
+</blockquote>
+<p><strong>As a design lesson</strong> (the paragraph a briefer would recognise): the brief named its audience before its story; the sources were chosen, cut and merged; the idea had many authors and one credit; one rule let strangers read the world; the team changed under the work; it launched abroad and came home eleven years later. Three moves transfer to any world: name the audience in the brief, give the world a rule a stranger can read, and write a credit line that records the committee, not only the name on the poster.</p>
+<p>The seven-step walk and the pointe-shoe walk are in <code>review/R3_writing_and_formats.md</code> §4; the review page shows the walk as a working step-through.</p>
+<h3 id="proto">5.3 What it looks like: two walks, working</h3>
+<p>Both walks below are built from the research files only, with the source of each step under "Where this comes from" (shown here for review; in the course it sits in the editor view). They open on a thing and a question, not a quiz. The prompts are notes for the learner's own world; nothing is scored.</p>
+<div class="walks"><div class="walk" data-walk="fire"><header><p class="wt">The Firebird, 1910: designing a country for strangers</p><p class="wq">How do you design a country for people who have never been there?</p></header><div class="bar"><span style="width:14.3%"></span></div><section class="step" data-i="0" ><p class="count">Step 1 of 7</p><h4>The brief</h4><p>In 1910 Serge Diaghilev, a Russian impresario, was presenting a season of ballet in Paris. He needed a new work that would read as Russian to a Paris audience, and he commissioned music to fit a slot in that season. The Mariinsky Theatre's own programme now calls the result "an export Russian fairy tale". The brief, in other words, named its audience before it named its story.</p><p class="note"><span>Your turn</span>Before the next step, write the audience your own current project is really for, in five words.</p><details class="src"><summary>Where this comes from</summary><p>W2 §0.1 point 2; §2.1; §2.6</p></details></section><section class="step" data-i="1" hidden><p class="count">Step 2 of 7</p><h4>The sources</h4><p>The friends drew on Alexander Afanasyev's collection of Russian folk tales, published 1855–63, chiefly "Koshchei the Deathless" and the tale of Ivan Tsarevich, the Firebird and the Gray Wolf. Benois recalled that the poet Pyotr Potemkin proposed the subject, citing a poem by Yakov Polonsky in which "Firebirds sing by night". The music looked back to Nikolai Rimsky-Korsakov, Stravinsky's teacher. Golovin brought the look of the Russian craft revival he had worked in.</p><p class="note"><span>Your turn</span>Notice which source supplied the plot, and which only the mood.</p><details class="src"><summary>Where this comes from</summary><p>W2 §2.2; tales and poem probable; Golovin&#x27;s craft background documented. **Not found:** what Abramtsevo and Talashkino were, beyond &quot;the neo-Russian craft revival&quot;, so they are not named here.</p></details></section><section class="step" data-i="2" hidden><p class="count">Step 3 of 7</p><h4>The idea</h4><p>No single person had it. Over the winter of 1908–09 a group met, informally led by Fokine, to turn the sources into a scenario: a prince, hunting, captures and frees a magic bird, who gives him a feather; with it he breaks a sorcerer's spell and frees thirteen princesses. Most accounts say the princesses, and the sorcerer's soul hidden in an egg, were the group's additions. Programmes still credit the story to Fokine alone.</p><p class="note"><span>Your turn</span>Look at the credit line on the 1910 programme: whose names are missing?</p><details class="src"><summary>Where this comes from</summary><p>W2 §2.1; §2.3 and §2.5; committee probable; credit documented. The programme image is held by the Library of Congress, W2 §2.8; its licence is not checked.</p></details></section><section class="step" data-i="3" hidden><p class="count">Step 4 of 7</p><h4>The world rules</h4><svg viewBox="0 0 300 130" role="img" aria-label="Three figures, three ways of moving: on pointe for magic, in a round for people, in angles for monsters" class="dia">
+<g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+<circle cx="50" cy="22" r="7"/><path d="M50 29 V62 M50 40 L34 30 M50 40 L66 30 M50 62 L50 92 M50 62 L58 90"/><path d="M50 92 v6" stroke-width="3"/>
+<circle cx="150" cy="40" r="22" stroke-dasharray="4 5"/><circle cx="150" cy="18" r="4"/><circle cx="172" cy="40" r="4"/><circle cx="150" cy="62" r="4"/><circle cx="128" cy="40" r="4"/>
+<circle cx="250" cy="24" r="7"/><path d="M250 31 L244 52 L262 64 M244 52 L230 46 L236 34 M262 64 L250 92 M262 64 L276 80"/>
+</g><g font-size="11" fill="currentColor" text-anchor="middle"><text x="50" y="110">magic</text><text x="50" y="123">on pointe</text><text x="150" y="110">people</text><text x="150" y="123">in a round</text><text x="250" y="110">monsters</text><text x="250" y="123">in angles</text></g></svg><p>The scenario split the cast into two worlds, and Fokine gave each its own way of moving. The Firebird dances classical steps on pointe, the vocabulary of the supernatural. The princesses dance folk round-dances. The sorcerer's monsters move in angular character dance. The music probably follows: strange, shifting harmony for magic and plain folk tunes for people. We read this as the ballet's core rule, and later works copied it: the audience can tell who belongs to which world from movement alone.</p><p class="note"><span>Your turn</span>Write one rule for your own world that a stranger could read without a caption.</p><details class="src"><summary>Where this comes from</summary><p>W2 §2.4, argued and probable as marked; §2.10</p></details></section><section class="step" data-i="4" hidden><p class="count">Step 5 of 7</p><h4>Execution</h4><p>The team changed under the work. Nikolai Tcherepnin withdrew from the score; Anatoly Liadov did not deliver, and whether he declined or failed is not known. Stravinsky, 27, took the commission in December 1909 and finished by May 1910, writing to Fokine's dictation. Diaghilev also overruled his designer: Golovin's costumes for the Firebird, the Tsarevna and Ivan were replaced by Léon Bakst's. Golovin kept the garden and the festival dress.</p><p class="note"><span>Your turn</span>Compare the bird in Bakst&#x27;s design with Golovin&#x27;s world around it: does it look like it belongs to another place?</p><details class="src"><summary>Where this comes from</summary><p>W2 §2.3, documented; §0.1 point 3. **Not found:** an open image of Golovin&#x27;s rejected bird design, so the comparison uses Bakst&#x27;s bird against Golovin&#x27;s set.</p></details></section><section class="step" data-i="5" hidden><p class="count">Step 6 of 7</p><h4>Launch</h4><p><i>The Firebird</i> opened at the Paris Opéra on 25 June 1910, conducted by Gabriel Pierné, with Tamara Karsavina as the bird and Fokine as Ivan. It succeeded at once. The principal ballerina first asked to dance it had refused the role. It was made for Paris, not St Petersburg: Russia first saw it in 1921, in Fedor Lopukhov's version, and the Mariinsky staged Fokine's version only in 1994.</p><p class="note"><span>Your turn</span>Where would your own world be launched first, and who would see it last?</p><details class="src"><summary>Where this comes from</summary><p>W2 §2.5–§2.7; Pavlova&#x27;s refusal probable, so the step says only &quot;the principal ballerina&quot;, as Britannica does</p></details></section><section class="step" data-i="6" hidden><p class="count">Step 7 of 7</p><h4>Afterlife</h4><p>The music travelled without the dance, in concert suites of 1911, 1919 and 1945. In 1926 Natalia Goncharova re-designed the ballet, partly by altering the 1910 costumes with new trims. Marc Chagall designed Adolph Bolm's 1945 version, and George Balanchine reused those designs in 1949, saying of the tale, "You can't make a ballet out of it." Each version kept the bird and re-dressed the rest.</p><p class="note"><span>Your turn</span>Say back, in one sentence, the rule that made this world readable. It is saved to your record.</p><details class="src"><summary>Where this comes from</summary><p>W2 §2.7, documented; &quot;kept the bird&quot; is our reading</p></details></section><nav class="ctl"><button type="button" class="prev" disabled>Back</button><button type="button" class="next">Next step</button></nav></div>
+<div class="walk" data-walk="shoe"><header><p class="wt">The pointe shoe: the idea came before the shoe</p><p class="wq">Which came first, the wish to float or the shoe that lets a dancer stand on her toes?</p></header><div class="bar"><span style="width:20.0%"></span></div><section class="step" data-i="0" ><p class="count">Step 1 of 5</p><h4>A shoe with no hard toe</h4><p>A black satin slipper, about 1842, sits in the V&amp;A. Marie Taglioni wore it and inscribed it to Lady Selina Bidwell. It has a leather sole and no block. The only stiffening is darning under the toes and about 1.5 cm up the sides. Whatever Taglioni did on her toes, she did on strength and thread.</p><p class="note"><span>Your turn</span>Open the V&amp;A&#x27;s photograph and find the darning: that is all the support there is.</p><details class="src"><summary>Where this comes from</summary><p>scope 02 §1.3 and log, V&amp;A S.2746-1986, documented; image non-commercial, so link out. **Not found:** who made the shoe.</p></details></section><section class="step" data-i="1" hidden><p class="count">Step 2 of 5</p><h4>The idea came first</h4><p>On 12 March 1832, at the Paris Opéra, Taglioni danced <i>La Sylphide</i>, a ballet about an air spirit, in darned, leather-soled satin slippers. We read what she did as giving standing on the toes a meaning: lightness, a creature of air. She was not the earliest. Amalia Brugnoli is described rising onto her toes in Vienna in 1822 or 1823, and earlier accounts include men. Say "earliest known", never "first".</p><p class="note"><span>Your turn</span>Notice that the meaning arrived before any equipment for it.</p><details class="src"><summary>Where this comes from</summary><p>pass2_body §1.1, premiere documented, slippers probable; scope 02 §1.3 and traps, Brugnoli contested, men per Hammond and Fairfax</p></details></section><section class="step" data-i="2" hidden><p class="count">Step 3 of 5</p><h4>The technology followed</h4><p>About fifty years later, Italian shoemakers built the toe into a hard box of newspaper, flour paste and pasteboard, probably between the 1870s and the 1890s. In the early 1900s Anna Pavlova's shoes probably added a hardened box and an internal leather sole. The shoe was redesigned to serve an idea that already existed.</p><p class="note"><span>Your turn</span>What in your own field is still being done on strength, before the tool for it exists?</p><details class="src"><summary>Where this comes from</summary><p>pass2_body §1.1, probable</p></details></section><section class="step" data-i="3" hidden><p class="count">Step 4 of 5</p><h4>What it is made of now</h4><p>At Freed of London, which supplies the Royal Ballet, there is no wood in the block. It is layers of hessian, a coarse jute cloth, and paper, each brushed with a flour-and-water paste mixed once a week, inside a satin upper. The stiffener under the arch is the shank, of leather or layered card. The dancer balances on the platform, the flat front of the block.</p><p class="note"><span>Your turn</span>Find each part on the drawing before you see how they go together.</p><details class="src"><summary>Where this comes from</summary><p>the-shoe.md &quot;How it is built&quot;; pass2_body §1.1 table; Freed&#x27;s &quot;no wood&quot; via Spitalfields Life 2013</p></details></section><section class="step" data-i="4" hidden><p class="count">Step 5 of 5</p><h4>How long it lasts</h4><p>Nothing in the shoe is permanent: sweat softens flour paste. A pair lasts about ten to twenty hours of dancing, by the usual estimate, and a principal can finish a pair in one performance. The Royal Ballet says it uses more than six thousand pairs a year at about fifty pounds a pair, a figure it publishes to raise money.</p><p class="note"><span>Your turn</span>Keep that number in mind; the next steps ask who made all those pairs, and who wrote down their names.</p><details class="src"><summary>Where this comes from</summary><p>the-shoe.md; company figure as told</p></details></section><nav class="ctl"><button type="button" class="prev" disabled>Back</button><button type="button" class="next">Next step</button></nav></div></div><h2 id="6-the-corrected-shape">6. The corrected shape</h2>
+<p>I disagree with one part of R1. It recommends about 2.5 hours of ballet in F1 and a deferred elective, which is right for F1 but would lose what you asked for: ballet as one complete example of turning ideas, objects and influences into a finished world and experience. So the shape keeps both, in the program's own containers.</p>
+<ol>
+<li><strong>The Atlas holds the library.</strong> All 148 works, the objects, the people, the companies and the theatres become Atlas cards, written in the voice-guide tiers: a Line for every work now, a Label for the 35 with full research, Story and Deep tiers as units call for them. The 24 "concept threads" become <strong>motif walls</strong> (comparison walls), so "thread" keeps the program's meaning. The research fields stay as each card's record.</li>
+<li><strong>F1 places ballet in its own units.</strong> Three lead placements: <strong>F1.23</strong> (the shoe and the maker's mark as a worked credit map, the natural home of the built page), <strong>F1.4</strong> (<em>Giselle</em> and Feuillet's notation as repertoire and notation, beside the Noh masks and the kora), <strong>F1.17</strong> (one art through three commissioning regimes: Mazarin's brief, Pillet's star vehicle, Diaghilev's committee; Vsevolozhsky's letter as the worked patron's brief). About twenty tiles in other units, each beside a case from another world chapter, and an optional Mastery "ballet lens" through F1.27, F1.28, F1.28a, F1.29 and F1.30a. About 2.5 hours of Practice and 6 to 8 of Mastery.</li>
+<li><strong>The concept-as-product material goes where the program teaches concepts.</strong> <em>Giselle</em>'s documents are dissected as world bibles in M1.11a. <em>Giselle</em> is read field by field in M2 beside Salt Road, as a historical comparison, not a second exemplar. The collection logics (the divertissement, the season, costume families, the anchor work) go to M3. The five modes of remaking go to M4. The night, light and the stage go to S1; the pointe shoe as a product line and the ballet flat to S2; the tutu, costume families and skin tone to S3; posters, programmes and company identities to S5. Each is a row in the link register.</li>
+<li><strong>The long version survives as an elective: "Ballet: a world made and remade".</strong> The six acts and the ten object studies, rewritten as walks and object stories, assembled from the same Atlas cards. It sits beside Method, not inside F1, because its products (premises, rules, collection maps, remakes) are written in fields Method defines. Until Method exists, its Story and Deep tiers are readable in the Atlas.</li>
+<li><strong>The Gulf</strong> follows F1.31: the program supplies structure (how dance training and presenting reached a place: schools, syllabi, opera houses, licensing) and the documented institutions as Atlas cards; a local author writes the slot. The missing Gulf-made ballet stays a commissioning brief, labelled as a design exercise.</li>
+</ol>
+<p><strong>How each persona meets ballet after the change:</strong> Amara in F1.23 (a credit map she can use in a client deck) and later S1; Daniel in F1.17 (Vsevolozhsky's letter as a worked brief) and F1.14; Mei in F1.14 and F1.24 (questions to ask before a heritage collaboration) and later S2 (a naming grammar for her product line); Omar in F1.4 (a method taken from notation) and the Mastery lens.</p>
+<h2 id="7-what-i-would-do-next-in-order">7. What I would do next, in order</h2>
+<ol>
+<li><strong>Your decisions</strong> (section 8).</li>
+<li><strong>Rewrite the built shoe page as F1.23's worked credit map</strong>, opening "Object first" on Taglioni's shoe with no hard toe, the build drawn in steps, the marks drawn, Ray kept, the company figures moved into a practised sort after the explanation. Test it against Amara.</li>
+<li><strong>Three short research passes for the gaps:</strong> music, mime and choreographic craft; the night and the building; media, childhood and popular culture. Plus two evidence notes for the AI Collaboration and Handover Grammar threads.</li>
+<li><strong>F1.4 and F1.17 placements</strong>, after reading Gautier's account, Vsevolozhsky's letter and Petipa's plan at source (all marked probable now).</li>
+<li><strong>Atlas round:</strong> a Line for all 148 works, Labels for the 35 with full research, written as sentences.</li>
+<li><strong>Link-register rows</strong> for M1.11a, M2, M3, M4, S1, S2, S3, S5.</li>
+<li><strong>The elective's outline</strong>, rewritten as walks, when Method is specified.</li>
+<li><strong>Bring my <code>hom-</code> skills under the voice guide:</strong> they should point to its tiers, personas and opening moves instead of setting rules of their own.</li>
+</ol>
+<h2 id="8-decisions-for-you">8. Decisions for you</h2>
+<ol>
+<li><strong>Shape:</strong> ballet as Atlas cards plus placements in F1 units, Method and practice areas, plus the long version as an elective beside Method (recommended); or keep a separate ballet strand inside F1.</li>
+<li><strong>Opening rule:</strong> ballet units open "Object first" or "Story first" (no quiz), and "Prediction first" stays available where the program already uses it (recommended); or ban opening questions across the program.</li>
+<li><strong>P5:</strong> Salt Road stays the worked example; <em>Giselle</em> is a historical comparison in M2 (recommended).</li>
+<li><strong>Gap research:</strong> run the three passes now, before any page is rewritten (recommended), or after F1.23.</li>
+<li><strong>The elective:</strong> confirm that the long version is wanted as an elective, and whether it opens with the history (Act I) or with <em>Giselle</em> (Act II).</li>
+</ol>
+<h2 id="sources-for-this-review">Sources for this review</h2>
+<p><code>review/R1_curriculum_fit.md</code>, <code>review/R2_knowledge_gaps.md</code>, <code>review/R3_writing_and_formats.md</code>; program documents in <code>docs/</code> (final structure v3, phase-4 foundations, voice guide) and <code>schema/</code>; F1 specs in <code>modules/F1-histories-of-making/specs/</code>; the research and plans in <code>research_notes/Ballet/</code>.</p></main></div><script>
+document.querySelectorAll('.walk').forEach(w=>{const st=[...w.querySelectorAll('.step')];let i=0;const p=w.querySelector('.prev'),n=w.querySelector('.next'),bar=w.querySelector('.bar span');
+function show(){st.forEach((s,k)=>s.hidden=k!==i);p.disabled=i===0;n.disabled=i===st.length-1;n.textContent=i===st.length-1?'End of walk':'Next step';bar.style.width=((i+1)/st.length*100)+'%';}
+p.addEventListener('click',()=>{if(i>0){i--;show();}});n.addEventListener('click',()=>{if(i<st.length-1){i++;show();}});show();});
+</script>
