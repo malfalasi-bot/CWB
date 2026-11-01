@@ -7981,5 +7981,8237 @@
    "AF-EGY"
   ],
   "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1892.27",
+  "title": "Amulet of the Goddess Isis Nursing the God Horus",
+  "date": "Third Intermediate Period, Dynasty 25 (about 747–656 BCE)",
+  "start": -747,
+  "end": -656,
+  "culture": "Egypt",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/596",
+  "canon_id": "CIV002",
+  "canon_name": "Nubian / Kushite",
+  "sub_regions": [
+   "AF-NUB",
+   "AF-EGY"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1931.237",
+  "title": "Nubian Woman",
+  "date": "c. 1830",
+  "start": 1825,
+  "end": 1835,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111174",
+  "canon_id": "CIV002",
+  "canon_name": "Nubian / Kushite",
+  "sub_regions": [
+   "AF-NUB",
+   "AF-EGY"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1892.70",
+  "title": "Bowl",
+  "date": "2000-1750 BCE",
+  "start": -2000,
+  "end": -1750,
+  "culture": "Egypt",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/135850",
+  "canon_id": "CIV002",
+  "canon_name": "Nubian / Kushite",
+  "sub_regions": [
+   "AF-NUB",
+   "AF-EGY"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "CIV002",
+  "canon_name": "Nubian / Kushite",
+  "sub_regions": [
+   "AF-NUB",
+   "AF-EGY"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "CIV002",
+  "canon_name": "Nubian / Kushite",
+  "sub_regions": [
+   "AF-NUB",
+   "AF-EGY"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1929.566.2.b",
+  "title": "Peg (msuruaki) for a Sandal (mtalawanda / mtawanda) or Clog (kiatu cha mti)",
+  "date": "c 1800s",
+  "start": 1800,
+  "end": 1900,
+  "culture": "Africa, Central Africa, Democratic Republic of Congo, unidentified carver",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1929.566.2.b",
+  "canon_id": "CIV004",
+  "canon_name": "Swahili",
+  "sub_regions": [
+   "AF-SWA",
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1929.566.2",
+  "title": "Sandal (mtalawanda / mtawanda) or Clog (kiatu cha mti)",
+  "date": "c 1800s",
+  "start": 1800,
+  "end": 1900,
+  "culture": "Africa, Central Africa, Democratic Republic of Congo, unidentified carver",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1929.566.2",
+  "canon_id": "CIV004",
+  "canon_name": "Swahili",
+  "sub_regions": [
+   "AF-SWA",
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1929.566.1.a",
+  "title": "Base for a sandal (mtalawanda / mtawanda) or Clog (kiatu cha mti)",
+  "date": "c 1800s",
+  "start": 1800,
+  "end": 1900,
+  "culture": "Africa, Central Africa, Democratic Republic of Congo, unidentified carver",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1929.566.1.a",
+  "canon_id": "CIV004",
+  "canon_name": "Swahili",
+  "sub_regions": [
+   "AF-SWA",
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1929.566",
+  "title": "Sandals (mitalawanda / mitawanda) or Clogs (kiatu cha mti)",
+  "date": "c. 1800s",
+  "start": 1800,
+  "end": 1900,
+  "culture": "Africa, Central Africa, Democratic Republic of Congo, unidentified carver",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1929.566",
+  "canon_id": "CIV004",
+  "canon_name": "Swahili",
+  "sub_regions": [
+   "AF-SWA",
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1929.566.1",
+  "title": "Sandal (mtalawanda / mtawanda) or Clog (kiatu cha mti)",
+  "date": "c 1800s",
+  "start": 1800,
+  "end": 1900,
+  "culture": "Africa, Central Africa, Democratic Republic of Congo, unidentified carver",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1929.566.1",
+  "canon_id": "CIV004",
+  "canon_name": "Swahili",
+  "sub_regions": [
+   "AF-SWA",
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2004.476",
+  "title": "Chair (Kiti Cha Enzi)",
+  "date": "19th century",
+  "start": 1801,
+  "end": 1900,
+  "culture": "Kenya",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/183077",
+  "canon_id": "CIV004",
+  "canon_name": "Swahili",
+  "sub_regions": [
+   "AF-SWA",
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "CIV004",
+  "canon_name": "Swahili",
+  "sub_regions": [
+   "AF-SWA",
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "CIV004",
+  "canon_name": "Swahili",
+  "sub_regions": [
+   "AF-SWA",
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "CIV004",
+  "canon_name": "Swahili",
+  "sub_regions": [
+   "AF-SWA",
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "CIV004",
+  "canon_name": "Swahili",
+  "sub_regions": [
+   "AF-SWA",
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1922.4924",
+  "title": "Tetradrachm (Coin) Portraying Alexander the Great",
+  "date": "297-281 BCE, issued by King Lysimachus of Thrace",
+  "start": -297,
+  "end": -281,
+  "culture": "Ephesus",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/5764",
+  "canon_id": "CIV005",
+  "canon_name": "Great Zimbabwe",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1920.709",
+  "title": "Tetradrachm (Coin) Depicting the Hero Herakles",
+  "date": "336-323 BCE",
+  "start": -336,
+  "end": -323,
+  "culture": "Amfípolis",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/199227",
+  "canon_id": "CIV005",
+  "canon_name": "Great Zimbabwe",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1923.1175",
+  "title": "Tetradrachm (Coin) Portraying Alexander the Great",
+  "date": "297-281 BCE, issued by King Lysimachus of Thrace (306–281 BCE)",
+  "start": -297,
+  "end": -281,
+  "culture": "Thrace",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/9755",
+  "canon_id": "CIV005",
+  "canon_name": "Great Zimbabwe",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1923.1154",
+  "title": "Tetradrachm (Coin) Portraying Alexander the Great",
+  "date": "93-92 BCE",
+  "start": -93,
+  "end": -92,
+  "culture": "Macedonia",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/9706",
+  "canon_id": "CIV005",
+  "canon_name": "Great Zimbabwe",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1894.1031",
+  "title": "The Watermill with the Great Red Roof",
+  "date": "c. 1665",
+  "start": 1660,
+  "end": 1670,
+  "culture": "Holland",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/869",
+  "canon_id": "CIV005",
+  "canon_name": "Great Zimbabwe",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1938.6",
+  "title": "Ancestral Commemorative Head (uhunmwun-elao)",
+  "date": "possibly mid-1500s or early 1600s",
+  "start": 1550,
+  "end": 1625,
+  "culture": "Nigeria, Benin Kingdom, Ẹdo peoples, members of the Igun Eronmwon (royal brasscasters) guild",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1938.6",
+  "canon_id": "CIV012",
+  "canon_name": "Benin",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1999.1",
+  "title": "Plaque",
+  "date": "1500s–1600s",
+  "start": 1500,
+  "end": 1699,
+  "culture": "Nigeria, Benin Kingdom, Ẹdo peoples, members of the Igun Eronmwon (royal brasscasters) guild",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1999.1",
+  "canon_id": "CIV012",
+  "canon_name": "Benin",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1973.221",
+  "title": "Hen",
+  "date": "1900s",
+  "start": 1900,
+  "end": 1925,
+  "culture": "Nigeria, Benin Kingdom, Ẹdo peoples, member(s) of the Igbesanmwan (wood and ivory carvers) guild",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1973.221",
+  "canon_id": "CIV012",
+  "canon_name": "Benin",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1998.85",
+  "title": "Rattle Staff (ukhuhre)",
+  "date": "1900s",
+  "start": 1900,
+  "end": 1998,
+  "culture": "Nigeria, Benin Kingdom, Ẹdo peoples, member(s) of the Igbesanmwan (wood and ivory carvers) guild",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1998.85",
+  "canon_id": "CIV012",
+  "canon_name": "Benin",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1968.284",
+  "title": "Ancestral Altar Tusk",
+  "date": "c. 1820",
+  "start": 1815,
+  "end": 1825,
+  "culture": "Nigeria, Benin Kingdom, Ẹdo peoples, members of the Igbesanmwan (wood and ivory carvers) guild",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1968.284",
+  "canon_id": "CIV012",
+  "canon_name": "Benin",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2003.16",
+  "title": "Head (Uhunmwun Elao)",
+  "date": "18th/early 19th century",
+  "start": 1701,
+  "end": 1825,
+  "culture": "Nigeria",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/180750",
+  "canon_id": "CIV012",
+  "canon_name": "Benin",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1933.782",
+  "title": "Plaque",
+  "date": "16th/17th century",
+  "start": 1501,
+  "end": 1700,
+  "culture": "Nigeria",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/15457",
+  "canon_id": "CIV012",
+  "canon_name": "Benin",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1976.523",
+  "title": "Tusk",
+  "date": "1850-1888",
+  "start": 1850,
+  "end": 1888,
+  "culture": "Nigeria",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/51809",
+  "canon_id": "CIV012",
+  "canon_name": "Benin",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1999.375",
+  "title": "Commemorative Head",
+  "date": "Probably mid–17th/mid–18th century",
+  "start": 1650,
+  "end": 1750,
+  "culture": "Nigeria",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/152856",
+  "canon_id": "CIV012",
+  "canon_name": "Benin",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "CIV012",
+  "canon_name": "Benin",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1967.29",
+  "title": "Front Face of a Stela (Free-standing Stone with Relief)",
+  "date": "692",
+  "start": 692,
+  "end": 692,
+  "culture": "Mesoamerica, Guatemala, Department of the Petén, El Perú (also known as Waka'), Maya (250-900), Classic period (200-1000)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1967.29",
+  "canon_id": "CIV018",
+  "canon_name": "Maya",
+  "sub_regions": [
+   "AM-MES"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1962.32",
+  "title": "Panel with Royal Woman",
+  "date": "c. 795",
+  "start": 750,
+  "end": 850,
+  "culture": "Guatemala or Mexico, Usumacinta River region, Maya style",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1962.32",
+  "canon_id": "CIV018",
+  "canon_name": "Maya",
+  "sub_regions": [
+   "AM-MES"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1993.7",
+  "title": "Crown Ornament (Hu’unal)",
+  "date": "250–900 CE",
+  "start": 250,
+  "end": 900,
+  "culture": "Mexico or Central America, Maya",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1993.7",
+  "canon_id": "CIV018",
+  "canon_name": "Maya",
+  "sub_regions": [
+   "AM-MES"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1965.550",
+  "title": "Shell with Seated Noble",
+  "date": "600–900",
+  "start": 600,
+  "end": 900,
+  "culture": "Mexico or Central America, Maya",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1965.550",
+  "canon_id": "CIV018",
+  "canon_name": "Maya",
+  "sub_regions": [
+   "AM-MES"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1990.183",
+  "title": "Head from a Building's Façade",
+  "date": "250–900 CE",
+  "start": 250,
+  "end": 900,
+  "culture": "Mexico, Campeche, Maya style (250-900)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1990.183",
+  "canon_id": "CIV018",
+  "canon_name": "Maya",
+  "sub_regions": [
+   "AM-MES"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1965.407",
+  "title": "Chak Ak’ Paat Kuy (\"Red Turkey\") Playing the Ballgame",
+  "date": "650-700",
+  "start": 650,
+  "end": 700,
+  "culture": "Guatemala",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/110246",
+  "canon_id": "CIV018",
+  "canon_name": "Maya",
+  "sub_regions": [
+   "AM-MES"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1990.22",
+  "title": "Stela",
+  "date": "c. 702",
+  "start": 702,
+  "end": 702,
+  "culture": "Campeche state",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/75645",
+  "canon_id": "CIV018",
+  "canon_name": "Maya",
+  "sub_regions": [
+   "AM-MES"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1963.272",
+  "title": "Figure of a Standing Warrior",
+  "date": "650–800",
+  "start": 650,
+  "end": 800,
+  "culture": "Yucatan Peninsula",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/17203",
+  "canon_id": "CIV018",
+  "canon_name": "Maya",
+  "sub_regions": [
+   "AM-MES"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2001.512",
+  "title": "Figure of an Aristocratic Lady",
+  "date": "650–800",
+  "start": 650,
+  "end": 800,
+  "culture": "Yucatan Peninsula",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/158608",
+  "canon_id": "CIV018",
+  "canon_name": "Maya",
+  "sub_regions": [
+   "AM-MES"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2008.206",
+  "title": "Covered Vessel with the Principal Bird and Peccary Heads",
+  "date": "200–300 CE",
+  "start": 200,
+  "end": 300,
+  "culture": "Guatemala",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/195461",
+  "canon_id": "CIV018",
+  "canon_name": "Maya",
+  "sub_regions": [
+   "AM-MES"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "2007.193",
+  "title": "Sacrificer Container",
+  "date": "770–890 (radiocarbon date, 95% probability)",
+  "start": 770,
+  "end": 890,
+  "culture": "Central Andes, Wari style (600-1000)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/2007.193",
+  "canon_id": "CIV021",
+  "canon_name": "Andean",
+  "sub_regions": [
+   "AM-AND"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1946.229",
+  "title": "Finial of a Staff",
+  "date": "Chimú style (900–1470)",
+  "start": 900,
+  "end": 1470,
+  "culture": "Peru, North Coast, Chimú style (900-1470)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1946.229",
+  "canon_id": "CIV021",
+  "canon_name": "Andean",
+  "sub_regions": [
+   "AM-AND"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "2007.193.a",
+  "title": "Container in the form of a Sacrificer",
+  "date": "770–890 (radiocarbon date, 95% probability)",
+  "start": 770,
+  "end": 890,
+  "culture": "Peru, Middle Horizon, Wari Culture",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/2007.193.a",
+  "canon_id": "CIV021",
+  "canon_name": "Andean",
+  "sub_regions": [
+   "AM-AND"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "2015.8",
+  "title": "Beaker with Shells",
+  "date": "900–1100",
+  "start": 900,
+  "end": 1100,
+  "culture": "Central Andes (Peru), Lambayeque (Sicán) people, 10th century-12th century",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/2015.8",
+  "canon_id": "CIV021",
+  "canon_name": "Andean",
+  "sub_regions": [
+   "AM-AND"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1946.233",
+  "title": "Kero (Waisted Cup)",
+  "date": "after 1550",
+  "start": 1550,
+  "end": 1650,
+  "culture": "Peru, Colonial Inka style, 16th century",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1946.233",
+  "canon_id": "CIV021",
+  "canon_name": "Andean",
+  "sub_regions": [
+   "AM-AND"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1956.80a-b",
+  "title": "Tassels",
+  "date": "500-900",
+  "start": 500,
+  "end": 900,
+  "culture": "Peru",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/2068",
+  "canon_id": "CIV021",
+  "canon_name": "Andean",
+  "sub_regions": [
+   "AM-AND"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1956.74",
+  "title": "Fragment (Border)",
+  "date": "100 BCE-200 CE",
+  "start": -100,
+  "end": 200,
+  "culture": "Peru",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/2057",
+  "canon_id": "CIV021",
+  "canon_name": "Andean",
+  "sub_regions": [
+   "AM-AND"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1956.79",
+  "title": "Fragment",
+  "date": "700-900",
+  "start": 700,
+  "end": 900,
+  "culture": "Peru",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/2067",
+  "canon_id": "CIV021",
+  "canon_name": "Andean",
+  "sub_regions": [
+   "AM-AND"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1956.99a",
+  "title": "Tapestry Medallion",
+  "date": "650 CE-700 CE",
+  "start": 600,
+  "end": 700,
+  "culture": "Peru",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/2097",
+  "canon_id": "CIV021",
+  "canon_name": "Andean",
+  "sub_regions": [
+   "AM-AND"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1956.97",
+  "title": "Fragment",
+  "date": "1000-1476",
+  "start": 1000,
+  "end": 1476,
+  "culture": "Peru",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/2095",
+  "canon_id": "CIV021",
+  "canon_name": "Andean",
+  "sub_regions": [
+   "AM-AND"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1977.7",
+  "title": "Raft Cup",
+  "date": "1300s–1400s",
+  "start": 1300,
+  "end": 1499,
+  "culture": "China, Yuan (1271-1368) or early Ming dynasty (1368-1644)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1977.7",
+  "canon_id": "CIV044",
+  "canon_name": "Chinese",
+  "sub_regions": [
+   "AS-CHN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1933.220",
+  "title": "Cloudy Mountains",
+  "date": "1130",
+  "start": 1130,
+  "end": 1130,
+  "culture": "China, Southern Song dynasty (1127–1279)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1933.220",
+  "canon_id": "CIV044",
+  "canon_name": "Chinese",
+  "sub_regions": [
+   "AS-CHN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1955.302.7",
+  "title": "Album of Seasonal Landscapes, Leaf G (previous leaf 7)",
+  "date": "1668",
+  "start": 1668,
+  "end": 1668,
+  "culture": "China, Qing dynasty (1644-1911)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1955.302.7",
+  "canon_id": "CIV044",
+  "canon_name": "Chinese",
+  "sub_regions": [
+   "AS-CHN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1955.302.2",
+  "title": "Album of Seasonal Landscapes, Leaf D (previous leaf 2)",
+  "date": "1668",
+  "start": 1668,
+  "end": 1668,
+  "culture": "China, Qing dynasty (1644-1911)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1955.302.2",
+  "canon_id": "CIV044",
+  "canon_name": "Chinese",
+  "sub_regions": [
+   "AS-CHN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1955.302.8",
+  "title": "Album of Seasonal Landscapes, Leaf H (previous leaf 8)",
+  "date": "1668",
+  "start": 1668,
+  "end": 1668,
+  "culture": "China, Qing dynasty (1644-1911)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1955.302.8",
+  "canon_id": "CIV044",
+  "canon_name": "Chinese",
+  "sub_regions": [
+   "AS-CHN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1925.385",
+  "title": "Deity from a Set of Five Pancharaksha Goddesses",
+  "date": "Qing dynasty (1644–1911), 19th century",
+  "start": 1801,
+  "end": 1900,
+  "culture": "China",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/15742",
+  "canon_id": "CIV044",
+  "canon_name": "Chinese",
+  "sub_regions": [
+   "AS-CHN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1958.258",
+  "title": "Dinner Plate",
+  "date": "1796–1810",
+  "start": 1796,
+  "end": 1810,
+  "culture": "China",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/7896",
+  "canon_id": "CIV044",
+  "canon_name": "Chinese",
+  "sub_regions": [
+   "AS-CHN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1956.304",
+  "title": "Cup",
+  "date": "1750–70",
+  "start": 1750,
+  "end": 1770,
+  "culture": "China",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/2716",
+  "canon_id": "CIV044",
+  "canon_name": "Chinese",
+  "sub_regions": [
+   "AS-CHN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1956.775a-b",
+  "title": "Tureen with Cover",
+  "date": "c. 1787–90",
+  "start": 1787,
+  "end": 1790,
+  "culture": "China",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/3585",
+  "canon_id": "CIV044",
+  "canon_name": "Chinese",
+  "sub_regions": [
+   "AS-CHN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1956.776a-b",
+  "title": "Tureen with Cover",
+  "date": "c. 1787–90",
+  "start": 1787,
+  "end": 1790,
+  "culture": "China",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/3588",
+  "canon_id": "CIV044",
+  "canon_name": "Chinese",
+  "sub_regions": [
+   "AS-CHN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1973.161",
+  "title": "Seal with Unicorn and Inscription",
+  "date": "c. 2000 BCE",
+  "start": -2010,
+  "end": -1990,
+  "culture": "Pakistan, Indus Valley civilization",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1973.161",
+  "canon_id": "CIV048",
+  "canon_name": "Indus Valley",
+  "sub_regions": [
+   "AS-SAS"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1964.104",
+  "title": "Seal with Unicorn and Inscription",
+  "date": "c. 2000 BCE",
+  "start": -2010,
+  "end": -1990,
+  "culture": "Pakistan, Indus Valley civilization",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1964.104",
+  "canon_id": "CIV048",
+  "canon_name": "Indus Valley",
+  "sub_regions": [
+   "AS-SAS"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1973.160",
+  "title": "Seal with Two-Horned Bull and Inscription",
+  "date": "c. 2000 BCE",
+  "start": -2010,
+  "end": -1990,
+  "culture": "Pakistan, Indus Valley civilization",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1973.160",
+  "canon_id": "CIV048",
+  "canon_name": "Indus Valley",
+  "sub_regions": [
+   "AS-SAS"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "2001.1",
+  "title": "Jar with Four Ibex",
+  "date": "c. 2800–2500 BCE",
+  "start": -2800,
+  "end": -2500,
+  "culture": "Pakistan, probably Quetta, Indus Valley Civilization",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/2001.1",
+  "canon_id": "CIV048",
+  "canon_name": "Indus Valley",
+  "sub_regions": [
+   "AS-SAS"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1916.131",
+  "title": "Earring",
+  "date": "500–400 BCE",
+  "start": -499,
+  "end": -400,
+  "culture": "Cyprus",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1916.131",
+  "canon_id": "CIV048",
+  "canon_name": "Indus Valley",
+  "sub_regions": [
+   "AS-SAS"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1956.80a-b",
+  "title": "Tassels",
+  "date": "500-900",
+  "start": 500,
+  "end": 900,
+  "culture": "Peru",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/2068",
+  "canon_id": "CIV048",
+  "canon_name": "Indus Valley",
+  "sub_regions": [
+   "AS-SAS"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1947.513",
+  "title": "Valley of Aosta: Snowstorm, Avalanche, and Thunderstorm",
+  "date": "1836–37",
+  "start": 1836,
+  "end": 1837,
+  "culture": "England",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/109938",
+  "canon_id": "CIV048",
+  "canon_name": "Indus Valley",
+  "sub_regions": [
+   "AS-SAS"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1956.762",
+  "title": "The Valley of Les Puits-Noir",
+  "date": "1868",
+  "start": 1868,
+  "end": 1868,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/3546",
+  "canon_id": "CIV048",
+  "canon_name": "Indus Valley",
+  "sub_regions": [
+   "AS-SAS"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1941.11",
+  "title": "The Valley of Arconville",
+  "date": "c. 1887",
+  "start": 1887,
+  "end": 1887,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/40549",
+  "canon_id": "CIV048",
+  "canon_name": "Indus Valley",
+  "sub_regions": [
+   "AS-SAS"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1942.484",
+  "title": "A4: Connecticut Valley Tavern Parlor, c. 1750",
+  "date": "c. 1940",
+  "start": 1937,
+  "end": 1940,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/45323",
+  "canon_id": "CIV048",
+  "canon_name": "Indus Valley",
+  "sub_regions": [
+   "AS-SAS"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1963.257",
+  "title": "Votive Pin with Decorated Disc",
+  "date": "800–600 BCE",
+  "start": -800,
+  "end": -600,
+  "culture": "Iran, Luristan",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1963.257",
+  "canon_id": "CIV055",
+  "canon_name": "Mesopotamian",
+  "sub_regions": [
+   "WA-MES"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1963.154",
+  "title": "Statue of Gudea",
+  "date": "c. 2144–2124 BCE",
+  "start": -2144,
+  "end": -2124,
+  "culture": "Mesopotamia, Neo-Sumerian, Iraq, Girsu",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1963.154",
+  "canon_id": "CIV055",
+  "canon_name": "Mesopotamian",
+  "sub_regions": [
+   "WA-MES"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1970.61",
+  "title": "Bull Calf Polemount",
+  "date": "c. 2700 BCE",
+  "start": -2705,
+  "end": -2695,
+  "culture": "Sumerian, Iraq",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1970.61",
+  "canon_id": "CIV055",
+  "canon_name": "Mesopotamian",
+  "sub_regions": [
+   "WA-MES"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1963.680",
+  "title": "Head of Gudea, ensi of Lagash",
+  "date": "2144–2124 BCE",
+  "start": -2144,
+  "end": -2124,
+  "culture": "Mesopotamia, Iraq, Lagash (Tello)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1963.680",
+  "canon_id": "CIV055",
+  "canon_name": "Mesopotamian",
+  "sub_regions": [
+   "WA-MES"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1971.45",
+  "title": "Priest-King or Deity",
+  "date": "c. 1600 BCE",
+  "start": -1605,
+  "end": -1595,
+  "culture": "Hittite, North Syria",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1971.45",
+  "canon_id": "CIV055",
+  "canon_name": "Mesopotamian",
+  "sub_regions": [
+   "WA-MES"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "611.2010",
+  "title": "Statuette of a Striding Figure",
+  "date": "3000-2800 BCE",
+  "start": -3000,
+  "end": -2800,
+  "culture": "Iraq",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/206785",
+  "canon_id": "CIV055",
+  "canon_name": "Mesopotamian",
+  "sub_regions": [
+   "WA-MES"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1986.978",
+  "title": "Relief Showing the Head of a Winged Genius",
+  "date": "Neo–Assyrian Period, reign of King Ashurnasirpal II (883–859 BCE)",
+  "start": -883,
+  "end": -859,
+  "culture": "Nimrud",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/64936",
+  "canon_id": "CIV055",
+  "canon_name": "Mesopotamian",
+  "sub_regions": [
+   "WA-MES"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "CIV055",
+  "canon_name": "Mesopotamian",
+  "sub_regions": [
+   "WA-MES"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "CIV055",
+  "canon_name": "Mesopotamian",
+  "sub_regions": [
+   "WA-MES"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "CIV055",
+  "canon_name": "Mesopotamian",
+  "sub_regions": [
+   "WA-MES"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1970.16",
+  "title": "Black-Figure Neck-Amphora (Storage Vessel): Herakles and Nemean Lion (A); Dionysos, Satyrs, and Maenads (B)",
+  "date": "515–510 BCE",
+  "start": -515,
+  "end": -510,
+  "culture": "Greek, Attic",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1970.16",
+  "canon_id": "CIV071",
+  "canon_name": "Greek and Roman",
+  "sub_regions": [
+   "EU-GRR",
+   "EU-BYZ",
+   "EU-WCE",
+   "EU-IBE",
+   "EU-BLC",
+   "AF-MAG",
+   "AF-EGY",
+   "WA-LEV",
+   "WA-ANA"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1928.660",
+  "title": "Red-Figure Lekythos (Oil Vessel): Warrior Cutting Hair",
+  "date": "c. 480–470 BCE",
+  "start": -485,
+  "end": -465,
+  "culture": "Greek, Attic",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1928.660",
+  "canon_id": "CIV071",
+  "canon_name": "Greek and Roman",
+  "sub_regions": [
+   "EU-GRR",
+   "EU-BYZ",
+   "EU-WCE",
+   "EU-IBE",
+   "EU-BLC",
+   "AF-MAG",
+   "AF-EGY",
+   "WA-LEV",
+   "WA-ANA"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1971.46",
+  "title": "Black-Figure Dinos (Mixing Vessel): Warships (Int.); Heroic Scenes (Top)",
+  "date": "c. 520–515 BCE",
+  "start": -520,
+  "end": -515,
+  "culture": "Greek, Attic",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1971.46",
+  "canon_id": "CIV071",
+  "canon_name": "Greek and Roman",
+  "sub_regions": [
+   "EU-GRR",
+   "EU-BYZ",
+   "EU-WCE",
+   "EU-IBE",
+   "EU-BLC",
+   "AF-MAG",
+   "AF-EGY",
+   "WA-LEV",
+   "WA-ANA"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1966.114",
+  "title": "White-Ground Lekythos (Oil Vessel): Atalanta and Erotes",
+  "date": "c. 500–490 BCE",
+  "start": -500,
+  "end": -490,
+  "culture": "Greek, Attic",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1966.114",
+  "canon_id": "CIV071",
+  "canon_name": "Greek and Roman",
+  "sub_regions": [
+   "EU-GRR",
+   "EU-BYZ",
+   "EU-WCE",
+   "EU-IBE",
+   "EU-BLC",
+   "AF-MAG",
+   "AF-EGY",
+   "WA-LEV",
+   "WA-ANA"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1928.856",
+  "title": "Sarcophagus",
+  "date": "c. 100–125 CE",
+  "start": 100,
+  "end": 125,
+  "culture": "Italy, Rome, Roman Empire",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1928.856",
+  "canon_id": "CIV071",
+  "canon_name": "Greek and Roman",
+  "sub_regions": [
+   "EU-GRR",
+   "EU-BYZ",
+   "EU-WCE",
+   "EU-IBE",
+   "EU-BLC",
+   "AF-MAG",
+   "AF-EGY",
+   "WA-LEV",
+   "WA-ANA"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1972.429",
+  "title": "Julius Caesar, Perpetual Dictator, from Twelve Famous Greek and Roman Men",
+  "date": "c. 1633",
+  "start": 1629,
+  "end": 1635,
+  "culture": "Flanders",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/39277",
+  "canon_id": "CIV071",
+  "canon_name": "Greek and Roman",
+  "sub_regions": [
+   "EU-GRR",
+   "EU-BYZ",
+   "EU-WCE",
+   "EU-IBE",
+   "EU-BLC",
+   "AF-MAG",
+   "AF-EGY",
+   "WA-LEV",
+   "WA-ANA"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2014.211",
+  "title": "Ancient Greek and Roman Statues, Part One (Delle Antiche Statue Greche E Romane, Parte Prima)",
+  "date": "1740",
+  "start": 1740,
+  "end": 1740,
+  "culture": "Italy",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/200864",
+  "canon_id": "CIV071",
+  "canon_name": "Greek and Roman",
+  "sub_regions": [
+   "EU-GRR",
+   "EU-BYZ",
+   "EU-WCE",
+   "EU-IBE",
+   "EU-BLC",
+   "AF-MAG",
+   "AF-EGY",
+   "WA-LEV",
+   "WA-ANA"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2014.212",
+  "title": "Ancient Greek and Roman Statues, Part Two (Delle Antiche Statue Greche E Romane, Parte Seconda)",
+  "date": "1743",
+  "start": 1743,
+  "end": 1743,
+  "culture": "Italy",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/200490",
+  "canon_id": "CIV071",
+  "canon_name": "Greek and Roman",
+  "sub_regions": [
+   "EU-GRR",
+   "EU-BYZ",
+   "EU-WCE",
+   "EU-IBE",
+   "EU-BLC",
+   "AF-MAG",
+   "AF-EGY",
+   "WA-LEV",
+   "WA-ANA"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1920.3011",
+  "title": "Coin Depicting the Head of a Man",
+  "date": "27 BCE-14 CE",
+  "start": -27,
+  "end": 14,
+  "culture": "Ancient Greece",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/142939",
+  "canon_id": "CIV071",
+  "canon_name": "Greek and Roman",
+  "sub_regions": [
+   "EU-GRR",
+   "EU-BYZ",
+   "EU-WCE",
+   "EU-IBE",
+   "EU-BLC",
+   "AF-MAG",
+   "AF-EGY",
+   "WA-LEV",
+   "WA-ANA"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1920.2727",
+  "title": "Coin Depicting a Dove",
+  "date": "late 3rd-early 2nd century BCE",
+  "start": -250,
+  "end": -150,
+  "culture": "Roman Empire",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/142655",
+  "canon_id": "CIV071",
+  "canon_name": "Greek and Roman",
+  "sub_regions": [
+   "EU-GRR",
+   "EU-BYZ",
+   "EU-WCE",
+   "EU-IBE",
+   "EU-BLC",
+   "AF-MAG",
+   "AF-EGY",
+   "WA-LEV",
+   "WA-ANA"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1944.485",
+  "title": "The Wade Cup with Animated Script",
+  "date": "1200–1221",
+  "start": 1200,
+  "end": 1221,
+  "culture": "Iran, Seljuq period of Iran (1037–1194)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1944.485",
+  "canon_id": "CIV086",
+  "canon_name": "Islamic",
+  "sub_regions": [
+   "WA-ARB",
+   "WA-LEV",
+   "WA-MES",
+   "WA-IRN",
+   "WA-ANA",
+   "AF-EGY",
+   "AF-MAG",
+   "AF-SAH",
+   "AF-SWA",
+   "EU-IBE",
+   "AS-CEN",
+   "AS-SAS",
+   "AS-ISE",
+   "AS-CHN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1944.235",
+  "title": "Ceremonial Spittoon or Basin",
+  "date": "late 1800s",
+  "start": 1875,
+  "end": 1899,
+  "culture": "Europe",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1944.235",
+  "canon_id": "CIV086",
+  "canon_name": "Islamic",
+  "sub_regions": [
+   "WA-ARB",
+   "WA-LEV",
+   "WA-MES",
+   "WA-IRN",
+   "WA-ANA",
+   "AF-EGY",
+   "AF-MAG",
+   "AF-SAH",
+   "AF-SWA",
+   "EU-IBE",
+   "AS-CEN",
+   "AS-SAS",
+   "AS-ISE",
+   "AS-CHN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1956.11",
+  "title": "Luxury Ewer Extending Good Fortune to the Owner",
+  "date": "1223",
+  "start": 1223,
+  "end": 1223,
+  "culture": "Iraq, possibly Mosul, Zangid or Artugid Period, 13th Century",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1956.11",
+  "canon_id": "CIV086",
+  "canon_name": "Islamic",
+  "sub_regions": [
+   "WA-ARB",
+   "WA-LEV",
+   "WA-MES",
+   "WA-IRN",
+   "WA-ANA",
+   "AF-EGY",
+   "AF-MAG",
+   "AF-SAH",
+   "AF-SWA",
+   "EU-IBE",
+   "AS-CEN",
+   "AS-SAS",
+   "AS-ISE",
+   "AS-CHN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1945.27",
+  "title": "Twelve-sided Ewer with Sphinxes and Human-Headed Inscriptions",
+  "date": "1300–1350",
+  "start": 1300,
+  "end": 1350,
+  "culture": "Iran, Khurasan, Ilkhanid period (1256–1353)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1945.27",
+  "canon_id": "CIV086",
+  "canon_name": "Islamic",
+  "sub_regions": [
+   "WA-ARB",
+   "WA-LEV",
+   "WA-MES",
+   "WA-IRN",
+   "WA-ANA",
+   "AF-EGY",
+   "AF-MAG",
+   "AF-SAH",
+   "AF-SWA",
+   "EU-IBE",
+   "AS-CEN",
+   "AS-SAS",
+   "AS-ISE",
+   "AS-CHN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1962.23",
+  "title": "Prayer Niche (Mihrab)",
+  "date": "c. 1500s or mid-1900s",
+  "start": 1500,
+  "end": 1950,
+  "culture": "Iran, Isfahan, in the style of the Safavid period (1501–1722)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1962.23",
+  "canon_id": "CIV086",
+  "canon_name": "Islamic",
+  "sub_regions": [
+   "WA-ARB",
+   "WA-LEV",
+   "WA-MES",
+   "WA-IRN",
+   "WA-ANA",
+   "AF-EGY",
+   "AF-MAG",
+   "AF-SAH",
+   "AF-SWA",
+   "EU-IBE",
+   "AS-CEN",
+   "AS-SAS",
+   "AS-ISE",
+   "AS-CHN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1894.1141",
+  "title": "Bracelet",
+  "date": "14th-15th century",
+  "start": 1301,
+  "end": 1500,
+  "culture": "Egypt",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/936",
+  "canon_id": "CIV086",
+  "canon_name": "Islamic",
+  "sub_regions": [
+   "WA-ARB",
+   "WA-LEV",
+   "WA-MES",
+   "WA-IRN",
+   "WA-ANA",
+   "AF-EGY",
+   "AF-MAG",
+   "AF-SAH",
+   "AF-SWA",
+   "EU-IBE",
+   "AS-CEN",
+   "AS-SAS",
+   "AS-ISE",
+   "AS-CHN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1932.1157",
+  "title": "Decorated Bookbinding",
+  "date": "18th century",
+  "start": 1701,
+  "end": 1800,
+  "culture": "Iran",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/13145",
+  "canon_id": "CIV086",
+  "canon_name": "Islamic",
+  "sub_regions": [
+   "WA-ARB",
+   "WA-LEV",
+   "WA-MES",
+   "WA-IRN",
+   "WA-ANA",
+   "AF-EGY",
+   "AF-MAG",
+   "AF-SAH",
+   "AF-SWA",
+   "EU-IBE",
+   "AS-CEN",
+   "AS-SAS",
+   "AS-ISE",
+   "AS-CHN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1894.704",
+  "title": "Bracelet",
+  "date": "14th-15th century",
+  "start": 1301,
+  "end": 1500,
+  "culture": "Egypt",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/831",
+  "canon_id": "CIV086",
+  "canon_name": "Islamic",
+  "sub_regions": [
+   "WA-ARB",
+   "WA-LEV",
+   "WA-MES",
+   "WA-IRN",
+   "WA-ANA",
+   "AF-EGY",
+   "AF-MAG",
+   "AF-SAH",
+   "AF-SWA",
+   "EU-IBE",
+   "AS-CEN",
+   "AS-SAS",
+   "AS-ISE",
+   "AS-CHN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1925.1675",
+  "title": "Dish with a Seated Figure",
+  "date": "Late 12th/early 13th century",
+  "start": 1150,
+  "end": 1250,
+  "culture": "Iran",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/18988",
+  "canon_id": "CIV086",
+  "canon_name": "Islamic",
+  "sub_regions": [
+   "WA-ARB",
+   "WA-LEV",
+   "WA-MES",
+   "WA-IRN",
+   "WA-ANA",
+   "AF-EGY",
+   "AF-MAG",
+   "AF-SAH",
+   "AF-SWA",
+   "EU-IBE",
+   "AS-CEN",
+   "AS-SAS",
+   "AS-ISE",
+   "AS-CHN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1925.40",
+  "title": "Twelve-Point Star Tile",
+  "date": "Timurid dynasty (1370-1507), Late 15th century",
+  "start": 1450,
+  "end": 1499,
+  "culture": "Iran",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/86467",
+  "canon_id": "CIV086",
+  "canon_name": "Islamic",
+  "sub_regions": [
+   "WA-ARB",
+   "WA-LEV",
+   "WA-MES",
+   "WA-IRN",
+   "WA-ANA",
+   "AF-EGY",
+   "AF-MAG",
+   "AF-SAH",
+   "AF-SWA",
+   "EU-IBE",
+   "AS-CEN",
+   "AS-SAS",
+   "AS-ISE",
+   "AS-CHN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM001",
+  "canon_name": "Copts",
+  "sub_regions": [
+   "AF-EGY",
+   "AF-NUB"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM001",
+  "canon_name": "Copts",
+  "sub_regions": [
+   "AF-EGY",
+   "AF-NUB"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM001",
+  "canon_name": "Copts",
+  "sub_regions": [
+   "AF-EGY",
+   "AF-NUB"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM001",
+  "canon_name": "Copts",
+  "sub_regions": [
+   "AF-EGY",
+   "AF-NUB"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM001",
+  "canon_name": "Copts",
+  "sub_regions": [
+   "AF-EGY",
+   "AF-NUB"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "2012.224",
+  "title": "Egypt and Nubia, Volume II: Group of Nubians-Wady Kardasey",
+  "date": "1847",
+  "start": 1847,
+  "end": 1847,
+  "culture": "England, 19th century",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/2012.224",
+  "canon_id": "COM002",
+  "canon_name": "Nubians",
+  "sub_regions": [
+   "AF-EGY",
+   "AF-NUB"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1920.1975.a",
+  "title": "Trial Piece Worked on Both Sides",
+  "date": "c. 1391–1353 BCE",
+  "start": -1391,
+  "end": -1353,
+  "culture": "Egypt, probably Thebes, New Kingdom (1540–1069 BCE), Dynasty 18, reign of Amenhotep III (1390–1352 BCE)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1920.1975.a",
+  "canon_id": "COM002",
+  "canon_name": "Nubians",
+  "sub_regions": [
+   "AF-EGY",
+   "AF-NUB"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1987.1",
+  "title": "Pendant",
+  "date": "c. 700 BCE",
+  "start": -750,
+  "end": -650,
+  "culture": "Sudan, Napatan; lion's head component: probably Egypt, Third Intermediate (1069–715 BCE), Dynasty 25",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1987.1",
+  "canon_id": "COM002",
+  "canon_name": "Nubians",
+  "sub_regions": [
+   "AF-EGY",
+   "AF-NUB"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1920.1975",
+  "title": "Trial Piece Worked on Both Sides",
+  "date": "c. 1391–1353 BCE",
+  "start": -1391,
+  "end": -1353,
+  "culture": "Egypt, probably Thebes, New Kingdom (1540–1069 BCE), Dynasty 18, reign of Amenhotep III (1390–1352 BCE)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1920.1975",
+  "canon_id": "COM002",
+  "canon_name": "Nubians",
+  "sub_regions": [
+   "AF-EGY",
+   "AF-NUB"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "2012.241",
+  "title": "Egypt and Nubia, Volume I: Nubian Women at Kortie, on the Nile",
+  "date": "1847",
+  "start": 1847,
+  "end": 1847,
+  "culture": "England, 19th century",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/2012.241",
+  "canon_id": "COM002",
+  "canon_name": "Nubians",
+  "sub_regions": [
+   "AF-EGY",
+   "AF-NUB"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1931.237",
+  "title": "Nubian Woman",
+  "date": "c. 1830",
+  "start": 1825,
+  "end": 1835,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111174",
+  "canon_id": "COM002",
+  "canon_name": "Nubians",
+  "sub_regions": [
+   "AF-EGY",
+   "AF-NUB"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1892.70",
+  "title": "Bowl",
+  "date": "2000-1750 BCE",
+  "start": -2000,
+  "end": -1750,
+  "culture": "Egypt",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/135850",
+  "canon_id": "COM002",
+  "canon_name": "Nubians",
+  "sub_regions": [
+   "AF-EGY",
+   "AF-NUB"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM002",
+  "canon_name": "Nubians",
+  "sub_regions": [
+   "AF-EGY",
+   "AF-NUB"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM002",
+  "canon_name": "Nubians",
+  "sub_regions": [
+   "AF-EGY",
+   "AF-NUB"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM002",
+  "canon_name": "Nubians",
+  "sub_regions": [
+   "AF-EGY",
+   "AF-NUB"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM010",
+  "canon_name": "Imazighen",
+  "sub_regions": [
+   "AF-MAG",
+   "AF-SAH",
+   "AF-EGY"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM010",
+  "canon_name": "Imazighen",
+  "sub_regions": [
+   "AF-MAG",
+   "AF-SAH",
+   "AF-EGY"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM010",
+  "canon_name": "Imazighen",
+  "sub_regions": [
+   "AF-MAG",
+   "AF-SAH",
+   "AF-EGY"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM010",
+  "canon_name": "Imazighen",
+  "sub_regions": [
+   "AF-MAG",
+   "AF-SAH",
+   "AF-EGY"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM010",
+  "canon_name": "Imazighen",
+  "sub_regions": [
+   "AF-MAG",
+   "AF-SAH",
+   "AF-EGY"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM011",
+  "canon_name": "Iqbayliyen",
+  "sub_regions": [
+   "AF-MAG"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM011",
+  "canon_name": "Iqbayliyen",
+  "sub_regions": [
+   "AF-MAG"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM011",
+  "canon_name": "Iqbayliyen",
+  "sub_regions": [
+   "AF-MAG"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM011",
+  "canon_name": "Iqbayliyen",
+  "sub_regions": [
+   "AF-MAG"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM011",
+  "canon_name": "Iqbayliyen",
+  "sub_regions": [
+   "AF-MAG"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM016",
+  "canon_name": "Kel Tamasheq",
+  "sub_regions": [
+   "AF-SAH",
+   "AF-MAG"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM016",
+  "canon_name": "Kel Tamasheq",
+  "sub_regions": [
+   "AF-SAH",
+   "AF-MAG"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM016",
+  "canon_name": "Kel Tamasheq",
+  "sub_regions": [
+   "AF-SAH",
+   "AF-MAG"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM016",
+  "canon_name": "Kel Tamasheq",
+  "sub_regions": [
+   "AF-SAH",
+   "AF-MAG"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM016",
+  "canon_name": "Kel Tamasheq",
+  "sub_regions": [
+   "AF-SAH",
+   "AF-MAG"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM017",
+  "canon_name": "Bamanan",
+  "sub_regions": [
+   "AF-SAH"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM017",
+  "canon_name": "Bamanan",
+  "sub_regions": [
+   "AF-SAH"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM017",
+  "canon_name": "Bamanan",
+  "sub_regions": [
+   "AF-SAH"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM017",
+  "canon_name": "Bamanan",
+  "sub_regions": [
+   "AF-SAH"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM017",
+  "canon_name": "Bamanan",
+  "sub_regions": [
+   "AF-SAH"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1975.151",
+  "title": "Mask (Omono or Tana Wurum Bogoro)",
+  "date": "early 1900s",
+  "start": 1900,
+  "end": 1940,
+  "culture": "Africa, West Africa, Mali, Dogon-style blacksmith-carver",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1975.151",
+  "canon_id": "COM018",
+  "canon_name": "Dogon",
+  "sub_regions": [
+   "AF-SAH"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1960.169",
+  "title": "Face Mask with Female Figure (satimbe)",
+  "date": "early to mid-1900s",
+  "start": 1900,
+  "end": 1950,
+  "culture": "Africa, West Africa, Mali, Dogon-style blacksmith-carver",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1960.169",
+  "canon_id": "COM018",
+  "canon_name": "Dogon",
+  "sub_regions": [
+   "AF-SAH"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1975.1008",
+  "title": "Ring",
+  "date": "before 1975",
+  "start": 1900,
+  "end": 1975,
+  "culture": "Africa, West Africa, Mali, Dogon-style maker",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1975.1008",
+  "canon_id": "COM018",
+  "canon_name": "Dogon",
+  "sub_regions": [
+   "AF-SAH"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1996.41",
+  "title": "Male Figure",
+  "date": "Possibly 18th century",
+  "start": 1701,
+  "end": 1800,
+  "culture": "Mali",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/144353",
+  "canon_id": "COM018",
+  "canon_name": "Dogon",
+  "sub_regions": [
+   "AF-SAH"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1961.911",
+  "title": "Equestrian Figure",
+  "date": "16th/19th century",
+  "start": 1500,
+  "end": 1900,
+  "culture": "Mali",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/87106",
+  "canon_id": "COM018",
+  "canon_name": "Dogon",
+  "sub_regions": [
+   "AF-SAH"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1991.388",
+  "title": "Female Figure",
+  "date": "Possibly 11th to 19th century",
+  "start": 1001,
+  "end": 1900,
+  "culture": "Mali",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/117839",
+  "canon_id": "COM018",
+  "canon_name": "Dogon",
+  "sub_regions": [
+   "AF-SAH"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM018",
+  "canon_name": "Dogon",
+  "sub_regions": [
+   "AF-SAH"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM018",
+  "canon_name": "Dogon",
+  "sub_regions": [
+   "AF-SAH"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1961.198",
+  "title": "Nursing Woman with Child",
+  "date": "1800s-1900s",
+  "start": 1800,
+  "end": 1961,
+  "culture": "Africa, West Africa, Côte d'Ivoire, reportedly Korhogo area, Senufo-style carver",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1961.198",
+  "canon_id": "COM019",
+  "canon_name": "Senufo",
+  "sub_regions": [
+   "AF-SAH",
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1975.152",
+  "title": "Helmet Mask",
+  "date": "early to mid-1900s",
+  "start": 1900,
+  "end": 1950,
+  "culture": "Africa, West Africa, Côte d'Ivoire, Senufo-style carver",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1975.152",
+  "canon_id": "COM019",
+  "canon_name": "Senufo",
+  "sub_regions": [
+   "AF-SAH",
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1972.336",
+  "title": "Helmet Mask",
+  "date": "early to mid-1900s",
+  "start": 1900,
+  "end": 1950,
+  "culture": "Western Sudan, Ivory Coast, Senufo, 20th century",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1972.336",
+  "canon_id": "COM019",
+  "canon_name": "Senufo",
+  "sub_regions": [
+   "AF-SAH",
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1974.204",
+  "title": "Bird Standard",
+  "date": "early to mid-1900s",
+  "start": 1900,
+  "end": 1950,
+  "culture": "Africa, West Africa, Côte d'Ivoire, Senufo-style carver",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1974.204",
+  "canon_id": "COM019",
+  "canon_name": "Senufo",
+  "sub_regions": [
+   "AF-SAH",
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1969.136",
+  "title": "Hornbill",
+  "date": "1900s",
+  "start": 1900,
+  "end": 1960,
+  "culture": "Africa, West Africa, Côte d'Ivoire, Senufo style, unknown maker",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1969.136",
+  "canon_id": "COM019",
+  "canon_name": "Senufo",
+  "sub_regions": [
+   "AF-SAH",
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM019",
+  "canon_name": "Senufo",
+  "sub_regions": [
+   "AF-SAH",
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM019",
+  "canon_name": "Senufo",
+  "sub_regions": [
+   "AF-SAH",
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM019",
+  "canon_name": "Senufo",
+  "sub_regions": [
+   "AF-SAH",
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM019",
+  "canon_name": "Senufo",
+  "sub_regions": [
+   "AF-SAH",
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM019",
+  "canon_name": "Senufo",
+  "sub_regions": [
+   "AF-SAH",
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM024",
+  "canon_name": "Hausawa",
+  "sub_regions": [
+   "AF-SAH"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM024",
+  "canon_name": "Hausawa",
+  "sub_regions": [
+   "AF-SAH"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM024",
+  "canon_name": "Hausawa",
+  "sub_regions": [
+   "AF-SAH"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM024",
+  "canon_name": "Hausawa",
+  "sub_regions": [
+   "AF-SAH"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM024",
+  "canon_name": "Hausawa",
+  "sub_regions": [
+   "AF-SAH"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1995.23",
+  "title": "Ifá diviner's necklace (òdìgbà Ifá)",
+  "date": "1900s",
+  "start": 1900,
+  "end": 1930,
+  "culture": "Africa, West Africa, Nigeria, Yorùbá-style maker",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1995.23",
+  "canon_id": "COM027",
+  "canon_name": "Yorùbá",
+  "sub_regions": [
+   "AF-GUI",
+   "AM-CAR",
+   "AM-LAT"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1998.278",
+  "title": "Coronet (oríkògbófo)",
+  "date": "1900s",
+  "start": 1900,
+  "end": 2000,
+  "culture": "Africa, West Africa, Nigeria, Yorùbá-style maker",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1998.278",
+  "canon_id": "COM027",
+  "canon_name": "Yorùbá",
+  "sub_regions": [
+   "AF-GUI",
+   "AM-CAR",
+   "AM-LAT"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "2018.34",
+  "title": "Dance staff for Èṣù (Ògò Èlẹ́gba)",
+  "date": "1800s",
+  "start": 1800,
+  "end": 1899,
+  "culture": "Africa, West Africa, Nigeria, Yorùbá-style maker",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/2018.34",
+  "canon_id": "COM027",
+  "canon_name": "Yorùbá",
+  "sub_regions": [
+   "AF-GUI",
+   "AM-CAR",
+   "AM-LAT"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1972.339",
+  "title": "Shrine Figure for Sàngó",
+  "date": "c. 1910",
+  "start": 1905,
+  "end": 1915,
+  "culture": "Africa, West Africa, Nigeria, Yorùbá-style maker",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1972.339",
+  "canon_id": "COM027",
+  "canon_name": "Yorùbá",
+  "sub_regions": [
+   "AF-GUI",
+   "AM-CAR",
+   "AM-LAT"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1998.279",
+  "title": "Coronet (oríkògbófo)",
+  "date": "1900s",
+  "start": 1900,
+  "end": 2000,
+  "culture": "Africa, West Africa, Nigeria, Yorùbá-style maker",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1998.279",
+  "canon_id": "COM027",
+  "canon_name": "Yorùbá",
+  "sub_regions": [
+   "AF-GUI",
+   "AM-CAR",
+   "AM-LAT"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2000.316",
+  "title": "Tapper (Iroke Ifa)",
+  "date": "17th or 18th century",
+  "start": 1601,
+  "end": 1800,
+  "culture": "Nigeria",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/155958",
+  "canon_id": "COM027",
+  "canon_name": "Yorùbá",
+  "sub_regions": [
+   "AF-GUI",
+   "AM-CAR",
+   "AM-LAT"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1976.308",
+  "title": "Mask for Egungun (Ere Egungun)",
+  "date": "Late 19th century",
+  "start": 1875,
+  "end": 1900,
+  "culture": "Nigeria",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/51194",
+  "canon_id": "COM027",
+  "canon_name": "Yorùbá",
+  "sub_regions": [
+   "AF-GUI",
+   "AM-CAR",
+   "AM-LAT"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1991.396",
+  "title": "Esu Dance Staff (Ogo Elegbara)",
+  "date": "Mid–late 19th century",
+  "start": 1825,
+  "end": 1900,
+  "culture": "Nigeria",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/117845",
+  "canon_id": "COM027",
+  "canon_name": "Yorùbá",
+  "sub_regions": [
+   "AF-GUI",
+   "AM-CAR",
+   "AM-LAT"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2000.314a",
+  "title": "Headdress (Jagún Jagún)",
+  "date": "Mid– late 19th century",
+  "start": 1834,
+  "end": 1900,
+  "culture": "Nigeria",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/155956",
+  "canon_id": "COM027",
+  "canon_name": "Yorùbá",
+  "sub_regions": [
+   "AF-GUI",
+   "AM-CAR",
+   "AM-LAT"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1969.240",
+  "title": "Headdress (Ago Egungun)",
+  "date": "Mid–late 19th century",
+  "start": 1850,
+  "end": 1899,
+  "culture": "Nigeria",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/31581",
+  "canon_id": "COM027",
+  "canon_name": "Yorùbá",
+  "sub_regions": [
+   "AF-GUI",
+   "AM-CAR",
+   "AM-LAT"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1985.320",
+  "title": "The Moon-Viewing Promontory, from One Hundred Views of Famous Places in Edo",
+  "date": "1857",
+  "start": 1857,
+  "end": 1857,
+  "culture": "Japan, Edo period (1615–1868)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1985.320",
+  "canon_id": "COM028",
+  "canon_name": "Edo",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1921.318",
+  "title": "Sudden Shower over Shin-Ōhashi Bridge and Atake, from One Hundred Famous Views of Edo",
+  "date": "1857",
+  "start": 1857,
+  "end": 1857,
+  "culture": "Japan, Edo period (1615–1868)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1921.318",
+  "canon_id": "COM028",
+  "canon_name": "Edo",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1940.986",
+  "title": "Fireworks at Ryōgoku, from the series One Hundred Views of Famous Places in Edo",
+  "date": "1858",
+  "start": 1858,
+  "end": 1858,
+  "culture": "Japan, Edo period (1615–1868)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1940.986",
+  "canon_id": "COM028",
+  "canon_name": "Edo",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1992.73",
+  "title": "Tsukudajima from  Eitai Bridge, from the series One Hundred Views of Famous Places in Edo",
+  "date": "1858",
+  "start": 1858,
+  "end": 1858,
+  "culture": "Japan, Edo period (1615–1868)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1992.73",
+  "canon_id": "COM028",
+  "canon_name": "Edo",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1985.315",
+  "title": "Gathering Shellfish at Low Tide at Susaki, from Famous Places in Edo",
+  "date": "mid-1830s",
+  "start": 1834,
+  "end": 1837,
+  "culture": "Japan, Edo period (1615–1868)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1985.315",
+  "canon_id": "COM028",
+  "canon_name": "Edo",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2003.16",
+  "title": "Head (Uhunmwun Elao)",
+  "date": "18th/early 19th century",
+  "start": 1701,
+  "end": 1825,
+  "culture": "Nigeria",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/180750",
+  "canon_id": "COM028",
+  "canon_name": "Edo",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1976.523",
+  "title": "Tusk",
+  "date": "1850-1888",
+  "start": 1850,
+  "end": 1888,
+  "culture": "Nigeria",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/51809",
+  "canon_id": "COM028",
+  "canon_name": "Edo",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1933.782",
+  "title": "Plaque",
+  "date": "16th/17th century",
+  "start": 1501,
+  "end": 1700,
+  "culture": "Nigeria",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/15457",
+  "canon_id": "COM028",
+  "canon_name": "Edo",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1999.375",
+  "title": "Commemorative Head",
+  "date": "Probably mid–17th/mid–18th century",
+  "start": 1650,
+  "end": 1750,
+  "culture": "Nigeria",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/152856",
+  "canon_id": "COM028",
+  "canon_name": "Edo",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1956.1222",
+  "title": "Panel",
+  "date": "late Edo period (1789–1868)/ Meiji period (1868–1912), 19th century",
+  "start": 1801,
+  "end": 1900,
+  "culture": "Japan",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4961",
+  "canon_id": "COM028",
+  "canon_name": "Edo",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2006.118.1-4",
+  "title": "Four Bracelets",
+  "date": "Probably 19th century",
+  "start": 1801,
+  "end": 1899,
+  "culture": "Nigeria",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/185865",
+  "canon_id": "COM029",
+  "canon_name": "Ndi Igbo",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM029",
+  "canon_name": "Ndi Igbo",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM029",
+  "canon_name": "Ndi Igbo",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM029",
+  "canon_name": "Ndi Igbo",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM029",
+  "canon_name": "Ndi Igbo",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM030",
+  "canon_name": "Asantefoɔ",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM030",
+  "canon_name": "Asantefoɔ",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM030",
+  "canon_name": "Asantefoɔ",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM030",
+  "canon_name": "Asantefoɔ",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM030",
+  "canon_name": "Asantefoɔ",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "2024.71",
+  "title": "\"Spider\" Prestige Headdress (shüötu kam tet)",
+  "date": "1900",
+  "start": 1900,
+  "end": 1950,
+  "culture": "Possibly Bamum style, unknown maker, Grassfields region, Cameroon",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/2024.71",
+  "canon_id": "COM031",
+  "canon_name": "Fon",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM031",
+  "canon_name": "Fon",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM031",
+  "canon_name": "Fon",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM031",
+  "canon_name": "Fon",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM031",
+  "canon_name": "Fon",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM031",
+  "canon_name": "Fon",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1971.297.1",
+  "title": "Male Figure from a Pair (asye usu)",
+  "date": "late 1800s–early 1900s",
+  "start": 1880,
+  "end": 1935,
+  "culture": "Africa, West Africa, Côte d’Ivoire, Baule-style carver",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1971.297.1",
+  "canon_id": "COM036",
+  "canon_name": "Baule",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1971.297.2",
+  "title": "Female Figure from a Pair (asye usu)",
+  "date": "late 1800s–early 1900s",
+  "start": 1880,
+  "end": 1920,
+  "culture": "Africa, West Africa, Côte d’Ivoire, Baule-style carver",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1971.297.2",
+  "canon_id": "COM036",
+  "canon_name": "Baule",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1971.297",
+  "title": "Figure Pair (asye usu)",
+  "date": "late 1800s–early 1900s",
+  "start": 1880,
+  "end": 1935,
+  "culture": "Africa, West Africa, Côte d’Ivoire, Baule-style carver",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1971.297",
+  "canon_id": "COM036",
+  "canon_name": "Baule",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1931.204",
+  "title": "Male Figure",
+  "date": "by 1931",
+  "start": 1900,
+  "end": 1931,
+  "culture": "Africa, West Africa, Côte d'Ivoire, Baule peoples",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1931.204",
+  "canon_id": "COM036",
+  "canon_name": "Baule",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1974.203",
+  "title": "Portrait Mask (mblo)",
+  "date": "early to mid-1900s",
+  "start": 1900,
+  "end": 1960,
+  "culture": "Africa, West Africa, Côte d’Ivoire, Baule-style carver",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1974.203",
+  "canon_id": "COM036",
+  "canon_name": "Baule",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1985.62",
+  "title": "Figural Staff",
+  "date": "Probably late 19th century",
+  "start": 1875,
+  "end": 1900,
+  "culture": "Côte d'Ivoire",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/103909",
+  "canon_id": "COM036",
+  "canon_name": "Baule",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM036",
+  "canon_name": "Baule",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM036",
+  "canon_name": "Baule",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM036",
+  "canon_name": "Baule",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM036",
+  "canon_name": "Baule",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1972.331",
+  "title": "Face Mask",
+  "date": "possibly early 1900s",
+  "start": 1900,
+  "end": 1925,
+  "culture": "Africa, West Africa, Côte d'Ivoire or Liberia, Dan-style maker",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1972.331",
+  "canon_id": "COM037",
+  "canon_name": "Dan",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "2022.23",
+  "title": "Taihu Garden Stone",
+  "date": "0",
+  "start": -1,
+  "end": -1,
+  "culture": "China, Jiangsu province, Wuxi",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/2022.23",
+  "canon_id": "COM037",
+  "canon_name": "Dan",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1978.63",
+  "title": "In the Waves (Dans les Vagues)",
+  "date": "1889",
+  "start": 1889,
+  "end": 1889,
+  "culture": "France, 19th century",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1978.63",
+  "canon_id": "COM037",
+  "canon_name": "Dan",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "2013.52",
+  "title": "Ceremonial Ladle (Wunkirmian or Wakemia)",
+  "date": "possibly late 1800s or early 1900s",
+  "start": 1875,
+  "end": 1925,
+  "culture": "Africa, West Africa, Côte d'Ivoire, Dan-style carver",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/2013.52",
+  "canon_id": "COM037",
+  "canon_name": "Dan",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "2024.145",
+  "title": "The Twelve Sons of Jacob",
+  "date": "c. 1589",
+  "start": 1584,
+  "end": 1594,
+  "culture": "Netherlands",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/2024.145",
+  "canon_id": "COM037",
+  "canon_name": "Dan",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1965.553",
+  "title": "Chaise dans un Jardin",
+  "date": "1842/50, printed 1965",
+  "start": 1842,
+  "end": 1850,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/23756",
+  "canon_id": "COM037",
+  "canon_name": "Dan",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1930.126",
+  "title": "Yvette Guilbert—Dans la Glu, from Yvette Guilbert",
+  "date": "1898",
+  "start": 1898,
+  "end": 1898,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4574",
+  "canon_id": "COM037",
+  "canon_name": "Dan",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1930.800",
+  "title": "Dans la glu, plate two from Yvette Guilbert",
+  "date": "1898, printed 1930",
+  "start": 1898,
+  "end": 1898,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/6155",
+  "canon_id": "COM037",
+  "canon_name": "Dan",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2008.188",
+  "title": "The Captive Slave (Ira Aldridge)",
+  "date": "1827",
+  "start": 1827,
+  "end": 1827,
+  "culture": "England",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/193664",
+  "canon_id": "COM037",
+  "canon_name": "Dan",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1963.1021",
+  "title": "Versailles, Fontaine dans la Cour de Marbre",
+  "date": "1903",
+  "start": 1903,
+  "end": 1903,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/124095",
+  "canon_id": "COM037",
+  "canon_name": "Dan",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1929.912.b",
+  "title": "Tetradrachm: Grapevine within Square and Incuse Square (reverse)",
+  "date": "c. 430 BCE",
+  "start": -435,
+  "end": -425,
+  "culture": "Greek, minted at Mende (Chalkidiki)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1929.912.b",
+  "canon_id": "COM038",
+  "canon_name": "Mende",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1929.912",
+  "title": "Tetradrachm: Dionysos on Donkey (obverse); Grapevine (reverse)",
+  "date": "c. 430 BCE",
+  "start": -435,
+  "end": -425,
+  "culture": "Greek, minted at Mende (Chalkidiki)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1929.912",
+  "canon_id": "COM038",
+  "canon_name": "Mende",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1929.912.a",
+  "title": "Tetradrachm: Dionysos with Kantharos on Donkey (obverse)",
+  "date": "c. 430 BCE",
+  "start": -435,
+  "end": -425,
+  "culture": "Greek, minted at Mende (Chalkidiki)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1929.912.a",
+  "canon_id": "COM038",
+  "canon_name": "Mende",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1992.188",
+  "title": "Female Figure",
+  "date": "early 1900s",
+  "start": 1900,
+  "end": 1925,
+  "culture": "Africa, West Africa, Sierra Leone, Mende or Bullom style, unknown maker",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1992.188",
+  "canon_id": "COM038",
+  "canon_name": "Mende",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1959.636",
+  "title": "Woman Mending",
+  "date": "1895",
+  "start": 1895,
+  "end": 1895,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11312",
+  "canon_id": "COM038",
+  "canon_name": "Mende",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2002.102",
+  "title": "Old Woman Mending at the Window",
+  "date": "1881",
+  "start": 1881,
+  "end": 1881,
+  "culture": "Germany",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/158970",
+  "canon_id": "COM038",
+  "canon_name": "Mende",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1913.1074",
+  "title": "Mending",
+  "date": "1905",
+  "start": 1905,
+  "end": 1905,
+  "culture": "Sweden",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/55464",
+  "canon_id": "COM038",
+  "canon_name": "Mende",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1927.2660",
+  "title": "Man Mending Scythe",
+  "date": "c. 1862",
+  "start": 1857,
+  "end": 1867,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/43484",
+  "canon_id": "COM038",
+  "canon_name": "Mende",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1935.197",
+  "title": "“I don't give a damn about your Miss Sand who prevents women from mending pants and darning socks! ... We must re-establish divorce or suppress those authors!,” plate 6 from Moeurs Conjugales",
+  "date": "1839",
+  "start": 1839,
+  "end": 1839,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/21559",
+  "canon_id": "COM038",
+  "canon_name": "Mende",
+  "sub_regions": [
+   "AF-GUI"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1994.87",
+  "title": "Royal Belt (yet)",
+  "date": "possibly early 1900s",
+  "start": 1900,
+  "end": 1925,
+  "culture": "Africa, Central Africa, Democratic Republic of Congo, Kuba Kingdom, Kuba-style maker",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1994.87",
+  "canon_id": "COM042",
+  "canon_name": "Kuba peoples",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1992.102",
+  "title": "Embroidered Raffia Pile Cloth",
+  "date": "1900s",
+  "start": 1900,
+  "end": 1990,
+  "culture": "Africa, Central Africa, Democratic Republic of Congo, Kuba peoples, 20th century",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1992.102",
+  "canon_id": "COM042",
+  "canon_name": "Kuba peoples",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1991.224",
+  "title": "Embroidered Raffia Pile Cloth",
+  "date": "1900s",
+  "start": 1900,
+  "end": 1990,
+  "culture": "Africa, Central Africa, Democratic Republic of Congo, Kuba peoples, 20th century",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1991.224",
+  "canon_id": "COM042",
+  "canon_name": "Kuba peoples",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1991.225",
+  "title": "Embroidered Raffia Pile Cloth",
+  "date": "1900s",
+  "start": 1900,
+  "end": 1990,
+  "culture": "Africa, Central Africa, Democratic Republic of Congo, Kuba peoples, 20th century",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1991.225",
+  "canon_id": "COM042",
+  "canon_name": "Kuba peoples",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1928.173",
+  "title": "Drinking Container",
+  "date": "Probably late 19th century",
+  "start": 1850,
+  "end": 1899,
+  "culture": "Democratic Republic of the Congo",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/88689",
+  "canon_id": "COM042",
+  "canon_name": "Kuba peoples",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1997.699",
+  "title": "Belt (Yeemy Mambolmashet)",
+  "date": "19th century",
+  "start": 1801,
+  "end": 1900,
+  "culture": "Democratic Republic of the Congo",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/148326",
+  "canon_id": "COM042",
+  "canon_name": "Kuba peoples",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1997.460",
+  "title": "Pendant",
+  "date": "19th century",
+  "start": 1801,
+  "end": 1900,
+  "culture": "Democratic Republic of the Congo",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/148324",
+  "canon_id": "COM042",
+  "canon_name": "Kuba peoples",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1997.461",
+  "title": "Pendant Belt (Nkody Mupaap)",
+  "date": "19th century",
+  "start": 1801,
+  "end": 1900,
+  "culture": "Democratic Republic of the Congo",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/148325",
+  "canon_id": "COM042",
+  "canon_name": "Kuba peoples",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1985.199",
+  "title": "Ceremonial Skirt",
+  "date": "1875/1900",
+  "start": 1875,
+  "end": 1900,
+  "culture": "Democratic Republic of the Congo",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/110059",
+  "canon_id": "COM042",
+  "canon_name": "Kuba peoples",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM043",
+  "canon_name": "Baluba",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM043",
+  "canon_name": "Baluba",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM043",
+  "canon_name": "Baluba",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM043",
+  "canon_name": "Baluba",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM043",
+  "canon_name": "Baluba",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "2024.140",
+  "title": "Ceremonial Chair or Throne (citwamo ca mangu)",
+  "date": "1800s",
+  "start": 1800,
+  "end": 1899,
+  "culture": "Africa, Central Africa, Angola, Chokwe-style carver",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/2024.140",
+  "canon_id": "COM044",
+  "canon_name": "Chokwe",
+  "sub_regions": [
+   "AF-CEN",
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1978.28",
+  "title": "Snuff Mortar (Tesa Ya Ma Kanya)",
+  "date": "late 1800s",
+  "start": 1880,
+  "end": 1900,
+  "culture": "Africa, Central Africa, Angola or Democratic Republic of Congo, Chokwe carver",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1978.28",
+  "canon_id": "COM044",
+  "canon_name": "Chokwe",
+  "sub_regions": [
+   "AF-CEN",
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1915.442",
+  "title": "Whistle",
+  "date": "late 1800s",
+  "start": 1880,
+  "end": 1900,
+  "culture": "Africa, Central Africa, Democratic Republic of the Congo or Angola, Chokwe-style maker",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1915.442",
+  "canon_id": "COM044",
+  "canon_name": "Chokwe",
+  "sub_regions": [
+   "AF-CEN",
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1915.443",
+  "title": "Whistle (kasengosengo)",
+  "date": "late 1800s",
+  "start": 1880,
+  "end": 1899,
+  "culture": "Central Africa, Democratic Republic of Congo or Angola, Chokwe people",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1915.443",
+  "canon_id": "COM044",
+  "canon_name": "Chokwe",
+  "sub_regions": [
+   "AF-CEN",
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1915.453",
+  "title": "Comb (cisakulo)",
+  "date": "mid- to late 1800s",
+  "start": 1850,
+  "end": 1899,
+  "culture": "Africa, Central Africa, Angola, or Democratic Republic of Congo, Chokwe-style",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1915.453",
+  "canon_id": "COM044",
+  "canon_name": "Chokwe",
+  "sub_regions": [
+   "AF-CEN",
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2003.174",
+  "title": "Male Face Mask (Chihongo)",
+  "date": "Mid–late 19th century",
+  "start": 1850,
+  "end": 1900,
+  "culture": "Angola",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/181740",
+  "canon_id": "COM044",
+  "canon_name": "Chokwe",
+  "sub_regions": [
+   "AF-CEN",
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM044",
+  "canon_name": "Chokwe",
+  "sub_regions": [
+   "AF-CEN",
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM044",
+  "canon_name": "Chokwe",
+  "sub_regions": [
+   "AF-CEN",
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM044",
+  "canon_name": "Chokwe",
+  "sub_regions": [
+   "AF-CEN",
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM044",
+  "canon_name": "Chokwe",
+  "sub_regions": [
+   "AF-CEN",
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM045",
+  "canon_name": "Bakongo",
+  "sub_regions": [
+   "AF-CEN",
+   "AM-CAR",
+   "AM-LAT"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM045",
+  "canon_name": "Bakongo",
+  "sub_regions": [
+   "AF-CEN",
+   "AM-CAR",
+   "AM-LAT"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM045",
+  "canon_name": "Bakongo",
+  "sub_regions": [
+   "AF-CEN",
+   "AM-CAR",
+   "AM-LAT"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM045",
+  "canon_name": "Bakongo",
+  "sub_regions": [
+   "AF-CEN",
+   "AM-CAR",
+   "AM-LAT"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM045",
+  "canon_name": "Bakongo",
+  "sub_regions": [
+   "AF-CEN",
+   "AM-CAR",
+   "AM-LAT"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1942.233",
+  "title": "Ink Cake with Wang Ziqiao",
+  "date": "c. 1600s",
+  "start": 1600,
+  "end": 1699,
+  "culture": "China, Ming dynasty (1368-1644) - Qing dynasty (1644-1911)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1942.233",
+  "canon_id": "COM046",
+  "canon_name": "Fang",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1982.34",
+  "title": "Landscape Ink-Play",
+  "date": "1300s",
+  "start": 1300,
+  "end": 1399,
+  "culture": "China, Yuan dynasty (1271-1368)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1982.34",
+  "canon_id": "COM046",
+  "canon_name": "Fang",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1979.72",
+  "title": "The Ninth Day Literary Gathering at Xing’an [Temporary Retreat]",
+  "date": "1743",
+  "start": 1743,
+  "end": 1743,
+  "culture": "China, Qing dynasty (1644-1911)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1979.72",
+  "canon_id": "COM046",
+  "canon_name": "Fang",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1915.334.2",
+  "title": "Fang Xuanling Pedestal",
+  "date": "647",
+  "start": 647,
+  "end": 647,
+  "culture": "China, Tang dynasty (618–907)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1915.334.2",
+  "canon_id": "COM046",
+  "canon_name": "Fang",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1985.139",
+  "title": "Two Textile Fragment with Fanged Heads",
+  "date": "500–200 BCE",
+  "start": -500,
+  "end": -200,
+  "culture": "Peru, South Coast, Ica Valley, Chavín style",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1985.139",
+  "canon_id": "COM046",
+  "canon_name": "Fang",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2006.127",
+  "title": "Head",
+  "date": "Mid–late 19th century",
+  "start": 1850,
+  "end": 1899,
+  "culture": "Gabon",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/187528",
+  "canon_id": "COM046",
+  "canon_name": "Fang",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1958.395.c",
+  "title": "Landscape in the Style of Ancient Masters: after Fang Congyi",
+  "date": "Ming dynasty (1368–1644), first half of 17th century",
+  "start": 1637,
+  "end": 1647,
+  "culture": "China",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/204589",
+  "canon_id": "COM046",
+  "canon_name": "Fang",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1933.1651",
+  "title": "Fei Jiang-fang with a Crane",
+  "date": "Late 17th–early 18th century",
+  "start": 1636,
+  "end": 1713,
+  "culture": "Japan",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/17948",
+  "canon_id": "COM046",
+  "canon_name": "Fang",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1958.726",
+  "title": "Handle Spout Vessel in the Form of an Anthropomorphic Owl with Feline Fangs, Holding a Serpent",
+  "date": "100 BCE–500 CE",
+  "start": -100,
+  "end": 500,
+  "culture": "Peru",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/9307",
+  "canon_id": "COM046",
+  "canon_name": "Fang",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1997.479.3",
+  "title": "Pendant in the Shape of a Claw or Fang",
+  "date": "400 BCE–1200 CE",
+  "start": -400,
+  "end": 1200,
+  "culture": "Mexico",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/148410",
+  "canon_id": "COM046",
+  "canon_name": "Fang",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM047",
+  "canon_name": "Basongye",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM047",
+  "canon_name": "Basongye",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM047",
+  "canon_name": "Basongye",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM047",
+  "canon_name": "Basongye",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM047",
+  "canon_name": "Basongye",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1983.33",
+  "title": "Prestige Chair",
+  "date": "1800s",
+  "start": 1800,
+  "end": 1899,
+  "culture": "Africa, Central Africa, Cameroon, Babanki-style maker",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1983.33",
+  "canon_id": "COM049",
+  "canon_name": "Grassfields peoples",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2009.6",
+  "title": "Tunic (Jibbeh)",
+  "date": "1885/99",
+  "start": 1885,
+  "end": 1899,
+  "culture": "Sudan",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/198530",
+  "canon_id": "COM049",
+  "canon_name": "Grassfields peoples",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1889.8",
+  "title": "The Lost Pleiade",
+  "date": "1874–75",
+  "start": 1874,
+  "end": 1875,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/153",
+  "canon_id": "COM049",
+  "canon_name": "Grassfields peoples",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1997.189",
+  "title": "Sin Mi (Woman's Funerary Skirt)",
+  "date": "Late 19th century",
+  "start": 1850,
+  "end": 1900,
+  "culture": "Laos",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/149006",
+  "canon_id": "COM049",
+  "canon_name": "Grassfields peoples",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1947.32",
+  "title": "Winged Figure",
+  "date": "1889",
+  "start": 1889,
+  "end": 1889,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/59798",
+  "canon_id": "COM049",
+  "canon_name": "Grassfields peoples",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1917.3",
+  "title": "Elaine",
+  "date": "1874",
+  "start": 1874,
+  "end": 1874,
+  "culture": "Munich",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/72320",
+  "canon_id": "COM049",
+  "canon_name": "Grassfields peoples",
+  "sub_regions": [
+   "AF-CEN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM053",
+  "canon_name": "Amhara",
+  "sub_regions": [
+   "AF-HRN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM053",
+  "canon_name": "Amhara",
+  "sub_regions": [
+   "AF-HRN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM053",
+  "canon_name": "Amhara",
+  "sub_regions": [
+   "AF-HRN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM053",
+  "canon_name": "Amhara",
+  "sub_regions": [
+   "AF-HRN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM053",
+  "canon_name": "Amhara",
+  "sub_regions": [
+   "AF-HRN"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM061",
+  "canon_name": "Waswahili",
+  "sub_regions": [
+   "AF-SWA",
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM061",
+  "canon_name": "Waswahili",
+  "sub_regions": [
+   "AF-SWA",
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM061",
+  "canon_name": "Waswahili",
+  "sub_regions": [
+   "AF-SWA",
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM061",
+  "canon_name": "Waswahili",
+  "sub_regions": [
+   "AF-SWA",
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM061",
+  "canon_name": "Waswahili",
+  "sub_regions": [
+   "AF-SWA",
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM062",
+  "canon_name": "Maasai",
+  "sub_regions": [
+   "AF-SWA"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM062",
+  "canon_name": "Maasai",
+  "sub_regions": [
+   "AF-SWA"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM062",
+  "canon_name": "Maasai",
+  "sub_regions": [
+   "AF-SWA"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM062",
+  "canon_name": "Maasai",
+  "sub_regions": [
+   "AF-SWA"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM062",
+  "canon_name": "Maasai",
+  "sub_regions": [
+   "AF-SWA"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM066",
+  "canon_name": "Wamakonde",
+  "sub_regions": [
+   "AF-SWA",
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM066",
+  "canon_name": "Wamakonde",
+  "sub_regions": [
+   "AF-SWA",
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM066",
+  "canon_name": "Wamakonde",
+  "sub_regions": [
+   "AF-SWA",
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM066",
+  "canon_name": "Wamakonde",
+  "sub_regions": [
+   "AF-SWA",
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM066",
+  "canon_name": "Wamakonde",
+  "sub_regions": [
+   "AF-SWA",
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1929.368",
+  "title": "Bark Cloth",
+  "date": "early 1900s",
+  "start": 1900,
+  "end": 1920,
+  "culture": "Africa, East Africa, Uganda, Baganda style, unknown maker",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1929.368",
+  "canon_id": "COM067",
+  "canon_name": "Baganda",
+  "sub_regions": [
+   "AF-SWA"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM067",
+  "canon_name": "Baganda",
+  "sub_regions": [
+   "AF-SWA"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM067",
+  "canon_name": "Baganda",
+  "sub_regions": [
+   "AF-SWA"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM067",
+  "canon_name": "Baganda",
+  "sub_regions": [
+   "AF-SWA"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM067",
+  "canon_name": "Baganda",
+  "sub_regions": [
+   "AF-SWA"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM067",
+  "canon_name": "Baganda",
+  "sub_regions": [
+   "AF-SWA"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM070",
+  "canon_name": "amaZulu",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM070",
+  "canon_name": "amaZulu",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM070",
+  "canon_name": "amaZulu",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM070",
+  "canon_name": "amaZulu",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM070",
+  "canon_name": "amaZulu",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM071",
+  "canon_name": "amaNdebele",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM071",
+  "canon_name": "amaNdebele",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM071",
+  "canon_name": "amaNdebele",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM071",
+  "canon_name": "amaNdebele",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM071",
+  "canon_name": "amaNdebele",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1951.83",
+  "title": "Piazza San Marco, Venice",
+  "date": "1780s",
+  "start": 1780,
+  "end": 1789,
+  "culture": "Italy, Venice",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1951.83",
+  "canon_id": "COM075",
+  "canon_name": "San",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1968.206",
+  "title": "Madonna and Child Enthroned",
+  "date": "c. 1350",
+  "start": 1345,
+  "end": 1355,
+  "culture": "Italy",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1968.206",
+  "canon_id": "COM075",
+  "canon_name": "San",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1962.169",
+  "title": "Piazza San Marco, Venice",
+  "date": "c. 1740",
+  "start": 1735,
+  "end": 1745,
+  "culture": "Italy",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1962.169",
+  "canon_id": "COM075",
+  "canon_name": "San",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1976.9",
+  "title": "Portrait of a Woman, Possibly a Novice of San Secondo",
+  "date": "c. 1490",
+  "start": 1485,
+  "end": 1495,
+  "culture": "Italy",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1976.9",
+  "canon_id": "COM075",
+  "canon_name": "San",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "2019.168",
+  "title": "Holy Family with the Mystic Marriage of Saint Catherine",
+  "date": "c. 1560",
+  "start": 1550,
+  "end": 1570,
+  "culture": "Italy",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/2019.168",
+  "canon_id": "COM075",
+  "canon_name": "San",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2013.163",
+  "title": "Judith with the Head of Holofernes",
+  "date": "n.d.",
+  "start": 1635,
+  "end": 1700,
+  "culture": "Italy",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/218410",
+  "canon_id": "COM075",
+  "canon_name": "San",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1986.991",
+  "title": "The Cloisters, San Lorenzo fuori le mura",
+  "date": "1824",
+  "start": 1824,
+  "end": 1824,
+  "culture": "Denmark",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/64979",
+  "canon_id": "COM075",
+  "canon_name": "San",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1909.290",
+  "title": "San Francisco",
+  "date": "c. 1850",
+  "start": 1845,
+  "end": 1855,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/63956",
+  "canon_id": "COM075",
+  "canon_name": "San",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1990.512.1",
+  "title": "Christ Child: Study for the Madonna di San Giovanni",
+  "date": "c. 1565",
+  "start": 1560,
+  "end": 1570,
+  "culture": "Italy",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111737",
+  "canon_id": "COM075",
+  "canon_name": "San",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1922.3518",
+  "title": "View of San Miniato and San Francesco al Monte Outside Florence",
+  "date": "n.d.",
+  "start": 1633,
+  "end": 1688,
+  "culture": "Italy",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/3261",
+  "canon_id": "COM075",
+  "canon_name": "San",
+  "sub_regions": [
+   "AF-SOU"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "2025.272",
+  "title": "Wrapper (Lamba Akotifahana)",
+  "date": "1800s",
+  "start": 1800,
+  "end": 1899,
+  "culture": "Madagascar, Merina Kingdom",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/2025.272",
+  "canon_id": "COM078",
+  "canon_name": "Merina",
+  "sub_regions": [
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "2025.271",
+  "title": "Wrapper (Lamba Akotifahana)",
+  "date": "1860–90",
+  "start": 1860,
+  "end": 1890,
+  "culture": "Unknown weaver (Madagascar, Merina Kingdom), Merina style",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/2025.271",
+  "canon_id": "COM078",
+  "canon_name": "Merina",
+  "sub_regions": [
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "2025.273.2",
+  "title": "One of a pair of shawls (Lamba Landy Fotsy)",
+  "date": "1900s",
+  "start": 1900,
+  "end": 1950,
+  "culture": "unknown weaver (French Madagascar or Malagasy Republic), Merina style",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/2025.273.2",
+  "canon_id": "COM078",
+  "canon_name": "Merina",
+  "sub_regions": [
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "2025.273",
+  "title": "Pair of shawls (Lamba Landy Fotsy)",
+  "date": "1900s",
+  "start": 1900,
+  "end": 1950,
+  "culture": "unknown weaver (French Madagascar or Malagasy Republic), Merina style",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/2025.273",
+  "canon_id": "COM078",
+  "canon_name": "Merina",
+  "sub_regions": [
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "2025.273.1",
+  "title": "One of a pair of shawls (Lamba Landy Fotsy)",
+  "date": "1900s",
+  "start": 1900,
+  "end": 1950,
+  "culture": "unknown weaver (French Madagascar or Malagasy Republic), Merina style",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/2025.273.1",
+  "canon_id": "COM078",
+  "canon_name": "Merina",
+  "sub_regions": [
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM078",
+  "canon_name": "Merina",
+  "sub_regions": [
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM078",
+  "canon_name": "Merina",
+  "sub_regions": [
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM078",
+  "canon_name": "Merina",
+  "sub_regions": [
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM078",
+  "canon_name": "Merina",
+  "sub_regions": [
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM078",
+  "canon_name": "Merina",
+  "sub_regions": [
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM079",
+  "canon_name": "Zafimaniry",
+  "sub_regions": [
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM079",
+  "canon_name": "Zafimaniry",
+  "sub_regions": [
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM079",
+  "canon_name": "Zafimaniry",
+  "sub_regions": [
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM079",
+  "canon_name": "Zafimaniry",
+  "sub_regions": [
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM079",
+  "canon_name": "Zafimaniry",
+  "sub_regions": [
+   "AF-MAD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1980.249",
+  "title": "A Woman from the Arctic",
+  "date": "1826",
+  "start": 1826,
+  "end": 1826,
+  "culture": "France, 19th century",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1980.249",
+  "canon_id": "COM084",
+  "canon_name": "Inuit",
+  "sub_regions": [
+   "AM-ARC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM084",
+  "canon_name": "Inuit",
+  "sub_regions": [
+   "AM-ARC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM084",
+  "canon_name": "Inuit",
+  "sub_regions": [
+   "AM-ARC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM084",
+  "canon_name": "Inuit",
+  "sub_regions": [
+   "AM-ARC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM084",
+  "canon_name": "Inuit",
+  "sub_regions": [
+   "AM-ARC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM084",
+  "canon_name": "Inuit",
+  "sub_regions": [
+   "AM-ARC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM086",
+  "canon_name": "Yup'ik",
+  "sub_regions": [
+   "AM-ARC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM086",
+  "canon_name": "Yup'ik",
+  "sub_regions": [
+   "AM-ARC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM086",
+  "canon_name": "Yup'ik",
+  "sub_regions": [
+   "AM-ARC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM086",
+  "canon_name": "Yup'ik",
+  "sub_regions": [
+   "AM-ARC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM086",
+  "canon_name": "Yup'ik",
+  "sub_regions": [
+   "AM-ARC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1921.1577",
+  "title": "Raven Rattle",
+  "date": "late 1800s–early 1900s",
+  "start": 1850,
+  "end": 1900,
+  "culture": "Native North America, Northwest Coast, British Columbia and Alaska, Haida",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1921.1577",
+  "canon_id": "COM091",
+  "canon_name": "Haida",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1917.434",
+  "title": "Covered Basket",
+  "date": "Unassigned, before 1917",
+  "start": 1850,
+  "end": 1917,
+  "culture": "Northwest Coast, Haida, Unassigned",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1917.434",
+  "canon_id": "COM091",
+  "canon_name": "Haida",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1917.434.b",
+  "title": "Cover for a Basket",
+  "date": "Unassigned, before 1917",
+  "start": 1850,
+  "end": 1917,
+  "culture": "Northwest Coast, Haida, Unassigned",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1917.434.b",
+  "canon_id": "COM091",
+  "canon_name": "Haida",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1917.434.a",
+  "title": "Basket",
+  "date": "Unassigned, before 1917",
+  "start": 1850,
+  "end": 1917,
+  "culture": "Northwest Coast, Haida, Unassigned",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1917.434.a",
+  "canon_id": "COM091",
+  "canon_name": "Haida",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM091",
+  "canon_name": "Haida",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM091",
+  "canon_name": "Haida",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM091",
+  "canon_name": "Haida",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM091",
+  "canon_name": "Haida",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM091",
+  "canon_name": "Haida",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM092",
+  "canon_name": "Lingít",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM092",
+  "canon_name": "Lingít",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM092",
+  "canon_name": "Lingít",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM092",
+  "canon_name": "Lingít",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM092",
+  "canon_name": "Lingít",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM093",
+  "canon_name": "Kwakwaka'wakw",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM093",
+  "canon_name": "Kwakwaka'wakw",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM093",
+  "canon_name": "Kwakwaka'wakw",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM093",
+  "canon_name": "Kwakwaka'wakw",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM093",
+  "canon_name": "Kwakwaka'wakw",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1929.263",
+  "title": "Hat",
+  "date": "before 1929",
+  "start": 1900,
+  "end": 1929,
+  "culture": "Northwest Coast, Nuu-chah-nulth or Makah",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1929.263",
+  "canon_id": "COM094",
+  "canon_name": "Nuu-chah-nulth",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM094",
+  "canon_name": "Nuu-chah-nulth",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM094",
+  "canon_name": "Nuu-chah-nulth",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM094",
+  "canon_name": "Nuu-chah-nulth",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM094",
+  "canon_name": "Nuu-chah-nulth",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM094",
+  "canon_name": "Nuu-chah-nulth",
+  "sub_regions": [
+   "AM-NWC"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1937.903",
+  "title": "Fourth-Phase Chief Blanket Style Rug",
+  "date": "c. 1900",
+  "start": 1890,
+  "end": 1910,
+  "culture": "Native North American, Southwest, Navajo (Diné)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1937.903",
+  "canon_id": "COM097",
+  "canon_name": "Diné",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1921.948",
+  "title": "Wearing Blanket",
+  "date": "late 1800s",
+  "start": 1875,
+  "end": 1900,
+  "culture": "Native North American, Southwest, Navajo (Diné), woman artist",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1921.948",
+  "canon_id": "COM097",
+  "canon_name": "Diné",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1929.921",
+  "title": "Woman’s Two-Piece Dress (Biil’éé)",
+  "date": "c. 1880–85",
+  "start": 1875,
+  "end": 1890,
+  "culture": "Native North American, Southwest, Navajo (Diné)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1929.921",
+  "canon_id": "COM097",
+  "canon_name": "Diné",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1921.556",
+  "title": "Wearing Blanket",
+  "date": "c. 1875–80",
+  "start": 1870,
+  "end": 1880,
+  "culture": "Native North American, Southwest, Navajo (Diné), woman artist",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1921.556",
+  "canon_id": "COM097",
+  "canon_name": "Diné",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1921.564",
+  "title": "Wearing Blanket with Moki (Moqui) Stripes",
+  "date": "1865–75",
+  "start": 1860,
+  "end": 1880,
+  "culture": "America, Native North American, Southwest, (Dine) Navajo or Zuni Pueblo, female artist",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1921.564",
+  "canon_id": "COM097",
+  "canon_name": "Diné",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1889.27",
+  "title": "Kylix (Drinking Cup)",
+  "date": "about 460 BCE",
+  "start": -460,
+  "end": -460,
+  "culture": "Ancient Greece",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/185",
+  "canon_id": "COM097",
+  "canon_name": "Diné",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1942.490",
+  "title": "A10: Massachusetts Dining Room, 1795",
+  "date": "c. 1940",
+  "start": 1937,
+  "end": 1940,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/45342",
+  "canon_id": "COM097",
+  "canon_name": "Diné",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2001.151",
+  "title": "Chief Blanket (Third Phase)",
+  "date": "c. 1860/65",
+  "start": 1855,
+  "end": 1865,
+  "culture": "Navajo Nation, Arizona, New Mexico, & Utah",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/157115",
+  "canon_id": "COM097",
+  "canon_name": "Diné",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1889.118",
+  "title": "Stemless Kylix (Drinking Cup)",
+  "date": "460-450 BCE",
+  "start": -460,
+  "end": -450,
+  "culture": "Cales",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/281",
+  "canon_id": "COM097",
+  "canon_name": "Diné",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2000.325",
+  "title": "\"Germantown Eye-Dazzler\" Rug",
+  "date": "c. 1800/90",
+  "start": 1800,
+  "end": 1890,
+  "culture": "New Mexico",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/155968",
+  "canon_id": "COM097",
+  "canon_name": "Diné",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1923.1078",
+  "title": "Canteen",
+  "date": "1870",
+  "start": 1870,
+  "end": 1870,
+  "culture": "Native North America, Southwest, Arizona, Pueblo, Hopi",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1923.1078",
+  "canon_id": "COM098",
+  "canon_name": "Hopi",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1937.708",
+  "title": "Canteen with a Katsina-like Face",
+  "date": "1890",
+  "start": 1890,
+  "end": 1890,
+  "culture": "Native North America, Southwest, Arizona, Pueblo, Hopi",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1937.708",
+  "canon_id": "COM098",
+  "canon_name": "Hopi",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1990.10",
+  "title": "Jar",
+  "date": "1400–1600",
+  "start": 1400,
+  "end": 1600,
+  "culture": "Native North America, Southwest, Ancestral Pueblo, Sikyatki style",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1990.10",
+  "canon_id": "COM098",
+  "canon_name": "Hopi",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1917.72",
+  "title": "\"Hopi Brocade\" Style Dance Sash",
+  "date": "c. 1874–1885",
+  "start": 1874,
+  "end": 1885,
+  "culture": "America, Native North American, Southwest, Pueblo (Hopi), Post-Contact, Late Classic Period",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1917.72",
+  "canon_id": "COM098",
+  "canon_name": "Hopi",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1937.864",
+  "title": "\"Hopi Brocade\" style Dance Sash",
+  "date": "c. 1880–1900",
+  "start": 1870,
+  "end": 1910,
+  "culture": "America, Native North American, Southwest, Pueblo (Hopi?), Post-Contact, Transitional Period",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1937.864",
+  "canon_id": "COM098",
+  "canon_name": "Hopi",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2007.397",
+  "title": "Owa-nganroro (Stone Eater Kachina)",
+  "date": "c. 1900",
+  "start": 1900,
+  "end": 1900,
+  "culture": "Arizona",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/191727",
+  "canon_id": "COM098",
+  "canon_name": "Hopi",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2003.52",
+  "title": "Seed Jar with Sikyátki Motifs",
+  "date": "c. 1895–1910",
+  "start": 1895,
+  "end": 1910,
+  "culture": "Hopi Tribe of Arizona",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/180751",
+  "canon_id": "COM098",
+  "canon_name": "Hopi",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1997.631",
+  "title": "Polychrome Jar",
+  "date": "c. 1920",
+  "start": 1910,
+  "end": 1930,
+  "culture": "Arizona",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/148332",
+  "canon_id": "COM098",
+  "canon_name": "Hopi",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2004.1152",
+  "title": "Bowl with a Figure Holding a Macaw",
+  "date": "1400–1625",
+  "start": 1400,
+  "end": 1625,
+  "culture": "Arizona",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/187554",
+  "canon_id": "COM098",
+  "canon_name": "Hopi",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1979.536",
+  "title": "Bowl with Abstract, Geometric Rendering of Blanket on Interior",
+  "date": "1400–1600",
+  "start": 1400,
+  "end": 1600,
+  "culture": "Arizona",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/58440",
+  "canon_id": "COM098",
+  "canon_name": "Hopi",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1923.1082",
+  "title": "Water Jar (Olla)",
+  "date": "1880s",
+  "start": 1880,
+  "end": 1890,
+  "culture": "Native North America, Southwest, New Mexico, Zuni (A:shiwi) Pueblo",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1923.1082",
+  "canon_id": "COM099",
+  "canon_name": "A:shiwi",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1937.898",
+  "title": "Water Jar (Olla) with Rainbird",
+  "date": "1850–60",
+  "start": 1850,
+  "end": 1860,
+  "culture": "Native North America, Southwest, New Mexico, Zuni (A:shiwi) Pueblo",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1937.898",
+  "canon_id": "COM099",
+  "canon_name": "A:shiwi",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1928.323",
+  "title": "Water Jar (Olla) with Rosettes",
+  "date": "1880s",
+  "start": 1880,
+  "end": 1890,
+  "culture": "Native North America, Southwest, New Mexico, Zuni (A:shiwi) Pueblo",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1928.323",
+  "canon_id": "COM099",
+  "canon_name": "A:shiwi",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM099",
+  "canon_name": "A:shiwi",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM099",
+  "canon_name": "A:shiwi",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM099",
+  "canon_name": "A:shiwi",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM099",
+  "canon_name": "A:shiwi",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM099",
+  "canon_name": "A:shiwi",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1889.45",
+  "title": "Bowl with Large Diamond-Shaped Area Interior with Dotted Lines and Diamonds, and Interlocking Stepped Motifs",
+  "date": "950–1400",
+  "start": 900,
+  "end": 1450,
+  "culture": "New Mexico",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/205",
+  "canon_id": "COM100",
+  "canon_name": "Tewa Pueblos",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1889.41",
+  "title": "Dipper or Ladle with Interlocking Zigzag and Step-Fret Designs",
+  "date": "1000–1300",
+  "start": 1100,
+  "end": 1300,
+  "culture": "New Mexico",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/201",
+  "canon_id": "COM100",
+  "canon_name": "Tewa Pueblos",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1889.75",
+  "title": "Bowl with Bold Black-on-White Diamond and Zizgag Motifs",
+  "date": "950–1400",
+  "start": 900,
+  "end": 1450,
+  "culture": "New Mexico",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/239",
+  "canon_id": "COM100",
+  "canon_name": "Tewa Pueblos",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1889.53",
+  "title": "Bowl with Textured Surface Decoration",
+  "date": "900–1000",
+  "start": 850,
+  "end": 1050,
+  "culture": "New Mexico",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/213",
+  "canon_id": "COM100",
+  "canon_name": "Tewa Pueblos",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1889.61",
+  "title": "Bowl with Textured Surface Decoration in Basketry-Like Pattern",
+  "date": "900–1000",
+  "start": 850,
+  "end": 1500,
+  "culture": "New Mexico",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/223",
+  "canon_id": "COM100",
+  "canon_name": "Tewa Pueblos",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1984.1046",
+  "title": "Hide Shirt",
+  "date": "c. 1890",
+  "start": 1885,
+  "end": 1895,
+  "culture": "America, Native North American, Central Plains, Lakota Sioux, 19th century",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1984.1046",
+  "canon_id": "COM101",
+  "canon_name": "Lakota",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1982.62",
+  "title": "Boy's Vest",
+  "date": "c. 1880",
+  "start": 1875,
+  "end": 1885,
+  "culture": "Plains, Lakota (Sioux), 19th century",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1982.62",
+  "canon_id": "COM101",
+  "canon_name": "Lakota",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1937.850",
+  "title": "Storage Bag",
+  "date": "late 1800s",
+  "start": 1880,
+  "end": 1899,
+  "culture": "Native North America, Plains, Lakota (Sioux)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1937.850",
+  "canon_id": "COM101",
+  "canon_name": "Lakota",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1984.1047",
+  "title": "Cradle or Baby Carrier",
+  "date": "c. 1900",
+  "start": 1895,
+  "end": 1905,
+  "culture": "Native North America, Plains, Lakota (Sioux)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1984.1047",
+  "canon_id": "COM101",
+  "canon_name": "Lakota",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1927.260",
+  "title": "Blanket Strip",
+  "date": "c. 1900",
+  "start": 1895,
+  "end": 1905,
+  "culture": "Native North America, Plains, Tsitsistas (Cheyenne)",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1927.260",
+  "canon_id": "COM101",
+  "canon_name": "Lakota",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2023.1383",
+  "title": "Pipe Bag",
+  "date": "c. 1885",
+  "start": 1880,
+  "end": 1890,
+  "culture": "Wyoming",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/122798",
+  "canon_id": "COM101",
+  "canon_name": "Lakota",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2023.1391",
+  "title": "Sun Dance Scene",
+  "date": "c. 1885",
+  "start": 1885,
+  "end": 1885,
+  "culture": "Wyoming",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/122887",
+  "canon_id": "COM101",
+  "canon_name": "Lakota",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "2023.1398",
+  "title": "Painted Robe with Sunburst Design",
+  "date": "c. 1850",
+  "start": 1845,
+  "end": 1855,
+  "culture": "Great Plains",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/182699",
+  "canon_id": "COM101",
+  "canon_name": "Lakota",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM101",
+  "canon_name": "Lakota",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM101",
+  "canon_name": "Lakota",
+  "sub_regions": [
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1991.21",
+  "title": "Ball-Headed War Club",
+  "date": "late 1700s–early 1800s",
+  "start": 1750,
+  "end": 1850,
+  "culture": "Native North America, Northeastern Woodlands, Great Lakes, Anishinaabe",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1991.21",
+  "canon_id": "COM108",
+  "canon_name": "Anishinaabe",
+  "sub_regions": [
+   "AM-EWD",
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1982.61",
+  "title": "Bandolier (Shoulder) Bag",
+  "date": "1880s?",
+  "start": 1880,
+  "end": 1900,
+  "culture": "Northeastern Woodlands, Great Lakes Region, Anishinaabe (Ojibwe) People",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1982.61",
+  "canon_id": "COM108",
+  "canon_name": "Anishinaabe",
+  "sub_regions": [
+   "AM-EWD",
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1939.210",
+  "title": "Two Beaded Panels",
+  "date": "late 1800s",
+  "start": 1850,
+  "end": 1910,
+  "culture": "Northeast Woodlands, Great Lakes Region, Anishinaabe (Ojibwe) or Nehiyawak (Cree) People?",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1939.210",
+  "canon_id": "COM108",
+  "canon_name": "Anishinaabe",
+  "sub_regions": [
+   "AM-EWD",
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1956.788.3",
+  "title": "Cuff",
+  "date": "late 1800s",
+  "start": 1875,
+  "end": 1899,
+  "culture": "Northeast Woodlands, Great Lakes Region, Anishinaabe (Ojibwe) or Nehiyawak (Cree) People?",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1956.788.3",
+  "canon_id": "COM108",
+  "canon_name": "Anishinaabe",
+  "sub_regions": [
+   "AM-EWD",
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1939.210.1",
+  "title": "Beaded Panel",
+  "date": "late 1800s",
+  "start": 1850,
+  "end": 1910,
+  "culture": "Northeast Woodlands, Great Lakes Region, Anishinaabe (Ojibwe) or Nehiyawak (Cree) People?",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1939.210.1",
+  "canon_id": "COM108",
+  "canon_name": "Anishinaabe",
+  "sub_regions": [
+   "AM-EWD",
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM108",
+  "canon_name": "Anishinaabe",
+  "sub_regions": [
+   "AM-EWD",
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM108",
+  "canon_name": "Anishinaabe",
+  "sub_regions": [
+   "AM-EWD",
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM108",
+  "canon_name": "Anishinaabe",
+  "sub_regions": [
+   "AM-EWD",
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM108",
+  "canon_name": "Anishinaabe",
+  "sub_regions": [
+   "AM-EWD",
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM108",
+  "canon_name": "Anishinaabe",
+  "sub_regions": [
+   "AM-EWD",
+   "AM-WST"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM109",
+  "canon_name": "Tsalagi",
+  "sub_regions": [
+   "AM-EWD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM109",
+  "canon_name": "Tsalagi",
+  "sub_regions": [
+   "AM-EWD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM109",
+  "canon_name": "Tsalagi",
+  "sub_regions": [
+   "AM-EWD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM109",
+  "canon_name": "Tsalagi",
+  "sub_regions": [
+   "AM-EWD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM109",
+  "canon_name": "Tsalagi",
+  "sub_regions": [
+   "AM-EWD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "Cleveland",
+  "accession": "1978.77",
+  "title": "Basket with Stamped Decoration",
+  "date": "early 1800s",
+  "start": 1800,
+  "end": 1825,
+  "culture": "Native North America, Woodlands, Algonquian or Haudenosaunee (Iroquois), Post-contact Period",
+  "licence": "CC0",
+  "licence_class": "PD-CC0",
+  "record_url": "https://clevelandart.org/art/1978.77",
+  "canon_id": "COM110",
+  "canon_name": "Haudenosaunee",
+  "sub_regions": [
+   "AM-EWD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM110",
+  "canon_name": "Haudenosaunee",
+  "sub_regions": [
+   "AM-EWD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM110",
+  "canon_name": "Haudenosaunee",
+  "sub_regions": [
+   "AM-EWD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM110",
+  "canon_name": "Haudenosaunee",
+  "sub_regions": [
+   "AM-EWD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM110",
+  "canon_name": "Haudenosaunee",
+  "sub_regions": [
+   "AM-EWD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM110",
+  "canon_name": "Haudenosaunee",
+  "sub_regions": [
+   "AM-EWD"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.234",
+  "title": "Self-Portrait",
+  "date": "1878",
+  "start": 1878,
+  "end": 1878,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/11",
+  "canon_id": "COM115",
+  "canon_name": "Gullah Geechee",
+  "sub_regions": [
+   "AM-EWD",
+   "AM-CAR"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1888.59",
+  "title": "Martin Vanden Bogaert Desjardins",
+  "date": "n.d.",
+  "start": 1800,
+  "end": 1888,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/111",
+  "canon_id": "COM115",
+  "canon_name": "Gullah Geechee",
+  "sub_regions": [
+   "AM-EWD",
+   "AM-CAR"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1887.272",
+  "title": "Remembrance of Italy",
+  "date": "c. 1866",
+  "start": 1861,
+  "end": 1871,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27",
+  "canon_id": "COM115",
+  "canon_name": "Gullah Geechee",
+  "sub_regions": [
+   "AM-EWD",
+   "AM-CAR"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1880.1",
+  "title": "Priest and Boy",
+  "date": "n.d.",
+  "start": 1865,
+  "end": 1880,
+  "culture": "United States",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/4",
+  "canon_id": "COM115",
+  "canon_name": "Gullah Geechee",
+  "sub_regions": [
+   "AM-EWD",
+   "AM-CAR"
+  ],
+  "status": "candidate"
+ },
+ {
+  "holder": "AIC",
+  "accession": "1926.224",
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "date": "1884–86, border added 1888–89",
+  "start": 1884,
+  "end": 1886,
+  "culture": "France",
+  "licence": "Public domain",
+  "licence_class": "PD-CC0",
+  "record_url": "https://www.artic.edu/artworks/27992",
+  "canon_id": "COM115",
+  "canon_name": "Gullah Geechee",
+  "sub_regions": [
+   "AM-EWD",
+   "AM-CAR"
+  ],
+  "status": "candidate"
  }
 ]
