@@ -20,7 +20,7 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | STY004 | Classical Greek style | -480..-323 | Q17723 Classical period | 1.0 | 1730.. |  |  | dates differ |
 | STY004 | Classical Greek style | -480..-323 | Q16064885 art of Classical Greece | 0.9 | - |  |  | source undated |
 | STY004 | Classical Greek style | -480..-323 | Q5128310 Classical Prose Movement | 0.8 | - |  |  | source undated |
-| STY005 | Hellenistic style | -323..-31 | Q428995 Hellenistic period | 1.0 | -323..-30 | 300020101 |  |  |
+| STY005 | Hellenistic style | -323..-31 | Q221375 Hellenistic art | 1.0 | - |  |  | source undated |
 | STY005 | Hellenistic style | -323..-31 | Q13635766 Hellenism | 0.8 | - |  |  | source undated |
 | STY005 | Hellenistic style | -323..-31 | Q3827470 Hellenistic mosaic | 0.76 | - |  |  | source undated |
 | STY006 | Pompeian styles (First to Fourth) | -200..79 | Q740856 Pompeian Styles | 1.0 | - | 300020605 |  | source undated |
@@ -64,7 +64,7 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | STY021 | Northern Renaissance | 1480..1580 | Q2455000 German Renaissance | 1.0 | 1500..1600 |  |  |  |
 | STY021 | Northern Renaissance | 1480..1580 | Q133566778 Nothern Renaissance | 0.97 | - |  |  | source undated |
 | SCH001 | School of Fontainebleau | 1530..1610 | Q584084 School of Fontainebleau | 1.0 | - |  |  | source undated |
-| STY022 | Baroque | 1600..1750 | Q3624106 Baroque art | 1.0 | - |  |  | source undated |
+| STY022 | Baroque | 1600..1750 | Q37853 Baroque | 1.0 | 1590..1750 | 300021147 |  |  |
 | STY022 | Baroque | 1600..1750 | Q141222052 Barocchetto | 0.78 | - |  |  | source undated |
 | STY022 | Baroque | 1600..1750 | Q97359235 Late Baroque | 0.74 | - |  |  | source undated |
 | STY023 | Auricular style | 1600..1660 | Q372240 auricular style | 1.0 | - |  |  | source undated |
@@ -100,10 +100,10 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | STY034 | Beaux-Arts architecture | 1830..1930 | Q137115802 Bengal architecture style | 0.86 | - |  |  | source undated |
 | STY034 | Beaux-Arts architecture | 1830..1930 | Q7016535 Newa architecture | 0.86 | - |  |  | source undated |
 | MOV002 | Peredvizhniki | 1870..1923 | Q536894 Wandelweiser | 0.67 | 1992.. |  |  | dates differ |
-| MOV003 | Impressionism | 1874..1886 | Q40415 Impressionism | 1.0 | 1860.. | 300021503 |  |  |
+| MOV003 | Impressionism | 1874..1886 | Q1475680 impressionism | 1.0 | - |  |  | source undated |
 | MOV003 | Impressionism | 1874..1886 | Q150091 Neo-impressionism | 0.87 | ..1906 | 300021505 |  |  |
 | MOV003 | Impressionism | 1874..1886 | Q166713 Post-impressionism | 0.84 | 1886..1905 | 300021508 |  |  |
-| SCH002 | Heidelberg School | 1886..1900 | Q3032335 Heidelberg School | 1.0 | 1880.. |  |  |  |
+| SCH002 | Heidelberg School | 1886..1900 | Q181655 Heidelberg School | 1.0 | - |  |  | source undated |
 | SCH002 | Heidelberg School | 1886..1900 | Q2477787 American Impressionism | 0.83 | 1880.. |  |  |  |
 | SCH002 | Heidelberg School | 1886..1900 | Q4414064 abstract impressionism | 0.83 | 1950.. | 300022107 |  | dates differ |
 | MOV005 | Arts and Crafts movement | 1860..1920 | Q330369 Arts and Crafts movement | 1.0 | 1880..1910 | 300266319 |  |  |
@@ -114,12 +114,12 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | STY035 | Craftsman style | 1897..1920 | Q330369 Arts and Crafts movement | 0.8 | 1880..1910 | 300266319 |  |  |
 | STY035 | Craftsman style | 1897..1920 | Q4745527 American realism | 0.77 | - |  |  | source undated |
 | STY036 | Art Nouveau | 1890..1914 | Q34636 Art Nouveau | 1.0 | 1890..1910 | 300021430 |  |  |
-| STY036 | Art Nouveau | 1890..1914 | Q99600895 Modern Style | 0.92 | - |  |  | source undated |
+| STY036 | Art Nouveau | 1890..1914 | Q38166 modern art | 0.92 | 1860..1970 | 300264736 |  | dates differ |
 | STY036 | Art Nouveau | 1890..1914 | Q17182373 PWA Moderne | 0.78 | - | 300444344 |  | source undated |
 | STY037 | Jugendstil | 1896..1914 | Q1294605 Jugendstil | 1.0 | - | 300021313 |  | source undated |
 | STY037 | Jugendstil | 1896..1914 | Q2519962 youth crew | 0.67 | 1983.. |  |  | dates differ |
 | MOV008 | Modernisme (Catalan) | 1888..1911 | Q1122677 Catalan modernism | 1.0 | 1888..1911 | 300312268 |  |  |
-| MOV008 | Modernisme (Catalan) | 1888..1911 | Q878985 modernism | 0.95 | 1900.. | 300021474 |  |  |
+| MOV008 | Modernisme (Catalan) | 1888..1911 | Q2426218 modernism | 0.95 | 1900..1950 |  |  |  |
 | MOV008 | Modernisme (Catalan) | 1888..1911 | Q5600643 Modernismo | 0.9 | 1888..1914 |  |  |  |
 | MOV009 | Vienna Secession | 1897..1939 | Q208208 Vienna Secession | 1.0 | 1897.. |  |  |  |
 | MOV009 | Vienna Secession | 1897..1939 | Q700347 Berlin Secession | 0.75 | 1898..1933 |  |  |  |
@@ -141,9 +141,9 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | MOV014 | Dada | 1916..1924 | Q6034 Dada | 1.0 | 1910.. | 300021500 |  |  |
 | MOV014 | Dada | 1916..1924 | Q935292 Neo-Dada | 0.67 | - | 300022187 |  | source undated |
 | MOV014 | Dada | 1916..1924 | Q135426032 Dada in music | 0.6 | - |  |  | source undated |
-| MOV015 | Surrealism | 1924..1966 | Q39427 surrealism | 1.0 | 1920..1980 | 300021512 |  |  |
+| MOV015 | Surrealism | 1924..1966 | Q115125070 surrealism | 1.0 | - |  |  | source undated |
+| MOV015 | Surrealism | 1924..1966 | Q39427 surrealism | 0.95 | 1920..1980 | 300021512 |  |  |
 | MOV015 | Surrealism | 1924..1966 | Q97367436 Pop surrealism | 0.83 | 1970.. |  |  |  |
-| MOV015 | Surrealism | 1924..1966 | Q7233587 post-surrealism | 0.8 | - |  |  | source undated |
 | MOV016 | New Typography | 1923..1935 | Q100707362 New York School | 0.64 | - |  |  | source undated |
 | MOV016 | New Typography | 1923..1935 | Q2140911 International Typographic Style | 0.62 | - |  |  | source undated |
 | MOV017 | Suprematism | 1915..1925 | Q191970 Suprematism | 1.0 | 1913.. | 300021405 |  |  |
@@ -154,14 +154,14 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | MOV020 | De Stijl | 1917..1931 | Q397469 Neo-romanticism | 0.76 | - | 300021476 |  | source undated |
 | MOV020 | De Stijl | 1917..1931 | Q1429238 Neo-Attic | 0.7 | - | 300020212 |  | source undated |
 | STY042 | Art Deco | 1920..1940 | Q173782 Art Deco | 1.0 | 1925.. | 300021426 |  |  |
-| STY042 | Art Deco | 1920..1940 | Q99600895 Modern Style | 0.92 | - |  |  | source undated |
+| STY042 | Art Deco | 1920..1940 | Q38166 modern art | 0.92 | 1860..1970 | 300264736 |  | dates differ |
 | STY042 | Art Deco | 1920..1940 | Q17182373 PWA Moderne | 0.78 | - | 300444344 |  | source undated |
 | STY043 | Streamline Moderne | 1930..1945 | Q928960 Streamline Moderne | 1.0 | - | 300253564 |  | source undated |
 | STY043 | Streamline Moderne | 1930..1945 | Q1764356 Italian design | 0.77 | 1926.. |  |  |  |
 | STY043 | Streamline Moderne | 1930..1945 | Q61459826 Streamline Moderne architecture | 0.73 | - |  |  | source undated |
 | STY044 | International Style (architecture) | 1920..1970 | Q162324 International Style | 1.0 | - | 300021472 |  | source undated |
 | STY044 | International Style (architecture) | 1920..1970 | Q38166 modern art | 1.0 | 1860..1970 | 300264736 |  | dates differ |
-| STY044 | International Style (architecture) | 1920..1970 | Q878985 modernism | 0.8 | 1900.. | 300021474 |  |  |
+| STY044 | International Style (architecture) | 1920..1970 | Q2426218 modernism | 0.8 | 1900..1950 |  |  |  |
 | MOV021 | Italian Rationalism | 1926..1943 | Q167776 Italian neorealism | 0.76 | - | 300375135 |  | source undated |
 | MOV021 | Italian Rationalism | 1926..1943 | Q2535546 rationalism | 0.73 | - | 300069303 |  | source undated |
 | MOV021 | Italian Rationalism | 1926..1943 | Q133534786 European Rationalism | 0.72 | - |  |  | source undated |
@@ -202,11 +202,11 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | STY051 | Postmodernism (architecture and design) | 1966..1995 | Q47783 Postmodernism | 1.0 | 1940.. | 300022208 |  |  |
 | STY051 | Postmodernism (architecture and design) | 1966..1995 | Q3318563 postmodern art | 0.87 | 1950.. |  |  |  |
 | STY051 | Postmodernism (architecture and design) | 1966..1995 | Q108107298 postwar modernism | 0.87 | - |  |  | source undated |
-| STY052 | Deconstructivism | 1988..2005 | Q238255 deconstructivism | 1.0 | - | 300112407 |  | source undated |
+| STY052 | Deconstructivism | 1988..2005 | Q11855943 Deconstructivism | 1.0 | - |  |  | source undated |
 | STY052 | Deconstructivism | 1988..2005 | Q841977 constructivist architecture | 0.96 | - |  |  | source undated |
 | STY052 | Deconstructivism | 1988..2005 | Q3282723 reconstruction-period architecture | 0.86 | - |  |  | source undated |
 | STY053 | Critical Regionalism | 1981.. | Q24798 critical regionalism | 1.0 | - | 300256479 |  | source undated |
-| STY053 | Critical Regionalism | 1981.. | Q25393587 Regionalism | 0.71 | 1890..1950 |  |  | dates differ |
+| STY053 | Critical Regionalism | 1981.. | Q15838173 Regionalism | 0.71 | - | 300172866 |  | source undated |
 | STY053 | Critical Regionalism | 1981.. | Q85816262 Regionialism | 0.69 | 1875.. | 300055800 |  | dates differ |
 | STY054 | Neo-vernacular | 1945.. | Q137127035 Indo-Vernacular architecture style | 0.95 | 19.. |  |  | dates differ |
 | STY054 | Neo-vernacular | 1945.. | Q930314 vernacular architecture | 0.92 | - | 300068483 |  | source undated |
@@ -224,8 +224,8 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | MOV030 | Droog | 1993.. | Q2393747 Dutch Design | 0.67 | - |  |  | source undated |
 | MOV030 | Droog | 1993.. | Q2171185 Anti-Design | 0.61 | 1960.. |  |  |  |
 | MOV031 | Critical design | 1999.. | Q1764356 Italian design | 0.76 | 1926.. |  |  | dates differ |
+| MOV031 | Critical design | 1999.. | Q16960488 Viridian design movement | 0.73 | - |  |  | source undated |
 | MOV031 | Critical design | 1999.. | Q133876422 Italian Radical Design | 0.7 | - |  |  | source undated |
-| MOV031 | Critical design | 1999.. | Q2171185 Anti-Design | 0.69 | 1960.. |  |  |  |
 | MOV032 | Speculative design | 2013.. | Q2171185 Anti-Design | 0.69 | 1960.. |  |  | dates differ |
 | MOV032 | Speculative design | 2013.. | Q125559734 Black Speculative Arts Movement | 0.63 | 2015.. |  |  |  |
 | MOV032 | Speculative design | 2013.. | Q5861444 ugly design | 0.62 | - |  |  | source undated |
@@ -242,7 +242,7 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | STY059 | Flat design | 2010.. | Q2393747 Dutch Design | 0.7 | - |  |  | source undated |
 | STY060 | Material Design | 2014.. | Q2171185 Anti-Design | 0.77 | 1960.. |  |  | dates differ |
 | STY060 | Material Design | 2014.. | Q1764356 Italian design | 0.69 | 1926.. |  |  | dates differ |
-| STY060 | Material Design | 2014.. | Q5861444 ugly design | 0.62 | - |  |  | source undated |
+| STY060 | Material Design | 2014.. | Q16960488 Viridian design movement | 0.67 | - |  |  | source undated |
 | MOV036 | Generative and computer art | 1965.. | Q133137695 generative AI art | 0.69 | - |  |  | source undated |
 | MOV036 | Generative and computer art | 1965.. | Q5486021 Generación Comprometida | 0.62 | - |  |  | source undated |
 | MOV036 | Generative and computer art | 1965.. | Q734649 Composite order | 0.61 | - | 300067415 |  | source undated |
@@ -275,11 +275,11 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | MOV050 | Sustainable design | 1971.. | Q2393747 Dutch Design | 0.73 | - |  |  | source undated |
 | MOV050 | Sustainable design | 1971.. | Q5861444 ugly design | 0.67 | - |  |  | source undated |
 | MOV051 | Circular design | 2002.. | Q5861444 ugly design | 0.69 | - |  |  | source undated |
+| MOV051 | Circular design | 2002.. | Q16960488 Viridian design movement | 0.67 | - |  |  | source undated |
 | MOV051 | Circular design | 2002.. | Q1764356 Italian design | 0.62 | 1926.. |  |  | dates differ |
-| MOV051 | Circular design | 2002.. | Q2171185 Anti-Design | 0.62 | 1960.. |  |  |  |
 | MOV052 | Decolonising design | 2016.. | Q1764356 Italian design | 0.65 | 1926.. |  |  | dates differ |
+| MOV052 | Decolonising design | 2016.. | Q16960488 Viridian design movement | 0.62 | - |  |  | source undated |
 | MOV052 | Decolonising design | 2016.. | Q2393747 Dutch Design | 0.62 | - |  |  | source undated |
-| MOV052 | Decolonising design | 2016.. | Q140714107 Taxco school of silver design | 0.61 | - |  |  | source undated |
 | MOV053 | Afrofuturism | 1993.. | Q25039455 Afro-Surrealism | 0.67 | - |  |  | source undated |
 | MOV054 | Indigenous Futurism | 2012.. | Q17012219 neo-futurism | 0.77 | - |  |  | source undated |
 | MOV054 | Indigenous Futurism | 2012.. | Q28457244 Indigenouism | 0.77 | - |  |  | source undated |
@@ -287,7 +287,7 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | MOV055 | Gulf Futurism | 2012.. | Q4529788 Ego-Futurism | 0.8 | 1911.. |  |  | dates differ |
 | MOV055 | Gulf Futurism | 2012.. | Q1400843 Cubo-Futurism | 0.77 | 1913.. | 300021394 |  | dates differ |
 | MOV055 | Gulf Futurism | 2012.. | Q2195355 futurism | 0.76 | 1909.. |  |  | dates differ |
-| STY062 | Primitivism | 1900..1940 | Q16591771 primitivism | 1.0 | - |  |  | source undated |
+| STY062 | Primitivism | 1900..1940 | Q848365 primitivism | 1.0 | - | 300174254 |  | source undated |
 | STY062 | Primitivism | 1900..1940 | Q1662181 New Primitivism | 0.85 | 1983.. |  |  | dates differ |
 | STY062 | Primitivism | 1900..1940 | Q10336318 neo-primitivism | 0.85 | 1913.. |  |  |  |
 | STY065 | Middle Horizon style (Wari and Tiwanaku) | 600..1000 | Q3684594 Middle Comedy | 0.63 | - |  |  | source undated |
@@ -318,7 +318,7 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | MOV057 | Estridentismo | 1921..1927 | Q1370619 Stridentism | 1.0 | - | 300120015 |  | source undated |
 | MOV058 | Indigenismo (Peru) | 1920..1950 | Q5602008 Indigenismo | 1.0 | - | 300107847 |  | source undated |
 | MOV058 | Indigenismo (Peru) | 1920..1950 | Q28457244 Indigenouism | 0.87 | - |  |  | source undated |
-| MOV058 | Indigenismo (Peru) | 1920..1950 | Q9631124 Brazilian indigenous art | 0.67 | - |  |  | source undated |
+| MOV058 | Indigenismo (Peru) | 1920..1950 | Q6023993 Indianist movement | 0.7 | - |  |  | source undated |
 | MOV059 | Brazilian Modernismo | 1922..1945 | Q9033935 Brazilian modernism | 0.97 | - |  |  | source undated |
 | MOV059 | Brazilian Modernismo | 1922..1945 | Q4745501 American modernism | 0.74 | - |  |  | source undated |
 | MOV060 | Antropofagia | 1928..1930 | Q2907232 Antropophagia | 0.88 | 1920.. |  |  |  |
@@ -330,13 +330,14 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | MOV062 | Madi | 1946..1955 | Q2297997 Movimento Spaziale | 0.73 | 1947.. |  |  |  |
 | MOV062 | Madi | 1946..1955 | Q6025249 Movimiento Rupestre | 0.65 | - |  |  | source undated |
 | SCH007 | Taller Torres-Garcia | 1934..1962 | Q21550800 Neo-Constructivism | 0.68 | - | 300112846 |  | source undated |
+| SCH007 | Taller Torres-Garcia | 1934..1962 | Q25313019 Figurative Constructivism | 0.63 | - |  |  | source undated |
 | MOV063 | Brazilian Concrete art | 1952..1959 | Q10336205 neo-concrete movement | 0.67 | 1950.. |  |  |  |
 | MOV063 | Brazilian Concrete art | 1952..1959 | Q9631163 Brazilian Indian feather art | 0.67 | - |  |  | source undated |
 | MOV063 | Brazilian Concrete art | 1952..1959 | Q102362752 Brazilian colonial music | 0.67 | - |  |  | source undated |
 | MOV064 | Neo-Concretism | 1959..1961 | Q10336205 neo-concrete movement | 0.85 | 1950.. |  |  |  |
 | MOV064 | Neo-Concretism | 1959..1961 | Q1781785 concretism | 0.83 | - |  |  | source undated |
 | MOV064 | Neo-Concretism | 1959..1961 | Q1759385 Conceptismo | 0.72 | - |  |  | source undated |
-| MOV065 | Tropicalia | 1967..1969 | Q123221340 Tropical modernism | 0.73 | 1958.. |  |  |  |
+| MOV065 | Tropicalia | 1967..1969 | Q116951969 tropical modernism | 0.73 | 1950.. |  |  |  |
 | MOV066 | Saint-Soleil | 1972..1978 | Q3501302 Saint-Sulpicien style | 0.67 | - |  |  | source undated |
 | MOV067 | Caribbean Artists Movement | 1966..1972 | Q105979051 Mexican American artists | 0.68 | - |  |  | source undated |
 | MOV068 | Chicano art movement | 1965..1985 | Q5095938 Chicano art movement | 1.0 | - |  |  | source undated |
@@ -363,13 +364,12 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | STY081 | Saharan Round Head rock art | -7500..-5500 | Q3432586 roundhouse | 0.7 | - |  |  | source undated |
 | STY082 | Amarna style | -1353..-1336 | Q2740302 Amarna art | 1.0 | - |  |  | source undated |
 | STY083 | Late antique Egyptian art | 300..900 | Q30713920 Late Egyptian | 0.76 | - |  |  | source undated |
-| STY083 | Late antique Egyptian art | 300..900 | Q998553 art of Late Antique illumination | 0.7 | - |  |  | source undated |
 | STY083 | Late antique Egyptian art | 300..900 | Q1277524 Gothic sculpture | 0.68 | - |  |  | source undated |
 | SCH010 | Gondarine painting styles | 1636..1855 | Q3631050 Pahari painting | 0.73 | - | 300018997 |  | source undated |
 | SCH010 | Gondarine painting styles | 1636..1855 | Q947129 Gothic painting | 0.73 | - |  |  | source undated |
 | SCH010 | Gondarine painting styles | 1636..1855 | Q19953535 Victorian painting | 0.72 | 1837..1901 |  |  | dates differ |
 | STY084 | Igbo-Ukwu bronze style | 850..1000 | Q5991589 Igbo art | 0.62 | 800.. |  |  |  |
-| STY085 | Ife naturalism | 1100..1450 | Q55995 Naturalism | 0.83 | - | 300311115 |  | source undated |
+| STY085 | Ife naturalism | 1100..1450 | Q55996 naturalism | 0.83 | - |  |  | source undated |
 | STY085 | Ife naturalism | 1100..1450 | Q11410582 anti-naturalism | 0.83 | - |  |  | source undated |
 | STY085 | Ife naturalism | 1100..1450 | Q4314206 natural school | 0.67 | - |  |  | source undated |
 | STY087 | Sapi-Portuguese ivories | 1490..1540 | Q13014472 Sino-Portuguese architecture | 0.67 | - |  |  | source undated |
@@ -388,7 +388,7 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | STY093 | Congolese popular painting | 1970.. | Q5149240 colourist painting | 0.68 | - |  |  | source undated |
 | SCH014 | Oshogbo school | 1962.. | Q98912369 Osogbo Art School | 1.0 | 1962.. |  |  |  |
 | MOV072 | Zaria Art Society | 1958..1961 | Q98912326 Zaria Rebels | 1.0 | 1958.. |  |  |  |
-| MOV072 | Zaria Art Society | 1958..1961 | Q55995 Naturalism | 0.67 | - | 300311115 |  | source undated |
+| MOV072 | Zaria Art Society | 1958..1961 | Q55996 naturalism | 0.67 | - |  |  | source undated |
 | MOV072 | Zaria Art Society | 1958..1961 | Q3487787 Contemporary Arts Society | 0.61 | - |  |  | source undated |
 | SCH015 | Nsukka School | 1970.. | Q59855216 Denes Group | 0.7 | 1950.. |  |  |  |
 | SCH015 | Nsukka School | 1970.. | Q16680386 Ton Fan Group | 0.64 | 1956.. |  |  |  |
@@ -492,6 +492,7 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | SCH028 | Santiniketan | 1919.. | Q17165854 Late modernism | 0.71 | - |  |  | source undated |
 | SCH028 | Santiniketan | 1919.. | Q109443808 East Modernism | 0.71 | - |  |  | source undated |
 | MOV083 | Progressive Artists' Group | 1947..1956 | Q3631014 Progressive Writers' Movement | 0.73 | 1932.. |  |  |  |
+| MOV084 | Madras Art Movement | 1960..1980 | Q134876986 Madras Art Movement | 1.0 | - |  |  | source undated |
 | SCH029 | Baroda School | 1950.. | Q368002 New Figuration | 0.76 | - | 300022191 |  | source undated |
 | SCH029 | Baroda School | 1950.. | Q98077364 Re-figuración | 0.67 | - |  |  | source undated |
 | SCH029 | Baroda School | 1950.. | Q2268037 Neo-figurative | 0.65 | - |  |  | source undated |
@@ -508,6 +509,7 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | STY126 | Dvaravati style | 600..1100 | Q48999164 Dvaravati art | 1.0 | - |  |  | source undated |
 | STY127 | Central Javanese style | 750..930 | Q137118337 Central Asian architecture style | 0.62 | - |  |  | source undated |
 | STY129 | Khmer art-historical styles | 600..1432 | Q25110575 Neo-Historism | 0.62 | - |  |  | source undated |
+| STY133 | Mooi Indie | 1850..1940 | Q61362269 Mooi Indië | 0.95 | - |  |  | source undated |
 | STY133 | Mooi Indie | 1850..1940 | Q19646306 New Indies style | 0.62 | - |  |  | source undated |
 | STY133 | Mooi Indie | 1850..1940 | Q9631124 Brazilian indigenous art | 0.61 | - |  |  | source undated |
 | SCH033 | Vietnamese lacquer painting | 1930.. | Q81100296 easel painting | 0.68 | - | 300177435 |  | source undated |
@@ -525,6 +527,7 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | STY136 | Literati painting | 1050.. | Q6352595 Kalighat painting | 0.76 | - | 300018988 |  | source undated |
 | SCH034 | Southern Song Academy (Ma-Xia school) | 1127..1279 | Q57335364 Ma-Xia School | 1.0 | - |  |  | source undated |
 | SCH035 | Zhe school | 1400..1550 | Q1150941 Zhe school | 1.0 | - |  |  | source undated |
+| SCH036 | Yangzhou Eccentrics | 1700..1800 | Q49000870 Eccentrism | 0.62 | - |  |  | source undated |
 | SCH037 | Shanghai School | 1850..1937 | Q3376676 Shanghai School | 1.0 | - | 300106504 |  | source undated |
 | SCH037 | Shanghai School | 1850..1937 | Q97622695 Shanghai-style furniture | 0.62 | - |  |  | source undated |
 | SCH038 | Lingnan School | 1900.. | Q11050078 Lingnan School | 1.0 | 1900.. |  |  |  |
@@ -558,7 +561,7 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | STY145 | Yamato-e | 900..1600 | Q368258 Yamato-den | 0.89 | - |  |  | source undated |
 | STY145 | Yamato-e | 900..1600 | Q1294149 Romanesque painting | 0.78 | - |  |  | source undated |
 | STY146 | Muromachi ink painting | 1350..1570 | Q3088366 Romantic painting | 0.72 | - |  |  | source undated |
-| STY146 | Muromachi ink painting | 1350..1570 | Q1294149 Romanesque painting | 0.68 | - |  |  | source undated |
+| STY146 | Muromachi ink painting | 1350..1570 | Q20822323 Moscow school of icon painting | 0.71 | - |  |  | source undated |
 | SCH041 | Tosa school | 1400..1868 | Q2915215 Tosa school | 1.0 | 1500.. | 300018660 |  | dates differ |
 | STY147 | Rinpa | 1600.. | Q3179819 Rimpa school | 1.0 | 1600.. | 300106734 |  |  |
 | STY148 | Ukiyo-e | 1660..1900 | Q185905 ukiyo-e | 1.0 | 1700..1900 | 300106769 |  |  |
@@ -607,8 +610,8 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | MOV102 | Hawaiian Renaissance | 1970..1990 | Q16488690 Armenian Renaissance | 0.8 | - |  |  | source undated |
 | MOV102 | Hawaiian Renaissance | 1970..1990 | Q466675 American Renaissance | 0.8 | 1876..1917 |  |  | no overlap |
 | MOV103 | Contemporary Maori art movement | 1950.. | Q8011523 contemporary music | 0.83 | - |  |  | source undated |
+| MOV103 | Contemporary Maori art movement | 1950.. | Q132555271 Contemporary San Art | 0.82 | - |  |  | source undated |
 | MOV103 | Contemporary Maori art movement | 1950.. | Q186030 contemporary art | 0.8 | - | 300264737 |  | source undated |
-| MOV103 | Contemporary Maori art movement | 1950.. | Q3487787 Contemporary Arts Society | 0.79 | - |  |  | source undated |
 | MOV104 | Pacific Sisters | 1992.. | Q3360219 Pacific lodge | 0.64 | - |  |  | source undated |
 | MOV105 | Sami Artist Group | 1978..1983 | Q1273221 Memphis Group | 0.7 | 1981.. |  |  |  |
 | MOV105 | Sami Artist Group | 1978..1983 | Q120755885 Egnazia Group | 0.7 | - |  |  | source undated |
@@ -634,7 +637,7 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | STY164 | Kucha (Kizil) painting style | 300..700 | Q1049336 Mughal painting | 0.83 | - |  |  | source undated |
 | STY164 | Kucha (Kizil) painting style | 300..700 | Q120882895 Sikh painting | 0.81 | - |  |  | source undated |
 | STY164 | Kucha (Kizil) painting style | 300..700 | Q7179960 Phad painting | 0.81 | - |  |  | source undated |
-| STY165 | Suzani regional styles | 1750.. | Q25393587 Regionalism | 0.62 | 1890..1950 |  |  | dates differ |
+| STY165 | Suzani regional styles | 1750.. | Q15838173 Regionalism | 0.62 | - | 300172866 |  | source undated |
 | STY165 | Suzani regional styles | 1750.. | Q16931750 Northwest Regional style | 0.61 | - |  |  | source undated |
 | STY165 | Suzani regional styles | 1750.. | Q17108925 London Regionalism | 0.61 | - |  |  | source undated |
 | SCH046 | Cilician Armenian illumination | 1150..1375 | Q123981818 art of Armenian illumination | 0.82 | - |  |  | source undated |
@@ -660,8 +663,8 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | SCH047 | Shona stone sculpture | 1957.. | Q936588 Renaissance sculpture | 0.71 | - |  |  | source undated |
 | SCH047 | Shona stone sculpture | 1957.. | Q11811815 New Sculpture | 0.71 | - | 300021223 |  | source undated |
 | STY179 | Ga figurative coffins | 1950.. | Q19668527 Young Figuratives | 0.68 | - |  |  | source undated |
+| STY179 | Ga figurative coffins | 1950.. | Q25313019 Figurative Constructivism | 0.65 | - |  |  | source undated |
 | STY179 | Ga figurative coffins | 1950.. | Q368002 New Figuration | 0.63 | - | 300022191 |  | source undated |
-| STY179 | Ga figurative coffins | 1950.. | Q2268037 Neo-figurative | 0.63 | - |  |  | source undated |
 
 ## Periods: PeriodO (several definitions of one period are kept)
 
@@ -671,7 +674,7 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | PRD001 | Predynastic period (Egypt) | -5300..-3000 | p03wskdzc7b Predynastic Egypt (4500-2950 BCE/BC) | Roger Bagnall; Richard J. A. Talbert; Sarah Bond; Jeffrey Becker; Tom Elliott; Sean Gillies; Ryan Horne; Michael McCormick; Adam Rabinowitz; Brian Turner; Ross Twele. Pleiades: A community-built gazetteer and graph of ancient places. 2025 | Egypt | 0.79 | -4501..-4501; -2951..-2951 | dates differ |
 | PRD001 | Predynastic period (Egypt) | -5300..-3000 | p0ds9qj3fwb Final Neolithic or Chalcolithic | British School at Athens. The British School at Athens: archaeological periods of Greece. 2022 | Greece | 0.75 | -4500..-4400; -3000..-3000 | dates differ |
 | PRD001 | Predynastic period (Egypt) | -5300..-3000 | p0ds9qjk6pt Final Neolithic or Chalcolithic Greece | British School at Athens. The British School at Athens: archaeological periods of Greece. 2022 | Greece | 0.73 | -4500..-4500; -3000..-3000 | dates differ |
-| PRD002 | Early Dynastic Period (Egypt) | -3000..-2686 | p0m63njzbxk Early Dynastic | Andrea Berlin. The Levantine Ceramics Project. 2012 | Egypt | 1.0 | -3151..-3151; -2664..-2664 | dates differ |
+| PRD002 | Early Dynastic Period (Egypt) | -3000..-2686 | p0cp447dmgg Early Dynastic Period | Robins, Gay. The art of ancient Egypt. 2000, page 8 | Egypt | 1.0 | -2920..-2920; -2649..-2649 | dates differ |
 | PRD002 | Early Dynastic Period (Egypt) | -3000..-2686 | p03wskdnwd4 Archaic (Greco-Roman; 750-550 BCE/BC) | Roger Bagnall; Richard J. A. Talbert; Sarah Bond; Jeffrey Becker; Tom Elliott; Sean Gillies; Ryan Horne; Michael McCormick; Adam Rabinowitz; Brian Turner; Ross Twele. Pleiades: A community-built gazetteer and graph of ancient places. 2025 | Albania; Algeria; Armenia; Bulgaria; Cyprus; Egypt; France; Georgia; Germany; Greece; Iran; Iraq; Israel; Italy; Jordan; Kosovo; Kuwait; Lebanon; Libya; Macedonia; Moldova; Monaco; Morocco; Palestine; Poland; Portugal; Russia; Saudi Arabia; Spain; Sudan; Syria; Tajikistan; Tunisia; Turkey; Turkmenistan; Ukraine; United Kingdom | 1.0 | -751..-751; -551..-551 | no overlap |
 | PRD002 | Early Dynastic Period (Egypt) | -3000..-2686 | p08m57hw3wm Early Dynastic I | British Museum | Iraq; Kuwait; Mesopotamia | 0.93 | -2900..-2900; -2700..-2700 | dates differ |
 | PRD002 | Early Dynastic Period (Egypt) | -3000..-2686 | p08m57hv8mb Early Dynastic II | British Museum | Iraq; Kuwait; Mesopotamia | 0.9 | -2700..-2700; -2600..-2600 | dates differ |
@@ -745,7 +748,7 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | PRD031 | Uruk period | -4000..-3100 | p07ffbfz8rq Uruk IV | Cuneiform Digital Library Initative, 2016. https://cdli.ucla.edu | Middle East; Mesopotamia | 0.73 | -3350..-3350; -3200..-3200 | dates differ |
 | PRD031 | Uruk period | -4000..-3100 | p07ffbf3bb5 Uruk III | Cuneiform Digital Library Initative, 2016. https://cdli.ucla.edu | Middle East; Mesopotamia | 0.67 | -3200..-3200; -3000..-3000 | dates differ |
 | PRD031 | Uruk period | -4000..-3100 | p02sht9wp3g Late Uruk | Adams, Robert McC. (Robert McCormick), 1926-. The Uruk countryside : the natural setting of urban societies. 1972, recto | Iraq | 0.62 | -3200..-3200; -3100..-3100 | dates differ |
-| PRD032 | Early Dynastic period (Mesopotamia) | -2900..-2350 | p0m63njzbxk Early Dynastic | Andrea Berlin. The Levantine Ceramics Project. 2012 | Egypt | 1.0 | -3151..-3151; -2664..-2664 | dates differ |
+| PRD032 | Early Dynastic period (Mesopotamia) | -2900..-2350 | p0cp447dmgg Early Dynastic Period | Robins, Gay. The art of ancient Egypt. 2000, page 8 | Egypt | 1.0 | -2920..-2920; -2649..-2649 | dates differ |
 | PRD032 | Early Dynastic period (Mesopotamia) | -2900..-2350 | p07ffbfwmj4 ED I-III | Cuneiform Digital Library Initative, 2016. https://cdli.ucla.edu | Mesopotamia; Middle East | 1.0 | -2900..-2900; -2340..-2340 |  |
 | PRD032 | Early Dynastic period (Mesopotamia) | -2900..-2350 | p08m57hw3wm Early Dynastic I | British Museum | Iraq; Kuwait; Mesopotamia | 0.93 | -2900..-2900; -2700..-2700 | dates differ |
 | PRD032 | Early Dynastic period (Mesopotamia) | -2900..-2350 | p08m57hv8mb Early Dynastic II | British Museum | Iraq; Kuwait; Mesopotamia | 0.9 | -2700..-2700; -2600..-2600 | dates differ |
@@ -780,6 +783,7 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | PRD038 | Neo-Babylonian period | -626..-539 | p08m57hp2rt Late Babylonian | British Museum | Iraq; Babylonia | 0.83 | -1000..-1; -1000..-1 | dates differ |
 | PRD038 | Neo-Babylonian period | -626..-539 | p083p5rnj3c Neo-Babylonian Empire | Gates, Charles, 1950-. Ancient cities : the archaeology of urban life in the Ancient Near East and Egypt, Greece and Rome. 2003, page 167 | Iraq; Syria; Turkey; Iran; Lebanon; Israel; Jordan; Gaza; West Bank | 0.8 | -612..-612; -539..-539 |  |
 | PRD039 | Middle Elamite period | -1500..-1100 | p07ffbfknpj Middle Elamite | Cuneiform Digital Library Initative, 2016. https://cdli.ucla.edu | Middle East; Iran | 1.0 | -1300..-1300; -1000..-1000 | dates differ |
+| PRD039 | Middle Elamite period | -1500..-1100 | p0t3kksp5wk Middle Lapita | Stuart Bedford. 2024. An update on Late Lapita: Its manifestations and associated implications. In Forty Years in the South Seas: Archaeological Perspectives on the Human History of Papua New Guinea and the Western Pacific Region, edited by Anne Ford, Ben Shaw and Dylan Gaffney, pages 127–149. Terra Australis 57. Canberra: ANU Press., page 128 | Vanuatu; Solomon Islands; New Caledonia; Tonga; Fiji; East New Britain Province; West New Britain Province; New Ireland Province | 0.81 | -1051..-1051; -851..-851 | no overlap |
 | PRD039 | Middle Elamite period | -1500..-1100 | p0c3bh8k2cc The Middle Empire | Joel Dorman Steele. Barnes general history. : a brief history of ancient, mediaeval, and modern peoples, with some account of their monuments, institutions, arts, manners, and customs. 1883, page 16 | Egypt | 0.81 | -2080..-2080; -1525..-1525 | no overlap |
 | PRD039 | Middle Elamite period | -1500..-1100 | p0m64tdvvtt Bronze Age, Middle Elamite | University of Oxford, University of Southampton. (2023). EAMENA Database. Retrieved from https://database.eamena.org (Accessed: 2023-10-01). | Iran | 0.8 | -1501..-1501; -1101..-1101 |  |
 | PRD040 | Iron Age I–III (western Iran) | -1450..-550 | p0qwcp6cg65 Iron I-II | Richard, Suzanne, 1947-.... Near Eastern archaeology : a reader. 2003, page 83 | Israel; Lebanon; Syria; Jordan | 0.95 | -1200..-1200; -586..-586 | dates differ |
@@ -875,7 +879,7 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | PRD060 | Classical period (Greece) | -480..-323 | p0qhb66nbcf Classical (Cypro-Classical) I | ARIADNE Consortium. "ARIADNE Data Collection". 2015. http://www.ariadne-infrastructure.eu/Resources/PeriodO/documentation. | Cyprus | 0.9 | -476..-476; -402..-402 | dates differ |
 | PRD060 | Classical period (Greece) | -480..-323 | p08m57h7jrk Classical Greek | British Museum | Greece | 0.9 | -480..-480; -323..-323 |  |
 | PRD060 | Classical period (Greece) | -480..-323 | p03dr36pr3d Classic Period | Abbott, D., Craig, D. B., Zanotto, H., Judd, V., & Kober, B. (2019). Calculating Hohokam Domestic Architecture Building Costs to Test an Environmental Model of Architectural Changes. American Antiquity, 84(2), 317-335. https://doi.org/10.1017/aaq.2018.94, pg. 320 | Arizona | 0.88 | 1100..1100; 1375..1375 | no overlap |
-| PRD060 | Classical period (Greece) | -480..-323 | p0qhb66s7vp Classical (Cypro-Classical) II | ARIADNE Consortium. "ARIADNE Data Collection". 2015. http://www.ariadne-infrastructure.eu/Resources/PeriodO/documentation. | Cyprus | 0.86 | -401..-401; -327..-327 | dates differ |
+| PRD060 | Classical period (Greece) | -480..-323 | p0jtbzwr3rh Classical (Cypro-Classical) II | Andrew Jamieson. Cypriot antiquities text panels. 2007, page 1 | Cyprus | 0.86 | -400..-400; -325..-325 | dates differ |
 | PRD061 | Hellenistic period | -323..-31 | p0dg76fqj57 Hellenistic | Pyla-Koutsopetria I : archaeological survey of an ancient coastal town. 2014, Table 5.3, pp. 176-177 | Cyprus | 1.0 | -311..-311; -100..-100 | dates differ |
 | PRD061 | Hellenistic period | -323..-31 | p0m63njj46p Hellenistic I | Andrea Berlin. The Levantine Ceramics Project. 2012 | Cyprus | 0.92 | -311..-311; -151..-151 | dates differ |
 | PRD061 | Hellenistic period | -323..-31 | p0qhb66kdzj Hellenistic II | ARIADNE Consortium. "ARIADNE Data Collection". 2015. http://www.ariadne-infrastructure.eu/Resources/PeriodO/documentation. | Cyprus | 0.88 | -151..-151; -52..-52 | dates differ |
@@ -906,7 +910,7 @@ Candidates whose name similarity is under 0.8 and whose dates do not overlap the
 | PRD066 | Middle Byzantine period | 843..1204 | p0gjgrsg24g Byzantine | Portable Antiquities Scheme. Periods used on the database. 2003 | United Kingdom | 0.72 | 491..491; 1453..1453 | dates differ |
 | PRD067 | Late Byzantine period | 1261..1453 | p0z5nvhw957 Late Byzantine Period | Stokstad, Marilyn, 1929-. Art history. 2005, page 262 | Turkey; Greece; Israel; Egypt; Russia; Ukraine | 1.0 | 1261..1261; 1453..1453 |  |
 | PRD067 | Late Byzantine period | 1261..1453 | p08vvjkdcnx Late Byzantium | S. Brooks. 2001-2009. "The Heilbrunn Timeline of Art History: Byzantium (ca. 330-1453)." New York: The Metropolitan Museum of Art. https://www.metmuseum.org/toah/hd/byza/hd_byza.htm. | Greece; Turkey | 0.86 | 1261..1261; 1453..1460 |  |
-| PRD067 | Late Byzantine period | 1261..1453 | p0z5nvhk4b3 Middle Byzantine Period | Stokstad, Marilyn, 1929-. Art history. 2005, page 262 | Turkey; Greece; Israel; Egypt; Russia; Ukraine | 0.8 | 843..843; 1204..1204 | no overlap |
+| PRD067 | Late Byzantine period | 1261..1453 | p0b6j5mq3ms Middle Byzantine (9th-11th century) | A. Rabinowitz and L. Sedikova. 2020. Chersonesos South Region Periodization. | Tauric Chersonesos | 0.8 | 800..800; 1204..1204 | no overlap |
 | PRD067 | Late Byzantine period | 1261..1453 | p0gjgrsg24g Byzantine | Portable Antiquities Scheme. Periods used on the database. 2003 | United Kingdom | 0.78 | 491..491; 1453..1453 | dates differ |
 | PRD068 | Upper Palaeolithic (Europe) | -43000..-10000 | p0gjgrswcr8 Upper (Late) Palaeolithic | Portable Antiquities Scheme. Periods used on the database. 2003 | United Kingdom | 1.0 | -40000..-40000; -10001..-10001 |  |
 | PRD068 | Upper Palaeolithic (Europe) | -43000..-10000 | p06v8w4mj94 Upper Paleolithic | AIAC; L - P : Archaeology. FASTI - Home. 2004 | Serbia | 0.97 | -30001..-30001; -10001..-10001 | dates differ |
@@ -967,7 +971,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | PRD082 | Age of Discovery | 1415..1600 | p086kj9vh3q Contact | David G. Anderson; Joshua Wells; Eric C. Kansa; Sephen Yerka; Sarah W. Kansa; Kelsey Noack Myers; R Carl DeMuth; Thaddeus Bissett. Digital Index of North American Archaeology (DINAA). 2012 | Indiana | 1.0 | 1650..1650; 1900..1900 | no overlap |
 | PRD082 | Age of Discovery | 1415..1600 | p086kj9fgzn Pre-Contact | David G. Anderson; Joshua Wells; Eric C. Kansa; Sephen Yerka; Sarah W. Kansa; Kelsey Noack Myers; R Carl DeMuth; Thaddeus Bissett. Digital Index of North American Archaeology (DINAA). 2012 | Virginia | 0.78 | -13051..-13051; 1607..1607 | dates differ |
 | PRD083 | Industrial Revolution (Britain) | 1760..1840 | p0xxt6tz7pb Industrial | Scottish Archaeological Periods & Ages (ScAPA) | Scotland | 0.65 | 1750..1750; 1850..1850 |  |
-| PRD084 | Long nineteenth century | 1789..1914 | p0xxt6t7hbr 19th Century | Scottish Archaeological Periods & Ages (ScAPA) | Scotland | 0.83 | 1801..1801; 1900..1900 |  |
+| PRD084 | Long nineteenth century | 1789..1914 | p0kh9ds4xhg 19th Century | Historic England. Historic England Periods. 2014 | England | 0.83 | 1801..1801; 1900..1900 |  |
 | PRD084 | Long nineteenth century | 1789..1914 | p0xxt6td6gq Late 19th Century | Scottish Archaeological Periods & Ages (ScAPA) | Scotland | 0.82 | 1860..1870; 1900..1900 | dates differ |
 | PRD084 | Long nineteenth century | 1789..1914 | p086kj9vxnm early 19th century | David G. Anderson; Joshua Wells; Eric C. Kansa; Sephen Yerka; Sarah W. Kansa; Kelsey Noack Myers; R Carl DeMuth; Thaddeus Bissett. Digital Index of North American Archaeology (DINAA). 2012 | Iowa | 0.8 | 1800..1800; 1850..1850 | dates differ |
 | PRD084 | Long nineteenth century | 1789..1914 | p0xxt6tkf5z Mid 19th Century | Scottish Archaeological Periods & Ages (ScAPA) | Scotland | 0.79 | 1830..1840; 1860..1870 |  |
@@ -1005,7 +1009,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | PRD100 | Southern Song period | 1127..1279 | p0fp7wv9x7n Southern Song | CHGIS: Major Chinese Periods Chronology. Ed. Merrick Lex Berman. 2015. | China | 1.0 | 1127..1127; 1279..1279 |  |
 | PRD100 | Southern Song period | 1127..1279 | p0fp7wvjvn8 Northern Song | CHGIS: Major Chinese Periods Chronology. Ed. Merrick Lex Berman. 2015. | China | 0.85 | 960..960; 1127..1127 | dates differ |
 | PRD100 | Southern Song period | 1127..1279 | p08m57hs9sm Southern Song dynasty | British Museum | China | 0.76 | 1127..1127; 1279..1279 |  |
-| PRD101 | Transitional period (Chinese porcelain) | 1620..1683 | p084zsdfcj6 Transitional Period | Ousterhout Robert G. 2017. Visualizing Community: Art Material Culture and Settlement in Byzantine Cappadocia. Washington D.C: Dumbarton Oaks Research Library and Collection., page 13 | The name Cappadocia refers to a historical region of central Anatolia. | 1.0 | 667..700; 901..934 | no overlap |
+| PRD101 | Transitional period (Chinese porcelain) | 1620..1683 | p0jtbzwhwbh Transitional (Philia Culture) | Andrew Jamieson. Cypriot antiquities text panels. 2007, page 1 | Cyprus | 1.0 | -2600..-2500; -2300..-2300 | no overlap |
 | PRD101 | Transitional period (Chinese porcelain) | 1620..1683 | p0cwwzn9pcp Transition Phase | "Stylistic Classification" From: THANADOS: https://thanados.net/vocabulary/25158 [Accessed: 2022/07/22]
 Licensed under a Creative Commons Attribution 4.0 International License | Austria | 0.91 | 550..550; 660..660 | no overlap |
 | PRD101 | Transitional period (Chinese porcelain) | 1620..1683 | p0jqmd7ftd8 Roman Transitional Period | Harper, K. 2017. The Fate of Rome: Climate, Disease, and the End of an Empire. Princeton N. J.: Princeton University Press. | Europe; Roman Empire | 0.8 | 150..150; 450..450 | no overlap |
@@ -1014,7 +1018,8 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | PRD104 | Republican period (China) | 1912..1949 | p0nbnxtvzdq Republicano | Chiavazza, H., Prieto Olavarría, C., & Zorrilla, V. (2009). Arqueología de una formación urbana. Los registros en una ciudad de desarrollo continuo: Mendoza en el siglo XVI. En H. Chiavazza & C. Cerutti (Eds.), Arqueología de ciudades Americanas del siglo XVI (pp. 319-342). Facultad de Filosofía y Letras, Universidad Nacional de Cuyo., page 325 | Argentina | 0.95 | 1801..1801; 1861..1861 | no overlap |
 | PRD104 | Republican period (China) | 1912..1949 | p0qhb66qzqh repubblicano | ARIADNE Consortium. "ARIADNE Data Collection". 2015. http://www.ariadne-infrastructure.eu/Resources/PeriodO/documentation. | Sardinia | 0.91 | -239..-239; -29..-29 | no overlap |
 | PRD104 | Republican period (China) | 1912..1949 | p08m57hjmr4 Republic | British Museum | China | 0.89 | 1912..1912; 1949..1949 |  |
-| PRD104 | Republican period (China) | 1912..1949 | p06v8w4hx4w Republikane | AIAC; L - P : Archaeology. FASTI - Home. 2004 | Albania | 0.86 | -169..-169; -2..-2 | no overlap |
+| PRD104 | Republican period (China) | 1912..1949 | p0qhb66jzqd Republikane | ARIADNE Consortium. "ARIADNE Data Collection". 2015. http://www.ariadne-infrastructure.eu/Resources/PeriodO/documentation. | Albania | 0.86 | -169..-169; -1..-1 | no overlap |
+| PRD109 | Later spread of Buddhism (Tibet) | 978..1300 | p0xgh9bc9mc Late Pre-Historic (Manus) | Kirch, Patrick Vinton. On the Road of the Winds : An Archaeological History of the Pacific Islands before European Contact. Revised and expanded edition, University of California Press, 2017, page 117 | Manus Province | 0.63 | 1150..1150; 1800..1850 | dates differ |
 | PRD109 | Later spread of Buddhism (Tibet) | 978..1300 | p0ptxqwxrxh  late Pre-Hispanic Period | M. Laura López; M. Andrea Recalde. The first quinoa (Chenopodium quinoa Willd) macrobotanical remains at Sierras del Norte (Central Argentina) and their implications in pre-Hispanic subsistence practices. 2016-08, 426 | Córdoba | 0.63 | 800..800; 1500..1500 | dates differ |
 | PRD110 | Palaeolithic (Japan) | -36000..-14000 | p0h9ttqbh4z Palaeolithic | Centro Nacional de Investigación sobre la Evolución Humana, CENIEH | Earth | 1.0 | -2598051..-2598051; -8051..-8051 | dates differ |
 | PRD110 | Palaeolithic (Japan) | -36000..-14000 | p0fbfthrmxw Japanese Paleolithic | Rebekah Harmon; Peter Yanase. Style Manual for English Texts: General Conventions. 2022 | Japan | 0.98 | -35500..-35500; -14000..-14000 |  |
@@ -1081,8 +1086,8 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | PRD159 | Classical (Hindu-Buddhist) period (Indonesia) | 400..1500 | p0bd6643st9 Classical Age | Freeman, Charles. Egypt, Greece and Rome. 2004, page 592 | Greece | 1.0 | -480..-480; -404..-404 | no overlap |
 | PRD159 | Classical (Hindu-Buddhist) period (Indonesia) | 400..1500 | p0qhb66nbcf Classical (Cypro-Classical) I | ARIADNE Consortium. "ARIADNE Data Collection". 2015. http://www.ariadne-infrastructure.eu/Resources/PeriodO/documentation. | Cyprus | 0.9 | -476..-476; -402..-402 | no overlap |
 | PRD159 | Classical (Hindu-Buddhist) period (Indonesia) | 400..1500 | p03dr36pr3d Classic Period | Abbott, D., Craig, D. B., Zanotto, H., Judd, V., & Kober, B. (2019). Calculating Hohokam Domestic Architecture Building Costs to Test an Environmental Model of Architectural Changes. American Antiquity, 84(2), 317-335. https://doi.org/10.1017/aaq.2018.94, pg. 320 | Arizona | 0.88 | 1100..1100; 1375..1375 | dates differ |
-| PRD159 | Classical (Hindu-Buddhist) period (Indonesia) | 400..1500 | p0qhb66s7vp Classical (Cypro-Classical) II | ARIADNE Consortium. "ARIADNE Data Collection". 2015. http://www.ariadne-infrastructure.eu/Resources/PeriodO/documentation. | Cyprus | 0.86 | -401..-401; -327..-327 | no overlap |
-| PRD159 | Classical (Hindu-Buddhist) period (Indonesia) | 400..1500 | p0qhb665tzz Classico | ARIADNE Consortium. "ARIADNE Data Collection". 2015. http://www.ariadne-infrastructure.eu/Resources/PeriodO/documentation. | Italy less Sicily, Sardinia, Tuscany, Umbria | 0.82 | -481..-481; -352..-352 | no overlap |
+| PRD159 | Classical (Hindu-Buddhist) period (Indonesia) | 400..1500 | p0jtbzwr3rh Classical (Cypro-Classical) II | Andrew Jamieson. Cypriot antiquities text panels. 2007, page 1 | Cyprus | 0.86 | -400..-400; -325..-325 | no overlap |
+| PRD159 | Classical (Hindu-Buddhist) period (Indonesia) | 400..1500 | p0qhb66dvn5 classico | ARIADNE Consortium. "ARIADNE Data Collection". 2015. http://www.ariadne-infrastructure.eu/Resources/PeriodO/documentation. | Sardinia | 0.82 | -511..-511; -240..-240 | no overlap |
 | PRD162 | Rashidun period | 632..661 | p0kj6dj554g Abbasid Caliphate | Toumanoff, Cyrille. Studies in Christian Caucasian history. 1963, pages 110, 154 | Turkey; Azerbaijan; Iran; Iraq; Georgia; Armenia; Syria | 0.8 | 750..750; 772..772 | no overlap |
 | PRD163 | Umayyad period | 661..750 | p088hzz5fcz Umayyad | Jordanie. Dāʹirat al-Āt̲ār al-ʻĀmmah.; Maison de l'Orient méditerranéen (Lyon, France); International Conference on the History and Archaeology of Jordan (4e : 1989 : Lyon, France). Studies in the history and archaeology of Jordan IV. 1992, page 386 | Jordan | 1.0 | 630..630; 750..750 |  |
 | PRD163 | Umayyad period | 661..750 | p08m57hz828 Umayyad dynasty | British Museum | Damascus, Syria; All of North Africa west of Egypt; Spain | 0.64 | 661..661; 750..750 |  |
@@ -1100,8 +1105,8 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | PRD169 | Ottoman Classical Age | 1300..1600 | p0bd6643st9 Classical Age | Freeman, Charles. Egypt, Greece and Rome. 2004, page 592 | Greece | 1.0 | -480..-480; -404..-404 | no overlap |
 | PRD169 | Ottoman Classical Age | 1300..1600 | p0qhb66nbcf Classical (Cypro-Classical) I | ARIADNE Consortium. "ARIADNE Data Collection". 2015. http://www.ariadne-infrastructure.eu/Resources/PeriodO/documentation. | Cyprus | 0.9 | -476..-476; -402..-402 | no overlap |
 | PRD169 | Ottoman Classical Age | 1300..1600 | p03dr36pr3d Classic Period | Abbott, D., Craig, D. B., Zanotto, H., Judd, V., & Kober, B. (2019). Calculating Hohokam Domestic Architecture Building Costs to Test an Environmental Model of Architectural Changes. American Antiquity, 84(2), 317-335. https://doi.org/10.1017/aaq.2018.94, pg. 320 | Arizona | 0.88 | 1100..1100; 1375..1375 | dates differ |
-| PRD169 | Ottoman Classical Age | 1300..1600 | p0qhb66s7vp Classical (Cypro-Classical) II | ARIADNE Consortium. "ARIADNE Data Collection". 2015. http://www.ariadne-infrastructure.eu/Resources/PeriodO/documentation. | Cyprus | 0.86 | -401..-401; -327..-327 | no overlap |
-| PRD169 | Ottoman Classical Age | 1300..1600 | p0qhb665tzz Classico | ARIADNE Consortium. "ARIADNE Data Collection". 2015. http://www.ariadne-infrastructure.eu/Resources/PeriodO/documentation. | Italy less Sicily, Sardinia, Tuscany, Umbria | 0.82 | -481..-481; -352..-352 | no overlap |
+| PRD169 | Ottoman Classical Age | 1300..1600 | p0jtbzwr3rh Classical (Cypro-Classical) II | Andrew Jamieson. Cypriot antiquities text panels. 2007, page 1 | Cyprus | 0.86 | -400..-400; -325..-325 | no overlap |
+| PRD169 | Ottoman Classical Age | 1300..1600 | p0qhb66dvn5 classico | ARIADNE Consortium. "ARIADNE Data Collection". 2015. http://www.ariadne-infrastructure.eu/Resources/PeriodO/documentation. | Sardinia | 0.82 | -511..-511; -240..-240 | no overlap |
 | PRD170 | Late Bronze Age (Eurasian steppe) | -2100..-900 | p0gjgrs52f5 Late Bronze | Portable Antiquities Scheme. Periods used on the database. 2003 | United Kingdom | 1.0 | -1000..-1000; -801..-801 | dates differ |
 | PRD170 | Late Bronze Age (Eurasian steppe) | -2100..-900 | p0hsq83tspw Late Bronze Age I | Thomas Evan Levy. The archaeology of society in the Holy Land. 1995, page xvi  | Israel; Jordan; Syria; Lebanon; State of Palestine | 0.92 | -1550..-1550; -1400..-1400 | dates differ |
 | PRD170 | Late Bronze Age (Eurasian steppe) | -2100..-900 | p0m64tdbnfp Late Bronze Age 2 | University of Oxford, University of Southampton. (2023). EAMENA Database. Retrieved from https://database.eamena.org (Accessed: 2023-10-01). | Israel; Jordan; Lebanon; Palestine; Syria | 0.92 | -1401..-1401; -1201..-1201 | dates differ |
@@ -1144,7 +1149,6 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | PRD181 | Terminal Classic period (Mesoamerica) | 800..1000 | p08m57hmgt4 Late Classic | British Museum | Mexico; Guatemala; Honduras; Belize; El Salvador | 0.71 | 700..700; 900..900 | dates differ |
 | PRD182 | Early Postclassic period (Mesoamerica) | 900..1200 | p03dr365mwt Early Classic Period | Abbott, D., Craig, D. B., Zanotto, H., Judd, V., & Kober, B. (2019). Calculating Hohokam Domestic Architecture Building Costs to Test an Environmental Model of Architectural Changes. American Antiquity, 84(2), 317-335. https://doi.org/10.1017/aaq.2018.94, pg. 320 | Arizona | 0.87 | 1100..1100; 1275..1275 | dates differ |
 | PRD182 | Early Postclassic period (Mesoamerica) | 900..1200 | p0z5nvhqwwx Early Classical Period | Stokstad, Marilyn, 1929-. Art history. 2005, page 113 | Greece; Turkey | 0.81 | -480..-480; -450..-450 | no overlap |
-| PRD182 | Early Postclassic period (Mesoamerica) | 900..1200 | p064v7m4ggp Epiclassic and Early Postclassic | Christopher A. Pool; Deborah L. Nichols. The Oxford handbook of Mesoamerican archeology. 2012, page 124 | Mexico; Guatemala; Belize; Honduras; El Salvador; Nicaragua | 0.76 | 750..750; 1200..1200 | dates differ |
 | PRD183 | Late Postclassic period (Mesoamerica) | 1200..1521 | p064v7mwqds Late Postclassic | Christopher A. Pool; Deborah L. Nichols. The Oxford handbook of Mesoamerican archeology. 2012, page 125 | Mexico; Guatemala; Belize; Honduras; El Salvador; Nicaragua | 1.0 | 1400..1400; 1521..1521 | dates differ |
 | PRD183 | Late Postclassic period (Mesoamerica) | 1200..1521 | p08m57hmgt4 Late Classic | British Museum | Mexico; Guatemala; Honduras; Belize; El Salvador | 0.86 | 700..700; 900..900 | no overlap |
 | PRD183 | Late Postclassic period (Mesoamerica) | 1200..1521 | p064v7mcjsf Middle Postclassic | Christopher A. Pool; Deborah L. Nichols. The Oxford handbook of Mesoamerican archeology. 2012, page 124 | Mexico; Guatemala; Belize; Honduras; El Salvador; Nicaragua | 0.82 | 1200..1200; 1400..1400 | dates differ |
@@ -1155,6 +1159,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | PRD184 | Colonial period (Spanish America) | 1521..1821 | p0nbnxtmsdv Colonial Medio | Chiavazza, H., Prieto Olavarría, C., & Zorrilla, V. (2009). Arqueología de una formación urbana. Los registros en una ciudad de desarrollo continuo: Mendoza en el siglo XVI. En H. Chiavazza & C. Cerutti (Eds.), Arqueología de ciudades Americanas del siglo XVI (pp. 319-342). Facultad de Filosofía y Letras, Universidad Nacional de Cuyo., page 325 | Argentina | 0.73 | 1601..1601; 1701..1701 | dates differ |
 | PRD184 | Colonial period (Spanish America) | 1521..1821 | p0x5br24cs2 recent Colonial period  | Arias, M. F., Mondini, M., & Korstanje, M. A. (2023). An Early Hispanic-Indigenous Contact Event at the Los Viscos Archaeological Site in the South-Central Andes: A Zooarchaeological Perspective. International Journal of Historical Archaeology, 27(2), 296-315., 3 | Catamarca | 0.7 | 1650..1650; 1800..1800 | dates differ |
 | PRD184 | Colonial period (Spanish America) | 1521..1821 | p0nbnxtbcs8 Colonial Tardío | Chiavazza, H., Prieto Olavarría, C., & Zorrilla, V. (2009). Arqueología de una formación urbana. Los registros en una ciudad de desarrollo continuo: Mendoza en el siglo XVI. En H. Chiavazza & C. Cerutti (Eds.), Arqueología de ciudades Americanas del siglo XVI (pp. 319-342). Facultad de Filosofía y Letras, Universidad Nacional de Cuyo., page 325 | Argentina | 0.7 | 1701..1701; 1800..1800 | dates differ |
+| PRD185 | Preceramic Period (Andes) | -10000..-1800 | p0ms58ddh7b Preceramic Phase (Buka) | Stephen Wickler 1990 Prehistoric Melanesian Exchange and Interaction: Recent Evidence from the Northern Solomon Islands. Asian Perspectives 29(2):135–154 | Autonomous Region of Bougainville | 1.0 | -27051..-27051; -1251..-1251 | dates differ |
 | PRD185 | Preceramic Period (Andes) | -10000..-1800 | p0ff4f4wh3g Precerámico | Ots, M. J. (2005). Prospección arqueológica de la Cuenca del Río de las Tunas (Dptos. Tupungato-Tunuyán, Mendoza). Cuadernos de la Facultad de Humanidades y Ciencias Sociales. Universidad Nacional de Jujuy, 29, 43-60., page 50 | Argentina | 0.86 | -700..-700; -601..-601 | no overlap |
 | PRD185 | Preceramic Period (Andes) | -10000..-1800 | p086kj9kxpv Late Archaic | David G. Anderson; Joshua Wells; Eric C. Kansa; Sephen Yerka; Sarah W. Kansa; Kelsey Noack Myers; R Carl DeMuth; Thaddeus Bissett. Digital Index of North American Archaeology (DINAA). 2012 | Alabama | 0.77 | -3951..-3951; -1251..-1251 | dates differ |
 | PRD185 | Preceramic Period (Andes) | -10000..-1800 | p08m57htpwk Maritime Archaic | British Museum | Maine; Canada | 0.73 | -7000..-7000; 2000..2000 | dates differ |
@@ -1230,9 +1235,13 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | PRD211 | Pleistocene Sahul | -63000..-10000 | p09qtgwk454 Pleistocene Epoch | International Commission on Stratigraphy, Commonwealth Scientific and Industrial Research Organisation, Arizona Geological Survey, and International Union of Geological Sciences. "Geologic Time Scale (2020)." 2020. http://resource.geosciml.org/vocabulary/timescale/gts2020 | World | 0.76 | -2578051..-2578051; -9751..-9751 | dates differ |
 | PRD211 | Pleistocene Sahul | -63000..-10000 | p02z9xf7frc Pleistocene-Indonesia | Charles Higham. First Islanders: Prehistory and Human Migration in Island Southeast Asia by Peter Bellwood. 2019 | Indonesia | 0.74 | -2578051..-2578051; -9751..-9751 | dates differ |
 | PRD211 | Pleistocene Sahul | -63000..-10000 | p09qtgwmw4q Late Pleistocene Age | International Commission on Stratigraphy, Commonwealth Scientific and Industrial Research Organisation, Arizona Geological Survey, and International Union of Geological Sciences. "Geologic Time Scale (2020)." 2020. http://resource.geosciml.org/vocabulary/timescale/gts2020 | World | 0.67 | -127051..-127051; -9751..-9751 | dates differ |
-| PRD211 | Pleistocene Sahul | -63000..-10000 | p0h9ttqccss Upper Pleistocene | Centro Nacional de Investigación sobre la Evolución Humana, CENIEH | Europe; Asia | 0.65 | -124051..-124051; -9051..-9051 | dates differ |
 | PRD213 | Frontier Wars period (Australia) | 1788..1934 | p086kj982fs Frontier | David G. Anderson; Joshua Wells; Eric C. Kansa; Sephen Yerka; Sarah W. Kansa; Kelsey Noack Myers; R Carl DeMuth; Thaddeus Bissett. Digital Index of North American Archaeology (DINAA). 2012 | Illinois | 0.76 | 1841..1841; 1871..1871 | dates differ |
 | PRD213 | Frontier Wars period (Australia) | 1788..1934 | p06c6g3rtrb Frontier Wars, 1811-1878 | “Library of Congress Subject Headings - LC Linked Data Service (Library of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015. | South Africa | 0.72 | 1811..1811; 1878..1878 | dates differ |
+| PRD214 | Lapita period | -1350..-500 | p0p3th5t7td Lapita (third stage) | Carson, Mike T. 2024. Archaeology of Pacific Oceania: Inhabiting a Sea of Islands. 2nd ed. Routledge World Archaeology. London and New York: Routledge., page 198 | Papua New Guinea; Vanuatu; Solomon Islands; Fiji; New Caledonia; Tonga; Samoa; American Samoa; Wallis and Futuna | 1.0 | -800..-800; -500..-500 | dates differ |
+| PRD214 | Lapita period | -1350..-500 | p085kkcp695 Post-Lapita (Massim Islands and South Papuan Coast) | Ben Shaw and Sean P. Connaughton. 2024. Life after Lapita: The Diversification of Regional Cultural Identities in the Western Pacific Islands. In The Oxford Handbook of Island and Coastal Archaeology, edited by Scott M. Fitzpatrick and Jon M. Erlandson, pages 944–968., pages 948 and 958 | Milne Bay Province; Central Province; Gulf Province | 0.71 | -551..-451; -51..-51 | dates differ |
+| PRD214 | Lapita period | -1350..-500 | p0t3kksmmfn Late Lapita | Stuart Bedford. 2024. An update on Late Lapita: Its manifestations and associated implications. In Forty Years in the South Seas: Archaeological Perspectives on the Human History of Papua New Guinea and the Western Pacific Region, edited by Anne Ford, Ben Shaw and Dylan Gaffney, pages 127–149. Terra Australis 57. Canberra: ANU Press., pages 128–129 | Papua New Guinea; Vanuatu; New Caledonia; Tonga; Fiji; Solomon Islands; Samoa; Wallis and Futuna | 0.71 | -851..-851; -751..-751 | dates differ |
+| PRD214 | Lapita period | -1350..-500 | p0t3kks4c6n Early Lapita | Stuart Bedford. 2024. An update on Late Lapita: Its manifestations and associated implications. In Forty Years in the South Seas: Archaeological Perspectives on the Human History of Papua New Guinea and the Western Pacific Region, edited by Anne Ford, Ben Shaw and Dylan Gaffney, pages 127–149. Terra Australis 57. Canberra: ANU Press., pages 128 and 141 | East New Britain Province; West New Britain Province; New Ireland Province | 0.67 | -1251..-1251; -1051..-1051 | dates differ |
+| PRD214 | Lapita period | -1350..-500 | p0t3kksp5wk Middle Lapita | Stuart Bedford. 2024. An update on Late Lapita: Its manifestations and associated implications. In Forty Years in the South Seas: Archaeological Perspectives on the Human History of Papua New Guinea and the Western Pacific Region, edited by Anne Ford, Ben Shaw and Dylan Gaffney, pages 127–149. Terra Australis 57. Canberra: ANU Press., page 128 | Vanuatu; Solomon Islands; New Caledonia; Tonga; Fiji; East New Britain Province; West New Britain Province; New Ireland Province | 0.63 | -1051..-1051; -851..-851 | dates differ |
 | PRD216 | East Polynesian settlement phase | 1000..1300 | p06c6g3zpmf Venetian Settlements, 1204-1715 | “Library of Congress Subject Headings - LC Linked Data Service (Library of Congress).” Web page. N.p., n.d. Web. Accessed 15 July 2015. | Greece | 0.61 | 1204..1204; 1715..1715 | dates differ |
 | PRD217 | Archaic phase (Māori) | 1250..1500 | p03wskdnwd4 Archaic (Greco-Roman; 750-550 BCE/BC) | Roger Bagnall; Richard J. A. Talbert; Sarah Bond; Jeffrey Becker; Tom Elliott; Sean Gillies; Ryan Horne; Michael McCormick; Adam Rabinowitz; Brian Turner; Ross Twele. Pleiades: A community-built gazetteer and graph of ancient places. 2025 | Albania; Algeria; Armenia; Bulgaria; Cyprus; Egypt; France; Georgia; Germany; Greece; Iran; Iraq; Israel; Italy; Jordan; Kosovo; Kuwait; Lebanon; Libya; Macedonia; Moldova; Monaco; Morocco; Palestine; Poland; Portugal; Russia; Saudi Arabia; Spain; Sudan; Syria; Tajikistan; Tunisia; Turkey; Turkmenistan; Ukraine; United Kingdom | 1.0 | -751..-751; -551..-551 | no overlap |
 | PRD217 | Archaic phase (Māori) | 1250..1500 | p0jtbzwg63z Archaic (Cypro-Archaic) I | Andrew Jamieson. Cypriot antiquities text panels. 2007, page 1 | Cyprus | 0.88 | -750..-750; -600..-600 | no overlap |
@@ -1241,6 +1250,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | PRD218 | Classic phase (Māori) | 1500..1769 | p03dr36pr3d Classic Period | Abbott, D., Craig, D. B., Zanotto, H., Judd, V., & Kober, B. (2019). Calculating Hohokam Domestic Architecture Building Costs to Test an Environmental Model of Architectural Changes. American Antiquity, 84(2), 317-335. https://doi.org/10.1017/aaq.2018.94, pg. 320 | Arizona | 1.0 | 1100..1100; 1375..1375 | no overlap |
 | PRD218 | Classic phase (Māori) | 1500..1769 | p0qhb66dvn5 classico | ARIADNE Consortium. "ARIADNE Data Collection". 2015. http://www.ariadne-infrastructure.eu/Resources/PeriodO/documentation. | Sardinia | 0.93 | -511..-511; -240..-240 | no overlap |
 | PRD218 | Classic phase (Māori) | 1500..1769 | p0bd6643st9 Classical Age | Freeman, Charles. Egypt, Greece and Rome. 2004, page 592 | Greece | 0.88 | -480..-480; -404..-404 | no overlap |
+| PRD220 | Latte period (Marianas) | 900..1668 | p03qzdtg3tc Latte | Liston and Clark 2026. Prologue in The Mariana Islands: People, History and Archaeology. Terra australis 59. Edited by Jolie Liston and Geoffrey Clark. ANU Press. DOI: 10.22459/TA59.2026 | Northern Mariana Islands; Guam | 1.0 | 850..850; 1521..1521 | dates differ |
 
 ## Places, polities, civilisations, cultures and networks: Pleiades and TGN
 
@@ -1266,6 +1276,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | PLC010 | place | Qantir-Piramesse | -1280..-1130 | 727080 Avaris/Ramesses | 0.77 | settlement; archaeological-site | ACHRLM (-) |  | source undated |
 | PLC010 | place | Qantir-Piramesse | -1280..-1130 | 963047542 Ramesseum | 0.7 | temple-2 | NM (-) |  | source undated |
 | PLC012 | place | Grand Egyptian Museum | 2023.. | 981503 Ancient Egypt (region) | 0.61 | region | ENHRL (-) |  | source undated |
+| PLC013 | place | Kerma | -2500..-1500 | 275584 Ain Kerma | 0.71 | settlement | RM (-) |  | source undated |
 | PLC014 | place | Meroë | -500..350 | 59927 Meros (mountain) | 0.89 | mountain | HRLMT (-) |  | source undated |
 | PLC014 | place | Meroë | -500..350 | 678284 Meron | 0.89 | settlement | RL (-) |  | source undated |
 | PLC014 | place | Meroë | -500..350 | 658533 Meroe | 0.89 | settlement | EL (-) |  | source undated |
@@ -1335,7 +1346,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | PLC075 | place | Shanga | 750..1425 | 642557317 Kadmat Island | 0.6 | island | M (-) |  | source undated |
 | PLC078 | place | Lamu Old Town | 1370.. | 483987 Lamud statio | 0.64 | unlocated | R (30..300) |  | dates differ |
 | PLC079 | place | Fort Jesus | 1593.. | 865385553 Niš Fortress | 0.67 | fort-2 | 1ETOFTT (-) |  | source undated |
-| PLC079 | place | Fort Jesus | 1593.. | 285442 Fortassa | 0.67 | settlement | R (30..300) |  | dates differ |
+| PLC079 | place | Fort Jesus | 1593.. | 285442 Fortassa | 0.67 | settlement | RM (-) |  | source undated |
 | PLC079 | place | Fort Jesus | 1593.. | 964673805 Van Fortress | 0.64 | fort-2; findspot; archaeological-site; citadel | UM (-) |  | source undated |
 | PLC081 | place | Kasubi Tombs | 1882.. | 864330772 Kasta tomb | 0.73 | tumulus | HM (-) |  | source undated |
 | PLC083 | place | Blombos Cave | -100000..-70000 | 583980739 Western gate of Serdica | 0.71 | city-gate; city-wall; archaeological-site | RL (-) |  | source undated |
@@ -1370,7 +1381,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | PLC127 | place | Charleston | 1670.. | 687874 Chariton | 0.78 | church | L (300..640) |  | dates differ |
 | PLC130 | place | Metropolitan Museum of Art | 1880.. | 609472 Metropolitanus Campus | 0.75 | label | HRL (-) |  | source undated |
 | PLC130 | place | Metropolitan Museum of Art | 1880.. | 589930 Metropolite | 0.73 | unknown | AL (-) |  | source undated |
-| PLC130 | place | Metropolitan Museum of Art | 1880.. | 540947 Metropolis (Thessaly) | 0.69 | settlement; archaeological-site | ACHRNT (-) |  | source undated |
+| PLC130 | place | Metropolitan Museum of Art | 1880.. | 440964557 Metropolis (near Priapus) | 0.69 | unlocated; polis | C (-550..-330) |  | dates differ |
 | PLC133 | place | Templo Mayor precinct | 1325..1521 | 542461377 Temple of Montu (El-Tod) | 0.61 | sanctuary; temple-2 | OM (-) |  | source undated |
 | PLC136 | place | Sierra de las Navajas | -100..1521 | 256450 Sierra de la Martela | 0.73 | settlement | CH (-) |  | source undated |
 | PLC136 | place | Sierra de las Navajas | -100..1521 | 256093 Cerro de las Monas | 0.72 | station | CHR (-) |  | source undated |
@@ -1490,12 +1501,12 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | PLC246 | place | Banda Islands | 1400..1860 | 723198389 Bardsey Island | 0.74 | island | M (-) |  | source undated |
 | PLC249 | place | Samarkand | -500.. | 50163782 Samara Bend | 0.8 | peninsula; region | N (-) |  | source undated |
 | PLC249 | place | Samarkand | -500.. | 109320 Samara (river) | 0.8 | river | RLMT (-) |  | source undated |
-| PLC249 | place | Samarkand | -500.. | 741591 Samaria | 0.75 | unlocated | HR (-) |  | source undated |
+| PLC249 | place | Samarkand | -500.. | 44836840 Samaria (province) | 0.75 | province-2 | ENT (-) |  | source undated |
 | PLC250 | place | Bukhara | 800.. | 762205391 Bukhara | 1.0 | settlement; settlement-modern | SM (-) |  | source undated |
 | PLC250 | place | Bukhara | 800.. | 766346 Bukhalug | 0.67 | settlement | HR (-) |  | source undated |
 | PLC252 | place | Hotan jade rivers | -1200.. | 933523997 Amnya River | 0.64 | river | T (-) |  | source undated |
 | PLC254 | place | Sar-i Sang | -6000.. | 971882 Takht-i Sangin | 0.67 | settlement; archaeological-site | HRM (-) |  | source undated |
-| PLC254 | place | Sar-i Sang | -6000.. | 29748 Sar-o Tar | 0.63 | settlement | R (30..300) |  | dates differ |
+| PLC254 | place | Sar-i Sang | -6000.. | 29748 Sar-o Tar | 0.63 | settlement; archaeological-site | RT (-) |  | source undated |
 | PLC254 | place | Sar-i Sang | -6000.. | 961961 Sar-i Pul | 0.63 | temple | R (30..300) |  | dates differ |
 | PLC255 | place | Gonur Depe | -2400..-1600 | 391537222 Gonur Tepe | 0.9 | settlement; archaeological-site | 32M (-) |  | source undated |
 | PLC255 | place | Gonur Depe | -2400..-1600 | 515280820 Monjukli Depe | 0.7 | settlement | N (-) |  | source undated |
@@ -1515,7 +1526,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | PLC267 | place | Babylon | -605..-539 | 912816 Babylonia | 0.88 | region; label | LANCAHRL (-) |  | source undated |
 | PLC267 | place | Babylon | -605..-539 | 226528 Baby | 0.73 | tumulus | C (-550..-330) |  | dates differ |
 | PLC268 | place | Samarra | 836..892 | 109320 Samara (river) | 0.92 | river | RLMT (-) |  | source undated |
-| PLC268 | place | Samarra | 836..892 | 741591 Samaria | 0.86 | unlocated | HR (-) |  | source undated |
+| PLC268 | place | Samarra | 836..892 | 44836840 Samaria (province) | 0.86 | province-2 | ENT (-) |  | source undated |
 | PLC271 | place | Iraq Museum | 1926.. | 971707 Bagh-i Mir | 0.64 | settlement | L (300..640) |  | dates differ |
 | PLC271 | place | Iraq Museum | 1926.. | 354101 Bir Baghira | 0.61 | settlement | RL (-) |  | source undated |
 | PLC272 | place | Susa | -4200..-330 | 236670 Susarri? | 0.73 | label | HR (-) |  | source undated |
@@ -1528,7 +1539,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | PLC277 | place | Siraf | 800..1100 | 29762 [Siraf] | 1.0 | settlement | RLS (-) |  | source undated |
 | PLC277 | place | Siraf | 800..1100 | 373892 Sira | 0.89 | settlement | R (30..300) |  | no overlap |
 | PLC277 | place | Siraf | 800..1100 | 226762 Siraci? | 0.73 | label; people | HR (-) |  | source undated |
-| PLC278 | place | Hormuz | 1300..1622 | 844948 Horma | 0.73 | settlement | RL (-) |  | source undated |
+| PLC278 | place | Hormuz | 1300..1622 | 494569 Horma | 0.73 | unlocated | - (-) |  | source undated |
 | PLC278 | place | Hormuz | 1300..1622 | 1010946 Strait of Hormuz | 0.63 | strait | T (-) |  | source undated |
 | PLC280 | place | Nishapur | 800..1200 | 643754200 Khorsabad ziggurat | 0.65 | temple-2 | NTT (-) |  | source undated |
 | PLC281 | place | Jericho | -9600..-6000 | 687917 Jericho | 1.0 | settlement; archaeological-site | MMPNPETM2LIHHHRRRRTLPACIESLMM (-) |  | source undated |
@@ -1541,7 +1552,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | PLC287 | place | Tyre | -1000..1300 | 226801 Tyregetai | 0.62 | label; people | HR (-) |  | source undated |
 | PLC287 | place | Tyre | -1000..1300 | 138484 Neuvy-sur-Barangeon | 0.6 | temple | RL (-) |  | source undated |
 | PLC288 | place | Palmyra | 1..273 | 668331 Palmyra | 1.0 | urban; oasis; station; archaeological-site; settlement | LME1NCAHHRRRTLLCEAMCI1SOLMM (-) |  | source undated |
-| PLC288 | place | Palmyra | 1..273 | 265998 Palma | 0.83 | settlement | HRL (-) |  | source undated |
+| PLC288 | place | Palmyra | 1..273 | 814405065 Palma | 0.83 | settlement; settlement-modern | MM (-) |  | source undated |
 | PLC288 | place | Palmyra | 1..273 | 844139526 Agora of Palmyra | 0.7 | agora | RT (-) |  | source undated |
 | PLC289 | place | Qal'at al-Bahrain | -2300..1600 | 932478 Qalat al-Bahrain | 0.97 | settlement; archaeological-site | HRLM (-) |  | source undated |
 | PLC289 | place | Qal'at al-Bahrain | -2300..1600 | 894067 Qal'a al-Bint | 0.8 | fort | RL (-) |  | source undated |
@@ -1674,7 +1685,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | PLC377 | place | Imperial Porcelain Factory | 1744.. | 69567 St-Peter-Port | 0.61 | settlement; port; settlement-modern | HRLT (-) |  | source undated |
 | PLC378 | place | Vkhutemas building | 1920..1930 | 337294882 East Building | 0.77 | building | TT (-) |  | source undated |
 | PLC378 | place | Vkhutemas building | 1920..1930 | 341010947 Late Roman Building | 0.7 | building | TT (-) |  | source undated |
-| PLC380 | place | Magnitogorsk | 1929.. | 79587 Magnis | 0.67 | settlement | RL (-) |  | source undated |
+| PLC380 | place | Magnitogorsk | 1929.. | 89238 Magnis | 0.67 | fort-2; fort | RRLM (-) |  | source undated |
 | PLC381 | place | Birka | 750..975 | 691747970 Birket Habu | 0.62 | lake | N (-) |  | source undated |
 | PLC383 | place | Oseberg ship burial | 834.. | 104925762 House of the Ship Europa | 0.67 | townhouse | RM (-) |  | source undated |
 | PLC384 | place | Falun Mine | 1000..1992 | 114779 Fanum Minervae | 0.67 | unlocated | RL (-) |  | source undated |
@@ -1704,17 +1715,17 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | PLC413 | place | Orongo | 1500..1868 | 197470 Raparia | 0.67 | settlement | RL (-) |  | source undated |
 | PLC415 | place | Bishop Museum | 1889.. | 79330 Bishopstone | 0.67 | villa | RLT (-) |  | source undated |
 | PLC417 | place | Arahura River | 1300.. | 608189383 Burbia River | 0.72 | river | MT (-) |  | source undated |
+| PLC417 | place | Arahura River | 1300.. | 206635854 Vouga River | 0.67 | river | RT (-) |  | source undated |
 | PLC417 | place | Arahura River | 1300.. | 897975989 Khosr River | 0.67 | river | LENM (-) |  | source undated |
-| PLC417 | place | Arahura River | 1300.. | 341257349 Esaro River (Calabria) | 0.67 | river | T (-) |  | source undated |
 | POL001 | polity | Pharaonic Egyptian state | -3100..-332 | 981503 Ancient Egypt (region) | 1.0 | region | ENHRL (-) |  | source undated |
 | POL001 | polity | Pharaonic Egyptian state | -3100..-332 | 109077 Kemel | 0.8 | fort | R (30..300) |  | no overlap |
+| POL002 | polity | Kingdom of Kerma | -2500..-1500 | 275584 Ain Kerma | 0.73 | settlement | RM (-) |  | source undated |
 | POL002 | polity | Kingdom of Kerma | -2500..-1500 | 568111824 Kingdom of Mapungubwe | 0.65 | cultural-landscape; state | TT (-) |  | source undated |
 | POL003 | polity | Kingdom of Kush (Napata and Meroë) | -785..350 | 827790769 Kush (kingdom) | 1.0 | kingdom | MSNTLPRL (-) |  | source undated |
 | POL003 | polity | Kingdom of Kush (Napata and Meroë) | -785..350 | 59983 Hindu Kush (mountains) | 0.73 | mountain; label | CHRL (-) |  | source undated |
 | POL003 | polity | Kingdom of Kush (Napata and Meroë) | -785..350 | 177302800 Attalid kingdom | 0.73 | region | - (-) |  | source undated |
 | POL004 | polity | Makuria | 550..1500 | 477748559 Makurān | 0.71 | province-2 | - (-) |  | source undated |
 | POL005 | polity | Mahdist State | 1885..1898 | 187465 Maiensis Statio | 0.64 | station | RLT (-) |  | source undated |
-| POL005 | polity | Mahdist State | 1885..1898 | 422817 Ad Statuas | 0.61 | station | HRLT (-) |  | source undated |
 | POL007 | polity | Ethiopian Empire (Solomonic) | 1270..1974 | 590282460 Parthian empire | 0.77 | state | T (-) |  | source undated |
 | POL007 | polity | Ethiopian Empire (Solomonic) | 1270..1974 | 562111623 Sasanian Empire | 0.65 | state | SM (-) |  | source undated |
 | POL008 | polity | Adal Sultanate | 1415..1577 | 790744210 Hala Sultan Tekke | 0.71 | cemetery; settlement; mosque; shrine; archaeological-site | 2MEM (-) |  | source undated |
@@ -1767,7 +1778,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | POL031 | polity | Efik city-states of Old Calabar | 1650..1884 | 157830 La Calade | 0.6 | cemetery | RT (-) |  | source undated |
 | POL032 | polity | Hausa city-states | 1000..1808 | 727136 Kanope (island) | 0.8 | island; label | CHRM (-) |  | source undated |
 | POL032 | polity | Hausa city-states | 1000..1808 | 299004 Kanoukis | 0.67 | unlocated | HR (-) |  | source undated |
-| POL034 | polity | Kanem-Bornu | 800..1893 | 550616 Kane (mountain) | 0.89 | mountain | CHRM (-) |  | source undated |
+| POL034 | polity | Kanem-Bornu | 800..1893 | 58129442 Kaneš | 0.89 | settlement | 2MMEANMCAHRM (-) |  | source undated |
 | POL034 | polity | Kanem-Bornu | 800..1893 | 118608 Bornitz | 0.67 | cemetery | RT (-) |  | source undated |
 | POL034 | polity | Kanem-Bornu | 800..1893 | 543742 Kanethos | 0.62 | unlocated | - (-) |  | source undated |
 | POL035 | polity | Ghana (Wagadu) | 300..1240 | 562111623 Sasanian Empire | 0.74 | state | SM (-) |  | source undated |
@@ -1789,7 +1800,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | POL042 | polity | Mamluk Sultanate | 1250..1517 | 790744210 Hala Sultan Tekke | 0.67 | cemetery; settlement; mosque; shrine; archaeological-site | 2MEM (-) |  | source undated |
 | POL042 | polity | Mamluk Sultanate | 1250..1517 | 256460 Sultana | 0.61 | mine-2 | CHR (-) |  | source undated |
 | POL042 | polity | Mamluk Sultanate | 1250..1517 | 942307 Qal'eh Sultan Ali | 0.61 | settlement | CHRL (-) |  | source undated |
-| POL043 | polity | Omani state | 1650.. | 157889 Muscapèu | 0.63 | villa | R (30..300) |  | dates differ |
+| POL043 | polity | Omani state | 1650.. | 157889 Muscapèu | 0.63 | villa | RM (-) |  | source undated |
 | POL043 | polity | Omani state | 1650.. | 187465 Maiensis Statio | 0.62 | station | RLT (-) |  | source undated |
 | POL043 | polity | Omani state | 1650.. | 138477 Musciacas? | 0.6 | settlement | RL (-) |  | source undated |
 | POL045 | polity | Monte Albán (Zapotec state) | -500..850 | 256309 Montemolín | 0.76 | settlement | ACH (-) |  | source undated |
@@ -1805,7 +1816,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | POL051 | polity | Mexica and the Triple Alliance | 1428..1521 | 590282460 Parthian empire | 0.67 | state | T (-) |  | source undated |
 | POL051 | polity | Mexica and the Triple Alliance | 1428..1521 | 753898782 Achaemenid empire | 0.62 | state | M (-) |  | source undated |
 | POL053 | polity | Tarascan state | 1350..1530 | 629092 Taranta | 0.67 | settlement | LS (-) |  | source undated |
-| POL053 | polity | Tarascan state | 1350..1530 | 839594249 Tarasov Mound Site | 0.62 | settlement; sanctuary; cemetery; archaeological-site | 1 (-) |  | source undated |
+| POL053 | polity | Tarascan state | 1350..1530 | 839594249 Tarasov Mound Site | 0.62 | settlement; sanctuary; cemetery; archaeological-site | 1T (-) |  | source undated |
 | POL054 | polity | Coclé chiefdoms | 500..1520 | 943717699 Gran Carro (Bolsena) | 0.74 | settlement | 2ATT (-) |  | source undated |
 | POL054 | polity | Coclé chiefdoms | 500..1520 | 246409 Granoialo | 0.67 | villa | RL (-) |  | source undated |
 | POL057 | polity | Moche polities | 100..800 | 814706 Mochoura | 0.67 | settlement | HR (-) |  | source undated |
@@ -1826,11 +1837,11 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | POL070 | polity | Viceroyalty of Peru | 1542..1824 | 119213387 Berretta del Prete | 0.61 | tomb | RM (-) |  | source undated |
 | POL071 | polity | Viceroyalty of New Granada | 1739..1819 | 462349 Monte Grande | 0.64 | mine-2 | RTT (-) |  | source undated |
 | POL072 | polity | Colonial Brazil | 1549..1815 | 157908 Portus Maurici | 0.69 | station; settlement-modern | RT (-) |  | source undated |
-| POL073 | polity | Quilombo dos Palmares | 1605..1694 | 265998 Palma | 0.77 | settlement | HRL (-) |  | source undated |
+| POL073 | polity | Quilombo dos Palmares | 1605..1694 | 814405065 Palma | 0.77 | settlement; settlement-modern | MM (-) |  | source undated |
 | POL073 | polity | Quilombo dos Palmares | 1605..1694 | 216916 Palmatis | 0.75 | station; archaeological-site | RL (-) |  | source undated |
 | POL073 | polity | Quilombo dos Palmares | 1605..1694 | 433008 Palmaria (island) | 0.75 | island | MT (-) |  | source undated |
 | POL077 | polity | Cuba (revolutionary state) | 1959.. | 622129 Cuballum | 0.67 | unlocated | H (-330..-30) |  | dates differ |
-| POL078 | polity | United States (federal craft and Indian arts policy) | 1776.. | 422817 Ad Statuas | 0.61 | station | HRLT (-) |  | source undated |
+| POL078 | polity | United States (federal craft and Indian arts policy) | 1776.. | 511137 ‘Ad Statuas’ | 0.61 | station | L (300..640) |  | dates differ |
 | POL079 | polity | Canada (Inuit art co-operatives) | 1867.. | 256048 Canama | 0.83 | settlement | R (30..300) |  | dates differ |
 | POL079 | polity | Canada (Inuit art co-operatives) | 1867.. | 658421 Can(n)aba | 0.83 | station | RL (-) |  | source undated |
 | POL079 | polity | Canada (Inuit art co-operatives) | 1867.. | 89134 Cana? (island) | 0.8 | island | LM (-) |  | source undated |
@@ -1846,14 +1857,14 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | POL090 | polity | Commonwealth of Australia (Indigenous arts policy) | 1901.. | 438690 Austicula | 0.67 | unlocated | HT (-) |  | source undated |
 | POL091 | polity | New Zealand (colony and Dominion) | 1840.. | 633872579 New Kalabsha Island | 0.6 | island | M (-) |  | source undated |
 | POL092 | polity | Sumerian city-states | -3500..-2334 | 959120263 Lagash | 1.0 | settlement; archaeological-site | 3EAOM (-) |  | source undated |
-| POL092 | polity | Sumerian city-states | -3500..-2334 | 29630 Kish | 1.0 | island | LMT (-) |  | source undated |
+| POL092 | polity | Sumerian city-states | -3500..-2334 | 29630 Kish (island) | 1.0 | island | LMT (-) |  | source undated |
 | POL092 | polity | Sumerian city-states | -3500..-2334 | 225152488 Lagaba | 0.67 | unlocated; settlement | - (-) |  | source undated |
 | POL093 | polity | Akkadian Empire | -2334..-2154 | 56567730 Akkad | 1.0 | region | A2NAHM (-) |  | source undated |
 | POL093 | polity | Akkadian Empire | -2334..-2154 | 562111623 Sasanian Empire | 0.8 | state | SM (-) |  | source undated |
 | POL093 | polity | Akkadian Empire | -2334..-2154 | 912798 'Akkaz | 0.8 | island; settlement; port | CHR (-) |  | source undated |
 | POL095 | polity | Old Babylonian kingdom | -1894..-1595 | 463803480 Ptolemaic Kingdom | 0.62 | state | - (-) |  | source undated |
 | POL095 | polity | Old Babylonian kingdom | -1894..-1595 | 55248061 Hanging Gardens of Babylon | 0.62 | garden-hortus; paradise-garden | - (-) |  | source undated |
-| POL096 | polity | Neo-Assyrian Empire | -911..-609 | 29492 Assyria (kingdom) | 1.0 | region | OLANCHRL (-) |  | source undated |
+| POL096 | polity | Neo-Assyrian Empire | -911..-609 | 890040006 Assyria (Roman province) | 1.0 | province-2 | - (-) |  | source undated |
 | POL096 | polity | Neo-Assyrian Empire | -911..-609 | 741434 Assya | 0.83 | unlocated | HR (-) |  | source undated |
 | POL096 | polity | Neo-Assyrian Empire | -911..-609 | 229532 Assyrani | 0.8 | unlocated | HR (-) |  | source undated |
 | POL097 | polity | Neo-Babylonian Empire | -626..-539 | 562111623 Sasanian Empire | 0.67 | state | SM (-) |  | source undated |
@@ -1868,11 +1879,10 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | POL101 | polity | Hittite Empire | -1650..-1180 | 283602441 Hattusa | 0.67 | settlement; archaeological-site | 2MM (-) |  | source undated |
 | POL102 | polity | Phoenician city-states | -1200..-332 | 668216 Byblos | 1.0 | settlement; port; archaeological-site | P2E1IENCAHHRRRTLLCCMM (-) |  | source undated |
 | POL102 | polity | Phoenician city-states | -1200..-332 | 30271 Sidodone | 0.77 | unlocated | CH (-) |  | source undated |
-| POL102 | polity | Phoenician city-states | -1200..-332 | 570671 Sidous | 0.73 | settlement | ACHRT (-) |  | source undated |
 | POL103 | polity | Urartu | -860..-590 | 214160492 Urartu | 1.0 | state | LUM (-) |  | source undated |
 | POL103 | polity | Urartu | -860..-590 | 568111824 Kingdom of Mapungubwe | 0.69 | cultural-landscape; state | TT (-) |  | source undated |
 | POL103 | polity | Urartu | -860..-590 | 552728268 Kamışvan | 0.67 | findspot | M (-) |  | source undated |
-| POL104 | polity | Lydia | -680..-547 | 1001909 Lydia (Byzantine province) | 1.0 | province | - (-) |  | source undated |
+| POL104 | polity | Lydia | -680..-547 | 351685830 Lydia (Kingdom) | 1.0 | region | N (-) |  | source undated |
 | POL104 | polity | Lydia | -680..-547 | 463803480 Ptolemaic Kingdom | 0.65 | state | - (-) |  | source undated |
 | POL104 | polity | Lydia | -680..-547 | 177302800 Attalid kingdom | 0.62 | region | - (-) |  | source undated |
 | POL105 | polity | Achaemenid Empire | -550..-330 | 753898782 Achaemenid empire | 1.0 | state | M (-) |  | source undated |
@@ -1884,7 +1894,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | POL107 | polity | Sasanian Empire | 224..651 | 562111623 Sasanian Empire | 1.0 | state | SM (-) |  | source undated |
 | POL107 | polity | Sasanian Empire | 224..651 | 456061 Eranusa (island) | 0.75 | unlocated; island | R (30..300) |  | dates differ |
 | POL107 | polity | Sasanian Empire | 224..651 | 590282460 Parthian empire | 0.73 | state | T (-) |  | source undated |
-| POL108 | polity | Kingdom of Armenia (antiquity) | -190..428 | 884120 Armenia | 0.64 | region | CHRL (-) |  | source undated |
+| POL108 | polity | Kingdom of Armenia (antiquity) | -190..428 | 981507 Armenia (Roman province) | 0.64 | province-2 | - (-) |  | source undated |
 | POL108 | polity | Kingdom of Armenia (antiquity) | -190..428 | 568111824 Kingdom of Mapungubwe | 0.61 | cultural-landscape; state | TT (-) |  | source undated |
 | POL109 | polity | Bagratid Armenia | 885..1045 | 568111824 Kingdom of Mapungubwe | 0.69 | cultural-landscape; state | TT (-) |  | source undated |
 | POL109 | polity | Bagratid Armenia | 885..1045 | 314899 Bagrada (river) | 0.61 | river | HRLMT (-) |  | source undated |
@@ -1893,7 +1903,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | POL110 | polity | Armenian Kingdom of Cilicia | 1198..1375 | 648600 Cilicia Pedias | 0.73 | region | EANCHRL (-) |  | source undated |
 | POL111 | polity | Kingdom of Georgia | 1008..1490 | 60025 Sakarauloi | 0.7 | label; people | HL (-) |  | source undated |
 | POL111 | polity | Kingdom of Georgia | 1008..1490 | 658471 Georgia | 0.64 | settlement | RL (-) |  | source undated |
-| POL111 | polity | Kingdom of Georgia | 1008..1490 | 530775 Ag. Georgios | 0.62 | unknown | CHR (-) |  | source undated |
+| POL111 | polity | Kingdom of Georgia | 1008..1490 | 589663 Ag. Georgios | 0.62 | tower-single | CT (-) |  | source undated |
 | POL112 | polity | Saba | -1000..275 | 39417 Saba | 1.0 | region; people | HT (-) |  | source undated |
 | POL112 | polity | Saba | -1000..275 | 354146 Sabae | 0.89 | settlement | R (30..300) |  | dates differ |
 | POL112 | polity | Saba | -1000..275 | 416850 Sabate | 0.8 | settlement | RL (-) |  | source undated |
@@ -1901,7 +1911,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | POL113 | polity | Nabataean Kingdom | -300..106 | 746785 Nabataei | 0.88 | label; people | HRTT (-) |  | source undated |
 | POL113 | polity | Nabataean Kingdom | -300..106 | 177302800 Attalid kingdom | 0.69 | region | - (-) |  | source undated |
 | POL114 | polity | Palmyra | -50..273 | 668331 Palmyra | 1.0 | urban; oasis; station; archaeological-site; settlement | LME1NCAHHRRRTLLCEAMCI1SOLMM (-) |  | source undated |
-| POL114 | polity | Palmyra | -50..273 | 265998 Palma | 0.83 | settlement | HRL (-) |  | source undated |
+| POL114 | polity | Palmyra | -50..273 | 814405065 Palma | 0.83 | settlement; settlement-modern | MM (-) |  | source undated |
 | POL114 | polity | Palmyra | -50..273 | 980015057 Palmyrene Gate | 0.73 | city-gate | FFSMTT (-) |  | source undated |
 | POL115 | polity | Minoan palatial polities | -2000..-1450 | 238779098 Minoan Palatial Center (Knossos) | 0.74 | palace-complex; architecturalcomplex | LM (-) |  | source undated |
 | POL115 | polity | Minoan palatial polities | -2000..-1450 | 599846 Palaiapolis | 0.63 | settlement | RL (-) |  | source undated |
@@ -1910,7 +1920,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | POL116 | polity | Mycenaean palatial states | -1600..-1100 | 590021 Pyloros | 0.83 | settlement | R (30..300) |  | no overlap |
 | POL117 | polity | Athens (classical polis) | -508..-322 | 570085 A(n)thene | 0.83 | settlement | CHR (-) |  | source undated |
 | POL117 | polity | Athens (classical polis) | -508..-322 | 857050 Athenai | 0.77 | settlement | RLTT (-) |  | source undated |
-| POL117 | polity | Athens (classical polis) | -508..-322 | 927604602 Athenae | 0.77 | unlocated | HFM (-) |  | source undated |
+| POL117 | polity | Athens (classical polis) | -508..-322 | 579885 Athenae | 0.77 | settlement | ACHRLSM (-) |  | source undated |
 | POL118 | polity | Etruscan city-states | -800..-264 | 104777481 Aetolian League | 0.73 | league; state | HM (-) |  | source undated |
 | POL118 | polity | Etruscan city-states | -800..-264 | 68843864 Lycian League | 0.71 | league | - (-) |  | source undated |
 | POL118 | polity | Etruscan city-states | -800..-264 | 48050879 Delian League | 0.71 | region | M (-) |  | source undated |
@@ -1943,7 +1953,6 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | POL131 | polity | Republic of Venice | 697..1797 | 197507 Serena? | 0.71 | station | RL (-) |  | source undated |
 | POL132 | polity | Republic of Florence | 1115..1532 | 383649 Florenti(ol)a | 0.71 | station | RL (-) |  | source undated |
 | POL132 | polity | Republic of Florence | 1115..1532 | 197275 Floriana? | 0.62 | settlement | RL (-) |  | source undated |
-| POL133 | polity | Papal States | 756..1870 | 422817 Ad Statuas | 0.64 | station | HRLT (-) |  | source undated |
 | POL133 | polity | Papal States | 756..1870 | 550686 Larissai Petrai | 0.62 | escarpment | - (-) |  | source undated |
 | POL134 | polity | Crown of Aragon | 1162..1716 | 863741 Aragos (river) | 0.83 | river | HRMT (-) |  | source undated |
 | POL134 | polity | Crown of Aragon | 1162..1716 | 94809618 Araghju | 0.62 | tower-defensive; fort | 32 (-) |  | source undated |
@@ -2083,6 +2092,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | POL224 | polity | Spanish Philippines | 1565..1898 | 925968978 Stadium of Philippopolis | 0.65 | stadion | T (-) |  | source undated |
 | POL226 | polity | Scythian kingdoms | -700..-250 | 216976 Scythia Minor | 0.73 | labeled feature; label | RL (-) |  | source undated |
 | POL226 | polity | Scythian kingdoms | -700..-250 | 192761443 Royal Stoa | 0.72 | stoa | SCHRTT (-) |  | source undated |
+| POL226 | polity | Scythian kingdoms | -700..-250 | 1273 Scythia | 0.64 | region; label | ACHRL (-) |  | source undated |
 | POL228 | polity | Sogdian city-states | -500..750 | 60058 Sogdiana | 1.0 | region; label | CHRLS (-) |  | source undated |
 | POL228 | polity | Sogdian city-states | -500..750 | 362094923 Panjakent | 1.0 | settlement | LPM (-) |  | source undated |
 | POL228 | polity | Sogdian city-states | -500..750 | 50163782 Samara Bend | 0.8 | peninsula; region | N (-) |  | source undated |
@@ -2091,7 +2101,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | POL232 | polity | Samanid Empire | 819..999 | 753898782 Achaemenid empire | 0.77 | state | M (-) |  | source undated |
 | POL232 | polity | Samanid Empire | 819..999 | 45635759 Seleucid Empire | 0.69 | state | M (-) |  | source undated |
 | POL233 | polity | Mongol Empire | 1206..1368 | 753898782 Achaemenid empire | 0.6 | state | M (-) |  | source undated |
-| POL235 | polity | Timurid Empire | 1370..1507 | 505963016 Timur | 0.77 | unlocated; settlement | E (-) |  | source undated |
+| POL235 | polity | Timurid Empire | 1370..1507 | 911351381 Timur (mountain) | 0.77 | unlocated; mountain | E (-) |  | source undated |
 | POL235 | polity | Timurid Empire | 1370..1507 | 45635759 Seleucid Empire | 0.69 | state | M (-) |  | source undated |
 | POL235 | polity | Timurid Empire | 1370..1507 | 753898782 Achaemenid empire | 0.65 | state | M (-) |  | source undated |
 | POL236 | polity | Safavid Empire | 1501..1736 | 562111623 Sasanian Empire | 0.76 | state | SM (-) |  | source undated |
@@ -2121,7 +2131,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | CIV010 | civilisation-as-commonly-named | Kanem-Bornu | 700..1893 | 562111623 Sasanian Empire | 0.67 | state | SM (-) |  | source undated |
 | CIV010 | civilisation-as-commonly-named | Kanem-Bornu | 700..1893 | 590282460 Parthian empire | 0.67 | state | T (-) |  | source undated |
 | CIV012 | civilisation-as-commonly-named | Benin | 1180.. | 863755 Beniamin | 0.77 | settlement | CHR (-) |  | source undated |
-| CIV012 | civilisation-as-commonly-named | Benin | 1180.. | 275603 el Benian | 0.71 | fort | RL (-) |  | source undated |
+| CIV012 | civilisation-as-commonly-named | Benin | 1180.. | 275603 el Benian | 0.71 | fort-2 | RLM (-) |  | source undated |
 | CIV012 | civilisation-as-commonly-named | Benin | 1180.. | 177302800 Attalid kingdom | 0.69 | region | - (-) |  | source undated |
 | CIV013 | civilisation-as-commonly-named | Kongo | 1390..1914 | 568111824 Kingdom of Mapungubwe | 0.65 | cultural-landscape; state | TT (-) |  | source undated |
 | CIV014 | civilisation-as-commonly-named | Mapungubwe | 1075..1220 | 568111824 Kingdom of Mapungubwe | 0.71 | cultural-landscape; state | TT (-) |  | source undated |
@@ -2131,7 +2141,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | CIV015 | civilisation-as-commonly-named | Carthaginian / Punic | -814..-146 | 991327 Carthaginiensis | 0.73 | province-2 | - (-) |  | source undated |
 | CIV016 | civilisation-as-commonly-named | Garamantian | -500..700 | 354116 Garamantes | 1.0 | people | CHRL (-) |  | source undated |
 | CIV016 | civilisation-as-commonly-named | Garamantian | -500..700 | 570253 Garates (river) | 0.82 | river | TT (-) |  | source undated |
-| CIV016 | civilisation-as-commonly-named | Garamantian | -500..700 | 963101085 Cemetery of the Garamantes | 0.69 | cemetery | HRM (-) |  | source undated |
+| CIV016 | civilisation-as-commonly-named | Garamantian | -500..700 | 3541230 Cemetery of the Garamantes | 0.69 | cemetery | HR (-) |  | source undated |
 | CIV017 | civilisation-as-commonly-named | Ethiopian (Abyssinian) | 1270..1974 | 707624 Soloi/Aipeia? | 0.67 | settlement | ANCHRL (-) |  | source undated |
 | CIV017 | civilisation-as-commonly-named | Ethiopian (Abyssinian) | 1270..1974 | 648781 Soloi/Pompeiopolis | 0.61 | settlement; archaeological-site; port | ACHRLT (-) |  | source undated |
 | CIV018 | civilisation-as-commonly-named | Maya | -1000..1697 | 393404 Classis | 0.63 | settlement; port | RRLM (-) |  | source undated |
@@ -2164,14 +2174,14 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | CIV037 | civilisation-as-commonly-named | Chimú | 900..1470 | 638802 Chimaera (mountain) | 0.71 | mountain | HRM (-) |  | source undated |
 | CIV038 | civilisation-as-commonly-named | Marajoara | 400..1400 | 746778 Marah | 0.8 | station | L (300..640) |  | dates differ |
 | CIV038 | civilisation-as-commonly-named | Marajoara | 400..1400 | 912901 Marad | 0.8 | settlement | ANCHM (-) |  | source undated |
-| CIV039 | civilisation-as-commonly-named | Amazonian 'garden cities' | -500..1650 | 705921778 Casae | 0.77 | settlement; archaeological-site | RTT (-) |  | source undated |
+| CIV039 | civilisation-as-commonly-named | Amazonian 'garden cities' | -500..1650 | 334513 Casae | 0.77 | settlement | RL (-) |  | source undated |
 | CIV039 | civilisation-as-commonly-named | Amazonian 'garden cities' | -500..1650 | 678085 Casama | 0.71 | station | L (300..640) |  | dates differ |
 | CIV039 | civilisation-as-commonly-named | Amazonian 'garden cities' | -500..1650 | 442531 Casalbore | 0.71 | sanctuary; temple-2 | ACHT (-) |  | source undated |
 | CIV040 | civilisation-as-commonly-named | Muisca | 600..1600 | 81527249 Chibanes | 0.67 | settlement | 32ACH (-) |  | source undated |
 | CIV041 | civilisation-as-commonly-named | Purépecha / Tarascan | 1350..1530 | 629092 Taranta | 0.67 | settlement | LS (-) |  | source undated |
-| CIV041 | civilisation-as-commonly-named | Purépecha / Tarascan | 1350..1530 | 839594249 Tarasov Mound Site | 0.62 | settlement; sanctuary; cemetery; archaeological-site | 1 (-) |  | source undated |
+| CIV041 | civilisation-as-commonly-named | Purépecha / Tarascan | 1350..1530 | 839594249 Tarasov Mound Site | 0.62 | settlement; sanctuary; cemetery; archaeological-site | 1T (-) |  | source undated |
 | CIV042 | civilisation-as-commonly-named | Mesoamerican | -2000..1521 | 580027 Mesogaia | 0.74 | region | - (-) |  | source undated |
-| CIV042 | civilisation-as-commonly-named | Mesoamerican | -2000..1521 | 981534 Mesopotamia | 0.73 | province | - (-) |  | source undated |
+| CIV042 | civilisation-as-commonly-named | Mesoamerican | -2000..1521 | 991405 Mesopotamia | 0.73 | province | - (-) |  | source undated |
 | CIV042 | civilisation-as-commonly-named | Mesoamerican | -2000..1521 | 857233 Mesorome | 0.63 | station | RL (-) |  | source undated |
 | CIV043 | civilisation-as-commonly-named | Pre-Columbian | -15000..1492 | 409222 Columbaria (island) | 0.7 | unlocated; island | RL (-) |  | source undated |
 | CIV043 | civilisation-as-commonly-named | Pre-Columbian | -15000..1492 | 1027 Hispania | 0.7 | region | - (-) |  | source undated |
@@ -2194,17 +2204,17 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | CIV051 | civilisation-as-commonly-named | Cham (Champa) | 200..1832 | 373768 Chaminos | 0.67 | station | RL (-) |  | source undated |
 | CIV053 | civilisation-as-commonly-named | Gandharan | -100..500 | 59818 Gandaris | 0.75 | region | CHRLAT (-) |  | source undated |
 | CIV053 | civilisation-as-commonly-named | Gandharan | -100..500 | 548553086 Gandzasar | 0.71 | church-2; abbey | LOM (-) |  | source undated |
-| CIV053 | civilisation-as-commonly-named | Gandharan | -100..500 | 275634 Gandori | 0.67 | fort | RL (-) |  | source undated |
+| CIV053 | civilisation-as-commonly-named | Gandharan | -100..500 | 275634 Gandori | 0.67 | fort | RLM (-) |  | source undated |
 | CIV054 | civilisation-as-commonly-named | Indianised states of Southeast Asia | 100..1500 | 536839380 The Great Sphinx | 0.64 | monument | OM (-) |  | source undated |
 | CIV054 | civilisation-as-commonly-named | Indianised states of Southeast Asia | 100..1500 | 746584647 Great pit | 0.64 | pit | NTT (-) |  | source undated |
-| CIV055 | civilisation-as-commonly-named | Mesopotamian | -3500..-539 | 981534 Mesopotamia | 0.96 | province | - (-) |  | source undated |
+| CIV055 | civilisation-as-commonly-named | Mesopotamian | -3500..-539 | 991405 Mesopotamia | 0.96 | province | - (-) |  | source undated |
 | CIV055 | civilisation-as-commonly-named | Mesopotamian | -3500..-539 | 462314 Mesopotamium | 0.83 | station | R (30..300) |  | no overlap |
 | CIV055 | civilisation-as-commonly-named | Mesopotamian | -3500..-539 | 580027 Mesogaia | 0.7 | region | - (-) |  | source undated |
 | CIV056 | civilisation-as-commonly-named | Sumerian | -3500..-2000 | 202833934 Sumer | 1.0 | region | 3A2OLEN (-) |  | source undated |
 | CIV056 | civilisation-as-commonly-named | Sumerian | -3500..-2000 | 510671522 Sumere | 0.91 | settlement | L (300..640) |  | no overlap |
 | CIV057 | civilisation-as-commonly-named | Babylonian | -1900..-539 | 912816 Babylonia | 1.0 | region; label | LANCAHRL (-) |  | source undated |
 | CIV057 | civilisation-as-commonly-named | Babylonian | -1900..-539 | 893951 Babylon | 0.88 | urban; settlement; archaeological-site | OLANCAHHRLS (-) |  | source undated |
-| CIV058 | civilisation-as-commonly-named | Assyrian | -2000..-609 | 29492 Assyria (kingdom) | 1.0 | region | OLANCHRL (-) |  | source undated |
+| CIV058 | civilisation-as-commonly-named | Assyrian | -2000..-609 | 890040006 Assyria (Roman province) | 1.0 | province-2 | - (-) |  | source undated |
 | CIV058 | civilisation-as-commonly-named | Assyrian | -2000..-609 | 229532 Assyrani | 0.88 | unlocated | HR (-) |  | source undated |
 | CIV058 | civilisation-as-commonly-named | Assyrian | -2000..-609 | 741434 Assya | 0.83 | unlocated | HR (-) |  | source undated |
 | CIV059 | civilisation-as-commonly-named | Elamite | -3200..-539 | 912842 Elam | 1.0 | region; label | OLANCHRL (-) |  | source undated |
@@ -2260,13 +2270,14 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | CIV082 | civilisation-as-commonly-named | Nuragic | -1800..-238 | 682305779 Nuraghe Unia | 0.74 | nuraghe | 2 (-) |  | source undated |
 | CIV082 | civilisation-as-commonly-named | Nuragic | -1800..-238 | 800924137 Nuraghe Goni | 0.74 | nuraghe | 2 (-) |  | source undated |
 | CIV082 | civilisation-as-commonly-named | Nuragic | -1800..-238 | 39090359 Nuraghe Piscu | 0.7 | nuraghe | 2 (-) |  | source undated |
+| CIV083 | civilisation-as-commonly-named | Old Europe | -6500..-3500 | 1001887 Europe | 0.75 | province | - (-) |  | source undated |
 | CIV083 | civilisation-as-commonly-named | Old Europe | -6500..-3500 | 991376 Europa | 0.67 | province-2 | - (-) |  | source undated |
 | CIV084 | civilisation-as-commonly-named | Moorish | 711..1614 | 195101632 Andalucía (region) | 0.63 | region; settlement | MM (-) |  | source undated |
 | CIV084 | civilisation-as-commonly-named | Moorish | 711..1614 | 619104 Andabalis | 0.63 | settlement | RL (-) |  | source undated |
 | CIV085 | civilisation-as-commonly-named | Western | -800.. | 99063 Westerwanna | 0.78 | cemetery | RL (-) |  | source undated |
 | CIV085 | civilisation-as-commonly-named | Western | -800.. | 187628 Westerndorf | 0.78 | ceramicproduction | RLT (-) |  | source undated |
 | CIV085 | civilisation-as-commonly-named | Western | -800.. | 119050 Westernbach | 0.78 | fort | R (30..300) |  | dates differ |
-| CIV087 | civilisation-as-commonly-named | Scythian | -900..-200 | 991379 Scythia | 0.93 | province | - (-) |  | source undated |
+| CIV087 | civilisation-as-commonly-named | Scythian | -900..-200 | 1273 Scythia | 0.93 | region; label | ACHRL (-) |  | source undated |
 | CIV087 | civilisation-as-commonly-named | Scythian | -900..-200 | 60024 Sakai | 0.89 | label; people | R (30..300) |  | no overlap |
 | CIV087 | civilisation-as-commonly-named | Scythian | -900..-200 | 60659 Sakala | 0.8 | unlocated | HR (-) |  | source undated |
 | CIV088 | civilisation-as-commonly-named | Sogdian | -500..1000 | 60058 Sogdiana | 1.0 | region; label | CHRLS (-) |  | source undated |
@@ -2277,10 +2288,9 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | CIV090 | civilisation-as-commonly-named | Polynesian | -900.. | 756669 (T)Polybiane | 0.74 | settlement | L (300..640) |  | dates differ |
 | CIV090 | civilisation-as-commonly-named | Polynesian | -900.. | 590003 Polyrrenia | 0.74 | settlement; archaeological-site | ACHRL (-) |  | source undated |
 | CIV091 | civilisation-as-commonly-named | Lapita | -1350..-500 | 570414 Lapithos (mountain) | 0.71 | mountain | RMT (-) |  | source undated |
-| CIV091 | civilisation-as-commonly-named | Lapita | -1350..-500 | 187446 Lapidaria? | 0.67 | settlement; station | RLT (-) |  | source undated |
 | CIV092 | civilisation-as-commonly-named | Rapa Nui | 1150.. | 197470 Raparia | 0.67 | settlement | RL (-) |  | source undated |
 | ARC003 | archaeological-culture | Acheulean | -1760000..-130000 | 530770 Acherusia (lake) | 0.78 | lake | CHRT (-) |  | source undated |
-| ARC003 | archaeological-culture | Acheulean | -1760000..-130000 | 530769 Acheron (river) | 0.62 | river | ACHRLM (-) |  | source undated |
+| ARC003 | archaeological-culture | Acheulean | -1760000..-130000 | 452248 Acheron? (river) | 0.62 | river | T (-) |  | source undated |
 | ARC004 | archaeological-culture | Middle Stone Age | -300000..-30000 | 337294881 Middle Stoa | 0.87 | stoa | TT (-) |  | source undated |
 | ARC004 | archaeological-culture | Middle Stone Age | -300000..-30000 | 809110141 Ale's Stones | 0.67 | monument | SS (-) |  | source undated |
 | ARC004 | archaeological-culture | Middle Stone Age | -300000..-30000 | 888637999 Middle Mithraeum | 0.64 | temple-2 | - (-) |  | source undated |
@@ -2301,8 +2311,9 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | ARC014 | archaeological-culture | Badarian | -4400..-4000 | 814664 Badais | 0.71 | settlement | HR (-) |  | source undated |
 | ARC015 | archaeological-culture | Naqada | -4000..-3000 | 805635 Naqa | 0.8 | settlement; archaeological-site | - (-) |  | source undated |
 | ARC016 | archaeological-culture | Khartoum Mesolithic | -8000..-5000 | 888637998 Early Mithraeum | 0.62 | temple-2 | - (-) |  | source undated |
+| ARC019 | archaeological-culture | Kerma | -2500..-1500 | 275584 Ain Kerma | 0.71 | settlement | RM (-) |  | source undated |
 | ARC020 | archaeological-culture | X-Group | 350..600 | 795783 Ballana | 1.0 | cemetery | RL (-) |  | source undated |
-| ARC020 | archaeological-culture | X-Group | 350..600 | 494544 Balla | 0.83 | unlocated | - (-) |  | source undated |
+| ARC020 | archaeological-culture | X-Group | 350..600 | 355611 Balla | 0.83 | unlocated | R (30..300) |  | no overlap |
 | ARC020 | archaeological-culture | X-Group | 350..600 | 206955 Ballanstra | 0.82 | station | RL (-) |  | source undated |
 | ARC021 | archaeological-culture | D'mt / pre-Aksumite | -800..-400 | 27390441 Amatu | 0.67 | people | E (-) |  | source undated |
 | ARC021 | archaeological-culture | D'mt / pre-Aksumite | -800..-400 | 29461 Amata | 0.67 | station | - (-) |  | source undated |
@@ -2338,7 +2349,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | ARC050 | archaeological-culture | Taş Tepeler | -9600..-8000 | 961968 Tilla tepe | 0.7 | cemetery | RLM (-) |  | source undated |
 | ARC051 | archaeological-culture | Central Anatolian Neolithic (Çatalhöyük) | -7100..-5950 | 483473194 Çatalhöyük | 1.0 | settlement | NM (-) |  | source undated |
 | ARC051 | archaeological-culture | Central Anatolian Neolithic (Çatalhöyük) | -7100..-5950 | 528863404 Çatalhöyük west mound | 0.62 | settlement | N (-) |  | source undated |
-| ARC052 | archaeological-culture | Halaf | -6100..-5100 | 540800 Halai | 0.8 | settlement | ACHRL (-) |  | source undated |
+| ARC052 | archaeological-culture | Halaf | -6100..-5100 | 376782 Halai | 0.8 | unlocated | RL (-) |  | source undated |
 | ARC052 | archaeological-culture | Halaf | -6100..-5100 | 46223298 Halawa | 0.73 | settlement; cemetery | - (-) |  | source undated |
 | ARC052 | archaeological-culture | Halaf | -6100..-5100 | 464138294 Halatu | 0.73 | unlocated; well | E (-) |  | source undated |
 | ARC057 | archaeological-culture | Marlik | -1400..-1000 | 745058470 Marlik | 1.0 | cemetery; archaeological-site | MLMT (-) |  | source undated |
@@ -2367,6 +2378,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | ARC076 | archaeological-culture | Lepenski Vir | -9500..-5500 | 962627 Iron Gate (Central Asia) | 0.6 | pass | HMT (-) |  | source undated |
 | ARC078 | archaeological-culture | Cardial Ware | -5500..-4500 | 39322 Cardava | 0.63 | settlement | CR (-) |  | source undated |
 | ARC078 | archaeological-culture | Cardial Ware | -5500..-4500 | 735520833 Cardiff Castle | 0.62 | castle; fort | M (-) |  | source undated |
+| ARC082 | archaeological-culture | Cucuteni–Trypillia | -5500..-2750 | 857361 Tripolis (river) | 0.75 | river | RMT (-) |  | source undated |
 | ARC082 | archaeological-culture | Cucuteni–Trypillia | -5500..-2750 | 82387925 Trypillia | 0.67 | settlement; settlement-modern | T (-) |  | source undated |
 | ARC084 | archaeological-culture | Maltese Temple culture | -3600..-2500 | 541131 Tempe | 0.91 | valley | T (-) |  | source undated |
 | ARC084 | archaeological-culture | Maltese Temple culture | -3600..-2500 | 253721601 Temple O (Selinus) | 0.86 | temple-2 | - (-) |  | source undated |
@@ -2401,7 +2413,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | ARC105 | archaeological-culture | Saka | -900..-100 | 60659 Sakala | 0.8 | unlocated | HR (-) |  | source undated |
 | ARC105 | archaeological-culture | Saka | -900..-100 | 876694 Sakada | 0.8 | unlocated | HR (-) |  | source undated |
 | ARC109 | archaeological-culture | Tagar | -800..-100 | 50294 Tagara | 0.91 | settlement | R (30..300) |  | no overlap |
-| ARC109 | archaeological-culture | Tagar | -800..-100 | 944519 Tagai | 0.8 | unlocated | - (-) |  | source undated |
+| ARC109 | archaeological-culture | Tagar | -800..-100 | 648786 Tagai | 0.8 | church | L (300..640) |  | no overlap |
 | ARC109 | archaeological-culture | Tagar | -800..-100 | 825396 Taganrog | 0.77 | settlement | ACH (-) |  | source undated |
 | ARC123 | archaeological-culture | Longshan | -3000..-1900 | 462287 Longane | 0.8 | settlement | AC (-) |  | source undated |
 | ARC123 | archaeological-culture | Longshan | -3000..-1900 | 462288 Longanos (river) | 0.75 | river | HRT (-) |  | source undated |
@@ -2452,7 +2464,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | ARC167 | archaeological-culture | Old Bering Sea | -200..500 | 480215076 Old Nisa | 0.64 | settlement | H (-330..-30) |  | dates differ |
 | ARC169 | archaeological-culture | Thule | 1000..1600 | 20624 Thule (island) | 1.0 | archipelago; island | RT (-) |  | source undated |
 | ARC169 | archaeological-culture | Thule | 1000..1600 | 315224 *Thullio | 0.67 | settlement | RL (-) |  | source undated |
-| ARC170 | archaeological-culture | Marpole | -500..500 | 599788 Marpessa (mountain) | 0.67 | mountain | M (-) |  | source undated |
+| ARC170 | archaeological-culture | Marpole | -500..500 | 606333 Marpessa | 0.67 | unlocated | CHR (-) |  | source undated |
 | ARC170 | archaeological-culture | Marpole | -500..500 | 550723 Marpessos | 0.62 | settlement; settlement-modern | CHTT (-) |  | source undated |
 | ARC173 | archaeological-culture | Western Stemmed Tradition | -12000..-8000 | 583980739 Western gate of Serdica | 0.69 | city-gate; city-wall; archaeological-site | RL (-) |  | source undated |
 | ARC173 | archaeological-culture | Western Stemmed Tradition | -12000..-8000 | 187628 Westerndorf | 0.62 | ceramicproduction | RLT (-) |  | source undated |
@@ -2481,7 +2493,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | ARC199 | archaeological-culture | Chicoid | 800..1500 | 843251084 Chicha | 0.62 | settlement | N (-) |  | source undated |
 | ARC199 | archaeological-culture | Chicoid | 800..1500 | 390205932 Via Ostiensis | 0.62 | road | ACHRRL (-) |  | source undated |
 | ARC200 | archaeological-culture | Lucayan | 700..1520 | 452371 Lucani | 0.77 | label; people | CR (-) |  | source undated |
-| ARC200 | archaeological-culture | Lucayan | 700..1520 | 438776 Luca | 0.73 | unlocated | CH (-) |  | source undated |
+| ARC200 | archaeological-culture | Lucayan | 700..1520 | 403234 Luca | 0.73 | settlement | HRLM (-) |  | source undated |
 | ARC201 | archaeological-culture | Colono ware | 1650..1900 | 377181898 Colonnacce | 0.67 | architecturalcomplex | F (-) |  | source undated |
 | ARC201 | archaeological-culture | Colono ware | 1650..1900 | 4763992 Colonne di San Lorenzo | 0.65 | ruin | LT (-) |  | source undated |
 | ARC203 | archaeological-culture | Valdivia | -3800..-1500 | 197571 Valdasus? (river) | 0.62 | river | - (-) |  | source undated |
@@ -2503,7 +2515,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | ARC214 | archaeological-culture | Marajoara | 400..1400 | 329225 Marazanae | 0.67 | unlocated | RL (-) |  | source undated |
 | ARC215 | archaeological-culture | Santarém | 1000..1600 | 211464 Tapae | 0.8 | unlocated | R (30..300) |  | no overlap |
 | ARC215 | archaeological-culture | Santarém | 1000..1600 | 718054 Tapanitai | 0.74 | unlocated | - (-) |  | source undated |
-| ARC216 | archaeological-culture | Casarabe | 500..1400 | 705921778 Casae | 0.77 | settlement; archaeological-site | RTT (-) |  | source undated |
+| ARC216 | archaeological-culture | Casarabe | 500..1400 | 334513 Casae | 0.77 | settlement | RL (-) |  | source undated |
 | ARC216 | archaeological-culture | Casarabe | 500..1400 | 678085 Casama | 0.71 | station | L (300..640) |  | dates differ |
 | ARC216 | archaeological-culture | Casarabe | 500..1400 | 442531 Casalbore | 0.71 | sanctuary; temple-2 | ACHT (-) |  | source undated |
 | ARC217 | archaeological-culture | Upper Xingu ancestral settlements | 1250..1650 | 310319 Unnamed settlements | 0.62 | settlement | RL (-) |  | source undated |
@@ -2512,7 +2524,6 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | ARC219 | archaeological-culture | Sambaqui | -6000..1000 | 452426 Sambiase | 0.71 | settlement | AHT (-) |  | source undated |
 | ARC219 | archaeological-culture | Sambaqui | -6000..1000 | 60666 Sambraceni | 0.67 | people | HR (-) |  | source undated |
 | ARC224 | archaeological-culture | Lapita | -1350..-500 | 570414 Lapithos (mountain) | 0.71 | mountain | RMT (-) |  | source undated |
-| ARC224 | archaeological-culture | Lapita | -1350..-500 | 187446 Lapidaria? | 0.67 | settlement; station | RLT (-) |  | source undated |
 | ARC225 | archaeological-culture | Polynesian Plainware | -800..400 | 380702854 Cilbian Plain | 0.61 | plain | RM (-) |  | source undated |
 | ARC227 | archaeological-culture | Archaic East Polynesian | 1000..1450 | 499782907 Archaic Temple at Ai Lia | 0.64 | church-2; temple-2 | - (-) |  | source undated |
 | ARC229 | archaeological-culture | Latte | 900..1700 | 148107 Lattara | 0.67 | lighthouse; station; archaeological-site; settlement; port | CHRLM (-) |  | source undated |
@@ -2532,8 +2543,8 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | HOR012 | horizon | Longshan horizon | -3000..-1900 | 462288 Longanos (river) | 0.75 | river | HRT (-) |  | source undated |
 | HOR012 | horizon | Longshan horizon | -3000..-1900 | 89229 Longos (river) | 0.71 | water-open; river | RMT (-) |  | source undated |
 | HOR013 | horizon | Lapita horizon | -1350..-500 | 570414 Lapithos (mountain) | 0.71 | mountain | RMT (-) |  | source undated |
-| HOR013 | horizon | Lapita horizon | -1350..-500 | 187446 Lapidaria? | 0.67 | settlement; station | RLT (-) |  | source undated |
 | HOR017 | horizon | Scytho-Siberian horizon | -900..-200 | 446214 Animula | 0.77 | unlocated | H (-330..-30) |  | dates differ |
+| HOR017 | horizon | Scytho-Siberian horizon | -900..-200 | 1273 Scythia | 0.64 | region; label | ACHRL (-) |  | source undated |
 | HOR017 | horizon | Scytho-Siberian horizon | -900..-200 | 844947 Hieros/Siberis (river) | 0.62 | river | RL (-) |  | source undated |
 | NET002 | network | Steppe route | -2000.. | 639153005 Step Gate | 0.67 | unlocated; city-gate | NM (-) |  | source undated |
 | NET003 | network | Oasis route (Tarim Basin) | -130..1000 | 716609 Oasis Parva | 0.64 | oasis; settlement | ACHRL (-) |  | source undated |
@@ -2554,7 +2565,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | NET022 | network | Roman Mediterranean trade | -200..500 | 588236457 Roman amphitheater at Trier | 0.62 | amphitheatre | RLM (-) |  | source undated |
 | NET023 | network | Medieval Mediterranean trade | 700..1500 | 991365 Dacia Mediterranea | 0.65 | province-2 | - (-) |  | source undated |
 | NET025 | network | Amber Road | -1600..400 | 480644113 Amberd | 0.75 | architecturalcomplex; fort | PM (-) |  | source undated |
-| NET025 | network | Amber Road | -1600..400 | 793184758 Unnamed road | 0.73 | archaeological-site; road | R (30..300) |  | dates differ |
+| NET025 | network | Amber Road | -1600..400 | 274853772 Unnamed road | 0.73 | road | - (-) |  | source undated |
 | NET025 | network | Amber Road | -1600..400 | 79300 Arbury Road | 0.67 | villa | RLT (-) |  | source undated |
 | NET026 | network | Bronze Age tin routes | -2500..-500 | 354158 Tin Abunda | 0.63 | cemetery | AHR (-) |  | source undated |
 | NET029 | network | Hanseatic League | 1159..1669 | 286572422 Nesiotic League (Second) | 0.77 | state | - (-) |  | source undated |
@@ -2564,7 +2575,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | NET030 | network | Grand Trunk Road | -300.. | 943717699 Gran Carro (Bolsena) | 0.62 | settlement | 2ATT (-) |  | source undated |
 | NET030 | network | Grand Trunk Road | -300.. | 631243 Sadagena | 0.6 | unlocated | R (30..300) |  | dates differ |
 | NET031 | network | Incense routes | -700..200 | 197319 ‘Incero’ | 0.67 | station | RLS (-) |  | source undated |
-| NET031 | network | Incense routes | -700..200 | 793184758 Unnamed road | 0.67 | archaeological-site; road | R (30..300) |  | dates differ |
+| NET031 | network | Incense routes | -700..200 | 274853772 Unnamed road | 0.67 | road | - (-) |  | source undated |
 | NET031 | network | Incense routes | -700..200 | 629766126 Ince fortlet | 0.62 | fort-2; fortlet | RT (-) |  | source undated |
 | NET034 | network | Atlantic world trade | 1492..1900 | 633625629 Atlantis | 0.7 | island; state | CM (-) |  | source undated |
 | NET034 | network | Atlantic world trade | 1492..1900 | 845 Atlanticus Oceanus | 0.61 | water-open | CHRLS (-) |  | source undated |
@@ -2574,7 +2585,7 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | NET036 | network | Manila galleon trade | 1565..1815 | 265833 Cabo de la Nao | 0.62 | mine-2 | HR (-) |  | source undated |
 | ISP003 | interaction-sphere | Mississippian interaction sphere | 800..1600 | 224949836 Southeastern Cluster | 0.63 | church-2; church | M (-) |  | source undated |
 | ISP003 | interaction-sphere | Mississippian interaction sphere | 800..1600 | 645513764 Tawern Roman temple complex | 0.62 | sanctuary | RL (-) |  | source undated |
-| NET041 | network | Andean Spondylus trade | -2500..1532 | 960751428 Mullissu Gate | 0.67 | unlocated; city-gate | NM (-) |  | source undated |
+| NET041 | network | Andean Spondylus trade | -2500..1532 | 73368155 Mullissu Gate | 0.67 | unlocated; city-gate | N (-) |  | source undated |
 | NET043 | network | Fur trade | 1580..1870 | 148125 Maritima | 0.62 | settlement | CHR (-) |  | source undated |
 | NET046 | network | Lapita exchange network | -1350..-500 | 826976465 Ta' Ħaġrat Temple Complex | 0.61 | sanctuary | NM (-) |  | source undated |
 | NET047 | network | Kula ring | 1500.. | 156313336 Clearbury Ring | 0.61 | hillfort | IT (-) |  | source undated |
@@ -2606,4 +2617,4 @@ Licensed under a Creative Commons Attribution 4.0 International License | Austri
 | DIA008 | diaspora | African diaspora in the Americas | 1500.. | 721382239 Black Ball Camp | 0.62 | hillfort; hill | I (-) |  | source undated |
 | DIA009 | diaspora | South Asian indentured diaspora | 1834..1920 | 248782116 Girmua | 0.67 | settlement | NM (-) |  | source undated |
 
-Proposals: 653 movement/style/school, 569 period, 1359 place-like. Harvested rows: 4194 Wikidata, 9446 PeriodO, 42482 Pleiades, 0 Getty candidates.
+Proposals: 656 movement/style/school, 576 period, 1360 place-like. Harvested rows: 4267 Wikidata, 9537 PeriodO, 42527 Pleiades, 0 Getty candidates.
