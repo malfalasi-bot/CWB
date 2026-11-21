@@ -46,3 +46,4 @@ node or step codes the learner engaged, e.g. `#ink.edo.tsutaya~hokusai~e1842~des
 - `WORKFLOW.md`, `CHANGELOG.md`, `skills/EVALS.md`; skills `hom-constitution`, `hom-research`, `hom-writing`, `hom-design-toolbox` (was histories-of-making-design), `hom-lint`.
 - `research_notes/Ecosystem review/` — audit_repo.md, critique_content.md, best_practice.md, critique_skill.md, FINDINGS.md.
 - Blueprint page: https://claude.ai/artifact/RMfXg6FYAfFBMbzi652T9T · `topics/ballet/planning/blueprint_page/ballet-blueprint.html` (25 Oct 2026: the full unit, both directions, the template, versioning, four decisions)
+- Repertory page: https://claude.ai/artifact/CryBUDeXRTqVNCVfVy5cTp · `topics/ballet/planning/repertory_page/` (21 Nov 2026: the whole-history timeline, the Repertory plan, four decisions; rebuild with build_page.py)
