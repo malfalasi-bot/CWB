@@ -805,3 +805,152 @@ W3 is thin on the look. The backcloth is projected drawings by William Kentridge
 - `giselle-khan-2016`: a later transposition into a community defined by labour and migration.
 - `agon-1957`: Mitchell's own role, where race was in the casting rather than the story.
 
+---
+
+## الليلة الكبيرة / El-Leila El-Kebira / The Grand Night (2001)
+`id: el-leila-el-kebira-2001` · W file: W3 §10
+
+### Design and art
+The ballet inherits a design, not only a score. The puppet operetta's chief designer, Nagi (Nagy) Shaker, made 45 marionettes "all engraved wood" and proposed the show as "a tour of the moulid, with the crowd scenes painted in the background"; Mostafa Kamel designed the scenery, and Salah El-Sakka, a lawyer by training and the best of twelve manipulators chosen from 200, directed [documented: Shaker interviewed by Doaa Hamza, Ahram Online, 25 Dec 2011]. The characters include children, clowns, a lion tamer, the *omda* (village mayor) and vendors, among them Nishan, a puppet modelled on the poet Salah Jahin [documented: Ahram Online, 2018 and 2020]. The 2001 ballet keeps this world in a "colorful set with little girls in frilly skirts and pigtails", and opens with a dialogue in which the *aragoz* (puppet clown) begs Jahin and Mekkawy to free him from his strings so he can dance [documented: Amira Salah-Ahmed, *Daily News Egypt*, 11 May 2008]. So the design concept of the ballet is the cutting of the strings [argued].
+
+### Readings and disputes
+- **When was the original?** A radio tableau in 1957, a puppet show three years later (*Daily News Egypt*); a puppet premiere in 1960 that won prizes at Bucharest that year (Ahram Online 2020; Shaker 2011); or 1 May 1961 (Wikipedia) [documented: each]. The register's 2001/2002 for the ballet is also loose: the Cairo Opera's own pages, in Arabic and English, say 2001 [documented]. **Contested** dates at every layer.
+- **A ballet, or a musical with dancers?** Salah-Ahmed found it "dull technically", "more akin to an unimaginative musical", and preferred "the inanimate puppet version" [documented: *DNE* 2008]. The Cairo Opera calls it a "dazzling success" (*najāḥan mubhiran*) [documented: Arabic company page], and Bahrain's culture minister asked for it by name in 2016 [documented: Erminia Kamel, Ahram Online, 2016]. Fidelity read as timidity or as respect.
+- **Whose work?** Ahram's 2020 report says it was "created by renowned late puppeteer Nagy Shaker" [documented]; most credits name Jahin and Mekkawy [documented: Wikipedia; Cairo Opera]. The ballet credits Abdel Moneim Kamel as adapter [documented]. Designer, poet, composer and choreographer each own a layer.
+
+### Facts worth telling
+1. Sayed Mekkawy, the blind composer, put a coin for luck inside Nishan's head when he learned it was modelled on Jahin; it is still there [documented: Ahram Online 2018].
+2. The lost-girl scene was added for the puppet version [documented: Shaker 2011].
+3. The ballet uses fourteen sketches from the original [documented: *DNE* 2008] and lasts about 45 minutes [documented: E. Kamel 2016].
+4. It was streamed in March 2020 in the Culture Ministry's "Stay at home… Culture in your hands" series [documented: *Egypt Independent*].
+5. The company was founded in 1966 with Soviet coaches; its first production was Lavrovsky's *Fountain of Bakhchisarai* [documented: Cairo Opera].
+
+### Set it beside
+- `petrushka-1911`: puppets at a popular fair again, but there the puppet's freedom ends in death; here release is the premise.
+- `parade-1917`: the fairground as a modern art source in Paris; in Cairo the fair is the national memory itself.
+- `coppelia-1870`: a dancer playing a doll; here dancers play puppets that have become people.
+
+---
+
+## 白毛女 / Hakumōjo / The White-Haired Girl (Matsuyama Ballet) (1955)
+`id: white-haired-girl-matsuyama-1955` · W file: W3 §11
+
+*Design and art: costumes by Hijikata Umeko, direction by Hijikata Yoshi, at the premiere on 12 February 1955 at Tokyo's Hibiya Public Hall [documented: Zhang Yameng, "Unforgettable Story of White-haired Girl at any Time", *Art Exchange* (CFLAC), 2017]. Further design detail not found in this pass.*
+
+### Readings and disputes
+- **Friendship gift or political act?** The company frames it as a "heartfelt gift" to the Chinese people [documented in W3]. The CFLAC article calls it "Ballet Diplomacy", comparable to "table tennis diplomacy" [documented]. W3 records "controversy in Japan; acclaim in China" [documented in W3, after Qi]. The makers worked "against the pressure of Japan's right-wing and anti-China forces" [documented: CFLAC, a Chinese state cultural body's account]. Teach both: an artists' gesture of reconciliation, and a work the PRC used for soft power.
+- **Who made the model works?** W3 notes the Shanghai Dance School began its own ballet of the story only in 1964 [documented in W3]; the Japanese version came nine years earlier. Chinese histories that start Chinese revolutionary ballet with *Red Detachment* leave out the Japanese precedent [argued].
+- **Her name.** The CFLAC article writes "Kiko Matsuyama" (松山樹子); English sources and the register use "Mikiko" [documented: CFLAC; probable for register]. Family name first: Matsuyama Mikiko. Check at holder.
+
+### Facts worth telling
+1. Shimizu Masao and Matsuyama Mikiko saw the Chinese film and were moved by Tian Hua, then about eighteen, as Xi'er [documented: Shimizu quoted by CFLAC].
+2. They sold their house to make the ballet [documented: CFLAC].
+3. The first China tour, at Zhou Enlai's invitation, ran from 3 March to 1 May 1958 with 46 members, in Beijing, Chongqing, Wuhan and Shanghai [documented: CFLAC].
+4. Ticket queues formed overnight [documented: CFLAC].
+5. By 2017 the company had made 14 visits to China [documented: CFLAC]; their son Shimizu Tetsutarō made a new production in 2011 [documented in W3].
+
+### Set it beside
+- `red-detachment-1964`: the Chinese model ballet that followed; a woman's revenge disciplined by the Party.
+- `giselle-1841`: a girl taken for a ghost in the wilderness, but here she is living, and the army, not love, rescues her.
+- `the-kabuki-1986`: another Japanese ballet built on a national story, made for Western ballet form.
+
+---
+
+## The Sleeping Beauty (Ratmansky) (2015)
+`id: sleeping-beauty-ratmansky-2015` · W file: W3 §9
+
+### Design and art
+Ratmansky chose Bakst's 1921 designs because 1890 designs would produce "an exact replica" of Vikharev's 1999 Mariinsky staging, and because "new 'clothes' for Sleeping Beauty are so often a miss" [documented: Ratmansky in Alastair Macaulay, "112 questions", 2021, first in *Ballet Review* 43/4, 2015–16]. Some Bakst designs were missing (the Jewels, the violin pages, the nymphs, Hop-o'-my-Thumb), and there was no Prince costume he could dance in [documented: same]. Richard Hudson, known for *The Lion King*, agreed to "riff on, rather than slavishly copy" Bakst [documented: *New York Times*, 28 May 2015]: some four hundred costumes with "lace, fringe, tassels, rosettes, ruching, feathers" [documented: *The New Yorker*, 8 June 2015]. Tutus are knee-length and drape rather than stand out [documented: Marina Harss, DanceTabs, 31 May 2015].
+
+### Readings and disputes
+- **Reconstruction or compromise?** Ratmansky says the notation captures the ballet "some 13-16 years after the premiere" [documented: Macaulay 2021]. Jann Parry calls the result "a compromise": no high extensions, but later additions such as the fish dives, and interpolations "very like Frederick Ashton's" [documented: DanceTabs, 9 Sept 2016]. Robert Gottlieb hoped Ratmansky would one day "give us his own ideas about the ballet, rather than recreate its past" [documented: *Observer*, 4 June 2015].
+- **The look: gorgeous or garish?** Deborah Jowitt: "grand and gorgeous", but lighter fabric means a spinning Aurora reveals "everything up to her navel" [documented: ArtsJournal, 4 June 2015]. Gottlieb: gold wigs "more like Vegas than Petersburg", the Queen's wig like "Marge Simpson" [documented]. *The New Yorker*: the fairies' platinum wigs "whisper, 'We come from Fourteenth Street'" [documented]. Parry: "wigs are hideous" [documented]. Paris received it with "muted acclaim" [documented: Parry].
+- **Did dancers resist?** In the 1999 Kirov reconstruction, ballerinas "reportedly tore off and stamped on" the recreated costumes because they wanted their legs seen; ABT's dancers did not [documented as reported: Jowitt 2015].
+- **King Florestan XIV or XXIV?** ABT's synopsis says XIV [documented: ABT]; Tambling (*Apollo*, 2023) gives the traditional XXIV [documented]. A small but telling slip.
+
+### Facts worth telling
+1. Ratmansky and Tatiana Ratmansky taught themselves Stepanov notation; arm movements were often not notated [documented: Jowitt].
+2. Sources included Pavel Gerdt's drawings and a film of Vera Nemtchinova teaching Aurora [documented: Harss].
+3. Legs rarely rise above 90 to 120 degrees; chaîné turns are on half-pointe [documented: Jowitt; Harss].
+4. Carabosse is invited to the wedding, where she lurks "like a spiteful but respected aunt" [documented: Harss].
+5. World premiere: 3 March 2015, Segerstrom Center, Costa Mesa, with Diana Vishneva [documented: ABT].
+
+### Set it beside
+- `sleeping-beauty-1890`: the source it reconstructs, dressed in the 1921 production that failed.
+- `flames-of-paris-1932`: Ratmansky's other method: remaking a lost ballet freely as "a dialogue".
+- `apres-midi-faune-1912`: the notation-against-memory dispute, settled here in favour of notation.
+
+---
+
+## Giselle (Alicia Alonso) (1945–1963)
+`id: giselle-alonso-1945-1963` · W file: W3 §3
+
+*Design and art: not found in this pass beyond W3.*
+
+### Readings and disputes
+- **Blindness and the myth of the dancer.** Alonso danced most of her career with severely impaired sight; partners and stage lights were arranged to guide her [probable]. She refused the story as explanation: "I can accept my blindness … I don't want my audience thinking that if I dance badly, it is because of my eyes. Or if I dance well, it is in spite of them" [documented: Alonso, 1971, quoted in the *New York Times* obituary, 17 Oct 2019]. A myth of heroic disability against the artist's own wish to be judged as a dancer.
+- **Rescue or return?** Alonso spoke of giving back "a rejuvenated Giselle" to Paris [documented in W3]; the Paris Opéra adopted her staging in 1972 [documented in W3]. Read as a postcolonial reversal (the periphery restoring the centre) or as Cuban cultural diplomacy under the Revolution [argued]; W3's source Tomé (2025) frames it as a national concept.
+- **One author or two?** The company was founded in 1948 by Alicia and Fernando Alonso [documented: *NYT* 2019]; how much of the "Alonso version" was shaped by Fernando as teacher and director is not settled in the sources seen [not found in this pass].
+
+### Facts worth telling
+1. 2 November, her debut date in the role (1943, New York, probable for year and city), is kept as a *Giselle* night in Havana [documented in W3].
+2. She danced the full role until 1983 and excerpts until 1993 [documented in W3].
+3. Her staging was taken by companies in Camagüey, Paris, Mexico City, Vienna, Naples and Bratislava [documented in W3].
+4. The 1963 ICAIC film fixed the version on screen [documented in register].
+5. Alonso died in 2019 aged 98 [documented: *NYT*].
+
+### Set it beside
+- `creole-giselle-1984`: another American claim on the ballet, by resetting rather than by tradition.
+- `giselle-1841`: the Paris source to which Alonso's version was "returned".
+- `red-detachment-1964`: a revolutionary state's ballet; Cuba kept the classics where China replaced them.
+
+---
+
+## Across these works
+
+**The record contradicts itself more often than scholars do.** In almost every work the sharpest dispute is not between two interpretations but between two documents. *Giselle*'s 1841 livret has the sword taken away; Gautier's letter to Heine, a week after the premiere, has it pierce her heart. Petrushka's libretto is Stravinsky's and Benois's at the Library of Congress and Benois's alone at IRCAM. Bayadère's Shades number 32, 48 or 64. *Coppélia* played 12 or 18 times before the war. The 1921 *Sleeping Princess* ran 114 or 115 nights. A course that teaches "facts" about ballet must teach the habit of asking which document says so.
+
+**Design stories are usually myths of a single author.** Cocteau says Picasso painted the *Parade* curtain alone; the Pompidou says it was not so simple. The Rising Sun drawing of 1653 is "Gissey" on one BnF page and an anonymous master on another. The tutu is Lami's in Britannica and Ciceri's with Lami in EBSCO. *Les Noces* lost its colour because of Nijinska, or Larionov, or the score. Credit for the look migrates to the most famous name.
+
+**The canonical image is often later than the work.** Odile became a black swan in 1920 in Moscow and 1941 in New York, not in 1895. Apollo's "white" ballet wore red and gold in 1928. Messel's 1946 Lilac Fairy tutu flattened in the 1950s because skirts did. Learners should date the image, not only the premiere.
+
+**Myths of origin are designed.** Gautier compressed *Giselle*'s making; Kurilko merged two news stories into one for *The Red Poppy*; Jiang Qing told Nixon *Red Detachment* was "created by the masses"; the "Sun King" was not born in one night in 1653; the *Rite* "riot" grew with each retelling (Esteban Buch). Origin stories told by makers and states are part of the work's design.
+
+**Remakes argue with the source's ending.** Forgiveness (1841) becomes revenge (Masilo 2017) or a broken cycle (Khan 2016); the swan's maidenly enchantment becomes animal ferocity (Bourne) or forbidden desire (Masilo 2010); revolutionary triumph becomes the guillotine (Ratmansky's *Flames*). The most remade element in this batch is the last five minutes.
+
+**What was not found in this pass**: detailed 1870 colours for *Coppélia*; design facts for Ek's *Swan Lake* and Alonso's *Giselle*; primary evidence for Stalin's attendance at *Flames*; the Tchaikovsky diary entry on "very nice"; the Poiret denial at source; the *Massachusetts Review* (2024) and *British Theatre Guide* (2019) authors.
+
+### Register update
+
+```yaml
+- id: giselle-ek-1982
+  field: premiere.place
+  old: "Sweden (venue not confirmed)"
+  new: "Stockholm, Dramaten (Royal Dramatic Theatre)"
+  source: "Cullberg archive page, showings list (6-9 July 1982)"
+- id: creole-giselle-1984
+  field: premiere.date
+  old: 1984
+  new: 1984-07-18
+  source: "Jann Parry, DanceTabs, 18 June 2020; MOBBallet 2021"
+- id: el-leila-el-kebira-2001
+  field: premiere.date
+  old: "2001/2002"
+  new: 2001
+  source: "Cairo Opera House, Cairo Opera Ballet Company page (Arabic and English); Daily News Egypt 2008"
+- id: medee-et-jason-1763
+  field: designer
+  old: "Louis-René Boquet (costumes) (probable)"
+  new: "Giovan Battista Colomba (scenery); Louis-René Boquet (costumes) (probable)"
+  source: "Klassika, Rodolphe: Médée et Jason page"
+- id: white-haired-girl-matsuyama-1955
+  field: note
+  old: null
+  new: "CFLAC (2017) romanises the lead as 'Kiko Matsuyama'; verify given name of 松山樹子 at holder"
+  source: "Zhang Yameng, Art Exchange (CFLAC), 2017"
+- id: swan-lake-1877-1895
+  field: note
+  old: null
+  new: "1877 run: 41 performances (Wikipedia after Wiley) vs 33 (History Hit 2022); Odile not in black until 1920 (Moscow) / 1941 (New York)"
+  source: "Wikipedia 'Swan Lake'; Marius Petipa Society"
+```
