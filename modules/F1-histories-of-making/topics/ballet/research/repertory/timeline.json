@@ -246,7 +246,7 @@
     "Marie Sallé"
    ],
    "composer": [
-    "Jean-Joseph Mouret (probable)"
+    "unidentified; Mouret attributed in secondary sources only (contested)"
    ],
    "designer": [
     "Marie Sallé (costume reform - loose hair, muslin dress)"
@@ -263,7 +263,7 @@
    ],
    "parent": null,
    "tier": "B",
-   "confidence": "probable",
+   "confidence": "documented (date); contested (composer)",
    "depth": [
     "repertory/dossiers/D1_1734-1881.md"
    ]
@@ -346,7 +346,7 @@
     "Jean-Joseph Rodolphe"
    ],
    "designer": [
-    "Louis-René Boquet (costumes) (probable)"
+    "Giovan Battista Colomba (scenery); Louis-René Boquet (costumes) (probable)"
    ],
    "premise": "Medea's revenge as a ballet d'action: the passions told in pantomime, the program of the Lettres sur la danse put on stage.",
    "era": "E3",
@@ -378,7 +378,7 @@
    ],
    "composer": [
     "popular French airs",
-    "arranged"
+    "arranged; arranger attributed to Franz Ignaz Beck by Theater Basel (contested)"
    ],
    "designer": [
     "unknown"
@@ -395,7 +395,7 @@
    ],
    "parent": null,
    "tier": "B",
-   "confidence": "probable",
+   "confidence": "documented",
    "depth": [
     "repertory/dossiers/D1_1734-1881.md"
    ]
@@ -624,7 +624,7 @@
     "Hans Christian Lumbye"
    ],
    "designer": [
-    "unknown"
+    "C. F. Christensen (scenery)"
    ],
    "premise": "A Neapolitan fisherman rescues his bride from a sea-god's grotto; the last act is a wedding tarantella.",
    "era": "E4",
@@ -639,7 +639,7 @@
    ],
    "parent": null,
    "tier": "C",
-   "confidence": "probable",
+   "confidence": "documented",
    "depth": [
     "repertory/dossiers/D1_1734-1881.md"
    ]
@@ -659,7 +659,7 @@
     "Cesare Pugni"
    ],
    "designer": [
-    "William Grieve (probable)"
+    "William Grieve (sets); Mme Copère (costumes); D. Sloman (machinery)"
    ],
    "premise": "A Romani street dancer is loved by a priest, a poet, a captain and the bell-ringer, and condemned as a witch.",
    "era": "E4",
@@ -725,7 +725,10 @@
     "Édouard Deldevez"
    ],
    "designer": [
-    "unknown"
+    "Jourdeuil (scenes 1-2)",
+    {
+     "Heinrich Wagner (scene 3) per Petipa Society (contested": "may mix Paris and St Petersburg)"
+    }
    ],
    "premise": "A Romani girl in Spain saves a French officer and turns out to be of noble birth.",
    "era": "E4",
@@ -758,7 +761,10 @@
     "Adolphe Adam"
    ],
    "designer": [
-    "unknown"
+    "Hugues Martin",
+    "Édouard Despléchin",
+    "Joseph Thierry",
+    "Charles Cambon (sets); Alfred Albert (costumes); Sacré (machinery)"
    ],
    "premise": "A pirate rescues a Greek girl from a slave market and a pasha's harem; a shipwreck ends it.",
    "era": "E4",
@@ -823,7 +829,9 @@
     "Cesare Pugni"
    ],
    "designer": [
-    "unknown"
+    "Heinrich Wagner",
+    "Andreas Roller (sets); Philippe Calver",
+    "Alexei Stoliarov (costumes)"
    ],
    "premise": "An English lord, dreaming in a pyramid under opium, lives a romance with a mummy who comes to life.",
    "era": "E4",
@@ -848,7 +856,7 @@
    "title": "Don Quixote",
    "orig": "Дон Кихот",
    "year": 1869,
-   "date": "1869-12-26",
+   "date": "1869-12-26 (NS; 14 December OS)",
    "place": "Moscow, Bolshoi Theatre",
    "company": "Imperial Ballet (Moscow)",
    "choreographer": [
@@ -858,7 +866,10 @@
     "Ludwig Minkus"
    ],
    "designer": [
-    "unknown"
+    "Pavel Isakov",
+    "Ivan Shangin",
+    "Fyodor Shenian (1869); Alexander Golovin",
+    "Konstantin Korovin (Gorsky 1900)"
    ],
    "premise": "In a Barcelona square the knight blesses the love of an innkeeper's daughter and a barber, against her father's choice.",
    "era": "E5",
@@ -932,9 +943,7 @@
     "Léo Delibes"
    ],
    "designer": [
-    "Jules Chéret",
-    "Auguste Rubé",
-    "Philippe Chaperon (sets); Eugène Lacoste (costumes) (probable)"
+    "unchanged; Chéret and Lacoste confirmed as named in Wikipedia; Rubé and Chaperon not confirmed this pass"
    ],
    "premise": "A huntress-nymph of Diana is won by a shepherd with the help of Eros.",
    "era": "E5",
@@ -1046,7 +1055,8 @@
     "Romualdo Marenco"
    ],
    "designer": [
-    "Alfredo Edel (costumes) (probable)"
+    "Alfredo Edel (costumes; scenery also credited to him by InformaDanza",
+    "contested)"
    ],
    "premise": "Light defeats Obscurantism through the inventions of the century, in a spectacle of hundreds of dancers.",
    "era": "E5",
@@ -1148,7 +1158,7 @@
    "title": "Raymonda",
    "orig": "Раймонда",
    "year": 1898,
-   "date": "1898-01-19",
+   "date": "1898-01-07 (OS) / 1898-01-19 (NS)",
    "place": "St Petersburg, Mariinsky Theatre",
    "company": "Imperial Ballet",
    "choreographer": [
@@ -1158,9 +1168,7 @@
     "Alexander Glazunov"
    ],
    "designer": [
-    "Orest Allegri",
-    "Konstantin Ivanov",
-    "Pyotr Lambin (sets); Ekaterina Ofitserova (costumes) (probable)"
+    "Orest Allegri, Konstantin Ivanov, Pyotr Lambin (sets); Ivan Vsevolozhsky (costumes)"
    ],
    "premise": "A Hungarian-Provençal noblewoman waits for her crusader knight and resists a Saracen knight who tries to abduct her.",
    "era": "E5",
@@ -1174,7 +1182,7 @@
    ],
    "parent": null,
    "tier": "C",
-   "confidence": "probable",
+   "confidence": "documented",
    "depth": [
     "repertory/dossiers/D2_1898-1929.md"
    ]
@@ -1182,7 +1190,7 @@
   {
    "id": "dying-swan-1905",
    "title": "The Dying Swan",
-   "orig": "Умирающий лебедь (Le Cygne)",
+   "orig": "Лебедь (first title), later Умирающий лебедь",
    "year": 1905,
    "date": "1905",
    "place": "St Petersburg (charity concert, Hall of Nobility) (probable)",
@@ -1225,10 +1233,20 @@
     "Mikhail Fokine"
    ],
    "composer": [
-    "Frédéric Chopin (orch. Glazunov and others)"
+    {
+     "Frédéric Chopin (orch. 1909": "Glazunov"
+    },
+    "Stravinsky",
+    "Liadov",
+    "Taneyev",
+    "Tcherepnin",
+    {
+     "Sokolov; 1908": "Glazunov and Maurice Keller)"
+    }
    ],
    "designer": [
-    "Alexandre Benois (1909)"
+    "Alexandre Benois (sets 1909; costumes per V&A and ABT); Léon Bakst (long tutu",
+    "per Wikipedia and Frolova 2020) (contested)"
    ],
    "premise": "A poet among sylphs in moonlight: a white act without a plot, a ballet about the Romantic ballet.",
    "era": "E6",
@@ -1739,7 +1757,21 @@
     "Oskar Schlemmer"
    ],
    "composer": [
-    "Paul Hindemith (1926 mechanical-organ score)"
+    {
+     "1922": "compilation of Tarenghi"
+    },
+    "Bossi",
+    "Debussy",
+    "Haydn",
+    "Mozart",
+    "Paradies",
+    "Galuppi",
+    {
+     "Handel; 1926": "Paul Hindemith"
+    },
+    {
+     "music for mechanical organ; 1977": "Hans-Joachim Hespos"
+    }
    ],
    "designer": [
     "Oskar Schlemmer"
@@ -1833,7 +1865,7 @@
   },
   {
    "id": "les-biches-1924",
-   "title": "The House Party",
+   "title": "The Does (London title: The House Party)",
    "orig": "Les Biches",
    "year": 1924,
    "date": "1924-01-06",
@@ -2084,7 +2116,7 @@
     "Sergei Prokofiev"
    ],
    "designer": [
-    "Georges Rouault"
+    "Georges Rouault (scenery executed by Prince A. Shervashidze; costumes executed by Vera Soudeikina)"
    ],
    "premise": "A son leaves home, is stripped by a siren and her thugs, and crawls back to his father's arms.",
    "era": "E7",
@@ -2133,7 +2165,7 @@
    ],
    "parent": null,
    "tier": "B",
-   "confidence": "probable",
+   "confidence": "documented",
    "depth": [
     "repertory/dossiers/D4_soviet_1930-1967.md"
    ]
@@ -2219,7 +2251,7 @@
     "Fritz Cohen"
    ],
    "designer": [
-    "Hein Heckroth"
+    "Hein Heckroth (costumes); Hermann Markard (masks and lighting as credited today; contested for 1932)"
    ],
    "premise": "Masked diplomats argue around a table, war breaks out, and Death collects everyone.",
    "era": "E7",
@@ -2232,7 +2264,7 @@
    ],
    "parent": null,
    "tier": "B",
-   "confidence": "probable",
+   "confidence": "documented",
    "depth": [
     "repertory/dossiers/D3_1932-1949.md"
    ]
@@ -2277,7 +2309,8 @@
    "place": "Leningrad, State Academic Theatre of Opera and Ballet",
    "company": "GATOB (Kirov)",
    "choreographer": [
-    "Rostislav Zakharov"
+    "Rostislav Zakharov (choreographer)",
+    "Sergei Radlov (director)"
    ],
    "composer": [
     "Boris Asafyev"
@@ -2297,7 +2330,7 @@
    ],
    "parent": null,
    "tier": "B",
-   "confidence": "probable",
+   "confidence": "documented",
    "depth": [
     "repertory/dossiers/D4_soviet_1930-1967.md"
    ]
@@ -2308,16 +2341,18 @@
    "orig": "Serenade",
    "year": 1934,
    "date": "1934-06-10 (students, Woodlands estate, White Plains); 1935-03-01 (American Ballet, Adelphi Theatre, New York)",
-   "place": "White Plains, NY; New York",
+   "place": "Woodlands (Warburg estate), Hartsdale near White Plains, NY; Adelphi Theater, New York",
    "company": "School of American Ballet / American Ballet",
    "choreographer": [
     "George Balanchine"
    ],
    "composer": [
-    "Pyotr Ilyich Tchaikovsky (Serenade for Strings)"
+    "Tchaikovsky (Serenade for Strings, Op. 48; arr. George Antheil 1935)"
    ],
    "designer": [
-    "Jean Lurçat (1935); Barbara Karinska (later costumes)"
+    "Gaston Longchamp (= Franklin Watkins)",
+    "scenery 1935; Jean Lurçat",
+    "costumes 1935; Candido Portinari 1941; Karinska 1952"
    ],
    "premise": "Seventeen women in blue moonlight: a plotless ballet with a ghost of a story, made on students.",
    "era": "E7",
@@ -2445,7 +2480,7 @@
     "Antony Tudor"
    ],
    "composer": [
-    "Ernest Chausson (Poème)"
+    "Ernest Chausson (Poème, Op. 25)"
    ],
    "designer": [
     "Hugh Stevenson"
@@ -2459,7 +2494,7 @@
     "T24"
    ],
    "parent": null,
-   "tier": "C",
+   "tier": "B",
    "confidence": "probable",
    "depth": [
     "repertory/dossiers/D3_1932-1949.md"
@@ -2576,7 +2611,8 @@
     "Sergei Prokofiev"
    ],
    "designer": [
-    "Pyotr Williams (1940)"
+    "Pyotr Williams (1940)",
+    "conductor Isai Sherman"
    ],
    "premise": "Two young lovers from feuding families of Verona die for a love their city cannot allow.",
    "era": "E7",
@@ -2630,7 +2666,7 @@
   },
   {
    "id": "la-coronela-1940",
-   "title": "The Colonel's Wife",
+   "title": "The Lady Colonel (The Colonel's Wife also used)",
    "orig": "La Coronela",
    "year": 1940,
    "date": "1940-11-23",
@@ -2644,8 +2680,7 @@
     "orch. Candelario Huízar)"
    ],
    "designer": [
-    "Gabriel Fernández Ledesma (sets",
-    "costumes); Germán Cueto (masks)"
+    "Gabriel Fernández Ledesma (sets, costumes; per UNAM and programme); Germán Cueto (masks); Lugo Viñas 2020 credits scenery to the Taller de Gráfica Popular (contested)"
    ],
    "premise": "Four episodes from Posada's Mexico: the young ladies of the old regime, the dance of the dispossessed, Don Ferruco's nightmare, the Last Judgement.",
    "era": "E7",
@@ -2655,7 +2690,8 @@
    "threads": [
     "T08",
     "T14",
-    "T18"
+    "T18",
+    "T24"
    ],
    "parent": null,
    "tier": "B",
@@ -2673,13 +2709,16 @@
    "place": "Baku, Azerbaijan State Academic Opera and Ballet Theatre",
    "company": "Azerbaijan State Opera and Ballet",
    "choreographer": [
-    "not named in sources seen"
+    "Sergei Kevorkov",
+    "Vakhtang Vronsky (credited); Gamar Almaszade (by her own account)"
    ],
    "composer": [
     "Afrasiyab Badalbeyli"
    ],
    "designer": [
-    "not named in sources seen"
+    {
+     "F. Gusak (contested": "ru.wikipedia infobox names E. G. Almaszade)"
+    }
    ],
    "premise": "A princess throws herself from Baku's Maiden Tower rather than submit to a forced marriage.",
    "era": "E7",
@@ -2713,7 +2752,8 @@
     "Aram Khachaturian"
    ],
    "designer": [
-    "Nikolai Altman (probable)"
+    "Nathan Altman (sets)",
+    "Tatyana Bruni (costumes)"
    ],
    "premise": "On an Armenian collective farm, a woman exposes her husband as a traitor and saboteur.",
    "era": "E7",
@@ -2747,7 +2787,8 @@
     "Arnold Schoenberg (Verklärte Nacht)"
    ],
    "designer": [
-    "Jo Mielziner"
+    "Jo Mielziner (sets",
+    "costumes); Jean Rosenthal (lighting)"
    ],
    "premise": "A repressed woman, afraid of spinsterhood, gives herself to a stranger and is redeemed by love.",
    "era": "E7",
@@ -2863,7 +2904,7 @@
    ],
    "parent": null,
    "tier": "B",
-   "confidence": "probable",
+   "confidence": "documented",
    "depth": [
     "repertory/dossiers/D4_soviet_1930-1967.md"
    ]
@@ -2899,7 +2940,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W3 §3"
+    "works/W3 §3",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -2919,7 +2961,9 @@
     "Farid Yarullin"
    ],
    "designer": [
-    "Boris Erdman (1950) (probable)"
+    "Alexander Ptushko",
+    "Lev Milchin",
+    "Ivan Ivanov-Vano (1950); Pyotr Speransky (Kazan 1945)"
    ],
    "premise": "A hunter steals the wings of a bird-maiden in a forest ruled by the wood-goblin Shurale and must defend her.",
    "era": "E7",
@@ -2954,7 +2998,7 @@
     "Paul Hindemith"
    ],
    "designer": [
-    "Kurt Seligmann (1946; later practice clothes)"
+    "Kurt Seligmann (1946); Jean Rosenthal lighting; practice clothes from 1951"
    ],
    "premise": "Theme and four variations on the humours, danced in a new angular vocabulary; later stripped to practice clothes.",
    "era": "E7",
@@ -2983,12 +3027,12 @@
     "Roland Petit"
    ],
    "composer": [
-    "J. S. Bach (Passacaglia in C minor",
-    "orch. Respighi)"
+    "J. S. Bach (Passacaglia in C minor, BWV 582; orch. Respighi per Fonds Cocteau, Goedicke per Mariinsky: contested)"
    ],
    "designer": [
-    "Georges Wakhévitch (set)",
-    "Karinska (costumes)"
+    "Georges Wakhévitch (set",
+    "from the film Martin Roumagnac); costumes Karinska (contested: Cocteau",
+    "'Tom Keogh')"
    ],
    "premise": "A painter in a Paris garret is driven by a woman to hang himself; she returns as Death and leads him over the roofs.",
    "era": "E7",
@@ -3145,7 +3189,7 @@
     "Roland Petit"
    ],
    "composer": [
-    "Georges Bizet (arr.)"
+    "Georges Bizet (arr. and reorch. Tommy Desserre)"
    ],
    "designer": [
     "Antoni Clavé"
@@ -3182,9 +3226,12 @@
     "Ture Rangström"
    ],
    "designer": [
-    "Allan Fridericia (probable)"
+    "Allan Fridericia (costumes; tour director)",
+    "Sven Erixson (sets",
+    "Royal Swedish Opera",
+    "7 Sep 1950)"
    ],
-   "premise": "On Midsummer Eve a count's daughter seduces her father's valet and, shamed, takes his razor.",
+   "premise": "dies on stage on a blade guided by Jean (the razor is Strindberg's)",
    "era": "E7",
    "period": "postwar",
    "lane": "Italy and Europe",
@@ -3197,7 +3244,7 @@
    ],
    "parent": null,
    "tier": "B",
-   "confidence": "probable",
+   "confidence": "documented",
    "depth": [
     "repertory/dossiers/D5_1950-1978.md"
    ]
@@ -3252,9 +3299,9 @@
     "Alberto Ginastera"
    ],
    "designer": [
-    "Dante Ortolani"
+    "Dante Ortolani (sets and costumes)"
    ],
-   "premise": "A city boy wins a ranch girl by proving himself as a gaucho, ending in a malambo.",
+   "premise": "Over one day from dawn to dawn, a city boy wins a country girl by taming a wild horse (NYCB) or outdancing the gauchos (Britannica), ending in a malambo.",
    "era": "E7",
    "period": "postwar",
    "lane": "The Americas",
@@ -3305,6 +3352,49 @@
    "depth": []
   },
   {
+   "id": "nutcracker-balanchine-1954",
+   "title": "George Balanchine's The Nutcracker",
+   "orig": "The Nutcracker",
+   "year": 1954,
+   "date": "1954-02-02",
+   "place": "New York, City Center of Music and Drama",
+   "company": "New York City Ballet",
+   "choreographer": [
+    "George Balanchine",
+    "Jerome Robbins (battle scene",
+    "uncredited)"
+   ],
+   "composer": [
+    "Pyotr Ilyich Tchaikovsky (full 1892 score",
+    "with an entr'acte from The Sleeping Beauty)"
+   ],
+   "designer": [
+    "Horace Armistead (sets 1954)",
+    "Rouben Ter-Arutunian (sets 1964)",
+    "Barbara Karinska (costumes)",
+    "Lawrence Vlady (masks)",
+    "Jean Rosenthal (lighting)"
+   ],
+   "premise": "A Christmas party, a growing tree and a child's journey to the Kingdom of Sweets, rebuilt from St Petersburg memory for New York.",
+   "era": "E7",
+   "period": "postwar",
+   "lane": "The Americas",
+   "region": "USA",
+   "threads": [
+    "T04",
+    "T06",
+    "T13",
+    "T20",
+    "T01"
+   ],
+   "parent": "nutcracker-1892",
+   "tier": "B",
+   "confidence": "documented",
+   "depth": [
+    "repertory/dossiers/D5_1950-1978.md"
+   ]
+  },
+  {
    "id": "stone-flower-1957",
    "title": "The Stone Flower",
    "orig": "Каменный цветок (Сказ о каменном цветке)",
@@ -3320,6 +3410,7 @@
     "Sergei Prokofiev"
    ],
    "designer": [
+    "Tamara Starzhenetskaya (1954)",
     "Simon Virsaladze (1957)"
    ],
    "premise": "A Ural stonecutter seeks to carve a perfect stone flower and is held by the Mistress of the Copper Mountain.",
@@ -3372,7 +3463,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W3 §11"
+    "works/W3 §11",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -3416,7 +3508,7 @@
    "orig": "鱼美人",
    "year": 1959,
    "date": "1959",
-   "place": "Beijing, Tianqiao Theatre (天桥剧场)",
+   "place": "Beijing, Tianqiao Theatre (HNU) or Nationalities Cultural Palace 民族文化宫 (Chen Ailian 2016): contested",
    "company": "Beijing Dance School (北京舞蹈学校), choreography training class",
    "choreographer": [
     "Pyotr Gusev (古雪夫",
@@ -3496,7 +3588,10 @@
     "Ferdinand Hérold (arr. John Lanchbery)"
    ],
    "designer": [
-    "Osbert Lancaster"
+    "Osbert Lancaster (sets",
+    "front cloth",
+    "costumes); John B. Read (lighting",
+    "current credit)"
    ],
    "premise": "Lise and Colas outwit Widow Simone and the dim Alain, with a clog dance, a maypole and a ribbon cat's cradle.",
    "era": "E8",
@@ -3522,7 +3617,7 @@
    "orig": "Revelations",
    "year": 1960,
    "date": "1960-01-31",
-   "place": "New York, 92nd Street YM-YWHA",
+   "place": "New York, Kaufmann Concert Hall, 92nd Street YM-YWHA",
    "company": "Alvin Ailey American Dance Theater",
    "choreographer": [
     "Alvin Ailey"
@@ -3532,7 +3627,11 @@
     "gospel and blues"
    ],
    "designer": [
-    "Ves Harper (probable)"
+    "Ves Harper (décor",
+    "costumes; company credit)",
+    "Barbara Forbes (Rocka My Soul redesign)",
+    "Nicola Cernovich (lighting)",
+    "(contested: Wikipedia names Laurence Maldonado for original design)"
    ],
    "premise": "From sorrow to baptism to Sunday celebration: African American spirituals in three sections.",
    "era": "E8",
@@ -3545,7 +3644,7 @@
    ],
    "parent": null,
    "tier": "B",
-   "confidence": "probable",
+   "confidence": "documented",
    "depth": [
     "repertory/dossiers/D5_1950-1978.md"
    ]
@@ -3614,6 +3713,43 @@
    "confidence": "probable",
    "depth": [
     "repertory/dossiers/D4_soviet_1930-1967.md"
+   ]
+  },
+  {
+   "id": "marguerite-armand-1963",
+   "title": "Marguerite and Armand",
+   "orig": "Marguerite and Armand",
+   "year": 1963,
+   "date": "1963-03-12",
+   "place": "London, Royal Opera House",
+   "company": "Royal Ballet",
+   "choreographer": [
+    "Frederick Ashton"
+   ],
+   "composer": [
+    "Franz Liszt (Piano Sonata in B minor; La lugubre gondola No. 1)",
+    "orch. Humphrey Searle; later Gordon Jacob (1968)",
+    "Dudley Simpson (1977)"
+   ],
+   "designer": [
+    "Cecil Beaton (sets and costumes)",
+    "William Bundy (lighting)"
+   ],
+   "premise": "A dying courtesan relives her love for a young man in four fevered flashbacks.",
+   "era": "E8",
+   "period": "postwar",
+   "lane": "Britain",
+   "region": "Britain",
+   "threads": [
+    "T18",
+    "T15",
+    "T24"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "documented",
+   "depth": [
+    "repertory/dossiers/D5_1950-1978.md"
    ]
   },
   {
@@ -3700,7 +3836,7 @@
    "place": "Ankara, Büyük Tiyatro",
    "company": "Turkish State Opera and Ballet",
    "choreographer": [
-    "Ninette de Valois (probable)"
+    "Ninette de Valois"
    ],
    "composer": [
     "Ferit Tüzün"
@@ -3717,11 +3853,12 @@
    "threads": [
     "T14",
     "T21",
-    "T04"
+    "T04",
+    "T05"
    ],
    "parent": null,
    "tier": "C",
-   "confidence": "documented",
+   "confidence": "documented (premiere 19 Feb 1965 per Akis; some sources give 1964)",
    "depth": [
     "repertory/dossiers/D8_world_national.md"
    ]
@@ -3755,7 +3892,7 @@
    ],
    "parent": null,
    "tier": "B",
-   "confidence": "probable",
+   "confidence": "documented",
    "depth": [
     "repertory/dossiers/D5_1950-1978.md"
    ]
@@ -3789,7 +3926,7 @@
    ],
    "parent": "romeo-juliet-lavrovsky-1940",
    "tier": "B",
-   "confidence": "probable",
+   "confidence": "documented",
    "depth": []
   },
   {
@@ -3820,7 +3957,7 @@
    ],
    "parent": null,
    "tier": "C",
-   "confidence": "probable",
+   "confidence": "documented",
    "depth": [
     "repertory/dossiers/D5_1950-1978.md"
    ]
@@ -3910,7 +4047,8 @@
    ],
    "designer": [
     "Peter Harvey (sets)",
-    "Barbara Karinska (costumes)"
+    "Barbara Karinska (costumes)",
+    "Ronald Bates (lighting)"
    ],
    "premise": "Three plotless acts as three gems and three national styles of ballet.",
    "era": "E8",
@@ -3923,7 +4061,7 @@
    ],
    "parent": null,
    "tier": "B",
-   "confidence": "probable",
+   "confidence": "documented",
    "depth": [
     "repertory/dossiers/D5_1950-1978.md"
    ]
@@ -3933,8 +4071,8 @@
    "title": "Raka",
    "orig": "Raka",
    "year": 1967,
-   "date": "1967-08 (Pretoria)",
-   "place": "Pretoria",
+   "date": "1967-08-26 (Steyn ch.3; Steyn ch.1 says November 1967: contested)",
+   "place": "Pretoria, the Aula",
    "company": "PACT Ballet (Performing Arts Council of the Transvaal)",
    "choreographer": [
     "Frank Staff"
@@ -4013,7 +4151,7 @@
    ],
    "designer": [
     "Joe Eula (costumes)",
-    "Thomas Skelton (lighting)"
+    "Thomas Skelton (lighting at premiere; NYCB and RBO now credit Jennifer Tipton)"
    ],
    "premise": "Ten dancers in a sunlit field meet, part and look at the sky, an hour of Chopin without a story.",
    "era": "E8",
@@ -4026,7 +4164,7 @@
    ],
    "parent": null,
    "tier": "C",
-   "confidence": "probable",
+   "confidence": "documented",
    "depth": [
     "repertory/dossiers/D5_1950-1978.md"
    ]
@@ -4141,7 +4279,7 @@
     "Kenneth MacMillan"
    ],
    "composer": [
-    "Jules Massenet (arr. Leighton Lucas; not from the opera)"
+    "Jules Massenet (comp. and orch. Leighton Lucas with Hilda Gaunt; re-orch. Martin Yates); nothing from the opera"
    ],
    "designer": [
     "Nicholas Georgiadis"
@@ -4158,7 +4296,7 @@
    ],
    "parent": null,
    "tier": "B",
-   "confidence": "probable",
+   "confidence": "documented",
    "depth": [
     "repertory/dossiers/D5_1950-1978.md"
    ]
@@ -4192,7 +4330,7 @@
    ],
    "parent": "rite-of-spring-1913",
    "tier": "B",
-   "confidence": "probable",
+   "confidence": "documented",
    "depth": [
     "repertory/dossiers/D5_1950-1978.md"
    ]
@@ -4209,8 +4347,10 @@
     "Twyla Tharp"
    ],
    "composer": [
-    "Joseph Lamb (ragtime)",
-    "Joseph Haydn (Symphony No. 82)"
+    "Joseph Lamb (Bohemia Rag",
+    "1919)",
+    "Joseph Haydn (Symphony No. 82)",
+    "arr. David E. Bourne"
    ],
    "designer": [
     "Santo Loquasto (costumes)",
@@ -4228,7 +4368,7 @@
    ],
    "parent": null,
    "tier": "B",
-   "confidence": "probable",
+   "confidence": "documented",
    "depth": [
     "repertory/dossiers/D5_1950-1978.md"
    ]
@@ -4262,7 +4402,7 @@
    ],
    "parent": null,
    "tier": "C",
-   "confidence": "probable",
+   "confidence": "documented",
    "depth": [
     "repertory/dossiers/D5_1950-1978.md"
    ]
@@ -4282,7 +4422,9 @@
     "Franz Liszt (arr. John Lanchbery)"
    ],
    "designer": [
-    "Nicholas Georgiadis"
+    "Nicholas Georgiadis (sets",
+    "costumes)",
+    "David Hersey (lighting)"
    ],
    "premise": "A drug-addled, syphilitic crown prince, trapped by court politics, kills his teenage mistress and himself.",
    "era": "E9",
@@ -4295,7 +4437,7 @@
    ],
    "parent": null,
    "tier": "C",
-   "confidence": "probable",
+   "confidence": "documented",
    "depth": [
     "repertory/dossiers/D5_1950-1978.md"
    ]
@@ -4380,7 +4522,7 @@
    "orig": "Giselle (Ek)",
    "year": 1982,
    "date": "1982-07-06",
-   "place": "Sweden (venue not confirmed)",
+   "place": "Stockholm, Dramaten (Royal Dramatic Theatre)",
    "company": "Cullberg Ballet",
    "choreographer": [
     "Mats Ek"
@@ -4414,7 +4556,7 @@
    "title": "Creole Giselle",
    "orig": "Creole Giselle",
    "year": 1984,
-   "date": "1984",
+   "date": "1984-07-18",
    "place": "London Coliseum",
    "company": "Dance Theatre of Harlem",
    "choreographer": [
@@ -4475,7 +4617,7 @@
    ],
    "parent": null,
    "tier": "C",
-   "confidence": "probable",
+   "confidence": "documented",
    "depth": [
     "repertory/dossiers/D6_1986-2022.md"
    ]
@@ -4493,7 +4635,7 @@
     "additional choreography - Roy Tobias, Oleg Vinogradov, Bingxian Liu"
    ],
    "composer": [
-    "Kevin Barber Pickard (with Choi Dong-sun)"
+    "Kevin Barber Pickard (1986 score shared among three composers incl. Choi Dong-sun; unified under Pickard 1988)"
    ],
    "designer": [
     "Kim Myung-ho",
@@ -4536,7 +4678,9 @@
    ],
    "designer": [
     "Nuno Côrte-Real (sets",
-    "costumes)"
+    "costumes)",
+    "Takazawa Tatsuo 高沢立生 (lighting)",
+    "Ichikawa Fumitake 市川文武 (sound)"
    ],
    "premise": "A young man of today falls into the world of Chūshingura and leads the 47 masterless samurai to revenge and ritual suicide.",
    "era": "E9",
@@ -4561,14 +4705,14 @@
    "title": "In the Middle, Somewhat Elevated",
    "orig": "In the Middle, Somewhat Elevated",
    "year": 1987,
-   "date": "1987-05-30",
+   "date": "1987-05-30 (contested: 29 May in PNB and CND credits)",
    "place": "Paris Opéra (Palais Garnier)",
    "company": "Paris Opéra Ballet",
    "choreographer": [
     "William Forsythe"
    ],
    "composer": [
-    "Thom Willems"
+    "Thom Willems (in collaboration with Leslie Stuck)"
    ],
    "designer": [
     "William Forsythe"
@@ -4642,7 +4786,8 @@
    "designer": [
     "Adrianne Lobel (sets)",
     "Martin Pakledinaz (costumes)",
-    "Charles Burns (comic-art source)"
+    "James F. Ingalls (lighting)",
+    "Charles Burns (production based on his work)"
    ],
    "premise": "The Nutcracker in a 1970s suburban party, with cross-cast roles and snowflakes of both sexes throwing snow.",
    "era": "E9",
@@ -4740,9 +4885,9 @@
    "title": "Rites",
    "orig": "Rites",
    "year": 1997,
-   "date": "1997-03-17 (season 17-29 March)",
-   "place": "Melbourne, Victorian Arts Centre (Melbourne Festival)",
-   "company": "Bangarra Dance Theatre with The Australian Ballet",
+   "date": "1997-10-29",
+   "place": "Melbourne, State Theatre, Victorian Arts Centre (Melbourne International Festival of the Arts)",
+   "company": "The Australian Ballet with Bangarra Dance Theatre",
    "choreographer": [
     "Stephen Page"
    ],
@@ -4761,7 +4906,6 @@
    "region": "Australia",
    "threads": [
     "T13",
-    "T16",
     "T23",
     "T14"
    ],
@@ -4777,7 +4921,7 @@
    "title": "The Grand Night",
    "orig": "الليلة الكبيرة",
    "year": 2001,
-   "date": "2001/2002",
+   "date": "2001",
    "place": "Cairo Opera House",
    "company": "Cairo Opera Ballet Company",
    "choreographer": [
@@ -4804,7 +4948,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W3 §10"
+    "works/W3 §10",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -4936,7 +5081,10 @@
     "Joby Talbot"
    ],
    "designer": [
-    "Bob Crowley"
+    "Bob Crowley (sets and costumes)",
+    "Natasha Katz (lighting)",
+    "Jon Driscoll and Gemma Carrington (projections)",
+    "Toby Olié (puppets)"
    ],
    "premise": "Alice follows a rabbit into Wonderland, where Victorian garden-party guests become cards, caterpillars and queens.",
    "era": "E10",
@@ -4955,6 +5103,37 @@
    "depth": [
     "repertory/dossiers/D6_1986-2022.md"
    ]
+  },
+  {
+   "id": "creation-du-monde-linyekula-2012",
+   "title": "The Creation of the World 1923–2012",
+   "orig": "La Création du monde 1923–2012",
+   "year": 2012,
+   "date": "2012",
+   "place": "Nancy (CCN-Ballet de Lorraine)",
+   "company": "CCN-Ballet de Lorraine",
+   "choreographer": [
+    "Faustin Linyekula",
+    "with the Hodson-Archer reconstruction of Börlin embedded"
+   ],
+   "composer": [
+    "Darius Milhaud"
+   ],
+   "designer": [],
+   "premise": "A Congolese choreographer sets the reconstructed 1923 Création du monde inside a new work of his own.",
+   "era": "E10",
+   "period": "c21",
+   "lane": "France",
+   "region": "France / DR Congo",
+   "threads": [
+    "T23",
+    "T13",
+    "T05"
+   ],
+   "parent": "creation-du-monde-1923",
+   "tier": "B",
+   "confidence": "documented",
+   "depth": []
   },
   {
    "id": "the-winters-tale-2014",
@@ -5026,7 +5205,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W3 §9"
+    "works/W3 §9",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -5044,10 +5224,12 @@
     "Max Richter"
    ],
    "designer": [
-    "Ciguë",
-    "We Not I",
+    "Ciguë (Act I)",
+    "We Not I (Act II)",
+    "Wayne McGregor (Act III)",
+    "Moritz Junge (costumes)",
     "Lucy Carter (lighting)",
-    "Moritz Junge (costumes)"
+    "Ravi Deepres (film)"
    ],
    "premise": "Three acts, three Woolf novels: memory, time travelling through bodies, and the sea of her death.",
    "era": "E10",
@@ -5354,18 +5536,19 @@
    "title": "common ground[s]",
    "orig": "common ground[s]",
    "year": 2021,
-   "date": "2021",
-   "place": "touring with Pina Bausch's Rite of Spring (Dakar / Europe) (probable)",
+   "date": "2021-09-23",
+   "place": "Madrid, Teatros del Canal (Sala Roja)",
    "company": "Pina Bausch Foundation, École des Sables, Sadler's Wells",
    "choreographer": [
     "Germaine Acogny",
     "Malou Airaudo"
    ],
    "composer": [
-    "Fabrice Bouillon-LaForest (probable)"
+    "Fabrice Bouillon LaForest"
    ],
    "designer": [
-    "unknown"
+    "Petra Leidner (costumes)",
+    "Zeynep Kepekli (lighting); dramaturgy Sophiatou Kossoko"
    ],
    "premise": "Two women in their seventies, from Senegal and France, share memory and grief; the companion piece to an African-cast Rite of Spring.",
    "era": "E10",
@@ -5399,7 +5582,9 @@
     "Joby Talbot"
    ],
    "designer": [
-    "Bob Crowley"
+    "Bob Crowley (sets and costumes)",
+    "Natasha Katz (lighting)",
+    "Luke Halls (video)"
    ],
    "premise": "In revolutionary Mexico, a youngest daughter forbidden to marry pours her feelings into food that bewitches those who eat it.",
    "era": "E10",
@@ -6841,6 +7026,7 @@
   ],
   "nutcracker-1892": [
    "nutcracker-1892",
+   "nutcracker-balanchine-1954",
    "hard-nut-1991"
   ],
   "apres-midi-faune-1912": [
@@ -6852,6 +7038,10 @@
    "sacre-bejart-1959",
    "sacre-bausch-1975",
    "rites-page-1997"
+  ],
+  "creation-du-monde-1923": [
+   "creation-du-monde-1923",
+   "creation-du-monde-linyekula-2012"
   ],
   "bolero-nijinska-1928": [
    "bolero-nijinska-1928",
