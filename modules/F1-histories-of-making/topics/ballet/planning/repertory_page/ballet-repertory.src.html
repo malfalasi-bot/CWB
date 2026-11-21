@@ -1,0 +1,227 @@
+<title>Ballet Repertory and Timeline</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: the same family as the ballet review and blueprint pages (Didone display, humanist sans, mono labels). The timeline runs full width under the header; the reading column with its contents rail follows. */
+:root{--bg:#f4f5f7;--paper:#ffffff;--ink:#16181d;--ink2:#4a4f5a;--line:#d9dce3;--accent:#8a4b12;--wash:#f0e7dc;--alt:#2f5d7c;--altwash:#e3ecf2;
+--display:"Bodoni Moda",Didot,"Bodoni 72",Georgia,serif;--body:"Source Sans 3","Segoe UI",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121318;--paper:#1a1c22;--ink:#e9eaee;--ink2:#a9aeb9;--line:#2d313a;--accent:#e2a866;--wash:#2a2219;--alt:#8cbad8;--altwash:#1b2731;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121318;--paper:#1a1c22;--ink:#e9eaee;--ink2:#a9aeb9;--line:#2d313a;--accent:#e2a866;--wash:#2a2219;--alt:#8cbad8;--altwash:#1b2731;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+header.top{max-width:1240px;margin:0 auto 28px;padding-block:48px 24px;border-bottom:1px solid var(--line)}
+.eyebrow{font:500 12px/1.4 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+h1{font:700 clamp(34px,5vw,56px)/1.05 var(--display);margin:.25em 0 .3em;text-wrap:balance;letter-spacing:-.01em}
+.lede{max-width:66ch;color:var(--ink2);margin:0}
+section.line{max-width:1240px;margin:0 auto 48px}
+section.line h2{margin-top:0}
+.line-note{max-width:70ch;color:var(--ink2);font-size:15px;margin:0 0 14px}
+.wrap{max-width:1240px;margin:0 auto;display:grid;grid-template-columns:220px minmax(0,1fr);gap:56px}
+nav.toc{position:sticky;top:calc(env(safe-area-inset-top,0px) + 24px);align-self:start;font-size:14px}
+nav.toc ol{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+nav.toc a{color:var(--ink2);text-decoration:none;display:block;padding:4px 0 4px 12px;border-left:2px solid var(--line)}
+nav.toc a:hover,nav.toc a:focus-visible{color:var(--ink);border-left-color:var(--accent)}
+main{min-width:0;max-width:78ch}
+h2{font:700 30px/1.15 var(--display);margin:2.2em 0 .6em;text-wrap:balance;scroll-margin-top:24px}
+main section:first-child h2{margin-top:0}
+h3{font:600 19px/1.3 var(--body);margin:1.8em 0 .5em;text-wrap:balance}
+p,li{text-wrap:pretty} ul,ol{padding-left:1.3em} li{margin:.35em 0}
+strong{font-weight:600}
+a{color:var(--accent)} code{font:14px var(--mono);background:var(--wash);padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}
+.tw{overflow-x:auto;margin:1.2em 0;border:1px solid var(--line);border-radius:6px;background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.45}
+th,td{text-align:left;vertical-align:top;padding:10px 14px;border-bottom:1px solid var(--line)}
+th{font:500 12px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);background:var(--wash)}
+tr:last-child td{border-bottom:0}
+td.h{font-variant-numeric:tabular-nums;white-space:nowrap}
+tr.rec td{background:var(--altwash)}
+.parts{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px;margin:1.2em 0}
+.part{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:16px 18px;min-width:0}
+.part .k{font:500 12px/1.4 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin:0 0 2px}
+.part h4{font:700 21px/1.2 var(--display);margin:0 0 6px}
+.part p{margin:.35em 0;font-size:15px;color:var(--ink2)}
+.bridge{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px;font-size:14px;color:var(--ink2)}
+.bridge div{border-top:2px solid var(--accent);padding-top:6px}
+.cols{columns:2 260px;column-gap:28px;margin:.6em 0}
+.cols li{break-inside:avoid}
+.facts{display:grid;gap:12px;margin:1em 0;padding:0;list-style:none}
+.facts li{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:12px 16px;margin:0}
+.facts .src{display:block;font:500 11px/1.5 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink2);margin-top:4px}
+.decide{display:grid;gap:14px;margin:1.2em 0}
+.d{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:16px 18px}
+.d .k{font:500 12px/1.4 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin:0 0 4px}
+.d p{margin:.4em 0} .d .def{color:var(--ink2);font-size:15px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (max-width:860px){.wrap{grid-template-columns:minmax(0,1fr);gap:0}nav.toc{display:none}.parts,.bridge{grid-template-columns:minmax(0,1fr)}}
+/*WIDGET_CSS*/
+</style>
+
+<header class="top">
+  <p class="eyebrow">F1 Histories of making · Ballet, part two · 21 November 2026</p>
+  <h1>The Repertory: ballet's whole history in its works</h1>
+  <p class="lede">Beside the thirteen-chapter unit, which stays as it is: a timeline of the ballets and the events around them, deep dives on 118 works, and the debates, myths, design and art that run across four and a half centuries. This page is the plan, with a working first version of the timeline. Four decisions are yours at the end.</p>
+</header>
+
+<section class="line" aria-labelledby="line-h">
+  <h2 id="line-h">The line</h2>
+  <p class="line-note">156 works and 155 dated events in eleven eras, from the Italian dance masters to 2026. Filled dots are works researched in depth. Lines join a work to its remakes. Choose a thread to follow one idea across the whole history, select any dot or diamond to open its card, and scroll sideways for the later eras.</p>
+  <div id="tl"></div>
+  <div class="tl-legend"><span><i class="d"></i>researched in depth</span><span><i></i>register row only</span><span><i class="a"></i>remake of an earlier work</span><span><i class="e"></i>event</span></div>
+</section>
+
+<div class="wrap">
+<nav class="toc" aria-label="Contents"><ol>
+  <li><a href="#short">In short</a></li>
+  <li><a href="#fit">How it fits</a></li>
+  <li><a href="#holds">What it holds</a></li>
+  <li><a href="#routes">Routes</a></li>
+  <li><a href="#across">Across the history</a></li>
+  <li><a href="#found">Found in this pass</a></li>
+  <li><a href="#template">The template</a></li>
+  <li><a href="#limits">Size and limits</a></li>
+  <li><a href="#decide">Your decisions</a></li>
+</ol></nav>
+
+<main>
+<section id="short">
+<h2>In short</h2>
+<ul>
+  <li><strong>The thirteen chapters stay.</strong> The Repertory is part two of the ballet topic: the chapters teach the concept, and the Repertory teaches the range.</li>
+  <li><strong>The research is done for this pass.</strong> About 209,000 new words from ten research passes. There are deep dives on 82 more ballets, and the 35 already taken apart gained their disputes, facts and comparisons. Two passes ran across the whole history: one on readings, disputes and myths, one on design and art. A benchmark looked at how books, museums and platforms tell an art's history through its works.</li>
+  <li><strong>Every work answers the same questions.</strong> How it came to be, where its ideas came from, the world it built, its design and art, how it was received, its versions, how it has been read and disputed, what to set it beside, and what a maker can take from it. Facts worth telling come last.</li>
+  <li><strong>Comparisons and contradictions are content.</strong> The material includes 18 debates with named holders on each side, 38 myths checked against the record, and 13 long comparisons across periods. Each thread can be followed on the line.</li>
+  <li><strong>It becomes the template</strong> for any Atlas concept with many works: a movement, a school, a design house.</li>
+</ul>
+</section>
+
+<section id="fit">
+<h2>How it fits beside the thirteen chapters</h2>
+<p>The benchmark weighed four designs. A second unit that tells the history again would compete with the chapters and fix a closed canon. A timeline inside the chapters alone leaves the deep dives with nowhere to live. A browsable explorer with no paths overloads newcomers. The fourth is a hybrid: one timeline, many cards, and a few guided routes. One of those routes is the fifty-work course that a second unit would have been.</p>
+<div class="parts">
+  <div class="part"><p class="k">Part one · the concept</p><h4>Ballet as a made world</h4><p>Thirteen history-first chapters, about 41 hours. <em>Giselle</em> is the worked example. They answer how ideas, bodies and things become a world, and how it is kept alive.</p></div>
+  <div class="part"><p class="k">Part two · the range</p><h4>The Repertory</h4><p>The line, a card for every work, the debates, the myths, the design and art, and eight routes. They answer what was made, when, by whom, how it looked, how it was argued over, and what came after it.</p></div>
+  <div class="bridge"><div>Each chapter opens the line at its own era, with its works lit, and extends its comparison wall across the whole history.</div><div>Each card links back to the chapter that explains the idea it shows. Neither part re-tells the other.</div></div>
+</div>
+<div class="tw"><table>
+<thead><tr><th>Era on the line</th><th>Chapters</th></tr></thead>
+<tbody>
+<tr><td>E0 Before ballet · E1 The court designs a world</td><td>0, 1</td></tr>
+<tr><td>E2 The Opéra makes professionals · E3 The ballet tells a story</td><td>1, 2</td></tr>
+<tr><td>E4 The theatre sells a dream</td><td>3</td></tr>
+<tr><td>E5 The empire specifies</td><td>4, 5</td></tr>
+<tr><td>E6 The committee and the painter's stage · E7 States, schools and the bare stage</td><td>7, 8</td></tr>
+<tr><td>E8 Routes and rivalries</td><td>8</td></tr>
+<tr><td>E9 Remaking the canon · E10 Screens, the world stage and repair</td><td>9, 10, 11</td></tr>
+</tbody></table></div>
+<p>Chapter 6 (the night and the house) and chapter 11 (money, ownership and handover) read across every era, so they use the event lanes rather than one era.</p>
+</section>
+
+<section id="holds">
+<h2>What the Repertory holds</h2>
+<div class="tw"><table>
+<thead><tr><th>Card</th><th>How many</th><th>What it holds</th></tr></thead>
+<tbody>
+<tr><td><strong>Work</strong></td><td class="h">156</td><td>Four depths: a line for every work, a label, a story for the 118 researched, and the full deep dive</td></tr>
+<tr><td><strong>Production</strong></td><td class="h">2–5 a family</td><td>The work, each production and its team, a dated cast; the version most often seen today</td></tr>
+<tr><td><strong>Era</strong></td><td class="h">11</td><td>What changed, who paid, what the stage looked like, five landmark works, the dispute of the era</td></tr>
+<tr><td><strong>Thread wall</strong></td><td class="h">24</td><td>A pair first, then six to ten works across three centuries and three regions, then the principle</td></tr>
+<tr><td><strong>Argument</strong></td><td class="h">18</td><td>The question, each reading with its holder in the same grammar, the evidence, then and now</td></tr>
+<tr><td><strong>Myth</strong></td><td class="h">38</td><td>The story as told, what the record shows, the verdict, the source</td></tr>
+<tr><td><strong>Cross-current</strong></td><td class="h">13</td><td>A long comparison across periods, as a short essay with its works</td></tr>
+<tr><td><strong>Designer and design idea</strong></td><td class="h">65 · 18</td><td>Who, which works, what they brought; each recurring idea across three periods</td></tr>
+</tbody></table></div>
+</section>
+
+<section id="routes">
+<h2>Routes through it</h2>
+<p>A route is a sequence of existing cards with a short introduction, one sentence between steps, and a closing say-back. It adds no history the cards do not already hold.</p>
+<div class="tw"><table>
+<thead><tr><th>Route</th><th>What it is</th><th>Length</th></tr></thead>
+<tbody>
+<tr><td><strong>R0 The line in one sitting</strong></td><td>The eleven eras, one landmark each, how to read the lanes; ends with the learner placing a work they know</td><td class="h">45 min</td></tr>
+<tr class="rec"><td><strong>R1 Four centuries in fifty works</strong></td><td>Five works per era in date order, an era card between eras, a pair at the end of each. This is the "unit of its own".</td><td class="h">12–15 h</td></tr>
+<tr><td><strong>R2 Thread routes</strong></td><td>Two worlds; the white act; the exotic other and its answers; the remake families; a woman against family and patriarch</td><td class="h">1–2 h each</td></tr>
+<tr><td><strong>R3 The stage picture</strong></td><td>Ten eras of design through the designers and each work's design and art</td><td class="h">3 h</td></tr>
+<tr><td><strong>R4 Arguments</strong></td><td>Story or form; who is the author; reconstruction; Orientalism; race and access; is ballet dying</td><td class="h">3 h</td></tr>
+<tr><td><strong>R5 The world stage</strong></td><td>National ballets: one form, many states</td><td class="h">2–3 h</td></tr>
+<tr class="rec"><td><strong>R6 A maker's sourcebook</strong></td><td>Ordered by design problem: how to open a world, make a rule visible, dress a collection, credit a team, remake a classic. Each stop is a work's "what a maker can take from it".</td><td class="h">2–3 h</td></tr>
+<tr><td><strong>R7 Your route</strong></td><td>The learner builds five to eight works into a route, with a reason for each step</td><td class="h">1–2 h</td></tr>
+</tbody></table></div>
+<p>R6 is this plan's addition to the benchmark's design. It turns the reference points and inspiration you asked for into something a learner can use: the same cards, read by a maker's question rather than by date.</p>
+</section>
+
+<section id="across">
+<h2>Across the whole history</h2>
+<h3>Eighteen debates</h3>
+<ul class="cols">
+<li>Story or form?</li><li>Authenticity, reconstruction and revision</li><li>Who is the author?</li><li>"Ballet is woman": the ballerina and the danseur</li><li>The body ideal</li><li>Orientalism and the exotic other</li><li>Class, court and state</li><li>Nation and folk</li><li>Race and access</li><li>Queer readings</li><li>Is ballet dying, or changing?</li><li>Popularity against prestige: <em>Nutcracker</em> economics</li><li>The white act and its meanings</li><li>Tradition against innovation in the classroom</li><li>Ballet and modern dance: rivals or kin?</li><li>Russia, the canon and the war</li><li>Where did ballet begin, and where is its centre?</li><li>Live or recorded: is the filmed ballet the ballet?</li>
+</ul>
+<h3>Thirteen cross-currents</h3>
+<ul class="cols">
+<li>The same plot under different states</li><li>One score, many choreographers: the <em>Rite</em> family</li><li>How endings changed</li><li>The male dancer's eclipse and return</li><li>The stage picture, court to screen</li><li>Who paid, and how the payer shaped the work</li><li>The automaton, the doll and the machine</li><li>The national ballet as nation-building</li><li>The other, seen from outside and from inside</li><li>Why the heroine dies</li><li><em>Giselle</em> as a method for remaking</li><li>Ballet in mass media, lithograph to feed</li><li>The fairy-tale court and the court that paid for it</li>
+</ul>
+<h3>Eighteen design ideas that recur</h3>
+<ul class="cols">
+<li>The white tutu as a uniform</li><li>The costume family</li><li>The transformation scene</li><li>The gauze and the vision</li><li>Colour as character</li><li>The painted cloth against the built set</li><li>The bare stage and the leotard</li><li>Light as scenery</li><li>The floor as material</li><li>Fashion houses on stage, stage in fashion</li><li>The poster and the programme as identity</li><li>The curtain as artwork</li><li>The mask and the made-up face</li><li>The archive as a source</li><li>The machine and the mechanical body</li><li>Ornament as geography</li><li>The found object</li><li>One artist, one world</li>
+</ul>
+</section>
+
+<section id="found">
+<h2>Found in this pass</h2>
+<p>A sample of what the deep dives turned up. Each item carries its confidence word and the file it comes from. The first is the kind of correction the Repertory exists to teach.</p>
+<ul class="facts">
+<li>The word "riot" was first attached to the 1913 <em>Rite of Spring</em> premiere in 1922. The police file for the night is missing, and the later Paris and London performances were calm. Contested: "uproar" is safer than "riot".<span class="src">X1 myths · Levitz 2017</span></li>
+<li>Odile was not a black swan in 1895. The black, feathered Odile came from Moscow in 1920 and from New York in the 1940s, so the white-against-black poster image is a twentieth-century design choice.<span class="src">D7 · documented, checked against JSTOR Daily</span></li>
+<li>The story that admirers in St Petersburg cooked and ate Marie Taglioni's shoes first appears in a London paper in 1855, thirteen years after the tour it describes.<span class="src">X1 myths · contested</span></li>
+<li>In 1930 a labour-safety inspector asked for a dance in <em>The Golden Age</em> to be cut, because Galina Ulanova's pulse had reached 170 in rehearsal.<span class="src">D4 · documented, from the minutes</span></li>
+<li>Two weeks before the premiere of Prokofiev's <em>Romeo and Juliet</em> in Leningrad, the orchestra passed a written resolution refusing to play it.<span class="src">D4 · documented, Mariinsky exhibition</span></li>
+<li>The famous white-tutu photographs of Margot Fonteyn in <em>Marguerite and Armand</em> (1963) were publicity stills. The costume kept from the stage is black net with a dark velvet bodice.<span class="src">D5 · documented</span></li>
+<li>In 2024 a court in Nanterre ruled that Ravel alone wrote <em>Boléro</em>. Music, choreography and décor are "three distinct works", so the designer's heirs could not extend the copyright.<span class="src">D2 · documented</span></li>
+<li>Marc Chagall moved <em>Aleko</em> to Mexico City in 1942 partly because New York union rules would not let him paint his own backdrops.<span class="src">X2 · documented, LACMA</span></li>
+<li>Ninette de Valois privately called the Turkish ballet <em>Çeşmebaşı</em> (1965) "my bastard <em>Petrouchka</em>", and did not share that model with her Turkish team.<span class="src">D8 · documented</span></li>
+<li>The man who ran Soviet television programming in 1991 says he aired <em>Swan Lake</em> twice on the first day of the coup because nothing else of the right length was ready.<span class="src">X1 events · documented, checked against Rossiyskaya Gazeta, August 2026</span></li>
+</ul>
+</section>
+
+<section id="template">
+<h2>The template for every Atlas concept with many works</h2>
+<p>The Atlas concept-unit template becomes v2.1. Any concept with many works (an art form, a movement, a school, a design house) gets a Repertory beside its chapters. That means a line of eras and lanes, a card for every work under the same fixed headings, the cross-history cards, and routes over them. The research it needs is a works register, one dossier per work, a pass across the history for readings and disputes, another for design and art, a benchmark, and a published rule for which works are in, shown with the estimated total.</p>
+<p>The timeline's eras and lanes are reusable. An opera or a fashion topic would keep the five event lanes and relabel the works.</p>
+</section>
+
+<section id="limits">
+<h2>Size and limits</h2>
+<div class="tw"><table>
+<thead><tr><th>Step</th><th>What</th><th>Learner words</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>The line, built for the course, with R0 and eleven era cards</td><td class="h">5,000</td></tr>
+<tr><td>2</td><td>Work cards: labels for all, stories for the 118 researched, full deep dives for the 35 classics first</td><td class="h">40,000</td></tr>
+<tr><td>3</td><td>Five thread walls, six arguments, the myth cards</td><td class="h">12,000</td></tr>
+<tr><td>4</td><td>R1 and R6, and the deep dives R1 needs</td><td class="h">15,000</td></tr>
+<tr><td>5</td><td>The remaining walls, arguments, design cards, R3 and R5</td><td class="h">15,000</td></tr>
+</tbody></table></div>
+<ul>
+  <li><strong>The research is not yet checked by a person.</strong> Research agents wrote it in one pass, with every claim marked documented, probable, contested or argued. Probable items, the date conflicts the passes logged, and every image licence need checking at source before a card reaches a learner. Three surprising claims were checked against independent sources and held.</li>
+  <li><strong>The record contradicts itself,</strong> sometimes on a company's own pages. The deep dives log both readings rather than choosing one.</li>
+  <li><strong>The register is fuller now.</strong> 137 sourced corrections from the deep dives were applied, 10 were settled by rule, and one (the dates of <em>Chopiniana</em>) is left for a person.</li>
+  <li><strong>The canon leans west.</strong> The regional counterweight is still thin before 1940 and in the Gulf. The next candidates are Iran's <em>Bijan and Manijeh</em> (Tehran, 1975), India's <em>Ramayana</em> (1952–53), Indonesia's Prambanan <em>Ramayana</em> (1961) and Brazil's <em>Uirapuru</em> (1935). No company-made Gulf ballet on a Gulf subject was found.</li>
+  <li><strong>Most media are link-only.</strong> The Met's Bakst designs, which earlier research assumed were free to use, are link-only until each record shows Open Access.</li>
+  <li><strong>No study tests this design</strong> with adult design learners. The first build of the line and R0 should be tried with five learners.</li>
+</ul>
+</section>
+
+<section id="decide">
+<h2>Your decisions</h2>
+<p>Each has a default that stands unless you say otherwise. They are recorded in <code>topics/ballet/planning/REPERTORY_PLAN.md</code>.</p>
+<div class="decide">
+  <div class="d"><p class="k">1 · Where it sits</p><p>The Repertory as part two of the ballet topic, sharing one front door with the thirteen chapters, or a separate unit.</p><p class="def">Default: part two of the topic.</p></div>
+  <div class="d"><p class="k">2 · The fifty-work course</p><p>R1 as an optional route, or as a certificated sub-unit with say-backs at each era and an Apply task in each lane (about 3,000 more words).</p><p class="def">Default: optional, because every boundary between parts loses learners.</p></div>
+  <div class="d"><p class="k">3 · The eras</p><p>The eleven eras as named on the line, replacing the register's eight periods.</p><p class="def">Default: adopt them.</p></div>
+  <div class="d"><p class="k">4 · The template</p><p>Every Atlas concept with many works gets a Repertory of its own (template v2.1).</p><p class="def">Default: adopt it; movements and schools are next.</p></div>
+</div>
+</section>
+</main>
+</div>
+
+<script>/*WIDGET_DATA*/</script>
+<script>/*WIDGET_JS*/</script>

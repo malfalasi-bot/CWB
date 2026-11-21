@@ -161,7 +161,7 @@
   }
   function showEvent(ev) {
     state.sel = null; paint();
-    card.innerHTML = '<p class="tl-k">' + esc(ev.year) + (ev.place ? ' · ' + esc(ev.place) : '') + ' · event</p><h4>' + esc(ev.title) + '</h4>' +
+    card.innerHTML = '<p class="tl-k">' + esc(ev.when || ev.year) + (ev.place ? ' · ' + esc(ev.place) : '') + ' · event</p><h4>' + esc(ev.title) + '</h4>' +
       (ev.note ? '<p>' + esc(ev.note) + '</p>' : '') + '<dl><dt>Confidence</dt><dd>' + esc(ev.confidence || '') + '</dd>' +
       (ev.source ? '<dt>Source</dt><dd>' + esc(ev.source) + '</dd>' : '') + '</dl>';
   }
