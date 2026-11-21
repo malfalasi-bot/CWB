@@ -1,6 +1,6 @@
 # X1: Readings, disputes and myths across the whole history of ballet
 
-21 November 2026. Pass X1 under `BRIEF_REPERTORY.md`. Status: in progress.
+21 November 2026. Pass X1 under `BRIEF_REPERTORY.md`. Status: complete for this pass. Four parts: 18 debates, 38 myths, 13 cross-currents, 98 timeline events.
 
 Confidence words: **documented** (seen at source, or in a named source), **probable** (secondary or working knowledge), **contested** (both readings given), **argued** (an interpretation). Register ids refer to `register.yaml`; threads T01 to T24 to `CENSUS.md` §4.
 
@@ -424,12 +424,11 @@ The Romantic ballerina was sold in lithographs (Taglioni, Elssler, the *Pas de q
 
 ## Part 4. For a timeline
 
-Ninety dated events that are not premieres: institutions, technologies, laws, wars, deaths, archive discoveries and earliest-known firsts. Format: **year** · place · event · confidence · source. "Probable" means working knowledge or a secondary source not re-checked at the holder in this pass; check before publishing. Russian dates before 1918 are New Style unless both are given.
+Ninety-eight dated events that are not premieres: institutions, technologies, laws, wars, deaths, archive discoveries and earliest-known firsts. Format: **year** · place · event · confidence · source. "Probable" means working knowledge or a secondary source not re-checked at the holder in this pass; check before publishing. Russian dates before 1918 are New Style unless both are given.
 
 - **c. 1455** · Ferrara/Piacenza · Domenico da Piacenza's *De arte saltandi et choreas ducendi*, earliest known European dance-master treatise · probable · scope 01; Franko 1986
 - **1463** · Italy · Guglielmo Ebreo's *De pratica seu arte tripudii* (Sparti's translation, 1993) · probable · scope 01
 - **1582** · Paris · Printed book of the *Balet comique de la Royne* (performed 15 October 1581), earliest known printed ballet libretto with music · probable · G2 (IMSLP record)
-- **1588** · Langres · Thoinot Arbeau's *Orchésographie*, a dance manual pairing steps with music · probable · working knowledge
 - **1641** · Venice · Giacomo Torelli's chariot-and-pole scene change at the Teatro Novissimo · documented · Britannica via pass2_verify
 - **c. 1645** · Paris · Torelli called to the French court · documented · Britannica via pass2_verify
 - **1653** · Paris · Louis XIV, aged 14, dances the rising sun (23 February) in the *Ballet royal de la Nuit*; the image becomes royal propaganda · documented · BnF Essentiels; Swiss National Museum 2023
@@ -468,16 +467,12 @@ Ninety dated events that are not premieres: institutions, technologies, laws, wa
 - **1875** · Paris · Palais Garnier opens (5 January) · probable · working knowledge
 - **1876** · Bayreuth · Festspielhaus darkens the hall and hides the orchestra (13 August) · contested ("earliest" disputed) · G2
 - **1881** · Paris · Earliest known use of "tutu" for the dancer's skirt (Nuitter) · documented · CNRTL
-- **1881** · London · Savoy Theatre lit by electricity, earliest known theatre fully so lit · probable · working knowledge
 - **1882** · St Petersburg/Moscow · Imperial monopoly on theatres abolished · probable · working knowledge
 - **1892** · St Petersburg · Vladimir Stepanov publishes *Alphabet des mouvements du corps humain* · probable · scope 06
-- **1893** · St Petersburg · Legnani's 32 fouettés (*Cinderella*) · probable · PBT guide 2022
 - **1899 to 1903** · St Petersburg · Stepanov notations of *Giselle* (Act II 1899, Act I 1903), later in the Sergeyev Collection · documented · Petipa Society via W1
 - **1904** · St Petersburg · Imperial Theatres refuse Alexander Shiryaev permission to film the dancers · documented (secondary) · Bioscope 2008
 - **1906 to 1909** · St Petersburg · Shiryaev's dance films and puppet animations, earliest known Russian animation · documented (secondary) · Bioscope 2008; animatsiya.net
-- **1909** · Paris · Diaghilev's first ballet season (Châtelet) · probable · W2
 - **1910** · Gurzuf · Petipa dies (14 July; 1 July OS) · probable · working knowledge
-- **1913** · St Petersburg · Imperial directorate decides to film its dancers after Protazanov's *A Musical Moment* · probable · Lascu 2010 citing Bocharov
 - **1914** · London · Fokine's letter to *The Times* (6 July) · documented · W4
 - **1917** · Petrograd · Revolution; Imperial theatres become state theatres · probable · working knowledge
 - **1920** · London · Association of Operatic Dancing founded (Royal Academy of Dance from 1936) · probable · working knowledge

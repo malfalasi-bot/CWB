@@ -20,6 +20,7 @@ HERE = Path(__file__).resolve().parent
 # Ten eras, each named for the change it carries (REPERTORY_BENCHMARK.md §5.3). The benchmark lets
 # eras overlap; the timeline draws them end to end, so the boundaries below are the drawn ones.
 ERAS = [
+    {"id": "E0", "label": "Before ballet: dance masters and court festivals", "from": 1450, "to": 1580, "chapters": [0, 1]},
     {"id": "E1", "label": "The court designs a world", "from": 1581, "to": 1671, "chapters": [1]},
     {"id": "E2", "label": "The Opéra makes professionals", "from": 1672, "to": 1759, "chapters": [1, 2]},
     {"id": "E3", "label": "The ballet tells a story", "from": 1760, "to": 1829, "chapters": [1, 2]},

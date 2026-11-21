@@ -633,3 +633,126 @@ W1 is about the theory; the look is barely recorded. Stuttgart scenery was by Gi
 - `swan-lake-bourne-1995`: male bodies as the spectacle again, but as wild swans rather than soldiers.
 - `apollon-musagete-1928`: another antique male hero, made by restraint and subtraction where Spartacus is made by mass and muscle.
 
+---
+
+## Giselle (Mats Ek) (1982)
+`id: giselle-ek-1982` · W file: W3 §5
+
+*Design and art: sets and costumes by the painter Marie-Louise Ekman (then De Geer Bergenstråhle); lighting Göran Westrup; the SVT film of 1986 used costumes by Ulla Mamer after Ekman [documented: Cullberg archive page]. The *New York Times* review (10 Nov 1982) speaks of a stage filled "with sexy decor" [documented]; the Act I backdrop is commonly described as a landscape of breasts and hills [probable, not seen at source]. A 1999 Edinburgh review says Ekman's design "keeps dance to the fore" [documented: *The Guardian*, 25 Aug 1999].*
+
+### Readings and disputes
+- **Ek's own reading: contrast, not critique.** Before the premiere Ek said what drew him were "the strong oppositions and contrasts" (village and forest, castle and hut, individual and group) and that Giselle "is treated differently because she is hyper sensitive" [documented: Cullberg archive, 1982]. Margareta Sörenson (*Critical Stages* 10, 2014) reads it more strongly: he "turned romanticism upside down and objected to its views of both men and women, and not least, on sexuality" [documented]. Faithful reshaping, or attack?
+- **Milder than its reputation.** Sörenson calls *Giselle* "much milder" than his later *Swan Lake* (1987) and *Sleeping Beauty* (1996) [documented]; the asylum is still the first image most accounts give [documented: NYT 1982].
+- **Who is mad?** The asylum makes madness literal in Act II; Ek frames Giselle as an outsider who "does not participate in the work of the farming village" [documented: Cullberg]. Feminist readers take the asylum as the institution that confines women "betrayed by love" [documented: Sörenson]; others read it as a portrait of one woman's psyche [argued].
+- **Reception differs by country.** Ek: "*Giselle* has been seen and understood very differently in different parts of the world" [documented: Ek in Sörenson 2014].
+
+### Facts worth telling
+1. It holds the record as Cullberg's most-performed piece, in the repertory every year from 1982 to 2000 [documented: Cullberg archive].
+2. It opened at Dramaten, Stockholm's drama theatre, on 6 July 1982, and reached BAM, New York, that November [documented: Cullberg archive].
+3. It runs 1 hour 27 minutes, to Adam's score as recorded by the Monte Carlo Opera under Richard Bonynge [documented: Cullberg].
+4. The painter Marie-Louise Ekman later became director of Dramaten (2009) [probable].
+5. Ek used Adam's music and "a similar storyline" [documented: Sörenson].
+
+### Set it beside
+- `giselle-1841`: the source, where the forest of the dead becomes, here, the ward of the confined.
+- `swan-lake-ek-1987`: Ek's next classic, harsher and more parodic.
+- `giselle-masilo-2017`: another remake that refuses forgiveness and makes Giselle's anger the point.
+
+---
+
+## Svansjön / Swan Lake (Mats Ek) (1987)
+`id: swan-lake-ek-1987` · W file: W3 §5
+
+*Design and art: not found in this pass beyond W3. The widely described look, bald-capped, barefoot swans of both sexes in white tutus, is **probable** (working knowledge, not re-checked); design by Marie-Louise Ekman [probable].*
+
+### Readings and disputes
+- **Sweden against France.** Ek recalled that "*Swan Lake* had bad reviews in Sweden, but was sensationally praised in France" [documented: Ek in Sörenson, *Critical Stages* 10, 2014]. The same work, two receptions, one national and one foreign.
+- **Parody or psychology?** Sörenson groups it with *Sleeping Beauty* (1996) as one of Ek's "more drastic reinterpretations" [documented]; the usual reading centres on the prince and a domineering mother [probable], the thread Bourne made central in 1995 [argued].
+- **Who hated Ek?** Sörenson cites the critic Walter Terry calling Ek's works "childish and extremely naïve and vulgar" and his cross-cast *Bernarda* "stepping down to drag-show level" [documented: Sörenson 2014]. The objection to men in women's roles is the same objection his swans raised [argued].
+
+### Facts worth telling
+1. Ek tried "not to read" reviews but confessed his "dependence is repressive towards criticism" [documented: Sörenson 2014].
+2. He said his reputation was made on international tours, "not in Sweden" [documented].
+3. German critics both praised and rejected his *Sleeping Beauty* [documented].
+4. Ek's reconceived classics are named by Masilo as a model for her own [documented in W3].
+5. Further production facts (premiere venue and date) were **not found in this pass**.
+
+### Set it beside
+- `swan-lake-bourne-1995`: eight years later, male swans and a cold mother, a line from Ek to Bourne that Bourne does not name among his sources [documented: V&A lists Equus, *The Birds*, Bruhn and Darrell, not Ek].
+- `swan-lake-masilo-2010`: Masilo's Odette in a tutu who is a man; parody turned to politics.
+- `dying-swan-1905`: the single swan's death that Ek's flock of comic swans reverses.
+
+---
+
+## Swan Lake (Matthew Bourne) (1995)
+`id: swan-lake-bourne-1995` · W file: W3 §6
+
+*Design and art: W3 has the credits. Additions: the swans' "iconic feathery breeches" are loops of white silk chiffon stitched about one centimetre apart onto white Lycra calf-length tights, with bare chests whitened with pancake make-up and Bourne's "triangular beak-shaped dark line, from the hairline to the tip of the nose" [documented: V&A S.2333-2014]. Brotherston was Bourne's third choice of designer, because he had already designed a modernist *Swan Lake* for Northern Ballet [documented: V&A]. The fringe idea came from a picture of an Indian dancer [documented: Brotherston, New Adventures interview, 2018]; the oversized bed made the boy prince look small [documented: same].*
+
+### Readings and disputes
+- **"The gay *Swan Lake*"?** Bourne: "It got labelled 'the Gay Swan Lake' in a lot of places, and I was told to keep quiet about it when we first went to Broadway" [documented: BBC Culture, 27 Nov 2024]. Bourne in 2013: "It's been interpreted as a homosexual story, but that wasn't the explicit intention"; it is "about a repressed young man's need to be loved" [documented: *The Guardian*, 14 Oct 2013]. Joan Acocella (*The New Yorker*, "Swans' Way", 2007; author probable) argues Bourne restored homosexuality to the status of "a social danger", which gives the work its force [documented as quoted]. The maker's universal reading against the critic's specific one.
+- **Animal or enchanted?** In the canon the swans are maidens under a spell; in Bourne "the swans are swans … and, like real swans, they are ferocious" [documented: *New Yorker* 2007]. Brotherston: male swans "are actually quite aggressive and vicious" [documented: 2018].
+- **How hostile was the ballet world?** Bourne estimates "maybe 20% versus 80% enthusiasm"; Alicia Markova loved it [documented: *The Stage*, 13 Nov 2024].
+
+### Facts worth telling
+1. It began with an advertisement in *The Stage*: "Matthew Bourne is looking for male swans" [documented: *The Stage* 2024].
+2. It was planned for a two-week run at Sadler's Wells [documented: *The Stage*].
+3. Bourne's sources include *Equus*, Hitchcock's *The Birds* and Cocteau's poster of Nijinsky in *Le Spectre de la rose* [documented: V&A].
+4. The opening swan image was a static painted gauze until video made it move [documented: Brotherston 2018].
+5. It is regarded as the longest-running ballet in the West End, though not in one run [documented: V&A].
+
+### Set it beside
+- `swan-lake-1877-1895`: the source, whose female flock becomes a male pack.
+- `swan-lake-ek-1987`: the Swedish remake eight years earlier that had already mixed genders and a mother's grip.
+- `spectre-de-la-rose-1911`: a male dancer as a sensual non-human visitor to a sleeper, one of Bourne's named images.
+- `flames-of-paris-1932`: Jann Parry's comparison: Ratmansky's remake as commentary in the same mode [documented: DanceTabs 2013].
+
+---
+
+## Giselle (Akram Khan) (2016)
+`id: giselle-khan-2016` · W file: W3 §8
+
+### Design and art
+W3 gives the concept; the look is the work's strongest argument. Tim Yip, the Hong Kong-born designer known for Ang Lee's *Crouching Tiger, Hidden Dragon*, made "a vast pitted wall" that serves as national border, citadel and factory limit, which the opening line of bodies pushes "ceaselessly, hopelessly" [documented: *The New Yorker*, 2019; Jenny Gilbert, *The Arts Desk*, 21 Sept 2017]. The Landlords wear "their wealth in arrogant couture", the clothes the Outcasts have made [documented: *The Guardian*, 28 Sept 2016; David Mead, *SeeingDance*, 2016]. The Wilis are not "pristine white-tulle troops" but "a tattered army" [documented: *New Yorker* 2019], long-haired, towering on pointe, each wielding a bamboo rod, sometimes held between the teeth [documented: Donald Hutera, *The Spectator*, 6 Oct 2016]. Myrtha's bamboo stick replaces the 1841 evergreen myrtle [documented: ENB, "Five things", 2024]. Mark Henderson's lighting is "darkly radiant" [documented: Hutera]. Vincenzo Lamagna's score meshes live orchestra with recorded factory grindings, drums and ankle bells; the mad scene is built on "four chords" from Adam repeated "mantra-like" [documented: Gilbert 2017; ENB 2024].
+
+### Readings and disputes
+- **Radical or faithful?** Gilbert: it "can't strictly be called a radical reimagining" because the 1841 story stays discernible [documented]. ENB frames it as giving Giselle "agency" against the 1841 ideal of the "delicate, fragile, and pure" [documented: ENB 2024].
+- **Does the politics work?** Hutera finds the "somewhat ponderous sociopolitical slant" not always joined to the human story and asks, with only four Landlords, "why don't the Outcasts revolt?" [documented]. Mead finds Act I "not always as clear" and the ensemble "somewhat repetitive" [documented]. Gilbert praises "the clarity of Khan's storytelling in the midst of thrilling massed movement" [documented]. The same act, judged opposite ways.
+- **Bangladesh or Manchester?** Mead notes the setting "invites parallels" with garment workers in Bangladesh, Khan's family's country, and with nineteenth-century Manchester, where it premiered [documented].
+
+### Facts worth telling
+1. It was Khan's first work with pointe [documented: Mead 2016].
+2. Khan gives Albrecht a new mad scene, a solo at the top of Act II [documented: Hutera].
+3. Giselle realises the Wilis are "another form of hierarchy as cruel as the Landlords" [documented: Hutera's reading].
+4. By 2024 it had toured to 17 cities in 11 countries [documented: ENB].
+5. Premiere: 27 September 2016, Palace Theatre, Manchester [documented: Akram Khan Company].
+
+### Set it beside
+- `giselle-1841`: the cross that saves Albrecht becomes a wall that divides classes.
+- `creole-giselle-1984`: an earlier move of the plot into a stratified community of colour.
+- `rite-of-spring-1913`: the community that kills, here dead workers rather than a living tribe.
+
+---
+
+## Swan Lake (Dada Masilo) (2010)
+`id: swan-lake-masilo-2010` · W file: W3 §7
+
+*Design and art: both male and female dancers wear tutus and white feathers; "the male Odile is the only one to perform on pointe" [documented: *The Guardian*, 18 June 2014; *New York Times*, 27 Jan 2016]. Further design credits not found in this pass.*
+
+### Readings and disputes
+- **A gay remake, or a remake about homophobia?** *The Guardian* headline calls it a "gay remake" that "ruffles feathers" [documented]; W3 cites the *NYT* (2016) finding its politics "simple — against homophobia" and its satire "too gentle" [documented in W3]. The *NYT* preview frames it as moving from "merriment" to "commentary on homophobia in an AIDS-plagued society" [documented]. Is the subject desire or society's response to it? [argued]
+- **Who wears the pointe shoe?** Giving pointe only to the male Odile inverts the ballerina's privilege: the technique of feminine lightness becomes the sign of the forbidden lover [argued from the documented casting].
+- **Parody or tribute?** Masilo cites Mats Ek as a model [documented in W3]; critics divide on whether the comic opening mocks ballet or loves it [probable].
+
+### Facts worth telling
+1. Siegfried is gay and in love with Odile, a man [documented: *Guardian*; *NYT*].
+2. It toured to the Joyce Theater, New York, in February 2016 [documented: *NYT*].
+3. Masilo won the Standard Bank Young Artist Award in 2008 [documented in W3].
+4. Her final work, *The Sacrifice* (2022), answered *The Rite of Spring* [probable, W3].
+5. The tutus are worn by both sexes, so costume no longer marks gender [documented].
+
+### Set it beside
+- `swan-lake-bourne-1995`: male swans, but the forbidden love is with the Swan, not the Odile figure.
+- `giselle-masilo-2017`: her next classic, where anger replaces forgiveness.
+- `dying-swan-1905`: the solo of a swan's death, which Masilo's ending turns into a social death.
+

@@ -1,0 +1,1090 @@
+# Dated events for the whole-history ballet timeline (not premieres).
+# Built 21 November 2026 from X1_readings_disputes_myths.md Part 4 and X2_design_and_art.md Part 5;
+# lanes assigned by keyword and to be checked by hand. "probable" rows must be checked at source before
+# they reach a learner. Edit this file by hand from now on; build_timeline.py reads it.
+events:
+- year: 1455
+  when: c. 1455
+  place: Ferrara/Piacenza
+  title: Domenico da Piacenza's De arte saltandi et choreas ducendi, earliest known European dance-master treatise
+  lane: Bodies and training
+  confidence: probable
+  source: X1 Part 4; scope 01; Franko 1986
+- year: 1463
+  when: '1463'
+  place: Italy
+  title: Guglielmo Ebreo's De pratica seu arte tripudii (Sparti's translation, 1993)
+  lane: Bodies and training
+  confidence: probable
+  source: X1 Part 4; scope 01
+- year: 1582
+  when: '1582'
+  place: Paris
+  title: Printed book of the Balet comique de la Royne (performed 15 October 1581), earliest known printed ballet libretto with music
+  lane: Music, record and media
+  confidence: probable
+  source: X1 Part 4; G2 (IMSLP record)
+- year: 1641
+  when: '1641'
+  place: Venice
+  title: Giacomo Torelli's chariot-and-pole scene change at the Teatro Novissimo
+  lane: Stage, design and light
+  confidence: documented
+  source: X1 Part 4; Britannica via pass2_verify
+- year: 1645
+  when: c. 1645
+  place: Paris
+  title: Torelli called to the French court
+  lane: Stage, design and light
+  confidence: documented
+  source: X1 Part 4; Britannica via pass2_verify
+- year: 1653
+  when: '1653'
+  place: Paris
+  title: Louis XIV, aged 14, dances the rising sun (23 February) in the Ballet royal de la Nuit; the image becomes royal propaganda
+  lane: Who paid and who ran it
+  confidence: documented
+  source: X1 Part 4; BnF Essentiels; Swiss National Museum 2023
+- year: 1661
+  when: '1661'
+  place: Paris
+  title: Letters patent found the Académie royale de danse
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; scope 01; Swiss National Museum 2023
+- year: 1662
+  when: '1662'
+  place: Paris
+  title: Carrousel of 5 to 6 June; the sun device and Nec pluribus impar
+  lane: Who paid and who ran it
+  confidence: documented
+  source: X1 Part 4; histoire-image.org (Cornette 2013); Louis XIV, *Mémoires*
+- year: 1669
+  when: '1669'
+  place: Paris
+  title: Pierre Perrin granted the privilege for an Académie d'Opéra (28 June)
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1672
+  when: '1672'
+  place: Paris
+  title: Lully takes over the privilege as the Académie royale de musique
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1681
+  when: '1681'
+  place: Paris
+  title: Earliest known professional women dancers in an Opéra ballet (Le Triomphe de l'Amour)
+  lane: Bodies and training
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1700
+  when: '1700'
+  place: Paris
+  title: Raoul-Auger Feuillet publishes Chorégraphie, a notation system
+  lane: Music, record and media
+  confidence: documented
+  source: X1 Part 4; Library of Congress via scope 06
+- year: 1704
+  when: '1704'
+  place: Paris
+  title: Beauchamps contests Feuillet's notation privilege, the earliest known authorship dispute in ballet's line
+  lane: Music, record and media
+  confidence: probable
+  source: X1 Part 4; scope 01
+- year: 1713
+  when: '1713'
+  place: Paris
+  title: Royal decree creates the Opéra's dance school
+  lane: Bodies and training
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1717
+  when: '1717'
+  place: London
+  title: John Weaver prints a scenario of gestures for The Loves of Mars and Venus, earliest known "how to read this" ballet document
+  lane: Music, record and media
+  confidence: documented
+  source: X1 Part 4; G1
+- year: 1725
+  when: '1725'
+  place: Paris
+  title: Pierre Rameau, Le Maître à danser, describes the five positions in print
+  lane: Bodies and training
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1734
+  when: '1734'
+  place: London
+  title: Mercure de France reports Sallé dancing without panniers in a muslin robe
+  lane: Stage, design and light
+  confidence: documented
+  source: X1 Part 4; Provence 7 quoting the *Mercure*
+- year: 1738
+  when: '1738'
+  place: St Petersburg
+  title: Jean-Baptiste Landé's dance school (4 May), the root of the Vaganova Academy
+  lane: Bodies and training
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1748
+  when: '1748'
+  place: Copenhagen
+  title: Royal Danish Theatre opens on Kongens Nytorv
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1760
+  when: '1760'
+  place: Lyon/Stuttgart
+  title: Noverre's Lettres sur la danse published
+  lane: Bodies and training
+  confidence: documented
+  source: X1 Part 4; LoC via scope 06
+- year: 1773
+  when: '1773'
+  place: Milan
+  title: Angiolini's Lettere dispute Noverre's priority
+  lane: Bodies and training
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1776
+  when: '1776'
+  place: Moscow
+  title: Prince Urusov's theatre privilege (17/28 March), counted as the Bolshoi's founding date
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1778
+  when: '1778'
+  place: Milan
+  title: Teatro alla Scala opens (3 August)
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1789
+  when: 1789 to 1799
+  place: Paris
+  title: Revolution; the Opéra's repertory politicised
+  lane: The world outside
+  confidence: probable
+  source: X1 Part 4; Chazin-Bennahum 1988 (scope 05)
+- year: 1805
+  when: '1805'
+  place: Paris
+  title: Opéra rule requires designers to deposit their maquettes
+  lane: Stage, design and light
+  confidence: documented
+  source: X1 Part 4; scope 01
+- year: 1813
+  when: '1813'
+  place: Milan
+  title: La Scala's ballet school founded
+  lane: Bodies and training
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1820
+  when: '1820'
+  place: Milan
+  title: Carlo Blasis, Traité élémentaire, published
+  lane: Bodies and training
+  confidence: documented
+  source: X1 Part 4; Utah Marriott Library via scope 02
+- year: 1821
+  when: '1821'
+  place: Paris
+  title: Salle Le Peletier inaugurated (16 August)
+  lane: Who paid and who ran it
+  confidence: documented
+  source: X1 Part 4; Opéra history page via pass2_verify
+- year: 1822
+  when: '1822'
+  place: Paris
+  title: Gas lighting at the Opéra (Aladin, 6 February)
+  lane: Stage, design and light
+  confidence: documented
+  source: X1 Part 4; pass2_verify
+- year: 1822
+  when: 1822 or 1823
+  place: Paris/Vienna
+  title: Amalia Brugnoli named on pointe, among the earliest known
+  lane: Bodies and training
+  confidence: contested
+  source: X1 Part 4; scope 02; ENB 2024
+- year: 1831
+  when: '1831'
+  place: Paris
+  title: Louis Véron takes the Opéra as a subsidised private enterprise
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; scope 05
+- year: 1847
+  when: '1847'
+  place: St Petersburg
+  title: Marius Petipa arrives to work for the Imperial Theatres
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1855
+  when: '1855'
+  place: London
+  title: Morning Post (3 January) prints the story of Taglioni's shoes cooked and eaten
+  lane: Music, record and media
+  confidence: documented
+  source: X1 Part 4; ABC Classic 2018
+- year: 1859
+  when: '1859'
+  place: Paris
+  title: Imperial decree (27 November) requires fireproofed costumes
+  lane: Stage, design and light
+  confidence: probable
+  source: X1 Part 4; Williams 1957 via Wikipedia
+- year: 1860
+  when: '1860'
+  place: St Petersburg
+  title: Mariinsky Theatre opens (2 October)
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1862
+  when: '1862'
+  place: Paris
+  title: Emma Livry's costume catches fire in rehearsal (15 November); she dies 26 July 1863
+  lane: Stage, design and light
+  confidence: documented
+  source: X1 Part 4; Musée d'Orsay
+- year: 1870
+  when: '1870'
+  place: Paris
+  title: Franco-Prussian War closes the Opéra (31 August); Saint-Léon dies (2 September); Bozzacchi dies (23 November)
+  lane: The world outside
+  confidence: probable
+  source: X1 Part 4; Wikipedia citing Treccani
+- year: 1873
+  when: '1873'
+  place: Paris
+  title: Salle Le Peletier burns (night of 28 to 29 October)
+  lane: Who paid and who ran it
+  confidence: documented
+  source: X1 Part 4; G2 (Opéra de Paris)
+- year: 1875
+  when: '1875'
+  place: Paris
+  title: Palais Garnier opens (5 January)
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1876
+  when: '1876'
+  place: Bayreuth
+  title: Festspielhaus darkens the hall and hides the orchestra (13 August)
+  lane: Stage, design and light
+  confidence: contested
+  source: X1 Part 4; G2
+- year: 1881
+  when: '1881'
+  place: Paris
+  title: Earliest known use of "tutu" for the dancer's skirt (Nuitter)
+  lane: Stage, design and light
+  confidence: documented
+  source: X1 Part 4; CNRTL
+- year: 1882
+  when: '1882'
+  place: St Petersburg/Moscow
+  title: Imperial monopoly on theatres abolished
+  lane: The world outside
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1892
+  when: '1892'
+  place: St Petersburg
+  title: Vladimir Stepanov publishes Alphabet des mouvements du corps humain
+  lane: Music, record and media
+  confidence: probable
+  source: X1 Part 4; scope 06
+- year: 1899
+  when: 1899 to 1903
+  place: St Petersburg
+  title: Stepanov notations of Giselle (Act II 1899, Act I 1903), later in the Sergeyev Collection
+  lane: Music, record and media
+  confidence: documented
+  source: X1 Part 4; Petipa Society via W1
+- year: 1904
+  when: '1904'
+  place: St Petersburg
+  title: Imperial Theatres refuse Alexander Shiryaev permission to film the dancers
+  lane: Music, record and media
+  confidence: documented
+  source: X1 Part 4; Bioscope 2008
+- year: 1906
+  when: 1906 to 1909
+  place: St Petersburg
+  title: Shiryaev's dance films and puppet animations, earliest known Russian animation
+  lane: Music, record and media
+  confidence: documented
+  source: X1 Part 4; Bioscope 2008; animatsiya.net
+- year: 1910
+  when: '1910'
+  place: Gurzuf
+  title: Petipa dies (14 July; 1 July OS)
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1914
+  when: '1914'
+  place: London
+  title: Fokine's letter to The Times (6 July)
+  lane: Bodies and training
+  confidence: documented
+  source: X1 Part 4; W4
+- year: 1917
+  when: '1917'
+  place: Petrograd
+  title: Revolution; Imperial theatres become state theatres
+  lane: The world outside
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1920
+  when: '1920'
+  place: London
+  title: Association of Operatic Dancing founded (Royal Academy of Dance from 1936)
+  lane: Bodies and training
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1922
+  when: '1922'
+  place: London
+  title: Cecchetti Society founded; Beaumont and Idzikowski's manual
+  lane: Bodies and training
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1922
+  when: '1922'
+  place: Paris/press
+  title: Earliest known use of "riot" for the 1913 Rite premiere
+  lane: Music, record and media
+  confidence: documented
+  source: X1 Part 4; Levitz 2017 via *MTO* 2018
+- year: 1924
+  when: '1924'
+  place: Germany/Leningrad
+  title: Balanchivadze (Balanchine) leaves the USSR on tour and stays
+  lane: The world outside
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1928
+  when: '1928'
+  place: Germany
+  title: Rudolf Laban publishes his notation (Schrifttanz; Kinetography)
+  lane: Music, record and media
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1929
+  when: '1929'
+  place: Venice
+  title: Diaghilev dies (19 August); the Ballets Russes ends
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1931
+  when: '1931'
+  place: The Hague
+  title: Pavlova dies (23 January, 12.30 a.m.)
+  lane: Bodies and training
+  confidence: documented
+  source: X1 Part 4; *New York Times* 23 January 1931
+- year: 1931
+  when: '1931'
+  place: London
+  title: Vic-Wells Ballet begins at Sadler's Wells
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1934
+  when: '1934'
+  place: New York
+  title: School of American Ballet opens (2 January)
+  lane: Bodies and training
+  confidence: probable
+  source: X1 Part 4; Boston Ballet Balanchine timeline
+- year: 1934
+  when: '1934'
+  place: Leningrad
+  title: Vaganova, Basic Principles of Classical Ballet
+  lane: Bodies and training
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1935
+  when: '1935'
+  place: Leningrad
+  title: Mariinsky renamed the Kirov
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1936
+  when: '1936'
+  place: Moscow
+  title: Pravda editorial "Balletic Falsehood" (6 February) against The Bright Stream
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; W4
+- year: 1941
+  when: 1941 to 1944
+  place: Leningrad/Molotov (Perm)
+  title: Kirov Ballet evacuated during the siege
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1944
+  when: '1944'
+  place: San Francisco
+  title: Willam Christensen's full-length Nutcracker (24 December), earliest known complete US staging
+  lane: Who paid and who ran it
+  confidence: documented
+  source: X1 Part 4; Dance Data Project 2025
+- year: 1946
+  when: '1946'
+  place: London
+  title: Arts Council of Great Britain chartered; Sadler's Wells Ballet reopens Covent Garden (20 February)
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1948
+  when: '1948'
+  place: New York
+  title: New York City Ballet's first performance (11 October)
+  lane: Who paid and who ran it
+  confidence: documented
+  source: X1 Part 4; Boston Ballet Balanchine page
+- year: 1948
+  when: '1948'
+  place: Havana
+  title: Ballet Alicia Alonso founded (28 October)
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; W3
+- year: 1950
+  when: '1950'
+  place: London
+  title: Nijinsky dies (8 April)
+  lane: Bodies and training
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1952
+  when: '1952'
+  place: New York
+  title: Hanya Holm's Labanotation score of Kiss Me, Kate, earliest known choreography registered for US copyright
+  lane: Music, record and media
+  confidence: probable
+  source: X1 Part 4; Kraut 2015 (not re-checked)
+- year: 1954
+  when: '1954'
+  place: Beijing
+  title: Beijing Dance School founded with Soviet teachers
+  lane: Bodies and training
+  confidence: probable
+  source: X1 Part 4; Wilcox 2018 (not re-checked)
+- year: 1955
+  when: 1955 to 1956
+  place: London
+  title: Rudolf and Joan Benesh publish their notation
+  lane: Music, record and media
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1956
+  when: '1956'
+  place: London
+  title: Bolshoi Ballet's first visit to the Royal Opera House
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1961
+  when: '1961'
+  place: Paris (Le Bourget)
+  title: Nureyev defects (16 June)
+  lane: The world outside
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1963
+  when: '1963'
+  place: New York
+  title: Ford Foundation ballet programme, $7,756,000 (16 December)
+  lane: Who paid and who ran it
+  confidence: documented
+  source: X1 Part 4; Rockefeller Archive Center; *Time* 27 December 1963
+- year: 1964
+  when: '1964'
+  place: Vienna
+  title: Fonteyn and Nureyev receive 89 curtain calls (15 October)
+  lane: Music, record and media
+  confidence: documented
+  source: X1 Part 4; Nureyev Foundation; Guinness
+- year: 1965
+  when: '1965'
+  place: Washington
+  title: National Endowment for the Arts created
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1966
+  when: 1966 to 1976
+  place: China
+  title: Cultural Revolution; ballet narrowed to "model works"
+  lane: The world outside
+  confidence: probable
+  source: X1 Part 4; Wilcox 2018
+- year: 1969
+  when: '1969'
+  place: New York
+  title: Dance Theatre of Harlem founded by Arthur Mitchell and Karel Shook
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1969
+  when: '1969'
+  place: Cambridge, Mass.
+  title: Harvard acquires the Sergeyev Collection of notations
+  lane: Music, record and media
+  confidence: probable
+  source: X1 Part 4; working knowledge (check at Houghton)
+- year: 1972
+  when: '1972'
+  place: Beijing
+  title: President Nixon watches Red Detachment of Women (22 February)
+  lane: The world outside
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1974
+  when: '1974'
+  place: Toronto
+  title: Baryshnikov defects (29 June)
+  lane: The world outside
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1976
+  when: '1976'
+  place: USA
+  title: Copyright Act names "choreographic works" (in force 1978)
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1982
+  when: '1982'
+  place: Moscow
+  title: Swan Lake replaces scheduled television at Brezhnev's death; again for Andropov (1984) and Chernenko (1985)
+  lane: Music, record and media
+  confidence: contested
+  source: X1 Part 4; Ross 2015 via Hazlitt; Radio Svoboda 2016
+- year: 1983
+  when: '1983'
+  place: New York
+  title: Balanchine dies (30 April)
+  lane: Who paid and who ran it
+  confidence: documented
+  source: X1 Part 4; Encyclopedia.com
+- year: 1991
+  when: '1991'
+  place: Moscow
+  title: Swan Lake (1983 Bessmertnova film) shown twice on 19 August during the coup
+  lane: The world outside
+  confidence: contested
+  source: X1 Part 4; KP 18 August 2026 (Oskolkov); Re/visions 2026; BBC 2001
+- year: 1992
+  when: '1992'
+  place: St Petersburg
+  title: Kirov reverts to the Mariinsky name
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1993
+  when: '1993'
+  place: Paris
+  title: Nureyev dies (6 January)
+  lane: Bodies and training
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 1995
+  when: '1995'
+  place: Russia
+  title: Viktor Bocharov locates Shiryaev's films, saved in the 1960s by Daniil Saveliev
+  lane: Music, record and media
+  confidence: documented
+  source: X1 Part 4; Bioscope 2008
+- year: 2008
+  when: '2008'
+  place: Pordenone
+  title: Restored Shiryaev films given their public premiere at the silent film festival
+  lane: Music, record and media
+  confidence: documented
+  source: X1 Part 4; Bioscope 2008
+- year: 2010
+  when: '2010'
+  place: New York
+  title: Homans's Apollo's Angels published, with its "ballet is dying" epilogue
+  lane: Music, record and media
+  confidence: documented
+  source: X1 Part 4; NYRB; Slate
+- year: 2013
+  when: '2013'
+  place: Moscow
+  title: Acid attack on Bolshoi artistic director Sergei Filin (17 January)
+  lane: Who paid and who ran it
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 2015
+  when: '2015'
+  place: New York
+  title: Misty Copeland promoted principal at American Ballet Theatre (30 June)
+  lane: Bodies and training
+  confidence: probable
+  source: X1 Part 4; working knowledge
+- year: 2017
+  when: '2017'
+  place: New York
+  title: Final Bow for Yellowface pledge circulates to companies
+  lane: Bodies and training
+  confidence: documented
+  source: X1 Part 4; W4; scope 03
+- year: 2017
+  when: '2017'
+  place: USA
+  title: 'Dance/USA survey: Nutcracker averages 48% of season revenue'
+  lane: Who paid and who ran it
+  confidence: documented
+  source: X1 Part 4; Dance/USA 2018
+- year: 2018
+  when: '2018'
+  place: London
+  title: Freed of London with Ballet Black launch brown and bronze pointe shoes
+  lane: Bodies and training
+  confidence: documented
+  source: X1 Part 4; scope 03
+- year: 2020
+  when: '2020'
+  place: worldwide
+  title: COVID-19 closes theatres; most live Nutcrackers cancelled
+  lane: The world outside
+  confidence: documented
+  source: X1 Part 4; *Dance Magazine* 2020
+- year: 2021
+  when: '2021'
+  place: Paris
+  title: Ndiaye–Rivière report on diversity at the Paris Opéra released (February)
+  lane: Who paid and who ran it
+  confidence: documented
+  source: X1 Part 4; scope 01 and 02
+- year: 2022
+  when: '2022'
+  place: Moscow/London/Kyiv
+  title: Ratmansky leaves Moscow mid-rehearsal (February); Royal Opera House cancels a Bolshoi season; Ukrainian theatres drop Russian composers
+  lane: The world outside
+  confidence: documented
+  source: X1 Part 4; CNN, *Guardian*, National Opera of Ukraine
+- year: 2026
+  when: '2026'
+  place: Moscow
+  title: Viktor Oskolkov says he put Swan Lake on air in 1991 (Komsomolskaya Pravda, 18 August)
+  lane: Music, record and media
+  confidence: documented
+  source: X1 Part 4; KP; *Rodina* 19 August 2026
+- year: 1581
+  when: '1581'
+  place: Paris, Petit-Bourbon (place C)
+  title: 'Balet comique de la Royne: sets and costumes by Jacques Patin; livret with engravings printed 1582'
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04 log; `balet-comique-1581`
+- year: 1641
+  when: '1641'
+  place: Venice
+  title: Torelli's chariot-and-pole scene change at the Teatro Novissimo
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04 log
+- year: 1653
+  when: '1653'
+  place: Paris
+  title: Louis XIV as the Rising Sun, Ballet royal de la Nuit; design by an unnamed "Maître"
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04 log
+- year: 1654
+  when: '1654'
+  place: Paris, Petit-Bourbon
+  title: 'Les Noces de Pélée et de Thétis: Torelli sets, Gissey costumes; engraved by Silvestre'
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04 log
+- year: 1674
+  when: '1674'
+  place: Paris
+  title: Bérain appointed dessinateur de la Chambre et du Cabinet du roi
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; Wikipedia; Artcena
+- year: 1680
+  when: '1680'
+  place: Paris
+  title: Bérain succeeds Vigarani as Opéra decorator and machinist
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; Artcena
+- year: 1684
+  when: '1684'
+  place: Paris
+  title: Bérain researches medieval and Renaissance dress for Lully's Amadis
+  lane: Stage, design and light
+  confidence: probable
+  source: X2 Part 5; Wikipedia
+- year: 1721
+  when: '1721'
+  place: Paris
+  title: Gillot's lighter, pastel designs for Les Éléments
+  lane: Stage, design and light
+  confidence: probable
+  source: X2 Part 5; Britannica
+- year: 1734
+  when: '1734'
+  place: London
+  title: Marie Sallé dances Pygmalion in a muslin dress with loose hair
+  lane: Stage, design and light
+  confidence: probable
+  source: X2 Part 5; register `pygmalion-salle-1734`
+- year: 1748
+  when: '1748'
+  place: Paris
+  title: Jean-Baptiste Martin named Opéra designer; "Inca, African, Chinese and Mexican" motifs
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; Britannica
+- year: 1754
+  when: '1754'
+  place: Paris / London
+  title: Boquet costumes for Noverre's Les Fêtes chinoises (Opéra-Comique; Drury Lane 1755)
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; Grove via CESAR
+- year: 1764
+  when: 1764–65
+  place: Paris / Versailles
+  title: Boquet becomes dessinateur des habits du roi
+  lane: Stage, design and light
+  confidence: contested
+  source: X2 Part 5; CESAR (Jordan 1765; Grove 1764)
+- year: 1791
+  when: '1791'
+  place: Stockholm
+  title: Noverre sends Gustav III 147 Boquet sketches for 19 ballets
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; LoC 2021668154
+- year: 1796
+  when: '1796'
+  place: London
+  title: Didelot's flying wires in Flore et Zéphire
+  lane: Stage, design and light
+  confidence: probable
+  source: X2 Part 5; register
+- year: 1822
+  when: '1822'
+  place: Paris
+  title: Gaslight introduced at the Opéra with Aladin (Ciceri and Daguerre)
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04 (Aronson 2021)
+- year: 1822
+  when: 1822–31
+  place: Paris
+  title: Ciceri signs every Opéra décor
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04 (Gallica blog)
+- year: 1831
+  when: '1831'
+  place: Paris
+  title: Ciceri's moonlit cloister for the nuns' ballet, Robert le diable
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04
+- year: 1832
+  when: '1832'
+  place: Paris
+  title: 'La Sylphide: white bell skirt credited to Lami'
+  lane: Stage, design and light
+  confidence: contested
+  source: X2 Part 5; 04
+- year: 1846
+  when: 1846 / 1849
+  place: Paris
+  title: Earliest electric-arc effect at the Opéra (1846 per Britannica; Duboscq links it to Le Prophète, 1849)
+  lane: Stage, design and light
+  confidence: contested
+  source: X2 Part 5; Britannica; Luminaris
+- year: 1880
+  when: c.1880–81
+  place: Paris
+  title: Electric incandescent light at the Paris Opéra; the Opéra lit electrically during the 1881 Exposition
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; Britannica; Luminaris
+- year: 1883
+  when: '1883'
+  place: Germany / Austria
+  title: Stuttgart, Munich (Residenztheater) and Vienna among the earliest fully electrified theatres
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; Britannica
+- year: 1887
+  when: '1887'
+  place: St Petersburg
+  title: Ponomarev joins the Imperial Theatres as head of costume
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; SPb Theatre Library calendar
+- year: 1890
+  when: '1890'
+  place: St Petersburg
+  title: 'Sleeping Beauty: scenery divided by act among four workshop painters; Vsevolozhsky costumes'
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04
+- year: 1893
+  when: 1893–95
+  place: Paris / US
+  title: Loïe Fuller patents her costume and stage-lighting mechanisms (France and England 1893; US 1894–95)
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; Bilska 2024; US patent 533,167
+- year: 1899
+  when: '1899'
+  place: Moscow
+  title: Korovin joins the Bolshoi "for six months"; chief designer of the Imperial Theatres from 1910
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; Churakova 2012
+- year: 1900
+  when: '1900'
+  place: Moscow
+  title: 'Gorsky''s Don Quixote with Korovin and Golovin: the painter-led ballet; cool reception'
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; Koppers 2025
+- year: 1902
+  when: c.1902
+  place: Germany
+  title: Fortuny's dome cyclorama and reflected light
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; Britannica
+- year: 1909
+  when: '1909'
+  place: Paris
+  title: First Ballets Russes Paris season; painted cloths by Bakst, Benois, Roerich
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04
+- year: 1910
+  when: '1910'
+  place: Paris
+  title: Schéhérazade (Bakst); Firebird sets designed by Golovin, painted by Sapunov
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04
+- year: 1911
+  when: '1911'
+  place: Paris / Monte Carlo
+  title: Cocteau's paired posters for Le Spectre de la rose
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; P
+- year: 1912
+  when: '1912'
+  place: Paris
+  title: Bakst sketches ensembles for Paquin
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04 (Davis 2010)
+- year: 1917
+  when: '1917'
+  place: Paris
+  title: Picasso's Parade curtain painted horizontally in distemper, 10.5 × 16.4 m
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04 (Pompidou)
+- year: 1918
+  when: '1918'
+  place: London / Paris
+  title: Vladimir Polunin becomes Diaghilev's chief scene painter
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04
+- year: 1921
+  when: '1921'
+  place: London, Alhambra
+  title: 'The Sleeping Princess: Bakst''s nearly 300 costumes; run of 105, 114 or 115 performances; debt'
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; LoC; London Museum; NGA Australia
+- year: 1922
+  when: '1922'
+  place: Stuttgart
+  title: Schlemmer's Triadic Ballet premieres
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; schlemmer.org; Aoki 2008
+- year: 1924
+  when: '1924'
+  place: Paris
+  title: Chanel's sportswear costumes and Picasso's curtain (painted by Shervashidze) for Le Train Bleu
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04
+- year: 1925
+  when: '1925'
+  place: France / tour
+  title: Exter designs for Nijinska's Théâtre Chorégraphique
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; LoC Nijinska Collection
+- year: 1927
+  when: '1927'
+  place: Monte Carlo / Paris
+  title: 'La Chatte: Gabo and Pevsner''s plastic, oilcloth and steel; Pas d''acier: Yakulov''s machines'
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04
+- year: 1928
+  when: '1928'
+  place: Paris
+  title: 'Ode: Tchelitchew with light projections by Pierre Charbonnier'
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04
+- year: 1933
+  when: '1933'
+  place: Paris
+  title: 'L''Errante: projected colour and a falling cloud of white silk'
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; V&A O1222655
+- year: 1933
+  when: c.1933
+  place: Hartford
+  title: Chick Austin buys the Serge Lifar collection for the Wadsworth Atheneum
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04
+- year: 1942
+  when: '1942'
+  place: Mexico City
+  title: Chagall paints four Aleko backdrops in Mexico City after New York union rules bar him
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; LACMA 2017; ABT (premiere 8 Sept)
+- year: 1946
+  when: '1946'
+  place: London
+  title: Messel's Sleeping Beauty reopens Covent Garden
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04
+- year: 1948
+  when: '1948'
+  place: New York
+  title: Noguchi's Orpheus, lit by Jean Rosenthal; the lyre becomes NYCB's emblem
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04
+- year: 1950
+  when: '1950'
+  place: New York
+  title: Karinska's hoopless "powder puff" tutu for Symphony in C
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 03
+- year: 1951
+  when: '1951'
+  place: New York
+  title: The Four Temperaments danced in practice clothes
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04
+- year: 1954
+  when: 1954–64
+  place: US
+  title: Rauschenberg resident designer for Cunningham
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04
+- year: 1965
+  when: '1965'
+  place: London / Stuttgart
+  title: Georgiadis's Romeo and Juliet (20 days' design time); Jürgen Rose's Onegin
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; V&A; Stuttgart Ballet
+- year: 1966
+  when: '1966'
+  place: London
+  title: Sotheby's Ballets Russes sales begin
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04
+- year: 1968
+  when: '1968'
+  place: Buffalo, NY
+  title: Warhol's Silver Clouds in Cunningham's RainForest
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; Cunningham Trust
+- year: 1971
+  when: '1971'
+  place: Paris
+  title: Palais Garnier installs a 500-circuit lighting console
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; Opéra national du Rhin dossier
+- year: 1975
+  when: '1975'
+  place: Wuppertal
+  title: Borzik covers the stage with peat for Bausch's Rite of Spring
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; Pina Bausch Foundation
+- year: 1977
+  when: '1977'
+  place: UK
+  title: Harlequin portable floor company founded
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 03 (company source)
+- year: 1982
+  when: '1982'
+  place: Wuppertal
+  title: Pabst's 8,000 carnations for Nelken
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; Pabst 2020
+- year: 1987
+  when: '1987'
+  place: Los Angeles
+  title: Joffrey reconstruction of Rite with Roerich's designs
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; 04
+- year: 2006
+  when: '2006'
+  place: London
+  title: Pawson's white box for Chroma, changed by light alone
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; John Pawson
+- year: 2012
+  when: '2012'
+  place: New York
+  title: NYCB's first Fall Fashion Gala (Valentino)
+  lane: Stage, design and light
+  confidence: documented
+  source: X2 Part 5; CNN 2023; P
