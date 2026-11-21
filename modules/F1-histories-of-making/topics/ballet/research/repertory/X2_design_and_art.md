@@ -1,6 +1,6 @@
 # X2: Design and art across the whole history of ballet
 
-21 November 2026. Repertory pass X2 (see `BRIEF_REPERTORY.md`). Status: in progress.
+21 November 2026. Repertory pass X2 (see `BRIEF_REPERTORY.md`). Status: complete for this pass (21 November 2026); for the human check.
 
 **What this file is.** A history of how ballet has looked, written for a design student who will build a world of their own. It does not repeat the scope files: `../scope/04_stage_design.md` already holds the scene-painter chain (Sapunov, Golov, Shervashidze, Polunin), the Parade curtain's conservation, the museum and market, the Thurrock workshop and Rosenthal; `../scope/03_objects_makers_materials.md` holds the shoe, the tutu's construction, Karinska's workshop and the makers' names; `../products/PRODUCTS_AND_COLLECTIONS.md` holds the fashion-house, jewellery, poster and company-identity record. Where those files carry a fact, this one points to them (marked "see 04", "see 03", "see P") and builds on it.
 
@@ -146,7 +146,7 @@ Ten eras, court to now. Dates are working boundaries, not walls; each era's look
 
 **14. Mikhail Larionov** (1881–1964). *Soleil de nuit* (1915), *Contes russes*, *Chout* (1921), *Renard* (1922) [P]. **Brought:** Futurist-folk costume, built and padded to distort the body. **Wider art:** Rayonism. **Fact:** he partnered Goncharova in work and life for six decades [P]. **Images:** © (link-only); Harvard Theatre Collection [D: Harvard Library page].
 
-**15. Pablo Picasso** (1881–1973). *Parade* (1917), *Le Tricorne* (1919), *Pulcinella* (1920), *Cuadro flamenco* (1921), *Mercure* (1924), the *Train Bleu* curtain (1924) `parade-1917` `tricorne-1919` `train-bleu-1924`. **Brought:** Cubist construction as costume (the Managers in *Parade*, 3 m tall); the curtain as a separate painting. **Fact:** the Miller's Wife dress from *Tricorne*, pink with black lace, is one of two known survivors and is in the London Museum [D, see 03]; FIT suggests it influenced a Paquin dress of c.1946 [D: FIT *Dance & Fashion*]. **Images:** © Succession Picasso (link-only).
+**15. Pablo Picasso** (1881–1973). *Parade* (1917), *Le Tricorne* (1919), *Pulcinella* (1920), *Cuadro flamenco* (1921), *Mercure* (1924), the *Train Bleu* curtain (1924) `parade-1917` `tricorne-1919` `train-bleu-1924`. **Brought:** Cubist construction as costume (the towering cardboard Managers in *Parade*) [P]; the curtain as a separate painting. **Fact:** the Miller's Wife dress from *Tricorne*, pink with black lace, is one of two known survivors and is in the London Museum [D, see 03]; FIT suggests it influenced a Paquin dress of c.1946 [D: FIT *Dance & Fashion*]. **Images:** © Succession Picasso (link-only).
 
 **16. Henri Matisse** (1869–1954). *Le Chant du rossignol* (1920); *Rouge et Noir* (Ballet Russe de Monte Carlo, 1939) [P]. **Brought:** decoration as structure: flat colour, white felt and blue for the Chinese court [P]. **Fact:** Marie Muelle made the *Rossignol* costumes, "closely supervised by Matisse" [D: NGA Teacher's Notes, see 03]. **Images:** PD in the EU from 2025; museum photo terms vary.
 
@@ -250,7 +250,7 @@ Ten eras, court to now. Dates are working boundaries, not walls; each era's look
 
 ### Designers beyond Europe and North America
 
-**59. Hijikata Umeko** (土方梅子; 1902–1973, dates probable). Costumes for the Matsuyama Ballet's *The White-Haired Girl* (Tokyo, 12 February 1955) `white-haired-girl-matsuyama-1955` [register, W3 §11]. **Brought:** a left-wing theatre costumier's realism to a Chinese revolutionary story told by a Japanese company. **Images:** © (link-only).
+**59. Hijikata Umeko** (土方梅子; 1902–1973, dates probable). Costumes for the Matsuyama Ballet's *The White-Haired Girl* (Tokyo, 12 February 1955) `white-haired-girl-matsuyama-1955` [register, W3 §11]. **Brought:** a costumier from the Tokyo shingeki (modern theatre) world [P], bringing stage realism to a Chinese revolutionary story told by a Japanese company. **Images:** © (link-only).
 
 **60. Gabriel Fernández Ledesma** (1900–1983, dates probable) and **Germán Cueto**. Sets and costumes, with Cueto's masks, for Waldeen's *La Coronela* (Mexico City, Palacio de Bellas Artes, 23 November 1940) `la-coronela-1940` [register, UNAM and INBA sources]. **Brought:** the Mexican print and popular-art tradition (Posada's calaveras) as the look of a nationalist dance [P]. **Images:** © (link-only); INBA digital repository.
 
@@ -388,3 +388,147 @@ Scope 04 holds the core case (Sapunov, Shervashidze, Polunin, Muelle). New evide
 - **Is couture on stage design or sponsorship?** NYCB's gala was conceived to bring fashion designers to choreographers, with sponsors named [D, see P]; critics judged the results as design. Both readings hold [A].
 
 ## Part 5. For a timeline
+
+60 dated design and technology events. Confidence: D documented, P probable, C contested. "04", "03", "P" point to the scope and products files, where the source URLs are logged.
+
+| # | Year | Event | Place | Conf. | Source |
+|---|---|---|---|---|---|
+| 1 | 1581 | *Balet comique de la Royne*: sets and costumes by Jacques Patin; livret with engravings printed 1582 | Paris, Petit-Bourbon (place C) | D | 04 log; `balet-comique-1581` |
+| 2 | 1641 | Torelli's chariot-and-pole scene change at the Teatro Novissimo | Venice | D | 04 log |
+| 3 | 1653 | Louis XIV as the Rising Sun, *Ballet royal de la Nuit*; design by an unnamed "Maître" | Paris | D | 04 log |
+| 4 | 1654 | *Les Noces de Pélée et de Thétis*: Torelli sets, Gissey costumes; engraved by Silvestre | Paris, Petit-Bourbon | D | 04 log |
+| 5 | 1674 | Bérain appointed *dessinateur de la Chambre et du Cabinet du roi* | Paris | D | Wikipedia; Artcena |
+| 6 | 1680 | Bérain succeeds Vigarani as Opéra decorator and machinist | Paris | D | Artcena |
+| 7 | 1684 | Bérain researches medieval and Renaissance dress for Lully's *Amadis* | Paris | P | Wikipedia |
+| 8 | 1721 | Gillot's lighter, pastel designs for *Les Éléments* | Paris | P | Britannica |
+| 9 | 1734 | Marie Sallé dances *Pygmalion* in a muslin dress with loose hair | London | P | register `pygmalion-salle-1734` |
+| 10 | 1748 | Jean-Baptiste Martin named Opéra designer; "Inca, African, Chinese and Mexican" motifs | Paris | D | Britannica |
+| 11 | 1754 | Boquet costumes for Noverre's *Les Fêtes chinoises* (Opéra-Comique; Drury Lane 1755) | Paris / London | D | Grove via CESAR |
+| 12 | 1760 | Noverre's *Lettres sur la danse* attack conventional costume | Stuttgart / Lyon | D | Collins & Jarvis 2016 |
+| 13 | 1764–65 | Boquet becomes *dessinateur des habits du roi* | Paris / Versailles | C (year) | CESAR (Jordan 1765; Grove 1764) |
+| 14 | 1791 | Noverre sends Gustav III 147 Boquet sketches for 19 ballets | Stockholm | D | LoC 2021668154 |
+| 15 | 1796 | Didelot's flying wires in *Flore et Zéphire* | London | P | register |
+| 16 | 1822 | Gaslight introduced at the Opéra with *Aladin* (Ciceri and Daguerre) | Paris | D | 04 (Aronson 2021) |
+| 17 | 1822–31 | Ciceri signs every Opéra décor | Paris | D | 04 (Gallica blog) |
+| 18 | 1831 | Ciceri's moonlit cloister for the nuns' ballet, *Robert le diable* | Paris | D | 04 |
+| 19 | 1832 | *La Sylphide*: white bell skirt credited to Lami | Paris | C (credit) | 04 |
+| 20 | 1846 / 1849 | Earliest electric-arc effect at the Opéra (1846 per Britannica; Duboscq links it to *Le Prophète*, 1849) | Paris | C | Britannica; Luminaris |
+| 21 | 1862 | Emma Livry's costume catches fire at a gaslit rehearsal (she dies 1863) | Paris | P | 04 traps |
+| 22 | 1875 | Palais Garnier opens with a raked stage | Paris | P | 03 |
+| 23 | c.1880–81 | Electric incandescent light at the Paris Opéra; the Opéra lit electrically during the 1881 Exposition | Paris | D/C (exact year) | Britannica; Luminaris |
+| 24 | 1883 | Stuttgart, Munich (Residenztheater) and Vienna among the earliest fully electrified theatres | Germany / Austria | D | Britannica |
+| 25 | 1887 | Ponomarev joins the Imperial Theatres as head of costume | St Petersburg | D | SPb Theatre Library calendar |
+| 26 | 1890 | *Sleeping Beauty*: scenery divided by act among four workshop painters; Vsevolozhsky costumes | St Petersburg | D | 04 |
+| 27 | 1893–95 | Loïe Fuller patents her costume and stage-lighting mechanisms (France and England 1893; US 1894–95) | Paris / US | D | Bilska 2024; US patent 533,167 |
+| 28 | 1899 | Korovin joins the Bolshoi "for six months"; chief designer of the Imperial Theatres from 1910 | Moscow | D | Churakova 2012 |
+| 29 | 1900 | Gorsky's *Don Quixote* with Korovin and Golovin: the painter-led ballet; cool reception | Moscow | D | Koppers 2025 |
+| 30 | c.1902 | Fortuny's dome cyclorama and reflected light | Germany | D | Britannica |
+| 31 | 1909 | First Ballets Russes Paris season; painted cloths by Bakst, Benois, Roerich | Paris | D | 04 |
+| 32 | 1910 | *Schéhérazade* (Bakst); *Firebird* sets designed by Golovin, painted by Sapunov | Paris | D | 04 |
+| 33 | 1911 | Cocteau's paired posters for *Le Spectre de la rose* | Paris / Monte Carlo | D | P |
+| 34 | 1912 | Bakst sketches ensembles for Paquin | Paris | D | 04 (Davis 2010) |
+| 35 | 1917 | Picasso's *Parade* curtain painted horizontally in distemper, 10.5 × 16.4 m | Paris | D | 04 (Pompidou) |
+| 36 | 1918 | Vladimir Polunin becomes Diaghilev's chief scene painter | London / Paris | D | 04 |
+| 37 | 1921 | *The Sleeping Princess*: Bakst's nearly 300 costumes; run of 105, 114 or 115 performances; debt | London, Alhambra | D / C (run) | LoC; London Museum; NGA Australia |
+| 38 | 1922 | Schlemmer's *Triadic Ballet* premieres | Stuttgart | D | schlemmer.org; Aoki 2008 |
+| 39 | 1924 | Chanel's sportswear costumes and Picasso's curtain (painted by Shervashidze) for *Le Train Bleu* | Paris | D | 04 |
+| 40 | 1925 | Exter designs for Nijinska's Théâtre Chorégraphique | France / tour | D | LoC Nijinska Collection |
+| 41 | 1927 | *La Chatte*: Gabo and Pevsner's plastic, oilcloth and steel; *Pas d'acier*: Yakulov's machines | Monte Carlo / Paris | D | 04 |
+| 42 | 1928 | *Ode*: Tchelitchew with light projections by Pierre Charbonnier | Paris | D | 04 |
+| 43 | 1933 | *L'Errante*: projected colour and a falling cloud of white silk | Paris | D | V&A O1222655 |
+| 44 | c.1933 | Chick Austin buys the Serge Lifar collection for the Wadsworth Atheneum | Hartford | D | 04 |
+| 45 | 1942 | Chagall paints four *Aleko* backdrops in Mexico City after New York union rules bar him | Mexico City | D | LACMA 2017; ABT (premiere 8 Sept) |
+| 46 | 1946 | Messel's *Sleeping Beauty* reopens Covent Garden | London | D | 04 |
+| 47 | 1948 | Noguchi's *Orpheus*, lit by Jean Rosenthal; the lyre becomes NYCB's emblem | New York | D | 04 |
+| 48 | 1950 | Karinska's hoopless "powder puff" tutu for *Symphony in C* | New York | D | 03 |
+| 49 | 1951 | *The Four Temperaments* danced in practice clothes | New York | D | 04 |
+| 50 | 1954–64 | Rauschenberg resident designer for Cunningham | US | D | 04 |
+| 51 | 1965 | Georgiadis's *Romeo and Juliet* (20 days' design time); Jürgen Rose's *Onegin* | London / Stuttgart | D | V&A; Stuttgart Ballet |
+| 52 | 1966 | Sotheby's Ballets Russes sales begin | London | D | 04 |
+| 53 | 1968 | Warhol's *Silver Clouds* in Cunningham's *RainForest* | Buffalo, NY | D | Cunningham Trust |
+| 54 | 1971 | Palais Garnier installs a 500-circuit lighting console | Paris | D | Opéra national du Rhin dossier |
+| 55 | 1975 | Borzik covers the stage with peat for Bausch's *Rite of Spring* | Wuppertal | D | Pina Bausch Foundation |
+| 56 | 1977 | Harlequin portable floor company founded | UK | D/P | 03 (company source) |
+| 57 | 1982 | Pabst's 8,000 carnations for *Nelken* | Wuppertal | D | Pabst 2020 |
+| 58 | 1987 | Joffrey reconstruction of *Rite* with Roerich's designs | Los Angeles | D | 04 |
+| 59 | 2006 | Pawson's white box for *Chroma*, changed by light alone | London | D | John Pawson |
+| 60 | 2012 | NYCB's first Fall Fashion Gala (Valentino) | New York | D | CNN 2023; P |
+
+Later events worth adding to the course timeline from Part 2: van Herpen's *Neverwhere* (2013), Crowley and Twist's *Winter's Tale* (2014), Tim Yip's *Giselle* (2016), Lagerfeld's *Brahms–Schoenberg Quartet* (2016), *Cleopatra* in Cairo (2019), the RBO identity (2025).
+
+---
+
+## Gaps, surprises and checks for the human gate
+
+**Not found in this pass.** An Ellsworth Kelly ballet design; a Japanese designer of a classical full-length ballet; African and Indian ballet designers; biographies of Egyptian designers (El Gharabawy); dates for Puissant, Hijikata Umeko, Fernández Ledesma, Bernal and Tim Yip at a primary source; Harvard Library's and the LoC's licence statements for specific digitised designs; the Mariinsky and Bakhrushin reproduction terms.
+
+**Three surprises.**
+1. The Met's Bakst designs are not downloadable on their record pages, despite Bakst's death in 1924; the scope files' "Met CC0 Bakst" plan needs changing (Part 2 finding).
+2. Schlemmer's *Triadic Ballet*, the icon of single-author modernist design, was legally treated in 1923 as a joint work, and some costumes went to his dancer co-creators (Aoki 2008).
+3. Chagall's *Aleko* premiered in Mexico City partly because a New York union would not let a painter paint his own scenery: the scene painters' trade defended itself against the painter-designer (LACMA 2017).
+
+**Contested facts to resolve.** Lami's *Sylphide* credit; Ciceri's appointment year (1815/1818); the Opéra's first arc effect (1846/1849); the year of electric light at the Opéra (1880/1881); Boquet's title (1764/1765); *Sleeping Princess* run (105/114/115); Gerhart Bohner's *Triadic* date.
+
+**Register update** (fields this pass found missing or worth adding):
+
+```yaml
+- id: sleeping-beauty-1890
+  field: note
+  old: null
+  new: "Ponomarev is said to have 'more or less traced' Vsevolozhsky's costume designs (Koppers 2025, argued); Mariinsky reconstructed the costumes 1999 (Zaitseva, Vremya novostei 22 Aug 2007)"
+  source: "https://peterkoppers.substack.com/p/gorsky-and-st-peterburg-pt-2 ; http://vremya.ru/print/185372.html"
+- id: bayadere-1877
+  field: designer
+  old: "[Mikhail Bocharov, Matvei Shishkov, Heinrich Wagner, Andrei Roller (sets)]"
+  new: "add Yevgeny Ponomarev (costumes), as the Mariinsky credits for its current (1941-based) production; costume designer of 1877 itself not confirmed"
+  source: "https://www.mariinsky.ru/en/playbill/repertoire/ballet/bayadere"
+- id: triadic-ballet-1922
+  field: note
+  old: "boundary case (Bauhaus stage, not a ballet company); key for designers"
+  new: "append: co-created with dancers Albert Burger and Elsa Hötzel; 1923 agreement divided the costumes (Aoki 2008, citing Scheper 1988)"
+  source: "https://ir.library.osaka-u.ac.jp/repo/ouka/all/53475/jjsd52_007.pdf"
+- id: don-quixote-1869
+  field: designer
+  old: "[unknown]"
+  new: "Gorsky 1900 Moscow version (the repertory source): designs Golovin, Korovin, Nikolai Klodt; Korovin costumes; designers not called out at premiere"
+  source: "https://peterkoppers.substack.com/p/gorsky-and-st-peterburg-pt-2 ; https://www.mariinsky.ru/en/playbill/repertoire/ballet/donquixot"
+- id: aleko-1942
+  field: new work (candidate)
+  old: null
+  new: "Aleko, Ballet Theatre, Mexico City, Palacio de Bellas Artes, 8 Sept 1942; Massine; Tchaikovsky Trio in A minor; Chagall sets and costumes"
+  source: "https://www.abt.org/ballet/aleko ; https://unframed.lacma.org/2017/11/02/chagall-mexico-and-making-aleko"
+```
+
+## Sources seen this pass (URLs returned by search or fetch)
+
+- Artcena, Berain (I) Jean: http://dictionnaire.artcena.fr/articles/biographie-berain-i-jean
+- Met, Bérain 62.676.20 (Public Domain): https://www.metmuseum.org/art/collection/search/386244 ; Bakst records (not downloadable): https://www.metmuseum.org/art/collection/search/335000 , https://www.metmuseum.org/art/collection/search/753536 , http://www.metmuseum.org/art/collection/search/698632 , https://www.metmuseum.org/art/collection/search/698639 , https://www.metmuseum.org/art/collection/search/698644
+- Château de Chantilly, Bérain prints: https://artsandculture.google.com/story/jean-berain-prints-chateau-de-chantilly/egWxmfR18SxqsA?hl=en
+- Britannica, Costume in Baroque opera and ballet: https://www.britannica.com/art/stagecraft/Costume-in-Baroque-opera-and-ballet ; Electrification: https://www.britannica.com/art/stagecraft/Electrification
+- CESAR, Boquet: http://cesar2.huma-num.fr/person/3134 ; LoC Noverre/Boquet: https://loc.gov/item/2021668154 ; Dotlačilová thesis record (DiVA, Stockholm 2020): su.diva-portal.org record diva2:1440596
+- Wodarska-Ogidel, ICOM Costume 2025: https://costume.mini.icom.museum/wp-content/uploads/sites/10/2025/01/Wodrska-Ogidel_article_VF.pdf
+- Collins & Jarvis 2016: https://www.euppublishing.com/doi/10.1080/05908876.2016.1165955
+- Luminaris: https://www.asso-luminaris.org/2017/09/30/archi_menu/ressources/nos-documents/leclairage-electrique-avant-lampoule ; Opéra national du Rhin dossier: https://www.operanationaldurhin.eu/files/217281c1/dossier_pedagogique_l_eclairage_light.pdf
+- Bilska 2024, Loïe Fuller patents: https://bibliotekanauki.pl/articles/64187885.pdf ; US 533,167: https://patentimages.storage.googleapis.com/b5/c7/3c/53af497d5854f7/US533167.pdf
+- SPb Theatre Library calendar, Ponomarev: https://cal.sptl.spb.ru/fev04 ; Vremya novostei 2007: http://vremya.ru/print/185372.html ; Mariinsky *Bayadère*: https://www.mariinsky.ru/en/playbill/repertoire/ballet/bayadere ; Mariinsky *Don Quixote*: https://www.mariinsky.ru/en/playbill/repertoire/ballet/donquixot ; Koppers 2025: https://peterkoppers.substack.com/p/gorsky-and-st-peterburg-pt-2 ; Churakova 2012: https://www.tretyakovgallerymagazine.com/node/3200 and http://www.tg-m.ru/img/mag/2012/1/05.pdf
+- Harvard Library, Russian Theatrical Designs: https://library.harvard.edu/collections/russian-theatrical-designs ; Houghton MS Thr 1770 (Wilhelm): http://nrs.harvard.edu/urn-3:FHCL.Hough:hou02902 ; NGA 2013 checklist: https://www.nga.gov/sites/default/files/migrate_images/content/dam/ngaweb/press/exh/3413/3413-list.pdf
+- V&A: Bakst Blue God https://collections.vam.ac.uk/item/O1119587/-theatre-costume-leon-bakst ; Tchelitchev *L'Errante* https://collections.vam.ac.uk/item/O1222655/lerrante-set-design-tchelitchev-pavel ; Georgiadis *Romeo* https://collections.vam.ac.uk/item/O1221267/romeo-and-juliet-set-design-georgiadis-nicholas
+- LoC Exter: https://loc.gov/item/2023861859 ; https://www.loc.gov/item/ihas.200154561 ; LoC *Sleeping Princess*: https://www.loc.gov/collections/bronislava-nijinska/articles-and-essays/sleeping-princess
+- London Museum, *Sleeping Princess* mazurka costume: https://www.londonmuseum.org.uk/collections/v/object-782598/ensemble-ballet-costume-ensemble ; NGA Australia, *Sleeping Princess*: https://digital.nga.gov.au/archive/exhibition/balletsrusses/default.cfm%3Fmnuid=3&galid=23.html
+- Schlemmer estate: https://www.schlemmer.org/triadic-ballet ; Harvard Art Museums BR50.428: https://harvardartmuseums.org/art/304377 ; Aoki 2008: https://ir.library.osaka-u.ac.jp/repo/ouka/all/53475/jjsd52_007.pdf ; Ramos & Boccara 2015: https://estudosemdesign.emnuvens.com.br/design/article/download/193/170
+- Windham, *Dance Index* 1944: https://archive.org/stream/danceindexunse_16/danceindexunse_16_djvu.txt
+- NYCB *Danses concertantes*: http://nycballet.com/discover/ballet-repertory/danses-concertantes ; *Neverwhere*: https://www.nycballet.com/discover/ballet-repertory/neverwhere
+- ROH Collections, *Marguerite and Armand*: https://www.rohcollections.org.uk/production.aspx?production=1489 ; Ashton Foundation: https://frederickashton.org.uk/ballet/marguerite-and-armand-1963
+- Bristol Theatre Collection, Sonnabend: https://www.bristol.ac.uk/theatre-collection/explore/theatre/yolanda-sonnabend-archive ; MacMillan estate designers: https://www.kennethmacmillan.com/new-page-2 ; *Requiem*: https://www.kennethmacmillan.com/requiem-1 ; *Romeo*: https://www.kennethmacmillan.com/new-page-90
+- Stuttgart Ballet *Onegin*: https://www.stuttgart-ballet.de/schedule/a-z/onegin-en
+- Merce Cunningham Trust, *RainForest*: https://www.mercecunningham.org/the-work/choreography/rainforest/ ; Rambert archive: https://rambert.org.uk/about-rambert/rambert-archive/performance-database/works/rainforest ; Rivera 1997: https://www.taylorfrancis.com/chapters/edit/10.4324/9781315077857-4/visual-artists-design-merce-cunningham-dance-company-1967%E2%80%931970-nelson-rivera
+- Judd Foundation, Judd and Trisha Brown: https://juddfoundation.org/research/local-history/local-history-donald-judd-and-trisha-brown ; MoMA Kelly catalogue 1973: https://assets.moma.org/documents/moma_catalogue_2535_300299040.pdf
+- Pina Bausch Foundation, Borzik: https://www.pinabausch.org/en/person/rolf_borzik and https://www.pinabausch.org/post/rolf-borzik-biography ; Pabst: https://www.pinabausch.org/post/peter-on-pina ; *Nelken*: https://www.pinabausch.org/en/work/nelk
+- FIT *Dance & Fashion*: https://exhibitions.fitnyc.edu/dance-and-fashion/ ; CNCS Lacroix *La Source*: https://cncs.fr/a-visiter/christian-lacroix-la-source-et-le-ballet-de-lopera-de-paris ; NYT Lacroix 2017: https://www.nytimes.com/2017/03/07/fashion/christian-lacroix-paris-opera-ballet-costumes.html ; Preljocaj/CNCS dossier: https://opera-rennes.fr/sites/default/files/2020-02/Preljocaj%20Costumes%20de%20danse.pdf ; WWD Lagerfeld 2016: https://wwd.com/fashion-news/fashion-features/karl-lagerfeld-ballet-costumes-for-opera-bastille-10475228/ ; CNN 2023: https://www.cnn.com/style/new-york-city-ballet-fashion-choreography-couture/index.html ; Fashion Week Daily 2019: https://fashionweekdaily.com/marc-happel-fall-fashion-gala-new-york-city-ballet ; Dance Magazine 2013: https://dancemagazine.com/costume-designers-music/ ; CriticalDance 2013: https://criticaldance.org/new-york-city-ballet-fall-gala-capricious-maneuvers-neverwhere-spectral-evidence-western-symphony/
+- Studio Wayne McGregor, *Carbon Life*: https://waynemcgregor.com/productions/carbon-life-1 ; *Chroma*: https://waynemcgregor.com/productions/chroma ; John Pawson *Chroma*: https://www.johnpawson.com/works/chroma ; Ailey *Chroma*: https://ailey.org/repertory/chroma?campaign=592388
+- Puissant, *Electric Counterpoint*: https://jeanmarcpuissant.com/project/electric-counterpoint/ ; NYU CBA: https://balletcenter.nyu.edu/fellows/jean-marc-puissant/ ; ROH *Winter's Tale* press 2024: https://static.roh.org.uk/for/pdfs/press-releases-23-24/The-Royal-Ballet-shine-in-Christopher-Wheeldons-multi-award-winning-The+Winters-Tale.pdf ; Design Week, Devlin 2007: https://www.designweek.co.uk/profile-42
+- Akram Khan Company, *Giselle*: https://www.akramkhancompany.net/productions/giselle-english-national-ballet ; New Yorker 2019: https://www.newyorker.com/magazine/2019/04/22/akram-khan-remakes-giselle
+- Salvador Fernández obituary: https://diariodecuba.com/cultura/1734867915_59005.html ; Juventud Rebelde interview (via Cubainformación): https://www.cubainformacion.tv/cuba/20080501/32799/32799-arquitecto-del-espacio
+- MOT Tokyo, Ishioka: https://www.mot-art-museum.jp/en/exhibitions/eiko-ishioka
+- LACMA Unframed, Chagall *Aleko*: https://unframed.lacma.org/2017/11/02/chagall-mexico-and-making-aleko and https://unframed.lacma.org/2017/08/01/marc-chagall-and-twentieth-century-designs-stage ; ABT *Aleko*: https://www.abt.org/ballet/aleko
+- Balanchine quote: https://cso.org/experience/article/20308/how-balanchine-saw-the-music-and-heard-the-da ; New Yorker 2009: https://stg.newyorker.com/magazine/2009/01/26/balanchine-said

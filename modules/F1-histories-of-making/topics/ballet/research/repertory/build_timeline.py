@@ -17,16 +17,31 @@ import yaml
 
 HERE = Path(__file__).resolve().parent
 
+# Ten eras, each named for the change it carries (REPERTORY_BENCHMARK.md §5.3). The benchmark lets
+# eras overlap; the timeline draws them end to end, so the boundaries below are the drawn ones.
 ERAS = [
-    {"id": "court", "label": "Court ballet", "from": 1581, "to": 1680},
-    {"id": "enlightenment", "label": "Academy and action ballet", "from": 1680, "to": 1820},
-    {"id": "romantic", "label": "Romantic ballet", "from": 1820, "to": 1865},
-    {"id": "imperial", "label": "Imperial grand ballet", "from": 1865, "to": 1908},
-    {"id": "modernist", "label": "Ballets Russes and modernism", "from": 1909, "to": 1943},
-    {"id": "postwar", "label": "States, companies and the Cold War", "from": 1944, "to": 1975},
-    {"id": "late20", "label": "Remaking and new forms", "from": 1976, "to": 1999},
-    {"id": "c21", "label": "The twenty-first century", "from": 2000, "to": 2026},
+    {"id": "E1", "label": "The court designs a world", "from": 1581, "to": 1671, "chapters": [1]},
+    {"id": "E2", "label": "The Opéra makes professionals", "from": 1672, "to": 1759, "chapters": [1, 2]},
+    {"id": "E3", "label": "The ballet tells a story", "from": 1760, "to": 1829, "chapters": [1, 2]},
+    {"id": "E4", "label": "The theatre sells a dream", "from": 1830, "to": 1864, "chapters": [3]},
+    {"id": "E5", "label": "The empire specifies", "from": 1865, "to": 1904, "chapters": [4, 5]},
+    {"id": "E6", "label": "The committee and the painter's stage", "from": 1905, "to": 1928, "chapters": [7]},
+    {"id": "E7", "label": "States, schools and the bare stage", "from": 1929, "to": 1955, "chapters": [7, 8]},
+    {"id": "E8", "label": "Routes and rivalries", "from": 1956, "to": 1974, "chapters": [8]},
+    {"id": "E9", "label": "Remaking the canon", "from": 1975, "to": 2004, "chapters": [10]},
+    {"id": "E10", "label": "Screens, the world stage and repair", "from": 2005, "to": 2026, "chapters": [9, 10, 11]},
 ]
+
+# Event lanes (the benchmark's lanes 2 to 6); works sit above them in rows by where they were made.
+EVENT_LANES = ["Who paid and who ran it", "Bodies and training", "Stage, design and light",
+               "Music, record and media", "The world outside"]
+
+
+def era_of(year: int) -> str:
+    for e in ERAS:
+        if e["from"] <= year <= e["to"]:
+            return e["id"]
+    return ERAS[-1]["id"]
 
 # Lanes group the world by where the work was made.
 LANE_OF_REGION = [
@@ -99,7 +114,8 @@ def main():
             "composer": w.get("composer") or [],
             "designer": w.get("designer") or [],
             "premise": w.get("premise"),
-            "era": w.get("period"),
+            "era": era_of(y),
+            "period": w.get("period"),
             "lane": lane_for(w.get("region")),
             "region": w.get("region"),
             "threads": w.get("threads") or [],
@@ -128,6 +144,7 @@ def main():
         "built_from": ["register.yaml", "timeline_events.yaml", "dossiers/", "../works/"],
         "eras": ERAS,
         "lanes": LANES,
+        "event_lanes": EVENT_LANES,
         "works": works,
         "events": sorted(events, key=lambda e: (year_of(e.get("year")), e.get("title", ""))),
         "families": {k: v for k, v in families.items() if len(v) > 1},

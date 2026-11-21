@@ -5,32 +5,40 @@
   var TL = window.TL; if (!TL) return;
   var root = document.getElementById('tl'); if (!root) return;
   var NS = 'http://www.w3.org/2000/svg';
-  var laneH = 46, top = 64, left = 8, evH = 34;
+  var laneH = 44, evLaneH = 30, top = 78, left = 8, gapH = 30;
   var state = { thread: '', era: '', sel: null };
 
   var threadNames = window.TL_THREADS || {};
+  var events = TL.events || [];
   var eras = TL.eras.map(function (e) {
     var n = TL.works.filter(function (w) { return w.era === e.id; }).length;
-    return Object.assign({}, e, { n: n, w: Math.max(196, n * 22) });
+    var m = events.filter(function (v) { var y = parseInt(String(v.year), 10); return y >= e.from && y <= e.to; }).length;
+    return Object.assign({}, e, { n: n, m: m, w: Math.max(170, n * 20, m * 12) });
   });
   var x0 = left; eras.forEach(function (e) { e.x = x0; x0 += e.w; });
   var width = x0 + 16;
   var lanes = TL.lanes;
-  var hasEvents = (TL.events || []).length > 0;
-  var lanesTop = top + (hasEvents ? evH + 8 : 0);
-  var height = lanesTop + lanes.length * laneH + 20;
+  var evLanes = events.length ? (TL.event_lanes || []) : [];
+  var lanesTop = top;
+  var evTop = lanesTop + lanes.length * laneH + (evLanes.length ? gapH : 0);
+  var height = evTop + evLanes.length * evLaneH + 16;
 
   function xOf(year, eraId) {
     var e = eras.filter(function (x) { return x.id === eraId; })[0] ||
       eras.filter(function (x) { return year >= x.from && year <= x.to; })[0] || eras[eras.length - 1];
     var span = Math.max(1, e.to - e.from);
     var t = Math.min(1, Math.max(0, (year - e.from) / span));
-    return e.x + 14 + t * (e.w - 28);
+    return e.x + 12 + t * (e.w - 24);
   }
   function el(tag, attrs, parent) {
     var n = document.createElementNS(NS, tag);
     for (var k in attrs) n.setAttribute(k, attrs[k]);
     (parent || svg).appendChild(n); return n;
+  }
+  function lines(text, max) {
+    var out = [], cur = '';
+    text.split(' ').forEach(function (wd) { if ((cur + ' ' + wd).trim().length > max && cur) { out.push(cur); cur = wd; } else { cur = (cur + ' ' + wd).trim(); } });
+    if (cur) out.push(cur); return out.slice(0, 2);
   }
 
   var wrap = document.createElement('div'); wrap.className = 'tl-scroll';
@@ -38,31 +46,39 @@
   svg.setAttribute('viewBox', '0 0 ' + width + ' ' + height);
   svg.setAttribute('width', width); svg.setAttribute('height', height);
   svg.setAttribute('role', 'img');
-  svg.setAttribute('aria-label', 'Timeline of ' + TL.works.length + ' ballets from ' + eras[0].from + ' to ' + eras[eras.length - 1].to + ', by era and by where they were made');
+  svg.setAttribute('aria-label', 'Timeline of ' + TL.works.length + ' ballets and ' + events.length + ' events from ' + eras[0].from + ' to ' + eras[eras.length - 1].to + ', in ten eras');
   wrap.appendChild(svg);
 
-  // Eras: bands, labels, year ticks at each edge.
+  // Eras: bands, two-line labels, dates and counts.
   eras.forEach(function (e, i) {
-    el('rect', { x: e.x, y: top - 8, width: e.w, height: height - top + 8, 'class': i % 2 ? 'tl-band alt' : 'tl-band' });
-    var t = el('text', { x: e.x + 8, y: 20, 'class': 'tl-era' }); t.textContent = e.label;
-    var y = el('text', { x: e.x + 8, y: 38, 'class': 'tl-yr' }); y.textContent = e.from + '–' + e.to + ' · ' + e.n + ' works';
+    el('rect', { x: e.x, y: top - 10, width: e.w, height: height - top + 10, 'class': i % 2 ? 'tl-band alt' : 'tl-band' });
+    var t = el('text', { x: e.x + 8, y: 18, 'class': 'tl-era' });
+    lines(e.label, Math.floor((e.w - 12) / 8.6)).forEach(function (ln, j) { var ts = el('tspan', { x: e.x + 8, dy: j ? 16 : 0 }, t); ts.textContent = ln; });
+    var y = el('text', { x: e.x + 8, y: 56, 'class': 'tl-yr' }); y.textContent = e.id + ' · ' + e.from + '–' + e.to + ' · ' + e.n + ' works';
   });
-  // Lanes.
+  // Work lanes, then event lanes.
   lanes.forEach(function (l, i) {
     var y = lanesTop + i * laneH + laneH / 2;
     el('line', { x1: left, x2: width - 8, y1: y, y2: y, 'class': 'tl-lane' });
   });
-  // Events row.
-  if (hasEvents) {
-    TL.events.forEach(function (ev) {
-      var yr = parseInt(String(ev.year), 10); if (!yr) return;
-      var x = xOf(yr);
-      var g = el('g', { 'class': 'tl-ev', tabindex: 0, role: 'button', 'aria-label': yr + ': ' + ev.title });
-      el('rect', { x: x - 4, y: top + 8, width: 8, height: 8, transform: 'rotate(45 ' + x + ' ' + (top + 12) + ')' }, g);
-      g.addEventListener('click', function () { showEvent(ev); });
-      g.addEventListener('keydown', function (k) { if (k.key === 'Enter' || k.key === ' ') { k.preventDefault(); showEvent(ev); } });
-    });
-  }
+  evLanes.forEach(function (l, i) {
+    var y = evTop + i * evLaneH + evLaneH / 2;
+    el('line', { x1: left, x2: width - 8, y1: y, y2: y, 'class': 'tl-lane ev' });
+  });
+  if (evLanes.length) el('line', { x1: left, x2: width - 8, y1: evTop - gapH / 2, y2: evTop - gapH / 2, 'class': 'tl-div' });
+  var evStack = {};
+  events.forEach(function (ev) {
+    var yr = parseInt(String(ev.year), 10); if (!yr) return;
+    var li = Math.max(0, evLanes.indexOf(ev.lane));
+    var x = xOf(yr);
+    var key = li + ':' + Math.round(x / 8); var k = evStack[key] = (evStack[key] || 0) + 1;
+    x += (k - 1) * 7;
+    var y = evTop + li * evLaneH + evLaneH / 2;
+    var g = el('g', { 'class': 'tl-ev', tabindex: 0, role: 'button', 'aria-label': yr + ': ' + ev.title });
+    el('rect', { x: x - 4, y: y - 4, width: 8, height: 8, transform: 'rotate(45 ' + x + ' ' + y + ')' }, g);
+    g.addEventListener('click', function () { showEvent(ev); });
+    g.addEventListener('keydown', function (k2) { if (k2.key === 'Enter' || k2.key === ' ') { k2.preventDefault(); showEvent(ev); } });
+  });
   // Families: arcs from parent to remake.
   var pos = {};
   var stack = {};
@@ -96,8 +112,12 @@
   var frame = document.createElement('div'); frame.className = 'tl-frame';
   var labels = document.createElement('div'); labels.className = 'tl-labels';
   labels.style.paddingTop = lanesTop + 'px';
-  if (hasEvents) { var evl = document.createElement('div'); evl.className = 'tl-lab ev'; evl.style.top = (top + 2) + 'px'; evl.textContent = 'Events'; labels.appendChild(evl); }
+  var wl = document.createElement('div'); wl.className = 'tl-lab head'; wl.style.top = (top - 26) + 'px'; wl.textContent = 'Works, by where made'; labels.appendChild(wl);
   lanes.forEach(function (l) { var d = document.createElement('div'); d.className = 'tl-lab'; d.style.height = laneH + 'px'; d.textContent = l; labels.appendChild(d); });
+  if (evLanes.length) {
+    var sp = document.createElement('div'); sp.className = 'tl-lab head2'; sp.style.height = gapH + 'px'; sp.textContent = 'Events'; labels.appendChild(sp);
+    evLanes.forEach(function (l) { var d = document.createElement('div'); d.className = 'tl-lab evl'; d.style.height = evLaneH + 'px'; d.textContent = l; labels.appendChild(d); });
+  }
   labels.style.height = height + 'px';
   frame.appendChild(labels); frame.appendChild(wrap);
 

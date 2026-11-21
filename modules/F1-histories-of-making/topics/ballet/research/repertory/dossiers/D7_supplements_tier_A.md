@@ -507,3 +507,103 @@ W1 is about the theory; the look is barely recorded. Stuttgart scenery was by Gi
 - `spartacus-1968`: another tragic *ballet d'action* on a classical subject, with mime replaced by heroic dance.
 - `fille-mal-gardee-1789`: Dauberval, Noverre's pupil, takes the action ballet into a farmyard comedy.
 
+---
+
+## Le Train Bleu / The Blue Train (1924)
+`id: train-bleu-1924` · W file: W2 §8
+
+*Design and art: W2 §8 covers Laurens's beach, Chanel's knitwear and the Picasso front cloth in detail. Additions: Cocteau's unpublished manuscript (Feb–Mar 1924) asks for two raised bathing cabins numbered 1 and 2 with hatches for faces and arms, a diving board into an unseen sea, and a straw hat on an invisible thread [documented: *Cahiers Jean Cocteau*, 2021]; the front cloth weighs about 350 kg [documented: V&A O171462].*
+
+### Readings and disputes
+- **Whose ballet: Cocteau's or Nijinska's?** The V&A says Nijinska "was not entirely happy" with Cocteau, who "tried to dominate the creative process and add details"; after "a disastrous dress rehearsal" it was "reworked and tightened" [documented: V&A Sasha photograph S.302-2017]. Lynn Garafola (*La Nijinska*, 2022) describes her "mulish determination to ignore the high life details knitted into Cocteau's imagined ballet", which the *Nation* review reads as politically motivated [documented: *The Nation*, 2022]. A Brazilian study (*Revista Brasileira de Ciências do Esporte* 30/3, 2009) frames the tension as gendered power, "a woman and a man in command, who should prevail?" [documented]. Satire of the rich (Cocteau) or a sport-and-new-woman ballet (Nijinska)?
+- **Did Picasso design it?** The same Brazilian article credits "scenery by Pablo Picasso and Henri Laurens" [documented]; the Paris Opéra's *Picasso and Dance* exhibition says his involvement was "limited to just a stage curtain, or instructions for making one" [documented]; the V&A says the cloth was attached to the ballet only in London in November 1924 [documented in W2]. The famous image is the least integral part.
+- **Costume as fashion or as dancewear?** The Thyssen says Chanel's sportswear caused "practical problems as they were not specifically intended for dancing" [documented]; Sokolova: "my woollen costume was impossible to grip" when Woizikovsky threw and caught her [documented: V&A Perlouse costume O1115812]. Beaumont found them "uninteresting" [documented in W2]; the V&A curator notes the gigolos' navy knit resembles the "vest and pants look" of 1990s choreographers [documented: V&A O1115811].
+
+### Facts worth telling
+1. Sokolova's costume is cyclamen-pink hand-knitted wool with black and white bands; the chorus wore machine knits [documented: V&A].
+2. André Messager, the operetta composer, conducted the premiere [documented: *Cahiers Jean Cocteau*].
+3. Cocteau's draft marks the overture "genre Beethoven" [documented: *Cahiers Jean Cocteau*].
+4. Sasha's London photograph shows the "uncomfortable bathing shoes" chosen with the costume [documented: V&A S.302-2017].
+5. Nijinska had already made a *Sports and Touring Ballet Revue* (1922) for her own company [documented: RBCE 2009].
+
+### Set it beside
+- `parade-1917`: Cocteau's first ballet of the present tense: fairground and war instead of beach and Olympics.
+- `skating-rink-1922`: the Ballets Suédois' sport ballet, with Léger's designs; sport as mass rhythm rather than chic flirtation.
+- `les-noces-1923`: Nijinska a year earlier, stripping colour from a peasant wedding; here she strips luxury from the Riviera.
+- `jeux-1913`: Nijinsky's tennis ballet; the brother's erotic game of three becomes the sister's comedy of types.
+
+---
+
+## Красный мак / The Red Poppy (1927)
+`id: red-poppy-1927` · W file: W2 §10a
+
+*Design and art: W2 notes Kurilko as designer; his designs are at the Bakhrushin. Not found in this pass: a description of the 1927 palette. One detail from the score: Glière marked the opening "lifeless China", set to gongs [documented: China Channel, *LARB*, 2017].*
+
+### Readings and disputes
+- **"The first Soviet ballet": fact or myth?** Soviet tradition repeats the title [probable, W2]. An article on the Academy of Music site ("The Quart Leap: The Invention of Soviet Ballet and Glière's *The Red Poppy*", 2022) treats its history as "a myth of the miraculous attainment of an 'authentic-Soviet ballet'", and argues its authors chose "a radically conservative method", Petipa's form with a new flag [documented: abstract]. Lopukhov's experiments of the early 1920s are the counter-claim [probable].
+- **Who had the idea?** Kurilko said he saw one *Pravda* item about a Soviet ship detained in China; in truth "he conflated two unrelated news stories into one" [documented: China Channel 2017]. W2 records the rival contest story (Glière). Kurilko's own 1952 memoir of the ballet's origin is catalogued in the Russian State Catalogue [documented: reference list, "The Quart Leap"]; written after his Stalin Prize, it is a late source.
+- **Liberation or condescension?** For the Bolshoi it was a story of Soviet heroes freeing China; China Channel reads it as a Soviet vision "in which … the Chinese were downtrodden victims in need of saving" [documented]. When Mao was in Moscow in 1949–50 he declined to see it and sent Chen Boda and others [documented: China Channel]; the 1957 retitling as *The Red Flower* and the cut pigtail followed Chinese objections [documented in W2].
+
+### Facts worth telling
+1. It was given across the USSR some 3,000 times before fading in the 1930s [documented as claimed: China Channel].
+2. The 1949 Bolshoi revival also marked Stalin's seventieth birthday [documented: China Channel].
+3. The ending rains red poppies onto the stage as a vision of liberation [documented: China Channel].
+4. The Ballet Russe de Monte Carlo's 1943 version made the villain Japanese, to suit the wartime alliance [documented in W2].
+5. The printed libretto of 1929 runs to three acts, eight scenes "with apotheosis" [documented: "The Quart Leap" references].
+
+### Set it beside
+- `bayadere-1877`: the imperial exotic multi-act ballet whose structure it kept, with an opium dream again.
+- `red-detachment-1964`: the Chinese answer, a revolutionary ballet made by Chinese makers in which the Soviets do not appear.
+- `scheherazade-1910`: the Orient sold to Paris for pleasure; here the Orient is sold to Moscow for politics.
+
+---
+
+## Пламя Парижа / The Flames of Paris (1932)
+`id: flames-of-paris-1932` · W file: W2 §10b
+
+*Design and art: Vladimir Dmitriev designed sets and costumes and co-wrote the libretto [documented: People's World, 2014]; W2 has little more. Ratmansky's 2008 sets by Ilya Utkin and Evgeny Monakhov were "inspired by contemporary engravings", with costumes by Elena Markovskaya [documented: Marc Haegeman, *Dance Magazine*, 2008; Bolshoi credits].*
+
+### Readings and disputes
+- **Stalin's favourite?** It is "allegedly a favorite of Stalin's" (Haegeman 2008) or "purported" to be (Eric A. Gordon, *People's World*, 2014) [documented: both]; Ismene Brown says Vainonen's ensembles "whipped up the packed audiences and Josef Stalin himself" [documented: *The Arts Desk*, 2013]. No primary record of Stalin's attendance was seen in this pass. **Probable**, widely repeated.
+- **How much survives?** "All but about twenty-five minutes of the choreography was lost" (*The New Yorker*, 2018) [documented]; Ratmansky said there is a film, part of which he found "too late" [documented: Brown 2013]. Mikhail Messerer's 2013 Mikhailovsky version was rebuilt "from memory, photographs and film" of Vainonen's 1947 revision [documented: People's World]. So two "authentic" versions exist, both partly invented.
+- **Who starred?** W2 gives Dudinskaya as Mireille in 1932; *The Arts Desk* says the 1932 creation starred Galina Ulanova, "utterly bewildered by her role as the actress Mireille" [documented: both]. Ulanova may have taken the role later; **contested** as phrased.
+- **Ratmansky's reversal.** Not a reconstruction but "a dialogue with Vainonen" (Ratmansky, in Haegeman 2008) [documented]; Jann Parry compares it to Bourne's *Swan Lake*, a commentary with a tragic end [documented: DanceTabs, 2013]. A Moscow critic told him his past and the Bolshoi's "could never meet" [documented: Brown 2013].
+
+### Facts worth telling
+1. Cyril Beaumont's synopsis of the original runs to eight pages [documented: Brown 2013].
+2. Asafiev's score also lifts court music by Lully and Grétry for the aristocrats [documented: Gordon 2014].
+3. Ratmansky cut four acts to two and added Adeline, an aristocrat guillotined before her friends [documented: Haegeman 2008].
+4. Ratmansky admired Vainonen's folk phrases: "Simple and great. You can't imagine anything else" [documented: Brown 2013].
+5. It took 82 years to reach the United States, with the Mikhailovsky in 2014 [documented: Gordon 2014].
+
+### Set it beside
+- `swan-lake-bourne-1995`: Parry's comparison; a remake that comments on its source and darkens the end.
+- `spartacus-1968`: the later Soviet heroic ballet, where the collective hero becomes one muscular man.
+- `medee-et-jason-1763`: the *ballet d'action* principle that every dance is motivated, pushed here into a drama theatre's method.
+
+---
+
+## 红色娘子军 / The Red Detachment of Women (1964)
+`id: red-detachment-1964` · W file: W3 §1
+
+*Design and art: W3 §1 covers the look. One addition: the costumes are military and the props "overwhelmingly martial: pistols, rifles, knives, machetes" [documented: Antonia Finnane, *The Conversation*, 16 Feb 2017]; the image the West remembers is "arabesques and pirouettes performed en pointe with rifles cocked" [documented: Alex Colville, *The China Project*, 2021].*
+
+### Readings and disputes
+- **Whose ballet?** When Nixon asked Jiang Qing in 1972 for the names of the writer, composer and director, she said it was "created by the masses" [documented: Kristine Harris, "Re-makes/Re-models: *The Red Detachment of Women* between Stage and Screen", *Opera Quarterly* 26.2–3, 2010]. Harris notes Jiang had "so publicly insinuated herself" into it that hers was the name most linked to it [documented]. A Springer reference entry (*Contextual Dictionary of Chinese Cultural Knowledge*, 2026) says instead that its creation "was proposed by Premier Zhou Enlai in 1963" and done "under the direct supervision of Premier Zhou Enlai" [documented: preview]. The credited collective, the patron Jiang and the patron Zhou: three authorships, each politically useful in its decade. **Contested.**
+- **Why so many guns?** Finnane argues the arsenal reflects not the 1930s but 1964: split with Moscow, war with India, no US recognition, and a premiere "a week before China's first successful atomic test" [documented: *The Conversation* 2017]. An argued reading of design as geopolitics.
+- **Did ballet crush Chinese dance?** Citing Emily Wilcox (*Revolutionary Bodies*, 2019), Colville writes that "at the whim of one woman" ballet "had suffocated a national dance culture", and quotes Wang Kefen and Long Yinpei on a stage where "ballet was the single blossoming flower" [documented: *The China Project* 2021]. Wilcox's book argues the model ballets were an exception within a longer socialist dance tradition built on Chinese forms [probable].
+- **Revival as celebration or wound?** The 2017 Melbourne performances drew demonstrators from part of the Chinese-Australian community [documented: Finnane, *Asia Times* version, 2017].
+
+### Facts worth telling
+1. Nixon called it a "musical" [documented: Harris 2010].
+2. The original cast underwent military training to handle the weapons convincingly [documented: *New York Times*, 2 July 2015].
+3. The heroine Wu Qionghua was renamed Qinghua during the Cultural Revolution [documented: Finnane 2017].
+4. Gough Whitlam saw it in 1971 and in 1973 chose *The White-Haired Girl* instead [documented: Finnane 2017].
+5. It is a focal point of Act II of John Adams and Alice Goodman's opera *Nixon in China* (1987) [documented: Harris 2010].
+
+### Set it beside
+- `white-haired-girl-matsuyama-1955`: the Japanese company's ballet that preceded and prompted the Chinese model works.
+- `red-poppy-1927`: the Soviet view of China's revolution, with Russian saviours; here the saviour is the Chinese Party.
+- `giselle-1841`: a wronged village woman again, but her revenge is disciplined into a political act rather than forgiveness.
+- `ballet-de-la-nuit-1653`: a court spectacle that ends in the ruler's light; here the "red sun" of the Party.
+

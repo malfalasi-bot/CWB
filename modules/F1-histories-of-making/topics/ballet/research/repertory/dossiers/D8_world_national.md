@@ -597,8 +597,78 @@ Coffee-table book *THE KABUKI* (Shinshokan, 1986) [documented]. Company promotio
 - Images: photographs by Hasegawa Kiyonori and Paris Opéra (Charles Duprat): link-only. Edo-period *Chūshingura* woodblock prints (for example by Utagawa Kuniyoshi or Hokusai) in museum open-access collections are public domain and could stand for the source play [probable; check each file].
 
 ## 심청 / Shim Chung (1986)
+`id: shim-chung-1986` · threads: T14, T16, T01, T06, T24 · confidence of the header: documented
 
-(in progress)
+**Header.** Premiere 21 September 1986, National Theater of Korea (main hall), Seoul, Universal Ballet, a special invited work of the Seoul Asian Games arts festival [documented, Universal Ballet; Encyclopedia of Korean Culture]. Choreography: Adrienne Dellas, the company's American founding artistic director; later choreography by Roy Tobias, Oleg Vinogradov and Yoo Byung-hun (Bingxian Liu) [documented]. Music: Kevin Barber Pickard; the 1986 score was shared among three composers, including Choi Dong-sun, and unified under Pickard in 1988 [documented, Pickard 1987; *Korea Herald* 2026]. Libretto: Park Yong-gu (박용구), dance critic [documented]. Sets: Kim Myung-ho, Hong Yong-han; costumes: Sylvia Taalsohn (Act I), Oleg Vinogradov (Act II), Oh Han-gyul (Act III); lighting Kang Nak-cheon; video Choi Hyo-min [documented, current credits]. Three acts, four scenes, 2 hours 15 minutes [documented]. Title role created by Moon Hoon-sook (Julia H. Moon) [documented]. Seen today: the company's continually revised production (2001 Vinogradov revision; 2010–11 video and design update), revived for its fortieth anniversary in April–May 2026 [documented].
+
+### In one line
+A daughter sells herself as a sea sacrifice for 300 bags of rice so that her blind father may see, and returns from the Dragon King's palace on a lotus to become queen.
+
+### How it came to be
+Universal Ballet was founded in 1984 by the Korean Cultural Foundation, the arts body of the Unification Church; its chairman was Pak Bo-hi, Moon Hoon-sook's father, and Moon was the church founder's daughter-in-law [documented for the foundation, Encyclopedia of Korean Culture; family ties probable from public record]. Dellas had come to Korea in 1976 to teach ballet at Sunhwa Arts School and "built dancers from the ground up" [documented, *Herald Business* 2026; *Korea Herald* 2026]. "If you are going to go abroad, you need your own colours," she would say [documented, *Korea Herald* 2026].
+
+She found the tale in an English-language children's book and saw in its *hyo* (filial piety) a value the West lacks [documented, *Herald Business* 2026]. Moon says the question was "Why not Korean culture?", like *La Bayadère* for India or *Don Quixote* for Spain [documented]. Pickard, director of the church's Performing Arts Department in New York, wrote in 1987 that "Father himself outlined the theme of this ballet in a logo: *Hyo*", meaning the Rev. Moon Sun-myung, and that the score took about three months [documented, Pickard, tparents.org]. Moon calls the work "a strategic plan" to show Korean culture to foreign visitors at the Asian Games [documented].
+
+### Roots and reference points
+- **Simcheong-jeon and the pansori *Simcheong-ga*.** The Joseon-era tale and its sung version, one of the five surviving *pansori* epics: Shim Chung, sold to sailors for 300 sacks of rice offered to a temple, is thrown into the Indangsu sea; the Dragon King sends her back in a lotus; she becomes queen and holds a feast for the blind, where her father regains his sight [probable for pansori history; story documented, Universal Ballet].
+- **Petipa's form.** Moon: Dellas built it "exactly in the form of Petipa's classical ballets, like *Swan Lake* or *The Sleeping Beauty*"; "an analogue work", not technically new [documented, *Chum Webzine* interview, 2017].
+- **Korean court and folk arts.** Mask dance (*talchum*) ensembles in Act III; court ceremonial robes (*daeryebok*) for the bride-selection scene, choreographed by Moon herself, who trained in Korean dance [documented, Seoul Shinmun 2012; *Herald Business* 2026].
+- **Cut from the source**: the scheming widow Ppaengdeok, a comic villain of the pansori, is absent [documented, *Herald Business* 2026].
+
+### The world it built
+Act I compresses birth, the mother's death, childhood, the bargain and the voyage; twelve sailors fill the stage with *grand jetés* in a storm; after a pas de deux with the captain, Shim Chung throws herself off the ship's side [documented, Seoul Shinmun 2012; *The Leader* 2019]. Act II is the underwater palace: sea creatures in glittering scales and spikes, the Dragon King's duet with Shim Chung, a waltz solo; she refuses his proposal and hides in a lotus [documented, *The Leader* 2019]. Act III is the Joseon court: she arrives in a lotus palanquin under painted *dancheong* eaves, the king proposes, a moonlit court pas de deux, then the feast for the blind and the reunion [documented]. All movement is "rigorously based on classical ballet steps", dressed in ballet-cut *hanbok* [documented, company Korean page]. The three acts, Moon says, are "spectacle, drama, elegance" [documented].
+
+### Design and art
+The 2000s Act II tights were sheer silver scales, so thin, one dancer laughed, that "we were busy covering ourselves" [documented, Kang Mi-sun, *Herald Business* 2026]. Paris spectators in 2012 compared Act II to "a Botticelli painting" [documented, Seoul Shinmun]. In the storm the great sails on both sides hang from battens that rise and fall like waves; since 2010 a projected film shows Shim Chung sinking through water at the start of Act II [documented]. Act III uses the multicoloured *dancheong* of palace roofs and the bride's ceremonial robe [documented]. A 3-metre leap from the ship's side caused an accident in 1988: when the two lead dancers refused to jump without a net, Pak Bo-hi jumped himself, broke his glasses and cracked a rib; a safety net followed [documented, Moon, *Chum Webzine* 2017].
+
+### Premiere and reception
+The company's 1986 season had 28 Seoul performances and three on tour [documented, company record]. The work was shown again for the 1988 Seoul Olympics [documented]. The first foreign performance was in 1987 (company Korean page) or at New York City Center in 1989 (Moon, 2017) [contested]. In 2001 it became the earliest Korean ballet at the Kennedy Center, Lincoln Center and the Los Angeles Music Center; Jennifer Dunning of the *New York Times* wrote that it touched the audience "in an age when dance's basic humanity is being lost" [documented in Korean translation, Encyclopedia of Korean Culture; English original not found in this pass]. The 2012 Paris run at the Palais des Congrès sold at 94.3 per cent occupancy [documented, Seoul Shinmun, company figure]. By 2016: more than 200 performances in some 40 cities in 12 to 15 countries [documented, company figures vary].
+
+### Versions and lineage
+- 1986: Dellas premiere; 1988: score unified under Pickard [documented].
+- 2001: Vinogradov (former Kirov director) revises scenes and dances "to move foreign audiences used to classical ballet"; adds the bride-selection scene; redesigns Act II costumes [documented, Encyclopedia of Korean Culture; *Herald Business*].
+- 2007: a ballet-musical version for families [documented].
+- 2010–11: underwater video; worn sets and costumes renewed before a world tour (Moscow, Paris, Oman's Royal Opera House Muscat, Japan, Taiwan, Singapore, North America) [documented].
+- 2016: thirtieth anniversary, five former Shim Chungs as the older narrator [documented, *Korea Times*].
+- 2026: fortieth anniversary revival [documented, *Korea Herald*].
+A 2004 DVD exists (Spectrum DVD) [documented].
+
+### Readings and disputes
+- **A Korean classic.** Shim Jung-min (Encyclopedia of Korean Culture, 2014) calls it a creative ballet "harmonising the beauty of East and West" [documented]. The 2017 Seoul Arts Center grand prize confirmed its canonical status [documented].
+- **A Petipa ballet in hanbok.** Moon herself grants that it is "not groundbreaking"; the national content sits inside a nineteenth-century Russian frame, revised by a Russian director for Western audiences [documented, her words; reading argued].
+- **Patronage and message.** Pickard's account makes the church founder the author of its theme of filial piety; the register asks that the patronage be shown on the card [documented, Pickard 1987; register note]. Whether *hyo* is a Korean national value or also a religious one depends on the reader [argued].
+- **A daughter's sacrifice.** Seen beside T24 (women against the patriarch), the story rewards a daughter who gives her life for her father; the company presents it as devotion, not oppression [argued; company framing documented].
+- **Contradictions.** First tour 1987 vs 1989; 12 vs 15 countries; three composers vs two named [contested].
+
+### Facts worth telling
+- The idea came from an English children's book [documented].
+- It was paid for by the Unification Church's cultural foundation, and the church founder's daughter-in-law danced the lead [foundation documented; family tie probable].
+- Her father jumped off the 3-metre ship to prove it safe and cracked a rib [documented, Moon].
+- The scheming stepmother of the Korean original was cut [documented].
+- Five Shim Chungs danced at once at the thirtieth anniversary [documented].
+- It reached the Middle East at the opening festival of Muscat's Royal Opera House [documented, company].
+
+### Set it beside
+- `fish-beauty-1959`: an Asian heroine passes through an undersea court; Beijing's under Soviet guidance, Seoul's under American and later Russian.
+- `bayadere-1877`: the model Moon names: Petipa's "Indian" ballet, here answered with Korea's own story.
+- `sylphide-1832`: the two worlds, crossed; but Shim Chung returns and marries.
+- `rite-of-spring-1913`: the chosen girl given to save the group, here rewarded by heaven.
+
+### What a maker can take from it
+- Pick one value and build every scene to show it; *hyo* gave a clear spine that audiences understood without the language.
+- Plan to revise. The work stayed alive because each director, designer and decade changed it.
+- Know the frame you borrow: a Petipa structure makes a story legible abroad, but it can also make it look like everyone else's.
+
+### Beyond the stage
+The 2007 ballet musical; CD sales on tour [documented]. The company's later Korean works *The Love of Chunhyang* (2007) and *Korea Emotion* [documented].
+
+### Sources and open images
+- Universal Ballet repertory page, https://www.universalballet.com/en/bbs/board.php?bo_table=repertory&wr_id=9 (company claims)
+- Shim Jung-min 심정민, "심청", *Encyclopedia of Korean Culture* (AKS, 2014), https://encykorea.aks.ac.kr/Article/E0074377 (KOGL, public licence)
+- Kevin Pickard on *Shim Chung* (1987), https://www.tparents.org/Library/Unification/Talks/Pickard/Pickard-870100.htm
+- Bang Hee-mang, interview with Moon Hoon-sook, *Chum Webzine* (2017), http://www.koreadance.kr/board/board_view.php?board_name=plan&page=32&view_id=172
+- *Korea Times* 12 June 2016; *Korea Herald* 29 April 2026, https://www.koreaherald.com/article/10728439; *Herald Business* 19 April 2026, https://biz.heraldcorp.com/article/10720492; *Seoul Shinmun* 3 Oct 2012, https://www.seoul.co.kr/news/life/2012/10/03/20121003019003
+- Images: company photographs: link-only. Encyclopedia of Korean Culture media carry individual KOGL marks; check each. Joseon-period illustrations of *Simcheong-jeon* in museum collections may be public domain [probable].
 
 ## 大红灯笼高高挂 / Raise the Red Lantern (2001)
 

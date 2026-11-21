@@ -7,52 +7,100 @@
  ],
  "eras": [
   {
-   "id": "court",
-   "label": "Court ballet",
+   "id": "E1",
+   "label": "The court designs a world",
    "from": 1581,
-   "to": 1680
+   "to": 1671,
+   "chapters": [
+    1
+   ]
   },
   {
-   "id": "enlightenment",
-   "label": "Academy and action ballet",
-   "from": 1680,
-   "to": 1820
+   "id": "E2",
+   "label": "The Opéra makes professionals",
+   "from": 1672,
+   "to": 1759,
+   "chapters": [
+    1,
+    2
+   ]
   },
   {
-   "id": "romantic",
-   "label": "Romantic ballet",
-   "from": 1820,
-   "to": 1865
+   "id": "E3",
+   "label": "The ballet tells a story",
+   "from": 1760,
+   "to": 1829,
+   "chapters": [
+    1,
+    2
+   ]
   },
   {
-   "id": "imperial",
-   "label": "Imperial grand ballet",
+   "id": "E4",
+   "label": "The theatre sells a dream",
+   "from": 1830,
+   "to": 1864,
+   "chapters": [
+    3
+   ]
+  },
+  {
+   "id": "E5",
+   "label": "The empire specifies",
    "from": 1865,
-   "to": 1908
+   "to": 1904,
+   "chapters": [
+    4,
+    5
+   ]
   },
   {
-   "id": "modernist",
-   "label": "Ballets Russes and modernism",
-   "from": 1909,
-   "to": 1943
+   "id": "E6",
+   "label": "The committee and the painter's stage",
+   "from": 1905,
+   "to": 1928,
+   "chapters": [
+    7
+   ]
   },
   {
-   "id": "postwar",
-   "label": "States, companies and the Cold War",
-   "from": 1944,
-   "to": 1975
+   "id": "E7",
+   "label": "States, schools and the bare stage",
+   "from": 1929,
+   "to": 1955,
+   "chapters": [
+    7,
+    8
+   ]
   },
   {
-   "id": "late20",
-   "label": "Remaking and new forms",
-   "from": 1976,
-   "to": 1999
+   "id": "E8",
+   "label": "Routes and rivalries",
+   "from": 1956,
+   "to": 1974,
+   "chapters": [
+    8
+   ]
   },
   {
-   "id": "c21",
-   "label": "The twenty-first century",
-   "from": 2000,
-   "to": 2026
+   "id": "E9",
+   "label": "Remaking the canon",
+   "from": 1975,
+   "to": 2004,
+   "chapters": [
+    10
+   ]
+  },
+  {
+   "id": "E10",
+   "label": "Screens, the world stage and repair",
+   "from": 2005,
+   "to": 2026,
+   "chapters": [
+    9,
+    10,
+    11
+   ]
   }
  ],
  "lanes": [
@@ -62,6 +110,13 @@
   "Britain",
   "The Americas",
   "Asia, Africa and the Middle East"
+ ],
+ "event_lanes": [
+  "Who paid and who ran it",
+  "Bodies and training",
+  "Stage, design and light",
+  "Music, record and media",
+  "The world outside"
  ],
  "works": [
   {
@@ -83,7 +138,8 @@
     "Jacques Patin"
    ],
    "premise": "The enchantress Circe is overcome by the gods and the king, restoring harmony to a realm torn by religious war.",
-   "era": "court",
+   "era": "E1",
+   "period": "court",
    "lane": "France",
    "region": "France",
    "threads": [
@@ -95,7 +151,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W1 §1"
+    "works/W1 §1",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -119,7 +176,8 @@
     "Giacomo Torelli (machines)"
    ],
    "premise": "Twelve hours of night, with its thieves, witches and dreams, end as the young king rises as the Sun.",
-   "era": "court",
+   "era": "E1",
+   "period": "court",
    "lane": "France",
    "region": "France",
    "threads": [
@@ -131,7 +189,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W1 §2"
+    "works/W1 §2",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -152,7 +211,8 @@
     "unknown"
    ],
    "premise": "A social climber is tricked by a mock 'Turkish ceremony' into believing he has been made a mamamouchi.",
-   "era": "court",
+   "era": "E1",
+   "period": "court",
    "lane": "France",
    "region": "France",
    "threads": [
@@ -182,7 +242,8 @@
     "Marie Sallé (costume reform - loose hair, muslin dress)"
    ],
    "premise": "A sculptor's statue comes to life; Sallé danced it uncorseted, a reform of costume and expression.",
-   "era": "enlightenment",
+   "era": "E2",
+   "period": "enlightenment",
    "lane": "Britain",
    "region": "Britain / France",
    "threads": [
@@ -193,7 +254,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D1_1734-1881.md"
+   ]
   },
   {
    "id": "indes-galantes-1735",
@@ -214,7 +277,8 @@
     "unknown"
    ],
    "premise": "Love in four 'Indies' (Turkey, Peru, Persia, the American forest) as seen from the Opéra.",
-   "era": "enlightenment",
+   "era": "E2",
+   "period": "enlightenment",
    "lane": "France",
    "region": "France",
    "threads": [
@@ -244,7 +308,8 @@
     "unknown"
    ],
    "premise": "The seducer is dragged to hell by the statue of the man he killed: a pantomime ballet that tells a whole tragedy without words.",
-   "era": "enlightenment",
+   "era": "E3",
+   "period": "enlightenment",
    "lane": "Italy and Europe",
    "region": "Austria",
    "threads": [
@@ -274,7 +339,8 @@
     "Louis-René Boquet (costumes) (probable)"
    ],
    "premise": "Medea's revenge as a ballet d'action: the passions told in pantomime, the program of the Lettres sur la danse put on stage.",
-   "era": "enlightenment",
+   "era": "E3",
+   "period": "enlightenment",
    "lane": "Italy and Europe",
    "region": "Germany / France",
    "threads": [
@@ -285,7 +351,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W1 §3"
+    "works/W1 §3",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -307,7 +374,8 @@
     "unknown"
    ],
    "premise": "A farmer's daughter outwits her mother to marry the young farmer she loves rather than the rich simpleton.",
-   "era": "enlightenment",
+   "era": "E3",
+   "period": "enlightenment",
    "lane": "France",
    "region": "France",
    "threads": [
@@ -318,7 +386,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D1_1734-1881.md"
+   ]
   },
   {
    "id": "flore-et-zephire-1796",
@@ -338,7 +408,8 @@
     "Liparotti (machinist) (probable)"
    ],
    "premise": "The west wind courts Flora; flying machinery lifts dancers into the air, a precursor of the Romantic illusion of weightlessness.",
-   "era": "enlightenment",
+   "era": "E3",
+   "period": "enlightenment",
    "lane": "Britain",
    "region": "Britain / France / Russia",
    "threads": [
@@ -369,7 +440,8 @@
     "unknown"
    ],
    "premise": "Prometheus brings two statues to life and has them taught the arts, a parable of education and enlightenment.",
-   "era": "enlightenment",
+   "era": "E3",
+   "period": "enlightenment",
    "lane": "Italy and Europe",
    "region": "Austria / Italy",
    "threads": [
@@ -401,7 +473,8 @@
     "gas lighting"
    ],
    "premise": "Dead nuns rise by moonlight in a ruined cloister to seduce the hero: the scene from which the white act grew.",
-   "era": "romantic",
+   "era": "E4",
+   "period": "romantic",
    "lane": "France",
    "region": "France",
    "threads": [
@@ -433,7 +506,8 @@
     "Eugène Lami (costumes)"
    ],
    "premise": "A Scottish farmer leaves his bride for an air spirit and destroys her by trying to possess her.",
-   "era": "romantic",
+   "era": "E4",
+   "period": "romantic",
    "lane": "France",
    "region": "France",
    "threads": [
@@ -447,7 +521,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W1 §4"
+    "works/W1 §4",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -468,7 +543,8 @@
     "unknown"
    ],
    "premise": "The Paris ballet re-made in Copenhagen with a new score; the version that survived in continuous performance.",
-   "era": "romantic",
+   "era": "E4",
+   "period": "romantic",
    "lane": "Italy and Europe",
    "region": "Denmark",
    "threads": [
@@ -502,7 +578,8 @@
     "Paul Lormier (costumes)"
    ],
    "premise": "A village girl dies of a nobleman's betrayal and, among the vengeful ghosts of jilted brides, saves him.",
-   "era": "romantic",
+   "era": "E4",
+   "period": "romantic",
    "lane": "France",
    "region": "France",
    "threads": [
@@ -515,7 +592,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W1 §5"
+    "works/W1 §5",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -539,7 +617,8 @@
     "unknown"
    ],
    "premise": "A Neapolitan fisherman rescues his bride from a sea-god's grotto; the last act is a wedding tarantella.",
-   "era": "romantic",
+   "era": "E4",
+   "period": "romantic",
    "lane": "Italy and Europe",
    "region": "Denmark / Italy",
    "threads": [
@@ -551,7 +630,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D1_1734-1881.md"
+   ]
   },
   {
    "id": "esmeralda-1844",
@@ -571,7 +652,8 @@
     "William Grieve (probable)"
    ],
    "premise": "A Romani street dancer is loved by a priest, a poet, a captain and the bell-ringer, and condemned as a witch.",
-   "era": "romantic",
+   "era": "E4",
+   "period": "romantic",
    "lane": "Britain",
    "region": "Britain / France / Russia",
    "threads": [
@@ -582,7 +664,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D1_1734-1881.md"
+   ]
   },
   {
    "id": "pas-de-quatre-1845",
@@ -602,7 +686,8 @@
     "none known"
    ],
    "premise": "Four rival ballerinas share one stage, each given a solo to her strength; the star system made into a ballet.",
-   "era": "romantic",
+   "era": "E4",
+   "period": "romantic",
    "lane": "Britain",
    "region": "Britain",
    "threads": [
@@ -611,7 +696,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D1_1734-1881.md"
+   ]
   },
   {
    "id": "paquita-1846",
@@ -631,7 +718,8 @@
     "unknown"
    ],
    "premise": "A Romani girl in Spain saves a French officer and turns out to be of noble birth.",
-   "era": "romantic",
+   "era": "E4",
+   "period": "romantic",
    "lane": "France",
    "region": "France / Russia",
    "threads": [
@@ -641,7 +729,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D1_1734-1881.md"
+   ]
   },
   {
    "id": "corsaire-1856",
@@ -661,7 +751,8 @@
     "unknown"
    ],
    "premise": "A pirate rescues a Greek girl from a slave market and a pasha's harem; a shipwreck ends it.",
-   "era": "romantic",
+   "era": "E4",
+   "period": "romantic",
    "lane": "France",
    "region": "France / Russia",
    "threads": [
@@ -671,7 +762,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D1_1734-1881.md"
+   ]
   },
   {
    "id": "papillon-1860",
@@ -691,7 +784,8 @@
     "unknown"
    ],
    "premise": "A girl turned into a butterfly by a fairy is caught and pinned by the prince who loves her.",
-   "era": "romantic",
+   "era": "E4",
+   "period": "romantic",
    "lane": "France",
    "region": "France",
    "threads": [
@@ -722,7 +816,8 @@
     "unknown"
    ],
    "premise": "An English lord, dreaming in a pyramid under opium, lives a romance with a mummy who comes to life.",
-   "era": "romantic",
+   "era": "E4",
+   "period": "romantic",
    "lane": "Russia and the Soviet Union",
    "region": "Russia / France",
    "threads": [
@@ -734,7 +829,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D1_1734-1881.md"
+   ]
   },
   {
    "id": "don-quixote-1869",
@@ -754,7 +851,8 @@
     "unknown"
    ],
    "premise": "In a Barcelona square the knight blesses the love of an innkeeper's daughter and a barber, against her father's choice.",
-   "era": "imperial",
+   "era": "E5",
+   "period": "imperial",
    "lane": "Russia and the Soviet Union",
    "region": "Russia / Spain",
    "threads": [
@@ -767,7 +865,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D1_1734-1881.md"
+   ]
   },
   {
    "id": "coppelia-1870",
@@ -789,7 +889,8 @@
     "Antoine Lavastre (sets); Alfred Albert (costumes)"
    ],
    "premise": "A village girl impersonates a toymaker's doll to win back her fiancé, who has fallen for the doll.",
-   "era": "imperial",
+   "era": "E5",
+   "period": "imperial",
    "lane": "France",
    "region": "France",
    "threads": [
@@ -802,7 +903,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W1 §6"
+    "works/W1 §6",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -825,7 +927,8 @@
     "Philippe Chaperon (sets); Eugène Lacoste (costumes) (probable)"
    ],
    "premise": "A huntress-nymph of Diana is won by a shepherd with the help of Eros.",
-   "era": "imperial",
+   "era": "E5",
+   "period": "imperial",
    "lane": "France",
    "region": "France",
    "threads": [
@@ -858,7 +961,8 @@
     "Andrei Roller (sets)"
    ],
    "premise": "A temple dancer loved by a warrior is killed by his royal bride; in an opium vision he finds her among the Shades.",
-   "era": "imperial",
+   "era": "E5",
+   "period": "imperial",
    "lane": "Russia and the Soviet Union",
    "region": "Russia",
    "threads": [
@@ -872,7 +976,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W1 §7"
+    "works/W1 §7",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -895,7 +1000,8 @@
     "various"
    ],
    "premise": "A prince swears love to a woman turned into a swan and is tricked into betraying her by her black double.",
-   "era": "imperial",
+   "era": "E5",
+   "period": "imperial",
    "lane": "Russia and the Soviet Union",
    "region": "Russia",
    "threads": [
@@ -909,7 +1015,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W1 §10"
+    "works/W1 §10",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -930,7 +1037,8 @@
     "Alfredo Edel (costumes) (probable)"
    ],
    "premise": "Light defeats Obscurantism through the inventions of the century, in a spectacle of hundreds of dancers.",
-   "era": "imperial",
+   "era": "E5",
+   "period": "imperial",
    "lane": "Italy and Europe",
    "region": "Italy",
    "threads": [
@@ -965,7 +1073,8 @@
     "Ivanov (sets)"
    ],
    "premise": "A princess cursed by a slighted fairy sleeps a hundred years until a prince's kiss; a homage to the court of Louis XIV.",
-   "era": "imperial",
+   "era": "E5",
+   "period": "imperial",
    "lane": "Russia and the Soviet Union",
    "region": "Russia",
    "threads": [
@@ -978,7 +1087,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W1 §8"
+    "works/W1 §8",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -1000,7 +1110,8 @@
     "Mikhail Bocharov (sets); Ivan Vsevolozhsky (costumes)"
    ],
    "premise": "On Christmas Eve a girl's nutcracker doll becomes a prince who takes her to the Kingdom of Sweets.",
-   "era": "imperial",
+   "era": "E5",
+   "period": "imperial",
    "lane": "Russia and the Soviet Union",
    "region": "Russia",
    "threads": [
@@ -1014,7 +1125,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W1 §9"
+    "works/W1 §9",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -1037,7 +1149,8 @@
     "Pyotr Lambin (sets); Ekaterina Ofitserova (costumes) (probable)"
    ],
    "premise": "A Hungarian-Provençal noblewoman waits for her crusader knight and resists a Saracen knight who tries to abduct her.",
-   "era": "imperial",
+   "era": "E5",
+   "period": "imperial",
    "lane": "Russia and the Soviet Union",
    "region": "Russia",
    "threads": [
@@ -1048,7 +1161,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D2_1898-1929.md"
+   ]
   },
   {
    "id": "dying-swan-1905",
@@ -1069,7 +1184,8 @@
     "Léon Bakst (later costume) (probable)"
    ],
    "premise": "A two-minute solo: a swan's last struggle; Pavlova's signature.",
-   "era": "imperial",
+   "era": "E6",
+   "period": "imperial",
    "lane": "Russia and the Soviet Union",
    "region": "Russia",
    "threads": [
@@ -1079,7 +1195,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D2_1898-1929.md"
+   ]
   },
   {
    "id": "les-sylphides-1909",
@@ -1099,7 +1217,8 @@
     "Alexandre Benois (1909)"
    ],
    "premise": "A poet among sylphs in moonlight: a white act without a plot, a ballet about the Romantic ballet.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "Russia and the Soviet Union",
    "region": "Russia / France",
    "threads": [
@@ -1111,7 +1230,9 @@
    "parent": "the",
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D2_1898-1929.md"
+   ]
   },
   {
    "id": "pavillon-darmide-1907",
@@ -1131,7 +1252,8 @@
     "Alexandre Benois"
    ],
    "premise": "A traveller sleeps in a pavilion where a tapestry of Armida comes alive; awake, he finds her scarf.",
-   "era": "imperial",
+   "era": "E6",
+   "period": "imperial",
    "lane": "Russia and the Soviet Union",
    "region": "Russia",
    "threads": [
@@ -1163,7 +1285,8 @@
     "Léon Bakst (Firebird and Tsarevna costumes)"
    ],
    "premise": "Prince Ivan captures the magic Firebird, spares her for a feather, and with her help destroys the immortal Kashchei.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "Russia and the Soviet Union",
    "region": "Russia / France",
    "threads": [
@@ -1176,7 +1299,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W2 §2"
+    "works/W2 §2",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -1197,7 +1321,8 @@
     "Léon Bakst"
    ],
    "premise": "While the shah is away his wives and the Golden Slave hold an orgy; he returns and has them killed.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "Russia and the Soviet Union",
    "region": "Russia / France",
    "threads": [
@@ -1208,7 +1333,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W2 §1"
+    "works/W2 §1",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -1229,7 +1355,8 @@
     "Alexandre Benois"
    ],
    "premise": "At a Shrovetide fair, a puppet with a soul loves a ballerina doll and is killed by the Moor; his ghost mocks the showman.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "Russia and the Soviet Union",
    "region": "Russia / France",
    "threads": [
@@ -1242,7 +1369,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W2 §3"
+    "works/W2 §3",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -1264,7 +1392,8 @@
     "Léon Bakst"
    ],
    "premise": "A girl home from her first ball dreams the rose she wore dances with her, then leaps out of the window.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "France",
    "region": "France / Russia",
    "threads": [
@@ -1275,7 +1404,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D2_1898-1929.md"
+   ]
   },
   {
    "id": "apres-midi-faune-1912",
@@ -1295,7 +1426,8 @@
     "Léon Bakst"
    ],
    "premise": "A faun pursues nymphs in a flat frieze of profile movement and is left with a scarf.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "France",
    "region": "France / Russia",
    "threads": [
@@ -1306,7 +1438,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W2 §4"
+    "works/W2 §4",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -1327,7 +1460,8 @@
     "Léon Bakst"
    ],
    "premise": "A young man and two women look for a lost tennis ball in a park at dusk and trade kisses.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "France",
    "region": "France / Russia",
    "threads": [
@@ -1337,7 +1471,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D2_1898-1929.md"
+   ]
   },
   {
    "id": "rite-of-spring-1913",
@@ -1357,7 +1493,8 @@
     "Nicholas Roerich"
    ],
    "premise": "Pagan tribes celebrate spring; a chosen maiden dances herself to death.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "Russia and the Soviet Union",
    "region": "Russia / France",
    "threads": [
@@ -1370,7 +1507,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W2 §5"
+    "works/W2 §5",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -1391,7 +1529,8 @@
     "Pablo Picasso"
    ],
    "premise": "Fairground managers and acts try to lure a crowd into a show that never begins.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "France",
    "region": "France",
    "threads": [
@@ -1403,7 +1542,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W2 §6"
+    "works/W2 §6",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -1424,7 +1564,8 @@
     "Konstantin Korovin (probable)"
    ],
    "premise": "A chrysanthemum is torn by the autumn wind and abandoned by a passing poet.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "Russia and the Soviet Union",
    "region": "Russia / Latin America (touring)",
    "threads": [
@@ -1454,7 +1595,8 @@
     "André Derain"
    ],
    "premise": "Two dancing dolls in a toyshop, sold to separate buyers, elope overnight with the other toys' help.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "France",
    "region": "France / Britain",
    "threads": [
@@ -1464,7 +1606,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D2_1898-1929.md"
+   ]
   },
   {
    "id": "tricorne-1919",
@@ -1484,7 +1628,8 @@
     "Pablo Picasso"
    ],
    "premise": "A miller and his wife outwit a lecherous magistrate in an Andalusian village.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "Italy and Europe",
    "region": "Spain / France",
    "threads": [
@@ -1496,7 +1641,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D2_1898-1929.md"
+   ]
   },
   {
    "id": "maries-tour-eiffel-1921",
@@ -1521,7 +1668,8 @@
     "Jean Hugo (costumes and masks)"
    ],
    "premise": "A wedding party on the Eiffel Tower is spoken by two phonograph-narrators while a camera swallows and spits out characters.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "France",
    "region": "France / Sweden",
    "threads": [
@@ -1552,7 +1700,8 @@
     "Fernand Léger"
    ],
    "premise": "On a working-class skating rink, a madman steals a woman from her partner as the crowd circles.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "France",
    "region": "France / Sweden",
    "threads": [
@@ -1582,7 +1731,8 @@
     "Oskar Schlemmer"
    ],
    "premise": "Three dancers in eighteen sculptural costumes move through yellow, pink and black sequences: the body as geometry.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "Italy and Europe",
    "region": "Germany",
    "threads": [
@@ -1593,7 +1743,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D2_1898-1929.md"
+   ]
   },
   {
    "id": "creation-du-monde-1923",
@@ -1613,7 +1765,8 @@
     "Fernand Léger"
    ],
    "premise": "African deities create plants, animals and the first couple, in a European fantasy of Africa built from jazz and sculpture.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "France",
    "region": "France / Sweden",
    "threads": [
@@ -1625,7 +1778,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D2_1898-1929.md"
+   ]
   },
   {
    "id": "les-noces-1923",
@@ -1645,7 +1800,8 @@
     "Natalia Goncharova"
    ],
    "premise": "A Russian peasant wedding as an impersonal rite: braiding, blessing, feast and bedding, with the couple as functions of the group.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "Russia and the Soviet Union",
    "region": "Russia / France",
    "threads": [
@@ -1657,7 +1813,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W2 §7"
+    "works/W2 §7",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -1678,7 +1835,8 @@
     "Marie Laurencin"
    ],
    "premise": "A hostess, flappers, three athletes and an ambiguous 'girl in blue' flirt in a white salon: gender and desire in code.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "France",
    "region": "France",
    "threads": [
@@ -1708,7 +1866,8 @@
     "Francis Picabia (wall of car headlamps); René Clair (film Entr'acte)"
    ],
    "premise": "An 'instantaneist' anti-ballet: headlights blind the audience, a woman dresses and undresses, a film interrupts.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "France",
    "region": "France / Sweden",
    "threads": [
@@ -1740,7 +1899,8 @@
     "Pablo Picasso (curtain)"
    ],
    "premise": "Bathers, a tennis champion and a golfer flirt on a Riviera beach: an operetta danced in real sportswear.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "France",
    "region": "France",
    "threads": [
@@ -1751,7 +1911,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W2 §8"
+    "works/W2 §8",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -1772,7 +1933,8 @@
     "Georgy Yakulov"
    ],
    "premise": "From the black-market Russia of the NEP to a factory where workers become parts of the machine.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "France",
    "region": "France / USSR",
    "threads": [
@@ -1803,7 +1965,8 @@
     "Mikhail Kurilko"
    ],
    "premise": "A Chinese dancer in a port city gives her life to save a Soviet ship's captain from her Western-backed lover.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "Russia and the Soviet Union",
    "region": "USSR",
    "threads": [
@@ -1815,7 +1978,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W2 §10a"
+    "works/W2 §10a",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -1838,7 +2002,8 @@
     "Coco Chanel (1929 costumes)"
    ],
    "premise": "The young god Apollo is born, taught by three Muses, chooses Terpsichore and ascends Parnassus.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "France",
    "region": "France / USA",
    "threads": [
@@ -1850,7 +2015,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W2 §9"
+    "works/W2 §9",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -1871,7 +2037,8 @@
     "Alexandre Benois"
    ],
    "premise": "A woman dancing on a tavern table draws the men around her into a rising frenzy.",
-   "era": "modernist",
+   "era": "E6",
+   "period": "modernist",
    "lane": "France",
    "region": "France",
    "threads": [
@@ -1902,7 +2069,8 @@
     "Georges Rouault"
    ],
    "premise": "A son leaves home, is stripped by a siren and her thugs, and crawls back to his father's arms.",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "France",
    "region": "France",
    "threads": [
@@ -1934,7 +2102,8 @@
     "Valentina Khodasevich"
    ],
    "premise": "A Soviet football team at an industrial exhibition in a Western city is framed by fascists and freed by workers.",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "Russia and the Soviet Union",
    "region": "USSR",
    "threads": [
@@ -1945,7 +2114,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D4_soviet_1930-1967.md"
+   ]
   },
   {
    "id": "bolt-1931",
@@ -1966,7 +2137,8 @@
     "Georgy Korshikov"
    ],
    "premise": "A lazy worker throws a bolt into a machine to sabotage the factory and is caught by the Komsomol.",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "Russia and the Soviet Union",
    "region": "USSR",
    "threads": [
@@ -1996,7 +2168,8 @@
     "Vladimir Dmitriev"
    ],
    "premise": "Marseille volunteers march on Paris and storm the Tuileries: the crowd as hero.",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "Russia and the Soviet Union",
    "region": "USSR",
    "threads": [
@@ -2007,7 +2180,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W2 §10b"
+    "works/W2 §10b",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -2028,7 +2202,8 @@
     "Hein Heckroth"
    ],
    "premise": "Masked diplomats argue around a table, war breaks out, and Death collects everyone.",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "Italy and Europe",
    "region": "Germany",
    "threads": [
@@ -2038,7 +2213,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D3_1932-1949.md"
+   ]
   },
   {
    "id": "les-presages-1933",
@@ -2058,7 +2235,8 @@
     "André Masson"
    ],
    "premise": "Man struggles with Fate across four movements: the earliest known 'symphonic ballet' set to a whole symphony.",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "France",
    "region": "France",
    "threads": [
@@ -2088,7 +2266,8 @@
     "Valentina Khodasevich"
    ],
    "premise": "A Crimean khan captures a Polish princess; his jealous favourite kills her and he builds a fountain of tears.",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "Russia and the Soviet Union",
    "region": "USSR",
    "threads": [
@@ -2099,7 +2278,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D4_soviet_1930-1967.md"
+   ]
   },
   {
    "id": "serenade-1934",
@@ -2119,7 +2300,8 @@
     "Jean Lurçat (1935); Barbara Karinska (later costumes)"
    ],
    "premise": "Seventeen women in blue moonlight: a plotless ballet with a ghost of a story, made on students.",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "The Americas",
    "region": "USA",
    "threads": [
@@ -2129,7 +2311,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D3_1932-1949.md"
+   ]
   },
   {
    "id": "bright-stream-1935",
@@ -2149,7 +2333,8 @@
     "Mikhail Bobyshov"
    ],
    "premise": "City artists visit a kolkhoz harvest festival; cross-dressed disguises expose a philandering dacha-owner.",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "Russia and the Soviet Union",
    "region": "USSR",
    "threads": [
@@ -2182,7 +2367,8 @@
     "Paul Larthe; Pablo Picasso (1962 revival)"
    ],
    "premise": "Icarus fixes on wings, flies and falls, danced to percussion composed after the choreography.",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "France",
    "region": "France",
    "threads": [
@@ -2212,7 +2398,8 @@
     "Rex Whistler"
    ],
    "premise": "A young heir squanders his inheritance in Georgian London and ends in Bedlam.",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "Britain",
    "region": "Britain",
    "threads": [
@@ -2222,7 +2409,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D3_1932-1949.md"
+   ]
   },
   {
    "id": "jardin-aux-lilas-1936",
@@ -2242,7 +2431,8 @@
     "Hugh Stevenson"
    ],
    "premise": "At a garden party before her arranged wedding, a woman tries to say goodbye to the man she loves.",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "Britain",
    "region": "Britain",
    "threads": [
@@ -2251,7 +2441,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D3_1932-1949.md"
+   ]
   },
   {
    "id": "checkmate-1937",
@@ -2271,7 +2463,8 @@
     "Edward McKnight Kauffer"
    ],
    "premise": "The Black Queen seduces and kills the Red Knight and corners the old Red King.",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "Britain",
    "region": "Britain",
    "threads": [
@@ -2281,7 +2474,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D3_1932-1949.md"
+   ]
   },
   {
    "id": "les-patineurs-1937",
@@ -2301,7 +2496,8 @@
     "William Chappell"
    ],
    "premise": "Couples skate on a frozen pond at night; a show-off spins until the curtain falls on him.",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "Britain",
    "region": "Britain",
    "threads": [
@@ -2331,7 +2527,8 @@
     "Jared French"
    ],
    "premise": "The pioneer march west frames the short violent life of the outlaw Billy.",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "The Americas",
    "region": "USA",
    "threads": [
@@ -2362,7 +2559,8 @@
     "Pyotr Williams (1940)"
    ],
    "premise": "Two young lovers from feuding families of Verona die for a love their city cannot allow.",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "Italy and Europe",
    "region": "Czechoslovakia / USSR",
    "threads": [
@@ -2373,7 +2571,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D4_soviet_1930-1967.md"
+   ]
   },
   {
    "id": "laurencia-1939",
@@ -2393,7 +2593,8 @@
     "Simon Virsaladze"
    ],
    "premise": "Spanish villagers, roused by a woman assaulted by the Commander, rise and kill him.",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "Russia and the Soviet Union",
    "region": "USSR",
    "threads": [
@@ -2427,7 +2628,8 @@
     "costumes); Germán Cueto (masks)"
    ],
    "premise": "Four episodes from Posada's Mexico: the young ladies of the old regime, the dance of the dispossessed, Don Ferruco's nightmare, the Last Judgement.",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "The Americas",
    "region": "Mexico",
    "threads": [
@@ -2438,7 +2640,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "documented",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D8_world_national.md"
+   ]
   },
   {
    "id": "maiden-tower-1940",
@@ -2458,7 +2662,8 @@
     "not named in sources seen"
    ],
    "premise": "A princess throws herself from Baku's Maiden Tower rather than submit to a forced marriage.",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "Russia and the Soviet Union",
    "region": "Azerbaijan (USSR)",
    "threads": [
@@ -2469,7 +2674,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "documented",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D4_soviet_1930-1967.md"
+   ]
   },
   {
    "id": "gayane-1942",
@@ -2489,7 +2696,8 @@
     "Nikolai Altman (probable)"
    ],
    "premise": "On an Armenian collective farm, a woman exposes her husband as a traitor and saboteur.",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "Russia and the Soviet Union",
    "region": "Armenia / USSR",
    "threads": [
@@ -2500,7 +2708,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "documented",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D4_soviet_1930-1967.md"
+   ]
   },
   {
    "id": "pillar-of-fire-1942",
@@ -2520,7 +2730,8 @@
     "Jo Mielziner"
    ],
    "premise": "A repressed woman, afraid of spinsterhood, gives herself to a stranger and is redeemed by love.",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "The Americas",
    "region": "USA / Britain",
    "threads": [
@@ -2530,7 +2741,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D3_1932-1949.md"
+   ]
   },
   {
    "id": "rodeo-1942",
@@ -2551,7 +2764,8 @@
     "Kermit Love (costumes)"
    ],
    "premise": "A tomboy cowgirl tries to outride the cowhands and wins the Champion Roper by putting on a dress (or by not quite).",
-   "era": "modernist",
+   "era": "E7",
+   "period": "modernist",
    "lane": "The Americas",
    "region": "USA",
    "threads": [
@@ -2562,7 +2776,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D3_1932-1949.md"
+   ]
   },
   {
    "id": "fancy-free-1944",
@@ -2583,7 +2799,8 @@
     "Kermit Love (costumes)"
    ],
    "premise": "Three sailors on shore leave compete for two girls in a Manhattan bar.",
-   "era": "postwar",
+   "era": "E7",
+   "period": "postwar",
    "lane": "The Americas",
    "region": "USA",
    "threads": [
@@ -2593,7 +2810,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D3_1932-1949.md"
+   ]
   },
   {
    "id": "cinderella-zakharov-1945",
@@ -2613,7 +2832,8 @@
     "Pyotr Williams"
    ],
    "premise": "A mistreated stepdaughter goes to the ball with a fairy's help and is found again by a slipper.",
-   "era": "postwar",
+   "era": "E7",
+   "period": "postwar",
    "lane": "Russia and the Soviet Union",
    "region": "USSR",
    "threads": [
@@ -2624,7 +2844,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D4_soviet_1930-1967.md"
+   ]
   },
   {
    "id": "giselle-alonso-1945-1963",
@@ -2644,7 +2866,8 @@
     "see W3 §3"
    ],
    "premise": "A Cuban ballerina and company claim the Romantic classic as a national work and return it to Paris.",
-   "era": "postwar",
+   "era": "E7",
+   "period": "postwar",
    "lane": "The Americas",
    "region": "Cuba",
    "threads": [
@@ -2679,7 +2902,8 @@
     "Boris Erdman (1950) (probable)"
    ],
    "premise": "A hunter steals the wings of a bird-maiden in a forest ruled by the wood-goblin Shurale and must defend her.",
-   "era": "postwar",
+   "era": "E7",
+   "period": "postwar",
    "lane": "Russia and the Soviet Union",
    "region": "Tatarstan (USSR)",
    "threads": [
@@ -2691,7 +2915,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D4_soviet_1930-1967.md"
+   ]
   },
   {
    "id": "four-temperaments-1946",
@@ -2711,7 +2937,8 @@
     "Kurt Seligmann (1946; later practice clothes)"
    ],
    "premise": "Theme and four variations on the humours, danced in a new angular vocabulary; later stripped to practice clothes.",
-   "era": "postwar",
+   "era": "E7",
+   "period": "postwar",
    "lane": "The Americas",
    "region": "USA",
    "threads": [
@@ -2720,7 +2947,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D3_1932-1949.md"
+   ]
   },
   {
    "id": "jeune-homme-et-la-mort-1946",
@@ -2742,7 +2971,8 @@
     "Karinska (costumes)"
    ],
    "premise": "A painter in a Paris garret is driven by a woman to hang himself; she returns as Death and leads him over the roofs.",
-   "era": "postwar",
+   "era": "E7",
+   "period": "postwar",
    "lane": "France",
    "region": "France",
    "threads": [
@@ -2752,7 +2982,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D3_1932-1949.md"
+   ]
   },
   {
    "id": "symphonic-variations-1946",
@@ -2772,7 +3004,8 @@
     "Sophie Fedorovitch"
    ],
    "premise": "Six dancers who never leave the stage against a pale green backcloth: postwar renewal as pure dance.",
-   "era": "postwar",
+   "era": "E7",
+   "period": "postwar",
    "lane": "Britain",
    "region": "Britain",
    "threads": [
@@ -2801,7 +3034,8 @@
     "Leonor Fini (1947)"
    ],
    "premise": "Four movements, four ballerinas, four colours of jewels (1947), merged into a finale of fifty dancers.",
-   "era": "postwar",
+   "era": "E7",
+   "period": "postwar",
    "lane": "France",
    "region": "France / USA",
    "threads": [
@@ -2831,7 +3065,8 @@
     "Miles White (costumes)"
    ],
    "premise": "A New England spinster, crushed by her stepmother and her town, takes an axe to her parents and goes to the gallows.",
-   "era": "postwar",
+   "era": "E7",
+   "period": "postwar",
    "lane": "The Americas",
    "region": "USA",
    "threads": [
@@ -2861,7 +3096,8 @@
     "Antoni Clavé"
    ],
    "premise": "Carmen as a cropped-haired femme fatale in a stylised Spain: sex and death in forty minutes.",
-   "era": "postwar",
+   "era": "E7",
+   "period": "postwar",
    "lane": "France",
    "region": "France",
    "threads": [
@@ -2892,7 +3128,8 @@
     "Allan Fridericia (probable)"
    ],
    "premise": "On Midsummer Eve a count's daughter seduces her father's valet and, shamed, takes his razor.",
-   "era": "postwar",
+   "era": "E7",
+   "period": "postwar",
    "lane": "Italy and Europe",
    "region": "Sweden",
    "threads": [
@@ -2904,7 +3141,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D5_1950-1978.md"
+   ]
   },
   {
    "id": "the-cage-1951",
@@ -2926,7 +3165,8 @@
     "Ruth Sobotka (costumes)"
    ],
    "premise": "A tribe of female insects initiate a novice, who kills her male lovers.",
-   "era": "postwar",
+   "era": "E7",
+   "period": "postwar",
    "lane": "The Americas",
    "region": "USA",
    "threads": [
@@ -2958,7 +3198,8 @@
     "Dante Ortolani"
    ],
    "premise": "A city boy wins a ranch girl by proving himself as a gaucho, ending in a malambo.",
-   "era": "postwar",
+   "era": "E7",
+   "period": "postwar",
    "lane": "The Americas",
    "region": "Argentina",
    "threads": [
@@ -2969,7 +3210,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "documented",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D8_world_national.md"
+   ]
   },
   {
    "id": "afternoon-faun-robbins-1953",
@@ -2991,7 +3234,8 @@
     "Irene Sharaff (costumes)"
    ],
    "premise": "Two dancers in a studio meet in the mirror (the audience) and part after a kiss.",
-   "era": "postwar",
+   "era": "E7",
+   "period": "postwar",
    "lane": "The Americas",
    "region": "USA",
    "threads": [
@@ -3022,7 +3266,8 @@
     "Simon Virsaladze (1957)"
    ],
    "premise": "A Ural stonecutter seeks to carve a perfect stone flower and is held by the Mistress of the Copper Mountain.",
-   "era": "postwar",
+   "era": "E7",
+   "period": "postwar",
    "lane": "Russia and the Soviet Union",
    "region": "USSR",
    "threads": [
@@ -3034,7 +3279,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D4_soviet_1930-1967.md"
+   ]
   },
   {
    "id": "white-haired-girl-matsuyama-1955",
@@ -3054,7 +3301,8 @@
     "Hijikata Umeko (土方梅子) (costumes)"
    ],
    "premise": "A peasant girl sold to a landlord flees to the mountains, her hair turns white, and the revolutionary army rescues her.",
-   "era": "postwar",
+   "era": "E7",
+   "period": "postwar",
    "lane": "Asia, Africa and the Middle East",
    "region": "Japan / China",
    "threads": [
@@ -3088,7 +3336,8 @@
     "none (practice clothes); lighting Nananne Porcher"
    ],
    "premise": "Twelve dancers in practice clothes play out the combinations of twelve-tone music and old court dances as a contest.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "The Americas",
    "region": "USA",
    "threads": [
@@ -3100,7 +3349,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W2 §11"
+    "works/W2 §11",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -3126,7 +3376,8 @@
     "not named in sources seen"
    ],
    "premise": "A fish-spirit falls in love with a young hunter and must resist the Mountain Demon to become human.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "Asia, Africa and the Middle East",
    "region": "China",
    "threads": [
@@ -3138,7 +3389,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "documented",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D8_world_national.md"
+   ]
   },
   {
    "id": "sacre-bejart-1959",
@@ -3158,7 +3411,8 @@
     "Pierre Caille (probable)"
    ],
    "premise": "The Rite as a mass mating ritual of a male and a female tribe, not a sacrifice.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "Italy and Europe",
    "region": "Belgium / France",
    "threads": [
@@ -3188,7 +3442,8 @@
     "Osbert Lancaster"
    ],
    "premise": "Lise and Colas outwit Widow Simone and the dim Alain, with a clog dance, a maypole and a ribbon cat's cradle.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "Britain",
    "region": "Britain",
    "threads": [
@@ -3200,7 +3455,9 @@
    "parent": "fille-mal-gardee-1789",
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D1_1734-1881.md"
+   ]
   },
   {
    "id": "revelations-1960",
@@ -3221,7 +3478,8 @@
     "Ves Harper (probable)"
    ],
    "premise": "From sorrow to baptism to Sunday celebration: African American spirituals in three sections.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "The Americas",
    "region": "USA",
    "threads": [
@@ -3231,7 +3489,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D5_1950-1978.md"
+   ]
   },
   {
    "id": "bolero-bejart-1961",
@@ -3251,7 +3511,8 @@
     "Maurice Béjart"
    ],
    "premise": "A single dancer on a red table, the 'Melody', draws a circle of men, the 'Rhythm', into a crescendo.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "Italy and Europe",
    "region": "Belgium",
    "threads": [
@@ -3282,7 +3543,8 @@
     "Simon Virsaladze"
    ],
    "premise": "A queen gives up her beauty to save her sister; both love the painter Ferhad, who is set to cut a mountain to bring water.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "Russia and the Soviet Union",
    "region": "USSR / Azerbaijan / Turkey",
    "threads": [
@@ -3293,7 +3555,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D4_soviet_1930-1967.md"
+   ]
   },
   {
    "id": "red-detachment-1964",
@@ -3319,7 +3583,8 @@
     "see W3 §1"
    ],
    "premise": "A slave girl on Hainan escapes, joins an all-women Red Army company and grows from revenge to class consciousness.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "Asia, Africa and the Middle East",
    "region": "China",
    "threads": [
@@ -3354,7 +3619,8 @@
     "David Walker (costumes)"
    ],
    "premise": "Oberon and Titania quarrel; Puck's love-juice muddles four lovers and gives Titania an ass for a lover.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "Britain",
    "region": "Britain",
    "threads": [
@@ -3386,7 +3652,8 @@
     "Hüseyin Mumcu (sets); Hale Eren (costumes)"
    ],
    "premise": "A day at a village fountain: girls gossip, a troupe of travelling acrobats and Karagöz and Hacivat perform, night falls.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "Asia, Africa and the Middle East",
    "region": "Turkey",
    "threads": [
@@ -3397,7 +3664,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "documented",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D8_world_national.md"
+   ]
   },
   {
    "id": "onegin-1965",
@@ -3418,7 +3687,8 @@
     "Jürgen Rose"
    ],
    "premise": "A bookish girl's love is rejected by a bored aristocrat; years later, married, she rejects him.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "Italy and Europe",
    "region": "Germany",
    "threads": [
@@ -3428,7 +3698,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D5_1950-1978.md"
+   ]
   },
   {
    "id": "romeo-juliet-macmillan-1965",
@@ -3448,7 +3720,8 @@
     "Nicholas Georgiadis"
    ],
    "premise": "The Prokofiev ballet re-made as gritty Renaissance street life around two teenagers.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "Britain",
    "region": "Britain",
    "threads": [
@@ -3479,7 +3752,8 @@
     "Nicholas Georgiadis"
    ],
    "premise": "A man, a woman and a masked Messenger of Death pass through six songs on the transience of life.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "Italy and Europe",
    "region": "Germany / Britain",
    "threads": [
@@ -3489,7 +3763,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D5_1950-1978.md"
+   ]
   },
   {
    "id": "white-haired-girl-shanghai-1965",
@@ -3509,7 +3785,8 @@
     "collective"
    ],
    "premise": "Xi'er's story as a revolutionary model ballet: the landlord's victim becomes a fighter when the Eighth Route Army comes.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "Asia, Africa and the Middle East",
    "region": "China",
    "threads": [
@@ -3540,7 +3817,8 @@
     "Boris Messerer"
    ],
    "premise": "Carmen in a bullring of chairs, watched by spectators: fate, freedom and the corrida in one act.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "The Americas",
    "region": "Cuba / USSR",
    "threads": [
@@ -3575,7 +3853,8 @@
     "Barbara Karinska (costumes)"
    ],
    "premise": "Three plotless acts as three gems and three national styles of ballet.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "The Americas",
    "region": "USA",
    "threads": [
@@ -3585,7 +3864,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D5_1950-1978.md"
+   ]
   },
   {
    "id": "raka-1967",
@@ -3605,7 +3886,8 @@
     "Raimond Schoop"
    ],
    "premise": "A half-human creature, Raka, enters a village; only the warrior Koki resists him while the others are seduced.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "Asia, Africa and the Middle East",
    "region": "South Africa",
    "threads": [
@@ -3616,7 +3898,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "documented",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D8_world_national.md"
+   ]
   },
   {
    "id": "spartacus-1968",
@@ -3636,7 +3920,8 @@
     "Simon Virsaladze"
    ],
    "premise": "The slave revolt of 73-71 BCE told through four characters: Spartacus, Phrygia, Crassus, Aegina.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "Russia and the Soviet Union",
    "region": "USSR",
    "threads": [
@@ -3670,7 +3955,8 @@
     "Thomas Skelton (lighting)"
    ],
    "premise": "Ten dancers in a sunlit field meet, part and look at the sky, an hour of Chopin without a story.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "The Americas",
    "region": "USA",
    "threads": [
@@ -3680,7 +3966,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D5_1950-1978.md"
+   ]
   },
   {
    "id": "ecstasy-of-rita-joe-1971",
@@ -3700,7 +3988,8 @@
     "unknown"
    ],
    "premise": "A young First Nations woman who moves to the city is crushed by poverty, the courts and violence.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "The Americas",
    "region": "Canada",
    "threads": [
@@ -3733,7 +4022,8 @@
     "Valery Levental"
    ],
    "premise": "A married woman's passion for an officer ends under a train.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "Russia and the Soviet Union",
    "region": "USSR",
    "threads": [
@@ -3765,7 +4055,8 @@
     "unknown"
    ],
    "premise": "Four sisters in a colonial Cuban house dream of love and loss through an afternoon of Lecuona.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "The Americas",
    "region": "Cuba",
    "threads": [
@@ -3795,7 +4086,8 @@
     "Nicholas Georgiadis"
    ],
    "premise": "A convent-bound girl chooses between a poor student and a rich protector, and dies deported in a Louisiana swamp.",
-   "era": "postwar",
+   "era": "E8",
+   "period": "postwar",
    "lane": "Britain",
    "region": "Britain",
    "threads": [
@@ -3806,7 +4098,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D5_1950-1978.md"
+   ]
   },
   {
    "id": "sacre-bausch-1975",
@@ -3826,7 +4120,8 @@
     "Rolf Borzik"
    ],
    "premise": "On a stage covered in earth, the group chooses a woman by a red dress and she dances to death.",
-   "era": "postwar",
+   "era": "E9",
+   "period": "postwar",
    "lane": "Italy and Europe",
    "region": "Germany",
    "threads": [
@@ -3859,7 +4154,8 @@
     "Jennifer Tipton (lighting)"
    ],
    "premise": "Baryshnikov with a bowler hat leads a classical corps through Haydn, mixing ballet with shrugs, slouches and showbiz.",
-   "era": "late20",
+   "era": "E9",
+   "period": "late20",
    "lane": "The Americas",
    "region": "USA",
    "threads": [
@@ -3890,7 +4186,8 @@
     "Jürgen Rose"
    ],
    "premise": "A Paris courtesan gives up her young lover at his father's demand and dies of consumption.",
-   "era": "late20",
+   "era": "E9",
+   "period": "late20",
    "lane": "Italy and Europe",
    "region": "Germany",
    "threads": [
@@ -3921,7 +4218,8 @@
     "Nicholas Georgiadis"
    ],
    "premise": "A drug-addled, syphilitic crown prince, trapped by court politics, kills his teenage mistress and himself.",
-   "era": "late20",
+   "era": "E9",
+   "period": "late20",
    "lane": "Britain",
    "region": "Britain",
    "threads": [
@@ -3951,7 +4249,8 @@
     "Salvador Bernal"
    ],
    "premise": "Prince Rama and Sita, exiled on the eve of his coronation, win back the kingdom, as a Filipino rock opera-ballet with singers among dancers.",
-   "era": "late20",
+   "era": "E9",
+   "period": "late20",
    "lane": "Asia, Africa and the Middle East",
    "region": "Philippines",
    "threads": [
@@ -3963,7 +4262,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "documented",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D8_world_national.md"
+   ]
   },
   {
    "id": "new-years-sacrifice-1981",
@@ -3987,7 +4288,8 @@
     "Li Keyu"
    ],
    "premise": "Xianglin's widow, sold into a second marriage, loses husband and child and is cast out as unlucky by her village.",
-   "era": "late20",
+   "era": "E9",
+   "period": "late20",
    "lane": "Asia, Africa and the Middle East",
    "region": "China",
    "threads": [
@@ -3999,7 +4301,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "documented",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D8_world_national.md"
+   ]
   },
   {
    "id": "giselle-ek-1982",
@@ -4019,7 +4323,8 @@
     "Marie-Louise Ekman"
    ],
    "premise": "The village outsider is driven mad by a man of another class; Act II is a psychiatric asylum.",
-   "era": "late20",
+   "era": "E9",
+   "period": "late20",
    "lane": "Italy and Europe",
    "region": "Sweden",
    "threads": [
@@ -4053,7 +4358,8 @@
     "Carl Michel"
    ],
    "premise": "Giselle transposed to Louisiana's free Black society, where class is counted in generations from slavery.",
-   "era": "late20",
+   "era": "E9",
+   "period": "late20",
    "lane": "The Americas",
    "region": "USA",
    "threads": [
@@ -4088,7 +4394,8 @@
     "Jennifer Tipton (lighting)"
    ],
    "premise": "Dancers in sneakers and dancers on pointe emerge from fog in relays until everyone is exhausted.",
-   "era": "late20",
+   "era": "E9",
+   "period": "late20",
    "lane": "The Americas",
    "region": "USA",
    "threads": [
@@ -4098,7 +4405,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D6_1986-2022.md"
+   ]
   },
   {
    "id": "shim-chung-1986",
@@ -4122,7 +4431,8 @@
     "Oh Han-gyul (costumes)"
    ],
    "premise": "A daughter sells herself as a sacrifice to the sea to restore her blind father's sight, and returns from the Sea King's palace as a queen.",
-   "era": "late20",
+   "era": "E9",
+   "period": "late20",
    "lane": "Asia, Africa and the Middle East",
    "region": "South Korea",
    "threads": [
@@ -4135,7 +4445,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "documented",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D8_world_national.md"
+   ]
   },
   {
    "id": "the-kabuki-1986",
@@ -4156,7 +4468,8 @@
     "costumes)"
    ],
    "premise": "A young man of today falls into the world of Chūshingura and leads the 47 masterless samurai to revenge and ritual suicide.",
-   "era": "late20",
+   "era": "E9",
+   "period": "late20",
    "lane": "Asia, Africa and the Middle East",
    "region": "Japan / France",
    "threads": [
@@ -4168,7 +4481,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "documented",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D8_world_national.md"
+   ]
   },
   {
    "id": "in-the-middle-1987",
@@ -4188,7 +4503,8 @@
     "William Forsythe"
    ],
    "premise": "Nine dancers in practice clothes stretch classical positions to breaking point under hard light and industrial sound.",
-   "era": "late20",
+   "era": "E9",
+   "period": "late20",
    "lane": "France",
    "region": "France / Germany",
    "threads": [
@@ -4199,7 +4515,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D6_1986-2022.md"
+   ]
   },
   {
    "id": "swan-lake-ek-1987",
@@ -4219,7 +4537,8 @@
     "Marie-Louise Ekman"
    ],
    "premise": "A prince's failed break from his mother; bald swans of both sexes.",
-   "era": "late20",
+   "era": "E9",
+   "period": "late20",
    "lane": "Italy and Europe",
    "region": "Sweden",
    "threads": [
@@ -4254,7 +4573,8 @@
     "Charles Burns (comic-art source)"
    ],
    "premise": "The Nutcracker in a 1970s suburban party, with cross-cast roles and snowflakes of both sexes throwing snow.",
-   "era": "late20",
+   "era": "E9",
+   "period": "late20",
    "lane": "Italy and Europe",
    "region": "Belgium / USA",
    "threads": [
@@ -4266,7 +4586,9 @@
    "parent": "nutcracker-1892",
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D6_1986-2022.md"
+   ]
   },
   {
    "id": "swan-lake-bourne-1995",
@@ -4286,7 +4608,8 @@
     "Lez Brotherston"
    ],
    "premise": "A modern prince starved of his mother's love meets a male Swan who embodies the freedom he cannot have.",
-   "era": "late20",
+   "era": "E9",
+   "period": "late20",
    "lane": "Britain",
    "region": "Britain",
    "threads": [
@@ -4322,7 +4645,8 @@
     "Mark Howett (lighting)"
    ],
    "premise": "The Rite as the elemental forces of an ancient Australian landscape, danced by Indigenous and classical dancers together.",
-   "era": "late20",
+   "era": "E9",
+   "period": "late20",
    "lane": "Asia, Africa and the Middle East",
    "region": "Australia",
    "threads": [
@@ -4334,7 +4658,9 @@
    "parent": "rite-of-spring-1913",
    "tier": "B",
    "confidence": "documented",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D6_1986-2022.md"
+   ]
   },
   {
    "id": "el-leila-el-kebira-2001",
@@ -4354,7 +4680,8 @@
     "Abdel-Moneim Kamel"
    ],
    "premise": "A night at a village moulid: vendors, fortune-teller, circus, a lost child; puppets turned into dancers.",
-   "era": "c21",
+   "era": "E9",
+   "period": "c21",
    "lane": "Asia, Africa and the Middle East",
    "region": "Egypt",
    "threads": [
@@ -4391,7 +4718,8 @@
     "Zhang Yimou (lighting)"
    ],
    "premise": "In a 1920s mansion, a new concubine loves a Peking-opera actor; the jealous second wife betrays them and all three are executed.",
-   "era": "c21",
+   "era": "E9",
+   "period": "c21",
    "lane": "Asia, Africa and the Middle East",
    "region": "China",
    "threads": [
@@ -4426,7 +4754,8 @@
     "see W3 §7"
    ],
    "premise": "Odette is married off to Siegfried, who loves a male Odile; a requiem for those lost to AIDS and homophobia.",
-   "era": "c21",
+   "era": "E10",
+   "period": "c21",
    "lane": "Asia, Africa and the Middle East",
    "region": "South Africa",
    "threads": [
@@ -4460,7 +4789,8 @@
     "Bob Crowley"
    ],
    "premise": "Alice follows a rabbit into Wonderland, where Victorian garden-party guests become cards, caterpillars and queens.",
-   "era": "c21",
+   "era": "E10",
+   "period": "c21",
    "lane": "Britain",
    "region": "Britain / Canada",
    "threads": [
@@ -4472,7 +4802,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D6_1986-2022.md"
+   ]
   },
   {
    "id": "sleeping-beauty-ratmansky-2015",
@@ -4493,7 +4825,8 @@
     "Richard Hudson (after Léon Bakst)"
    ],
    "premise": "The 1890 ballet recovered from notation: remaking by subtraction of a century's habits.",
-   "era": "c21",
+   "era": "E10",
+   "period": "c21",
    "lane": "The Americas",
    "region": "USA / Italy",
    "threads": [
@@ -4529,7 +4862,8 @@
     "Moritz Junge (costumes)"
    ],
    "premise": "Three acts, three Woolf novels: memory, time travelling through bodies, and the sea of her death.",
-   "era": "c21",
+   "era": "E10",
+   "period": "c21",
    "lane": "Britain",
    "region": "Britain",
    "threads": [
@@ -4540,7 +4874,9 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D6_1986-2022.md"
+   ]
   },
   {
    "id": "giselle-khan-2016",
@@ -4560,7 +4896,8 @@
     "Tim Yip"
    ],
    "premise": "Giselle among migrant garment workers locked out of a closed factory; the Wilis are the ghosts of dead workers.",
-   "era": "c21",
+   "era": "E10",
+   "period": "c21",
    "lane": "Britain",
    "region": "Britain / Bangladesh (diaspora)",
    "threads": [
@@ -4598,7 +4935,8 @@
     "Patrick Kinmonth"
    ],
    "premise": "An orphan governess falls in love with her employer and discovers the wife hidden in his attic.",
-   "era": "c21",
+   "era": "E10",
+   "period": "c21",
    "lane": "Britain",
    "region": "Britain",
    "threads": [
@@ -4632,7 +4970,8 @@
     "Tom Visser (lighting)"
    ],
    "premise": "Thirty-six dancers in grey coats move as one migrating mass, then a single parting at a door.",
-   "era": "c21",
+   "era": "E10",
+   "period": "c21",
    "lane": "The Americas",
    "region": "Canada / Britain",
    "threads": [
@@ -4663,7 +5002,8 @@
     "see W3 §7"
    ],
    "premise": "A rough, violent Giselle in a South African village; the Wilis are ancestral spirits, and there is no forgiveness.",
-   "era": "c21",
+   "era": "E10",
+   "period": "c21",
    "lane": "Asia, Africa and the Middle East",
    "region": "South Africa",
    "threads": [
@@ -4699,7 +5039,8 @@
     "Yasser Shaalan (lighting)"
    ],
    "premise": "Egypt's last queen, her love for Antony, war, defeat and death, told by an Egyptian composer for Cairo's company.",
-   "era": "c21",
+   "era": "E10",
+   "period": "c21",
    "lane": "Asia, Africa and the Middle East",
    "region": "Egypt",
    "threads": [
@@ -4732,7 +5073,8 @@
     "costumes) (probable)"
    ],
    "premise": "Frida Kahlo's injured body, marriage and painting as a sequence of living pictures.",
-   "era": "c21",
+   "era": "E10",
+   "period": "c21",
    "lane": "Italy and Europe",
    "region": "Netherlands / Mexico (subject)",
    "threads": [
@@ -4763,7 +5105,8 @@
     "Hildegard Bechtler"
    ],
    "premise": "A cellist's love affair with her instrument (danced by a man) and her loss of it to multiple sclerosis.",
-   "era": "c21",
+   "era": "E10",
+   "period": "c21",
    "lane": "Britain",
    "region": "Britain",
    "threads": [
@@ -4795,7 +5138,8 @@
     "unknown"
    ],
    "premise": "Two women in their seventies, from Senegal and France, share memory and grief; the companion piece to an African-cast Rite of Spring.",
-   "era": "c21",
+   "era": "E10",
+   "period": "c21",
    "lane": "Asia, Africa and the Middle East",
    "region": "Senegal / Germany / Britain",
    "threads": [
@@ -4826,7 +5170,8 @@
     "Bob Crowley"
    ],
    "premise": "In revolutionary Mexico, a youngest daughter forbidden to marry pours her feelings into food that bewitches those who eat it.",
-   "era": "c21",
+   "era": "E10",
+   "period": "c21",
    "lane": "Britain",
    "region": "Britain / Mexico (source)",
    "threads": [
@@ -4837,7 +5182,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D6_1986-2022.md"
+   ]
   }
  ],
  "events": [],

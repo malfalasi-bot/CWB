@@ -5,7 +5,11 @@
 .tl-frame{display:grid;grid-template-columns:118px minmax(0,1fr);border:1px solid var(--line);border-radius:6px;background:var(--paper);overflow:hidden}
 .tl-labels{position:relative;box-sizing:border-box;border-right:1px solid var(--line);background:var(--paper)}
 .tl-lab{display:flex;align-items:center;padding:0 10px;font:600 12px/1.2 var(--body);color:var(--ink)}
-.tl-lab.ev{position:absolute;left:0;font-weight:500;color:var(--ink2);font-family:var(--mono);text-transform:uppercase;letter-spacing:.08em;font-size:11px}
+.tl-lab.head{position:absolute;left:0;font:500 10px/1.2 var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--ink2)}
+.tl-lab.head2{font:500 10px/1.2 var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--ink2)}
+.tl-lab.evl{font-weight:400;color:var(--ink2);font-size:11px}
+.tl-lane.ev{stroke-dasharray:2 3}
+.tl-div{stroke:var(--ink2);stroke-width:1;opacity:.35}
 .tl-scroll{overflow-x:auto;overscroll-behavior-x:contain}
 .tl-scroll svg{display:block}
 .tl-band{fill:var(--paper)} .tl-band.alt{fill:var(--wash);opacity:.55}
