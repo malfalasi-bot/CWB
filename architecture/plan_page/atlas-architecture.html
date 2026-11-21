@@ -1,0 +1,215 @@
+<title>Atlas Architecture Plan</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: the same family as the ballet pages (Didone display, humanist sans, mono labels); a reading column with a contents rail; the four layers drawn as stacked bands. */
+:root{--bg:#f4f5f7;--paper:#ffffff;--ink:#16181d;--ink2:#4a4f5a;--line:#d9dce3;--accent:#8a4b12;--wash:#f0e7dc;--alt:#2f5d7c;--altwash:#e3ecf2;--mute:#c9ccd4;
+--display:"Bodoni Moda",Didot,"Bodoni 72",Georgia,serif;--body:"Source Sans 3","Segoe UI",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121318;--paper:#1a1c22;--ink:#e9eaee;--ink2:#a9aeb9;--line:#2d313a;--accent:#e2a866;--wash:#2a2219;--alt:#8cbad8;--altwash:#1b2731;--mute:#3a3f4a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121318;--paper:#1a1c22;--ink:#e9eaee;--ink2:#a9aeb9;--line:#2d313a;--accent:#e2a866;--wash:#2a2219;--alt:#8cbad8;--altwash:#1b2731;--mute:#3a3f4a;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+header.top{max-width:1160px;margin:0 auto 36px;padding-block:48px 28px;border-bottom:1px solid var(--line)}
+.wrap{max-width:1160px;margin:0 auto;display:grid;grid-template-columns:210px minmax(0,1fr);gap:56px}
+.eyebrow{font:500 12px/1.4 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+h1{font:700 clamp(34px,5vw,56px)/1.05 var(--display);margin:.25em 0 .3em;text-wrap:balance;letter-spacing:-.01em}
+.lede{max-width:64ch;color:var(--ink2);margin:0}
+nav.toc{position:sticky;top:calc(env(safe-area-inset-top,0px) + 24px);align-self:start;font-size:14px}
+nav.toc ol{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+nav.toc a{color:var(--ink2);text-decoration:none;display:block;padding:4px 0 4px 12px;border-left:2px solid var(--line)}
+nav.toc a:hover,nav.toc a:focus-visible{color:var(--ink);border-left-color:var(--accent)}
+main{min-width:0;max-width:78ch}
+h2{font:700 30px/1.15 var(--display);margin:2.2em 0 .6em;text-wrap:balance;scroll-margin-top:24px}
+main section:first-child h2{margin-top:0}
+h3{font:600 19px/1.3 var(--body);margin:1.8em 0 .5em;text-wrap:balance}
+p,li{text-wrap:pretty} ul,ol{padding-left:1.3em} li{margin:.35em 0}
+strong{font-weight:600}
+code{font:14px var(--mono);background:var(--wash);padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}
+.tw{overflow-x:auto;margin:1.2em 0;border:1px solid var(--line);border-radius:6px;background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.45}
+th,td{text-align:left;vertical-align:top;padding:10px 14px;border-bottom:1px solid var(--line)}
+th{font:500 12px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);background:var(--wash)}
+tr:last-child td{border-bottom:0}
+td.n{font-variant-numeric:tabular-nums;white-space:nowrap}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:1.2em 0}
+.stat{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:12px 14px;min-width:0}
+.stat b{display:block;font:700 28px/1.1 var(--display);font-variant-numeric:tabular-nums}
+.stat span{display:block;font-size:14px;color:var(--ink2);margin-top:4px}
+.layers{display:grid;gap:8px;margin:1.4em 0}
+.layer{display:grid;grid-template-columns:200px minmax(0,1fr) minmax(0,1fr);gap:16px;background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:6px;padding:14px 16px;align-items:start}
+.layer.v{border-left-color:var(--alt);background:var(--altwash)}
+.layer .k{font:500 11px/1.4 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.layer.v .k{color:var(--alt)}
+.layer h4{font:700 20px/1.2 var(--display);margin:2px 0 0}
+.layer p{margin:0;font-size:15px}
+.layer .ex{color:var(--ink2)}
+.flow{font:500 12px/1.4 var(--mono);color:var(--ink2);text-align:center;letter-spacing:.06em;text-transform:uppercase}
+.bar{display:flex;height:28px;border-radius:6px;overflow:hidden;border:1px solid var(--line);margin:.8em 0 .4em}
+.bar i{display:block;height:100%}
+.bar .a{background:var(--accent)} .bar .b{background:var(--alt)} .bar .c{background:var(--mute)}
+.key{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;color:var(--ink2)}
+.key i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.decide{display:grid;gap:12px;margin:1.2em 0}
+.d{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:14px 18px}
+.d .k{font:500 12px/1.4 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin:0 0 4px}
+.d p{margin:.35em 0} .d .def{color:var(--ink2);font-size:15px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (max-width:860px){.wrap{grid-template-columns:minmax(0,1fr);gap:0}nav.toc{display:none}.layer{grid-template-columns:minmax(0,1fr)}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+</style>
+
+<header class="top">
+  <p class="eyebrow">Creative World · content architecture · version 1.1 · 22 November 2026</p>
+  <h1>One knowledge base, many ways in</h1>
+  <p class="lede">You were right that the Atlas keeps limiting the content. This page sets out why, what others do, how much of the Atlas the rest of the curriculum uses, and a plan that holds everything at any length: a card, a lecture, a full unit or a timeline. Ballet goes first, with nothing lost. Decisions for you are at the end.</p>
+</header>
+
+<div class="wrap">
+<nav class="toc" aria-label="Contents"><ol>
+  <li><a href="#why">Why it limits</a></li>
+  <li><a href="#layers">The four layers</a></li>
+  <li><a href="#use">How much is used</a></li>
+  <li><a href="#ballet">Ballet first</a></li>
+  <li><a href="#world">The world of ballet</a></li>
+  <li><a href="#steps">Steps and effort</a></li>
+  <li><a href="#serve">Serving it</a></li>
+  <li><a href="#program">After ballet</a></li>
+  <li><a href="#decide">Your decisions</a></li>
+</ol></nav>
+
+<main>
+<section id="why">
+<h2>Why the Atlas keeps limiting the content</h2>
+<p>The Atlas was built as a map of short records. Anything longer than one or two sentences has no type in it, so the long material piles up in folders the Atlas cannot see. The map is also the only way in, and only things with a place can stand on a map.</p>
+<div class="stats">
+  <div class="stat"><b>17</b><span>words: the median length of an Atlas record's only prose field (maximum 60)</span></div>
+  <div class="stat"><b>83%</b><span>of the 4,666 canon entries never reach the map: people, techniques, periods, styles, movements</span></div>
+  <div class="stat"><b>0</b><span>Atlas entries for ballet, against 390,000 words of research and 156 works</span></div>
+  <div class="stat"><b>10</b><span>separate stores of facts, using four different confidence vocabularies</span></div>
+</div>
+<p>Each surface has also invented its own format: the Atlas hub, the Edo unit, the lecture, the ballet page and the grouping pages. A full Atlas record was designed in Deep Dives 1, with four text tiers, typed links, media, rights and upkeep, but it was never built. The database is a stale copy of flat text.</p>
+</section>
+
+<section id="layers">
+<h2>The four layers</h2>
+<p>A benchmark of museums, encyclopaedias, publishers, broadcasters and course platforms found the same answer everywhere. None of them lets the display hold the content. Each keeps four things apart and builds every view from them. The plan does the same.</p>
+<div class="layers" role="list">
+  <div class="layer" role="listitem"><div><p class="k">1 · Records</p><h4>What is true</h4></div><p>Works, productions, people, objects, places, events, eras, techniques; one claim per fact, with its source and confidence; sources; images and their licences.</p><p class="ex"><em>Giselle</em> as a work; its Paris, St Petersburg, 1924 and Havana productions; its remakes by Ek, Khan and Masilo as works of their own; its premiere date as a claim.</p></div>
+  <div class="layer" role="listitem"><div><p class="k">2 · Writing</p><h4>What we say, at any length</h4></div><p>Cards in the four tiers, deep dives, chapters, lectures, essays, disputes, myths, lessons, object studies. Length belongs to the form, not to the Atlas.</p><p class="ex">The <em>Giselle</em> card; chapter 3 of the unit; the debate "Who is the author?"; the research files, kept apart from teaching.</p></div>
+  <div class="layer" role="listitem"><div><p class="k">3 · Structures</p><h4>How it is put together</h4></div><p>Units, chapters, sessions, lecture runs, routes, walls, timelines, lenses: ordered references with minutes and framing, never knowledge.</p><p class="ex">The 13-chapter unit with its minutes; the Repertory's routes; the motif walls; the "world of ballet" lens.</p></div>
+  <p class="flow" aria-hidden="true">built by script, never by hand</p>
+  <div class="layer v" role="listitem"><div><p class="k">4 · Views</p><h4>The ways in</h4></div><p>The Map, the Line, Connections, a page for every entity, the Library of units and lectures, Compare, Search, and Ask (the partner voices).</p><p class="ex">The <em>Giselle</em> page: its card, productions and remakes on the line, the disputes, the claims with sources, and the chapters that use it.</p></div>
+</div>
+<p>The map stays. It becomes one way in among eight. Every person, technique, movement and work gets a page of its own, whether or not it has a place.</p>
+</section>
+
+<section id="use">
+<h2>How much of the Atlas the rest of the curriculum uses</h2>
+<p>Outside F1, about 80 of the program's roughly 425 other units need historical, cultural or material knowledge. Each takes a small piece: a card, a claim, a section of a chapter, part of a wall or a saved view on the line. No placement takes a whole chapter. So the Atlas is used in two ways:</p>
+<ul>
+  <li><strong>Taken whole.</strong> A concept unit such as ballet is a course in its own right, an Atlas course outside F1's hours, with its own paths.</li>
+  <li><strong>Taken in pieces.</strong> Other units cite Atlas pieces by id through a link register, and never copy them.</li>
+</ul>
+<p>Ballet's material, by research words:</p>
+<div class="bar" role="img" aria-label="About 87 per cent lives only in the ballet topic, about 6.5 per cent feeds F1 units, about 6.5 per cent feeds other modules"><i class="a" style="width:87%"></i><i class="b" style="width:6.5%"></i><i class="c" style="width:6.5%"></i></div>
+<div class="key"><span><i style="background:var(--accent)"></i>lives only in the topic, about 85–88%</span><span><i style="background:var(--alt)"></i>feeds F1 units, about 6–7%</span><span><i style="background:var(--mute)"></i>feeds other modules, about 6–7%</span></div>
+<p>The material only the topic uses is not waste. It is the course a learner who wants ballet can take, and it is the depth the Historian voice answers from. Materials and design movements are reused most (30 to 50 per cent of their knowledge), civilisations least. Nine modules should write their history into the Atlas, not only read it: F1, F2, F4, S1, S3, S4, S5, S6 and R2, plus M2 for the field atlas and every module's regional slot.</p>
+</section>
+
+<section id="ballet">
+<h2>Ballet first: everything kept, everything findable</h2>
+<p>Nothing is deleted. Research stays research, kept in place, anchored and never copied. Learner writing is written from it and versioned, and no fact reaches a learner until a person has accepted it.</p>
+<div class="tw"><table>
+<thead><tr><th>Ballet now</th><th>Becomes</th></tr></thead>
+<tbody>
+<tr><td>The register of 156 works</td><td>About 136 works and 20 remake works, with productions added by hand where the research names them</td></tr>
+<tr><td>118 works taken apart</td><td>Research, anchored by section; each work's card and deep dive are written from it</td></tr>
+<tr><td>The 13-chapter unit, about 41 hours</td><td>A unit structure with minutes per session that must add up</td></tr>
+<tr><td>The timeline, 155 events, eleven eras</td><td>Event records and an era set; the Repertory page you have becomes the first Line view, at the same link</td></tr>
+<tr><td>18 debates, 38 myths, 13 cross-currents, about 11,000 words of cross-history synthesis</td><td>Dispute, myth and essay documents</td></tr>
+<tr><td>65 designers, 18 design ideas, ten eras of the stage picture</td><td>Designer and idea records with cards; essays for the eras</td></tr>
+<tr><td>The 17 lessons for world-builders</td><td>Lesson documents, the most reused ballet items (about 70 per cent)</td></tr>
+<tr><td>Placements in other units</td><td>Rows in the link register</td></tr>
+<tr><td><em>The shoe</em> page</td><td>Kept; its claim links move from code into the text</td></tr>
+</tbody></table></div>
+<p>First, one work goes through every layer: <em>Giselle</em>, with its work, productions, remakes, claims checked by a person, its card, its place in chapter 3, and one generated page. The pilot measures how long the checking takes. If one work takes you more than about three hours, the method changes before the rest is converted.</p>
+</section>
+
+<section id="world">
+<h2>The world of ballet, industry by industry</h2>
+<p>A ballet is made by many industries at once. Every ballet record and document gets an industry tag and, where it applies, a skill. A lens then shows the topic one industry at a time, with its works, makers, objects, disputes and lessons, linked to the part of the program that teaches the skill. Every row is already researched.</p>
+<div class="tw"><table>
+<thead><tr><th>Industry</th><th>In ballet</th><th>Program</th></tr></thead>
+<tbody>
+<tr><td>Choreography and performance</td><td>The steps, the dancer, the corps, notation</td><td>F3</td></tr>
+<tr><td>Music and sound</td><td>The score, the commission, the conductor's cuts</td><td>F3, S4</td></tr>
+<tr><td>Architecture and venue</td><td>Opera houses, the staircase, access</td><td>S1</td></tr>
+<tr><td>Scenography and light</td><td>Machines, gas, the painted cloth, LED</td><td>S1, S4, T4</td></tr>
+<tr><td>Costume, fashion and textiles</td><td>The tutu, costume families, stage to street</td><td>S3, F4</td></tr>
+<tr><td>Objects and products</td><td>The pointe shoe, the music box, <em>The Nutcracker</em> as a product world</td><td>S2, F4, T10</td></tr>
+<tr><td>Visual art</td><td>Painters as designers: Bakst, Picasso, Chagall, Noguchi</td><td>S4, T1</td></tr>
+<tr><td>Identity and communication</td><td>Posters, programmes, the ballerina as a brand</td><td>S5</td></tr>
+<tr><td>Media and digital</td><td>Prints, photography, film, television, social media, AI</td><td>S6, T3, T6, T7</td></tr>
+<tr><td>Writing and story</td><td>Librettos, scenarios, literary sources</td><td>M1, M3</td></tr>
+<tr><td>Training and the body</td><td>Schools, syllabi, exams, the body ideal</td><td>F3, R4</td></tr>
+<tr><td>Money, law and institutions</td><td>Patronage, the state, unions, copyright, the 2024 <em>Boléro</em> ruling</td><td>R1, R2, F5</td></tr>
+<tr><td>Handover and archives</td><td>Notation, the répétiteur, revivals, reconstructions</td><td>R3, M4</td></tr>
+</tbody></table></div>
+<p>The program has no music area, so music is taught through F3 and S4. The same lens applies to every later topic.</p>
+</section>
+
+<section id="steps">
+<h2>Steps and effort</h2>
+<div class="tw"><table>
+<thead><tr><th>Step</th><th>What</th><th>Your time</th></tr></thead>
+<tbody>
+<tr><td class="n">B0</td><td>Move the Atlas and the topics up to program level, editing every hard-coded path; minimum schemas and checker</td><td>None</td></tr>
+<tr><td class="n">B1</td><td>The <em>Giselle</em> pilot</td><td>2–3 hours</td></tr>
+<tr><td class="n">B2</td><td>Convert the register, events and claims by script, then check them: in full where a learner sees them, by sampling elsewhere</td><td>15–25 hours</td></tr>
+<tr><td class="n">B3</td><td>Anchor the research in place; enter debates, designers and lessons</td><td>None</td></tr>
+<tr><td class="n">B4</td><td>Write the structures: the unit, the line, routes, walls, the industries lens, link rows; check that every ballet file is accounted for</td><td>3–5 hours</td></tr>
+<tr><td class="n">B5</td><td>Build the views: entity pages, the Line, card browser, library reader</td><td>None</td></tr>
+<tr><td class="n">B6</td><td>Search and Ask, with the Historian citing a section or a claim every time</td><td>A short test</td></tr>
+<tr><td class="n">B7</td><td>Learner writing in order: chapters 0 and 3, the chapter 0 lecture, the shoe study, the 35 classic cards, then the rest</td><td>A review per chapter</td></tr>
+</tbody></table></div>
+</section>
+
+<section id="serve">
+<h2>Serving it</h2>
+<p>Pages published here cannot fetch data from another host. So the serving path has two stages.</p>
+<ul>
+  <li><strong>Stage 1, now, at zero cost.</strong> Each surface is published with its own slice of the content as data files. Search is an index shipped with the page. Ask uses the page's own ability to ask Claude, passing the retrieved sections so the answer can cite them. Learner records use the page's own storage. The database is a rebuilt copy for analysis, so its pausing after a quiet week does no harm.</li>
+  <li><strong>Stage 2, later.</strong> When the program has its own host, a static site serves the same content, and the database serves search, the partner voices and learner accounts. That decision comes later.</li>
+</ul>
+<p>Git stays the single source. Ids are permanent and survive a link, and every fact a view shows is a claim cited by id, so a date fixed once is fixed everywhere.</p>
+</section>
+
+<section id="program">
+<h2>After ballet</h2>
+<ul>
+  <li><strong>Bring the rest in without rewriting it.</strong> Edo's people, events and sources become records, and its story text becomes a document. The F1.13 lecture becomes one document and one run, instead of three hand-kept shapes. The 28 grouping pages become documents, and the ten fact stores become one.</li>
+  <li><strong>Enrich the canon.</strong> Typed links come from the 2,360 references now buried in notes. Every node gets a page, including the 3,900 the map leaves out.</li>
+  <li><strong>Links and learners.</strong> The link register is generated from the 38 specs and the placement reviews and checked at each gate. Learners can cite the Atlas in their own sources record.</li>
+  <li><strong>Other modules.</strong> M2's field atlas becomes a filter over existing cards. F2, F4, the practice areas and R2 write their lineages into the Atlas, and module openers are drawn from it.</li>
+  <li><strong>Next topics.</strong> The movements already in grouping pages are next: the Bauhaus, Art Deco, Arts and Crafts. Each gets its industries lens and, where it has many works, a Repertory.</li>
+</ul>
+</section>
+
+<section id="decide">
+<h2>Your decisions</h2>
+<p>Program-level decisions are yours to record in the Hub. Each has a default that stands unless you say otherwise. Three earlier decisions are still open and are needed before the steps that use them: the ballet blueprint's approval, the Repertory's four decisions, and design E with M2's comparison (<em>Giselle</em> or the Bauhaus).</p>
+<div class="decide">
+  <div class="d"><p class="k">1 · Whose Atlas</p><p>The program's knowledge base, with F1 as its first author.</p><p class="def">Default: yes.</p></div>
+  <div class="d"><p class="k">2 · Four layers</p><p>Records, writing, structures and views, with the map as one view among several.</p><p class="def">Default: yes.</p></div>
+  <div class="d"><p class="k">3 · The move</p><p>The Atlas and the topics move up from F1 to program level, as the first step, with history kept.</p><p class="def">Default: yes.</p></div>
+  <div class="d"><p class="k">4 · Length</p><p>The four tiers stay for cards only. Every other form has guidance, not a cap.</p><p class="def">Default: yes.</p></div>
+  <div class="d"><p class="k">5 · One way of recording facts</p><p>One claim scheme, using the program's four confidence levels: documented, probable, contested, interpretive.</p><p class="def">Default: yes.</p></div>
+  <div class="d"><p class="k">6 · Atlas courses</p><p>Full concept units sit outside F1's hours, with their own paths and a published rule for which concepts get one.</p><p class="def">Default: yes.</p></div>
+  <div class="d"><p class="k">7 · The world-of lens</p><p>Industry and skill tags, and a "world of" lens for every topic, starting with ballet.</p><p class="def">Default: yes.</p></div>
+  <div class="d"><p class="k">8 · Names</p><p>Ballet's 24 "threads" become motifs, so "thread" keeps its program meaning. The blueprint's 14 walls and the 24 census walls become one set.</p><p class="def">Default: yes.</p></div>
+  <div class="d"><p class="k">9 · Unit invariants</p><p>Every unit must contain a lab, an Apply by lane, a partner step and a log entry. Either concept-unit chapters gain a short lab and a Historian step, or you amend the rule for Atlas courses.</p><p class="def">No default: your call.</p></div>
+  <div class="d"><p class="k">10 · Serving</p><p>Stage 1 now: published data, search and Ask in the page. An own host is decided later.</p><p class="def">Default: yes.</p></div>
+</div>
+<p>Two smaller defaults are in the plan's decisions table (§10). Chapter 12's closing task stays within the history module's own fields, and history-first openers apply to every module.</p>
+</section>
+</main>
+</div>
