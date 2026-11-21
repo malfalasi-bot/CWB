@@ -424,4 +424,123 @@ The Romantic ballerina was sold in lithographs (Taglioni, Elssler, the *Pas de q
 
 ## Part 4. For a timeline
 
-(in progress)
+Ninety dated events that are not premieres: institutions, technologies, laws, wars, deaths, archive discoveries and earliest-known firsts. Format: **year** · place · event · confidence · source. "Probable" means working knowledge or a secondary source not re-checked at the holder in this pass; check before publishing. Russian dates before 1918 are New Style unless both are given.
+
+- **c. 1455** · Ferrara/Piacenza · Domenico da Piacenza's *De arte saltandi et choreas ducendi*, earliest known European dance-master treatise · probable · scope 01; Franko 1986
+- **1463** · Italy · Guglielmo Ebreo's *De pratica seu arte tripudii* (Sparti's translation, 1993) · probable · scope 01
+- **1582** · Paris · Printed book of the *Balet comique de la Royne* (performed 15 October 1581), earliest known printed ballet libretto with music · probable · G2 (IMSLP record)
+- **1588** · Langres · Thoinot Arbeau's *Orchésographie*, a dance manual pairing steps with music · probable · working knowledge
+- **1641** · Venice · Giacomo Torelli's chariot-and-pole scene change at the Teatro Novissimo · documented · Britannica via pass2_verify
+- **c. 1645** · Paris · Torelli called to the French court · documented · Britannica via pass2_verify
+- **1653** · Paris · Louis XIV, aged 14, dances the rising sun (23 February) in the *Ballet royal de la Nuit*; the image becomes royal propaganda · documented · BnF Essentiels; Swiss National Museum 2023
+- **1661** · Paris · Letters patent found the Académie royale de danse · probable · scope 01; Swiss National Museum 2023
+- **1662** · Paris · Carrousel of 5 to 6 June; the sun device and *Nec pluribus impar* · documented · histoire-image.org (Cornette 2013); Louis XIV, *Mémoires*
+- **1669** · Paris · Pierre Perrin granted the privilege for an Académie d'Opéra (28 June) · probable · working knowledge
+- **1672** · Paris · Lully takes over the privilege as the Académie royale de musique · probable · working knowledge
+- **1681** · Paris · Earliest known professional women dancers in an Opéra ballet (*Le Triomphe de l'Amour*) · probable · working knowledge
+- **1700** · Paris · Raoul-Auger Feuillet publishes *Chorégraphie*, a notation system · documented · Library of Congress via scope 06
+- **1704** · Paris · Beauchamps contests Feuillet's notation privilege, the earliest known authorship dispute in ballet's line · probable · scope 01
+- **1713** · Paris · Royal decree creates the Opéra's dance school · probable · working knowledge
+- **1717** · London · John Weaver prints a scenario of gestures for *The Loves of Mars and Venus*, earliest known "how to read this" ballet document · documented · G1
+- **1725** · Paris · Pierre Rameau, *Le Maître à danser*, describes the five positions in print · probable · working knowledge
+- **1734** · London · *Mercure de France* reports Sallé dancing without panniers in a muslin robe · documented (as a report) · Provence 7 quoting the *Mercure*
+- **1738** · St Petersburg · Jean-Baptiste Landé's dance school (4 May), the root of the Vaganova Academy · probable · working knowledge
+- **1748** · Copenhagen · Royal Danish Theatre opens on Kongens Nytorv · probable · working knowledge
+- **1760** · Lyon/Stuttgart · Noverre's *Lettres sur la danse* published · documented · LoC via scope 06
+- **1773** · Milan · Angiolini's *Lettere* dispute Noverre's priority · probable · working knowledge
+- **1776** · Moscow · Prince Urusov's theatre privilege (17/28 March), counted as the Bolshoi's founding date · probable · working knowledge
+- **1778** · Milan · Teatro alla Scala opens (3 August) · probable · working knowledge
+- **1789 to 1799** · Paris · Revolution; the Opéra's repertory politicised · probable · Chazin-Bennahum 1988 (scope 05)
+- **1805** · Paris · Opéra rule requires designers to deposit their maquettes · documented · scope 01
+- **1813** · Milan · La Scala's ballet school founded · probable · working knowledge
+- **1820** · Milan · Carlo Blasis, *Traité élémentaire*, published · documented · Utah Marriott Library via scope 02
+- **1821** · Paris · Salle Le Peletier inaugurated (16 August) · documented · Opéra history page via pass2_verify
+- **1822** · Paris · Gas lighting at the Opéra (*Aladin*, 6 February) · documented · pass2_verify
+- **1822 or 1823** · Paris/Vienna · Amalia Brugnoli named on pointe, among the earliest known · contested · scope 02; ENB 2024
+- **1831** · Paris · Louis Véron takes the Opéra as a subsidised private enterprise · probable · scope 05
+- **1847** · St Petersburg · Marius Petipa arrives to work for the Imperial Theatres · probable · working knowledge
+- **1855** · London · *Morning Post* (3 January) prints the story of Taglioni's shoes cooked and eaten · documented · ABC Classic 2018
+- **1859** · Paris · Imperial decree (27 November) requires fireproofed costumes · probable · Williams 1957 via Wikipedia
+- **1860** · St Petersburg · Mariinsky Theatre opens (2 October) · probable · working knowledge
+- **1862** · Paris · Emma Livry's costume catches fire in rehearsal (15 November); she dies 26 July 1863 · documented · Musée d'Orsay
+- **1870** · Paris · Franco-Prussian War closes the Opéra (31 August); Saint-Léon dies (2 September); Bozzacchi dies (23 November) · probable · Wikipedia citing Treccani
+- **1873** · Paris · Salle Le Peletier burns (night of 28 to 29 October) · documented · G2 (Opéra de Paris)
+- **1875** · Paris · Palais Garnier opens (5 January) · probable · working knowledge
+- **1876** · Bayreuth · Festspielhaus darkens the hall and hides the orchestra (13 August) · contested ("earliest" disputed) · G2
+- **1881** · Paris · Earliest known use of "tutu" for the dancer's skirt (Nuitter) · documented · CNRTL
+- **1881** · London · Savoy Theatre lit by electricity, earliest known theatre fully so lit · probable · working knowledge
+- **1882** · St Petersburg/Moscow · Imperial monopoly on theatres abolished · probable · working knowledge
+- **1892** · St Petersburg · Vladimir Stepanov publishes *Alphabet des mouvements du corps humain* · probable · scope 06
+- **1893** · St Petersburg · Legnani's 32 fouettés (*Cinderella*) · probable · PBT guide 2022
+- **1899 to 1903** · St Petersburg · Stepanov notations of *Giselle* (Act II 1899, Act I 1903), later in the Sergeyev Collection · documented · Petipa Society via W1
+- **1904** · St Petersburg · Imperial Theatres refuse Alexander Shiryaev permission to film the dancers · documented (secondary) · Bioscope 2008
+- **1906 to 1909** · St Petersburg · Shiryaev's dance films and puppet animations, earliest known Russian animation · documented (secondary) · Bioscope 2008; animatsiya.net
+- **1909** · Paris · Diaghilev's first ballet season (Châtelet) · probable · W2
+- **1910** · Gurzuf · Petipa dies (14 July; 1 July OS) · probable · working knowledge
+- **1913** · St Petersburg · Imperial directorate decides to film its dancers after Protazanov's *A Musical Moment* · probable · Lascu 2010 citing Bocharov
+- **1914** · London · Fokine's letter to *The Times* (6 July) · documented · W4
+- **1917** · Petrograd · Revolution; Imperial theatres become state theatres · probable · working knowledge
+- **1920** · London · Association of Operatic Dancing founded (Royal Academy of Dance from 1936) · probable · working knowledge
+- **1922** · London · Cecchetti Society founded; Beaumont and Idzikowski's manual · probable · working knowledge
+- **1922** · Paris/press · Earliest known use of "riot" for the 1913 *Rite* premiere · documented (secondary) · Levitz 2017 via *MTO* 2018
+- **1924** · Germany/Leningrad · Balanchivadze (Balanchine) leaves the USSR on tour and stays · probable · working knowledge
+- **1928** · Germany · Rudolf Laban publishes his notation (*Schrifttanz*; Kinetography) · probable · working knowledge
+- **1929** · Venice · Diaghilev dies (19 August); the Ballets Russes ends · probable · working knowledge
+- **1931** · The Hague · Pavlova dies (23 January, 12.30 a.m.) · documented · *New York Times* 23 January 1931
+- **1931** · London · Vic-Wells Ballet begins at Sadler's Wells · probable · working knowledge
+- **1934** · New York · School of American Ballet opens (2 January) · probable · Boston Ballet Balanchine timeline
+- **1934** · Leningrad · Vaganova, *Basic Principles of Classical Ballet* · probable · working knowledge
+- **1935** · Leningrad · Mariinsky renamed the Kirov · probable · working knowledge
+- **1936** · Moscow · *Pravda* editorial "Balletic Falsehood" (6 February) against *The Bright Stream* · probable · W4
+- **1941 to 1944** · Leningrad/Molotov (Perm) · Kirov Ballet evacuated during the siege · probable · working knowledge
+- **1944** · San Francisco · Willam Christensen's full-length *Nutcracker* (24 December), earliest known complete US staging · documented (secondary) · Dance Data Project 2025
+- **1946** · London · Arts Council of Great Britain chartered; Sadler's Wells Ballet reopens Covent Garden (20 February) · probable · working knowledge
+- **1948** · New York · New York City Ballet's first performance (11 October) · documented · Boston Ballet Balanchine page
+- **1948** · Havana · Ballet Alicia Alonso founded (28 October) · probable · W3
+- **1950** · London · Nijinsky dies (8 April) · probable · working knowledge
+- **1952** · New York · Hanya Holm's Labanotation score of *Kiss Me, Kate*, earliest known choreography registered for US copyright · probable · Kraut 2015 (not re-checked)
+- **1954** · Beijing · Beijing Dance School founded with Soviet teachers · probable · Wilcox 2018 (not re-checked)
+- **1955 to 1956** · London · Rudolf and Joan Benesh publish their notation · probable · working knowledge
+- **1956** · London · Bolshoi Ballet's first visit to the Royal Opera House · probable · working knowledge
+- **1961** · Paris (Le Bourget) · Nureyev defects (16 June) · probable · working knowledge
+- **1963** · New York · Ford Foundation ballet programme, $7,756,000 (16 December) · documented · Rockefeller Archive Center; *Time* 27 December 1963
+- **1964** · Vienna · Fonteyn and Nureyev receive 89 curtain calls (15 October) · documented · Nureyev Foundation; Guinness
+- **1965** · Washington · National Endowment for the Arts created · probable · working knowledge
+- **1966 to 1976** · China · Cultural Revolution; ballet narrowed to "model works" · probable · Wilcox 2018
+- **1969** · New York · Dance Theatre of Harlem founded by Arthur Mitchell and Karel Shook · probable · working knowledge
+- **1969** · Cambridge, Mass. · Harvard acquires the Sergeyev Collection of notations · probable · working knowledge (check at Houghton)
+- **1972** · Beijing · President Nixon watches *Red Detachment of Women* (22 February) · probable · working knowledge
+- **1974** · Toronto · Baryshnikov defects (29 June) · probable · working knowledge
+- **1976** · USA · Copyright Act names "choreographic works" (in force 1978) · probable · working knowledge
+- **1982** · Moscow · *Swan Lake* replaces scheduled television at Brezhnev's death; again for Andropov (1984) and Chernenko (1985) · contested · Ross 2015 via Hazlitt; Radio Svoboda 2016
+- **1983** · New York · Balanchine dies (30 April) · documented · Encyclopedia.com
+- **1991** · Moscow · *Swan Lake* (1983 Bessmertnova film) shown twice on 19 August during the coup · contested ("loop" against "twice") · KP 18 August 2026 (Oskolkov); Re/visions 2026; BBC 2001
+- **1992** · St Petersburg · Kirov reverts to the Mariinsky name · probable · working knowledge
+- **1993** · Paris · Nureyev dies (6 January) · probable · working knowledge
+- **1995** · Russia · Viktor Bocharov locates Shiryaev's films, saved in the 1960s by Daniil Saveliev · documented (secondary) · Bioscope 2008
+- **2008** · Pordenone · Restored Shiryaev films given their public premiere at the silent film festival · documented (secondary) · Bioscope 2008
+- **2010** · New York · Homans's *Apollo's Angels* published, with its "ballet is dying" epilogue · documented · NYRB; Slate
+- **2013** · Moscow · Acid attack on Bolshoi artistic director Sergei Filin (17 January) · probable · working knowledge
+- **2015** · New York · Misty Copeland promoted principal at American Ballet Theatre (30 June) · probable · working knowledge
+- **2017** · New York · Final Bow for Yellowface pledge circulates to companies · documented (secondary) · W4; scope 03
+- **2017** · USA · Dance/USA survey: *Nutcracker* averages 48% of season revenue · documented · Dance/USA 2018
+- **2018** · London · Freed of London with Ballet Black launch brown and bronze pointe shoes · documented · scope 03
+- **2020** · worldwide · COVID-19 closes theatres; most live *Nutcrackers* cancelled · documented · *Dance Magazine* 2020
+- **2021** · Paris · Ndiaye–Rivière report on diversity at the Paris Opéra released (February) · documented · scope 01 and 02
+- **2022** · Moscow/London/Kyiv · Ratmansky leaves Moscow mid-rehearsal (February); Royal Opera House cancels a Bolshoi season; Ukrainian theatres drop Russian composers · documented · CNN, *Guardian*, National Opera of Ukraine
+- **2026** · Moscow · Viktor Oskolkov says he put *Swan Lake* on air in 1991 (*Komsomolskaya Pravda*, 18 August) · documented · KP; *Rodina* 19 August 2026
+
+## Sources used in this pass (web)
+
+Seen in this pass: BnF Essentiels and Passerelles (Louis XIV, 1653 and 1662); histoire-image.org (Joël Cornette, 2013); Vexilla Galliae (2020); *CRCV* (OpenEdition, 2025), "Le Roi-Soleil géocentrique"; Swiss National Museum blog (Murielle Schlup, 2023); Wikipedia "Nec pluribus impar"; Petipa Society (*Swan Lake*; Pavlova); Boston Symphony Orchestra note on *Swan Lake*; *New York Times* (13 October 2015) on *Swan Lake*; PBT *Swan Lake* audience guide (2022); *Komsomolskaya Pravda* (18 August 2026) and *Rodina* (19 August 2026) on Oskolkov; *Re/visions* (Bohdan Shumylovych, January 2026); Radio Svoboda (16 August 2016); Hazlitt (2015) on Janice Ross; BBC News (15 August 2001); *New York Times* (23 January 1931) on Pavlova's death; Online Archive of California, Pavlova collection; Dance/USA (2018); Dance Data Project (2025); *Los Angeles Times* (6 December 1992); NPR (22 December 2025); *Dance Magazine* (2018, 2020); Reuters (2021); NYRB (Gottlieb, 9 December 2010); *Slate* (La Rocco, 15 November 2010); Dance Informa (2011); Ballet Alert forum (2010); The Arts Desk (2010); The Dance Enthusiast (2017); Gramilano (2010); Ann Daly, *TDR* 31.1 (1987); Routledge and UW–Madison pages for Banes (1998); Susan Manning, *Dancing on the Fault Lines of History* (Project MUSE, open access); Stoneley (2007, open copy); Spectator (2022); NYU *Arts Digest*; *New York Times* (17 December 1963); *Time* (27 December 1963); Rockefeller Archive Center (Ford press release); Encyclopedia.com (Balanchine); The Bioscope (2008), animatsiya.net, *Dance Magazine* (2009) and theartsdesk (2010) on Shiryaev; LRB (2000, 2013), *Brain* (2018) and Opéra de Liège (2026) on Nijinsky; Fallow Media on the 1939 photograph; Opéra de Paris "350 years: Tutu"; CNCS "Le tutu"; CNRTL "tutu"; Britannica (tutu; ballet costume; *Swan Lake*); Bata Shoe Museum; English National Ballet (2024); Musée d'Orsay (Livry); Wikipedia (Livry, Bozzacchi, Pavlova, *Spectre*); Nureyev Foundation; Guinness World Records; ABC Classic (2018); ABC News (2024); BBC (2010, 2020) and National Portrait Gallery (2014) on the pavlova dessert; Otago University Press (Leach 2008); Järvinen, *Studies in Costume and Performance* manuscripts (Uniarts Helsinki repository); Launay (2003, SARMA); *New Yorker* (2001); All Arts/NYPL (2024); Gresham College (Frolova-Walker, 2020); American Society for Aesthetics (Conroy); BBC (Hewett, 29 May 2013); *Paris Review* (2013); *MTO* 24.1 (Traut, 2018) on Levitz (2017); Library of Congress Information Bulletin (2009); Illinois Public Media (2025); *Critical Stages* 26 (2022); National Opera of Ukraine (6 December 2022); *Guardian* (26 February, 1 March, 7 December 2022; 25 August 2023); ZN.ua (2023); CNN (2022); Pointe (2022).
+
+Scholarship named but not opened in this pass (marked probable where relied on): Noverre 1760; Wiley 1985 and 1997; Smith 2000; Garafola 1985 and 1989; Burt 1995; Foster 1996; Franko 1986 and 1993; Taruskin 1995 and 1996; Hobsbawm and Ranger 1983; Shay 2002; Kealiinohomoku 1970; Gottschild 1996 and 2003; Pickard 2015; Kirkland 1986; Kraut 2015; Ezrahi 2012; Wilcox 2018; Prevots 1998; Fisher 2003; Phelan 1993; Auslander 1999; Morrison 2009; Kopelson 1997; Hodson 1996; Dandré 1932; Leach 2008.
+
+## Not found in this pass
+
+- Alastair Macaulay's January 2011 *New York Times* reply to Homans: existence documented, text not read.
+- A primary source for the exact words "Ballet is woman".
+- A primary source for Matthew Bourne's reported resistance to the label "the gay *Swan Lake*".
+- The exact count of 1877 to 1883 *Swan Lake* performances (33 or 41): sources disagree; Wiley not opened.
+- The Paris police file for 29 May 1913 (reported missing by Esteban Buch, BBC 2013).
+- Confirmation at Houghton Library of the year the Sergeyev Collection was acquired.

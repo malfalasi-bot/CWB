@@ -607,3 +607,29 @@ W1 is about the theory; the look is barely recorded. Stuttgart scenery was by Gi
 - `giselle-1841`: a wronged village woman again, but her revenge is disciplined into a political act rather than forgiveness.
 - `ballet-de-la-nuit-1653`: a court spectacle that ends in the ruler's light; here the "red sun" of the Party.
 
+---
+
+## Спартак / Spartacus (1968)
+`id: spartacus-1968` · W file: W3 §2
+
+*Design and art: Simon Virsaladze's costumes are "uber-1960s film-Roman, all short battle dress and strappy leather shin guards" [documented: *The Guardian*, 4 Aug 2019]; Anne Searcy describes the 1968 look, made with "his loyal set designer" Virsaladze, as "a grim monochromatic portrait of a single person" [documented: Searcy, "The Recomposition of Aram Khachaturian's *Spartacus* at the Bolshoi Theater, 1958–1968", *Journal of Musicology*].*
+
+### Readings and disputes
+- **Whose score is it?** Searcy shows that Grigorovich "cut the old score into very small segments" and rearranged them, in chunks "as small as thirty seconds", redeploying the slave-crowd leitmotifs to tell Spartacus's story alone [documented]. The Bolshoi's own anniversary text (Sergei Esin, 2008) admits a "battle for the notes" and the Mariinsky's version says the aim was "to defend the music from its author" [documented: Bolshoi and Mariinsky programme pages]. Khachaturian's original 1954 score "has never been performed" [documented: Brad Eden, *Opera Today*, 2005]. The ballet everyone knows is a choreographer's recomposition.
+- **Allegory of what?** Britannica's note (Betsy Schwarm) says authorities saw an allegory of the people throwing off tsarist oppressors, but "it seems quite possible" to read it against Soviet leaders [documented]. The *New York Times* obituary of Grigorovich (2025) sees "obvious good guys … and bad guys" and an echo of 1917 [documented]. Searcy reads the 1968 version as a turn from a festival of many peoples to one Soviet hero [documented in W3]. Fjord Review notes it was "often perceived in the West, during the Cold War, as an artifact of Soviet propaganda" [documented: Oksana Khadarina, 2020].
+- **Which version went to New York in 1962?** Arlene Croce ("Hard Work", *New Yorker*, 1975): "a revision of Yakobson's production", with Plisetskaya as Phrygia and several performances cancelled [documented]. Khadarina: it was Moiseyev's 1958 version "that first made it to the West" [documented]. **Contested.**
+- **When was the Lenin Prize?** "That same year", 1954 (Wikipedia, citing Yuzefovich) or in 1959 for the Moiseyev production (Eden) [documented: both].
+
+### Facts worth telling
+1. Khachaturian was inspired by the Colosseum on a 1950 trip to Italy [documented: Eden 2005].
+2. The libretto's sources, Appian and Plutarch, are the same ones Marx read [documented as Eden's claim].
+3. Yakobson's 1956 Kirov version abandoned conventional pointe and was cut into friezes [documented: Wikipedia; Eden].
+4. In earlier productions Crassus was an older mime role; Grigorovich made him a virtuoso dancer [documented: Searcy].
+5. Clive Barnes called it "the most successful Soviet ballet since *Romeo and Juliet*" [documented as quoted: Fjord Review].
+
+### Set it beside
+- `flames-of-paris-1932`: the collective hero of 1932 becomes one man in 1968.
+- `medee-et-jason-1763`: classical subject, tragic *ballet d'action*; Noverre's mime replaced by monologues danced in leaps.
+- `swan-lake-bourne-1995`: male bodies as the spectacle again, but as wild swans rather than soldiers.
+- `apollon-musagete-1928`: another antique male hero, made by restraint and subtraction where Spartacus is made by mass and muscle.
+
