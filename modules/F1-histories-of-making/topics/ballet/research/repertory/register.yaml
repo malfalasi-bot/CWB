@@ -1506,6 +1506,24 @@ works:
   sources: ["working knowledge"]
   note: "woman designer (Fini) at Paris; renamed and redressed in white and black for Ballet Society 1948"
 
+- id: etudes-1948
+  title: {orig: "Etude (1948); Etudes / Études (from 1951)", en: "Etudes"}
+  premiere: {date: 1948-01-15, place: "Copenhagen, Royal Theatre (Det Kongelige Teater)", company: "Royal Danish Ballet"}
+  choreographer: [Harald Lander]
+  composer: [Carl Czerny (piano studies), arr. and orch. Knudåge Riisager]
+  scenario: [none]
+  designer: ["contested: Harald Lander (Bolshoi notes) or Rolf Gerard with lighting by Nananne Porcher (Wikipedia; probably ABT 1961 credits)"]
+  based_on: "the daily ballet class, barre to bravura"
+  premise: "A ballet class becomes the performance: from the five positions at the barre to a finale of massed leaps."
+  period: postwar
+  region: Denmark
+  w_file: null
+  tier: B
+  threads: [T10]
+  confidence: documented
+  sources: ["dossiers/D3_1932-1949.md", "https://lex.dk/Etudes", "https://lex.dk/Harald_Lander", "https://www.memopera.fr/oeuvre.php?code=ETU", "https://alexandermeinertz.dk/thomas-lund-etudes"]
+  note: "added in pass D3; made for Margot Lander, reworked 1951 for Toni Lander; Paris Opéra version (19 Nov 1952) is the international standard; Bolshoi notes give 18 Jan 1948; Lander suspended from the Royal Danish Ballet in 1951"
+
 - id: fall-river-legend-1948
   title: {orig: "Fall River Legend", en: "Fall River Legend"}
   premiere: {date: 1948-04-22, place: "New York, Metropolitan Opera House", company: "Ballet Theatre"}
