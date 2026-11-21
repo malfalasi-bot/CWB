@@ -21,10 +21,7 @@ All paths under `modules/F1-histories-of-making/` are given from that folder unl
 
 ### 0.2 Method
 
-1. Every unit in the register (`docs/01-structure/master-structure-v2.1-pass-1/index.md`, with the v3.0 additions in `docs/01-structure/final-structure-v3/index.md` §7) was read for the knowledge it needs: its concept, its delivery codes (L lecture, C case, I lab, S simulation, P partner), its media and its interactive. A unit with a C code or a history, lineage, culture or vernacular concept was marked as a consumer of historical or cultural knowledge.
-2. F1's own specs (`specs/F1.*.md`) were read for what each unit takes from the Atlas (sections 1 "Responsibility block" and 4 "Nodes", the "Reference pages opened" row) and for forward links to other modules.
-3. Every proposal that places ballet somewhere was collected from the ballet planning files and the decisions.
-4. Shares are estimates, labelled **[argued]**. They are given three ways where it matters: research words, learner words and knowledge items, because the three give different answers.
+Every unit in the register (Master Structure, with the v3.0 additions of Final Structure §7) was read for the knowledge it needs: concept, delivery codes (L lecture, C case, I lab, S simulation, P partner), media and interactive. F1's 38 specs were read for what they take from the Atlas and what they send forward. Every proposal that places ballet was collected from the planning files and decisions. Shares are estimates, marked **[argued]**, given where it matters three ways (research words, learner time, knowledge items), because the three differ.
 
 ### 0.3 Findings in eight lines
 
@@ -34,18 +31,14 @@ All paths under `modules/F1-histories-of-making/` are given from that folder unl
 4. **Materials, crafts and design movements are the most reused kinds of Atlas concept** (30 to 50 per cent of their knowledge has a consumer outside the topic); civilisations are the least (5 to 10 per cent) [argued, §4].
 5. **Eight modules should author into the Atlas, not only read from it:** F1, F2, F4, S1, S3, S4, S5 and S6 each have lineage units whose knowledge is history, plus M2 for the field-atlas layer and every module's regional slot (§4.3).
 6. **The architecture must address knowledge below the page:** the claim, the card tier, the walk step, the wall with a member filter, the timeline state, the object detail, the document. Today only the canon node has a stable id that another module could cite (§5).
-7. **The Atlas must support at least twelve content kinds beyond the map** (§5.3), most of which ballet has already produced as research and none of which has a schema.
+7. **The Atlas must support fifteen content kinds beyond the map** (§5.3); ballet has produced most of them as research, and only four have a schema or register.
 8. **The program documents disagree about whose the Atlas is.** The glossary, the canon schema and the database tables say F1's; the engine list, the registers, decision 6 and the concept-unit template say the program's. Twenty gaps and contradictions are listed in §6.
 
 ## 1. The curriculum's knowledge needs, module by module
 
 ### 1.1 How to read the table
 
-- **Knowledge** names the historical, cultural, material, technical or design knowledge the module needs, by unit.
-- **Form** uses the program's words: card (with tier), case (an object story, form 3), worked example, lecture (storyboard and narration, `briefs/TEMPLATE_v3.1_AMENDMENT.md` §1), full unit, data for an engine or a partner voice, brief, reference set (images, drawings, packs).
-- **Depth** is the card tier or depth the module needs (O, P or M; Line, Label, Story or Deep).
-- **Holder** says where the knowledge should live: **Atlas** (record, cards, surfaces), **Topic** (an Atlas concept unit or Repertory), or **Module** (the module's own text, labs and data).
-- **Atlas share** estimates how much of the module's knowledge is Atlas-held [argued].
+**Form** uses the program's words (card and tier, case as object story, worked example, lecture as storyboard and narration, full unit, engine or partner data, brief, reference set). **Holder** is **Atlas** (record, cards, surfaces), **Topic** (a concept unit or Repertory) or **Module** (its own text, labs and data). **Atlas share** estimates how much of the module's knowledge the Atlas should hold [argued].
 
 ### 1.2 Orientation and Foundations
 
@@ -65,7 +58,7 @@ All paths under `modules/F1-histories-of-making/` are given from that folder unl
 | Module | Knowledge it needs | Form | Depth | Holder | Atlas share |
 |---|---|---|---|---|---|
 | **M1 Research and premise** (16) | M1.3 research routes (worked case); M1.4 credibility and the limits of evidence (Source Grader, the same tool as F1.28); M1.5 ethics and consent (F1.26 and F1.29); M1.11 stakes, archetypes, rituals; **M1.11a world bibles from film, games and performance** (Bible Anatomy lab; the link register already sends F1.4's Jukebox recordings there); M1.14 field sprint (Historian; F1.28a "prepares"); M1.15 archive work: catalogues, primary texts, collections APIs | Documents to dissect (bibles, livrets, plans); the source-route and primary-text registers as a reference set; the confidence vocabulary | P to M; Deep for documents | Atlas for the documents and the research apparatus (routes, texts, source tiers); Module for the moves | 25 to 30% |
-| **M2 Concept DNA** (20) | The exemplar DNA (Salt Road, fictional, `docs/02-program/phase-4-foundations/index.md` §4); a historical comparison read field by field (*Giselle* in R1 §5.4; the Bauhaus in `EXEMPLAR_STUDY.md` §6.1 and decision 6's default); the **field atlas**: three to five real worlds per Concept DNA field (`EXEMPLAR_STUDY.md` §4.2) | A DNA reading (a worked example); field-atlas entries as comparison walls; M2.2 images for the Boundary Test Arena | P to M; Story | Module for the exemplar and the seed worlds; Atlas for the field-atlas entries and the twin's sources; the twin's reading itself is an open question (§6, item 7) | 15 to 20% |
+| **M2 Concept DNA** (20) | The exemplar DNA (Salt Road, fictional, `docs/02-program/phase-4-foundations/index.md`, item 4); a historical comparison read field by field (*Giselle* in R1 §5.4; the Bauhaus in `EXEMPLAR_STUDY.md` §6.1 and decision 6's default); the **field atlas**: three to five real worlds per Concept DNA field (`EXEMPLAR_STUDY.md` §4.2) | A DNA reading (a worked example); field-atlas entries as comparison walls; M2.2 images for the Boundary Test Arena | P to M; Story | Module for the exemplar and the seed worlds; Atlas for the field-atlas entries and the twin's sources; the twin's reading itself is an open question (§6, items 12 and 13) | 15 to 20% |
 | **M3 World architecture** (10) | M3.3 roles in a collection (case, img); collection logics from real worlds (the divertissement, the season, costume families, Morris & Co.'s families, the Bauhaus workshops); decision 6 opens M3 on *The Nutcracker*'s economy | Cases; one opener story; the field atlas's "Collection map" row | P; Story | Module for the Collection Matrix; Atlas and Topic for the cases | about 15% |
 | **M4 Make and test** (12) | M4.4 construction logic (drw case); M4.5 rituals and use; M4.7 abandoned directions and revision history; the five modes of remaking (ballet W3) | Cases; one wall of remakes | P; Label and Story | Module; Topic for the remake cases | about 10% |
 
@@ -117,13 +110,10 @@ All paths under `modules/F1-histories-of-making/` are given from that folder unl
 
 ### 1.8 What the table adds up to
 
-- **Demand outside F1 is concentrated.** About 65 case units, about 15 lineage units, four Historian appearances, one engine reused by five S units and the field atlas in M2. That is roughly 18 per cent of the non-F1 units. Weighted by the Atlas share above, the Atlas holds an estimated 12 to 15 per cent of the knowledge the rest of the program needs [argued].
-- **What the Atlas must never hold** is the larger part of the program: egress and life safety (S1.27), BOM and value engineering (S2.34), the tech-pack (S3.8, S3.40), WCAG (S6.16), funding and dilution (R2.2), toolpaths (T10.1), the twelve grammars (M2.6). This knowledge has no history the units teach; it belongs in each module and its engine.
-- **The history the rest of the program needs is design history,** which F1 does not centre: typology (S1.10), silhouette (S3.11), the avant-garde (S3.12), land art and institutional critique (S4.11), corporate identity (S5.11), the interface (S6.9), the Bauhaus (F2, M2), Morris & Co. (F4, M3). The canon holds some of these as nodes (116 movements, 47 schools, 198 styles), but almost all of it at Ring 2 or 3 and keyed to F1's world chapters (`world` enum; §6 item 1). The Final Structure's research plan already names these units as "historical and cultural" research (Final Structure §10, "Research plan by module type": F1, F4, M1.11a, Sx lineage units, S5.11, S6.9).
-- **Three rules follow** [argued]:
-  1. **All historical and cultural knowledge is authored once, in the Atlas,** even when its first need is in S3 or S5. Template v2's rule ("Units elsewhere in the program link to a chapter, a walk or a card; they never re-tell the history", §4.2) becomes a program rule.
-  2. **A module holds its method, its labs, its Apply by lane, its partner step and one framing passage per case** (the "Concept passage" surface of the voice guide), and links to the Atlas for the case.
-  3. **A topic unit is written for the learner who takes it whole; the Atlas cards are written for everyone else.** The cards, not the chapters, are what other modules consume (§3).
+- **Demand outside F1 is concentrated:** about 65 case units, about 15 lineage units, four Historian appearances, one engine reused by five S units, and the field atlas in M2; roughly 18 per cent of non-F1 units. Weighted by the shares above, the Atlas should hold about 12 to 15 per cent of the knowledge the rest of the program needs [argued].
+- **Most of the program's knowledge must never be in the Atlas:** egress (S1.27), value engineering (S2.34), the tech-pack (S3.40), WCAG (S6.16), dilution (R2.2), toolpaths (T10.1), the twelve grammars (M2.6). It belongs to each module and its engine.
+- **What the rest of the program needs is design history,** which F1 does not centre: typology (S1.10), silhouette (S3.11), the avant-garde (S3.12), land art (S4.11), corporate identity (S5.11), the interface (S6.9), the Bauhaus (F2, M2), Morris & Co. (F4, M3). The canon has 116 movements, 47 schools and 198 styles, 340 of the 361 at Ring 2 or 3, and all keyed to F1's world chapters (§6 item 1). The Final Structure already classes these units as "historical and cultural" research (§10).
+- **Three rules follow** [argued]. (1) All historical and cultural knowledge is authored once, in the Atlas, even when its first need is in S3 or S5; template v2's "units elsewhere … link to a chapter, a walk or a card; they never re-tell the history" (§4.2) becomes a program rule. (2) A module holds its method, labs, Apply by lane, partner step and one framing passage per case, and links to the Atlas for the case. (3) A topic unit is written for the learner who takes it whole; its cards are written for everyone else, and the cards are what other modules consume.
 
 ## 2. Content kinds by consumer
 
@@ -161,13 +151,10 @@ Key: **A** authors or holds it; **H** heavy use (most units of that consumer); *
 
 ### 2.2 What the matrix shows
 
-- **The Atlas authors fourteen of the twenty-four kinds.** Only the lecture, the worked example, the brief and the data for partner voices are authored mainly by units, and even those cite Atlas ids.
-- **Cards at Label and Story tier are the currency of reuse.** They are the only kinds with heavy use in F1, the S areas and the engines at once. The Deep tier matters most to the partner voices, which read claims, not prose.
-- **The long-form chapter and the route are consumed almost only inside their topic.** Every placement in the ballet files points other modules at a card, a document, an object study or a wall, never at a chapter (§3.1). This matches the template's own rule (§4.4: "chapters never re-tell a card; cards never re-tell a chapter's argument").
-- **Method modules consume documents and comparisons, not narratives.** M1.11a needs the *Giselle* documents; M2 needs field-atlas entries; M3 needs collection logics. None needs a chapter of ballet history.
-- **S areas consume three things:** cases (Story card plus object record), timeline states for their lineage units, and walls for their judged sets.
-- **Tools and venture consume least,** and mostly the apparatus: the protocol (T3.5, R2.7, R2.8), the source tiers (M1.4), the licence classes and the visual rules (T5).
-- **The partner voices consume structured data, not text.** They need claims, records and briefs addressable by unit, node and sensitivity flag (`docs/03-partner-voices/historian/index.md`, "Context blocks").
+- **The Atlas or a topic authors eighteen of the twenty-five kinds.** The lecture, the worked example, the brief, the field tag, the partner and engine data and the learner's layer are made by units, M2 or the learner, and all cite Atlas ids.
+- **Cards at Label and Story tier are the currency of reuse:** the only kinds in heavy use by F1, the S areas and the engines at once. The Deep tier matters most to the partner voices, which read its claims.
+- **The long-form chapter and the route are consumed almost only inside their topic.** No placement in the ballet files points another module at a chapter (§3.2), which matches template v2 §4.4: "chapters never re-tell a card; cards never re-tell a chapter's argument".
+- **Method modules consume documents and comparisons, not narratives;** S areas consume cases, timeline states and walls; tools and venture consume the apparatus (the protocol, the source tiers, the licence classes, the visual rules); partner voices consume structured slices by unit, node and sensitivity flag (Historian pack, "Context blocks").
 
 ## 3. Ballet as the test case
 
@@ -223,30 +210,18 @@ The template sets the size of the learner text at about 40,000 words for the uni
 
 **By research words** [argued]. Each research group is counted once, at the share its outside consumers draw on.
 
-| Research group | Words | Outside consumers | Share used outside the topic | Words used outside |
+| Research group | Words | Main outside consumers | Share used outside | Words used outside |
 |---|---|---|---|---|
-| scope/01 history and institutions | 9,900 | F1.3, F1.11, F1.13, F1.19a, F1.20, F1.31 | 30% | 3,000 |
-| scope/02 and pass2 body | 14,400 | F1.27, F1.29, F3, Accessibility thread | 20% | 2,900 |
-| scope/03 objects, makers, materials | 8,300 | F1.7, F1.18, F1.19, F1.22, F1.22a, F1.23, F1.25, F4, S2, S3 | 50% | 4,150 |
-| scope/04 stage design | 9,000 | F1.19, F1.19b, S1 | 25% | 2,250 |
-| scope/05 money, labour, ownership | 12,500 | F1.14, F1.17, F1.18, R2, R4 | 35% | 4,400 |
-| scope/06 scholarship and archives | 8,300 | F1.3, F1.24, F1.28 | 20% | 1,650 |
-| scope2/G1 music, mime, craft | 8,300 | M1.11a | 5% | 400 |
-| scope2/G2 the night and the house | 11,500 | S1, S1.8a, S1.8b | 20% | 2,300 |
-| scope2/G3 media, childhood, popular culture | 12,200 | F1.21, S5 | 10% | 1,200 |
-| scope2/G4 AI and handover | 9,500 | R3.8, T3, S6 | 20% | 1,900 |
-| works/W1 court to imperial | 14,800 | F1.4, F1.17, F1.28, F1.30, M1.11a | 20% | 3,000 |
-| works/W2 modernism | 14,200 | F1.15, F1.19b, F1.20, S3 | 15% | 2,100 |
-| works/W3 remaking and global | 14,400 | F1.8, F1.13, F1.26, F1.28a, M4 | 20% | 2,900 |
-| works/W4 theories of the concept | 11,600 | M1.11a, M2, S6 | 30% | 3,500 |
-| products | 8,200 | F1.21, M3, S2, S3, S5, R2 | 40% | 3,300 |
+| scope/01 to 06 and the body pass (history, body, objects, stage, money, scholarship) | 62,400 | F1.3, F1.7, F1.11, F1.13, F1.14, F1.17 to F1.25, F1.27 to F1.29; F3, F4; S1, S2, S3; R2, R4 | 29% (objects 50%, money 35%) | 18,350 |
+| scope2/G1 to G4 (music and mime; the night and the house; media; AI and handover) | 41,500 | M1.11a; S1, S1.8a, S1.8b; F1.21, S5; R3.8, T3, S6 | 14% | 5,800 |
+| works/W1 to W4 (works as made concepts; theories of the concept) | 55,000 | F1.4, F1.8, F1.13, F1.15, F1.17, F1.19b, F1.20, F1.26, F1.28, F1.28a, F1.30; M1.11a, M2, M4; S3, S6 | 21% (W4 30%) | 11,500 |
+| products | 8,200 | F1.21; M3; S2, S3, S5; R2 | 40% | 3,300 |
 | repertory dossiers D1 to D8 | 167,200 | a few works in F1 tiles and M4 | 5% | 8,400 |
-| X1 readings, disputes, myths | 12,300 | F1 argument card, F1.14, F1.27 | 8% | 1,000 |
-| X2 design and art | 14,800 | F1.19b, S1, S3, S5 | 10% | 1,500 |
+| X1 readings, disputes, myths; X2 design and art | 27,100 | F1's argument card, F1.14, F1.19b, F1.27; S1, S3, S5 | 9% | 2,500 |
 | register, census, timeline events | 27,600 | Timeline Atlas; F1.20's national-ballet wall | 10% | 2,750 |
-| pass1, pass2 presentation and verify | 12,500 | F1.23 | 10% | 1,250 |
+| first passes (pass1, pass2 presentation and verify) | 12,500 | F1.23 | 10% | 1,250 |
 | structure study and briefs | about 11,000 | planning evidence, not learner knowledge | 0% | 0 |
-| **Total** | **about 412,600** | | **about 13%** | **about 53,900** |
+| **Total** | **about 412,500** | | **about 13%** | **about 53,850** |
 
 Of the 13 per cent, about 23,600 words (5.7 per cent) feed F1 units and about 30,300 (7.3 per cent) feed other modules. **About 87 per cent of the research is read only through the topic and its Atlas cards.**
 
@@ -277,10 +252,10 @@ Of the 13 per cent, about 23,600 words (5.7 per cent) feed F1 units and about 30
 
 ### 3.4 What ballet shows about the consumption pattern
 
-- **Consumers address cards, documents, object-study sections and walls.** Every row in §3.2 outside the topic names a card ("one card or one sort case each"), a document (Petipa's plan, Vsevolozhsky's letter, Feuillet's *Chorégraphie*), an object study's part ("the pointe shoe, part 2: a product line today"), a wall with a subset ("the exotic other … paired"), a claim set ("4 to 6 claims moved … as F1.23 claims") or a timeline state ("open the line at E5, following the exotic other", `REPERTORY_PLAN.md` §4.1).
-- **Each consumer wants a different slice of the same object.** The pointe shoe serves F1.23 (the credit), F1.19 (the machine against the hand), F1.22 (extraction), F1.22a (use), F1.25 (the living practice), S2 (the product line) and F4 (materials). One object study is cut seven ways. The study must be addressable by section, and each section must be true on its own (W12).
-- **The research was built for the topic, so the consuming modules' questions are partly unanswered.** R1 found no ballet material for S6 in the first plans; `EXEMPLAR_STUDY.md` found the field atlas only once the Method question was asked. The consuming modules should be able to put questions to the topic, not only take what it offers (§5.4).
-- **The borrowing rule is a pedagogy rule, not a data rule.** "One to three sittings per module, each ballet card beside a non-ballet case … a 'what do these share?' task, the principle given after" (`CASE_WORLD_PLAN.md` §4, kept in R1 §5.4). The architecture must make the pairing possible: a ballet card and a card from another topic in the same wall, which requires one card format across topics.
+- **Consumers address pieces.** Every placement outside the topic names a card ("one card or one sort case each"), a document (Petipa's plan, Vsevolozhsky's letter, Feuillet), an object study's part ("the pointe shoe, part 2"), a wall subset, a claim set ("4 to 6 claims … as F1.23 claims") or a timeline state ("open the line at E5, following the exotic other", `REPERTORY_PLAN.md` §4.1).
+- **Each consumer cuts the same object differently.** The pointe shoe serves F1.23 (credit), F1.19 (machine against hand), F1.22 (extraction), F1.22a (use), F1.25 (living practice), S2 (product line) and F4 (materials): one object study, seven slices, each of which must be true on its own (W12).
+- **Research built for the topic leaves consumers' questions unasked.** The first plans had nothing for S6 (R1 §3), and the field atlas appeared only when the Method question was put (`EXEMPLAR_STUDY.md`). Consumers need a way to ask (§5.4).
+- **The borrowing rule needs one card format.** "Each ballet card beside a non-ballet case … the principle given after" (`CASE_WORLD_PLAN.md` §4; R1 §5.4) works only if a ballet card and a chair or an identity system can sit in one wall (§5.6).
 
 ## 4. Generalising to other Atlas concepts
 
@@ -330,12 +305,125 @@ The S areas author more than their place in the build order suggests. S3 alone h
 
 ## 5. Implications for the architecture
 
-(pending)
+### 5.1 The principle
+
+Other modules must be able to **point at** Atlas knowledge, at the size they need, and get what they pointed at even after the Atlas changes. That needs three things: a stable id at every size a consumer uses, a version a link can pin or follow, and a register that lists every link so a change can be checked against its consumers. The template already states the rule for teaching ("units … link to a chapter, a walk or a card; they never re-tell the history", §4.2); the data does not yet support it below the canon node.
+
+### 5.2 What must be addressable, and at what granularity
+
+| Unit of address | Example consumer | Exists today? | What is missing | Proposed form [argued] |
+|---|---|---|---|---|
+| **Node** | Every spec's section 4; the Historian's slices | Yes: canon ids such as MKR001, OCC258 | `world` accepts only F1 chapters or THEME; `units` holds only F1 ids (0 of 4,666 rows cite another module, counted this pass); no kinds for **work**, **production**, **document**, **building**, **script**, **identity or brand** | Keep the id; widen `world` to a program-wide facet; replace `units` with the link register (§5.4); add the kinds R1 decision 2 asked for and the S areas need |
+| **Card tier** | Tiles in F1; cases in S areas; pins and hovers in engines | No. The voice guide defines four tiers; the canon schema has one field, `making_significance`; topic learner files are versioned per page, not per card | A card file per node with four tiers, each versioned and each true on its own (W12) | `<node>#line`, `#label`, `#story`, `#deep`, with `@<version>` |
+| **Claim** | F1.23's 4 to 6 shoe claims; narration scripts ("a claim id on every sentence that states a fact", template v3.1); the Historian's claims slice; R2.7's cases | Partly. Three id schemes: `F1.1-C01` keyed by unit (`claims_specs_v1.csv`), `CL-001` (`claims_v0.csv`, Phase 4, item 5), `bal-…` (`ballet.yaml`) | Claims keyed by node, not by unit, so a second unit can cite one without copying it; a `used_by` list | One scheme, `CL-` plus a number, with `subject` as a node id and `used_by` filled from the link register |
+| **Object record and detail** | Object stories (form 3); T1 drawing subjects; the Historian's world-set slice | Yes for the record (WS- ids) | A named detail (an IIIF region) so a hotspot can be cited; the licence class carried with every reuse for the commercial build (`schema/licence-classes.json`) | `WS-<n>#<region-id>` |
+| **Document** | M1.11a (the *Giselle* documents); M1.15; F1.28; R3.8 (handover documents); the M2 twin | Partly: 130 primary texts (TXT ids) with status and translation | Reading notes by section; the documents ballet and the field atlas need (Petipa's plan, Vsevolozhsky's letter, Feuillet, the 1919 Bauhaus manifesto, the *Utzon Design Principles*) | `TXT-<n>` and `TXT-<n>#<section>` |
+| **Walk step, chapter section, object-study section** | "The pointe shoe, part 2"; F1.17's side panel from chapters 1, 3 and 5; S1's gas and the white act from chapter 3 | No. `tools/content_versions.py` versions a whole file | Stable section ids inside learner files, each with its own `derived_from` and claims | `<content_id>#<section_id>`, the section at walk-step size (60 to 120 words, voice guide §3) or object-study step size |
+| **Wall** | F1.2's sort card; F1.20's national-ballet wall; M4's remake wall; every S area's judged set; M2's field-atlas rows | Partly: the 24 walls in `planning/repertory_page/threads.json` (T01 to T24), the census's definitions | A wall record (pair, members, principle, filters), and the right to cite a subset with one card from another topic added | `WALL-<n>?members=…&add=…` |
+| **Timeline and map state** | "Open the line at E5, following the exotic other"; S1.10, S3.11, S5.11, S6.9 opening the Atlas | Promised: "every era, work and filter has its own link" (`REPERTORY_PLAN.md` §4.1) | A saved, named view state (surface, span, lanes, lens, highlighted nodes), stored as a record so a gate can check it still resolves | `VIEW-<n>` |
+| **Argument and myth card** | The Writing thread's argument card per Foundations module; S1.9, S2.10, S4.12; F1.27's myth | Research only (X1) | A card format with both readings and their holders in equal grammar | `ARG-<n>`, `MYTH-<n>` |
+| **Field-atlas entry** | M2, M3, the module openers | No | A tag (Concept DNA field code) on a card, claim or section, not a new text | a `fields` facet on cards and claims |
+| **Glossary term** | Every unit ("every term is a link wherever it appears") | As a document only | Ids | `TERM-<slug>` |
+| **The learner's citation** | SRC entries; the closing contribution; the dossier; the Behaviour success criterion, "referenced in a later artifact field by half of completers" (Phase 4, item 13) | No. `schema/src-entry.schema.json` has `found_at` as free text and no node, claim or card field; its `what` enum has no "work" | Atlas ids in the learner's record, so a borrowing from an Atlas card is routed through SRC (R1 §4.4) and reuse can be counted | add `atlas_refs` (node, claim, card version) |
+
+**On the paragraph.** A free paragraph does not need its own address. The sizes consumers actually cite are the claim (a sentence), the card tier, the walk or object-study step and the section. A paragraph that matters to another module should be promoted to one of these. This keeps the number of ids manageable and keeps every reusable piece true on its own.
+
+### 5.3 Content kinds the Atlas must support beyond the map
+
+The map and the other surfaces (Place, Time, Connections, Compare, grouping pages) are the Atlas's ways of showing. These are the kinds of content it must hold, each with a schema, a card format and an id [argued]:
+
+1. **Cards in four tiers** for every node, including works and productions.
+2. **Grouping pages** (card, walk, members, neighbours, afterlives, what is argued, Apply hook), as now (`docs/06-atlas-logic/index.md` §6).
+3. **Concept-unit chapters,** with section ids, as the long form a learner can take whole.
+4. **Works taken apart,** under the Repertory's fixed headings ("how it came to be" to "facts worth telling"), each heading a section.
+5. **Production and era cards** (a work's versions; the eras of a topic's line).
+6. **Object studies,** in making order, by section.
+7. **Walls,** with pair, members and principle.
+8. **Argument and myth cards** and **cross-currents.**
+9. **Documents** with reading notes.
+10. **Routes,** as sequences of existing ids with one transition sentence per step (`REPERTORY_PLAN.md` §4.3).
+11. **Saved view states** for the Time, Place and Connections surfaces.
+12. **Field tags** that turn any card or claim into a field-atlas entry.
+13. **Living-practice records** with consent, transmission and holders (the practices register).
+14. **Regional-slot structures:** prompts and empty fields for a local author, with the documented institutions beside them (F1.31; template v2 §6).
+15. **Partner-voice briefs:** one per world chapter now, one per topic later (the Historian's "world briefs").
+
+Kinds 1, 2, 9 and 13 exist in some form. Kinds 3 to 8, 10 and 11 exist only as ballet research or prototypes. Kinds 12, 14 and 15 exist only in documents.
+
+### 5.4 The link register as the joint
+
+- **Make it a file, then a table.** `schema/registers.md` lists "Cross-module links: not yet a file … 11 (in Phase 4 Foundations)". The database (`supabase/migrations/20260929000000_creative_world_content_store.sql`) has no table for it.
+- **Give it rows at the granularity of §5.2,** not only module to module. "F1.4 → M1.11a, reuses case, the Jukebox recordings reappear" (Phase 4, item 6) should name the recordings' ids.
+- **Generate most rows.** Each spec already lists what it opens ("Reference pages opened", template v3.1) and its nodes (section 4); each topic README lists its placements. A script can write register rows from those, leaving only "what must stay true" to a person (option B of P7, earlier than "when the app exists").
+- **Let consumers ask.** A row kind "requests" (a module asks a topic for a card, a document or a section it needs) would have caught the missing S6 and R3 material in ballet (§3.4).
+- **Check it at each gate** (Hub, workflow step 10: "Step 10 fills the link register; each gate checks it"): every cited id resolves, every pinned version still exists, and every stale source under a cited section is flagged (`tools/content_versions.py check` already does this per file).
+
+### 5.5 Pinning and change
+
+A consumer links either to **a version** (an F1 unit's closing test should not change under the learner) or to **the latest** (a browse view should). Each link register row should say which. When a card or section changes at a minor or major version (`topics/README.md`, "Which part to bump"), every pinned consumer is listed for review. This is the same discipline the topic folders already apply to research, extended to the consumers.
+
+### 5.6 One card format across topics
+
+Ballet's Repertory headings (from "how it came to be" to "facts worth telling") are performance-specific. A shared core for every topic's cards (what it is, how it came to be, who made it and who is not credited, what it is made of, what a maker can take from it, set it beside, what is argued, sources), one tier system and one licence field, with extensions by kind, would let a wall hold a ballet, a chair and an identity system together.
 
 ## 6. Gaps and contradictions in the program documents
 
-(pending)
+"Gap": a document needs something no document supplies. "Contradiction": two documents disagree.
+
+### 6.1 Whose Atlas it is
+
+1. **Contradiction: F1's Atlas or the program's.** The glossary calls it "F1's graph of the history of making … the place the module happens in" (`docs/02-program/glossary/index.md`). The canon's `world` enum holds only F1 chapters and THEME (`schema/canon-node.schema.json`); the tables are `f1_world_set`, `f1_claims` and so on (`supabase/migrations/`); no canon row cites a unit outside F1. Yet the Timeline Atlas serves S1.10, S3.11, S3.14, S5.11 and S6.9 (Master Structure §9; Phase 4, item 6); `schema/registers.md` says "every later module uses the same ones"; the field atlas is "a view of the existing Atlas" for M2 (`EXEMPLAR_STUDY.md` §6.1.4); decision 6 opens every module on history from the cast; and template v2 calls the Atlas "itself a course".
+2. **Gap: the world set's scope.** The Final Structure plans one world set of about 1,200 objects "tagged by unit" and about 300 case dossiers for "every C unit" (§10; Master Structure §10). The repository's world set is F1's. Nothing says whether S2's or S3's cases are world-set records, nodes or module files.
+3. **Gap: the "global history reader in the program's own voice"** (Final Structure §10, assets) is still listed; the concept units now do its job, but no document says so.
+
+### 6.2 The size and place of concept units
+
+4. **Contradiction: ballet's size and home.** R1: placed by unit, about 2.5 hours of F1 Practice, no strand (§0, §2.3, §5.7). `REVIEW.md` §6: an elective "beside Method, not inside F1". Decision 4 (25 October): the long version is the Atlas concept unit; the blueprint sizes it at about 41 hours (Practice about 18), against F1's 4 / 22 / 22. The Repertory adds 12 to 15 hours for R1 alone. No document places these hours in a depth slice, route or gate.
+5. **Gap: which concepts get a unit.** "Every novel concept in the Atlas" is undefined; the canon holds 429 movements, schools, styles and networks, at about 40,000 learner words each (template §8). The Repertory has a published inclusion rule (§6); concept units have none.
+6. **Contradiction: paths and forms.** The template's Practice path is 12 to 15 hours; ballet's is about 18. Concept units have no five-minute or reference form, which the program requires of every unit (Final Structure, "Consumption matrix") and which R1 flagged (§1.1).
+
+### 6.3 The unit invariants
+
+7. **Contradiction: the lab invariant.** Principle 5, approved at G1, requires a lab or simulation, an Apply by lane, a partner step and a log in every unit. Template v2's chapter ends with a say-back, Apply and closing contribution, and has no lab and no partner step (§4.1). Decisions 1 to 3 of 25 October change the openers and are silent on the invariant.
+8. **Contradiction: openers outside F1.** Decisions 1 and 6 apply history-first openers to every module. The Final Structure's ten opening moves (§5) put Lab first, Problem first and Data first in F3, M2, S1, S2, R2, R3 and F5. The impact list of `DECISIONS_2026-10-25.md` leaves the rewrite to the Hub, which has not changed. If decision 6 stands, F2, F4, M2, M3, S1, S2, S3 and S5 each become consumers of an Atlas opener.
+9. **Contradiction: field ownership.** The blueprint's closing Apply asks for "one rule a stranger can read", "the handover a stranger would need", a commission and a judgement of three responses (`BLUEPRINT.md` ch. 12): RUL, HND, CMB and JDG, owned by M2, R3 and the areas. Template v2 limits the chapter's contribution to the sources record (§4.1). R1 named the same overreach in the earlier plans (§1.1, §4.3).
+
+### 6.4 Names and exemplars
+
+10. **Contradiction: "thread".** R1 (§5.3) and `REVIEW.md` (§6.1) renamed the 24 concept threads motif walls, so that "thread" keeps its program meaning (Final Structure §8). The Repertory still has "thread walls", "thread routes" and a thread filter (§4.1 to §4.3), and the data is `threads.json`.
+11. **Contradiction: wall counts.** Fourteen motif walls in `BLUEPRINT.md`; twenty-four in the Repertory. No file maps one to the other.
+12. **Contradiction: ballet in M2.** R1 sends *Giselle* to M2 beside Salt Road (§5.4, decision 3), and template v2 §6 keeps "the Concept DNA reading to M2". `EXEMPLAR_STUDY.md` §6.1.3 and decision 6's default make the Bauhaus the twin and move *Giselle* to the field atlas. The Hub records only Salt Road (P5); P5a to P5d are absent.
+13. **Gap: the twin has no schema.** `learner_world.kind` is `own` or `seed`; no schema holds a DNA reading of a real world, and no document says whether it is Atlas or M2 content (`EXEMPLAR_STUDY.md` §6.4).
+
+### 6.5 Registers and data
+
+14. **Gap: the link register has no home.** Eleven module-level rows in a document (Phase 4, item 6); "not yet a file" (`schema/registers.md`); no table; generation deferred (P7). R1's thirteen ballet rows (§5.4) were never added. The 38 F1 specs name about six links to other modules (M1.9, M1.10, M1.11a, S3.13, F2.13, F4.12, and R2 by name), although the Hub says "Step 10 fills the link register; each gate checks it".
+15. **Contradiction: three claim id schemes:** `F1.1-C01` by unit (`claims_specs_v1.csv`), `CL-001` (`claims_v0.csv`, Phase 4, item 5), `bal-…` (`ballet.yaml`, kept per topic by `topics/README.md`). None keys a claim by node, so a second unit cannot cite one without copying it.
+16. **Gap: card tiers have no data home.** The voice guide sets four tiers; the canon schema holds none; learner files are versioned per page. Units are told to "link to … a card" (template §4.2), but a card has no id, format or schema.
+17. **Gap: the `work` kind** R1 asked for (§5.3, decision 2) is not in the schema; the canon holds no ballet node.
+18. **Contradiction: two timelines.** "Every lineage unit opens the Atlas, not its own timeline" (Phase 4, item 6). The Repertory builds its own line (`timeline.json`, `build_timeline.py`, `timeline_widget.js`) with eleven eras of its own, beside the Time surface's eleven period bands (`docs/06-atlas-logic/index.md` §7).
+19. **Gap: learners cannot cite the Atlas.** `schema/src-entry.schema.json` has no node, claim or card field (`found_at` is free text; `what` has no "work"). The Behaviour success criterion and R1's rule that borrowings go through SRC (§4.4) depend on it.
+
+### 6.6 Partner voices
+
+20. **Gap: the packs are F1's.** All six are titled "for F1". The Final Structure places the Historian in M1.14, S2.11, S3.15 and R2.7 and promises packs per area for the Fabricator, CFO and Historian (§9); the Historian's "reach is exactly as wide as the pack"; the CFO has no pack, which the Planet pack itself notes (item 7).
+
+### 6.7 What to decide first [argued]
+
+1. **Whose Atlas:** the program's, with F1 as its first author (items 1 to 3, 18, 20).
+2. **What a consumer may cite:** the ids of §5.2, starting with the card tier, the claim, the section and the view state (items 15 to 17, 19).
+3. **The link register as data,** generated from specs and topic READMEs at that granularity (item 14).
+4. **Where concept units sit** in hours, routes and gates, and which concepts get one, by a published rule (items 4 to 6).
+5. **Whether principle 5 binds concept units,** and whether decision 6's openers apply outside F1 (items 7 to 9).
+6. **M2's comparison,** *Giselle* or the Bauhaus, recorded in the Hub with P5a to P5d (items 12, 13).
+7. **Rename the Repertory's threads** and reconcile the wall counts (items 10, 11).
 
 ## Sources read
 
-(pending)
+**Program:** `README.md`; `docs/01-structure/final-structure-v3/index.md`; `docs/01-structure/master-structure-v2.1-pass-1/index.md` (the unit register for every module, engines, media and lecture studies); `docs/02-program/hub/`, `phase-4-foundations/` (personas, seed worlds, registers, the link register, success criteria), `glossary/`, `voice-guide/` (§3); `docs/03-partner-voices/` (the Historian in full, the others by search); `schema/program.json`, `registers.md`, `unit-spec-template.md`, `canon-node.schema.json`, `src-entry.schema.json`, `concept-dna.schema.json`; `supabase/migrations/` (table list).
+
+**F1:** `README.md`; `DECISIONS_2026-10-03.md`; `DECISIONS_2026-10-25.md`; `docs/02-pass-2-v2/`, `docs/06-atlas-logic/`; all 38 `specs/` files (searched for forward links and Atlas use; `F1.4.md` read in full to section 1); `grouping-pages/`; `briefs/ATLAS_CONCEPT_UNIT_TEMPLATE_v2.md`, `TEMPLATE_v3.1_AMENDMENT.md`, `PAGE_TEMPLATES_v1.md` (headings); `topics/README.md`, `topics/_template/README.md`; `atlas/data/canon/` and `atlas/data/register/` (counted by script).
+
+**Ballet:** `topics/ballet/README.md`, `CONTENT_INDEX.md`; `planning/BLUEPRINT.md`, `REPERTORY_PLAN.md`, `review/R1_curriculum_fit.md` (in full), `REVIEW.md`, `decisions/EXEMPLAR_STUDY.md`, `MODULE_PLAN.md`, `CASE_WORLD_PLAN.md`; `planning/repertory_page/threads.json`; `research/` (word counts per file).
+
+**Not read in full:** the F1 Module File, Deep Dives, Groundwork, Scope v2 and Round 2 (searched only); ballet reviews R2 and R3; the ballet research beyond counts and headers. Case and lecture counts per module come from a script over the Master Structure's tables and are approximate.
