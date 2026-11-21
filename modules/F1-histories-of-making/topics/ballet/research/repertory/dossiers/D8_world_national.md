@@ -553,7 +553,7 @@ Prologue, "Present-day Tokyo"; 1, The Helmet; 2, Okaru and Kanpei; 3, The Pine C
 Côrte-Real dressed dancers in sweatshirts under *kataginu* shoulder-wings and leotards under trailing *uchikake* robes, so they look Japanese but can still dance [documented, Unno 2024]. Kabuki devices: black-robed stagehands (*kurogo*) who dress the dancers in view, the black-orange-green striped curtain, the *furiotoshi* curtain that drops in a flash; Béjart also asked for a thin curtain "painted with blood" [documented, NBS 2013]. A curtain carries the 47 *iroha* syllables, standing for the 47 *rōnin*; Béjart set them in rows of six, not the usual seven, leaving one blank square, which the technical director reads as "what will you write there?" [documented, NBS 2013]. The prologue's youths were first in jeans, then all in white; Béjart wanted the proscenium "filled with TVs", like Akihabara [documented]. Lighting rule: white for the prologue, even shadowless "kabuki lighting" for the *gidayū* scenes, ballet lighting as the drama rises [documented, Takazawa].
 
 ### Premiere and reception
-The premiere's Yuranosuke was Eric Vu-An of the Paris Opéra Ballet, alternating with Natsuyama (夏山周久) [documented, ja.wikipedia]; the leading role was given first to a Frenchman of Vietnamese descent [argued as notable]. In *Le Monde*, François Weyergans called the score "Hollywood-style music" that would help when it was televised [documented, quoted ja.wikipedia]. The 1986 European tour took it to Covent Garden, La Scala, the Deutsche Oper Berlin and the Paris Opéra: 33 performances in nine countries [documented, NBS]. The Paris success is said to have opened the Opéra to visiting companies [documented as "it is said", NBS 2024].
+The premiere's Yuranosuke was Eric Vu-An of the Paris Opéra Ballet, alternating with Natsuyama (夏山周久) [documented, ja.wikipedia]; so the samurai hero was created by a French dancer [documented; his Vietnamese family background probable]. In *Le Monde*, François Weyergans called the score "Hollywood-style music" that would help when it was televised [documented, quoted ja.wikipedia]. The 1986 European tour took it to Covent Garden, La Scala, the Deutsche Oper Berlin and the Paris Opéra: 33 performances in nine countries [documented, NBS]. The Paris success is said to have opened the Opéra to visiting companies [documented as "it is said", NBS 2024].
 
 ### Versions and lineage
 One production, kept by its owner company; casting passes from Yuranosuke to Yuranosuke (Takagishi Naoki 高岸直樹 danced it 64 times in 15 countries; Tsukamoto Dan 柄本弾 became the fifth in 2010) [documented]. It was performed at Béjart's memorial in Lausanne (2008), for the 300th anniversary of the vendetta (2002), at the Paris Opéra again (2012), and at the New National Theatre's Opera Palace (2025), where the prologue now includes electric scooters and screens showing the Skytree [documented]. A suite (*Kabuki Suite*) exists [documented]. Excerpts of the score on CD (Nippon Columbia, 1988) [documented].
@@ -748,8 +748,148 @@ The 1991 film is the better-known work; Zhang Yimou later directed the Beijing 2
 
 ## Across these works
 
-(in progress)
+**Who made the "national" ballet.** In six of the ten works the lead choreographer was born outside the nation the work was meant to express: a US-born woman in Mexico (Waldeen), a Warsaw-trained Russian émigré in Buenos Aires (Borowski), a Soviet ballet master in Beijing (Gusev), an Irish-born Englishwoman in Ankara (de Valois), an American in Seoul (Dellas) and a Frenchman in Tokyo (Béjart); a seventh, *Raise the Red Lantern*, was co-choreographed by a Chinese dancer working in Germany (Wang Xinpeng) [documented]. The insiders were Frank Staff (South African-born, London-made), Alice Reyes in Manila and Jiang Zuhui in Beijing, and Jiang was trained in Pyongyang and Moscow [documented]. The register's T14 wall ("folk as national idiom") is therefore also a wall about imported founders: the national ballet is usually a foreign form naturalised by a foreign-trained hand, and the argument is over who gets the credit [argued].
+
+**The same few people turn up everywhere.** Michel Borowski, who choreographed *Estancia* (1952), had danced the lead in Villa-Lobos's *Uirapuru* at the same Colón in 1935 [documented]. De Valois founded the Turkish school in 1947 and was invited to found Iran's national ballet in 1958 [documented]. Jiang Zuhui taught Act II of *The New Year's Sacrifice* to Ballet Philippines, the company of *Rama, Hari*, in 1987 [documented]. Seki Sano, a Japanese exile, directed the spoken choirs of *La Coronela*; a Paris Opéra dancer created Béjart's samurai hero [documented]. "National" ballet travelled through a small international network of teachers [argued].
+
+**Patrons write the brief.** The US wartime propaganda office paid for *Estancia*; the Mexican and Chinese states for *La Coronela* and *The Fish Beauty*; apartheid South Africa's arts council for *Raka*; the Unification Church's foundation for *Shim Chung*; the Asian Games and the Olympics framed *Shim Chung* again [documented]. Patronage shows in the content: the goodwill gaucho, the "dark intruder" under the Immorality Act, *hyo* "outlined" by the church's founder, the "feudal" past safely blamed in *Raise the Red Lantern* [documented and argued, see each dossier].
+
+**Women at the centre, women destroyed.** Five of the ten were choreographed by women (Waldeen, de Valois, Reyes, Jiang, Dellas) and a sixth co-choreographed by one (Wang Yuanyuan), a far higher share than in the European canon of the same decades [documented for names; comparison argued]. Yet the plots split sharply: the revolutionary Coronela triumphs; Xianglin's Wife, the Fish Beauty's rival wives and the Red Lantern concubines are crushed by patriarchal households; Shim Chung is rewarded for sacrificing herself to a father [documented]. T24 ("a woman against family and patriarch") is the batch's strongest common thread, and the one most bent by the state that paid [argued].
+
+**Losses and survivals.** *La Coronela*'s orchestration was lost after its first run; *Estancia* 1952 left no film or notes; the full *New Year's Sacrifice* is rarely danced, but its Act II survives; *Raka* lives through one dancer's memory and a one-day film [documented]. The works that survive best are owned and toured by one company (*The Kabuki*, *Shim Chung*, *Raise the Red Lantern*: 200 to 400 performances each, mostly on tour) [documented, company figures]. Ownership plus touring keeps a ballet alive more reliably than critical praise [argued].
+
+**Surprises.** De Valois privately called *Çeşmebaşı* "my bastard *Petrouchka*" and kept the model from her Turkish team [documented]. Béjart changed *The Kabuki*'s ending because he wept at a rehearsal of the mass suicide [documented]. The score heard as *La Coronela* today is partly music from two Revolution films, assembled 17 years after the premiere [documented].
 
 ## Candidates for the register's gaps
 
-(in progress)
+Each candidate below is what this pass could verify. None has yet had a full dossier.
+
+**Iran, pre-1979: *Bijan and Manijeh* (بیژن و منیژه), 14 October 1975.** Iranian National Ballet Company (founded 1958; de Valois visited in June 1958 and sent teachers), Roudaki Hall, Tehran. The company's first full-evening Persian ballet, after the *Shahnameh* love story. Choreography: Haideh Ahmadzadeh and Robert Urazgildiev; music: Hossein Dehlavi; scenery: Homa Partovi; leads Haydeh Changizian and Jamshid Saghabashi [documented, Nima Kiann's Les Ballets Persans chronology; en.wikipedia company page]. The company was disbanded in February 1979 [documented]. Dehlavi's score was issued on CD in Tehran in 2002 without mention that it was a ballet [documented, as reported]. Also: Robert de Warren's *La Péri* (1965) and Robert Thomas's *Myth of the Creation* (1971) [documented]. Best source: Nima Kiann, *The History of Ballet in Iran* (Reichert, 2015) [cited, not seen]. **Strongest gap candidate.**
+
+**India: *Ramayana* (human-puppet ballet), Little Ballet Troupe, Bombay, 1952 or 1953.** Choreography Shanti Bardhan (1915–1954), a former member of Uday Shankar's Almora centre; music Abani Dasgupta; masks and costumes A. P. Appunni Kartha [documented, Nehru Archive; Narthaki 2011]. Dancers move as Rajasthani string puppets in square masks; Nehru saw it at Rashtrapati Bhavan on 24 April 1953 and called it "extraordinary" given its resources [documented]. Still performed unchanged by Rangasri Little Ballet Troupe, Bhopal; the troupe claims 600 shows in 56 countries [documented as claim]. First staging: 1952 at Jai Hind College (troupe manager, 2016) or 1953 (Narthaki; *Times of India*) [contested]. Note: "ballet" here means Indian modern dance-drama, not academic ballet [argued]; Britannica's own South Asian arts article uses the term "modern Indian ballet" for this line [documented].
+
+**Indonesia: *Sendratari Ramayana* (first billed "Ballet Ramayana"), Prambanan, 26 July 1961.** Open-air stage before the Prambanan temple; idea of minister G. P. H. Djatikusumo after seeing the Cambodian Royal Ballet at Angkor; choreography Soerjohamidjojo and Soeharso; 865 people involved [documented, id.wikipedia; GNFI 2020]. Renamed *sendratari* (seni-drama-tari) by Andjar Asmara in late 1961; still performed [documented]. Charlie Chaplin and President Sukarno attended in August 1961 [documented, GNFI citing *Star Weekly*]. A classical-ballet alternative: Farida Oetoyo (Bolshoi-trained) and her *Rama & Shinta* and *Gunung Agung Meletus* ("Mount Agung Erupts"), early 1970s, Taman Ismail Marzuki, Jakarta [documented, Ministry of Education 2014; dates not found exactly].
+
+**Brazil: *Uirapuru* (Villa-Lobos), 25 May 1935, Teatro Colón, Buenos Aires**, choreography Ricardo Nemanoff, danced by Michel Borowski and Dora del Grande, at a gala for President Getúlio Vargas [documented, Museu Villa-Lobos]. Brazil's own stage version: Vaslav Veltchek, Theatro Municipal, Rio, 1943 season, with Eros Volúsia as the Indigenous huntress [documented, Höfling, *Dance Research Journal* 52/2, 2020, which reads the season's racial politics critically]. Also: *Maracatu de Chico Rei* (Mignone, scenario Mário de Andrade, Olenewa, 1939) [documented, Carloni 2013]. A later and better-documented candidate: Grupo Corpo's *Maria Maria* (Belo Horizonte, 1976; Oscar Araiz, music Milton Nascimento, scenario Fernando Brant; ten years in repertory, fourteen countries) [documented, Grupo Corpo].
+
+**West Africa: Les Ballets Africains de Keïta Fodéba**, Paris debut November 1952 (Théâtre de l'Étoile), national ensemble of Guinea from 1958 [documented, Embassy of Guinea; Maitron]. "Ballet" here means a staged folk-dance theatre, not academic ballet, but it is the earliest known African company to call its work "ballet" and to tour it globally (US 1959) [documented, Cohen 2012, *Journal of Black Studies*]. Fodéba later became Guinea's interior minister and was executed in 1969 [documented, Maitron]. Ghana Dance Ensemble (1962, Nketia and Opoku) is the parallel [documented]. A classical-ballet original on a West African subject by a West African company: not found in this pass.
+
+**The Gulf.** No original ballet on a Gulf subject by a Gulf company was found. What exists: touring ballet (Kuwait's earliest ballet performance, La Scala's *Giselle*, January 2020) [documented, Arabesque]; *A Thousand Tales* (Dubai Opera, January 2023), an original ballet by the Italian Francesco Ventriglia on European fairy tales [documented]; and Arabic grand operas with ballet companies in them, *Zarqa Al Yamama* (Riyadh, April 2024) and *Sindbad: The Omani Sailor* (Royal Opera House Muscat, October 2025, with the Győr Ballet and Omani dance troupes) [documented]. The nearest company-made Arab original remains Cairo's *El-Leila El-Kebira* (W3 §10). Recommendation: treat the Gulf as a gap to state honestly on the card, with *Sindbad* as the watch item [argued].
+
+## Register update
+
+```yaml
+- id: la-coronela-1940
+  field: title.en
+  old: "The Colonel's Wife"
+  new: "The Lady Colonel (The Colonel's Wife also used)"
+  source: "Naxos notes quoted by UNM LAII 2013; Spanish 'coronela' = a woman colonel"
+- id: la-coronela-1940
+  field: designer
+  old: "Gabriel Fernández Ledesma (sets, costumes); Germán Cueto (masks)"
+  new: "Gabriel Fernández Ledesma (sets, costumes; per UNAM and programme); Germán Cueto (masks); Lugo Viñas 2020 credits scenery to the Taller de Gráfica Popular (contested)"
+  source: "https://datosabiertos.unam.mx/FaM:BDREV:MU14; https://relatosehistorias.mx/nuestras-historias/la-danza-de-los-desheredados"
+- id: la-coronela-1940
+  field: threads
+  old: [T08, T14, T18]
+  new: [T08, T14, T18, T24]
+  source: "Tortajada 2004; Beezley 2018 (woman as centre of the revolution)"
+- id: estancia-1952
+  field: designer
+  old: [Dante Ortolani]
+  new: [Dante Ortolani (sets and costumes)]
+  source: "Signorelli, AdVersuS 27 (2014)"
+- id: estancia-1952
+  field: premise
+  old: "A city boy wins a ranch girl by proving himself as a gaucho, ending in a malambo."
+  new: "Over one day from dawn to dawn, a city boy wins a country girl by taming a wild horse (NYCB) or outdancing the gauchos (Britannica), ending in a malambo."
+  source: "https://www.nycballet.com/discover/stories/spotlight-on-estancia; Britannica"
+- id: estancia-1952
+  field: note (add)
+  new: "leads Esmeralda Agoglia and Enrique Lommi; conductor Juan Emilio Martini; mixed bill with Markova's Swan Lake Act I; premiered three weeks after Eva Perón's death"
+  source: "Signorelli 2014"
+- id: fish-beauty-1959
+  field: premiere.place
+  old: "Beijing, Tianqiao Theatre (天桥剧场)"
+  new: "Beijing, Tianqiao Theatre (HNU) or Nationalities Cultural Palace 民族文化宫 (Chen Ailian 2016): contested"
+  source: "https://yjzx.hnu.edu.cn/info/1024/1514.htm; Guangming Daily 4 May 2016"
+- id: fish-beauty-1959
+  field: note (add)
+  new: "leads Chen Ailian/Chen Zemei, Wang Gengyao/Sun Zhengting, Chen Mingqi (demon); act chiefs Li Chenglian (I), Wang Shiqi (II), Li Chengxiang (III); revived 1963, 1979 (Central Ballet, on pointe), 1994 (BDA); Wilcox translates the title 'Lady of the Sea'"
+  source: "CCTV dance history; Yu Ping 2020; Wilcox 2018"
+- id: cesmebasi-1965
+  field: choreographer
+  old: [Ninette de Valois (probable)]
+  new: [Ninette de Valois]
+  source: "Başar 2022 (transcript, OA); DergiPark 2022; Akis 26 Feb 1965"
+- id: cesmebasi-1965
+  field: confidence
+  old: documented
+  new: "documented (premiere 19 Feb 1965 per Akis; some sources give 1964)"
+  source: "Akis 26 Feb 1965; Başar 2022"
+- id: cesmebasi-1965
+  field: threads
+  old: [T14, T21, T04]
+  new: [T14, T21, T04, T05]
+  source: "Başar 2022 (outsider's Turkey; 'my bastard Petrouchka')"
+- id: raka-1967
+  field: premiere
+  old: {date: "1967-08 (Pretoria)", place: "Pretoria"}
+  new: {date: "1967-08-26 (Steyn ch.3; Steyn ch.1 says November 1967: contested)", place: "Pretoria, the Aula"}
+  source: "https://repository.up.ac.za/server/api/core/bitstreams/c12074d2-291e-4513-8999-8646544544fd/content"
+- id: raka-1967
+  field: note (add)
+  new: "leads Juan Sanchez (Raka), Ken Yeatman (Koki), Veronica Paeper (the Woman, a role added for her); film 1968 dir. Alf Travers (or Sven Persson); revivals 1985, 1992 (PACT), 2001 George, 2004 and 2010 Cape Town City Ballet"
+  source: "Steyn 2008; Ons Erfdeel 1969; ESAT"
+- id: rama-hari-1980
+  field: note (add)
+  new: "original singers Basil Valdez and Kuh Ledesma; dancers Nonoy Froilan, Effie Nañas/Ester Rimpos, Robert Medina; English translation Rolando Tinio; revivals 2012 (BP), 2023 (ARDP); 'hari' = king"
+  source: "Philstar 25 Nov 2012; Vogue PH 15 Sep 2023"
+- id: new-years-sacrifice-1981
+  field: note (add)
+  new: "four acts; Act II shown first in 1980 (Ministry of Culture review, first prize); leads Yu Leidi and Wu Zhaoning; Act II staged for Ballet Philippines 1987; made in Beijing, not Shanghai (Shanghai's Lu Xun ballet of 1981 is A Q)"
+  source: "chinadance.cn 2012; Zhongguo wenyi pinglun 2023; Zou Zhirui 2008"
+- id: the-kabuki-1986
+  field: designer
+  old: [Nuno Côrte-Real (sets, costumes)]
+  new: [Nuno Côrte-Real (sets, costumes), Takazawa Tatsuo 高沢立生 (lighting), Ichikawa Fumitake 市川文武 (sound)]
+  source: "NBS 2013 round table; ja.wikipedia"
+- id: the-kabuki-1986
+  field: note (add)
+  new: "two acts, prologue and nine scenes; premiere Yuranosuke Eric Vu-An (Paris Opéra) alternating with Natsuyama; ending changed in rehearsal to the mass seppuku with Mayuzumi's Nirvana Symphony; 213 performances by June 2025 (132 abroad), company figures"
+  source: "ja.wikipedia; NBS; Chacott 2025"
+- id: shim-chung-1986
+  field: composer
+  old: [Kevin Barber Pickard (with Choi Dong-sun)]
+  new: [Kevin Barber Pickard (1986 score shared among three composers incl. Choi Dong-sun; unified under Pickard 1988)]
+  source: "Pickard 1987 (tparents.org); Korea Herald 29 Apr 2026"
+- id: shim-chung-1986
+  field: note (add)
+  new: "title role created by Moon Hoon-sook (Julia H. Moon); revised 2001 (Vinogradov) and 2010-11 (video, design); 'Bingxian Liu' in the English credits is Yoo Byung-hun 유병헌; Pickard writes the theme of hyo was outlined by the church founder"
+  source: "Universal Ballet KR/EN pages; Encyclopedia of Korean Culture"
+- id: raise-the-red-lantern-2001
+  field: note (add)
+  new: "early leads Zhu Yan (new wife), Li Jun (lover), Meng Ningning (second wife); revised version in repertory; over 300 performances by 2011, over 400 by 2016 (company figures)"
+  source: "SCMP 2002; Beijing Weekend 2003; Ministry of Culture 2011; Jakarta Post 2016"
+# proposed new rows (candidates, not yet dossiers)
+- id: bijan-manijeh-1975
+  field: new row
+  new: {title: {orig: "بیژن و منیژه", en: "Bijan and Manijeh"}, premiere: {date: 1975-10-14, place: "Tehran, Roudaki Hall", company: "Iranian National Ballet Company"}, choreographer: [Haideh Ahmadzadeh, Robert Urazgildiev], composer: [Hossein Dehlavi], designer: [Homa Partovi (scenery)], based_on: "Ferdowsi, Shahnameh", region: Iran, tier: B, threads: [T14, T18, T07], confidence: documented}
+  source: "http://www.artira.com/balletspersans/history.html; https://en.wikipedia.org/wiki/Iranian_National_Ballet_Company"
+- id: ramayana-little-ballet-troupe-1952
+  field: new row
+  new: {title: {orig: "Ramayana", en: "Ramayana (human-puppet ballet)"}, premiere: {date: "1952 or 1953 (contested)", place: "Bombay, Jai Hind College", company: "Little Ballet Troupe"}, choreographer: [Shanti Bardhan], composer: [Abani Dasgupta], designer: [A. P. Appunni Kartha (masks, costumes)], based_on: "the Ramayana; Rajasthani puppet theatre", region: India, tier: B, threads: [T04, T05, T12, T14], confidence: documented}
+  source: "https://nehruarchive.in/documents/puppet-dance-drama-show-25-april-1953-xz313; https://narthaki.com/info/rev11/rev1032.html"
+- id: sendratari-ramayana-1961
+  field: new row
+  new: {title: {orig: "Sendratari Ramayana (Ballet Ramayana)", en: "The Ramayana Ballet of Prambanan"}, premiere: {date: 1961-07-26, place: "Prambanan, open-air stage", company: "Yayasan Roro Jonggrang and project team"}, choreographer: [Soerjohamidjojo, Soeharso], based_on: "Ramayana; Prambanan reliefs; Serat Rama", region: Indonesia, tier: C, threads: [T12, T14, T05], confidence: documented}
+  source: "https://id.wikipedia.org/wiki/Sendratari_Ramayana; GNFI 25 Aug 2020"
+- id: uirapuru-1935
+  field: new row
+  new: {title: {orig: "Uirapuru (O passarinho encantado)", en: "Uirapuru"}, premiere: {date: 1935-05-25, place: "Buenos Aires, Teatro Colón", company: "Ballet del Teatro Colón"}, choreographer: [Ricardo Nemanoff], composer: [Heitor Villa-Lobos], designer: [Héctor Balsadúa], based_on: "Amazonian legend of the uirapuru bird", region: "Brazil / Argentina", tier: C, threads: [T03, T14, T23], confidence: documented}
+  source: "https://museuvillalobos.acervos.museus.gov.br/partituras/uirapuru"
+- id: maria-maria-1976
+  field: new row
+  new: {title: {orig: "Maria Maria", en: "Maria Maria"}, premiere: {date: 1976, place: "Belo Horizonte", company: "Grupo Corpo"}, choreographer: [Oscar Araiz], composer: [Milton Nascimento], scenario: [Fernando Brant], region: Brazil, tier: C, threads: [T14, T15], confidence: documented}
+  source: "https://grupocorpo.com.br/sobre/"
+```
