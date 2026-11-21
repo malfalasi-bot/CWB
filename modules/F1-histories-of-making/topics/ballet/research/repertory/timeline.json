@@ -1,0 +1,4890 @@
+{
+ "built_from": [
+  "register.yaml",
+  "timeline_events.yaml",
+  "dossiers/",
+  "../works/"
+ ],
+ "eras": [
+  {
+   "id": "court",
+   "label": "Court ballet",
+   "from": 1581,
+   "to": 1680
+  },
+  {
+   "id": "enlightenment",
+   "label": "Academy and action ballet",
+   "from": 1680,
+   "to": 1820
+  },
+  {
+   "id": "romantic",
+   "label": "Romantic ballet",
+   "from": 1820,
+   "to": 1865
+  },
+  {
+   "id": "imperial",
+   "label": "Imperial grand ballet",
+   "from": 1865,
+   "to": 1908
+  },
+  {
+   "id": "modernist",
+   "label": "Ballets Russes and modernism",
+   "from": 1909,
+   "to": 1943
+  },
+  {
+   "id": "postwar",
+   "label": "States, companies and the Cold War",
+   "from": 1944,
+   "to": 1975
+  },
+  {
+   "id": "late20",
+   "label": "Remaking and new forms",
+   "from": 1976,
+   "to": 1999
+  },
+  {
+   "id": "c21",
+   "label": "The twenty-first century",
+   "from": 2000,
+   "to": 2026
+  }
+ ],
+ "lanes": [
+  "France",
+  "Italy and Europe",
+  "Russia and the Soviet Union",
+  "Britain",
+  "The Americas",
+  "Asia, Africa and the Middle East"
+ ],
+ "works": [
+  {
+   "id": "balet-comique-1581",
+   "title": "The Queen's Comic Ballet",
+   "orig": "Balet comique de la Royne",
+   "year": 1581,
+   "date": "1581-10-15",
+   "place": "Paris, Petit-Bourbon (Salle Bourbon)",
+   "company": "court of Henri III / Louise de Lorraine",
+   "choreographer": [
+    "Balthasar de Beaujoyeulx"
+   ],
+   "composer": [
+    "Lambert de Beaulieu",
+    "Jacques Salmon"
+   ],
+   "designer": [
+    "Jacques Patin"
+   ],
+   "premise": "The enchantress Circe is overcome by the gods and the king, restoring harmony to a realm torn by religious war.",
+   "era": "court",
+   "lane": "France",
+   "region": "France",
+   "threads": [
+    "T17",
+    "T12",
+    "T01"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W1 §1"
+   ]
+  },
+  {
+   "id": "ballet-de-la-nuit-1653",
+   "title": "Royal Ballet of the Night",
+   "orig": "Ballet royal de la Nuit",
+   "year": 1653,
+   "date": "1653-02-23",
+   "place": "Paris, Petit-Bourbon",
+   "company": "court of Louis XIV",
+   "choreographer": [
+    "various court dancing masters"
+   ],
+   "composer": [
+    "Jean de Cambefort",
+    "Jean-Baptiste Boësset",
+    "Michel Lambert",
+    "Jean-Baptiste Lully (some airs)"
+   ],
+   "designer": [
+    "Giacomo Torelli (machines)"
+   ],
+   "premise": "Twelve hours of night, with its thieves, witches and dreams, end as the young king rises as the Sun.",
+   "era": "court",
+   "lane": "France",
+   "region": "France",
+   "threads": [
+    "T17",
+    "T20",
+    "T01"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W1 §2"
+   ]
+  },
+  {
+   "id": "bourgeois-gentilhomme-1670",
+   "title": "The Bourgeois Gentleman",
+   "orig": "Le Bourgeois gentilhomme",
+   "year": 1670,
+   "date": "1670-10-14",
+   "place": "Château de Chambord",
+   "company": "court of Louis XIV",
+   "choreographer": [
+    "Pierre Beauchamp"
+   ],
+   "composer": [
+    "Jean-Baptiste Lully"
+   ],
+   "designer": [
+    "unknown"
+   ],
+   "premise": "A social climber is tricked by a mock 'Turkish ceremony' into believing he has been made a mamamouchi.",
+   "era": "court",
+   "lane": "France",
+   "region": "France",
+   "threads": [
+    "T05",
+    "T17"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "pygmalion-salle-1734",
+   "title": "Pygmalion",
+   "orig": "Pygmalion",
+   "year": 1734,
+   "date": "1734-02-14",
+   "place": "London, Covent Garden Theatre",
+   "company": "John Rich's company",
+   "choreographer": [
+    "Marie Sallé"
+   ],
+   "composer": [
+    "Jean-Joseph Mouret (probable)"
+   ],
+   "designer": [
+    "Marie Sallé (costume reform - loose hair, muslin dress)"
+   ],
+   "premise": "A sculptor's statue comes to life; Sallé danced it uncorseted, a reform of costume and expression.",
+   "era": "enlightenment",
+   "lane": "Britain",
+   "region": "Britain / France",
+   "threads": [
+    "T19",
+    "T12",
+    "T04"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "indes-galantes-1735",
+   "title": "The Amorous Indies",
+   "orig": "Les Indes galantes",
+   "year": 1735,
+   "date": "1735-08-23",
+   "place": "Paris Opéra (Palais-Royal)",
+   "company": "Académie royale de musique",
+   "choreographer": [
+    "Louis Dupré",
+    "Marie Sallé (later entrées) (probable)"
+   ],
+   "composer": [
+    "Jean-Philippe Rameau"
+   ],
+   "designer": [
+    "unknown"
+   ],
+   "premise": "Love in four 'Indies' (Turkey, Peru, Persia, the American forest) as seen from the Opéra.",
+   "era": "enlightenment",
+   "lane": "France",
+   "region": "France",
+   "threads": [
+    "T05",
+    "T23"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "don-juan-angiolini-1761",
+   "title": "Don Juan",
+   "orig": "Don Juan, ou le Festin de pierre",
+   "year": 1761,
+   "date": "1761-10-17",
+   "place": "Vienna, Burgtheater",
+   "company": "court theatre",
+   "choreographer": [
+    "Gasparo Angiolini"
+   ],
+   "composer": [
+    "Christoph Willibald Gluck"
+   ],
+   "designer": [
+    "unknown"
+   ],
+   "premise": "The seducer is dragged to hell by the statue of the man he killed: a pantomime ballet that tells a whole tragedy without words.",
+   "era": "enlightenment",
+   "lane": "Italy and Europe",
+   "region": "Austria",
+   "threads": [
+    "T18",
+    "T01"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "medee-et-jason-1763",
+   "title": "Medea and Jason",
+   "orig": "Médée et Jason",
+   "year": 1763,
+   "date": "1763-02-11",
+   "place": "Stuttgart, ducal court theatre",
+   "company": "court of Duke Carl Eugen of Württemberg",
+   "choreographer": [
+    "Jean-Georges Noverre"
+   ],
+   "composer": [
+    "Jean-Joseph Rodolphe"
+   ],
+   "designer": [
+    "Louis-René Boquet (costumes) (probable)"
+   ],
+   "premise": "Medea's revenge as a ballet d'action: the passions told in pantomime, the program of the Lettres sur la danse put on stage.",
+   "era": "enlightenment",
+   "lane": "Italy and Europe",
+   "region": "Germany / France",
+   "threads": [
+    "T12",
+    "T15"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W1 §3"
+   ]
+  },
+  {
+   "id": "fille-mal-gardee-1789",
+   "title": "The Wayward Daughter",
+   "orig": "La Fille mal gardée (Le Ballet de la paille)",
+   "year": 1789,
+   "date": "1789-07-01",
+   "place": "Bordeaux, Grand Théâtre",
+   "company": "Grand Théâtre de Bordeaux",
+   "choreographer": [
+    "Jean Dauberval"
+   ],
+   "composer": [
+    "popular French airs",
+    "arranged"
+   ],
+   "designer": [
+    "unknown"
+   ],
+   "premise": "A farmer's daughter outwits her mother to marry the young farmer she loves rather than the rich simpleton.",
+   "era": "enlightenment",
+   "lane": "France",
+   "region": "France",
+   "threads": [
+    "T07",
+    "T11",
+    "T14"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "flore-et-zephire-1796",
+   "title": "Flore and Zephyr",
+   "orig": "Flore et Zéphire",
+   "year": 1796,
+   "date": "1796-07-07",
+   "place": "London, King's Theatre",
+   "company": "King's Theatre",
+   "choreographer": [
+    "Charles-Louis Didelot"
+   ],
+   "composer": [
+    "Cesare Bossi"
+   ],
+   "designer": [
+    "Liparotti (machinist) (probable)"
+   ],
+   "premise": "The west wind courts Flora; flying machinery lifts dancers into the air, a precursor of the Romantic illusion of weightlessness.",
+   "era": "enlightenment",
+   "lane": "Britain",
+   "region": "Britain / France / Russia",
+   "threads": [
+    "T12",
+    "T03",
+    "T09"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "creatures-of-prometheus-1801",
+   "title": "The Creatures of Prometheus",
+   "orig": "Die Geschöpfe des Prometheus",
+   "year": 1801,
+   "date": "1801-03-28",
+   "place": "Vienna, Burgtheater",
+   "company": "court theatre",
+   "choreographer": [
+    "Salvatore Viganò"
+   ],
+   "composer": [
+    "Ludwig van Beethoven"
+   ],
+   "designer": [
+    "unknown"
+   ],
+   "premise": "Prometheus brings two statues to life and has them taught the arts, a parable of education and enlightenment.",
+   "era": "enlightenment",
+   "lane": "Italy and Europe",
+   "region": "Austria / Italy",
+   "threads": [
+    "T12",
+    "T19",
+    "T04"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "robert-le-diable-nuns-1831",
+   "title": "Robert the Devil: Ballet of the Nuns",
+   "orig": "Robert le diable: Ballet des nonnes",
+   "year": 1831,
+   "date": "1831-11-21",
+   "place": "Paris Opéra, Salle Le Peletier",
+   "company": "Paris Opéra",
+   "choreographer": [
+    "Filippo Taglioni"
+   ],
+   "composer": [
+    "Giacomo Meyerbeer"
+   ],
+   "designer": [
+    "Pierre Ciceri (moonlit cloister)",
+    "gas lighting"
+   ],
+   "premise": "Dead nuns rise by moonlight in a ruined cloister to seduce the hero: the scene from which the white act grew.",
+   "era": "romantic",
+   "lane": "France",
+   "region": "France",
+   "threads": [
+    "T02",
+    "T01",
+    "T20"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "sylphide-1832",
+   "title": "La Sylphide",
+   "orig": "La Sylphide",
+   "year": 1832,
+   "date": "1832-03-12",
+   "place": "Paris Opéra, Salle Le Peletier",
+   "company": "Paris Opéra",
+   "choreographer": [
+    "Filippo Taglioni"
+   ],
+   "composer": [
+    "Jean-Madeleine Schneitzhoeffer"
+   ],
+   "designer": [
+    "Pierre Ciceri (sets)",
+    "Eugène Lami (costumes)"
+   ],
+   "premise": "A Scottish farmer leaves his bride for an air spirit and destroys her by trying to possess her.",
+   "era": "romantic",
+   "lane": "France",
+   "region": "France",
+   "threads": [
+    "T01",
+    "T02",
+    "T03",
+    "T07",
+    "T05"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W1 §4"
+   ]
+  },
+  {
+   "id": "sylphide-bournonville-1836",
+   "title": "La Sylphide (Bournonville)",
+   "orig": "Sylfiden",
+   "year": 1836,
+   "date": "1836-11-28",
+   "place": "Copenhagen, Royal Theatre",
+   "company": "Royal Danish Ballet",
+   "choreographer": [
+    "August Bournonville"
+   ],
+   "composer": [
+    "Herman Severin Løvenskiold"
+   ],
+   "designer": [
+    "unknown"
+   ],
+   "premise": "The Paris ballet re-made in Copenhagen with a new score; the version that survived in continuous performance.",
+   "era": "romantic",
+   "lane": "Italy and Europe",
+   "region": "Denmark",
+   "threads": [
+    "T13",
+    "T01",
+    "T02",
+    "T03"
+   ],
+   "parent": "sylphide-1832",
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "giselle-1841",
+   "title": "Giselle",
+   "orig": "Giselle, ou les Wilis",
+   "year": 1841,
+   "date": "1841-06-28",
+   "place": "Paris Opéra, Salle Le Peletier",
+   "company": "Paris Opéra",
+   "choreographer": [
+    "Jean Coralli",
+    "Jules Perrot"
+   ],
+   "composer": [
+    "Adolphe Adam"
+   ],
+   "designer": [
+    "Pierre Ciceri (sets)",
+    "Paul Lormier (costumes)"
+   ],
+   "premise": "A village girl dies of a nobleman's betrayal and, among the vengeful ghosts of jilted brides, saves him.",
+   "era": "romantic",
+   "lane": "France",
+   "region": "France",
+   "threads": [
+    "T01",
+    "T02",
+    "T07",
+    "T15"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W1 §5"
+   ]
+  },
+  {
+   "id": "napoli-1842",
+   "title": "Napoli, or The Fisherman and His Bride",
+   "orig": "Napoli, eller Fiskeren og hans Brud",
+   "year": 1842,
+   "date": "1842-03-29",
+   "place": "Copenhagen, Royal Theatre",
+   "company": "Royal Danish Ballet",
+   "choreographer": [
+    "August Bournonville"
+   ],
+   "composer": [
+    "Edvard Helsted",
+    "Holger Simon Paulli",
+    "Niels Gade",
+    "Hans Christian Lumbye"
+   ],
+   "designer": [
+    "unknown"
+   ],
+   "premise": "A Neapolitan fisherman rescues his bride from a sea-god's grotto; the last act is a wedding tarantella.",
+   "era": "romantic",
+   "lane": "Italy and Europe",
+   "region": "Denmark / Italy",
+   "threads": [
+    "T01",
+    "T05",
+    "T14",
+    "T21"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "esmeralda-1844",
+   "title": "La Esmeralda",
+   "orig": "La Esmeralda",
+   "year": 1844,
+   "date": "1844-03-09",
+   "place": "London, Her Majesty's Theatre",
+   "company": "Her Majesty's Theatre",
+   "choreographer": [
+    "Jules Perrot"
+   ],
+   "composer": [
+    "Cesare Pugni"
+   ],
+   "designer": [
+    "William Grieve (probable)"
+   ],
+   "premise": "A Romani street dancer is loved by a priest, a poet, a captain and the bell-ringer, and condemned as a witch.",
+   "era": "romantic",
+   "lane": "Britain",
+   "region": "Britain / France / Russia",
+   "threads": [
+    "T18",
+    "T05",
+    "T21"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "pas-de-quatre-1845",
+   "title": "Pas de Quatre",
+   "orig": "Pas de Quatre",
+   "year": 1845,
+   "date": "1845-07-12",
+   "place": "London, Her Majesty's Theatre",
+   "company": "Her Majesty's Theatre (Benjamin Lumley)",
+   "choreographer": [
+    "Jules Perrot"
+   ],
+   "composer": [
+    "Cesare Pugni"
+   ],
+   "designer": [
+    "none known"
+   ],
+   "premise": "Four rival ballerinas share one stage, each given a solo to her strength; the star system made into a ballet.",
+   "era": "romantic",
+   "lane": "Britain",
+   "region": "Britain",
+   "threads": [
+    "T10"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "paquita-1846",
+   "title": "Paquita",
+   "orig": "Paquita",
+   "year": 1846,
+   "date": "1846-04-01",
+   "place": "Paris Opéra, Salle Le Peletier",
+   "company": "Paris Opéra",
+   "choreographer": [
+    "Joseph Mazilier"
+   ],
+   "composer": [
+    "Édouard Deldevez"
+   ],
+   "designer": [
+    "unknown"
+   ],
+   "premise": "A Romani girl in Spain saves a French officer and turns out to be of noble birth.",
+   "era": "romantic",
+   "lane": "France",
+   "region": "France / Russia",
+   "threads": [
+    "T05",
+    "T07"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "corsaire-1856",
+   "title": "The Corsair",
+   "orig": "Le Corsaire",
+   "year": 1856,
+   "date": "1856-01-23",
+   "place": "Paris Opéra, Salle Le Peletier",
+   "company": "Paris Opéra",
+   "choreographer": [
+    "Joseph Mazilier"
+   ],
+   "composer": [
+    "Adolphe Adam"
+   ],
+   "designer": [
+    "unknown"
+   ],
+   "premise": "A pirate rescues a Greek girl from a slave market and a pasha's harem; a shipwreck ends it.",
+   "era": "romantic",
+   "lane": "France",
+   "region": "France / Russia",
+   "threads": [
+    "T05",
+    "T18"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "papillon-1860",
+   "title": "The Butterfly",
+   "orig": "Le Papillon",
+   "year": 1860,
+   "date": "1860-11-26",
+   "place": "Paris Opéra, Salle Le Peletier",
+   "company": "Paris Opéra",
+   "choreographer": [
+    "Marie Taglioni"
+   ],
+   "composer": [
+    "Jacques Offenbach"
+   ],
+   "designer": [
+    "unknown"
+   ],
+   "premise": "A girl turned into a butterfly by a fairy is caught and pinned by the prince who loves her.",
+   "era": "romantic",
+   "lane": "France",
+   "region": "France",
+   "threads": [
+    "T03",
+    "T06",
+    "T01"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "pharaohs-daughter-1862",
+   "title": "The Pharaoh's Daughter",
+   "orig": "Дочь фараона (La Fille du Pharaon)",
+   "year": 1862,
+   "date": "1862-01-30",
+   "place": "St Petersburg, Bolshoi Kamenny Theatre",
+   "company": "Imperial Ballet",
+   "choreographer": [
+    "Marius Petipa"
+   ],
+   "composer": [
+    "Cesare Pugni"
+   ],
+   "designer": [
+    "unknown"
+   ],
+   "premise": "An English lord, dreaming in a pyramid under opium, lives a romance with a mummy who comes to life.",
+   "era": "romantic",
+   "lane": "Russia and the Soviet Union",
+   "region": "Russia / France",
+   "threads": [
+    "T05",
+    "T20",
+    "T01",
+    "T18"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "don-quixote-1869",
+   "title": "Don Quixote",
+   "orig": "Дон Кихот",
+   "year": 1869,
+   "date": "1869-12-26",
+   "place": "Moscow, Bolshoi Theatre",
+   "company": "Imperial Ballet (Moscow)",
+   "choreographer": [
+    "Marius Petipa"
+   ],
+   "composer": [
+    "Ludwig Minkus"
+   ],
+   "designer": [
+    "unknown"
+   ],
+   "premise": "In a Barcelona square the knight blesses the love of an innkeeper's daughter and a barber, against her father's choice.",
+   "era": "imperial",
+   "lane": "Russia and the Soviet Union",
+   "region": "Russia / Spain",
+   "threads": [
+    "T18",
+    "T05",
+    "T14",
+    "T21",
+    "T20"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "coppelia-1870",
+   "title": "Coppélia",
+   "orig": "Coppélia, ou la Fille aux yeux d'émail",
+   "year": 1870,
+   "date": "1870-05-25",
+   "place": "Paris Opéra, Salle Le Peletier",
+   "company": "Paris Opéra",
+   "choreographer": [
+    "Arthur Saint-Léon"
+   ],
+   "composer": [
+    "Léo Delibes"
+   ],
+   "designer": [
+    "Charles Cambon",
+    "Édouard Desplechin",
+    "Antoine Lavastre (sets); Alfred Albert (costumes)"
+   ],
+   "premise": "A village girl impersonates a toymaker's doll to win back her fiancé, who has fallen for the doll.",
+   "era": "imperial",
+   "lane": "France",
+   "region": "France",
+   "threads": [
+    "T04",
+    "T19",
+    "T14",
+    "T07"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W1 §6"
+   ]
+  },
+  {
+   "id": "sylvia-1876",
+   "title": "Sylvia",
+   "orig": "Sylvia, ou la Nymphe de Diane",
+   "year": 1876,
+   "date": "1876-06-14",
+   "place": "Paris, Palais Garnier",
+   "company": "Paris Opéra",
+   "choreographer": [
+    "Louis Mérante"
+   ],
+   "composer": [
+    "Léo Delibes"
+   ],
+   "designer": [
+    "Jules Chéret",
+    "Auguste Rubé",
+    "Philippe Chaperon (sets); Eugène Lacoste (costumes) (probable)"
+   ],
+   "premise": "A huntress-nymph of Diana is won by a shepherd with the help of Eros.",
+   "era": "imperial",
+   "lane": "France",
+   "region": "France",
+   "threads": [
+    "T12",
+    "T18"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "bayadere-1877",
+   "title": "La Bayadère",
+   "orig": "Баядерка (La Bayadère)",
+   "year": 1877,
+   "date": "1877-02-04",
+   "place": "St Petersburg, Bolshoi Kamenny Theatre",
+   "company": "Imperial Ballet",
+   "choreographer": [
+    "Marius Petipa"
+   ],
+   "composer": [
+    "Ludwig Minkus"
+   ],
+   "designer": [
+    "Mikhail Bocharov",
+    "Matvei Shishkov",
+    "Heinrich Wagner",
+    "Andrei Roller (sets)"
+   ],
+   "premise": "A temple dancer loved by a warrior is killed by his royal bride; in an opium vision he finds her among the Shades.",
+   "era": "imperial",
+   "lane": "Russia and the Soviet Union",
+   "region": "Russia",
+   "threads": [
+    "T05",
+    "T02",
+    "T01",
+    "T20",
+    "T07"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W1 §7"
+   ]
+  },
+  {
+   "id": "swan-lake-1877-1895",
+   "title": "Swan Lake",
+   "orig": "Лебединое озеро",
+   "year": 1877,
+   "date": "1877-03-04 (Moscow, Reisinger); 1895-01-27 (St Petersburg, Petipa-Ivanov)",
+   "place": "Moscow, Bolshoi Theatre; St Petersburg, Mariinsky Theatre",
+   "company": "Imperial Ballet",
+   "choreographer": [
+    "Julius Reisinger (1877)",
+    "Marius Petipa",
+    "Lev Ivanov (1895)"
+   ],
+   "composer": [
+    "Pyotr Ilyich Tchaikovsky (1895 revised by Riccardo Drigo)"
+   ],
+   "designer": [
+    "various"
+   ],
+   "premise": "A prince swears love to a woman turned into a swan and is tricked into betraying her by her black double.",
+   "era": "imperial",
+   "lane": "Russia and the Soviet Union",
+   "region": "Russia",
+   "threads": [
+    "T03",
+    "T01",
+    "T02",
+    "T06",
+    "T07"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W1 §10"
+   ]
+  },
+  {
+   "id": "excelsior-1881",
+   "title": "Excelsior",
+   "orig": "Excelsior",
+   "year": 1881,
+   "date": "1881-01-11",
+   "place": "Milan, Teatro alla Scala",
+   "company": "La Scala",
+   "choreographer": [
+    "Luigi Manzotti"
+   ],
+   "composer": [
+    "Romualdo Marenco"
+   ],
+   "designer": [
+    "Alfredo Edel (costumes) (probable)"
+   ],
+   "premise": "Light defeats Obscurantism through the inventions of the century, in a spectacle of hundreds of dancers.",
+   "era": "imperial",
+   "lane": "Italy and Europe",
+   "region": "Italy",
+   "threads": [
+    "T09",
+    "T17",
+    "T05"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "sleeping-beauty-1890",
+   "title": "The Sleeping Beauty",
+   "orig": "Спящая красавица",
+   "year": 1890,
+   "date": "1890-01-15",
+   "place": "St Petersburg, Mariinsky Theatre",
+   "company": "Imperial Ballet",
+   "choreographer": [
+    "Marius Petipa"
+   ],
+   "composer": [
+    "Pyotr Ilyich Tchaikovsky"
+   ],
+   "designer": [
+    "Ivan Vsevolozhsky (costumes); Andreyev",
+    "Bocharov",
+    "Shishkov",
+    "Levogt",
+    "Ivanov (sets)"
+   ],
+   "premise": "A princess cursed by a slighted fairy sleeps a hundred years until a prince's kiss; a homage to the court of Louis XIV.",
+   "era": "imperial",
+   "lane": "Russia and the Soviet Union",
+   "region": "Russia",
+   "threads": [
+    "T06",
+    "T17",
+    "T01",
+    "T20"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W1 §8"
+   ]
+  },
+  {
+   "id": "nutcracker-1892",
+   "title": "The Nutcracker",
+   "orig": "Щелкунчик",
+   "year": 1892,
+   "date": "1892-12-18",
+   "place": "St Petersburg, Mariinsky Theatre",
+   "company": "Imperial Ballet",
+   "choreographer": [
+    "Lev Ivanov (after Petipa's plan)"
+   ],
+   "composer": [
+    "Pyotr Ilyich Tchaikovsky"
+   ],
+   "designer": [
+    "Konstantin Ivanov",
+    "Mikhail Bocharov (sets); Ivan Vsevolozhsky (costumes)"
+   ],
+   "premise": "On Christmas Eve a girl's nutcracker doll becomes a prince who takes her to the Kingdom of Sweets.",
+   "era": "imperial",
+   "lane": "Russia and the Soviet Union",
+   "region": "Russia",
+   "threads": [
+    "T04",
+    "T06",
+    "T05",
+    "T20",
+    "T01"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W1 §9"
+   ]
+  },
+  {
+   "id": "raymonda-1898",
+   "title": "Raymonda",
+   "orig": "Раймонда",
+   "year": 1898,
+   "date": "1898-01-19",
+   "place": "St Petersburg, Mariinsky Theatre",
+   "company": "Imperial Ballet",
+   "choreographer": [
+    "Marius Petipa"
+   ],
+   "composer": [
+    "Alexander Glazunov"
+   ],
+   "designer": [
+    "Orest Allegri",
+    "Konstantin Ivanov",
+    "Pyotr Lambin (sets); Ekaterina Ofitserova (costumes) (probable)"
+   ],
+   "premise": "A Hungarian-Provençal noblewoman waits for her crusader knight and resists a Saracen knight who tries to abduct her.",
+   "era": "imperial",
+   "lane": "Russia and the Soviet Union",
+   "region": "Russia",
+   "threads": [
+    "T05",
+    "T14",
+    "T20"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "dying-swan-1905",
+   "title": "The Dying Swan",
+   "orig": "Умирающий лебедь (Le Cygne)",
+   "year": 1905,
+   "date": "1905",
+   "place": "St Petersburg (charity concert, Hall of Nobility) (probable)",
+   "company": "Anna Pavlova",
+   "choreographer": [
+    "Mikhail Fokine"
+   ],
+   "composer": [
+    "Camille Saint-Saëns (\"Le Cygne\"",
+    "Carnival of the Animals)"
+   ],
+   "designer": [
+    "Léon Bakst (later costume) (probable)"
+   ],
+   "premise": "A two-minute solo: a swan's last struggle; Pavlova's signature.",
+   "era": "imperial",
+   "lane": "Russia and the Soviet Union",
+   "region": "Russia",
+   "threads": [
+    "T03",
+    "T13"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "les-sylphides-1909",
+   "title": "Les Sylphides (Chopiniana)",
+   "orig": "Шопениана / Les Sylphides",
+   "year": 1907,
+   "date": "1907/1908 (St Petersburg, as Chopiniana); 1909-06-02 (Paris, Théâtre du Châtelet, as Les Sylphides)",
+   "place": "St Petersburg; Paris",
+   "company": "Imperial Ballet students; Ballets Russes",
+   "choreographer": [
+    "Mikhail Fokine"
+   ],
+   "composer": [
+    "Frédéric Chopin (orch. Glazunov and others)"
+   ],
+   "designer": [
+    "Alexandre Benois (1909)"
+   ],
+   "premise": "A poet among sylphs in moonlight: a white act without a plot, a ballet about the Romantic ballet.",
+   "era": "modernist",
+   "lane": "Russia and the Soviet Union",
+   "region": "Russia / France",
+   "threads": [
+    "T02",
+    "T10",
+    "T13",
+    "T01"
+   ],
+   "parent": "the",
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "pavillon-darmide-1907",
+   "title": "The Pavilion of Armida",
+   "orig": "Павильон Армиды (Le Pavillon d'Armide)",
+   "year": 1907,
+   "date": "1907-11-25",
+   "place": "St Petersburg, Mariinsky Theatre",
+   "company": "Imperial Ballet",
+   "choreographer": [
+    "Mikhail Fokine"
+   ],
+   "composer": [
+    "Nikolai Tcherepnin"
+   ],
+   "designer": [
+    "Alexandre Benois"
+   ],
+   "premise": "A traveller sleeps in a pavilion where a tapestry of Armida comes alive; awake, he finds her scarf.",
+   "era": "imperial",
+   "lane": "Russia and the Soviet Union",
+   "region": "Russia",
+   "threads": [
+    "T01",
+    "T20",
+    "T18"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "firebird-1910",
+   "title": "The Firebird",
+   "orig": "L'Oiseau de feu / Жар-птица",
+   "year": 1910,
+   "date": "1910-06-25",
+   "place": "Paris Opéra (Palais Garnier)",
+   "company": "Ballets Russes",
+   "choreographer": [
+    "Mikhail Fokine"
+   ],
+   "composer": [
+    "Igor Stravinsky"
+   ],
+   "designer": [
+    "Alexander Golovin (sets)",
+    "Léon Bakst (Firebird and Tsarevna costumes)"
+   ],
+   "premise": "Prince Ivan captures the magic Firebird, spares her for a feather, and with her help destroys the immortal Kashchei.",
+   "era": "modernist",
+   "lane": "Russia and the Soviet Union",
+   "region": "Russia / France",
+   "threads": [
+    "T03",
+    "T06",
+    "T14",
+    "T01"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W2 §2"
+   ]
+  },
+  {
+   "id": "scheherazade-1910",
+   "title": "Scheherazade",
+   "orig": "Schéhérazade",
+   "year": 1910,
+   "date": "1910-06-04",
+   "place": "Paris Opéra (Palais Garnier)",
+   "company": "Ballets Russes",
+   "choreographer": [
+    "Mikhail Fokine"
+   ],
+   "composer": [
+    "Nikolai Rimsky-Korsakov"
+   ],
+   "designer": [
+    "Léon Bakst"
+   ],
+   "premise": "While the shah is away his wives and the Golden Slave hold an orgy; he returns and has them killed.",
+   "era": "modernist",
+   "lane": "Russia and the Soviet Union",
+   "region": "Russia / France",
+   "threads": [
+    "T05",
+    "T18"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W2 §1"
+   ]
+  },
+  {
+   "id": "petrushka-1911",
+   "title": "Petrushka",
+   "orig": "Petrouchka / Петрушка",
+   "year": 1911,
+   "date": "1911-06-13",
+   "place": "Paris, Théâtre du Châtelet",
+   "company": "Ballets Russes",
+   "choreographer": [
+    "Mikhail Fokine"
+   ],
+   "composer": [
+    "Igor Stravinsky"
+   ],
+   "designer": [
+    "Alexandre Benois"
+   ],
+   "premise": "At a Shrovetide fair, a puppet with a soul loves a ballerina doll and is killed by the Moor; his ghost mocks the showman.",
+   "era": "modernist",
+   "lane": "Russia and the Soviet Union",
+   "region": "Russia / France",
+   "threads": [
+    "T04",
+    "T21",
+    "T14",
+    "T05"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W2 §3"
+   ]
+  },
+  {
+   "id": "spectre-de-la-rose-1911",
+   "title": "The Spirit of the Rose",
+   "orig": "Le Spectre de la rose",
+   "year": 1911,
+   "date": "1911-04-19",
+   "place": "Monte Carlo, Théâtre de Monte-Carlo",
+   "company": "Ballets Russes",
+   "choreographer": [
+    "Mikhail Fokine"
+   ],
+   "composer": [
+    "Carl Maria von Weber (Invitation to the Dance",
+    "orch. Berlioz)"
+   ],
+   "designer": [
+    "Léon Bakst"
+   ],
+   "premise": "A girl home from her first ball dreams the rose she wore dances with her, then leaps out of the window.",
+   "era": "modernist",
+   "lane": "France",
+   "region": "France / Russia",
+   "threads": [
+    "T20",
+    "T01",
+    "T18"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "apres-midi-faune-1912",
+   "title": "Afternoon of a Faun",
+   "orig": "L'Après-midi d'un faune",
+   "year": 1912,
+   "date": "1912-05-29",
+   "place": "Paris, Théâtre du Châtelet",
+   "company": "Ballets Russes",
+   "choreographer": [
+    "Vaslav Nijinsky"
+   ],
+   "composer": [
+    "Claude Debussy"
+   ],
+   "designer": [
+    "Léon Bakst"
+   ],
+   "premise": "A faun pursues nymphs in a flat frieze of profile movement and is left with a scarf.",
+   "era": "modernist",
+   "lane": "France",
+   "region": "France / Russia",
+   "threads": [
+    "T12",
+    "T18"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W2 §4"
+   ]
+  },
+  {
+   "id": "jeux-1913",
+   "title": "Games",
+   "orig": "Jeux",
+   "year": 1913,
+   "date": "1913-05-15",
+   "place": "Paris, Théâtre des Champs-Élysées",
+   "company": "Ballets Russes",
+   "choreographer": [
+    "Vaslav Nijinsky"
+   ],
+   "composer": [
+    "Claude Debussy"
+   ],
+   "designer": [
+    "Léon Bakst"
+   ],
+   "premise": "A young man and two women look for a lost tennis ball in a park at dusk and trade kisses.",
+   "era": "modernist",
+   "lane": "France",
+   "region": "France / Russia",
+   "threads": [
+    "T11",
+    "T09"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "rite-of-spring-1913",
+   "title": "The Rite of Spring",
+   "orig": "Le Sacre du printemps / Весна священная",
+   "year": 1913,
+   "date": "1913-05-29",
+   "place": "Paris, Théâtre des Champs-Élysées",
+   "company": "Ballets Russes",
+   "choreographer": [
+    "Vaslav Nijinsky"
+   ],
+   "composer": [
+    "Igor Stravinsky"
+   ],
+   "designer": [
+    "Nicholas Roerich"
+   ],
+   "premise": "Pagan tribes celebrate spring; a chosen maiden dances herself to death.",
+   "era": "modernist",
+   "lane": "Russia and the Soviet Union",
+   "region": "Russia / France",
+   "threads": [
+    "T16",
+    "T14",
+    "T08",
+    "T12"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W2 §5"
+   ]
+  },
+  {
+   "id": "parade-1917",
+   "title": "Parade",
+   "orig": "Parade",
+   "year": 1917,
+   "date": "1917-05-18",
+   "place": "Paris, Théâtre du Châtelet",
+   "company": "Ballets Russes",
+   "choreographer": [
+    "Léonide Massine"
+   ],
+   "composer": [
+    "Erik Satie"
+   ],
+   "designer": [
+    "Pablo Picasso"
+   ],
+   "premise": "Fairground managers and acts try to lure a crowd into a show that never begins.",
+   "era": "modernist",
+   "lane": "France",
+   "region": "France",
+   "threads": [
+    "T21",
+    "T09",
+    "T11"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W2 §6"
+   ]
+  },
+  {
+   "id": "autumn-leaves-pavlova-1918",
+   "title": "Autumn Leaves",
+   "orig": "Autumn Leaves (Feuilles d'automne)",
+   "year": 1918,
+   "date": "1918 or 1919",
+   "place": "Rio de Janeiro (probable)",
+   "company": "Anna Pavlova's company",
+   "choreographer": [
+    "Anna Pavlova"
+   ],
+   "composer": [
+    "Frédéric Chopin"
+   ],
+   "designer": [
+    "Konstantin Korovin (probable)"
+   ],
+   "premise": "A chrysanthemum is torn by the autumn wind and abandoned by a passing poet.",
+   "era": "modernist",
+   "lane": "Russia and the Soviet Union",
+   "region": "Russia / Latin America (touring)",
+   "threads": [
+    "T03",
+    "T15"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "contested",
+   "depth": []
+  },
+  {
+   "id": "boutique-fantasque-1919",
+   "title": "The Magic Toyshop",
+   "orig": "La Boutique fantasque",
+   "year": 1919,
+   "date": "1919-06-05",
+   "place": "London, Alhambra Theatre",
+   "company": "Ballets Russes",
+   "choreographer": [
+    "Léonide Massine"
+   ],
+   "composer": [
+    "Gioachino Rossini (arr. Ottorino Respighi)"
+   ],
+   "designer": [
+    "André Derain"
+   ],
+   "premise": "Two dancing dolls in a toyshop, sold to separate buyers, elope overnight with the other toys' help.",
+   "era": "modernist",
+   "lane": "France",
+   "region": "France / Britain",
+   "threads": [
+    "T04",
+    "T06"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "tricorne-1919",
+   "title": "The Three-Cornered Hat",
+   "orig": "Le Tricorne / El sombrero de tres picos",
+   "year": 1919,
+   "date": "1919-07-22",
+   "place": "London, Alhambra Theatre",
+   "company": "Ballets Russes",
+   "choreographer": [
+    "Léonide Massine"
+   ],
+   "composer": [
+    "Manuel de Falla"
+   ],
+   "designer": [
+    "Pablo Picasso"
+   ],
+   "premise": "A miller and his wife outwit a lecherous magistrate in an Andalusian village.",
+   "era": "modernist",
+   "lane": "Italy and Europe",
+   "region": "Spain / France",
+   "threads": [
+    "T14",
+    "T18",
+    "T07",
+    "T05"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "maries-tour-eiffel-1921",
+   "title": "The Wedding Party on the Eiffel Tower",
+   "orig": "Les Mariés de la tour Eiffel",
+   "year": 1921,
+   "date": "1921-06-18",
+   "place": "Paris, Théâtre des Champs-Élysées",
+   "company": "Ballets suédois",
+   "choreographer": [
+    "Jean Börlin"
+   ],
+   "composer": [
+    "Germaine Tailleferre",
+    "Georges Auric",
+    "Arthur Honegger",
+    "Darius Milhaud",
+    "Francis Poulenc"
+   ],
+   "designer": [
+    "Irène Lagut (sets)",
+    "Jean Hugo (costumes and masks)"
+   ],
+   "premise": "A wedding party on the Eiffel Tower is spoken by two phonograph-narrators while a camera swallows and spits out characters.",
+   "era": "modernist",
+   "lane": "France",
+   "region": "France / Sweden",
+   "threads": [
+    "T09",
+    "T11",
+    "T21"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "skating-rink-1922",
+   "title": "Skating Rink",
+   "orig": "Skating Rink",
+   "year": 1922,
+   "date": "1922-01-20",
+   "place": "Paris, Théâtre des Champs-Élysées",
+   "company": "Ballets suédois",
+   "choreographer": [
+    "Jean Börlin"
+   ],
+   "composer": [
+    "Arthur Honegger"
+   ],
+   "designer": [
+    "Fernand Léger"
+   ],
+   "premise": "On a working-class skating rink, a madman steals a woman from her partner as the crowd circles.",
+   "era": "modernist",
+   "lane": "France",
+   "region": "France / Sweden",
+   "threads": [
+    "T11",
+    "T09"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "triadic-ballet-1922",
+   "title": "The Triadic Ballet",
+   "orig": "Das Triadische Ballett",
+   "year": 1922,
+   "date": "1922-09-30",
+   "place": "Stuttgart, Landestheater",
+   "company": "Oskar Schlemmer with Albert Burger and Elsa Hötzel",
+   "choreographer": [
+    "Oskar Schlemmer"
+   ],
+   "composer": [
+    "Paul Hindemith (1926 mechanical-organ score)"
+   ],
+   "designer": [
+    "Oskar Schlemmer"
+   ],
+   "premise": "Three dancers in eighteen sculptural costumes move through yellow, pink and black sequences: the body as geometry.",
+   "era": "modernist",
+   "lane": "Italy and Europe",
+   "region": "Germany",
+   "threads": [
+    "T09",
+    "T10",
+    "T04"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "creation-du-monde-1923",
+   "title": "The Creation of the World",
+   "orig": "La Création du monde",
+   "year": 1923,
+   "date": "1923-10-25",
+   "place": "Paris, Théâtre des Champs-Élysées",
+   "company": "Ballets suédois",
+   "choreographer": [
+    "Jean Börlin"
+   ],
+   "composer": [
+    "Darius Milhaud"
+   ],
+   "designer": [
+    "Fernand Léger"
+   ],
+   "premise": "African deities create plants, animals and the first couple, in a European fantasy of Africa built from jazz and sculpture.",
+   "era": "modernist",
+   "lane": "France",
+   "region": "France / Sweden",
+   "threads": [
+    "T05",
+    "T23",
+    "T09",
+    "T12"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "les-noces-1923",
+   "title": "The Wedding",
+   "orig": "Les Noces / Свадебка",
+   "year": 1923,
+   "date": "1923-06-13",
+   "place": "Paris, Théâtre de la Gaîté-Lyrique",
+   "company": "Ballets Russes",
+   "choreographer": [
+    "Bronislava Nijinska"
+   ],
+   "composer": [
+    "Igor Stravinsky"
+   ],
+   "designer": [
+    "Natalia Goncharova"
+   ],
+   "premise": "A Russian peasant wedding as an impersonal rite: braiding, blessing, feast and bedding, with the couple as functions of the group.",
+   "era": "modernist",
+   "lane": "Russia and the Soviet Union",
+   "region": "Russia / France",
+   "threads": [
+    "T14",
+    "T16",
+    "T08"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W2 §7"
+   ]
+  },
+  {
+   "id": "les-biches-1924",
+   "title": "The House Party",
+   "orig": "Les Biches",
+   "year": 1924,
+   "date": "1924-01-06",
+   "place": "Monte Carlo, Théâtre de Monte-Carlo",
+   "company": "Ballets Russes",
+   "choreographer": [
+    "Bronislava Nijinska"
+   ],
+   "composer": [
+    "Francis Poulenc"
+   ],
+   "designer": [
+    "Marie Laurencin"
+   ],
+   "premise": "A hostess, flappers, three athletes and an ambiguous 'girl in blue' flirt in a white salon: gender and desire in code.",
+   "era": "modernist",
+   "lane": "France",
+   "region": "France",
+   "threads": [
+    "T11",
+    "T22"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "relache-1924",
+   "title": "Cancelled",
+   "orig": "Relâche",
+   "year": 1924,
+   "date": "1924-12-04",
+   "place": "Paris, Théâtre des Champs-Élysées",
+   "company": "Ballets suédois",
+   "choreographer": [
+    "Jean Börlin"
+   ],
+   "composer": [
+    "Erik Satie"
+   ],
+   "designer": [
+    "Francis Picabia (wall of car headlamps); René Clair (film Entr'acte)"
+   ],
+   "premise": "An 'instantaneist' anti-ballet: headlights blind the audience, a woman dresses and undresses, a film interrupts.",
+   "era": "modernist",
+   "lane": "France",
+   "region": "France / Sweden",
+   "threads": [
+    "T09",
+    "T10"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "train-bleu-1924",
+   "title": "The Blue Train",
+   "orig": "Le Train Bleu",
+   "year": 1924,
+   "date": "1924-06-20",
+   "place": "Paris, Théâtre des Champs-Élysées",
+   "company": "Ballets Russes",
+   "choreographer": [
+    "Bronislava Nijinska"
+   ],
+   "composer": [
+    "Darius Milhaud"
+   ],
+   "designer": [
+    "Henri Laurens (set)",
+    "Gabrielle Chanel (costumes)",
+    "Pablo Picasso (curtain)"
+   ],
+   "premise": "Bathers, a tennis champion and a golfer flirt on a Riviera beach: an operetta danced in real sportswear.",
+   "era": "modernist",
+   "lane": "France",
+   "region": "France",
+   "threads": [
+    "T11",
+    "T09"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W2 §8"
+   ]
+  },
+  {
+   "id": "pas-dacier-1927",
+   "title": "The Steel Step",
+   "orig": "Le Pas d'acier / Стальной скок",
+   "year": 1927,
+   "date": "1927-06-07",
+   "place": "Paris, Théâtre Sarah-Bernhardt",
+   "company": "Ballets Russes",
+   "choreographer": [
+    "Léonide Massine"
+   ],
+   "composer": [
+    "Sergei Prokofiev"
+   ],
+   "designer": [
+    "Georgy Yakulov"
+   ],
+   "premise": "From the black-market Russia of the NEP to a factory where workers become parts of the machine.",
+   "era": "modernist",
+   "lane": "France",
+   "region": "France / USSR",
+   "threads": [
+    "T09",
+    "T08"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "red-poppy-1927",
+   "title": "The Red Poppy",
+   "orig": "Красный мак",
+   "year": 1927,
+   "date": "1927-06-14",
+   "place": "Moscow, Bolshoi Theatre",
+   "company": "Bolshoi Ballet",
+   "choreographer": [
+    "Lev Lashchilin",
+    "Vasily Tikhomirov"
+   ],
+   "composer": [
+    "Reinhold Glière"
+   ],
+   "designer": [
+    "Mikhail Kurilko"
+   ],
+   "premise": "A Chinese dancer in a port city gives her life to save a Soviet ship's captain from her Western-backed lover.",
+   "era": "modernist",
+   "lane": "Russia and the Soviet Union",
+   "region": "USSR",
+   "threads": [
+    "T08",
+    "T05",
+    "T20"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W2 §10a"
+   ]
+  },
+  {
+   "id": "apollon-musagete-1928",
+   "title": "Apollo",
+   "orig": "Apollon musagète",
+   "year": 1928,
+   "date": "1928-04-27 (Washington, Bolm); 1928-06-12 (Paris, Balanchine)",
+   "place": "Washington, Library of Congress; Paris, Théâtre Sarah-Bernhardt",
+   "company": "Coolidge Foundation; Ballets Russes",
+   "choreographer": [
+    "Adolph Bolm (1928 Washington)",
+    "George Balanchine (1928 Paris)"
+   ],
+   "composer": [
+    "Igor Stravinsky"
+   ],
+   "designer": [
+    "André Bauchant (1928)",
+    "Coco Chanel (1929 costumes)"
+   ],
+   "premise": "The young god Apollo is born, taught by three Muses, chooses Terpsichore and ascends Parnassus.",
+   "era": "modernist",
+   "lane": "France",
+   "region": "France / USA",
+   "threads": [
+    "T12",
+    "T19",
+    "T10"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W2 §9"
+   ]
+  },
+  {
+   "id": "bolero-nijinska-1928",
+   "title": "Bolero",
+   "orig": "Boléro",
+   "year": 1928,
+   "date": "1928-11-22",
+   "place": "Paris Opéra (Palais Garnier)",
+   "company": "Ballets Ida Rubinstein",
+   "choreographer": [
+    "Bronislava Nijinska"
+   ],
+   "composer": [
+    "Maurice Ravel"
+   ],
+   "designer": [
+    "Alexandre Benois"
+   ],
+   "premise": "A woman dancing on a tavern table draws the men around her into a rising frenzy.",
+   "era": "modernist",
+   "lane": "France",
+   "region": "France",
+   "threads": [
+    "T05",
+    "T14",
+    "T13"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "prodigal-son-1929",
+   "title": "Prodigal Son",
+   "orig": "Le Fils prodigue",
+   "year": 1929,
+   "date": "1929-05-21",
+   "place": "Paris, Théâtre Sarah-Bernhardt",
+   "company": "Ballets Russes",
+   "choreographer": [
+    "George Balanchine"
+   ],
+   "composer": [
+    "Sergei Prokofiev"
+   ],
+   "designer": [
+    "Georges Rouault"
+   ],
+   "premise": "A son leaves home, is stripped by a siren and her thugs, and crawls back to his father's arms.",
+   "era": "modernist",
+   "lane": "France",
+   "region": "France",
+   "threads": [
+    "T18",
+    "T12"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "golden-age-1930",
+   "title": "The Golden Age",
+   "orig": "Золотой век",
+   "year": 1930,
+   "date": "1930-10-26",
+   "place": "Leningrad, State Academic Theatre of Opera and Ballet (Mariinsky)",
+   "company": "GATOB (Kirov)",
+   "choreographer": [
+    "Vasily Vainonen",
+    "Leonid Yakobson",
+    "Vladimir Chesnakov"
+   ],
+   "composer": [
+    "Dmitri Shostakovich"
+   ],
+   "designer": [
+    "Valentina Khodasevich"
+   ],
+   "premise": "A Soviet football team at an industrial exhibition in a Western city is framed by fascists and freed by workers.",
+   "era": "modernist",
+   "lane": "Russia and the Soviet Union",
+   "region": "USSR",
+   "threads": [
+    "T08",
+    "T11",
+    "T09"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "bolt-1931",
+   "title": "The Bolt",
+   "orig": "Болт",
+   "year": 1931,
+   "date": "1931-04-08",
+   "place": "Leningrad, State Academic Theatre of Opera and Ballet",
+   "company": "GATOB (Kirov)",
+   "choreographer": [
+    "Fyodor Lopukhov"
+   ],
+   "composer": [
+    "Dmitri Shostakovich"
+   ],
+   "designer": [
+    "Tatiana Bruni",
+    "Georgy Korshikov"
+   ],
+   "premise": "A lazy worker throws a bolt into a machine to sabotage the factory and is caught by the Komsomol.",
+   "era": "modernist",
+   "lane": "Russia and the Soviet Union",
+   "region": "USSR",
+   "threads": [
+    "T08",
+    "T09"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "flames-of-paris-1932",
+   "title": "The Flames of Paris",
+   "orig": "Пламя Парижа",
+   "year": 1932,
+   "date": "1932-11-07",
+   "place": "Leningrad, State Academic Theatre of Opera and Ballet",
+   "company": "GATOB (Kirov)",
+   "choreographer": [
+    "Vasily Vainonen"
+   ],
+   "composer": [
+    "Boris Asafyev"
+   ],
+   "designer": [
+    "Vladimir Dmitriev"
+   ],
+   "premise": "Marseille volunteers march on Paris and storm the Tuileries: the crowd as hero.",
+   "era": "modernist",
+   "lane": "Russia and the Soviet Union",
+   "region": "USSR",
+   "threads": [
+    "T08",
+    "T14"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W2 §10b"
+   ]
+  },
+  {
+   "id": "green-table-1932",
+   "title": "The Green Table",
+   "orig": "Der grüne Tisch",
+   "year": 1932,
+   "date": "1932-07-03",
+   "place": "Paris, Théâtre des Champs-Élysées",
+   "company": "Folkwang Tanzbühne (Essen)",
+   "choreographer": [
+    "Kurt Jooss"
+   ],
+   "composer": [
+    "Fritz Cohen"
+   ],
+   "designer": [
+    "Hein Heckroth"
+   ],
+   "premise": "Masked diplomats argue around a table, war breaks out, and Death collects everyone.",
+   "era": "modernist",
+   "lane": "Italy and Europe",
+   "region": "Germany",
+   "threads": [
+    "T08",
+    "T17"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "les-presages-1933",
+   "title": "Destiny",
+   "orig": "Les Présages",
+   "year": 1933,
+   "date": "1933-04-13",
+   "place": "Monte Carlo, Théâtre de Monte-Carlo",
+   "company": "Ballets Russes de Monte Carlo",
+   "choreographer": [
+    "Léonide Massine"
+   ],
+   "composer": [
+    "Pyotr Ilyich Tchaikovsky (Symphony No. 5)"
+   ],
+   "designer": [
+    "André Masson"
+   ],
+   "premise": "Man struggles with Fate across four movements: the earliest known 'symphonic ballet' set to a whole symphony.",
+   "era": "modernist",
+   "lane": "France",
+   "region": "France",
+   "threads": [
+    "T10",
+    "T12"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "fountain-bakhchisarai-1934",
+   "title": "The Fountain of Bakhchisarai",
+   "orig": "Бахчисарайский фонтан",
+   "year": 1934,
+   "date": "1934-09-28",
+   "place": "Leningrad, State Academic Theatre of Opera and Ballet",
+   "company": "GATOB (Kirov)",
+   "choreographer": [
+    "Rostislav Zakharov"
+   ],
+   "composer": [
+    "Boris Asafyev"
+   ],
+   "designer": [
+    "Valentina Khodasevich"
+   ],
+   "premise": "A Crimean khan captures a Polish princess; his jealous favourite kills her and he builds a fountain of tears.",
+   "era": "modernist",
+   "lane": "Russia and the Soviet Union",
+   "region": "USSR",
+   "threads": [
+    "T18",
+    "T05",
+    "T15"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "serenade-1934",
+   "title": "Serenade",
+   "orig": "Serenade",
+   "year": 1934,
+   "date": "1934-06-10 (students, Woodlands estate, White Plains); 1935-03-01 (American Ballet, Adelphi Theatre, New York)",
+   "place": "White Plains, NY; New York",
+   "company": "School of American Ballet / American Ballet",
+   "choreographer": [
+    "George Balanchine"
+   ],
+   "composer": [
+    "Pyotr Ilyich Tchaikovsky (Serenade for Strings)"
+   ],
+   "designer": [
+    "Jean Lurçat (1935); Barbara Karinska (later costumes)"
+   ],
+   "premise": "Seventeen women in blue moonlight: a plotless ballet with a ghost of a story, made on students.",
+   "era": "modernist",
+   "lane": "The Americas",
+   "region": "USA",
+   "threads": [
+    "T10",
+    "T02"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "bright-stream-1935",
+   "title": "The Bright Stream",
+   "orig": "Светлый ручей",
+   "year": 1935,
+   "date": "1935-06-04",
+   "place": "Leningrad, Maly Opera Theatre",
+   "company": "Maly Opera Ballet",
+   "choreographer": [
+    "Fyodor Lopukhov"
+   ],
+   "composer": [
+    "Dmitri Shostakovich"
+   ],
+   "designer": [
+    "Mikhail Bobyshov"
+   ],
+   "premise": "City artists visit a kolkhoz harvest festival; cross-dressed disguises expose a philandering dacha-owner.",
+   "era": "modernist",
+   "lane": "Russia and the Soviet Union",
+   "region": "USSR",
+   "threads": [
+    "T08",
+    "T14",
+    "T21",
+    "T22"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "icare-1935",
+   "title": "Icarus",
+   "orig": "Icare",
+   "year": 1935,
+   "date": "1935-07-09",
+   "place": "Paris Opéra (Palais Garnier)",
+   "company": "Paris Opéra Ballet",
+   "choreographer": [
+    "Serge Lifar"
+   ],
+   "composer": [
+    "rhythms by Serge Lifar",
+    "orchestrated by J. E. Szyfer (percussion)"
+   ],
+   "designer": [
+    "Paul Larthe; Pablo Picasso (1962 revival)"
+   ],
+   "premise": "Icarus fixes on wings, flies and falls, danced to percussion composed after the choreography.",
+   "era": "modernist",
+   "lane": "France",
+   "region": "France",
+   "threads": [
+    "T12",
+    "T03"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "rakes-progress-1935",
+   "title": "The Rake's Progress",
+   "orig": "The Rake's Progress",
+   "year": 1935,
+   "date": "1935-05-20",
+   "place": "London, Sadler's Wells Theatre",
+   "company": "Vic-Wells Ballet",
+   "choreographer": [
+    "Ninette de Valois"
+   ],
+   "composer": [
+    "Gavin Gordon"
+   ],
+   "designer": [
+    "Rex Whistler"
+   ],
+   "premise": "A young heir squanders his inheritance in Georgian London and ends in Bedlam.",
+   "era": "modernist",
+   "lane": "Britain",
+   "region": "Britain",
+   "threads": [
+    "T18",
+    "T15"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "jardin-aux-lilas-1936",
+   "title": "Lilac Garden",
+   "orig": "Jardin aux lilas",
+   "year": 1936,
+   "date": "1936-01-26",
+   "place": "London, Mercury Theatre",
+   "company": "Ballet Rambert",
+   "choreographer": [
+    "Antony Tudor"
+   ],
+   "composer": [
+    "Ernest Chausson (Poème)"
+   ],
+   "designer": [
+    "Hugh Stevenson"
+   ],
+   "premise": "At a garden party before her arranged wedding, a woman tries to say goodbye to the man she loves.",
+   "era": "modernist",
+   "lane": "Britain",
+   "region": "Britain",
+   "threads": [
+    "T24"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "checkmate-1937",
+   "title": "Checkmate",
+   "orig": "Checkmate",
+   "year": 1937,
+   "date": "1937-06-15",
+   "place": "Paris, Théâtre des Champs-Élysées",
+   "company": "Vic-Wells Ballet",
+   "choreographer": [
+    "Ninette de Valois"
+   ],
+   "composer": [
+    "Arthur Bliss"
+   ],
+   "designer": [
+    "Edward McKnight Kauffer"
+   ],
+   "premise": "The Black Queen seduces and kills the Red Knight and corners the old Red King.",
+   "era": "modernist",
+   "lane": "Britain",
+   "region": "Britain",
+   "threads": [
+    "T11",
+    "T17"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "les-patineurs-1937",
+   "title": "The Skaters",
+   "orig": "Les Patineurs",
+   "year": 1937,
+   "date": "1937-02-16",
+   "place": "London, Sadler's Wells Theatre",
+   "company": "Vic-Wells Ballet",
+   "choreographer": [
+    "Frederick Ashton"
+   ],
+   "composer": [
+    "Giacomo Meyerbeer (arr. Constant Lambert)"
+   ],
+   "designer": [
+    "William Chappell"
+   ],
+   "premise": "Couples skate on a frozen pond at night; a show-off spins until the curtain falls on him.",
+   "era": "modernist",
+   "lane": "Britain",
+   "region": "Britain",
+   "threads": [
+    "T11",
+    "T10"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "billy-the-kid-1938",
+   "title": "Billy the Kid",
+   "orig": "Billy the Kid",
+   "year": 1938,
+   "date": "1938-10-16",
+   "place": "Chicago, Chicago Opera House",
+   "company": "Ballet Caravan",
+   "choreographer": [
+    "Eugene Loring"
+   ],
+   "composer": [
+    "Aaron Copland"
+   ],
+   "designer": [
+    "Jared French"
+   ],
+   "premise": "The pioneer march west frames the short violent life of the outlaw Billy.",
+   "era": "modernist",
+   "lane": "The Americas",
+   "region": "USA",
+   "threads": [
+    "T14",
+    "T23"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "romeo-juliet-lavrovsky-1940",
+   "title": "Romeo and Juliet",
+   "orig": "Ромео и Джульетта",
+   "year": 1938,
+   "date": "1938-12-30 (Brno, Ivo Váňa Psota); 1940-01-11 (Leningrad, Lavrovsky)",
+   "place": "Brno, Mahen Theatre; Leningrad, Kirov Theatre",
+   "company": "Brno ballet; Kirov Ballet",
+   "choreographer": [
+    "Ivo Váňa Psota (1938)",
+    "Leonid Lavrovsky (1940)"
+   ],
+   "composer": [
+    "Sergei Prokofiev"
+   ],
+   "designer": [
+    "Pyotr Williams (1940)"
+   ],
+   "premise": "Two young lovers from feuding families of Verona die for a love their city cannot allow.",
+   "era": "modernist",
+   "lane": "Italy and Europe",
+   "region": "Czechoslovakia / USSR",
+   "threads": [
+    "T18",
+    "T24",
+    "T15"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "laurencia-1939",
+   "title": "Laurencia",
+   "orig": "Лауренсия",
+   "year": 1939,
+   "date": "1939-03-22",
+   "place": "Leningrad, Kirov Theatre",
+   "company": "Kirov Ballet",
+   "choreographer": [
+    "Vakhtang Chabukiani"
+   ],
+   "composer": [
+    "Alexander Krein"
+   ],
+   "designer": [
+    "Simon Virsaladze"
+   ],
+   "premise": "Spanish villagers, roused by a woman assaulted by the Commander, rise and kill him.",
+   "era": "modernist",
+   "lane": "Russia and the Soviet Union",
+   "region": "USSR",
+   "threads": [
+    "T08",
+    "T18",
+    "T14",
+    "T07"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "la-coronela-1940",
+   "title": "The Colonel's Wife",
+   "orig": "La Coronela",
+   "year": 1940,
+   "date": "1940-11-23",
+   "place": "Mexico City, Palacio de Bellas Artes",
+   "company": "Ballet de Bellas Artes",
+   "choreographer": [
+    "Waldeen (Waldeen von Falkenstein)"
+   ],
+   "composer": [
+    "Silvestre Revueltas (completed by Blas Galindo",
+    "orch. Candelario Huízar)"
+   ],
+   "designer": [
+    "Gabriel Fernández Ledesma (sets",
+    "costumes); Germán Cueto (masks)"
+   ],
+   "premise": "Four episodes from Posada's Mexico: the young ladies of the old regime, the dance of the dispossessed, Don Ferruco's nightmare, the Last Judgement.",
+   "era": "modernist",
+   "lane": "The Americas",
+   "region": "Mexico",
+   "threads": [
+    "T08",
+    "T14",
+    "T18"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "documented",
+   "depth": []
+  },
+  {
+   "id": "maiden-tower-1940",
+   "title": "The Maiden Tower",
+   "orig": "Qız qalası",
+   "year": 1940,
+   "date": "1940-04-18",
+   "place": "Baku, Azerbaijan State Academic Opera and Ballet Theatre",
+   "company": "Azerbaijan State Opera and Ballet",
+   "choreographer": [
+    "not named in sources seen"
+   ],
+   "composer": [
+    "Afrasiyab Badalbeyli"
+   ],
+   "designer": [
+    "not named in sources seen"
+   ],
+   "premise": "A princess throws herself from Baku's Maiden Tower rather than submit to a forced marriage.",
+   "era": "modernist",
+   "lane": "Russia and the Soviet Union",
+   "region": "Azerbaijan (USSR)",
+   "threads": [
+    "T14",
+    "T24",
+    "T15"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "documented",
+   "depth": []
+  },
+  {
+   "id": "gayane-1942",
+   "title": "Gayane",
+   "orig": "Гаянэ",
+   "year": 1942,
+   "date": "1942-12-09",
+   "place": "Molotov (Perm), evacuated Kirov Theatre",
+   "company": "Kirov Ballet",
+   "choreographer": [
+    "Nina Anisimova"
+   ],
+   "composer": [
+    "Aram Khachaturian"
+   ],
+   "designer": [
+    "Nikolai Altman (probable)"
+   ],
+   "premise": "On an Armenian collective farm, a woman exposes her husband as a traitor and saboteur.",
+   "era": "modernist",
+   "lane": "Russia and the Soviet Union",
+   "region": "Armenia / USSR",
+   "threads": [
+    "T08",
+    "T14",
+    "T24"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "documented",
+   "depth": []
+  },
+  {
+   "id": "pillar-of-fire-1942",
+   "title": "Pillar of Fire",
+   "orig": "Pillar of Fire",
+   "year": 1942,
+   "date": "1942-04-08",
+   "place": "New York, Metropolitan Opera House",
+   "company": "Ballet Theatre",
+   "choreographer": [
+    "Antony Tudor"
+   ],
+   "composer": [
+    "Arnold Schoenberg (Verklärte Nacht)"
+   ],
+   "designer": [
+    "Jo Mielziner"
+   ],
+   "premise": "A repressed woman, afraid of spinsterhood, gives herself to a stranger and is redeemed by love.",
+   "era": "modernist",
+   "lane": "The Americas",
+   "region": "USA / Britain",
+   "threads": [
+    "T24",
+    "T18"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "rodeo-1942",
+   "title": "Rodeo",
+   "orig": "Rodeo, or The Courting at Burnt Ranch",
+   "year": 1942,
+   "date": "1942-10-16",
+   "place": "New York, Metropolitan Opera House",
+   "company": "Ballet Russe de Monte Carlo",
+   "choreographer": [
+    "Agnes de Mille"
+   ],
+   "composer": [
+    "Aaron Copland"
+   ],
+   "designer": [
+    "Oliver Smith (sets)",
+    "Kermit Love (costumes)"
+   ],
+   "premise": "A tomboy cowgirl tries to outride the cowhands and wins the Champion Roper by putting on a dress (or by not quite).",
+   "era": "modernist",
+   "lane": "The Americas",
+   "region": "USA",
+   "threads": [
+    "T14",
+    "T11",
+    "T22"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "fancy-free-1944",
+   "title": "Fancy Free",
+   "orig": "Fancy Free",
+   "year": 1944,
+   "date": "1944-04-18",
+   "place": "New York, Metropolitan Opera House",
+   "company": "Ballet Theatre",
+   "choreographer": [
+    "Jerome Robbins"
+   ],
+   "composer": [
+    "Leonard Bernstein"
+   ],
+   "designer": [
+    "Oliver Smith (set)",
+    "Kermit Love (costumes)"
+   ],
+   "premise": "Three sailors on shore leave compete for two girls in a Manhattan bar.",
+   "era": "postwar",
+   "lane": "The Americas",
+   "region": "USA",
+   "threads": [
+    "T11",
+    "T14"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "cinderella-zakharov-1945",
+   "title": "Cinderella",
+   "orig": "Золушка",
+   "year": 1945,
+   "date": "1945-11-21",
+   "place": "Moscow, Bolshoi Theatre",
+   "company": "Bolshoi Ballet",
+   "choreographer": [
+    "Rostislav Zakharov"
+   ],
+   "composer": [
+    "Sergei Prokofiev"
+   ],
+   "designer": [
+    "Pyotr Williams"
+   ],
+   "premise": "A mistreated stepdaughter goes to the ball with a fairy's help and is found again by a slipper.",
+   "era": "postwar",
+   "lane": "Russia and the Soviet Union",
+   "region": "USSR",
+   "threads": [
+    "T06",
+    "T07",
+    "T20"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "giselle-alonso-1945-1963",
+   "title": "Giselle (Alicia Alonso)",
+   "orig": "Giselle (Alicia Alonso)",
+   "year": 1945,
+   "date": "1945 (Havana, Pro-Arte Musical) to 1963 (ICAIC film)",
+   "place": "Havana",
+   "company": "Ballet Nacional de Cuba (and predecessors)",
+   "choreographer": [
+    "Alicia Alonso (after Coralli and Perrot)"
+   ],
+   "composer": [
+    "Adolphe Adam"
+   ],
+   "designer": [
+    "see W3 §3"
+   ],
+   "premise": "A Cuban ballerina and company claim the Romantic classic as a national work and return it to Paris.",
+   "era": "postwar",
+   "lane": "The Americas",
+   "region": "Cuba",
+   "threads": [
+    "T13",
+    "T14",
+    "T02"
+   ],
+   "parent": "giselle-1841",
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W3 §3"
+   ]
+  },
+  {
+   "id": "shurale-1950",
+   "title": "Shurale",
+   "orig": "Шурале",
+   "year": 1945,
+   "date": "1945 (Kazan, Tatar Opera and Ballet); 1950-05-28 (Leningrad, Kirov, Yakobson)",
+   "place": "Kazan; Leningrad",
+   "company": "Tatar State Opera and Ballet; Kirov Ballet",
+   "choreographer": [
+    "Leonid Zhukov",
+    "Gai Tagirov (1945)",
+    "Leonid Yakobson (1950)"
+   ],
+   "composer": [
+    "Farid Yarullin"
+   ],
+   "designer": [
+    "Boris Erdman (1950) (probable)"
+   ],
+   "premise": "A hunter steals the wings of a bird-maiden in a forest ruled by the wood-goblin Shurale and must defend her.",
+   "era": "postwar",
+   "lane": "Russia and the Soviet Union",
+   "region": "Tatarstan (USSR)",
+   "threads": [
+    "T03",
+    "T14",
+    "T01",
+    "T06"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "four-temperaments-1946",
+   "title": "The Four Temperaments",
+   "orig": "The Four Temperaments",
+   "year": 1946,
+   "date": "1946-11-20",
+   "place": "New York, Central High School of Needle Trades",
+   "company": "Ballet Society",
+   "choreographer": [
+    "George Balanchine"
+   ],
+   "composer": [
+    "Paul Hindemith"
+   ],
+   "designer": [
+    "Kurt Seligmann (1946; later practice clothes)"
+   ],
+   "premise": "Theme and four variations on the humours, danced in a new angular vocabulary; later stripped to practice clothes.",
+   "era": "postwar",
+   "lane": "The Americas",
+   "region": "USA",
+   "threads": [
+    "T10"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "jeune-homme-et-la-mort-1946",
+   "title": "The Young Man and Death",
+   "orig": "Le Jeune Homme et la mort",
+   "year": 1946,
+   "date": "1946-06-25",
+   "place": "Paris, Théâtre des Champs-Élysées",
+   "company": "Ballets des Champs-Élysées",
+   "choreographer": [
+    "Roland Petit"
+   ],
+   "composer": [
+    "J. S. Bach (Passacaglia in C minor",
+    "orch. Respighi)"
+   ],
+   "designer": [
+    "Georges Wakhévitch (set)",
+    "Karinska (costumes)"
+   ],
+   "premise": "A painter in a Paris garret is driven by a woman to hang himself; she returns as Death and leads him over the roofs.",
+   "era": "postwar",
+   "lane": "France",
+   "region": "France",
+   "threads": [
+    "T15",
+    "T19"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "symphonic-variations-1946",
+   "title": "Symphonic Variations",
+   "orig": "Symphonic Variations",
+   "year": 1946,
+   "date": "1946-04-24",
+   "place": "London, Royal Opera House",
+   "company": "Sadler's Wells Ballet",
+   "choreographer": [
+    "Frederick Ashton"
+   ],
+   "composer": [
+    "César Franck"
+   ],
+   "designer": [
+    "Sophie Fedorovitch"
+   ],
+   "premise": "Six dancers who never leave the stage against a pale green backcloth: postwar renewal as pure dance.",
+   "era": "postwar",
+   "lane": "Britain",
+   "region": "Britain",
+   "threads": [
+    "T10"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "symphony-in-c-1947",
+   "title": "Symphony in C",
+   "orig": "Le Palais de cristal / Symphony in C",
+   "year": 1947,
+   "date": "1947-07-28",
+   "place": "Paris Opéra (Palais Garnier)",
+   "company": "Paris Opéra Ballet",
+   "choreographer": [
+    "George Balanchine"
+   ],
+   "composer": [
+    "Georges Bizet"
+   ],
+   "designer": [
+    "Leonor Fini (1947)"
+   ],
+   "premise": "Four movements, four ballerinas, four colours of jewels (1947), merged into a finale of fifty dancers.",
+   "era": "postwar",
+   "lane": "France",
+   "region": "France / USA",
+   "threads": [
+    "T10"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "fall-river-legend-1948",
+   "title": "Fall River Legend",
+   "orig": "Fall River Legend",
+   "year": 1948,
+   "date": "1948-04-22",
+   "place": "New York, Metropolitan Opera House",
+   "company": "Ballet Theatre",
+   "choreographer": [
+    "Agnes de Mille"
+   ],
+   "composer": [
+    "Morton Gould"
+   ],
+   "designer": [
+    "Oliver Smith (sets)",
+    "Miles White (costumes)"
+   ],
+   "premise": "A New England spinster, crushed by her stepmother and her town, takes an axe to her parents and goes to the gallows.",
+   "era": "postwar",
+   "lane": "The Americas",
+   "region": "USA",
+   "threads": [
+    "T24",
+    "T15"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "carmen-petit-1949",
+   "title": "Carmen",
+   "orig": "Carmen",
+   "year": 1949,
+   "date": "1949-02-21",
+   "place": "London, Prince's Theatre",
+   "company": "Ballets de Paris de Roland Petit",
+   "choreographer": [
+    "Roland Petit"
+   ],
+   "composer": [
+    "Georges Bizet (arr.)"
+   ],
+   "designer": [
+    "Antoni Clavé"
+   ],
+   "premise": "Carmen as a cropped-haired femme fatale in a stylised Spain: sex and death in forty minutes.",
+   "era": "postwar",
+   "lane": "France",
+   "region": "France",
+   "threads": [
+    "T05",
+    "T18",
+    "T15"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "miss-julie-1950",
+   "title": "Miss Julie",
+   "orig": "Fröken Julie",
+   "year": 1950,
+   "date": "1950-03-01",
+   "place": "Västerås, Sweden",
+   "company": "Riksteatern (Birgit Cullberg)",
+   "choreographer": [
+    "Birgit Cullberg"
+   ],
+   "composer": [
+    "Ture Rangström"
+   ],
+   "designer": [
+    "Allan Fridericia (probable)"
+   ],
+   "premise": "On Midsummer Eve a count's daughter seduces her father's valet and, shamed, takes his razor.",
+   "era": "postwar",
+   "lane": "Italy and Europe",
+   "region": "Sweden",
+   "threads": [
+    "T18",
+    "T07",
+    "T24",
+    "T15"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "the-cage-1951",
+   "title": "The Cage",
+   "orig": "The Cage",
+   "year": 1951,
+   "date": "1951-06-10",
+   "place": "New York, City Center",
+   "company": "New York City Ballet",
+   "choreographer": [
+    "Jerome Robbins"
+   ],
+   "composer": [
+    "Igor Stravinsky (Concerto in D for strings)"
+   ],
+   "designer": [
+    "Jean Rosenthal (set",
+    "lighting)",
+    "Ruth Sobotka (costumes)"
+   ],
+   "premise": "A tribe of female insects initiate a novice, who kills her male lovers.",
+   "era": "postwar",
+   "lane": "The Americas",
+   "region": "USA",
+   "threads": [
+    "T02",
+    "T03",
+    "T13",
+    "T16"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "estancia-1952",
+   "title": "Estancia",
+   "orig": "Estancia",
+   "year": 1952,
+   "date": "1952-08-19",
+   "place": "Buenos Aires, Teatro Colón",
+   "company": "Ballet del Teatro Colón",
+   "choreographer": [
+    "Michel Borowski"
+   ],
+   "composer": [
+    "Alberto Ginastera"
+   ],
+   "designer": [
+    "Dante Ortolani"
+   ],
+   "premise": "A city boy wins a ranch girl by proving himself as a gaucho, ending in a malambo.",
+   "era": "postwar",
+   "lane": "The Americas",
+   "region": "Argentina",
+   "threads": [
+    "T14",
+    "T07",
+    "T11"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "documented",
+   "depth": []
+  },
+  {
+   "id": "afternoon-faun-robbins-1953",
+   "title": "Afternoon of a Faun (Robbins)",
+   "orig": "Afternoon of a Faun",
+   "year": 1953,
+   "date": "1953-05-14",
+   "place": "New York, City Center",
+   "company": "New York City Ballet",
+   "choreographer": [
+    "Jerome Robbins"
+   ],
+   "composer": [
+    "Claude Debussy"
+   ],
+   "designer": [
+    "Jean Rosenthal (set",
+    "lighting)",
+    "Irene Sharaff (costumes)"
+   ],
+   "premise": "Two dancers in a studio meet in the mirror (the audience) and part after a kiss.",
+   "era": "postwar",
+   "lane": "The Americas",
+   "region": "USA",
+   "threads": [
+    "T13",
+    "T19"
+   ],
+   "parent": "apres-midi-faune-1912",
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "stone-flower-1957",
+   "title": "The Stone Flower",
+   "orig": "Каменный цветок (Сказ о каменном цветке)",
+   "year": 1954,
+   "date": "1954-02-12 (Bolshoi, Lavrovsky); 1957-04-25 (Kirov, Grigorovich)",
+   "place": "Moscow, Bolshoi; Leningrad, Kirov",
+   "company": "Bolshoi Ballet; Kirov Ballet",
+   "choreographer": [
+    "Leonid Lavrovsky (1954)",
+    "Yuri Grigorovich (1957)"
+   ],
+   "composer": [
+    "Sergei Prokofiev"
+   ],
+   "designer": [
+    "Simon Virsaladze (1957)"
+   ],
+   "premise": "A Ural stonecutter seeks to carve a perfect stone flower and is held by the Mistress of the Copper Mountain.",
+   "era": "postwar",
+   "lane": "Russia and the Soviet Union",
+   "region": "USSR",
+   "threads": [
+    "T19",
+    "T01",
+    "T14",
+    "T06"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "white-haired-girl-matsuyama-1955",
+   "title": "The White-Haired Girl (Matsuyama Ballet)",
+   "orig": "白毛女",
+   "year": 1955,
+   "date": "1955-02-12",
+   "place": "Tokyo, Hibiya Public Hall (日比谷公会堂)",
+   "company": "Matsuyama Ballet (松山バレエ団)",
+   "choreographer": [
+    "Matsuyama Mikiko (松山樹子)"
+   ],
+   "composer": [
+    "Hayashi Hikaru (林光)"
+   ],
+   "designer": [
+    "Hijikata Umeko (土方梅子) (costumes)"
+   ],
+   "premise": "A peasant girl sold to a landlord flees to the mountains, her hair turns white, and the revolutionary army rescues her.",
+   "era": "postwar",
+   "lane": "Asia, Africa and the Middle East",
+   "region": "Japan / China",
+   "threads": [
+    "T08",
+    "T24",
+    "T01",
+    "T18"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W3 §11"
+   ]
+  },
+  {
+   "id": "agon-1957",
+   "title": "Agon",
+   "orig": "Agon",
+   "year": 1957,
+   "date": "1957-12-01",
+   "place": "New York, City Center",
+   "company": "New York City Ballet",
+   "choreographer": [
+    "George Balanchine"
+   ],
+   "composer": [
+    "Igor Stravinsky"
+   ],
+   "designer": [
+    "none (practice clothes); lighting Nananne Porcher"
+   ],
+   "premise": "Twelve dancers in practice clothes play out the combinations of twelve-tone music and old court dances as a contest.",
+   "era": "postwar",
+   "lane": "The Americas",
+   "region": "USA",
+   "threads": [
+    "T10",
+    "T17",
+    "T11"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W2 §11"
+   ]
+  },
+  {
+   "id": "fish-beauty-1959",
+   "title": "The Fish Beauty",
+   "orig": "鱼美人",
+   "year": 1959,
+   "date": "1959",
+   "place": "Beijing, Tianqiao Theatre (天桥剧场)",
+   "company": "Beijing Dance School (北京舞蹈学校), choreography training class",
+   "choreographer": [
+    "Pyotr Gusev (古雪夫",
+    "chief)",
+    "Li Chengxiang (李承祥)",
+    "Li Chenglian (栗承廉)",
+    "Wang Shiqi (王世琦)"
+   ],
+   "composer": [
+    "Wu Zuqiang (吴祖强)",
+    "Du Mingxin (杜鸣心)"
+   ],
+   "designer": [
+    "not named in sources seen"
+   ],
+   "premise": "A fish-spirit falls in love with a young hunter and must resist the Mountain Demon to become human.",
+   "era": "postwar",
+   "lane": "Asia, Africa and the Middle East",
+   "region": "China",
+   "threads": [
+    "T03",
+    "T01",
+    "T14",
+    "T06"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "documented",
+   "depth": []
+  },
+  {
+   "id": "sacre-bejart-1959",
+   "title": "The Rite of Spring (Béjart)",
+   "orig": "Le Sacre du printemps (Béjart)",
+   "year": 1959,
+   "date": "1959-12-08",
+   "place": "Brussels, Théâtre de la Monnaie",
+   "company": "Ballet du XXe Siècle (precursor company)",
+   "choreographer": [
+    "Maurice Béjart"
+   ],
+   "composer": [
+    "Igor Stravinsky"
+   ],
+   "designer": [
+    "Pierre Caille (probable)"
+   ],
+   "premise": "The Rite as a mass mating ritual of a male and a female tribe, not a sacrifice.",
+   "era": "postwar",
+   "lane": "Italy and Europe",
+   "region": "Belgium / France",
+   "threads": [
+    "T13",
+    "T16"
+   ],
+   "parent": "rite-of-spring-1913",
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "fille-mal-gardee-ashton-1960",
+   "title": "La Fille mal gardée (Ashton)",
+   "orig": "La Fille mal gardée (Ashton)",
+   "year": 1960,
+   "date": "1960-01-28",
+   "place": "London, Royal Opera House",
+   "company": "Royal Ballet",
+   "choreographer": [
+    "Frederick Ashton"
+   ],
+   "composer": [
+    "Ferdinand Hérold (arr. John Lanchbery)"
+   ],
+   "designer": [
+    "Osbert Lancaster"
+   ],
+   "premise": "Lise and Colas outwit Widow Simone and the dim Alain, with a clog dance, a maypole and a ribbon cat's cradle.",
+   "era": "postwar",
+   "lane": "Britain",
+   "region": "Britain",
+   "threads": [
+    "T13",
+    "T07",
+    "T14",
+    "T11"
+   ],
+   "parent": "fille-mal-gardee-1789",
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "revelations-1960",
+   "title": "Revelations",
+   "orig": "Revelations",
+   "year": 1960,
+   "date": "1960-01-31",
+   "place": "New York, 92nd Street YM-YWHA",
+   "company": "Alvin Ailey American Dance Theater",
+   "choreographer": [
+    "Alvin Ailey"
+   ],
+   "composer": [
+    "traditional spirituals",
+    "gospel and blues"
+   ],
+   "designer": [
+    "Ves Harper (probable)"
+   ],
+   "premise": "From sorrow to baptism to Sunday celebration: African American spirituals in three sections.",
+   "era": "postwar",
+   "lane": "The Americas",
+   "region": "USA",
+   "threads": [
+    "T14",
+    "T16"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "bolero-bejart-1961",
+   "title": "Boléro (Béjart)",
+   "orig": "Boléro (Béjart)",
+   "year": 1961,
+   "date": "1961-01-10",
+   "place": "Brussels, Théâtre de la Monnaie",
+   "company": "Ballet du XXe Siècle",
+   "choreographer": [
+    "Maurice Béjart"
+   ],
+   "composer": [
+    "Maurice Ravel"
+   ],
+   "designer": [
+    "Maurice Béjart"
+   ],
+   "premise": "A single dancer on a red table, the 'Melody', draws a circle of men, the 'Rhythm', into a crescendo.",
+   "era": "postwar",
+   "lane": "Italy and Europe",
+   "region": "Belgium",
+   "threads": [
+    "T13",
+    "T10",
+    "T22"
+   ],
+   "parent": "bolero-nijinska-1928",
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "legend-of-love-1961",
+   "title": "The Legend of Love",
+   "orig": "Легенда о любви",
+   "year": 1961,
+   "date": "1961-03-23",
+   "place": "Leningrad, Kirov Theatre",
+   "company": "Kirov Ballet",
+   "choreographer": [
+    "Yuri Grigorovich"
+   ],
+   "composer": [
+    "Arif Melikov"
+   ],
+   "designer": [
+    "Simon Virsaladze"
+   ],
+   "premise": "A queen gives up her beauty to save her sister; both love the painter Ferhad, who is set to cut a mountain to bring water.",
+   "era": "postwar",
+   "lane": "Russia and the Soviet Union",
+   "region": "USSR / Azerbaijan / Turkey",
+   "threads": [
+    "T05",
+    "T18",
+    "T19"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "red-detachment-1964",
+   "title": "The Red Detachment of Women",
+   "orig": "红色娘子军",
+   "year": 1964,
+   "date": "1964-09-26 (Chinese sources) or early Oct 1964 (Wilcox)",
+   "place": "Beijing, Tianqiao Theatre",
+   "company": "Central Opera and Dance Drama Theatre ballet troupe (now National Ballet of China)",
+   "choreographer": [
+    "Li Chengxiang (李承祥)",
+    "Jiang Zuhui (蒋祖慧)",
+    "Wang Xixian (王希贤)"
+   ],
+   "composer": [
+    "Wu Zuqiang",
+    "Du Mingxin",
+    "Wang Yanqiao",
+    "Shi Wanchun",
+    "Dai Hongwei"
+   ],
+   "designer": [
+    "see W3 §1"
+   ],
+   "premise": "A slave girl on Hainan escapes, joins an all-women Red Army company and grows from revenge to class consciousness.",
+   "era": "postwar",
+   "lane": "Asia, Africa and the Middle East",
+   "region": "China",
+   "threads": [
+    "T08",
+    "T24",
+    "T14",
+    "T13"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "contested",
+   "depth": [
+    "works/W3 §1"
+   ]
+  },
+  {
+   "id": "the-dream-1964",
+   "title": "The Dream",
+   "orig": "The Dream",
+   "year": 1964,
+   "date": "1964-04-02",
+   "place": "London, Royal Opera House",
+   "company": "Royal Ballet",
+   "choreographer": [
+    "Frederick Ashton"
+   ],
+   "composer": [
+    "Felix Mendelssohn (arr. John Lanchbery)"
+   ],
+   "designer": [
+    "Henry Bardon (sets)",
+    "David Walker (costumes)"
+   ],
+   "premise": "Oberon and Titania quarrel; Puck's love-juice muddles four lovers and gives Titania an ass for a lover.",
+   "era": "postwar",
+   "lane": "Britain",
+   "region": "Britain",
+   "threads": [
+    "T18",
+    "T01",
+    "T06"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "cesmebasi-1965",
+   "title": "At the Fountain",
+   "orig": "Çeşmebaşı",
+   "year": 1965,
+   "date": "1965-02-19",
+   "place": "Ankara, Büyük Tiyatro",
+   "company": "Turkish State Opera and Ballet",
+   "choreographer": [
+    "Ninette de Valois (probable)"
+   ],
+   "composer": [
+    "Ferit Tüzün"
+   ],
+   "designer": [
+    "Refik Eren",
+    "Hüseyin Mumcu (sets); Hale Eren (costumes)"
+   ],
+   "premise": "A day at a village fountain: girls gossip, a troupe of travelling acrobats and Karagöz and Hacivat perform, night falls.",
+   "era": "postwar",
+   "lane": "Asia, Africa and the Middle East",
+   "region": "Turkey",
+   "threads": [
+    "T14",
+    "T21",
+    "T04"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "documented",
+   "depth": []
+  },
+  {
+   "id": "onegin-1965",
+   "title": "Onegin",
+   "orig": "Onegin",
+   "year": 1965,
+   "date": "1965-04-13",
+   "place": "Stuttgart, Württemberg State Theatre",
+   "company": "Stuttgart Ballet",
+   "choreographer": [
+    "John Cranko"
+   ],
+   "composer": [
+    "Pyotr Ilyich Tchaikovsky (arr. Kurt-Heinz Stolze",
+    "not from the opera)"
+   ],
+   "designer": [
+    "Jürgen Rose"
+   ],
+   "premise": "A bookish girl's love is rejected by a bored aristocrat; years later, married, she rejects him.",
+   "era": "postwar",
+   "lane": "Italy and Europe",
+   "region": "Germany",
+   "threads": [
+    "T18",
+    "T24"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "romeo-juliet-macmillan-1965",
+   "title": "Romeo and Juliet (MacMillan)",
+   "orig": "Romeo and Juliet (MacMillan)",
+   "year": 1965,
+   "date": "1965-02-09",
+   "place": "London, Royal Opera House",
+   "company": "Royal Ballet",
+   "choreographer": [
+    "Kenneth MacMillan"
+   ],
+   "composer": [
+    "Sergei Prokofiev"
+   ],
+   "designer": [
+    "Nicholas Georgiadis"
+   ],
+   "premise": "The Prokofiev ballet re-made as gritty Renaissance street life around two teenagers.",
+   "era": "postwar",
+   "lane": "Britain",
+   "region": "Britain",
+   "threads": [
+    "T13",
+    "T18",
+    "T24"
+   ],
+   "parent": "romeo-juliet-lavrovsky-1940",
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "song-of-the-earth-1965",
+   "title": "Song of the Earth",
+   "orig": "Das Lied von der Erde",
+   "year": 1965,
+   "date": "1965-11-07",
+   "place": "Stuttgart, Württemberg State Theatre",
+   "company": "Stuttgart Ballet",
+   "choreographer": [
+    "Kenneth MacMillan"
+   ],
+   "composer": [
+    "Gustav Mahler"
+   ],
+   "designer": [
+    "Nicholas Georgiadis"
+   ],
+   "premise": "A man, a woman and a masked Messenger of Death pass through six songs on the transience of life.",
+   "era": "postwar",
+   "lane": "Italy and Europe",
+   "region": "Germany / Britain",
+   "threads": [
+    "T10",
+    "T05"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "white-haired-girl-shanghai-1965",
+   "title": "The White-Haired Girl (Shanghai)",
+   "orig": "白毛女",
+   "year": 1965,
+   "date": "1965",
+   "place": "Shanghai",
+   "company": "Shanghai Dance School (上海市舞蹈学校)",
+   "choreographer": [
+    "Hu Rongrong (胡蓉蓉) and collective (probable)"
+   ],
+   "composer": [
+    "Yan Jinxuan (严金萱) and collective (probable)"
+   ],
+   "designer": [
+    "collective"
+   ],
+   "premise": "Xi'er's story as a revolutionary model ballet: the landlord's victim becomes a fighter when the Eighth Route Army comes.",
+   "era": "postwar",
+   "lane": "Asia, Africa and the Middle East",
+   "region": "China",
+   "threads": [
+    "T08",
+    "T24",
+    "T13"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "carmen-suite-1967",
+   "title": "Carmen Suite",
+   "orig": "Кармен-сюита",
+   "year": 1967,
+   "date": "1967-04-20",
+   "place": "Moscow, Bolshoi Theatre",
+   "company": "Bolshoi Ballet",
+   "choreographer": [
+    "Alberto Alonso"
+   ],
+   "composer": [
+    "Rodion Shchedrin (after Bizet)"
+   ],
+   "designer": [
+    "Boris Messerer"
+   ],
+   "premise": "Carmen in a bullring of chairs, watched by spectators: fate, freedom and the corrida in one act.",
+   "era": "postwar",
+   "lane": "The Americas",
+   "region": "Cuba / USSR",
+   "threads": [
+    "T13",
+    "T18",
+    "T05",
+    "T24"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "documented",
+   "depth": []
+  },
+  {
+   "id": "jewels-1967",
+   "title": "Jewels",
+   "orig": "Jewels",
+   "year": 1967,
+   "date": "1967-04-13",
+   "place": "New York, New York State Theater",
+   "company": "New York City Ballet",
+   "choreographer": [
+    "George Balanchine"
+   ],
+   "composer": [
+    "Gabriel Fauré (Emeralds)",
+    "Igor Stravinsky (Rubies)",
+    "Pyotr Ilyich Tchaikovsky (Diamonds)"
+   ],
+   "designer": [
+    "Peter Harvey (sets)",
+    "Barbara Karinska (costumes)"
+   ],
+   "premise": "Three plotless acts as three gems and three national styles of ballet.",
+   "era": "postwar",
+   "lane": "The Americas",
+   "region": "USA",
+   "threads": [
+    "T10",
+    "T13"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "raka-1967",
+   "title": "Raka",
+   "orig": "Raka",
+   "year": 1967,
+   "date": "1967-08 (Pretoria)",
+   "place": "Pretoria",
+   "company": "PACT Ballet (Performing Arts Council of the Transvaal)",
+   "choreographer": [
+    "Frank Staff"
+   ],
+   "composer": [
+    "Graham Newcater"
+   ],
+   "designer": [
+    "Raimond Schoop"
+   ],
+   "premise": "A half-human creature, Raka, enters a village; only the warrior Koki resists him while the others are seduced.",
+   "era": "postwar",
+   "lane": "Asia, Africa and the Middle East",
+   "region": "South Africa",
+   "threads": [
+    "T23",
+    "T18",
+    "T16"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "documented",
+   "depth": []
+  },
+  {
+   "id": "spartacus-1968",
+   "title": "Spartacus",
+   "orig": "Спартак",
+   "year": 1968,
+   "date": "1968-04-09",
+   "place": "Moscow, Bolshoi Theatre",
+   "company": "Bolshoi Ballet",
+   "choreographer": [
+    "Yuri Grigorovich"
+   ],
+   "composer": [
+    "Aram Khachaturian"
+   ],
+   "designer": [
+    "Simon Virsaladze"
+   ],
+   "premise": "The slave revolt of 73-71 BCE told through four characters: Spartacus, Phrygia, Crassus, Aegina.",
+   "era": "postwar",
+   "lane": "Russia and the Soviet Union",
+   "region": "USSR",
+   "threads": [
+    "T08",
+    "T12",
+    "T13"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W3 §2"
+   ]
+  },
+  {
+   "id": "dances-at-a-gathering-1969",
+   "title": "Dances at a Gathering",
+   "orig": "Dances at a Gathering",
+   "year": 1969,
+   "date": "1969-05-22",
+   "place": "New York, New York State Theater",
+   "company": "New York City Ballet",
+   "choreographer": [
+    "Jerome Robbins"
+   ],
+   "composer": [
+    "Frédéric Chopin"
+   ],
+   "designer": [
+    "Joe Eula (costumes)",
+    "Thomas Skelton (lighting)"
+   ],
+   "premise": "Ten dancers in a sunlit field meet, part and look at the sky, an hour of Chopin without a story.",
+   "era": "postwar",
+   "lane": "The Americas",
+   "region": "USA",
+   "threads": [
+    "T10",
+    "T14"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "ecstasy-of-rita-joe-1971",
+   "title": "The Ecstasy of Rita Joe",
+   "orig": "The Ecstasy of Rita Joe",
+   "year": 1971,
+   "date": "1971",
+   "place": "Winnipeg (probable)",
+   "company": "Royal Winnipeg Ballet",
+   "choreographer": [
+    "Norbert Vesak"
+   ],
+   "composer": [
+    "Ann Mortifee"
+   ],
+   "designer": [
+    "unknown"
+   ],
+   "premise": "A young First Nations woman who moves to the city is crushed by poverty, the courts and violence.",
+   "era": "postwar",
+   "lane": "The Americas",
+   "region": "Canada",
+   "threads": [
+    "T23",
+    "T24",
+    "T18"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "anna-karenina-plisetskaya-1972",
+   "title": "Anna Karenina",
+   "orig": "Анна Каренина",
+   "year": 1972,
+   "date": "1972-06-10",
+   "place": "Moscow, Bolshoi Theatre",
+   "company": "Bolshoi Ballet",
+   "choreographer": [
+    "Maya Plisetskaya",
+    "Natalia Ryzhenko",
+    "Victor Smirnov-Golovanov"
+   ],
+   "composer": [
+    "Rodion Shchedrin"
+   ],
+   "designer": [
+    "Valery Levental"
+   ],
+   "premise": "A married woman's passion for an officer ends under a train.",
+   "era": "postwar",
+   "lane": "Russia and the Soviet Union",
+   "region": "USSR",
+   "threads": [
+    "T18",
+    "T24",
+    "T15",
+    "T09"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "tarde-en-la-siesta-1973",
+   "title": "Afternoon Siesta",
+   "orig": "Tarde en la siesta",
+   "year": 1973,
+   "date": "1973",
+   "place": "Havana (probable)",
+   "company": "Ballet Nacional de Cuba",
+   "choreographer": [
+    "Alberto Méndez"
+   ],
+   "composer": [
+    "Ernesto Lecuona"
+   ],
+   "designer": [
+    "unknown"
+   ],
+   "premise": "Four sisters in a colonial Cuban house dream of love and loss through an afternoon of Lecuona.",
+   "era": "postwar",
+   "lane": "The Americas",
+   "region": "Cuba",
+   "threads": [
+    "T14",
+    "T24"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "manon-1974",
+   "title": "Manon",
+   "orig": "Manon",
+   "year": 1974,
+   "date": "1974-03-07",
+   "place": "London, Royal Opera House",
+   "company": "Royal Ballet",
+   "choreographer": [
+    "Kenneth MacMillan"
+   ],
+   "composer": [
+    "Jules Massenet (arr. Leighton Lucas; not from the opera)"
+   ],
+   "designer": [
+    "Nicholas Georgiadis"
+   ],
+   "premise": "A convent-bound girl chooses between a poor student and a rich protector, and dies deported in a Louisiana swamp.",
+   "era": "postwar",
+   "lane": "Britain",
+   "region": "Britain",
+   "threads": [
+    "T18",
+    "T15",
+    "T24"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "sacre-bausch-1975",
+   "title": "The Rite of Spring (Bausch)",
+   "orig": "Das Frühlingsopfer (Le Sacre du printemps)",
+   "year": 1975,
+   "date": "1975-12-03",
+   "place": "Wuppertal, Opernhaus",
+   "company": "Tanztheater Wuppertal",
+   "choreographer": [
+    "Pina Bausch"
+   ],
+   "composer": [
+    "Igor Stravinsky"
+   ],
+   "designer": [
+    "Rolf Borzik"
+   ],
+   "premise": "On a stage covered in earth, the group chooses a woman by a red dress and she dances to death.",
+   "era": "postwar",
+   "lane": "Italy and Europe",
+   "region": "Germany",
+   "threads": [
+    "T13",
+    "T16",
+    "T24"
+   ],
+   "parent": "rite-of-spring-1913",
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "push-comes-to-shove-1976",
+   "title": "Push Comes to Shove",
+   "orig": "Push Comes to Shove",
+   "year": 1976,
+   "date": "1976-01-09",
+   "place": "New York, Uris Theater",
+   "company": "American Ballet Theatre",
+   "choreographer": [
+    "Twyla Tharp"
+   ],
+   "composer": [
+    "Joseph Lamb (ragtime)",
+    "Joseph Haydn (Symphony No. 82)"
+   ],
+   "designer": [
+    "Santo Loquasto (costumes)",
+    "Jennifer Tipton (lighting)"
+   ],
+   "premise": "Baryshnikov with a bowler hat leads a classical corps through Haydn, mixing ballet with shrugs, slouches and showbiz.",
+   "era": "late20",
+   "lane": "The Americas",
+   "region": "USA",
+   "threads": [
+    "T10",
+    "T11",
+    "T13"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "lady-of-camellias-1978",
+   "title": "The Lady of the Camellias",
+   "orig": "Die Kameliendame",
+   "year": 1978,
+   "date": "1978-11-04",
+   "place": "Stuttgart, Württemberg State Theatre",
+   "company": "Stuttgart Ballet",
+   "choreographer": [
+    "John Neumeier"
+   ],
+   "composer": [
+    "Frédéric Chopin"
+   ],
+   "designer": [
+    "Jürgen Rose"
+   ],
+   "premise": "A Paris courtesan gives up her young lover at his father's demand and dies of consumption.",
+   "era": "late20",
+   "lane": "Italy and Europe",
+   "region": "Germany",
+   "threads": [
+    "T18",
+    "T15",
+    "T24"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "mayerling-1978",
+   "title": "Mayerling",
+   "orig": "Mayerling",
+   "year": 1978,
+   "date": "1978-02-14",
+   "place": "London, Royal Opera House",
+   "company": "Royal Ballet",
+   "choreographer": [
+    "Kenneth MacMillan"
+   ],
+   "composer": [
+    "Franz Liszt (arr. John Lanchbery)"
+   ],
+   "designer": [
+    "Nicholas Georgiadis"
+   ],
+   "premise": "A drug-addled, syphilitic crown prince, trapped by court politics, kills his teenage mistress and himself.",
+   "era": "late20",
+   "lane": "Britain",
+   "region": "Britain",
+   "threads": [
+    "T17",
+    "T15"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "rama-hari-1980",
+   "title": "Rama, Hari",
+   "orig": "Rama, Hari",
+   "year": 1980,
+   "date": "1980-02-08",
+   "place": "Manila, Cultural Center of the Philippines",
+   "company": "Ballet Philippines (then CCP Dance Company)",
+   "choreographer": [
+    "Alice Reyes"
+   ],
+   "composer": [
+    "Ryan Cayabyab"
+   ],
+   "designer": [
+    "Salvador Bernal"
+   ],
+   "premise": "Prince Rama and Sita, exiled on the eve of his coronation, win back the kingdom, as a Filipino rock opera-ballet with singers among dancers.",
+   "era": "late20",
+   "lane": "Asia, Africa and the Middle East",
+   "region": "Philippines",
+   "threads": [
+    "T05",
+    "T12",
+    "T14",
+    "T13"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "documented",
+   "depth": []
+  },
+  {
+   "id": "new-years-sacrifice-1981",
+   "title": "The New Year's Sacrifice",
+   "orig": "祝福",
+   "year": 1981,
+   "date": "1981-06-25/27",
+   "place": "Beijing, Tianqiao Theatre (天桥剧场)",
+   "company": "Central Ballet of China (中央芭蕾舞团)",
+   "choreographer": [
+    "Jiang Zuhui (蒋祖慧)"
+   ],
+   "composer": [
+    "Liu Tingyu (刘廷禹)"
+   ],
+   "designer": [
+    "Zheng Riyang (郑日洋)",
+    "Jin Taihong",
+    "Liang Hongzhou",
+    "Peng Yufei",
+    "Li Keyu"
+   ],
+   "premise": "Xianglin's widow, sold into a second marriage, loses husband and child and is cast out as unlucky by her village.",
+   "era": "late20",
+   "lane": "Asia, Africa and the Middle East",
+   "region": "China",
+   "threads": [
+    "T18",
+    "T24",
+    "T15",
+    "T07"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "documented",
+   "depth": []
+  },
+  {
+   "id": "giselle-ek-1982",
+   "title": "Giselle (Mats Ek)",
+   "orig": "Giselle (Ek)",
+   "year": 1982,
+   "date": "1982-07-06",
+   "place": "Sweden (venue not confirmed)",
+   "company": "Cullberg Ballet",
+   "choreographer": [
+    "Mats Ek"
+   ],
+   "composer": [
+    "Adolphe Adam"
+   ],
+   "designer": [
+    "Marie-Louise Ekman"
+   ],
+   "premise": "The village outsider is driven mad by a man of another class; Act II is a psychiatric asylum.",
+   "era": "late20",
+   "lane": "Italy and Europe",
+   "region": "Sweden",
+   "threads": [
+    "T13",
+    "T15",
+    "T07"
+   ],
+   "parent": "giselle-1841",
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W3 §5"
+   ]
+  },
+  {
+   "id": "creole-giselle-1984",
+   "title": "Creole Giselle",
+   "orig": "Creole Giselle",
+   "year": 1984,
+   "date": "1984",
+   "place": "London Coliseum",
+   "company": "Dance Theatre of Harlem",
+   "choreographer": [
+    "after Coralli and Perrot",
+    "staged by Frederic Franklin"
+   ],
+   "composer": [
+    "Adolphe Adam"
+   ],
+   "designer": [
+    "Carl Michel"
+   ],
+   "premise": "Giselle transposed to Louisiana's free Black society, where class is counted in generations from slavery.",
+   "era": "late20",
+   "lane": "The Americas",
+   "region": "USA",
+   "threads": [
+    "T13",
+    "T07",
+    "T02",
+    "T15"
+   ],
+   "parent": "giselle-1841",
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W3 §4"
+   ]
+  },
+  {
+   "id": "in-the-upper-room-1986",
+   "title": "In the Upper Room",
+   "orig": "In the Upper Room",
+   "year": 1986,
+   "date": "1986-08-28",
+   "place": "Highland Park, Illinois, Ravinia Festival",
+   "company": "Twyla Tharp Dance",
+   "choreographer": [
+    "Twyla Tharp"
+   ],
+   "composer": [
+    "Philip Glass"
+   ],
+   "designer": [
+    "Norma Kamali (costumes)",
+    "Jennifer Tipton (lighting)"
+   ],
+   "premise": "Dancers in sneakers and dancers on pointe emerge from fog in relays until everyone is exhausted.",
+   "era": "late20",
+   "lane": "The Americas",
+   "region": "USA",
+   "threads": [
+    "T10",
+    "T11"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "shim-chung-1986",
+   "title": "Shim Chung",
+   "orig": "심청",
+   "year": 1986,
+   "date": "1986-09-21",
+   "place": "Seoul, National Theater of Korea",
+   "company": "Universal Ballet",
+   "choreographer": [
+    "Adrienne Dellas",
+    "additional choreography - Roy Tobias, Oleg Vinogradov, Bingxian Liu"
+   ],
+   "composer": [
+    "Kevin Barber Pickard (with Choi Dong-sun)"
+   ],
+   "designer": [
+    "Kim Myung-ho",
+    "Hong Yong-han (sets); Sylvia Taalsohn",
+    "Oleg Vinogradov",
+    "Oh Han-gyul (costumes)"
+   ],
+   "premise": "A daughter sells herself as a sacrifice to the sea to restore her blind father's sight, and returns from the Sea King's palace as a queen.",
+   "era": "late20",
+   "lane": "Asia, Africa and the Middle East",
+   "region": "South Korea",
+   "threads": [
+    "T14",
+    "T16",
+    "T01",
+    "T24",
+    "T06"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "documented",
+   "depth": []
+  },
+  {
+   "id": "the-kabuki-1986",
+   "title": "The Kabuki",
+   "orig": "ザ・カブキ",
+   "year": 1986,
+   "date": "1986-04-16",
+   "place": "Tokyo, Tokyo Bunka Kaikan (東京文化会館)",
+   "company": "Tokyo Ballet (東京バレエ団)",
+   "choreographer": [
+    "Maurice Béjart"
+   ],
+   "composer": [
+    "Mayuzumi Toshirō (黛敏郎)"
+   ],
+   "designer": [
+    "Nuno Côrte-Real (sets",
+    "costumes)"
+   ],
+   "premise": "A young man of today falls into the world of Chūshingura and leads the 47 masterless samurai to revenge and ritual suicide.",
+   "era": "late20",
+   "lane": "Asia, Africa and the Middle East",
+   "region": "Japan / France",
+   "threads": [
+    "T05",
+    "T18",
+    "T13",
+    "T14"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "documented",
+   "depth": []
+  },
+  {
+   "id": "in-the-middle-1987",
+   "title": "In the Middle, Somewhat Elevated",
+   "orig": "In the Middle, Somewhat Elevated",
+   "year": 1987,
+   "date": "1987-05-30",
+   "place": "Paris Opéra (Palais Garnier)",
+   "company": "Paris Opéra Ballet",
+   "choreographer": [
+    "William Forsythe"
+   ],
+   "composer": [
+    "Thom Willems"
+   ],
+   "designer": [
+    "William Forsythe"
+   ],
+   "premise": "Nine dancers in practice clothes stretch classical positions to breaking point under hard light and industrial sound.",
+   "era": "late20",
+   "lane": "France",
+   "region": "France / Germany",
+   "threads": [
+    "T10",
+    "T09",
+    "T13"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "swan-lake-ek-1987",
+   "title": "Swan Lake (Mats Ek)",
+   "orig": "Svansjön",
+   "year": 1987,
+   "date": "1987",
+   "place": "Sweden (venue not found)",
+   "company": "Cullberg Ballet",
+   "choreographer": [
+    "Mats Ek"
+   ],
+   "composer": [
+    "Pyotr Ilyich Tchaikovsky"
+   ],
+   "designer": [
+    "Marie-Louise Ekman"
+   ],
+   "premise": "A prince's failed break from his mother; bald swans of both sexes.",
+   "era": "late20",
+   "lane": "Italy and Europe",
+   "region": "Sweden",
+   "threads": [
+    "T13",
+    "T03",
+    "T22"
+   ],
+   "parent": "swan-lake-1877-1895",
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W3 §5"
+   ]
+  },
+  {
+   "id": "hard-nut-1991",
+   "title": "The Hard Nut",
+   "orig": "The Hard Nut",
+   "year": 1991,
+   "date": "1991-01-12",
+   "place": "Brussels, Théâtre Royal de la Monnaie",
+   "company": "Mark Morris Dance Group",
+   "choreographer": [
+    "Mark Morris"
+   ],
+   "composer": [
+    "Pyotr Ilyich Tchaikovsky"
+   ],
+   "designer": [
+    "Adrianne Lobel (sets)",
+    "Martin Pakledinaz (costumes)",
+    "Charles Burns (comic-art source)"
+   ],
+   "premise": "The Nutcracker in a 1970s suburban party, with cross-cast roles and snowflakes of both sexes throwing snow.",
+   "era": "late20",
+   "lane": "Italy and Europe",
+   "region": "Belgium / USA",
+   "threads": [
+    "T13",
+    "T04",
+    "T22",
+    "T06"
+   ],
+   "parent": "nutcracker-1892",
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "swan-lake-bourne-1995",
+   "title": "Swan Lake (Matthew Bourne)",
+   "orig": "Swan Lake (Bourne)",
+   "year": 1995,
+   "date": "1995-11-09",
+   "place": "London, Sadler's Wells Theatre",
+   "company": "Adventures in Motion Pictures",
+   "choreographer": [
+    "Matthew Bourne"
+   ],
+   "composer": [
+    "Pyotr Ilyich Tchaikovsky"
+   ],
+   "designer": [
+    "Lez Brotherston"
+   ],
+   "premise": "A modern prince starved of his mother's love meets a male Swan who embodies the freedom he cannot have.",
+   "era": "late20",
+   "lane": "Britain",
+   "region": "Britain",
+   "threads": [
+    "T13",
+    "T03",
+    "T22",
+    "T17"
+   ],
+   "parent": "swan-lake-1877-1895",
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W3 §6"
+   ]
+  },
+  {
+   "id": "rites-page-1997",
+   "title": "Rites",
+   "orig": "Rites",
+   "year": 1997,
+   "date": "1997-03-17 (season 17-29 March)",
+   "place": "Melbourne, Victorian Arts Centre (Melbourne Festival)",
+   "company": "Bangarra Dance Theatre with The Australian Ballet",
+   "choreographer": [
+    "Stephen Page"
+   ],
+   "composer": [
+    "Igor Stravinsky (The Rite of Spring)"
+   ],
+   "designer": [
+    "Peter England (set)",
+    "Jennifer Irwin (costumes)",
+    "Mark Howett (lighting)"
+   ],
+   "premise": "The Rite as the elemental forces of an ancient Australian landscape, danced by Indigenous and classical dancers together.",
+   "era": "late20",
+   "lane": "Asia, Africa and the Middle East",
+   "region": "Australia",
+   "threads": [
+    "T13",
+    "T16",
+    "T23",
+    "T14"
+   ],
+   "parent": "rite-of-spring-1913",
+   "tier": "B",
+   "confidence": "documented",
+   "depth": []
+  },
+  {
+   "id": "el-leila-el-kebira-2001",
+   "title": "The Grand Night",
+   "orig": "الليلة الكبيرة",
+   "year": 2001,
+   "date": "2001/2002",
+   "place": "Cairo Opera House",
+   "company": "Cairo Opera Ballet Company",
+   "choreographer": [
+    "Abdel-Moneim Kamel"
+   ],
+   "composer": [
+    "Sayed Mekawy (re-orchestrated by Gamal Salama)"
+   ],
+   "designer": [
+    "Abdel-Moneim Kamel"
+   ],
+   "premise": "A night at a village moulid: vendors, fortune-teller, circus, a lost child; puppets turned into dancers.",
+   "era": "c21",
+   "lane": "Asia, Africa and the Middle East",
+   "region": "Egypt",
+   "threads": [
+    "T21",
+    "T04",
+    "T14",
+    "T13"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W3 §10"
+   ]
+  },
+  {
+   "id": "raise-the-red-lantern-2001",
+   "title": "Raise the Red Lantern",
+   "orig": "大红灯笼高高挂",
+   "year": 2001,
+   "date": "2001-05-02",
+   "place": "Beijing, Tianqiao Theatre (天桥剧场)",
+   "company": "National Ballet of China (中央芭蕾舞团)",
+   "choreographer": [
+    "Wang Xinpeng (王新鹏)",
+    "Wang Yuanyuan (王媛媛)"
+   ],
+   "composer": [
+    "Chen Qigang (陈其钢)"
+   ],
+   "designer": [
+    "Zeng Li (曾力) (sets)",
+    "Jérôme Kaplan (costumes)",
+    "Zhang Yimou (lighting)"
+   ],
+   "premise": "In a 1920s mansion, a new concubine loves a Peking-opera actor; the jealous second wife betrays them and all three are executed.",
+   "era": "c21",
+   "lane": "Asia, Africa and the Middle East",
+   "region": "China",
+   "threads": [
+    "T24",
+    "T18",
+    "T17",
+    "T15"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "documented",
+   "depth": []
+  },
+  {
+   "id": "swan-lake-masilo-2010",
+   "title": "Swan Lake (Dada Masilo)",
+   "orig": "Swan Lake (Masilo)",
+   "year": 2010,
+   "date": "2010-07",
+   "place": "Grahamstown (Makhanda), National Arts Festival",
+   "company": "Dada Masilo / The Dance Factory",
+   "choreographer": [
+    "Dada Masilo"
+   ],
+   "composer": [
+    "Pyotr Ilyich Tchaikovsky",
+    "Camille Saint-Saëns",
+    "Steve Reich",
+    "Arvo Pärt (probable for the last two)"
+   ],
+   "designer": [
+    "see W3 §7"
+   ],
+   "premise": "Odette is married off to Siegfried, who loves a male Odile; a requiem for those lost to AIDS and homophobia.",
+   "era": "c21",
+   "lane": "Asia, Africa and the Middle East",
+   "region": "South Africa",
+   "threads": [
+    "T13",
+    "T03",
+    "T22",
+    "T14"
+   ],
+   "parent": "swan-lake-1877-1895",
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W3 §7"
+   ]
+  },
+  {
+   "id": "alice-wheeldon-2011",
+   "title": "Alice's Adventures in Wonderland",
+   "orig": "Alice's Adventures in Wonderland",
+   "year": 2011,
+   "date": "2011-02-28",
+   "place": "London, Royal Opera House",
+   "company": "Royal Ballet (co-production National Ballet of Canada)",
+   "choreographer": [
+    "Christopher Wheeldon"
+   ],
+   "composer": [
+    "Joby Talbot"
+   ],
+   "designer": [
+    "Bob Crowley"
+   ],
+   "premise": "Alice follows a rabbit into Wonderland, where Victorian garden-party guests become cards, caterpillars and queens.",
+   "era": "c21",
+   "lane": "Britain",
+   "region": "Britain / Canada",
+   "threads": [
+    "T06",
+    "T01",
+    "T18",
+    "T20"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "sleeping-beauty-ratmansky-2015",
+   "title": "The Sleeping Beauty (Ratmansky)",
+   "orig": "The Sleeping Beauty (Ratmansky)",
+   "year": 2015,
+   "date": "2015-03-03",
+   "place": "Costa Mesa, Segerstrom Center for the Arts",
+   "company": "American Ballet Theatre (co-production Teatro alla Scala)",
+   "choreographer": [
+    "Alexei Ratmansky (after Petipa",
+    "from Stepanov notation)"
+   ],
+   "composer": [
+    "Pyotr Ilyich Tchaikovsky"
+   ],
+   "designer": [
+    "Richard Hudson (after Léon Bakst)"
+   ],
+   "premise": "The 1890 ballet recovered from notation: remaking by subtraction of a century's habits.",
+   "era": "c21",
+   "lane": "The Americas",
+   "region": "USA / Italy",
+   "threads": [
+    "T13",
+    "T06",
+    "T17"
+   ],
+   "parent": null,
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W3 §9"
+   ]
+  },
+  {
+   "id": "woolf-works-2015",
+   "title": "Woolf Works",
+   "orig": "Woolf Works",
+   "year": 2015,
+   "date": "2015-05-11",
+   "place": "London, Royal Opera House",
+   "company": "Royal Ballet",
+   "choreographer": [
+    "Wayne McGregor"
+   ],
+   "composer": [
+    "Max Richter"
+   ],
+   "designer": [
+    "Ciguë",
+    "We Not I",
+    "Lucy Carter (lighting)",
+    "Moritz Junge (costumes)"
+   ],
+   "premise": "Three acts, three Woolf novels: memory, time travelling through bodies, and the sea of her death.",
+   "era": "c21",
+   "lane": "Britain",
+   "region": "Britain",
+   "threads": [
+    "T18",
+    "T10",
+    "T22"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "giselle-khan-2016",
+   "title": "Giselle (Akram Khan)",
+   "orig": "Giselle (Khan)",
+   "year": 2016,
+   "date": "2016-09-27",
+   "place": "Manchester, Palace Theatre",
+   "company": "English National Ballet",
+   "choreographer": [
+    "Akram Khan"
+   ],
+   "composer": [
+    "Vincenzo Lamagna (after Adam)"
+   ],
+   "designer": [
+    "Tim Yip"
+   ],
+   "premise": "Giselle among migrant garment workers locked out of a closed factory; the Wilis are the ghosts of dead workers.",
+   "era": "c21",
+   "lane": "Britain",
+   "region": "Britain / Bangladesh (diaspora)",
+   "threads": [
+    "T13",
+    "T07",
+    "T02",
+    "T15",
+    "T08"
+   ],
+   "parent": "giselle-1841",
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W3 §8"
+   ]
+  },
+  {
+   "id": "jane-eyre-marston-2016",
+   "title": "Jane Eyre",
+   "orig": "Jane Eyre",
+   "year": 2016,
+   "date": "2016-05",
+   "place": "Doncaster, Cast",
+   "company": "Northern Ballet",
+   "choreographer": [
+    "Cathy Marston"
+   ],
+   "composer": [
+    "Philip Feeney (arr. of Mendelssohn",
+    "Fanny Mendelssohn",
+    "Schubert",
+    "Schumann and others)"
+   ],
+   "designer": [
+    "Patrick Kinmonth"
+   ],
+   "premise": "An orphan governess falls in love with her employer and discovers the wife hidden in his attic.",
+   "era": "c21",
+   "lane": "Britain",
+   "region": "Britain",
+   "threads": [
+    "T18",
+    "T24",
+    "T15"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "flight-pattern-2017",
+   "title": "Flight Pattern",
+   "orig": "Flight Pattern",
+   "year": 2017,
+   "date": "2017-03-16",
+   "place": "London, Royal Opera House",
+   "company": "Royal Ballet",
+   "choreographer": [
+    "Crystal Pite"
+   ],
+   "composer": [
+    "Henryk Górecki (Symphony No. 3",
+    "Symphony of Sorrowful Songs)"
+   ],
+   "designer": [
+    "Jay Gower Taylor (set)",
+    "Nancy Bryant (costumes)",
+    "Tom Visser (lighting)"
+   ],
+   "premise": "Thirty-six dancers in grey coats move as one migrating mass, then a single parting at a door.",
+   "era": "c21",
+   "lane": "The Americas",
+   "region": "Canada / Britain",
+   "threads": [
+    "T08",
+    "T10",
+    "T23"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "giselle-masilo-2017",
+   "title": "Giselle (Dada Masilo)",
+   "orig": "Giselle (Masilo)",
+   "year": 2017,
+   "date": "2017-05-04",
+   "place": "Oslo, Dansens Hus",
+   "company": "Dada Masilo / The Dance Factory",
+   "choreographer": [
+    "Dada Masilo"
+   ],
+   "composer": [
+    "Philip Miller (probable)"
+   ],
+   "designer": [
+    "see W3 §7"
+   ],
+   "premise": "A rough, violent Giselle in a South African village; the Wilis are ancestral spirits, and there is no forgiveness.",
+   "era": "c21",
+   "lane": "Asia, Africa and the Middle East",
+   "region": "South Africa",
+   "threads": [
+    "T13",
+    "T02",
+    "T15",
+    "T14"
+   ],
+   "parent": "giselle-1841",
+   "tier": "A",
+   "confidence": "documented",
+   "depth": [
+    "works/W3 §7"
+   ]
+  },
+  {
+   "id": "cleopatra-cairo-2019",
+   "title": "Cleopatra",
+   "orig": "كليوباترا",
+   "year": 2019,
+   "date": "2019-10-15",
+   "place": "Cairo Opera House, Main Hall",
+   "company": "Cairo Opera Ballet Company",
+   "choreographer": [
+    "José Perez (assistant René de Cárdenas)"
+   ],
+   "composer": [
+    "Mohamed Saad Basha"
+   ],
+   "designer": [
+    "Mohamed El Gharabawy (set)",
+    "Manuela Scerri (costumes)",
+    "Yasser Shaalan (lighting)"
+   ],
+   "premise": "Egypt's last queen, her love for Antony, war, defeat and death, told by an Egyptian composer for Cairo's company.",
+   "era": "c21",
+   "lane": "Asia, Africa and the Middle East",
+   "region": "Egypt",
+   "threads": [
+    "T12",
+    "T05",
+    "T17",
+    "T15"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "documented",
+   "depth": []
+  },
+  {
+   "id": "frida-lopez-ochoa-2020",
+   "title": "Frida",
+   "orig": "Frida",
+   "year": 2020,
+   "date": "2020",
+   "place": "Amsterdam, Dutch National Opera and Ballet",
+   "company": "Dutch National Ballet",
+   "choreographer": [
+    "Annabelle Lopez Ochoa"
+   ],
+   "composer": [
+    "Peter Salem"
+   ],
+   "designer": [
+    "Dieuweke van Reij (sets",
+    "costumes) (probable)"
+   ],
+   "premise": "Frida Kahlo's injured body, marriage and painting as a sequence of living pictures.",
+   "era": "c21",
+   "lane": "Italy and Europe",
+   "region": "Netherlands / Mexico (subject)",
+   "threads": [
+    "T19",
+    "T24",
+    "T14"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "the-cellist-2020",
+   "title": "The Cellist",
+   "orig": "The Cellist",
+   "year": 2020,
+   "date": "2020-02-17",
+   "place": "London, Royal Opera House",
+   "company": "Royal Ballet",
+   "choreographer": [
+    "Cathy Marston"
+   ],
+   "composer": [
+    "Philip Feeney (after Elgar and others)"
+   ],
+   "designer": [
+    "Hildegard Bechtler"
+   ],
+   "premise": "A cellist's love affair with her instrument (danced by a man) and her loss of it to multiple sclerosis.",
+   "era": "c21",
+   "lane": "Britain",
+   "region": "Britain",
+   "threads": [
+    "T19",
+    "T04",
+    "T15"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "common-grounds-acogny-2021",
+   "title": "common ground[s]",
+   "orig": "common ground[s]",
+   "year": 2021,
+   "date": "2021",
+   "place": "touring with Pina Bausch's Rite of Spring (Dakar / Europe) (probable)",
+   "company": "Pina Bausch Foundation, École des Sables, Sadler's Wells",
+   "choreographer": [
+    "Germaine Acogny",
+    "Malou Airaudo"
+   ],
+   "composer": [
+    "Fabrice Bouillon-LaForest (probable)"
+   ],
+   "designer": [
+    "unknown"
+   ],
+   "premise": "Two women in their seventies, from Senegal and France, share memory and grief; the companion piece to an African-cast Rite of Spring.",
+   "era": "c21",
+   "lane": "Asia, Africa and the Middle East",
+   "region": "Senegal / Germany / Britain",
+   "threads": [
+    "T13",
+    "T16",
+    "T14"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "probable",
+   "depth": []
+  },
+  {
+   "id": "like-water-for-chocolate-2022",
+   "title": "Like Water for Chocolate",
+   "orig": "Like Water for Chocolate",
+   "year": 2022,
+   "date": "2022-06-02",
+   "place": "London, Royal Opera House",
+   "company": "Royal Ballet (co-production American Ballet Theatre)",
+   "choreographer": [
+    "Christopher Wheeldon"
+   ],
+   "composer": [
+    "Joby Talbot"
+   ],
+   "designer": [
+    "Bob Crowley"
+   ],
+   "premise": "In revolutionary Mexico, a youngest daughter forbidden to marry pours her feelings into food that bewitches those who eat it.",
+   "era": "c21",
+   "lane": "Britain",
+   "region": "Britain / Mexico (source)",
+   "threads": [
+    "T18",
+    "T24",
+    "T01"
+   ],
+   "parent": null,
+   "tier": "C",
+   "confidence": "probable",
+   "depth": []
+  }
+ ],
+ "events": [],
+ "families": {
+  "fille-mal-gardee-1789": [
+   "fille-mal-gardee-1789",
+   "fille-mal-gardee-ashton-1960"
+  ],
+  "sylphide-1832": [
+   "sylphide-1832",
+   "sylphide-bournonville-1836"
+  ],
+  "giselle-1841": [
+   "giselle-1841",
+   "giselle-alonso-1945-1963",
+   "giselle-ek-1982",
+   "creole-giselle-1984",
+   "giselle-khan-2016",
+   "giselle-masilo-2017"
+  ],
+  "swan-lake-1877-1895": [
+   "swan-lake-1877-1895",
+   "swan-lake-ek-1987",
+   "swan-lake-bourne-1995",
+   "swan-lake-masilo-2010"
+  ],
+  "nutcracker-1892": [
+   "nutcracker-1892",
+   "hard-nut-1991"
+  ],
+  "apres-midi-faune-1912": [
+   "apres-midi-faune-1912",
+   "afternoon-faun-robbins-1953"
+  ],
+  "rite-of-spring-1913": [
+   "rite-of-spring-1913",
+   "sacre-bejart-1959",
+   "sacre-bausch-1975",
+   "rites-page-1997"
+  ],
+  "bolero-nijinska-1928": [
+   "bolero-nijinska-1928",
+   "bolero-bejart-1961"
+  ],
+  "romeo-juliet-lavrovsky-1940": [
+   "romeo-juliet-lavrovsky-1940",
+   "romeo-juliet-macmillan-1965"
+  ]
+ }
+}
