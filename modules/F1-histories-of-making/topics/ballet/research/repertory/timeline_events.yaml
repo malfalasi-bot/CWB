@@ -688,7 +688,9 @@ events:
   title: Viktor Oskolkov says he put Swan Lake on air in 1991 (Komsomolskaya Pravda, 18 August)
   lane: Music, record and media
   confidence: documented
-  source: X1 Part 4; KP; *Rodina* 19 August 2026
+  source: 'X1 Part 4; KP; *Rodina* 19 August 2026; checked 21 Nov 2026: https://vfokuse.mail.ru/news/69637154-kto-velel-krutit-lebedinoe-ozero-v-den-putcha-gkchp-priznanie-cherez-35-let/'
+  note: Head of programmes at USSR Gostelradio in 1991; says it aired twice on 19 August (21:40 and late night) because nothing else of the right length was ready. Reported by Rossiyskaya Gazeta (vfokuse.mail.ru,
+    19 August 2026) from his conversation with Komsomolskaya Pravda; TV Rain had an earlier interview with him on the same question (date not checked).
 - year: 1581
   when: '1581'
   place: Paris, Petit-Bourbon (place C)
