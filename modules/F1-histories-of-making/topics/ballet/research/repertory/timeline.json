@@ -2098,7 +2098,9 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
-   "depth": []
+   "depth": [
+    "repertory/dossiers/D2_1898-1929.md"
+   ]
   },
   {
    "id": "golden-age-1930",
@@ -3062,6 +3064,39 @@
    "parent": null,
    "tier": "C",
    "confidence": "probable",
+   "depth": [
+    "repertory/dossiers/D3_1932-1949.md"
+   ]
+  },
+  {
+   "id": "etudes-1948",
+   "title": "Etudes",
+   "orig": "Etude (1948); Etudes / Études (from 1951)",
+   "year": 1948,
+   "date": "1948-01-15",
+   "place": "Copenhagen, Royal Theatre (Det Kongelige Teater)",
+   "company": "Royal Danish Ballet",
+   "choreographer": [
+    "Harald Lander"
+   ],
+   "composer": [
+    "Carl Czerny (piano studies)",
+    "arr. and orch. Knudåge Riisager"
+   ],
+   "designer": [
+    "contested: Harald Lander (Bolshoi notes) or Rolf Gerard with lighting by Nananne Porcher (Wikipedia; probably ABT 1961 credits)"
+   ],
+   "premise": "A ballet class becomes the performance: from the five positions at the barre to a finale of massed leaps.",
+   "era": "E7",
+   "period": "postwar",
+   "lane": "Italy and Europe",
+   "region": "Denmark",
+   "threads": [
+    "T10"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "documented",
    "depth": [
     "repertory/dossiers/D3_1932-1949.md"
    ]
@@ -4407,7 +4442,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W3 §4"
+    "works/W3 §4",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {
@@ -4627,6 +4663,43 @@
    ]
   },
   {
+   "id": "le-parc-1994",
+   "title": "The Park",
+   "orig": "Le Parc",
+   "year": 1994,
+   "date": "1994-04-09",
+   "place": "Paris, Palais Garnier",
+   "company": "Paris Opéra Ballet",
+   "choreographer": [
+    "Angelin Preljocaj"
+   ],
+   "composer": [
+    "Wolfgang Amadeus Mozart",
+    "Goran Vejvoda (sound design)"
+   ],
+   "designer": [
+    "Thierry Leproust (sets)",
+    "Hervé Pierre (costumes)",
+    "Jacques Chatelet (lighting)"
+   ],
+   "premise": "Four gardeners in dark glasses steer a man and a woman through a formal garden of love, from first glance to a flying kiss.",
+   "era": "E9",
+   "period": "late20",
+   "lane": "France",
+   "region": "France",
+   "threads": [
+    "T18",
+    "T22",
+    "T01"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "documented",
+   "depth": [
+    "repertory/dossiers/D6_1986-2022.md"
+   ]
+  },
+  {
    "id": "swan-lake-bourne-1995",
    "title": "Swan Lake (Matthew Bourne)",
    "orig": "Swan Lake (Bourne)",
@@ -4773,6 +4846,43 @@
    ]
   },
   {
+   "id": "chroma-2006",
+   "title": "Chroma",
+   "orig": "Chroma",
+   "year": 2006,
+   "date": "2006-11-17",
+   "place": "London, Royal Opera House",
+   "company": "Royal Ballet",
+   "choreographer": [
+    "Wayne McGregor"
+   ],
+   "composer": [
+    "Joby Talbot",
+    "Jack White III (arr. Talbot; orch. Christopher Austin)"
+   ],
+   "designer": [
+    "John Pawson (set)",
+    "Moritz Junge (costumes)",
+    "Lucy Carter (lighting)"
+   ],
+   "premise": "Ten dancers in pale slips burst through one opening in a white architectural box to orchestral White Stripes songs.",
+   "era": "E10",
+   "period": "c21",
+   "lane": "Britain",
+   "region": "Britain",
+   "threads": [
+    "T10",
+    "T09",
+    "T11"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "documented",
+   "depth": [
+    "repertory/dossiers/D6_1986-2022.md"
+   ]
+  },
+  {
    "id": "swan-lake-masilo-2010",
    "title": "Swan Lake (Dada Masilo)",
    "orig": "Swan Lake (Masilo)",
@@ -4842,6 +4952,44 @@
    "parent": null,
    "tier": "B",
    "confidence": "probable",
+   "depth": [
+    "repertory/dossiers/D6_1986-2022.md"
+   ]
+  },
+  {
+   "id": "the-winters-tale-2014",
+   "title": "The Winter's Tale",
+   "orig": "The Winter's Tale",
+   "year": 2014,
+   "date": "2014-04-10",
+   "place": "London, Royal Opera House",
+   "company": "Royal Ballet (co-production National Ballet of Canada)",
+   "choreographer": [
+    "Christopher Wheeldon"
+   ],
+   "composer": [
+    "Joby Talbot"
+   ],
+   "designer": [
+    "Bob Crowley (sets and costumes)",
+    "Natasha Katz (lighting)",
+    "Daniel Brodie (projections)",
+    "Basil Twist (silk effects)"
+   ],
+   "premise": "A king's jealousy destroys his wife and son; sixteen years later the lost daughter returns and the queen's statue comes to life.",
+   "era": "E10",
+   "period": "c21",
+   "lane": "Britain",
+   "region": "Britain / Canada",
+   "threads": [
+    "T18",
+    "T15",
+    "T07",
+    "T19"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "documented",
    "depth": [
     "repertory/dossiers/D6_1986-2022.md"
    ]
@@ -4991,6 +5139,44 @@
    "depth": []
   },
   {
+   "id": "the-seasons-canon-2016",
+   "title": "The Seasons' Canon",
+   "orig": "The Seasons' Canon",
+   "year": 2016,
+   "date": "2016-09-24",
+   "place": "Paris, Palais Garnier (season-opening gala)",
+   "company": "Paris Opéra Ballet",
+   "choreographer": [
+    "Crystal Pite"
+   ],
+   "composer": [
+    "Max Richter (Recomposed - Vivaldi",
+    "The Four Seasons",
+    "2012)"
+   ],
+   "designer": [
+    "Jay Gower Taylor (set; reflected-light backdrop with Tom Visser)",
+    "Nancy Bryant (costumes)",
+    "Tom Visser (lighting)"
+   ],
+   "premise": "Fifty-four dancers with green-painted throats move as one living mass through the four seasons.",
+   "era": "E10",
+   "period": "c21",
+   "lane": "The Americas",
+   "region": "Canada / France",
+   "threads": [
+    "T10",
+    "T16",
+    "T12"
+   ],
+   "parent": null,
+   "tier": "B",
+   "confidence": "contested",
+   "depth": [
+    "repertory/dossiers/D6_1986-2022.md"
+   ]
+  },
+  {
    "id": "flight-pattern-2017",
    "title": "Flight Pattern",
    "orig": "Flight Pattern",
@@ -5059,7 +5245,8 @@
    "tier": "A",
    "confidence": "documented",
    "depth": [
-    "works/W3 §7"
+    "works/W3 §7",
+    "repertory/dossiers/D7_supplements_tier_A.md"
    ]
   },
   {

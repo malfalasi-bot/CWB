@@ -756,3 +756,52 @@ W3 gives the concept; the look is the work's strongest argument. Tim Yip, the Ho
 - `giselle-masilo-2017`: her next classic, where anger replaces forgiveness.
 - `dying-swan-1905`: the solo of a swan's death, which Masilo's ending turns into a social death.
 
+---
+
+## Giselle (Dada Masilo) (2017)
+`id: giselle-masilo-2017` · W file: W3 §7
+
+### Design and art
+W3 is thin on the look. The backcloth is projected drawings by William Kentridge, chiefly from his *Colonial Landscapes* series, so the village is "a marshy, rural idyll" drawn by a white South African artist about colonial land [documented: Masilo interview, Romaeuropa press dossier, 2017; DanceTabs, 2018]. Masilo set her Giselle on "a South African wine farm of the late 1800s" [documented: Romaeuropa, our translation]. Costumes: David Hutt for Donker Nag Helder Dag (Act I) and Songezo Mcilizeli and Nonofo Olekeng for Those Two Lifestyle (Act II); lighting Suzette le Sueur [documented: Romaeuropa credits]. Giselle wears "the familiar tight-bodiced little dress" with a shaven head [documented: *The Arts Desk*, 8 Oct 2019]; after Bathilde strikes her she is left "naked but for her white knickers" [documented: same]. The Wilis are "ungendered and dressed in dark red", in "red, bustled costumes", tipped forward "like birds of prey" [documented: *Arts Desk*; DanceTabs 2018]. Myrtha, a Sangoma, carries a cow-hair fly whisk instead of the myrtle branch [documented: both]. Philip Miller's score mixes violin, viola, cello, horn and percussion with voices, and quotes Adam after Masilo first did not want it to [documented: Romaeuropa].
+
+### Readings and disputes
+- **Is there forgiveness?** "There is no forgiveness in her heart" (*British Theatre Guide*, 2019; reviewer not recorded in this pass) [documented as the review's line]; "loving forgiveness doesn't enter the picture" (*The Arts Desk* 2019) [documented]. DanceTabs (2018), on the funeral procession: "It turns out that there is forgiveness, at least for Giselle" [documented]. Revenge on Albrecht, mercy for Giselle herself.
+- **How does Albrecht die?** Whipped: Giselle "slashes and thrashes him to death" (*BTG*), or he is "dog-whipped" (*Arts Desk*) [documented]; or "an intimate moment resembling a kiss of death" (Taliah Mancini, *L.A. Dance Chronicle*, 2018) [documented]. Reviews disagree about the central act.
+- **Whose myth?** Masilo said she drew on Greek women who kill, "Medusa is my favourite", and asked "what would happen if Giselle did not forgive Albrecht?" [documented: Romaeuropa interview, our translation]. Reviewers read it as "a #MeToo woman before the term was coined" (*BTG*) [documented], and Mancini through Sara Ahmed's idea of the "willful" [documented]. South African ritual, Greek myth and Anglo-American feminism, all claimed.
+
+### Facts worth telling
+1. Premiere: DansensHus, Oslo, 4 May 2017 [documented: Romaeuropa].
+2. Mourners cross the stage singing a traditional hymn, "go to heaven, my heart, for there is no peace on this earth" [documented: *BTG*].
+3. Myrtha was danced by a man, Llewellyn Mnguni, with long grey braids [documented: *BTG*; DanceTabs].
+4. It runs about 80 minutes [documented: *Arts Desk*].
+5. Masilo: "There's always a point where movement isn't enough, where you have to vocalize" [documented: Mancini 2018].
+
+### Set it beside
+- `giselle-1841`: the forgiving spirit replaced by an avenging one.
+- `giselle-khan-2016`: a remake a year earlier with a female community of the dead who also seek revenge, but where Giselle still saves Albrecht.
+- `medee-et-jason-1763`: the earlier stage figure of a betrayed woman who kills.
+
+---
+
+## Creole Giselle (1984)
+`id: creole-giselle-1984` · W file: W3 §4
+
+*Design and art: Carl Michel "compiled the historical background … designed the sets and costumes, and evidently was very much a moving force" [documented: Arlene Croce, "Giselle, ou La Fille des Bayous", *New Yorker*, 22 Oct 1984]. His "greatest coup" is Act II: Albert poled through the swamp in a flat-bottomed boat toward Giselle's tomb "looming through the wisteria" [documented: Croce]. The tomb is an above-ground sepulchre with a cross under Spanish moss, dated 1841; Giselle's friends gather for a sugar-cane party instead of a grape harvest [documented: Jann Parry, DanceTabs, 18 June 2020]. The *Morning Call* praised "stunning period costumes" [documented: 4 Nov 1984].*
+
+### Readings and disputes
+- **Where and when did it premiere?** At the London Coliseum on 18 July 1984, not in New York [documented: Parry 2020; MOBBallet, 2021]; the New York season followed that autumn [documented: *Morning Call*]. The register's year is right; the place is often assumed wrongly.
+- **How does this Giselle die?** In Franklin's staging, Parry writes, "she dies of her self-inflicted stabbing from Albert's swordstick" [documented]; traditional stagings that Franklin knew, including Pavlova's line, have the sword taken away (see `giselle-1841` above). A remake that settles the 1841 contradiction one way.
+- **New, or the old steps in new clothes?** MOBBallet: "every step and gesture was correct" yet Franklin "managed to refresh the old ballet" [documented]; the *Morning Call*: except for some shortened mime it "follows the original steps" [documented]. Carrie Gaiser Casey ("Caught Dancing", *Theatre Journal*, 2006) reads the transposition as an argument about colour, caste and the "classical" body [probable, W1]. Parry finds the Wili effects "risibly dated" on the 1987 film [documented].
+
+### Facts worth telling
+1. Franklin based the staging on the *Giselle* he danced with the Ballet Russe de Monte Carlo and won an Olivier Award for it [documented: MOBBallet].
+2. Berthe is "Madame Lanaux", with a small farm; Giselle does needlework for money [documented: Parry].
+3. Franklin kept the mime except Berthe's warning about the Wilis [documented: Parry].
+4. Franklin's arabesques are lower than today's [documented: Parry].
+5. Parry on Virginia Johnson at her 1984 debut: "a luminous innocence that makes every thought and feeling transparent" [documented].
+
+### Set it beside
+- `giselle-alonso-1945-1963`: another national claim on *Giselle*, by casting and tradition rather than resetting.
+- `giselle-khan-2016`: a later transposition into a community defined by labour and migration.
+- `agon-1957`: Mitchell's own role, where race was in the casting rather than the story.
+

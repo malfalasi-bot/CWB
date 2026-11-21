@@ -2357,6 +2357,24 @@ works:
   sources: ["working knowledge"]
   note: "woman set designer; compare Bourne's Nutcracker! (1992)"
 
+- id: le-parc-1994
+  title: {orig: "Le Parc", en: "The Park"}
+  premiere: {date: 1994-04-09, place: "Paris, Palais Garnier", company: "Paris Opéra Ballet"}
+  choreographer: [Angelin Preljocaj]
+  composer: [Wolfgang Amadeus Mozart, Goran Vejvoda (sound design)]
+  scenario: [Angelin Preljocaj]
+  designer: [Thierry Leproust (sets), Hervé Pierre (costumes), Jacques Chatelet (lighting)]
+  based_on: "French love literature of the 17th-18th centuries: La Princesse de Clèves, Scudéry's Carte du Tendre, Les Liaisons dangereuses, Marivaux"
+  premise: "Four gardeners in dark glasses steer a man and a woman through a formal garden of love, from first glance to a flying kiss."
+  period: late20
+  region: France
+  w_file: null
+  tier: B
+  threads: [T18, T22, T01]
+  confidence: documented
+  sources: ["https://preljocaj.org/creation/le-parc", "https://www.mariinsky.ru/en/playbill/repertoire/ballet/park_preljocaj", "https://romaeuropa.net/archivio/festival/anno-1994/le-parc"]
+  note: "added in pass D6 (dossier in repertory/dossiers/D6_1986-2022.md); leads Isabelle Guérin, Laurent Hilaire; Benois de la Danse 1995; company gives 21 or 22 dancers"
+
 - id: swan-lake-bourne-1995
   title: {orig: "Swan Lake (Bourne)", en: "Swan Lake (Matthew Bourne)"}
   premiere: {date: 1995-11-09, place: "London, Sadler's Wells Theatre", company: "Adventures in Motion Pictures"}
@@ -2428,6 +2446,24 @@ works:
   confidence: documented
   sources: ["W3 §10"]
 
+- id: chroma-2006
+  title: {orig: "Chroma", en: "Chroma"}
+  premiere: {date: 2006-11-17, place: "London, Royal Opera House", company: "Royal Ballet"}
+  choreographer: [Wayne McGregor]
+  composer: [Joby Talbot, Jack White III (arr. Talbot; orch. Christopher Austin)]
+  scenario: [none]
+  designer: [John Pawson (set), Moritz Junge (costumes), Lucy Carter (lighting)]
+  based_on: "none (John Pawson's book Minimum; 'chroma' as freedom from white)"
+  premise: "Ten dancers in pale slips burst through one opening in a white architectural box to orchestral White Stripes songs."
+  period: c21
+  region: Britain
+  w_file: null
+  tier: B
+  threads: [T10, T09, T11]
+  confidence: documented
+  sources: ["https://waynemcgregor.com/productions/chroma", "https://www.rohcollections.org.uk/work.aspx?work=6460", "https://www.johnpawson.com/works/chroma"]
+  note: "added in pass D6; Olivier Award 2007; Pawson's earliest stage design; women entirely off pointe; led to McGregor's appointment as resident choreographer"
+
 - id: swan-lake-masilo-2010
   title: {orig: "Swan Lake (Masilo)", en: "Swan Lake (Dada Masilo)"}
   premiere: {date: 2010-07, place: "Grahamstown (Makhanda), National Arts Festival", company: "Dada Masilo / The Dance Factory"}
@@ -2464,6 +2500,24 @@ works:
   sources: ["working knowledge; Bachtrack Jan 2025 top 10 entry (documented, CENSUS §1.1)"]
   note: "Bachtrack: performed by at least 7 other companies; the new-classic thread"
 
+- id: the-winters-tale-2014
+  title: {orig: "The Winter's Tale", en: "The Winter's Tale"}
+  premiere: {date: 2014-04-10, place: "London, Royal Opera House", company: "Royal Ballet (co-production National Ballet of Canada)"}
+  choreographer: [Christopher Wheeldon]
+  composer: [Joby Talbot]
+  scenario: [Christopher Wheeldon (after Shakespeare; play suggested by Nicholas Hytner)]
+  designer: [Bob Crowley (sets and costumes), Natasha Katz (lighting), Daniel Brodie (projections), Basil Twist (silk effects)]
+  based_on: "William Shakespeare, The Winter's Tale (c. 1611)"
+  premise: "A king's jealousy destroys his wife and son; sixteen years later the lost daughter returns and the queen's statue comes to life."
+  period: c21
+  region: Britain / Canada
+  w_file: null
+  tier: B
+  threads: [T18, T15, T07, T19]
+  confidence: documented
+  sources: ["https://www.abt.org/ballet/the-winters-tale", "https://christopherwheeldon.com/the-winters-tale", "http://static.roh.org.uk/showings/the-winters-tale-2014/en.pdf"]
+  note: "added in pass D6; first Royal Ballet full-length Shakespeare since MacMillan's Romeo and Juliet (1965); onstage band in Act II; silk bear"
+
 - id: woolf-works-2015
   title: {orig: "Woolf Works", en: "Woolf Works"}
   premiere: {date: 2015-05-11, place: "London, Royal Opera House", company: "Royal Ballet"}
@@ -2498,6 +2552,24 @@ works:
   threads: [T13, T06, T17]
   confidence: documented
   sources: ["W3 §9"]
+
+- id: the-seasons-canon-2016
+  title: {orig: "The Seasons' Canon", en: "The Seasons' Canon"}
+  premiere: {date: 2016-09-24, place: "Paris, Palais Garnier (season-opening gala)", company: "Paris Opéra Ballet"}
+  choreographer: [Crystal Pite]
+  composer: [Max Richter (Recomposed - Vivaldi, The Four Seasons, 2012)]
+  scenario: [none]
+  designer: [Jay Gower Taylor (set; reflected-light backdrop with Tom Visser), Nancy Bryant (costumes), Tom Visser (lighting)]
+  based_on: "none (Vivaldi's seasons; tectonic movement; Annie Dillard on nature)"
+  premise: "Fifty-four dancers with green-painted throats move as one living mass through the four seasons."
+  period: c21
+  region: Canada / France
+  w_file: null
+  tier: B
+  threads: [T10, T16, T12]
+  confidence: contested
+  sources: ["http://www.operadeparis.fr/en/season-16-17/ballet/gala", "https://www.pnb.org/repertory/the-seasons-canon", "https://www.operadeparis.fr/en/news/the-2017-benois-de-la-danse"]
+  note: "added in pass D6; contested only on the day: gala 24 Sept 2016 vs first repertory night 26 Sept (PNB credit); Benois de la Danse 2017; commissioned by Benjamin Millepied"
 
 - id: giselle-khan-2016
   title: {orig: "Giselle (Khan)", en: "Giselle (Akram Khan)"}
