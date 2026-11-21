@@ -1,5 +1,10 @@
 # Changelog
 
+## 21 November 2026, the Repertory
+
+- `briefs/ATLAS_CONCEPT_UNIT_TEMPLATE_v2.md` to v2.1: §4.4 the Repertory, a second part for any concept with many works (a timeline, cards in four tiers under fixed headings, routes over the cards; the research it needs).
+- Ballet: the Repertory pass (deep dives on 118 works, debates, myths, design and art, 155 dated events, a benchmark) and `topics/ballet/planning/REPERTORY_PLAN.md`. Details in `topics/ballet/CHANGELOG.md`.
+
 ## 25 October 2026, topics and the Atlas concept unit
 
 - **Decisions** (`DECISIONS_2026-10-25.md`): history first for every subject and concept; Prediction first dropped (35 of 38 specs open on a one-tap reveal; each is rewritten when its unit is next written); Object first only for an object, widened to its story; the long version is the Atlas concept unit; design E for the worked example and the macro view (default, awaiting the owner).

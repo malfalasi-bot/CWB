@@ -1,4 +1,4 @@
-# Atlas concept unit, template v2
+# Atlas concept unit, template v2 (v2.1, 21 November 2026: §4.4 the Repertory)
 
 25 October 2026. Every novel concept in the Atlas (an art form, a movement, a school, a style, a network) is taught as a comprehensive unit of its own, so that the Atlas is itself a course a learner can take. Ballet is the first instance and the worked example of this template (`topics/ballet/`).
 
@@ -80,6 +80,16 @@ Units elsewhere in the program link to a chapter, a walk or a card; they never r
 | A product family | A step-through (2) that builds the family; an explorable (4) where a naming grammar exists | Anchor, what may vary, what may not, naming, life off the stage |
 | A dispute | An argument card (13) | Both readings, equal grammar |
 | Motion, sound, touch | Video (7) or audio (8), only where motion, sound or touch carries the meaning | Link out where the licence requires |
+
+### 4.4 The Repertory (added 21 November 2026, v2.1)
+
+A concept with many works (an art form, a movement, a school, a design house) gets a second part beside the chapters: **the Repertory**, its whole history told through its works. Ballet's is the worked example (`topics/ballet/planning/REPERTORY_PLAN.md`).
+
+- **The line**: one timeline of eras named for the change each carries, works in rows by where they were made, remakes joined to their originals, and events in five lanes (who paid and who ran it; bodies and training; stage, design and light; music, record and media; the world outside). Every chapter opens the line at its era.
+- **Cards in four tiers** for every work (Line, Label, Story, Deep), under fixed headings: how it came to be; roots and reference points; the world it built; design and art; premiere and reception; versions and lineage; readings and disputes; set it beside; what a maker can take from it; beyond the stage; facts worth telling (last, so facts follow the idea). Also era, production, thread-wall, argument, myth, cross-current, designer and design-idea cards.
+- **Routes**: sequences of existing cards with a short introduction and a say-back, never new chapters: the line in one sitting (for everyone); the whole history in fifty works; thread routes; the stage picture; arguments; the world stage; a maker's sourcebook ordered by design problem; the learner's own route.
+- **Research it needs**: a works register (one row per version); a dossier for each work under the headings above; two cross-history passes, one for readings, disputes and myths and one for design and art; a benchmark; a published rule for which works are in, shown with the estimated total.
+- **Rule**: chapters never re-tell a card; cards never re-tell a chapter's argument; each links to the other.
 
 ## 5. Writing
 

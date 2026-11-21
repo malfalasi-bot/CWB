@@ -2,6 +2,15 @@
 
 Newest first. Research and planning files are versioned by git; learner files by their front matter (`../README.md`).
 
+## 21 November 2026
+
+- **Research, the Repertory pass** (`research/repertory/`), about 209,000 words: `BRIEF_REPERTORY.md`; deep dives on 82 more works in `dossiers/D1`–`D6` and `D8` under fixed headings (how it came to be, roots and reference points, the world it built, design and art, reception, versions, readings and disputes, facts, set it beside, what a maker can take, beyond the stage, sources); `D7` supplements for the 35 works of the W files; `X1` 18 debates, 38 myths, 13 cross-currents, 98 dated events; `X2` ten eras of the stage picture, 65 designers and artists, 18 recurring design ideas, 60 dated events.
+- **Register** to 156 works: 137 sourced corrections applied from the dossiers, 10 settled by rule, 1 left for a person (`research/repertory/register_updates_2026-11-21.md`, `apply_register_updates.py`); new rows for *Etudes*, Balanchine's *Nutcracker*, *Marguerite and Armand*, *Le Parc*, *Chroma*, *The Winter's Tale*, *The Seasons' Canon* and Linyekula's *Création du monde 1923–2012*.
+- **Timeline**: `research/repertory/timeline_events.yaml` (155 events from X1 and X2, lanes checked by hand), `build_timeline.py` and `timeline.json` (eleven eras, six rows of works, five lanes of events, ten remake families).
+- **Correction**: the Met's Bakst designs are link-only until each record shows Open Access (`research/scope/04`, after X2).
+- **Planning**: `planning/decisions/REPERTORY_BENCHMARK.md` (books, exhibitions, platforms, learning evidence, four designs); `planning/REPERTORY_PLAN.md` (the Repertory as part two of the topic).
+- **Checks**: three claims checked against independent sources (`research/repertory/SPOTCHECK_2026-11-21.md`).
+
 ## 25 October 2026
 
 - **Moved** from `research_notes/Ballet/` and `build/units/ballet/*.md` into this topic folder (`research/`, `planning/`, `learner/`), with `git mv` so history is kept.

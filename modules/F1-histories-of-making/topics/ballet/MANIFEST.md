@@ -2,7 +2,7 @@
 
 Written by `tools/content_versions.py manifest`. Do not edit by hand. Research and planning files are versioned by git (the commit and date of their last change); learner files carry their own version (see CONTENT_INDEX.md).
 
-## Research (26 files)
+## Research (43 files)
 
 | File | Words | Version or last change |
 |---|---|---|
@@ -12,12 +12,29 @@ Written by `tools/content_versions.py manifest`. Do not edit by hand. Research a
 | `research/pass2_presentation.md` | 4703 | 7a38007 2026-10-25 |
 | `research/pass2_verify.md` | 6849 | 7a38007 2026-10-25 |
 | `research/products/PRODUCTS_AND_COLLECTIONS.md` | 8189 | 7a38007 2026-10-25 |
+| `research/repertory/BRIEF_REPERTORY.md` | 977 | f008d15 2026-11-21 |
 | `research/repertory/CENSUS.md` | 3989 | 7a38007 2026-10-25 |
-| `research/repertory/register.yaml` | 14624 | 7a38007 2026-10-25 |
+| `research/repertory/SPOTCHECK_2026-11-21.md` | 243 | 9233e84 2026-11-21 |
+| `research/repertory/X1_readings_disputes_myths.md` | 12663 | 4f556d2 2026-11-21 |
+| `research/repertory/X2_design_and_art.md` | 14804 | 21096a7 2026-11-21 |
+| `research/repertory/apply_register_updates.py` | - | 70ae3f0 2026-11-21 |
+| `research/repertory/build_timeline.py` | - | 4f556d2 2026-11-21 |
+| `research/repertory/dossiers/D1_1734-1881.md` | 21464 | 4f556d2 2026-11-21 |
+| `research/repertory/dossiers/D2_1898-1929.md` | 24529 | 560240b 2026-11-21 |
+| `research/repertory/dossiers/D3_1932-1949.md` | 21793 | 06c7da6 2026-11-21 |
+| `research/repertory/dossiers/D4_soviet_1930-1967.md` | 17481 | 71efa7a 2026-11-21 |
+| `research/repertory/dossiers/D5_1950-1978.md` | 22192 | e042f3d 2026-11-21 |
+| `research/repertory/dossiers/D6_1986-2022.md` | 22087 | 560240b 2026-11-21 |
+| `research/repertory/dossiers/D7_supplements_tier_A.md` | 19275 | 560240b 2026-11-21 |
+| `research/repertory/dossiers/D8_world_national.md` | 18771 | e042f3d 2026-11-21 |
+| `research/repertory/register.yaml` | 17071 | 70ae3f0 2026-11-21 |
+| `research/repertory/register_updates_2026-11-21.md` | 2009 | 70ae3f0 2026-11-21 |
+| `research/repertory/timeline.json` | - | 9233e84 2026-11-21 |
+| `research/repertory/timeline_events.yaml` | 5028 | 9233e84 2026-11-21 |
 | `research/scope/01_history_institutions.md` | 9971 | ab36c06 2026-10-25 |
 | `research/scope/02_body_technique.md` | 7246 | ab36c06 2026-10-25 |
 | `research/scope/03_objects_makers_materials.md` | 8301 | ab36c06 2026-10-25 |
-| `research/scope/04_stage_design.md` | 8964 | ab36c06 2026-10-25 |
+| `research/scope/04_stage_design.md` | 9009 | 71efa7a 2026-11-21 |
 | `research/scope/05_economics_labour_authorship.md` | 12634 | ab36c06 2026-10-25 |
 | `research/scope/06_scholarship_archives_teaching.md` | 8296 | ab36c06 2026-10-25 |
 | `research/scope/BRIEF_FOR_AGENTS.md` | 478 | ab36c06 2026-10-25 |
@@ -33,18 +50,19 @@ Written by `tools/content_versions.py manifest`. Do not edit by hand. Research a
 | `research/works/W3_remaking_global.md` | 14495 | 7a38007 2026-10-25 |
 | `research/works/W4_theories_of_concept_and_process.md` | 11607 | 7a38007 2026-10-25 |
 
-## Planning (37 files)
+## Planning (42 files)
 
 | File | Words | Version or last change |
 |---|---|---|
-| `planning/BLUEPRINT.md` | 3224 | 7a38007 2026-10-25 |
+| `planning/BLUEPRINT.md` | 3224 | f707550 2026-10-25 |
 | `planning/BRIEF.md` | 1507 | 7a38007 2026-10-25 |
 | `planning/CASE_WORLD_PLAN.md` | 5958 | 7a38007 2026-10-25 |
 | `planning/MODULE_PLAN.md` | 5999 | 7a38007 2026-10-25 |
+| `planning/REPERTORY_PLAN.md` | 2564 | 560240b 2026-11-21 |
 | `planning/RETHINK.md` | 946 | 7a38007 2026-10-25 |
 | `planning/REVIEW.md` | 3772 | 7a38007 2026-10-25 |
 | `planning/UNIT_PLAN.md` | 3378 | 7a38007 2026-10-25 |
-| `planning/blueprint_page/ballet-blueprint.html` | - | not committed |
+| `planning/blueprint_page/ballet-blueprint.html` | - | f707550 2026-10-25 |
 | `planning/board/SUMMARY.md` | 560 | 7a38007 2026-10-25 |
 | `planning/board/round1/_page-v1.md` | 1007 | 7a38007 2026-10-25 |
 | `planning/board/round1/editor.md` | 3660 | 7a38007 2026-10-25 |
@@ -69,7 +87,11 @@ Written by `tools/content_versions.py manifest`. Do not edit by hand. Research a
 | `planning/board/round3/maker.md` | 1071 | 7a38007 2026-10-25 |
 | `planning/decisions/BENCHMARKS.md` | 9469 | 7a38007 2026-10-25 |
 | `planning/decisions/EXEMPLAR_STUDY.md` | 11116 | 7a38007 2026-10-25 |
+| `planning/decisions/REPERTORY_BENCHMARK.md` | 15113 | 1a32cf1 2026-11-21 |
 | `planning/plan_page/ballet-unit-plan.html` | - | 7a38007 2026-10-25 |
+| `planning/repertory_page/threads.json` | - | 3c12b4b 2026-11-21 |
+| `planning/repertory_page/timeline_widget.css` | - | b006ae6 2026-11-21 |
+| `planning/repertory_page/timeline_widget.js` | - | b006ae6 2026-11-21 |
 | `planning/review/R1_curriculum_fit.md` | 9713 | 7a38007 2026-10-25 |
 | `planning/review/R2_knowledge_gaps.md` | 8811 | 7a38007 2026-10-25 |
 | `planning/review/R3_writing_and_formats.md` | 10038 | 7a38007 2026-10-25 |

@@ -10,14 +10,14 @@ The course owner, 21 November 2026: keep the blueprint, and add a whole history 
 
 | Material | Where | Size |
 |---|---|---|
-| Works register | `register.yaml` | 153 works, 1581 to 2022, one row per version |
-| Works taken apart in full | `../works/W1`–`W3` (35) and `dossiers/D1`–`D6`, `D8` (82 new) | 117 works, each under fixed headings: how it came to be, roots and reference points, the world it built, design and art, premiere and reception, versions and lineage, readings and disputes, facts worth telling, set it beside, what a maker can take from it, beyond the stage, sources and open images |
+| Works register | `register.yaml` | 156 works, 1581 to 2022, one row per version; 137 sourced corrections applied from the dossiers (`register_updates_2026-11-21.md`) |
+| Works taken apart in full | `../works/W1`–`W3` (35) and `dossiers/D1`–`D6`, `D8` (82 new) | 118 works, each under fixed headings: how it came to be, roots and reference points, the world it built, design and art, premiere and reception, versions and lineage, readings and disputes, facts worth telling, set it beside, what a maker can take from it, beyond the stage, sources and open images |
 | Supplements for the first 35 | `dossiers/D7` | readings and disputes, facts, comparisons and design for the works the W files took apart |
 | Debates across the history | `X1` Part 1 | 18, each with named holders in equal grammar and works across three centuries or regions |
 | Myths against the record | `X1` Part 2 | 38, each with a verdict word |
 | Cross-currents | `X1` Part 3 | 13 long comparisons (the same plot under different states, how endings changed, why the heroine dies, who paid) |
 | Design and art | `X2` | 10 eras of the stage picture, 65 designers and artists, 18 recurring design ideas, 7 design disputes |
-| Timeline | `timeline.json`, built by `build_timeline.py` from the register and `timeline_events.yaml` | 153 works, 155 dated events, 11 eras, 6 lanes of works and 5 of events, 9 remake families |
+| Timeline | `timeline.json`, built by `build_timeline.py` from the register and `timeline_events.yaml` | 156 works, 155 dated events, 11 eras, 6 lanes of works and 5 of events, 9 remake families |
 | Benchmark | `decisions/REPERTORY_BENCHMARK.md` | 11 books, 6 exhibitions and archives, 11 platforms, about 30 studies, four designs |
 
 ## 3. Four ways to include it
@@ -54,7 +54,7 @@ Each part links to the other and never re-tells it: a chapter explains the diver
 
 | Card | How many | What it holds | Built from |
 |---|---|---|---|
-| **Work** | 153, growing | Line (all), Label (all), Story (117 researched), Deep (the dossier, written for learners); fixed headings, with **facts last** so they follow the idea | register, W files, dossiers, D7 |
+| **Work** | 156, growing | Line (all), Label (all), Story (118 researched), Deep (the dossier, written for learners); fixed headings, with **facts last** so they follow the idea | register, W files, dossiers, D7 |
 | **Production** | 2 to 5 for each family | The work, a production (team, year), a dated cast; "the version most often seen today" flagged | dossiers' "Versions and lineage" |
 | **Era** | 11 | What changed, who paid, what the stage looked like, five landmark works, what else was happening, the dispute of the era | blueprint chapters, X1, X2 |
 | **Thread wall** | 24 | A pair first, then six to ten works across three centuries and three regions, then the principle | CENSUS §4, the dossiers' "Set it beside" |
@@ -112,26 +112,26 @@ Chapter 6 (the night and the house) and chapter 11 (money, ownership, handover) 
 The voice guide and the template v2 §5 apply. In addition:
 - **Facts follow the idea.** On every card, "Facts worth telling" comes last, and each fact must bear on the work's idea; a fact that does not is cut (seductive details harm learning: Harp and Mayer 1998).
 - **Disputes are content.** Every Deep card holds at least two readings, each with its holder; argument cards give "then, between, now".
-- **The count with its counter.** The first screen says: 153 works of an estimated 20,000 to 50,000 ballets premiered since 1581, chosen by a published rule (§6).
+- **The count with its counter.** The first screen says: 156 works of an estimated 20,000 to 50,000 ballets premiered since 1581, chosen by a published rule (§6).
 - **Images by licence.** Hosted only when CC0, public domain, CC BY or CC BY-SA, checked at the holder; everything else link-only. The Met's Bakst designs are link-only until each record shows Open Access (corrected 21 November 2026).
 
 ## 6. Which works are in
 
-A work is in the Repertory if it meets at least one published criterion, recorded on its card: (1) the earliest known instance of a device that lasted; (2) in the living repertory (Bachtrack's top 30 in any year of the last decade, labelled as Bachtrack's); (3) a remake family of three or more productions; (4) a design or credit case the course teaches; (5) a regional counterweight, so that every era holds at least one work made outside western Europe and North America where the record allows. The next candidates, from D8: Iran's *Bijan and Manijeh* (Tehran, 1975), India's *Ramayana* (Little Ballet Troupe, 1952–53), Indonesia's Prambanan *Ramayana* (1961), Brazil's *Uirapuru* (1935), Les Ballets Africains (1952). No company-made Gulf ballet on a Gulf subject was found.
+A work is in the Repertory if it meets at least one published criterion, recorded on its card: (1) the earliest known instance of a device that lasted; (2) in the living repertory (Bachtrack's top 30 in any year of the last decade, labelled as Bachtrack's); (3) a remake family of three or more productions; (4) a design or credit case the course teaches; (5) a regional counterweight, so that every era holds at least one work made outside western Europe and North America where the record allows. The next candidates, from D8 (each verified only in outline): Iran's *Bijan and Manijeh* (Tehran, 1975), India's *Ramayana* (Little Ballet Troupe, 1952–53), Indonesia's Prambanan *Ramayana* (1961), Brazil's *Uirapuru* (1935), Les Ballets Africains (1952). No company-made Gulf ballet on a Gulf subject was found.
 
 ## 7. What it takes
 
 | Step | What | Learner words |
 |---|---|---|
 | 1 | The line (prototype now; course build next) and R0; eleven era cards | about 5,000 |
-| 2 | Work cards: Label for all; Story for the 117 researched; Deep for the 35 W-file works first | about 40,000 |
+| 2 | Work cards: Label for all; Story for the 118 researched; Deep for the 35 W-file works first | about 40,000 |
 | 3 | Five thread walls, six argument cards, the myth cards | about 12,000 |
 | 4 | R1 and R6 route text; Deep cards for the fifty works R1 needs | about 15,000 |
 | 5 | The rest: walls, arguments, R3, R5, design cards | about 15,000 |
 
 About 85,000 learner words in all, most of them cards that any design delivering the deep dives would need. Research and learner files follow `topics/README.md`: every card file names its research and is versioned.
 
-Before step 2: the human check of the research (§9).
+Before step 2: the human check of the research (§9). Three surprising claims were checked against independent sources on 21 November and held (`../research/repertory/SPOTCHECK_2026-11-21.md`).
 
 ## 8. Decisions for the owner
 
@@ -142,9 +142,9 @@ Before step 2: the human check of the research (§9).
 
 ## 9. Limits
 
-- **The research is unchecked.** About 160,000 words written in one pass by research agents, each claim marked with its confidence. "Probable" items, the date conflicts the passes listed, and every image licence need checking at source before a card reaches a learner. The passes themselves found the record contradicting itself, including on companies' own pages.
+- **The research is unchecked.** About 209,000 words written in one pass by ten research agents, each claim marked with its confidence. "Probable" items, the date conflicts the passes listed, and every image licence need checking at source before a card reaches a learner. The passes themselves found the record contradicting itself, including on companies' own pages.
 - **No study tests this design** with adult design learners. The first build of the line and R0 should be tried with five learners.
-- **Canon bias.** 153 works chosen by people writing in English, with the regional counterweight still thin before 1940 and in the Gulf.
+- **Canon bias.** 156 works chosen by people writing in English, with the regional counterweight still thin before 1940 and in the Gulf.
 - **Media are mostly link-only.** Most dance film and most twentieth-century design images are in copyright.
 
 ## 10. Change to the template

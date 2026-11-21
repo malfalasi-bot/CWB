@@ -3,9 +3,10 @@
 Ballet is the clearest case the course has of a world made on purpose: a concept built from named sources by a team, given rules a stranger can read, staged as an evening, carried round the world by institutions, sold as objects and images, and remade for four hundred years. It is the first Atlas concept unit and the worked example of the template.
 
 - **Kind:** art form
-- **Status:** blueprint (research complete for this pass; reviews R1 to R3 done; blueprint awaiting approval)
+- **Status:** blueprint; Repertory planned (research complete for this pass; reviews R1 to R3 done; blueprint awaiting approval)
 - **Template:** `briefs/ATLAS_CONCEPT_UNIT_TEMPLATE_v2.md`
 - **Blueprint:** `planning/BLUEPRINT.md` (13 chapters, about 41 hours; *Giselle* as the worked example, *Swan Lake* as the counter-example; ten object studies; fourteen motif walls)
+- **The Repertory:** `planning/REPERTORY_PLAN.md` (part two of the topic: the whole history in its works; a timeline of 156 works and 155 events in eleven eras; deep dives on 118 works; 18 debates, 38 myths, 13 cross-currents; design and art across the history; eight routes)
 - **Claims register:** `atlas/data/register/units/ballet.yaml`
 - **Placements:** F1.23, F1.4 and F1.17 lead; tiles in about twenty other F1 units (`planning/review/R1_curriculum_fit.md` §2.1); method and practice areas through the link register
 - **Decisions:** `../../DECISIONS_2026-10-25.md`
@@ -14,7 +15,7 @@ Ballet is the clearest case the course has of a world made on purpose: a concept
 
 | Folder | What it holds |
 |---|---|
-| `research/` | 26 files, about 208,000 words. `pass1_dossier.md`, `pass2_*.md` (the first two passes); `scope/01`–`06` (angles A, B, E, F, H, I, L); `scope2/G1`–`G4` (angles D, F, G, I: music, mime and craft; the night and the house; media, childhood and popular culture; AI and handover); `works/W1`–`W4` (angle C, the works as made concepts, and the theories of making); `repertory/` (148 works, 24 motif walls); `products/` (angle K) |
+| `research/` | 26 files, about 208,000 words. `pass1_dossier.md`, `pass2_*.md` (the first two passes); `scope/01`–`06` (angles A, B, E, F, H, I, L); `scope2/G1`–`G4` (angles D, F, G, I: music, mime and craft; the night and the house; media, childhood and popular culture; AI and handover); `works/W1`–`W4` (angle C, the works as made concepts, and the theories of making); `repertory/` (register of 156 works, 24 threads; `dossiers/D1`–`D8` deep dives; `X1` readings, disputes and myths; `X2` design and art; the timeline data and its build script); `products/` (angle K) |
 | `planning/` | `BLUEPRINT.md` (the unit); `REVIEW.md` and `review/R1`–`R3` (the review gates); `decisions/` (`BENCHMARKS.md`, `EXEMPLAR_STUDY.md`); earlier plans kept for the record (`BRIEF`, `RETHINK`, `UNIT_PLAN`, `MODULE_PLAN`, `CASE_WORLD_PLAN`); `board/` (the persona rounds on the shoe page); the review and plan pages |
 | `learner/` | Versioned learner content. `the-shoe/` (0.3.0, in review): the pointe-shoe page, to be rebuilt as the chapter 2 and 11 object study (1.0.0) |
 
