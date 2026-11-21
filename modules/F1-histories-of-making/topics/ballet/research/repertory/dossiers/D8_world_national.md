@@ -671,8 +671,80 @@ The 2007 ballet musical; CD sales on tour [documented]. The company's later Kore
 - Images: company photographs: link-only. Encyclopedia of Korean Culture media carry individual KOGL marks; check each. Joseon-period illustrations of *Simcheong-jeon* in museum collections may be public domain [probable].
 
 ## 大红灯笼高高挂 / Raise the Red Lantern (2001)
+`id: raise-the-red-lantern-2001` · threads: T24, T18, T17, T15, T13 · confidence of the header: documented
 
-(in progress)
+**Header.** World premiere 2 May 2001, Tianqiao Theatre (天桥剧场), Beijing, National Ballet of China (中央芭蕾舞团), with guest performers of the China National Peking Opera Company [documented, NBC]. Libretto, direction, artistic direction and lighting: Zhang Yimou (张艺谋), film director [documented]. Producer: Zhao Ruheng (赵汝蘅), company director and former ballerina [documented]. Music: Chen Qigang (陈其钢), Paris-based composer [documented; residence probable]. Choreography: Wang Xinpeng (王新鹏, "original") and Wang Yuanyuan (王媛媛) [documented]. Sets: Zeng Li (曾力); costumes: Jérôme Kaplan (France) [documented]. Choreographic assistants: Monika Fiedorowicz-Uta (as given, "莫尼卡·弗杰斯卡·乌塔") and Fei Bo (费波); Peking opera advisers Gao Mukun and Ma Shuai [documented, NBC revised-version page]. Three acts with prologue and epilogue [documented]. The version seen today: the company's revised version, toured widely: more than 300 performances in over ten countries by 2011, more than 400 by 2016 [documented, Ministry of Culture 2011; *Jakarta Post* 2016, company figures].
+
+### In one line
+A girl forced into a rich man's household as a new wife loves a Peking-opera actor; the jealous second wife betrays them, then breaks the house law herself, and all three are beaten to death.
+
+### How it came to be
+Su Tong's novella *Wives and Concubines* (妻妾成群, 1990) became Zhang Yimou's film *Raise the Red Lantern* (1991), Silver Lion at Venice [documented, NBC biography]. The film's red lanterns, lit nightly at the courtyard of the wife the master chose, were Zhang's invention, not Su Tong's [probable]. Zhao Ruheng, director of the National Ballet of China, assembled an international team around Zhang [documented, *Jakarta Post* 2016]. Zhang admitted he "knew very little about ballet" [documented, *China Daily* 2001]; he chose this story for "its dramatic form and structure, cinematic appeal", and because it could hold Peking opera: "I have always felt it would be quite interesting to combine traditional Peking Opera and Western ballet" [documented, *Beijing Weekend* 2003].
+
+The team worked apart, in China, France and Germany, over a year; critics blamed the first version's weaknesses on haste and limited communication [documented, *China Daily* 2001]. Zhang had already staged *Turandot* in Florence (1997) and in the Forbidden City (1998) [documented, NBC biography]. After the premiere he "fine-tuned" the ballet, and the company lists a "revised version" [documented, NBC; china.org.cn].
+
+### Roots and reference points
+- **Su Tong's novella and Zhang's film.** The ballet simplifies the film's web of four wives into three wives and one lover, and adds a love affair the film does not have: the heroine's childhood sweetheart, a young opera actor [documented, Ministry of Culture 2011; NBC synopsis].
+- **Peking opera (京剧).** Arias sung offstage open and close the ballet; a private opera performance (堂会) is staged within the ballet [documented]. The lover is a *xiaosheng* (young male role) [documented].
+- **Shadow play.** The wedding-night rape is shown in silhouette [documented, SCMP 2002; *Beijing Weekend*].
+- **Earlier Chinese literary ballets.** *The New Year's Sacrifice* (1981) by the same company had set a widow's destruction by "feudal ethics"; this work makes the same theme a spectacle [argued; see `new-years-sacrifice-1981`].
+
+### The world it built
+Prologue: in the 1920s, red lanterns are lit in a deep mansion; a girl is forced into a bridal palanquin, remembering her opera-actor sweetheart [documented, Zhang's synopsis]. Act I: the wedding; the bride's desperate resistance on the wedding night. Act II: opera parties and mahjong; the lovers meet; the second wife spies. Act III: betrayal; the master catches the lovers; the second wife, rebuffed, seizes the lantern-lighting pole, symbol of his power, and lights her own lanterns; he orders her death. Epilogue: the three, facing death, reconcile and embrace [documented]. Chen Qigang's score uses Peking-opera music, folk song, percussion and modern orchestral writing [documented, Ministry of Culture 2011]; the orchestra imitates the clatter of mahjong tiles while dancers stamp on tables [documented, *Beijing Weekend*]. The dance is built on four duets for the leads (in the revision), with daily gestures absorbed into ballet's "body language" [documented, Yu Ping, quoted 2020].
+
+### Design and art
+A film director's stage: bearers carrying flats assemble the palanquin in seconds; a paper window bursts on the wedding night; arched doors open and close to divide front and back; in Act III a mass of lanterns descends from above [documented, Wu Sufen, *PAR* 2001]. A huge red silk sheet covers the rape; the heroine crawls out and pulls it round her shoulders [documented, Critical Dance 2019; ballet.co 2005]. The ending is the famous image: men strike a white scrim with long flat sticks, leaving red marks like blood, as glittering snow falls on the bodies [documented, several]. Zhang suggested it himself: "the thugs slap red bloodprints on the huge white wall" [documented, Zou Zhirui 2008]. Kaplan dressed the wives in close-cut *qipao* (cheongsam) [documented, *Beijing Weekend*]. Wu Sufen found the colours "too strong", weakening the dance [documented].
+
+### Premiere and reception
+Zhu Yan danced the new wife at early performances, with Li Jun as the lover and Meng Ningning as the jealous second wife [documented, SCMP 2002; *Beijing Weekend* 2003; premiere-night cast not confirmed]. In 2001 Feng Shuangbai, director of the Dance Research Institute, judged that "the dancing seems weak... the dancing takes a back seat" [documented, *China Daily* 2001]. Audiences called the nine-table mahjong scene "a noisy mess" [documented, same]. Taiwanese critic Wu Sufen (*PAR*, Sept 2001) saw "a stiff juxtaposition" of ballet and Chinese movement but praised the stagecraft [documented]. Abroad: Eric Taub (ballet.co, Brooklyn 2005) found the choreography "seldom rises above the illustrative" [documented]. It was nominated for best foreign company at the UK National Dance Awards (2004 per the *Jakarta Post*; after an August 2008 Royal Opera House run per the Ministry of Culture) [contested].
+
+### Versions and lineage
+- 2001: premiere; then a revised version [documented].
+- 2001: Taipei National Theater, 25–29 July [documented, *PAR*].
+- 2005: US premiere in Berkeley, then Orange County, Kennedy Center, Brooklyn Academy of Music [documented, *LA Times*; ballet.co].
+- 2008: Royal Opera House, London [documented, Ministry of Culture].
+- 2011: tenth-anniversary showing at Peking University (its fifth there) [documented].
+- 2016: Jakarta, for 67 years of China–Indonesia relations, by invitation only [documented]. 2019: Kennedy Center again [documented].
+No other company dances it; it belongs to the National Ballet of China [probable].
+
+### Readings and disputes
+- **A model of "ballet nationalisation".** Yu Ping (2020) places it with *Red Detachment* and *The New Year's Sacrifice* as the company's peaks, praising the revision for becoming "both ballet and national" [documented]. Zou Zhirui (2008) cites the whipping scene as "Chinese aesthetic taste" [documented].
+- **Theatre, not dance.** From Feng Shuangbai (2001) to Eric Taub (2005) and Carmel Morgan (Critical Dance, 2019), critics agree the effects outshine the choreography [documented]. The credits list the choreographers after director and composer [documented, Taub's observation].
+- **Soft power.** Morgan argues the ballet removes the film's critique of Chinese society, pinning the cruelty on "China's past" and showcasing Peking opera as heritage, which is why the state tours it [documented]. The company calls it a "symbol of Chinese culture going out" [documented, Ministry of Culture 2011]. The two readings describe the same tours.
+- **Who is the heroine?** The Chinese synopsis calls her the "third wife" (三太太); the company's English synopsis calls her the "second concubine" and the jealous rival the "first concubine" [contested in translation].
+- **Contradictions.** A *China Daily* review dated "05/04/2001" describes performances "this week" at Tianqiao, before the 2 May premiere date unless the date is 4 May [contested]. Wang Xinpeng described as "German choreographer" by the *Jakarta Post* [probable: Chinese-born, working in Germany].
+
+### Facts worth telling
+- A film director wrote, directed and lit a ballet he admitted knowing little about [documented].
+- The ballet adds a love story that the film does not have [documented].
+- The rape is a shadow; the killing is red paint on a white wall [documented].
+- Real Peking-opera singers perform inside the ballet [documented].
+- The jealous rival dies for lighting her own lanterns, a theft of the master's power [documented].
+- It has been danced more than 400 times, far more abroad and on tour than any earlier Chinese ballet except *Red Detachment* [documented for count; comparison argued].
+
+### Set it beside
+- `new-years-sacrifice-1981`: the same company's literary heroine destroyed by patriarchal custom, told through a quiet duet instead of spectacle.
+- `red-detachment-1964`: the woman who escapes the landlord's house and takes up a gun; here none escapes.
+- `the-kabuki-1986`: another national theatre (kabuki, Peking opera) placed inside a ballet; there a European author, here a Chinese film-maker.
+- `mayerling-1978`: a court of power and sex, where design and story dominate the dancing in a different way.
+
+### What a maker can take from it
+- Find one image that ends the story: red marks on a white wall carry the meaning without a single step.
+- Visual power can drown the medium. If you bring a strong designer or director, protect space for the core craft (here, dance).
+- Changing the story changes the politics: the ballet's new love affair and past-tense "feudalism" turn a critique into heritage.
+
+### Beyond the stage
+The 1991 film is the better-known work; Zhang Yimou later directed the Beijing 2008 Olympic ceremonies [probable]. A Peking-opera and ballet collaboration became a template for later state touring works [argued].
+
+### Sources and open images
+- National Ballet of China, repertory pages (original and revised), https://www.nbc.cn/wap/content-3443-10668.html; https://www.nbc.cn/content-3406-10055.html; English, https://nbc.cn/englishwap/content-3448-10675.html
+- "'Red Lantern' on Stage", *China Daily* via china.org.cn (2001), http://english.china.org.cn/english/MATERIAL/12221.htm
+- Wu Sufen 吴素芬, "西方芭蕾转化后的思考", *PAR* 105 (Sept 2001), https://par.npac-ntch.org/cn/article/doc/D99EPH3LMY
+- Ministry of Culture, "十年磨砺出好戏" (2011), https://www.mct.gov.cn/whzx/bnsj/yss/201111/t20111128_752541.html
+- Eric Taub, ballet.co (Oct 2005), https://www.ballet.co.uk/magazines/yr_05/nov05/et_rev_national_ballet_of_china_1005.htm; Carmel Morgan, Critical Dance (2019), https://criticaldance.org/national-ballet-china-raise-red-lantern
+- SCMP review (2002), https://www.scmp.com/article/374157/raise-red-lantern; *LA Times* (2005), https://www.latimes.com/archives/la-xpm-2005-sep-18-ca-lantern18-story.html
+- Zou Zhirui (2008) and Yu Ping (2020), as above.
+- Images: company and press photographs: link-only. No open images found.
 
 ## Across these works
 

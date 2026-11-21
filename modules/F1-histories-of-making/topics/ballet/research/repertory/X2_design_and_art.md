@@ -166,7 +166,7 @@ Ten eras, court to now. Dates are working boundaries, not walls; each era's look
 
 **24. Fernand Léger** (1881–1955). *Skating Rink* (1922), *La Création du monde* (1923), Ballets Suédois `skating-rink-1922` `creation-du-monde-1923`. **Brought:** the machine aesthetic and painted cut-out figures; for *Création*, African sculpture as a source (the exotic question, Part 4). **Wider art:** the film *Ballet mécanique* (1924). **Fact:** the Ballets Suédois was Rolf de Maré's rival company in Paris, 1920–25, and its archive founded the Dansmuseet, Stockholm [P]. **Images:** PD in the EU from 2026; Dansmuseet holdings.
 
-**25. Gabrielle "Coco" Chanel** (1883–1971). *Le Train Bleu* (1924) costumes; *Apollon musagète* (1929 costumes) `train-bleu-1924` `apollon-musagete-1928`. **Brought:** real sportswear (jersey bathing suits, tennis whites, golf knits) as costume, fashion's first full ballet commission [D: Davis 2010, see 04]. **Fact:** Chanel now patronises costume conservation as the Australian Ballet's "Living Heritage Partner" [D, see 03]. **Images:** ©.
+**25. Gabrielle "Coco" Chanel** (1883–1971). *Le Train Bleu* (1924) costumes; *Apollon musagète* (1929 costumes) `train-bleu-1924` `apollon-musagete-1928`. **Brought:** real sportswear (jersey bathing suits, tennis whites, golf knits) as costume, an early, and probably the earliest well-known, couturier's commission for a whole ballet's costumes [D for the costumes: Davis 2010, see 04; P for the priority]. **Fact:** Chanel now patronises costume conservation as the Australian Ballet's "Living Heritage Partner" [D, see 03]. **Images:** ©.
 
 **26. Naum Gabo** (1890–1977) and **Antoine Pevsner** (1884–1962). *La Chatte* (1927): "architecture and sculpture" in plastic, oilcloth, wood and steel [D, see 04]. **Brought:** transparent Constructivist sculpture as set; light passing through it. **Images:** Pevsner PD in EU from 2033; Gabo ©.
 
@@ -467,7 +467,7 @@ Later events worth adding to the course timeline from Part 2: van Herpen's *Neve
 2. Schlemmer's *Triadic Ballet*, the icon of single-author modernist design, was legally treated in 1923 as a joint work, and some costumes went to his dancer co-creators (Aoki 2008).
 3. Chagall's *Aleko* premiered in Mexico City partly because a New York union would not let a painter paint his own scenery: the scene painters' trade defended itself against the painter-designer (LACMA 2017).
 
-**Contested facts to resolve.** Lami's *Sylphide* credit; Ciceri's appointment year (1815/1818); the Opéra's first arc effect (1846/1849); the year of electric light at the Opéra (1880/1881); Boquet's title (1764/1765); *Sleeping Princess* run (105/114/115); Gerhart Bohner's *Triadic* date.
+**Contested facts to resolve.** Lami's *Sylphide* credit; Ciceri's appointment year (1815/1818); the Opéra's earliest arc effect (1846/1849); the year of electric light at the Opéra (1880/1881); Boquet's title (1764/1765); *Sleeping Princess* run (105/114/115); Gerhart Bohner's *Triadic* date.
 
 **Register update** (fields this pass found missing or worth adding):
 
